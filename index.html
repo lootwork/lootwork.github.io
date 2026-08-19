@@ -1,0 +1,1466 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LOADOUT — вакансии в геймдеве</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;700&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    /* ночная смена: глубокий индиго, тёплый янтарь на действиях, циан на связях */
+    --void:#0c0a1a;
+    --panel:#15122b;
+    --panel-2:#1c1838;
+    --line:#2c2554;
+    --line-soft:#231e45;
+    --text:#eceaff;
+    --muted:#948cc0;
+    --amber:#ffb03f;
+    --amber-deep:#3a2a10;
+    --cyan:#5fe3ff;
+    --cyan-deep:#12303d;
+    --pink:#ff6ba3;
+
+    --display:"Unbounded",system-ui,sans-serif;
+    --body:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif;
+    --mono:"JetBrains Mono",ui-monospace,Consolas,monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+
+  body{
+    background:
+      radial-gradient(70% 45% at 12% -8%, rgba(124,77,255,.20) 0%, transparent 62%),
+      radial-gradient(55% 40% at 92% -4%, rgba(0,190,255,.14) 0%, transparent 60%),
+      var(--void);
+    background-attachment:fixed;
+    color:var(--text);
+    font-family:var(--body);
+    font-size:15px;
+    line-height:1.55;
+    padding:0 0 90px;
+    -webkit-tap-highlight-color:transparent;
+    -webkit-font-smoothing:antialiased;
+  }
+  /* едва заметная сетка — пол студии под ногами, не орнамент */
+  body::before{
+    content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+    background-image:
+      linear-gradient(rgba(255,255,255,.022) 1px,transparent 1px),
+      linear-gradient(90deg,rgba(255,255,255,.022) 1px,transparent 1px);
+    background-size:44px 44px;
+    mask-image:linear-gradient(180deg,#000 0%,transparent 70%);
+  }
+  .wrap{max-width:940px;margin:0 auto;padding:0 16px;position:relative;z-index:1}
+  .layout{display:block}
+  .side{display:none}
+
+  /* На большом экране фильтры живут слева и работают сразу, без кнопки «Показать» */
+  @media(min-width:1120px){
+    .wrap{max-width:1240px}
+    .layout{display:grid;grid-template-columns:290px 1fr;gap:22px;align-items:start}
+    .side{display:block;position:sticky;top:18px;max-height:calc(100vh - 36px)}
+    .side .sheet{max-width:none;border-radius:14px;max-height:calc(100vh - 36px)}
+    .side .sheet-foot{padding:12px 16px}
+    .side .sheet-head{padding:14px 16px}
+    #filterBtn{display:none}
+  }
+
+  header{border-bottom:1px solid var(--line-soft);padding:26px 0 18px;margin-bottom:18px;position:relative;z-index:1}
+  .brandline{display:flex;align-items:center;justify-content:space-between;gap:14px}
+  h1{font-family:var(--display);font-weight:700;font-size:clamp(23px,4.6vw,31px);
+    letter-spacing:.02em;line-height:1}
+  h1 b{color:var(--amber)}
+  .vertical{font-family:var(--mono);font-size:11.5px;letter-spacing:.34em;
+    text-transform:uppercase;color:var(--cyan);margin-top:7px}
+  .lang{display:flex;gap:4px;background:var(--panel);border:1px solid var(--line);
+    border-radius:999px;padding:3px}
+  .lang-btn{background:none;border:none;color:var(--muted);font-family:var(--mono);
+    font-size:11.5px;padding:5px 11px;border-radius:999px;cursor:pointer}
+  .lang-btn.on{background:var(--cyan-deep);color:var(--cyan)}
+  .lang-btn:hover{color:var(--cyan)}
+  .sub{color:var(--muted);font-size:13.5px;margin-top:7px}
+  .demo-note{margin-top:13px;padding:11px 13px;background:var(--amber-deep);
+    border:1px solid #5b431a;border-radius:11px;font-size:13px;color:#ffd79a}
+  .demo-note[hidden]{display:none}
+
+  /* ---------- поиск ---------- */
+  .bar{display:flex;gap:9px;margin-bottom:13px}
+  .search{flex:1;min-width:0;background:var(--panel);border:1px solid var(--line);
+    border-radius:12px;color:var(--text);font-family:var(--body);font-size:15px;padding:13px 15px}
+  .search::placeholder{color:#6f679a}
+  .search:focus{outline:2px solid var(--cyan);outline-offset:-1px;border-color:transparent}
+
+  .filter-btn{flex:none;display:flex;align-items:center;gap:8px;background:var(--panel);
+    border:1px solid var(--line);border-radius:12px;color:var(--text);
+    font-family:var(--body);font-weight:600;font-size:14px;padding:0 17px;cursor:pointer;white-space:nowrap}
+  .filter-btn:hover{border-color:var(--cyan);color:var(--cyan)}
+  .filter-btn .badge{background:var(--cyan);color:#062028;border-radius:999px;
+    font-family:var(--mono);font-size:11px;font-weight:600;padding:1px 7px;min-width:20px;text-align:center}
+  .filter-btn .badge[hidden]{display:none}
+
+  /* ---------- быстрые фильтры ---------- */
+  .quick{display:flex;flex-wrap:wrap;gap:7px;align-items:center;margin-bottom:11px}
+  .qchip{background:transparent;border:1px solid var(--line);color:var(--muted);
+    border-radius:999px;padding:7px 14px;font-family:var(--body);font-size:13px;
+    cursor:pointer;white-space:nowrap;transition:.13s}
+  .qchip:hover{border-color:var(--cyan);color:var(--cyan)}
+  .qchip.on{background:var(--cyan-deep);border-color:var(--cyan);color:var(--cyan);font-weight:600}
+  .sort-wrap{margin-left:auto;display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+  .sort-wrap label{color:var(--muted);font-size:12.5px}
+  .fav-chip{border-color:#5b431a;color:var(--amber)}
+  .fav-chip.on{background:var(--amber-deep);border-color:var(--amber);color:var(--amber)}
+  .fav-chip:hover{border-color:var(--amber);color:var(--amber)}
+  select.sort{background:var(--panel);border:1px solid var(--line);color:var(--text);
+    font-family:var(--body);font-size:13px;border-radius:999px;padding:8px 12px;cursor:pointer}
+  select.sort:hover{border-color:var(--cyan)}
+
+  .meta-line{display:flex;justify-content:space-between;align-items:center;gap:10px;
+    font-family:var(--mono);font-size:12px;color:var(--muted);margin-bottom:12px;flex-wrap:wrap;
+    letter-spacing:.02em}
+  .reset{background:none;border:none;color:var(--muted);font-family:var(--body);font-size:12.5px;
+    cursor:pointer;text-decoration:underline;padding:0}
+  .reset:hover{color:var(--pink)}
+
+  .active-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:11px}
+  .active-tag{display:flex;align-items:center;gap:7px;background:var(--cyan-deep);
+    border:1px solid var(--cyan);color:var(--cyan);border-radius:999px;
+    font-size:12px;padding:5px 9px 5px 12px;cursor:pointer;font-family:var(--body)}
+  .active-tag:hover{background:#17404f}
+  .active-tag span{font-weight:700;opacity:.65}
+
+  /* ---------- карточка ---------- */
+  .card{background:var(--panel);border:1px solid var(--line-soft);border-radius:14px;
+    padding:15px;margin-bottom:10px;transition:border-color .14s,transform .14s;
+    display:flex;gap:13px}
+  .card{cursor:pointer}
+  .card:hover{border-color:var(--cyan);transform:translateY(-3px) scale(1.006);
+    box-shadow:0 10px 26px rgba(0,0,0,.45)}
+  .card:active{transform:translateY(-1px) scale(1.002)}
+  .card.reported{opacity:.4}
+  .card-main{flex:1;min-width:0}
+
+  /* логотип студии */
+  .logo{width:38px;height:38px;flex:none;border-radius:9px;display:block;
+    background:#f2f1f8;object-fit:contain;padding:4px;
+    border:1px solid var(--line-soft);box-shadow:inset 0 0 0 1px rgba(0,0,0,.06)}
+  .logo.letter{background:hsl(var(--h) 45% 22%);color:hsl(var(--h) 80% 72%);
+    border-color:hsl(var(--h) 40% 30%);
+    display:flex;align-items:center;justify-content:center;padding:0;
+    font-family:var(--display);font-weight:700;font-size:17px}
+
+  .card-top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+  .title{font-family:var(--display);font-weight:600;font-size:15.5px;line-height:1.35;letter-spacing:-.01em}
+  .card:hover .title{color:var(--cyan)}
+  .company{color:var(--muted);font-size:13px;margin-top:4px}
+  /* локация своей строкой: на узком экране разделитель повисал в начале строки */
+  .company .place{display:block;color:var(--text);font-size:12.5px;margin-top:3px}
+  .salary{flex:none;font-family:var(--mono);font-size:13.5px;font-weight:600;color:var(--amber);
+    text-align:right;white-space:nowrap}
+  .salary.none{color:#5f5789;font-weight:500;font-size:12px}
+
+  .tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:11px}
+  .tag{font-size:11.5px;color:var(--muted);background:var(--panel-2);
+    border:1px solid var(--line-soft);border-radius:7px;padding:3px 9px}
+  .tag.remote{color:var(--cyan);border-color:var(--cyan-deep);background:var(--cyan-deep)}
+  .tag.fresh{color:var(--amber);border-color:#4a3618;background:var(--amber-deep);font-family:var(--mono);font-size:11px}
+
+  .card-bottom{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:13px}
+  .apply{background:var(--amber);color:#231602;text-decoration:none;font-weight:700;
+    font-size:13.5px;padding:10px 20px;border-radius:9px;font-family:var(--body)}
+  .apply:hover{background:#ffc164}
+  .report{background:none;border:none;color:#5f5789;font-family:var(--body);font-size:12px;
+    cursor:pointer;padding:6px}
+  .report:hover{color:var(--pink)}
+  .fav{background:none;border:none;color:#524a80;font-size:26px;line-height:1;
+    cursor:pointer;padding:0 2px;margin-left:10px;flex:none;
+    transition:transform .14s,color .14s}
+  .fav:hover{color:var(--amber);transform:scale(1.18)}
+  .fav.on{color:var(--amber);text-shadow:0 0 14px rgba(255,176,63,.5)}
+  .fav.on:hover{transform:scale(1.18)}
+
+  .new-badge{display:inline-block;background:var(--amber-deep);border:1px solid var(--amber);
+    color:var(--amber);border-radius:999px;font-family:var(--mono);font-size:11.5px;
+    padding:3px 10px;margin-left:10px;vertical-align:middle;letter-spacing:.01em}
+
+  .empty{text-align:center;color:var(--muted);padding:50px 20px;font-size:14px;
+    border:1px dashed var(--line);border-radius:14px}
+  .more{display:block;width:100%;margin-top:13px;background:var(--panel);border:1px solid var(--line);
+    border-radius:12px;color:var(--text);font-family:var(--body);font-size:14px;padding:14px;cursor:pointer}
+  .more:hover{border-color:var(--cyan);color:var(--cyan)}
+  .more[hidden]{display:none}
+
+  /* ---------- окна ---------- */
+  .overlay{position:fixed;inset:0;background:rgba(6,5,14,.78);backdrop-filter:blur(3px);
+    z-index:50;display:flex;align-items:flex-end;justify-content:center}
+  .overlay[hidden]{display:none}
+  @media(min-width:700px){.overlay{align-items:center}}
+
+  .sheet{background:var(--panel);border:1px solid var(--line);width:100%;max-width:660px;
+    max-height:88vh;display:flex;flex-direction:column;border-radius:18px 18px 0 0}
+  @media(min-width:700px){.sheet{border-radius:18px}}
+
+  .sheet-head{display:flex;justify-content:space-between;align-items:center;
+    padding:17px 19px;border-bottom:1px solid var(--line-soft);flex:none}
+  .sheet-head h2{font-family:var(--display);font-weight:600;font-size:17px;letter-spacing:-.01em}
+  .close{background:none;border:none;color:var(--muted);font-size:27px;line-height:1;cursor:pointer;padding:0 4px}
+  .close:hover{color:var(--pink)}
+
+  .sheet-body{overflow-y:auto;padding:17px 19px;flex:1}
+  .sheet-foot{display:flex;gap:9px;padding:15px 19px;border-top:1px solid var(--line-soft);flex:none}
+  .btn{flex:1;font-family:var(--body);font-size:14px;font-weight:600;padding:13px;border-radius:11px;
+    cursor:pointer;border:1px solid var(--line);background:var(--panel-2);color:var(--text)}
+  .btn:hover{border-color:var(--cyan);color:var(--cyan)}
+  .btn.primary{background:var(--amber);color:#231602;border-color:var(--amber)}
+  .btn.primary:hover:not(:disabled){background:#ffc164;color:#231602}
+  .btn.primary:disabled{opacity:.35;cursor:default}
+
+  .group{margin-bottom:22px}
+  .group-title{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--muted);margin-bottom:10px}
+  .chips{display:flex;flex-wrap:wrap;gap:7px}
+  .chip{background:transparent;border:1px solid var(--line);color:var(--muted);
+    border-radius:999px;padding:7px 14px;font-family:var(--body);font-size:13px;cursor:pointer}
+  .chip:hover{border-color:var(--cyan);color:var(--cyan)}
+  .chip.on{background:var(--cyan-deep);border-color:var(--cyan);color:var(--cyan);font-weight:600}
+  .chip .cnt{font-family:var(--mono);opacity:.6;font-size:11px;margin-left:5px}
+
+  .list-search{width:100%;background:var(--panel-2);border:1px solid var(--line);border-radius:10px;
+    color:var(--text);font-family:var(--body);font-size:13.5px;padding:10px 12px;margin-bottom:9px}
+  .list-search::placeholder{color:#6f679a}
+  .list-search:focus{outline:2px solid var(--cyan);outline-offset:-1px}
+  .scroll-list{max-height:200px;overflow-y:auto;border:1px solid var(--line-soft);border-radius:10px}
+  .opt{display:flex;align-items:center;gap:11px;padding:10px 13px;cursor:pointer;font-size:13.5px;
+    border-bottom:1px solid var(--line-soft)}
+  .opt:last-child{border-bottom:none}
+  .opt:hover{background:var(--panel-2)}
+  .opt .box{width:18px;height:18px;flex:none;border:1px solid var(--line);border-radius:5px;
+    display:flex;align-items:center;justify-content:center;font-size:12px;color:#062028}
+  .opt.on .box{background:var(--cyan);border-color:var(--cyan)}
+  .opt .n{margin-left:auto;color:var(--muted);font-family:var(--mono);font-size:11.5px}
+
+  .radio{display:flex;align-items:flex-start;gap:11px;padding:12px 13px;cursor:pointer;
+    border:1px solid var(--line-soft);border-radius:11px;margin-bottom:8px;font-size:14px}
+  .radio:hover{border-color:var(--line)}
+  .radio.on{border-color:var(--cyan);background:var(--cyan-deep)}
+  .radio .dot{width:16px;height:16px;flex:none;border:1px solid var(--line);border-radius:50%;margin-top:3px}
+  .radio.on .dot{border-color:var(--cyan);background:var(--cyan);box-shadow:inset 0 0 0 3px var(--panel)}
+
+  .hint{color:var(--muted);font-size:13px;line-height:1.6;margin-bottom:15px}
+  .job-ref{background:var(--panel-2);border:1px solid var(--line-soft);border-radius:11px;
+    padding:12px 14px;margin-bottom:17px;font-size:13.5px}
+  .job-ref b{display:block;margin-bottom:3px;font-family:var(--display);font-weight:600;font-size:14px}
+  .job-ref span{color:var(--muted);font-size:12.5px}
+  /* окно вакансии */
+  .job-head{display:flex;gap:13px;align-items:flex-start;margin-bottom:16px;
+    padding-bottom:16px;border-bottom:1px solid var(--line-soft)}
+  .job-head .meta{flex:1;min-width:0}
+  .job-head .cmp{font-family:var(--display);font-weight:600;font-size:15px}
+  .job-head .row{color:var(--muted);font-size:13px;margin-top:4px}
+  .job-head .pay{font-family:var(--mono);color:var(--amber);font-size:14px;margin-top:6px}
+  .job-desc{white-space:pre-wrap;font-size:14px;line-height:1.68;color:#d6d2f0}
+  .job-desc.empty-desc{color:var(--muted);font-style:italic}
+
+  .thanks{text-align:center;padding:28px 10px;font-size:15px;line-height:1.6}
+  .thanks .big{font-size:38px;display:block;margin-bottom:12px;color:var(--amber)}
+
+  .to-top{position:fixed;right:18px;bottom:78px;z-index:40;width:46px;height:46px;
+    background:var(--panel);border:1px solid var(--line);color:var(--cyan);
+    font-size:20px;border-radius:50%;cursor:pointer;box-shadow:0 8px 26px rgba(0,0,0,.5);
+    transition:transform .14s,border-color .14s}
+  .to-top:hover{border-color:var(--cyan);transform:translateY(-2px)}
+  .to-top[hidden]{display:none}
+
+  .fab{position:fixed;right:18px;bottom:18px;z-index:40;background:var(--panel);
+    border:1px solid var(--line);color:var(--text);font-family:var(--body);font-weight:600;
+    font-size:13.5px;padding:13px 19px;border-radius:999px;cursor:pointer;
+    box-shadow:0 8px 26px rgba(0,0,0,.5)}
+  .fab:hover{border-color:var(--amber);color:var(--amber)}
+
+  textarea.fb{width:100%;min-height:130px;resize:vertical;background:var(--panel-2);
+    border:1px solid var(--line);border-radius:11px;color:var(--text);font-family:var(--body);
+    font-size:14px;padding:12px 13px}
+  textarea.fb::placeholder{color:#6f679a}
+  textarea.fb:focus{outline:2px solid var(--cyan);outline-offset:-1px}
+
+  :focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
+
+  @media (prefers-reduced-motion:reduce){
+    *{animation:none !important;transition:none !important}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="brandline">
+      <h1>LOAD<b>OUT</b></h1>
+      <div class="lang">
+        <button class="lang-btn on" data-lang="ru">RU</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+    </div>
+    <div class="vertical">Gamedev</div>
+    <div class="sub" id="subline">Собрано с сайтов студий. Обновляется раз в неделю.</div>
+    <div class="demo-note" id="demoNote" hidden>
+      Сейчас показаны демонстрационные вакансии. Настоящие появятся после запуска сборщика.
+    </div>
+  </div>
+</header>
+
+<div class="wrap layout">
+ <aside class="side" id="filterHost"></aside>
+ <main class="feed">
+  <div class="bar">
+    <input class="search" id="search" type="search" placeholder="Поиск: Unity, аниматор, продюсер…" autocomplete="off">
+    <button class="filter-btn" id="filterBtn">
+      Фильтры <span class="badge" id="filterCount" hidden>0</span>
+    </button>
+  </div>
+
+  <div class="quick" id="quick"></div>
+  <div class="active-tags" id="activeTags"></div>
+
+  <div class="meta-line">
+    <span id="count"></span>
+    <button class="reset" id="reset">Сбросить всё</button>
+  </div>
+
+  <div id="list"></div>
+  <button class="more" id="moreBtn" hidden>Показать ещё</button>
+
+
+</div>
+
+<!-- окно фильтров -->
+<div class="overlay" id="filterOverlay" hidden>
+  <div class="sheet">
+    <div class="sheet-head">
+      <h2>Фильтры</h2>
+      <button class="close" id="filterSheetClose" data-close="filterOverlay">×</button>
+    </div>
+    <div class="sheet-body">
+      <div class="group"><div class="group-title">Роль</div><div class="chips" id="fRole"></div></div>
+      <div class="group"><div class="group-title">Грейд</div><div class="chips" id="fGrade"></div></div>
+      <div class="group"><div class="group-title">Когда опубликовано</div><div class="chips" id="fAge"></div></div>
+      <div class="group"><div class="group-title">Условия</div><div class="chips" id="fFlags"></div></div>
+      <div class="group">
+        <div class="group-title">Компания</div>
+        <input class="list-search" id="companySearch" placeholder="Найти компанию…">
+        <div class="scroll-list" id="fCompany"></div>
+      </div>
+      <div class="group">
+        <div class="group-title">Локация</div>
+        <div class="chips" id="countryChips" style="margin-bottom:10px"></div>
+        <input class="list-search" id="locSearch" placeholder="Страна или город — можно по-русски">
+        <div class="scroll-list" id="fLocation"></div>
+      </div>
+    </div>
+    <div class="sheet-foot">
+      <button class="btn" id="clearFilters">Очистить</button>
+      <button class="btn primary" id="applyFilters">Показать</button>
+    </div>
+  </div>
+</div>
+
+<button class="to-top" id="toTop" title="Наверх" hidden>↑</button>
+<button class="fab" id="fbBtn">Написать нам</button>
+
+<!-- подтверждение закрытия окна -->
+<div class="overlay" id="closeOverlay" hidden style="z-index:60">
+  <div class="sheet" style="max-width:380px">
+    <div class="sheet-head"><h2 id="closeQ">Закрыть окно?</h2></div>
+    <div class="sheet-body"><div class="hint" id="closeSub" style="margin:0"></div></div>
+    <div class="sheet-foot">
+      <button class="btn" id="stayBtn">Остаться</button>
+      <button class="btn primary" id="closeYes">Закрыть</button>
+    </div>
+  </div>
+</div>
+
+<!-- окно вакансии -->
+<div class="overlay" id="jobOverlay" hidden>
+  <div class="sheet">
+    <div class="sheet-head">
+      <h2 id="jobTitle">Вакансия</h2>
+      <button class="close" data-close="jobOverlay">×</button>
+    </div>
+    <div class="sheet-body">
+      <div class="job-head" id="jobHead"></div>
+      <div class="job-desc" id="jobDesc"></div>
+    </div>
+    <div class="sheet-foot">
+      <button class="btn" id="jobFav">В избранное</button>
+      <a class="btn primary" id="jobApply" href="#" target="_blank" rel="noopener"
+         style="text-align:center;text-decoration:none;line-height:1.4">Откликнуться на сайте студии</a>
+    </div>
+  </div>
+</div>
+
+<!-- окно обратной связи -->
+<div class="overlay" id="fbOverlay" hidden>
+  <div class="sheet">
+    <div class="sheet-head">
+      <h2>Написать</h2>
+      <button class="close" data-close="fbOverlay">×</button>
+    </div>
+    <div class="sheet-body" id="fbBody">
+      <div class="hint">Читаю каждое сообщение. Оставь почту в тексте — отвечу.</div>
+      <div class="group">
+        <div class="group-title">Тема</div>
+        <div id="fbTopics"></div>
+      </div>
+      <div class="group">
+        <div class="group-title">Что рассказать</div>
+        <textarea class="fb" id="fbText" placeholder="Чего не хватает, что мешает, какую студию добавить…"></textarea>
+      </div>
+    </div>
+    <div class="sheet-foot">
+      <button class="btn" data-close="fbOverlay">Отмена</button>
+      <button class="btn primary" id="fbSend" disabled>Отправить</button>
+    </div>
+  </div>
+</div>
+
+<!-- подтверждение сброса -->
+<div class="overlay" id="confirmOverlay" hidden>
+  <div class="sheet" style="max-width:420px">
+    <div class="sheet-head">
+      <h2>Сбросить фильтры?</h2>
+      <button class="close" data-close="confirmOverlay">×</button>
+    </div>
+    <div class="sheet-body">
+      <div class="hint" id="confirmText" style="margin:0"></div>
+    </div>
+    <div class="sheet-foot">
+      <button class="btn" data-close="confirmOverlay">Отмена</button>
+      <button class="btn primary" id="confirmReset">Сбросить</button>
+    </div>
+  </div>
+</div>
+
+<!-- окно жалобы -->
+<div class="overlay" id="reportOverlay" hidden>
+  <div class="sheet">
+    <div class="sheet-head">
+      <h2>Что не так с вакансией?</h2>
+      <button class="close" data-close="reportOverlay">×</button>
+    </div>
+    <div class="sheet-body" id="reportBody">
+      <div class="job-ref" id="reportRef"></div>
+      <div class="hint">Ответы помогают чистить базу. Займёт секунд десять.</div>
+      <div class="group">
+        <div class="group-title">Причина</div>
+        <div id="reasons"></div>
+      </div>
+      <div class="group">
+        <div class="group-title">Когда столкнулся</div>
+        <div id="whens"></div>
+      </div>
+    </div>
+    <div class="sheet-foot">
+      <button class="btn" data-close="reportOverlay">Отмена</button>
+      <button class="btn primary" id="sendReport" disabled>Отправить</button>
+    </div>
+  </div>
+</div>
+
+<script src="config.js"></script>
+<script src="jobs.js"></script>
+<script>
+(function(){
+  "use strict";
+
+  const CFG = window.CONFIG || {};
+  const JOBS = (window.JOBS || []).slice();
+
+  // Старый формат хранил одну локацию строкой, новый — список.
+  // Приводим к списку, чтобы дальше был один путь.
+  JOBS.forEach(j => {
+    if (!Array.isArray(j.locations))
+      j.locations = j.location ? [j.location] : [];
+  });
+  const IS_DEMO = !!window.JOBS_DEMO;
+  const UPDATED = window.JOBS_UPDATED || null;
+  const PAGE = 40;
+
+  const REASONS = [
+    ["closed",   "Вакансия закрыта или ссылка не работает"],
+    ["filled",   "Ответили, что человека уже нашли"],
+    ["noreply",  "Молчат больше двух недель"],
+    ["salary",   "Условия на деле хуже, чем в объявлении"],
+    ["agency",   "Это агентство или посредник, а не студия"],
+    ["notgame",  "Вакансия не про геймдев"],
+    ["other",    "Другое"]
+  ];
+  const WHENS = [
+    ["today",  "Сегодня"],
+    ["week",   "На этой неделе"],
+    ["older",  "Раньше"]
+  ];
+
+  // Что нажатое человеком помним между визитами. Если браузер запрещает — не страшно.
+  const store = (function(){
+    try {
+      localStorage.setItem("__t","1"); localStorage.removeItem("__t");
+      return localStorage;
+    } catch(e){
+      const mem = {};
+      return { getItem:k=>mem[k]||null, setItem:(k,v)=>{mem[k]=v}, removeItem:k=>{delete mem[k]} };
+    }
+  })();
+
+  let reported = new Set();
+  try { reported = new Set(JSON.parse(store.getItem("reported") || "[]")); } catch(e){}
+
+  let favs = new Set();
+  try { favs = new Set(JSON.parse(store.getItem("favs") || "[]")); } catch(e){}
+  function saveFavs(){ try { store.setItem("favs", JSON.stringify([...favs])); } catch(e){} }
+
+  const state = {
+    role:new Set(), grade:new Set(), company:new Set(), location:new Set(),
+    age:null, remote:false, salary:false, onlyFav:false, query:""
+  };
+  let sortMode = "new";
+  let draft = null;
+  let shownCount = PAGE;
+
+  const $ = id => document.getElementById(id);
+  const listEl = $("list"), countEl = $("count"), searchEl = $("search");
+
+  // ---------------------------------------------------------------- утилиты
+
+  function esc(s){
+    return String(s == null ? "" : s).replace(/[&<>"']/g, c =>
+      ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+  }
+  function daysAgo(iso){
+    if (!iso) return null;
+    const d = Math.floor((Date.now() - new Date(iso).getTime())/86400000);
+    return isNaN(d) ? null : d;
+  }
+  function ageLabel(d){
+    if (d === null) return "";
+    if (d <= 0) return "сегодня";
+    if (d === 1) return "вчера";
+    if (d < 7) return d + " дн. назад";
+    if (d < 14) return "неделю назад";
+    if (d < 31) return Math.floor(d/7) + " нед. назад";
+    return "больше месяца назад";
+  }
+  function counts(field){
+    const m = new Map();
+    JOBS.forEach(j => {
+      const vals = field === "location" ? j.locations : [j[field]];
+      (vals || []).forEach(v => { if (v) m.set(v, (m.get(v)||0) + 1); });
+    });
+    return [...m.entries()].sort((a,b) => b[1]-a[1]);
+  }
+
+  // Из строки вида «3 000 – 4 500 $» достаём число для сортировки.
+  // Берём нижнюю границу: по ней честнее сравнивать.
+  function salaryNum(j){
+    if (!j.salary) return null;
+    const nums = String(j.salary).replace(/\s|\u00a0/g, "").match(/\d+/g);
+    if (!nums) return null;
+    let v = parseInt(nums[0], 10);
+    if (/₽|руб/i.test(j.salary)) v = v / 90;      // грубо приводим к долларам
+    if (/₸/.test(j.salary)) v = v / 480;
+    return v;
+  }
+
+  const SORTS = {
+    new:     { label:"Сначала новые",        fn:(a,b)=> new Date(b.posted||0) - new Date(a.posted||0) },
+    old:     { label:"Сначала старые",       fn:(a,b)=> new Date(a.posted||0) - new Date(b.posted||0) },
+    payhigh: { label:"Зарплата: больше",     fn:(a,b)=> cmpSalary(b,a) },
+    paylow:  { label:"Зарплата: меньше",     fn:(a,b)=> cmpSalary(a,b) },
+    region:  { label:"По локации",           fn:(a,b)=> String((a.locations||[])[0]||"яя").localeCompare(String((b.locations||[])[0]||"яя"),"ru") },
+    company: { label:"По компании",          fn:(a,b)=> String(a.company).localeCompare(String(b.company),"ru") }
+  };
+
+  // Вакансии без вилки всегда уходят в конец, иначе они забивают верх списка.
+  function cmpSalary(x, y){
+    const a = salaryNum(x), b = salaryNum(y);
+    if (a === null && b === null) return 0;
+    if (a === null) return -1;
+    if (b === null) return 1;
+    return a - b;
+  }
+
+
+
+  // ------------------------------------------------------------------ языки
+  // Переводится интерфейс. Тексты вакансий приходят от студий как есть —
+  // их перевод требует платного сервиса, это отдельный шаг.
+  const I18N = {
+    ru:{
+      searchPh:"Поиск: Unity, аниматор, продюсер…", filters:"Фильтры", sort:"Сортировка",
+      reset:"Сбросить всё", found:"Вакансий", of:"из", nothing:"Ничего не найдено",
+      nosalary:"З/П не указана", apply:"Откликнуться", report:"неактуальна?",
+      reported:"вы отметили", more:"Показать ещё", write:"Написать нам",
+      emptyTitle:"Под эти фильтры ничего нет.", emptySub:"Попробуй убрать часть условий.",
+      remote:"Удалёнка", withSalary:"С вилкой", week:"За неделю", favs:"Избранное",
+      role:"Роль", grade:"Грейд", posted:"Когда опубликовано", terms:"Условия",
+      company:"Компания", location:"Локация", any:"Любые", month:"За месяц",
+      findCompany:"Найти компанию…", findLoc:"Страна или город — можно по-русски",
+      clear:"Очистить", show:"Показать", nothingShort:"Ничего не найдено",
+      toFav:"В избранное", inFav:"В избранном", applyOn:"Откликнуться на сайте студии",
+      noDesc:"Студия не отдаёт текст вакансии в общем виде — описание откроется на её сайте.",
+      updatedToday:"Обновлено сегодня", collected:"Собрано с сайтов студий.",
+      sortNew:"Сначала новые", sortOld:"Сначала старые", sortPayHigh:"Зарплата: больше",
+      sortPayLow:"Зарплата: меньше", sortRegion:"По локации", sortCompany:"По компании",
+      closeQ:"Закрыть окно?", closeSub:"Выбранное сохранится.", stay:"Остаться", close:"Закрыть",
+      top:"Наверх", perWeek:"за неделю"
+    },
+    en:{
+      searchPh:"Search: Unity, animator, producer…", filters:"Filters", sort:"Sort",
+      reset:"Reset all", found:"Jobs", of:"of", nothing:"Nothing found",
+      nosalary:"Salary not stated", apply:"Apply", report:"not active?",
+      reported:"you flagged it", more:"Show more", write:"Contact us",
+      emptyTitle:"Nothing matches these filters.", emptySub:"Try removing some conditions.",
+      remote:"Remote", withSalary:"With salary", week:"This week", favs:"Saved",
+      role:"Role", grade:"Level", posted:"Posted", terms:"Conditions",
+      company:"Company", location:"Location", any:"Any", month:"This month",
+      findCompany:"Find a company…", findLoc:"Country or city",
+      clear:"Clear", show:"Show", nothingShort:"Nothing found",
+      toFav:"Save", inFav:"Saved", applyOn:"Apply on the studio site",
+      noDesc:"This studio does not share the job text — it will open on their site.",
+      updatedToday:"Updated today", collected:"Collected from studio sites.",
+      sortNew:"Newest first", sortOld:"Oldest first", sortPayHigh:"Salary: high to low",
+      sortPayLow:"Salary: low to high", sortRegion:"By location", sortCompany:"By company",
+      closeQ:"Close this window?", closeSub:"Your choices are kept.", stay:"Stay", close:"Close",
+      top:"Top", perWeek:"this week"
+    }
+  };
+
+  let lang = "ru";
+  try { lang = store.getItem("lang") || "ru"; } catch(e){}
+  function t(key){ return (I18N[lang] && I18N[lang][key]) || I18N.ru[key] || key; }
+
+  function applyLang(){
+    document.documentElement.lang = lang;
+    searchEl.placeholder = t("searchPh");
+    $("filterBtn").childNodes[0].nodeValue = t("filters") + " ";
+    $("reset").textContent = t("reset");
+    $("fbBtn").textContent = t("write");
+    $("toTop").title = t("top");
+    document.querySelectorAll(".lang-btn").forEach(b =>
+      b.classList.toggle("on", b.dataset.lang === lang));
+    SORTS.new.label = t("sortNew"); SORTS.old.label = t("sortOld");
+    SORTS.payhigh.label = t("sortPayHigh"); SORTS.paylow.label = t("sortPayLow");
+    SORTS.region.label = t("sortRegion"); SORTS.company.label = t("sortCompany");
+    renderList();
+    buildFilterUi();
+  }
+
+  // ------------------------------------------------------------------ география
+  // Студии пишут города по-английски и как попало. Словарь позволяет
+  // искать по-русски: «сербия», «белград», «кипр» находят свои вакансии.
+  const GEO = {
+    "cyprus":      ["кипр","кипре","cyprus", "nicosia","limassol","paphos","larnaca","никосия","лимассол","пафос","ларнака"],
+    "serbia":      ["сербия","сербии","белград","нови сад","serbia","belgrade","beograd","novi sad"],
+    "poland":      ["польша","польше","варшава","краков","вроцлав","гданьск","познань","poland","warsaw","warszawa","krakow","kraków","wroclaw","wrocław","gdansk","gdańsk","poznan"],
+    "armenia":     ["армения","армении","ереван","armenia","yerevan"],
+    "kazakhstan":  ["казахстан","казахстане","алматы","астана","kazakhstan","almaty","astana"],
+    "georgia":     ["грузия","грузии","тбилиси","батуми","georgia","tbilisi","batumi"],
+    "belarus":     ["беларусь","белоруссия","минск","belarus","minsk"],
+    "uzbekistan":  ["узбекистан","ташкент","uzbekistan","tashkent"],
+    "azerbaijan":  ["азербайджан","баку","azerbaijan","baku"],
+    "turkey":      ["турция","турции","стамбул","анкара","turkey","türkiye","istanbul","ankara","izmir"],
+    "montenegro":  ["черногория","подгорица","будва","montenegro","podgorica","budva"],
+    "thailand":    ["таиланд","тайланд","бангкок","пхукет","thailand","bangkok","phuket"],
+    "vietnam":     ["вьетнам","ханой","хошимин","vietnam","hanoi","ho chi minh"],
+    "uae":         ["оаэ","эмираты","дубай","абу-даби","uae","united arab emirates","dubai","abu dhabi"],
+    "germany":     ["германия","германии","берлин","мюнхен","гамбург","germany","berlin","munich","münchen","hamburg","frankfurt"],
+    "lithuania":   ["литва","вильнюс","каунас","lithuania","vilnius","kaunas"],
+    "latvia":      ["латвия","рига","latvia","riga"],
+    "estonia":     ["эстония","таллин","estonia","tallinn"],
+    "czech":       ["чехия","чехии","прага","брно","czech","czechia","prague","praha","brno"],
+    "ukraine":     ["украина","киев","львов","ukraine","kyiv","kiev","lviv"],
+    "bulgaria":    ["болгария","софия","bulgaria","sofia"],
+    "romania":     ["румыния","бухарест","romania","bucharest"],
+    "hungary":     ["венгрия","будапешт","hungary","budapest"],
+    "slovenia":    ["словения","любляна","slovenia","ljubljana"],
+    "spain":       ["испания","барселона","мадрид","spain","barcelona","madrid"],
+    "portugal":    ["португалия","лиссабон","порту","portugal","lisbon","lisboa","porto"],
+    "netherlands": ["нидерланды","голландия","амстердам","netherlands","amsterdam"],
+    "uk":          ["британия","англия","лондон","uk","united kingdom","london","england"],
+    "ireland":     ["ирландия","дублин","ireland","dublin"],
+    "israel":      ["израиль","тель-авив","israel","tel aviv"],
+    "malta":       ["мальта","malta","valletta"],
+    "sweden":      ["швеция","стокгольм","sweden","stockholm"],
+    "finland":     ["финляндия","хельсинки","finland","helsinki"],
+    "france":      ["франция","париж","france","paris"],
+    "usa":         ["сша","америка","нью-йорк","usa","united states","new york","san francisco","los angeles","austin","seattle"],
+    "canada":      ["канада","торонто","монреаль","canada","toronto","montreal","vancouver"],
+    "japan":       ["япония","токио","japan","tokyo"],
+    "china":       ["китай","шанхай","пекин","china","shanghai","beijing","hangzhou"],
+    "singapore":   ["сингапур","singapore"],
+    "india":       ["индия","india","bangalore","mumbai"],
+    "australia":   ["австралия","сидней","australia","sydney","melbourne"],
+    "remote":      ["удаленно","удалённо","удаленка","удалёнка","remote","anywhere","worldwide"]
+  };
+
+  function norm(v){ return String(v||"").toLowerCase().replace(/ё/g,"е").trim(); }
+
+  // К какой стране относится строка локации
+  function geoKeys(location){
+    const L = norm(location);
+    const out = [];
+    for (const key in GEO){
+      if (GEO[key].some(alias => L.includes(norm(alias)))) out.push(key);
+    }
+    return out;
+  }
+
+  // Совпадает ли локация с тем, что человек набрал (на любом языке)
+  function locMatches(location, query){
+    const L = norm(location), Q = norm(query);
+    if (!Q) return true;
+    if (L.includes(Q)) return true;
+    for (const key in GEO){
+      const aliases = GEO[key];
+      if (!aliases.some(a => norm(a).includes(Q))) continue;      // человек набрал что-то из этой страны
+      if (aliases.some(a => L.includes(norm(a)))) return true;    // и локация к ней относится
+    }
+    return false;
+  }
+
+  // ---------------------------------------------------------------- отбор
+
+  function passes(j, st){
+    if (st.role.size && !st.role.has(j.role)) return false;
+    if (st.grade.size && !st.grade.has(j.grade)) return false;
+    if (st.company.size && !st.company.has(j.company)) return false;
+    if (st.location.size && !j.locations.some(l => st.location.has(l))) return false;
+    if (st.remote && !j.remote) return false;
+    if (st.salary && !j.salary) return false;
+    if (st.onlyFav && !favs.has(j.id)) return false;
+    if (st.age){
+      const d = daysAgo(j.posted);
+      if (d === null || d > st.age) return false;
+    }
+    if (st.query){
+      const hay = (j.title+" "+j.company+" "+j.locations.join(" ")).toLowerCase();
+      if (!hay.includes(st.query)) return false;
+    }
+    return true;
+  }
+
+  function filtered(){
+    const out = JOBS.filter(j => passes(j, state));
+    const s = SORTS[sortMode] || SORTS.new;
+    return out.sort(s.fn);
+  }
+
+  function activeCount(){
+    return state.role.size + state.grade.size + state.company.size + state.location.size
+         + (state.age ? 1 : 0) + (state.remote ? 1 : 0) + (state.salary ? 1 : 0)
+         + (state.onlyFav ? 1 : 0);
+  }
+
+  // ---------------------------------------------------------------- список
+
+  // Если мест несколько — показываем два и счётчик остальных,
+  // иначе строка расползается на три ряда.
+  function placeHtml(j){
+    const l = j.locations || [];
+    if (!l.length) return j.remote ? ' <span class="place">Удалённо</span>' : '';
+    let text = l.slice(0, 2).join("  ·  ");
+    if (l.length > 2) text += " +" + (l.length - 2);
+    return ' <span class="place" title="'+esc(l.join(", "))+'">'+esc(text)+'</span>';
+  }
+
+  // Логотип студии берём с её же сайта. Если сайта нет или иконка не отдалась —
+  // подставляем буквенную плашку в цвете, посчитанном из названия.
+  function companyHue(name){
+    let h = 0;
+    for (let i = 0; i < name.length; i++) h = (h * 31 + name.charCodeAt(i)) % 360;
+    return h;
+  }
+
+  function letterTile(name){
+    const el = document.createElement("div");
+    el.className = "logo letter";
+    el.style.setProperty("--h", companyHue(name));
+    el.textContent = (name || "?").trim().charAt(0).toUpperCase();
+    return el;
+  }
+
+  // Яндекс первым: он доступен из России. Если не отдал — пробуем DuckDuckGo,
+  // и только потом буквенная плашка.
+  function logoSources(site){
+    return [
+      "https://favicon.yandex.net/favicon/v2/https://" + site + "?size=64",
+      "https://icons.duckduckgo.com/ip3/" + site + ".ico"
+    ];
+  }
+
+  function logoHtml(j){
+    if (!j.site) return '<div class="logo letter"></div>';
+    return '<img class="logo" alt="" loading="lazy" src="'+esc(logoSources(j.site)[0])+'">';
+  }
+
+  // Дорисовываем плашки после вставки разметки: так обработчик ошибки
+  // вешается кодом, а не строкой внутри HTML.
+  function fixLogo(el, j){
+    const node = el.querySelector(".logo");
+    if (!node) return;
+    if (node.tagName !== "IMG"){
+      node.replaceWith(letterTile(j.company));
+      return;
+    }
+    let attempt = 0;
+    const srcs = logoSources(j.site);
+
+    function next(){
+      attempt++;
+      if (attempt < srcs.length) node.src = srcs[attempt];
+      else node.replaceWith(letterTile(j.company));
+    }
+
+    node.addEventListener("error", next);
+    // Сервисы иконок вместо отсутствующей картинки отдают заглушку 16×16
+    // или пустой квадрат — по размеру их и отсеиваем.
+    node.addEventListener("load", () => {
+      if (node.naturalWidth && node.naturalWidth < 24) next();
+    });
+  }
+
+  function card(j){
+    const el = document.createElement("article");
+    el.className = "card" + (reported.has(j.id) ? " reported" : "");
+    const age = daysAgo(j.posted);
+    const tags = [];
+    if (j.remote) tags.push('<span class="tag remote">Удалёнка</span>');
+    if (j.grade) tags.push('<span class="tag">'+esc(j.grade)+'</span>');
+    if (j.role) tags.push('<span class="tag">'+esc(j.role)+'</span>');
+    if (age !== null) tags.push('<span class="tag'+(age<7?' fresh':'')+'">'+ageLabel(age)+'</span>');
+
+    el.innerHTML =
+      logoHtml(j) +
+      '<div class="card-main">'+
+      '<div class="card-top"><div>'+
+        '<div class="title">'+esc(j.title)+'</div>'+
+        '<div class="company">'+esc(j.company)+placeHtml(j)+'</div></div>'+
+        '<div style="display:flex;align-items:flex-start;gap:2px">'+
+          (j.salary ? '<div class="salary">'+esc(j.salary)+'</div>'
+                    : '<div class="salary none">'+t("nosalary")+'</div>')+
+          '<button class="fav'+(favs.has(j.id)?" on":"")+'" title="В избранное">'+
+            (favs.has(j.id)?"★":"☆")+'</button>'+
+        '</div>'+
+      '</div>'+
+      '<div class="tags">'+tags.join("")+'</div>'+
+      '<div class="card-bottom">'+
+        '<a class="apply" href="'+esc(j.url)+'" target="_blank" rel="noopener">'+t("apply")+'</a>'+
+        '<button class="report">'+(reported.has(j.id) ? t("reported") : t("report"))+'</button>'+
+      '</div></div>';
+
+    fixLogo(el, j);
+
+    // Клик по карточке открывает описание. Кнопки внутри работают как раньше.
+    el.addEventListener("click", e => {
+      if (e.target.closest("a,button")) return;
+      showJob(j);
+    });
+
+    el.querySelector(".report").addEventListener("click", e => { e.stopPropagation(); openReport(j); });
+    el.querySelector(".fav").addEventListener("click", e => {
+      e.stopPropagation();
+      favs.has(j.id) ? favs.delete(j.id) : favs.add(j.id);
+      saveFavs();
+      renderList();
+    });
+    return el;
+  }
+
+  function renderList(){
+    const shown = filtered();
+    listEl.innerHTML = "";
+    if (!shown.length){
+      listEl.innerHTML = '<div class="empty">'+t("emptyTitle")+'<br>'+t("emptySub")+'</div>';
+      $("moreBtn").hidden = true;
+    } else {
+      shown.slice(0, shownCount).forEach(j => listEl.appendChild(card(j)));
+      const left = shown.length - shownCount;
+      $("moreBtn").hidden = left <= 0;
+      if (left > 0) $("moreBtn").textContent = t("more") + " " + Math.min(PAGE, left);
+    }
+    countEl.textContent = shown.length
+      ? t("found")+": "+shown.length+" "+t("of")+" "+JOBS.length : t("nothing");
+
+    const n = activeCount();
+    $("filterCount").hidden = n === 0;
+    $("filterCount").textContent = n;
+    renderQuick();
+    renderActiveTags();
+  }
+
+  // Быстрые фильтры: то, что нужно чаще всего, без захода в окно.
+  function renderQuick(){
+    const box = $("quick");
+    box.innerHTML = "";
+
+    const chip = (label, isOn, toggle) => {
+      const b = document.createElement("button");
+      b.className = "qchip" + (isOn() ? " on" : "");
+      b.textContent = label;
+      b.addEventListener("click", () => { toggle(); shownCount = PAGE; renderList(); });
+      box.appendChild(b);
+    };
+
+    chip(t("remote"), () => state.remote, () => state.remote = !state.remote);
+    chip(t("withSalary"), () => state.salary, () => state.salary = !state.salary);
+    chip(t("week"), () => state.age === 7, () => state.age = state.age === 7 ? null : 7);
+
+    // четыре самые многочисленные роли — они закрывают большинство запросов
+    counts("role").slice(0, 4).forEach(([role]) => {
+      chip(role, () => state.role.has(role),
+        () => state.role.has(role) ? state.role.delete(role) : state.role.add(role));
+    });
+
+    const wrap = document.createElement("div");
+    wrap.className = "sort-wrap";
+
+    // избранное держим отдельно от тематических фильтров — это личная полка,
+    // а не ещё одно условие поиска
+    if (favs.size){
+      const f = document.createElement("button");
+      f.className = "qchip fav-chip" + (state.onlyFav ? " on" : "");
+      f.textContent = "★ " + t("favs") + " " + favs.size;
+      f.addEventListener("click", () => {
+        state.onlyFav = !state.onlyFav; shownCount = PAGE; renderList();
+      });
+      wrap.appendChild(f);
+    }
+    const lab = document.createElement("label");
+    lab.textContent = t("sort");
+    lab.setAttribute("for", "sortSel");
+    const sel = document.createElement("select");
+    sel.className = "sort";
+    sel.id = "sortSel";
+    Object.entries(SORTS).forEach(([key, v]) => {
+      const o = document.createElement("option");
+      o.value = key; o.textContent = v.label;
+      if (key === sortMode) o.selected = true;
+      sel.appendChild(o);
+    });
+    sel.addEventListener("change", e => { sortMode = e.target.value; shownCount = PAGE; renderList(); });
+    wrap.appendChild(lab); wrap.appendChild(sel);
+    box.appendChild(wrap);
+  }
+
+  function renderActiveTags(){
+    const box = $("activeTags");
+    box.innerHTML = "";
+    const add = (label, off) => {
+      const t = document.createElement("button");
+      t.className = "active-tag";
+      t.innerHTML = esc(label) + ' <span>×</span>';
+      t.addEventListener("click", () => { off(); shownCount = PAGE; renderList(); });
+      box.appendChild(t);
+    };
+    state.role.forEach(v => add(v, () => state.role.delete(v)));
+    state.grade.forEach(v => add(v, () => state.grade.delete(v)));
+    state.company.forEach(v => add(v, () => state.company.delete(v)));
+    state.location.forEach(v => add(v, () => state.location.delete(v)));
+    if (state.age) add(state.age === 7 ? "за неделю" : "за месяц", () => state.age = null);
+    if (state.remote) add("удалёнка", () => state.remote = false);
+    if (state.salary) add("с вилкой", () => state.salary = false);
+    if (state.onlyFav) add("избранное", () => state.onlyFav = false);
+  }
+
+  // ---------------------------------------------------------------- фильтры
+
+  function cloneState(s){
+    return { role:new Set(s.role), grade:new Set(s.grade), company:new Set(s.company),
+             location:new Set(s.location), age:s.age, remote:s.remote, salary:s.salary, query:s.query };
+  }
+
+  function chipRow(el, values, set, key){
+    el.innerHTML = "";
+    values.forEach(([v, n]) => {
+      const b = document.createElement("button");
+      b.className = "chip" + (set.has(v) ? " on" : "");
+      b.innerHTML = esc(v) + (n != null ? ' <span class="cnt">'+n+'</span>' : '');
+      b.addEventListener("click", () => {
+        set.has(v) ? set.delete(v) : set.add(v);
+        buildFilterUi();
+        if (wide.matches){ shownCount = PAGE; renderList(); }
+      });
+      el.appendChild(b);
+    });
+  }
+
+  function optionList(el, values, set, query, smart){
+    el.innerHTML = "";
+    const q = (query||"").toLowerCase();
+    const rows = smart
+      ? values.filter(([v]) => locMatches(v, q))
+      : values.filter(([v]) => !q || v.toLowerCase().includes(q));
+    if (!rows.length){
+      el.innerHTML = '<div class="opt" style="color:var(--muted)">ничего не найдено</div>';
+      return;
+    }
+    rows.forEach(([v, n]) => {
+      const row = document.createElement("div");
+      row.className = "opt" + (set.has(v) ? " on" : "");
+      row.innerHTML = '<div class="box">'+(set.has(v)?"✓":"")+'</div><div>'+esc(v)+'</div><div class="n">'+n+'</div>';
+      row.addEventListener("click", () => {
+        set.has(v) ? set.delete(v) : set.add(v);
+        buildFilterUi();
+        if (wide.matches){ shownCount = PAGE; renderList(); }
+      });
+      el.appendChild(row);
+    });
+  }
+
+  const COUNTRY_LABEL = {
+    cyprus:"Кипр", serbia:"Сербия", poland:"Польша", armenia:"Армения",
+    kazakhstan:"Казахстан", georgia:"Грузия", belarus:"Беларусь", turkey:"Турция",
+    montenegro:"Черногория", thailand:"Таиланд", vietnam:"Вьетнам", uae:"ОАЭ",
+    germany:"Германия", lithuania:"Литва", latvia:"Латвия", estonia:"Эстония",
+    czech:"Чехия", ukraine:"Украина", bulgaria:"Болгария", romania:"Румыния",
+    hungary:"Венгрия", slovenia:"Словения", spain:"Испания", portugal:"Португалия",
+    netherlands:"Нидерланды", uk:"Британия", ireland:"Ирландия", israel:"Израиль",
+    malta:"Мальта", sweden:"Швеция", finland:"Финляндия", france:"Франция",
+    usa:"США", canada:"Канада", japan:"Япония", china:"Китай",
+    singapore:"Сингапур", india:"Индия", australia:"Австралия",
+    uzbekistan:"Узбекистан", azerbaijan:"Азербайджан", remote:"Удалённо"
+  };
+
+  // Страны одной кнопкой: тыкнул «Кипр» — выбрались все кипрские города разом
+  function renderCountryChips(){
+    const box = $("countryChips");
+    box.innerHTML = "";
+    const byCountry = new Map();
+    counts("location").forEach(([loc, n]) => {
+      geoKeys(loc).forEach(key => {
+        if (!byCountry.has(key)) byCountry.set(key, { n:0, locs:[] });
+        const rec = byCountry.get(key);
+        rec.n += n; rec.locs.push(loc);
+      });
+    });
+
+    [...byCountry.entries()]
+      .sort((a,b) => b[1].n - a[1].n)
+      .slice(0, 12)
+      .forEach(([key, rec]) => {
+        const all = rec.locs.every(l => draft.location.has(l));
+        const b = document.createElement("button");
+        b.className = "chip" + (all ? " on" : "");
+        b.innerHTML = esc(COUNTRY_LABEL[key] || key) + ' <span class="cnt">'+rec.n+'</span>';
+        b.addEventListener("click", () => {
+          all ? rec.locs.forEach(l => draft.location.delete(l))
+              : rec.locs.forEach(l => draft.location.add(l));
+          buildFilterUi();
+          if (wide.matches){ shownCount = PAGE; renderList(); }
+        });
+        box.appendChild(b);
+      });
+  }
+
+  function buildFilterUi(){
+    if (!draft) return;      // окно фильтров ещё не открывали — рисовать нечего
+    chipRow($("fRole"), counts("role"), draft.role);
+    chipRow($("fGrade"), counts("grade"), draft.grade);
+
+    const ageEl = $("fAge");
+    ageEl.innerHTML = "";
+    [[null,t("any")],[7,t("week")],[30,t("month")]].forEach(([val,label]) => {
+      const b = document.createElement("button");
+      b.className = "chip" + (draft.age === val ? " on" : "");
+      b.textContent = label;
+      b.addEventListener("click", () => {
+        draft.age = val; buildFilterUi();
+        if (wide.matches){ shownCount = PAGE; renderList(); }
+      });
+      ageEl.appendChild(b);
+    });
+
+    const flagEl = $("fFlags");
+    flagEl.innerHTML = "";
+    [["remote",t("remote")],["salary",t("withSalary")]].forEach(([k,label]) => {
+      const b = document.createElement("button");
+      b.className = "chip" + (draft[k] ? " on" : "");
+      b.textContent = label;
+      b.addEventListener("click", () => {
+        draft[k] = !draft[k]; buildFilterUi();
+        if (wide.matches){ shownCount = PAGE; renderList(); }
+      });
+      flagEl.appendChild(b);
+    });
+
+    optionList($("fCompany"), counts("company"), draft.company, $("companySearch").value);
+    renderCountryChips();
+    optionList($("fLocation"), counts("location"), draft.location, $("locSearch").value, true);
+
+    const n = draft.role.size + draft.grade.size + draft.company.size + draft.location.size
+            + (draft.age?1:0) + (draft.remote?1:0) + (draft.salary?1:0);
+    const shown = JOBS.filter(j => passes(j, draft)).length;
+    $("applyFilters").textContent = shown ? t("show") + " " + shown : t("nothingShort");
+    $("applyFilters").disabled = shown === 0;
+  }
+
+  function openFilters(){
+    draft = cloneState(state);
+    $("companySearch").value = "";
+    $("locSearch").value = "";
+    buildFilterUi();
+    $("filterOverlay").hidden = false;
+  }
+
+  // ---------------------------------------------------------------- жалобы
+
+  let reportJob = null, reportReason = null, reportWhen = null;
+
+  function openReport(j){
+    if (reported.has(j.id)) return;
+    reportJob = j; reportReason = null; reportWhen = null;
+
+    $("reportRef").innerHTML = '<b>'+esc(j.title)+'</b><span>'+esc(j.company)+
+      ((j.locations||[]).length ? ' · '+esc(j.locations.join(", ")) : '')+'</span>';
+
+    const rBox = $("reasons"); rBox.innerHTML = "";
+    REASONS.forEach(([key,label]) => {
+      const el = document.createElement("div");
+      el.className = "radio";
+      el.innerHTML = '<div class="dot"></div><div>'+esc(label)+'</div>';
+      el.addEventListener("click", () => {
+        reportReason = [key,label];
+        [...rBox.children].forEach(c => c.classList.remove("on"));
+        el.classList.add("on");
+        syncSend();
+      });
+      rBox.appendChild(el);
+    });
+
+    const wBox = $("whens"); wBox.innerHTML = "";
+    WHENS.forEach(([key,label]) => {
+      const el = document.createElement("div");
+      el.className = "radio";
+      el.innerHTML = '<div class="dot"></div><div>'+esc(label)+'</div>';
+      el.addEventListener("click", () => {
+        reportWhen = [key,label];
+        [...wBox.children].forEach(c => c.classList.remove("on"));
+        el.classList.add("on");
+        syncSend();
+      });
+      wBox.appendChild(el);
+    });
+
+    syncSend();
+    $("reportOverlay").hidden = false;
+  }
+
+  function syncSend(){
+    $("sendReport").disabled = !(reportReason && reportWhen);
+  }
+
+  function sendReport(){
+    if (!reportJob || !reportReason || !reportWhen) return;
+    const j = reportJob;
+
+    reported.add(j.id);
+    try { store.setItem("reported", JSON.stringify([...reported])); } catch(e){}
+
+    if (window.ym && CFG.metrikaId) window.ym(CFG.metrikaId, "reachGoal", "report");
+
+    if (CFG.reportForm){
+      const url = CFG.reportForm
+        .replace("{id}", encodeURIComponent(j.id))
+        .replace("{title}", encodeURIComponent(j.company + " — " + j.title))
+        .replace("{reason}", encodeURIComponent(reportReason[1]))
+        .replace("{when}", encodeURIComponent(reportWhen[1]));
+      window.open(url, "_blank");
+    }
+
+    $("reportBody").innerHTML =
+      '<div class="thanks"><span class="big">✓</span>Спасибо. Вакансию проверят,'+
+      '<br>а у тебя она больше не покажется.</div>';
+    $("sendReport").hidden = true;
+
+    setTimeout(() => {
+      $("reportOverlay").hidden = true;
+      $("sendReport").hidden = false;
+      renderList();
+    }, 1400);
+  }
+
+  // ---------------------------------------------------------------- окно вакансии
+
+  let openJob = null;
+
+  function showJob(j){
+    openJob = j;
+    $("jobTitle").textContent = j.title;
+
+    const tags = [];
+    if (j.remote) tags.push("Удалёнка");
+    if (j.grade) tags.push(j.grade);
+    if (j.role) tags.push(j.role);
+    const age = daysAgo(j.posted);
+    if (age !== null) tags.push("опубликовано " + ageLabel(age));
+
+    $("jobHead").innerHTML =
+      logoHtml(j) +
+      '<div class="meta">'+
+        '<div class="cmp">'+esc(j.company)+'</div>'+
+        '<div class="row">'+esc((j.locations||[]).join("  ·  ") || "локация не указана")+'</div>'+
+        '<div class="row">'+esc(tags.join("  ·  "))+'</div>'+
+        (j.salary ? '<div class="pay">'+esc(j.salary)+'</div>' : '')+
+      '</div>';
+    fixLogo($("jobHead"), j);
+
+    const d = $("jobDesc");
+    if (j.desc){
+      d.className = "job-desc";
+      d.textContent = j.desc;
+    } else {
+      d.className = "job-desc empty-desc";
+      d.textContent = t("noDesc");
+    }
+
+    $("jobApply").href = j.url;
+    syncJobFav();
+    $("jobOverlay").hidden = false;
+    $("jobOverlay").querySelector(".sheet-body").scrollTop = 0;
+  }
+
+  function syncJobFav(){
+    if (!openJob) return;
+    const on = favs.has(openJob.id);
+    $("jobFav").textContent = on ? "★ " + t("inFav") : "☆ " + t("toFav");
+    $("jobFav").style.color = on ? "var(--amber)" : "";
+    $("jobFav").style.borderColor = on ? "var(--amber)" : "";
+  }
+
+  // ---------------------------------------------------------------- обратная связь
+
+  const FB_TOPICS = [
+    ["idea",    "Идея или пожелание"],
+    ["studio",  "Добавьте студию"],
+    ["bug",     "Что-то сломалось на сайте"],
+    ["question","Вопрос"],
+    ["other",   "Другое"]
+  ];
+  let fbTopic = null;
+
+  function openFeedback(){
+    fbTopic = null;
+    $("fbText").value = "";
+    const box = $("fbTopics");
+    box.innerHTML = "";
+    FB_TOPICS.forEach(([key,label]) => {
+      const el = document.createElement("div");
+      el.className = "radio";
+      el.innerHTML = '<div class="dot"></div><div>'+esc(label)+'</div>';
+      el.addEventListener("click", () => {
+        fbTopic = [key,label];
+        [...box.children].forEach(c => c.classList.remove("on"));
+        el.classList.add("on");
+        syncFb();
+      });
+      box.appendChild(el);
+    });
+    syncFb();
+    $("fbOverlay").hidden = false;
+  }
+
+  function syncFb(){
+    $("fbSend").disabled = !(fbTopic && $("fbText").value.trim().length >= 5);
+  }
+
+  function sendFeedback(){
+    if (!fbTopic) return;
+    const text = $("fbText").value.trim();
+    if (text.length < 5) return;
+
+    if (window.ym && CFG.metrikaId) window.ym(CFG.metrikaId, "reachGoal", "feedback");
+
+    if (CFG.feedbackForm){
+      const url = CFG.feedbackForm
+        .replace("{topic}", encodeURIComponent(fbTopic[1]))
+        .replace("{text}", encodeURIComponent(text));
+      window.open(url, "_blank");
+    }
+
+    $("fbBody").innerHTML =
+      '<div class="thanks"><span class="big">✓</span>Спасибо, прочитаю.</div>';
+    $("fbSend").hidden = true;
+    setTimeout(() => {
+      $("fbOverlay").hidden = true;
+      $("fbSend").hidden = false;
+      location.reload();
+    }, 1400);
+  }
+
+  // ---------------------------------------------------------------- запуск
+
+  // Одна и та же панель: на узком экране — всплывающее окно, на широком — колонка слева.
+  const wide = window.matchMedia("(min-width:1120px)");
+  const filterSheet = $("filterOverlay").querySelector(".sheet");
+
+  function placeFilters(){
+    if (wide.matches){
+      if (filterSheet.parentElement !== $("filterHost")){
+        $("filterHost").appendChild(filterSheet);
+        $("filterOverlay").hidden = true;
+      }
+      draft = state;                          // правки применяются сразу
+      $("applyFilters").hidden = true;
+      $("filterSheetClose").hidden = true;
+      buildFilterUi();
+    } else {
+      if (filterSheet.parentElement !== $("filterOverlay")){
+        $("filterOverlay").appendChild(filterSheet);
+      }
+      $("applyFilters").hidden = false;
+      $("filterSheetClose").hidden = false;
+      draft = null;
+    }
+  }
+
+  wide.addEventListener("change", placeFilters);
+
+  $("filterBtn").addEventListener("click", openFilters);
+  $("applyFilters").addEventListener("click", () => {
+    Object.assign(state, draft);
+    shownCount = PAGE;
+    $("filterOverlay").hidden = true;
+    renderList();
+  });
+  $("clearFilters").addEventListener("click", () => {
+    if (wide.matches){ doReset(); buildFilterUi(); return; }
+    draft = { role:new Set(), grade:new Set(), company:new Set(), location:new Set(),
+              age:null, remote:false, salary:false, query:state.query };
+    buildFilterUi();
+  });
+  $("companySearch").addEventListener("input", buildFilterUi);
+  $("locSearch").addEventListener("input", buildFilterUi);
+  $("sendReport").addEventListener("click", sendReport);
+  $("moreBtn").addEventListener("click", () => { shownCount += PAGE; renderList(); });
+  $("jobFav").addEventListener("click", () => {
+    if (!openJob) return;
+    favs.has(openJob.id) ? favs.delete(openJob.id) : favs.add(openJob.id);
+    saveFavs(); syncJobFav(); renderList();
+  });
+  $("fbBtn").addEventListener("click", openFeedback);
+  $("fbSend").addEventListener("click", sendFeedback);
+  $("fbText").addEventListener("input", syncFb);
+
+  document.querySelectorAll("[data-close]").forEach(b =>
+    b.addEventListener("click", () => { $(b.dataset.close).hidden = true; }));
+  // Клик мимо окна не закрывает его сразу: легко смахнуть настроенные фильтры
+  // случайным касанием, поэтому спрашиваем.
+  let pendingClose = null;
+
+  function askClose(overlay){
+    pendingClose = overlay;
+    $("closeQ").textContent = t("closeQ");
+    $("closeSub").textContent = t("closeSub");
+    $("stayBtn").textContent = t("stay");
+    $("closeYes").textContent = t("close");
+    $("closeOverlay").hidden = false;
+  }
+
+  document.querySelectorAll(".overlay").forEach(o => {
+    if (o.id === "closeOverlay") return;
+    o.addEventListener("click", e => { if (e.target === o) askClose(o); });
+  });
+
+  $("stayBtn").addEventListener("click", () => { $("closeOverlay").hidden = true; pendingClose = null; });
+  $("closeYes").addEventListener("click", () => {
+    $("closeOverlay").hidden = true;
+    if (pendingClose) pendingClose.hidden = true;
+    pendingClose = null;
+  });
+
+  document.addEventListener("keydown", e => {
+    if (e.key !== "Escape") return;
+    if (!$("closeOverlay").hidden){ $("closeOverlay").hidden = true; pendingClose = null; return; }
+    const open = [...document.querySelectorAll(".overlay")].find(o => !o.hidden && o.id !== "closeOverlay");
+    if (open) askClose(open);
+  });
+
+  // кнопка «наверх»
+  const toTop = $("toTop");
+  window.addEventListener("scroll", () => { toTop.hidden = window.scrollY < 600; }, { passive:true });
+  toTop.addEventListener("click", () =>
+    window.scrollTo({ top:0, behavior: matchMedia("(prefers-reduced-motion:reduce)").matches ? "auto" : "smooth" }));
+
+  // переключатель языка
+  document.querySelectorAll(".lang-btn").forEach(b =>
+    b.addEventListener("click", () => {
+      lang = b.dataset.lang;
+      try { store.setItem("lang", lang); } catch(e){}
+      applyLang();
+    }));
+
+  function doReset(){
+    state.role.clear(); state.grade.clear(); state.company.clear(); state.location.clear();
+    state.age = null; state.remote = false; state.salary = false; state.onlyFav = false;
+    state.query = ""; sortMode = "new";
+    searchEl.value = ""; shownCount = PAGE;
+    renderList();
+  }
+
+  $("reset").addEventListener("click", () => {
+    const n = activeCount() + (state.query ? 1 : 0);
+    if (!n) return;                       // сбрасывать нечего — не дёргаем окно
+    $("confirmText").textContent = n === 1
+      ? "Снимется один фильтр, и вернётся полный список."
+      : "Снимется фильтров: " + n + ". Вернётся полный список.";
+    $("confirmOverlay").hidden = false;
+  });
+
+  $("confirmReset").addEventListener("click", () => {
+    $("confirmOverlay").hidden = true;
+    doReset();
+  });
+
+  let searchTimer;
+  searchEl.addEventListener("input", e => {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => {
+      state.query = e.target.value.trim().toLowerCase();
+      shownCount = PAGE;
+      renderList();
+    }, 120);
+  });
+
+  // сколько появилось за последнюю неделю — повод заглянуть снова
+  (function(){
+    const fresh = JOBS.filter(j => { const d = daysAgo(j.posted); return d !== null && d <= 7; }).length;
+    if (fresh > 0){
+      const b = document.createElement("span");
+      b.className = "new-badge";
+      b.textContent = "+" + fresh + " " + t("perWeek");
+      document.querySelector("h1").appendChild(b);
+    }
+  })();
+
+  $("demoNote").hidden = !IS_DEMO;
+  if (UPDATED){
+    const d = daysAgo(UPDATED);
+    $("subline").textContent = "Собрано с сайтов студий. Обновлено " +
+      (d === 0 ? "сегодня" : ageLabel(d)) + ".";
+  }
+
+  // Яндекс.Метрика — считает визиты и время на сайте
+  if (CFG.metrikaId){
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym");
+    window.ym(CFG.metrikaId,"init",{clickmap:true,trackLinks:true,accurateTrackBounce:true});
+  }
+
+  placeFilters();
+  applyLang();
+  renderList();
+})();
+</script>
+</body>
+</html>

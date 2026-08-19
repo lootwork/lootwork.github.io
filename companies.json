@@ -1,0 +1,215 @@
+[
+  {
+    "name": "Wargaming",
+    "ats": "greenhouse",
+    "token": "wargamingen",
+    "site": "wargaming.com",
+    "enabled": true
+  },
+  {
+    "name": "Tripledot / Belka",
+    "ats": "greenhouse",
+    "token": "tripledotstudios",
+    "site": "tripledotstudios.com",
+    "enabled": true
+  },
+  {
+    "name": "Xsolla",
+    "ats": "lever",
+    "token": "xsolla",
+    "site": "xsolla.com",
+    "enabled": true
+  },
+  {
+    "name": "Easybrain",
+    "ats": "lever",
+    "token": "easybrain",
+    "site": "easybrain.com",
+    "enabled": true
+  },
+  {
+    "name": "Scorewarrior",
+    "ats": "recruitee",
+    "token": "scorewarrior",
+    "site": "scorewarrior.com",
+    "enabled": false,
+    "note": "своя система найма, через общие доски не отдаёт"
+  },
+  {
+    "name": "Nordeus",
+    "ats": "greenhouse",
+    "token": "nordeus",
+    "site": "nordeus.com",
+    "enabled": true
+  },
+  {
+    "name": "Evoplay Games",
+    "ats": "greenhouse",
+    "token": "evoplaygames",
+    "site": null,
+    "enabled": true
+  },
+  {
+    "name": "DPS Games",
+    "ats": "greenhouse",
+    "token": "dpsgames",
+    "site": null,
+    "enabled": true
+  },
+  {
+    "name": "Outfit7",
+    "ats": "greenhouse",
+    "token": "outfit7",
+    "site": "outfit7.com",
+    "enabled": true
+  },
+  {
+    "name": "Huuuge Games",
+    "ats": "recruitee",
+    "token": "huuuge",
+    "site": "huuugegames.com",
+    "enabled": true
+  },
+  {
+    "name": "Ten Square Games",
+    "ats": "recruitee",
+    "token": "tensquaregames",
+    "site": "tensquaregames.com",
+    "enabled": true
+  },
+  {
+    "name": "Reality Games",
+    "ats": "recruitee",
+    "token": "realitygames",
+    "site": null,
+    "enabled": true
+  },
+  {
+    "name": "Illuvium",
+    "ats": "recruitee",
+    "token": "illuvium",
+    "site": "illuvium.io",
+    "enabled": true
+  },
+  {
+    "name": "Lucid Reality Labs",
+    "ats": "recruitee",
+    "token": "lucidrealitylabs",
+    "site": "lucidrealitylabs.com",
+    "enabled": true
+  },
+  {
+    "name": "11 bit studios",
+    "ats": "recruitee",
+    "token": "11bitstudios",
+    "site": "11bitstudios.com",
+    "enabled": true
+  },
+  {
+    "name": "Bloober Team",
+    "ats": "recruitee",
+    "token": "blooberteam",
+    "site": "blooberteam.com",
+    "enabled": true
+  },
+  {
+    "name": "Crytek",
+    "ats": "lever",
+    "token": "crytek",
+    "site": "crytek.com",
+    "enabled": true
+  },
+  {
+    "name": "Larian Studios",
+    "ats": "lever",
+    "token": "larian",
+    "site": "larian.com",
+    "enabled": true
+  },
+  {
+    "name": "Amanotes",
+    "ats": "lever",
+    "token": "amanotes",
+    "site": "amanotes.com",
+    "enabled": true
+  },
+  {
+    "name": "Animoca Brands",
+    "ats": "lever",
+    "token": "animocabrands",
+    "site": "animocabrands.com",
+    "enabled": true
+  },
+  {
+    "name": "Fanatee",
+    "ats": "lever",
+    "token": "fanatee",
+    "site": "fanatee.com",
+    "enabled": true
+  },
+  {
+    "name": "Keen Software House",
+    "ats": "greenhouse",
+    "token": "keensoftwarehouseas",
+    "site": "keenswh.com",
+    "enabled": true
+  },
+  {
+    "name": "Inworld AI",
+    "ats": "greenhouse",
+    "token": "inworldai",
+    "site": "inworld.ai",
+    "enabled": false,
+    "note": "своя система найма, через общие доски не отдаёт"
+  },
+  {
+    "name": "GRID Esports",
+    "ats": "recruitee",
+    "token": "grid",
+    "site": "grid.gg",
+    "enabled": true
+  },
+  {
+    "name": "Gram Games",
+    "ats": "greenhouse",
+    "token": "gramgamescareers",
+    "site": "gramgames.com",
+    "enabled": true
+  },
+  {
+    "name": "NetEase Games",
+    "ats": "greenhouse",
+    "token": "neteasegames",
+    "site": "neteasegames.com",
+    "enabled": true
+  },
+  {
+    "name": "2K Games",
+    "ats": "greenhouse",
+    "token": "2k",
+    "site": "2k.com",
+    "enabled": true
+  },
+  {
+    "name": "Hangar 13",
+    "ats": "greenhouse",
+    "token": "hangar13",
+    "site": "hangar13games.com",
+    "enabled": true
+  },
+  {
+    "name": "Visual Concepts",
+    "ats": "greenhouse",
+    "token": "visualconcepts",
+    "site": "visualconcepts.com",
+    "enabled": true
+  },
+  {
+    "name": "Wizards of the Coast",
+    "ats": "greenhouse",
+    "token": "wizardsofthecoast",
+    "site": "wizards.com",
+    "enabled": false,
+    "note": "своя система найма, через общие доски не отдаёт"
+  }
+]
