@@ -302,5 +302,26 @@
     "token": "spyke-games",
     "site": "spykegames.com",
     "enabled": true
+  },
+  {
+    "name": "Scopely",
+    "ats": "greenhouse",
+    "token": "scopely",
+    "site": "scopely.com",
+    "enabled": true
+  },
+  {
+    "name": "Rockstar Games",
+    "ats": "greenhouse",
+    "token": "rockstargames",
+    "site": "rockstargames.com",
+    "enabled": true
+  },
+  {
+    "name": "Socialpoint",
+    "ats": "greenhouse",
+    "token": "spcareers",
+    "site": "socialpoint.es",
+    "enabled": true
   }
 ]

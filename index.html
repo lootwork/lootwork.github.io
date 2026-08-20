@@ -41,17 +41,63 @@
     --cyan-deep:#12303d;
     --pink:#ff6ba3;
 
+    --shadow:rgba(0,0,0,.45);
+    --grid:rgba(255,255,255,.011);
+    --glow:rgba(124,77,255,.13);
+    --noise:.02;
+    --ok:#7fd6a8;
+    --ok-line:#1e4636;
+    --amber-line:#5b431a;
+    --mark-bg:rgba(255,176,63,.16);
+    --mark-text:#ffd28a;
+    --mark-line:rgba(255,176,63,.28);
+    --cond:#c9a56b;
+    --cond-line:#4a3a1c;
+    --grade:#b9a8ff;
+    --grade-line:#3a2f6b;
+
     --display:"Unbounded",system-ui,sans-serif;
     --body:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif;
     --mono:"JetBrains Mono",ui-monospace,Consolas,monospace;
   }
+  /* Дневная смена: та же система, другой уровень света. Акценты приглушены,
+     потому что на белом фоне тот же янтарь и циан бьют по глазам. */
+  :root[data-theme="light"]{
+    --void:#f6f5fb;
+    --panel:#ffffff;
+    --panel-2:#f1eff9;
+    --line:#d9d5ec;
+    --line-soft:#e7e4f3;
+    --text:#191634;
+    --muted:#6a6392;
+    --amber:#b06c00;
+    --amber-deep:#fdf0d8;
+    --cyan:#0a7c9e;
+    --cyan-deep:#e0f4fa;
+    --pink:#c33d78;
+    --shadow:rgba(60,50,110,.16);
+    --grid:rgba(30,20,80,.035);
+    --glow:rgba(124,77,255,.10);
+    --noise:0;
+    --ok:#0f7a52;
+    --ok-line:#bfe6d4;
+    --amber-line:#e8cf9a;
+    --mark-bg:rgba(176,108,0,.14);
+    --mark-text:#7a4a00;
+    --mark-line:rgba(176,108,0,.30);
+    --cond:#8a6420;
+    --cond-line:#e6d6b4;
+    --grade:#6a4fbf;
+    --grade-line:#d8cff0;
+  }
+
   *{box-sizing:border-box;margin:0;padding:0}
 
   body{
     background:
-      radial-gradient(62% 38% at 22% -10%, rgba(124,77,255,.13) 0%, transparent 64%),
-      linear-gradient(rgba(255,255,255,.011) 1px, transparent 1px) 0 0 / 100% 44px,
-      linear-gradient(90deg, rgba(255,255,255,.011) 1px, transparent 1px) 0 0 / 44px 100%,
+      radial-gradient(62% 38% at 22% -10%, var(--glow) 0%, transparent 64%),
+      linear-gradient(var(--grid) 1px, transparent 1px) 0 0 / 100% 44px,
+      linear-gradient(90deg, var(--grid) 1px, transparent 1px) 0 0 / 44px 100%,
       var(--void);
     background-attachment:fixed;
     color:var(--text);
@@ -101,6 +147,11 @@
   #logo:hover{opacity:.85}
   .vertical{font-family:var(--mono);font-size:11.5px;letter-spacing:.34em;
     text-transform:uppercase;color:var(--cyan);margin-top:7px}
+  .head-controls{display:flex;align-items:center;gap:8px}
+  .theme-btn{background:var(--panel);border:1px solid var(--line);border-radius:999px;
+    width:34px;height:34px;cursor:pointer;font-size:15px;line-height:1;color:var(--muted);
+    display:flex;align-items:center;justify-content:center}
+  .theme-btn:hover{color:var(--text);border-color:var(--line)}
   .lang{display:flex;gap:4px;background:var(--panel);border:1px solid var(--line);
     border-radius:999px;padding:3px}
   .lang-btn{background:none;border:none;color:var(--muted);font-family:var(--mono);
@@ -113,7 +164,7 @@
   .pitch strong{color:var(--amber);font-weight:700}
   /* Моноширинные подписи-маркеры: технический слой поверх обычного текста. */
   .mono-mark{font-family:var(--mono);font-size:10px;letter-spacing:.18em;
-    text-transform:uppercase;color:#5a5290}
+    text-transform:uppercase;color:var(--muted);opacity:.75}
   .mono-mark::before{content:"// "}
   .stats{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
   .stat{background:var(--panel);border:1px solid var(--line-soft);border-radius:10px;
@@ -140,16 +191,16 @@
   footer .fname{font-family:var(--display);font-weight:600;color:var(--text);font-size:14px}
   footer a{color:var(--cyan);text-decoration:none}
   footer a:hover{text-decoration:underline}
-  footer .disclaimer{margin-top:10px;color:#6f679a;font-size:12px}
+  footer .disclaimer{margin-top:10px;color:var(--muted);opacity:.8;font-size:12px}
   .demo-note{margin-top:13px;padding:11px 13px;background:var(--amber-deep);
-    border:1px solid #5b431a;border-radius:11px;font-size:13px;color:#ffd79a}
+    border:1px solid var(--amber-line);border-radius:11px;font-size:13px;color:var(--amber)}
   .demo-note[hidden]{display:none}
 
   /* ---------- поиск ---------- */
   .bar{display:flex;gap:9px;margin-bottom:13px}
   .search{flex:1;min-width:0;background:var(--panel);border:1px solid var(--line);
     border-radius:12px;color:var(--text);font-family:var(--body);font-size:15px;padding:13px 15px}
-  .search::placeholder{color:#6f679a}
+  .search::placeholder{color:var(--muted)}
   .search:focus{outline:2px solid var(--cyan);outline-offset:-1px;border-color:transparent}
 
   .filter-btn{flex:none;display:flex;align-items:center;gap:8px;background:var(--panel);
@@ -177,14 +228,14 @@
   .qchip:hover{border-color:var(--line);color:var(--text)}
   .qchip.on{background:var(--cyan-deep);border-color:var(--cyan);color:var(--cyan);font-weight:600}
   /* Тип условия видно по цвету, а не только по тексту. */
-  .qchip.q-cond{color:#c9a56b;border-color:#4a3a1c}
+  .qchip.q-cond{color:var(--cond);border-color:var(--cond-line)}
   .qchip.q-cond.on{background:var(--amber-deep);border-color:var(--amber);color:var(--amber)}
-  .qchip.q-role{color:#8fd7ee;border-color:#254a58}
+  .qchip.q-role{color:var(--cyan);border-color:var(--cyan-deep)}
   .sort-wrap{margin-left:auto;display:flex;align-items:center;gap:9px;flex-wrap:wrap}
   .sort-wrap label{color:var(--muted);font-size:12.5px}
-  .hidden-chip{border-color:#4a2a3a;color:var(--pink)}
-  .hidden-chip.on{background:#331d2a;border-color:var(--pink);color:var(--pink)}
-  .fav-chip{border-color:#5b431a;color:var(--amber)}
+  .hidden-chip{border-color:var(--line);color:var(--pink)}
+  .hidden-chip.on{background:var(--panel-2);border-color:var(--pink);color:var(--pink)}
+  .fav-chip{border-color:var(--amber-line);color:var(--amber)}
   .fav-chip.on{background:var(--amber-deep);border-color:var(--amber);color:var(--amber)}
   .fav-chip:hover{border-color:var(--amber);color:var(--amber)}
   select.sort{background:var(--panel);border:1px solid var(--line);color:var(--text);
@@ -215,7 +266,7 @@
   .card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;
     background:var(--role, var(--line))}
   .card:hover{background:var(--panel-2);border-color:var(--line);
-    transform:translateY(-2px);box-shadow:0 10px 26px rgba(0,0,0,.45)}
+    transform:translateY(-2px);box-shadow:0 10px 26px var(--shadow)}
   .card:active{transform:translateY(-1px) scale(1.002)}
   .menu-wrap{position:relative}
   .kebab{background:none;border:none;color:var(--muted);font-size:19px;line-height:1;
@@ -223,7 +274,7 @@
   .kebab:hover{color:var(--text);background:var(--panel-2)}
   .menu{position:absolute;right:0;bottom:calc(100% + 6px);z-index:20;min-width:190px;
     background:var(--panel);border:1px solid var(--line);border-radius:11px;overflow:hidden;
-    box-shadow:0 12px 30px rgba(0,0,0,.45)}
+    box-shadow:0 12px 30px var(--shadow)}
   .mi{display:block;width:100%;text-align:left;background:none;border:none;cursor:pointer;
     color:var(--text);font-family:var(--body);font-size:13.5px;padding:11px 14px}
   .mi:hover{background:var(--panel-2)}
@@ -248,33 +299,33 @@
   .company .place{display:block;color:var(--text);font-size:12.5px;margin-top:3px}
   .salary{flex:none;font-family:var(--mono);font-size:13.5px;font-weight:600;color:var(--amber);
     text-align:right;white-space:nowrap}
-  .salary.none{color:#5f5789;font-weight:500;font-size:12px}
+  .salary.none{color:var(--muted);font-weight:500;font-size:12px}
 
   .tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:11px}
   .tag{font-size:11.5px;color:var(--muted);background:var(--panel-2);
     border:1px solid var(--line-soft);border-radius:7px;padding:3px 9px}
   .tag.remote{color:var(--cyan);border-color:var(--cyan-deep);background:var(--cyan-deep)}
-  .tag.src{color:#7fd6a8;border-color:#1e4636;font-family:var(--mono);font-size:11px}
+  .tag.src{color:var(--ok);border-color:var(--ok-line);font-family:var(--mono);font-size:11px}
   .tag.pool{color:var(--muted);border-style:dashed}
   .tag.role{color:var(--role, var(--muted));border-color:var(--role, var(--line-soft))}
-  .tag.grade{color:#b9a8ff;border-color:#3a2f6b}
-  mark{background:rgba(255,176,63,.16);color:#ffd28a;border:1px solid rgba(255,176,63,.28);
+  .tag.grade{color:var(--grade);border-color:var(--grade-line)}
+  mark{background:var(--mark-bg);color:var(--mark-text);border:1px solid var(--mark-line);
     border-radius:4px;padding:0 3px}
   .tag.stack{color:var(--text);border-color:var(--line);font-family:var(--mono);font-size:11px}
-  .tag.fresh{color:var(--amber);border-color:#4a3618;background:var(--amber-deep);font-family:var(--mono);font-size:11px}
+  .tag.fresh{color:var(--amber);border-color:var(--amber-line);background:var(--amber-deep);font-family:var(--mono);font-size:11px}
 
   .card-bottom{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:13px}
   /* Янтарь — самый сильный цвет в палитре. В ленте человек ещё сравнивает,
      поэтому там кнопка спокойная; сплошной янтарь остаётся окну вакансии. */
-  .apply{background:var(--amber);color:#231602;text-decoration:none;font-weight:700;
+  .apply{background:var(--amber);color:#fff;text-decoration:none;font-weight:700;
     font-size:13.5px;padding:10px 20px;border-radius:9px;font-family:var(--body)}
-  .apply:hover{background:#ffc164}
-  .card .apply{background:transparent;color:var(--amber);border:1px solid #5b431a;font-weight:600}
+  .apply:hover{filter:brightness(1.1)}
+  .card .apply{background:transparent;color:var(--amber);border:1px solid var(--amber-line);font-weight:600}
   .card .apply:hover{background:var(--amber-deep);border-color:var(--amber)}
-  .report{background:none;border:none;color:#5f5789;font-family:var(--body);font-size:12px;
+  .report{background:none;border:none;color:var(--muted);font-family:var(--body);font-size:12px;
     cursor:pointer;padding:6px}
   .report:hover{color:var(--pink)}
-  .fav{background:none;border:none;color:#524a80;font-size:26px;line-height:1;
+  .fav{background:none;border:none;color:var(--muted);font-size:26px;line-height:1;
     cursor:pointer;padding:0 2px;margin-left:10px;flex:none;
     transition:transform .14s,color .14s}
   .fav:hover{color:var(--amber);transform:scale(1.18)}
@@ -288,7 +339,7 @@
   .toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);z-index:60;
     background:var(--panel);border:1px solid var(--line);border-radius:11px;
     padding:11px 15px;display:flex;align-items:center;gap:14px;font-size:13.5px;
-    box-shadow:0 12px 34px rgba(0,0,0,.55);max-width:calc(100vw - 32px)}
+    box-shadow:0 12px 34px var(--shadow);max-width:calc(100vw - 32px)}
   .toast[hidden]{display:none}
   .toast button{background:none;border:none;color:var(--cyan);font-family:var(--body);
     font-size:13.5px;font-weight:600;cursor:pointer;padding:0;white-space:nowrap}
@@ -324,8 +375,8 @@
   .btn{flex:1;font-family:var(--body);font-size:14px;font-weight:600;padding:13px;border-radius:11px;
     cursor:pointer;border:1px solid var(--line);background:var(--panel-2);color:var(--text)}
   .btn:hover{border-color:var(--cyan);color:var(--cyan)}
-  .btn.primary{background:var(--amber);color:#231602;border-color:var(--amber)}
-  .btn.primary:hover:not(:disabled){background:#ffc164;color:#231602}
+  .btn.primary{background:var(--amber);color:#fff;border-color:var(--amber)}
+  .btn.primary:hover:not(:disabled){filter:brightness(1.1)}
   .btn.primary:disabled{opacity:.35;cursor:default}
 
   .group{margin-bottom:22px}
@@ -340,7 +391,7 @@
 
   .list-search{width:100%;background:var(--panel-2);border:1px solid var(--line);border-radius:10px;
     color:var(--text);font-family:var(--body);font-size:13.5px;padding:10px 12px;margin-bottom:9px}
-  .list-search::placeholder{color:#6f679a}
+  .list-search::placeholder{color:var(--muted)}
   .list-search:focus{outline:2px solid var(--cyan);outline-offset:-1px}
   .opt-head{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
     color:var(--muted);padding:12px 4px 5px;border-top:1px solid var(--line-soft);margin-top:6px}
@@ -376,9 +427,9 @@
   .job-head .pay{font-family:var(--mono);color:var(--amber);font-size:14px;margin-top:6px}
   /* Текст вакансии приходит сплошной простынёй. Разбираем его на заголовки,
      списки и абзацы — иначе читать невозможно. */
-  .job-source{font-family:var(--mono);font-size:11.5px;color:#7fd6a8;margin:0 0 16px;
+  .job-source{font-family:var(--mono);font-size:11.5px;color:var(--ok);margin:0 0 16px;
     letter-spacing:.03em}
-  .job-desc{font-size:14.5px;line-height:1.7;color:#d6d2f0}
+  .job-desc{font-size:14.5px;line-height:1.7;color:var(--text);opacity:.92}
   .job-desc.empty-desc{color:var(--muted);font-style:italic;white-space:pre-wrap}
   .job-desc h4{font-family:var(--display);font-size:13px;font-weight:600;color:var(--text);
     letter-spacing:.04em;text-transform:uppercase;margin:22px 0 9px;padding-top:14px;
@@ -396,7 +447,7 @@
 
   .to-top{position:fixed;right:18px;bottom:78px;z-index:40;width:46px;height:46px;
     background:var(--panel);border:1px solid var(--line);color:var(--cyan);
-    font-size:20px;border-radius:50%;cursor:pointer;box-shadow:0 8px 26px rgba(0,0,0,.5);
+    font-size:20px;border-radius:50%;cursor:pointer;box-shadow:0 8px 26px var(--shadow);
     transition:transform .14s,border-color .14s}
   .to-top:hover{border-color:var(--cyan);transform:translateY(-2px)}
   .to-top[hidden]{display:none}
@@ -404,17 +455,17 @@
   .fab{position:fixed;right:18px;bottom:18px;z-index:40;background:var(--panel);
     border:1px solid var(--line);color:var(--text);font-family:var(--body);font-weight:600;
     font-size:13.5px;padding:13px 19px;border-radius:999px;cursor:pointer;
-    box-shadow:0 8px 26px rgba(0,0,0,.5)}
+    box-shadow:0 8px 26px var(--shadow)}
   .fab:hover{border-color:var(--amber);color:var(--amber)}
 
   textarea.fb{width:100%;min-height:130px;resize:vertical;background:var(--panel-2);
     border:1px solid var(--line);border-radius:11px;color:var(--text);font-family:var(--body);
     font-size:14px;padding:12px 13px}
-  textarea.fb::placeholder{color:#6f679a}
+  textarea.fb::placeholder{color:var(--muted)}
   textarea.fb:focus{outline:2px solid var(--cyan);outline-offset:-1px}
 
   /* Едва заметный шум: убирает ощущение плоской заливки, ничего не изображая. */
-  body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.02;
+  body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;opacity:var(--noise);
     background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)'/%3E%3C/svg%3E")}
 
   :focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
@@ -430,9 +481,12 @@
   <div class="wrap">
     <div class="brandline">
       <h1><a id="logo" href="/" title="На главную">LOOT<i>::</i><b>WORK</b></a></h1>
-      <div class="lang">
-        <button class="lang-btn on" data-lang="ru">RU</button>
-        <button class="lang-btn" data-lang="en">EN</button>
+      <div class="head-controls">
+        <button class="theme-btn" id="themeBtn" aria-label="Тема" title="Тема"></button>
+        <div class="lang">
+          <button class="lang-btn on" data-lang="ru">RU</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
       </div>
     </div>
     <div class="vertical" id="vertical">Без агентств · Без дублей · Прямо от студий</div>
@@ -532,7 +586,7 @@
       <div class="group">
         <div class="group-title" id="gtLocation">Локация</div>
         <div class="chips" id="countryChips" style="margin-bottom:10px"></div>
-        <input class="list-search" id="locSearch" placeholder="Страна или город — можно по-русски">
+        <input class="list-search" id="locSearch" placeholder="Страна или город">
         <div class="scroll-list" id="fLocation"></div>
       </div>
     </div>
@@ -1012,12 +1066,13 @@
       allJobs:"Все вакансии", remoteJobs:"Удалённая работа",
       aboutPage:"Покрытие базы", privacyPage:"Приватность",
       company:"Компания", location:"Локация", any:"Любые", month:"За месяц",
-      findCompany:"Найти компанию…", findLoc:"Страна или город — можно по-русски",
+      findCompany:"Найти компанию…", findLoc:"Страна или город",
       clear:"Очистить", show:"Показать", nothingShort:"Ничего не найдено",
       citiesWord:"Города", otherWord:"Прочее",
       toFav:"В избранное", inFav:"В избранном", applyOn:"Откликнуться на сайте студии",
       noDesc:"Студия не отдаёт текст вакансии в общем виде — описание откроется на её сайте.",
-      vertical:"Без агентств · Без дублей · Прямо от студий",
+      vertical:"Прямо от студий · Живые ссылки · Без агентств",
+      themeWord:"Светлая или тёмная тема",
       markScan:"база", markSync:"источник",
       pitchHtml:'Вакансии в <em>геймдеве</em><br><strong>напрямую</strong> от студий',
       updatedToday:"Обновлено сегодня", collected:"Собрано с сайтов студий.",
@@ -1088,7 +1143,8 @@
       citiesWord:"Cities", otherWord:"Other",
       toFav:"Save", inFav:"Saved", applyOn:"Apply on the studio site",
       noDesc:"This studio does not share the job text — it will open on their site.",
-      vertical:"No agencies · No dupes · Straight from studios",
+      vertical:"Straight from studios · Live links · No agencies",
+      themeWord:"Light or dark theme",
       markScan:"database", markSync:"source",
       pitchHtml:'Game industry jobs,<br><strong>straight</strong> from the <em>studios</em>',
       updatedToday:"Updated today", collected:"Collected from studio sites.",
@@ -1133,6 +1189,23 @@
     }
   };
 
+  // Тёмная тема остаётся по умолчанию: аудитория геймдева живёт в тёмных
+  // интерфейсах. Но выдачу читают подолгу, и днём светлая бывает нужнее.
+  let theme = "dark";
+  try { theme = store.getItem("theme") || "dark"; } catch(e){}
+
+  function applyTheme(){
+    document.documentElement.dataset.theme = theme;
+    const meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.setAttribute("content", theme === "light" ? "#f6f5fb" : "#0c0a1a");
+    const btn = $("themeBtn");
+    if (btn){
+      btn.textContent = theme === "light" ? "☾" : "☀";
+      btn.setAttribute("aria-label", t("themeWord"));
+      btn.setAttribute("title", t("themeWord"));
+    }
+  }
+
   let lang = "ru";
   try { lang = store.getItem("lang") || "ru"; } catch(e){}
   function t(key){ return (I18N[lang] && I18N[lang][key]) || I18N.ru[key] || key; }
@@ -1148,6 +1221,7 @@
     $("footAll").textContent = t("allJobs");
     $("footRemote").textContent = t("remoteJobs");
     $("vertical").textContent = t("vertical");
+    applyTheme();                 // подпись кнопки темы тоже переводится
     if ($("markSync")) $("markSync").textContent = t("markSync");
     $("footAbout").textContent = t("aboutPage");
     $("footPrivacyLink").textContent = t("privacyPage");
@@ -1233,7 +1307,17 @@
     } catch(e){ return j.site || ""; }
   }
 
-  function roleColor(v){ return ROLE_COLOR[v] || "#5a5290"; }
+  const ROLE_COLOR_LIGHT = {
+    "Программирование":"#0b7fa3", "Технический художник":"#0f8a6a",
+    "Арт":"#c2417a", "Анимация":"#7b4fc4", "VFX":"#5a46c9",
+    "Геймдизайн":"#a86a00", "Нарратив":"#916230", "Звук":"#12805a",
+    "QA":"#1f6fb5", "Аналитика":"#2c8a63", "Продакт":"#c05a1e",
+    "Продюсирование":"#b85520", "Маркетинг":"#8b45c4", "Поддержка":"#3f6cb0"
+  };
+  function roleColor(v){
+    const map = theme === "light" ? ROLE_COLOR_LIGHT : ROLE_COLOR;
+    return map[v] || (theme === "light" ? "#7a739f" : "#5a5290");
+  }
 
   const SPEC_EN = {
     "Движок":"Engine", "Геймплей":"Gameplay", "Бэкенд":"Backend",
@@ -2644,6 +2728,13 @@
     else if (e.key === "Escape") hideSuggest();
   });
 
+  $("themeBtn").addEventListener("click", () => {
+    theme = theme === "light" ? "dark" : "light";
+    try { store.setItem("theme", theme); } catch(e){}
+    applyTheme();
+    renderList();          // цвета ролей на карточках зависят от темы
+  });
+
   $("shareBtn").addEventListener("click", onShare);
   $("moreBtn").addEventListener("click", () => { shownCount += PAGE; renderList(); });
   $("jobFav").addEventListener("click", () => {
@@ -2869,6 +2960,7 @@
     window.ym(CFG.metrikaId,"init",{clickmap:true,trackLinks:true,accurateTrackBounce:true});
   }
 
+  applyTheme();
   urlToState();
   placeFilters();
   applyLang();
