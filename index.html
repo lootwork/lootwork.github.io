@@ -391,7 +391,7 @@
 
   <div class="meta-line">
     <span id="count"></span>
-    <button class="reset" id="shareBtn" hidden>Ссылка на фильтр</button>
+    <button class="reset" id="shareBtn" hidden><span aria-hidden="true">⧉</span> <span id="shareLabel">Ссылка на фильтр</span></button>
     <button class="reset" id="reset">Сбросить всё</button>
   </div>
 
@@ -828,10 +828,10 @@
     ru:{
       searchPh:"Поиск: Unity, аниматор, продюсер…", filters:"Фильтры", sort:"Сортировка",
       reset:"Сбросить всё", found:"Вакансий", of:"из", nothing:"Ничего не найдено",
-      nosalary:"З/П не указана", apply:"Откликнуться", report:"неактуальна?",
+      nosalary:"З/П не указана", apply:"Откликнуться", report:"Сообщить о проблеме",
       reported:"вы отметили", more:"Показать ещё", write:"Написать нам",
       emptyTitle:"Под эти фильтры ничего нет.", emptySub:"Попробуй убрать часть условий.",
-      remote:"Удалёнка", withSalary:"С вилкой", week:"За неделю", favs:"Избранное",
+      remote:"Удалёнка", withSalary:"Есть зарплата", week:"За неделю", favs:"Избранное",
       hidden:"Скрытые", restore:"Вернуть в список", hide:"Скрыть вакансию", more2:"Ещё",
       pool:"резерв",
       remoteWorld:"Удалёнка по миру", remoteZone:"Удалёнка в регионе", remoteHybrid:"Гибрид",
@@ -855,8 +855,9 @@
       postedWord:"опубликовано", noLoc:"локация не указана",
       homeQ:"Вернуться на главную?", homeGo:"На главную",
       done:"Готово", undo:"Отменить", closeWord:"Закрыть",
-      reportThanks:"Спасибо. Вакансию проверят, а у тебя она больше не покажется.",
+      reportThanks:"Спасибо, сигнал принят. Вакансия останется в списке — скрыть её можно отдельно, через меню на карточке.",
       fbThanks:"Спасибо, прочитаю.",
+      sendNow:"Отправить сейчас", willSend:"Отправим через 7 секунд.",
       resetOne:"Снимется один фильтр, и вернётся полный список.",
       resetMany:"Снимется фильтров: {n}. Вернётся полный список.",
       top:"Наверх", perWeek:"за неделю",
@@ -878,17 +879,17 @@
         ["Откуда вакансии","Студии почти не пишут карьерные страницы руками — они подключают готовые системы найма: Greenhouse, Lever, Recruitee и другие. Мы берём вакансии прямо оттуда, поэтому здесь нет перепостов агентств и дублей одной вакансии в пяти местах."],
         ["Почему раз в неделю","Вакансия живёт около трёх недель. Недельный цикл почти ничего не теряет, зато позволяет обходиться без сервера — сборщик просыпается по расписанию и обновляет базу сам."],
         ["Что с мёртвыми ссылками","Перед каждой публикацией робот стучится в каждую вакансию и выбрасывает те, что отвечают ошибкой или показывают «вакансия закрыта». Остальное ловят жалобы: кнопка «неактуальна» есть на каждой карточке."],
-        ["Что покрываем","Европа, СНГ, Кипр, Польша, Сербия, Армения, Грузия, Казахстан, удалёнка и международные студии."],
-        ["Чего пока мало","Небольших российских студий, вакансий из Telegram-каналов и зарплатных вилок — их указывают далеко не все."]
+        ["Что покрываем лучше всего","Польша, Кипр, Сербия, Канада, Британия, США и удалёнка. Это там, где сидят студии, которые мы читаем."],
+        ["Чего пока мало","Российских студий — hh закрыл доступ в декабре 2025. Мало вакансий из Telegram-каналов и зарплатных вилок: их указывают далеко не все. И база пока небольшая: это не все вакансии геймдева, а прямые вакансии тех студий, которых мы читаем."]
       ]
     },
     en:{
       searchPh:"Search: Unity, animator, producer…", filters:"Filters", sort:"Sort",
       reset:"Reset all", found:"Jobs", of:"of", nothing:"Nothing found",
-      nosalary:"Salary not stated", apply:"Apply", report:"not active?",
+      nosalary:"Salary not stated", apply:"Apply", report:"Report a problem",
       reported:"you flagged it", more:"Show more", write:"Contact us",
       emptyTitle:"Nothing matches these filters.", emptySub:"Try removing some conditions.",
-      remote:"Remote", withSalary:"With salary", week:"This week", favs:"Saved",
+      remote:"Remote", withSalary:"Salary listed", week:"This week", favs:"Saved",
       hidden:"Hidden", restore:"Bring back", hide:"Hide this job", more2:"More",
       pool:"talent pool",
       remoteWorld:"Remote worldwide", remoteZone:"Remote in region", remoteHybrid:"Hybrid",
@@ -912,8 +913,9 @@
       postedWord:"posted", noLoc:"location not stated",
       homeQ:"Back to the start?", homeGo:"Go to start",
       done:"Done", undo:"Undo", closeWord:"Close",
-      reportThanks:"Thanks. We will check it, and you will not see it again.",
+      reportThanks:"Thanks, we got the signal. The job stays in your list — you can hide it separately from the card menu.",
       fbThanks:"Thanks, I will read it.",
+      sendNow:"Send now", willSend:"Sending in 7 seconds.",
       resetOne:"One filter will be removed, and the full list will come back.",
       resetMany:"{n} filters will be removed. The full list will come back.",
       top:"Top", perWeek:"this week",
@@ -935,8 +937,8 @@
         ["Where the jobs come from","Studios rarely build career pages by hand — they plug in hiring systems like Greenhouse, Lever or Recruitee. We read those directly, so there are no agency reposts and no duplicates."],
         ["Why weekly","A job posting lives about three weeks, so a weekly cycle loses almost nothing and needs no server: the collector wakes up on schedule and refreshes the list itself."],
         ["Dead links","Before every update a robot opens each job and drops the ones that fail or say the position is closed. The rest is caught by reports — every card has a flag button."],
-        ["Coverage","Europe, CIS, Cyprus, Poland, Serbia, Armenia, Georgia, Kazakhstan, remote and international studios."],
-        ["What is still thin","Smaller studios, Telegram-only postings and salary ranges — many studios simply do not publish them."]
+        ["Best covered","Poland, Cyprus, Serbia, Canada, the UK, the US and remote — that is where the studios we read are based."],
+        ["What is still thin","Russian studios, Telegram-only postings and salary ranges. And the base is small on purpose: these are direct jobs from the studios we read, not every game job in the world."]
       ]
     }
   };
@@ -950,14 +952,14 @@
     searchEl.placeholder = t("searchPh");
     $("filterBtn").childNodes[0].nodeValue = t("filters") + " ";
     $("reset").textContent = t("reset");
-    $("shareBtn").textContent = t("share");
+    $("shareLabel").textContent = t("share");
     $("jobApply").textContent = t("applyOn");
     if (openJob) $("jobPage").textContent = t("jobPage");   // окно может быть открыто
     $("footAll").textContent = t("allJobs");
     $("footRemote").textContent = t("remoteJobs");
     document.querySelectorAll(".close").forEach(b => b.setAttribute("aria-label", t("closeWord")));
-    $("reportDone").textContent = t("done");
-    $("fbDone").textContent = t("done");
+    $("reportDone").textContent = t("sendNow");
+    $("fbDone").textContent = t("sendNow");
     $("reportUndo").textContent = t("undo");
     $("fbUndo").textContent = t("undo");
     $("fbBtn").textContent = t("write");
@@ -1207,7 +1209,35 @@
     out.sort(s.fn);
     // Заявки в резерв — не вакансии, а приглашение прислать резюме на будущее.
     // Не прячем, но держим ниже настоящих открытых мест.
-    return out.sort((a, b) => (a.pool ? 1 : 0) - (b.pool ? 1 : 0));
+    out.sort((a, b) => (a.pool ? 1 : 0) - (b.pool ? 1 : 0));
+    return spread(out);
+  }
+
+  // Одна крупная студия может выложить полсотни вакансий подряд, и лента
+  // превращается в её витрину. Больше трёх подряд от одной студии не даём —
+  // остальные сдвигаются ниже, порядок внутри студии сохраняется.
+  function spread(list){
+    if (state.company.size === 1) return list;   // выбрал студию — показываем как есть
+    const out = [], waiting = [];
+    let last = null, streak = 0;
+    const take = j => {
+      if (j.company === last) streak++; else { last = j.company; streak = 1; }
+      out.push(j);
+    };
+    list.forEach(j => {
+      if (j.company === last && streak >= 3){
+        const other = waiting.findIndex(w => w.company !== last);
+        if (other >= 0){ take(waiting.splice(other, 1)[0]); }
+        waiting.push(j);
+        return;
+      }
+      take(j);
+      // как только сменилась студия, пробуем вернуть отложенные
+      for (let i = 0; i < waiting.length; i++){
+        if (waiting[i].company !== last || streak < 3){ take(waiting.splice(i, 1)[0]); i--; }
+      }
+    });
+    return out.concat(waiting);
   }
 
   function activeCount(){
@@ -1413,8 +1443,9 @@
 
     chip(t("remote"), () => state.remote, () => state.remote = !state.remote);
     const withPay = JOBS.filter(j => j.salary).length;
-    if (withPay > 0)
-      chip(t("hasSalary") + " " + withPay, () => state.salary, () => state.salary = !state.salary);
+    // Если вилок в базе почти нет, фильтр только раздражает пустотой.
+    if (withPay >= JOBS.length * 0.05)
+        chip(t("hasSalary") + " " + withPay, () => state.salary, () => state.salary = !state.salary);
     chip(t("week"), () => state.age === 7, () => state.age = state.age === 7 ? null : 7);
 
     // четыре самые многочисленные роли — они закрывают большинство запросов
@@ -1531,13 +1562,31 @@
     });
   }
 
+  // Что именно скопировалось — человеку полезнее, чем просто «скопировано».
+  function filterSummary(){
+    const parts = [];
+    state.role.forEach(v => parts.push(roleLabel(v)));
+    state.spec.forEach(v => parts.push(specLabel(v)));
+    state.stack.forEach(v => parts.push(v));
+    state.rkind.forEach(v => parts.push(rkindLabel(v)));
+    state.grade.forEach(v => parts.push(gradeLabel(v)));
+    state.company.forEach(v => parts.push(v));
+    if (state.remote) parts.push(t("remote"));
+    if (state.salary) parts.push(t("withSalary"));
+    if (state.age) parts.push(state.age === 7 ? t("week") : t("month"));
+    if (state.query) parts.push("«" + state.query + "»");
+    if (state.location.size) parts.push(t("gtLocation").toLowerCase());
+    return parts.slice(0, 4).join(" · ");
+  }
+
   let shareTimer;
   function onShare(){
-    const btn = $("shareBtn");
+    const label = $("shareLabel");
     copyText(stateToUrl()).then(() => {
-      btn.textContent = t("copied");
+      const what = filterSummary();
+      label.textContent = what ? t("copied") + ": " + what : t("copied");
       clearTimeout(shareTimer);
-      shareTimer = setTimeout(() => { btn.textContent = t("share"); }, 2000);
+      shareTimer = setTimeout(() => { label.textContent = t("share"); }, 2600);
     }).catch(() => { prompt(t("share"), stateToUrl()); });
   }
 
@@ -2074,7 +2123,8 @@
   // Общий вид «отправлено»: спасибо, кнопка «Отменить» и кнопка «Готово».
   function showThanks(kind, text){
     const body = kind === "report" ? "reportBody" : "fbBody";
-    $(body).innerHTML = '<div class="thanks"><span class="big">✓</span>'+text+'</div>';
+    $(body).innerHTML = '<div class="thanks"><span class="big">✓</span>'+text+
+      '<div class="hint" style="margin-top:12px">'+t("willSend")+'</div></div>';
     $(kind === "report" ? "sendReport" : "fbSend").hidden = true;
     $(kind === "report" ? "reportDone" : "fbDone").hidden = false;
     $(kind === "report" ? "reportUndo" : "fbUndo").hidden = false;
@@ -2293,7 +2343,8 @@
     o.addEventListener("click", e => {
       if (e.target !== o) return;
       if (sentOk){ confirmSent(); return; }  // отправку подтвердили — просто закрываем
-      askClose(o);
+      if (hasUnsaved(o)) askClose(o);
+      else { o.hidden = true; returnFocus(); }
     });
   });
 
@@ -2332,11 +2383,22 @@
     pendingClose = null;
   });
 
+  // Переспрашивать стоит только там, где человек успел что-то ввести.
+  // Для окна вакансии, фильтров и «как это работает» вопрос лишний.
+  function hasUnsaved(overlay){
+    if (overlay.id === "fbOverlay") return !!($("fbText") && $("fbText").value.trim());
+    if (overlay.id === "reportOverlay") return !!(reportReason || reportWhen);
+    return false;
+  }
+
   document.addEventListener("keydown", e => {
     if (e.key !== "Escape") return;
     if (!$("closeOverlay").hidden){ $("closeOverlay").hidden = true; pendingClose = null; return; }
     const open = [...document.querySelectorAll(".overlay")].find(o => !o.hidden && o.id !== "closeOverlay");
-    if (open) askClose(open);
+    if (!open) return;
+    if (sentOk){ confirmSent(); return; }
+    if (hasUnsaved(open)) askClose(open);
+    else { open.hidden = true; returnFocus(); }
   });
 
   // кнопка «наверх»
