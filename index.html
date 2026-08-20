@@ -3,7 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>LOOTWORK — вакансии в геймдеве</title>
+<title>LOOTWORK — вакансии в геймдеве напрямую от студий</title>
+<meta name="description" content="Вакансии в игровой индустрии напрямую с карьерных страниц студий: разработка, арт, QA, геймдизайн, продюсирование, маркетинг, удалёнка. Без агентств, дублей и мёртвых ссылок.">
+<meta property="og:title" content="LOOTWORK — вакансии в геймдеве">
+<meta property="og:description" content="Прямые вакансии игровых студий. Без агентств, дублей и мёртвых ссылок.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://lootwork.github.io/">
+<meta name="theme-color" content="#0c0a1a">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;700&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
@@ -80,7 +86,19 @@
     font-size:11.5px;padding:5px 11px;border-radius:999px;cursor:pointer}
   .lang-btn.on{background:var(--cyan-deep);color:var(--cyan)}
   .lang-btn:hover{color:var(--cyan)}
-  .sub{color:var(--muted);font-size:13.5px;margin-top:7px}
+  .pitch{font-size:16px;color:var(--text);margin-top:10px;font-weight:600}
+  .stats{font-family:var(--mono);font-size:13px;color:var(--cyan);margin-top:8px;letter-spacing:.01em}
+  .sub{color:var(--muted);font-size:13.5px;margin-top:8px;max-width:640px;line-height:1.6}
+  .how{background:none;border:none;color:var(--cyan);font:inherit;font-size:13.5px;
+    text-decoration:underline;cursor:pointer;padding:0;margin-left:4px}
+  .how:hover{color:var(--amber)}
+
+  footer{border-top:1px solid var(--line-soft);margin-top:34px;padding:22px 0 6px;
+    color:var(--muted);font-size:12.5px;line-height:1.75}
+  footer .fname{font-family:var(--display);font-weight:600;color:var(--text);font-size:14px}
+  footer a{color:var(--cyan);text-decoration:none}
+  footer a:hover{text-decoration:underline}
+  footer .disclaimer{margin-top:10px;color:#6f679a;font-size:12px}
   .demo-note{margin-top:13px;padding:11px 13px;background:var(--amber-deep);
     border:1px solid #5b431a;border-radius:11px;font-size:13px;color:#ffd79a}
   .demo-note[hidden]{display:none}
@@ -303,7 +321,13 @@
       </div>
     </div>
     <div class="vertical">Gamedev</div>
-    <div class="sub" id="subline">Собрано с сайтов студий. Обновляется раз в неделю.</div>
+    <div class="pitch" id="pitch">Работа в геймдеве напрямую от студий</div>
+    <div class="stats" id="stats"></div>
+    <div class="sub" id="subline">
+      <span id="subtext">Без агентств, дублей и ручных перепостов. Вакансии берём с карьерных
+      страниц игровых компаний.</span>
+      <button class="how" id="howBtn">Как это работает</button>
+    </div>
     <div class="demo-note" id="demoNote" hidden>
       Сейчас показаны демонстрационные вакансии. Настоящие появятся после запуска сборщика.
     </div>
@@ -330,15 +354,35 @@
 
   <div id="list"></div>
   <button class="more" id="moreBtn" hidden>Показать ещё</button>
+ </main>
+</div>
 
-
+<div class="wrap">
+  <footer>
+    <div class="fname">LOOTWORK</div>
+    <div id="footText">
+      Вакансии собираются автоматически с публичных карьерных страниц игровых студий
+      и их систем найма. Мы не работодатель, не агентство и не принимаем отклики —
+      откликаться нужно на сайте студии.
+    </div>
+    <div style="margin-top:10px">
+      <a href="https://github.com/lootwork/lootwork.github.io" target="_blank" rel="noopener">GitHub</a>
+      &nbsp;·&nbsp;
+      <a href="#" id="footWrite">Добавить студию или сообщить об ошибке</a>
+      &nbsp;·&nbsp;
+      <span id="footUpdated"></span>
+    </div>
+    <div class="disclaimer" id="footPrivacy">
+      Сайт использует Яндекс.Метрику для подсчёта посещений. Резюме и отклики мы не собираем.
+    </div>
+  </footer>
 </div>
 
 <!-- окно фильтров -->
 <div class="overlay" id="filterOverlay" hidden>
   <div class="sheet">
     <div class="sheet-head">
-      <h2>Фильтры</h2>
+      <h2 id="filtersTitle">Фильтры</h2>
       <button class="close" id="filterSheetClose" data-close="filterOverlay">×</button>
     </div>
     <div class="sheet-body">
@@ -380,6 +424,20 @@
   </div>
 </div>
 
+<!-- как это работает -->
+<div class="overlay" id="howOverlay" hidden>
+  <div class="sheet">
+    <div class="sheet-head">
+      <h2 id="howTitle">Как это работает</h2>
+      <button class="close" data-close="howOverlay" aria-label="Закрыть">×</button>
+    </div>
+    <div class="sheet-body" id="howBody"></div>
+    <div class="sheet-foot">
+      <button class="btn primary" data-close="howOverlay" id="howOk">Понятно</button>
+    </div>
+  </div>
+</div>
+
 <!-- окно вакансии -->
 <div class="overlay" id="jobOverlay" hidden>
   <div class="sheet">
@@ -403,22 +461,22 @@
 <div class="overlay" id="fbOverlay" hidden>
   <div class="sheet">
     <div class="sheet-head">
-      <h2>Написать</h2>
+      <h2 id="fbTitle">Написать</h2>
       <button class="close" data-close="fbOverlay">×</button>
     </div>
     <div class="sheet-body" id="fbBody">
-      <div class="hint">Читаю каждое сообщение. Оставь почту в тексте — отвечу.</div>
+      <div class="hint" id="fbHint">Читаю каждое сообщение. Оставь почту в тексте — отвечу.</div>
       <div class="group">
-        <div class="group-title">Тема</div>
+        <div class="group-title" id="fbTopicTitle">Тема</div>
         <div id="fbTopics"></div>
       </div>
       <div class="group">
-        <div class="group-title">Что рассказать</div>
+        <div class="group-title" id="fbMsgTitle">Что рассказать</div>
         <textarea class="fb" id="fbText" placeholder="Чего не хватает, что мешает, какую студию добавить…"></textarea>
       </div>
     </div>
     <div class="sheet-foot">
-      <button class="btn" data-close="fbOverlay">Отмена</button>
+      <button class="btn" data-cancel data-close="fbOverlay">Отмена</button>
       <button class="btn primary" id="fbSend" disabled>Отправить</button>
     </div>
   </div>
@@ -445,23 +503,23 @@
 <div class="overlay" id="reportOverlay" hidden>
   <div class="sheet">
     <div class="sheet-head">
-      <h2>Что не так с вакансией?</h2>
+      <h2 id="reportTitle">Что не так с вакансией?</h2>
       <button class="close" data-close="reportOverlay">×</button>
     </div>
     <div class="sheet-body" id="reportBody">
       <div class="job-ref" id="reportRef"></div>
-      <div class="hint">Ответы помогают чистить базу. Займёт секунд десять.</div>
+      <div class="hint" id="reportHint">Ответы помогают чистить базу. Займёт секунд десять.</div>
       <div class="group">
-        <div class="group-title">Причина</div>
+        <div class="group-title" id="reasonTitle">Причина</div>
         <div id="reasons"></div>
       </div>
       <div class="group">
-        <div class="group-title">Когда столкнулся</div>
+        <div class="group-title" id="whenTitle">Когда столкнулся</div>
         <div id="whens"></div>
       </div>
     </div>
     <div class="sheet-foot">
-      <button class="btn" data-close="reportOverlay">Отмена</button>
+      <button class="btn" data-cancel data-close="reportOverlay">Отмена</button>
       <button class="btn primary" id="sendReport" disabled>Отправить</button>
     </div>
   </div>
@@ -612,7 +670,25 @@
       sortNew:"Сначала новые", sortOld:"Сначала старые", sortPayHigh:"Зарплата: больше",
       sortPayLow:"Зарплата: меньше", sortRegion:"По локации", sortCompany:"По компании",
       closeQ:"Закрыть окно?", closeSub:"Выбранное сохранится.", stay:"Остаться", close:"Закрыть",
-      top:"Наверх", perWeek:"за неделю"
+      top:"Наверх", perWeek:"за неделю",
+      pitch:"Работа в геймдеве напрямую от студий",
+      subtext:"Без агентств, дублей и ручных перепостов. Вакансии берём с карьерных страниц игровых компаний.",
+      how:"Как это работает", howTitle:"Как это работает", ok:"Понятно",
+      jobsWord:"вакансий", studiosWord:"студий", updatedOn:"обновлено",
+      hasSalary:"Есть зарплата", reasonTitle:"Причина", whenTitle:"Когда столкнулся",
+      reportTitle:"Что не так с вакансией?", reportHint:"Ответы помогают чистить базу. Займёт секунд десять.",
+      writeTitle:"Написать", fbHint:"Читаю каждое сообщение. Оставь почту в тексте — отвечу.",
+      topic:"Тема", message:"Что рассказать", send:"Отправить", cancel:"Отмена",
+      filtersTitle:"Фильтры", footWrite:"Добавить студию или сообщить об ошибке",
+      footText:"Вакансии собираются автоматически с публичных карьерных страниц игровых студий и их систем найма. Мы не работодатель, не агентство и не принимаем отклики — откликаться нужно на сайте студии.",
+      footPrivacy:"Сайт использует Яндекс.Метрику для подсчёта посещений. Резюме и отклики мы не собираем.",
+      howBody:[
+        ["Откуда вакансии","Студии почти не пишут карьерные страницы руками — они подключают готовые системы найма: Greenhouse, Lever, Recruitee и другие. Мы берём вакансии прямо оттуда, поэтому здесь нет перепостов агентств и дублей одной вакансии в пяти местах."],
+        ["Почему раз в неделю","Вакансия живёт около трёх недель. Недельный цикл почти ничего не теряет, зато позволяет обходиться без сервера — сборщик просыпается по расписанию и обновляет базу сам."],
+        ["Что с мёртвыми ссылками","Перед каждой публикацией робот стучится в каждую вакансию и выбрасывает те, что отвечают ошибкой или показывают «вакансия закрыта». Остальное ловят жалобы: кнопка «неактуальна» есть на каждой карточке."],
+        ["Что покрываем","Европа, СНГ, Кипр, Польша, Сербия, Армения, Грузия, Казахстан, удалёнка и международные студии."],
+        ["Чего пока мало","Небольших российских студий, вакансий из Telegram-каналов и зарплатных вилок — их указывают далеко не все."]
+      ]
     },
     en:{
       searchPh:"Search: Unity, animator, producer…", filters:"Filters", sort:"Sort",
@@ -631,7 +707,25 @@
       sortNew:"Newest first", sortOld:"Oldest first", sortPayHigh:"Salary: high to low",
       sortPayLow:"Salary: low to high", sortRegion:"By location", sortCompany:"By company",
       closeQ:"Close this window?", closeSub:"Your choices are kept.", stay:"Stay", close:"Close",
-      top:"Top", perWeek:"this week"
+      top:"Top", perWeek:"this week",
+      pitch:"Game industry jobs, straight from the studios",
+      subtext:"No agencies, no duplicates, no manual reposts. We take jobs from studio career pages.",
+      how:"How it works", howTitle:"How it works", ok:"Got it",
+      jobsWord:"jobs", studiosWord:"studios", updatedOn:"updated",
+      hasSalary:"Salary listed", reasonTitle:"Reason", whenTitle:"When did you notice",
+      reportTitle:"What is wrong with this job?", reportHint:"Your answer helps keep the list clean. Takes ten seconds.",
+      writeTitle:"Contact us", fbHint:"I read everything. Leave your email in the text and I will reply.",
+      topic:"Topic", message:"Your message", send:"Send", cancel:"Cancel",
+      filtersTitle:"Filters", footWrite:"Suggest a studio or report a problem",
+      footText:"Jobs are collected automatically from public career pages of game studios and their hiring systems. We are not an employer or an agency and we do not accept applications — apply on the studio site.",
+      footPrivacy:"This site uses Yandex.Metrica to count visits. We do not collect CVs or applications.",
+      howBody:[
+        ["Where the jobs come from","Studios rarely build career pages by hand — they plug in hiring systems like Greenhouse, Lever or Recruitee. We read those directly, so there are no agency reposts and no duplicates."],
+        ["Why weekly","A job posting lives about three weeks, so a weekly cycle loses almost nothing and needs no server: the collector wakes up on schedule and refreshes the list itself."],
+        ["Dead links","Before every update a robot opens each job and drops the ones that fail or say the position is closed. The rest is caught by reports — every card has a flag button."],
+        ["Coverage","Europe, CIS, Cyprus, Poland, Serbia, Armenia, Georgia, Kazakhstan, remote and international studios."],
+        ["What is still thin","Smaller studios, Telegram-only postings and salary ranges — many studios simply do not publish them."]
+      ]
     }
   };
 
@@ -645,6 +739,28 @@
     $("filterBtn").childNodes[0].nodeValue = t("filters") + " ";
     $("reset").textContent = t("reset");
     $("fbBtn").textContent = t("write");
+    $("pitch").textContent = t("pitch");
+    $("subtext").textContent = t("subtext");
+    $("howBtn").textContent = t("how");
+    $("howTitle").textContent = t("howTitle");
+    $("howOk").textContent = t("ok");
+    $("footText").textContent = t("footText");
+    $("footPrivacy").textContent = t("footPrivacy");
+    $("footWrite").textContent = t("footWrite");
+    $("reportTitle").textContent = t("reportTitle");
+    $("reportHint").textContent = t("reportHint");
+    $("reasonTitle").textContent = t("reasonTitle");
+    $("whenTitle").textContent = t("whenTitle");
+    $("fbTitle").textContent = t("writeTitle");
+    $("fbHint").textContent = t("fbHint");
+    $("fbTopicTitle").textContent = t("topic");
+    $("fbMsgTitle").textContent = t("message");
+    $("fbSend").textContent = t("send");
+    $("sendReport").textContent = t("send");
+    $("filtersTitle").textContent = t("filtersTitle");
+    document.querySelectorAll("[data-cancel]").forEach(b => b.textContent = t("cancel"));
+    renderStats();
+    renderHow();
     $("toTop").title = t("top");
     document.querySelectorAll(".lang-btn").forEach(b =>
       b.classList.toggle("on", b.dataset.lang === lang));
@@ -653,6 +769,34 @@
     SORTS.region.label = t("sortRegion"); SORTS.company.label = t("sortCompany");
     renderList();
     buildFilterUi();
+  }
+
+  const MONTHS = {
+    ru:["января","февраля","марта","апреля","мая","июня","июля","августа","сентября","октября","ноября","декабря"],
+    en:["January","February","March","April","May","June","July","August","September","October","November","December"]
+  };
+
+  function humanDate(iso){
+    const d = new Date(iso);
+    if (isNaN(d)) return iso;
+    return lang === "ru"
+      ? d.getDate() + " " + MONTHS.ru[d.getMonth()]
+      : MONTHS.en[d.getMonth()] + " " + d.getDate();
+  }
+
+  // Цифры на первом экране: сколько вакансий, от скольких студий и когда обновлено.
+  function renderStats(){
+    const studios = window.JOBS_STUDIOS || new Set(JOBS.map(j => j.company)).size;
+    const parts = [JOBS.length + " " + t("jobsWord"), studios + " " + t("studiosWord")];
+    if (UPDATED) parts.push(t("updatedOn") + " " + humanDate(UPDATED));
+    $("stats").textContent = parts.join("  ·  ");
+  }
+
+  function renderHow(){
+    const rows = t("howBody") || [];
+    $("howBody").innerHTML = rows.map(([title, text]) =>
+      '<div class="group"><div class="group-title">'+esc(title)+'</div>'+
+      '<div class="hint" style="margin:0">'+esc(text)+'</div></div>').join("");
   }
 
   // ------------------------------------------------------------------ география
@@ -743,8 +887,11 @@
       if (d === null || d > st.age) return false;
     }
     if (st.query){
-      const hay = (j.title+" "+j.company+" "+j.locations.join(" ")).toLowerCase();
-      if (!hay.includes(st.query)) return false;
+      // ищем и по тексту вакансии: там стек, требования и условия
+      if (!j._hay) j._hay = [j.title, j.company, j.role, j.grade,
+                             (j.locations||[]).join(" "), j.desc || ""]
+                            .join(" ").toLowerCase();
+      if (!j._hay.includes(st.query)) return false;
     }
     return true;
   }
@@ -848,7 +995,8 @@
         '<div style="display:flex;align-items:flex-start;gap:2px">'+
           (j.salary ? '<div class="salary">'+esc(j.salary)+'</div>'
                     : '<div class="salary none">'+t("nosalary")+'</div>')+
-          '<button class="fav'+(favs.has(j.id)?" on":"")+'" title="В избранное">'+
+          '<button class="fav'+(favs.has(j.id)?" on":"")+'" aria-pressed="'+favs.has(j.id)+
+            '" aria-label="'+(favs.has(j.id)?"Убрать из избранного":"В избранное")+'">'+
             (favs.has(j.id)?"★":"☆")+'</button>'+
         '</div>'+
       '</div>'+
@@ -880,7 +1028,13 @@
     const shown = filtered();
     listEl.innerHTML = "";
     if (!shown.length){
-      listEl.innerHTML = '<div class="empty">'+t("emptyTitle")+'<br>'+t("emptySub")+'</div>';
+      const q = state.query ? ' «'+esc(state.query)+'»' : "";
+      listEl.innerHTML =
+        '<div class="empty"><b>'+t("emptyTitle")+q+'</b><br>'+t("emptySub")+
+        '<div style="margin-top:14px"><button class="btn" id="emptyReset" style="max-width:230px;margin:0 auto">'+
+        t("reset")+'</button></div></div>';
+      const er = $("emptyReset");
+      if (er) er.addEventListener("click", doReset);
       $("moreBtn").hidden = true;
     } else {
       shown.slice(0, shownCount).forEach(j => listEl.appendChild(card(j)));
@@ -894,6 +1048,7 @@
     const n = activeCount();
     $("filterCount").hidden = n === 0;
     $("filterCount").textContent = n;
+    $("reset").hidden = n === 0 && !state.query;
     renderQuick();
     renderActiveTags();
   }
@@ -912,7 +1067,9 @@
     };
 
     chip(t("remote"), () => state.remote, () => state.remote = !state.remote);
-    chip(t("withSalary"), () => state.salary, () => state.salary = !state.salary);
+    const withPay = JOBS.filter(j => j.salary).length;
+    if (withPay > 0)
+      chip(t("hasSalary") + " " + withPay, () => state.salary, () => state.salary = !state.salary);
     chip(t("week"), () => state.age === 7, () => state.age = state.age === 7 ? null : 7);
 
     // четыре самые многочисленные роли — они закрывают большинство запросов
@@ -984,6 +1141,7 @@
     values.forEach(([v, n]) => {
       const b = document.createElement("button");
       b.className = "chip" + (set.has(v) ? " on" : "");
+      b.setAttribute("aria-pressed", set.has(v));
       b.innerHTML = esc(v) + (n != null ? ' <span class="cnt">'+n+'</span>' : '');
       b.addEventListener("click", () => {
         set.has(v) ? set.delete(v) : set.add(v);
@@ -1348,6 +1506,8 @@
     saveFavs(); syncJobFav(); renderList();
   });
   $("fbBtn").addEventListener("click", openFeedback);
+  $("howBtn").addEventListener("click", () => { $("howOverlay").hidden = false; });
+  $("footWrite").addEventListener("click", e => { e.preventDefault(); openFeedback(); });
   $("fbSend").addEventListener("click", sendFeedback);
   $("fbText").addEventListener("input", syncFb);
 
@@ -1365,6 +1525,12 @@
     $("closeYes").textContent = t("close");
     $("closeOverlay").hidden = false;
   }
+
+  document.querySelectorAll(".sheet").forEach(sh => {
+    sh.setAttribute("role", "dialog");
+    sh.setAttribute("aria-modal", "true");
+  });
+  document.querySelectorAll(".close").forEach(b => b.setAttribute("aria-label", "Закрыть"));
 
   document.querySelectorAll(".overlay").forEach(o => {
     if (o.id === "closeOverlay") return;
@@ -1443,11 +1609,6 @@
   })();
 
   $("demoNote").hidden = !IS_DEMO;
-  if (UPDATED){
-    const d = daysAgo(UPDATED);
-    $("subline").textContent = "Собрано с сайтов студий. Обновлено " +
-      (d === 0 ? "сегодня" : ageLabel(d)) + ".";
-  }
 
   // Яндекс.Метрика — считает визиты и время на сайте
   if (CFG.metrikaId){
@@ -1457,9 +1618,15 @@
     window.ym(CFG.metrikaId,"init",{clickmap:true,trackLinks:true,accurateTrackBounce:true});
   }
 
+  if (UPDATED) $("footUpdated").textContent = "обновлено " + humanDate(UPDATED);
   placeFilters();
   applyLang();
-  renderList();
+  if (!JOBS.length){
+    listEl.innerHTML = '<div class="empty">Не удалось загрузить вакансии.<br>' +
+      'Обнови страницу — если не поможет, напиши нам.</div>';
+  } else {
+    renderList();
+  }
 })();
 </script>
 </body>

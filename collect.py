@@ -15,6 +15,7 @@ collect.py — сборщик вакансий для витрины.
 
 import argparse
 import html as html_lib
+import os
 import json
 import re
 import sys
@@ -34,7 +35,7 @@ BLOCKLIST = HERE / "blocklist.json"   # сюда попадают id, сняты
 
 # hh.ru требует строгий формат подписи: НазваниеПриложения/версия (email).
 # Впиши сюда свою почту — иначе hh может начать резать запросы.
-CONTACT_EMAIL = "gamedev.jobs.board@gmail.com"
+CONTACT_EMAIL = os.getenv("CONTACT_EMAIL", "gamedev.jobs.board@gmail.com")
 
 UA = {"User-Agent": "gamedev-jobs/1.0 (+https://github.com/)"}
 HH_UA = {"User-Agent": f"gamedev-jobs/1.0 ({CONTACT_EMAIL})"}
@@ -428,8 +429,13 @@ def check_alive(url: str) -> bool:
         if r.status_code >= 400:
             return False
         low = r.text[:200_000].lower()
-        dead_marks = ("no longer accepting", "position has been filled",
-                      "вакансия закрыта", "вакансия неактуальна", "job is closed")
+        dead_marks = (
+            "no longer accepting", "position has been filled", "job is closed",
+            "this job is no longer available", "this posting has expired",
+            "position closed", "job not found", "the role has been filled",
+            "no longer available", "vacancy is closed",
+            "вакансия закрыта", "вакансия неактуальна", "вакансия в архиве",
+        )
         return not any(m in low for m in dead_marks)
     except Exception:
         return False
@@ -496,12 +502,13 @@ def collect(companies, verify_links: bool):
 def write_js(jobs):
     today = datetime.now(timezone.utc).date().isoformat()
     body = json.dumps(jobs, ensure_ascii=False, indent=2)
+    studios = len({j.get("company") for j in jobs if j.get("company")})
     OUT_JS.write_text(
         "// jobs.js — сгенерировано collect.py, руками не править.\n"
         f"// Обновлено: {today}. Вакансий: {len(jobs)}.\n\n"
         "window.JOBS_DEMO = false;\n"
         f'window.JOBS_UPDATED = "{today}";\n'
-        "window.REPORT_FORM = null;   // сюда — ссылка на форму жалоб\n\n"
+        f"window.JOBS_STUDIOS = {studios};\n\n"
         f"window.JOBS = {body};\n",
         encoding="utf-8",
     )
