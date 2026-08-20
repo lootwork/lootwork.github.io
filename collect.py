@@ -123,6 +123,25 @@ POOL_RE = re.compile(
     r"кадровый резерв|в резерв", re.I)
 
 
+# Часть студий кладёт в текст вакансии картинки и голые ссылки. Человеку они
+# ничего не говорят, а первую строку описания портят — а она идёт в поисковик.
+URL_ONLY = re.compile(r"^\s*[\[(]?https?://\S+[\])]?\s*$", re.I)
+MD_IMAGE = re.compile(r"!?\[[^\]]*\]\(\s*https?://[^)]+\)")
+
+
+def strip_media(text: str) -> str:
+    if not text:
+        return text
+    out = []
+    for line in text.split("\n"):
+        line = MD_IMAGE.sub("", line).strip()
+        if URL_ONLY.match(line):
+            continue
+        out.append(line)
+    cleaned = "\n".join(out)
+    return re.sub(r"\n{3,}", "\n\n", cleaned).strip()
+
+
 def is_pool(title: str) -> bool:
     return bool(POOL_RE.search(title or ""))
 
@@ -257,28 +276,49 @@ def salary_range(lo, hi, currency, interval=None):
 PAY_HINT = re.compile(
     r"salary|compensation|pay range|base pay|pay band|remuneration|"
     r"зарплат|вилка|оклад|доход", re.I)
+# Ставка бывает и простым числом: «$63.50—$75». Двузначные и трёхзначные
+# числа берём только там, где рядом стоит слово про оплату — иначе поймаем
+# «team of 200 - 300 people».
+NUM = r"(\d{1,3}(?:[ \u00a0.,]\d{3})+|\d{2,3}\s?[kK]|\d{1,3}\.\d{2}|\d{2,3}(?!\d))"
+CUR = r"([€$£₽₴₸]|PLN|EUR|USD|GBP|RUB|UAH|KZT|CZK|SEK)"
 PAY_RANGE = re.compile(
-    r"([€$£₽₴₸]|PLN|EUR|USD|GBP|RUB|UAH|KZT|CZK|SEK)?\s?"
-    r"(\d{1,3}(?:[ \u00a0.,]\d{3})+|\d{2,3}\s?[kK])"
-    r"\s?(?:-|–|—|to|до)\s?"
-    r"([€$£₽₴₸]|PLN|EUR|USD|GBP|RUB|UAH|KZT|CZK|SEK)?\s?"
-    r"(\d{1,3}(?:[ \u00a0.,]\d{3})+|\d{2,3}\s?[kK])"
-    r"\s?([€$£₽₴₸]|PLN|EUR|USD|GBP|RUB|UAH|KZT|CZK|SEK)?", re.U)
+    CUR + r"?\s?" + NUM + r"\s?(?:-|–|—|to|до)\s?" +
+    CUR + r"?\s?" + NUM + r"\s?" + CUR + r"?", re.U)
+
+# «this is an hourly rate» — важная приписка: 75 в час и 75 тысяч в год
+# для человека совсем разные предложения.
+PER_HOUR = re.compile(r"\bhourly\b|\bper hour\b|\bв час\b", re.I)
 
 
 def salary_from_text(desc):
     if not desc:
         return None
-    for line in str(desc).split("\n"):
-        if len(line) > 400 or not PAY_HINT.search(line):
+    lines = [l.strip() for l in str(desc).split("\n")]
+    for i, line in enumerate(lines):
+        if len(line) > 400 or not line:
+            continue
+        # Вилку часто пишут отдельной строкой, а слово «pay range» — строкой выше:
+        #   The estimated base pay range for this role is listed below
+        #   $63.50—$75 USD
+        near = " ".join(lines[max(0, i - 2):i + 1])
+        if not PAY_HINT.search(near):
             continue
         m = PAY_RANGE.search(line)
         if not m:
             continue
         cur = m.group(1) or m.group(3) or m.group(5) or ""
         lo, hi = m.group(2), m.group(4)
-        text = f"{lo} – {hi}".replace(".", " ").replace(",", " ")
+        # Точка в «63.50» — это копейки, а не разделитель тысяч. Пробелом
+        # заменяем только разделители групп: 120.000 → 120 000.
+        def tidy(num):
+            num = num.strip()
+            if re.fullmatch(r"\d{1,3}\.\d{2}", num):
+                return num
+            return re.sub(r"[.,\u00a0]", " ", num)
+        text = f"{tidy(lo)} – {tidy(hi)}"
         text = re.sub(r"\s+", " ", text).strip()
+        if PER_HOUR.search(near):
+            text += " в час"
         if not cur:
             return text
         # «120 000 $» привычнее, чем «$ 120 000» — но только для тех валют,
@@ -950,6 +990,7 @@ def collect(companies, verify_links: bool):
             continue
 
         j["title"] = trim_title(j["title"])
+        j["desc"] = strip_media(j.get("desc"))
         if is_pool(j["title"]):
             j["pool"] = True
         role = classify_role(j["title"])
@@ -1075,6 +1116,33 @@ TRANSLIT = {
 }
 
 
+def plural(n: int, one: str, few: str, many: str) -> str:
+    """1 вакансия, 2 вакансии, 5 вакансий. Мелочь, по которой видно халтуру."""
+    n = abs(int(n))
+    if n % 10 == 1 and n % 100 != 11:
+        return one
+    if 2 <= n % 10 <= 4 and not 12 <= n % 100 <= 14:
+        return few
+    return many
+
+
+def jobs_word(n: int) -> str:
+    return f"{n} " + plural(n, "вакансия", "вакансии", "вакансий")
+
+
+MONTHS_RU = ["января", "февраля", "марта", "апреля", "мая", "июня",
+             "июля", "августа", "сентября", "октября", "ноября", "декабря"]
+
+
+def human_date(iso: str) -> str:
+    """2026-08-07 → 7 августа. Дата в машинном виде выглядит как недоделка."""
+    try:
+        y, m, d = str(iso)[:10].split("-")
+        return f"{int(d)} {MONTHS_RU[int(m) - 1]}"
+    except Exception:
+        return str(iso or "")
+
+
 def slugify(text: str) -> str:
     """«Технический художник» → «tehnicheskiy-hudozhnik». Адрес должен читаться."""
     s = str(text or "").lower()
@@ -1111,8 +1179,11 @@ def looks_like_heading(line: str, nxt: str) -> bool:
         return True
     if re.search(r"[:?]$", clean):
         return True
-    if clean == clean.upper() and re.search(r"[A-ZА-Я]", clean):
+    letters = len(re.findall(r"[A-Za-zА-Яа-яЁё]", clean))
+    if clean == clean.upper() and letters >= 4:
         return True
+    if letters < 4:
+        return False
     return bool(HEAD_WORDS.match(clean))
 
 
@@ -1292,7 +1363,7 @@ def job_page(j, same_company):
     body = f"""<div class="crumbs"><a href="../../">Вакансии</a> ·
   <a href="../../company/{slugify(j['company'])}/">{esc(j['company'])}</a></div>
 <h1>{esc(j['title'])}</h1>
-<div class="sub">{esc(j['company'])} · {esc(where)}{(' · опубликовано ' + esc(j['posted'])) if j.get('posted') else ''}</div>
+<div class="sub">{esc(j['company'])} · {esc(where)}{(' · опубликовано ' + esc(human_date(j['posted']))) if j.get('posted') else ''}</div>
 <div class="tags">{''.join(tags)}</div>
 <a class="apply" href="{esc(j['url'])}" target="_blank" rel="nofollow noopener">Откликнуться на сайте студии</a>
 <div class="desc">{desc_html(j.get('desc'))}</div>
@@ -1300,7 +1371,13 @@ def job_page(j, same_company):
 {near}
 """
     title = f"{j['title']} — {j['company']} | LOOTWORK"
-    descr = (j.get("desc") or "").replace("\n", " ")[:280] or f"{j['title']} в {j['company']}, {where}."
+    raw = re.sub(r"\\s+", " ", (j.get("desc") or "")).strip()
+    descr = f"{j['title']} — {j['company']}, {where}."
+    if raw:
+        cut = raw[:165]
+        if len(raw) > 165:
+            cut = cut[:cut.rfind(" ")] + "…"
+        descr = cut
     return page_shell(title, descr, f"{SITE}/job/{j['id']}/", body, job_ld(j), depth=2)
 
 
@@ -1362,7 +1439,7 @@ def write_about(jobs, by_company):
     top = sorted(by_company.items(), key=lambda kv: -len(kv[1]))
     comp_rows = "".join(
         f'<a class="card" href="../company/{slugify(name)}/"><div>{esc(name)}</div>'
-        f'<div class="cmp">{len(items)} вакансий</div></a>'
+        f'<div class="cmp">{jobs_word(len(items))}</div></a>'
         for name, items in top if name)
     with_pay = sum(1 for j in jobs if j.get("salary"))
     remote = sum(1 for j in jobs if j.get("remote") or j.get("rkind"))
@@ -1371,7 +1448,7 @@ def write_about(jobs, by_company):
 <div class="sub">Честно о том, что здесь есть и чего нет.</div>
 
 <h2>Цифры</h2>
-<p>{len(jobs)} вакансий от {len(by_company)} студий.
+<p>{jobs_word(len(jobs))} от {len(by_company)} студий.
 С указанной зарплатой — {with_pay}. С удалёнкой — {remote}.
 База пересобирается каждый день: мы заново читаем карьерные страницы студий
 и проверяем, что ссылки на вакансии ещё работают.</p>
@@ -1395,7 +1472,7 @@ def write_about(jobs, by_company):
     d.mkdir(parents=True, exist_ok=True)
     (d / "index.html").write_text(page_shell(
         "Покрытие базы | LOOTWORK",
-        f"{len(jobs)} вакансий от {len(by_company)} студий. Откуда берём и чего пока нет.",
+        f"{jobs_word(len(jobs))} от {len(by_company)} студий. Откуда берём и чего пока нет.",
         f"{SITE}/about/", body, None, 1), encoding="utf-8")
 
 
@@ -1432,7 +1509,7 @@ def write_pages(jobs, today):
         d.mkdir(parents=True, exist_ok=True)
         (d / "index.html").write_text(list_page(
             f"Вакансии {company}",
-            f"{len(items)} открытых вакансий в {company} — напрямую с карьерной страницы студии.",
+            f"{jobs_word(len(items))} в {company} — напрямую с карьерной страницы студии.",
             items, f"{SITE}/company/{slug}/", 2), encoding="utf-8")
         urls.append(f"{SITE}/company/{slug}/")
 
@@ -1442,7 +1519,7 @@ def write_pages(jobs, today):
         d.mkdir(parents=True, exist_ok=True)
         (d / "index.html").write_text(list_page(
             f"{role} — вакансии в геймдеве",
-            f"{len(items)} вакансий по направлению «{role}» напрямую от игровых студий.",
+            f"{jobs_word(len(items))} по направлению «{role}» напрямую от игровых студий.",
             items, f"{SITE}/role/{slug}/", 2), encoding="utf-8")
         urls.append(f"{SITE}/role/{slug}/")
 
@@ -1452,7 +1529,7 @@ def write_pages(jobs, today):
         d.mkdir(parents=True, exist_ok=True)
         (d / "index.html").write_text(list_page(
             f"{spec} — вакансии в геймдеве",
-            f"{len(items)} вакансий: {spec}. Напрямую от игровых студий.",
+            f"{jobs_word(len(items))}: {spec}. Напрямую от игровых студий.",
             items, f"{SITE}/spec/{slug}/", 2), encoding="utf-8")
         urls.append(f"{SITE}/spec/{slug}/")
 
@@ -1462,7 +1539,7 @@ def write_pages(jobs, today):
         d.mkdir(parents=True, exist_ok=True)
         (d / "index.html").write_text(list_page(
             "Удалённая работа в геймдеве",
-            f"{len(remote)} удалённых вакансий от игровых студий.",
+            f"{jobs_word(len(remote))} с удалёнкой от игровых студий.",
             remote, f"{SITE}/remote/", 1), encoding="utf-8")
         urls.append(f"{SITE}/remote/")
 
@@ -1475,7 +1552,7 @@ def write_pages(jobs, today):
     d.mkdir(parents=True, exist_ok=True)
     (d / "index.html").write_text(list_page(
         "Все вакансии в геймдеве",
-        f"{len(jobs)} вакансий от {len(by_company)} студий. Обновляется каждый день.",
+        f"{jobs_word(len(jobs))} от {len(by_company)} студий. Обновляется каждый день.",
         jobs, f"{SITE}/jobs/", 1), encoding="utf-8")
     urls.append(f"{SITE}/jobs/")
 
