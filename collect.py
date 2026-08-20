@@ -197,7 +197,9 @@ def clean_one(part):
     if len(p) < 2 or len(p) > 60:
         return None
     # осталось что-то бессодержательное
-    if p.lower() in {"n/a", "various", "multiple", "other", "-", "office", "europe"}:
+    if p.lower() in {"n/a", "na", "various", "multiple", "other", "-", "office",
+                     "europe", "any", "any location", "global", "international",
+                     "tbd", "flexible", "unknown"}:
         return None
     return p
 

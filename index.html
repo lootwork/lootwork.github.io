@@ -774,6 +774,8 @@
       const el = $(id);
       if (el) el.textContent = t(id);
     });
+    $("clearFilters").textContent = t("clear");
+    $("moreBtn").textContent = t("more");
     $("companySearch").placeholder = t("findCompany");
     $("locSearch").placeholder = t("findLoc");
     document.querySelectorAll("[data-cancel]").forEach(b => b.textContent = t("cancel"));
@@ -830,6 +832,7 @@
     const parts = [JOBS.length + " " + t("jobsWord"), studios + " " + t("studiosWord")];
     if (UPDATED) parts.push(t("updatedOn") + " " + humanDate(UPDATED));
     $("stats").textContent = parts.join("  ·  ");
+    if (UPDATED) $("footUpdated").textContent = t("updatedOn") + " " + humanDate(UPDATED);
   }
 
   function renderHow(){
@@ -1216,18 +1219,32 @@
   }
 
   const COUNTRY_LABEL = {
-    cyprus:"Кипр", serbia:"Сербия", poland:"Польша", armenia:"Армения",
-    kazakhstan:"Казахстан", georgia:"Грузия", belarus:"Беларусь", turkey:"Турция",
-    montenegro:"Черногория", thailand:"Таиланд", vietnam:"Вьетнам", uae:"ОАЭ",
-    germany:"Германия", lithuania:"Литва", latvia:"Латвия", estonia:"Эстония",
-    czech:"Чехия", ukraine:"Украина", bulgaria:"Болгария", romania:"Румыния",
-    hungary:"Венгрия", slovenia:"Словения", spain:"Испания", portugal:"Португалия",
-    netherlands:"Нидерланды", uk:"Британия", ireland:"Ирландия", israel:"Израиль",
-    malta:"Мальта", sweden:"Швеция", finland:"Финляндия", france:"Франция",
-    usa:"США", canada:"Канада", japan:"Япония", china:"Китай",
-    singapore:"Сингапур", india:"Индия", australia:"Австралия",
-    uzbekistan:"Узбекистан", azerbaijan:"Азербайджан", remote:"Удалённо"
+    ru:{ cyprus:"Кипр", serbia:"Сербия", poland:"Польша", armenia:"Армения",
+      kazakhstan:"Казахстан", georgia:"Грузия", belarus:"Беларусь", turkey:"Турция",
+      montenegro:"Черногория", thailand:"Таиланд", vietnam:"Вьетнам", uae:"ОАЭ",
+      germany:"Германия", lithuania:"Литва", latvia:"Латвия", estonia:"Эстония",
+      czech:"Чехия", ukraine:"Украина", bulgaria:"Болгария", romania:"Румыния",
+      hungary:"Венгрия", slovenia:"Словения", spain:"Испания", portugal:"Португалия",
+      netherlands:"Нидерланды", uk:"Британия", ireland:"Ирландия", israel:"Израиль",
+      malta:"Мальта", sweden:"Швеция", finland:"Финляндия", france:"Франция",
+      usa:"США", canada:"Канада", japan:"Япония", china:"Китай",
+      singapore:"Сингапур", india:"Индия", australia:"Австралия",
+      uzbekistan:"Узбекистан", azerbaijan:"Азербайджан", remote:"Удалённо" },
+    en:{ cyprus:"Cyprus", serbia:"Serbia", poland:"Poland", armenia:"Armenia",
+      kazakhstan:"Kazakhstan", georgia:"Georgia", belarus:"Belarus", turkey:"Turkey",
+      montenegro:"Montenegro", thailand:"Thailand", vietnam:"Vietnam", uae:"UAE",
+      germany:"Germany", lithuania:"Lithuania", latvia:"Latvia", estonia:"Estonia",
+      czech:"Czechia", ukraine:"Ukraine", bulgaria:"Bulgaria", romania:"Romania",
+      hungary:"Hungary", slovenia:"Slovenia", spain:"Spain", portugal:"Portugal",
+      netherlands:"Netherlands", uk:"United Kingdom", ireland:"Ireland", israel:"Israel",
+      malta:"Malta", sweden:"Sweden", finland:"Finland", france:"France",
+      usa:"USA", canada:"Canada", japan:"Japan", china:"China",
+      singapore:"Singapore", india:"India", australia:"Australia",
+      uzbekistan:"Uzbekistan", azerbaijan:"Azerbaijan", remote:"Remote" }
   };
+  function countryLabel(key){
+    return (COUNTRY_LABEL[lang] && COUNTRY_LABEL[lang][key]) || COUNTRY_LABEL.ru[key] || key;
+  }
 
   // Страны одной кнопкой: тыкнул «Кипр» — выбрались все кипрские города разом
   function renderCountryChips(){
@@ -1249,7 +1266,7 @@
         const all = rec.locs.every(l => draft.location.has(l));
         const b = document.createElement("button");
         b.className = "chip" + (all ? " on" : "");
-        b.innerHTML = esc(COUNTRY_LABEL[key] || key) + ' <span class="cnt">'+rec.n+'</span>';
+        b.innerHTML = esc(countryLabel(key)) + ' <span class="cnt">'+rec.n+'</span>';
         b.addEventListener("click", () => {
           all ? rec.locs.forEach(l => draft.location.delete(l))
               : rec.locs.forEach(l => draft.location.add(l));
@@ -1647,7 +1664,6 @@
     window.ym(CFG.metrikaId,"init",{clickmap:true,trackLinks:true,accurateTrackBounce:true});
   }
 
-  if (UPDATED) $("footUpdated").textContent = "обновлено " + humanDate(UPDATED);
   placeFilters();
   applyLang();
   if (!JOBS.length){
