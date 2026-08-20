@@ -535,7 +535,7 @@
  <aside class="side" id="filterHost"></aside>
  <main class="feed">
   <div class="bar">
-    <input class="search" id="search" type="search" placeholder="Поиск: Unity, аниматор, продюсер…" autocomplete="off">
+    <input class="search" id="search" type="search" aria-label="Поиск вакансий" placeholder="Поиск: Unity, аниматор, продюсер…" autocomplete="off">
     <button class="filter-btn" id="filterBtn">
       Фильтры <span class="badge" id="filterCount" hidden></span>
     </button>
@@ -592,7 +592,7 @@
 </div>
 
 <!-- окно фильтров -->
-<div class="overlay" id="filterOverlay" hidden role="dialog" aria-modal="true">
+<div class="overlay" id="filterOverlay" hidden role="dialog" aria-modal="true" aria-labelledby="filtersTitle">
   <div class="sheet">
     <div class="sheet-head">
       <h2 id="filtersTitle">Фильтры</h2>
@@ -608,13 +608,13 @@
       <div class="group" id="formatGroup"><div class="group-title" id="gtFormat">Формат работы</div><div class="chips" id="fFormat"></div></div>
       <div class="group">
         <div class="group-title" id="gtCompany">Компания</div>
-        <input class="list-search" id="companySearch" placeholder="Найти компанию…">
+        <input class="list-search" id="companySearch" aria-label="Поиск по студии" placeholder="Найти компанию…">
         <div class="scroll-list" id="fCompany"></div>
       </div>
       <div class="group">
         <div class="group-title" id="gtLocation">Локация</div>
         <div class="chips" id="countryChips" style="margin-bottom:10px"></div>
-        <input class="list-search" id="locSearch" placeholder="Страна или город">
+        <input class="list-search" id="locSearch" aria-label="Поиск по стране или городу" placeholder="Страна или город">
         <div class="scroll-list" id="fLocation"></div>
       </div>
     </div>
@@ -641,7 +641,7 @@
 </div>
 
 <!-- как это работает -->
-<div class="overlay" id="howOverlay" hidden role="dialog" aria-modal="true">
+<div class="overlay" id="howOverlay" hidden role="dialog" aria-modal="true" aria-labelledby="howTitle">
   <div class="sheet">
     <div class="sheet-head">
       <h2 id="howTitle">Как это работает</h2>
@@ -655,7 +655,7 @@
 </div>
 
 <!-- окно вакансии -->
-<div class="overlay" id="jobOverlay" hidden role="dialog" aria-modal="true">
+<div class="overlay" id="jobOverlay" hidden role="dialog" aria-modal="true" aria-labelledby="jobTitle">
   <div class="sheet">
     <div class="sheet-head">
       <h2 id="jobTitle">Вакансия</h2>
@@ -676,14 +676,14 @@
 </div>
 
 <!-- окно обратной связи -->
-<div class="overlay" id="fbOverlay" hidden role="dialog" aria-modal="true">
+<div class="overlay" id="fbOverlay" hidden role="dialog" aria-modal="true" aria-labelledby="fbTitle">
   <div class="sheet">
     <div class="sheet-head">
       <h2 id="fbTitle">Написать</h2>
       <button class="close" aria-label="Закрыть" data-close="fbOverlay">×</button>
     </div>
     <div class="sheet-body" id="fbBody">
-      <div class="hint" id="fbHint">Читаю каждое сообщение. Оставь почту в тексте — отвечу.</div>
+      <div class="hint" id="fbHint">Мы читаем каждое сообщение. Оставь контакт — ответим.</div>
       <div class="group">
         <div class="group-title" id="fbTopicTitle">Тема</div>
         <div id="fbTopics"></div>
@@ -709,7 +709,7 @@
 </div>
 
 <!-- подтверждение сброса -->
-<div class="overlay" id="confirmOverlay" hidden role="dialog" aria-modal="true">
+<div class="overlay" id="confirmOverlay" hidden role="dialog" aria-modal="true" aria-labelledby="confirmTitle">
   <div class="sheet" style="max-width:420px">
     <div class="sheet-head">
       <h2 id="confirmTitle">Сбросить фильтры?</h2>
@@ -726,7 +726,7 @@
 </div>
 
 <!-- окно жалобы -->
-<div class="overlay" id="reportOverlay" hidden role="dialog" aria-modal="true">
+<div class="overlay" id="reportOverlay" hidden role="dialog" aria-modal="true" aria-labelledby="reportTitle">
   <div class="sheet">
     <div class="sheet-head">
       <h2 id="reportTitle">Что не так с вакансией?</h2>
@@ -1090,6 +1090,7 @@
       remoteWorld:"Удалёнка по миру", remoteZone:"Удалёнка в регионе", remoteHybrid:"Гибрид",
       formatTitle:"Формат работы", searchFor:"Искать",
       role:"Роль", grade:"Грейд", posted:"Когда опубликовано", terms:"Условия",
+      searchLabel:"Поиск вакансий",
       jobWord:"Вакансия", jobPage:"Отдельная страница этой вакансии →",
       allJobs:"Все вакансии", remoteJobs:"Удалённая работа",
       aboutPage:"Покрытие базы", privacyPage:"Приватность",
@@ -1127,7 +1128,7 @@
       jobsWord:"вакансий", studiosWord:"студий", updatedOn:"обновлено",
       hasSalary:"Есть зарплата", reasonTitle:"Причина", whenTitle:"Когда столкнулся",
       reportTitle:"Что не так с вакансией?", reportHint:"Ответы помогают чистить базу. Займёт секунд десять.",
-      writeTitle:"Написать", fbHint:"Читаю каждое сообщение. Оставь почту в тексте — отвечу.",
+      writeTitle:"Написать", fbHint:"Мы читаем каждое сообщение. Оставь контакт — ответим.",
       topic:"Тема", message:"Что рассказать", send:"Отправить", cancel:"Отмена",
       filtersTitle:"Фильтры", footWrite:"Сообщить об ошибке",
       gtRole:"Роль", gtSpec:"Специализация", gtStack:"Стек", gtFormat:"Формат работы",
@@ -1137,7 +1138,7 @@
       footPrivacy:"Сайт использует Яндекс.Метрику для подсчёта посещений. Резюме и отклики мы не собираем.",
       howBody:[
         ["Откуда вакансии","Студии почти не пишут карьерные страницы руками — они подключают готовые системы найма: Greenhouse, Lever, Recruitee и другие. Мы берём вакансии прямо оттуда, поэтому здесь нет перепостов агентств и дублей одной вакансии в пяти местах."],
-        ["Почему раз в неделю","Вакансия живёт около трёх недель. Недельный цикл почти ничего не теряет, зато позволяет обходиться без сервера — сборщик просыпается по расписанию и обновляет базу сам."],
+        ["Как часто обновляем","Каждый день. Сборщик просыпается по расписанию, заново читает карьерные страницы студий и проверяет, что ссылки ещё работают. Закрытые вакансии из базы исчезают."],
         ["Что с мёртвыми ссылками","Перед каждой публикацией робот стучится в каждую вакансию и выбрасывает те, что отвечают ошибкой или показывают «вакансия закрыта». Остальное ловят жалобы: кнопка «неактуальна» есть на каждой карточке."],
         ["Что покрываем лучше всего","Польша, Кипр, Сербия, Канада, Британия, США и удалёнка. Это там, где сидят студии, которые мы читаем."],
         ["Чего пока мало","Российских студий — hh закрыл доступ в декабре 2025. Мало вакансий из Telegram-каналов и зарплатных вилок: их указывают далеко не все. И база пока небольшая: это не все вакансии геймдева, а прямые вакансии тех студий, которых мы читаем."]
@@ -1162,6 +1163,7 @@
       remoteWorld:"Remote worldwide", remoteZone:"Remote in region", remoteHybrid:"Hybrid",
       formatTitle:"Work format", searchFor:"Search",
       role:"Role", grade:"Level", posted:"Posted", terms:"Conditions",
+      searchLabel:"Search jobs",
       jobWord:"Job", jobPage:"Open this job on its own page →",
       allJobs:"All jobs", remoteJobs:"Remote work",
       aboutPage:"Coverage", privacyPage:"Privacy",
@@ -1199,7 +1201,7 @@
       jobsWord:"jobs", studiosWord:"studios", updatedOn:"updated",
       hasSalary:"Salary listed", reasonTitle:"Reason", whenTitle:"When did you notice",
       reportTitle:"What is wrong with this job?", reportHint:"Your answer helps keep the list clean. Takes ten seconds.",
-      writeTitle:"Contact us", fbHint:"I read everything. Leave your email in the text and I will reply.",
+      writeTitle:"Contact us", fbHint:"We read every message. Leave a contact and we will reply.",
       topic:"Topic", message:"Your message", send:"Send", cancel:"Cancel",
       filtersTitle:"Filters", footWrite:"Report a problem",
       gtRole:"Role", gtSpec:"Specialization", gtStack:"Stack", gtFormat:"Work format",
@@ -1209,7 +1211,7 @@
       footPrivacy:"This site uses Yandex.Metrica to count visits. We do not collect CVs or applications.",
       howBody:[
         ["Where the jobs come from","Studios rarely build career pages by hand — they plug in hiring systems like Greenhouse, Lever or Recruitee. We read those directly, so there are no agency reposts and no duplicates."],
-        ["Why weekly","A job posting lives about three weeks, so a weekly cycle loses almost nothing and needs no server: the collector wakes up on schedule and refreshes the list itself."],
+        ["How often we refresh","Every day. The collector wakes up on schedule, re-reads studio career pages and checks that the links still work. Closed jobs disappear from the list."],
         ["Dead links","Before every update a robot opens each job and drops the ones that fail or say the position is closed. The rest is caught by reports — every card has a flag button."],
         ["Best covered","Poland, Cyprus, Serbia, Canada, the UK, the US and remote — that is where the studios we read are based."],
         ["What is still thin","Russian studios, Telegram-only postings and salary ranges. And the base is small on purpose: these are direct jobs from the studios we read, not every game job in the world."]
@@ -1229,6 +1231,7 @@
     const btn = $("themeBtn");
     if (btn){
       btn.textContent = theme === "light" ? "☾" : "☀";
+      btn.setAttribute("aria-pressed", theme === "light" ? "true" : "false");
       btn.setAttribute("aria-label", t("themeWord"));
       btn.setAttribute("title", t("themeWord"));
     }
@@ -1257,6 +1260,9 @@
     if ($("fbContactTitle")) $("fbContactTitle").textContent = t("fbContact");
     if ($("fbContactHint")) $("fbContactHint").textContent = t("fbContactHint");
     if ($("fbContact")) $("fbContact").placeholder = t("fbContactPh");
+    searchEl.setAttribute("aria-label", t("searchLabel"));
+    $("companySearch").setAttribute("aria-label", t("findCompany"));
+    $("locSearch").setAttribute("aria-label", t("findLoc"));
     $("reportDone").textContent = t("sendNow");
     $("fbDone").textContent = t("sendNow");
     $("reportUndo").textContent = t("undo");
@@ -1295,8 +1301,10 @@
     renderBadge();
     renderHow();
     $("toTop").title = t("top");
-    document.querySelectorAll(".lang-btn").forEach(b =>
-      b.classList.toggle("on", b.dataset.lang === lang));
+    document.querySelectorAll(".lang-btn").forEach(b => {
+      b.classList.toggle("on", b.dataset.lang === lang);
+      b.setAttribute("aria-pressed", b.dataset.lang === lang ? "true" : "false");
+    });
     SORTS.rel.label = t("sortRel");
     SORTS.new.label = t("sortNew"); SORTS.old.label = t("sortOld");
     SORTS.payhigh.label = t("sortPayHigh"); SORTS.paylow.label = t("sortPayLow");

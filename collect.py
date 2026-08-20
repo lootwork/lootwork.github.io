@@ -384,6 +384,40 @@ def remote_kind(raw_location, title, desc):
     return None
 
 
+# Студии пишут одну и ту же страну по-разному: UK и United Kingdom, USA и
+# United States. Для фильтра это разные строки, и список начинает дробиться.
+COUNTRY_FIX = [
+    (r"\bU\.?K\.?$",                 "United Kingdom"),
+    (r"\bU\.?S\.?A?\.?$",            "United States"),
+    (r"\bUnited States of America$",  "United States"),
+    (r"\bDeutschland$",               "Germany"),
+    (r"\bEspaña$",                    "Spain"),
+    (r"\bPolska$",                    "Poland"),
+    (r"\bSrbija$",                    "Serbia"),
+    (r"\bTürkiye$",                   "Turkey"),
+]
+
+# Строки, которые не являются местом ни в каком виде.
+NOT_A_PLACE = re.compile(
+    r"^(blank|multiple locations?|various locations?|several locations?|"
+    r"location flexible|worldwide|global|n/?a)$", re.I)
+
+
+def normalize_place(part: str) -> str:
+    """«London, UK» → «London, United Kingdom», «Singapore-Guoco Midtown» → «Singapore»."""
+    p = part.strip(" ,;·")
+    if not p or NOT_A_PLACE.match(p):
+        return ""
+    # адрес офиса после дефиса — это уже не город: «Singapore-Guoco Midtown»
+    p = re.sub(r"^([A-Za-zА-Яа-яЁё\s]{3,})-[A-Za-z].*$", r"\1", p).strip()
+    for pattern, full in COUNTRY_FIX:
+        p = re.sub(pattern, full, p, flags=re.I)
+    # «BLANK, Multiple Locations» — выкидываем куски-пустышки внутри строки
+    bits = [b.strip() for b in p.split(",")]
+    bits = [b for b in bits if b and not NOT_A_PLACE.match(b)]
+    return ", ".join(bits)
+
+
 def clean_locations(raw):
     """Возвращает (список мест, признак удалёнки)."""
     if not raw:
@@ -433,8 +467,9 @@ def clean_one(part):
     # но то, что стоит рядом, может им быть.
     if re.match(r"^hybrid\b", p, re.I):
         rest = re.sub(r"^hybrid\b[\s,;:-]*", "", p, flags=re.I).strip()
-        return rest if len(rest) > 2 else None
-    return p
+        p = rest if len(rest) > 2 else ""
+    p = normalize_place(p)
+    return p or None
 
 
 # ---------------------------------------------------------------- источники
@@ -1011,7 +1046,7 @@ def write_sitemap(today: str, urls=None):
         rows.append("  <url>\n"
                     f"    <loc>{u}</loc>\n"
                     f"    <lastmod>{today}</lastmod>\n"
-                    "    <changefreq>weekly</changefreq>\n"
+                    "    <changefreq>daily</changefreq>\n"
                     f"    <priority>{prio}</priority>\n"
                     "  </url>")
     SITEMAP.write_text(
@@ -1291,8 +1326,8 @@ def write_privacy():
 
 <h2>Что видим мы</h2>
 <p>Посещаемость считает Яндекс.Метрика: страницы, устройство, примерный регион,
-источник перехода. Это обезличенная статистика, по ней нельзя понять,
-кто вы.</p>
+источник перехода. Эти данные мы используем только в общем виде — чтобы понимать,
+сколько людей заходит и что ищет.</p>
 
 <h2>Формы</h2>
 <p>Если вы жалуетесь на вакансию, уходит номер и название вакансии, студия,
@@ -1338,7 +1373,8 @@ def write_about(jobs, by_company):
 <h2>Цифры</h2>
 <p>{len(jobs)} вакансий от {len(by_company)} студий.
 С указанной зарплатой — {with_pay}. С удалёнкой — {remote}.
-База обновляется раз в неделю, по понедельникам.</p>
+База пересобирается каждый день: мы заново читаем карьерные страницы студий
+и проверяем, что ссылки на вакансии ещё работают.</p>
 
 <h2>Откуда берём</h2>
 <ul>{src_rows}</ul>
@@ -1439,7 +1475,7 @@ def write_pages(jobs, today):
     d.mkdir(parents=True, exist_ok=True)
     (d / "index.html").write_text(list_page(
         "Все вакансии в геймдеве",
-        f"{len(jobs)} вакансий от {len(by_company)} студий. Обновляется еженедельно.",
+        f"{len(jobs)} вакансий от {len(by_company)} студий. Обновляется каждый день.",
         jobs, f"{SITE}/jobs/", 1), encoding="utf-8")
     urls.append(f"{SITE}/jobs/")
 
