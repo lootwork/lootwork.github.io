@@ -1,0 +1,18 @@
+{
+  "date": "2026-08-20",
+  "jobs": 479,
+  "studios": 27,
+  "withSalary": 37,
+  "remote": 144,
+  "dropped": 0,
+  "failedSources": 0,
+  "reusedSources": 0,
+  "emptySources": 3,
+  "sources": [
+    "ashby",
+    "greenhouse",
+    "lever",
+    "recruitee",
+    "workable"
+  ]
+}
