@@ -151,7 +151,9 @@
   .theme-btn{background:var(--panel);border:1px solid var(--line);border-radius:999px;
     width:34px;height:34px;cursor:pointer;font-size:15px;line-height:1;color:var(--muted);
     display:flex;align-items:center;justify-content:center}
+  .theme-btn{transition:color .16s,transform .3s}
   .theme-btn:hover{color:var(--text);border-color:var(--line)}
+  .theme-btn:active{transform:rotate(35deg) scale(.94)}
   .lang{display:flex;gap:4px;background:var(--panel);border:1px solid var(--line);
     border-radius:999px;padding:3px}
   .lang-btn{background:none;border:none;color:var(--muted);font-family:var(--mono);
@@ -222,7 +224,7 @@
   .sug .sub{color:var(--muted);font-size:12.5px;margin-left:9px}
   .suggest{max-height:60vh;overflow-y:auto}
   .quick{display:flex;flex-wrap:wrap;gap:7px;align-items:center;margin-bottom:11px}
-  .qchip{background:transparent;border:1px solid var(--line);color:var(--muted);
+  .qchip{transition:background .15s,border-color .15s,color .15s;background:transparent;border:1px solid var(--line);color:var(--muted);
     border-radius:999px;padding:7px 14px;font-family:var(--body);font-size:13px;
     cursor:pointer;white-space:nowrap;transition:.13s}
   .qchip:hover{border-color:var(--line);color:var(--text)}
@@ -325,7 +327,7 @@
   .report{background:none;border:none;color:var(--muted);font-family:var(--body);font-size:12px;
     cursor:pointer;padding:6px}
   .report:hover{color:var(--pink)}
-  .fav{background:none;border:none;color:var(--muted);font-size:26px;line-height:1;
+  .fav{background:none;border:none;color:var(--muted);transition:color .16s,transform .16s;font-size:26px;line-height:1;
     cursor:pointer;padding:0 2px;margin-left:10px;flex:none;
     transition:transform .14s,color .14s}
   .fav:hover{color:var(--amber);transform:scale(1.18)}
@@ -383,7 +385,7 @@
   .group-title{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
     color:var(--muted);margin-bottom:10px}
   .chips{display:flex;flex-wrap:wrap;gap:7px}
-  .chip{background:transparent;border:1px solid var(--line);color:var(--muted);
+  .chip{transition:background .15s,border-color .15s,color .15s;background:transparent;border:1px solid var(--line);color:var(--muted);
     border-radius:999px;padding:7px 14px;font-family:var(--body);font-size:13px;cursor:pointer}
   .chip:hover{border-color:var(--line);color:var(--text)}
   .chip.on{background:var(--cyan-deep);border-color:var(--cyan);color:var(--cyan);font-weight:600}
@@ -400,6 +402,7 @@
     font-family:inherit;font-size:13.5px;display:flex;align-items:center;gap:11px;
     padding:10px 13px;cursor:pointer;border-bottom:1px solid var(--line-soft)}
   .opt:last-child{border-bottom:none}
+  .opt{transition:background .13s}
   .opt:hover{background:var(--panel-2)}
   .opt .box{width:18px;height:18px;flex:none;border:1px solid var(--line);border-radius:5px;
     display:flex;align-items:center;justify-content:center;font-size:12px;color:#062028}
@@ -470,8 +473,33 @@
 
   :focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
 
+  /* Анимации короткие и служебные: подсказать, что появилось и что изменилось.
+     Всё выключается системной настройкой «уменьшить движение» — блок ниже. */
+  @keyframes cardIn{ from{opacity:0;transform:translateY(9px)} to{opacity:1;transform:none} }
+  @keyframes sheetIn{ from{opacity:0;transform:translateY(14px) scale(.985)} to{opacity:1;transform:none} }
+  @keyframes overlayIn{ from{opacity:0} to{opacity:1} }
+  @keyframes toastIn{ from{opacity:0;transform:translate(-50%,14px)} to{opacity:1;transform:translate(-50%,0)} }
+  @keyframes pop{ 0%{transform:scale(1)} 45%{transform:scale(1.13)} 100%{transform:scale(1)} }
+  @keyframes markIn{ from{background:transparent;border-color:transparent} }
+
+  .card{animation:cardIn .3s cubic-bezier(.2,.7,.3,1) both}
+  .overlay:not([hidden]){animation:overlayIn .18s ease both}
+  .overlay:not([hidden]) .sheet{animation:sheetIn .26s cubic-bezier(.2,.7,.3,1) both}
+  .toast{animation:toastIn .24s cubic-bezier(.2,.7,.3,1) both}
+  mark{animation:markIn .5s ease both}
+  .fav.on{animation:pop .32s ease}
+  .chip.on,.qchip.on{animation:pop .22s ease}
+  .stat b{font-variant-numeric:tabular-nums}
+
+  /* Переход темы: цвет ползёт по кругу от кнопки, а не моргает разом */
+  ::view-transition-old(root),::view-transition-new(root){animation:none;mix-blend-mode:normal}
+  ::view-transition-old(root){z-index:0}
+  ::view-transition-new(root){z-index:1}
+
   @media (prefers-reduced-motion:reduce){
     *{animation:none !important;transition:none !important}
+    ::view-transition-group(*),::view-transition-old(root),::view-transition-new(root){
+      animation:none !important}
   }
 </style>
 </head>
@@ -1357,6 +1385,30 @@
     document.querySelector("h1").appendChild(b);
   }
 
+  // Числа в плашках набегают один раз при заходе: цифры — главный довод
+  // доверия, и лучше, если человек заметит, что их много.
+  let counted = false;
+  function countUp(){
+    if (counted || calmMotion()) return;
+    counted = true;
+    document.querySelectorAll(".stat b").forEach(el => {
+      // Только чистые числа: «20 августа» — это дата, её крутить нельзя.
+      const raw = el.textContent.trim().replace(/\s/g, "");
+      if (!/^\d+$/.test(raw)) return;
+      const target = parseInt(raw, 10);
+      if (target < 10) return;
+      const started = performance.now();
+      const step = now => {
+        const p = Math.min(1, (now - started) / 800);
+        const eased = 1 - Math.pow(1 - p, 3);
+        el.textContent = Math.round(target * eased);
+        if (p < 1) requestAnimationFrame(step);
+      };
+      el.textContent = "0";
+      requestAnimationFrame(step);
+    });
+  }
+
   function renderStats(){
     const studios = window.JOBS_STUDIOS || new Set(JOBS.map(j => j.company)).size;
     // Для доски вакансий цифры — главный довод доверия, поэтому не строкой
@@ -1365,6 +1417,7 @@
     if (UPDATED) cells.push([humanDate(UPDATED), t("updatedOn")]);
     $("stats").innerHTML = cells.map(([big, small]) =>
       '<div class="stat"><b>'+esc(big)+'</b><span>'+esc(small)+'</span></div>').join("");
+    countUp();
     if (UPDATED) $("footUpdated").textContent = t("updatedOn") + " " + humanDate(UPDATED);
     renderStatus();
   }
@@ -1765,7 +1818,13 @@
       if (er) er.addEventListener("click", doReset);
       $("moreBtn").hidden = true;
     } else {
-      shown.slice(0, shownCount).forEach(j => listEl.appendChild(card(j)));
+      shown.slice(0, shownCount).forEach((j, i) => {
+        const el = card(j);
+        // Лесенка только для первого экрана: дальше она превращается в тормоз.
+        if (i < 12 && !calmMotion()) el.style.animationDelay = (i * 22) + "ms";
+        else el.style.animation = "none";
+        listEl.appendChild(el);
+      });
       const left = shown.length - shownCount;
       $("moreBtn").hidden = left <= 0;
       if (left > 0){
@@ -2728,11 +2787,35 @@
     else if (e.key === "Escape") hideSuggest();
   });
 
+  function calmMotion(){
+    return window.matchMedia("(prefers-reduced-motion:reduce)").matches;
+  }
+
   $("themeBtn").addEventListener("click", () => {
-    theme = theme === "light" ? "dark" : "light";
-    try { store.setItem("theme", theme); } catch(e){}
-    applyTheme();
-    renderList();          // цвета ролей на карточках зависят от темы
+    const flip = () => {
+      theme = theme === "light" ? "dark" : "light";
+      try { store.setItem("theme", theme); } catch(e){}
+      applyTheme();
+      renderList();        // цвета ролей на карточках зависят от темы
+    };
+
+    // Круг света расходится от самой кнопки — понятно, что именно ты нажал.
+    // Где браузер этого не умеет, просто меняем тему без затей.
+    if (!document.startViewTransition || calmMotion()){ flip(); return; }
+
+    const r = $("themeBtn").getBoundingClientRect();
+    const x = r.left + r.width / 2;
+    const y = r.top + r.height / 2;
+    const far = Math.hypot(Math.max(x, innerWidth - x), Math.max(y, innerHeight - y));
+
+    const tr = document.startViewTransition(flip);
+    tr.ready.then(() => {
+      document.documentElement.animate(
+        { clipPath: ["circle(0px at "+x+"px "+y+"px)",
+                     "circle("+far+"px at "+x+"px "+y+"px)"] },
+        { duration: 520, easing: "cubic-bezier(.2,.7,.3,1)",
+          pseudoElement: "::view-transition-new(root)" });
+    }).catch(() => {});
   });
 
   $("shareBtn").addEventListener("click", onShare);
