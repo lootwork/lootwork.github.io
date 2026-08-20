@@ -133,6 +133,13 @@
   .filter-btn .badge[hidden]{display:none}
 
   /* ---------- быстрые фильтры ---------- */
+  .suggest{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+    margin:-6px 0 12px;overflow:hidden}
+  .sug{display:flex;align-items:center;gap:10px;padding:10px 14px;cursor:pointer;font-size:13.5px}
+  .sug:hover,.sug.on{background:var(--panel-2)}
+  .sug .kind{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--muted);margin-left:auto;white-space:nowrap}
+  .sug .txt{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
   .quick{display:flex;flex-wrap:wrap;gap:7px;align-items:center;margin-bottom:11px}
   .qchip{background:transparent;border:1px solid var(--line);color:var(--muted);
     border-radius:999px;padding:7px 14px;font-family:var(--body);font-size:13px;
@@ -141,6 +148,8 @@
   .qchip.on{background:var(--cyan-deep);border-color:var(--cyan);color:var(--cyan);font-weight:600}
   .sort-wrap{margin-left:auto;display:flex;align-items:center;gap:9px;flex-wrap:wrap}
   .sort-wrap label{color:var(--muted);font-size:12.5px}
+  .hidden-chip{border-color:#4a2a3a;color:var(--pink)}
+  .hidden-chip.on{background:#331d2a;border-color:var(--pink);color:var(--pink)}
   .fav-chip{border-color:#5b431a;color:var(--amber)}
   .fav-chip.on{background:var(--amber-deep);border-color:var(--amber);color:var(--amber)}
   .fav-chip:hover{border-color:var(--amber);color:var(--amber)}
@@ -170,7 +179,7 @@
   .card:hover{border-color:var(--cyan);transform:translateY(-3px) scale(1.006);
     box-shadow:0 10px 26px rgba(0,0,0,.45)}
   .card:active{transform:translateY(-1px) scale(1.002)}
-  .card.reported{opacity:.4}
+  .card.reported{opacity:.55;border-style:dashed}
   .card-main{flex:1;min-width:0}
 
   /* логотип студии */
@@ -263,6 +272,8 @@
     color:var(--text);font-family:var(--body);font-size:13.5px;padding:10px 12px;margin-bottom:9px}
   .list-search::placeholder{color:#6f679a}
   .list-search:focus{outline:2px solid var(--cyan);outline-offset:-1px}
+  .opt-head{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--muted);padding:12px 4px 5px;border-top:1px solid var(--line-soft);margin-top:6px}
   .scroll-list{max-height:200px;overflow-y:auto;border:1px solid var(--line-soft);border-radius:10px}
   .opt{display:flex;align-items:center;gap:11px;padding:10px 13px;cursor:pointer;font-size:13.5px;
     border-bottom:1px solid var(--line-soft)}
@@ -359,6 +370,7 @@
     </button>
   </div>
 
+  <div class="suggest" id="suggest" hidden></div>
   <div class="quick" id="quick"></div>
   <div class="active-tags" id="activeTags"></div>
 
@@ -665,7 +677,7 @@
   const state = {
     role:new Set(), spec:new Set(), stack:new Set(),
     grade:new Set(), company:new Set(), location:new Set(),
-    age:null, remote:false, salary:false, onlyFav:false, query:""
+    age:null, remote:false, salary:false, onlyFav:false, onlyHidden:false, query:""
   };
   let sortMode = "new";
   let sortChosen = false;      // человек выбрал сортировку руками — не трогаем
@@ -788,10 +800,13 @@
       reported:"вы отметили", more:"Показать ещё", write:"Написать нам",
       emptyTitle:"Под эти фильтры ничего нет.", emptySub:"Попробуй убрать часть условий.",
       remote:"Удалёнка", withSalary:"С вилкой", week:"За неделю", favs:"Избранное",
+      hidden:"Скрытые", restore:"вернуть",
       role:"Роль", grade:"Грейд", posted:"Когда опубликовано", terms:"Условия",
+      jobWord:"Вакансия",
       company:"Компания", location:"Локация", any:"Любые", month:"За месяц",
       findCompany:"Найти компанию…", findLoc:"Страна или город — можно по-русски",
       clear:"Очистить", show:"Показать", nothingShort:"Ничего не найдено",
+      citiesWord:"Города", otherWord:"Прочее",
       toFav:"В избранное", inFav:"В избранном", applyOn:"Откликнуться на сайте студии",
       noDesc:"Студия не отдаёт текст вакансии в общем виде — описание откроется на её сайте.",
       updatedToday:"Обновлено сегодня", collected:"Собрано с сайтов студий.",
@@ -838,10 +853,13 @@
       reported:"you flagged it", more:"Show more", write:"Contact us",
       emptyTitle:"Nothing matches these filters.", emptySub:"Try removing some conditions.",
       remote:"Remote", withSalary:"With salary", week:"This week", favs:"Saved",
+      hidden:"Hidden", restore:"restore",
       role:"Role", grade:"Level", posted:"Posted", terms:"Conditions",
+      jobWord:"Job",
       company:"Company", location:"Location", any:"Any", month:"This month",
       findCompany:"Find a company…", findLoc:"Country or city",
       clear:"Clear", show:"Show", nothingShort:"Nothing found",
+      citiesWord:"Cities", otherWord:"Other",
       toFav:"Save", inFav:"Saved", applyOn:"Apply on the studio site",
       noDesc:"This studio does not share the job text — it will open on their site.",
       updatedToday:"Updated today", collected:"Collected from studio sites.",
@@ -1009,7 +1027,7 @@
     "poland":      ["польша","польше","варшава","краков","вроцлав","гданьск","познань","poland","warsaw","warszawa","krakow","kraków","wroclaw","wrocław","gdansk","gdańsk","poznan"],
     "armenia":     ["армения","армении","ереван","armenia","yerevan"],
     "kazakhstan":  ["казахстан","казахстане","алматы","астана","kazakhstan","almaty","astana"],
-    "georgia":     ["грузия","грузии","тбилиси","батуми","georgia","tbilisi","batumi"],
+    "georgia":     ["грузия","грузии","тбилиси","батуми","georgia","tbilisi","tblisi","batumi"],
     "belarus":     ["беларусь","белоруссия","минск","belarus","minsk"],
     "uzbekistan":  ["узбекистан","ташкент","uzbekistan","tashkent"],
     "azerbaijan":  ["азербайджан","баку","azerbaijan","baku"],
@@ -1031,20 +1049,34 @@
     "spain":       ["испания","барселона","мадрид","spain","barcelona","madrid"],
     "portugal":    ["португалия","лиссабон","порту","portugal","lisbon","lisboa","porto"],
     "netherlands": ["нидерланды","голландия","амстердам","netherlands","amsterdam"],
-    "uk":          ["британия","англия","лондон","uk","united kingdom","london","england"],
+    "uk":          ["британия","англия","лондон","uk","united kingdom","london","england",
+                    "brighton","guildford","manchester"],
     "ireland":     ["ирландия","дублин","ireland","dublin"],
     "israel":      ["израиль","тель-авив","israel","tel aviv"],
     "malta":       ["мальта","malta","valletta"],
     "sweden":      ["швеция","стокгольм","sweden","stockholm"],
     "finland":     ["финляндия","хельсинки","finland","helsinki"],
     "france":      ["франция","париж","france","paris"],
-    "usa":         ["сша","америка","нью-йорк","usa","united states","new york","san francisco","los angeles","austin","seattle"],
-    "canada":      ["канада","торонто","монреаль","canada","toronto","montreal","vancouver"],
+    "usa":         ["сша","америка","нью-йорк","usa","united states","new york","san francisco",
+                    "los angeles","austin","seattle","novato","san mateo","dallas","frisco","california"],
+    "canada":      ["канада","торонто","монреаль","ванкувер","квебек","canada","toronto","montreal",
+                    "montréal","vancouver","burnaby","quebec","québec"],
     "japan":       ["япония","токио","japan","tokyo"],
     "china":       ["китай","шанхай","пекин","china","shanghai","beijing","hangzhou"],
     "singapore":   ["сингапур","singapore"],
     "india":       ["индия","india","bangalore","mumbai"],
     "australia":   ["австралия","сидней","australia","sydney","melbourne"],
+    "russia":      ["россия","россии","москва","санкт-петербург","питер","новосибирск","казань",
+                    "екатеринбург","нижний новгород","пермь","владивосток","калининград",
+                    "russia","moscow","saint petersburg","st petersburg","perm","vladivostok",
+                    "novosibirsk","kazan","kaliningrad"],
+    "malaysia":    ["малайзия","куала-лумпур","malaysia","kuala lumpur"],
+    "indonesia":   ["индонезия","джакарта","indonesia","jakarta"],
+    "korea":       ["корея","сеул","south korea","korea","seoul"],
+    "hongkong":    ["гонконг","hong kong"],
+    "brazil":      ["бразилия","сан-паулу","brazil","sao paulo","são paulo"],
+    "argentina":   ["аргентина","буэнос-айрес","argentina","buenos aires"],
+    "belgium":     ["бельгия","гент","брюссель","belgium","gent","ghent","brussels"],
     "remote":      ["удаленно","удалённо","удаленка","удалёнка","remote","anywhere","worldwide"]
   };
 
@@ -1076,6 +1108,10 @@
   // ---------------------------------------------------------------- отбор
 
   function passes(j, st){
+    // Что человек пометил как неактуальное, из общего списка убираем,
+    // но не теряем: есть отдельная полка «Скрытые», откуда можно вернуть.
+    if (st.onlyHidden){ if (!reported.has(j.id)) return false; }
+    else if (reported.has(j.id)) return false;
     if (st.role.size && !st.role.has(j.role)) return false;
     if (st.spec && st.spec.size && !st.spec.has(j.spec)) return false;
     if (st.stack && st.stack.size && !(j.stack||[]).some(v => st.stack.has(v))) return false;
@@ -1090,18 +1126,32 @@
       const d = daysAgo(j.posted);
       if (d === null || d > st.age) return false;
     }
-    if (st.query){
-      // ищем и по тексту вакансии: там стек, требования и условия
-      if (!j._hay) j._hay = [j.title, j.company, j.role, j.grade,
-                             (j.locations||[]).join(" "), j.desc || ""]
-                            .join(" ").toLowerCase();
-      if (!j._hay.includes(st.query)) return false;
-    }
     return true;
   }
 
+  // Главное — название, студия, роль, стек и место. Описание тоже ищем,
+  // но отдельно: иначе запрос «support» вытаскивал бы триста вакансий,
+  // где это слово встретилось в тексте про соцпакет.
+  function hayMain(j){
+    if (!j._hayMain) j._hayMain = [j.title, j.company, j.role, ROLE_EN[j.role],
+                                   j.spec, SPEC_EN[j.spec], j.grade,
+                                   (j.stack||[]).join(" "), (j.locations||[]).join(" ")]
+                                  .filter(Boolean).join(" ").toLowerCase();
+    return j._hayMain;
+  }
+  function hayDesc(j){
+    if (!j._hayDesc) j._hayDesc = (j.desc || "").toLowerCase();
+    return j._hayDesc;
+  }
+
   function filtered(){
-    const out = JOBS.filter(j => passes(j, state));
+    let out = JOBS.filter(j => passes(j, state));
+    if (state.query){
+      const main = out.filter(j => hayMain(j).includes(state.query));
+      out = main.length >= 3
+        ? main
+        : out.filter(j => hayMain(j).includes(state.query) || hayDesc(j).includes(state.query));
+    }
     const mode = (sortMode === "rel" && !state.query) ? "new" : sortMode;
     const s = SORTS[mode] || SORTS.new;
     return out.sort(s.fn);
@@ -1212,7 +1262,7 @@
       '<div class="tags">'+tags.join("")+'</div>'+
       '<div class="card-bottom">'+
         '<a class="apply" href="'+esc(j.url)+'" target="_blank" rel="noopener">'+t("apply")+'</a>'+
-        '<button class="report">'+(reported.has(j.id) ? t("reported") : t("report"))+'</button>'+
+        '<button class="report">'+(reported.has(j.id) ? t("restore") : t("report"))+'</button>'+
       '</div></div>';
 
     fixLogo(el, j);
@@ -1223,7 +1273,17 @@
       showJob(j);
     });
 
-    el.querySelector(".report").addEventListener("click", e => { e.stopPropagation(); openReport(j); });
+    el.querySelector(".report").addEventListener("click", e => {
+      e.stopPropagation();
+      if (reported.has(j.id)){          // вернуть вакансию в общий список
+        reported.delete(j.id);
+        try { store.setItem("reported", JSON.stringify([...reported])); } catch(err){}
+        if (!reported.size) state.onlyHidden = false;
+        renderList();
+        return;
+      }
+      openReport(j);
+    });
     el.querySelector(".fav").addEventListener("click", e => {
       e.stopPropagation();
       favs.has(j.id) ? favs.delete(j.id) : favs.add(j.id);
@@ -1251,8 +1311,9 @@
       $("moreBtn").hidden = left <= 0;
       if (left > 0) $("moreBtn").textContent = t("more") + " " + Math.min(PAGE, left);
     }
+    const total = state.onlyHidden ? reported.size : JOBS.length - reported.size;
     countEl.textContent = shown.length
-      ? t("found")+": "+shown.length+" "+t("of")+" "+JOBS.length : t("nothing");
+      ? t("found")+": "+shown.length+" "+t("of")+" "+total : t("nothing");
 
     const n = activeCount();
     $("filterCount").hidden = n === 0;
@@ -1302,6 +1363,16 @@
         state.onlyFav = !state.onlyFav; shownCount = PAGE; renderList();
       });
       wrap.appendChild(f);
+    }
+
+    if (reported.size){
+      const h = document.createElement("button");
+      h.className = "qchip hidden-chip" + (state.onlyHidden ? " on" : "");
+      h.textContent = t("hidden") + " " + reported.size;
+      h.addEventListener("click", () => {
+        state.onlyHidden = !state.onlyHidden; shownCount = PAGE; renderList();
+      });
+      wrap.appendChild(h);
     }
     const lab = document.createElement("label");
     lab.textContent = t("sort");
@@ -1395,6 +1466,84 @@
     }).catch(() => { prompt(t("share"), stateToUrl()); });
   }
 
+  // --------------------------------------------------------- подсказки поиска
+  // Человек печатает «manager» — показываем, какие менеджеры вообще есть,
+  // какие студии и какой стек подходят. Клик подставляет готовое условие.
+  function suggestions(q){
+    if (q.length < 2) return [];
+    const out = [];
+    const seen = new Set();
+    const push = (text, kind, apply) => {
+      const key = kind + ":" + text.toLowerCase();
+      if (seen.has(key)) return;
+      seen.add(key);
+      out.push({ text, kind, apply });
+    };
+
+    counts("role").forEach(([v, n]) => {
+      if ([v, ROLE_EN[v] || "", roleLabel(v)].some(x => x.toLowerCase().includes(q)))
+        push(roleLabel(v) + "  " + n, t("gtRole"), () => { state.role.add(v); state.query = ""; });
+    });
+    counts("spec").forEach(([v, n]) => {
+      if ([v, SPEC_EN[v] || "", specLabel(v)].some(x => x.toLowerCase().includes(q)))
+        push(specLabel(v) + "  " + n, t("gtSpec"), () => { state.spec.add(v); state.query = ""; });
+    });
+    counts("stack").forEach(([v, n]) => {
+      if (v.toLowerCase().includes(q))
+        push(v + "  " + n, t("gtStack"), () => { state.stack.add(v); state.query = ""; });
+    });
+    counts("company").forEach(([v, n]) => {
+      if (v.toLowerCase().includes(q))
+        push(v + "  " + n, t("gtCompany"), () => { state.company.add(v); state.query = ""; });
+    });
+
+    // Названия вакансий: показываем те, что реально есть в базе.
+    const titles = new Map();
+    JOBS.forEach(j => {
+      if (reported.has(j.id)) return;
+      const low = (j.title || "").toLowerCase();
+      if (low.includes(q)) titles.set(j.title, (titles.get(j.title) || 0) + 1);
+    });
+    [...titles.entries()].sort((a, b) => b[1] - a[1]).slice(0, 6).forEach(([title]) => {
+      push(title, t("jobWord"), () => { state.query = title.toLowerCase(); searchEl.value = title; });
+    });
+
+    return out.slice(0, 8);
+  }
+
+  let sugIndex = -1;
+
+  function renderSuggest(){
+    const box = $("suggest");
+    const list = suggestions((searchEl.value || "").trim().toLowerCase());
+    box.innerHTML = "";
+    if (!list.length || document.activeElement !== searchEl){ box.hidden = true; return; }
+    list.forEach((sug, i) => {
+      const row = document.createElement("div");
+      row.className = "sug" + (i === sugIndex ? " on" : "");
+      row.innerHTML = '<div class="txt">'+esc(sug.text)+'</div><div class="kind">'+esc(sug.kind)+'</div>';
+      row.addEventListener("mousedown", e => {      // mousedown: успеваем до потери фокуса
+        e.preventDefault();
+        pickSuggest(sug);
+      });
+      box.appendChild(row);
+    });
+    box.hidden = false;
+  }
+
+  function pickSuggest(sug){
+    sug.apply();
+    if (!state.query) searchEl.value = "";
+    sugIndex = -1;
+    $("suggest").hidden = true;
+    shownCount = PAGE;
+    if (!sortChosen) sortMode = state.query ? "rel" : "new";
+    renderList();
+    buildFilterUi();
+  }
+
+  function hideSuggest(){ sugIndex = -1; $("suggest").hidden = true; }
+
   function renderActiveTags(){
     const box = $("activeTags");
     box.innerHTML = "";
@@ -1415,6 +1564,7 @@
     if (state.remote) add(t("remote"), () => state.remote = false);
     if (state.salary) add(t("withSalary"), () => state.salary = false);
     if (state.onlyFav) add(t("favs"), () => state.onlyFav = false);
+    if (state.onlyHidden) add(t("hidden"), () => state.onlyHidden = false);
   }
 
   // ---------------------------------------------------------------- фильтры
@@ -1475,7 +1625,9 @@
       malta:"Мальта", sweden:"Швеция", finland:"Финляндия", france:"Франция",
       usa:"США", canada:"Канада", japan:"Япония", china:"Китай",
       singapore:"Сингапур", india:"Индия", australia:"Австралия",
-      uzbekistan:"Узбекистан", azerbaijan:"Азербайджан", remote:"Удалённо" },
+      uzbekistan:"Узбекистан", azerbaijan:"Азербайджан", russia:"Россия",
+      malaysia:"Малайзия", indonesia:"Индонезия", korea:"Южная Корея", hongkong:"Гонконг",
+      brazil:"Бразилия", argentina:"Аргентина", belgium:"Бельгия", remote:"Удалённо" },
     en:{ cyprus:"Cyprus", serbia:"Serbia", poland:"Poland", armenia:"Armenia",
       kazakhstan:"Kazakhstan", georgia:"Georgia", belarus:"Belarus", turkey:"Turkey",
       montenegro:"Montenegro", thailand:"Thailand", vietnam:"Vietnam", uae:"UAE",
@@ -1486,7 +1638,9 @@
       malta:"Malta", sweden:"Sweden", finland:"Finland", france:"France",
       usa:"USA", canada:"Canada", japan:"Japan", china:"China",
       singapore:"Singapore", india:"India", australia:"Australia",
-      uzbekistan:"Uzbekistan", azerbaijan:"Azerbaijan", remote:"Remote" }
+      uzbekistan:"Uzbekistan", azerbaijan:"Azerbaijan", russia:"Russia",
+      malaysia:"Malaysia", indonesia:"Indonesia", korea:"South Korea", hongkong:"Hong Kong",
+      brazil:"Brazil", argentina:"Argentina", belgium:"Belgium", remote:"Remote" }
   };
   function countryLabel(key){
     return (COUNTRY_LABEL[lang] && COUNTRY_LABEL[lang][key]) || COUNTRY_LABEL.ru[key] || key;
@@ -1521,6 +1675,80 @@
         });
         box.appendChild(b);
       });
+  }
+
+  // Студии пишут места как попало: «Montreal», «Montréal, Canada», «Canada» —
+  // это одно и то же. Поэтому в списке показываем страны, а города —
+  // только когда человек ищет что-то конкретное.
+  function countryGroups(){
+    const byCountry = new Map();
+    const orphans = [];
+    counts("location").forEach(([loc, n]) => {
+      const keys = geoKeys(loc);
+      if (!keys.length){ orphans.push([loc, n]); return; }
+      keys.forEach(key => {
+        if (!byCountry.has(key)) byCountry.set(key, { n:0, locs:[] });
+        const rec = byCountry.get(key);
+        rec.n += n; rec.locs.push(loc);
+      });
+    });
+    return { byCountry, orphans };
+  }
+
+  function renderLocationList(query){
+    const el = $("fLocation");
+    el.innerHTML = "";
+    const q = (query || "").trim();
+    const { byCountry, orphans } = countryGroups();
+
+    const rows = [...byCountry.entries()]
+      .filter(([key, rec]) => !q || locMatches(countryLabel(key), q) || rec.locs.some(l => locMatches(l, q)))
+      .sort((a, b) => b[1].n - a[1].n);
+
+    rows.forEach(([key, rec]) => {
+      const all = rec.locs.every(l => draft.location.has(l));
+      const row = document.createElement("div");
+      row.className = "opt" + (all ? " on" : "");
+      row.innerHTML = '<div class="box">'+(all?"✓":"")+'</div><div>'+esc(countryLabel(key))+
+                      '</div><div class="n">'+rec.n+'</div>';
+      row.addEventListener("click", () => {
+        all ? rec.locs.forEach(l => draft.location.delete(l))
+            : rec.locs.forEach(l => draft.location.add(l));
+        buildFilterUi();
+        if (wide.matches){ shownCount = PAGE; renderList(); }
+      });
+      el.appendChild(row);
+    });
+
+    // Города показываем только при поиске: иначе список снова станет кашей.
+    const cities = q
+      ? counts("location").filter(([loc]) => locMatches(loc, q))
+      : [];
+    const rest = q ? orphans.filter(([loc]) => locMatches(loc, q)) : orphans;
+    const extra = q ? cities : rest;
+
+    if (extra.length){
+      const head = document.createElement("div");
+      head.className = "opt-head";
+      head.textContent = q ? t("citiesWord") : t("otherWord");
+      el.appendChild(head);
+      extra.forEach(([loc, n]) => {
+        const on = draft.location.has(loc);
+        const row = document.createElement("div");
+        row.className = "opt" + (on ? " on" : "");
+        row.innerHTML = '<div class="box">'+(on?"✓":"")+'</div><div>'+esc(loc)+
+                        '</div><div class="n">'+n+'</div>';
+        row.addEventListener("click", () => {
+          on ? draft.location.delete(loc) : draft.location.add(loc);
+          buildFilterUi();
+          if (wide.matches){ shownCount = PAGE; renderList(); }
+        });
+        el.appendChild(row);
+      });
+    }
+
+    if (!el.children.length)
+      el.innerHTML = '<div class="opt" style="color:var(--muted)">'+t("nothingShort")+'</div>';
   }
 
   function buildFilterUi(){
@@ -1565,7 +1793,7 @@
 
     optionList($("fCompany"), counts("company"), draft.company, $("companySearch").value);
     renderCountryChips();
-    optionList($("fLocation"), counts("location"), draft.location, $("locSearch").value, true);
+    renderLocationList($("locSearch").value);
 
     const n = draft.role.size + draft.grade.size + draft.company.size + draft.location.size
             + (draft.age?1:0) + (draft.remote?1:0) + (draft.salary?1:0);
@@ -1857,6 +2085,22 @@
   $("companySearch").addEventListener("input", buildFilterUi);
   $("locSearch").addEventListener("input", buildFilterUi);
   $("sendReport").addEventListener("click", sendReport);
+  searchEl.addEventListener("focus", renderSuggest);
+  searchEl.addEventListener("blur", () => setTimeout(hideSuggest, 120));
+  searchEl.addEventListener("keydown", e => {
+    const box = $("suggest");
+    if (box.hidden) return;
+    const rows = box.children.length;
+    if (e.key === "ArrowDown"){ e.preventDefault(); sugIndex = (sugIndex + 1) % rows; renderSuggest(); }
+    else if (e.key === "ArrowUp"){ e.preventDefault(); sugIndex = (sugIndex - 1 + rows) % rows; renderSuggest(); }
+    else if (e.key === "Enter" && sugIndex >= 0){
+      e.preventDefault();
+      const list = suggestions((searchEl.value || "").trim().toLowerCase());
+      if (list[sugIndex]) pickSuggest(list[sugIndex]);
+    }
+    else if (e.key === "Escape") hideSuggest();
+  });
+
   $("shareBtn").addEventListener("click", onShare);
   $("moreBtn").addEventListener("click", () => { shownCount += PAGE; renderList(); });
   $("jobFav").addEventListener("click", () => {
@@ -2016,6 +2260,8 @@
 
   let searchTimer;
   searchEl.addEventListener("input", e => {
+    sugIndex = -1;
+    renderSuggest();
     clearTimeout(searchTimer);
     searchTimer = setTimeout(() => {
       state.query = e.target.value.trim().toLowerCase();
