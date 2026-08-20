@@ -496,6 +496,7 @@
     <div class="sheet-foot">
       <button class="btn" data-cancel data-close="fbOverlay">Отмена</button>
       <button class="btn primary" id="fbSend" disabled>Отправить</button>
+      <button class="btn" id="fbUndo" hidden>Отменить</button>
       <button class="btn primary" id="fbDone" hidden>Готово</button>
     </div>
   </div>
@@ -540,6 +541,7 @@
     <div class="sheet-foot">
       <button class="btn" data-cancel data-close="reportOverlay">Отмена</button>
       <button class="btn primary" id="sendReport" disabled>Отправить</button>
+      <button class="btn" id="reportUndo" hidden>Отменить</button>
       <button class="btn primary" id="reportDone" hidden>Готово</button>
     </div>
   </div>
@@ -801,7 +803,7 @@
       resetQ:"Сбросить фильтры?", resetGo:"Сбросить",
       postedWord:"опубликовано", noLoc:"локация не указана",
       homeQ:"Вернуться на главную?", homeGo:"На главную",
-      done:"Готово",
+      done:"Готово", undo:"Отменить",
       reportThanks:"Спасибо. Вакансию проверят, а у тебя она больше не покажется.",
       fbThanks:"Спасибо, прочитаю.",
       resetOne:"Снимется один фильтр, и вернётся полный список.",
@@ -851,7 +853,7 @@
       resetQ:"Reset filters?", resetGo:"Reset",
       postedWord:"posted", noLoc:"location not stated",
       homeQ:"Back to the start?", homeGo:"Go to start",
-      done:"Done",
+      done:"Done", undo:"Undo",
       reportThanks:"Thanks. We will check it, and you will not see it again.",
       fbThanks:"Thanks, I will read it.",
       resetOne:"One filter will be removed, and the full list will come back.",
@@ -894,6 +896,8 @@
     $("jobApply").textContent = t("applyOn");
     $("reportDone").textContent = t("done");
     $("fbDone").textContent = t("done");
+    $("reportUndo").textContent = t("undo");
+    $("fbUndo").textContent = t("undo");
     $("fbBtn").textContent = t("write");
     $("pitch").textContent = t("pitch");
     $("subtext").textContent = t("subtext");
@@ -1652,6 +1656,36 @@
     } catch(e){}
   }
 
+  // Отправка уходит не сразу: несколько секунд человек может передумать
+  // и нажать «Отменить» — тогда в форму не уйдёт ничего.
+  const UNDO_MS = 7000;
+  let pending = null;
+
+  function queueSend(cfg, values, goal, onCancel){
+    flushSend();                                   // прошлое не держим
+    const rec = { cfg, values, goal, onCancel };
+    rec.timer = setTimeout(() => flushSend(), UNDO_MS);
+    pending = rec;
+  }
+
+  function flushSend(){
+    if (!pending) return;
+    const rec = pending;
+    pending = null;
+    clearTimeout(rec.timer);
+    if (rec.goal && window.ym && CFG.metrikaId) window.ym(CFG.metrikaId, "reachGoal", rec.goal);
+    postToForm(rec.cfg, rec.values);
+  }
+
+  function cancelSend(){
+    if (!pending) return false;
+    const rec = pending;
+    pending = null;
+    clearTimeout(rec.timer);
+    if (rec.onCancel) rec.onCancel();
+    return true;
+  }
+
   function sendReport(){
     if (!reportJob || !reportReason || !reportWhen) return;
     const j = reportJob;
@@ -1659,20 +1693,29 @@
     reported.add(j.id);
     try { store.setItem("reported", JSON.stringify([...reported])); } catch(e){}
 
-    if (window.ym && CFG.metrikaId) window.ym(CFG.metrikaId, "reachGoal", "report");
-
-    postToForm(CFG.reportForm, {
+    queueSend(CFG.reportForm, {
       id: j.id,
       title: j.company + " — " + j.title,
       reason: reportReason[1],
       when: reportWhen[1]
+    }, "report", () => {
+      reported.delete(j.id);                       // вернуть вакансию в список
+      try { store.setItem("reported", JSON.stringify([...reported])); } catch(e){}
     });
 
-    $("reportBody").innerHTML =
-      '<div class="thanks"><span class="big">✓</span>'+t("reportThanks")+'</div>';
-    $("sendReport").hidden = true;
-    $("reportDone").hidden = false;
-    sentOk = true;              // дальше окно закрывается без вопросов
+    showThanks("report", t("reportThanks"));
+  }
+
+  // Общий вид «отправлено»: спасибо, кнопка «Отменить» и кнопка «Готово».
+  function showThanks(kind, text){
+    const body = kind === "report" ? "reportBody" : "fbBody";
+    $(body).innerHTML = '<div class="thanks"><span class="big">✓</span>'+text+'</div>';
+    $(kind === "report" ? "sendReport" : "fbSend").hidden = true;
+    $(kind === "report" ? "reportDone" : "fbDone").hidden = false;
+    $(kind === "report" ? "reportUndo" : "fbUndo").hidden = false;
+    document.querySelectorAll("#"+(kind === "report" ? "reportOverlay" : "fbOverlay")+" [data-cancel]")
+      .forEach(b => b.hidden = true);              // «Отмена» тут уже ни при чём
+    sentOk = true;
   }
 
   // ---------------------------------------------------------------- окно вакансии
@@ -1764,15 +1807,8 @@
     const text = $("fbText").value.trim();
     if (text.length < 5) return;
 
-    if (window.ym && CFG.metrikaId) window.ym(CFG.metrikaId, "reachGoal", "feedback");
-
-    postToForm(CFG.feedbackForm, { topic: fbTopic[1], text: text });
-
-    $("fbBody").innerHTML =
-      '<div class="thanks"><span class="big">✓</span>'+t("fbThanks")+'</div>';
-    $("fbSend").hidden = true;
-    $("fbDone").hidden = false;
-    sentOk = true;
+    queueSend(CFG.feedbackForm, { topic: fbTopic[1], text: text }, "feedback", null);
+    showThanks("fb", t("fbThanks"));
   }
 
   // ---------------------------------------------------------------- запуск
@@ -1835,7 +1871,7 @@
 
   document.querySelectorAll("[data-close]").forEach(b =>
     b.addEventListener("click", () => {
-      if (sentOk){ closeSent(); return; }
+      if (sentOk){ confirmSent(); return; }
       $(b.dataset.close).hidden = true;
     }));
   // Клик мимо окна не закрывает его сразу: легко смахнуть настроенные фильтры
@@ -1862,7 +1898,7 @@
     if (o.id === "closeOverlay") return;
     o.addEventListener("click", e => {
       if (e.target !== o) return;
-      if (sentOk){ closeSent(); return; }   // ответ уже ушёл — просто закрываем
+      if (sentOk){ confirmSent(); return; }  // отправку подтвердили — просто закрываем
       askClose(o);
     });
   });
@@ -1875,15 +1911,24 @@
     $("fbOverlay").hidden = true;
     $("reportDone").hidden = true;
     $("fbDone").hidden = true;
+    $("reportUndo").hidden = true;
+    $("fbUndo").hidden = true;
     $("sendReport").hidden = false;
     $("fbSend").hidden = false;
+    document.querySelectorAll("[data-cancel]").forEach(b => b.hidden = false);
     resetReportBody();
     resetFbBody();
     applyLang();          // вернуть подписи на выбранном языке и перерисовать список
   }
 
-  $("reportDone").addEventListener("click", closeSent);
-  $("fbDone").addEventListener("click", closeSent);
+  // «Готово» и крестик = согласен, отправляем. «Отменить» = не отправляем.
+  function confirmSent(){ flushSend(); closeSent(); }
+  function undoSent(){ cancelSend(); closeSent(); }
+
+  $("reportDone").addEventListener("click", confirmSent);
+  $("fbDone").addEventListener("click", confirmSent);
+  $("reportUndo").addEventListener("click", undoSent);
+  $("fbUndo").addEventListener("click", undoSent);
 
   $("stayBtn").addEventListener("click", () => { $("closeOverlay").hidden = true; pendingClose = null; });
   $("closeYes").addEventListener("click", () => {
