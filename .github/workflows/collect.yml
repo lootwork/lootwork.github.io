@@ -2,7 +2,7 @@ name: Сбор вакансий
 
 on:
   schedule:
-    - cron: "0 6 * * 1"
+    - cron: "0 6 * * *"    # каждый день: сайт обещает свежесть, раз в неделю её не даёт
   workflow_dispatch:
 
 permissions:
