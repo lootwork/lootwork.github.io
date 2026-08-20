@@ -213,59 +213,11 @@
     "note": "своя система найма, через общие доски не отдаёт"
   },
   {
-    "name": "Rockstar Games",
-    "ats": "smartrecruiters",
-    "token": "RockstarGames",
-    "site": "rockstargames.com",
-    "enabled": false,
-    "note": "доска отвечает, но пустая — имя студии в системе другое, ищи через --detect"
-  },
-  {
-    "name": "Ubisoft",
-    "ats": "smartrecruiters",
-    "token": "Ubisoft",
-    "site": "ubisoft.com",
-    "enabled": false,
-    "note": "доска отвечает, но пустая — имя студии в системе другое, ищи через --detect"
-  },
-  {
-    "name": "Bungie",
-    "ats": "smartrecruiters",
-    "token": "Bungie",
-    "site": "bungie.net",
-    "enabled": false,
-    "note": "доска отвечает, но пустая — имя студии в системе другое, ищи через --detect"
-  },
-  {
-    "name": "Jagex",
-    "ats": "smartrecruiters",
-    "token": "Jagex",
-    "site": "jagex.com",
-    "enabled": false,
-    "note": "доска отвечает, но пустая — имя студии в системе другое, ищи через --detect"
-  },
-  {
-    "name": "Rovio",
-    "ats": "smartrecruiters",
-    "token": "Rovio",
-    "site": "rovio.com",
-    "enabled": false,
-    "note": "доска отвечает, но пустая — имя студии в системе другое, ищи через --detect"
-  },
-  {
     "name": "Supercell",
     "ats": "ashby",
     "token": "supercell",
     "site": "supercell.com",
     "enabled": true
-  },
-  {
-    "name": "Playtika",
-    "ats": "ashby",
-    "token": "playtika",
-    "site": "playtika.com",
-    "enabled": false,
-    "note": "адрес не подтвердился — ищи через --detect"
   },
   {
     "name": "Voodoo",
@@ -275,86 +227,6 @@
     "enabled": true
   },
   {
-    "name": "Homa Games",
-    "ats": "ashby",
-    "token": "homagames",
-    "site": "homagames.com",
-    "enabled": false,
-    "note": "адрес не подтвердился — ищи через --detect"
-  },
-  {
-    "name": "Dream Games",
-    "ats": "ashby",
-    "token": "dreamgames",
-    "site": "dreamgames.com",
-    "enabled": false,
-    "note": "адрес не подтвердился — ищи через --detect"
-  },
-  {
-    "name": "Kaiju",
-    "ats": "ashby",
-    "token": "kaiju",
-    "site": "kaiju.game",
-    "enabled": false,
-    "note": "адрес не подтвердился — ищи через --detect"
-  },
-  {
-    "name": "SciPlay",
-    "ats": "workable",
-    "token": "sciplay",
-    "site": "sciplay.com",
-    "enabled": false,
-    "note": "адрес не подтвердился — ищи через --detect"
-  },
-  {
-    "name": "Tactile Games",
-    "ats": "workable",
-    "token": "tactilegames",
-    "site": "tactilegames.com",
-    "enabled": false,
-    "note": "адрес не подтвердился — ищи через --detect"
-  },
-  {
-    "name": "Pixel Federation",
-    "ats": "workable",
-    "token": "pixelfederation",
-    "site": "pixelfederation.com",
-    "enabled": false,
-    "note": "адрес не подтвердился — ищи через --detect"
-  },
-  {
-    "name": "Nordcurrent",
-    "ats": "workable",
-    "token": "nordcurrent",
-    "site": "nordcurrent.com",
-    "enabled": false,
-    "note": "адрес не подтвердился — ищи через --detect"
-  },
-  {
-    "name": "Ten Square Games KZ",
-    "ats": "workable",
-    "token": "tensquaregames",
-    "site": "tensquaregames.com",
-    "enabled": false,
-    "note": "адрес не подтвердился — ищи через --detect"
-  },
-  {
-    "name": "Playgendary",
-    "ats": "workable",
-    "token": "playgendary",
-    "site": "playgendary.com",
-    "enabled": false,
-    "note": "доска отвечает, но пустая — имя студии в системе другое, ищи через --detect"
-  },
-  {
-    "name": "MY.GAMES",
-    "ats": "workable",
-    "token": "mygames",
-    "site": "my.games",
-    "enabled": false,
-    "note": "адрес не подтвердился — ищи через --detect"
-  },
-  {
     "name": "Zeptolab",
     "ats": "workable",
     "token": "zeptolab",
@@ -362,11 +234,73 @@
     "enabled": true
   },
   {
-    "name": "Miniclip",
-    "ats": "smartrecruiters",
-    "token": "Miniclip",
-    "site": "miniclip.com",
-    "enabled": false,
-    "note": "доска отвечает, но пустая — имя студии в системе другое, ищи через --detect"
+    "name": "Riot Games",
+    "ats": "greenhouse",
+    "token": "riotgames",
+    "site": "riotgames.com",
+    "enabled": true
+  },
+  {
+    "name": "Epic Games",
+    "ats": "greenhouse",
+    "token": "epicgames",
+    "site": "epicgames.com",
+    "enabled": true
+  },
+  {
+    "name": "Bungie",
+    "ats": "greenhouse",
+    "token": "bungie",
+    "site": "bungie.net",
+    "enabled": true
+  },
+  {
+    "name": "Guerrilla Games",
+    "ats": "greenhouse",
+    "token": "guerrilla-games",
+    "site": "guerrilla-games.com",
+    "enabled": true
+  },
+  {
+    "name": "Fortis Games",
+    "ats": "greenhouse",
+    "token": "fortisgames",
+    "site": "fortisgames.com",
+    "enabled": true
+  },
+  {
+    "name": "Ghost Story Games",
+    "ats": "greenhouse",
+    "token": "gsgcareers",
+    "site": "ghoststorygames.com",
+    "enabled": true
+  },
+  {
+    "name": "Cloud Chamber",
+    "ats": "greenhouse",
+    "token": "cloudchamberen",
+    "site": "cloudchambergames.com",
+    "enabled": true
+  },
+  {
+    "name": "Avalanche Studios",
+    "ats": "lever",
+    "token": "avalanchestudios",
+    "site": "avalanchestudios.com",
+    "enabled": true
+  },
+  {
+    "name": "Blackbird Interactive",
+    "ats": "lever",
+    "token": "blackbirdinteractive",
+    "site": "blackbirdinteractive.com",
+    "enabled": true
+  },
+  {
+    "name": "Spyke Games",
+    "ats": "lever",
+    "token": "spyke-games",
+    "site": "spykegames.com",
+    "enabled": true
   }
 ]
