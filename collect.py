@@ -1030,7 +1030,7 @@ def write_sitemap(today: str, urls=None):
 # страницы: на каждую вакансию, студию, роль и на удалёнку.
 
 SITE = "https://lootwork.github.io"
-PAGE_DIRS = ["job", "company", "role", "spec", "jobs", "remote"]
+PAGE_DIRS = ["job", "company", "role", "spec", "jobs", "remote", "privacy", "about"]
 
 TRANSLIT = {
     "а":"a","б":"b","в":"v","г":"g","д":"d","е":"e","ё":"e","ж":"zh","з":"z","и":"i",
@@ -1242,6 +1242,90 @@ def list_page(heading, intro, jobs, canonical, depth):
     return page_shell(f"{heading} | LOOTWORK", intro, canonical, body, None, depth)
 
 
+def write_privacy():
+    """Что собираем и что храним. Коротко и без юридического тумана."""
+    body = """<h1>Приватность</h1>
+<div class="sub">Коротко: аккаунтов нет, резюме мы не собираем, отклики идут мимо нас.</div>
+
+<h2>Что остаётся в вашем браузере</h2>
+<p>Избранное, скрытые вакансии, отметки о жалобах и выбранный язык хранятся
+локально, в самом браузере. На сервер они не уходят и нам не видны.
+Очистка данных сайта в браузере стирает их полностью.</p>
+
+<h2>Что видим мы</h2>
+<p>Посещаемость считает Яндекс.Метрика: страницы, устройство, примерный регион,
+источник перехода. Это обезличенная статистика, по ней нельзя понять,
+кто вы.</p>
+
+<h2>Формы</h2>
+<p>Если вы жалуетесь на вакансию, уходит номер и название вакансии, студия,
+ссылка, причина и когда вы столкнулись с проблемой. Если пишете нам —
+тема, текст и контакт, который вы указали сами. Обе формы сделаны
+в Google Формах и складываются в таблицу, доступную только автору сайта.</p>
+
+<h2>Отклики</h2>
+<p>Кнопка «Откликнуться» ведёт на сайт студии. Резюме, письма и анкеты
+мы не принимаем и не пересылаем — всё это происходит между вами и студией.</p>
+
+<h2>Вопросы</h2>
+<p>Пишите через кнопку «Написать нам» на главной.</p>
+"""
+    d = HERE / "privacy"
+    d.mkdir(parents=True, exist_ok=True)
+    (d / "index.html").write_text(page_shell(
+        "Приватность | LOOTWORK",
+        "Что LOOTWORK хранит в браузере, что видит в статистике и что уходит через формы.",
+        f"{SITE}/privacy/", body, None, 1), encoding="utf-8")
+
+
+def write_about(jobs, by_company):
+    """Открытая статистика покрытия: сколько студий, откуда берём, чего нет."""
+    sources = {}
+    for j in jobs:
+        src = j.get("source")
+        if src:
+            sources[src] = sources.get(src, 0) + 1
+    src_rows = "".join(f"<li>{esc(k)} — {v}</li>"
+                       for k, v in sorted(sources.items(), key=lambda kv: -kv[1]))
+    top = sorted(by_company.items(), key=lambda kv: -len(kv[1]))
+    comp_rows = "".join(
+        f'<a class="card" href="../company/{slugify(name)}/"><div>{esc(name)}</div>'
+        f'<div class="cmp">{len(items)} вакансий</div></a>'
+        for name, items in top if name)
+    with_pay = sum(1 for j in jobs if j.get("salary"))
+    remote = sum(1 for j in jobs if j.get("remote") or j.get("rkind"))
+
+    body = f"""<h1>Покрытие базы</h1>
+<div class="sub">Честно о том, что здесь есть и чего нет.</div>
+
+<h2>Цифры</h2>
+<p>{len(jobs)} вакансий от {len(by_company)} студий.
+С указанной зарплатой — {with_pay}. С удалёнкой — {remote}.
+База обновляется раз в неделю, по понедельникам.</p>
+
+<h2>Откуда берём</h2>
+<ul>{src_rows}</ul>
+<p>Это системы найма, к которым студии подключают свои карьерные страницы.
+Мы читаем их напрямую, поэтому здесь нет агентств, перепостов и одной
+вакансии в пяти местах.</p>
+
+<h2>Чего пока нет</h2>
+<p>Российских студий: hh закрыл доступ для сторонних сервисов в декабре 2025.
+Вакансий из Telegram-каналов. Зарплат у большинства вакансий — их указывают
+далеко не все студии. И это не все вакансии геймдева: только те студии,
+которых мы читаем.</p>
+
+<h2>Студии в базе</h2>
+{comp_rows}
+"""
+    d = HERE / "about"
+    d.mkdir(parents=True, exist_ok=True)
+    (d / "index.html").write_text(page_shell(
+        "Покрытие базы | LOOTWORK",
+        f"{len(jobs)} вакансий от {len(by_company)} студий. Откуда берём и чего пока нет.",
+        f"{SITE}/about/", body, None, 1), encoding="utf-8")
+
+
 def write_pages(jobs, today):
     """Раскладываем страницы заново. Старые удаляем целиком: вакансии умирают,
     и оставлять их адреса нельзя — поисковик накажет за мёртвые страницы."""
@@ -1308,6 +1392,11 @@ def write_pages(jobs, today):
             f"{len(remote)} удалённых вакансий от игровых студий.",
             remote, f"{SITE}/remote/", 1), encoding="utf-8")
         urls.append(f"{SITE}/remote/")
+
+    write_privacy()
+    write_about(jobs, by_company)
+    urls.append(f"{SITE}/privacy/")
+    urls.append(f"{SITE}/about/")
 
     d = HERE / "jobs"
     d.mkdir(parents=True, exist_ok=True)

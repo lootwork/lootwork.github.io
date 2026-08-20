@@ -415,6 +415,10 @@
       &nbsp;·&nbsp;
       <a href="/remote/" id="footRemote">Удалённая работа</a>
       &nbsp;·&nbsp;
+      <a href="/about/" id="footAbout">Покрытие базы</a>
+      &nbsp;·&nbsp;
+      <a href="/privacy/" id="footPrivacyLink">Приватность</a>
+      &nbsp;·&nbsp;
       <a href="#" id="footWrite">Добавить студию или сообщить об ошибке</a>
       &nbsp;·&nbsp;
       <span id="footUpdated"></span>
@@ -525,6 +529,12 @@
       <div class="group">
         <div class="group-title" id="fbMsgTitle">Что рассказать</div>
         <textarea class="fb" id="fbText" placeholder="Чего не хватает, что мешает, какую студию добавить…"></textarea>
+      </div>
+      <div class="group">
+        <div class="group-title" id="fbContactTitle">Контакт для ответа</div>
+        <input class="search" id="fbContact" style="font-size:14px"
+               placeholder="почта или телеграм — необязательно">
+        <div class="hint" id="fbContactHint" style="margin-top:6px">Без контакта ответить не смогу.</div>
       </div>
     </div>
     <div class="sheet-foot">
@@ -848,11 +858,16 @@
       remote:"Удалёнка", withSalary:"Есть зарплата", week:"За неделю", favs:"Избранное",
       hidden:"Скрытые", restore:"Вернуть в список", hide:"Скрыть вакансию", more2:"Ещё",
       pool:"резерв",
+      fbContact:"Контакт для ответа", fbContactHint:"Без контакта ответить не смогу.",
+      fbContactPh:"почта или телеграм — необязательно",
+      studioTemplate:"Студия: \nСтраница с вакансиями: \nСтрана: \nКто я: сотрудник / соискатель / другое",
+      sendFail:"Не получилось отправить — возможно, форма заблокирована. Напиши через GitHub, ссылка в подвале.",
       remoteWorld:"Удалёнка по миру", remoteZone:"Удалёнка в регионе", remoteHybrid:"Гибрид",
       formatTitle:"Формат работы", searchFor:"Искать",
       role:"Роль", grade:"Грейд", posted:"Когда опубликовано", terms:"Условия",
       jobWord:"Вакансия", jobPage:"Отдельная страница этой вакансии →",
       allJobs:"Все вакансии", remoteJobs:"Удалённая работа",
+      aboutPage:"Покрытие базы", privacyPage:"Приватность",
       company:"Компания", location:"Локация", any:"Любые", month:"За месяц",
       findCompany:"Найти компанию…", findLoc:"Страна или город — можно по-русски",
       clear:"Очистить", show:"Показать", nothingShort:"Ничего не найдено",
@@ -908,11 +923,16 @@
       remote:"Remote", withSalary:"Salary listed", week:"This week", favs:"Saved",
       hidden:"Hidden", restore:"Bring back", hide:"Hide this job", more2:"More",
       pool:"talent pool",
+      fbContact:"Contact for a reply", fbContactHint:"Without a contact I cannot reply.",
+      fbContactPh:"email or telegram — optional",
+      studioTemplate:"Studio: \nCareers page: \nCountry: \nWho I am: employee / job seeker / other",
+      sendFail:"Could not send — the form may be blocked. Write via GitHub, link in the footer.",
       remoteWorld:"Remote worldwide", remoteZone:"Remote in region", remoteHybrid:"Hybrid",
       formatTitle:"Work format", searchFor:"Search",
       role:"Role", grade:"Level", posted:"Posted", terms:"Conditions",
       jobWord:"Job", jobPage:"Open this job on its own page →",
       allJobs:"All jobs", remoteJobs:"Remote work",
+      aboutPage:"Coverage", privacyPage:"Privacy",
       company:"Company", location:"Location", any:"Any", month:"This month",
       findCompany:"Find a company…", findLoc:"Country or city",
       clear:"Clear", show:"Show", nothingShort:"Nothing found",
@@ -975,7 +995,12 @@
     if (openJob) $("jobPage").textContent = t("jobPage");   // окно может быть открыто
     $("footAll").textContent = t("allJobs");
     $("footRemote").textContent = t("remoteJobs");
+    $("footAbout").textContent = t("aboutPage");
+    $("footPrivacyLink").textContent = t("privacyPage");
     document.querySelectorAll(".close").forEach(b => b.setAttribute("aria-label", t("closeWord")));
+    if ($("fbContactTitle")) $("fbContactTitle").textContent = t("fbContact");
+    if ($("fbContactHint")) $("fbContactHint").textContent = t("fbContactHint");
+    if ($("fbContact")) $("fbContact").placeholder = t("fbContactPh");
     $("reportDone").textContent = t("sendNow");
     $("fbDone").textContent = t("sendNow");
     $("reportUndo").textContent = t("undo");
@@ -2127,9 +2152,16 @@
       const field = cfg.fields[k];
       if (field) body.append(field, values[k]);
     });
-    try {
-      fetch(cfg.url, { method:"POST", mode:"no-cors", body });
-    } catch(e){}
+    return fetch(cfg.url, { method:"POST", mode:"no-cors", body })
+      .catch(() => { showSendFail(); });
+  }
+
+  // Google Forms у части людей режут расширения, корпоративные сети и провайдеры.
+  // Отправка идёт в фоне, поэтому молчать нельзя — иначе человек уверен,
+  // что сигнал ушёл, а он не ушёл.
+  function showSendFail(){
+    const box = $("reportOverlay").hidden ? $("fbBody") : $("reportBody");
+    if (box) box.innerHTML = '<div class="thanks"><span class="big">!</span>'+t("sendFail")+'</div>';
   }
 
   // Отправка уходит не сразу: несколько секунд человек может передумать
@@ -2173,7 +2205,9 @@
       id: j.id,
       title: j.company + " — " + j.title,
       reason: reportReason[1],
-      when: reportWhen[1]
+      when: reportWhen[1],
+      url: j.url || "",
+      company: j.company || ""
     }, "report", () => {
       reported.delete(j.id);                       // вернуть вакансию в список
       try { store.setItem("reported", JSON.stringify([...reported])); } catch(e){}
@@ -2259,6 +2293,7 @@
   function openFeedback(){
     fbTopic = null;
     $("fbText").value = "";
+    if ($("fbContact")) $("fbContact").value = "";
     const box = $("fbTopics");
     box.innerHTML = "";
     FB_TOPICS.forEach(([key,label]) => {
@@ -2269,6 +2304,10 @@
         fbTopic = [key,label];
         [...box.children].forEach(c => c.classList.remove("on"));
         el.classList.add("on");
+        // Про студию нужны конкретные вещи, иначе приходит «добавьте Ubisoft»
+        // и непонятно, где у них вакансии. Подставляем заготовку.
+        if (key === "studio" && !$("fbText").value.trim())
+          $("fbText").value = t("studioTemplate");
         syncFb();
       });
       box.appendChild(el);
@@ -2286,7 +2325,9 @@
     const text = $("fbText").value.trim();
     if (text.length < 5) return;
 
-    queueSend(CFG.feedbackForm, { topic: fbTopic[1], text: text }, "feedback", null);
+    const contact = ($("fbContact") && $("fbContact").value.trim()) || "";
+    queueSend(CFG.feedbackForm,
+      { topic: fbTopic[1], text: text, contact: contact }, "feedback", null);
     showThanks("fb", t("fbThanks"));
   }
 
