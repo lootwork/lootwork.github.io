@@ -140,6 +140,8 @@
   .sug .kind{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
     color:var(--muted);margin-left:auto;white-space:nowrap}
   .sug .txt{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .sug .sub{color:var(--muted);font-size:12.5px;margin-left:9px}
+  .suggest{max-height:60vh;overflow-y:auto}
   .quick{display:flex;flex-wrap:wrap;gap:7px;align-items:center;margin-bottom:11px}
   .qchip{background:transparent;border:1px solid var(--line);color:var(--muted);
     border-radius:999px;padding:7px 14px;font-family:var(--body);font-size:13px;
@@ -407,6 +409,10 @@
     <div style="margin-top:10px">
       <a href="https://github.com/lootwork/lootwork.github.io" target="_blank" rel="noopener">GitHub</a>
       &nbsp;·&nbsp;
+      <a href="/jobs/" id="footAll">Все вакансии</a>
+      &nbsp;·&nbsp;
+      <a href="/remote/" id="footRemote">Удалённая работа</a>
+      &nbsp;·&nbsp;
       <a href="#" id="footWrite">Добавить студию или сообщить об ошибке</a>
       &nbsp;·&nbsp;
       <span id="footUpdated"></span>
@@ -490,6 +496,7 @@
     <div class="sheet-body">
       <div class="job-head" id="jobHead"></div>
       <div class="job-desc" id="jobDesc"></div>
+      <div style="margin-top:16px"><a id="jobPage" href="#" target="_blank" rel="noopener"></a></div>
     </div>
     <div class="sheet-foot">
       <button class="btn" id="jobFav">В избранное</button>
@@ -637,7 +644,11 @@
     ["FMOD",       /\bfmod\b/i]
   ];
 
+  // Сборщик теперь считает это сам и кладёт в данные. Здесь — запасной путь
+  // на случай старого jobs.js: посчитаем в браузере, как раньше.
   JOBS.forEach(j => {
+    if (!Array.isArray(j.stack)) j.stack = null;   // старый формат хранил строку
+    if (j.spec || (j.stack && j.stack.length)) return;
     const title = j.title || "";
     if (j.role === "Программирование"){
       // Только по названию: в описании движки упоминают все подряд,
@@ -821,7 +832,8 @@
       remoteWorld:"Удалёнка по миру", remoteZone:"Удалёнка в регионе", remoteHybrid:"Гибрид",
       formatTitle:"Формат работы", searchFor:"Искать",
       role:"Роль", grade:"Грейд", posted:"Когда опубликовано", terms:"Условия",
-      jobWord:"Вакансия",
+      jobWord:"Вакансия", jobPage:"Отдельная страница этой вакансии →",
+      allJobs:"Все вакансии", remoteJobs:"Удалённая работа",
       company:"Компания", location:"Локация", any:"Любые", month:"За месяц",
       findCompany:"Найти компанию…", findLoc:"Страна или город — можно по-русски",
       clear:"Очистить", show:"Показать", nothingShort:"Ничего не найдено",
@@ -876,7 +888,8 @@
       remoteWorld:"Remote worldwide", remoteZone:"Remote in region", remoteHybrid:"Hybrid",
       formatTitle:"Work format", searchFor:"Search",
       role:"Role", grade:"Level", posted:"Posted", terms:"Conditions",
-      jobWord:"Job",
+      jobWord:"Job", jobPage:"Open this job on its own page →",
+      allJobs:"All jobs", remoteJobs:"Remote work",
       company:"Company", location:"Location", any:"Any", month:"This month",
       findCompany:"Find a company…", findLoc:"Country or city",
       clear:"Clear", show:"Show", nothingShort:"Nothing found",
@@ -933,6 +946,9 @@
     $("reset").textContent = t("reset");
     $("shareBtn").textContent = t("share");
     $("jobApply").textContent = t("applyOn");
+    if (openJob) $("jobPage").textContent = t("jobPage");   // окно может быть открыто
+    $("footAll").textContent = t("allJobs");
+    $("footRemote").textContent = t("remoteJobs");
     $("reportDone").textContent = t("done");
     $("fbDone").textContent = t("done");
     $("reportUndo").textContent = t("undo");
@@ -1517,11 +1533,11 @@
     if (q.length < 2) return [];
     const out = [];
     const seen = new Set();
-    const push = (text, kind, apply) => {
+    const push = (text, kind, apply, sub) => {
       const key = kind + ":" + text.toLowerCase();
       if (seen.has(key)) return;
       seen.add(key);
-      out.push({ text, kind, apply });
+      out.push({ text, kind, apply, sub: sub || "" });
     };
 
     // Первая строка — обычный поиск по набранному. Человек всегда должен
@@ -1559,21 +1575,34 @@
           () => { rec.locs.forEach(l => state.location.add(l)); state.query = ""; }]);
     });
 
-    cats.sort((a, b) => b[0] - a[0]).slice(0, 5)
+    cats.sort((a, b) => b[0] - a[0]).slice(0, 6)
         .forEach(([, text, kind, apply]) => push(text, kind, apply));
 
-    // И только потом — конкретные вакансии, не больше трёх.
-    const titles = new Map();
+    // Конкретные вакансии — с названием студии, иначе непонятно, куда идёшь.
+    // Сколько их показать, зависит от того, сколько места заняли категории.
+    const room = Math.max(4, 12 - out.length);
+    // Целое слово важнее куска: по запросу «unity» сверху должны быть Unity,
+    // а не Community, и по «pol» — Польша, а не Monopoly.
+    const word = new RegExp("\\b" + q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "i");
+    const exact = [], loose = [];
+    const seenTitle = new Set();
     JOBS.forEach(j => {
       if (hidden.has(j.id)) return;
-      const low = (j.title || "").toLowerCase();
-      if (low.includes(q)) titles.set(j.title, (titles.get(j.title) || 0) + 1);
+      const key = (j.title + "|" + j.company).toLowerCase();
+      if (seenTitle.has(key)) return;
+      if (!(j.title || "").toLowerCase().includes(q)) return;
+      seenTitle.add(key);
+      (word.test(j.title) ? exact : loose).push(j);
     });
-    [...titles.entries()].sort((a, b) => b[1] - a[1]).slice(0, 3).forEach(([title]) => {
-      push(title, t("jobWord"), () => { state.query = title.toLowerCase(); searchEl.value = title; });
+    const picked = exact.concat(loose).slice(0, room);
+    picked.forEach(j => {
+      const where = (j.locations || [])[0] || (j.remote ? t("remote") : "");
+      push(j.title, t("jobWord"),
+        () => { state.query = j.title.toLowerCase(); searchEl.value = j.title; },
+        j.company + (where ? " · " + where : ""));
     });
 
-    return out.slice(0, 9);
+    return out.slice(0, 12);
   }
 
   let sugIndex = -1;
@@ -1586,7 +1615,9 @@
     list.forEach((sug, i) => {
       const row = document.createElement("div");
       row.className = "sug" + (i === sugIndex ? " on" : "");
-      row.innerHTML = '<div class="txt">'+esc(sug.text)+'</div><div class="kind">'+esc(sug.kind)+'</div>';
+      row.innerHTML = '<div class="txt">'+esc(sug.text)+
+        (sug.sub ? '<span class="sub">'+esc(sug.sub)+'</span>' : '')+
+        '</div><div class="kind">'+esc(sug.kind)+'</div>';
       row.addEventListener("mousedown", e => {      // mousedown: успеваем до потери фокуса
         e.preventDefault();
         pickSuggest(sug);
@@ -2060,6 +2091,8 @@
     }
 
     $("jobApply").href = j.url;
+    $("jobPage").href = "/job/" + encodeURIComponent(j.id) + "/";
+    $("jobPage").textContent = t("jobPage");
     syncJobFav();
     $("jobOverlay").hidden = false;
     $("jobOverlay").querySelector(".sheet-body").scrollTop = 0;

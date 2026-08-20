@@ -18,6 +18,7 @@ import html as html_lib
 import os
 import json
 import re
+import shutil
 import sys
 import time
 from datetime import datetime, timezone
@@ -118,6 +119,56 @@ def classify_role(title: str):
         if re.search(pattern, low, re.I):
             return role
     return None
+
+
+# Роль «Программирование» слишком широкая: под ней и Unity, и бэкенд,
+# и инструменты. Уточняем по названию — побеждает первое правило.
+SPEC_RULES = [
+    ("Unity",       r"\bunity\b|юнити"),
+    ("Unreal",      r"\bunreal\b|\bue\s?[45]\b|анрил"),
+    ("Движок",      r"engine (programmer|developer|engineer)|graphics|render|shader|physics|физик"),
+    ("Геймплей",    r"gameplay|геймплей"),
+    ("Данные и ML", r"data (engineer|developer|ops|platform|scien)|machine learning|"
+                    r"\bml engineer\b|\bai engineer\b|data engineering"),
+    ("Бэкенд",      r"back[- ]?end|бэкенд|бекенд|\bserver\b|серверн|platform engineer|"
+                    r"golang|node\.js|distributed systems"),
+    ("Фронтенд",    r"front[- ]?end|фронтенд|full[- ]?stack|\breact\b|\bweb developer\b|"
+                    r"javascript|typescript|playable ads|\bhtml5\b"),
+    ("Мобильная",   r"\bios\b|\bandroid\b|мобильн|mobile (developer|engineer)|flutter"),
+    ("Инструменты", r"\btools?\b|tooling|pipeline (engineer|developer)|инструмент|build engineer"),
+    ("DevOps",      r"devops|\bsre\b|site reliability|infrastructure|инфраструктур|"
+                    r"kubernetes|\bcloud\b"),
+    ("C++",         r"c\+\+"),
+]
+
+# Инструменты и языки. Git и Jira намеренно не берём: они есть почти везде.
+STACK_RULES = [
+    ("Unity", r"\bunity\b"), ("Unreal", r"\bunreal\b|\bue\s?[45]\b"),
+    ("Godot", r"\bgodot\b"), ("C++", r"c\+\+"), ("C#", r"c#|c-sharp"),
+    ("Python", r"\bpython\b"), ("Go", r"\bgolang\b"), ("Java", r"\bjava\b(?!script)"),
+    ("Kotlin", r"\bkotlin\b"), ("Swift", r"\bswift\b"), ("TypeScript", r"\btypescript\b"),
+    ("JavaScript", r"\bjavascript\b"), ("Lua", r"\blua\b"), ("SQL", r"\bsql\b"),
+    ("AWS", r"\baws\b|amazon web services"), ("Docker", r"\bdocker\b"),
+    ("Kubernetes", r"\bkubernetes\b|\bk8s\b"), ("Maya", r"\bmaya\b"),
+    ("Blender", r"\bblender\b"), ("Houdini", r"\bhoudini\b"), ("ZBrush", r"\bzbrush\b"),
+    ("Substance", r"\bsubstance\b"), ("Photoshop", r"\bphotoshop\b"), ("Spine", r"\bspine\b"),
+    ("Figma", r"\bfigma\b"), ("Perforce", r"\bperforce\b|\bp4v\b"), ("Wwise", r"\bwwise\b"),
+    ("FMOD", r"\bfmod\b"),
+]
+
+
+def classify_spec(title: str, role: str):
+    if role != "Программирование":
+        return None
+    for name, pattern in SPEC_RULES:
+        if re.search(pattern, title or "", re.I):
+            return name
+    return None
+
+
+def classify_stack(title: str, desc: str):
+    hay = (title or "") + " " + (desc or "")
+    return [name for name, pattern in STACK_RULES if re.search(pattern, hay, re.I)][:6]
 
 
 def classify_grade(title: str):
@@ -604,6 +655,8 @@ def collect(companies, verify_links: bool):
 
         j["role"] = role
         j["grade"] = classify_grade(j["title"])
+        j["spec"] = classify_spec(j["title"], role)
+        j["stack"] = classify_stack(j["title"], j.get("desc"))
         jobs.append(j)
 
     if verify_links:
@@ -637,24 +690,325 @@ def write_js(jobs):
         encoding="utf-8",
     )
     print(f"\nЗаписано {len(jobs)} вакансий в {OUT_JS.name}")
-    write_sitemap(today)
+    urls = write_pages(jobs, today)
+    write_sitemap(today, urls)
 
 
-def write_sitemap(today: str):
-    """Обновляем дату в карте сайта: поисковики по ней решают, когда зайти снова."""
+def write_sitemap(today: str, urls=None):
+    """Карта сайта со всеми страницами: по ней поисковик их и найдёт."""
+    urls = urls or ["https://lootwork.github.io/"]
+    rows = []
+    for u in urls:
+        prio = "1.0" if u.rstrip("/").endswith("github.io") else "0.7"
+        rows.append("  <url>\n"
+                    f"    <loc>{u}</loc>\n"
+                    f"    <lastmod>{today}</lastmod>\n"
+                    "    <changefreq>weekly</changefreq>\n"
+                    f"    <priority>{prio}</priority>\n"
+                    "  </url>")
     SITEMAP.write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-        "  <url>\n"
-        "    <loc>https://lootwork.github.io/</loc>\n"
-        f"    <lastmod>{today}</lastmod>\n"
-        "    <changefreq>weekly</changefreq>\n"
-        "    <priority>1.0</priority>\n"
-        "  </url>\n"
-        "</urlset>\n",
+        + "\n".join(rows) + "\n</urlset>\n",
         encoding="utf-8",
     )
-    print(f"Обновлена карта сайта {SITEMAP.name}")
+    print(f"В карте сайта {len(urls)} адресов")
+
+
+# ---------------------------------------------------------------- страницы
+# Витрина живёт в одном index.html, и поисковик видит там ровно одну страницу.
+# Люди же ищут «unity developer вакансии» или «работа в Wargaming» — под такие
+# запросы нужен отдельный адрес. Поэтому сборщик раскладывает статические
+# страницы: на каждую вакансию, студию, роль и на удалёнку.
+
+SITE = "https://lootwork.github.io"
+PAGE_DIRS = ["job", "company", "role", "spec", "jobs", "remote"]
+
+TRANSLIT = {
+    "а":"a","б":"b","в":"v","г":"g","д":"d","е":"e","ё":"e","ж":"zh","з":"z","и":"i",
+    "й":"y","к":"k","л":"l","м":"m","н":"n","о":"o","п":"p","р":"r","с":"s","т":"t",
+    "у":"u","ф":"f","х":"h","ц":"c","ч":"ch","ш":"sh","щ":"sch","ъ":"","ы":"y","ь":"",
+    "э":"e","ю":"yu","я":"ya",
+}
+
+
+def slugify(text: str) -> str:
+    """«Технический художник» → «tehnicheskiy-hudozhnik». Адрес должен читаться."""
+    s = str(text or "").lower()
+    s = "".join(TRANSLIT.get(ch, ch) for ch in s)
+    s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+    return s[:70] or "x"
+
+
+def esc(text) -> str:
+    return (str(text if text is not None else "")
+            .replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+            .replace('"', "&quot;"))
+
+
+def desc_html(text: str) -> str:
+    """Текст вакансии в абзацы и списки — так, как его отдал сборщик."""
+    if not text:
+        return ""
+    out, bullets = [], []
+
+    def flush():
+        if bullets:
+            out.append("<ul>" + "".join(f"<li>{esc(b)}</li>" for b in bullets) + "</ul>")
+            bullets.clear()
+
+    waiting = False        # маркер приехал пустым — текст пункта будет следующей строкой
+    for line in text.split("\n"):
+        line = line.strip()
+        if not line:
+            continue          # пустая строка список не разрывает — разрывает абзац
+        if line.startswith("•"):
+            rest = line.lstrip("• ").strip()
+            if rest:
+                bullets.append(rest)
+                waiting = False
+            else:
+                waiting = True
+        elif waiting:
+            bullets.append(line)
+            waiting = False
+        else:
+            flush()
+            out.append(f"<p>{esc(line)}</p>")
+    flush()
+    return "\n".join(out)
+
+
+PAGE_CSS = """:root{--void:#0c0a1a;--panel:#15122b;--panel-2:#1c1838;--line:#2c2554;
+--line-soft:#231e45;--text:#eceaff;--muted:#948cc0;--amber:#ffb03f;--cyan:#5fe3ff}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--void);color:var(--text);line-height:1.6;
+font-family:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:15px}
+a{color:var(--cyan)}
+.wrap{max-width:760px;margin:0 auto;padding:26px 18px 60px}
+header{border-bottom:1px solid var(--line-soft);margin-bottom:26px;padding-bottom:16px}
+.logo{font-family:"Unbounded",system-ui,sans-serif;font-weight:700;font-size:22px;
+letter-spacing:.02em;color:var(--text);text-decoration:none}
+.logo b{color:var(--amber)}
+h1{font-size:26px;line-height:1.25;margin:0 0 8px}
+h2{font-size:17px;margin:26px 0 10px}
+.sub{color:var(--muted);font-size:14px}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0}
+.tag{font-size:12px;color:var(--muted);background:var(--panel-2);border:1px solid var(--line-soft);
+border-radius:7px;padding:3px 9px}
+.tag.remote{color:var(--cyan);border-color:#12303d;background:#12303d}
+.apply{display:inline-block;background:var(--amber);color:#231602;text-decoration:none;
+font-weight:700;padding:12px 24px;border-radius:9px;margin:18px 0}
+.apply:hover{background:#ffc164}
+.desc p{margin:0 0 12px}
+.desc ul{margin:0 0 14px 20px}
+.desc li{margin:0 0 5px}
+.card{display:block;border:1px solid var(--line-soft);background:var(--panel);border-radius:12px;
+padding:13px 15px;margin-bottom:9px;text-decoration:none;color:var(--text)}
+.card:hover{border-color:var(--line)}
+.card .cmp{color:var(--muted);font-size:13px;margin-top:3px}
+footer{margin-top:40px;padding-top:18px;border-top:1px solid var(--line-soft);
+color:var(--muted);font-size:13px}
+.crumbs{font-size:13px;color:var(--muted);margin-bottom:14px}
+.crumbs a{color:var(--muted)}
+.note{color:var(--muted);font-size:13px;margin-top:10px}
+"""
+
+
+def page_shell(title, description, canonical, body, ld=None, depth=1):
+    """Общая обёртка страницы. depth — сколько ../ до корня сайта."""
+    up = "../" * depth
+    ld_block = ""
+    if ld:
+        ld_block = ('<script type="application/ld+json">'
+                    + json.dumps(ld, ensure_ascii=False) + "</script>\n")
+    return f"""<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{esc(title)}</title>
+<meta name="description" content="{esc(description)[:300]}">
+<link rel="canonical" href="{esc(canonical)}">
+<meta property="og:title" content="{esc(title)}">
+<meta property="og:description" content="{esc(description)[:300]}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{esc(canonical)}">
+<meta property="og:image" content="{SITE}/og.png">
+<meta name="theme-color" content="#0c0a1a">
+<link rel="icon" href="{up}favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@700&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{up}page.css">
+{ld_block}</head>
+<body>
+<div class="wrap">
+<header><a class="logo" href="{up}">LOOT<b>WORK</b></a></header>
+{body}
+<footer>
+  Вакансии собираются автоматически с карьерных страниц игровых студий.
+  Мы не работодатель и не принимаем отклики — откликаться нужно на сайте студии.<br>
+  <a href="{up}">Все вакансии на LOOTWORK</a>
+</footer>
+</div>
+</body>
+</html>
+"""
+
+
+def job_ld(j):
+    """Разметка вакансии для поисковиков — из-за неё вакансия может попасть
+    в отдельный блок с карточками работы в выдаче Google."""
+    ld = {
+        "@context": "https://schema.org",
+        "@type": "JobPosting",
+        "title": j.get("title"),
+        "description": (j.get("desc") or j.get("title") or "")[:5000],
+        "identifier": {"@type": "PropertyValue", "name": j.get("company"), "value": j.get("id")},
+        "hiringOrganization": {"@type": "Organization", "name": j.get("company")},
+        "directApply": False,
+        "url": f"{SITE}/job/{j['id']}/",
+    }
+    if j.get("posted"):
+        ld["datePosted"] = j["posted"]
+    locs = j.get("locations") or []
+    if locs:
+        ld["jobLocation"] = [{"@type": "Place",
+                              "address": {"@type": "PostalAddress", "addressLocality": l}}
+                             for l in locs[:3]]
+    if j.get("remote"):
+        ld["jobLocationType"] = "TELECOMMUTE"
+        if not locs:
+            ld["applicantLocationRequirements"] = {"@type": "Country", "name": "Worldwide"}
+    return ld
+
+
+RKIND_WORD = {"worldwide": "удалёнка по миру", "zone": "удалёнка в регионе", "hybrid": "гибрид"}
+
+
+def job_page(j, same_company):
+    where = ", ".join(j.get("locations") or []) or "локация не указана"
+    tags = []
+    if j.get("remote") or j.get("rkind"):
+        tags.append(('<span class="tag remote">'
+                     + esc(RKIND_WORD.get(j.get("rkind"), "удалёнка")) + "</span>"))
+    for v in [j.get("grade"), j.get("role"), j.get("spec")]:
+        if v:
+            tags.append(f'<span class="tag">{esc(v)}</span>')
+    for v in (j.get("stack") or [])[:5]:
+        tags.append(f'<span class="tag">{esc(v)}</span>')
+
+    near = ""
+    if same_company:
+        rows = "".join(
+            f'<a class="card" href="../{esc(o["id"])}/"><div>{esc(o["title"])}</div>'
+            f'<div class="cmp">{esc(", ".join(o.get("locations") or []) or "—")}</div></a>'
+            for o in same_company[:6])
+        near = f'<h2>Ещё в {esc(j["company"])}</h2>{rows}'
+
+    body = f"""<div class="crumbs"><a href="../../">Вакансии</a> ·
+  <a href="../../company/{slugify(j['company'])}/">{esc(j['company'])}</a></div>
+<h1>{esc(j['title'])}</h1>
+<div class="sub">{esc(j['company'])} · {esc(where)}{(' · опубликовано ' + esc(j['posted'])) if j.get('posted') else ''}</div>
+<div class="tags">{''.join(tags)}</div>
+<a class="apply" href="{esc(j['url'])}" target="_blank" rel="nofollow noopener">Откликнуться на сайте студии</a>
+<div class="desc">{desc_html(j.get('desc'))}</div>
+<div class="note">Отклик принимает студия на своём сайте. LOOTWORK только показывает вакансию.</div>
+{near}
+"""
+    title = f"{j['title']} — {j['company']} | LOOTWORK"
+    descr = (j.get("desc") or "").replace("\n", " ")[:280] or f"{j['title']} в {j['company']}, {where}."
+    return page_shell(title, descr, f"{SITE}/job/{j['id']}/", body, job_ld(j), depth=2)
+
+
+def list_page(heading, intro, jobs, canonical, depth):
+    rows = "".join(
+        f'<a class="card" href="{"../" * depth}job/{esc(j["id"])}/"><div>{esc(j["title"])}</div>'
+        f'<div class="cmp">{esc(j["company"])} · '
+        f'{esc(", ".join(j.get("locations") or []) or "локация не указана")}</div></a>'
+        for j in jobs)
+    body = f"<h1>{esc(heading)}</h1><div class=\"sub\">{esc(intro)}</div><div style=\"margin-top:18px\">{rows}</div>"
+    return page_shell(f"{heading} | LOOTWORK", intro, canonical, body, None, depth)
+
+
+def write_pages(jobs, today):
+    """Раскладываем страницы заново. Старые удаляем целиком: вакансии умирают,
+    и оставлять их адреса нельзя — поисковик накажет за мёртвые страницы."""
+    for name in PAGE_DIRS:
+        shutil.rmtree(HERE / name, ignore_errors=True)
+
+    (HERE / "page.css").write_text(PAGE_CSS, encoding="utf-8")
+
+    by_company, by_role, by_spec = {}, {}, {}
+    for j in jobs:
+        by_company.setdefault(j.get("company"), []).append(j)
+        if j.get("role"):
+            by_role.setdefault(j["role"], []).append(j)
+        if j.get("spec"):
+            by_spec.setdefault(j["spec"], []).append(j)
+
+    urls = [f"{SITE}/"]
+
+    for j in jobs:
+        others = [o for o in by_company.get(j.get("company"), []) if o["id"] != j["id"]]
+        d = HERE / "job" / j["id"]
+        d.mkdir(parents=True, exist_ok=True)
+        (d / "index.html").write_text(job_page(j, others), encoding="utf-8")
+        urls.append(f"{SITE}/job/{j['id']}/")
+
+    for company, items in by_company.items():
+        if not company:
+            continue
+        slug = slugify(company)
+        d = HERE / "company" / slug
+        d.mkdir(parents=True, exist_ok=True)
+        (d / "index.html").write_text(list_page(
+            f"Вакансии {company}",
+            f"{len(items)} открытых вакансий в {company} — напрямую с карьерной страницы студии.",
+            items, f"{SITE}/company/{slug}/", 2), encoding="utf-8")
+        urls.append(f"{SITE}/company/{slug}/")
+
+    for role, items in by_role.items():
+        slug = slugify(role)
+        d = HERE / "role" / slug
+        d.mkdir(parents=True, exist_ok=True)
+        (d / "index.html").write_text(list_page(
+            f"{role} — вакансии в геймдеве",
+            f"{len(items)} вакансий по направлению «{role}» напрямую от игровых студий.",
+            items, f"{SITE}/role/{slug}/", 2), encoding="utf-8")
+        urls.append(f"{SITE}/role/{slug}/")
+
+    for spec, items in by_spec.items():
+        slug = slugify(spec)
+        d = HERE / "spec" / slug
+        d.mkdir(parents=True, exist_ok=True)
+        (d / "index.html").write_text(list_page(
+            f"{spec} — вакансии в геймдеве",
+            f"{len(items)} вакансий: {spec}. Напрямую от игровых студий.",
+            items, f"{SITE}/spec/{slug}/", 2), encoding="utf-8")
+        urls.append(f"{SITE}/spec/{slug}/")
+
+    remote = [j for j in jobs if j.get("remote") or j.get("rkind")]
+    if remote:
+        d = HERE / "remote"
+        d.mkdir(parents=True, exist_ok=True)
+        (d / "index.html").write_text(list_page(
+            "Удалённая работа в геймдеве",
+            f"{len(remote)} удалённых вакансий от игровых студий.",
+            remote, f"{SITE}/remote/", 1), encoding="utf-8")
+        urls.append(f"{SITE}/remote/")
+
+    d = HERE / "jobs"
+    d.mkdir(parents=True, exist_ok=True)
+    (d / "index.html").write_text(list_page(
+        "Все вакансии в геймдеве",
+        f"{len(jobs)} вакансий от {len(by_company)} студий. Обновляется еженедельно.",
+        jobs, f"{SITE}/jobs/", 1), encoding="utf-8")
+    urls.append(f"{SITE}/jobs/")
+
+    print(f"Страниц разложено: {len(urls)}")
+    return urls
 
 
 def main():
