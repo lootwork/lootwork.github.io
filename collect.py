@@ -194,10 +194,46 @@ REMOTE_WORDS = re.compile(
     r"\b(remote|remotely|anywhere|worldwide|work from home|wfh|hybrid/remote|"
     r"удал[её]нн\w*|удал[её]нка)\b", re.I)
 
+# Строки вроде «within EU» или «within ±2 hours of CET» описывают не город,
+# а откуда можно работать. Считаем это удалёнкой и в список мест не кладём.
+REMOTE_ZONE = re.compile(r"\bwithin\b.*\b(eu|europe|cet|cest|est|utc|gmt|hours?)\b", re.I)
+
 # лишние административные слова, которые ничего не говорят кандидату
 NOISE = re.compile(
     r"\b(voivodeship|province|prefecture|county|oblast|region|district|"
     r"metropolitan area|greater|state of)\b", re.I)
+
+
+# Одной метки «Удалёнка» мало: «работайте откуда угодно» и «удалённо, но
+# только из Канады» — это совсем разные предложения. Разбираем на три вида.
+WORLDWIDE_RE = re.compile(
+    r"\b(anywhere|worldwide|work from anywhere|fully remote|globally|"
+    r"any (country|location)|из любой точки)\b", re.I)
+HYBRID_RE = re.compile(r"\bhybrid\b|гибрид", re.I)
+ZONE_RE = re.compile(
+    r"\bwithin\b|\bremote\b[^.]{0,20}\b(in|from|within|only)\b|"
+    r"\b(eu|europe|cet|cest|est|utc|gmt)\b|"
+    r"time ?zone|based in", re.I)
+
+
+def remote_kind(raw_location, title, desc):
+    """worldwide — откуда угодно, zone — только из своего региона, hybrid — часть дней в офисе."""
+    loc = str(raw_location or "")
+    head = (title or "") + " " + loc + " " + (desc or "")[:600]
+    if HYBRID_RE.search(loc) or HYBRID_RE.search(title or ""):
+        return "hybrid"
+    if WORLDWIDE_RE.search(head):
+        return "worldwide"
+    if ZONE_RE.search(loc) or ZONE_RE.search(title or ""):
+        return "zone"
+    # «Remote (Canada)», «Remote, US» — удалёнка, но привязанная к месту.
+    # Если рядом со словом «remote» осталось ещё что-то осмысленное — это регион.
+    rest = REMOTE_WORDS.sub(" ", loc)
+    rest = re.sub(r"[^\w\s]", " ", rest)
+    rest = re.sub(r"\s+", " ", rest).strip()
+    if REMOTE_WORDS.search(loc) and len(rest) >= 2:
+        return "zone"
+    return None
 
 
 def clean_locations(raw):
@@ -206,7 +242,8 @@ def clean_locations(raw):
         return [], False
 
     text = str(raw)
-    remote = bool(REMOTE_WORDS.search(text))
+    remote = bool(REMOTE_WORDS.search(text)) or bool(REMOTE_ZONE.search(text))
+    text = REMOTE_ZONE.sub(" ", text)
 
     # содержимое скобок к месту работы отношения не имеет: (Hybrid), (Office), (f/m/d)
     text = re.sub(r"[\(\[][^\)\]]*[\)\]]", " ", text)
@@ -241,8 +278,14 @@ def clean_one(part):
     # осталось что-то бессодержательное
     if p.lower() in {"n/a", "na", "various", "multiple", "other", "-", "office",
                      "europe", "any", "any location", "global", "international",
-                     "tbd", "flexible", "unknown"}:
+                     "tbd", "flexible", "unknown", "hybrid", "onsite", "on-site",
+                     "on site", "in office", "in-office", "worldwide", "тбд"}:
         return None
+    # «Hybrid, SP», «Hybrid — Berlin»: само слово «гибрид» местом не является,
+    # но то, что стоит рядом, может им быть.
+    if re.match(r"^hybrid\b", p, re.I):
+        rest = re.sub(r"^hybrid\b[\s,;:-]*", "", p, flags=re.I).strip()
+        return rest if len(rest) > 2 else None
     return p
 
 
@@ -265,6 +308,7 @@ def fetch_greenhouse(company: dict):
             "company": company["name"],
             "locations": locs,
             "remote": rem or looks_remote(title),
+            "rkind": remote_kind(location, title, html_to_text(job.get("content"))),
             "salary": None,          # Greenhouse вилку в списке не отдаёт
             "posted": (job.get("updated_at") or "")[:10] or None,
             "url": job.get("absolute_url"),
@@ -297,6 +341,8 @@ def fetch_lever(company: dict):
             "company": company["name"],
             "locations": locs,
             "remote": rem or looks_remote(cats.get("commitment"), title),
+            "rkind": remote_kind(str(location) + " " + str(cats.get("commitment") or ""),
+                                 title, lever_desc(job)),
             "salary": None,
             "posted": posted_iso,
             "url": job.get("hostedUrl"),
@@ -324,6 +370,7 @@ def fetch_recruitee(company: dict):
             "company": company["name"],
             "locations": locs,
             "remote": bool(job.get("remote")) or rem or looks_remote(title),
+            "rkind": remote_kind(city, title, html_to_text(job.get("description"))),
             "salary": None,
             "posted": (job.get("published_at") or job.get("created_at") or "")[:10] or None,
             "url": job.get("careers_url") or job.get("url"),
@@ -395,6 +442,7 @@ def fetch_hh(company: dict):
                 "company": emp or name,
                 "locations": locs,
                 "remote": rem or looks_remote(schedule, v.get("name")),
+                "rkind": remote_kind(str(schedule), v.get("name"), None),
                 "salary": hh_salary(v.get("salary")),
                 "posted": (v.get("published_at") or "")[:10] or None,
                 "url": v.get("alternate_url"),

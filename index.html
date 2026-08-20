@@ -179,6 +179,17 @@
   .card:hover{border-color:var(--cyan);transform:translateY(-3px) scale(1.006);
     box-shadow:0 10px 26px rgba(0,0,0,.45)}
   .card:active{transform:translateY(-1px) scale(1.002)}
+  .menu-wrap{position:relative}
+  .kebab{background:none;border:none;color:var(--muted);font-size:19px;line-height:1;
+    cursor:pointer;padding:4px 9px;border-radius:8px}
+  .kebab:hover{color:var(--text);background:var(--panel-2)}
+  .menu{position:absolute;right:0;bottom:calc(100% + 6px);z-index:20;min-width:190px;
+    background:var(--panel);border:1px solid var(--line);border-radius:11px;overflow:hidden;
+    box-shadow:0 12px 30px rgba(0,0,0,.45)}
+  .mi{display:block;width:100%;text-align:left;background:none;border:none;cursor:pointer;
+    color:var(--text);font-family:var(--body);font-size:13.5px;padding:11px 14px}
+  .mi:hover{background:var(--panel-2)}
+  .mi:disabled{color:var(--muted);cursor:default;background:none}
   .card.reported{opacity:.55;border-style:dashed}
   .card-main{flex:1;min-width:0}
 
@@ -420,6 +431,7 @@
       <div class="group" id="stackGroup"><div class="group-title" id="gtStack">Стек</div><div class="chips" id="fStack"></div></div>
       <div class="group"><div class="group-title" id="gtPosted">Когда опубликовано</div><div class="chips" id="fAge"></div></div>
       <div class="group"><div class="group-title" id="gtTerms">Условия</div><div class="chips" id="fFlags"></div></div>
+      <div class="group" id="formatGroup"><div class="group-title" id="gtFormat">Формат работы</div><div class="chips" id="fFormat"></div></div>
       <div class="group">
         <div class="group-title" id="gtCompany">Компания</div>
         <input class="list-search" id="companySearch" placeholder="Найти компанию…">
@@ -670,12 +682,17 @@
   let reported = new Set();
   try { reported = new Set(JSON.parse(store.getItem("reported") || "[]")); } catch(e){}
 
+  // Скрытые — то, что человек убрал руками. Раньше сюда попадало всё,
+  // на что пожаловались; теперь это разные списки.
+  let hidden = new Set();
+  try { hidden = new Set(JSON.parse(store.getItem("hidden") || "[]")); } catch(e){}
+
   let favs = new Set();
   try { favs = new Set(JSON.parse(store.getItem("favs") || "[]")); } catch(e){}
   function saveFavs(){ try { store.setItem("favs", JSON.stringify([...favs])); } catch(e){} }
 
   const state = {
-    role:new Set(), spec:new Set(), stack:new Set(),
+    role:new Set(), spec:new Set(), stack:new Set(), rkind:new Set(),
     grade:new Set(), company:new Set(), location:new Set(),
     age:null, remote:false, salary:false, onlyFav:false, onlyHidden:false, query:""
   };
@@ -800,7 +817,9 @@
       reported:"вы отметили", more:"Показать ещё", write:"Написать нам",
       emptyTitle:"Под эти фильтры ничего нет.", emptySub:"Попробуй убрать часть условий.",
       remote:"Удалёнка", withSalary:"С вилкой", week:"За неделю", favs:"Избранное",
-      hidden:"Скрытые", restore:"вернуть",
+      hidden:"Скрытые", restore:"Вернуть в список", hide:"Скрыть вакансию", more2:"Ещё",
+      remoteWorld:"Удалёнка по миру", remoteZone:"Удалёнка в регионе", remoteHybrid:"Гибрид",
+      formatTitle:"Формат работы", searchFor:"Искать",
       role:"Роль", grade:"Грейд", posted:"Когда опубликовано", terms:"Условия",
       jobWord:"Вакансия",
       company:"Компания", location:"Локация", any:"Любые", month:"За месяц",
@@ -833,7 +852,7 @@
       writeTitle:"Написать", fbHint:"Читаю каждое сообщение. Оставь почту в тексте — отвечу.",
       topic:"Тема", message:"Что рассказать", send:"Отправить", cancel:"Отмена",
       filtersTitle:"Фильтры", footWrite:"Добавить студию или сообщить об ошибке",
-      gtRole:"Роль", gtSpec:"Специализация", gtStack:"Стек",
+      gtRole:"Роль", gtSpec:"Специализация", gtStack:"Стек", gtFormat:"Формат работы",
       gtGrade:"Грейд", gtPosted:"Когда опубликовано",
       gtTerms:"Условия", gtCompany:"Компания", gtLocation:"Локация",
       footText:"Вакансии собираются автоматически с публичных карьерных страниц игровых студий и их систем найма. Мы не работодатель, не агентство и не принимаем отклики — откликаться нужно на сайте студии.",
@@ -853,7 +872,9 @@
       reported:"you flagged it", more:"Show more", write:"Contact us",
       emptyTitle:"Nothing matches these filters.", emptySub:"Try removing some conditions.",
       remote:"Remote", withSalary:"With salary", week:"This week", favs:"Saved",
-      hidden:"Hidden", restore:"restore",
+      hidden:"Hidden", restore:"Bring back", hide:"Hide this job", more2:"More",
+      remoteWorld:"Remote worldwide", remoteZone:"Remote in region", remoteHybrid:"Hybrid",
+      formatTitle:"Work format", searchFor:"Search",
       role:"Role", grade:"Level", posted:"Posted", terms:"Conditions",
       jobWord:"Job",
       company:"Company", location:"Location", any:"Any", month:"This month",
@@ -886,7 +907,7 @@
       writeTitle:"Contact us", fbHint:"I read everything. Leave your email in the text and I will reply.",
       topic:"Topic", message:"Your message", send:"Send", cancel:"Cancel",
       filtersTitle:"Filters", footWrite:"Suggest a studio or report a problem",
-      gtRole:"Role", gtSpec:"Specialization", gtStack:"Stack",
+      gtRole:"Role", gtSpec:"Specialization", gtStack:"Stack", gtFormat:"Work format",
       gtGrade:"Level", gtPosted:"Posted", gtTerms:"Conditions",
       gtCompany:"Company", gtLocation:"Location",
       footText:"Jobs are collected automatically from public career pages of game studios and their hiring systems. We are not an employer or an agency and we do not accept applications — apply on the studio site.",
@@ -936,7 +957,7 @@
     $("fbSend").textContent = t("send");
     $("sendReport").textContent = t("send");
     $("filtersTitle").textContent = t("filtersTitle");
-    ["gtRole","gtSpec","gtStack","gtGrade","gtPosted","gtTerms","gtCompany","gtLocation"].forEach(id => {
+    ["gtRole","gtSpec","gtStack","gtGrade","gtPosted","gtTerms","gtFormat","gtCompany","gtLocation"].forEach(id => {
       const el = $(id);
       if (el) el.textContent = t(id);
     });
@@ -976,6 +997,10 @@
   };
   function specLabel(v){ return lang === "en" ? (SPEC_EN[v] || v) : v; }
   function gradeLabel(v){ return v === NO_GRADE ? t("noGrade") : v; }
+
+  // Три вида удалёнки: откуда угодно, только из своего региона, гибрид.
+  const RKIND_KEY = { worldwide:"remoteWorld", zone:"remoteZone", hybrid:"remoteHybrid" };
+  function rkindLabel(v){ return RKIND_KEY[v] ? t(RKIND_KEY[v]) : v; }
 
   const MONTHS = {
     ru:["января","февраля","марта","апреля","мая","июня","июля","августа","сентября","октября","ноября","декабря"],
@@ -1066,6 +1091,7 @@
     "singapore":   ["сингапур","singapore"],
     "india":       ["индия","india","bangalore","mumbai"],
     "australia":   ["австралия","сидней","australia","sydney","melbourne"],
+    "cis":         ["снг","cis","содружество"],
     "russia":      ["россия","россии","москва","санкт-петербург","питер","новосибирск","казань",
                     "екатеринбург","нижний новгород","пермь","владивосток","калининград",
                     "russia","moscow","saint petersburg","st petersburg","perm","vladivostok",
@@ -1108,13 +1134,14 @@
   // ---------------------------------------------------------------- отбор
 
   function passes(j, st){
-    // Что человек пометил как неактуальное, из общего списка убираем,
-    // но не теряем: есть отдельная полка «Скрытые», откуда можно вернуть.
-    if (st.onlyHidden){ if (!reported.has(j.id)) return false; }
-    else if (reported.has(j.id)) return false;
+    // Скрывает человек сам, кнопкой. Жалоба вакансию не прячет:
+    // это разные вещи — «мне не подходит» и «тут что-то не так».
+    if (st.onlyHidden){ if (!hidden.has(j.id)) return false; }
+    else if (hidden.has(j.id)) return false;
     if (st.role.size && !st.role.has(j.role)) return false;
     if (st.spec && st.spec.size && !st.spec.has(j.spec)) return false;
     if (st.stack && st.stack.size && !(j.stack||[]).some(v => st.stack.has(v))) return false;
+    if (st.rkind && st.rkind.size && !st.rkind.has(j.rkind)) return false;
     if (st.grade.size && !(st.grade.has(j.grade) || (!j.grade && st.grade.has(NO_GRADE))))
       return false;
     if (st.company.size && !st.company.has(j.company)) return false;
@@ -1158,7 +1185,7 @@
   }
 
   function activeCount(){
-    return state.role.size + state.spec.size + state.stack.size
+    return state.role.size + state.spec.size + state.stack.size + state.rkind.size
          + state.grade.size + state.company.size + state.location.size
          + (state.age ? 1 : 0) + (state.remote ? 1 : 0) + (state.salary ? 1 : 0)
          + (state.onlyFav ? 1 : 0);
@@ -1237,7 +1264,8 @@
     el.className = "card" + (reported.has(j.id) ? " reported" : "");
     const age = daysAgo(j.posted);
     const tags = [];
-    if (j.remote) tags.push('<span class="tag remote">'+t("remote")+'</span>');
+    if (j.remote || j.rkind)
+      tags.push('<span class="tag remote">'+esc(j.rkind ? rkindLabel(j.rkind) : t("remote"))+'</span>');
     if (j.grade) tags.push('<span class="tag">'+esc(j.grade)+'</span>');
     if (j.role) tags.push('<span class="tag">'+esc(roleLabel(j.role))+'</span>');
     if (j.spec) tags.push('<span class="tag">'+esc(specLabel(j.spec))+'</span>');
@@ -1262,7 +1290,14 @@
       '<div class="tags">'+tags.join("")+'</div>'+
       '<div class="card-bottom">'+
         '<a class="apply" href="'+esc(j.url)+'" target="_blank" rel="noopener">'+t("apply")+'</a>'+
-        '<button class="report">'+(reported.has(j.id) ? t("restore") : t("report"))+'</button>'+
+        '<div class="menu-wrap">'+
+          '<button class="kebab" aria-label="'+esc(t("more2"))+'">⋯</button>'+
+          '<div class="menu" hidden>'+
+            '<button class="mi mi-hide">'+(hidden.has(j.id) ? t("restore") : t("hide"))+'</button>'+
+            '<button class="mi mi-report"'+(reported.has(j.id) ? ' disabled' : '')+'>'+
+              (reported.has(j.id) ? t("reported") : t("report"))+'</button>'+
+          '</div>'+
+        '</div>'+
       '</div></div>';
 
     fixLogo(el, j);
@@ -1273,16 +1308,25 @@
       showJob(j);
     });
 
-    el.querySelector(".report").addEventListener("click", e => {
+    const menu = el.querySelector(".menu");
+    el.querySelector(".kebab").addEventListener("click", e => {
       e.stopPropagation();
-      if (reported.has(j.id)){          // вернуть вакансию в общий список
-        reported.delete(j.id);
-        try { store.setItem("reported", JSON.stringify([...reported])); } catch(err){}
-        if (!reported.size) state.onlyHidden = false;
-        renderList();
-        return;
-      }
-      openReport(j);
+      const wasOpen = !menu.hidden;
+      closeMenus();
+      menu.hidden = wasOpen;
+    });
+    el.querySelector(".mi-hide").addEventListener("click", e => {
+      e.stopPropagation();
+      closeMenus();
+      if (hidden.has(j.id)) hidden.delete(j.id); else hidden.add(j.id);
+      try { store.setItem("hidden", JSON.stringify([...hidden])); } catch(err){}
+      if (!hidden.size) state.onlyHidden = false;
+      renderList();
+    });
+    el.querySelector(".mi-report").addEventListener("click", e => {
+      e.stopPropagation();
+      closeMenus();
+      if (!reported.has(j.id)) openReport(j);
     });
     el.querySelector(".fav").addEventListener("click", e => {
       e.stopPropagation();
@@ -1311,7 +1355,7 @@
       $("moreBtn").hidden = left <= 0;
       if (left > 0) $("moreBtn").textContent = t("more") + " " + Math.min(PAGE, left);
     }
-    const total = state.onlyHidden ? reported.size : JOBS.length - reported.size;
+    const total = state.onlyHidden ? hidden.size : JOBS.length - hidden.size;
     countEl.textContent = shown.length
       ? t("found")+": "+shown.length+" "+t("of")+" "+total : t("nothing");
 
@@ -1365,10 +1409,10 @@
       wrap.appendChild(f);
     }
 
-    if (reported.size){
+    if (hidden.size){
       const h = document.createElement("button");
       h.className = "qchip hidden-chip" + (state.onlyHidden ? " on" : "");
-      h.textContent = t("hidden") + " " + reported.size;
+      h.textContent = t("hidden") + " " + hidden.size;
       h.addEventListener("click", () => {
         state.onlyHidden = !state.onlyHidden; shownCount = PAGE; renderList();
       });
@@ -1399,7 +1443,7 @@
   // --------------------------------------------------- ссылка на фильтр
   // Настроенные условия живут в адресе страницы: можно кинуть ссылку другу
   // или сохранить в закладки, и откроется ровно то же самое.
-  const URL_KEYS = [["role","r"],["spec","s"],["stack","k"],
+  const URL_KEYS = [["role","r"],["spec","s"],["stack","k"],["rkind","f"],
                     ["grade","g"],["company","c"],["location","l"]];
 
   function stateToUrl(){
@@ -1480,35 +1524,56 @@
       out.push({ text, kind, apply });
     };
 
+    // Первая строка — обычный поиск по набранному. Человек всегда должен
+    // видеть путь «просто найти», а не только выбор из готовых вариантов.
+    const hits = JOBS.filter(j => !hidden.has(j.id) && hayMain(j).includes(q)).length;
+    if (hits) push(searchEl.value.trim() + "  " + hits, t("searchFor"),
+      () => { state.query = q; });
+
+    // Категории: они сужают выдачу осмысленно и не зависят от того,
+    // сколько вакансий в базе — этим и полезны, когда список вырастет.
+    const cats = [];
     counts("role").forEach(([v, n]) => {
       if ([v, ROLE_EN[v] || "", roleLabel(v)].some(x => x.toLowerCase().includes(q)))
-        push(roleLabel(v) + "  " + n, t("gtRole"), () => { state.role.add(v); state.query = ""; });
+        cats.push([n, roleLabel(v) + "  " + n, t("gtRole"), () => { state.role.add(v); state.query = ""; }]);
     });
     counts("spec").forEach(([v, n]) => {
       if ([v, SPEC_EN[v] || "", specLabel(v)].some(x => x.toLowerCase().includes(q)))
-        push(specLabel(v) + "  " + n, t("gtSpec"), () => { state.spec.add(v); state.query = ""; });
+        cats.push([n, specLabel(v) + "  " + n, t("gtSpec"), () => { state.spec.add(v); state.query = ""; }]);
     });
     counts("stack").forEach(([v, n]) => {
       if (v.toLowerCase().includes(q))
-        push(v + "  " + n, t("gtStack"), () => { state.stack.add(v); state.query = ""; });
+        cats.push([n, v + "  " + n, t("gtStack"), () => { state.stack.add(v); state.query = ""; }]);
     });
     counts("company").forEach(([v, n]) => {
       if (v.toLowerCase().includes(q))
-        push(v + "  " + n, t("gtCompany"), () => { state.company.add(v); state.query = ""; });
+        cats.push([n, v + "  " + n, t("gtCompany"), () => { state.company.add(v); state.query = ""; }]);
+    });
+    countryGroups().byCountry.forEach((rec, key) => {
+      // Ищем и по названию на обоих языках, и по городам: набрал «krak» —
+      // предложим Польшу, набрал «poland» — тоже.
+      const words = [countryLabel(key), COUNTRY_LABEL.ru[key] || "", COUNTRY_LABEL.en[key] || ""]
+                    .concat(GEO[key] || []);
+      if (words.some(x => String(x).toLowerCase().includes(q)))
+        cats.push([rec.n, countryLabel(key) + "  " + rec.n, t("gtLocation"),
+          () => { rec.locs.forEach(l => state.location.add(l)); state.query = ""; }]);
     });
 
-    // Названия вакансий: показываем те, что реально есть в базе.
+    cats.sort((a, b) => b[0] - a[0]).slice(0, 5)
+        .forEach(([, text, kind, apply]) => push(text, kind, apply));
+
+    // И только потом — конкретные вакансии, не больше трёх.
     const titles = new Map();
     JOBS.forEach(j => {
-      if (reported.has(j.id)) return;
+      if (hidden.has(j.id)) return;
       const low = (j.title || "").toLowerCase();
       if (low.includes(q)) titles.set(j.title, (titles.get(j.title) || 0) + 1);
     });
-    [...titles.entries()].sort((a, b) => b[1] - a[1]).slice(0, 6).forEach(([title]) => {
+    [...titles.entries()].sort((a, b) => b[1] - a[1]).slice(0, 3).forEach(([title]) => {
       push(title, t("jobWord"), () => { state.query = title.toLowerCase(); searchEl.value = title; });
     });
 
-    return out.slice(0, 8);
+    return out.slice(0, 9);
   }
 
   let sugIndex = -1;
@@ -1544,6 +1609,11 @@
 
   function hideSuggest(){ sugIndex = -1; $("suggest").hidden = true; }
 
+  function closeMenus(){
+    document.querySelectorAll(".menu").forEach(m => m.hidden = true);
+  }
+  document.addEventListener("click", closeMenus);
+
   function renderActiveTags(){
     const box = $("activeTags");
     box.innerHTML = "";
@@ -1557,6 +1627,7 @@
     state.role.forEach(v => add(roleLabel(v), () => state.role.delete(v)));
     state.spec.forEach(v => add(specLabel(v), () => state.spec.delete(v)));
     state.stack.forEach(v => add(v, () => state.stack.delete(v)));
+    state.rkind.forEach(v => add(rkindLabel(v), () => state.rkind.delete(v)));
     state.grade.forEach(v => add(gradeLabel(v), () => state.grade.delete(v)));
     state.company.forEach(v => add(v, () => state.company.delete(v)));
     state.location.forEach(v => add(v, () => state.location.delete(v)));
@@ -1571,6 +1642,7 @@
 
   function cloneState(s){
     return { role:new Set(s.role), spec:new Set(s.spec), stack:new Set(s.stack),
+             rkind:new Set(s.rkind),
              grade:new Set(s.grade), company:new Set(s.company),
              location:new Set(s.location), age:s.age, remote:s.remote, salary:s.salary, query:s.query };
   }
@@ -1627,7 +1699,8 @@
       singapore:"Сингапур", india:"Индия", australia:"Австралия",
       uzbekistan:"Узбекистан", azerbaijan:"Азербайджан", russia:"Россия",
       malaysia:"Малайзия", indonesia:"Индонезия", korea:"Южная Корея", hongkong:"Гонконг",
-      brazil:"Бразилия", argentina:"Аргентина", belgium:"Бельгия", remote:"Удалённо" },
+      brazil:"Бразилия", argentina:"Аргентина", belgium:"Бельгия", cis:"СНГ",
+      remote:"Удалённо" },
     en:{ cyprus:"Cyprus", serbia:"Serbia", poland:"Poland", armenia:"Armenia",
       kazakhstan:"Kazakhstan", georgia:"Georgia", belarus:"Belarus", turkey:"Turkey",
       montenegro:"Montenegro", thailand:"Thailand", vietnam:"Vietnam", uae:"UAE",
@@ -1640,7 +1713,8 @@
       singapore:"Singapore", india:"India", australia:"Australia",
       uzbekistan:"Uzbekistan", azerbaijan:"Azerbaijan", russia:"Russia",
       malaysia:"Malaysia", indonesia:"Indonesia", korea:"South Korea", hongkong:"Hong Kong",
-      brazil:"Brazil", argentina:"Argentina", belgium:"Belgium", remote:"Remote" }
+      brazil:"Brazil", argentina:"Argentina", belgium:"Belgium", cis:"CIS",
+      remote:"Remote" }
   };
   function countryLabel(key){
     return (COUNTRY_LABEL[lang] && COUNTRY_LABEL[lang][key]) || COUNTRY_LABEL.ru[key] || key;
@@ -1777,6 +1851,10 @@
       });
       ageEl.appendChild(b);
     });
+
+    const kindVals = counts("rkind");
+    $("formatGroup").hidden = !kindVals.length;
+    chipRow($("fFormat"), kindVals, draft.rkind, rkindLabel);
 
     const flagEl = $("fFlags");
     flagEl.innerHTML = "";
@@ -1956,7 +2034,7 @@
     $("jobTitle").textContent = j.title;
 
     const tags = [];
-    if (j.remote) tags.push(t("remote"));
+    if (j.remote || j.rkind) tags.push(j.rkind ? rkindLabel(j.rkind) : t("remote"));
     if (j.grade) tags.push(j.grade);
     if (j.role) tags.push(roleLabel(j.role));
     const age = daysAgo(j.posted);
@@ -2077,7 +2155,7 @@
   });
   $("clearFilters").addEventListener("click", () => {
     if (wide.matches){ doReset(); buildFilterUi(); return; }
-    draft = { role:new Set(), spec:new Set(), stack:new Set(),
+    draft = { role:new Set(), spec:new Set(), stack:new Set(), rkind:new Set(),
               grade:new Set(), company:new Set(), location:new Set(),
               age:null, remote:false, salary:false, query:state.query };
     buildFilterUi();
@@ -2204,7 +2282,7 @@
     }));
 
   function doReset(){
-    state.role.clear(); state.spec.clear(); state.stack.clear();
+    state.role.clear(); state.spec.clear(); state.stack.clear(); state.rkind.clear();
     state.grade.clear(); state.company.clear(); state.location.clear();
     state.age = null; state.remote = false; state.salary = false; state.onlyFav = false;
     state.query = ""; sortMode = "new";
