@@ -71,6 +71,10 @@ def http_get(url, headers=None, tries=TRIES, timeout=TIMEOUT, **kw):
 
 # Порядок важен: первое совпадение выигрывает, поэтому более узкие роли выше.
 ROLE_RULES = [
+    # Технический художник — отдельная профессия, а не «Арт»: это мост между
+    # художниками и программистами, шейдеры, пайплайн, оптимизация.
+    ("Технический художник", r"technical artist|tech artist|technical art\b|"
+                             r"техническ\w* художник|техартист"),
     ("VFX",             r"\bvfx\b|визуальн\w* эффект|particle"),
     ("Анимация",        r"\banimator\b|аниматор|animation|анимац"),
     ("Арт",             r"\bartist\b|художник|\bart\b|concept|конце?пт|3d|2d|texture|environment"),
@@ -81,7 +85,11 @@ ROLE_RULES = [
     ("Аналитика",       r"аналитик|analyst|analytics|data scien|\bbi\b"),
     ("Маркетинг",       r"marketing|маркетолог|user acquisition|\bua\b|creative producer|asо|\baso\b"),
     ("Поддержка",       r"support|поддержк|community|комьюнити|модератор"),
-    ("Продюсирование",  r"producer|продюсер|project manager|проектный менеджер|product manager|продакт"),
+    # Продакт отвечает за продукт и метрики, продюсер — за производство и сроки.
+    # Это разные работы, и ищут их разные люди.
+    ("Продакт",         r"product manager|product owner|продакт|продуктов\w* менеджер|"
+                        r"head of product|product director|product lead"),
+    ("Продюсирование",  r"producer|продюсер|project manager|проектный менеджер"),
     ("Программирование", r"developer|разработчик|программист|engineer|unity|unreal|gameplay|backend|"
                          r"frontend|client|server|\bc\+\+|\bc#|python|golang|техлид|tech lead"),
 ]
