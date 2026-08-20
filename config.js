@@ -13,10 +13,12 @@ window.CONFIG = {
   reportForm: {
     url: "https://docs.google.com/forms/d/e/1FAIpQLSeKRgzzSjJiAyYDO_x9BCHrb8j33-3kx5aJiZq_IU2s-A4I0g/formResponse",
     fields: {
-      id:     "entry.1212083325",
-      title:  "entry.956125046",
-      reason: "entry.1288465243",
-      when:   "entry.581931613"
+      company: "entry.1464706843",   // Студия
+      title:   "entry.956125046",    // Вакансия
+      url:     "entry.492084555",    // Ссылка
+      reason:  "entry.1288465243",   // Причина
+      when:    "entry.581931613",    // Когда
+      id:      "entry.1212083325"    // id — техническое, в конце
     }
   },
 
@@ -28,8 +30,9 @@ window.CONFIG = {
   feedbackForm: {
     url: "https://docs.google.com/forms/d/e/1FAIpQLSeiV24bz2xNDw64yu4MLETIO1pAGwS6NN0sbi8ECkThb6T52Q/formResponse",
     fields: {
-      topic: "entry.1900534920",
-      text:  "entry.1820856742"
+      topic:   "entry.1900534920",   // Тема
+      text:    "entry.1820856742",   // Сообщение
+      contact: "entry.324914555"     // Контакт для ответа
     }
   },
 
