@@ -41,6 +41,30 @@ UA = {"User-Agent": "gamedev-jobs/1.0 (+https://github.com/)"}
 HH_UA = {"User-Agent": f"gamedev-jobs/1.0 ({CONTACT_EMAIL})"}
 TIMEOUT = 20
 PAUSE = 0.4          # пауза между запросами, чтобы не долбить чужие сервера
+TRIES = 3            # столько раз пробуем достучаться, прежде чем сдаться
+BACKOFF = 2.0        # пауза перед повтором, каждый раз вдвое длиннее
+
+
+def http_get(url, headers=None, tries=TRIES, timeout=TIMEOUT, **kw):
+    """
+    Обычный запрос, но с повторами. Обрыв связи, таймаут, 429 и пятисотые —
+    это «сервер занят», а не «ничего нет»: ждём и пробуем ещё раз.
+    Именно из-за них число вакансий скакало от запуска к запуску.
+    """
+    last = None
+    for attempt in range(1, tries + 1):
+        try:
+            r = requests.get(url, headers=headers or UA, timeout=timeout, **kw)
+            if r.status_code in (429, 500, 502, 503, 504) and attempt < tries:
+                last = f"код {r.status_code}"
+            else:
+                return r
+        except requests.RequestException as e:
+            last = str(e)[:60]
+            if attempt == tries:
+                raise
+        time.sleep(BACKOFF * attempt)
+    raise requests.RequestException(last or "не отвечает")
 
 # ---------------------------------------------------------------- разметка
 
@@ -133,6 +157,15 @@ def html_to_text(raw):
 
     t = re.sub(r"[ \t\u00a0]+", " ", t)
     t = re.sub(r"\n\s*\n\s*\n+", "\n\n", t)
+    # Внутри <li> часто лежит ещё один блочный тег — из-за него перенос строки
+    # вставал сразу после маркера, и точка оставалась одна на строке.
+    # Подтягиваем текст обратно к своему маркеру.
+    t = re.sub(r"•[ \t]*\n+[ \t]*", "• ", t)
+    t = re.sub(r"(?:•[ \t]*){2,}", "• ", t)
+    t = re.sub(r"^[ \t]*•[ \t]*$", "", t, flags=re.M)
+    # Между соседними пунктами пустая строка не нужна — список должен читаться
+    # как список, а не как отдельные абзацы.
+    t = re.sub(r"(?m)(^•.*)\n\s*\n(?=•)", r"\1\n", t)
     t = "\n".join(line.strip() for line in t.split("\n"))
     t = t.strip()
 
@@ -210,7 +243,7 @@ def fetch_greenhouse(company: dict):
     """Greenhouse отдаёт публичный список вакансий без ключа."""
     token = company["token"]
     url = f"https://boards-api.greenhouse.io/v1/boards/{token}/jobs?content=true"
-    r = requests.get(url, headers=UA, timeout=TIMEOUT)
+    r = http_get(url)
     r.raise_for_status()
     out = []
     for job in r.json().get("jobs", []):
@@ -236,7 +269,7 @@ def fetch_greenhouse(company: dict):
 def fetch_lever(company: dict):
     token = company["token"]
     url = f"https://api.lever.co/v0/postings/{token}?mode=json"
-    r = requests.get(url, headers=UA, timeout=TIMEOUT)
+    r = http_get(url)
     r.raise_for_status()
     out = []
     for job in r.json():
@@ -269,7 +302,7 @@ def fetch_recruitee(company: dict):
     """Recruitee — на нём много студий в Польше и Восточной Европе."""
     token = company["token"]
     url = f"https://{token}.recruitee.com/api/offers/"
-    r = requests.get(url, headers=UA, timeout=TIMEOUT)
+    r = http_get(url)
     r.raise_for_status()
     out = []
     for job in r.json().get("offers", []):
@@ -331,8 +364,8 @@ def fetch_hh(company: dict):
             "per_page": 100,
             "page": page,
         }
-        r = requests.get("https://api.hh.ru/vacancies", params=params,
-                         headers=HH_UA, timeout=TIMEOUT)
+        r = http_get("https://api.hh.ru/vacancies", params=params,
+                     headers=HH_UA)
         if r.status_code >= 400:
             # hh объясняет причину в теле ответа — без него ошибка бесполезна
             raise RuntimeError(f"hh {r.status_code}: {r.text[:300]}")
@@ -424,12 +457,21 @@ def probe(companies):
 
 # ---------------------------------------------------------------- сборка
 
+# Коды, которые честно означают «такой страницы больше нет».
+# Всё остальное — 403 «робота не пустили», 429 «слишком часто»,
+# пятисотые, таймауты — не повод хоронить вакансию: так мы каждую неделю
+# теряли восемь вакансий Nordeus, которые на самом деле живы.
+GONE_CODES = (404, 410)
+
+
 def check_alive(url: str) -> bool:
-    """Ссылка живая, если страница отвечает и на ней нет пометки о закрытии."""
+    """Хороним ссылку, только если сервер прямо сказал, что страницы нет."""
     try:
-        r = requests.get(url, headers=UA, timeout=TIMEOUT, allow_redirects=True)
-        if r.status_code >= 400:
+        r = http_get(url, tries=2, allow_redirects=True)
+        if r.status_code in GONE_CODES:
             return False
+        if r.status_code >= 400:
+            return True          # не пустили или сервер лёг — вакансию оставляем
         low = r.text[:200_000].lower()
         dead_marks = (
             "no longer accepting", "position has been filled", "job is closed",
@@ -440,10 +482,29 @@ def check_alive(url: str) -> bool:
         )
         return not any(m in low for m in dead_marks)
     except Exception:
-        return False
+        return True              # не достучались — это про связь, а не про вакансию
+
+
+def read_previous():
+    """Достаём вакансии из прошлой выгрузки — они пригодятся, если студия
+    сегодня не ответила. Лучше показать вчерашнее, чем потерять полсотни строк."""
+    if not OUT_JS.exists():
+        return {}
+    try:
+        text = OUT_JS.read_text(encoding="utf-8")
+        start = text.index("window.JOBS = ") + len("window.JOBS = ")
+        data = json.loads(text[start:text.rindex("]") + 1])
+    except Exception:
+        return {}
+    by_company = {}
+    for j in data:
+        j.pop("stack", None)          # старое мусорное поле, больше не пишем
+        by_company.setdefault(j.get("company"), []).append(j)
+    return by_company
 
 
 def collect(companies, verify_links: bool):
+    previous = read_previous()
     raw = []
     for c in companies:
         fetcher = FETCHERS.get(c.get("ats"))
@@ -454,7 +515,12 @@ def collect(companies, verify_links: bool):
             raw.extend(got)
             print(f"  {c['name']:<28} +{len(got)}")
         except Exception as e:
-            print(f"  {c['name']:<28} ошибка: {str(e)[:60]}")
+            old = previous.get(c["name"], [])
+            if old:
+                raw.extend(old)
+                print(f"  {c['name']:<28} не ответила ({str(e)[:40]}) — беру прошлые {len(old)}")
+            else:
+                print(f"  {c['name']:<28} ошибка: {str(e)[:60]}")
         time.sleep(PAUSE)
 
     blocked = set()
@@ -481,7 +547,6 @@ def collect(companies, verify_links: bool):
 
         j["role"] = role
         j["grade"] = classify_grade(j["title"])
-        j["stack"] = j["title"].lower()
         jobs.append(j)
 
     if verify_links:
