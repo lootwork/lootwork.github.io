@@ -190,6 +190,78 @@ def make_id(source: str, company: str, external_id) -> str:
 
 
 
+# ---------------------------------------------------------------- зарплата
+
+CUR_SIGNS = {"usd": "$", "eur": "€", "gbp": "£", "pln": "zł", "rub": "₽",
+             "kzt": "₸", "uah": "₴", "cad": "CA$", "aud": "A$", "sgd": "S$"}
+
+
+SUFFIX_CUR = {"₽", "zł", "₸", "₴", "PLN", "RUB", "KZT", "UAH", "CZK", "SEK"}
+
+
+def money(num, currency):
+    cur = CUR_SIGNS.get(str(currency or "").lower(), (currency or "").upper())
+    n = f"{int(round(float(num))):,}".replace(",", "\u00a0")
+    return f"{n} {cur}".strip()
+
+
+def salary_range(lo, hi, currency, interval=None):
+    """Собираем строку вилки. Пустая вилка лучше, чем выдуманная."""
+    try:
+        lo = float(lo) if lo not in (None, "") else None
+        hi = float(hi) if hi not in (None, "") else None
+    except (TypeError, ValueError):
+        return None
+    if not lo and not hi:
+        return None
+    if lo and hi and hi < lo:
+        lo, hi = hi, lo
+    if lo and hi and lo != hi:
+        text = f"{money(lo, currency)} – {money(hi, currency)}"
+    else:
+        text = money(lo or hi, currency)
+    per = {"month": "в месяц", "monthly": "в месяц", "year": "в год", "annual": "в год",
+           "yearly": "в год", "hour": "в час", "hourly": "в час", "day": "в день"}
+    word = per.get(str(interval or "").lower())
+    return f"{text} {word}" if word else text
+
+
+# Многие студии вилку в списке не отдают, но пишут её в тексте вакансии.
+# Берём только строки, где рядом стоит слово про оплату: иначе легко
+# принять «$5 million funding» или «401(k)» за зарплату.
+PAY_HINT = re.compile(
+    r"salary|compensation|pay range|base pay|pay band|remuneration|"
+    r"зарплат|вилка|оклад|доход", re.I)
+PAY_RANGE = re.compile(
+    r"([€$£₽₴₸]|PLN|EUR|USD|GBP|RUB|UAH|KZT|CZK|SEK)?\s?"
+    r"(\d{1,3}(?:[ \u00a0.,]\d{3})+|\d{2,3}\s?[kK])"
+    r"\s?(?:-|–|—|to|до)\s?"
+    r"([€$£₽₴₸]|PLN|EUR|USD|GBP|RUB|UAH|KZT|CZK|SEK)?\s?"
+    r"(\d{1,3}(?:[ \u00a0.,]\d{3})+|\d{2,3}\s?[kK])"
+    r"\s?([€$£₽₴₸]|PLN|EUR|USD|GBP|RUB|UAH|KZT|CZK|SEK)?", re.U)
+
+
+def salary_from_text(desc):
+    if not desc:
+        return None
+    for line in str(desc).split("\n"):
+        if len(line) > 400 or not PAY_HINT.search(line):
+            continue
+        m = PAY_RANGE.search(line)
+        if not m:
+            continue
+        cur = m.group(1) or m.group(3) or m.group(5) or ""
+        lo, hi = m.group(2), m.group(4)
+        text = f"{lo} – {hi}".replace(".", " ").replace(",", " ")
+        text = re.sub(r"\s+", " ", text).strip()
+        if not cur:
+            return text
+        # «120 000 $» привычнее, чем «$ 120 000» — но только для тех валют,
+        # где знак принято ставить после числа.
+        return f"{text} {cur}" if cur in SUFFIX_CUR else f"{cur} {text}"
+    return None
+
+
 # ---------------------------------------------------------------- описания
 
 TAG_RE = re.compile(r"<[^>]+>")
@@ -360,7 +432,7 @@ def fetch_greenhouse(company: dict):
             "locations": locs,
             "remote": rem or looks_remote(title),
             "rkind": remote_kind(location, title, html_to_text(job.get("content"))),
-            "salary": None,          # Greenhouse вилку в списке не отдаёт
+            "salary": greenhouse_salary(job) or salary_from_text(html_to_text(job.get("content"))),
             "posted": (job.get("updated_at") or "")[:10] or None,
             "url": job.get("absolute_url"),
             "desc": html_to_text(job.get("content")),
@@ -368,6 +440,16 @@ def fetch_greenhouse(company: dict):
             "source": "greenhouse",
         })
     return out
+
+
+def greenhouse_salary(job):
+    """Greenhouse иногда кладёт вилку в pay_input_ranges — в центах."""
+    for rng in (job.get("pay_input_ranges") or []):
+        lo, hi = rng.get("min_cents"), rng.get("max_cents")
+        if lo or hi:
+            return salary_range(lo and lo / 100, hi and hi / 100,
+                                rng.get("currency_type"), rng.get("title"))
+    return None
 
 
 def fetch_lever(company: dict):
@@ -394,7 +476,7 @@ def fetch_lever(company: dict):
             "remote": rem or looks_remote(cats.get("commitment"), title),
             "rkind": remote_kind(str(location) + " " + str(cats.get("commitment") or ""),
                                  title, lever_desc(job)),
-            "salary": None,
+            "salary": lever_salary(job) or salary_from_text(lever_desc(job)),
             "posted": posted_iso,
             "url": job.get("hostedUrl"),
             "desc": lever_desc(job),
@@ -402,6 +484,12 @@ def fetch_lever(company: dict):
                 "site": company.get("site"),
         })
     return out
+
+
+def lever_salary(job):
+    r = job.get("salaryRange") or {}
+    return salary_range(r.get("min"), r.get("max"), r.get("currency"),
+                        r.get("interval") or r.get("period"))
 
 
 def fetch_recruitee(company: dict):
@@ -422,7 +510,7 @@ def fetch_recruitee(company: dict):
             "locations": locs,
             "remote": bool(job.get("remote")) or rem or looks_remote(title),
             "rkind": remote_kind(city, title, html_to_text(job.get("description"))),
-            "salary": None,
+            "salary": recruitee_salary(job) or salary_from_text(html_to_text(job.get("description"))),
             "posted": (job.get("published_at") or job.get("created_at") or "")[:10] or None,
             "url": job.get("careers_url") or job.get("url"),
             "desc": html_to_text(job.get("description")),
@@ -430,6 +518,14 @@ def fetch_recruitee(company: dict):
                 "site": company.get("site"),
         })
     return out
+
+
+def recruitee_salary(job):
+    r = job.get("salary") or {}
+    if isinstance(r, dict):
+        return salary_range(r.get("min"), r.get("max"), r.get("currency"),
+                            r.get("period") or r.get("interval"))
+    return None
 
 
 # --- hh.ru -------------------------------------------------------------
@@ -524,10 +620,151 @@ def lever_desc(job):
     return text[:MAX_DESC] or None
 
 
+
+
+# --- Ashby ---------------------------------------------------------------
+# Отдаёт и текст вакансии, и вилку — из новых систем самая щедрая.
+
+def fetch_ashby(company: dict):
+    token = company["token"]
+    url = (f"https://api.ashbyhq.com/posting-api/job-board/{token}"
+           "?includeCompensation=true")
+    r = http_get(url)
+    r.raise_for_status()
+    out = []
+    for job in r.json().get("jobs", []):
+        title = (job.get("title") or "").strip()
+        location = job.get("location") or ""
+        extra = [x.get("location") for x in (job.get("secondaryLocations") or [])
+                 if isinstance(x, dict)]
+        # через «;», иначе «Warsaw, Poland» и «Remote - EU» склеятся в одно место
+        place = "; ".join([location] + [e for e in extra if e])
+        locs, rem = clean_locations(place)
+        comp = job.get("compensation") or {}
+        desc = job.get("descriptionPlain") or html_to_text(job.get("descriptionHtml"))
+        out.append({
+            "id": make_id("ab", company["name"], job.get("id")),
+            "title": title,
+            "company": company["name"],
+            "locations": locs,
+            "remote": bool(job.get("isRemote")) or rem or looks_remote(title),
+            "rkind": remote_kind(place, title, desc),
+            "salary": comp.get("compensationTierSummary") or salary_from_text(desc),
+            "posted": (job.get("publishedAt") or "")[:10] or None,
+            "url": job.get("jobUrl") or job.get("applyUrl"),
+            "desc": desc[:MAX_DESC] if desc else None,
+            "source": "ashby",
+            "site": company.get("site"),
+        })
+    return out
+
+
+# --- Workable ------------------------------------------------------------
+
+def fetch_workable(company: dict):
+    token = company["token"]
+    url = f"https://apply.workable.com/api/v1/widget/accounts/{token}?details=true"
+    r = http_get(url)
+    r.raise_for_status()
+    data = r.json()
+    out = []
+    for job in data.get("jobs", []):
+        title = (job.get("title") or "").strip()
+        place = ", ".join(x for x in [job.get("city"), job.get("country")] if x)
+        if not place:
+            loc = job.get("location") or {}
+            if isinstance(loc, dict):
+                place = ", ".join(x for x in [loc.get("city"), loc.get("country")] if x)
+        locs, rem = clean_locations(place)
+        desc = html_to_text(job.get("description")) or html_to_text(job.get("requirements"))
+        out.append({
+            "id": make_id("wk", company["name"], job.get("shortcode") or job.get("id")),
+            "title": title,
+            "company": company["name"],
+            "locations": locs,
+            "remote": bool(job.get("telecommuting")) or rem or looks_remote(title),
+            "rkind": remote_kind(place, title, desc),
+            "salary": salary_from_text(desc),
+            "posted": (job.get("published_on") or job.get("created_at") or "")[:10] or None,
+            "url": job.get("url") or job.get("application_url") or job.get("shortlink"),
+            "desc": desc,
+            "source": "workable",
+            "site": company.get("site"),
+        })
+    return out
+
+
+# --- SmartRecruiters -----------------------------------------------------
+# Список отдаёт без текста вакансии, поэтому за описанием ходим отдельно.
+# Ограничиваем: иначе одна крупная студия растянет сбор на полчаса.
+
+SR_DETAILS_LIMIT = 60
+
+
+def fetch_smartrecruiters(company: dict):
+    token = company["token"]
+    url = f"https://api.smartrecruiters.com/v1/companies/{token}/postings?limit=100"
+    r = http_get(url)
+    r.raise_for_status()
+    out = []
+    for i, job in enumerate(r.json().get("content", [])):
+        title = (job.get("name") or "").strip()
+        loc = job.get("location") or {}
+        place = ", ".join(x for x in [loc.get("city"), loc.get("country")] if x)
+        remote_flag = bool(loc.get("remote"))
+        desc = None
+        if i < SR_DETAILS_LIMIT:
+            desc = smartrecruiters_desc(token, job.get("id"))
+            time.sleep(PAUSE / 2)
+        locs, rem = clean_locations(place)
+        out.append({
+            "id": make_id("sr", company["name"], job.get("id")),
+            "title": title,
+            "company": company["name"],
+            "locations": locs,
+            "remote": remote_flag or rem or looks_remote(title),
+            "rkind": remote_kind(place + (" remote" if remote_flag else ""), title, desc),
+            "salary": salary_from_text(desc),
+            "posted": (job.get("releasedDate") or "")[:10] or None,
+            "url": (job.get("applyUrl")
+                    or f"https://jobs.smartrecruiters.com/{token}/{job.get('id')}"),
+            "desc": desc,
+            "source": "smartrecruiters",
+            "site": company.get("site"),
+        })
+    return out
+
+
+def smartrecruiters_desc(token, job_id):
+    """Текст вакансии лежит кусками: обязанности, требования, о компании."""
+    if not job_id:
+        return None
+    try:
+        r = http_get(f"https://api.smartrecruiters.com/v1/companies/{token}/postings/{job_id}",
+                     tries=2)
+        if r.status_code >= 400:
+            return None
+        sections = (((r.json().get("jobAd") or {}).get("sections")) or {})
+    except Exception:
+        return None
+    parts = []
+    for key in ("companyDescription", "jobDescription", "qualifications", "additionalInformation"):
+        block = sections.get(key) or {}
+        text = html_to_text(block.get("text"))
+        if text:
+            title = (block.get("title") or "").strip()
+            parts.append((title + "\n" if title else "") + text)
+    joined = "\n\n".join(parts)
+    return joined[:MAX_DESC] or None
+
+
 FETCHERS = {
     "greenhouse": fetch_greenhouse,
     "lever": fetch_lever,
     "recruitee": fetch_recruitee,
+    "ashby": fetch_ashby,
+    "workable": fetch_workable,
+    "smartrecruiters": fetch_smartrecruiters,
     "hh": fetch_hh,
 }
 
@@ -1011,10 +1248,72 @@ def write_pages(jobs, today):
     return urls
 
 
+# ------------------------------------------------------------- поиск студии
+# Угадывать адрес студии в чужой системе найма — гиблое дело. Проще открыть
+# её страницу «Карьера» и посмотреть, куда она на самом деле ведёт.
+
+ATS_PATTERNS = [
+    ("greenhouse",      r"(?:boards|job-boards)\.greenhouse\.io/(?:embed/job_board\?for=)?([a-z0-9_-]+)"),
+    ("greenhouse",      r"api\.greenhouse\.io/v1/boards/([a-z0-9_-]+)"),
+    ("lever",           r"jobs\.lever\.co/([a-z0-9_-]+)"),
+    ("lever",           r"api\.lever\.co/v0/postings/([a-z0-9_-]+)"),
+    ("recruitee",       r"([a-z0-9_-]+)\.recruitee\.com"),
+    ("ashby",           r"jobs\.ashbyhq\.com/([a-zA-Z0-9_.-]+)"),
+    ("ashby",           r"api\.ashbyhq\.com/posting-api/job-board/([a-zA-Z0-9_.-]+)"),
+    ("workable",        r"apply\.workable\.com/([a-z0-9_-]+)"),
+    ("workable",        r"([a-z0-9_-]+)\.workable\.com"),
+    ("smartrecruiters", r"jobs\.smartrecruiters\.com/([A-Za-z0-9_-]+)"),
+    ("smartrecruiters", r"api\.smartrecruiters\.com/v1/companies/([A-Za-z0-9_-]+)"),
+]
+
+SKIP_TOKENS = {"www", "apply", "jobs", "careers", "api", "embed", "job", "boards"}
+
+
+def detect(url: str):
+    """Смотрим страницу карьеры и вытаскиваем систему найма с адресом студии."""
+    print(f"Смотрю {url}")
+    try:
+        r = http_get(url, tries=2)
+        html = r.text
+    except Exception as e:
+        print(f"  не открылась: {str(e)[:70]}")
+        return
+
+    found, seen = [], set()
+    for ats, pattern in ATS_PATTERNS:
+        for m in re.finditer(pattern, html, re.I):
+            token = m.group(1)
+            if token.lower() in SKIP_TOKENS or (ats, token) in seen:
+                continue
+            seen.add((ats, token))
+            found.append((ats, token))
+
+    if not found:
+        print("  ничего не нашлось — похоже, своя система найма")
+        return
+
+    for ats, token in found:
+        probe = {"name": "проверка", "token": token, "site": ""}
+        try:
+            jobs = FETCHERS[ats](probe)
+            mark = "OK " if jobs else "пусто"
+            print(f'  {mark} {ats}/{token} — вакансий: {len(jobs)}')
+            if jobs:
+                print(f'    {{"name": "СТУДИЯ", "ats": "{ats}", "token": "{token}", '
+                      f'"site": "", "enabled": true}},')
+        except Exception as e:
+            print(f"  нет  {ats}/{token} — {str(e)[:60]}")
+        time.sleep(PAUSE)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--probe", action="store_true",
                     help="только проверить доски студий, ничего не записывать")
+    ap.add_argument("--all", action="store_true",
+                    help="при проверке брать и выключенных кандидатов тоже")
+    ap.add_argument("--detect", metavar="URL",
+                    help="найти систему найма по странице карьеры студии")
     ap.add_argument("--no-verify", action="store_true",
                     help="пропустить проверку живости ссылок (быстрее)")
     args = ap.parse_args()
@@ -1022,8 +1321,13 @@ def main():
     if not COMPANIES.exists():
         sys.exit(f"Нет файла {COMPANIES.name} — заполни список студий.")
 
+    if args.detect:
+        detect(args.detect)
+        return
+
     companies = json.loads(COMPANIES.read_text(encoding="utf-8"))
-    companies = [c for c in companies if c.get("enabled", True)]
+    if not (args.probe and args.all):
+        companies = [c for c in companies if c.get("enabled", True)]
     print(f"Студий в списке: {len(companies)}\n")
 
     if args.probe:
