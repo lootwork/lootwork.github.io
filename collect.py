@@ -32,6 +32,7 @@ except ImportError:
 HERE = Path(__file__).parent
 COMPANIES = HERE / "companies.json"
 OUT_JS = HERE / "jobs.js"
+STATUS = HERE / "status.json"
 SITEMAP = HERE / "sitemap.xml"
 BLOCKLIST = HERE / "blocklist.json"   # сюда попадают id, снятые по жалобам
 
@@ -872,8 +873,12 @@ def read_previous():
     return by_company
 
 
+RUN = {"failed": [], "reused": [], "empty": [], "dead": 0, "before": 0}
+
+
 def collect(companies, verify_links: bool):
     previous = read_previous()
+    RUN["before"] = sum(len(v) for v in previous.values())
     raw = []
     for c in companies:
         fetcher = FETCHERS.get(c.get("ats"))
@@ -882,13 +887,17 @@ def collect(companies, verify_links: bool):
         try:
             got = fetcher(c)
             raw.extend(got)
+            if not got:
+                RUN["empty"].append(c["name"])
             print(f"  {c['name']:<28} +{len(got)}")
         except Exception as e:
             old = previous.get(c["name"], [])
             if old:
                 raw.extend(old)
+                RUN["reused"].append(c["name"])
                 print(f"  {c['name']:<28} не ответила ({str(e)[:40]}) — беру прошлые {len(old)}")
             else:
+                RUN["failed"].append(c["name"])
                 print(f"  {c['name']:<28} ошибка: {str(e)[:60]}")
         time.sleep(PAUSE)
 
@@ -930,6 +939,7 @@ def collect(companies, verify_links: bool):
             if check_alive(j["url"]):
                 live.append(j)
             else:
+                RUN["dead"] += 1
                 print(f"  мертво: {j['company']} — {j['title']}")
             if i % 25 == 0:
                 print(f"  …{i}/{len(jobs)}")
@@ -954,8 +964,42 @@ def write_js(jobs):
         encoding="utf-8",
     )
     print(f"\nЗаписано {len(jobs)} вакансий в {OUT_JS.name}")
+    write_status(jobs, today, studios)
+    location_report(jobs)
     urls = write_pages(jobs, today)
     write_sitemap(today, urls)
+
+
+def write_status(jobs, today, studios):
+    """Короткий отчёт о сборе: сайт показывает его в подвале, чтобы человек видел,
+    что база живая, а не заброшена полгода назад."""
+    data = {
+        "date": today,
+        "jobs": len(jobs),
+        "studios": studios,
+        "withSalary": sum(1 for j in jobs if j.get("salary")),
+        "remote": sum(1 for j in jobs if j.get("remote") or j.get("rkind")),
+        "dropped": RUN["dead"],
+        "failedSources": len(RUN["failed"]),
+        "reusedSources": len(RUN["reused"]),
+        "emptySources": len(RUN["empty"]),
+        "sources": sorted({j.get("source") for j in jobs if j.get("source")}),
+    }
+    STATUS.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"Итог: студий {studios}, с зарплатой {data['withSalary']}, "
+          f"выброшено мёртвых {RUN['dead']}, источников с ошибкой {len(RUN['failed'])}")
+
+
+def location_report(jobs, top=20):
+    """Раз в неделю показываем, какие места встречаются чаще всего.
+    По этому списку видно, что пора добавить в словарь стран на сайте."""
+    counts = {}
+    for j in jobs:
+        for loc in j.get("locations") or []:
+            counts[loc] = counts.get(loc, 0) + 1
+    rows = sorted(counts.items(), key=lambda kv: -kv[1])[:top]
+    print(f"\nСамые частые локации (проверь, все ли опознаются как страны):")
+    print("  " + " · ".join(f"{name} {n}" for name, n in rows))
 
 
 def write_sitemap(today: str, urls=None):

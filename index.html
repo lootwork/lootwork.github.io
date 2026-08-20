@@ -418,6 +418,7 @@
       <a href="#" id="footWrite">Добавить студию или сообщить об ошибке</a>
       &nbsp;·&nbsp;
       <span id="footUpdated"></span>
+      <div id="footStatus" class="hint" style="margin-top:6px"></div>
     </div>
     <div class="disclaimer" id="footPrivacy">
       Сайт использует Яндекс.Метрику для подсчёта посещений. Резюме и отклики мы не собираем.
@@ -779,8 +780,7 @@
 
   // Насколько вакансия отвечает запросу. Совпадение в названии весит
   // больше, чем в описании: человек ищет должность, а не слово в тексте.
-  function relScore(j, q){
-    if (!q) return 0;
+  function tokenScore(j, q){
     const title = (j.title || "").toLowerCase();
     let score = 0;
     if (title === q) score += 100;
@@ -791,7 +791,21 @@
     if ((j.spec || "").toLowerCase() === q) score += 18;
     if ((j.stack || []).some(v => v.toLowerCase() === q)) score += 12;
     if ((j.role || "").toLowerCase().includes(q)) score += 8;
-    if ((j.desc || "").toLowerCase().includes(q)) score += 3;
+    if ((j.grade || "").toLowerCase() === q) score += 10;
+    if (hayDesc(j).includes(q)) score += 3;
+    return score;
+  }
+
+  // Считаем по каждому слову запроса отдельно и складываем. Плюс учитываем
+  // выбранные фильтры: выбрал стек Unity — выше поднимутся те, у кого Unity
+  // стоит в названии, а не просто мелькнул в требованиях.
+  function relScore(j, q){
+    let score = 0;
+    if (q) tokens(q).forEach(tok => { score += tokenScore(j, tok); });
+    const title = (j.title || "").toLowerCase();
+    state.stack.forEach(v => { if (title.includes(v.toLowerCase())) score += 25; });
+    state.spec.forEach(v => { if (j.spec === v) score += 10; });
+    state.role.forEach(v => { if (j.role === v) score += 5; });
     return score;
   }
 
@@ -846,6 +860,8 @@
       toFav:"В избранное", inFav:"В избранном", applyOn:"Откликнуться на сайте студии",
       noDesc:"Студия не отдаёт текст вакансии в общем виде — описание откроется на её сайте.",
       updatedToday:"Обновлено сегодня", collected:"Собрано с сайтов студий.",
+      statusOk:"последний сбор прошёл успешно", statusDropped:"выброшено закрытых:",
+      statusFailed:"источников с ошибкой:", statusPay:"с зарплатой:", statusSources:"источники",
       sortRel:"Сначала подходящие", noGrade:"Без грейда",
       share:"Ссылка на фильтр", copied:"Скопировано",
       sortNew:"Сначала новые", sortOld:"Сначала старые", sortPayHigh:"Зарплата: больше",
@@ -904,6 +920,8 @@
       toFav:"Save", inFav:"Saved", applyOn:"Apply on the studio site",
       noDesc:"This studio does not share the job text — it will open on their site.",
       updatedToday:"Updated today", collected:"Collected from studio sites.",
+      statusOk:"last collection succeeded", statusDropped:"closed jobs dropped:",
+      statusFailed:"sources failed:", statusPay:"with salary:", statusSources:"sources",
       sortRel:"Best match", noGrade:"No level",
       share:"Copy filter link", copied:"Copied",
       sortNew:"Newest first", sortOld:"Oldest first", sortPayHigh:"Salary: high to low",
@@ -1059,6 +1077,7 @@
     if (UPDATED) parts.push(t("updatedOn") + " " + humanDate(UPDATED));
     $("stats").textContent = parts.join("  ·  ");
     if (UPDATED) $("footUpdated").textContent = t("updatedOn") + " " + humanDate(UPDATED);
+    renderStatus();
   }
 
   function renderHow(){
@@ -1196,15 +1215,34 @@
     return j._hayDesc;
   }
 
+  // Perforce, Houdini, Wwise и прочие инструменты студии почти никогда не пишут
+  // в названии — только в требованиях. Для таких слов сразу лезем в описание.
+  const DESC_TERMS = new Set(STACK_RULES.map(r => r[0].toLowerCase())
+    .concat(["perforce","wwise","fmod","houdini","substance","zbrush","maya","blender",
+             "jira","confluence","git","unreal","unity","godot","photoshop","spine","figma"]));
+
+  function tokens(q){
+    return q.split(/\s+/).filter(Boolean).slice(0, 5);
+  }
+
+  function matchesToken(j, tok){
+    if (hayMain(j).includes(tok)) return true;
+    return DESC_TERMS.has(tok) && hayDesc(j).includes(tok);
+  }
+
   function filtered(){
     let out = JOBS.filter(j => passes(j, state));
     if (state.query){
-      const main = out.filter(j => hayMain(j).includes(state.query));
+      const toks = tokens(state.query);
+      // Каждое слово запроса должно где-то найтись: «unity junior remote»
+      // это три условия сразу, а не одна длинная строка.
+      const main = out.filter(j => toks.every(tok => matchesToken(j, tok)));
       out = main.length >= 3
         ? main
-        : out.filter(j => hayMain(j).includes(state.query) || hayDesc(j).includes(state.query));
+        : out.filter(j => toks.every(tok => matchesToken(j, tok) || hayDesc(j).includes(tok)));
     }
-    const mode = (sortMode === "rel" && !state.query) ? "new" : sortMode;
+    const relOk = state.query || state.stack.size || state.spec.size;
+    const mode = (sortMode === "rel" && !relOk) ? "new" : sortMode;
     const s = SORTS[mode] || SORTS.new;
     out.sort(s.fn);
     // Заявки в резерв — не вакансии, а приглашение прислать резюме на будущее.
@@ -1487,7 +1525,9 @@
     sel.className = "sort";
     sel.id = "sortSel";
     Object.entries(SORTS).forEach(([key, v]) => {
-      if (key === "rel" && !state.query) return;   // без запроса сортировать нечего
+      // Сортировать по совпадению можно и без запроса — если выбран стек
+      // или специализация, «подходящие» всё ещё имеет смысл.
+      if (key === "rel" && !state.query && !state.stack.size && !state.spec.size) return;
       const o = document.createElement("option");
       o.value = key; o.textContent = v.label;
       if (key === sortMode) o.selected = true;
@@ -1708,6 +1748,28 @@
     document.querySelectorAll(".menu").forEach(m => m.hidden = true);
   }
   document.addEventListener("click", closeMenus);
+
+  // Короткий отчёт о последнем сборе: видно, что база живая и что робот
+  // действительно выкидывает мёртвые ссылки, а не только добавляет новые.
+  let STATUS = null;
+  fetch("/status.json")
+    .then(r => r.ok ? r.json() : null)
+    .then(d => { STATUS = d; renderStatus(); })
+    .catch(() => {});
+
+  function renderStatus(){
+    const el = $("footStatus");
+    if (!el) return;
+    if (!STATUS){ el.textContent = ""; return; }
+    const bits = [
+      t("statusOk"),
+      STATUS.dropped ? t("statusDropped") + " " + STATUS.dropped : null,
+      STATUS.failedSources ? t("statusFailed") + " " + STATUS.failedSources : null,
+      STATUS.withSalary ? t("statusPay") + " " + STATUS.withSalary : null,
+      (STATUS.sources || []).length ? t("statusSources") + ": " + STATUS.sources.join(", ") : null,
+    ].filter(Boolean);
+    el.textContent = bits.join(" · ");
+  }
 
   function renderActiveTags(){
     const box = $("activeTags");
