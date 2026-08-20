@@ -56,6 +56,7 @@
       var(--void);
     background-attachment:fixed;
     color:var(--text);
+    position:relative;
     font-family:var(--body);
     font-size:15px;
     line-height:1.55;
@@ -87,7 +88,15 @@
     #filterBtn{display:none}
   }
 
-  header{border-bottom:1px solid var(--line-soft);padding:26px 0 18px;margin-bottom:18px;position:relative;z-index:1}
+  header{border-bottom:1px solid var(--line-soft);padding:26px 0 18px;margin-bottom:18px;
+    position:relative;z-index:1;overflow:hidden}
+  /* Слабый паттерн только за первым экраном: он должен читаться как фактура,
+     а не как обои. Ниже по странице главными остаются карточки. */
+  header::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
+    opacity:.5;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='170' viewBox='0 0 260 170'%3E%3Cg fill='none' stroke='%235fe3ff' stroke-opacity='.16' stroke-width='1.2'%3E%3Crect x='14' y='22' width='52' height='30' rx='11'/%3E%3Cpath d='M28 37h10M33 32v10M52 34h.01M58 40h.01'/%3E%3Cpath d='M150 26l0 22M139 37l22 0'/%3E%3Cpath d='M96 104c-6-6-6-16 0-22M124 82c6 6 6 16 0 22'/%3E%3Cpath d='M208 118l14 8-14 8z'/%3E%3Ccircle cx='60' cy='128' r='9'/%3E%3Cpath d='M60 113v6M60 137v6M45 128h6M69 128h6'/%3E%3Cpath d='M176 52h26M176 60h16'/%3E%3C/g%3E%3Cg fill='%235fe3ff' fill-opacity='.10' font-family='monospace' font-size='12'%3E%3Ctext x='196' y='30'%3EC%23%3C/text%3E%3Ctext x='96' y='150'%3E{ }%3C/text%3E%3Ctext x='14' y='84'%3E&lt;/&gt;%3C/text%3E%3C/g%3E%3C/svg%3E");
+    background-size:260px 170px}
+  @media (max-width:640px){ header::after{opacity:.35} }
   .brandline{display:flex;align-items:center;justify-content:space-between;gap:14px}
   h1{font-family:var(--display);font-weight:700;font-size:clamp(23px,4.6vw,31px);
     letter-spacing:.02em;line-height:1}
@@ -107,6 +116,10 @@
   .pitch{font-size:19px;color:var(--text);margin-top:12px;font-weight:700;line-height:1.3}
   .pitch em{font-style:normal;color:var(--cyan)}
   .pitch strong{color:var(--amber);font-weight:700}
+  /* Моноширинные подписи-маркеры: технический слой поверх обычного текста. */
+  .mono-mark{font-family:var(--mono);font-size:10px;letter-spacing:.18em;
+    text-transform:uppercase;color:#5a5290}
+  .mono-mark::before{content:"// "}
   .stats{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
   .stat{background:var(--panel);border:1px solid var(--line-soft);border-radius:10px;
     padding:8px 14px;display:flex;flex-direction:column;gap:1px;min-width:92px}
@@ -124,6 +137,9 @@
     text-decoration:underline;cursor:pointer;padding:0;margin-left:4px}
   .how:hover{color:var(--amber)}
 
+  /* Тонкая двойная линия в духе терминала — вместо простого бордера. */
+  footer::before{content:"";display:block;height:1px;background:var(--line-soft);
+    margin-bottom:3px;opacity:.6}
   footer{border-top:1px solid var(--line-soft);margin-top:34px;padding:22px 0 6px;
     color:var(--muted);font-size:12.5px;line-height:1.75}
   footer .fname{font-family:var(--display);font-weight:600;color:var(--text);font-size:14px}
@@ -390,6 +406,10 @@
   textarea.fb::placeholder{color:#6f679a}
   textarea.fb:focus{outline:2px solid var(--cyan);outline-offset:-1px}
 
+  /* Едва заметный шум: убирает ощущение плоской заливки, ничего не изображая. */
+  body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.035;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)'/%3E%3C/svg%3E")}
+
   :focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
 
   @media (prefers-reduced-motion:reduce){
@@ -410,6 +430,7 @@
     </div>
     <div class="vertical" id="vertical">Без агентств · Без дублей · Прямо от студий</div>
     <div class="pitch" id="pitch">Работа в геймдеве напрямую от студий</div>
+    <div class="mono-mark" id="markScan" style="margin-top:14px">scan</div>
     <div class="stats" id="stats"></div>
     <div class="sub" id="subline">
       <span id="subtext">Без агентств, дублей и ручных перепостов. Вакансии берём с карьерных
@@ -449,6 +470,7 @@
 
 <div class="wrap">
   <footer>
+    <div class="mono-mark" id="markSync" style="margin-bottom:8px">источник</div>
     <div class="fname">LOOTWORK</div>
     <div id="footText">
       Вакансии собираются автоматически с публичных карьерных страниц игровых студий
@@ -984,6 +1006,7 @@
       toFav:"В избранное", inFav:"В избранном", applyOn:"Откликнуться на сайте студии",
       noDesc:"Студия не отдаёт текст вакансии в общем виде — описание откроется на её сайте.",
       vertical:"Без агентств · Без дублей · Прямо от студий",
+      markScan:"база", markSync:"источник",
       pitchHtml:'Работа в <em>геймдеве</em> <strong>напрямую</strong> от студий',
       updatedToday:"Обновлено сегодня", collected:"Собрано с сайтов студий.",
       statusOk:"последний сбор прошёл успешно", statusDropped:"выброшено закрытых:",
@@ -1051,6 +1074,7 @@
       toFav:"Save", inFav:"Saved", applyOn:"Apply on the studio site",
       noDesc:"This studio does not share the job text — it will open on their site.",
       vertical:"No agencies · No dupes · Straight from studios",
+      markScan:"database", markSync:"source",
       pitchHtml:'Game industry jobs, <strong>straight</strong> from the <em>studios</em>',
       updatedToday:"Updated today", collected:"Collected from studio sites.",
       statusOk:"last collection succeeded", statusDropped:"closed jobs dropped:",
@@ -1109,6 +1133,8 @@
     $("footAll").textContent = t("allJobs");
     $("footRemote").textContent = t("remoteJobs");
     $("vertical").textContent = t("vertical");
+    $("markScan").textContent = t("markScan");
+    if ($("markSync")) $("markSync").textContent = t("markSync");
     $("footAbout").textContent = t("aboutPage");
     $("footPrivacyLink").textContent = t("privacyPage");
     document.querySelectorAll(".close").forEach(b => b.setAttribute("aria-label", t("closeWord")));
