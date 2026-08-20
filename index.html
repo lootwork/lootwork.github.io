@@ -90,7 +90,7 @@
   h1{font-family:var(--display);font-weight:700;font-size:clamp(23px,4.6vw,31px);
     letter-spacing:.02em;line-height:1}
   h1 b{color:var(--amber)}
-  #logo{cursor:pointer}
+  #logo{cursor:pointer;color:inherit;text-decoration:none}
   #logo:hover{opacity:.85}
   .vertical{font-family:var(--mono);font-size:11.5px;letter-spacing:.34em;
     text-transform:uppercase;color:var(--cyan);margin-top:7px}
@@ -289,8 +289,9 @@
   .opt-head{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
     color:var(--muted);padding:12px 4px 5px;border-top:1px solid var(--line-soft);margin-top:6px}
   .scroll-list{max-height:200px;overflow-y:auto;border:1px solid var(--line-soft);border-radius:10px}
-  .opt{display:flex;align-items:center;gap:11px;padding:10px 13px;cursor:pointer;font-size:13.5px;
-    border-bottom:1px solid var(--line-soft)}
+  .opt{width:100%;text-align:left;background:none;border:none;color:var(--text);
+    font-family:inherit;font-size:13.5px;display:flex;align-items:center;gap:11px;
+    padding:10px 13px;cursor:pointer;border-bottom:1px solid var(--line-soft)}
   .opt:last-child{border-bottom:none}
   .opt:hover{background:var(--panel-2)}
   .opt .box{width:18px;height:18px;flex:none;border:1px solid var(--line);border-radius:5px;
@@ -354,7 +355,7 @@
 <header>
   <div class="wrap">
     <div class="brandline">
-      <h1><span id="logo" role="button" tabindex="0" title="На главную">LOOT<b>WORK</b></span></h1>
+      <h1><a id="logo" href="/" title="На главную">LOOT<b>WORK</b></a></h1>
       <div class="lang">
         <button class="lang-btn on" data-lang="ru">RU</button>
         <button class="lang-btn" data-lang="en">EN</button>
@@ -425,11 +426,11 @@
 </div>
 
 <!-- окно фильтров -->
-<div class="overlay" id="filterOverlay" hidden>
+<div class="overlay" id="filterOverlay" hidden role="dialog" aria-modal="true">
   <div class="sheet">
     <div class="sheet-head">
       <h2 id="filtersTitle">Фильтры</h2>
-      <button class="close" id="filterSheetClose" data-close="filterOverlay">×</button>
+      <button class="close" id="filterSheetClose" aria-label="Закрыть" data-close="filterOverlay">×</button>
     </div>
     <div class="sheet-body">
       <div class="group"><div class="group-title" id="gtRole">Роль</div><div class="chips" id="fRole"></div></div>
@@ -474,11 +475,11 @@
 </div>
 
 <!-- как это работает -->
-<div class="overlay" id="howOverlay" hidden>
+<div class="overlay" id="howOverlay" hidden role="dialog" aria-modal="true">
   <div class="sheet">
     <div class="sheet-head">
       <h2 id="howTitle">Как это работает</h2>
-      <button class="close" data-close="howOverlay" aria-label="Закрыть">×</button>
+      <button class="close" aria-label="Закрыть" data-close="howOverlay">×</button>
     </div>
     <div class="sheet-body" id="howBody"></div>
     <div class="sheet-foot">
@@ -488,11 +489,11 @@
 </div>
 
 <!-- окно вакансии -->
-<div class="overlay" id="jobOverlay" hidden>
+<div class="overlay" id="jobOverlay" hidden role="dialog" aria-modal="true">
   <div class="sheet">
     <div class="sheet-head">
       <h2 id="jobTitle">Вакансия</h2>
-      <button class="close" data-close="jobOverlay">×</button>
+      <button class="close" aria-label="Закрыть" data-close="jobOverlay">×</button>
     </div>
     <div class="sheet-body">
       <div class="job-head" id="jobHead"></div>
@@ -508,11 +509,11 @@
 </div>
 
 <!-- окно обратной связи -->
-<div class="overlay" id="fbOverlay" hidden>
+<div class="overlay" id="fbOverlay" hidden role="dialog" aria-modal="true">
   <div class="sheet">
     <div class="sheet-head">
       <h2 id="fbTitle">Написать</h2>
-      <button class="close" data-close="fbOverlay">×</button>
+      <button class="close" aria-label="Закрыть" data-close="fbOverlay">×</button>
     </div>
     <div class="sheet-body" id="fbBody">
       <div class="hint" id="fbHint">Читаю каждое сообщение. Оставь почту в тексте — отвечу.</div>
@@ -535,11 +536,11 @@
 </div>
 
 <!-- подтверждение сброса -->
-<div class="overlay" id="confirmOverlay" hidden>
+<div class="overlay" id="confirmOverlay" hidden role="dialog" aria-modal="true">
   <div class="sheet" style="max-width:420px">
     <div class="sheet-head">
       <h2 id="confirmTitle">Сбросить фильтры?</h2>
-      <button class="close" data-close="confirmOverlay">×</button>
+      <button class="close" aria-label="Закрыть" data-close="confirmOverlay">×</button>
     </div>
     <div class="sheet-body">
       <div class="hint" id="confirmText" style="margin:0"></div>
@@ -552,11 +553,11 @@
 </div>
 
 <!-- окно жалобы -->
-<div class="overlay" id="reportOverlay" hidden>
+<div class="overlay" id="reportOverlay" hidden role="dialog" aria-modal="true">
   <div class="sheet">
     <div class="sheet-head">
       <h2 id="reportTitle">Что не так с вакансией?</h2>
-      <button class="close" data-close="reportOverlay">×</button>
+      <button class="close" aria-label="Закрыть" data-close="reportOverlay">×</button>
     </div>
     <div class="sheet-body" id="reportBody">
       <div class="job-ref" id="reportRef"></div>
@@ -801,19 +802,21 @@
                } },
     new:     { label:"Сначала новые",        fn:(a,b)=> new Date(b.posted||0) - new Date(a.posted||0) },
     old:     { label:"Сначала старые",       fn:(a,b)=> new Date(a.posted||0) - new Date(b.posted||0) },
-    payhigh: { label:"Зарплата: больше",     fn:(a,b)=> cmpSalary(b,a) },
-    paylow:  { label:"Зарплата: меньше",     fn:(a,b)=> cmpSalary(a,b) },
+    payhigh: { label:"Зарплата: больше",     fn:(a,b)=> cmpSalary(a,b, -1) },
+    paylow:  { label:"Зарплата: меньше",     fn:(a,b)=> cmpSalary(a,b,  1) },
     region:  { label:"По локации",           fn:(a,b)=> String((a.locations||[])[0]||"яя").localeCompare(String((b.locations||[])[0]||"яя"),"ru") },
     company: { label:"По компании",          fn:(a,b)=> String(a.company).localeCompare(String(b.company),"ru") }
   };
 
   // Вакансии без вилки всегда уходят в конец, иначе они забивают верх списка.
-  function cmpSalary(x, y){
+  // Вакансии без вилки всегда внизу — и когда сортируем по возрастанию тоже.
+  // Раньше при «Зарплата: меньше» они всплывали наверх и прятали настоящие.
+  function cmpSalary(x, y, dir){
     const a = salaryNum(x), b = salaryNum(y);
     if (a === null && b === null) return 0;
-    if (a === null) return -1;
-    if (b === null) return 1;
-    return a - b;
+    if (a === null) return 1;
+    if (b === null) return -1;
+    return dir * (a - b);
   }
 
 
@@ -851,7 +854,7 @@
       resetQ:"Сбросить фильтры?", resetGo:"Сбросить",
       postedWord:"опубликовано", noLoc:"локация не указана",
       homeQ:"Вернуться на главную?", homeGo:"На главную",
-      done:"Готово", undo:"Отменить",
+      done:"Готово", undo:"Отменить", closeWord:"Закрыть",
       reportThanks:"Спасибо. Вакансию проверят, а у тебя она больше не покажется.",
       fbThanks:"Спасибо, прочитаю.",
       resetOne:"Снимется один фильтр, и вернётся полный список.",
@@ -908,7 +911,7 @@
       resetQ:"Reset filters?", resetGo:"Reset",
       postedWord:"posted", noLoc:"location not stated",
       homeQ:"Back to the start?", homeGo:"Go to start",
-      done:"Done", undo:"Undo",
+      done:"Done", undo:"Undo", closeWord:"Close",
       reportThanks:"Thanks. We will check it, and you will not see it again.",
       fbThanks:"Thanks, I will read it.",
       resetOne:"One filter will be removed, and the full list will come back.",
@@ -952,6 +955,7 @@
     if (openJob) $("jobPage").textContent = t("jobPage");   // окно может быть открыто
     $("footAll").textContent = t("allJobs");
     $("footRemote").textContent = t("remoteJobs");
+    document.querySelectorAll(".close").forEach(b => b.setAttribute("aria-label", t("closeWord")));
     $("reportDone").textContent = t("done");
     $("fbDone").textContent = t("done");
     $("reportUndo").textContent = t("undo");
@@ -1305,7 +1309,7 @@
         '<div class="company">'+esc(j.company)+placeHtml(j)+'</div></div>'+
         '<div style="display:flex;align-items:flex-start;gap:2px">'+
           (j.salary ? '<div class="salary">'+esc(j.salary)+'</div>'
-                    : '<div class="salary none">'+t("nosalary")+'</div>')+
+                    : '')+
           '<button class="fav'+(favs.has(j.id)?" on":"")+'" aria-pressed="'+favs.has(j.id)+
             '" aria-label="'+(favs.has(j.id)?t("inFav"):t("toFav"))+'">'+
             (favs.has(j.id)?"★":"☆")+'</button>'+
@@ -1401,6 +1405,7 @@
     const chip = (label, isOn, toggle) => {
       const b = document.createElement("button");
       b.className = "qchip" + (isOn() ? " on" : "");
+      markPressed(b, isOn());
       b.textContent = label;
       b.addEventListener("click", () => { toggle(); shownCount = PAGE; renderList(); });
       box.appendChild(b);
@@ -1426,6 +1431,7 @@
     if (favs.size){
       const f = document.createElement("button");
       f.className = "qchip fav-chip" + (state.onlyFav ? " on" : "");
+      markPressed(f, state.onlyFav);
       f.textContent = "★ " + t("favs") + " " + favs.size;
       f.addEventListener("click", () => {
         state.onlyFav = !state.onlyFav; shownCount = PAGE; renderList();
@@ -1436,6 +1442,7 @@
     if (hidden.size){
       const h = document.createElement("button");
       h.className = "qchip hidden-chip" + (state.onlyHidden ? " on" : "");
+      markPressed(h, state.onlyHidden);
       h.textContent = t("hidden") + " " + hidden.size;
       h.addEventListener("click", () => {
         state.onlyHidden = !state.onlyHidden; shownCount = PAGE; renderList();
@@ -1686,6 +1693,8 @@
              location:new Set(s.location), age:s.age, remote:s.remote, salary:s.salary, query:s.query };
   }
 
+  function markPressed(btn, on){ btn.setAttribute("aria-pressed", on ? "true" : "false"); }
+
   function chipRow(el, values, set, label){
     el.innerHTML = "";
     values.forEach(([v, n]) => {
@@ -1713,7 +1722,10 @@
       return;
     }
     rows.forEach(([v, n]) => {
-      const row = document.createElement("div");
+      const row = document.createElement("button");
+      row.type = "button";
+      row.setAttribute("role", "checkbox");
+      row.setAttribute("aria-checked", set.has(v) ? "true" : "false");
       row.className = "opt" + (set.has(v) ? " on" : "");
       row.innerHTML = '<div class="box">'+(set.has(v)?"✓":"")+'</div><div>'+esc(v)+'</div><div class="n">'+n+'</div>';
       row.addEventListener("click", () => {
@@ -1820,7 +1832,10 @@
 
     rows.forEach(([key, rec]) => {
       const all = rec.locs.every(l => draft.location.has(l));
-      const row = document.createElement("div");
+      const row = document.createElement("button");
+      row.type = "button";
+      row.setAttribute("role", "checkbox");
+      row.setAttribute("aria-checked", all ? "true" : "false");
       row.className = "opt" + (all ? " on" : "");
       row.innerHTML = '<div class="box">'+(all?"✓":"")+'</div><div>'+esc(countryLabel(key))+
                       '</div><div class="n">'+rec.n+'</div>';
@@ -1847,7 +1862,10 @@
       el.appendChild(head);
       extra.forEach(([loc, n]) => {
         const on = draft.location.has(loc);
-        const row = document.createElement("div");
+        const row = document.createElement("button");
+        row.type = "button";
+        row.setAttribute("role", "checkbox");
+        row.setAttribute("aria-checked", on ? "true" : "false");
         row.className = "opt" + (on ? " on" : "");
         row.innerHTML = '<div class="box">'+(on?"✓":"")+'</div><div>'+esc(loc)+
                         '</div><div class="n">'+n+'</div>';
@@ -1912,7 +1930,8 @@
     renderCountryChips();
     renderLocationList($("locSearch").value);
 
-    const n = draft.role.size + draft.grade.size + draft.company.size + draft.location.size
+    const n = draft.role.size + draft.spec.size + draft.stack.size + draft.rkind.size
+            + draft.grade.size + draft.company.size + draft.location.size
             + (draft.age?1:0) + (draft.remote?1:0) + (draft.salary?1:0);
     const shown = JOBS.filter(j => passes(j, draft)).length;
     $("applyFilters").textContent = shown ? t("show") + " " + shown : t("nothingShort");
@@ -2237,10 +2256,24 @@
     b.addEventListener("click", () => {
       if (sentOk){ confirmSent(); return; }
       $(b.dataset.close).hidden = true;
+      returnFocus();
     }));
   // Клик мимо окна не закрывает его сразу: легко смахнуть настроенные фильтры
   // случайным касанием, поэтому спрашиваем.
   let pendingClose = null;
+  let lastFocus = null;     // куда вернуть фокус, когда окно закроется
+
+  function openOverlay(id){
+    lastFocus = document.activeElement;
+    $(id).hidden = false;
+    const first = $(id).querySelector("button, a, input, textarea, select");
+    if (first) first.focus();
+  }
+
+  function returnFocus(){
+    if (lastFocus && document.contains(lastFocus)) lastFocus.focus();
+    lastFocus = null;
+  }
   let sentOk = false;      // окно с «Спасибо» закрывается сразу, без переспроса
 
   function askClose(overlay){
@@ -2252,11 +2285,8 @@
     $("closeOverlay").hidden = false;
   }
 
-  document.querySelectorAll(".sheet").forEach(sh => {
-    sh.setAttribute("role", "dialog");
-    sh.setAttribute("aria-modal", "true");
-  });
-  document.querySelectorAll(".close").forEach(b => b.setAttribute("aria-label", "Закрыть"));
+  // role="dialog" стоит на самом окне в разметке — второй раз вешать на .sheet
+  // не нужно, экранный диктор объявлял бы диалог дважды.
 
   document.querySelectorAll(".overlay").forEach(o => {
     if (o.id === "closeOverlay") return;
@@ -2271,6 +2301,7 @@
   // чтобы в следующий раз человек увидел вопросы, а не «Спасибо».
   function closeSent(){
     sentOk = false;
+    returnFocus();
     $("reportOverlay").hidden = true;
     $("fbOverlay").hidden = true;
     $("reportDone").hidden = true;
@@ -2372,9 +2403,12 @@
       t("homeGo"), goHome);
   }
 
-  $("logo").addEventListener("click", onLogo);
-  $("logo").addEventListener("keydown", e => {
-    if (e.key === "Enter" || e.key === " "){ e.preventDefault(); onLogo(); }
+  // Ссылка настоящая: если фильтров нет, просто уходим на главную.
+  // Если есть — перехватываем и спрашиваем, чтобы не потерять настройку.
+  $("logo").addEventListener("click", e => {
+    if (activeCount() + (state.query ? 1 : 0) === 0) return;
+    e.preventDefault();
+    onLogo();
   });
 
   let searchTimer;
