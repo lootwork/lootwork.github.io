@@ -785,7 +785,7 @@ PAGE_CSS = """:root{--void:#0c0a1a;--panel:#15122b;--panel-2:#1c1838;--line:#2c2
 body{background:var(--void);color:var(--text);line-height:1.6;
 font-family:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:15px}
 a{color:var(--cyan)}
-.wrap{max-width:760px;margin:0 auto;padding:26px 18px 60px}
+.wrap{max-width:880px;margin:0 auto;padding:26px 20px 60px}
 header{border-bottom:1px solid var(--line-soft);margin-bottom:26px;padding-bottom:16px}
 .logo{font-family:"Unbounded",system-ui,sans-serif;font-weight:700;font-size:22px;
 letter-spacing:.02em;color:var(--text);text-decoration:none}
