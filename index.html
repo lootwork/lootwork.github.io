@@ -350,6 +350,7 @@
 
   <div class="meta-line">
     <span id="count"></span>
+    <button class="reset" id="shareBtn" hidden>Ссылка на фильтр</button>
     <button class="reset" id="reset">Сбросить всё</button>
   </div>
 
@@ -649,6 +650,7 @@
     age:null, remote:false, salary:false, onlyFav:false, query:""
   };
   let sortMode = "new";
+  let sortChosen = false;      // человек выбрал сортировку руками — не трогаем
   let draft = null;
   let shownCount = PAGE;
 
@@ -683,6 +685,10 @@
     if (d < 31) return Math.floor(d/7) + " нед. назад";
     return "больше месяца назад";
   }
+  // Метка для вакансий, у которых грейд в названии не указан.
+  // Их около половины, и раньше они выпадали из фильтра совсем.
+  const NO_GRADE = "__none";
+
   function counts(field){
     const m = new Map();
     JOBS.forEach(j => {
@@ -691,7 +697,12 @@
                  : [j[field]];
       (vals || []).forEach(v => { if (v) m.set(v, (m.get(v)||0) + 1); });
     });
-    return [...m.entries()].sort((a,b) => b[1]-a[1]);
+    const out = [...m.entries()].sort((a,b) => b[1]-a[1]);
+    if (field === "grade"){
+      const none = JOBS.filter(j => !j.grade).length;
+      if (none) out.push([NO_GRADE, none]);
+    }
+    return out;
   }
 
   // Из строки вида «3 000 – 4 500 $» достаём число для сортировки.
@@ -706,7 +717,29 @@
     return v;
   }
 
+  // Насколько вакансия отвечает запросу. Совпадение в названии весит
+  // больше, чем в описании: человек ищет должность, а не слово в тексте.
+  function relScore(j, q){
+    if (!q) return 0;
+    const title = (j.title || "").toLowerCase();
+    let score = 0;
+    if (title === q) score += 100;
+    else if (title.startsWith(q)) score += 60;
+    else if (title.includes(q)) score += 40;
+    if (new RegExp("\\b" + q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).test(title)) score += 15;
+    if ((j.company || "").toLowerCase().includes(q)) score += 20;
+    if ((j.spec || "").toLowerCase() === q) score += 18;
+    if ((j.stack || []).some(v => v.toLowerCase() === q)) score += 12;
+    if ((j.role || "").toLowerCase().includes(q)) score += 8;
+    if ((j.desc || "").toLowerCase().includes(q)) score += 3;
+    return score;
+  }
+
   const SORTS = {
+    rel:     { label:"Сначала подходящие",  fn:(a,b)=> {
+                 const d = relScore(b, state.query) - relScore(a, state.query);
+                 return d || (new Date(b.posted||0) - new Date(a.posted||0));
+               } },
     new:     { label:"Сначала новые",        fn:(a,b)=> new Date(b.posted||0) - new Date(a.posted||0) },
     old:     { label:"Сначала старые",       fn:(a,b)=> new Date(a.posted||0) - new Date(b.posted||0) },
     payhigh: { label:"Зарплата: больше",     fn:(a,b)=> cmpSalary(b,a) },
@@ -744,6 +777,8 @@
       toFav:"В избранное", inFav:"В избранном", applyOn:"Откликнуться на сайте студии",
       noDesc:"Студия не отдаёт текст вакансии в общем виде — описание откроется на её сайте.",
       updatedToday:"Обновлено сегодня", collected:"Собрано с сайтов студий.",
+      sortRel:"Сначала подходящие", noGrade:"Без грейда",
+      share:"Ссылка на фильтр", copied:"Скопировано",
       sortNew:"Сначала новые", sortOld:"Сначала старые", sortPayHigh:"Зарплата: больше",
       sortPayLow:"Зарплата: меньше", sortRegion:"По локации", sortCompany:"По компании",
       closeQ:"Закрыть окно?", closeSub:"Выбранное сохранится.", stay:"Остаться", close:"Закрыть",
@@ -787,6 +822,8 @@
       toFav:"Save", inFav:"Saved", applyOn:"Apply on the studio site",
       noDesc:"This studio does not share the job text — it will open on their site.",
       updatedToday:"Updated today", collected:"Collected from studio sites.",
+      sortRel:"Best match", noGrade:"No level",
+      share:"Copy filter link", copied:"Copied",
       sortNew:"Newest first", sortOld:"Oldest first", sortPayHigh:"Salary: high to low",
       sortPayLow:"Salary: low to high", sortRegion:"By location", sortCompany:"By company",
       closeQ:"Close this window?", closeSub:"Your choices are kept.", stay:"Stay", close:"Close",
@@ -827,6 +864,7 @@
     searchEl.placeholder = t("searchPh");
     $("filterBtn").childNodes[0].nodeValue = t("filters") + " ";
     $("reset").textContent = t("reset");
+    $("shareBtn").textContent = t("share");
     $("fbBtn").textContent = t("write");
     $("pitch").textContent = t("pitch");
     $("subtext").textContent = t("subtext");
@@ -864,6 +902,7 @@
     $("toTop").title = t("top");
     document.querySelectorAll(".lang-btn").forEach(b =>
       b.classList.toggle("on", b.dataset.lang === lang));
+    SORTS.rel.label = t("sortRel");
     SORTS.new.label = t("sortNew"); SORTS.old.label = t("sortOld");
     SORTS.payhigh.label = t("sortPayHigh"); SORTS.paylow.label = t("sortPayLow");
     SORTS.region.label = t("sortRegion"); SORTS.company.label = t("sortCompany");
@@ -886,6 +925,7 @@
     "Данные и ML":"Data & ML"
   };
   function specLabel(v){ return lang === "en" ? (SPEC_EN[v] || v) : v; }
+  function gradeLabel(v){ return v === NO_GRADE ? t("noGrade") : v; }
 
   const MONTHS = {
     ru:["января","февраля","марта","апреля","мая","июня","июля","августа","сентября","октября","ноября","декабря"],
@@ -1007,7 +1047,8 @@
     if (st.role.size && !st.role.has(j.role)) return false;
     if (st.spec && st.spec.size && !st.spec.has(j.spec)) return false;
     if (st.stack && st.stack.size && !(j.stack||[]).some(v => st.stack.has(v))) return false;
-    if (st.grade.size && !st.grade.has(j.grade)) return false;
+    if (st.grade.size && !(st.grade.has(j.grade) || (!j.grade && st.grade.has(NO_GRADE))))
+      return false;
     if (st.company.size && !st.company.has(j.company)) return false;
     if (st.location.size && !j.locations.some(l => st.location.has(l))) return false;
     if (st.remote && !j.remote) return false;
@@ -1029,7 +1070,8 @@
 
   function filtered(){
     const out = JOBS.filter(j => passes(j, state));
-    const s = SORTS[sortMode] || SORTS.new;
+    const mode = (sortMode === "rel" && !state.query) ? "new" : sortMode;
+    const s = SORTS[mode] || SORTS.new;
     return out.sort(s.fn);
   }
 
@@ -1184,6 +1226,8 @@
     $("filterCount").hidden = n === 0;
     $("filterCount").textContent = n;
     $("reset").hidden = n === 0 && !state.query;
+    $("shareBtn").hidden = n === 0 && !state.query;
+    syncUrl();
     renderQuick();
     renderActiveTags();
   }
@@ -1234,14 +1278,89 @@
     sel.className = "sort";
     sel.id = "sortSel";
     Object.entries(SORTS).forEach(([key, v]) => {
+      if (key === "rel" && !state.query) return;   // без запроса сортировать нечего
       const o = document.createElement("option");
       o.value = key; o.textContent = v.label;
       if (key === sortMode) o.selected = true;
       sel.appendChild(o);
     });
-    sel.addEventListener("change", e => { sortMode = e.target.value; shownCount = PAGE; renderList(); });
+    sel.addEventListener("change", e => {
+      sortMode = e.target.value;
+      sortChosen = true;                 // дальше сами не переключаем
+      shownCount = PAGE; renderList();
+    });
     wrap.appendChild(lab); wrap.appendChild(sel);
     box.appendChild(wrap);
+  }
+
+  // --------------------------------------------------- ссылка на фильтр
+  // Настроенные условия живут в адресе страницы: можно кинуть ссылку другу
+  // или сохранить в закладки, и откроется ровно то же самое.
+  const URL_KEYS = [["role","r"],["spec","s"],["stack","k"],
+                    ["grade","g"],["company","c"],["location","l"]];
+
+  function stateToUrl(){
+    const p = new URLSearchParams();
+    URL_KEYS.forEach(([field, key]) => {
+      if (state[field].size)
+        p.set(key, [...state[field]].map(v => v === NO_GRADE ? "none" : v).join("~"));
+    });
+    if (state.age) p.set("a", state.age);
+    if (state.remote) p.set("rm", "1");
+    if (state.salary) p.set("pay", "1");
+    if (state.query) p.set("q", state.query);
+    if (sortMode !== "new") p.set("sort", sortMode);
+    const qs = p.toString();
+    return location.origin + location.pathname + (qs ? "?" + qs : "");
+  }
+
+  function syncUrl(){
+    try { history.replaceState(null, "", stateToUrl()); } catch(e){}
+  }
+
+  function urlToState(){
+    const p = new URLSearchParams(location.search);
+    URL_KEYS.forEach(([field, key]) => {
+      const v = p.get(key);
+      if (v) v.split("~").filter(Boolean).forEach(x =>
+        state[field].add(field === "grade" && x === "none" ? NO_GRADE : x));
+    });
+    const a = parseInt(p.get("a"), 10);
+    if (a === 7 || a === 30) state.age = a;
+    state.remote = p.get("rm") === "1";
+    state.salary = p.get("pay") === "1";
+    state.query = (p.get("q") || "").trim().toLowerCase();
+    if (state.query) searchEl.value = state.query;
+    const srt = p.get("sort");
+    if (srt && SORTS[srt]){ sortMode = srt; sortChosen = true; }
+    else if (state.query) sortMode = "rel";
+  }
+
+  // Буфер обмена в браузере доступен не всегда — на такой случай
+  // остаётся старый способ через невидимое поле ввода.
+  function copyText(text){
+    if (navigator.clipboard && navigator.clipboard.writeText)
+      return navigator.clipboard.writeText(text);
+    return new Promise((ok, fail) => {
+      const ta = document.createElement("textarea");
+      ta.value = text;
+      ta.style.position = "fixed"; ta.style.opacity = "0";
+      document.body.appendChild(ta);
+      ta.select();
+      const done = document.execCommand("copy");
+      document.body.removeChild(ta);
+      done ? ok() : fail();
+    });
+  }
+
+  let shareTimer;
+  function onShare(){
+    const btn = $("shareBtn");
+    copyText(stateToUrl()).then(() => {
+      btn.textContent = t("copied");
+      clearTimeout(shareTimer);
+      shareTimer = setTimeout(() => { btn.textContent = t("share"); }, 2000);
+    }).catch(() => { prompt(t("share"), stateToUrl()); });
   }
 
   function renderActiveTags(){
@@ -1257,7 +1376,7 @@
     state.role.forEach(v => add(roleLabel(v), () => state.role.delete(v)));
     state.spec.forEach(v => add(specLabel(v), () => state.spec.delete(v)));
     state.stack.forEach(v => add(v, () => state.stack.delete(v)));
-    state.grade.forEach(v => add(v, () => state.grade.delete(v)));
+    state.grade.forEach(v => add(gradeLabel(v), () => state.grade.delete(v)));
     state.company.forEach(v => add(v, () => state.company.delete(v)));
     state.location.forEach(v => add(v, () => state.location.delete(v)));
     if (state.age) add(state.age === 7 ? "за неделю" : "за месяц", () => state.age = null);
@@ -1380,7 +1499,7 @@
     $("specGroup").hidden = !specVals.length;
     chipRow($("fSpec"), specVals, draft.spec, specLabel);
 
-    chipRow($("fGrade"), counts("grade"), draft.grade);
+    chipRow($("fGrade"), counts("grade"), draft.grade, gradeLabel);
 
     const stackVals = counts("stack").slice(0, 16);
     $("stackGroup").hidden = !stackVals.length;
@@ -1661,6 +1780,7 @@
   $("companySearch").addEventListener("input", buildFilterUi);
   $("locSearch").addEventListener("input", buildFilterUi);
   $("sendReport").addEventListener("click", sendReport);
+  $("shareBtn").addEventListener("click", onShare);
   $("moreBtn").addEventListener("click", () => { shownCount += PAGE; renderList(); });
   $("jobFav").addEventListener("click", () => {
     if (!openJob) return;
@@ -1755,6 +1875,7 @@
     clearTimeout(searchTimer);
     searchTimer = setTimeout(() => {
       state.query = e.target.value.trim().toLowerCase();
+      if (!sortChosen) sortMode = state.query ? "rel" : "new";
       shownCount = PAGE;
       renderList();
     }, 120);
@@ -1770,6 +1891,7 @@
     window.ym(CFG.metrikaId,"init",{clickmap:true,trackLinks:true,accurateTrackBounce:true});
   }
 
+  urlToState();
   placeFilters();
   applyLang();
   if (!JOBS.length){
