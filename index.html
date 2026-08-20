@@ -1614,6 +1614,21 @@
     $("sendReport").disabled = !(reportReason && reportWhen);
   }
 
+  // Отправка в Google Форму молча, без открытия вкладки.
+  // Гугл не разрешает читать ответ с чужого сайта (mode:"no-cors"),
+  // поэтому подтверждения не будет — но данные доходят.
+  function postToForm(cfg, values){
+    if (!cfg || !cfg.url) return;
+    const body = new URLSearchParams();
+    Object.keys(values).forEach(k => {
+      const field = cfg.fields[k];
+      if (field) body.append(field, values[k]);
+    });
+    try {
+      fetch(cfg.url, { method:"POST", mode:"no-cors", body });
+    } catch(e){}
+  }
+
   function sendReport(){
     if (!reportJob || !reportReason || !reportWhen) return;
     const j = reportJob;
@@ -1623,14 +1638,12 @@
 
     if (window.ym && CFG.metrikaId) window.ym(CFG.metrikaId, "reachGoal", "report");
 
-    if (CFG.reportForm){
-      const url = CFG.reportForm
-        .replace("{id}", encodeURIComponent(j.id))
-        .replace("{title}", encodeURIComponent(j.company + " — " + j.title))
-        .replace("{reason}", encodeURIComponent(reportReason[1]))
-        .replace("{when}", encodeURIComponent(reportWhen[1]));
-      window.open(url, "_blank");
-    }
+    postToForm(CFG.reportForm, {
+      id: j.id,
+      title: j.company + " — " + j.title,
+      reason: reportReason[1],
+      when: reportWhen[1]
+    });
 
     $("reportBody").innerHTML =
       '<div class="thanks"><span class="big">✓</span>Спасибо. Вакансию проверят,'+
@@ -1735,12 +1748,7 @@
 
     if (window.ym && CFG.metrikaId) window.ym(CFG.metrikaId, "reachGoal", "feedback");
 
-    if (CFG.feedbackForm){
-      const url = CFG.feedbackForm
-        .replace("{topic}", encodeURIComponent(fbTopic[1]))
-        .replace("{text}", encodeURIComponent(text));
-      window.open(url, "_blank");
-    }
+    postToForm(CFG.feedbackForm, { topic: fbTopic[1], text: text });
 
     $("fbBody").innerHTML =
       '<div class="thanks"><span class="big">✓</span>Спасибо, прочитаю.</div>';
