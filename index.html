@@ -101,8 +101,19 @@
   .lang-btn.on{background:var(--cyan-deep);color:var(--cyan)}
   .lang-btn:hover{color:var(--cyan)}
   .pitch{font-size:16px;color:var(--text);margin-top:10px;font-weight:600}
-  .stats{font-family:var(--mono);font-size:13px;color:var(--cyan);margin-top:8px;letter-spacing:.01em}
+  .stats{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+  .stat{background:var(--panel);border:1px solid var(--line-soft);border-radius:10px;
+    padding:8px 14px;display:flex;flex-direction:column;gap:1px;min-width:92px}
+  .stat b{font-family:var(--mono);font-size:18px;font-weight:600;color:var(--cyan);line-height:1.1}
+  .stat span{font-size:11px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
   .sub{color:var(--muted);font-size:13.5px;margin-top:8px;max-width:640px;line-height:1.6}
+  .how-cards{display:grid;gap:10px}
+  .how-card{background:var(--panel-2);border:1px solid var(--line-soft);border-radius:12px;
+    padding:14px 15px}
+  .how-n{font-family:var(--mono);font-size:11px;color:var(--cyan);letter-spacing:.14em;
+    margin-bottom:6px}
+  .how-t{font-weight:700;font-size:14.5px;margin-bottom:5px}
+  .how-x{color:var(--muted);font-size:13.5px;line-height:1.6}
   .how{background:none;border:none;color:var(--cyan);font:inherit;font-size:13.5px;
     text-decoration:underline;cursor:pointer;padding:0;margin-left:4px}
   .how:hover{color:var(--amber)}
@@ -146,8 +157,12 @@
   .qchip{background:transparent;border:1px solid var(--line);color:var(--muted);
     border-radius:999px;padding:7px 14px;font-family:var(--body);font-size:13px;
     cursor:pointer;white-space:nowrap;transition:.13s}
-  .qchip:hover{border-color:var(--cyan);color:var(--cyan)}
+  .qchip:hover{border-color:var(--line);color:var(--text)}
   .qchip.on{background:var(--cyan-deep);border-color:var(--cyan);color:var(--cyan);font-weight:600}
+  /* Тип условия видно по цвету, а не только по тексту. */
+  .qchip.q-cond{color:#c9a56b;border-color:#4a3a1c}
+  .qchip.q-cond.on{background:var(--amber-deep);border-color:var(--amber);color:var(--amber)}
+  .qchip.q-role{color:#8fd7ee;border-color:#254a58}
   .sort-wrap{margin-left:auto;display:flex;align-items:center;gap:9px;flex-wrap:wrap}
   .sort-wrap label{color:var(--muted);font-size:12.5px}
   .hidden-chip{border-color:#4a2a3a;color:var(--pink)}
@@ -174,12 +189,16 @@
   .active-tag span{font-weight:700;opacity:.65}
 
   /* ---------- карточка ---------- */
+  /* Цвет роли — главный ориентир в ленте: глаз цепляется за полоску слева
+     и за метку роли, не читая текст. */
   .card{background:var(--panel);border:1px solid var(--line-soft);border-radius:14px;
-    padding:15px;margin-bottom:10px;transition:border-color .14s,transform .14s;
-    display:flex;gap:13px}
-  .card{cursor:pointer}
-  .card:hover{border-color:var(--cyan);transform:translateY(-3px) scale(1.006);
-    box-shadow:0 10px 26px rgba(0,0,0,.45)}
+    padding:15px 15px 15px 18px;margin-bottom:10px;position:relative;overflow:hidden;
+    transition:border-color .14s,transform .14s,background .14s;
+    display:flex;gap:13px;cursor:pointer}
+  .card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;
+    background:var(--role, var(--line))}
+  .card:hover{background:var(--panel-2);border-color:var(--line);
+    transform:translateY(-2px);box-shadow:0 10px 26px rgba(0,0,0,.45)}
   .card:active{transform:translateY(-1px) scale(1.002)}
   .menu-wrap{position:relative}
   .kebab{background:none;border:none;color:var(--muted);font-size:19px;line-height:1;
@@ -219,13 +238,21 @@
     border:1px solid var(--line-soft);border-radius:7px;padding:3px 9px}
   .tag.remote{color:var(--cyan);border-color:var(--cyan-deep);background:var(--cyan-deep)}
   .tag.pool{color:var(--muted);border-style:dashed}
+  .tag.role{color:var(--role, var(--muted));border-color:var(--role, var(--line-soft))}
+  .tag.grade{color:#b9a8ff;border-color:#3a2f6b}
+  mark{background:rgba(255,176,63,.16);color:#ffd28a;border:1px solid rgba(255,176,63,.28);
+    border-radius:4px;padding:0 3px}
   .tag.stack{color:var(--text);border-color:var(--line);font-family:var(--mono);font-size:11px}
   .tag.fresh{color:var(--amber);border-color:#4a3618;background:var(--amber-deep);font-family:var(--mono);font-size:11px}
 
   .card-bottom{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:13px}
+  /* Янтарь — самый сильный цвет в палитре. В ленте человек ещё сравнивает,
+     поэтому там кнопка спокойная; сплошной янтарь остаётся окну вакансии. */
   .apply{background:var(--amber);color:#231602;text-decoration:none;font-weight:700;
     font-size:13.5px;padding:10px 20px;border-radius:9px;font-family:var(--body)}
   .apply:hover{background:#ffc164}
+  .card .apply{background:transparent;color:var(--amber);border:1px solid #5b431a;font-weight:600}
+  .card .apply:hover{background:var(--amber-deep);border-color:var(--amber)}
   .report{background:none;border:none;color:#5f5789;font-family:var(--body);font-size:12px;
     cursor:pointer;padding:6px}
   .report:hover{color:var(--pink)}
@@ -240,6 +267,7 @@
     color:var(--amber);border-radius:999px;font-family:var(--mono);font-size:11.5px;
     padding:3px 10px;margin-left:10px;vertical-align:middle;letter-spacing:.01em}
 
+  .empty-drops{display:flex;flex-wrap:wrap;gap:7px;justify-content:center;margin-top:14px}
   .empty{text-align:center;color:var(--muted);padding:50px 20px;font-size:14px;
     border:1px dashed var(--line);border-radius:14px}
   .more{display:block;width:100%;margin-top:13px;background:var(--panel);border:1px solid var(--line);
@@ -264,7 +292,8 @@
   .close:hover{color:var(--pink)}
 
   .sheet-body{overflow-y:auto;padding:17px 19px;flex:1}
-  .sheet-foot{display:flex;gap:9px;padding:15px 19px;border-top:1px solid var(--line-soft);flex:none}
+  .sheet-foot{display:flex;gap:9px;padding:15px 19px;border-top:1px solid var(--line-soft);flex:none;
+    background:var(--panel);position:sticky;bottom:0;z-index:2}
   .btn{flex:1;font-family:var(--body);font-size:14px;font-weight:600;padding:13px;border-radius:11px;
     cursor:pointer;border:1px solid var(--line);background:var(--panel-2);color:var(--text)}
   .btn:hover{border-color:var(--cyan);color:var(--cyan)}
@@ -278,7 +307,7 @@
   .chips{display:flex;flex-wrap:wrap;gap:7px}
   .chip{background:transparent;border:1px solid var(--line);color:var(--muted);
     border-radius:999px;padding:7px 14px;font-family:var(--body);font-size:13px;cursor:pointer}
-  .chip:hover{border-color:var(--cyan);color:var(--cyan)}
+  .chip:hover{border-color:var(--line);color:var(--text)}
   .chip.on{background:var(--cyan-deep);border-color:var(--cyan);color:var(--cyan);font-weight:600}
   .chip .cnt{font-family:var(--mono);opacity:.6;font-size:11px;margin-left:5px}
 
@@ -414,6 +443,8 @@
       <a href="/jobs/" id="footAll">Все вакансии</a>
       &nbsp;·&nbsp;
       <a href="/remote/" id="footRemote">Удалённая работа</a>
+      &nbsp;·&nbsp;
+      <a href="mailto:gamesandfinbusiness@gmail.com" id="footMail">gamesandfinbusiness@gmail.com</a>
       &nbsp;·&nbsp;
       <a href="/about/" id="footAbout">Покрытие базы</a>
       &nbsp;·&nbsp;
@@ -730,6 +761,20 @@
 
   // ---------------------------------------------------------------- утилиты
 
+  // Подсветка того, что человек искал. Не жёлтый маркер, а мягкая янтарная
+  // подложка: сразу видно, почему вакансия попала в выдачу.
+  function hi(text){
+    const safe = esc(text);
+    if (!state.query) return safe;
+    let out = safe;
+    tokens(state.query).forEach(tok => {
+      if (tok.length < 2) return;
+      const re = new RegExp("(" + tok.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "gi");
+      out = out.replace(re, "<mark>$1</mark>");
+    });
+    return out;
+  }
+
   function esc(s){
     return String(s == null ? "" : s).replace(/[&<>"']/g, c =>
       ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
@@ -857,7 +902,7 @@
       emptyTitle:"Под эти фильтры ничего нет.", emptySub:"Попробуй убрать часть условий.",
       remote:"Удалёнка", withSalary:"Есть зарплата", week:"За неделю", favs:"Избранное",
       hidden:"Скрытые", restore:"Вернуть в список", hide:"Скрыть вакансию", more2:"Ещё",
-      pool:"резерв",
+      pool:"резерв", dropWord:"Убрать",
       fbContact:"Контакт для ответа", fbContactHint:"Без контакта ответить не смогу.",
       fbContactPh:"почта или телеграм — необязательно",
       studioTemplate:"Студия: \nСтраница с вакансиями: \nСтрана: \nКто я: сотрудник / соискатель / другое",
@@ -922,7 +967,7 @@
       emptyTitle:"Nothing matches these filters.", emptySub:"Try removing some conditions.",
       remote:"Remote", withSalary:"Salary listed", week:"This week", favs:"Saved",
       hidden:"Hidden", restore:"Bring back", hide:"Hide this job", more2:"More",
-      pool:"talent pool",
+      pool:"talent pool", dropWord:"Remove",
       fbContact:"Contact for a reply", fbContactHint:"Without a contact I cannot reply.",
       fbContactPh:"email or telegram — optional",
       studioTemplate:"Studio: \nCareers page: \nCountry: \nWho I am: employee / job seeker / other",
@@ -1058,6 +1103,17 @@
   };
   function roleLabel(v){ return lang === "en" ? (ROLE_EN[v] || v) : v; }
 
+  // Приглушённые оттенки: на тёмном фоне яркие цвета быстро превращаются
+  // в гирлянду. Задача — различать роли боковым зрением, а не украшать.
+  const ROLE_COLOR = {
+    "Программирование":"#5fe3ff", "Технический художник":"#7ee0c0",
+    "Арт":"#ff8fc7", "Анимация":"#c79bff", "VFX":"#9f8cff",
+    "Геймдизайн":"#ffb03f", "Нарратив":"#e0b98c", "Звук":"#6fd3a8",
+    "QA":"#66c2ff", "Аналитика":"#8ad6b4", "Продакт":"#ffa06b",
+    "Продюсирование":"#ff9a5c", "Маркетинг":"#d38cff", "Поддержка":"#7fa8e8"
+  };
+  function roleColor(v){ return ROLE_COLOR[v] || "#5a5290"; }
+
   const SPEC_EN = {
     "Движок":"Engine", "Геймплей":"Gameplay", "Бэкенд":"Backend",
     "Фронтенд":"Frontend", "Мобильная":"Mobile", "Инструменты":"Tools",
@@ -1098,18 +1154,22 @@
 
   function renderStats(){
     const studios = window.JOBS_STUDIOS || new Set(JOBS.map(j => j.company)).size;
-    const parts = [JOBS.length + " " + t("jobsWord"), studios + " " + t("studiosWord")];
-    if (UPDATED) parts.push(t("updatedOn") + " " + humanDate(UPDATED));
-    $("stats").textContent = parts.join("  ·  ");
+    // Для доски вакансий цифры — главный довод доверия, поэтому не строкой
+    // мелким шрифтом, а тремя плашками с крупным числом.
+    const cells = [[JOBS.length, t("jobsWord")], [studios, t("studiosWord")]];
+    if (UPDATED) cells.push([humanDate(UPDATED), t("updatedOn")]);
+    $("stats").innerHTML = cells.map(([big, small]) =>
+      '<div class="stat"><b>'+esc(big)+'</b><span>'+esc(small)+'</span></div>').join("");
     if (UPDATED) $("footUpdated").textContent = t("updatedOn") + " " + humanDate(UPDATED);
     renderStatus();
   }
 
   function renderHow(){
     const rows = t("howBody") || [];
-    $("howBody").innerHTML = rows.map(([title, text]) =>
-      '<div class="group"><div class="group-title">'+esc(title)+'</div>'+
-      '<div class="hint" style="margin:0">'+esc(text)+'</div></div>').join("");
+    $("howBody").innerHTML = '<div class="how-cards">' + rows.map(([title, text], i) =>
+      '<div class="how-card"><div class="how-n">'+String(i + 1).padStart(2, "0")+'</div>'+
+      '<div class="how-t">'+esc(title)+'</div>'+
+      '<div class="how-x">'+esc(text)+'</div></div>').join("") + '</div>';
   }
 
   // ------------------------------------------------------------------ география
@@ -1382,24 +1442,25 @@
   function card(j){
     const el = document.createElement("article");
     el.className = "card" + (reported.has(j.id) ? " reported" : "");
+    el.style.setProperty("--role", roleColor(j.role));
     const age = daysAgo(j.posted);
     const tags = [];
     if (j.remote || j.rkind)
       tags.push('<span class="tag remote">'+esc(j.rkind ? rkindLabel(j.rkind) : t("remote"))+'</span>');
     if (j.pool) tags.push('<span class="tag pool">'+t("pool")+'</span>');
-    if (j.grade) tags.push('<span class="tag">'+esc(j.grade)+'</span>');
-    if (j.role) tags.push('<span class="tag">'+esc(roleLabel(j.role))+'</span>');
-    if (j.spec) tags.push('<span class="tag">'+esc(specLabel(j.spec))+'</span>');
+    if (j.grade) tags.push('<span class="tag grade">'+esc(j.grade)+'</span>');
+    if (j.role) tags.push('<span class="tag role">'+esc(roleLabel(j.role))+'</span>');
+    if (j.spec) tags.push('<span class="tag role">'+esc(specLabel(j.spec))+'</span>');
     (j.stack || []).slice(0, 3).forEach(v =>
-      tags.push('<span class="tag stack">'+esc(v)+'</span>'));
+      tags.push('<span class="tag stack">'+hi(v)+'</span>'));
     if (age !== null) tags.push('<span class="tag'+(age<7?' fresh':'')+'">'+ageLabel(age)+'</span>');
 
     el.innerHTML =
       logoHtml(j) +
       '<div class="card-main">'+
       '<div class="card-top"><div>'+
-        '<div class="title">'+esc(j.title)+'</div>'+
-        '<div class="company">'+esc(j.company)+placeHtml(j)+'</div></div>'+
+        '<div class="title">'+hi(j.title)+'</div>'+
+        '<div class="company">'+hi(j.company)+placeHtml(j)+'</div></div>'+
         '<div style="display:flex;align-items:flex-start;gap:2px">'+
           (j.salary ? '<div class="salary">'+esc(j.salary)+'</div>'
                     : '')+
@@ -1463,10 +1524,33 @@
     listEl.innerHTML = "";
     if (!shown.length){
       const q = state.query ? ' «'+esc(state.query)+'»' : "";
+      // Предлагаем снять конкретные условия: обычно мешает одно из них,
+      // а «сбросить всё» заставляет настраивать заново.
+      const drops = [];
+      state.role.forEach(v => drops.push([roleLabel(v), () => state.role.delete(v)]));
+      state.spec.forEach(v => drops.push([specLabel(v), () => state.spec.delete(v)]));
+      state.stack.forEach(v => drops.push([v, () => state.stack.delete(v)]));
+      state.rkind.forEach(v => drops.push([rkindLabel(v), () => state.rkind.delete(v)]));
+      state.grade.forEach(v => drops.push([gradeLabel(v), () => state.grade.delete(v)]));
+      if (state.remote) drops.push([t("remote"), () => state.remote = false]);
+      if (state.salary) drops.push([t("withSalary"), () => state.salary = false]);
+      if (state.age) drops.push([state.age === 7 ? t("week") : t("month"), () => state.age = null]);
+      if (state.query) drops.push(["«" + state.query + "»", () => {
+        state.query = ""; searchEl.value = "";
+      }]);
+
       listEl.innerHTML =
         '<div class="empty"><b>'+t("emptyTitle")+q+'</b><br>'+t("emptySub")+
-        '<div style="margin-top:14px"><button class="btn" id="emptyReset" style="max-width:230px;margin:0 auto">'+
-        t("reset")+'</button></div></div>';
+        '<div class="empty-drops">'+
+          drops.slice(0, 4).map((d, i) =>
+            '<button class="qchip" data-drop="'+i+'">'+t("dropWord")+" "+esc(d[0])+'</button>').join("")+
+          '<button class="qchip" id="emptyReset">'+t("reset")+'</button>'+
+        '</div></div>';
+      listEl.querySelectorAll("[data-drop]").forEach(b =>
+        b.addEventListener("click", () => {
+          drops[+b.dataset.drop][1]();
+          shownCount = PAGE; renderList(); buildFilterUi();
+        }));
       const er = $("emptyReset");
       if (er) er.addEventListener("click", doReset);
       $("moreBtn").hidden = true;
@@ -1495,26 +1579,27 @@
     const box = $("quick");
     box.innerHTML = "";
 
-    const chip = (label, isOn, toggle) => {
+    const chip = (label, isOn, toggle, kind) => {
       const b = document.createElement("button");
-      b.className = "qchip" + (isOn() ? " on" : "");
+      b.className = "qchip" + (kind ? " q-" + kind : "") + (isOn() ? " on" : "");
       markPressed(b, isOn());
       b.textContent = label;
       b.addEventListener("click", () => { toggle(); shownCount = PAGE; renderList(); });
       box.appendChild(b);
     };
 
-    chip(t("remote"), () => state.remote, () => state.remote = !state.remote);
+    chip(t("remote"), () => state.remote, () => state.remote = !state.remote, "cond");
     const withPay = JOBS.filter(j => j.salary).length;
     // Если вилок в базе почти нет, фильтр только раздражает пустотой.
     if (withPay >= JOBS.length * 0.05)
-        chip(t("hasSalary") + " " + withPay, () => state.salary, () => state.salary = !state.salary);
-    chip(t("week"), () => state.age === 7, () => state.age = state.age === 7 ? null : 7);
+        chip(t("hasSalary") + " " + withPay, () => state.salary,
+             () => state.salary = !state.salary, "cond");
+    chip(t("week"), () => state.age === 7, () => state.age = state.age === 7 ? null : 7, "cond");
 
     // четыре самые многочисленные роли — они закрывают большинство запросов
     counts("role").slice(0, 4).forEach(([role]) => {
       chip(roleLabel(role), () => state.role.has(role),
-        () => state.role.has(role) ? state.role.delete(role) : state.role.add(role));
+        () => state.role.has(role) ? state.role.delete(role) : state.role.add(role), "role");
     });
 
     const wrap = document.createElement("div");
