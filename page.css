@@ -20,8 +20,13 @@ border-radius:7px;padding:3px 9px}
 font-weight:700;padding:12px 24px;border-radius:9px;margin:18px 0}
 .apply:hover{background:#ffc164}
 .desc p{margin:0 0 12px}
-.desc ul{margin:0 0 14px 20px}
-.desc li{margin:0 0 5px}
+.desc h2{font-family:"Unbounded",system-ui,sans-serif;font-size:13px;font-weight:700;
+letter-spacing:.05em;text-transform:uppercase;color:var(--text);
+margin:26px 0 10px;padding-top:16px;border-top:1px solid var(--line-soft)}
+.desc h2:first-child{margin-top:0;padding-top:0;border-top:none}
+.desc ul{list-style:none;margin:0 0 16px;padding:0}
+.desc li{position:relative;padding-left:20px;margin:0 0 7px}
+.desc li::before{content:"▸";position:absolute;left:2px;color:var(--cyan);font-size:12px}
 .card{display:block;border:1px solid var(--line-soft);background:var(--panel);border-radius:12px;
 padding:13px 15px;margin-bottom:9px;text-decoration:none;color:var(--text)}
 .card:hover{border-color:var(--line)}
