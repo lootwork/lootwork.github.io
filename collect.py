@@ -113,6 +113,30 @@ REJECT_RE = re.compile(
 )
 
 
+# Заявка в резерв — это не вакансия: места нет, есть приглашение прислать
+# резюме на будущее. Не выбрасываем (кому-то полезно), но помечаем.
+POOL_RE = re.compile(
+    r"talent pool|talent community|candidate pool|open application|general application|"
+    r"spontaneous application|speculative|student application|internship opportunity|"
+    r"future opportunit|expression of interest|candidature libre|candidature ouverte|"
+    r"кадровый резерв|в резерв", re.I)
+
+
+def is_pool(title: str) -> bool:
+    return bool(POOL_RE.search(title or ""))
+
+
+# Студии часто дублируют название на втором языке через «|»:
+# «Animator – Open Application | Animateur - candidature libre».
+# Читать такое невозможно, оставляем первую половину.
+def trim_title(title: str) -> str:
+    t = (title or "").strip()
+    if "|" not in t:
+        return t
+    head = t.split("|")[0].strip(" -–—")
+    return head if len(head) >= 12 else t
+
+
 def classify_role(title: str):
     low = title.lower()
     for role, pattern in ROLE_RULES:
@@ -881,6 +905,9 @@ def collect(companies, verify_links: bool):
         if REJECT_RE.search(j["title"]):
             continue
 
+        j["title"] = trim_title(j["title"])
+        if is_pool(j["title"]):
+            j["pool"] = True
         role = classify_role(j["title"])
         if not role:
             continue                      # не смогли отнести к геймдеву — пропускаем
@@ -1130,6 +1157,8 @@ def job_page(j, same_company):
     if j.get("remote") or j.get("rkind"):
         tags.append(('<span class="tag remote">'
                      + esc(RKIND_WORD.get(j.get("rkind"), "удалёнка")) + "</span>"))
+    if j.get("pool"):
+        tags.append('<span class="tag">заявка в резерв</span>')
     for v in [j.get("grade"), j.get("role"), j.get("spec")]:
         if v:
             tags.append(f'<span class="tag">{esc(v)}</span>')

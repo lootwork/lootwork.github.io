@@ -218,6 +218,7 @@
   .tag{font-size:11.5px;color:var(--muted);background:var(--panel-2);
     border:1px solid var(--line-soft);border-radius:7px;padding:3px 9px}
   .tag.remote{color:var(--cyan);border-color:var(--cyan-deep);background:var(--cyan-deep)}
+  .tag.pool{color:var(--muted);border-style:dashed}
   .tag.stack{color:var(--text);border-color:var(--line);font-family:var(--mono);font-size:11px}
   .tag.fresh{color:var(--amber);border-color:#4a3618;background:var(--amber-deep);font-family:var(--mono);font-size:11px}
 
@@ -829,6 +830,7 @@
       emptyTitle:"Под эти фильтры ничего нет.", emptySub:"Попробуй убрать часть условий.",
       remote:"Удалёнка", withSalary:"С вилкой", week:"За неделю", favs:"Избранное",
       hidden:"Скрытые", restore:"Вернуть в список", hide:"Скрыть вакансию", more2:"Ещё",
+      pool:"резерв",
       remoteWorld:"Удалёнка по миру", remoteZone:"Удалёнка в регионе", remoteHybrid:"Гибрид",
       formatTitle:"Формат работы", searchFor:"Искать",
       role:"Роль", grade:"Грейд", posted:"Когда опубликовано", terms:"Условия",
@@ -885,6 +887,7 @@
       emptyTitle:"Nothing matches these filters.", emptySub:"Try removing some conditions.",
       remote:"Remote", withSalary:"With salary", week:"This week", favs:"Saved",
       hidden:"Hidden", restore:"Bring back", hide:"Hide this job", more2:"More",
+      pool:"talent pool",
       remoteWorld:"Remote worldwide", remoteZone:"Remote in region", remoteHybrid:"Hybrid",
       formatTitle:"Work format", searchFor:"Search",
       role:"Role", grade:"Level", posted:"Posted", terms:"Conditions",
@@ -1197,7 +1200,10 @@
     }
     const mode = (sortMode === "rel" && !state.query) ? "new" : sortMode;
     const s = SORTS[mode] || SORTS.new;
-    return out.sort(s.fn);
+    out.sort(s.fn);
+    // Заявки в резерв — не вакансии, а приглашение прислать резюме на будущее.
+    // Не прячем, но держим ниже настоящих открытых мест.
+    return out.sort((a, b) => (a.pool ? 1 : 0) - (b.pool ? 1 : 0));
   }
 
   function activeCount(){
@@ -1213,7 +1219,8 @@
   // иначе строка расползается на три ряда.
   function placeHtml(j){
     const l = j.locations || [];
-    if (!l.length) return j.remote ? ' <span class="place">'+t("remote")+'</span>' : '';
+    // Если города нет, а метка удалёнки и так стоит ниже — второй раз не пишем.
+    if (!l.length) return "";
     let text = l.slice(0, 2).join("  ·  ");
     if (l.length > 2) text += " +" + (l.length - 2);
     return ' <span class="place" title="'+esc(l.join(", "))+'">'+esc(text)+'</span>';
@@ -1282,6 +1289,7 @@
     const tags = [];
     if (j.remote || j.rkind)
       tags.push('<span class="tag remote">'+esc(j.rkind ? rkindLabel(j.rkind) : t("remote"))+'</span>');
+    if (j.pool) tags.push('<span class="tag pool">'+t("pool")+'</span>');
     if (j.grade) tags.push('<span class="tag">'+esc(j.grade)+'</span>');
     if (j.role) tags.push('<span class="tag">'+esc(roleLabel(j.role))+'</span>');
     if (j.spec) tags.push('<span class="tag">'+esc(specLabel(j.spec))+'</span>');
