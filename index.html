@@ -182,6 +182,7 @@
   .tag{font-size:11.5px;color:var(--muted);background:var(--panel-2);
     border:1px solid var(--line-soft);border-radius:7px;padding:3px 9px}
   .tag.remote{color:var(--cyan);border-color:var(--cyan-deep);background:var(--cyan-deep)}
+  .tag.stack{color:var(--text);border-color:var(--line);font-family:var(--mono);font-size:11px}
   .tag.fresh{color:var(--amber);border-color:#4a3618;background:var(--amber-deep);font-family:var(--mono);font-size:11px}
 
   .card-bottom{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:13px}
@@ -387,7 +388,9 @@
     </div>
     <div class="sheet-body">
       <div class="group"><div class="group-title" id="gtRole">Роль</div><div class="chips" id="fRole"></div></div>
+      <div class="group" id="specGroup"><div class="group-title" id="gtSpec">Специализация</div><div class="chips" id="fSpec"></div></div>
       <div class="group"><div class="group-title" id="gtGrade">Грейд</div><div class="chips" id="fGrade"></div></div>
+      <div class="group" id="stackGroup"><div class="group-title" id="gtStack">Стек</div><div class="chips" id="fStack"></div></div>
       <div class="group"><div class="group-title" id="gtPosted">Когда опубликовано</div><div class="chips" id="fAge"></div></div>
       <div class="group"><div class="group-title" id="gtTerms">Условия</div><div class="chips" id="fFlags"></div></div>
       <div class="group">
@@ -540,6 +543,69 @@
     if (!Array.isArray(j.locations))
       j.locations = j.location ? [j.location] : [];
   });
+  // ------------------------------------------- специализация и стек
+  // Роль «Программирование» слишком широкая: под ней и Unity, и бэкенд,
+  // и инструменты. Уточняем по названию вакансии — побеждает первое
+  // правило в списке, поэтому порядок здесь важен.
+  const SPEC_RULES = [
+    ["Unity",       /\bunity\b|юнити/i],
+    ["Unreal",      /\bunreal\b|\bue\s?[45]\b|анрил/i],
+    ["Движок",      /engine (programmer|developer|engineer)|graphics|render|shader|physics|физик/i],
+    ["Геймплей",    /gameplay|геймплей/i],
+    ["Данные и ML", /data (engineer|developer|ops|platform|scien)|machine learning|\bml engineer\b|\bai engineer\b|data engineering/i],
+    ["Бэкенд",      /back[- ]?end|бэкенд|бекенд|\bserver\b|серверн|platform engineer|golang|node\.js|distributed systems/i],
+    ["Фронтенд",    /front[- ]?end|фронтенд|full[- ]?stack|\breact\b|\bweb developer\b|javascript|typescript|playable ads|\bhtml5\b/i],
+    ["Мобильная",   /\bios\b|\bandroid\b|мобильн|mobile (developer|engineer)|flutter/i],
+    ["Инструменты", /\btools?\b|tooling|pipeline (engineer|developer)|инструмент|build engineer/i],
+    ["DevOps",      /devops|\bsre\b|site reliability|infrastructure|инфраструктур|kubernetes|\bcloud\b/i],
+    ["C++",         /c\+\+/i]
+  ];
+
+  // Инструменты и языки. Ищем и в названии, и в тексте вакансии.
+  // Git и Jira намеренно не берём: они есть почти везде и ничего не говорят.
+  const STACK_RULES = [
+    ["Unity",      /\bunity\b/i],
+    ["Unreal",     /\bunreal\b|\bue\s?[45]\b/i],
+    ["Godot",      /\bgodot\b/i],
+    ["C++",        /c\+\+/i],
+    ["C#",         /c#|c-sharp/i],
+    ["Python",     /\bpython\b/i],
+    ["Go",         /\bgolang\b/i],
+    ["Java",       /\bjava\b(?!script)/i],
+    ["Kotlin",     /\bkotlin\b/i],
+    ["Swift",      /\bswift\b/i],
+    ["TypeScript", /\btypescript\b/i],
+    ["JavaScript", /\bjavascript\b/i],
+    ["Lua",        /\blua\b/i],
+    ["SQL",        /\bsql\b/i],
+    ["AWS",        /\baws\b|amazon web services/i],
+    ["Docker",     /\bdocker\b/i],
+    ["Kubernetes", /\bkubernetes\b|\bk8s\b/i],
+    ["Maya",       /\bmaya\b/i],
+    ["Blender",    /\bblender\b/i],
+    ["Houdini",    /\bhoudini\b/i],
+    ["ZBrush",     /\bzbrush\b/i],
+    ["Substance",  /\bsubstance\b/i],
+    ["Photoshop",  /\bphotoshop\b/i],
+    ["Spine",      /\bspine\b/i],
+    ["Figma",      /\bfigma\b/i],
+    ["Perforce",   /\bperforce\b|\bp4v\b/i],
+    ["Wwise",      /\bwwise\b/i],
+    ["FMOD",       /\bfmod\b/i]
+  ];
+
+  JOBS.forEach(j => {
+    const title = j.title || "";
+    if (j.role === "Программирование"){
+      // Только по названию: в описании движки упоминают все подряд,
+      // и «Head of Engineering» уезжал бы в Unity просто за компанию.
+      const hit = SPEC_RULES.find(r => r[1].test(title));
+      if (hit) j.spec = hit[0];
+    }
+    const hay = title + " " + (j.desc || "");
+    j.stack = STACK_RULES.filter(r => r[1].test(hay)).map(r => r[0]).slice(0, 6);
+  });
+
   const IS_DEMO = !!window.JOBS_DEMO;
   const UPDATED = window.JOBS_UPDATED || null;
   const PAGE = 40;
@@ -578,7 +644,8 @@
   function saveFavs(){ try { store.setItem("favs", JSON.stringify([...favs])); } catch(e){} }
 
   const state = {
-    role:new Set(), grade:new Set(), company:new Set(), location:new Set(),
+    role:new Set(), spec:new Set(), stack:new Set(),
+    grade:new Set(), company:new Set(), location:new Set(),
     age:null, remote:false, salary:false, onlyFav:false, query:""
   };
   let sortMode = "new";
@@ -619,7 +686,9 @@
   function counts(field){
     const m = new Map();
     JOBS.forEach(j => {
-      const vals = field === "location" ? j.locations : [j[field]];
+      const vals = (field === "location") ? j.locations
+                 : (field === "stack")    ? j.stack
+                 : [j[field]];
       (vals || []).forEach(v => { if (v) m.set(v, (m.get(v)||0) + 1); });
     });
     return [...m.entries()].sort((a,b) => b[1]-a[1]);
@@ -691,7 +760,8 @@
       writeTitle:"Написать", fbHint:"Читаю каждое сообщение. Оставь почту в тексте — отвечу.",
       topic:"Тема", message:"Что рассказать", send:"Отправить", cancel:"Отмена",
       filtersTitle:"Фильтры", footWrite:"Добавить студию или сообщить об ошибке",
-      gtRole:"Роль", gtGrade:"Грейд", gtPosted:"Когда опубликовано",
+      gtRole:"Роль", gtSpec:"Специализация", gtStack:"Стек",
+      gtGrade:"Грейд", gtPosted:"Когда опубликовано",
       gtTerms:"Условия", gtCompany:"Компания", gtLocation:"Локация",
       footText:"Вакансии собираются автоматически с публичных карьерных страниц игровых студий и их систем найма. Мы не работодатель, не агентство и не принимаем отклики — откликаться нужно на сайте студии.",
       footPrivacy:"Сайт использует Яндекс.Метрику для подсчёта посещений. Резюме и отклики мы не собираем.",
@@ -733,7 +803,8 @@
       writeTitle:"Contact us", fbHint:"I read everything. Leave your email in the text and I will reply.",
       topic:"Topic", message:"Your message", send:"Send", cancel:"Cancel",
       filtersTitle:"Filters", footWrite:"Suggest a studio or report a problem",
-      gtRole:"Role", gtGrade:"Level", gtPosted:"Posted", gtTerms:"Conditions",
+      gtRole:"Role", gtSpec:"Specialization", gtStack:"Stack",
+      gtGrade:"Level", gtPosted:"Posted", gtTerms:"Conditions",
       gtCompany:"Company", gtLocation:"Location",
       footText:"Jobs are collected automatically from public career pages of game studios and their hiring systems. We are not an employer or an agency and we do not accept applications — apply on the studio site.",
       footPrivacy:"This site uses Yandex.Metrica to count visits. We do not collect CVs or applications.",
@@ -776,7 +847,7 @@
     $("fbSend").textContent = t("send");
     $("sendReport").textContent = t("send");
     $("filtersTitle").textContent = t("filtersTitle");
-    ["gtRole","gtGrade","gtPosted","gtTerms","gtCompany","gtLocation"].forEach(id => {
+    ["gtRole","gtSpec","gtStack","gtGrade","gtPosted","gtTerms","gtCompany","gtLocation"].forEach(id => {
       const el = $(id);
       if (el) el.textContent = t(id);
     });
@@ -808,6 +879,13 @@
     "Звук":"Audio", "Нарратив":"Narrative", "Поддержка":"Support"
   };
   function roleLabel(v){ return lang === "en" ? (ROLE_EN[v] || v) : v; }
+
+  const SPEC_EN = {
+    "Движок":"Engine", "Геймплей":"Gameplay", "Бэкенд":"Backend",
+    "Фронтенд":"Frontend", "Мобильная":"Mobile", "Инструменты":"Tools",
+    "Данные и ML":"Data & ML"
+  };
+  function specLabel(v){ return lang === "en" ? (SPEC_EN[v] || v) : v; }
 
   const MONTHS = {
     ru:["января","февраля","марта","апреля","мая","июня","июля","августа","сентября","октября","ноября","декабря"],
@@ -927,6 +1005,8 @@
 
   function passes(j, st){
     if (st.role.size && !st.role.has(j.role)) return false;
+    if (st.spec && st.spec.size && !st.spec.has(j.spec)) return false;
+    if (st.stack && st.stack.size && !(j.stack||[]).some(v => st.stack.has(v))) return false;
     if (st.grade.size && !st.grade.has(j.grade)) return false;
     if (st.company.size && !st.company.has(j.company)) return false;
     if (st.location.size && !j.locations.some(l => st.location.has(l))) return false;
@@ -954,7 +1034,8 @@
   }
 
   function activeCount(){
-    return state.role.size + state.grade.size + state.company.size + state.location.size
+    return state.role.size + state.spec.size + state.stack.size
+         + state.grade.size + state.company.size + state.location.size
          + (state.age ? 1 : 0) + (state.remote ? 1 : 0) + (state.salary ? 1 : 0)
          + (state.onlyFav ? 1 : 0);
   }
@@ -1035,6 +1116,9 @@
     if (j.remote) tags.push('<span class="tag remote">'+t("remote")+'</span>');
     if (j.grade) tags.push('<span class="tag">'+esc(j.grade)+'</span>');
     if (j.role) tags.push('<span class="tag">'+esc(roleLabel(j.role))+'</span>');
+    if (j.spec) tags.push('<span class="tag">'+esc(specLabel(j.spec))+'</span>');
+    (j.stack || []).slice(0, 3).forEach(v =>
+      tags.push('<span class="tag stack">'+esc(v)+'</span>'));
     if (age !== null) tags.push('<span class="tag'+(age<7?' fresh':'')+'">'+ageLabel(age)+'</span>');
 
     el.innerHTML =
@@ -1171,6 +1255,8 @@
       box.appendChild(t);
     };
     state.role.forEach(v => add(roleLabel(v), () => state.role.delete(v)));
+    state.spec.forEach(v => add(specLabel(v), () => state.spec.delete(v)));
+    state.stack.forEach(v => add(v, () => state.stack.delete(v)));
     state.grade.forEach(v => add(v, () => state.grade.delete(v)));
     state.company.forEach(v => add(v, () => state.company.delete(v)));
     state.location.forEach(v => add(v, () => state.location.delete(v)));
@@ -1183,7 +1269,8 @@
   // ---------------------------------------------------------------- фильтры
 
   function cloneState(s){
-    return { role:new Set(s.role), grade:new Set(s.grade), company:new Set(s.company),
+    return { role:new Set(s.role), spec:new Set(s.spec), stack:new Set(s.stack),
+             grade:new Set(s.grade), company:new Set(s.company),
              location:new Set(s.location), age:s.age, remote:s.remote, salary:s.salary, query:s.query };
   }
 
@@ -1210,7 +1297,7 @@
       ? values.filter(([v]) => locMatches(v, q))
       : values.filter(([v]) => !q || v.toLowerCase().includes(q));
     if (!rows.length){
-      el.innerHTML = '<div class="opt" style="color:var(--muted)">ничего не найдено</div>';
+      el.innerHTML = '<div class="opt" style="color:var(--muted)">'+t("nothingShort")+'</div>';
       return;
     }
     rows.forEach(([v, n]) => {
@@ -1288,7 +1375,16 @@
   function buildFilterUi(){
     if (!draft) return;      // окно фильтров ещё не открывали — рисовать нечего
     chipRow($("fRole"), counts("role"), draft.role, roleLabel);
+
+    const specVals = counts("spec");
+    $("specGroup").hidden = !specVals.length;
+    chipRow($("fSpec"), specVals, draft.spec, specLabel);
+
     chipRow($("fGrade"), counts("grade"), draft.grade);
+
+    const stackVals = counts("stack").slice(0, 16);
+    $("stackGroup").hidden = !stackVals.length;
+    chipRow($("fStack"), stackVals, draft.stack);
 
     const ageEl = $("fAge");
     ageEl.innerHTML = "";
@@ -1557,7 +1653,8 @@
   });
   $("clearFilters").addEventListener("click", () => {
     if (wide.matches){ doReset(); buildFilterUi(); return; }
-    draft = { role:new Set(), grade:new Set(), company:new Set(), location:new Set(),
+    draft = { role:new Set(), spec:new Set(), stack:new Set(),
+              grade:new Set(), company:new Set(), location:new Set(),
               age:null, remote:false, salary:false, query:state.query };
     buildFilterUi();
   });
@@ -1631,7 +1728,8 @@
     }));
 
   function doReset(){
-    state.role.clear(); state.grade.clear(); state.company.clear(); state.location.clear();
+    state.role.clear(); state.spec.clear(); state.stack.clear();
+    state.grade.clear(); state.company.clear(); state.location.clear();
     state.age = null; state.remote = false; state.salary = false; state.onlyFav = false;
     state.query = ""; sortMode = "new";
     searchEl.value = ""; shownCount = PAGE;
