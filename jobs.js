@@ -22,25 +22,11 @@ window.JOBS = [
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Арт",
-    "grade": null
-  },
-  {
-    "id": "gh-wargaming-7972349",
-    "title": "Gameplay Developer (World of Tanks, PC)",
-    "company": "Wargaming",
-    "locations": [
-      "Vilnius"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7972349",
-    "desc": "Job Overview\n\nWargaming is inviting talented Gameplay developers who are ready to learn a lot, take responsibility for the result of their work and meet the expectations of our players together with us. In our team you will have to solve interesting tasks related to the development of World of Tanks on the whole technological stack.\n\nWhat will you do?\n\n• Participate in the creation of new game modes and logic on both game client and server using mainly Python;\n• Develop high performance (in terms of memory and execution time) in-game components;\n• Improve and develop the existing technology stack;\n• Work with dozens of additional services and applications that make up the large-scale infrastructure of our project (payment systems, authorization systems, analytical data warehouses, etc.);\n• Cover the functionality with tests.\n\nWhat are we looking for?\n\n• Experience in commercial software development;\n• Strong knowledge of basic data structures and algorithms;\n• Development experience in Python and/or C++;\n• Knowledge of design patterns;\n• Experience in developing asynchronous/multithreaded applications;\n• Knowledge of CPU and memory principles (RAM, ROM, cache, virtual memory, swap file, etc.);\n• Familiarity with databases, message brokers;\n• Knowledge of the basics of computer networks.\n\nWhat additional skills will help you stand out?\n\n• Experience in web applications development (frontend, backend);\n• Experience of working with distributed systems;\n• Passion for computer games;\n• Gamedev experience\n\nWork mode\n\n• Remote (from Lithuania).\n\nThe salary range for this role in Vilnius is EUR 3380-5060 monthly gross.\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Vilnius include:\n\n• Additional paid time off\n• Sick Leave Compensation\n• Pregnancy and Childbirth Leave Benefit\n• Career development and education opportunities within the company\n• Meal Allowance\n• Premium Private Health Care\n• Mental well-being program (iFeel)\n• Perks discounts platform (over 450 exclusive discounts)\n• Personal Gaming Account\n• Coffee, fruits, and snacks in the office\n• Company events\n• Seniority Awards\n• Referral program - You can recommend the best talents to the company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
-    "site": "wargaming.com",
-    "source": "greenhouse",
-    "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unreal"
+    ]
   },
   {
     "id": "lv-xsolla-e4a4a1a0-1411-44a2-9457-0460348a89dd",
@@ -58,7 +44,12 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "DevOps",
+    "stack": [
+      "Python",
+      "Kubernetes"
+    ]
   },
   {
     "id": "lv-easybrain-740688fa-05e7-4618-b54b-699f7afb4c8b",
@@ -76,25 +67,34 @@ window.JOBS = [
     "source": "lever",
     "site": "easybrain.com",
     "role": "Аналитика",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "Docker"
+    ]
   },
   {
-    "id": "gh-wargaming-8125550",
+    "id": "gh-wargaming-8125555",
     "title": "Manual QA Engineer (Global IT Products)",
     "company": "Wargaming",
     "locations": [
-      "Belgrade"
+      "Nicosia"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-19",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8125550",
-    "desc": "Job Overview\n\nWargaming is looking for a Manual QA Engineer to join the Global IT Products department and help ensure the quality of internal corporate systems and services. You will work with a variety of products, from web applications to complex microservices and integrations, applying testing approaches and techniques based on the specific needs of each product.\n\nThe role offers an opportunity to work with complex business logic, large datasets, and different types of internal systems while taking ownership of the quality of products.\n\nWe also value initiative: while the core tools and approaches are defined by each product's needs, we encourage QA Engineers to identify opportunities for improvement and suggest additional tools or practices when they can bring value to the product and team.\n\nReports to\n\nHead of Quality Assurance\n\nWhat will you do\n\n• Independent implementation of the full cycle of project testing (functional testing of web applications, microservices, API)\n• Product testing without ready requirements\n• Creation and maintenance of test documentation\n• Acceptance of builds before releases, quality control of defect fixes\n• Monitoring of reports on errors and failures\n• Analysis and testing of project/product requirements\n• Evaluation of testing work\n• Participation in team meetings\n\nWhat are we looking for?\n\n• 2+ years of experience as a QA Engineer\n• Strong analytical skills and experience working with big datasets, calculations, corporate applications with complex business logic\n• Experience in testing web applications and microservices\n• Strong knowledge of testing methodologies and software development life cycles\n• Understanding of client-server architecture principles\n• Experience in writing test cases and checklists\n• Experience with bug and task tracking, documentation, and test case management tools (Jira, Confluence, TestRail)\n• Experience working with databases (PostgreSQL, MS SQL Server) and SQL\n• Good Excel skills and experience working with data, calculations, and spreadsheets.\n• Fast learner\n• Upper-Intermediate or higher level of English\n• Strong communication skills in Russian (written and spoken)\n• Comfortable with switching between tasks and projects when needed - flexibility is essential in our workflow\n• Open to working with legacy or outdated documentation without frustration\n• Communicates respectfully and constructively, even in challenging situations\n• Proactive mindset - we value teammates who ask questions, seek clarity, and strive to improve processes\n• Able to work independently and take responsibility for assigned tasks\n• Previous experience in ERP, HRIS, payroll, or similar domains is a plus\n• Strong attention to detail and ability to stay focused while working with complex calculations and large datasets\n\nWhat additional skills will help you stand out?\n\n• Working with API (Postman), SoapUI, and web services\n\nWork mode\n\n• Hybrid (2-3 days of work from the office)\n• This role isn't eligible for relocation & immigration support\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Belgrade include:\n\n• Additional vacation days based on years of service at Wargaming: up to 5 days on top of the statutory minimum\n• Additional paid time off (5 Personal Days, Birthday Leave, Marriage Leave, Compassionate Leave)\n• Sick Leave Compensation, Maternity Leave Benefits\n• Premium Private Health Insurance\n• Career development and education opportunities within the company\n• English clubs and platform for learning languages\n• Mental well-being program (iFeel)\n• Commuting allowance\n• Company events\n• FitPass membership\n• Discounts for employees\n• Personal Gaming Account\n• Coffee, fruits, and snacks in the office\n• On-site canteen with subsidized prices for food and drinks\n• Seniority Awards\n• Referral program - you can recommend the best talents to the Company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8125555",
+    "desc": "Job Overview\n\nWargaming is looking for a Manual QA Engineer to join the Global IT Products department and help ensure the quality of internal corporate systems and services. You will work with a variety of products, from web applications to complex microservices and integrations, applying testing approaches and techniques based on the specific needs of each product.\n\nThe role offers an opportunity to work with complex business logic, large datasets, and different types of internal systems while taking ownership of the quality of products.\n\nWe also value initiative: while the core tools and approaches are defined by each product's needs, we encourage QA Engineers to identify opportunities for improvement and suggest additional tools or practices when they can bring value to the product and team.\n\nReports to\n\nHead of Quality Assurance\n\nWhat will you do\n\n• Independent implementation of the full cycle of project testing (functional testing of web applications, microservices, API)\n• Product testing without ready requirements\n• Creation and maintenance of test documentation\n• Acceptance of builds before releases, quality control of defect fixes\n• Monitoring of reports on errors and failures\n• Analysis and testing of project/product requirements\n• Evaluation of testing work\n• Participation in team meetings\n\nWhat are we looking for?\n\n• 2+ years of experience as a QA Engineer\n• Strong analytical skills and experience working with big datasets, calculations, corporate applications with complex business logic\n• Experience in testing web applications and microservices\n• Strong knowledge of testing methodologies and software development life cycles\n• Understanding of client-server architecture principles\n• Experience in writing test cases and checklists\n• Experience with bug and task tracking, documentation, and test case management tools (Jira, Confluence, TestRail)\n• Experience working with databases (PostgreSQL, MS SQL Server) and SQL\n• Good Excel skills and experience working with data, calculations, and spreadsheets.\n• Fast learner\n• Upper-Intermediate or higher level of English\n• Strong communication skills in Russian (written and spoken)\n• Comfortable with switching between tasks and projects when needed - flexibility is essential in our workflow\n• Open to working with legacy or outdated documentation without frustration\n• Communicates respectfully and constructively, even in challenging situations\n• Proactive mindset - we value teammates who ask questions, seek clarity, and strive to improve processes\n• Able to work independently and take responsibility for assigned tasks\n• Previous experience in ERP, HRIS, payroll, or similar domains is a plus\n• Strong attention to detail and ability to stay focused while working with complex calculations and large datasets\n\nWhat additional skills will help you stand out?\n\n• Working with API (Postman), SoapUI, and web services\n\nWork mode\n\n• Hybrid (2-3 days of work from the office)\n• This role isn't eligible for relocation & immigration support\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Nicosia include:\n\n• 21 days annual leave (additional days based on years of service: up to 25 days)\n• Additional paid time off (5 Personal Days, Birthday Leave, Marriage Leave, Compassionate Leave)\n• Sick Leave (10 days top-up to statutory allowance per year)\n• Maternity Leave (18 weeks top-up to statutory allowance per case)\n• Career development and education opportunities within the company\n• English Language courses fully covered by the company upon Manager’s approval\n• Private Health Care\n• Mental well-being program (iFeel)\n• Onsite gym and spa\n• Free parking close to the Nicosia offices, based on availability\n• Free drinks-equipped kitchen in every floor building\n• Eurobank benefits (if applicable)\n• Employee discounts (e.g. restaurants, bars, etc.)\n• Personal Gaming Account\n• Onsite canteen with subsidized prices for food and drinks\n• Company events, Social Clubs\n• Seniority Awards\n• Referral program - You can recommend the best talents to the company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "QA",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "SQL"
+    ]
   },
   {
     "id": "gh-wargaming-8139010",
@@ -112,7 +112,12 @@ window.JOBS = [
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "QA",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "Perforce"
+    ]
   },
   {
     "id": "gh-tripledot-belka-4955732101",
@@ -130,7 +135,11 @@ window.JOBS = [
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "role": "Геймдизайн",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Figma"
+    ]
   },
   {
     "id": "gh-tripledot-belka-4952291101",
@@ -148,7 +157,13 @@ window.JOBS = [
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Unity",
+      "C#",
+      "AWS"
+    ]
   },
   {
     "id": "gh-tripledot-belka-4877809101",
@@ -166,7 +181,9 @@ window.JOBS = [
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "role": "Геймдизайн",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-tripledot-belka-4950796101",
@@ -184,25 +201,38 @@ window.JOBS = [
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "role": "Технический художник",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Unity",
+      "C#",
+      "Spine",
+      "Perforce"
+    ]
   },
   {
-    "id": "gh-tripledot-belka-4951036101",
+    "id": "gh-tripledot-belka-4952612101",
     "title": "Principal Technical Artist",
     "company": "Tripledot / Belka",
     "locations": [
-      "Toronto"
+      "Dallas"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-19",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4951036101",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4952612101",
     "desc": "Who are we?\n\nTripledot Studios is one of the largest independent mobile games companies in the world.\n\nWe are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios.\n\nOur expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users.\n\nTripledot’s guiding principle is that when people love what they do, what they do will be loved by others.\n\nWe’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games.\n\nOur ambition is to be the most successful games company in the world, and we’re just getting started.\n\nThis role sits within our Peoplefun studio.\n\nPeopleFun is an award-winning creator of mobile games for players across the globe. We are part of Tripledot Studios, one of the world's largest independent mobile game companies, with world-class projects, resources, and infrastructure. PeopleFun is a Dallas-based game studio founded and led by game industry veterans, where game developers thrive on collaboration, creativity, teamwork, and fun. Our games are played by over 25 million players each month, and we have a number of exciting mobile games in development to fuel the future growth of PeopleFun.\n\nWe believe in bringing People together through Fun by creating the best in class social features and communities in our games that enables our players to engage deeply with other players. Secondly we endeavor to bring our studio teammates together by creating the very best game teams that foster healthy collaboration, incredible productivity, and life-long professional relationships.\n\nPosition Overview\n\nPeopleFun is seeking a Principal Technical Artist to help stand up a brand new game team and shape the visual and technical foundation of a new casual mobile title. You will be one of the earliest people on the project, working shoulder to shoulder with artists, engineers, and designers to get ideas on screen fast, learn from them, and turn the ones that work into durable pipelines, shaders, tools, and systems.\n\nThis is a deeply technical role for someone who thinks in pipelines and profilers but still has the eye of an artist. You will own how art gets authored, integrated, optimized, and rendered, including the game's VFX and its UI implementation in Unity UI Toolkit, and you will set the technical standards the rest of the team builds against as it grows.\n\nResponsibilities\n\n• Rapidly prototype visual and technical ideas to help the team evaluate direction, prove out feasibility, and find the fun early.\n• Architect and implement art pipelines, tools, and workflows from scratch, scaling them as the team and project grow.\n• Author shaders and rendering solutions that deliver the intended look while staying within mobile performance and memory budgets.\n• Author production-quality VFX/PFX yourself — particle effects, shader-driven effects, and animated feedback — and build the systems and tooling that let others create them.\n• Establish UI implementation standards in Unity UI Toolkit, including hierarchy structure, layout systems, and responsive behavior across mobile resolutions, aspect ratios, and safe areas.\n• Define technical specifications and asset standards, and build validation tooling that keeps assets compliant as the project scales.\n• Profile and optimize art content — draw calls, overdraw, atlasing, texture and memory budgets, load times, and runtime performance across device tiers.\n• Develop tools and scripts in C#, Python, or similar to automate repetitive art and build tasks, including asset export, import, and marketing asset generation.\n• Debug and resolve visual and performance issues, finding creative solutions within platform constraints.\n• Stay current with developments in mobile graphics, tools, and techniques, proactively bringing best practices into production.\n\nRequirements\n\n• 5+ years of professional experience as a Technical Artist in mobile games, with a demonstrated track record of technical depth and artistic judgment.\n• Extensive hands-on Unity experience, including the render pipeline, asset pipeline, prefab and scene architecture, and editor tooling.\n• Strong proficiency in shader development, lighting, and rendering techniques.\n• Demonstrated ability to author VFX/PFX to a shippable quality bar, with a reel or portfolio showing your own effects work.\n• Proven track record of prototyping and rapid iteration, with the judgment to know when to move fast and when to build something that lasts.\n• Demonstrated expertise with Unity UI Toolkit — layout systems, hierarchy design, UXML/USS, and responsive UI implementation for mobile.\n• Deep understanding of optimizing art assets for mobile platforms, including memory management, profiling, and performance debugging.\n• Proven experience building tools and scripts for art pipelines using C#, Python, or similar languages.\n• Solid grounding in 2D art, animation, and UI design principles, with enough craft sensibility to evaluate and elevate the work of the art team.\n• Excellent problem-solving skills, with the ability to work both independently and collaboratively in a fast-paced, cross-functional team.\n\nPreferred Qualifications\n\n• Prior professional experience within casual mobile gaming, including a deep understanding of the visual style and player expectations.\n• Prior experience joining or founding a new game team, and comfort operating without established process or precedent.\n• Prior experience taking a title from pre-production through soft launch, building visual and technical solutions from the ground up.\n• Experience automating or supporting marketing and store asset production through tooling.\n• Applied knowledge of animation systems, procedural asset generation, and VFX pipelines.\n• Familiarity with mobile graphics limitations and strategies for maximizing visual impact within those constraints.…",
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "role": "Технический художник",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Unity",
+      "C#",
+      "Python"
+    ]
   },
   {
     "id": "gh-tripledot-belka-4948638101",
@@ -220,7 +250,12 @@ window.JOBS = [
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "role": "Анимация",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unity",
+      "Spine"
+    ]
   },
   {
     "id": "gh-nordeus-8138602",
@@ -238,7 +273,9 @@ window.JOBS = [
     "site": "nordeus.com",
     "source": "greenhouse",
     "role": "Продакт",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "rc-ten-square-games-2715083",
@@ -256,7 +293,11 @@ window.JOBS = [
     "source": "recruitee",
     "site": "tensquaregames.com",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "Unity",
+    "stack": [
+      "Unity"
+    ]
   },
   {
     "id": "rc-11-bit-studios-2714406",
@@ -274,7 +315,11 @@ window.JOBS = [
     "source": "recruitee",
     "site": "11bitstudios.com",
     "role": "Анимация",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unreal"
+    ]
   },
   {
     "id": "gh-2k-games-7778402003",
@@ -292,25 +337,63 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Данные и ML",
+    "stack": [
+      "Python",
+      "SQL",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ]
   },
   {
-    "id": "gh-2k-games-7888173003",
-    "title": "Lead Character Artist",
+    "id": "gh-2k-games-7888167003",
+    "title": "Lead Animator",
     "company": "2K Games",
     "locations": [
-      "Montréal, Canada"
+      "Novato, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-19",
-    "url": "https://job-boards.greenhouse.io/2k/jobs/7888173003",
-    "desc": "As a Lead Character Artist at Cloud Chamber, under the supervision of the Art Director, you will play a key role in establishing the overall visual quality bar and guidelines for character development on the project. In this role, you’ll lead a team of artists to achieve their full potential, collaborate with a passionate group of game developers to craft compelling stylized character assets that support our aesthetic, meet technical requirements, and gameplay needs, ultimately bringing the richly imagined world of BioShock to life.\n\nWhat You’ll Do:\n\n• Manage, coach, and mentor a team of character artists to support their career growth, development, and artistic output.\n• Set artistic standards in Unreal Engine, build exemplary reference assets, and establish clear workflows to ensure consistent quality.\n• Work closely with Directors, Leads, Concept, Environment, Design, Gameplay, and Animation teams to prototype assets and ensure character specifications align with project goals.\n• Collaborate with the Art Director and Outsourcing Manager to assign and schedule character assets for external development partners.\n• Contribute to material pipelines, track team output, supervise bug distribution, and provide input on custom tools and software.\n\nWhat We’ll Do Together:\n\nAt Cloud Chamber, we are champions of high standards, pushing for progress and embracing change. We will work closely and constructively across design, art, engineering, animation, and audio teams to realize our creative ambitions. Together, we will stay current on technological advancements and identify solutions to overcome developmental obstacles to deliver a world-class AAA experience.\n\nSkills & Experiences:\n\n• 10+ years of professional experience in the video game industry, with 2 or more shipped titles as a character artist (preferably on a first-person title).\n• Proven success managing, guiding, and mentoring a team of character artists.\n• Expert proficiency in 3D creation tools including 3ds Max, Maya, ZBrush, Substance Painter, Marvelous Designer, and Unreal Engine.\n• Mastery of the PBR pipeline for texture creation, including baking tools, Substance Painter, and Photoshop.\n• Exceptional background in traditional art with an expert understanding of human anatomy, composition, proportion, volume, light, and color.\n\nWho You Are:\n\n• A reliable, positive force multiplier, actively seeking opportunities to integrate work across disciplines and contribute to a healthy, supportive team environment.\n• A solid communicator with excellent written and verbal communication skills, with the ability to articulate complex ideas clearly, package information for diverse audiences, and deliver difficult feedback with empathy and professionalism.\n• Experienced in working in cross-disciplinary teams with strong communication skills.\n• Persistent and self-motivated with a proactive mindset.\n• Able to maintain effectiveness and quality under pressure, ambiguity, and fast-changing priorities.\n• An active listener able to build and maintain trust-based relationships across all levels of the organization, understand differing perspectives, and navigate organizational complexity with tact and emotional intelligence.\n• Highly open to feedback and direction, possessing a desire to learn new skills, and capable of producing quick, quality revisions based on new insights or constraints.\n• Strong ownership of tasks, striving to drive work forward autonomously while maintaining a critical eye for detail and organization, ensuring high standards of quality.\n• Dedicated to upholding Cloud Chamber's core values, contributing to a positive and respectful company culture while striving for excellence in all endeavors.\n\nWho We Are:\n\nAt Cloud Chamber we strive to make BioShock games that move people: evocative, immersive, and meaningful experiences that stay with you long after you’ve rolled credits. Great games are born from great collaborations, supported by a culture that brings out the best in our teams. We work openly, learn through play, take ownership, push ourselves to be better, and deliver for our players.\n\nFor candidates located in Quebec:\nThis position requires professional proficiency in both French and English. Proficiency in English is required to collaborate with our U.S. teams and international partners, as well as to handle specialized technical documentation (reading, writing, and communication).\n\nAs an equal opportunity employer, we are committed to ensuring that qualified individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, perform their essential job functions, and receive other benefits and privileges of employment. Please contact us if you need reasonable accommodation.\n\nPlease note that 2K Games and its studios never use instant messaging apps or personal email accounts to contact prospective employees or conduct interviews. When emailing prospective employees, we only use 2K.com accounts.",
+    "url": "https://job-boards.greenhouse.io/2k/jobs/7888167003",
+    "desc": "As a Lead Gameplay Animator at Cloud Chamber, you will join our talented development team to help shape the character performance and movement systems of our project. In this role, you’ll collaborate with a passionate group of game developers to craft high-end player characters and AI animations that support responsive, immersive gameplay—bringing the richly imagined world of BioShock to life.\n\nWhat You’ll Do:\n\n• Manage, support, and mentor a team of animators in developing high-end gameplay and AI animations, conducting regular 1:1s, annual evaluations, and setting clear, actionable goals.\n• Partner with the Animation Director and leadership to establish the animation vision, evangelize studio values, and shape a positive and inclusive team culture.\n• Develop and refine animation pipelines, workflows, and tools, setting up onboarding, Unreal Engine 5 training, and motion capture planning.\n• Deliver exceptional hand-key animations and edit motion capture data for first-person and third-person characters, taking on animation tasks as time permits.\n• Collaborate with Production on milestone roadmaps, sprint planning, and task delegation while addressing blocking issues and participating in hiring efforts.\n• Take an active role in the animation leadership circle by sharing your voice and best practices to help guide the team's culture, as well as updating the group on new or outstanding issues\n\nWhat We’ll Do Together:\n\nAt Cloud Chamber, we are champions of high standards, pushing for progress and embracing change. We will work closely and constructively across design, art, engineering, animation, and audio teams to realize our creative ambitions. Together, we will stay current on technological advancements and identify solutions to overcome developmental obstacles to deliver a world-class AAA experience.\n\nSkills & Experiences:\n\n• Shipped multiple AAA titles as a Lead, Team Lead, or Senior Animator ideally utilizing Unreal Engine.\n• Deep knowledge of gameplay and AI animation systems, animation graph/data integration, motion capture pipelines, and rigging/prototyping processes.\n• Strong practical skill in hand-key facial animation (such as FaceFX) alongside high proficiency in animating human bipeds, organic forms, quadrupeds, and mechanical objects.\n• Exceptional understanding of traditional animation principles, human anatomy, caricature, form, gesture, and silhouette as applied to real-time interactive gameplay.\n\nWho You Are:\n\n• A reliable, positive force multiplier, actively seeking opportunities to integrate work across disciplines and contribute to a healthy, supportive team environment.\n• A solid communicator with excellent written and verbal communication skills, with the ability to articulate complex ideas clearly, package information for diverse audiences, and deliver difficult feedback with empathy and professionalism.\n• Experienced in working in cross-disciplinary teams with strong communication skills.\n• Persistent and self-motivated with a proactive mindset.\n• Able to maintain effectiveness and quality under pressure, ambiguity, and fast-changing priorities.\n• An active listener able to build and maintain trust-based relationships across all levels of the organization, understand differing perspectives, and navigate organizational complexity with tact and emotional intelligence.\n• Highly open to feedback and direction, possessing a desire to learn new skills, and capable of producing quick, quality revisions based on new insights or constraints.\n• A strong ownership of tasks, striving to drive work forward autonomously while maintaining a critical eye for detail and organization, ensuring high standards of quality.\n• Dedicated to upholding Cloud Chamber's core values, contributing to a positive and respectful company culture while striving for excellence in all endeavors.\n\nWho We Are:\n\nAt Cloud Chamber we strive to make BioShock games that move people: evocative, immersive, and meaningful experiences that stay with you long after you’ve rolled credits. Great games are born from great collaborations, supported by a culture that brings out the best in our teams. We work openly, learn through play, take ownership, push ourselves to be better, and deliver for our players.\n\nThe pay range for this position in California at the start of employment is expected to be between $123,200 - $182,360 USD per Year. However, base pay offered is based on market location, and may vary further depending on individualized factors for job candidates, such as job-related knowledge, skills, experience, and other objective business considerations. Subject to those same considerations, the total compensation package for this position may also include other elements, including a bonus and/or equity awards and eligibility to participate in our 401(K) plan and Employee Stock Purchase Program. Regular, full-time employees are also eligible for a range of benefits at the Company, including: medical, dental, vision, and basic life insurance coverage; 14 paid holidays per calendar year; paid vacation time per calendar year (ranging from 15 to 25 days) or eligibility to participate in the Company's discretionary time off program; up to 10 paid sick days per calendar year; paid parental and compassionate leave; wellbeing programs for mental health and other wellness support; family planning support through Maven; commuter benefits; and reimbursements for fitness-related expenses.\n\nFor candidates located in Quebec:\nThis position requires professional proficiency in both French and English. Proficiency in English is required to collaborate with our U.S. teams and international partners, as well as to handle specialized technical documentation (reading, writing, and communication).…",
+    "site": "2k.com",
+    "source": "greenhouse",
+    "role": "Анимация",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Unreal"
+    ]
+  },
+  {
+    "id": "gh-2k-games-7888174003",
+    "title": "Lead Character Artist",
+    "company": "2K Games",
+    "locations": [
+      "Novato, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-19",
+    "url": "https://job-boards.greenhouse.io/2k/jobs/7888174003",
+    "desc": "As a Lead Character Artist at Cloud Chamber, under the supervision of the Art Director, you will play a key role in establishing the overall visual quality bar and guidelines for character development on the project. In this role, you’ll lead a team of artists to achieve their full potential, collaborate with a passionate group of game developers to craft compelling stylized character assets that support our aesthetic, meet technical requirements, and gameplay needs, ultimately bringing the richly imagined world of BioShock to life.\n\nWhat You’ll Do:\n\n• Manage, coach, and mentor a team of character artists to support their career growth, development, and artistic output.\n• Set artistic standards in Unreal Engine, build exemplary reference assets, and establish clear workflows to ensure consistent quality.\n• Work closely with Directors, Leads, Concept, Environment, Design, Gameplay, and Animation teams to prototype assets and ensure character specifications align with project goals.\n• Collaborate with the Art Director and Outsourcing Manager to assign and schedule character assets for external development partners.\n• Contribute to material pipelines, track team output, supervise bug distribution, and provide input on custom tools and software.\n\nWhat We’ll Do Together:\n\nAt Cloud Chamber, we are champions of high standards, pushing for progress and embracing change. We will work closely and constructively across design, art, engineering, animation, and audio teams to realize our creative ambitions. Together, we will stay current on technological advancements and identify solutions to overcome developmental obstacles to deliver a world-class AAA experience.\n\nSkills & Experiences:\n\n• 10+ years of professional experience in the video game industry, with 2 or more shipped titles as a character artist (preferably on a first-person title).\n• Proven success managing, guiding, and mentoring a team of character artists.\n• Expert proficiency in 3D creation tools including 3ds Max, Maya, ZBrush, Substance Painter, Marvelous Designer, and Unreal Engine.\n• Mastery of the PBR pipeline for texture creation, including baking tools, Substance Painter, and Photoshop.\n• Exceptional background in traditional art with an expert understanding of human anatomy, composition, proportion, volume, light, and color.\n\nWho You Are:\n\n• A reliable, positive force multiplier, actively seeking opportunities to integrate work across disciplines and contribute to a healthy, supportive team environment.\n• A solid communicator with excellent written and verbal communication skills, with the ability to articulate complex ideas clearly, package information for diverse audiences, and deliver difficult feedback with empathy and professionalism.\n• Experienced in working in cross-disciplinary teams with strong communication skills.\n• Persistent and self-motivated with a proactive mindset.\n• Able to maintain effectiveness and quality under pressure, ambiguity, and fast-changing priorities.\n• An active listener able to build and maintain trust-based relationships across all levels of the organization, understand differing perspectives, and navigate organizational complexity with tact and emotional intelligence.\n• Highly open to feedback and direction, possessing a desire to learn new skills, and capable of producing quick, quality revisions based on new insights or constraints.\n• Strong ownership of tasks, striving to drive work forward autonomously while maintaining a critical eye for detail and organization, ensuring high standards of quality.\n• Dedicated to upholding Cloud Chamber's core values, contributing to a positive and respectful company culture while striving for excellence in all endeavors.\n\nWho We Are:\n\nAt Cloud Chamber we strive to make BioShock games that move people: evocative, immersive, and meaningful experiences that stay with you long after you’ve rolled credits. Great games are born from great collaborations, supported by a culture that brings out the best in our teams. We work openly, learn through play, take ownership, push ourselves to be better, and deliver for our players.\n\n#LI-Remote\n\nThe pay range for this position in California at the start of employment is expected to be between $150,400 and $180,000 USD per Year. However, base pay offered is based on market location, and may vary further depending on individualized factors for job candidates, such as job-related knowledge, skills, experience, and other objective business considerations. Subject to those same considerations, the total compensation package for this position may also include other elements, including a bonus and/or equity awards and eligibility to participate in our 401(K) plan and Employee Stock Purchase Program. Regular, full-time employees are also eligible for a range of benefits at the Company, including: medical, dental, vision, and basic life insurance coverage; 14 paid holidays per calendar year; paid vacation time per calendar year (ranging from 15 to 25 days) or eligibility to participate in the Company's discretionary time off program; up to 10 paid sick days per calendar year; paid parental and compassionate leave; wellbeing programs for mental health and other wellness support; family planning support through Maven; commuter benefits; and reimbursements for fitness-related expenses.\n\nFor candidates located in Quebec:\nThis position requires professional proficiency in both French and English. Proficiency in English is required to collaborate with our U.S. teams and international partners, as well as to handle specialized technical documentation (reading, writing, and communication).…",
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Арт",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Unreal",
+      "Maya",
+      "ZBrush",
+      "Substance",
+      "Photoshop"
+    ]
   },
   {
     "id": "gh-2k-games-7784349003",
@@ -328,7 +411,16 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unity",
+      "Unreal",
+      "C++",
+      "C#",
+      "TypeScript",
+      "JavaScript"
+    ]
   },
   {
     "id": "gh-wargaming-8124666",
@@ -346,7 +438,14 @@ window.JOBS = [
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "QA",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unity",
+      "Unreal",
+      "Python",
+      "Docker"
+    ]
   },
   {
     "id": "gh-tripledot-belka-4954095101",
@@ -364,7 +463,9 @@ window.JOBS = [
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "role": "Аналитика",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-tripledot-belka-4954404101",
@@ -382,7 +483,9 @@ window.JOBS = [
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "role": "Аналитика",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-tripledot-belka-4820995101",
@@ -400,7 +503,9 @@ window.JOBS = [
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "role": "Продакт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-tripledot-belka-4953783101",
@@ -418,7 +523,9 @@ window.JOBS = [
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "role": "Аналитика",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-18a833bd-aedd-4dae-a296-e15d8bb0f230",
@@ -436,7 +543,9 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Маркетинг",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-easybrain-4bcf5107-5f98-4df7-8462-e0154e1ddf95",
@@ -454,7 +563,13 @@ window.JOBS = [
     "source": "lever",
     "site": "easybrain.com",
     "role": "Анимация",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unity",
+      "Photoshop",
+      "Spine"
+    ]
   },
   {
     "id": "gh-nordeus-8131565",
@@ -472,7 +587,9 @@ window.JOBS = [
     "site": "nordeus.com",
     "source": "greenhouse",
     "role": "Продюсирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "rc-ten-square-games-2713857",
@@ -490,7 +607,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": "tensquaregames.com",
     "role": "Маркетинг",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-gram-games-6135572004",
@@ -509,7 +628,9 @@ window.JOBS = [
     "site": "gramgames.com",
     "source": "greenhouse",
     "role": "Маркетинг",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-gram-games-6146099004",
@@ -527,7 +648,9 @@ window.JOBS = [
     "site": "gramgames.com",
     "source": "greenhouse",
     "role": "Маркетинг",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-gram-games-6142173004",
@@ -545,7 +668,9 @@ window.JOBS = [
     "site": "gramgames.com",
     "source": "greenhouse",
     "role": "Геймдизайн",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-gram-games-6145098004",
@@ -563,7 +688,11 @@ window.JOBS = [
     "site": "gramgames.com",
     "source": "greenhouse",
     "role": "VFX",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unity"
+    ]
   },
   {
     "id": "gh-netease-games-5166671007",
@@ -583,7 +712,9 @@ window.JOBS = [
     "site": "neteasegames.com",
     "source": "greenhouse",
     "role": "Анимация",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-netease-games-4927747007",
@@ -601,7 +732,9 @@ window.JOBS = [
     "site": "neteasegames.com",
     "source": "greenhouse",
     "role": "Поддержка",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-netease-games-4927750007",
@@ -619,7 +752,9 @@ window.JOBS = [
     "site": "neteasegames.com",
     "source": "greenhouse",
     "role": "Маркетинг",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-netease-games-5166658007",
@@ -640,7 +775,12 @@ window.JOBS = [
     "site": "neteasegames.com",
     "source": "greenhouse",
     "role": "Анимация",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unreal",
+      "Maya"
+    ]
   },
   {
     "id": "gh-netease-games-4927744007",
@@ -658,7 +798,9 @@ window.JOBS = [
     "site": "neteasegames.com",
     "source": "greenhouse",
     "role": "Маркетинг",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-netease-games-5205258007",
@@ -676,7 +818,11 @@ window.JOBS = [
     "site": "neteasegames.com",
     "source": "greenhouse",
     "role": "Продакт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "SQL"
+    ]
   },
   {
     "id": "gh-netease-games-5195349007",
@@ -694,7 +840,9 @@ window.JOBS = [
     "site": "neteasegames.com",
     "source": "greenhouse",
     "role": "Анимация",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-netease-games-5198271007",
@@ -712,7 +860,9 @@ window.JOBS = [
     "site": "neteasegames.com",
     "source": "greenhouse",
     "role": "Продакт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-netease-games-5191784007",
@@ -732,10 +882,17 @@ window.JOBS = [
     "site": "neteasegames.com",
     "source": "greenhouse",
     "role": "Арт",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Unity",
+      "Unreal",
+      "ZBrush",
+      "Photoshop"
+    ]
   },
   {
-    "id": "gh-2k-games-7807539003",
+    "id": "gh-2k-games-7829580003",
     "title": "Staff Platform Engineer",
     "company": "2K Games",
     "locations": [
@@ -745,12 +902,19 @@ window.JOBS = [
     "rkind": null,
     "salary": null,
     "posted": "2026-08-18",
-    "url": "https://job-boards.greenhouse.io/2k/jobs/7807539003",
-    "desc": "Who We Are\n\nAt 2K, we create some of the most iconic and culture-shaping video games in entertainment, including NBA® 2K, one of the top-selling franchises in the world, and legendary titles like BioShock®, Borderlands®, Mafia, Sid Meier’s Civilization®, and XCOM®, as well as fan favorites WWE® 2K, TopSpin®, and PGA TOUR® 2K. We build unforgettable experiences by pushing the boundaries of creativity, authenticity and innovation across every genre.\n\nOur portfolio is brought to life by some of the most influential game development studios in the world. Visual Concepts, Firaxis Games, Hangar 13, Cat Daddy Games, 31st Union, Cloud Chamber, Gearbox, HB Studios, and 2K SportsLab create world-class experiences across platforms.\n\nBut what truly powers 2K is our people.\n\nWe believe the best ideas come from teams that feel empowered, supported, and inspired. As an equal opportunity employer, we are committed to fostering a diverse, inclusive workplace where people are encouraged to come as they are and do their best work.\n\nWhat We Need\n\nAs a Staff Platform Engineer at 2K, you are a visionary technical leader serving as the architect and champion of our internal developer ecosystems. Your primary mission is to steer the integration of advanced AI capabilities into our core infrastructure, driving the design and evolution of our next-generation Autonomous Agentic Development Platform (ADP). By championing a strict \"platform-as-a-product\" philosophy, you will ensure our ecosystem is continuously optimized for internal game and back-end service teams. Through the creation of robust \"golden paths,\" self-service infrastructure, and sophisticated automation, you will unlock developer velocity and eliminate operational friction. Operating with organization-wide influence, you will shape the long-term roadmap for platform engineering and mentor senior technical talent across 2K.\n\nWhat You’ll Do\n\n• AI Strategy & Execution: Own the strategic roadmap and oversee the architectural delivery of our developer portal, utilizing AI and LLM-backed agentic workflows to automate complex environment bootstrapping, context-aware troubleshooting, and intent-driven infrastructure provisioning.\n• Technical Leadership: Accountable for driving the technical strategic roadmap within Platform Engineering. Serve as the primary architectural advisor to engineering tech leads, consulting on core design strategies to ensure their services are built to leverage cloud-native Kubernetes patterns and advanced AI platform features effectively.\n• Platform Product Ownership: Drive a \"platform as a product\" strategy, positioning the Internal Developer Platform (IDP) as the central hub of the developer experience. Partner with engineering leaders to deliver intuitive, frictionless, self-service capabilities that abstract away underlying infrastructure complexities and accelerate software delivery.\n• DevEx Strategy: Collaborate with tech leads across different studios to identify systemic bottlenecks in the software development lifecycle, advising and steering teams on the design of automated solutions that elevate developer velocity, autonomy, and overall experience.\n• Infrastructure as Code (IaC): Provide high-level architectural direction and governance to internal tech leads as they build and maintain modular, reusable Terraform libraries, ensuring standardized environment provisioning across multi-cloud and on-prem data centers.\n• Governance & Standards: Define organization-wide standards for container orchestration, CI/CD pipelines, and service discovery within the Kubernetes ecosystem, partnering with engineering leads to ensure adoption and operational consistency.\n• Advanced Troubleshooting: Provide Tier 2 support for complex platform-level issues, conducting deep-dive root cause analysis and implementing architectural changes to prevent systemic recurrence.\n• Operational Resilience & On-Call Strategy: Establish and iterate on the incident management and escalation strategy. In this role, you will partner with engineering leads to define operational guardrails, SLA/SLO frameworks, and blameless post-mortem processes to ensure continuous platform availability and high operational maturity.\n\nWhat Will Make You A Great Fit\n\n• Deep Industry Experience: 10+ years of experience in Infrastructure, DevOps, or Platform Engineering, with at least 4+ years specifically focused on building internal developer platforms or Kubernetes-based tooling.\n• Kubernetes Expertise: Expert-level mastery of Kubernetes architecture, cloud-native ecosystems, and internals such as operators, controllers, and CRDs.\n• Cloud Architecture: Deep, expert-level experience with AWS and/or GCP, specifically managing highly elastic, mission-critical production workloads.\n• AI & Agentic Engineering Skills: Proven foundational knowledge or hands-on experience incorporating Large Language Models (LLMs) and AI agents into automated engineering workflows, APIs, or platform tools.\n• Strong Programming Foundations: Advanced proficiency in Go, Python, Java, or Rust, with a clear focus on building automation tools, Kubernetes operators, and developer-facing APIs.\n• Modern Tooling Mastery: Complete mastery of Git, configuration management tools, and CI/CD platforms (such as GitHub Actions and ArgoCD) alongside expert-level Terraform utilization.\n• High-Availability by Design: Proven ability to architect multi-region, high-availability systems capable of supporting global user bases.\n• Customer-First Mindset: A strong \"customer-first\" behavioral mindset tailored to internal developer needs, combined with the ability to influence without authority across distributed teams and time zones.\n• Rotational Availability: Willingness and ability to participate in a 24/7 rotational on-call schedule to maintain platform stability.\n\nBonus Items…",
+    "url": "https://job-boards.greenhouse.io/2k/jobs/7829580003",
+    "desc": "Who We Are\n\nAt 2K, we create some of the most iconic and culture-shaping video games in entertainment, including NBA® 2K, one of the top-selling franchises in the world, and legendary titles like BioShock®, Borderlands®, Mafia, Sid Meier’s Civilization®, and XCOM®, as well as fan favorites WWE® 2K, TopSpin®, and PGA TOUR® 2K. We build unforgettable experiences by pushing the boundaries of creativity, authenticity and innovation across every genre.\n\nOur portfolio is brought to life by some of the most influential game development studios in the world. Visual Concepts, Firaxis Games, Hangar 13, Cat Daddy Games, 31st Union, Cloud Chamber, Gearbox, HB Studios, and 2K SportsLab create world-class experiences across platforms.\n\nBut what truly powers 2K is our people.\n\nWe believe the best ideas come from teams that feel empowered, supported, and inspired. As an equal opportunity employer, we are committed to fostering a diverse, inclusive workplace where people are encouraged to come as they are and do their best work.\n\nWhat We Need\n\nThe Staff Platform Engineer is a principal-level technical leader at 2K, serving as the architect and champion of our internal developer ecosystems. This role is dedicated to treating the platform as a product, with the primary goal of optimizing the experience for internal Game Service Developers. By building robust \"paved paths,\" self-service infrastructure, and sophisticated automation, the Staff Platform Engineer enables our development teams to deploy and scale services with maximum velocity and minimal friction. This role operates at a high level of technical influence, shaping the long-term roadmap for platform engineering and mentoring senior talent across the organization.\n\nResponsibilities & Requirements\n\nDuties\n\n• Platform Product Ownership: Lead the design, development, and delivery of scalable Kubernetes infrastructure, ensuring seamless integration into the Internal Developer Platform (IDP) to provide Game Service Developers with intuitive, self-service infrastructure capabilities.\n• AI Strategy & Execution: Utilize AI and LLM-backed agentic workflows to automate environment bootstrapping, infrastructure provisioning, security vulnerabilities, and context-aware troubleshooting.\n• Developer Experience (DevEx) Strategy: Identify bottlenecks in the software development lifecycle and build automated solutions to improve developer velocity and autonomy.\n• Infrastructure as Code (IaC): Architect and maintain modular, reusable IaC libraries (e.g., Terraform) to standardize environment provisioning across multi-cloud and terrestrial data centers.\n• Standardization & Governance: Define and implement organization-wide standards for container orchestration, CI/CD pipelines, and service discovery within the Kubernetes ecosystem.\n• Advanced Troubleshooting: Provide Tier 3 support for complex platform-level issues, conducting deep-dive root cause analysis and implementing architectural changes to prevent systemic recurrence.\n• Technical Leadership: Serve as a primary consultant to Product Engineering teams, ensuring their services are architected to leverage the platform and Kubernetes patterns effectively.\n• On-Call Leadership: Participate in and lead the escalation path for the platform engineering on-call rotation, ensuring platform availability for internal customers.\n\nMust-Haves\n\n• Behavioral: Strong \"customer-first\" mindset with a focus on internal developer needs; ability to influence without authority across different studios and time zones.\n• Functional / Technical: Expert-level mastery of Kubernetes architecture, cloud-native ecosystems, and the \"Platform-as-a-Product\" philosophy.\n• Strategic Influence: Ability to translate long-term business goals into technical roadmaps for the platform team.\n• Educational Background: Bachelor’s degree in Computer Science, Engineering, or a related field, or equivalent professional experience.\n• Experience: 10+ years of experience in Infrastructure, DevOps, or Platform Engineering, with at least 4+ years specifically focused on building internal developer platforms or Kubernetes-based tooling.\n• Cloud Expertise: Deep expert-level experience with AWS and/or GCP, specifically managing highly elastic, mission-critical production workloads.\n• Orchestration & Containers: Expert knowledge of Kubernetes internals (operators, controllers, CRDs) and container security at scale.\n• AI & Agentic Engineering Skills: Proven foundational knowledge or hands-on experience incorporating Large Language Models (LLMs) and AI agents into automated engineering workflows, APIs, or platform tools.\n• Programming: Advanced proficiency in Go, Python, or Java, with a focus on building automation tools, Kubernetes operators, and APIs.\n• CI/CD & Tooling: Mastery of Git, Jenkins, GitLab CI, or GitHub Actions, and configuration management tools (Ansible, Puppet) alongside Terraform.\n• Architecture: Proven ability to architect multi-region, high-availability systems that support global user bases.\n• Availability: Willingness and ability to participate in a 24/7 rotational on-call schedule to support platform stability.\n\nNice-to-Haves\n\n• Prior experience in the gaming industry, specifically supporting large-scale multiplayer backend services.\n• Experience contributing to open-source projects related to platform engineering (e.g., Backstage, Crossplane).\n• Deep understanding of networking protocols and global traffic management.\n\nAs an equal opportunity employer, we are committed to ensuring that qualified individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, to perform their essential job functions, and to receive other benefits and privileges of employment. Please contact us if you need reasonable accommodation.…",
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Бэкенд",
+    "stack": [
+      "Python",
+      "Java",
+      "AWS",
+      "Kubernetes"
+    ]
   },
   {
     "id": "gh-wargaming-8066793",
@@ -768,7 +932,13 @@ window.JOBS = [
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Арт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Blender",
+      "ZBrush",
+      "Photoshop"
+    ]
   },
   {
     "id": "gh-wargaming-7768181",
@@ -786,25 +956,34 @@ window.JOBS = [
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Арт",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Maya",
+      "Blender",
+      "ZBrush",
+      "Photoshop"
+    ]
   },
   {
-    "id": "gh-wargaming-8030714",
+    "id": "gh-wargaming-8030709",
     "title": "Art Director (World of Tanks Console)",
     "company": "Wargaming",
     "locations": [
-      "Vilnius"
+      "Nicosia"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8030714",
-    "desc": "Job Overview\n\nWe are looking for an Art Director to join Wargaming and be a part of the product team working on World of Tanks Console. The Art Director's role combines high-level creative vision with strategic leadership. You will drive a team of highly professional artists, define the visual identity of the game, and ensure that every feature on console platforms reflects a cohesive and premium look and feel. As a subject matter expert, you will work in close collaboration with game teams to identify, prototype, and implement visual solutions that elevate player experience.\n\nReports to\n\nStudio Development Director\n\nWhat will you do?\n\n• Provide artistic leadership: Drive the overall vision of the project and ensure all artistic output aligns with the established style.\n• Strategic Impact: Collaborate with Creative Directors and Product Managers to define the long-term visual strategy for WoT Console, ensuring art assets directly contribute to player engagement and monetization goals.\n• Ensure art production quality and consistency: Maintain high standards across in-house teams and external contractors by establishing clear visual guidelines, review processes, and feedback loops.\n• Design and maintain visual stylistics: Create and conduct the art vision of the game features.\n• Act as a mentor: Guide team members to foster professional growth, focusing on creative excellence and artistic development.\n• Facilitate knowledge transfer: Collaborate with the production team to integrate high-quality visual solutions into the game development pipeline.\n\nWhat are we looking for?\n\n• 3+ years of experience as an Art Lead or Art Director in the game industry (a portfolio demonstrating released projects is a must).\n• Expertise in directing key art disciplines: art: concepts, environments, characters, vehicles, lighting, UI/UX, VFX, animation.\n• Proven ability to design and maintain visual stylistics across a variety of artistic directions.\n• Strong sense of scene composition, color, and lighting, with a deep understanding of how visuals impact gameplay.\n• Solid understanding of game development principles and modern pipelines.\n• Professional proficiency in English.\n\nWhat additional skills will help you stand out?\n\n• Experience in UI/UX direction.\n• Proven track record in managing and leading diverse art teams.\n• Basic understanding of programming/scripting to bridge the gap between art and tech.\n\nWork mode\n\n• Hybrid\n• This role is eligible for relocation & immigration support.\n\nThe salary range for this role in Vilnius is EUR 5100 monthly gross.\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Vilnius include:\n\n• Additional paid time off\n• Sick Leave Compensation\n• Pregnancy and Childbirth Leave Benefit\n• Career development and education opportunities within the company\n• Meal Allowance\n• Premium Private Health Care\n• Mental well-being program (iFeel)\n• Perks discounts platform (over 450 exclusive discounts)\n• Personal Gaming Account\n• Coffee, fruits, and snacks in the office\n• Company events\n• Seniority Awards\n• Referral program - You can recommend the best talents to the company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8030709",
+    "desc": "Job Overview\n\nWe are looking for an Art Director to join Wargaming and be a part of the product team working on World of Tanks Console. The Art Director's role combines high-level creative vision with strategic leadership. You will drive a team of highly professional artists, define the visual identity of the game, and ensure that every feature on console platforms reflects a cohesive and premium look and feel. As a subject matter expert, you will work in close collaboration with game teams to identify, prototype, and implement visual solutions that elevate player experience.\n\nReports to\n\nStudio Development Director\n\nWhat will you do?\n\n• Provide artistic leadership: Drive the overall vision of the project and ensure all artistic output aligns with the established style.\n• Strategic Impact: Collaborate with Creative Directors and Product Managers to define the long-term visual strategy for WoT Console, ensuring art assets directly contribute to player engagement and monetization goals.\n• Ensure art production quality and consistency: Maintain high standards across in-house teams and external contractors by establishing clear visual guidelines, review processes, and feedback loops.\n• Design and maintain visual stylistics: Create and conduct the art vision of the game features.\n• Act as a mentor: Guide team members to foster professional growth, focusing on creative excellence and artistic development.\n• Facilitate knowledge transfer: Collaborate with the production team to integrate high-quality visual solutions into the game development pipeline.\n\nWhat are we looking for?\n\n• 3+ years of experience as an Art Lead or Art Director in the game industry (a portfolio demonstrating released projects is a must).\n• Expertise in directing key art disciplines: art: concepts, environments, characters, vehicles, lighting, UI/UX, VFX, animation.\n• Proven ability to design and maintain visual stylistics across a variety of artistic directions.\n• Strong sense of scene composition, color, and lighting, with a deep understanding of how visuals impact gameplay.\n• Solid understanding of game development principles and modern pipelines.\n• Professional proficiency in English.\n\nWhat additional skills will help you stand out?\n\n• Experience in UI/UX direction.\n• Proven track record in managing and leading diverse art teams.\n• Basic understanding of programming/scripting to bridge the gap between art and tech.\n\nWork mode\n\n• Hybrid\n• This role is eligible for relocation & immigration support.\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Nicosia include:\n\n• 21 days annual leave (additional days based on years of service: up to 25 days)\n• Additional paid time off (5 Personal Days, Birthday Leave, Marriage Leave, Compassionate Leave)\n• Sick Leave (10 days top-up to statutory allowance per year)\n• Maternity Leave (18 weeks top-up to statutory allowance per case)\n• Career development and education opportunities within the company\n• English Language courses fully covered by the company upon Manager’s approval\n• Private Health Care\n• Mental well-being program (iFeel)\n• Onsite gym and spa\n• Free parking close to the Nicosia offices, based on availability\n• Free drinks-equipped kitchen in every floor building\n• Eurobank benefits (if applicable)\n• Employee discounts (e.g. restaurants, bars, etc.)\n• Personal Gaming Account\n• Onsite canteen with subsidized prices for food and drinks\n• Company events, Social Clubs\n• Seniority Awards\n• Referral program - You can recommend the best talents to the company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Арт",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-wargaming-8108499",
@@ -822,7 +1001,14 @@ window.JOBS = [
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Арт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Maya",
+      "ZBrush",
+      "Substance",
+      "Photoshop"
+    ]
   },
   {
     "id": "gh-wargaming-7841726",
@@ -840,7 +1026,9 @@ window.JOBS = [
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Поддержка",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-wargaming-7955999",
@@ -858,7 +1046,12 @@ window.JOBS = [
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Аналитика",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ]
   },
   {
     "id": "gh-wargaming-8078945",
@@ -876,25 +1069,37 @@ window.JOBS = [
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Фронтенд",
+    "stack": [
+      "TypeScript",
+      "JavaScript",
+      "Photoshop",
+      "Figma"
+    ]
   },
   {
-    "id": "gh-wargaming-7956130",
+    "id": "gh-wargaming-7956125",
     "title": "Game Data Analyst (World of Warships, PC)",
     "company": "Wargaming",
     "locations": [
-      "Nicosia"
+      "Belgrade"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7956130",
-    "desc": "Job Overview\n\nWargaming is looking for a Game Data Analyst to work on World of Warships, World of Warships: Legends and World of Warships: Blitz in our brand to strengthen the World of Warships product analytics team. The position is dedicated to core game play and balance analysis.\n\nYou will be a part of the team working on analyzing, visualizing, monitoring and managing data of three World of Warships Franchise games. We cover all kinds of products’ needs ranging from in-game battle analysis to game economy and financial monitoring. We work extensively with game production team for both providing sufficient data for informed decisions and to enhance data processes within the development.\n\nReports to\n\nOur future colleague will report to Lead BI Data Analyst\n\nWhat will you do?\n\n• Work closely with internal customers and stakeholders from gameplay development teams to meet business requirements and transform them into valuable BI reports / research reports for senior management and product teams all over the globe;\n• Identify the key needs and point of growth of the development team and identify which data and how can enhance the decision-making process;\n• Define the format and to provide the decision support outputs (dashboards, ad hoc reports);\n• Determine key measurement metrics for new functionality and define tracking strategy;\n• Consult users and lead cross-functional teams to address business issues, if necessary;\n• Directly produce datasets and reports for analysis using various system reporting tools, if necessary.\n\nWhat are we looking for?\n\n• 3+ year experience on similar position;\n• Experienced player with a broad gaming background\n• Advanced knowledge of SQL at the level of complex queries;\n• Data visualization skills, proficiency with BI instruments (we use Tableau);\n• Good mathematical knowledge and knowledge of statistics;\n• Knowledge of Python popular libraries for data processing and analysis;\n• Experienced in working with DWH, overall understanding of DWH design and operations;\n• Written and spoken English (B2 and higher).\n\nWhat additional skills will help you stand out?\n\n• Experience in game development (2+ years) and understanding of game production processes and needs;\n• Experience in Wargaming games\n• Understanding of multiplatform game analysis basics (PC, mobile, console).\n\nWork mode\n\n• Hybrid (3 days of work from the office)\n• This role isn't eligible for relocation & immigration support.\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Nicosia include:\n\n• 21 days annual leave (additional days based on years of service: up to 25 days)\n• Additional paid time off (5 Personal Days, Birthday Leave, Marriage Leave, Compassionate Leave)\n• Sick Leave (10 days top-up to statutory allowance per year)\n• Maternity Leave (18 weeks top-up to statutory allowance per case)\n• Career development and education opportunities within the company\n• English Language courses fully covered by the company upon Manager’s approval\n• Private Health Care\n• Mental well-being program (iFeel)\n• Onsite gym and spa\n• Free parking close to the Nicosia offices, based on availability\n• Free drinks-equipped kitchen in every floor building\n• Eurobank benefits (if applicable)\n• Employee discounts (e.g. restaurants, bars, etc.)\n• Personal Gaming Account\n• Onsite canteen with subsidized prices for food and drinks\n• Company events, Social Clubs\n• Seniority Awards\n• Referral program - You can recommend the best talents to the company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7956125",
+    "desc": "Job Overview\n\nWargaming is looking for a Game Data Analyst to work on World of Warships, World of Warships: Legends and World of Warships: Blitz in our brand to strengthen the World of Warships product analytics team. The position is dedicated to core game play and balance analysis.\n\nYou will be a part of the team working on analyzing, visualizing, monitoring and managing data of three World of Warships Franchise games. We cover all kinds of products’ needs ranging from in-game battle analysis to game economy and financial monitoring. We work extensively with game production team for both providing sufficient data for informed decisions and to enhance data processes within the development.\n\nReports to\n\nOur future colleague will report to Lead BI Data Analyst\n\nWhat will you do?\n\n• Work closely with internal customers and stakeholders from gameplay development teams to meet business requirements and transform them into valuable BI reports / research reports for senior management and product teams all over the globe;\n• Identify the key needs and point of growth of the development team and identify which data and how can enhance the decision-making process;\n• Define the format and to provide the decision support outputs (dashboards, ad hoc reports);\n• Determine key measurement metrics for new functionality and define tracking strategy;\n• Consult users and lead cross-functional teams to address business issues, if necessary;\n• Directly produce datasets and reports for analysis using various system reporting tools, if necessary.\n\nWhat are we looking for?\n\n• 3+ year experience on similar position;\n• Experienced player with a broad gaming background\n• Advanced knowledge of SQL at the level of complex queries;\n• Data visualization skills, proficiency with BI instruments (we use Tableau);\n• Good mathematical knowledge and knowledge of statistics;\n• Knowledge of Python popular libraries for data processing and analysis;\n• Experienced in working with DWH, overall understanding of DWH design and operations;\n• Written and spoken English (B2 and higher).\n\nWhat additional skills will help you stand out?\n\n• Experience in game development (2+ years) and understanding of game production processes and needs;\n• Experience in Wargaming games\n• Understanding of multiplatform game analysis basics (PC, mobile, console).\n\nWork mode\n\n• Hybrid (3 days of work from the office)\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Belgrade include:\n\n• Additional vacation days based on years of service at Wargaming: up to 5 days on top of the statutory minimum\n• Additional paid time off (5 Personal Days, Birthday Leave, Marriage Leave, Compassionate Leave)\n• Sick Leave Compensation, Maternity Leave Benefits\n• Premium Private Health Insurance\n• Career development and education opportunities within the company\n• English clubs and platform for learning languages\n• Mental well-being program (iFeel)\n• Commuting allowance\n• Company events\n• FitPass membership\n• Discounts for employees\n• Personal Gaming Account\n• Coffee, fruits, and snacks in the office\n• On-site canteen with subsidized prices for food and drinks\n• Seniority Awards\n• Referral program - you can recommend the best talents to the Company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Аналитика",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ]
   },
   {
     "id": "gh-wargaming-8129695",
@@ -912,7 +1117,9 @@ window.JOBS = [
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Геймдизайн",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-wargaming-8078961",
@@ -930,25 +1137,52 @@ window.JOBS = [
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Геймдизайн",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
-    "id": "gh-wargaming-8064286",
-    "title": "Lead Art Owner/Art Producer (World of Tanks PC)",
+    "id": "gh-wargaming-7972336",
+    "title": "Gameplay Developer (World of Tanks, PC)",
     "company": "Wargaming",
     "locations": [
-      "Vilnius"
+      "Prague"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8064286",
-    "desc": "Job Overview\n\nWe are looking for a Lead Art Owner/Art Producer to manage a team of Art Owners supporting World of Tanks game production. This role combines people management, resource planning, production coordination, and process improvement to ensure the AO team operates effectively and the art pipeline runs smoothly. Lead Art Owner/Art Producer will work closely with cross-functional stakeholders - Art Direction, Art Management, Production, Project Management, and Design. Lead Art Owner/Art Producer will oversee workload, balance scope against capacity, support delivery planning, grow team capability, and drive cross-functional alignment. This role requires a strong understanding of art production, excellent communication skills, and an openness to innovation, including AI-driven workflow improvements.\n\nReports to\n\nArt Department Manager\n\nWhat will you do?\n\n• Lead a team of Art Owners\n• Conduct regular 1:1s, provide feedback, and manage performance through quarterly/annual goals and regular reviews.\n• Monitor AO workload and utilization, balancing scope and capacity across the team.\n• Coach and mentor the team in terms of their long-term skills development.\n• Partner with production and art leadership on resource planning and proactively address bandwidth or staffing risks.\n• Ensure clear priorities, ownership, and escalation paths for the AO team.\n• Improve task handoff, delivery flow, and coordination across the AO function.\n• Help AO team to identify and remove bottlenecks, mitigate risks, and ensure smooth art production delivery.\n• Act as a key point of contact for cross-functional stakeholders - Producers, Art Directors, Art Managers, Project Managers, and Design.\n• Strengthen stakeholder alignment, team collaboration, and communication transparency.\n• Review and improve AO-related processes, workflows, and best practices.\n• Drive innovation through smarter ways of working, including AI-enabled tools and automation where relevant.\n\nWhat are we looking for?\n\n• Experience leading or managing a team in game development, ideally in a AAA environment.\n• Strong people management skills, including coaching, feedback, and performance reviews.\n• Experience in resource management, workload balancing, and production planning.\n• Proven ability to work closely with art teams and cross-functional stakeholders.\n• Solid understanding of art production pipelines and delivery workflows.\n• Experience improving processes in complex, multi-stakeholder environments.\n• Previous hands-on art background in any discipline.\n• Strong communication, stakeholder management, and alignment skills.\n• English skills (B2+), written and spoken.\n• Russian skills (B2+), written and spoken\n\nWhat additional skills will help you stand out?\n\n• Familiarity with AI tools, automation, and/or workflow innovation in game production.\n\nWork mode\n\n• Hybrid (2-3 days of work from the office)\n• This role is eligible for relocation & immigration support.\n\nThe salary range for this role in Vilnius is EUR 5670 monthly gross.\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Vilnius include:\n\n• Additional paid time off\n• Sick Leave Compensation\n• Pregnancy and Childbirth Leave Benefit\n• Career development and education opportunities within the company\n• Meal Allowance\n• Premium Private Health Care\n• Mental well-being program (iFeel)\n• Perks discounts platform (over 450 exclusive discounts)\n• Personal Gaming Account\n• Coffee, fruits, and snacks in the office\n• Company events\n• Seniority Awards\n• Referral program - You can recommend the best talents to the company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7972336",
+    "desc": "Job Overview\n\nWargaming is inviting talented Gameplay developers who are ready to learn a lot, take responsibility for the result of their work and meet the expectations of our players together with us. In our team you will have to solve interesting tasks related to the development of World of Tanks on the whole technological stack.\n\nWhat will you do?\n\n• Participate in the creation of new game modes and logic on both game client and server using mainly Python;\n• Develop high performance (in terms of memory and execution time) in-game components;\n• Improve and develop the existing technology stack;\n• Work with dozens of additional services and applications that make up the large-scale infrastructure of our project (payment systems, authorization systems, analytical data warehouses, etc.);\n• Cover the functionality with tests.\n\nWhat are we looking for?\n\n• Experience in commercial software development;\n• Strong knowledge of basic data structures and algorithms;\n• Development experience in Python and/or C++;\n• Knowledge of design patterns;\n• Experience in developing asynchronous/multithreaded applications;\n• Knowledge of CPU and memory principles (RAM, ROM, cache, virtual memory, swap file, etc.);\n• Familiarity with databases, message brokers;\n• Knowledge of the basics of computer networks.\n\nWhat additional skills will help you stand out?\n\n• Experience in web applications development (frontend, backend);\n• Experience of working with distributed systems;\n• Passion for computer games;\n• Gamedev experience\n\nWork mode\n\n• Hybrid (3 days of work from the office)\n• This role is eligible for relocation & immigration support.\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Prague include:\n\n• 5 weeks of Annual Leave per calendar year\n• Additional paid time off\n• Sick Leave Compensation, Maternity & Paternity Leave Benefits\n• Career development and education opportunities within the company\n• Meal card contribution\n• Public transportation allowance\n• Premium private healthcare\n• Mental well-being program (iFeel)\n• Multisport Employee discounts\n• Personal Gaming Account\n• Coffee, fruits, and snacks in the office\n• Company events\n• Seniority Awards\n• Referral program - You can recommend the best talents to the company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
+    "site": "wargaming.com",
+    "source": "greenhouse",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Геймплей",
+    "stack": [
+      "C++",
+      "Python"
+    ]
+  },
+  {
+    "id": "gh-wargaming-8064276",
+    "title": "Lead Art Owner/Art Producer (World of Tanks PC)",
+    "company": "Wargaming",
+    "locations": [
+      "Belgrade"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-17",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8064276",
+    "desc": "Job Overview\n\nWe are looking for a Lead Art Owner/Art Producer to manage a team of Art Owners supporting World of Tanks game production. This role combines people management, resource planning, production coordination, and process improvement to ensure the AO team operates effectively and the art pipeline runs smoothly. Lead Art Owner/Art Producer will work closely with cross-functional stakeholders - Art Direction, Art Management, Production, Project Management, and Design. Lead Art Owner/Art Producer will oversee workload, balance scope against capacity, support delivery planning, grow team capability, and drive cross-functional alignment. This role requires a strong understanding of art production, excellent communication skills, and an openness to innovation, including AI-driven workflow improvements.\n\nReports to\n\nArt Department Manager\n\nWhat will you do?\n\n• Lead a team of Art Owners\n• Conduct regular 1:1s, provide feedback, and manage performance through quarterly/annual goals and regular reviews.\n• Monitor AO workload and utilization, balancing scope and capacity across the team.\n• Coach and mentor the team in terms of their long-term skills development.\n• Partner with production and art leadership on resource planning and proactively address bandwidth or staffing risks.\n• Ensure clear priorities, ownership, and escalation paths for the AO team.\n• Improve task handoff, delivery flow, and coordination across the AO function.\n• Help AO team to identify and remove bottlenecks, mitigate risks, and ensure smooth art production delivery.\n• Act as a key point of contact for cross-functional stakeholders - Producers, Art Directors, Art Managers, Project Managers, and Design.\n• Strengthen stakeholder alignment, team collaboration, and communication transparency.\n• Review and improve AO-related processes, workflows, and best practices.\n• Drive innovation through smarter ways of working, including AI-enabled tools and automation where relevant.\n\nWhat are we looking for?\n\n• Experience leading or managing a team in game development, ideally in a AAA environment.\n• Strong people management skills, including coaching, feedback, and performance reviews.\n• Experience in resource management, workload balancing, and production planning.\n• Proven ability to work closely with art teams and cross-functional stakeholders.\n• Solid understanding of art production pipelines and delivery workflows.\n• Experience improving processes in complex, multi-stakeholder environments.\n• Previous hands-on art background in any discipline.\n• Strong communication, stakeholder management, and alignment skills.\n• English skills (B2+), written and spoken.\n• Russian skills (B2+), written and spoken\n\nWhat additional skills will help you stand out?\n\n• Familiarity with AI tools, automation, and/or workflow innovation in game production.\n\nWork mode\n\n• Hybrid (2-3 days of work from the office)\n• This role is eligible for relocation & immigration support.\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Belgrade include:\n\n• Additional vacation days based on years of service at Wargaming: up to 5 days on top of the statutory minimum\n• Additional paid time off (5 Personal Days, Birthday Leave, Marriage Leave, Compassionate Leave)\n• Sick Leave Compensation, Maternity Leave Benefits\n• Premium Private Health Insurance\n• Career development and education opportunities within the company\n• English clubs and platform for learning languages\n• Mental well-being program (iFeel)\n• Commuting allowance\n• Company events\n• FitPass membership\n• Discounts for employees\n• Personal Gaming Account\n• Coffee, fruits, and snacks in the office\n• On-site canteen with subsidized prices for food and drinks\n• Seniority Awards\n• Referral program - you can recommend the best talents to the Company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\n\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Арт",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-wargaming-7904063",
@@ -966,7 +1200,9 @@ window.JOBS = [
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Геймдизайн",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-wargaming-8125566",
@@ -984,7 +1220,9 @@ window.JOBS = [
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Продюсирование",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-wargaming-7716269",
@@ -1002,7 +1240,11 @@ window.JOBS = [
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Продюсирование",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "C++"
+    ]
   },
   {
     "id": "gh-wargaming-7716275",
@@ -1020,43 +1262,57 @@ window.JOBS = [
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Продюсирование",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "C++"
+    ]
   },
   {
-    "id": "gh-wargaming-7938117",
+    "id": "gh-wargaming-7938112",
     "title": "Render Engineer (Unannounced Project)",
     "company": "Wargaming",
     "locations": [
-      "Nicosia"
+      "Belgrade"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7938117",
-    "desc": "Job Overview\n\nWargaming is looking for a Render Developer to join our Game Engine Development team. This position includes working on development of a cross-platform game engine which is written in C++.\n\nWhat will you do?\n\n• Implement new and improve existing graphic features\n• Refactoring, code optimization, fix graphic bugs\n• Writing code according to code style\n• Creation of tech documentation\n\nWhat are we looking for?\n\n• 2+ year of experience in commercial C++ development\n• Experience in any graphics API (DirectX, Vulkan, OpenGL)\n• Experience in writing shaders (GSL, HLSL)\n• Basic knowledge of linear algebra (vectors, matrices, quaternions)\n• Experience in creation of own 3D demo applications or creation of own engine\n• Knowledge and experience in working with debugging and profiling tools (Nsight, Renderdoc, PIX etc)\n• Understanding the graphics pipeline and GPU architecture\n• Practical knowledge of DirectX 11/12/Vulkan\n\nWhat additional skills will help you stand out?\n\n• An intermediate level of English\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Nicosia include:\n\n• 21 days annual leave (additional days based on years of service: up to 25 days)\n• Additional paid time off (5 Personal Days, Birthday Leave, Marriage Leave, Compassionate Leave)\n• Sick Leave (10 days top-up to statutory allowance per year)\n• Maternity Leave (18 weeks top-up to statutory allowance per case)\n• Career development and education opportunities within the company\n• English Language courses fully covered by the company upon Manager’s approval\n• Private Health Care\n• Mental well-being program (iFeel)\n• Onsite gym and spa\n• Free parking close to the Nicosia offices, based on availability\n• Free drinks-equipped kitchen in every floor building\n• Eurobank benefits (if applicable)\n• Employee discounts (e.g. restaurants, bars, etc.)\n• Personal Gaming Account\n• Onsite canteen with subsidized prices for food and drinks\n• Company events, Social Clubs\n• Seniority Awards\n• Referral program - You can recommend the best talents to the company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7938112",
+    "desc": "Job Overview\n\nWargaming is looking for a Render Developer to join our Game Engine Development team. This position includes working on development of a cross-platform game engine which is written in C++.\n\nWhat will you do?\n\n• Implement new and improve existing graphic features\n• Refactoring, code optimization, fix graphic bugs\n• Writing code according to code style\n• Creation of tech documentation\n\nWhat are we looking for?\n\n• 2+ year of experience in commercial C++ development\n• Experience in any graphics API (DirectX, Vulkan, OpenGL)\n• Experience in writing shaders (GSL, HLSL)\n• Basic knowledge of linear algebra (vectors, matrices, quaternions)\n• Experience in creation of own 3D demo applications or creation of own engine\n• Knowledge and experience in working with debugging and profiling tools (Nsight, Renderdoc, PIX etc)\n• Understanding the graphics pipeline and GPU architecture\n• Practical knowledge of DirectX 11/12/Vulkan\n\nWhat additional skills will help you stand out?\n\n• An intermediate level of English\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Belgrade include:\n\n• Additional vacation days based on years of service at Wargaming: up to 5 days on top of the statutory minimum\n• Additional paid time off (5 Personal Days, Birthday Leave, Marriage Leave, Compassionate Leave)\n• Sick Leave Compensation, Maternity Leave Benefits\n• Premium Private Health Insurance\n• Career development and education opportunities within the company\n• English clubs and platform for learning languages\n• Mental well-being program (iFeel)\n• Commuting allowance\n• Company events\n• FitPass membership\n• Discounts for employees\n• Personal Gaming Account\n• Coffee, fruits, and snacks in the office\n• On-site canteen with subsidized prices for food and drinks\n• Seniority Awards\n• Referral program - you can recommend the best talents to the Company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Движок",
+    "stack": [
+      "C++"
+    ]
   },
   {
-    "id": "gh-wargaming-7694782",
+    "id": "gh-wargaming-7694787",
     "title": "Senior Concept Artist Generalist (World of Tanks: HEAT)",
     "company": "Wargaming",
     "locations": [
-      "Nicosia"
+      "Vilnius"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7694782",
-    "desc": "Job Overview\n\nWe’re excited to launch a groundbreaking AAA game project - World of Tanks: HEAT and are looking for passionate, creative Senior Concept Artist Generalist to join our talented team. Our studio fosters a collaborative environment where your ideas are valued and your contributions will have a direct impact on the game’s success.\n\nOur team is a mix of industry veterans and fresh talent, dedicated to pushing the boundaries of what games can be. If you thrive in a dynamic atmosphere and are eager to shape an exciting AAA title from the ground up, we want to hear from you! Join us in creating something truly special in the gaming world. Your next big opportunity awaits!\n\nReports to\n\nArt Director\n\nWhat will you do?\n\n• Environment Design: create concept art for game environments, mostly exteriors, to enhance player exploration and engagement\n• Prop and Object Design: generate concept art for props, objects, and interactive elements within the game world, adding detail and depth to the overall environment and gameplay experience\n• UI/UX Design: collaborate with the UI/UX team to design backgrounds for user interfaces\n• Marketing Materials: produce concept art for marketing materials, including key art, promotional images, and visual assets used in trailers and advertisements, to attract and engage players\n• Storyboarding: assist in the creation of storyboards and visual sequences to visualize narrative elements, cutscenes, and gameplay scenarios, aiding in communication and planning\n• Iteration and Revision: iterate on concept designs based on feedback from stakeholders, making necessary revisions to enhance aesthetics, functionality, and alignment with project goals\n\nWhat are we looking for?\n\n• Proven Experience: a strong portfolio demonstrating your concept art skills across a variety of styles and themes within the gaming industry\n• Artistic Skills: proficiency in digital art tools and software, such as Photoshop, Procreate, or equivalent applications, with a keen understanding of composition, color theory, and visual storytelling\n• Creativity: ability to generate original and innovative concepts that push the boundaries of visual design while staying true to the project's artistic direction\n• Collaboration: strong communication and collaboration skills to effectively work within a multidisciplinary team and translate concepts into tangible assets that meet project requirements\n• Adaptability: the flexibility to adapt your artistic style and approach to suit different project requirements, themes, and artistic directions\n• Time Management: ability to manage multiple tasks and meet deadlines in a fast-paced and dynamic environment without compromising quality\n• Passion for Games: a genuine passion for video games and a deep understanding of how concept art contributes to the overall gaming experience, driving player immersion and engagement\n• English: upper-intermediate level or higher\n\nWhat additional skills will help you stand out?\n\n• Experience with 3D Software: familiarity with 3D modeling software, such as Maya or Blender, to create basic 3D mockups or reference models for concept art\n• Experience with game engines\n• Traditional Art Skills: proficiency in traditional art techniques, such as sketching, painting, or sculpting, to complement digital concept art creation and enhance visual storytelling\n• Storyboarding Experience: previous experience in storyboarding or sequential art for visual storytelling purposes, aiding in the development of narrative-driven content\n\nWork mode\n\n• Onsite\n• This role is eligible for relocation & immigration support\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Nicosia include:\n\n• 21 days annual leave (additional days based on years of service: up to 25 days)\n• Additional paid time off (5 Personal Days, Birthday Leave, Marriage Leave, Compassionate Leave)\n• Sick Leave (10 days top-up to statutory allowance per year)\n• Maternity Leave (18 weeks top-up to statutory allowance per case)\n• Career development and education opportunities within the company\n• English Language courses fully covered by the company upon Manager’s approval\n• Private Health Care\n• Mental well-being program (iFeel)\n• Onsite gym and spa\n• Free parking close to the Nicosia offices, based on availability\n• Free drinks-equipped kitchen in every floor building\n• Eurobank benefits (if applicable)\n• Employee discounts (e.g. restaurants, bars, etc.)\n• Personal Gaming Account\n• Onsite canteen with subsidized prices for food and drinks\n• Company events, Social Clubs\n• Seniority Awards\n• Referral program - You can recommend the best talents to the company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7694787",
+    "desc": "Job Overview\n\nWe’re excited to launch a groundbreaking AAA game project - World of Tanks: HEAT and are looking for passionate, creative Senior Concept Artist Generalist to join our talented team. Our studio fosters a collaborative environment where your ideas are valued and your contributions will have a direct impact on the game’s success.\n\nOur team is a mix of industry veterans and fresh talent, dedicated to pushing the boundaries of what games can be. If you thrive in a dynamic atmosphere and are eager to shape an exciting AAA title from the ground up, we want to hear from you! Join us in creating something truly special in the gaming world. Your next big opportunity awaits!\n\nReports to\n\nArt Director\n\nWhat will you do?\n\n• Environment Design: create concept art for game environments, mostly exteriors, to enhance player exploration and engagement\n• Prop and Object Design: generate concept art for props, objects, and interactive elements within the game world, adding detail and depth to the overall environment and gameplay experience\n• UI/UX Design: collaborate with the UI/UX team to design backgrounds for user interfaces\n• Marketing Materials: produce concept art for marketing materials, including key art, promotional images, and visual assets used in trailers and advertisements, to attract and engage players\n• Storyboarding: assist in the creation of storyboards and visual sequences to visualize narrative elements, cutscenes, and gameplay scenarios, aiding in communication and planning\n• Iteration and Revision: iterate on concept designs based on feedback from stakeholders, making necessary revisions to enhance aesthetics, functionality, and alignment with project goals\n\nWhat are we looking for?\n\n• Proven Experience: a strong portfolio demonstrating your concept art skills across a variety of styles and themes within the gaming industry\n• Artistic Skills: proficiency in digital art tools and software, such as Photoshop, Procreate, or equivalent applications, with a keen understanding of composition, color theory, and visual storytelling\n• Creativity: ability to generate original and innovative concepts that push the boundaries of visual design while staying true to the project's artistic direction\n• Collaboration: strong communication and collaboration skills to effectively work within a multidisciplinary team and translate concepts into tangible assets that meet project requirements\n• Adaptability: the flexibility to adapt your artistic style and approach to suit different project requirements, themes, and artistic directions\n• Time Management: ability to manage multiple tasks and meet deadlines in a fast-paced and dynamic environment without compromising quality\n• Passion for Games: a genuine passion for video games and a deep understanding of how concept art contributes to the overall gaming experience, driving player immersion and engagement\n• English: upper-intermediate level or higher\n\nWhat additional skills will help you stand out?\n\n• Experience with 3D Software: familiarity with 3D modeling software, such as Maya or Blender, to create basic 3D mockups or reference models for concept art\n• Experience with game engines\n• Traditional Art Skills: proficiency in traditional art techniques, such as sketching, painting, or sculpting, to complement digital concept art creation and enhance visual storytelling\n• Storyboarding Experience: previous experience in storyboarding or sequential art for visual storytelling purposes, aiding in the development of narrative-driven content\n\nWork mode\n\n• Onsite\n• This role is eligible for relocation & immigration support\n\nThe salary range for this role in Vilnius is EUR 4500-6000 monthly gross.\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Vilnius include:\n\n• Additional paid time off\n• Sick Leave Compensation\n• Pregnancy and Childbirth Leave Benefit\n• Career development and education opportunities within the company\n• Meal Allowance\n• Premium Private Health Care\n• Mental well-being program (iFeel)\n• Perks discounts platform (over 450 exclusive discounts)\n• Personal Gaming Account\n• Coffee, fruits, and snacks in the office\n• Company events\n• Seniority Awards\n• Referral program - You can recommend the best talents to the company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Арт",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Maya",
+      "Blender",
+      "Photoshop"
+    ]
   },
   {
     "id": "gh-wargaming-7694788",
@@ -1074,25 +1330,37 @@ window.JOBS = [
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Арт",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Maya",
+      "Blender",
+      "Photoshop"
+    ]
   },
   {
-    "id": "gh-wargaming-7837375",
+    "id": "gh-wargaming-7837370",
     "title": "Senior Concept Artist – Vehicles / Props (World of Tanks)",
     "company": "Wargaming",
     "locations": [
-      "Vilnius"
+      "Nicosia"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7837375",
-    "desc": "Job Overview\n\nWorld of Tanks is looking for a passionate, creative Senior Concept Artist to join our talented team. Our studio fosters a collaborative environment where your ideas are valued, and your contributions will have a direct impact on the game’s success.\nOur team is a mix of industry veterans and fresh talent, dedicated to pushing the boundaries of what games can be. If you thrive in a dynamic atmosphere and are eager to shape an exciting AAA title from the ground up, we want to hear from you! Join us in creating something truly special in the gaming world. Your next big opportunity awaits!\n\nWhat will you do?\n\n• Concept Development: Create innovative and functional designs high-quality assets for games, including vehicle design, skins, immersive environments, engaging character designs, UI elements that enhance gameplay and fit seamlessly with the game's mechanics and player experience.\n• Collaboration: Work closely with the Art Director, Producer, and cross-disciplinary teams (Engineering, Animation, etc.) to ensure alignment across all aspects of the game development process.\n• Creative Ownership: Take full ownership of your work, with minimal guidance and a strong attention to detail.\n• Iteration and Revision: iterate on concept designs based on feedback from stakeholders, making necessary revisions to enhance aesthetics, functionality, and alignment with project.\n• Problem Solving: Identify design challenges quickly and propose creative, practical solutions during art reviews, pitches, and collaborative meetings.\n• Continuous Development: Contribute through hands-on mentorship to concept artists, supporting their skill growth and the ongoing improvement of workflows.\n• Action: Proactively seek and incorporate feedback, turning stakeholder insights into stronger outcomes.\n\nWhat are we looking for?\n\n• Proven Experience: a strong portfolio demonstrating your concept art skills across a variety of styles and themes within the gaming industry.\n• Artistic Skills: proficiency in digital art tools and software, such as Photoshop, Procreate, or equivalent applications, with a keen understanding of composition, color theory, and visual storytelling.\n• Creativity: ability to generate original and innovative concepts that push the boundaries of visual design while staying true to the project's artistic direction.\n• Collaboration: strong communication and collaboration skills to effectively work within a multidisciplinary team and translate concepts into tangible assets that meet project requirements.\n• Adaptability: the flexibility to adapt your artistic style and approach to suit different project requirements, themes, and artistic directions.\n• Time Management: ability to manage multiple tasks and meet deadlines in a fast-paced and dynamic environment without compromising quality.\n• Passion for Games: a genuine passion for video games and a deep understanding of how concept art contributes to the overall gaming experience, driving player immersion and engagement.\n• English: Intermediate level or higher.\n\nWhat additional skills will help you stand out?\n\n• Experience with 3D Software: familiarity with 3D modeling software, such as Maya or Blender, to create basic 3D mockups or reference models for concept art.\n• Experience with game engines.\n• Experience as a Team Leader.\n• Traditional Art Skills: proficiency in traditional art techniques, such as sketching, painting, or sculpting, to complement digital concept art creation and enhance visual storytelling.\n\nWork mode\n\n• Onsite // Hybrid (2-3 days of work from the office).\n• This role is eligible for relocation & immigration support.\n\nThe salary range for this role in Vilnius is EUR 3600 - 5500 monthly gross.\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Vilnius include:\n\n• Additional paid time off\n• Sick Leave Compensation\n• Pregnancy and Childbirth Leave Benefit\n• Career development and education opportunities within the company\n• Meal Allowance\n• Premium Private Health Care\n• Mental well-being program (iFeel)\n• Perks discounts platform (over 450 exclusive discounts)\n• Personal Gaming Account\n• Coffee, fruits, and snacks in the office\n• Company events\n• Seniority Awards\n• Referral program - You can recommend the best talents to the company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7837370",
+    "desc": "Job Overview\n\nWorld of Tanks is looking for a passionate, creative Senior Concept Artist to join our talented team. Our studio fosters a collaborative environment where your ideas are valued, and your contributions will have a direct impact on the game’s success.\nOur team is a mix of industry veterans and fresh talent, dedicated to pushing the boundaries of what games can be. If you thrive in a dynamic atmosphere and are eager to shape an exciting AAA title from the ground up, we want to hear from you! Join us in creating something truly special in the gaming world. Your next big opportunity awaits!\n\nWhat will you do?\n\n• Concept Development: Create innovative and functional designs high-quality assets for games, including vehicle design, skins, immersive environments, engaging character designs, UI elements that enhance gameplay and fit seamlessly with the game's mechanics and player experience.\n• Collaboration: Work closely with the Art Director, Producer, and cross-disciplinary teams (Engineering, Animation, etc.) to ensure alignment across all aspects of the game development process.\n• Creative Ownership: Take full ownership of your work, with minimal guidance and a strong attention to detail.\n• Iteration and Revision: iterate on concept designs based on feedback from stakeholders, making necessary revisions to enhance aesthetics, functionality, and alignment with project.\n• Problem Solving: Identify design challenges quickly and propose creative, practical solutions during art reviews, pitches, and collaborative meetings.\n• Continuous Development: Contribute through hands-on mentorship to concept artists, supporting their skill growth and the ongoing improvement of workflows.\n• Action: Proactively seek and incorporate feedback, turning stakeholder insights into stronger outcomes.\n\nWhat are we looking for?\n\n• Proven Experience: a strong portfolio demonstrating your concept art skills across a variety of styles and themes within the gaming industry.\n• Artistic Skills: proficiency in digital art tools and software, such as Photoshop, Procreate, or equivalent applications, with a keen understanding of composition, color theory, and visual storytelling.\n• Creativity: ability to generate original and innovative concepts that push the boundaries of visual design while staying true to the project's artistic direction.\n• Collaboration: strong communication and collaboration skills to effectively work within a multidisciplinary team and translate concepts into tangible assets that meet project requirements.\n• Adaptability: the flexibility to adapt your artistic style and approach to suit different project requirements, themes, and artistic directions.\n• Time Management: ability to manage multiple tasks and meet deadlines in a fast-paced and dynamic environment without compromising quality.\n• Passion for Games: a genuine passion for video games and a deep understanding of how concept art contributes to the overall gaming experience, driving player immersion and engagement.\n• English: Intermediate level or higher.\n\nWhat additional skills will help you stand out?\n\n• Experience with 3D Software: familiarity with 3D modeling software, such as Maya or Blender, to create basic 3D mockups or reference models for concept art.\n• Experience with game engines.\n• Experience as a Team Leader.\n• Traditional Art Skills: proficiency in traditional art techniques, such as sketching, painting, or sculpting, to complement digital concept art creation and enhance visual storytelling.\n\nWork mode\n\n• Onsite // Hybrid (2-3 days of work from the office).\n• This role is eligible for relocation & immigration support.\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Nicosia include:\n\n• 21 days annual leave (additional days based on years of service: up to 25 days)\n• Additional paid time off (5 Personal Days, Birthday Leave, Marriage Leave, Compassionate Leave)\n• Sick Leave (10 days top-up to statutory allowance per year)\n• Maternity Leave (18 weeks top-up to statutory allowance per case)\n• Career development and education opportunities within the company\n• English Language courses fully covered by the company upon Manager’s approval\n• Premium Private Health Care\n• Mental well-being program (iFeel)\n• Onsite gym and spa\n• Free parking close to the Nicosia offices, based on availability\n• Free drinks-equipped kitchen in every floor building\n• Eurobank benefits (if applicable)\n• Employee discounts (e.g. restaurants, bars, etc.)\n• Personal Gaming Account\n• Onsite canteen with subsidized prices for food and drinks\n• Company events, Social Clubs\n• Seniority Awards\n• Referral program - You can recommend the best talents to the company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Арт",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Maya",
+      "Blender",
+      "Photoshop"
+    ]
   },
   {
     "id": "gh-wargaming-7837376",
@@ -1110,7 +1378,13 @@ window.JOBS = [
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Арт",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Maya",
+      "Blender",
+      "Photoshop"
+    ]
   },
   {
     "id": "gh-wargaming-8041225",
@@ -1128,25 +1402,39 @@ window.JOBS = [
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Бэкенд",
+    "stack": [
+      "C++",
+      "Python"
+    ]
   },
   {
-    "id": "gh-wargaming-8037907",
+    "id": "gh-wargaming-8037902",
     "title": "Technical Artist (World of Tanks Console)",
     "company": "Wargaming",
     "locations": [
-      "Nicosia"
+      "Belgrade"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8037907",
-    "desc": "Job Overview\n\nWe are looking for a Technical Artist to join Wargaming and be a part of the product team working on World of Tanks Console.\n\nWhat will you do?\n\n• Support the vehicle art pipeline on console: validate incoming assets, troubleshoot integration issues, and keep content production stable across the team\n• Improve the current artist workflow: identify bottlenecks, propose practical fixes, and roll out pipeline changes that reduce manual work and error rates\n• Develop and maintain tools, scripts, and workflows in Maya, 3ds Max, and Blender to speed up modeling checks, scene setup, export, and delivery for console builds\n• Build and maintain Substance Designer graphs and material templates used across the pipeline; support Substance Painter handoff and texture validation for console-ready PBR sets\n• Implement and integrate art content into the game engine using proprietary tools (Tank Importer, Forge), including game object templates, material assignments, texture setups, and XML configuration\n• Maintain shader, material, and asset validation workflows to catch issues before content hits console builds\n• Optimize art content for Xbox and PlayStation: LODs, texture memory, draw calls, and other platform-specific performance constraints\n• Contribute to pipeline documentation and provide technical guidance to artists on naming conventions, file structure, export rules, and engine requirements\n• Run in-engine QA on console builds to verify asset correctness, visual consistency, and performance against platform budgets\n• Collaborate with artists, designers, and engineers on pipeline improvements and fixes for recurring production blockers\n• Professional proficiency in English\n\nWhat are we looking for?\n\n• 3+ years of experience as a Technical Artist in game production, preferably on console titles\n• Strong scripting skills (Python, MaxScript, or similar) and comfort building practical production tools\n• Solid understanding of the game art pipeline: modeling, UVs, baking, PBR texturing, rigging, and engine implementation\n• Proficiency in Maya, 3ds Max, and/or Blender; working knowledge of Substance Painter, Substance Designer, and Photoshop\n• Experience integrating and validating assets in a proprietary or in-house game engine; comfortable working without off-the-shelf DCC-to-engine plugins\n• Good grasp of console platform constraints (Xbox, PlayStation): memory budgets, LOD strategy, shader cost, and build-time validation\n• Understanding of console optimization pipelines: how assets move from DCC through bake/export/import into builds with platform budgets enforced at each step\n• Experience with version control systems (Perforce, SVN, or similar)\n• Ability to read and maintain structured data (XML or equivalent) and debug configuration issues\n• Clear documentation habits and enough communication skills to unblock artists without slowing production\n\nWhat additional skills will help you stand out?\n\n• Experience supporting vehicle or hard-surface asset pipelines\n• Familiarity with character pipelines: rigging validation, skinning checks, and engine-ready character setup\n• Familiarity with cloth pipeline workflows: simulation export, deformation, and in-engine cloth setup or troubleshooting\n• Familiarity with rigging and skinning workflows from a tooling or validation perspective\n• Understanding of BC/DXT texture compression formats and how compression choices affect visual quality and memory on console\n• Prior experience with proprietary game engines and custom import/editor tooling\n• Prior work on World of Tanks, World of Tanks Console, or similar vehicle-based titles\n• Hands-on experience profiling and fixing art-related performance issues on console hardware or dev kits\n• Knowledge of tank asset structure and how vehicle content is organized in a live-service game\n• Interest in World of Tanks Console gameplay and how content updates ship to players\n\nWork mode\n\n• Hybrid (2-3 days of work from the office)\n• This role is eligible for relocation & immigration support\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Nicosia include:\n\n• 21 days annual leave (additional days based on years of service: up to 25 days)\n• Additional paid time off (5 Personal Days, Birthday Leave, Marriage Leave, Compassionate Leave)\n• Sick Leave (10 days top-up to statutory allowance per year)\n• Maternity Leave (18 weeks top-up to statutory allowance per case)\n• Career development and education opportunities within the company\n• English Language courses fully covered by the company upon Manager’s approval\n• Premium Private Health Care\n• Mental well-being program (iFeel)\n• Onsite gym and spa\n• Free parking close to the Nicosia offices, based on availability\n• Free drinks-equipped kitchen in every floor building\n• Eurobank benefits (if applicable)\n• Employee discounts (e.g. restaurants, bars, etc.)\n• Personal Gaming Account\n• Onsite canteen with subsidized prices for food and drinks\n• Company events, Social Clubs\n• Seniority Awards\n• Referral program - You can recommend the best talents to the company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8037902",
+    "desc": "Job Overview\n\nWe are looking for a Technical Artist to join Wargaming and be a part of the product team working on World of Tanks Console.\n\nWhat will you do?\n\n• Support the vehicle art pipeline on console: validate incoming assets, troubleshoot integration issues, and keep content production stable across the team\n• Improve the current artist workflow: identify bottlenecks, propose practical fixes, and roll out pipeline changes that reduce manual work and error rates\n• Develop and maintain tools, scripts, and workflows in Maya, 3ds Max, and Blender to speed up modeling checks, scene setup, export, and delivery for console builds\n• Build and maintain Substance Designer graphs and material templates used across the pipeline; support Substance Painter handoff and texture validation for console-ready PBR sets\n• Implement and integrate art content into the game engine using proprietary tools (Tank Importer, Forge), including game object templates, material assignments, texture setups, and XML configuration\n• Maintain shader, material, and asset validation workflows to catch issues before content hits console builds\n• Optimize art content for Xbox and PlayStation: LODs, texture memory, draw calls, and other platform-specific performance constraints\n• Contribute to pipeline documentation and provide technical guidance to artists on naming conventions, file structure, export rules, and engine requirements\n• Run in-engine QA on console builds to verify asset correctness, visual consistency, and performance against platform budgets\n• Collaborate with artists, designers, and engineers on pipeline improvements and fixes for recurring production blockers\n• Professional proficiency in English\n\nWhat are we looking for?\n\n• 3+ years of experience as a Technical Artist in game production, preferably on console titles\n• Strong scripting skills (Python, MaxScript, or similar) and comfort building practical production tools\n• Solid understanding of the game art pipeline: modeling, UVs, baking, PBR texturing, rigging, and engine implementation\n• Proficiency in Maya, 3ds Max, and/or Blender; working knowledge of Substance Painter, Substance Designer, and Photoshop\n• Experience integrating and validating assets in a proprietary or in-house game engine; comfortable working without off-the-shelf DCC-to-engine plugins\n• Good grasp of console platform constraints (Xbox, PlayStation): memory budgets, LOD strategy, shader cost, and build-time validation\n• Understanding of console optimization pipelines: how assets move from DCC through bake/export/import into builds with platform budgets enforced at each step\n• Experience with version control systems (Perforce, SVN, or similar)\n• Ability to read and maintain structured data (XML or equivalent) and debug configuration issues\n• Clear documentation habits and enough communication skills to unblock artists without slowing production\n\nWhat additional skills will help you stand out?\n\n• Experience supporting vehicle or hard-surface asset pipelines\n• Familiarity with character pipelines: rigging validation, skinning checks, and engine-ready character setup\n• Familiarity with cloth pipeline workflows: simulation export, deformation, and in-engine cloth setup or troubleshooting\n• Familiarity with rigging and skinning workflows from a tooling or validation perspective\n• Understanding of BC/DXT texture compression formats and how compression choices affect visual quality and memory on console\n• Prior experience with proprietary game engines and custom import/editor tooling\n• Prior work on World of Tanks, World of Tanks Console, or similar vehicle-based titles\n• Hands-on experience profiling and fixing art-related performance issues on console hardware or dev kits\n• Knowledge of tank asset structure and how vehicle content is organized in a live-service game\n• Interest in World of Tanks Console gameplay and how content updates ship to players\n\nWork mode\n\n• Hybrid (2-3 days of work from the office)\n• This role is eligible for relocation & immigration support\n\nBenefits\n\n• Benefits and perks are tailored to the local market and culture. Our benefits in Belgrade include:\n• Additional vacation days based on years of service at Wargaming: up to 5 days on top of the statutory minimum\n• Additional paid time off (5 Personal Days, Birthday Leave, Marriage Leave, Compassionate Leave)\n• Sick Leave Compensation, Maternity Leave Benefits\n• Premium Private Health Insurance\n• Career development and education opportunities within the company\n• English clubs and platform for learning languages\n• Mental well-being program (iFeel)\n• Commuting allowance\n• Company events\n• FitPass membership\n• Discounts for employees\n• Personal Gaming Account\n• Coffee, fruits, and snacks in the office\n• On-site canteen with subsidized prices for food and drinks\n• Seniority Awards\n• Referral program - you can recommend the best talents to the Company and receive a reward\n• Please submit your CV in English to ensure smooth processing and review.\n\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Технический художник",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "Maya",
+      "Blender",
+      "Substance",
+      "Photoshop",
+      "Perforce"
+    ]
   },
   {
     "id": "gh-tripledot-belka-4954014101",
@@ -1164,7 +1452,9 @@ window.JOBS = [
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "role": "Продюсирование",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-amanotes-a0cf60b3-0916-4eec-a6c4-dfecf7b494ea",
@@ -1182,7 +1472,11 @@ window.JOBS = [
     "source": "lever",
     "site": "amanotes.com",
     "role": "Маркетинг",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unity"
+    ]
   },
   {
     "id": "rc-grid-esports-2709873",
@@ -1200,7 +1494,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": "grid.gg",
     "role": "Поддержка",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-2k-games-7865976003",
@@ -1218,7 +1514,12 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Продюсирование",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unreal",
+      "Perforce"
+    ]
   },
   {
     "id": "gh-2k-games-7865971003",
@@ -1236,7 +1537,13 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "DevOps",
+    "stack": [
+      "Python",
+      "AWS",
+      "Kubernetes"
+    ]
   },
   {
     "id": "gh-2k-games-7865984003",
@@ -1254,7 +1561,13 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Go",
+      "Java",
+      "AWS"
+    ]
   },
   {
     "id": "gh-2k-games-7856225003",
@@ -1272,7 +1585,11 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Арт",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Unreal"
+    ]
   },
   {
     "id": "gh-2k-games-7865968003",
@@ -1290,7 +1607,14 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "Бэкенд",
+    "stack": [
+      "Go",
+      "Java",
+      "AWS",
+      "Kubernetes"
+    ]
   },
   {
     "id": "gh-2k-games-7829588003",
@@ -1308,7 +1632,14 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "DevOps",
+    "stack": [
+      "Python",
+      "TypeScript",
+      "AWS",
+      "Kubernetes"
+    ]
   },
   {
     "id": "gh-2k-games-7887479003",
@@ -1326,7 +1657,13 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Технический художник",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unreal",
+      "Substance",
+      "Photoshop"
+    ]
   },
   {
     "id": "lv-amanotes-9c01d3c1-febb-4a43-afba-6633dc6633e7",
@@ -1344,7 +1681,9 @@ window.JOBS = [
     "source": "lever",
     "site": "amanotes.com",
     "role": "Продакт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-amanotes-c302e217-6833-4f8f-ae18-32efa8e59b3a",
@@ -1362,7 +1701,11 @@ window.JOBS = [
     "source": "lever",
     "site": "amanotes.com",
     "role": "Маркетинг",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unity"
+    ]
   },
   {
     "id": "lv-amanotes-888bd5ff-55e8-4199-ac23-676313e0f992",
@@ -1380,7 +1723,11 @@ window.JOBS = [
     "source": "lever",
     "site": "amanotes.com",
     "role": "Маркетинг",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unity"
+    ]
   },
   {
     "id": "lv-amanotes-d61dacbe-bd43-4527-8c0b-679598c48cb4",
@@ -1398,7 +1745,31 @@ window.JOBS = [
     "source": "lever",
     "site": "amanotes.com",
     "role": "Маркетинг",
-    "grade": "Junior"
+    "grade": "Junior",
+    "spec": null,
+    "stack": []
+  },
+  {
+    "id": "gh-tripledot-belka-4953254101",
+    "title": "Data Scientist",
+    "company": "Tripledot / Belka",
+    "locations": [
+      "London"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-14",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4953254101",
+    "desc": "Who are we?\n\nTripledot Studios is one of the largest independent mobile games companies in the world.\n\nWe are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios.\n\nOur expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users.\n\nTripledot’s guiding principle is that when people love what they do, what they do will be loved by others.\n\nWe’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games.\n\nOur ambition is to be the most successful games company in the world, and we’re just getting started.\n\nThe role is working within our studio: Tripledot Games\n\nAbout Tripledot Games\n\nTripledot Games is a leading developer and publisher of casual and puzzle games, with a strong presence in London, Warsaw, and Barcelona. The studio is responsible for multiple top 10 titles, including Woodoku, Woodoku Blast, Solitaire, and TripleTile. Our best-in-class data-driven approach spans the entire lifecycle from publishing to machine learning puzzle levels, helping us make fast, smart decisions at every stage of development.\n\nWe are also one of the largest IAA operators worldwide. Tripledot Games is a diverse and collaborative studio, home to people from over 36 nationalities. We take pride in our craftsmanship, strong focus on outcomes, and continuous improvement, building high-quality, scalable games that players around the world love.\n\nRole Overview\n\nAs a Data Scientist in our Experimentation team, you will help deliver and improve Tripledot’s company-wide experimentation analysis platform. Working closely with Data Engineering, you will define the statistical logic and methodologies behind platform features, build prototypes in Python, and ensure the platform produces accurate, reliable results for product teams across our games portfolio.\n\nYour initial focus will include hands-on quality assurance: running independent analyses, comparing results with platform outputs, investigating discrepancies, and validating features and metrics. This offers the opportunity to develop deep expertise in experimentation and A/B testing across a sophisticated internal platform. As the platform evolves, the role will expand into more advanced statistical and machine learning work that delivers value across the business.\n\nKey Responsibilities\n\n• Define statistical logic, calculation methods, and detailed requirements for experimentation platform features.\n• Prototype statistical methodologies and analyses in Python before implementation.\n• Partner closely with Data Engineers as they develop and improve the experimentation platform.\n• Perform thorough data and feature QA by independently calculating results and comparing them with platform outputs.\n• Investigate discrepancies, identify root causes, and help ensure metrics and analyses are accurate and reliable.\n• Explore opportunities to automate QA processes and improve the efficiency and quality of validation.\n• Build a deep understanding of experimentation methodologies, including A/B testing, monitoring, segmentation, and analysis.\n• Collaborate with BI, Machine Learning, product teams, and other stakeholders to understand requests and shape effective solutions.\n• Contribute to future statistical, algorithmic, and machine learning initiatives as the team’s priorities evolve.\n\nSkills, Knowledge and Expertise\n\n• 3-5 years of professional experience as a Data Scientist or in a closely related role\n• Strong Python skills, including the ability to prototype analyses and write clear, reliable scripts.\n• Solid knowledge of statistics and standard statistical methodologies.\n• Practical understanding of experimentation and A/B testing, including how metrics and results should be calculated and validated.\n• Familiarity with machine learning methods and the ability to apply relevant approaches when needed.\n• Excellent attention to detail and a disciplined approach to repetitive or methodical QA work.\n• Strong problem-solving skills, with the initiative to propose creative solutions and process improvements.\n• Clear communication skills and the ability to explain analytical methods, results, and rationale.\n• Experience with experimentation platforms or high-volume digital products, such as gaming, e-commerce, or ride-hailing, would be valuable.\n• Ability to critically evaluate and validate AI-generated code, analyses, or modelling suggestions to ensure correctness and reproducibility.\n• Experience using AI-assisted tools (e.g. code assistants or analytical copilots) to accelerate data exploration, research prototyping, and development workflows while maintaining scientific and statistical rigor.\n• Interest in exploring AI-driven approaches that improve experimentation platforms, developer productivity, or data science research workflows.\n\nWorking at Tripledot\n\n• 25 days paid holiday in addition to bank holidays to relax and refresh throughout the year\n• Hybrid Working\n• 20 days remote working: Work from anywhere in the world, or use the time to cover mandatory office days to WFH, 20 days of the year.\n• Daily Free Lunch: when in the office you get £12 every day to order from JustEat.\n• Regular company events and rewards: quarterly on-site and off-site events that celebrate cultural events, our achievements and our team spirit.\n• Employee Assistance Program: Anytime you need it, tap into confidential, caring support with our Employee Assistance Program, always here to lend an ear and a helping hand.\n• Family Forming Support: Receive vital support on your family forming/ fertility journey with our support program [subject to policy]\n• Life Assurance & Group Income Cover: Financial protection for you and your loved ones.\n• Continuous Professional Development: Propel your career with continuous opportunities for professional development.…",
+    "site": "tripledotstudios.com",
+    "source": "greenhouse",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python"
+    ]
   },
   {
     "id": "lv-xsolla-4889d04f-0e77-4cdb-8724-fd3a63009f7f",
@@ -1416,7 +1787,12 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Аналитика",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ]
   },
   {
     "id": "gh-2k-games-7710811003",
@@ -1434,25 +1810,38 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Геймплей",
+    "stack": [
+      "Unreal"
+    ]
   },
   {
-    "id": "gh-2k-games-7812710003",
+    "id": "gh-2k-games-7812709003",
     "title": "Lead Level Artist",
     "company": "2K Games",
     "locations": [
-      "Novato, United States"
+      "Montréal, Canada"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-14",
-    "url": "https://job-boards.greenhouse.io/2k/jobs/7812710003",
-    "desc": "As a Lead Level Artist at Cloud Chamber you will join our talented group of developers and lead a team of artists responsible for creating compelling, stylized, high-quality level art and immersive world-building under the guidance of the Art Director and Associate Art Director.\n\nAs a leader, your role is to build and foster a collaborative process, and share your vast knowledge of tools and best practices with your team. As an artist, your years of experience in the games industry have given you a solid understanding of form and composition as well as the ability to skillfully work within constraints and harmoniously collaborate with other departments. You will be asked to use all the tools and experience at your disposal to bring our richly imagined world to life.\n\nWhat You’ll Do:\n\n• Partner with other Art Leads to manage, mentor, and inspire a team of World Builders and Level Artists.\n• Work closely with the Art Director, Associate Art Director, and other Leads to ensure artistic consistency and unity across the project.\n• Collaborate with Design and Narrative Leads to create immersive and believable environments.\n• Design and improve upon the modular systems of architecture for our levels.\n• Provide objective, empathetic feedback and establish realistic development schedules.\n• Manage the day-to-day activities of the World Art Team.\n• Mentor and manage the career growth and development of the artists on your team.\n• Create and manage asset lists in collaboration with internal and external partner teams.\n• Coordinate workflow, support interdisciplinary communication, and facilitate efficient and effective building of the game world.\n\nWhat We’ll Do Together:\n\nAt Cloud Chamber, we are champions of high standards, pushing for progress and embracing change. We will work closely and constructively across design, art, engineering, animation, and audio teams to realize our creative ambitions. Together, we will stay current on technological advancements and identify solutions to overcome developmental obstacles to deliver a world-class AAA experience.\n\nSkills & Experiences:\n\n• 7 or more years of experience in internal game development with an emphasis on environmental art or level architecture.\n• At least 2 shipped titles (UE5/UE4 preferred), one shipped title in a leadership capacity, AAA titles preferred.\n• Prior experience leading other artists and managing their career growth, goal-setting, and overall job performance.\n• Ability to communicate and collaborate across multiple disciplines and locations clearly and effectively.\n• Knowledge of current industry standard tools: 3D Studio Max / Maya, ZBrush, Substance, Photoshop, etc.\n• Recent use of industry standard game editors (UE5 preferred).\n• Experience with industry-standard asset management tools.\n• Ability to support, inspire, and elevate team capabilities.\n• Knowledge of classic drawing and/or painting techniques with the ability to sketch out ideas on paper.\n• Solid awareness and sense of spatial composition and proportions.\n• Understanding of basic architecture.\n• Comfortable working in an iterative design environment.\n\nWho You Are:\n\n• A strong and empathetic leader with proven mentoring skills and a track record of supporting high functioning teams.\n• A reliable, positive force multiplier, actively seeking opportunities to integrate work across disciplines and contribute to a healthy, supportive team environment.\n• A solid communicator with excellent written and verbal communication skills, with the ability to articulate complex ideas clearly, package information for diverse audiences, and deliver difficult feedback with empathy and professionalism.\n• Experienced in working in cross-disciplinary teams with strong communication skills.\n• Persistent and self-motivated with a proactive mindset.\n• Able to maintain effectiveness and quality under pressure, ambiguity, and fast-changing priorities.\n• An active listener able to build and maintain trust-based relationships across all levels of the organization, understand differing perspectives, and navigate organizational complexity with tact and emotional intelligence.\n• Highly open to feedback and direction, possessing a desire to learn new skills, and capable of producing quick, quality revisions based on new insights or constraints.\n• A strong ownership of tasks, striving to drive work forward autonomously while maintaining a critical eye for detail and organization, ensuring high standards of quality.\n• Dedicated to upholding Cloud Chamber's core values, contributing to a positive and respectful company culture while striving for excellence in all endeavors.\n\nWho We Are:\n\nAt Cloud Chamber we strive to make BioShock games that move people: evocative, immersive, and meaningful experiences that stay with you long after you’ve rolled credits. Great games are born from great collaborations, supported by a culture that brings out the best in our teams. We work openly, learn through play, take ownership, push ourselves to be better, and deliver for our players.\n\nAs an equal opportunity employer, we are committed to ensuring that qualified individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, perform their essential job functions, and receive other benefits and privileges of employment. Please contact us if you need reasonable accommodation.\n\nPlease note that 2K Games and its studios never use instant messaging apps or personal email accounts to contact prospective employees or conduct interviews. When emailing prospective employees, we only use 2K.com accounts.…",
+    "url": "https://job-boards.greenhouse.io/2k/jobs/7812709003",
+    "desc": "As a Lead Level Artist at Cloud Chamber you will join our talented group of developers and lead a team of artists responsible for creating compelling, stylized, high-quality level art and immersive world-building under the guidance of the Art Director and Associate Art Director.\n\nAs a leader, your role is to build and foster a collaborative process, and share your vast knowledge of tools and best practices with your team. As an artist, your years of experience in the games industry have given you a solid understanding of form and composition as well as the ability to skillfully work within constraints and harmoniously collaborate with other departments. You will be asked to use all the tools and experience at your disposal to bring our richly imagined world to life.\n\nWhat You’ll Do:\n\n• Partner with other Art Leads to manage, mentor, and inspire a team of World Builders and Level Artists.\n• Work closely with the Art Director, Associate Art Director, and other Leads to ensure artistic consistency and unity across the project.\n• Collaborate with Design and Narrative Leads to create immersive and believable environments.\n• Design and improve upon the modular systems of architecture for our levels.\n• Provide objective, empathetic feedback and establish realistic development schedules.\n• Manage the day-to-day activities of the World Art Team.\n• Mentor and manage the career growth and development of the artists on your team.\n• Create and manage asset lists in collaboration with internal and external partner teams.\n• Coordinate workflow, support interdisciplinary communication, and facilitate efficient and effective building of the game world.\n\nWhat We’ll Do Together:\n\nAt Cloud Chamber, we are champions of high standards, pushing for progress and embracing change. We will work closely and constructively across design, art, engineering, animation, and audio teams to realize our creative ambitions. Together, we will stay current on technological advancements and identify solutions to overcome developmental obstacles to deliver a world-class AAA experience.\n\nSkills & Experiences:\n\n• 7 or more years of experience in internal game development with an emphasis on environmental art or level architecture.\n• At least 2 shipped titles (UE5/UE4 preferred), one shipped title in a leadership capacity, AAA titles preferred.\n• Prior experience leading other artists and managing their career growth, goal-setting, and overall job performance.\n• Ability to communicate and collaborate across multiple disciplines and locations clearly and effectively.\n• Knowledge of current industry standard tools: 3D Studio Max / Maya, ZBrush, Substance, Photoshop, etc.\n• Recent use of industry standard game editors (UE5 preferred).\n• Experience with industry-standard asset management tools.\n• Ability to support, inspire, and elevate team capabilities.\n• Knowledge of classic drawing and/or painting techniques with the ability to sketch out ideas on paper.\n• Solid awareness and sense of spatial composition and proportions.\n• Understanding of basic architecture.\n• Comfortable working in an iterative design environment.\n\nWho You Are:\n\n• A strong and empathetic leader with proven mentoring skills and a track record of supporting high functioning teams.\n• A reliable, positive force multiplier, actively seeking opportunities to integrate work across disciplines and contribute to a healthy, supportive team environment.\n• A solid communicator with excellent written and verbal communication skills, with the ability to articulate complex ideas clearly, package information for diverse audiences, and deliver difficult feedback with empathy and professionalism.\n• Experienced in working in cross-disciplinary teams with strong communication skills.\n• Persistent and self-motivated with a proactive mindset.\n• Able to maintain effectiveness and quality under pressure, ambiguity, and fast-changing priorities.\n• An active listener able to build and maintain trust-based relationships across all levels of the organization, understand differing perspectives, and navigate organizational complexity with tact and emotional intelligence.\n• Highly open to feedback and direction, possessing a desire to learn new skills, and capable of producing quick, quality revisions based on new insights or constraints.\n• A strong ownership of tasks, striving to drive work forward autonomously while maintaining a critical eye for detail and organization, ensuring high standards of quality.\n• Dedicated to upholding Cloud Chamber's core values, contributing to a positive and respectful company culture while striving for excellence in all endeavors.\n\nWho We Are:\n\nAt Cloud Chamber we strive to make BioShock games that move people: evocative, immersive, and meaningful experiences that stay with you long after you’ve rolled credits. Great games are born from great collaborations, supported by a culture that brings out the best in our teams. We work openly, learn through play, take ownership, push ourselves to be better, and deliver for our players.\n\nFor candidates located in Quebec:\nThis position requires professional proficiency in both French and English. Proficiency in English is required to collaborate with our U.S. teams and international partners, as well as to handle specialized technical documentation (reading, writing, and communication).\n\nAs an equal opportunity employer, we are committed to ensuring that qualified individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, perform their essential job functions, and receive other benefits and privileges of employment. Please contact us if you need reasonable accommodation.\n\nPlease note that 2K Games and its studios never use instant messaging apps or personal email accounts to contact prospective employees or conduct interviews. When emailing prospective employees, we only use 2K.com accounts.",
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Арт",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Unity",
+      "Unreal",
+      "Maya",
+      "ZBrush",
+      "Substance",
+      "Photoshop"
+    ]
   },
   {
     "id": "gh-2k-games-7801202003",
@@ -1470,7 +1859,12 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Нарратив",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Unreal",
+      "C++"
+    ]
   },
   {
     "id": "gh-tripledot-belka-4951559101",
@@ -1488,7 +1882,11 @@ window.JOBS = [
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "role": "QA",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unity"
+    ]
   },
   {
     "id": "gh-outfit7-7766013003",
@@ -1508,7 +1906,9 @@ window.JOBS = [
     "site": "outfit7.com",
     "source": "greenhouse",
     "role": "Маркетинг",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-2k-games-7808524003",
@@ -1526,7 +1926,11 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Арт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unreal"
+    ]
   },
   {
     "id": "gh-2k-games-5978842003",
@@ -1544,7 +1948,9 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": "Геймплей",
+    "stack": []
   },
   {
     "id": "gh-2k-games-7749619003",
@@ -1562,7 +1968,12 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Геймплей",
+    "stack": [
+      "Unreal",
+      "C++"
+    ]
   },
   {
     "id": "gh-2k-games-7835808003",
@@ -1580,7 +1991,15 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Арт",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unreal",
+      "Maya",
+      "ZBrush",
+      "Substance",
+      "Photoshop"
+    ]
   },
   {
     "id": "gh-2k-games-7803231003",
@@ -1598,7 +2017,14 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Анимация",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unreal",
+      "C++",
+      "C#",
+      "Python"
+    ]
   },
   {
     "id": "gh-2k-games-7651054003",
@@ -1616,7 +2042,12 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "Геймплей",
+    "stack": [
+      "Unreal",
+      "C++"
+    ]
   },
   {
     "id": "gh-2k-games-7812947003",
@@ -1634,7 +2065,16 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "Данные и ML",
+    "stack": [
+      "Unity",
+      "Unreal",
+      "C++",
+      "Python",
+      "Java",
+      "AWS"
+    ]
   },
   {
     "id": "gh-2k-games-7748410003",
@@ -1652,7 +2092,15 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unreal",
+      "C++",
+      "Python",
+      "AWS",
+      "Kubernetes"
+    ]
   },
   {
     "id": "gh-2k-games-7778375003",
@@ -1670,7 +2118,11 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "Движок",
+    "stack": [
+      "Unreal"
+    ]
   },
   {
     "id": "gh-2k-games-7787506003",
@@ -1688,41 +2140,56 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Аналитика",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ]
   },
   {
-    "id": "gh-tripledot-belka-4861470101",
+    "id": "gh-tripledot-belka-4861471101",
     "title": "Playable Ads Developer",
     "company": "Tripledot / Belka",
     "locations": [
-      "Warsaw"
+      "Barcelona"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-12",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4861470101",
-    "desc": "Who are we?\n\nTripledot Studios is one of the largest independent mobile games companies in the world.\n\nWe are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios.\n\nOur expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users.\n\nTripledot’s guiding principle is that when people love what they do, what they do will be loved by others.\n\nWe’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games.\n\nOur ambition is to be the most successful games company in the world, and we’re just getting started.\n\nWe are looking for a AI Playable Ad Developer. To succeed in this role, you will need to offer a great gaming demo experience for a very large audience. You will be converting our existing games into playable HTML5 games and creating tools to ease basic advertising creation.\n\nKey Responsibilities\n\n• Developing creative ads in Playable Ads format\n• Optimize playable ads for best user experience, scalability and adaptability\n• Collaborate with the marketing team, creative producer, artists, and animators\n\nRequired Skills, Knowledge and Expertise\n\n• 3+ years of experience developing Playable Ads or HTML games\n• Good knowledge of JavaScript\n• Good understanding and practical use of AI tools in Playables development\n• Interest in creating and improving AI-based tools and workflows\n• Willingness to learn, grow, and explore new technologies\n• Creative mindset and passion for building engaging Playables\n• Familiarity with HTML5, CSS and cross-platform composition\n• Adaptive composition and JS and CSS animation experience\n• The ability to work with Git\n• Examples of Playable Ads in your portfolio\n\nWorking at Tripledot\n\n• 26 days holiday: Enjoy 26 days of paid holiday in addition to national/bank holidays to relax and refresh throughout the year.\n• Hybrid Working\n• 20 days fully remote working: Work from anywhere in the world, 20 days of the year.\n• Regular company events and rewards: Join in regular events and rewards that celebrate cultural events, our achievements and our team spirit.\n• Private Medical Cover: Have peace of mind with private medical cover, ensuring your and your family's health is in good hands.\n• Daily Free Lunch: Order free food from Pyszne.pl\n• Multisport Plus Card: Enjoy access to various sports facilities across Warsaw with the Multisport Plus Card.\n• Employee Assistance Program: Anytime you need it, tap into confidential, caring support with our Employee Assistance Program, always here to lend an ear and a helping hand.\n• Family Forming Support: Receive vital support on your family forming/ fertility journey with our support program [subject to policy]\n• Continuous Professional Development: Propel your career with continuous opportunities for professional development.\n• Office Playroom: Unwind and recharge in our fun and relaxing office playroom.\n• English & Polish Classes: Improve your language skills with access to English and Polish classes.\n\nThis organization operates in compliance with the Whistleblower Act, for more information or to report violations please email whistleblowerpoland@tripledotstudios.com",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4861471101",
+    "desc": "Who are we?\n\nTripledot Studios is one of the largest independent mobile games companies in the world.\n\nWe are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios.\n\nOur expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users.\n\nTripledot’s guiding principle is that when people love what they do, what they do will be loved by others.\n\nWe’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games.\n\nOur ambition is to be the most successful games company in the world, and we’re just getting started.\n\nWe are looking for a AI Playable Ad Developer. To succeed in this role, you will need to offer a great gaming demo experience for a very large audience. You will be converting our existing games into playable HTML5 games and creating tools to ease basic advertising creation.\n\nKey Responsibilities\n\n• Developing creative ads in Playable Ads format\n• Optimize playable ads for best user experience, scalability and adaptability\n• Collaborate with the marketing team, creative producer, artists, and animators\n\nRequired Skills, Knowledge and Expertise\n\n• 3+ years of experience developing Playable Ads or HTML games\n• Good knowledge of JavaScript\n• Good understanding and practical use of AI tools in Playables development\n• Interest in creating and improving AI-based tools and workflows\n• Willingness to learn, grow, and explore new technologies\n• Creative mindset and passion for building engaging Playables\n• Familiarity with HTML5, CSS and cross-platform composition\n• Adaptive composition and JS and CSS animation experience\n• The ability to work with Git\n• Examples of Playable Ads in your portfolio\n\nWorking at Tripledot\n\n• 25 days paid holiday in addition to bank holidays to relax and refresh throughout the year\n• Hybrid Working\n• 20 days remote working: Work from anywhere in the world, or use the time to cover mandatory office days to WFH, 20 days of the year.\n• Regular company events and rewards: Join in regular events and rewards that celebrate cultural events, our achievements and our team spirit.\n• Private Medical Cover: Have peace of mind with private medical cover, ensuring your health is in good hands.\n• Life & Critical Illness Cover: Protect your future with our life and critical illness cover.\n• Family Forming Support: Receive vital support on your family forming/ fertility journey with our support program [subject to policy]\n• Employee Assistance Program: Access confidential support anytime through our Employee Assistance Program.\n• Sport Compensation: Stay fit and active with our sport compensation benefit.\n• Meal and Transport Vouchers: Save on meals and transport with our convenient vouchers.\n• English & Spanish Classes: Enhance your English and Spanish skills with our provided language classes.\n• Continuous Professional Development: Propel your career with continuous opportunities for professional development.",
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Фронтенд",
+    "stack": [
+      "JavaScript"
+    ]
   },
   {
-    "id": "gh-tripledot-belka-4945322101",
+    "id": "gh-tripledot-belka-4901455101",
     "title": "Playable Ads Developer (PeopleFun)",
     "company": "Tripledot / Belka",
-    "locations": [],
-    "remote": true,
-    "rkind": "zone",
+    "locations": [
+      "Tblisi"
+    ],
+    "remote": false,
+    "rkind": null,
     "salary": null,
     "posted": "2026-08-12",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4945322101",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4901455101",
     "desc": "Who are we?\n\nTripledot Studios is one of the largest independent mobile games companies in the world.\n\nWe are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios.\n\nOur expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users.\n\nTripledot’s guiding principle is that when people love what they do, what they do will be loved by others.\n\nWe’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games.\n\nOur ambition is to be the most successful games company in the world, and we’re just getting started.\n\nThe role is working within our PeopleFun studio.\n\nPeopleFun is an award-winning creator of mobile games for players across the globe. PeopleFun is a Dallas-based game studio founded and led by game industry veterans, where game developers thrive on collaboration, creativity, teamwork, and fun. Our games are played by over 25 million players each month, and we have a number of exciting mobile games in development to fuel the future growth of PeopleFun.\n\nWe believe in bringing People together through Fun by creating the best in class social features and communities in our games that enables our players to engage deeply with other players. Secondly we endeavor to bring our studio teammates together by creating the very best game teams that foster healthy collaboration, incredible productivity, and life-long professional relationships.\n\nRole Overview\n\nWe're looking for a Playable Ad Developer to own playable ad production across all games at PeopleFun. You'll convert our existing titles into HTML5 playable experiences, build tools and processes that scale production and actively use AI to increase output and quality. This is a hands-on role with real scope - you're not just executing briefs, you're helping shape how we build playables as a studio.\n\nKey Responsibilities\n\n• Own the end-to-end creation of playable ads across all PeopleFun games\n• Build scalable processes and tooling to increase production volume and consistency\n• Leverage AI tools to speed up and improve playable ad development\n• Optimise playables for user experience, performance and cross-platform compatibility\n• Collaborate with marketing, creative producers, artists and animators\n\nRequired Skills, Knowledge and Expertise\n\n• 2+ years of experience developing Playable Ads or HTML games\n• Good knowledge of JavaScript, with experience in CSS, HTML5 and cross-platform composition\n• Hands-on use of AI tools in development workflow\n• Experience with adaptive composition and JS/CSS animation\n• Comfortable working with Git\n• Curious, self-driven and eager to explore new tools and approaches\n• Portfolio of playable ads (required)",
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Фронтенд",
+    "stack": [
+      "JavaScript"
+    ]
   },
   {
     "id": "lv-xsolla-c6f428b4-e648-41a4-b4d7-4707a4ad4802",
@@ -1740,7 +2207,12 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Арт",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Unity",
+      "Unreal"
+    ]
   },
   {
     "id": "gh-nordeus-8088472",
@@ -1758,7 +2230,12 @@ window.JOBS = [
     "site": "nordeus.com",
     "source": "greenhouse",
     "role": "Арт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Photoshop",
+      "Figma"
+    ]
   },
   {
     "id": "gh-nordeus-8090556",
@@ -1776,7 +2253,9 @@ window.JOBS = [
     "site": "nordeus.com",
     "source": "greenhouse",
     "role": "QA",
-    "grade": "Junior"
+    "grade": "Junior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-2k-games-7856220003",
@@ -1794,7 +2273,16 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": "Инструменты",
+    "stack": [
+      "Unity",
+      "Unreal",
+      "C++",
+      "C#",
+      "Python",
+      "JavaScript"
+    ]
   },
   {
     "id": "gh-2k-games-7763604003",
@@ -1812,7 +2300,12 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Анимация",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unreal",
+      "C++"
+    ]
   },
   {
     "id": "gh-hangar-13-7760450003",
@@ -1830,7 +2323,12 @@ window.JOBS = [
     "site": "hangar13games.com",
     "source": "greenhouse",
     "role": "Анимация",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unreal",
+      "C++"
+    ]
   },
   {
     "id": "gh-outfit7-6685260003",
@@ -1850,7 +2348,9 @@ window.JOBS = [
     "site": "outfit7.com",
     "source": "greenhouse",
     "role": "Маркетинг",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-2k-games-7731213003",
@@ -1868,7 +2368,13 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Технический художник",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unity",
+      "Unreal",
+      "Python"
+    ]
   },
   {
     "id": "gh-2k-games-7742025003",
@@ -1886,7 +2392,15 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "VFX",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unreal",
+      "Maya",
+      "Houdini",
+      "Substance",
+      "Photoshop"
+    ]
   },
   {
     "id": "gh-2k-games-7714527003",
@@ -1904,7 +2418,16 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Арт",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Unreal",
+      "Maya",
+      "Blender",
+      "Houdini",
+      "ZBrush",
+      "Substance"
+    ]
   },
   {
     "id": "gh-2k-games-7812741003",
@@ -1923,7 +2446,11 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Маркетинг",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unreal"
+    ]
   },
   {
     "id": "gh-2k-games-7742031003",
@@ -1941,7 +2468,9 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Маркетинг",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-2k-games-7772137003",
@@ -1960,7 +2489,13 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Арт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unreal",
+      "Perforce",
+      "Wwise"
+    ]
   },
   {
     "id": "gh-2k-games-7762602003",
@@ -1978,7 +2513,9 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": "Данные и ML",
+    "stack": []
   },
   {
     "id": "gh-2k-games-7655939003",
@@ -1996,7 +2533,12 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Геймплей",
+    "stack": [
+      "Unreal",
+      "C++"
+    ]
   },
   {
     "id": "gh-2k-games-7740629003",
@@ -2014,25 +2556,11 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": "Junior"
-  },
-  {
-    "id": "gh-2k-games-7770708003",
-    "title": "Lead Animator",
-    "company": "2K Games",
-    "locations": [
-      "San Mateo, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-11",
-    "url": "https://job-boards.greenhouse.io/2k/jobs/7770708003",
-    "desc": "Who We are:\n\nWe are a diverse team of developers driven by a passion for our art, united by our core values and inspired by a culture of inclusivity to build amazing games that thrill players everywhere. We pursue growth and innovation in an environment of safety and trust. Our culture is built on the belief that the more varied voices in our collective will strengthen our team and our games. We are looking for our next teammate who will raise our bar and make us better.\n\nWhat We Need:\n\nWe are seeking a Lead Animator to lead by example through high-quality animation work while gaining leadership duties. You will help drive the project’s visual style by providing regular feedback, mentoring team members, and contributing to the overall quality and success of the team’s output. In this role, you’ll collaborate closely with technical artists, game designers, producers, engineers, animators, and other cross-functional partners to bring creative ideas and gameplay experiences to life.\n\nWhat You’ll Do:\n\n• Create high-quality in-game animations that support responsive, polished gameplay.\n• Implement animations directly in Unreal using the project’s animation system and Blueprints.\n• Set up animation blends, overlays, events, and related systems in Unreal.\n• Iterate on animation and player feel through playtesting and hands-on tuning.\n• Develop quick animation prototypes for new gameplay features, such as combat abilities, character actions, or animatic sequences.\n• Help define, maintain, and elevate the animation style and quality bar by creating clear examples, documenting standards, and sharing best practices with the team.\n• Provide regular feedback in partnership with the Animation Director, mentoring animators, onboarding and developing team members, and serving as a trusted resource for creative guidance and support.\n• Interpret and translate direction from directors and creative leads into clear, actionable animation goals.\n• Help to organize and assign sub-team tasks based on individual strengths and project deadlines, assisting the Director in creating realistic timelines that balance delivery with team growth.\n• Partner with Technical Animation to explore and refine locomotion and overall character motion, ensuring the smoothest and most polished player experience possible.\n• Collaborate closely with Production on roadmap planning, task estimation, and risk assessment, while balancing competing priorities and adjusting workflows to accommodate evolving project requirements.\n• Escalate issues to the Animation Director when artistic decisions or direction are needed.\n\nWhat Will Make You a Great Fit:\n\n• 6–8+ years of experience in game development, including at least one shipped AAA title in an animation role.\n• 2–4+ years of experience in a leadership role and/or mentoring experience.\n• Familiar with Unreal Engine, including animation systems, asset integration, and runtime considerations, with advanced knowledge of Maya.\n• Nimble and able to prioritize and problem-solve quickly, while responding effectively to creative redirection.\n• Strong collaboration and communication skills within and across fields, with a proactive, solution-oriented mindset.\n• An animation reel that demonstrates high-quality hand-keyed animation.\n• Experience working with Perforce and managing assets in large-scale, multi-team environments.\n\nBonus Qualifications:\n\n• Experience leveraging Google Sheets/Excel to organize asset inventories, monitor production status, and facilitate coordination and visibility across departments.\n• Experience creating cinematic sequences, character performances, and story-driven animation that enhances narrative and emotional impact.\n\nThe pay range for this position in California at the start of employment is expected to be between $123,200 and $182,360 per year. However, base pay offered is based on market location, and may vary further depending on individualized factors for job candidates, such as job-related knowledge, skills, experience, and other objective business considerations.\n\nSubject to those same considerations, the total compensation package for this position may also include other elements, including a bonus and/or equity awards and eligibility to participate in our 401(K) plan and Employee Stock Purchase Program.\n\nRegular, full-time employees are also eligible for a range of benefits at the Company, including: medical, dental, vision, and basic life insurance coverage; 14 paid holidays per calendar year; paid vacation time per calendar year (ranging from 15 to 25 days) or eligibility to participate in the Company’s discretionary time off program; up to 10 paid sick days per calendar year; paid parental and compassionate leave; wellbeing programs for mental health and other wellness support; family planning support through Maven; commuter benefits; and reimbursements for fitness-related expenses. Ontario only: The use of Artificial Intelligence is not being used to screen candidates. The position is for an existing vacancy.\n\n#LI-Onsite\n#LI-Hybrid",
-    "site": "2k.com",
-    "source": "greenhouse",
-    "role": "Анимация",
-    "grade": "Lead"
+    "grade": "Junior",
+    "spec": null,
+    "stack": [
+      "C++"
+    ]
   },
   {
     "id": "gh-2k-games-7533148003",
@@ -2050,7 +2578,13 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Технический художник",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Unreal",
+      "Houdini",
+      "Substance"
+    ]
   },
   {
     "id": "gh-2k-games-7677521003",
@@ -2068,7 +2602,12 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Unreal",
+      "C++"
+    ]
   },
   {
     "id": "gh-2k-games-7790808003",
@@ -2086,7 +2625,9 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Маркетинг",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-2k-games-7651061003",
@@ -2104,7 +2645,9 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Маркетинг",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-2k-games-7764371003",
@@ -2122,7 +2665,15 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Анимация",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Unreal",
+      "C++",
+      "Python",
+      "Maya",
+      "Houdini"
+    ]
   },
   {
     "id": "gh-2k-games-7807546003",
@@ -2140,7 +2691,9 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Продюсирование",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-2k-games-7793437003",
@@ -2158,7 +2711,9 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Продюсирование",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-2k-games-7788943003",
@@ -2178,7 +2733,9 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Продюсирование",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-2k-games-6520855003",
@@ -2196,7 +2753,9 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Маркетинг",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-2k-games-7812714003",
@@ -2214,7 +2773,12 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "Данные и ML",
+    "stack": [
+      "Python",
+      "SQL"
+    ]
   },
   {
     "id": "gh-2k-games-7750300003",
@@ -2232,7 +2796,13 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "Бэкенд",
+    "stack": [
+      "C++",
+      "Python",
+      "SQL"
+    ]
   },
   {
     "id": "gh-2k-games-7772141003",
@@ -2250,7 +2820,11 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Аналитика",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "SQL"
+    ]
   },
   {
     "id": "gh-2k-games-7560589003",
@@ -2268,7 +2842,15 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "Бэкенд",
+    "stack": [
+      "C++",
+      "Python",
+      "Java",
+      "SQL",
+      "AWS"
+    ]
   },
   {
     "id": "gh-2k-games-7724805003",
@@ -2286,7 +2868,13 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Аналитика",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unreal",
+      "C++",
+      "SQL"
+    ]
   },
   {
     "id": "gh-2k-games-7533066003",
@@ -2304,7 +2892,12 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Анимация",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unreal",
+      "C++"
+    ]
   },
   {
     "id": "gh-2k-games-7512739003",
@@ -2322,7 +2915,9 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "Геймплей",
+    "stack": []
   },
   {
     "id": "gh-2k-games-7813375003",
@@ -2340,7 +2935,12 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "Геймплей",
+    "stack": [
+      "Unreal",
+      "C++"
+    ]
   },
   {
     "id": "gh-2k-games-7731297003",
@@ -2358,25 +2958,33 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Арт",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unreal"
+    ]
   },
   {
-    "id": "gh-2k-games-7793262003",
+    "id": "gh-2k-games-7793261003",
     "title": "Senior Level Designer",
     "company": "2K Games",
     "locations": [
-      "Novato, United States"
+      "Montréal, Canada"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-11",
-    "url": "https://job-boards.greenhouse.io/2k/jobs/7793262003",
-    "desc": "As a Senior Level Designer at Cloud Chamber, you will be responsible for blocking out the world and crafting the player experience within the stunning narrative experience and systems-driven world of BioShock. At your core you are collaborative, compassionate, and authentic; a dedicated designer with a passion for creating memorable, immersive player experiences. You will be an integral part of a design team that is breathing life into a new and fantastical world.\n\nWhat You’ll Do:\n\n• Use Blueprint scripting to create gameplay content.\n• Design and block out world geometry.\n• Collaborate closely with world architects on layout, and other teams as needed, to implement the creative vision of the project.\n• Take the initiative on solving difficult or novel cross-disciplinary sequences or sections of content, and see them through from initial conception to completion.\n• Work with multi-disciplinary strike teams to improve the game in various focus areas (combat, AI, progression, exploration, narrative, etc).\n• Apply your years of experience and knowledge to mentor junior designers and encourage them to grow their skills.\n• Design and implement other scripted and systemic content throughout the game world.\n\nWhat We’ll Do Together:\n\nAt Cloud Chamber, we are champions of high standards, pushing for progress and embracing change. We will work closely and constructively across design, art, engineering, animation, and audio teams to realize our creative ambitions. Together, we will stay current on technological advancements and identify solutions to overcome developmental obstacles to deliver a world-class AAA experience.\n\nSkills & Experiences:\n\n• Shipped at least one AAA title as a designer.\n• 5+ years professional experience in video game design.\n• Self-motivated with an eye for solution-based problem solving.\n• Previous experience with Unreal is a plus.\n• Able to collaborate well across time zones in a global, multi-site organization.\n• Able to work well independently, in small pods, and in larger collaborative teams.\n• Able to succinctly and effectively document your work.\n• Excellent communications skills.\n• Ability to prioritize tasks and handle opposing priorities.\n\nWho You Are:\n\nAs a collaboratively minded designer you are eager to work with a global design team to pitch and develop playable game content. You are a dreamer and a creator who isn't shy about sharing your ideas. At Cloud Chamber we encourage design theory discourse and the free exchange of ideas. You’re able to give constructive feedback, and receive it as well. You’re a gamer; always playing the next, new thing, often revisiting the oldies as well, learning from what you’ve played, good and bad, and sharing your findings with the team.\n\n• A reliable, positive force multiplier, actively seeking opportunities to integrate work across disciplines and contribute to a healthy, supportive team environment.\n• A solid communicator with excellent written and verbal communication skills, with the ability to articulate complex ideas clearly, package information for diverse audiences, and deliver difficult feedback with empathy and professionalism.\n• Experienced in working in cross-disciplinary teams with strong communication skills.\n• Persistent and self-motivated with a proactive mindset.\n• Able to maintain effectiveness and quality under pressure, ambiguity, and fast-changing priorities.\n• An active listener able to build and maintain trust-based relationships across all levels of the organization, understand differing perspectives, and navigate organizational complexity with tact and emotional intelligence.\n• Highly open to feedback and direction, possessing a desire to learn new skills, and capable of producing quick, quality revisions based on new insights or constraints.\n• A strong ownership of tasks, striving to drive work forward autonomously while maintaining a critical eye for detail and organization, ensuring high standards of quality.\n• Dedicated to upholding Cloud Chamber's core values, contributing to a positive and respectful company culture while striving for excellence in all endeavors.\n\nWho We Are:\n\nAt Cloud Chamber we strive to make BioShock games that move people: evocative, immersive, and meaningful experiences that stay with you long after you’ve rolled credits. Great games are born from great collaborations, supported by a culture that brings out the best in our teams. We work openly, learn through play, take ownership, push ourselves to be better, and deliver for our players.\n\nThe pay range for this position in California at the start of employment is expected to be between $100,200 and $148,320 USD per Year. However, base pay offered is based on market location, and may vary further depending on individualized factors for job candidates, such as job-related knowledge, skills, experience, and other objective business considerations. Subject to those same considerations, the total compensation package for this position may also include other elements, including a bonus and/or equity awards and eligibility to participate in our 401(K) plan and Employee Stock Purchase Program. Regular, full-time employees are also eligible for a range of benefits at the Company, including: medical, dental, vision, and basic life insurance coverage; 14 paid holidays per calendar year; paid vacation time per calendar year (ranging from 15 to 25 days) or eligibility to participate in the Company's discretionary time off program; up to 10 paid sick days per calendar year; paid parental and compassionate leave; wellbeing programs for mental health and other wellness support; family planning support through Maven; commuter benefits; and reimbursements for fitness-related expenses.\n\nFor candidates located in Quebec:…",
+    "url": "https://job-boards.greenhouse.io/2k/jobs/7793261003",
+    "desc": "As a Senior Level Designer at Cloud Chamber, you will be responsible for blocking out the world and crafting the player experience within the stunning narrative experience and systems-driven world of BioShock. At your core you are collaborative, compassionate, and authentic; a dedicated designer with a passion for creating memorable, immersive player experiences. You will be an integral part of a design team that is breathing life into a new and fantastical world.\n\nWhat You’ll Do:\n\n• Use Blueprint scripting to create gameplay content.\n• Design and block out world geometry.\n• Collaborate closely with world architects on layout, and other teams as needed, to implement the creative vision of the project.\n• Take the initiative on solving difficult or novel cross-disciplinary sequences or sections of content, and see them through from initial conception to completion.\n• Work with multi-disciplinary strike teams to improve the game in various focus areas (combat, AI, progression, exploration, narrative, etc).\n• Apply your years of experience and knowledge to mentor junior designers and encourage them to grow their skills.\n• Design and implement other scripted and systemic content throughout the game world.\n\nWhat We’ll Do Together:\n\nAt Cloud Chamber, we are champions of high standards, pushing for progress and embracing change. We will work closely and constructively across design, art, engineering, animation, and audio teams to realize our creative ambitions. Together, we will stay current on technological advancements and identify solutions to overcome developmental obstacles to deliver a world-class AAA experience.\n\nSkills & Experiences:\n\n• Shipped at least one AAA title as a designer.\n• 5+ years professional experience in video game design.\n• Self-motivated with an eye for solution-based problem solving.\n• Previous experience with Unreal is a plus.\n• Able to collaborate well across time zones in a global, multi-site organization.\n• Able to work well independently, in small pods, and in larger collaborative teams.\n• Able to succinctly and effectively document your work.\n• Excellent communications skills.\n• Ability to prioritize tasks and handle opposing priorities.\n\nWho You Are:\n\nAs a collaboratively minded designer you are eager to work with a global design team to pitch and develop playable game content. You are a dreamer and a creator who isn't shy about sharing your ideas. At Cloud Chamber we encourage design theory discourse and the free exchange of ideas. You’re able to give constructive feedback, and receive it as well. You’re a gamer; always playing the next, new thing, often revisiting the oldies as well, learning from what you’ve played, good and bad, and sharing your findings with the team.\n\n• A reliable, positive force multiplier, actively seeking opportunities to integrate work across disciplines and contribute to a healthy, supportive team environment.\n• A solid communicator with excellent written and verbal communication skills, with the ability to articulate complex ideas clearly, package information for diverse audiences, and deliver difficult feedback with empathy and professionalism.\n• Experienced in working in cross-disciplinary teams with strong communication skills.\n• Persistent and self-motivated with a proactive mindset.\n• Able to maintain effectiveness and quality under pressure, ambiguity, and fast-changing priorities.\n• An active listener able to build and maintain trust-based relationships across all levels of the organization, understand differing perspectives, and navigate organizational complexity with tact and emotional intelligence.\n• Highly open to feedback and direction, possessing a desire to learn new skills, and capable of producing quick, quality revisions based on new insights or constraints.\n• A strong ownership of tasks, striving to drive work forward autonomously while maintaining a critical eye for detail and organization, ensuring high standards of quality.\n• Dedicated to upholding Cloud Chamber's core values, contributing to a positive and respectful company culture while striving for excellence in all endeavors.\n\nWho We Are:\n\nAt Cloud Chamber we strive to make BioShock games that move people: evocative, immersive, and meaningful experiences that stay with you long after you’ve rolled credits. Great games are born from great collaborations, supported by a culture that brings out the best in our teams. We work openly, learn through play, take ownership, push ourselves to be better, and deliver for our players.\n\nFor candidates located in Quebec:\nThis position requires professional proficiency in both French and English. Proficiency in English is required to collaborate with our U.S. teams and international partners, as well as to handle specialized technical documentation (reading, writing, and communication).\n\nAs an equal opportunity employer, we are committed to ensuring that qualified individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, perform their essential job functions, and receive other benefits and privileges of employment. Please contact us if you need reasonable accommodation.\n\nPlease note that 2K Games and its studios never use instant messaging apps or personal email accounts to contact prospective employees or conduct interviews. When emailing prospective employees, we only use 2K.com accounts.",
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Геймдизайн",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unreal"
+    ]
   },
   {
     "id": "gh-2k-games-7629738003",
@@ -2394,7 +3002,9 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Маркетинг",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-2k-games-7780015003",
@@ -2412,7 +3022,9 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Маркетинг",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-2k-games-7655923003",
@@ -2430,7 +3042,9 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Маркетинг",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-2k-games-7803064003",
@@ -2448,7 +3062,9 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Продюсирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-2k-games-7766934003",
@@ -2466,7 +3082,12 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "Движок",
+    "stack": [
+      "Unreal",
+      "C++"
+    ]
   },
   {
     "id": "gh-2k-games-7767183003",
@@ -2484,7 +3105,12 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unreal",
+      "Perforce"
+    ]
   },
   {
     "id": "gh-2k-games-7768394003",
@@ -2502,7 +3128,15 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "VFX",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unreal",
+      "Maya",
+      "Houdini",
+      "Substance",
+      "Photoshop"
+    ]
   },
   {
     "id": "gh-2k-games-7814032003",
@@ -2520,7 +3154,13 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unity",
+      "Unreal",
+      "C++"
+    ]
   },
   {
     "id": "gh-2k-games-7728474003",
@@ -2538,7 +3178,11 @@ window.JOBS = [
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Аналитика",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "AWS"
+    ]
   },
   {
     "id": "gh-hangar-13-7527472003",
@@ -2556,7 +3200,13 @@ window.JOBS = [
     "site": "hangar13games.com",
     "source": "greenhouse",
     "role": "Технический художник",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Unreal",
+      "Houdini",
+      "Substance"
+    ]
   },
   {
     "id": "gh-hangar-13-7760443003",
@@ -2574,7 +3224,15 @@ window.JOBS = [
     "site": "hangar13games.com",
     "source": "greenhouse",
     "role": "Анимация",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Unreal",
+      "C++",
+      "Python",
+      "Maya",
+      "Houdini"
+    ]
   },
   {
     "id": "gh-hangar-13-7790812003",
@@ -2592,7 +3250,9 @@ window.JOBS = [
     "site": "hangar13games.com",
     "source": "greenhouse",
     "role": "Продюсирование",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-hangar-13-7528605003",
@@ -2610,7 +3270,12 @@ window.JOBS = [
     "site": "hangar13games.com",
     "source": "greenhouse",
     "role": "Анимация",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unreal",
+      "C++"
+    ]
   },
   {
     "id": "gh-hangar-13-7762610003",
@@ -2628,7 +3293,12 @@ window.JOBS = [
     "site": "hangar13games.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "Движок",
+    "stack": [
+      "Unreal",
+      "C++"
+    ]
   },
   {
     "id": "gh-visual-concepts-6588311003",
@@ -2646,7 +3316,11 @@ window.JOBS = [
     "site": "visualconcepts.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": "Junior"
+    "grade": "Junior",
+    "spec": null,
+    "stack": [
+      "C++"
+    ]
   },
   {
     "id": "gh-visual-concepts-7750291003",
@@ -2664,7 +3338,13 @@ window.JOBS = [
     "site": "visualconcepts.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "Бэкенд",
+    "stack": [
+      "C++",
+      "Python",
+      "SQL"
+    ]
   },
   {
     "id": "gh-visual-concepts-4619436003",
@@ -2682,7 +3362,15 @@ window.JOBS = [
     "site": "visualconcepts.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "Бэкенд",
+    "stack": [
+      "C++",
+      "Python",
+      "Java",
+      "SQL",
+      "AWS"
+    ]
   },
   {
     "id": "gh-tripledot-belka-4947778101",
@@ -2700,7 +3388,12 @@ window.JOBS = [
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "role": "Поддержка",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "AWS"
+    ]
   },
   {
     "id": "rc-huuuge-games-2702969",
@@ -2718,7 +3411,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": "huuugegames.com",
     "role": "Маркетинг",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-larian-studios-3281647f-284e-4c59-8690-733c359b227b",
@@ -2736,7 +3431,9 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-tripledot-belka-4870239101",
@@ -2754,7 +3451,12 @@ window.JOBS = [
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "role": "Арт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unity",
+      "Photoshop"
+    ]
   },
   {
     "id": "gh-tripledot-belka-4943845101",
@@ -2772,7 +3474,11 @@ window.JOBS = [
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "role": "Поддержка",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Photoshop"
+    ]
   },
   {
     "id": "gh-tripledot-belka-4941466101",
@@ -2790,81 +3496,16 @@ window.JOBS = [
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Данные и ML",
+    "stack": [
+      "Python",
+      "SQL"
+    ]
   },
   {
-    "id": "gh-tripledot-belka-4939207101",
-    "title": "Data Scientist",
-    "company": "Tripledot / Belka",
-    "locations": [
-      "Jakarta"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-06",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4939207101",
-    "desc": "Who are we?\n\nTripledot Studios is one of the largest independent mobile games companies in the world.\n\nWe are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios.\n\nOur expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users.\n\nTripledot’s guiding principle is that when people love what they do, what they do will be loved by others.\n\nWe’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games.\n\nOur ambition is to be the most successful games company in the world, and we’re just getting started.\n\nThe role is working within our studio: Tripledot Games\n\nAbout Tripledot Games\n\nTripledot Games is a leading developer and publisher of casual and puzzle games, with a strong presence in London, Warsaw, and Barcelona. The studio is responsible for multiple top 10 titles, including Woodoku, Woodoku Blast, Solitaire, and TripleTile. Our best-in-class data-driven approach spans the entire lifecycle from publishing to machine learning puzzle levels, helping us make fast, smart decisions at every stage of development.\n\nWe are also one of the largest IAA operators worldwide. Tripledot Games is a diverse and collaborative studio, home to people from over 36 nationalities. We take pride in our craftsmanship, strong focus on outcomes, and continuous improvement, building high-quality, scalable games that players around the world love.\n\nRole Overview\n\nAs a Data Scientist in our Experimentation team, you will help deliver and improve Tripledot’s company-wide experimentation analysis platform. Working closely with Data Engineering, you will define the statistical logic and methodologies behind platform features, build prototypes in Python, and ensure the platform produces accurate, reliable results for product teams across our games portfolio.\n\nYour initial focus will include hands-on quality assurance: running independent analyses, comparing results with platform outputs, investigating discrepancies, and validating features and metrics. This offers the opportunity to develop deep expertise in experimentation and A/B testing across a sophisticated internal platform. As the platform evolves, the role will expand into more advanced statistical and machine learning work that delivers value across the business.\n\nKey Responsibilities\n\n• Define statistical logic, calculation methods, and detailed requirements for experimentation platform features.\n• Prototype statistical methodologies and analyses in Python before implementation.\n• Partner closely with Data Engineers as they develop and improve the experimentation platform.\n• Perform thorough data and feature QA by independently calculating results and comparing them with platform outputs.\n• Investigate discrepancies, identify root causes, and help ensure metrics and analyses are accurate and reliable.\n• Explore opportunities to automate QA processes and improve the efficiency and quality of validation.\n• Build a deep understanding of experimentation methodologies, including A/B testing, monitoring, segmentation, and analysis.\n• Collaborate with BI, Machine Learning, product teams, and other stakeholders to understand requests and shape effective solutions.\n• Contribute to future statistical, algorithmic, and machine learning initiatives as the team’s priorities evolve.\n\nSkills, Knowledge and Expertise\n\n• 3-5 years of professional experience as a Data Scientist or in a closely related role\n• Strong Python skills, including the ability to prototype analyses and write clear, reliable scripts.\n• Solid knowledge of statistics and standard statistical methodologies.\n• Practical understanding of experimentation and A/B testing, including how metrics and results should be calculated and validated.\n• Familiarity with machine learning methods and the ability to apply relevant approaches when needed.\n• Excellent attention to detail and a disciplined approach to repetitive or methodical QA work.\n• Strong problem-solving skills, with the initiative to propose creative solutions and process improvements.\n• Clear communication skills and the ability to explain analytical methods, results, and rationale.\n• Experience with experimentation platforms or high-volume digital products, such as gaming, e-commerce, or ride-hailing, would be valuable.\n• Ability to critically evaluate and validate AI-generated code, analyses, or modelling suggestions to ensure correctness and reproducibility.\n• Experience using AI-assisted tools (e.g. code assistants or analytical copilots) to accelerate data exploration, research prototyping, and development workflows while maintaining scientific and statistical rigor.\n• Interest in exploring AI-driven approaches that improve experimentation platforms, developer productivity, or data science research workflows.\n\nWorking at Tripledot\n\n• Hybrid Working\n• 20 days of remote working: Work from anywhere in the world, or use the time to cover mandatory office days to WFH, 20 days of the year.\n• Regular company events and rewards: Join in regular events and rewards that celebrate cultural events, our achievements, and our team spirit.\n• Breakfast & Lunch: Relish daily breakfast and lunch provided in the office to keep you fueled and focused.\n• BPJS HEALTH: Elevate your well-being and peace of mind, ensuring robust health security with seamless enrolment in BPJS Health.\n• BPJS SOCIAL: Secure your employment rights with BPJS Social.\n• Festivity Allowance: Celebrate festive occasions with an additional festive allowance.\n• Private Health Insurance: Stay covered with comprehensive health insurance for you and your loved ones.\n• Employee Assistance Program: Anytime you need it, tap into confidential, caring support with our Employee Assistance Program, always here to lend an ear and a helping hand.…",
-    "site": "tripledotstudios.com",
-    "source": "greenhouse",
-    "role": "Аналитика",
-    "grade": null
-  },
-  {
-    "id": "gh-tripledot-belka-4945678101",
+    "id": "gh-tripledot-belka-4944287101",
     "title": "Game Designer (Hybrid Casual)",
-    "company": "Tripledot / Belka",
-    "locations": [
-      "Limassol"
-    ],
-    "remote": false,
-    "rkind": "hybrid",
-    "salary": null,
-    "posted": "2026-08-06",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4945678101",
-    "desc": "Who are we?\n\nTripledot Studios is one of the largest independent mobile games companies in the world.\n\nWe are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios.\n\nOur expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users.\n\nTripledot’s guiding principle is that when people love what they do, what they do will be loved by others.\n\nWe’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games.\n\nOur ambition is to be the most successful games company in the world, and we’re just getting started.\n\nThe role is working within our studio: Belka Games\n\nBelka Games is a game development company. According to Sensor Tower, the company is among the top 30 highest-grossing game developers in Europe, and its audience has recently surpassed 110 million players.\n\nRole Overview\n\nOur team is looking for a proactive and product-oriented Game Designer to work on new R&D projects in the hybrid-casual puzzle genre.\n\nYou will participate in the creation of new game concepts and prototypes from the earliest stages — from developing and iterating on core gameplay to building progression systems, balancing mechanics, and shaping the first layers of meta and LiveOps features.\n\nWe are looking for someone who enjoys experimenting, rapidly iterating on ideas, and turning raw gameplay concepts into strong product foundations.\n\nKey Responsibilities\n\n• Design and develop gameplay systems and features for new game prototypes\n• Work on core gameplay, progression, balance, and early meta systems\n• Create and maintain game design documentation (concept docs, GDDs, feature specs)\n• Analyze gameplay problems and propose solutions to improve player experience and engagement\n• Participate in prototyping and iteration processes together with the R&D team\n• Design and tune game balance, rewards, pacing, and progression\n• Work with product metrics and formulate gameplay hypotheses\n• Collaborate closely with game designers, producers, artists, and developers during early production stages\n\nRequired Skills, Knowledge and Expertise\n\n• 3+ years of experience as a Game Designer\n• Experience in hyper-casual, hybrid-casual, or puzzle games\n• Participation in developing games or prototypes from scratch (R&D / pre-production)\n• Experience working on at least 5 game projects or prototypes\n• Experience creating and maintaining game design documentation\n• Understanding of gameplay systems, progression, balancing, and player motivation\n• Strong knowledge of the mobile games market and current genre trends\n• Ability to clearly communicate ideas and work in a fast iteration environment\n• Strong analytical and problem-solving skills\n• Russian and English - must have\n\nWorking at Tripledot\n\n• Fully remote\n• Paid Holiday: Enjoy 20 business days of paid holiday\n• Collaborative and Data-Driven Culture: Work in an environment where strong opinions are welcomed, ideas are challenged constructively, and product decisions are based on metrics and insights\n• Continuous Professional Development: Grow your expertise through professional development opportunities within the company’s learning budget\n• Medical Insurance Compensation: Receive compensation for private medical insurance\n• Sport Compensation: Stay fit and active with partial reimbursement for your gym membership",
-    "site": "tripledotstudios.com",
-    "source": "greenhouse",
-    "role": "Геймдизайн",
-    "grade": null
-  },
-  {
-    "id": "gh-tripledot-belka-4864506101",
-    "title": "Product Artist",
-    "company": "Tripledot / Belka",
-    "locations": [],
-    "remote": true,
-    "rkind": "zone",
-    "salary": null,
-    "posted": "2026-08-06",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4864506101",
-    "desc": "Who are we?\n\nTripledot Studios is one of the largest independent mobile games companies in the world.\n\nWe are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios.\n\nOur expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users.\n\nTripledot’s guiding principle is that when people love what they do, what they do will be loved by others.\n\nWe’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games.\n\nOur ambition is to be the most successful games company in the world, and we’re just getting started.\n\nWho are we?\n\nTripledot is one of the largest independent mobile games companies in the world.\n\nWe are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios.\n\nOur expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users.\n\nTripledot’s guiding principle is that when people love what they do, what they do will be loved by others.\n\nWe’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games.\n\nOur ambition is to be the most successful games company in the world, and we’re just getting started.\n\nThe role is working within our studio: ZephyrMobile\n\nYou’ll be joining the ZephyrMobile team, which was originally formed in 2016 and has been part of Tripledot since May 2024.\n\nThe studio has achieved impressive success in the mobile puzzle games genre. Over 100 million people have installed games developed by the Zephyr team.\n\nZephyr is famous for its creative and inclusive atmosphere, where every member of the team can contribute ideas and suggestions towards game development.\n\nThe largest games produced by ZephyrMobile: Get Color, NutSort, Hey Color, Math Crossword, Block Away, Car Out!.\n\nRole Overview\n\nIn this role you’ll be working closely with the Zephyr development team to work on the art for our new puzzle games.\n\nYou’ll be working across the whole product, developing ideas from conception to completion.\n\nWe are looking for an artist with a high level of expertise, with a systematic approach to work, able to work independently. It is very important to be creative, proactive and open to experimentation.\n\nKey Responsibilities\n\n• Own the full art pipeline - from initial concept through to release.\n• Refine and iterate on graphic content for live games.\n• Build and animate UI in Unity with a developer, and adjust effects and animations post-build.\n• Create graphical assets across the board - icons, interface elements, store screenshots and in-game visuals.\n• Contribute to advertising creatives.\n\nRequired Skills, Knowledge and Expertise\n\n• Strong 2D skills across concept art, assets and animation.\n• 3D experience is a big plus.\n• Confident in Figma with solid UI/UX experience in games or apps.\n• Proficient in Adobe Creative Suite - Photoshop essential, After Effects a plus.\n• Good eye for composition, colour theory and visual hierarchy.\n• Experience building game interfaces and applying UX principles to solve gameplay and business problems.\n• Comfortable working in Unity or eager to learn.\n• Able to maintain a consistent art style across a product.\n• Used to collaborating with designers, developers and producers to keep visuals aligned with product goals.\n• Clear communicator who can present and stand behind design decisions.\n• Background in art and/or game development - and a portfolio that shows it.",
-    "site": "tripledotstudios.com",
-    "source": "greenhouse",
-    "role": "Арт",
-    "grade": null
-  },
-  {
-    "id": "gh-tripledot-belka-4909939101",
-    "title": "Product Director (Casual)",
-    "company": "Tripledot / Belka",
-    "locations": [
-      "Limassol"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-06",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4909939101",
-    "desc": "Who are we?\n\nTripledot Studios is one of the largest independent mobile games companies in the world.\n\nWe are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios.\n\nOur expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users.\n\nTripledot’s guiding principle is that when people love what they do, what they do will be loved by others.\n\nWe’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games.\n\nOur ambition is to be the most successful games company in the world, and we’re just getting started.\n\nThe role is working within our studio: Belka Games\n\nBelka Games is a game development company. According to Sensor Tower, the company is among the top 30 highest-grossing game developers in Europe, and its audience has recently surpassed 110 million players.\n\nRole Overview\n\nWe are looking for a Product Director to grow and strengthen our Casual direction, starting with ownership of a live product and evolving toward building and launching new product initiatives. The role combines responsibility for live product performance, long-term stability, and preparation for future Casual growth opportunities.\n\nKey Responsibilities\n\nPhase 1 - Live product ownership (Clockmaker)\n\n• Own product performance of Clockmaker, ensuring stability and sustainable improvement of key metrics\n• Drive improvements in retention, monetization, engagement, and long-term product health\n• Manage and evolve the LiveOps roadmap to support consistent product performance\n• Ensure reliable and predictable execution of product updates in a live environment\n• Use data to identify issues, prioritize improvements, and optimize product performance\n\nPhase 2 - Preparation for new initiatives\n\n• Identify and evaluate opportunities for new Casual product initiatives\n• Contribute to hypothesis generation and early-stage validation\n• Prepare product insights and foundations for future scaling or new product development\n• Support transition from single-product focus to broader Casual portfolio thinking\n\nRequired Skills, Knowledge and Expertise\n\n• Senior product management experience in the game industry (Product Director, Head of Product, Executive Producer, or similar roles)\n• Strong experience with live mobile F2P Casual games, including ownership of LiveOps-driven products\n• Deep understanding of Casual economy-driven games and their market dynamics\n• Successful experience building and implementing a product strategy for casual games\n• Experience owning the full lifecycle of product hypotheses - from ideation and validation to launch and evaluation against benchmark performance metrics\n• Experience improving and scaling existing live products through data-driven decision making\n• Strong analytical skills and confidence in working with product metrics\n• Experience building and managing product teams, including developing senior product talent\n• Ability to balance live product operations with long-term product and portfolio development\n• Strong business mindset with focus on growth, profitability, and product performance impact\n• Excellent leadership, communication, and stakeholder alignment skills\n• Fluent in English and Russian\n\nWorking at Tripledot\n\n• Fully remote\n• Paid Holiday: Enjoy 20 business days of paid holiday\n• Collaborative and Data-Driven Culture: Work in an environment where strong opinions are welcomed, ideas are challenged constructively, and product decisions are based on metrics and insights\n• Continuous Professional Development: Grow your expertise through professional development opportunities within the company’s learning budget\n• Medical Insurance Compensation: Receive compensation for private medical insurance\n• Sport Compensation: Stay fit and active with partial reimbursement for your gym membership",
-    "site": "tripledotstudios.com",
-    "source": "greenhouse",
-    "role": "Продакт",
-    "grade": "Lead"
-  },
-  {
-    "id": "gh-tripledot-belka-4939388101",
-    "title": "Product Director (Hybrid Casual)",
     "company": "Tripledot / Belka",
     "locations": [
       "Minsk"
@@ -2873,12 +3514,78 @@ window.JOBS = [
     "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-06",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4939388101",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4944287101",
+    "desc": "Who are we?\n\nTripledot Studios is one of the largest independent mobile games companies in the world.\n\nWe are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios.\n\nOur expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users.\n\nTripledot’s guiding principle is that when people love what they do, what they do will be loved by others.\n\nWe’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games.\n\nOur ambition is to be the most successful games company in the world, and we’re just getting started.\n\nThe role is working within our studio: Belka Games\n\nBelka Games is a game development company. According to Sensor Tower, the company is among the top 30 highest-grossing game developers in Europe, and its audience has recently surpassed 110 million players.\n\nRole Overview\n\nOur team is looking for a proactive and product-oriented Game Designer to work on new R&D projects in the hybrid-casual puzzle genre.\n\nYou will participate in the creation of new game concepts and prototypes from the earliest stages — from developing and iterating on core gameplay to building progression systems, balancing mechanics, and shaping the first layers of meta and LiveOps features.\n\nWe are looking for someone who enjoys experimenting, rapidly iterating on ideas, and turning raw gameplay concepts into strong product foundations.\n\nKey Responsibilities\n\n• Design and develop gameplay systems and features for new game prototypes\n• Work on core gameplay, progression, balance, and early meta systems\n• Create and maintain game design documentation (concept docs, GDDs, feature specs)\n• Analyze gameplay problems and propose solutions to improve player experience and engagement\n• Participate in prototyping and iteration processes together with the R&D team\n• Design and tune game balance, rewards, pacing, and progression\n• Work with product metrics and formulate gameplay hypotheses\n• Collaborate closely with game designers, producers, artists, and developers during early production stages\n\nRequired Skills, Knowledge and Expertise\n\n• 3+ years of experience as a Game Designer\n• Experience in hyper-casual, hybrid-casual, or puzzle games\n• Participation in developing games or prototypes from scratch (R&D / pre-production)\n• Experience working on at least 5 game projects or prototypes\n• Experience creating and maintaining game design documentation\n• Understanding of gameplay systems, progression, balancing, and player motivation\n• Strong knowledge of the mobile games market and current genre trends\n• Ability to clearly communicate ideas and work in a fast iteration environment\n• Strong analytical and problem-solving skills\n• Russian and English - must have\n\nWorking at Tripledot\n\n• 20 business days paid holiday in addition to bank holidays to relax and refresh throughout the year\n• Hybrid Working: We work in the office 3 days a week, Tuesdays and Wednesdays, and a third day of your choice.\n• 20 business days remote working: Work from anywhere in the world, or use the time to cover mandatory office days to WFH, 20 days of the year\n• Lunch: Provided daily in the office to keep you fueled and focused\n• Continuous Professional Development: Propel your career with continuous opportunities for professional development\n• Private Medical Cover: Ensure your health is in good hands through private health insurance\n• Sport Compensation: Stay fit and active with our sport compensation benefit\n• Taxi to compensate for travel to the office\n• English Classes: Enhance your English skills with our provided English classes",
+    "site": "tripledotstudios.com",
+    "source": "greenhouse",
+    "role": "Геймдизайн",
+    "grade": null,
+    "spec": null,
+    "stack": []
+  },
+  {
+    "id": "gh-tripledot-belka-4864507101",
+    "title": "Product Artist",
+    "company": "Tripledot / Belka",
+    "locations": [
+      "Minsk"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-06",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4864507101",
+    "desc": "Who are we?\n\nTripledot Studios is one of the largest independent mobile games companies in the world.\n\nWe are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios.\n\nOur expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users.\n\nTripledot’s guiding principle is that when people love what they do, what they do will be loved by others.\n\nWe’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games.\n\nOur ambition is to be the most successful games company in the world, and we’re just getting started.\n\nWho are we?\n\nTripledot is one of the largest independent mobile games companies in the world.\n\nWe are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios.\n\nOur expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users.\n\nTripledot’s guiding principle is that when people love what they do, what they do will be loved by others.\n\nWe’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games.\n\nOur ambition is to be the most successful games company in the world, and we’re just getting started.\n\nThe role is working within our studio: ZephyrMobile\n\nYou’ll be joining the ZephyrMobile team, which was originally formed in 2016 and has been part of Tripledot since May 2024.\n\nThe studio has achieved impressive success in the mobile puzzle games genre. Over 100 million people have installed games developed by the Zephyr team.\n\nZephyr is famous for its creative and inclusive atmosphere, where every member of the team can contribute ideas and suggestions towards game development.\n\nThe largest games produced by ZephyrMobile: Get Color, NutSort, Hey Color, Math Crossword, Block Away, Car Out!.\n\nRole Overview\n\nIn this role you’ll be working closely with the Zephyr development team to work on the art for our new puzzle games.\n\nYou’ll be working across the whole product, developing ideas from conception to completion.\n\nWe are looking for an artist with a high level of expertise, with a systematic approach to work, able to work independently. It is very important to be creative, proactive and open to experimentation.\n\nKey Responsibilities\n\n• Own the full art pipeline - from initial concept through to release.\n• Refine and iterate on graphic content for live games.\n• Build and animate UI in Unity with a developer, and adjust effects and animations post-build.\n• Create graphical assets across the board - icons, interface elements, store screenshots and in-game visuals.\n• Contribute to advertising creatives.\n\nRequired Skills, Knowledge and Expertise\n\n• Strong 2D skills across concept art, assets and animation.\n• 3D experience is a big plus.\n• Confident in Figma with solid UI/UX experience in games or apps.\n• Proficient in Adobe Creative Suite - Photoshop essential, After Effects a plus.\n• Good eye for composition, colour theory and visual hierarchy.\n• Experience building game interfaces and applying UX principles to solve gameplay and business problems.\n• Comfortable working in Unity or eager to learn.\n• Able to maintain a consistent art style across a product.\n• Used to collaborating with designers, developers and producers to keep visuals aligned with product goals.\n• Clear communicator who can present and stand behind design decisions.\n• Background in art and/or game development - and a portfolio that shows it.\n\nWorking at Tripledot\n\n• 20 business days paid holiday in addition to bank holidays to relax and refresh throughout the year\n• Hybrid Working: We work in the office 3 days a week, Tuesdays and Wednesdays, and a third day of your choice.\n• 20 business days remote working: Work from anywhere in the world, or use the time to cover mandatory office days to WFH, 20 days of the year.\n• Lunch: Provided daily in the office to keep you fueled and focused.\n• Continuous Professional Development: Propel your career with continuous opportunities for professional development.\n• Private Medical Cover: Ensure your health is in good hands through private health insurance\n• Sport Compensation: Stay fit and active with our sport compensation benefit.\n• Taxi to compensate for travel to the office.\n• English Classes: Enhance your English skills with our provided English classes.",
+    "site": "tripledotstudios.com",
+    "source": "greenhouse",
+    "role": "Арт",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unity",
+      "Photoshop",
+      "Figma"
+    ]
+  },
+  {
+    "id": "gh-tripledot-belka-4909944101",
+    "title": "Product Director (Casual)",
+    "company": "Tripledot / Belka",
+    "locations": [
+      "Serbia"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-06",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4909944101",
+    "desc": "Who are we?\n\nTripledot Studios is one of the largest independent mobile games companies in the world.\n\nWe are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios.\n\nOur expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users.\n\nTripledot’s guiding principle is that when people love what they do, what they do will be loved by others.\n\nWe’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games.\n\nOur ambition is to be the most successful games company in the world, and we’re just getting started.\n\nThe role is working within our studio: Belka Games\n\nBelka Games is a game development company. According to Sensor Tower, the company is among the top 30 highest-grossing game developers in Europe, and its audience has recently surpassed 110 million players.\n\nRole Overview\n\nWe are looking for a Product Director to grow and strengthen our Casual direction, starting with ownership of a live product and evolving toward building and launching new product initiatives. The role combines responsibility for live product performance, long-term stability, and preparation for future Casual growth opportunities.\n\nKey Responsibilities\n\nPhase 1 - Live product ownership (Clockmaker)\n\n• Own product performance of Clockmaker, ensuring stability and sustainable improvement of key metrics\n• Drive improvements in retention, monetization, engagement, and long-term product health\n• Manage and evolve the LiveOps roadmap to support consistent product performance\n• Ensure reliable and predictable execution of product updates in a live environment\n• Use data to identify issues, prioritize improvements, and optimize product performance\n\nPhase 2 - Preparation for new initiatives\n\n• Identify and evaluate opportunities for new Casual product initiatives\n• Contribute to hypothesis generation and early-stage validation\n• Prepare product insights and foundations for future scaling or new product development\n• Support transition from single-product focus to broader Casual portfolio thinking\n\nRequired Skills, Knowledge and Expertise\n\n• Senior product management experience in the game industry (Product Director, Head of Product, Executive Producer, or similar roles)\n• Strong experience with live mobile F2P Casual games, including ownership of LiveOps-driven products\n• Deep understanding of Casual economy-driven games and their market dynamics\n• Successful experience building and implementing a product strategy for casual games\n• Experience owning the full lifecycle of product hypotheses - from ideation and validation to launch and evaluation against benchmark performance metrics\n• Experience improving and scaling existing live products through data-driven decision making\n• Strong analytical skills and confidence in working with product metrics\n• Experience building and managing product teams, including developing senior product talent\n• Ability to balance live product operations with long-term product and portfolio development\n• Strong business mindset with focus on growth, profitability, and product performance impact\n• Excellent leadership, communication, and stakeholder alignment skills\n• Fluent in English and Russian\n\nWorking at Tripledot\n\n• Fully remote\n• Paid Holiday: Enjoy 20 business days of paid holiday\n• Collaborative and Data-Driven Culture: Work in an environment where strong opinions are welcomed, ideas are challenged constructively, and product decisions are based on metrics and insights\n• Continuous Professional Development: Grow your expertise through professional development opportunities within the company’s learning budget\n• Medical Insurance Compensation: Receive compensation for private medical insurance\n• Sport Compensation: Stay fit and active with partial reimbursement for your gym membership",
+    "site": "tripledotstudios.com",
+    "source": "greenhouse",
+    "role": "Продакт",
+    "grade": "Lead",
+    "spec": null,
+    "stack": []
+  },
+  {
+    "id": "gh-tripledot-belka-4939366101",
+    "title": "Product Director (Hybrid Casual)",
+    "company": "Tripledot / Belka",
+    "locations": [
+      "Barcelona"
+    ],
+    "remote": false,
+    "rkind": "hybrid",
+    "salary": null,
+    "posted": "2026-08-06",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4939366101",
     "desc": "Who are we?\n\nTripledot Studios is one of the largest independent mobile games companies in the world.\n\nWe are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios.\n\nOur expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users.\n\nTripledot’s guiding principle is that when people love what they do, what they do will be loved by others.\n\nWe’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games.\n\nOur ambition is to be the most successful games company in the world, and we’re just getting started.\n\nThis role is based within our studio, Belka Games\n\nBelka Games is a game development company ranked by Sensor Tower among the top 30 highest-grossing game developers in Europe. Our games have reached more than 110 million players worldwide\n\nRole Overview\n\nWe are looking for a Product Director to lead and strengthen our Hybrid Casual direction, combining ownership and development of existing live products with the creation, validation, and launch of new product initiatives\n\nAs part of the Belka Games leadership team, you will contribute to the company’s broader product strategy and long-term development\n\nThe role includes responsibility for product strategy, business performance of the Hybrid Casual portfolio, including its revenue, profitability, long-term value, and investment efficiency. You will also build strong product teams and establish a systematic and repeatable approach to creating and scaling successful Hybrid Casual products.\n\nKey Responsibilities\n\nPart 1 - Live product ownership\n\n• Define and implement the product strategy for the Hybrid Casual portfolio, ensuring sustainable growth and long-term product health\n• Drive the business performance of the direction, including revenue growth, profitability, long-term portfolio value, and investment efficiency\n• Drive improvements in retention, engagement, monetization, product quality, and other key product and business metrics\n• Balance short-term performance priorities with long-term product investments and allocate resources across the portfolio accordingly\n• Define product and LiveOps priorities based on data, business impact, investment efficiency, and growth potential\n• Make decisions on the launch, scaling, transformation, or termination of product initiatives\n• Ensure reliable execution of product updates and scale successful features, mechanics, and practices across live products\n• Build transparent cross-functional decision-making processes and align Product, Development, Analytics, Marketing, and other business functions around shared goals and priorities\n• Partner with the Belka Games leadership team on the company’s product strategy and long-term development\n• Hire and develop senior product leaders, build autonomous and scalable teams\n\nPart 2 - RnD\n\n• Define and implement the R&D strategy for the Hybrid Casual direction\n• Identify new product opportunities, segments, and mechanics, and manage a pipeline of hypotheses, experiments, prototypes, and product initiatives\n• Apply a data-informed and hypothesis-driven approach to identifying, prioritizing, and validating new product opportunities\n• Own the development of new product concepts from ideation and prototyping through validation, soft launch, global launch, and scaling\n• Define success criteria and evaluate initiatives against relevant product, market, and business benchmarks\n• Develop business cases for new product investments, including the opportunity, expected business impact, required resources, and key risks\n• Make investment decisions on the further development, scaling, transformation, or termination of product initiatives\n• Establish clear validation stages, decision criteria, and investment gates to improve the predictability and efficiency of R&D outcomes\n• Systematize learnings from experiments and launches, scale effective practices across initiatives, and eliminate consistently ineffective approaches\n\nRequired Skills, Knowledge and Expertise\n\n• Senior product leadership experience in the games industry as a Product Director, Head of Product, Executive Producer, or in a comparable role\n• Strong experience with live mobile F2P games, ideally within Hybrid Casual or adjacent Casual genres\n• Proven experience defining and implementing product strategy\n• Experience managing a portfolio of live products and new product initiatives across the full product lifecycle\n• Experience owning business performance and allocating investment and resources across a product portfolio\n• Deep understanding of F2P monetization, LiveOps, product economies, progression systems, and mobile games market dynamics, with proven experience improving retention, engagement, monetization, revenue, profitability, and long-term product health\n• Strong analytical and business skills, including experience building business cases and making data-informed product and investment decisions\n• Experience building autonomous cross-functional teams and hiring and developing senior Product Managers, Game Producers, or other product leaders\n• Excellent leadership, communication, cross-functional management, and stakeholder alignment skills\n• Ability to make clear decisions in uncertain conditions and take ownership of their business consequences\n• Fluent in English and Russian\n\nWhat Success Looks Like\n\n• A strong and scalable Hybrid Casual portfolio with sustainable product and business performance\n• Growth in the key product and business metrics of live products\n• Strong, autonomous product teams led by capable product leaders\n• A predictable and repeatable approach to creating, validating, and scaling new products\n• A continuous pipeline of high-potential R&D initiatives\n• Increased maturity and effectiveness of the product function across the company\n\nWorking at Tripledot…",
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "role": "Продакт",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-tripledot-belka-4947219101",
@@ -2896,7 +3603,9 @@ window.JOBS = [
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "role": "Продакт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-tripledot-belka-4912025101",
@@ -2914,7 +3623,9 @@ window.JOBS = [
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "role": "QA",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-tripledot-belka-4928237101",
@@ -2932,7 +3643,12 @@ window.JOBS = [
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "role": "Аналитика",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ]
   },
   {
     "id": "gh-tripledot-belka-4941941101",
@@ -2950,7 +3666,9 @@ window.JOBS = [
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "role": "Продакт",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-tripledot-belka-4926736101",
@@ -2968,7 +3686,12 @@ window.JOBS = [
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unity",
+      "C#"
+    ]
   },
   {
     "id": "gh-tripledot-belka-4820731101",
@@ -2986,7 +3709,12 @@ window.JOBS = [
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "Unity",
+    "stack": [
+      "Unity",
+      "C#"
+    ]
   },
   {
     "id": "gh-tripledot-belka-4931784101",
@@ -3004,7 +3732,13 @@ window.JOBS = [
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "role": "Арт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unity",
+      "C++",
+      "C#"
+    ]
   },
   {
     "id": "gh-tripledot-belka-4821131101",
@@ -3022,7 +3756,14 @@ window.JOBS = [
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "role": "Технический художник",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unity",
+      "C#",
+      "Blender",
+      "Photoshop"
+    ]
   },
   {
     "id": "lv-xsolla-8c0f5e96-f19f-4d7b-a2a2-a2531e925f02",
@@ -3040,7 +3781,9 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Поддержка",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-d00d0e70-7c03-4fe9-8ebe-884721476c10",
@@ -3058,7 +3801,12 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unity",
+      "Unreal"
+    ]
   },
   {
     "id": "lv-xsolla-0d1d8efb-8984-4173-8c50-07936105ae9b",
@@ -3076,7 +3824,9 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-f33b07cc-fe35-4e12-a81c-eaf1c69603a9",
@@ -3094,7 +3844,9 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Маркетинг",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-outfit7-7831280003",
@@ -3112,7 +3864,9 @@ window.JOBS = [
     "site": "outfit7.com",
     "source": "greenhouse",
     "role": "Продакт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-outfit7-7820146003",
@@ -3130,7 +3884,9 @@ window.JOBS = [
     "site": "outfit7.com",
     "source": "greenhouse",
     "role": "Продакт",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-outfit7-7597620003",
@@ -3149,7 +3905,12 @@ window.JOBS = [
     "site": "outfit7.com",
     "source": "greenhouse",
     "role": "Аналитика",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ]
   },
   {
     "id": "gh-nordeus-8104961",
@@ -3167,7 +3928,12 @@ window.JOBS = [
     "site": "nordeus.com",
     "source": "greenhouse",
     "role": "Аналитика",
-    "grade": "Junior"
+    "grade": "Junior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ]
   },
   {
     "id": "lv-larian-studios-1a8d0e75-f5b4-4977-81f5-b3094132323d",
@@ -3185,7 +3951,16 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Арт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unity",
+      "Unreal",
+      "Python",
+      "Maya",
+      "Blender",
+      "Houdini"
+    ]
   },
   {
     "id": "gh-keen-software-house-4788416101",
@@ -3203,7 +3978,12 @@ window.JOBS = [
     "site": "keenswh.com",
     "source": "greenhouse",
     "role": "Арт",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Photoshop",
+      "Figma"
+    ]
   },
   {
     "id": "gh-keen-software-house-4938598101",
@@ -3221,7 +4001,9 @@ window.JOBS = [
     "site": "keenswh.com",
     "source": "greenhouse",
     "role": "QA",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-748af998-9a40-44d4-a818-85224fd7a340",
@@ -3239,7 +4021,11 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Маркетинг",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Figma"
+    ]
   },
   {
     "id": "lv-amanotes-891bd4bd-f98c-44c4-a7b9-27788e99b900",
@@ -3257,7 +4043,9 @@ window.JOBS = [
     "source": "lever",
     "site": "amanotes.com",
     "role": "Продакт",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-amanotes-a3451dde-d684-43c0-81e7-d001d7f93e79",
@@ -3275,7 +4063,13 @@ window.JOBS = [
     "source": "lever",
     "site": "amanotes.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "DevOps",
+    "stack": [
+      "Python",
+      "AWS",
+      "Kubernetes"
+    ]
   },
   {
     "id": "lv-larian-studios-200ba4bf-d44b-49fe-920b-0743eacfc29b",
@@ -3293,7 +4087,16 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Арт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unity",
+      "Unreal",
+      "Python",
+      "Maya",
+      "Blender",
+      "Houdini"
+    ]
   },
   {
     "id": "lv-xsolla-f4053c02-bf05-415c-89ce-eafabb325a06",
@@ -3311,7 +4114,9 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Аналитика",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-05410161-5815-48a0-84d1-9762e70c3a00",
@@ -3329,7 +4134,9 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Маркетинг",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-nordeus-6935112",
@@ -3347,7 +4154,16 @@ window.JOBS = [
     "site": "nordeus.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unity",
+      "C++",
+      "C#",
+      "Python",
+      "Java",
+      "JavaScript"
+    ]
   },
   {
     "id": "gh-nordeus-7627163",
@@ -3365,7 +4181,16 @@ window.JOBS = [
     "site": "nordeus.com",
     "source": "greenhouse",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "Бэкенд",
+    "stack": [
+      "C++",
+      "C#",
+      "Python",
+      "Java",
+      "SQL",
+      "AWS"
+    ]
   },
   {
     "id": "gh-nordeus-7883124",
@@ -3383,7 +4208,13 @@ window.JOBS = [
     "site": "nordeus.com",
     "source": "greenhouse",
     "role": "Арт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unity",
+      "Photoshop",
+      "Figma"
+    ]
   },
   {
     "id": "lv-larian-studios-ace7bbeb-31ff-44ea-991d-223ef9685284",
@@ -3401,7 +4232,15 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Арт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unity",
+      "Unreal",
+      "C++",
+      "C#",
+      "Lua"
+    ]
   },
   {
     "id": "gh-outfit7-7805667003",
@@ -3419,7 +4258,9 @@ window.JOBS = [
     "site": "outfit7.com",
     "source": "greenhouse",
     "role": "Маркетинг",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-1c009f86-3295-4ac2-8257-b4833738f9ab",
@@ -3437,7 +4278,11 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "DevOps",
+    "stack": [
+      "AWS"
+    ]
   },
   {
     "id": "rc-ten-square-games-2685245",
@@ -3455,7 +4300,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": "tensquaregames.com",
     "role": "Аналитика",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "rc-bloober-team-2686152",
@@ -3473,7 +4320,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": "blooberteam.com",
     "role": "Звук",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-larian-studios-8f5e8945-1191-438e-aaf0-10ecfd9adb4e",
@@ -3491,7 +4340,14 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Арт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "C++",
+      "C#",
+      "Python",
+      "Lua"
+    ]
   },
   {
     "id": "lv-fanatee-63b25c3b-4755-45c8-abc9-c4d09672be01",
@@ -3507,7 +4363,13 @@ window.JOBS = [
     "source": "lever",
     "site": "fanatee.com",
     "role": "Программирование",
-    "grade": "Junior"
+    "grade": "Junior",
+    "spec": null,
+    "stack": [
+      "Unity",
+      "Python",
+      "SQL"
+    ]
   },
   {
     "id": "lv-xsolla-1c60d455-ff66-4eaa-97b8-743d0d6e79d1",
@@ -3525,7 +4387,9 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Junior"
+    "grade": "Junior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-b12862cb-eab8-4e19-b45a-dddf5da198f3",
@@ -3543,7 +4407,9 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Аналитика",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-outfit7-7739164003",
@@ -3561,7 +4427,12 @@ window.JOBS = [
     "site": "outfit7.com",
     "source": "greenhouse",
     "role": "Аналитика",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ]
   },
   {
     "id": "rc-reality-games-2135406",
@@ -3579,7 +4450,11 @@ window.JOBS = [
     "source": "recruitee",
     "site": null,
     "role": "Арт",
-    "grade": "Junior"
+    "grade": "Junior",
+    "spec": null,
+    "stack": [
+      "Unity"
+    ]
   },
   {
     "id": "rc-reality-games-1978812",
@@ -3597,7 +4472,11 @@ window.JOBS = [
     "source": "recruitee",
     "site": null,
     "role": "Анимация",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unity"
+    ]
   },
   {
     "id": "rc-reality-games-1754262",
@@ -3615,7 +4494,11 @@ window.JOBS = [
     "source": "recruitee",
     "site": null,
     "role": "Технический художник",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unity"
+    ]
   },
   {
     "id": "rc-reality-games-1609515",
@@ -3633,7 +4516,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": null,
     "role": "Маркетинг",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "rc-reality-games-1440686",
@@ -3651,7 +4536,14 @@ window.JOBS = [
     "source": "recruitee",
     "site": null,
     "role": "VFX",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unity",
+      "Maya",
+      "Houdini",
+      "Photoshop"
+    ]
   },
   {
     "id": "rc-reality-games-1293684",
@@ -3669,7 +4561,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": null,
     "role": "Продюсирование",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "rc-reality-games-1083525",
@@ -3687,7 +4581,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": null,
     "role": "Продакт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "rc-reality-games-1032529",
@@ -3705,7 +4601,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": null,
     "role": "Продакт",
-    "grade": "Junior"
+    "grade": "Junior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "rc-reality-games-1027518",
@@ -3723,7 +4621,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": null,
     "role": "Продакт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "rc-grid-esports-2664146",
@@ -3741,7 +4641,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": "grid.gg",
     "role": "Поддержка",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-larian-studios-252fd4ba-7d3c-4186-8da8-48a9f6f111a4",
@@ -3759,7 +4661,14 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Данные и ML",
+    "stack": [
+      "C++",
+      "Python",
+      "Docker",
+      "Kubernetes"
+    ]
   },
   {
     "id": "lv-xsolla-9e094127-2bae-44bd-b144-49fb367aade5",
@@ -3777,7 +4686,12 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "DevOps",
+    "stack": [
+      "Python",
+      "Kubernetes"
+    ]
   },
   {
     "id": "rc-ten-square-games-2679665",
@@ -3795,7 +4709,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": "tensquaregames.com",
     "role": "Арт",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-31587df5-85ff-47ec-914c-ee0d51f1e123",
@@ -3813,7 +4729,12 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Фронтенд",
+    "stack": [
+      "TypeScript",
+      "Kubernetes"
+    ]
   },
   {
     "id": "rc-bloober-team-2678705",
@@ -3831,7 +4752,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": "blooberteam.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Геймплей",
+    "stack": []
   },
   {
     "id": "lv-xsolla-91ac4595-beec-49c5-881a-2c23fc506ad4",
@@ -3849,7 +4772,11 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "QA",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "SQL"
+    ]
   },
   {
     "id": "lv-xsolla-09161ef0-8266-4de5-9017-fd34a29c3a3d",
@@ -3867,7 +4794,9 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Junior"
+    "grade": "Junior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-a90cb94a-df2b-4f42-b60d-8abb68c4bf86",
@@ -3885,7 +4814,14 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "Мобильная",
+    "stack": [
+      "Unity",
+      "Unreal",
+      "Java",
+      "Kotlin"
+    ]
   },
   {
     "id": "lv-xsolla-d1979d33-edb3-4668-bb23-2801615484d5",
@@ -3903,7 +4839,11 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "Бэкенд",
+    "stack": [
+      "Go"
+    ]
   },
   {
     "id": "lv-xsolla-1befb865-6e2a-41b9-bc5d-939e5b2a7907",
@@ -3921,7 +4861,12 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": "Unreal",
+    "stack": [
+      "Unreal",
+      "C++"
+    ]
   },
   {
     "id": "lv-amanotes-52a09f10-5173-49e0-b7cc-77a02e82063a",
@@ -3939,7 +4884,11 @@ window.JOBS = [
     "source": "lever",
     "site": "amanotes.com",
     "role": "Продакт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "SQL"
+    ]
   },
   {
     "id": "lv-animoca-brands-3c7794c6-0dac-485b-ae9f-3cd11183ff8f",
@@ -3957,7 +4906,9 @@ window.JOBS = [
     "source": "lever",
     "site": "animocabrands.com",
     "role": "Маркетинг",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-00caa189-33e6-4f65-84de-47145a3ebf39",
@@ -3975,7 +4926,12 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "Kubernetes"
+    ]
   },
   {
     "id": "lv-amanotes-9c9416dd-bff1-4cf8-a4a7-b11150e37526",
@@ -3993,7 +4949,9 @@ window.JOBS = [
     "source": "lever",
     "site": "amanotes.com",
     "role": "Продакт",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "rc-grid-esports-2664098",
@@ -4011,7 +4969,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": "grid.gg",
     "role": "Поддержка",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-c0e96a4f-fd6a-4ddb-a4f1-eee5cee2b096",
@@ -4029,7 +4989,11 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python"
+    ]
   },
   {
     "id": "rc-grid-esports-2666209",
@@ -4047,7 +5011,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": "grid.gg",
     "role": "Аналитика",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-809cbeac-f6d1-418a-a8b1-13a8fe26fe2a",
@@ -4063,7 +5029,13 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Аналитика",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unity",
+      "Python",
+      "SQL"
+    ]
   },
   {
     "id": "lv-xsolla-a0df2be4-366f-4c58-9623-e8638dc31031",
@@ -4081,7 +5053,12 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Продакт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ]
   },
   {
     "id": "rc-ten-square-games-2664775",
@@ -4099,7 +5076,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": "tensquaregames.com",
     "role": "Геймдизайн",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-660a3d26-b0cd-4473-832e-308dd2e02db8",
@@ -4117,7 +5096,11 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "SQL"
+    ]
   },
   {
     "id": "lv-xsolla-858a40b3-0799-40ac-bbb9-c2b6c2fef113",
@@ -4135,7 +5118,9 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Продакт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-0affadcf-dd1d-4649-9ab9-0244a585ee9c",
@@ -4153,7 +5138,9 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Продакт",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-aa75efaa-71ec-4c6e-b773-da557b06a650",
@@ -4171,7 +5158,13 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Go",
+      "SQL",
+      "Kubernetes"
+    ]
   },
   {
     "id": "rc-huuuge-games-2658219",
@@ -4189,7 +5182,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": "huuugegames.com",
     "role": "Аналитика",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-crytek-7f131d50-64b1-4f95-9dd7-d6398c86637b",
@@ -4207,7 +5202,11 @@ window.JOBS = [
     "source": "lever",
     "site": "crytek.com",
     "role": "Программирование",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "C++"
+    ]
   },
   {
     "id": "lv-easybrain-b86ca16a-8fc8-41db-90a9-8bb3593373db",
@@ -4225,7 +5224,9 @@ window.JOBS = [
     "source": "lever",
     "site": "easybrain.com",
     "role": "Геймдизайн",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-384e323c-5b67-4846-8943-a8e7a03fe237",
@@ -4243,7 +5244,9 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-crytek-f5364e79-e4f7-46e3-b809-d0a21e893d8f",
@@ -4261,7 +5264,9 @@ window.JOBS = [
     "source": "lever",
     "site": "crytek.com",
     "role": "Маркетинг",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-efccf807-d02a-433b-8b47-e994c2ff2a93",
@@ -4279,7 +5284,9 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Поддержка",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-8ff694d3-1018-4f2a-9bb9-96818398a19a",
@@ -4297,7 +5304,9 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-crytek-a7e75d28-8d84-4598-8209-28b70e024005",
@@ -4315,7 +5324,12 @@ window.JOBS = [
     "source": "lever",
     "site": "crytek.com",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "JavaScript",
+      "Figma"
+    ]
   },
   {
     "id": "rc-ten-square-games-2642817",
@@ -4333,7 +5347,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": "tensquaregames.com",
     "role": "Продакт",
-    "grade": "Junior"
+    "grade": "Junior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "rc-huuuge-games-2638693",
@@ -4351,7 +5367,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": "huuugegames.com",
     "role": "Аналитика",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "rc-huuuge-games-2638486",
@@ -4369,7 +5387,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": "huuugegames.com",
     "role": "Аналитика",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-amanotes-ba8099c2-03d4-44ac-9bbd-61063df8984d",
@@ -4387,7 +5407,9 @@ window.JOBS = [
     "source": "lever",
     "site": "amanotes.com",
     "role": "Маркетинг",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-amanotes-340ca3e8-c264-4150-8f7a-628477a24381",
@@ -4405,7 +5427,11 @@ window.JOBS = [
     "source": "lever",
     "site": "amanotes.com",
     "role": "Маркетинг",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unity"
+    ]
   },
   {
     "id": "lv-larian-studios-1dc05a1f-50ad-419b-8772-d2c4bd5cad57",
@@ -4423,7 +5449,15 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Технический художник",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "C#",
+      "Python",
+      "Maya",
+      "Houdini",
+      "Substance"
+    ]
   },
   {
     "id": "lv-amanotes-b6f59262-8856-4566-9a0e-c888ece532ff",
@@ -4441,7 +5475,11 @@ window.JOBS = [
     "source": "lever",
     "site": "amanotes.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Мобильная",
+    "stack": [
+      "Kotlin"
+    ]
   },
   {
     "id": "lv-amanotes-785e2661-4a01-4aec-885e-33c4e34f2f1f",
@@ -4459,7 +5497,9 @@ window.JOBS = [
     "source": "lever",
     "site": "amanotes.com",
     "role": "Продакт",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-larian-studios-a928f2a4-9d47-4049-a713-98975f6c72fe",
@@ -4477,7 +5517,9 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Арт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-747317a2-6c34-4edb-ad12-9b40de51fdfc",
@@ -4495,7 +5537,11 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "Фронтенд",
+    "stack": [
+      "TypeScript"
+    ]
   },
   {
     "id": "lv-larian-studios-2379cc51-2eb7-4e8c-9dcc-052cb7a8c868",
@@ -4513,7 +5559,9 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Геймдизайн",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "rc-ten-square-games-2617191",
@@ -4531,7 +5579,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": "tensquaregames.com",
     "role": "VFX",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-amanotes-34ec48d4-4197-4aea-9946-19cecb50bec7",
@@ -4549,7 +5599,9 @@ window.JOBS = [
     "source": "lever",
     "site": "amanotes.com",
     "role": "Продакт",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-larian-studios-5bd314b3-0fcd-4dc1-9097-410d7b3f51cd",
@@ -4567,7 +5619,13 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "QA",
-    "grade": "Junior"
+    "grade": "Junior",
+    "spec": null,
+    "stack": [
+      "TypeScript",
+      "JavaScript",
+      "SQL"
+    ]
   },
   {
     "id": "lv-xsolla-a14913d3-128a-4239-b6fd-caec7332790d",
@@ -4585,7 +5643,14 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "TypeScript",
+      "JavaScript",
+      "AWS",
+      "Figma"
+    ]
   },
   {
     "id": "lv-xsolla-d1cc3abc-fc26-4732-97ba-49971da226cf",
@@ -4601,7 +5666,9 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Продакт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-266f30df-f0c5-4f5c-bfb0-726805216a50",
@@ -4619,7 +5686,15 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "TypeScript",
+      "JavaScript",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ]
   },
   {
     "id": "lv-larian-studios-c0eba700-cfdb-4481-acf2-063f5772d5d8",
@@ -4637,7 +5712,13 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Арт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "C++",
+      "Python",
+      "Wwise"
+    ]
   },
   {
     "id": "lv-amanotes-c8deafe4-2090-4103-bfde-d1e64e8bc146",
@@ -4655,7 +5736,9 @@ window.JOBS = [
     "source": "lever",
     "site": "amanotes.com",
     "role": "Геймдизайн",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-edc9a5f4-4162-4989-932c-4ebf28707783",
@@ -4673,7 +5756,13 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Go",
+      "AWS",
+      "Kubernetes"
+    ]
   },
   {
     "id": "lv-xsolla-ea4d594b-4b7d-443e-b747-1212d6baa9e2",
@@ -4691,7 +5780,9 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Маркетинг",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-39a362be-f3bc-45de-bc6b-7204b8df0db0",
@@ -4709,7 +5800,12 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "Фронтенд",
+    "stack": [
+      "TypeScript",
+      "JavaScript"
+    ]
   },
   {
     "id": "lv-xsolla-22cf358c-7c7f-40ae-afaa-2e52a1cbfecf",
@@ -4727,7 +5823,13 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Анимация",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unreal",
+      "Maya",
+      "Blender"
+    ]
   },
   {
     "id": "lv-xsolla-0340b92a-5e8e-49f6-ab2a-4ace439c5bb9",
@@ -4745,7 +5847,9 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Продакт",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-6173525e-9c55-4967-b4c0-ebe63d8c750b",
@@ -4761,7 +5865,9 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Маркетинг",
-    "grade": "Junior"
+    "grade": "Junior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-crytek-d82d4509-5f52-4757-ba24-11f352f5bc75",
@@ -4779,7 +5885,15 @@ window.JOBS = [
     "source": "lever",
     "site": "crytek.com",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "Инструменты",
+    "stack": [
+      "C++",
+      "C#",
+      "Python",
+      "TypeScript",
+      "Kubernetes"
+    ]
   },
   {
     "id": "lv-xsolla-7e04fe74-d35f-48a4-b839-9f97c39e0a3d",
@@ -4797,7 +5911,13 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Фронтенд",
+    "stack": [
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ]
   },
   {
     "id": "lv-amanotes-6d610a18-1bf2-4954-9785-15a727c4c27c",
@@ -4815,7 +5935,9 @@ window.JOBS = [
     "source": "lever",
     "site": "amanotes.com",
     "role": "Продакт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-larian-studios-cd334afc-3346-48be-9c52-2006945174be",
@@ -4833,7 +5955,9 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Нарратив",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-0b7b206f-dfd3-48c2-85ac-8cb7452df132",
@@ -4851,7 +5975,13 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "SQL",
+      "AWS",
+      "Kubernetes"
+    ]
   },
   {
     "id": "lv-xsolla-0059c21b-e431-486d-babd-e87d212a835e",
@@ -4869,7 +5999,15 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": "Фронтенд",
+    "stack": [
+      "TypeScript",
+      "JavaScript",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ]
   },
   {
     "id": "lv-crytek-15dc6fbb-2edd-4367-9372-a87d7fcf43ec",
@@ -4887,7 +6025,9 @@ window.JOBS = [
     "source": "lever",
     "site": "crytek.com",
     "role": "Геймдизайн",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-easybrain-66863456-4eb0-4f08-bb23-d13dae6c4722",
@@ -4905,7 +6045,9 @@ window.JOBS = [
     "source": "lever",
     "site": "easybrain.com",
     "role": "Продакт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-9d29cb7e-aa45-49cc-abfb-a3fd36d2bf9d",
@@ -4923,7 +6065,14 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Технический художник",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unreal",
+      "Python",
+      "Houdini",
+      "Perforce"
+    ]
   },
   {
     "id": "lv-larian-studios-8dc39b30-2d2b-4e33-9ba1-eaac56c2ba5c",
@@ -4941,7 +6090,16 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "Фронтенд",
+    "stack": [
+      "C++",
+      "Python",
+      "TypeScript",
+      "Docker",
+      "Kubernetes",
+      "Perforce"
+    ]
   },
   {
     "id": "rc-huuuge-games-2558395",
@@ -4959,7 +6117,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": "huuugegames.com",
     "role": "Маркетинг",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "rc-bloober-team-2558273",
@@ -4977,7 +6137,11 @@ window.JOBS = [
     "source": "recruitee",
     "site": "blooberteam.com",
     "role": "Арт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unreal"
+    ]
   },
   {
     "id": "lv-larian-studios-09bd74d9-6abc-44cf-af96-7236b7fc64ee",
@@ -4993,7 +6157,9 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Нарратив",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-fe6a2e57-3aa8-4226-93f0-1264e815507e",
@@ -5011,7 +6177,11 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python"
+    ]
   },
   {
     "id": "lv-larian-studios-6b6eb172-a4cb-431f-8af9-23236f8e51c9",
@@ -5029,7 +6199,11 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Геймплей",
+    "stack": [
+      "C++"
+    ]
   },
   {
     "id": "lv-larian-studios-cc0ef944-ed91-4758-a3cd-c1ae408f3db1",
@@ -5047,7 +6221,11 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Геймплей",
+    "stack": [
+      "C++"
+    ]
   },
   {
     "id": "lv-xsolla-ffaca67c-efa0-4a7d-a3bd-8a4e08d328a1",
@@ -5065,7 +6243,11 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Go"
+    ]
   },
   {
     "id": "lv-xsolla-bacc542e-9e8c-4cbd-9667-3fa960c7c294",
@@ -5083,7 +6265,13 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Бэкенд",
+    "stack": [
+      "Go",
+      "Docker",
+      "Kubernetes"
+    ]
   },
   {
     "id": "lv-xsolla-a70bdc3f-3d56-4634-9b8e-a5d40fc4433c",
@@ -5101,7 +6289,13 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ]
   },
   {
     "id": "lv-crytek-897a9afe-06a0-40d4-9331-0b559c56aa1f",
@@ -5119,7 +6313,12 @@ window.JOBS = [
     "source": "lever",
     "site": "crytek.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "JavaScript",
+      "Figma"
+    ]
   },
   {
     "id": "lv-amanotes-96e45f3d-675c-42fb-93ef-f1e4aa812956",
@@ -5137,7 +6336,12 @@ window.JOBS = [
     "source": "lever",
     "site": "amanotes.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Unity",
+    "stack": [
+      "Unity",
+      "C#"
+    ]
   },
   {
     "id": "lv-xsolla-5212ef39-d17c-4139-bd9e-3fccce126ff1",
@@ -5155,7 +6359,14 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "Фронтенд",
+    "stack": [
+      "TypeScript",
+      "JavaScript",
+      "AWS",
+      "Docker"
+    ]
   },
   {
     "id": "lv-xsolla-f1c5d5ca-04ff-482e-87af-405e4a1414c8",
@@ -5173,7 +6384,13 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "Фронтенд",
+    "stack": [
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ]
   },
   {
     "id": "lv-xsolla-fe065e86-bf17-4d50-b630-c7b375c4edb5",
@@ -5191,7 +6408,14 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Kotlin",
+      "Swift",
+      "TypeScript",
+      "JavaScript"
+    ]
   },
   {
     "id": "lv-xsolla-09a7b7ec-7c95-491e-9d1b-0da77f2f8873",
@@ -5209,7 +6433,9 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Junior"
+    "grade": "Junior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-d5e8a645-f8e1-490f-8280-a6a183aae529",
@@ -5225,7 +6451,11 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Аналитика",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "SQL"
+    ]
   },
   {
     "id": "lv-amanotes-b280ffc0-b9fb-4af1-a545-148dbdaff5bd",
@@ -5243,7 +6473,11 @@ window.JOBS = [
     "source": "lever",
     "site": "amanotes.com",
     "role": "Маркетинг",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Unity"
+    ]
   },
   {
     "id": "lv-amanotes-fd0958b1-2370-4d57-8058-ab1e3a5ac96d",
@@ -5261,7 +6495,9 @@ window.JOBS = [
     "source": "lever",
     "site": "amanotes.com",
     "role": "Маркетинг",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-aafd0eab-e98c-4e66-a556-90b677a87bf8",
@@ -5279,7 +6515,13 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Фронтенд",
+    "stack": [
+      "TypeScript",
+      "JavaScript",
+      "Figma"
+    ]
   },
   {
     "id": "lv-xsolla-b47ed6c2-2f7d-4319-803c-1457c846ac29",
@@ -5297,7 +6539,12 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Go",
+      "SQL"
+    ]
   },
   {
     "id": "lv-xsolla-589818ee-a4ef-4d18-80a4-64bd2e17782d",
@@ -5315,7 +6562,13 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "Бэкенд",
+    "stack": [
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ]
   },
   {
     "id": "lv-xsolla-2a094b06-bf3b-456a-a136-27c4545cfe00",
@@ -5333,7 +6586,12 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "Фронтенд",
+    "stack": [
+      "TypeScript",
+      "JavaScript"
+    ]
   },
   {
     "id": "lv-xsolla-08960a16-42f4-44f7-8096-8072438bbdb3",
@@ -5351,7 +6609,12 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "Бэкенд",
+    "stack": [
+      "Docker",
+      "Kubernetes"
+    ]
   },
   {
     "id": "lv-xsolla-8298ae62-cc3a-4110-be98-e27ade43c33f",
@@ -5369,7 +6632,13 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Бэкенд",
+    "stack": [
+      "Go",
+      "SQL",
+      "Docker"
+    ]
   },
   {
     "id": "lv-larian-studios-d546d9c3-ab0d-4c77-81d8-8b8388c158ff",
@@ -5387,7 +6656,11 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Программирование",
-    "grade": "Junior"
+    "grade": "Junior",
+    "spec": "Геймплей",
+    "stack": [
+      "C++"
+    ]
   },
   {
     "id": "lv-xsolla-3ff76511-7e63-4de9-85cb-e570b9889d82",
@@ -5405,7 +6678,9 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Продакт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-f5b67c57-4878-4410-a709-4ef29b45d7f9",
@@ -5423,7 +6698,9 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "QA",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-a9ce97c9-52f5-4767-a784-012eaa0df83a",
@@ -5441,7 +6718,15 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Фронтенд",
+    "stack": [
+      "Python",
+      "TypeScript",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ]
   },
   {
     "id": "lv-xsolla-2bb002c9-50a4-4129-a831-e38a9d82f6c0",
@@ -5459,7 +6744,12 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Java",
+      "Kotlin"
+    ]
   },
   {
     "id": "lv-xsolla-77132545-27aa-45ba-bce9-0ca5bf04f580",
@@ -5477,7 +6767,13 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Бэкенд",
+    "stack": [
+      "TypeScript",
+      "Docker",
+      "Kubernetes"
+    ]
   },
   {
     "id": "lv-xsolla-e0cee92b-d327-4f37-a148-310de5a35350",
@@ -5495,7 +6791,13 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "C++",
+      "AWS",
+      "Docker"
+    ]
   },
   {
     "id": "lv-amanotes-01540a47-eed9-4b9b-9de9-a91658f76aa3",
@@ -5513,7 +6815,11 @@ window.JOBS = [
     "source": "lever",
     "site": "amanotes.com",
     "role": "Продакт",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Figma"
+    ]
   },
   {
     "id": "lv-xsolla-1228b276-5183-4981-8620-4fc06632f268",
@@ -5531,7 +6837,13 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Аналитика",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL",
+      "AWS"
+    ]
   },
   {
     "id": "rc-reality-games-2412535",
@@ -5549,7 +6861,12 @@ window.JOBS = [
     "source": "recruitee",
     "site": null,
     "role": "Программирование",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Unity",
+      "Kubernetes"
+    ]
   },
   {
     "id": "rc-lucid-reality-labs-1667691",
@@ -5567,7 +6884,11 @@ window.JOBS = [
     "source": "recruitee",
     "site": "lucidrealitylabs.com",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "Фронтенд",
+    "stack": [
+      "JavaScript"
+    ]
   },
   {
     "id": "lv-amanotes-73e664da-d664-4033-88ce-9b58970a69fe",
@@ -5585,7 +6906,16 @@ window.JOBS = [
     "source": "lever",
     "site": "amanotes.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Фронтенд",
+    "stack": [
+      "Python",
+      "TypeScript",
+      "JavaScript",
+      "SQL",
+      "AWS",
+      "Docker"
+    ]
   },
   {
     "id": "rc-reality-games-1150477",
@@ -5603,7 +6933,11 @@ window.JOBS = [
     "source": "recruitee",
     "site": null,
     "role": "QA",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unity"
+    ]
   },
   {
     "id": "lv-xsolla-e0816368-5dfc-4d76-92e1-dbcdd16848f9",
@@ -5621,7 +6955,14 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "Бэкенд",
+    "stack": [
+      "Go",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ]
   },
   {
     "id": "lv-xsolla-d9b3ab79-3dc4-47e4-98ac-57c06f44a355",
@@ -5639,7 +6980,12 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "Фронтенд",
+    "stack": [
+      "Docker",
+      "Kubernetes"
+    ]
   },
   {
     "id": "lv-xsolla-2cf1f27e-ccb4-46d2-9042-c08f48907d86",
@@ -5657,7 +7003,11 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": "Бэкенд",
+    "stack": [
+      "Go"
+    ]
   },
   {
     "id": "lv-xsolla-4c56db6a-8f24-4ac5-af42-b4d183586816",
@@ -5675,7 +7025,9 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": "Фронтенд",
+    "stack": []
   },
   {
     "id": "lv-xsolla-56509726-51c6-4b4a-8983-8023cca96bd5",
@@ -5693,7 +7045,13 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Бэкенд",
+    "stack": [
+      "Go",
+      "SQL",
+      "Docker"
+    ]
   },
   {
     "id": "lv-amanotes-1fe8667a-667f-4c31-901c-f747a06d8fa0",
@@ -5711,7 +7069,14 @@ window.JOBS = [
     "source": "lever",
     "site": "amanotes.com",
     "role": "VFX",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unity",
+      "Maya",
+      "Blender",
+      "Photoshop"
+    ]
   },
   {
     "id": "lv-amanotes-9a6a467a-feb9-4335-bee0-8d100ebd2b5c",
@@ -5729,7 +7094,12 @@ window.JOBS = [
     "source": "lever",
     "site": "amanotes.com",
     "role": "Арт",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Photoshop",
+      "Figma"
+    ]
   },
   {
     "id": "lv-amanotes-b1a475bc-e8e9-480c-bb1c-fb5b9f26c232",
@@ -5747,7 +7117,13 @@ window.JOBS = [
     "source": "lever",
     "site": "amanotes.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Unity",
+    "stack": [
+      "Unity",
+      "C++",
+      "Java"
+    ]
   },
   {
     "id": "lv-amanotes-6494be0d-2f94-4705-b460-cd4ce4aa6448",
@@ -5765,7 +7141,9 @@ window.JOBS = [
     "source": "lever",
     "site": "amanotes.com",
     "role": "Маркетинг",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-ebb74747-c739-4247-bafc-a088c10fa643",
@@ -5783,7 +7161,15 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Данные и ML",
+    "stack": [
+      "Python",
+      "TypeScript",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ]
   },
   {
     "id": "lv-xsolla-590dc198-720c-4efe-bb3d-3ecdfd53603b",
@@ -5801,7 +7187,11 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "JavaScript"
+    ]
   },
   {
     "id": "lv-xsolla-0596a991-0649-40dc-9812-ba482219b1a1",
@@ -5819,7 +7209,11 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": "Фронтенд",
+    "stack": [
+      "TypeScript"
+    ]
   },
   {
     "id": "lv-amanotes-53d882d0-3ef0-409e-a657-9ee654b76d73",
@@ -5837,7 +7231,9 @@ window.JOBS = [
     "source": "lever",
     "site": "amanotes.com",
     "role": "Геймдизайн",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-e742967e-3808-4a3f-8d91-4d357f3f17ff",
@@ -5855,7 +7251,9 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": "Бэкенд",
+    "stack": []
   },
   {
     "id": "lv-xsolla-7e396bbb-655d-4f94-8a78-2015c34d9b9b",
@@ -5873,7 +7271,9 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-3619b321-edfe-40ed-bc42-f34b39e39d59",
@@ -5891,7 +7291,12 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Docker",
+      "Kubernetes"
+    ]
   },
   {
     "id": "rc-reality-games-2367141",
@@ -5909,7 +7314,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": null,
     "role": "Поддержка",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "rc-reality-games-2366783",
@@ -5927,7 +7334,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": null,
     "role": "Маркетинг",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-164a8740-d61a-41ee-9d10-8892b60ac0cb",
@@ -5945,7 +7354,12 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Middle"
+    "grade": "Middle",
+    "spec": null,
+    "stack": [
+      "Go",
+      "SQL"
+    ]
   },
   {
     "id": "lv-xsolla-0017fccd-82d6-42a8-8231-ccda407463f9",
@@ -5963,7 +7377,12 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Бэкенд",
+    "stack": [
+      "Go",
+      "SQL"
+    ]
   },
   {
     "id": "lv-larian-studios-27fc755d-40b6-43b9-b58a-3ca3ebb01fc7",
@@ -5981,7 +7400,9 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Геймдизайн",
-    "grade": "Junior"
+    "grade": "Junior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-82e04d00-239d-4a39-a781-671f2958db4e",
@@ -5999,7 +7420,12 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "Фронтенд",
+    "stack": [
+      "TypeScript",
+      "JavaScript"
+    ]
   },
   {
     "id": "lv-xsolla-3aff5760-0e40-4896-944a-980a2369608f",
@@ -6017,7 +7443,11 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Фронтенд",
+    "stack": [
+      "TypeScript"
+    ]
   },
   {
     "id": "lv-xsolla-1dd5a9e7-9298-432d-906b-04d24ce57223",
@@ -6035,7 +7465,9 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "QA",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "rc-reality-games-2336273",
@@ -6053,7 +7485,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": null,
     "role": "Поддержка",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-f030891c-9663-4d5a-980e-e6966174493d",
@@ -6071,7 +7505,15 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Данные и ML",
+    "stack": [
+      "Python",
+      "TypeScript",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ]
   },
   {
     "id": "lv-xsolla-159174f3-b2d4-4d17-819b-53e6722b8e51",
@@ -6089,7 +7531,9 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-3702e353-59ec-4da3-8fcf-0278952f1782",
@@ -6107,7 +7551,12 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Kotlin",
+      "Swift"
+    ]
   },
   {
     "id": "lv-xsolla-c6df5226-4102-4b05-a65d-fc7da6f86c52",
@@ -6123,7 +7572,13 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": "Бэкенд",
+    "stack": [
+      "Go",
+      "AWS",
+      "Kubernetes"
+    ]
   },
   {
     "id": "lv-xsolla-11ffcc7d-9ee2-4eb7-b467-1d2e1d3c883d",
@@ -6139,7 +7594,13 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Аналитика",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unity",
+      "Python",
+      "SQL"
+    ]
   },
   {
     "id": "rc-reality-games-1026110",
@@ -6157,7 +7618,11 @@ window.JOBS = [
     "source": "recruitee",
     "site": null,
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Бэкенд",
+    "stack": [
+      "Kubernetes"
+    ]
   },
   {
     "id": "lv-fanatee-8c1d49e1-d701-41b2-ba44-df3e3b906ebe",
@@ -6173,7 +7638,9 @@ window.JOBS = [
     "source": "lever",
     "site": "fanatee.com",
     "role": "Поддержка",
-    "grade": "Junior"
+    "grade": "Junior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "rc-reality-games-2295782",
@@ -6191,7 +7658,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": null,
     "role": "Звук",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "rc-reality-games-2295555",
@@ -6209,7 +7678,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": null,
     "role": "Арт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-64a1b630-eff7-4b57-8cb6-60b84daa2b3a",
@@ -6227,7 +7698,9 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Поддержка",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-ed247956-f43a-48d4-8385-64c2d6e45001",
@@ -6245,7 +7718,12 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unity",
+      "Unreal"
+    ]
   },
   {
     "id": "lv-xsolla-a94d937b-bcd3-40c2-82d9-c3f9d9ab2849",
@@ -6263,7 +7741,9 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Маркетинг",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-c3513ba1-5642-4b16-9975-8ab813fe8f83",
@@ -6281,7 +7761,9 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "rc-ten-square-games-2280053",
@@ -6299,7 +7781,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": "tensquaregames.com",
     "role": "Продакт",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-a8e80b3f-9cd0-421e-bcc1-6ff03a4ab182",
@@ -6317,7 +7801,9 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Маркетинг",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-22a159a5-88df-49ad-958d-2c3ad66dc06c",
@@ -6335,7 +7821,9 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Поддержка",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-c8222d67-a318-46b0-aa00-44f6cc67918e",
@@ -6353,7 +7841,11 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "Фронтенд",
+    "stack": [
+      "Docker"
+    ]
   },
   {
     "id": "lv-amanotes-bbeb632b-0262-4513-b211-5bcab49d4b40",
@@ -6371,7 +7863,12 @@ window.JOBS = [
     "source": "lever",
     "site": "amanotes.com",
     "role": "Арт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Photoshop",
+      "Figma"
+    ]
   },
   {
     "id": "lv-xsolla-a5f7382d-eb1a-4f54-9fd1-8703d38e0a86",
@@ -6387,7 +7884,9 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Поддержка",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-df434055-fe50-4682-9e72-29720761db52",
@@ -6403,7 +7902,12 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unity",
+      "Unreal"
+    ]
   },
   {
     "id": "lv-xsolla-598164cd-61a6-477a-a0cc-debbd3f5d18a",
@@ -6421,7 +7925,13 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Бэкенд",
+    "stack": [
+      "Python",
+      "AWS",
+      "Kubernetes"
+    ]
   },
   {
     "id": "rc-reality-games-2201648",
@@ -6439,7 +7949,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": null,
     "role": "Арт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-89827fb8-d3bc-4007-b459-a3020044ea06",
@@ -6457,7 +7969,9 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "rc-reality-games-2191509",
@@ -6475,7 +7989,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": null,
     "role": "Продакт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "rc-reality-games-1026657",
@@ -6493,7 +8009,11 @@ window.JOBS = [
     "source": "recruitee",
     "site": null,
     "role": "Арт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unity"
+    ]
   },
   {
     "id": "rc-reality-games-1026660",
@@ -6511,7 +8031,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": null,
     "role": "Поддержка",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-larian-studios-426112f6-122c-4cef-b97f-37e7df14526f",
@@ -6527,7 +8049,9 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Анимация",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-larian-studios-64e1e658-7c7a-4c7f-b950-f997d40a9d8e",
@@ -6543,7 +8067,9 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Арт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-larian-studios-b17cce86-db83-402d-8851-a5a5db3e822b",
@@ -6559,7 +8085,9 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Арт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-larian-studios-66793055-cc67-4691-8191-56713e457714",
@@ -6575,7 +8103,9 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Арт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-larian-studios-4fd694b3-ece7-4307-9949-15cac512a815",
@@ -6591,7 +8121,9 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Арт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-larian-studios-9bd7d394-e1cc-4acf-8176-68eb2b08aa18",
@@ -6607,7 +8139,9 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Арт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-larian-studios-8a0ddf95-82a6-470f-9a1b-3126f569613b",
@@ -6623,7 +8157,11 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Геймплей",
+    "stack": [
+      "C++"
+    ]
   },
   {
     "id": "lv-larian-studios-2dadccc5-fd1a-4abd-a594-367827be9268",
@@ -6639,7 +8177,9 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Геймплей",
+    "stack": []
   },
   {
     "id": "lv-larian-studios-c94ffeae-dd5e-4a6e-a239-dddbcec58f9c",
@@ -6655,7 +8195,9 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Арт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-larian-studios-bf42260a-554e-44dd-8d96-a6621982d4ca",
@@ -6671,7 +8213,9 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Арт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-larian-studios-c34990ef-5128-44de-86fc-b1df5d596a51",
@@ -6687,7 +8231,9 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Продюсирование",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-larian-studios-90157c7a-cc80-4cc3-8d78-285e5745f25e",
@@ -6703,7 +8249,9 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Арт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-larian-studios-fb8fefbf-099e-4161-94ba-e32ce409dda2",
@@ -6719,7 +8267,9 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Арт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-larian-studios-f499a22b-9ea6-418b-be66-c0d7b5efaee3",
@@ -6735,7 +8285,9 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Анимация",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-larian-studios-4ef19671-90b0-4cc7-9365-64aa3c671563",
@@ -6751,7 +8303,9 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Технический художник",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-larian-studios-566055cd-27a3-4429-a829-cc10e2132308",
@@ -6767,7 +8321,9 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "QA",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-larian-studios-fd0719ec-645d-4314-9356-2cf853aa8802",
@@ -6783,7 +8339,9 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Арт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-larian-studios-04cb183c-c7a0-42a5-93f9-8782b9b198a9",
@@ -6799,7 +8357,9 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "VFX",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "rc-ten-square-games-2114537",
@@ -6817,7 +8377,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": "tensquaregames.com",
     "role": "Продакт",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-larian-studios-ad8ea7ad-77b1-4839-8268-412ab72faf8b",
@@ -6835,7 +8397,11 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Программирование",
-    "grade": "Junior"
+    "grade": "Junior",
+    "spec": "Геймплей",
+    "stack": [
+      "C++"
+    ]
   },
   {
     "id": "lv-xsolla-86377699-ad33-419d-b81d-dfbf9d859b10",
@@ -6853,7 +8419,11 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Бэкенд",
+    "stack": [
+      "Go"
+    ]
   },
   {
     "id": "rc-reality-games-2050941",
@@ -6871,7 +8441,11 @@ window.JOBS = [
     "source": "recruitee",
     "site": null,
     "role": "Аналитика",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "SQL"
+    ]
   },
   {
     "id": "rc-reality-games-2050833",
@@ -6889,7 +8463,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": null,
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Данные и ML",
+    "stack": []
   },
   {
     "id": "rc-reality-games-1300650",
@@ -6907,7 +8483,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": null,
     "role": "QA",
-    "grade": "Junior"
+    "grade": "Junior",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "rc-reality-games-1999421",
@@ -6925,7 +8503,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": null,
     "role": "Арт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "rc-reality-games-1142878",
@@ -6943,7 +8523,11 @@ window.JOBS = [
     "source": "recruitee",
     "site": null,
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Unity",
+    "stack": [
+      "Unity"
+    ]
   },
   {
     "id": "lv-larian-studios-1461a85a-b36c-4b96-974d-6e3e7dcd5cf9",
@@ -6961,7 +8545,9 @@ window.JOBS = [
     "source": "lever",
     "site": "larian.com",
     "role": "Арт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "rc-reality-games-1027523",
@@ -6979,7 +8565,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": null,
     "role": "Арт",
-    "grade": "Lead"
+    "grade": "Lead",
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-amanotes-442b9253-a92c-4d2b-b557-f9be0a459eb4",
@@ -6997,7 +8585,9 @@ window.JOBS = [
     "source": "lever",
     "site": "amanotes.com",
     "role": "Продакт",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-xsolla-36de3791-840b-4073-b7f7-ac4a2685ad3c",
@@ -7015,7 +8605,13 @@ window.JOBS = [
     "source": "lever",
     "site": "xsolla.com",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Go",
+      "SQL",
+      "Docker"
+    ]
   },
   {
     "id": "lv-fanatee-5f3cf507-f63d-4457-9aed-d0e53ea7d770",
@@ -7031,7 +8627,11 @@ window.JOBS = [
     "source": "lever",
     "site": "fanatee.com",
     "role": "Аналитика",
-    "grade": "Junior"
+    "grade": "Junior",
+    "spec": null,
+    "stack": [
+      "Unity"
+    ]
   },
   {
     "id": "lv-fanatee-6b377205-1198-4e9d-9a02-00f150ee52cd",
@@ -7047,7 +8647,11 @@ window.JOBS = [
     "source": "lever",
     "site": "fanatee.com",
     "role": "Аналитика",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unity"
+    ]
   },
   {
     "id": "lv-amanotes-61a771f9-baf2-4c8b-9503-34a98fe1da42",
@@ -7065,7 +8669,11 @@ window.JOBS = [
     "source": "lever",
     "site": "amanotes.com",
     "role": "Геймдизайн",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Figma"
+    ]
   },
   {
     "id": "lv-amanotes-b4c5ae56-8391-49c6-a67f-1e66484df8ed",
@@ -7083,7 +8691,11 @@ window.JOBS = [
     "source": "lever",
     "site": "amanotes.com",
     "role": "Аналитика",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "AWS"
+    ]
   },
   {
     "id": "rc-reality-games-1069051",
@@ -7101,7 +8713,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": null,
     "role": "Поддержка",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-amanotes-284789f4-a83e-4727-9738-211cdfbe8201",
@@ -7119,7 +8733,15 @@ window.JOBS = [
     "source": "lever",
     "site": "amanotes.com",
     "role": "Программирование",
-    "grade": "Senior"
+    "grade": "Senior",
+    "spec": "Unity",
+    "stack": [
+      "Unity",
+      "C#",
+      "Python",
+      "TypeScript",
+      "JavaScript"
+    ]
   },
   {
     "id": "rc-reality-games-1021714",
@@ -7137,7 +8759,9 @@ window.JOBS = [
     "source": "recruitee",
     "site": null,
     "role": "Геймдизайн",
-    "grade": null
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "lv-fanatee-3cdcc244-14ba-4c43-8637-d94f94c37841",
@@ -7153,6 +8777,11 @@ window.JOBS = [
     "source": "lever",
     "site": "fanatee.com",
     "role": "Программирование",
-    "grade": null
+    "grade": null,
+    "spec": "Unity",
+    "stack": [
+      "Unity",
+      "C#"
+    ]
   }
 ];
