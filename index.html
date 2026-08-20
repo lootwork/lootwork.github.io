@@ -386,17 +386,17 @@
       <button class="close" id="filterSheetClose" data-close="filterOverlay">×</button>
     </div>
     <div class="sheet-body">
-      <div class="group"><div class="group-title">Роль</div><div class="chips" id="fRole"></div></div>
-      <div class="group"><div class="group-title">Грейд</div><div class="chips" id="fGrade"></div></div>
-      <div class="group"><div class="group-title">Когда опубликовано</div><div class="chips" id="fAge"></div></div>
-      <div class="group"><div class="group-title">Условия</div><div class="chips" id="fFlags"></div></div>
+      <div class="group"><div class="group-title" id="gtRole">Роль</div><div class="chips" id="fRole"></div></div>
+      <div class="group"><div class="group-title" id="gtGrade">Грейд</div><div class="chips" id="fGrade"></div></div>
+      <div class="group"><div class="group-title" id="gtPosted">Когда опубликовано</div><div class="chips" id="fAge"></div></div>
+      <div class="group"><div class="group-title" id="gtTerms">Условия</div><div class="chips" id="fFlags"></div></div>
       <div class="group">
-        <div class="group-title">Компания</div>
+        <div class="group-title" id="gtCompany">Компания</div>
         <input class="list-search" id="companySearch" placeholder="Найти компанию…">
         <div class="scroll-list" id="fCompany"></div>
       </div>
       <div class="group">
-        <div class="group-title">Локация</div>
+        <div class="group-title" id="gtLocation">Локация</div>
         <div class="chips" id="countryChips" style="margin-bottom:10px"></div>
         <input class="list-search" id="locSearch" placeholder="Страна или город — можно по-русски">
         <div class="scroll-list" id="fLocation"></div>
@@ -601,6 +601,14 @@
   }
   function ageLabel(d){
     if (d === null) return "";
+    if (lang === "en"){
+      if (d <= 0) return "today";
+      if (d === 1) return "yesterday";
+      if (d < 7) return d + "d ago";
+      if (d < 14) return "a week ago";
+      if (d < 31) return Math.floor(d/7) + "w ago";
+      return "over a month ago";
+    }
     if (d <= 0) return "сегодня";
     if (d === 1) return "вчера";
     if (d < 7) return d + " дн. назад";
@@ -680,6 +688,8 @@
       writeTitle:"Написать", fbHint:"Читаю каждое сообщение. Оставь почту в тексте — отвечу.",
       topic:"Тема", message:"Что рассказать", send:"Отправить", cancel:"Отмена",
       filtersTitle:"Фильтры", footWrite:"Добавить студию или сообщить об ошибке",
+      gtRole:"Роль", gtGrade:"Грейд", gtPosted:"Когда опубликовано",
+      gtTerms:"Условия", gtCompany:"Компания", gtLocation:"Локация",
       footText:"Вакансии собираются автоматически с публичных карьерных страниц игровых студий и их систем найма. Мы не работодатель, не агентство и не принимаем отклики — откликаться нужно на сайте студии.",
       footPrivacy:"Сайт использует Яндекс.Метрику для подсчёта посещений. Резюме и отклики мы не собираем.",
       howBody:[
@@ -717,6 +727,8 @@
       writeTitle:"Contact us", fbHint:"I read everything. Leave your email in the text and I will reply.",
       topic:"Topic", message:"Your message", send:"Send", cancel:"Cancel",
       filtersTitle:"Filters", footWrite:"Suggest a studio or report a problem",
+      gtRole:"Role", gtGrade:"Level", gtPosted:"Posted", gtTerms:"Conditions",
+      gtCompany:"Company", gtLocation:"Location",
       footText:"Jobs are collected automatically from public career pages of game studios and their hiring systems. We are not an employer or an agency and we do not accept applications — apply on the studio site.",
       footPrivacy:"This site uses Yandex.Metrica to count visits. We do not collect CVs or applications.",
       howBody:[
@@ -758,8 +770,15 @@
     $("fbSend").textContent = t("send");
     $("sendReport").textContent = t("send");
     $("filtersTitle").textContent = t("filtersTitle");
+    ["gtRole","gtGrade","gtPosted","gtTerms","gtCompany","gtLocation"].forEach(id => {
+      const el = $(id);
+      if (el) el.textContent = t(id);
+    });
+    $("companySearch").placeholder = t("findCompany");
+    $("locSearch").placeholder = t("findLoc");
     document.querySelectorAll("[data-cancel]").forEach(b => b.textContent = t("cancel"));
     renderStats();
+    renderBadge();
     renderHow();
     $("toTop").title = t("top");
     document.querySelectorAll(".lang-btn").forEach(b =>
@@ -770,6 +789,15 @@
     renderList();
     buildFilterUi();
   }
+
+  // Роли хранятся по-русски в данных; для английской версии — подписи.
+  const ROLE_EN = {
+    "Программирование":"Programming", "Геймдизайн":"Game design", "Арт":"Art",
+    "Анимация":"Animation", "VFX":"VFX", "Продюсирование":"Production",
+    "QA":"QA", "Аналитика":"Analytics", "Маркетинг":"Marketing",
+    "Звук":"Audio", "Нарратив":"Narrative", "Поддержка":"Support"
+  };
+  function roleLabel(v){ return lang === "en" ? (ROLE_EN[v] || v) : v; }
 
   const MONTHS = {
     ru:["января","февраля","марта","апреля","мая","июня","июля","августа","сентября","октября","ноября","декабря"],
@@ -785,6 +813,18 @@
   }
 
   // Цифры на первом экране: сколько вакансий, от скольких студий и когда обновлено.
+  // сколько появилось за последнюю неделю — повод заглянуть снова
+  function renderBadge(){
+    const old = document.querySelector(".new-badge");
+    if (old) old.remove();
+    const fresh = JOBS.filter(j => { const d = daysAgo(j.posted); return d !== null && d <= 7; }).length;
+    if (!fresh) return;
+    const b = document.createElement("span");
+    b.className = "new-badge";
+    b.textContent = "+" + fresh + " " + t("perWeek");
+    document.querySelector("h1").appendChild(b);
+  }
+
   function renderStats(){
     const studios = window.JOBS_STUDIOS || new Set(JOBS.map(j => j.company)).size;
     const parts = [JOBS.length + " " + t("jobsWord"), studios + " " + t("studiosWord")];
@@ -981,9 +1021,9 @@
     el.className = "card" + (reported.has(j.id) ? " reported" : "");
     const age = daysAgo(j.posted);
     const tags = [];
-    if (j.remote) tags.push('<span class="tag remote">Удалёнка</span>');
+    if (j.remote) tags.push('<span class="tag remote">'+t("remote")+'</span>');
     if (j.grade) tags.push('<span class="tag">'+esc(j.grade)+'</span>');
-    if (j.role) tags.push('<span class="tag">'+esc(j.role)+'</span>');
+    if (j.role) tags.push('<span class="tag">'+esc(roleLabel(j.role))+'</span>');
     if (age !== null) tags.push('<span class="tag'+(age<7?' fresh':'')+'">'+ageLabel(age)+'</span>');
 
     el.innerHTML =
@@ -1074,7 +1114,7 @@
 
     // четыре самые многочисленные роли — они закрывают большинство запросов
     counts("role").slice(0, 4).forEach(([role]) => {
-      chip(role, () => state.role.has(role),
+      chip(roleLabel(role), () => state.role.has(role),
         () => state.role.has(role) ? state.role.delete(role) : state.role.add(role));
     });
 
@@ -1119,7 +1159,7 @@
       t.addEventListener("click", () => { off(); shownCount = PAGE; renderList(); });
       box.appendChild(t);
     };
-    state.role.forEach(v => add(v, () => state.role.delete(v)));
+    state.role.forEach(v => add(roleLabel(v), () => state.role.delete(v)));
     state.grade.forEach(v => add(v, () => state.grade.delete(v)));
     state.company.forEach(v => add(v, () => state.company.delete(v)));
     state.location.forEach(v => add(v, () => state.location.delete(v)));
@@ -1136,13 +1176,13 @@
              location:new Set(s.location), age:s.age, remote:s.remote, salary:s.salary, query:s.query };
   }
 
-  function chipRow(el, values, set, key){
+  function chipRow(el, values, set, label){
     el.innerHTML = "";
     values.forEach(([v, n]) => {
       const b = document.createElement("button");
       b.className = "chip" + (set.has(v) ? " on" : "");
       b.setAttribute("aria-pressed", set.has(v));
-      b.innerHTML = esc(v) + (n != null ? ' <span class="cnt">'+n+'</span>' : '');
+      b.innerHTML = esc(label ? label(v) : v) + (n != null ? ' <span class="cnt">'+n+'</span>' : '');
       b.addEventListener("click", () => {
         set.has(v) ? set.delete(v) : set.add(v);
         buildFilterUi();
@@ -1222,7 +1262,7 @@
 
   function buildFilterUi(){
     if (!draft) return;      // окно фильтров ещё не открывали — рисовать нечего
-    chipRow($("fRole"), counts("role"), draft.role);
+    chipRow($("fRole"), counts("role"), draft.role, roleLabel);
     chipRow($("fGrade"), counts("grade"), draft.grade);
 
     const ageEl = $("fAge");
@@ -1356,9 +1396,9 @@
     $("jobTitle").textContent = j.title;
 
     const tags = [];
-    if (j.remote) tags.push("Удалёнка");
+    if (j.remote) tags.push(t("remote"));
     if (j.grade) tags.push(j.grade);
-    if (j.role) tags.push(j.role);
+    if (j.role) tags.push(roleLabel(j.role));
     const age = daysAgo(j.posted);
     if (age !== null) tags.push("опубликовано " + ageLabel(age));
 
@@ -1596,17 +1636,6 @@
       renderList();
     }, 120);
   });
-
-  // сколько появилось за последнюю неделю — повод заглянуть снова
-  (function(){
-    const fresh = JOBS.filter(j => { const d = daysAgo(j.posted); return d !== null && d <= 7; }).length;
-    if (fresh > 0){
-      const b = document.createElement("span");
-      b.className = "new-badge";
-      b.textContent = "+" + fresh + " " + t("perWeek");
-      document.querySelector("h1").appendChild(b);
-    }
-  })();
 
   $("demoNote").hidden = !IS_DEMO;
 
