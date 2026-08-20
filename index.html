@@ -486,14 +486,14 @@
 <div class="overlay" id="confirmOverlay" hidden>
   <div class="sheet" style="max-width:420px">
     <div class="sheet-head">
-      <h2>Сбросить фильтры?</h2>
+      <h2 id="confirmTitle">Сбросить фильтры?</h2>
       <button class="close" data-close="confirmOverlay">×</button>
     </div>
     <div class="sheet-body">
       <div class="hint" id="confirmText" style="margin:0"></div>
     </div>
     <div class="sheet-foot">
-      <button class="btn" data-close="confirmOverlay">Отмена</button>
+      <button class="btn" data-cancel data-close="confirmOverlay">Отмена</button>
       <button class="btn primary" id="confirmReset">Сбросить</button>
     </div>
   </div>
@@ -678,6 +678,9 @@
       sortNew:"Сначала новые", sortOld:"Сначала старые", sortPayHigh:"Зарплата: больше",
       sortPayLow:"Зарплата: меньше", sortRegion:"По локации", sortCompany:"По компании",
       closeQ:"Закрыть окно?", closeSub:"Выбранное сохранится.", stay:"Остаться", close:"Закрыть",
+      resetQ:"Сбросить фильтры?", resetGo:"Сбросить",
+      resetOne:"Снимется один фильтр, и вернётся полный список.",
+      resetMany:"Снимется фильтров: {n}. Вернётся полный список.",
       top:"Наверх", perWeek:"за неделю",
       pitch:"Работа в геймдеве напрямую от студий",
       subtext:"Без агентств, дублей и ручных перепостов. Вакансии берём с карьерных страниц игровых компаний.",
@@ -717,6 +720,9 @@
       sortNew:"Newest first", sortOld:"Oldest first", sortPayHigh:"Salary: high to low",
       sortPayLow:"Salary: low to high", sortRegion:"By location", sortCompany:"By company",
       closeQ:"Close this window?", closeSub:"Your choices are kept.", stay:"Stay", close:"Close",
+      resetQ:"Reset filters?", resetGo:"Reset",
+      resetOne:"One filter will be removed, and the full list will come back.",
+      resetMany:"{n} filters will be removed. The full list will come back.",
       top:"Top", perWeek:"this week",
       pitch:"Game industry jobs, straight from the studios",
       subtext:"No agencies, no duplicates, no manual reposts. We take jobs from studio career pages.",
@@ -774,6 +780,8 @@
       const el = $(id);
       if (el) el.textContent = t(id);
     });
+    $("confirmTitle").textContent = t("resetQ");
+    $("confirmReset").textContent = t("resetGo");
     $("clearFilters").textContent = t("clear");
     $("moreBtn").textContent = t("more");
     $("companySearch").placeholder = t("findCompany");
@@ -1634,8 +1642,8 @@
     const n = activeCount() + (state.query ? 1 : 0);
     if (!n) return;                       // сбрасывать нечего — не дёргаем окно
     $("confirmText").textContent = n === 1
-      ? "Снимется один фильтр, и вернётся полный список."
-      : "Снимется фильтров: " + n + ". Вернётся полный список.";
+      ? t("resetOne")
+      : t("resetMany").replace("{n}", n);
     $("confirmOverlay").hidden = false;
   });
 
