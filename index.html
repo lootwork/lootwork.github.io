@@ -49,10 +49,9 @@
 
   body{
     background:
-      radial-gradient(70% 45% at 12% -8%, rgba(124,77,255,.22) 0%, transparent 62%),
-      radial-gradient(55% 40% at 92% -4%, rgba(0,190,255,.15) 0%, transparent 60%),
-      linear-gradient(rgba(255,255,255,.018) 1px, transparent 1px) 0 0 / 100% 46px,
-      linear-gradient(90deg, rgba(255,255,255,.018) 1px, transparent 1px) 0 0 / 46px 100%,
+      radial-gradient(62% 38% at 22% -10%, rgba(124,77,255,.13) 0%, transparent 64%),
+      linear-gradient(rgba(255,255,255,.011) 1px, transparent 1px) 0 0 / 100% 44px,
+      linear-gradient(90deg, rgba(255,255,255,.011) 1px, transparent 1px) 0 0 / 44px 100%,
       var(--void);
     background-attachment:fixed;
     color:var(--text);
@@ -88,15 +87,10 @@
     #filterBtn{display:none}
   }
 
+  /* Правило простое: если человек первым замечает фон — фон слишком активный.
+     Поэтому никаких силуэтов, только плоскость и еле живая техническая сетка. */
   header{border-bottom:1px solid var(--line-soft);padding:26px 0 18px;margin-bottom:18px;
-    position:relative;z-index:1;overflow:hidden}
-  /* Слабый паттерн только за первым экраном: он должен читаться как фактура,
-     а не как обои. Ниже по странице главными остаются карточки. */
-  header::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
-    opacity:.5;
-    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='170' viewBox='0 0 260 170'%3E%3Cg fill='none' stroke='%235fe3ff' stroke-opacity='.16' stroke-width='1.2'%3E%3Crect x='14' y='22' width='52' height='30' rx='11'/%3E%3Cpath d='M28 37h10M33 32v10M52 34h.01M58 40h.01'/%3E%3Cpath d='M150 26l0 22M139 37l22 0'/%3E%3Cpath d='M96 104c-6-6-6-16 0-22M124 82c6 6 6 16 0 22'/%3E%3Cpath d='M208 118l14 8-14 8z'/%3E%3Ccircle cx='60' cy='128' r='9'/%3E%3Cpath d='M60 113v6M60 137v6M45 128h6M69 128h6'/%3E%3Cpath d='M176 52h26M176 60h16'/%3E%3C/g%3E%3Cg fill='%235fe3ff' fill-opacity='.10' font-family='monospace' font-size='12'%3E%3Ctext x='196' y='30'%3EC%23%3C/text%3E%3Ctext x='96' y='150'%3E{ }%3C/text%3E%3Ctext x='14' y='84'%3E&lt;/&gt;%3C/text%3E%3C/g%3E%3C/svg%3E");
-    background-size:260px 170px}
-  @media (max-width:640px){ header::after{opacity:.35} }
+    position:relative;z-index:1}
   .brandline{display:flex;align-items:center;justify-content:space-between;gap:14px}
   h1{font-family:var(--display);font-weight:700;font-size:clamp(23px,4.6vw,31px);
     letter-spacing:.02em;line-height:1}
@@ -113,7 +107,8 @@
     font-size:11.5px;padding:5px 11px;border-radius:999px;cursor:pointer}
   .lang-btn.on{background:var(--cyan-deep);color:var(--cyan)}
   .lang-btn:hover{color:var(--cyan)}
-  .pitch{font-size:19px;color:var(--text);margin-top:12px;font-weight:700;line-height:1.3}
+  .pitch{font-family:var(--display);font-size:clamp(22px,3.4vw,30px);color:var(--text);
+    margin-top:14px;font-weight:700;line-height:1.22;letter-spacing:-.01em}
   .pitch em{font-style:normal;color:var(--cyan)}
   .pitch strong{color:var(--amber);font-weight:700}
   /* Моноширинные подписи-маркеры: технический слой поверх обычного текста. */
@@ -259,6 +254,7 @@
   .tag{font-size:11.5px;color:var(--muted);background:var(--panel-2);
     border:1px solid var(--line-soft);border-radius:7px;padding:3px 9px}
   .tag.remote{color:var(--cyan);border-color:var(--cyan-deep);background:var(--cyan-deep)}
+  .tag.src{color:#7fd6a8;border-color:#1e4636;font-family:var(--mono);font-size:11px}
   .tag.pool{color:var(--muted);border-style:dashed}
   .tag.role{color:var(--role, var(--muted));border-color:var(--role, var(--line-soft))}
   .tag.grade{color:#b9a8ff;border-color:#3a2f6b}
@@ -289,6 +285,15 @@
     color:var(--amber);border-radius:999px;font-family:var(--mono);font-size:11.5px;
     padding:3px 10px;margin-left:10px;vertical-align:middle;letter-spacing:.01em}
 
+  .toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);z-index:60;
+    background:var(--panel);border:1px solid var(--line);border-radius:11px;
+    padding:11px 15px;display:flex;align-items:center;gap:14px;font-size:13.5px;
+    box-shadow:0 12px 34px rgba(0,0,0,.55);max-width:calc(100vw - 32px)}
+  .toast[hidden]{display:none}
+  .toast button{background:none;border:none;color:var(--cyan);font-family:var(--body);
+    font-size:13.5px;font-weight:600;cursor:pointer;padding:0;white-space:nowrap}
+  .seen-line{text-align:center;color:var(--muted);font-family:var(--mono);font-size:11.5px;
+    letter-spacing:.08em;margin:14px 0 2px}
   .empty-drops{display:flex;flex-wrap:wrap;gap:7px;justify-content:center;margin-top:14px}
   .empty{text-align:center;color:var(--muted);padding:50px 20px;font-size:14px;
     border:1px dashed var(--line);border-radius:14px}
@@ -371,6 +376,8 @@
   .job-head .pay{font-family:var(--mono);color:var(--amber);font-size:14px;margin-top:6px}
   /* Текст вакансии приходит сплошной простынёй. Разбираем его на заголовки,
      списки и абзацы — иначе читать невозможно. */
+  .job-source{font-family:var(--mono);font-size:11.5px;color:#7fd6a8;margin:0 0 16px;
+    letter-spacing:.03em}
   .job-desc{font-size:14.5px;line-height:1.7;color:#d6d2f0}
   .job-desc.empty-desc{color:var(--muted);font-style:italic;white-space:pre-wrap}
   .job-desc h4{font-family:var(--display);font-size:13px;font-weight:600;color:var(--text);
@@ -407,7 +414,7 @@
   textarea.fb:focus{outline:2px solid var(--cyan);outline-offset:-1px}
 
   /* Едва заметный шум: убирает ощущение плоской заливки, ничего не изображая. */
-  body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.035;
+  body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.02;
     background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)'/%3E%3C/svg%3E")}
 
   :focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
@@ -430,7 +437,6 @@
     </div>
     <div class="vertical" id="vertical">Без агентств · Без дублей · Прямо от студий</div>
     <div class="pitch" id="pitch">Работа в геймдеве напрямую от студий</div>
-    <div class="mono-mark" id="markScan" style="margin-top:14px">scan</div>
     <div class="stats" id="stats"></div>
     <div class="sub" id="subline">
       <span id="subtext">Без агентств, дублей и ручных перепостов. Вакансии берём с карьерных
@@ -449,7 +455,7 @@
   <div class="bar">
     <input class="search" id="search" type="search" placeholder="Поиск: Unity, аниматор, продюсер…" autocomplete="off">
     <button class="filter-btn" id="filterBtn">
-      Фильтры <span class="badge" id="filterCount" hidden>0</span>
+      Фильтры <span class="badge" id="filterCount" hidden></span>
     </button>
   </div>
 
@@ -490,7 +496,9 @@
       &nbsp;·&nbsp;
       <a href="/privacy/" id="footPrivacyLink">Приватность</a>
       &nbsp;·&nbsp;
-      <a href="#" id="footWrite">Добавить студию или сообщить об ошибке</a>
+      <a href="#" id="footAddStudio">Добавить студию</a>
+      &nbsp;·&nbsp;
+      <a href="#" id="footWrite">Сообщить об ошибке</a>
       &nbsp;·&nbsp;
       <span id="footUpdated"></span>
       <div id="footStatus" class="hint" style="margin-top:6px"></div>
@@ -573,6 +581,7 @@
     </div>
     <div class="sheet-body">
       <div class="job-head" id="jobHead"></div>
+      <div class="job-source" id="jobSource"></div>
       <div class="job-desc" id="jobDesc"></div>
       <div style="margin-top:16px"><a id="jobPage" href="#" target="_blank" rel="noopener"></a></div>
     </div>
@@ -985,10 +994,13 @@
       reset:"Сбросить всё", found:"Вакансий", of:"из", nothing:"Ничего не найдено",
       nosalary:"З/П не указана", apply:"Откликнуться", report:"Сообщить о проблеме",
       reported:"вы отметили", more:"Показать ещё", write:"Написать нам",
+      addStudio:"Добавить студию",
       emptyTitle:"Под эти фильтры ничего нет.", emptySub:"Попробуй убрать часть условий.",
       remote:"Удалёнка", withSalary:"Есть зарплата", week:"За неделю", favs:"Избранное",
       hidden:"Скрытые", restore:"Вернуть в список", hide:"Скрыть вакансию", more2:"Ещё",
-      pool:"резерв", dropWord:"Убрать",
+      pool:"резерв", dropWord:"Убрать", shownWord:"Показано",
+      officialHint:"Вакансия взята с карьерной страницы студии",
+      sourceWord:"источник", checkedWord:"проверено",
       fbContact:"Контакт для ответа", fbContactHint:"Без контакта ответить не смогу.",
       fbContactPh:"почта или телеграм — необязательно",
       studioTemplate:"Студия: \nСтраница с вакансиями: \nСтрана: \nКто я: сотрудник / соискатель / другое",
@@ -1007,16 +1019,16 @@
       noDesc:"Студия не отдаёт текст вакансии в общем виде — описание откроется на её сайте.",
       vertical:"Без агентств · Без дублей · Прямо от студий",
       markScan:"база", markSync:"источник",
-      pitchHtml:'Работа в <em>геймдеве</em> <strong>напрямую</strong> от студий',
+      pitchHtml:'Вакансии в <em>геймдеве</em><br><strong>напрямую</strong> от студий',
       updatedToday:"Обновлено сегодня", collected:"Собрано с сайтов студий.",
       statusOk:"последний сбор прошёл успешно", statusDropped:"выброшено закрытых:",
       statusFailed:"источников с ошибкой:", statusPay:"с зарплатой:", statusSources:"источники",
       sortRel:"Сначала подходящие", noGrade:"Без грейда",
-      share:"Ссылка на фильтр", copied:"Скопировано",
+      share:"Поделиться поиском", copied:"Скопировано",
       sortNew:"Сначала новые", sortOld:"Сначала старые", sortPayHigh:"Зарплата: больше",
       sortPayLow:"Зарплата: меньше", sortRegion:"По локации", sortCompany:"По компании",
       closeQ:"Закрыть окно?", closeSub:"Выбранное сохранится.", stay:"Остаться", close:"Закрыть",
-      resetQ:"Сбросить фильтры?", resetGo:"Сбросить",
+      resetQ:"Сбросить фильтры?", resetGo:"Сбросить", resetDone:"Фильтры сброшены",
       postedWord:"опубликовано", noLoc:"локация не указана",
       homeQ:"Вернуться на главную?", homeGo:"На главную",
       done:"Готово", undo:"Отменить", closeWord:"Закрыть",
@@ -1034,7 +1046,7 @@
       reportTitle:"Что не так с вакансией?", reportHint:"Ответы помогают чистить базу. Займёт секунд десять.",
       writeTitle:"Написать", fbHint:"Читаю каждое сообщение. Оставь почту в тексте — отвечу.",
       topic:"Тема", message:"Что рассказать", send:"Отправить", cancel:"Отмена",
-      filtersTitle:"Фильтры", footWrite:"Добавить студию или сообщить об ошибке",
+      filtersTitle:"Фильтры", footWrite:"Сообщить об ошибке",
       gtRole:"Роль", gtSpec:"Специализация", gtStack:"Стек", gtFormat:"Формат работы",
       gtGrade:"Грейд", gtPosted:"Когда опубликовано",
       gtTerms:"Условия", gtCompany:"Компания", gtLocation:"Локация",
@@ -1053,10 +1065,13 @@
       reset:"Reset all", found:"Jobs", of:"of", nothing:"Nothing found",
       nosalary:"Salary not stated", apply:"Apply", report:"Report a problem",
       reported:"you flagged it", more:"Show more", write:"Contact us",
+      addStudio:"Add a studio",
       emptyTitle:"Nothing matches these filters.", emptySub:"Try removing some conditions.",
       remote:"Remote", withSalary:"Salary listed", week:"This week", favs:"Saved",
       hidden:"Hidden", restore:"Bring back", hide:"Hide this job", more2:"More",
-      pool:"talent pool", dropWord:"Remove",
+      pool:"talent pool", dropWord:"Remove", shownWord:"Showing",
+      officialHint:"Taken from the studio career page",
+      sourceWord:"source", checkedWord:"checked",
       fbContact:"Contact for a reply", fbContactHint:"Without a contact I cannot reply.",
       fbContactPh:"email or telegram — optional",
       studioTemplate:"Studio: \nCareers page: \nCountry: \nWho I am: employee / job seeker / other",
@@ -1075,16 +1090,16 @@
       noDesc:"This studio does not share the job text — it will open on their site.",
       vertical:"No agencies · No dupes · Straight from studios",
       markScan:"database", markSync:"source",
-      pitchHtml:'Game industry jobs, <strong>straight</strong> from the <em>studios</em>',
+      pitchHtml:'Game industry jobs,<br><strong>straight</strong> from the <em>studios</em>',
       updatedToday:"Updated today", collected:"Collected from studio sites.",
       statusOk:"last collection succeeded", statusDropped:"closed jobs dropped:",
       statusFailed:"sources failed:", statusPay:"with salary:", statusSources:"sources",
       sortRel:"Best match", noGrade:"No level",
-      share:"Copy filter link", copied:"Copied",
+      share:"Share this search", copied:"Copied",
       sortNew:"Newest first", sortOld:"Oldest first", sortPayHigh:"Salary: high to low",
       sortPayLow:"Salary: low to high", sortRegion:"By location", sortCompany:"By company",
       closeQ:"Close this window?", closeSub:"Your choices are kept.", stay:"Stay", close:"Close",
-      resetQ:"Reset filters?", resetGo:"Reset",
+      resetQ:"Reset filters?", resetGo:"Reset", resetDone:"Filters cleared",
       postedWord:"posted", noLoc:"location not stated",
       homeQ:"Back to the start?", homeGo:"Go to start",
       done:"Done", undo:"Undo", closeWord:"Close",
@@ -1102,7 +1117,7 @@
       reportTitle:"What is wrong with this job?", reportHint:"Your answer helps keep the list clean. Takes ten seconds.",
       writeTitle:"Contact us", fbHint:"I read everything. Leave your email in the text and I will reply.",
       topic:"Topic", message:"Your message", send:"Send", cancel:"Cancel",
-      filtersTitle:"Filters", footWrite:"Suggest a studio or report a problem",
+      filtersTitle:"Filters", footWrite:"Report a problem",
       gtRole:"Role", gtSpec:"Specialization", gtStack:"Stack", gtFormat:"Work format",
       gtGrade:"Level", gtPosted:"Posted", gtTerms:"Conditions",
       gtCompany:"Company", gtLocation:"Location",
@@ -1133,7 +1148,6 @@
     $("footAll").textContent = t("allJobs");
     $("footRemote").textContent = t("remoteJobs");
     $("vertical").textContent = t("vertical");
-    $("markScan").textContent = t("markScan");
     if ($("markSync")) $("markSync").textContent = t("markSync");
     $("footAbout").textContent = t("aboutPage");
     $("footPrivacyLink").textContent = t("privacyPage");
@@ -1154,6 +1168,7 @@
     $("footText").textContent = t("footText");
     $("footPrivacy").textContent = t("footPrivacy");
     $("footWrite").textContent = t("footWrite");
+    $("footAddStudio").textContent = t("addStudio");
     $("reportTitle").textContent = t("reportTitle");
     $("reportHint").textContent = t("reportHint");
     $("reasonTitle").textContent = t("reasonTitle");
@@ -1207,6 +1222,17 @@
     "QA":"#66c2ff", "Аналитика":"#8ad6b4", "Продакт":"#ffa06b",
     "Продюсирование":"#ff9a5c", "Маркетинг":"#d38cff", "Поддержка":"#7fa8e8"
   };
+  // Домен студии из ссылки на вакансию — короткая подпись «откуда это».
+  function siteHost(j){
+    try {
+      const h = new URL(j.url).hostname.replace(/^www\./, "");
+      const known = { "boards.greenhouse.io":1, "job-boards.greenhouse.io":1,
+                      "jobs.lever.co":1, "apply.workable.com":1,
+                      "jobs.ashbyhq.com":1, "jobs.smartrecruiters.com":1 };
+      return known[h] ? (j.site || h) : h;
+    } catch(e){ return j.site || ""; }
+  }
+
   function roleColor(v){ return ROLE_COLOR[v] || "#5a5290"; }
 
   const SPEC_EN = {
@@ -1546,9 +1572,14 @@
     if (j.grade) tags.push('<span class="tag grade">'+esc(j.grade)+'</span>');
     if (j.role) tags.push('<span class="tag role">'+esc(roleLabel(j.role))+'</span>');
     if (j.spec) tags.push('<span class="tag role">'+esc(specLabel(j.spec))+'</span>');
-    (j.stack || []).slice(0, 3).forEach(v =>
-      tags.push('<span class="tag stack">'+hi(v)+'</span>'));
+    const st = j.stack || [];
+    st.slice(0, 3).forEach(v => tags.push('<span class="tag stack">'+hi(v)+'</span>'));
+    if (st.length > 3) tags.push('<span class="tag stack more-st">+'+(st.length - 3)+'</span>');
     if (age !== null) tags.push('<span class="tag'+(age<7?' fresh':'')+'">'+ageLabel(age)+'</span>');
+    // Главное отличие сайта — вакансия взята с карьерной страницы студии.
+    // Об этом нужно не написать один раз в шапке, а показывать на каждой карточке.
+    const host = siteHost(j);
+    if (host) tags.push('<span class="tag src" title="'+esc(t("officialHint"))+'">✓ '+esc(host)+'</span>');
 
     el.innerHTML =
       logoHtml(j) +
@@ -1653,7 +1684,15 @@
       shown.slice(0, shownCount).forEach(j => listEl.appendChild(card(j)));
       const left = shown.length - shownCount;
       $("moreBtn").hidden = left <= 0;
-      if (left > 0) $("moreBtn").textContent = t("more") + " " + Math.min(PAGE, left);
+      if (left > 0){
+        $("moreBtn").textContent = t("more") + " " + Math.min(PAGE, left);
+        // Человеку важно видеть прогресс, а не только кнопку.
+        const seen = document.createElement("div");
+        seen.className = "seen-line";
+        seen.textContent = t("shownWord") + " " + Math.min(shownCount, shown.length) +
+                           " " + t("of") + " " + shown.length;
+        listEl.appendChild(seen);
+      }
     }
     const total = state.onlyHidden ? hidden.size : JOBS.length - hidden.size;
     countEl.textContent = shown.length
@@ -1974,6 +2013,32 @@
       (STATUS.sources || []).length ? t("statusSources") + ": " + STATUS.sources.join(", ") : null,
     ].filter(Boolean);
     el.textContent = bits.join(" · ");
+  }
+
+  // Короткое сообщение внизу экрана вместо модального окна: обратимое
+  // действие не должно останавливать человека вопросом.
+  let toastTimer;
+  function toast(text, actionLabel, action){
+    let el = $("toast");
+    if (!el){
+      el = document.createElement("div");
+      el.id = "toast";
+      el.className = "toast";
+      document.body.appendChild(el);
+    }
+    el.innerHTML = "";
+    const span = document.createElement("span");
+    span.textContent = text;
+    el.appendChild(span);
+    if (action){
+      const b = document.createElement("button");
+      b.textContent = actionLabel;
+      b.addEventListener("click", () => { action(); el.hidden = true; });
+      el.appendChild(b);
+    }
+    el.hidden = false;
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => { el.hidden = true; }, 6000);
   }
 
   function renderActiveTags(){
@@ -2434,6 +2499,13 @@
       '</div>';
     fixLogo($("jobHead"), j);
 
+    // Источник и когда проверяли — главный вопрос соискателя «а она живая?»
+    const host = siteHost(j);
+    $("jobSource").innerHTML = host
+      ? '✓ ' + esc(t("sourceWord")) + ': ' + esc(host) +
+        (UPDATED ? ' · ' + esc(t("checkedWord")) + ' ' + esc(humanDate(UPDATED)) : '')
+      : "";
+
     const d = $("jobDesc");
     if (j.desc){
       d.className = "job-desc";
@@ -2581,7 +2653,8 @@
   });
   $("fbBtn").addEventListener("click", openFeedback);
   $("howBtn").addEventListener("click", () => { $("howOverlay").hidden = false; });
-  $("footWrite").addEventListener("click", e => { e.preventDefault(); openFeedback(); });
+  $("footWrite").addEventListener("click", e => { e.preventDefault(); openFeedback("bug"); });
+  $("footAddStudio").addEventListener("click", e => { e.preventDefault(); openFeedback("studio"); });
   $("fbSend").addEventListener("click", sendFeedback);
   $("fbText").addEventListener("input", syncFb);
 
@@ -2674,6 +2747,15 @@
     return false;
   }
 
+  // «/» ставит курсор в поиск — привычка людей, которые много ищут.
+  document.addEventListener("keydown", e => {
+    if (e.key === "/" && !/^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement.tagName)){
+      e.preventDefault();
+      searchEl.focus();
+      searchEl.select();
+    }
+  });
+
   document.addEventListener("keydown", e => {
     if (e.key !== "Escape") return;
     if (!$("closeOverlay").hidden){ $("closeOverlay").hidden = true; pendingClose = null; return; }
@@ -2710,9 +2792,17 @@
   $("reset").addEventListener("click", () => {
     const n = activeCount() + (state.query ? 1 : 0);
     if (!n) return;                       // сбрасывать нечего — не дёргаем окно
-    askConfirm(t("resetQ"),
-      n === 1 ? t("resetOne") : t("resetMany").replace("{n}", n),
-      t("resetGo"), doReset);
+    // Обратимое действие не заслуживает окна-переспроса: сбрасываем сразу
+    // и даём отменить одной кнопкой.
+    const snapshot = cloneState(state);
+    snapshot.onlyFav = state.onlyFav;
+    snapshot.onlyHidden = state.onlyHidden;
+    doReset();
+    toast(t("resetDone"), t("undo"), () => {
+      Object.assign(state, snapshot);
+      if (searchEl) searchEl.value = state.query;
+      shownCount = PAGE; renderList(); buildFilterUi();
+    });
   });
 
   // Одно окно подтверждения на всех: меняем заголовок, текст и что сделать по «да».
