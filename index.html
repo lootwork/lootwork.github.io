@@ -49,8 +49,10 @@
 
   body{
     background:
-      radial-gradient(70% 45% at 12% -8%, rgba(124,77,255,.20) 0%, transparent 62%),
-      radial-gradient(55% 40% at 92% -4%, rgba(0,190,255,.14) 0%, transparent 60%),
+      radial-gradient(70% 45% at 12% -8%, rgba(124,77,255,.22) 0%, transparent 62%),
+      radial-gradient(55% 40% at 92% -4%, rgba(0,190,255,.15) 0%, transparent 60%),
+      linear-gradient(rgba(255,255,255,.018) 1px, transparent 1px) 0 0 / 100% 46px,
+      linear-gradient(90deg, rgba(255,255,255,.018) 1px, transparent 1px) 0 0 / 46px 100%,
       var(--void);
     background-attachment:fixed;
     color:var(--text);
@@ -90,6 +92,8 @@
   h1{font-family:var(--display);font-weight:700;font-size:clamp(23px,4.6vw,31px);
     letter-spacing:.02em;line-height:1}
   h1 b{color:var(--amber)}
+  h1 i{font-style:normal;color:var(--cyan);opacity:.55;font-size:.8em;
+    letter-spacing:.02em;margin:0 .04em}
   #logo{cursor:pointer;color:inherit;text-decoration:none}
   #logo:hover{opacity:.85}
   .vertical{font-family:var(--mono);font-size:11.5px;letter-spacing:.34em;
@@ -100,7 +104,9 @@
     font-size:11.5px;padding:5px 11px;border-radius:999px;cursor:pointer}
   .lang-btn.on{background:var(--cyan-deep);color:var(--cyan)}
   .lang-btn:hover{color:var(--cyan)}
-  .pitch{font-size:16px;color:var(--text);margin-top:10px;font-weight:600}
+  .pitch{font-size:19px;color:var(--text);margin-top:12px;font-weight:700;line-height:1.3}
+  .pitch em{font-style:normal;color:var(--cyan)}
+  .pitch strong{color:var(--amber);font-weight:700}
   .stats{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
   .stat{background:var(--panel);border:1px solid var(--line-soft);border-radius:10px;
     padding:8px 14px;display:flex;flex-direction:column;gap:1px;min-width:92px}
@@ -347,8 +353,20 @@
   .job-head .cmp{font-family:var(--display);font-weight:600;font-size:15px}
   .job-head .row{color:var(--muted);font-size:13px;margin-top:4px}
   .job-head .pay{font-family:var(--mono);color:var(--amber);font-size:14px;margin-top:6px}
-  .job-desc{white-space:pre-wrap;font-size:14px;line-height:1.68;color:#d6d2f0}
-  .job-desc.empty-desc{color:var(--muted);font-style:italic}
+  /* Текст вакансии приходит сплошной простынёй. Разбираем его на заголовки,
+     списки и абзацы — иначе читать невозможно. */
+  .job-desc{font-size:14.5px;line-height:1.7;color:#d6d2f0}
+  .job-desc.empty-desc{color:var(--muted);font-style:italic;white-space:pre-wrap}
+  .job-desc h4{font-family:var(--display);font-size:13px;font-weight:600;color:var(--text);
+    letter-spacing:.04em;text-transform:uppercase;margin:22px 0 9px;padding-top:14px;
+    border-top:1px solid var(--line-soft)}
+  .job-desc h4:first-child{margin-top:0;padding-top:0;border-top:none}
+  .job-desc p{margin:0 0 11px}
+  .job-desc ul{list-style:none;margin:0 0 14px;padding:0}
+  .job-desc li{position:relative;padding-left:19px;margin-bottom:7px}
+  .job-desc li::before{content:"▸";position:absolute;left:2px;top:-1px;color:var(--cyan);
+    font-size:12px}
+  .job-desc li:last-child{margin-bottom:0}
 
   .thanks{text-align:center;padding:28px 10px;font-size:15px;line-height:1.6}
   .thanks .big{font-size:38px;display:block;margin-bottom:12px;color:var(--amber)}
@@ -384,13 +402,13 @@
 <header>
   <div class="wrap">
     <div class="brandline">
-      <h1><a id="logo" href="/" title="На главную">LOOT<b>WORK</b></a></h1>
+      <h1><a id="logo" href="/" title="На главную">LOOT<i>::</i><b>WORK</b></a></h1>
       <div class="lang">
         <button class="lang-btn on" data-lang="ru">RU</button>
         <button class="lang-btn" data-lang="en">EN</button>
       </div>
     </div>
-    <div class="vertical">Gamedev</div>
+    <div class="vertical" id="vertical">Без агентств · Без дублей · Прямо от студий</div>
     <div class="pitch" id="pitch">Работа в геймдеве напрямую от студий</div>
     <div class="stats" id="stats"></div>
     <div class="sub" id="subline">
@@ -775,6 +793,52 @@
     return out;
   }
 
+  // Заголовки внутри текста вакансии студии не размечают никак: это просто
+  // короткая строка без точки на конце. Ловим по форме, а не по словарю,
+  // иначе английские и русские тексты придётся описывать отдельно.
+  const HEAD_WORDS = /^(job overview|overview|о (нас|компании|проекте|вакансии)|что (нужно|предстоит|мы|ты)|наши|твои|ваши|требовани|обязанност|условия|мы предлагаем|будет плюсом|что мы ждём|зарплат|бенефит|льгот|about|who|what|your|our|the role|role|responsibilit|requirement|qualification|skills|benefit|perks|we offer|nice to have|bonus|why |how |compensation|salary|process|next steps|apply|stack|tools)/i;
+
+  function looksLikeHeading(line, next){
+    const clean = (line || "").trim();
+    if (!clean || clean.length > 80 || clean.startsWith("•")) return false;
+    if (/[.,;]$/.test(clean)) return false;          // предложение, а не заголовок
+    const words = clean.split(/\s+/).length;
+    if (words > 10) return false;
+    // Самый надёжный признак: короткая строка, а сразу за ней список.
+    if (next && next.trim().startsWith("•")) return true;
+    if (/[:?]$/.test(clean)) return true;
+    if (clean === clean.toUpperCase() && /[A-ZА-Я]/.test(clean)) return true;
+    return HEAD_WORDS.test(clean);
+  }
+
+  function descHtml(text){
+    const lines = String(text || "").split("\n").map(l => l.trim());
+    const out = [];
+    let bullets = [];
+    const flush = () => {
+      if (bullets.length){
+        out.push("<ul>" + bullets.map(b => "<li>" + esc(b) + "</li>").join("") + "</ul>");
+        bullets = [];
+      }
+    };
+    lines.forEach((line, i) => {
+      if (!line) return;
+      if (line.startsWith("•")){
+        const rest = line.replace(/^•\s*/, "").trim();
+        if (rest) bullets.push(rest);
+        return;
+      }
+      flush();
+      const next = lines.slice(i + 1).find(Boolean);
+      if (looksLikeHeading(line, next))
+        out.push("<h4>" + esc(line.replace(/:$/, "")) + "</h4>");
+      else
+        out.push("<p>" + esc(line) + "</p>");
+    });
+    flush();
+    return out.join("");
+  }
+
   function esc(s){
     return String(s == null ? "" : s).replace(/[&<>"']/g, c =>
       ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
@@ -919,6 +983,8 @@
       citiesWord:"Города", otherWord:"Прочее",
       toFav:"В избранное", inFav:"В избранном", applyOn:"Откликнуться на сайте студии",
       noDesc:"Студия не отдаёт текст вакансии в общем виде — описание откроется на её сайте.",
+      vertical:"Без агентств · Без дублей · Прямо от студий",
+      pitchHtml:'Работа в <em>геймдеве</em> <strong>напрямую</strong> от студий',
       updatedToday:"Обновлено сегодня", collected:"Собрано с сайтов студий.",
       statusOk:"последний сбор прошёл успешно", statusDropped:"выброшено закрытых:",
       statusFailed:"источников с ошибкой:", statusPay:"с зарплатой:", statusSources:"источники",
@@ -984,6 +1050,8 @@
       citiesWord:"Cities", otherWord:"Other",
       toFav:"Save", inFav:"Saved", applyOn:"Apply on the studio site",
       noDesc:"This studio does not share the job text — it will open on their site.",
+      vertical:"No agencies · No dupes · Straight from studios",
+      pitchHtml:'Game industry jobs, <strong>straight</strong> from the <em>studios</em>',
       updatedToday:"Updated today", collected:"Collected from studio sites.",
       statusOk:"last collection succeeded", statusDropped:"closed jobs dropped:",
       statusFailed:"sources failed:", statusPay:"with salary:", statusSources:"sources",
@@ -1040,6 +1108,7 @@
     if (openJob) $("jobPage").textContent = t("jobPage");   // окно может быть открыто
     $("footAll").textContent = t("allJobs");
     $("footRemote").textContent = t("remoteJobs");
+    $("vertical").textContent = t("vertical");
     $("footAbout").textContent = t("aboutPage");
     $("footPrivacyLink").textContent = t("privacyPage");
     document.querySelectorAll(".close").forEach(b => b.setAttribute("aria-label", t("closeWord")));
@@ -1051,7 +1120,7 @@
     $("reportUndo").textContent = t("undo");
     $("fbUndo").textContent = t("undo");
     $("fbBtn").textContent = t("write");
-    $("pitch").textContent = t("pitch");
+    $("pitch").innerHTML = t("pitchHtml") || esc(t("pitch"));
     $("subtext").textContent = t("subtext");
     $("howBtn").textContent = t("how");
     $("howTitle").textContent = t("howTitle");
@@ -2342,7 +2411,7 @@
     const d = $("jobDesc");
     if (j.desc){
       d.className = "job-desc";
-      d.textContent = j.desc;
+      d.innerHTML = descHtml(j.desc);
     } else {
       d.className = "job-desc empty-desc";
       d.textContent = t("noDesc");

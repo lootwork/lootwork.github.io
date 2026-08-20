@@ -1054,10 +1054,38 @@ def esc(text) -> str:
             .replace('"', "&quot;"))
 
 
+# Студии не размечают заголовки внутри текста — это просто короткая строка
+# без точки, за которой идёт список. Ловим по форме, а не по словарю.
+HEAD_WORDS = re.compile(
+    r"^(job overview|overview|about|who|what|your|our|the role|role|responsibilit|"
+    r"requirement|qualification|skills|benefit|perks|we offer|nice to have|bonus|"
+    r"why |how |compensation|salary|process|next steps|apply|stack|tools|"
+    r"о (нас|компании|проекте|вакансии)|что (нужно|предстоит|мы|ты)|наши|твои|ваши|"
+    r"требовани|обязанност|условия|мы предлагаем|будет плюсом|зарплат|бенефит|льгот)", re.I)
+
+
+def looks_like_heading(line: str, nxt: str) -> bool:
+    clean = (line or "").strip()
+    if not clean or len(clean) > 80 or clean.startswith("•"):
+        return False
+    if re.search(r"[.,;]$", clean):
+        return False
+    if len(clean.split()) > 10:
+        return False
+    if nxt and nxt.strip().startswith("•"):
+        return True
+    if re.search(r"[:?]$", clean):
+        return True
+    if clean == clean.upper() and re.search(r"[A-ZА-Я]", clean):
+        return True
+    return bool(HEAD_WORDS.match(clean))
+
+
 def desc_html(text: str) -> str:
-    """Текст вакансии в абзацы и списки — так, как его отдал сборщик."""
+    """Текст вакансии в заголовки, списки и абзацы — сплошную простыню не читают."""
     if not text:
         return ""
+    lines = [l.strip() for l in text.split("\n")]
     out, bullets = [], []
 
     def flush():
@@ -1066,10 +1094,9 @@ def desc_html(text: str) -> str:
             bullets.clear()
 
     waiting = False        # маркер приехал пустым — текст пункта будет следующей строкой
-    for line in text.split("\n"):
-        line = line.strip()
+    for i, line in enumerate(lines):
         if not line:
-            continue          # пустая строка список не разрывает — разрывает абзац
+            continue
         if line.startswith("•"):
             rest = line.lstrip("• ").strip()
             if rest:
@@ -1077,11 +1104,16 @@ def desc_html(text: str) -> str:
                 waiting = False
             else:
                 waiting = True
-        elif waiting:
+            continue
+        if waiting:
             bullets.append(line)
             waiting = False
+            continue
+        flush()
+        nxt = next((l for l in lines[i + 1:] if l), "")
+        if looks_like_heading(line, nxt):
+            out.append(f"<h2>{esc(line.rstrip(':'))}</h2>")
         else:
-            flush()
             out.append(f"<p>{esc(line)}</p>")
     flush()
     return "\n".join(out)
@@ -1109,8 +1141,13 @@ border-radius:7px;padding:3px 9px}
 font-weight:700;padding:12px 24px;border-radius:9px;margin:18px 0}
 .apply:hover{background:#ffc164}
 .desc p{margin:0 0 12px}
-.desc ul{margin:0 0 14px 20px}
-.desc li{margin:0 0 5px}
+.desc h2{font-family:"Unbounded",system-ui,sans-serif;font-size:13px;font-weight:700;
+letter-spacing:.05em;text-transform:uppercase;color:var(--text);
+margin:26px 0 10px;padding-top:16px;border-top:1px solid var(--line-soft)}
+.desc h2:first-child{margin-top:0;padding-top:0;border-top:none}
+.desc ul{list-style:none;margin:0 0 16px;padding:0}
+.desc li{position:relative;padding-left:20px;margin:0 0 7px}
+.desc li::before{content:"\u25B8";position:absolute;left:2px;color:var(--cyan);font-size:12px}
 .card{display:block;border:1px solid var(--line-soft);background:var(--panel);border-radius:12px;
 padding:13px 15px;margin-bottom:9px;text-decoration:none;color:var(--text)}
 .card:hover{border-color:var(--line)}
