@@ -31,6 +31,7 @@ except ImportError:
 HERE = Path(__file__).parent
 COMPANIES = HERE / "companies.json"
 OUT_JS = HERE / "jobs.js"
+SITEMAP = HERE / "sitemap.xml"
 BLOCKLIST = HERE / "blocklist.json"   # сюда попадают id, снятые по жалобам
 
 # hh.ru требует строгий формат подписи: НазваниеПриложения/версия (email).
@@ -580,6 +581,24 @@ def write_js(jobs):
         encoding="utf-8",
     )
     print(f"\nЗаписано {len(jobs)} вакансий в {OUT_JS.name}")
+    write_sitemap(today)
+
+
+def write_sitemap(today: str):
+    """Обновляем дату в карте сайта: поисковики по ней решают, когда зайти снова."""
+    SITEMAP.write_text(
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        "  <url>\n"
+        "    <loc>https://lootwork.github.io/</loc>\n"
+        f"    <lastmod>{today}</lastmod>\n"
+        "    <changefreq>weekly</changefreq>\n"
+        "    <priority>1.0</priority>\n"
+        "  </url>\n"
+        "</urlset>\n",
+        encoding="utf-8",
+    )
+    print(f"Обновлена карта сайта {SITEMAP.name}")
 
 
 def main():
