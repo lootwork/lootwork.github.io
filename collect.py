@@ -1106,7 +1106,7 @@ def write_sitemap(today: str, urls=None):
 # страницы: на каждую вакансию, студию, роль и на удалёнку.
 
 SITE = "https://lootwork.github.io"
-PAGE_DIRS = ["job", "company", "role", "spec", "jobs", "remote", "privacy", "about"]
+PAGE_DIRS = ["job", "company", "role", "spec", "jobs", "remote", "privacy", "about", "where"]
 
 TRANSLIT = {
     "а":"a","б":"b","в":"v","г":"g","д":"d","е":"e","ё":"e","ж":"zh","з":"z","и":"i",
@@ -1226,7 +1226,13 @@ def desc_html(text: str) -> str:
 
 
 PAGE_CSS = """:root{--void:#0c0a1a;--panel:#15122b;--panel-2:#1c1838;--line:#2c2554;
---line-soft:#231e45;--text:#eceaff;--muted:#948cc0;--amber:#ffb03f;--cyan:#5fe3ff}
+--line-soft:#231e45;--text:#eceaff;--muted:#948cc0;--amber:#ffb03f;--cyan:#5fe3ff;
+--apply-text:#fff}
+/* Тема берётся из настройки сайта, а если человек сюда попал из поиска —
+   из настройки его системы. Иначе страница вакансии светит тёмным в глаза. */
+:root[data-theme="light"]{--void:#f6f5fb;--panel:#ffffff;--panel-2:#f1eff9;
+--line:#d9d5ec;--line-soft:#e7e4f3;--text:#191634;--muted:#6a6392;
+--amber:#b06c00;--cyan:#0a7c9e;--apply-text:#fff}
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--void);color:var(--text);line-height:1.6;
 font-family:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:15px}
@@ -1242,10 +1248,10 @@ h2{font-size:17px;margin:26px 0 10px}
 .tags{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0}
 .tag{font-size:12px;color:var(--muted);background:var(--panel-2);border:1px solid var(--line-soft);
 border-radius:7px;padding:3px 9px}
-.tag.remote{color:var(--cyan);border-color:#12303d;background:#12303d}
-.apply{display:inline-block;background:var(--amber);color:#231602;text-decoration:none;
+.tag.remote{color:var(--cyan);border-color:var(--line-soft);background:var(--panel-2)}
+.apply{display:inline-block;background:var(--amber);color:var(--apply-text);text-decoration:none;
 font-weight:700;padding:12px 24px;border-radius:9px;margin:18px 0}
-.apply:hover{background:#ffc164}
+.apply:hover{filter:brightness(1.1)}
 .desc p{margin:0 0 12px}
 .desc h2{font-family:"Unbounded",system-ui,sans-serif;font-size:13px;font-weight:700;
 letter-spacing:.05em;text-transform:uppercase;color:var(--text);
@@ -1287,6 +1293,18 @@ def page_shell(title, description, canonical, body, ld=None, depth=1):
 <meta property="og:url" content="{esc(canonical)}">
 <meta property="og:image" content="{SITE}/og.png">
 <meta name="theme-color" content="#0c0a1a">
+<script>
+  // Ставим тему до отрисовки, иначе страница мигнёт тёмным и станет светлой.
+  // Фигурные скобки удвоены: этот кусок лежит внутри f-строки Python.
+  try {{
+    var t = localStorage.getItem("theme");
+    if (!t) t = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+    document.documentElement.dataset.theme = t;
+    if (t === "light") {{
+      document.querySelector('meta[name="theme-color"]').setAttribute("content", "#f6f5fb");
+    }}
+  }} catch (e) {{}}
+</script>
 <link rel="icon" href="{up}favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1381,13 +1399,45 @@ def job_page(j, same_company):
     return page_shell(title, descr, f"{SITE}/job/{j['id']}/", body, job_ld(j), depth=2)
 
 
-def list_page(heading, intro, jobs, canonical, depth):
+def facts_block(jobs, depth):
+    """Немного живых цифр и ссылок вглубь: страница со сплошным списком
+    ссылок для поисковика выглядит пустой, а такие блоки дают ей смысл."""
+    remote = sum(1 for j in jobs if j.get("remote") or j.get("rkind"))
+    with_pay = sum(1 for j in jobs if j.get("salary"))
+    companies = {}
+    places = {}
+    for j in jobs:
+        if j.get("company"):
+            companies[j["company"]] = companies.get(j["company"], 0) + 1
+        for loc in j.get("locations") or []:
+            places[loc] = places.get(loc, 0) + 1
+
+    top_c = sorted(companies.items(), key=lambda kv: -kv[1])[:8]
+    top_p = sorted(places.items(), key=lambda kv: -kv[1])[:8]
+    up = "../" * depth
+
+    parts = [f"<p>Из них с удалёнкой — {remote}, с указанной зарплатой — {with_pay}. "
+             f"Список пересобирается каждый день, закрытые вакансии удаляются автоматически.</p>"]
+    if top_c:
+        links = ", ".join(f'<a href="{up}company/{slugify(n)}/">{esc(n)}</a> ({c})'
+                          for n, c in top_c)
+        parts.append(f"<h2>Студии</h2><p>{links}</p>")
+    if top_p:
+        parts.append("<h2>Города и страны</h2><p>" +
+                     ", ".join(f"{esc(n)} ({c})" for n, c in top_p) + "</p>")
+    return "".join(parts)
+
+
+def list_page(heading, intro, jobs, canonical, depth, extra=""):
     rows = "".join(
         f'<a class="card" href="{"../" * depth}job/{esc(j["id"])}/"><div>{esc(j["title"])}</div>'
         f'<div class="cmp">{esc(j["company"])} · '
         f'{esc(", ".join(j.get("locations") or []) or "локация не указана")}</div></a>'
         for j in jobs)
-    body = f"<h1>{esc(heading)}</h1><div class=\"sub\">{esc(intro)}</div><div style=\"margin-top:18px\">{rows}</div>"
+    body = (f"<h1>{esc(heading)}</h1><div class=\"sub\">{esc(intro)}</div>"
+            f"{extra}"
+            f"<h2>Открытые вакансии</h2><div>{rows}</div>"
+            f"{facts_block(jobs, depth)}")
     return page_shell(f"{heading} | LOOTWORK", intro, canonical, body, None, depth)
 
 
@@ -1532,6 +1582,53 @@ def write_pages(jobs, today):
             f"{jobs_word(len(items))}: {spec}. Напрямую от игровых студий.",
             items, f"{SITE}/spec/{slug}/", 2), encoding="utf-8")
         urls.append(f"{SITE}/spec/{slug}/")
+
+    # «unity разработчик удалённо» и «работа в геймдеве варшава» — запросы,
+    # где конкуренция в разы слабее, чем у общего «вакансии геймдев».
+    # Под каждый такой запрос нужна своя страница, иначе показывать нечего.
+    for role, items in by_role.items():
+        rem = [j for j in items if j.get("remote") or j.get("rkind")]
+        if len(rem) < 3:
+            continue
+        slug = slugify(role)
+        d = HERE / "role" / slug / "remote"
+        d.mkdir(parents=True, exist_ok=True)
+        (d / "index.html").write_text(list_page(
+            f"{role} удалённо — вакансии в геймдеве",
+            f"{jobs_word(len(rem))} по направлению «{role}» с удалённой работой. "
+            f"Напрямую с карьерных страниц игровых студий.",
+            rem, f"{SITE}/role/{slug}/remote/", 3), encoding="utf-8")
+        urls.append(f"{SITE}/role/{slug}/remote/")
+
+    for spec, items in by_spec.items():
+        rem = [j for j in items if j.get("remote") or j.get("rkind")]
+        if len(rem) < 3:
+            continue
+        slug = slugify(spec)
+        d = HERE / "spec" / slug / "remote"
+        d.mkdir(parents=True, exist_ok=True)
+        (d / "index.html").write_text(list_page(
+            f"{spec} удалённо — вакансии в геймдеве",
+            f"{jobs_word(len(rem))}: {spec}, удалённая работа. От игровых студий напрямую.",
+            rem, f"{SITE}/spec/{slug}/remote/", 3), encoding="utf-8")
+        urls.append(f"{SITE}/spec/{slug}/remote/")
+
+    by_place = {}
+    for j in jobs:
+        for loc in j.get("locations") or []:
+            by_place.setdefault(loc, []).append(j)
+    for place, items in by_place.items():
+        if len(items) < 4:
+            continue
+        slug = slugify(place)
+        d = HERE / "where" / slug
+        d.mkdir(parents=True, exist_ok=True)
+        (d / "index.html").write_text(list_page(
+            f"Работа в геймдеве: {place}",
+            f"{jobs_word(len(items))} в игровых студиях, {place}. "
+            f"Собрано с карьерных страниц студий, обновляется каждый день.",
+            items, f"{SITE}/where/{slug}/", 2), encoding="utf-8")
+        urls.append(f"{SITE}/where/{slug}/")
 
     remote = [j for j in jobs if j.get("remote") or j.get("rkind")]
     if remote:

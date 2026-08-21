@@ -138,10 +138,10 @@
   header{border-bottom:1px solid var(--line-soft);padding:26px 0 18px;margin-bottom:18px;
     position:relative;z-index:1}
   .brandline{display:flex;align-items:center;justify-content:space-between;gap:14px}
-  h1{font-family:var(--display);font-weight:700;font-size:clamp(23px,4.6vw,31px);
+  .brand{font-family:var(--display);font-weight:700;font-size:clamp(23px,4.6vw,31px);
     letter-spacing:.02em;line-height:1}
-  h1 b{color:var(--amber)}
-  h1 i{font-style:normal;color:var(--cyan);opacity:.55;font-size:.8em;
+  .brand b{color:var(--amber)}
+  .brand i{font-style:normal;color:var(--cyan);opacity:.55;font-size:.8em;
     letter-spacing:.02em;margin:0 .04em}
   #logo{cursor:pointer;color:inherit;text-decoration:none}
   #logo:hover{opacity:.85}
@@ -508,7 +508,7 @@
 <header>
   <div class="wrap">
     <div class="brandline">
-      <h1><a id="logo" href="/" title="На главную">LOOT<i>::</i><b>WORK</b></a></h1>
+      <div class="brand"><a id="logo" href="/" title="На главную">LOOT<i>::</i><b>WORK</b></a></div>
       <div class="head-controls">
         <button class="theme-btn" id="themeBtn" aria-label="Тема" title="Тема"></button>
         <div class="lang">
@@ -518,7 +518,7 @@
       </div>
     </div>
     <div class="vertical" id="vertical">Без агентств · Без дублей · Прямо от студий</div>
-    <div class="pitch" id="pitch">Работа в геймдеве напрямую от студий</div>
+    <h1 class="pitch" id="pitch">Работа в геймдеве напрямую от студий</h1>
     <div class="stats" id="stats"></div>
     <div class="sub" id="subline">
       <span id="subtext">Без агентств, дублей и ручных перепостов. Вакансии берём с карьерных
@@ -569,6 +569,14 @@
       <a href="https://github.com/lootwork/lootwork.github.io" target="_blank" rel="noopener">GitHub</a>
       &nbsp;·&nbsp;
       <a href="/jobs/" id="footAll">Все вакансии</a>
+      &nbsp;·&nbsp;
+      <a href="/role/programmirovanie/">Программирование</a>
+      &nbsp;·&nbsp;
+      <a href="/role/art/">Арт</a>
+      &nbsp;·&nbsp;
+      <a href="/spec/unity/">Unity</a>
+      &nbsp;·&nbsp;
+      <a href="/spec/unreal/">Unreal</a>
       &nbsp;·&nbsp;
       <a href="/remote/" id="footRemote">Удалённая работа</a>
       &nbsp;·&nbsp;
@@ -898,12 +906,22 @@
     const safe = esc(text);
     if (!state.query) return safe;
     let out = safe;
+    // Подсвечиваем не только набранное слово, но и его перевод: ищешь
+    // «менеджер» — жёлтым должно гореть Manager, иначе непонятно, за что
+    // вакансия попала в выдачу.
+    const words = [];
     tokens(state.query).forEach(tok => {
-      if (tok.length < 2) return;
-      const re = new RegExp("(" + tok.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "gi");
-      out = out.replace(re, "<mark>$1</mark>");
+      expand(tok).forEach(v => { if (v.length >= 2 && !words.includes(v)) words.push(v); });
     });
-    return out;
+    if (!words.length) return safe;
+    // Один проход одним выражением: если подсвечивать слова по очереди,
+    // «art» попадёт внутрь уже подсвеченного «Artist» и разорвёт его.
+    // Длинные варианты ставим первыми, чтобы выигрывало самое полное совпадение.
+    const alt = words
+      .sort((a, b) => b.length - a.length)
+      .map(w => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
+      .join("|");
+    return safe.replace(new RegExp("(" + alt + ")", "gi"), "<mark>$1</mark>");
   }
 
   // Заголовки внутри текста вакансии студии не размечают никак: это просто
@@ -1033,7 +1051,10 @@
   // стоит в названии, а не просто мелькнул в требованиях.
   function relScore(j, q){
     let score = 0;
-    if (q) tokens(q).forEach(tok => { score += tokenScore(j, tok); });
+    if (q) tokens(q).forEach(tok => {
+      // считаем по лучшему из переводов, иначе русский запрос всегда проигрывал
+      score += Math.max(...expand(tok).map(v => tokenScore(j, v)));
+    });
     const title = (j.title || "").toLowerCase();
     state.stack.forEach(v => { if (title.includes(v.toLowerCase())) score += 25; });
     state.spec.forEach(v => { if (j.spec === v) score += 10; });
@@ -1390,7 +1411,7 @@
     const b = document.createElement("span");
     b.className = "new-badge";
     b.textContent = "+" + fresh + " " + t("perWeek");
-    document.querySelector("h1").appendChild(b);
+    document.querySelector(".brand").appendChild(b);
   }
 
   // Числа в плашках набегают один раз при заходе: цифры — главный довод
@@ -1572,12 +1593,77 @@
     .concat(["perforce","wwise","fmod","houdini","substance","zbrush","maya","blender",
              "jira","confluence","git","unreal","unity","godot","photoshop","spine","figma"]));
 
+  // Вакансии студии пишут по-английски, а ищут у нас по-русски. «концепт
+  // художник» и «Concept Artist» для поиска по буквам — разные строки,
+  // поэтому каждое русское слово переводим в набор английских.
+  const RU_EN = {
+    "концепт":["concept"], "художник":["artist","art"], "художница":["artist","art"],
+    "арт":["art"], "иллюстратор":["illustrator","artist"],
+    "аниматор":["animator","animation"], "анимация":["animation","animator"],
+    "программист":["programmer","developer","engineer"],
+    "разработчик":["developer","engineer","programmer"], "разработка":["development"],
+    "геймдизайнер":["game design","designer"], "геймдизайн":["game design"],
+    "дизайнер":["designer"], "дизайн":["design"],
+    "продюсер":["producer"], "продакт":["product"], "продукт":["product"],
+    "тестировщик":["qa","test"], "тестирование":["qa","test"],
+    "аналитик":["analyst","analytics"], "аналитика":["analytics","analyst"],
+    "маркетолог":["marketing"], "маркетинг":["marketing"],
+    "звук":["audio","sound"], "звуковой":["audio","sound"], "аудио":["audio","sound"],
+    "композитор":["composer"], "сценарист":["writer","narrative"],
+    "нарратив":["narrative","writer"], "сюжет":["narrative","story"],
+    "уровней":["level"], "уровня":["level"], "левел":["level"],
+    "технический":["technical"], "техартист":["technical artist"],
+    "инженер":["engineer"], "менеджер":["manager"], "руководитель":["lead","head"],
+    "лид":["lead"], "младший":["junior"], "джуниор":["junior"],
+    "старший":["senior"], "сеньор":["senior"], "миддл":["middle"],
+    "стажёр":["intern"], "стажер":["intern"], "стажировка":["intern"],
+    "моделлер":["modeler","3d"], "модельер":["modeler","3d"], "моделирование":["modeling","3d"],
+    "риггер":["rig"], "риггинг":["rig"], "скульптор":["sculpt"],
+    "эффекты":["vfx","effects"], "интерфейс":["ui","interface"],
+    "поддержка":["support"], "комьюнити":["community"], "сообщество":["community"],
+    "монетизация":["monetization"], "экономика":["economy","economist"],
+    "данные":["data"], "безопасность":["security"],
+    "сетевой":["network","multiplayer"], "мультиплеер":["multiplayer"],
+    "физика":["physics"], "графика":["graphics"], "шейдер":["shader"],
+    "инструменты":["tools"], "движок":["engine"], "рендер":["render"],
+    "бэкенд":["backend"], "фронтенд":["frontend"], "верстальщик":["frontend"],
+    "мобильный":["mobile"], "мобильная":["mobile"], "удалённо":["remote"],
+    "удаленно":["remote"], "удалёнка":["remote"], "удаленка":["remote"],
+    "юнити":["unity"], "анрил":["unreal"], "рекрутер":["recruiter"],
+    "3д":["3d"], "2д":["2d"], "текстуры":["texture"], "окружение":["environment"],
+    "персонаж":["character"], "оружие":["weapon"], "свет":["lighting"],
+    "окружению":["environment"], "окружения":["environment"], "среда":["environment"],
+    "камера":["camera"], "баланс":["balance"], "уровни":["level"],
+    "программирование":["programming","engineer","developer"],
+    "переводчик":["localization","translator"], "локализация":["localization"],
+    "юрист":["legal","counsel"], "продажи":["sales"], "закупки":["procurement"]
+  };
+
+  // Русское слово редко приходит в словарной форме: «художника», «аниматором».
+  // Поэтому ищем совпадение по началу слова, а не точное.
+  function expand(tok){
+    const out = [tok];
+    if (!/[а-яё]/i.test(tok)) return out;
+    const stem = tok.length > 5 ? tok.slice(0, tok.length - 2) : tok;
+    Object.keys(RU_EN).forEach(key => {
+      if (key.startsWith(stem) || tok.startsWith(key.slice(0, Math.max(4, key.length - 2))))
+        RU_EN[key].forEach(v => { if (!out.includes(v)) out.push(v); });
+    });
+    return out;
+  }
+
+  const STOP = new Set(["по","в","на","для","и","с","от","the","of","for","and","a"]);
+
   function tokens(q){
-    return q.split(/\s+/).filter(Boolean).slice(0, 5);
+    const all = q.split(/\s+/).filter(Boolean);
+    const kept = all.filter(w => !STOP.has(w));
+    return (kept.length ? kept : all).slice(0, 5);
   }
 
   function matchesToken(j, tok){
-    if (hayMain(j).includes(tok)) return true;
+    const variants = expand(tok);
+    const main = hayMain(j);
+    if (variants.some(v => main.includes(v))) return true;
     return DESC_TERMS.has(tok) && hayDesc(j).includes(tok);
   }
 
