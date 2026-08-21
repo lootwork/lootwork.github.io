@@ -12,6 +12,18 @@
 <meta property="og:url" content="https://lootwork.github.io/company/visual-concepts/">
 <meta property="og:image" content="https://lootwork.github.io/og.png">
 <meta name="theme-color" content="#0c0a1a">
+<script>
+  // Ставим тему до отрисовки, иначе страница мигнёт тёмным и станет светлой.
+  // Фигурные скобки удвоены: этот кусок лежит внутри f-строки Python.
+  try {
+    var t = localStorage.getItem("theme");
+    if (!t) t = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+    document.documentElement.dataset.theme = t;
+    if (t === "light") {
+      document.querySelector('meta[name="theme-color"]').setAttribute("content", "#f6f5fb");
+    }
+  } catch (e) {}
+</script>
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +33,7 @@
 <body>
 <div class="wrap">
 <header><a class="logo" href="../../">LOOT<b>WORK</b></a></header>
-<h1>Вакансии Visual Concepts</h1><div class="sub">3 вакансии в Visual Concepts — напрямую с карьерной страницы студии.</div><div style="margin-top:18px"><a class="card" href="../../job/gh-visual-concepts-6588311003/"><div>Junior Engineer</div><div class="cmp">Visual Concepts · Shanghai, China</div></a><a class="card" href="../../job/gh-visual-concepts-7750291003/"><div>Senior Engineer, Server – NBA 2K</div><div class="cmp">Visual Concepts · Novato, CA</div></a><a class="card" href="../../job/gh-visual-concepts-4619436003/"><div>Senior Full Stack Server Engineer</div><div class="cmp">Visual Concepts · Shanghai, China</div></a></div>
+<h1>Вакансии Visual Concepts</h1><div class="sub">3 вакансии в Visual Concepts — напрямую с карьерной страницы студии.</div><h2>Открытые вакансии</h2><div><a class="card" href="../../job/gh-visual-concepts-6588311003/"><div>Junior Engineer</div><div class="cmp">Visual Concepts · Shanghai, China</div></a><a class="card" href="../../job/gh-visual-concepts-7750291003/"><div>Senior Engineer, Server – NBA 2K</div><div class="cmp">Visual Concepts · Novato, CA</div></a><a class="card" href="../../job/gh-visual-concepts-4619436003/"><div>Senior Full Stack Server Engineer</div><div class="cmp">Visual Concepts · Shanghai, China</div></a></div><p>Из них с удалёнкой — 0, с указанной зарплатой — 0. Список пересобирается каждый день, закрытые вакансии удаляются автоматически.</p><h2>Студии</h2><p><a href="../../company/visual-concepts/">Visual Concepts</a> (3)</p><h2>Города и страны</h2><p>Shanghai, China (2), Novato, CA (1)</p>
 <footer>
   Вакансии собираются автоматически с карьерных страниц игровых студий.
   Мы не работодатель и не принимаем отклики — откликаться нужно на сайте студии.<br>

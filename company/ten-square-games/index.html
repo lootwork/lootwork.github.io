@@ -12,6 +12,18 @@
 <meta property="og:url" content="https://lootwork.github.io/company/ten-square-games/">
 <meta property="og:image" content="https://lootwork.github.io/og.png">
 <meta name="theme-color" content="#0c0a1a">
+<script>
+  // Ставим тему до отрисовки, иначе страница мигнёт тёмным и станет светлой.
+  // Фигурные скобки удвоены: этот кусок лежит внутри f-строки Python.
+  try {
+    var t = localStorage.getItem("theme");
+    if (!t) t = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+    document.documentElement.dataset.theme = t;
+    if (t === "light") {
+      document.querySelector('meta[name="theme-color"]').setAttribute("content", "#f6f5fb");
+    }
+  } catch (e) {}
+</script>
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +33,7 @@
 <body>
 <div class="wrap">
 <header><a class="logo" href="../../">LOOT<b>WORK</b></a></header>
-<h1>Вакансии Ten Square Games</h1><div class="sub">9 вакансий в Ten Square Games — напрямую с карьерной страницы студии.</div><div style="margin-top:18px"><a class="card" href="../../job/rc-ten-square-games-2715083/"><div>Senior Unity Developer (f/m/d)</div><div class="cmp">Ten Square Games · Wrocław</div></a><a class="card" href="../../job/rc-ten-square-games-2713857/"><div>Influencer Marketing Manager (f/m/d)</div><div class="cmp">Ten Square Games · Wrocław</div></a><a class="card" href="../../job/rc-ten-square-games-2685245/"><div>Mid/ Senior Data Scientist (f/m/d)</div><div class="cmp">Ten Square Games · Wrocław</div></a><a class="card" href="../../job/rc-ten-square-games-2679665/"><div>Art Lead (f/m/d)</div><div class="cmp">Ten Square Games · Wrocław</div></a><a class="card" href="../../job/rc-ten-square-games-2664775/"><div>Mid/ Senior Game Designer (f/m/d)</div><div class="cmp">Ten Square Games · Wrocław</div></a><a class="card" href="../../job/rc-ten-square-games-2642817/"><div>Junior Product Manager – Rotational Program</div><div class="cmp">Ten Square Games · Wrocław</div></a><a class="card" href="../../job/rc-ten-square-games-2617191/"><div>Senior VFX Artist (f/m/d)</div><div class="cmp">Ten Square Games · Wrocław</div></a><a class="card" href="../../job/rc-ten-square-games-2280053/"><div>Head of Product (f/m/d)</div><div class="cmp">Ten Square Games · Wrocław</div></a><a class="card" href="../../job/rc-ten-square-games-2114537/"><div>Senior Product Manager (f/m/d)</div><div class="cmp">Ten Square Games · Wrocław</div></a></div>
+<h1>Вакансии Ten Square Games</h1><div class="sub">9 вакансий в Ten Square Games — напрямую с карьерной страницы студии.</div><h2>Открытые вакансии</h2><div><a class="card" href="../../job/rc-ten-square-games-2715083/"><div>Senior Unity Developer (f/m/d)</div><div class="cmp">Ten Square Games · Wrocław</div></a><a class="card" href="../../job/rc-ten-square-games-2713857/"><div>Influencer Marketing Manager (f/m/d)</div><div class="cmp">Ten Square Games · Wrocław</div></a><a class="card" href="../../job/rc-ten-square-games-2685245/"><div>Mid/ Senior Data Analyst with Python (f/m/d)</div><div class="cmp">Ten Square Games · Wrocław</div></a><a class="card" href="../../job/rc-ten-square-games-2679665/"><div>Art Lead (f/m/d)</div><div class="cmp">Ten Square Games · Wrocław</div></a><a class="card" href="../../job/rc-ten-square-games-2664775/"><div>Mid/ Senior Game Designer (f/m/d)</div><div class="cmp">Ten Square Games · Wrocław</div></a><a class="card" href="../../job/rc-ten-square-games-2642817/"><div>Junior Product Manager – Rotational Program</div><div class="cmp">Ten Square Games · Wrocław</div></a><a class="card" href="../../job/rc-ten-square-games-2617191/"><div>Senior VFX Artist (f/m/d)</div><div class="cmp">Ten Square Games · Wrocław</div></a><a class="card" href="../../job/rc-ten-square-games-2280053/"><div>Head of Product (f/m/d)</div><div class="cmp">Ten Square Games · Wrocław</div></a><a class="card" href="../../job/rc-ten-square-games-2114537/"><div>Senior Product Manager (f/m/d)</div><div class="cmp">Ten Square Games · Wrocław</div></a></div><p>Из них с удалёнкой — 1, с указанной зарплатой — 0. Список пересобирается каждый день, закрытые вакансии удаляются автоматически.</p><h2>Студии</h2><p><a href="../../company/ten-square-games/">Ten Square Games</a> (9)</p><h2>Города и страны</h2><p>Wrocław (9)</p>
 <footer>
   Вакансии собираются автоматически с карьерных страниц игровых студий.
   Мы не работодатель и не принимаем отклики — откликаться нужно на сайте студии.<br>

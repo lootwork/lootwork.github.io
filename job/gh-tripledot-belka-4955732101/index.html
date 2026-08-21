@@ -20,6 +20,18 @@ We are a multi-award-winning organisation, with a global…">
 <meta property="og:url" content="https://lootwork.github.io/job/gh-tripledot-belka-4955732101/">
 <meta property="og:image" content="https://lootwork.github.io/og.png">
 <meta name="theme-color" content="#0c0a1a">
+<script>
+  // Ставим тему до отрисовки, иначе страница мигнёт тёмным и станет светлой.
+  // Фигурные скобки удвоены: этот кусок лежит внутри f-строки Python.
+  try {
+    var t = localStorage.getItem("theme");
+    if (!t) t = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+    document.documentElement.dataset.theme = t;
+    if (t === "light") {
+      document.querySelector('meta[name="theme-color"]').setAttribute("content", "#f6f5fb");
+    }
+  } catch (e) {}
+</script>
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -58,7 +70,7 @@ We are a multi-award-winning organisation, with a global…">
 <h2>Working at Tripledot</h2>
 <ul><li>25 days holiday: Enjoy 25 days of paid holiday, in addition to bank holidays to relax and refresh throughout the year.</li><li>Continuous Professional Development: Propel your career with continuous opportunities for professional development.</li><li>Supplemental Health Insurance: Continentale: annual budget of 1200 eur - reimbursement for healthcare outside of public plans (glasses, massages, dental treatments etc.)</li><li>Public Transportation reimbursement: 100% of public transportation to the office via BVG ticket is covered</li><li>Daily Free Lunch: Order free food from Wolt when at the office</li><li>Pension plan: Opt-in to employer contributed pension plan, operated with Degura</li></ul></div>
 <div class="note">Отклик принимает студия на своём сайте. LOOTWORK только показывает вакансию.</div>
-<h2>Ещё в Tripledot / Belka</h2><a class="card" href="../gh-tripledot-belka-4952291101/"><div>Head of Engineering</div><div class="cmp">Tel Aviv</div></a><a class="card" href="../gh-tripledot-belka-4877809101/"><div>Lead Game Designer</div><div class="cmp">Toronto</div></a><a class="card" href="../gh-tripledot-belka-4950796101/"><div>Lead Technical Artist</div><div class="cmp">Toronto</div></a><a class="card" href="../gh-tripledot-belka-4952612101/"><div>Principal Technical Artist</div><div class="cmp">Dallas</div></a><a class="card" href="../gh-tripledot-belka-4948637101/"><div>Senior Animator (Unity)</div><div class="cmp">Tblisi</div></a><a class="card" href="../gh-tripledot-belka-4954095101/"><div>Market Intelligence Analyst - Lion Studios</div><div class="cmp">Berlin</div></a>
+<h2>Ещё в Tripledot / Belka</h2><a class="card" href="../gh-tripledot-belka-4955754101/"><div>Product Manager - Lion Studios</div><div class="cmp">Berlin</div></a><a class="card" href="../gh-tripledot-belka-4952291101/"><div>Head of Engineering</div><div class="cmp">Tel Aviv</div></a><a class="card" href="../gh-tripledot-belka-4877809101/"><div>Lead Game Designer</div><div class="cmp">Toronto</div></a><a class="card" href="../gh-tripledot-belka-4950796101/"><div>Lead Technical Artist</div><div class="cmp">Toronto</div></a><a class="card" href="../gh-tripledot-belka-4952612101/"><div>Principal Technical Artist</div><div class="cmp">Dallas</div></a><a class="card" href="../gh-tripledot-belka-4948638101/"><div>Senior Animator (Unity)</div><div class="cmp">Limassol</div></a>
 
 <footer>
   Вакансии собираются автоматически с карьерных страниц игровых студий.

@@ -12,6 +12,18 @@
 <meta property="og:url" content="https://lootwork.github.io/company/hangar-13/">
 <meta property="og:image" content="https://lootwork.github.io/og.png">
 <meta name="theme-color" content="#0c0a1a">
+<script>
+  // Ставим тему до отрисовки, иначе страница мигнёт тёмным и станет светлой.
+  // Фигурные скобки удвоены: этот кусок лежит внутри f-строки Python.
+  try {
+    var t = localStorage.getItem("theme");
+    if (!t) t = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+    document.documentElement.dataset.theme = t;
+    if (t === "light") {
+      document.querySelector('meta[name="theme-color"]').setAttribute("content", "#f6f5fb");
+    }
+  } catch (e) {}
+</script>
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +33,7 @@
 <body>
 <div class="wrap">
 <header><a class="logo" href="../../">LOOT<b>WORK</b></a></header>
-<h1>Вакансии Hangar 13</h1><div class="sub">6 вакансий в Hangar 13 — напрямую с карьерной страницы студии.</div><div style="margin-top:18px"><a class="card" href="../../job/gh-hangar-13-7760450003/"><div>Senior Animation Engineer</div><div class="cmp">Hangar 13 · Brighton, United Kingdom</div></a><a class="card" href="../../job/gh-hangar-13-7527472003/"><div>Lead Technical Artist  - Shaders</div><div class="cmp">Hangar 13 · Brno, Czechia</div></a><a class="card" href="../../job/gh-hangar-13-7760443003/"><div>Principal Technical Animator</div><div class="cmp">Hangar 13 · Brighton, United Kingdom</div></a><a class="card" href="../../job/gh-hangar-13-7790812003/"><div>Producer - Technical (12 month contract)</div><div class="cmp">Hangar 13 · Prague, Czech Republic</div></a><a class="card" href="../../job/gh-hangar-13-7528605003/"><div>Senior Gameplay and Animation Engineer</div><div class="cmp">Hangar 13 · Brighton, United Kingdom</div></a><a class="card" href="../../job/gh-hangar-13-7762610003/"><div>Senior Rendering Engineer</div><div class="cmp">Hangar 13 · Brighton, United Kingdom</div></a></div>
+<h1>Вакансии Hangar 13</h1><div class="sub">6 вакансий в Hangar 13 — напрямую с карьерной страницы студии.</div><h2>Открытые вакансии</h2><div><a class="card" href="../../job/gh-hangar-13-7527472003/"><div>Lead Technical Artist  - Shaders</div><div class="cmp">Hangar 13 · Brno, Czechia</div></a><a class="card" href="../../job/gh-hangar-13-7760443003/"><div>Principal Technical Animator</div><div class="cmp">Hangar 13 · Brighton, United Kingdom</div></a><a class="card" href="../../job/gh-hangar-13-7790812003/"><div>Producer - Technical (12 month contract)</div><div class="cmp">Hangar 13 · Prague, Czech Republic</div></a><a class="card" href="../../job/gh-hangar-13-7760450003/"><div>Senior Animation Engineer</div><div class="cmp">Hangar 13 · Brighton, United Kingdom</div></a><a class="card" href="../../job/gh-hangar-13-7528605003/"><div>Senior Gameplay and Animation Engineer</div><div class="cmp">Hangar 13 · Brighton, United Kingdom</div></a><a class="card" href="../../job/gh-hangar-13-7762610003/"><div>Senior Rendering Engineer</div><div class="cmp">Hangar 13 · Brighton, United Kingdom</div></a></div><p>Из них с удалёнкой — 0, с указанной зарплатой — 0. Список пересобирается каждый день, закрытые вакансии удаляются автоматически.</p><h2>Студии</h2><p><a href="../../company/hangar-13/">Hangar 13</a> (6)</p><h2>Города и страны</h2><p>Brighton, United Kingdom (4), Brno, Czechia (1), Prague, Czech Republic (1)</p>
 <footer>
   Вакансии собираются автоматически с карьерных страниц игровых студий.
   Мы не работодатель и не принимаем отклики — откликаться нужно на сайте студии.<br>

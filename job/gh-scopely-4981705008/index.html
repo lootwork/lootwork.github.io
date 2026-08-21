@@ -12,6 +12,18 @@
 <meta property="og:url" content="https://lootwork.github.io/job/gh-scopely-4981705008/">
 <meta property="og:image" content="https://lootwork.github.io/og.png">
 <meta name="theme-color" content="#0c0a1a">
+<script>
+  // Ставим тему до отрисовки, иначе страница мигнёт тёмным и станет светлой.
+  // Фигурные скобки удвоены: этот кусок лежит внутри f-строки Python.
+  try {
+    var t = localStorage.getItem("theme");
+    if (!t) t = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+    document.documentElement.dataset.theme = t;
+    if (t === "light") {
+      document.querySelector('meta[name="theme-color"]').setAttribute("content", "#f6f5fb");
+    }
+  } catch (e) {}
+</script>
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,7 +49,7 @@
 <h2>Qualifications</h2>
 <ul><li>BA/BS degree or equivalent practical experience.</li><li>12+ years of experience in marketing, gaming, entertainment, or consumer technology industries, including significant experience in mobile/live-service gaming.</li><li>Proven experience leading integrated marketing strategy and execution for large-scale consumer products or live-service games.</li><li>Demonstrated success managing and developing high-performing marketing teams, including managers and senior individual contributors.</li><li>Deep expertise in product positioning, go-to-market strategy, user acquisition, engagement, retention, and lifecycle marketing.</li><li>Strong experience overseeing paid media strategy and execution, including creative development, agency management, media planning/buying, campaign optimization, and performance analysis.</li><li>Experience leading highly cross-functional initiatives involving multiple internal teams, external partners, and executive stakeholders.</li><li>Strong business acumen with the ability to balance strategic priorities, operational execution, and financial outcomes.</li><li>Experience managing substantial marketing budgets and evaluating ROI against business objectives.</li><li>Outstanding verbal and written communication skills, including experience presenting to executive leadership.</li><li>Strong analytical mindset with the ability to leverage data and consumer insights to inform decision-making.</li><li>Ability to operate effectively in a fast-paced hybrid environment with evolving priorities and ambiguity.</li><li>Passion for creating meaningful player experiences that connect digital and real-world engagement.</li><li>Familiarity with AI-powered marketing tools and emerging AI trends relevant to consumer marketing and live-service games.</li><li>Interest in applying AI and automation to improve marketing workflows, creativity, and operational efficiency.…</li></ul></div>
 <div class="note">Отклик принимает студия на своём сайте. LOOTWORK только показывает вакансию.</div>
-<h2>Ещё в Scopely</h2><a class="card" href="../gh-scopely-5301857008/"><div>Data Analyst - Marvel Strike Force</div><div class="cmp">US - United States</div></a><a class="card" href="../gh-scopely-5395775008/"><div>Senior Agentic AI Engineer</div><div class="cmp">IN - Bangalore, India</div></a><a class="card" href="../gh-scopely-5165752008/"><div>Software Engineer (Gaming Fullstack) - WWE Champions</div><div class="cmp">US - United States</div></a><a class="card" href="../gh-scopely-5394718008/"><div>Sr Marketing Artist</div><div class="cmp">ES - Barcelona, Spain</div></a><a class="card" href="../gh-scopely-5394541008/"><div>Marketing Intelligence &amp; AI Automation Manager</div><div class="cmp">MX - Mexico City, Mexico</div></a><a class="card" href="../gh-scopely-5211608008/"><div>Pokémon GO Game Producer II - Live Events</div><div class="cmp">US - San Francisco, United States</div></a>
+<h2>Ещё в Scopely</h2><a class="card" href="../gh-scopely-5395416008/"><div>Lead Game Capture Artist</div><div class="cmp">ES - Barcelona, Spain</div></a><a class="card" href="../gh-scopely-5283492008/"><div>Product Analyst -  Star Trek Fleet Command</div><div class="cmp">ES - Barcelona, Spain</div></a><a class="card" href="../gh-scopely-5396208008/"><div>Senior Animator – MONOPOLY GO!</div><div class="cmp">ES - Barcelona, Spain</div></a><a class="card" href="../gh-scopely-5191920008/"><div>Senior Producer - Star Trek Fleet Command</div><div class="cmp">GB - London, United Kingdom</div></a><a class="card" href="../gh-scopely-5396883008/"><div>Senior Product Manager performance - Monopoly GO!</div><div class="cmp">ES - Barcelona, Spain</div></a><a class="card" href="../gh-scopely-5301857008/"><div>Data Analyst - Marvel Strike Force</div><div class="cmp">US - United States</div></a>
 
 <footer>
   Вакансии собираются автоматически с карьерных страниц игровых студий.

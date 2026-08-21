@@ -1,5 +1,11 @@
 :root{--void:#0c0a1a;--panel:#15122b;--panel-2:#1c1838;--line:#2c2554;
---line-soft:#231e45;--text:#eceaff;--muted:#948cc0;--amber:#ffb03f;--cyan:#5fe3ff}
+--line-soft:#231e45;--text:#eceaff;--muted:#948cc0;--amber:#ffb03f;--cyan:#5fe3ff;
+--apply-text:#fff}
+/* Тема берётся из настройки сайта, а если человек сюда попал из поиска —
+   из настройки его системы. Иначе страница вакансии светит тёмным в глаза. */
+:root[data-theme="light"]{--void:#f6f5fb;--panel:#ffffff;--panel-2:#f1eff9;
+--line:#d9d5ec;--line-soft:#e7e4f3;--text:#191634;--muted:#6a6392;
+--amber:#b06c00;--cyan:#0a7c9e;--apply-text:#fff}
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--void);color:var(--text);line-height:1.6;
 font-family:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:15px}
@@ -15,10 +21,10 @@ h2{font-size:17px;margin:26px 0 10px}
 .tags{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0}
 .tag{font-size:12px;color:var(--muted);background:var(--panel-2);border:1px solid var(--line-soft);
 border-radius:7px;padding:3px 9px}
-.tag.remote{color:var(--cyan);border-color:#12303d;background:#12303d}
-.apply{display:inline-block;background:var(--amber);color:#231602;text-decoration:none;
+.tag.remote{color:var(--cyan);border-color:var(--line-soft);background:var(--panel-2)}
+.apply{display:inline-block;background:var(--amber);color:var(--apply-text);text-decoration:none;
 font-weight:700;padding:12px 24px;border-radius:9px;margin:18px 0}
-.apply:hover{background:#ffc164}
+.apply:hover{filter:brightness(1.1)}
 .desc p{margin:0 0 12px}
 .desc h2{font-family:"Unbounded",system-ui,sans-serif;font-size:13px;font-weight:700;
 letter-spacing:.05em;text-transform:uppercase;color:var(--text);

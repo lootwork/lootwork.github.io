@@ -20,6 +20,18 @@ We are a multi-award-winning organisation, with a global…">
 <meta property="og:url" content="https://lootwork.github.io/job/gh-tripledot-belka-4952612101/">
 <meta property="og:image" content="https://lootwork.github.io/og.png">
 <meta name="theme-color" content="#0c0a1a">
+<script>
+  // Ставим тему до отрисовки, иначе страница мигнёт тёмным и станет светлой.
+  // Фигурные скобки удвоены: этот кусок лежит внутри f-строки Python.
+  try {
+    var t = localStorage.getItem("theme");
+    if (!t) t = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+    document.documentElement.dataset.theme = t;
+    if (t === "light") {
+      document.querySelector('meta[name="theme-color"]').setAttribute("content", "#f6f5fb");
+    }
+  } catch (e) {}
+</script>
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,7 +68,7 @@ We are a multi-award-winning organisation, with a global…">
 <h2>Preferred Qualifications</h2>
 <ul><li>Prior professional experience within casual mobile gaming, including a deep understanding of the visual style and player expectations.</li><li>Prior experience joining or founding a new game team, and comfort operating without established process or precedent.</li><li>Prior experience taking a title from pre-production through soft launch, building visual and technical solutions from the ground up.</li><li>Experience automating or supporting marketing and store asset production through tooling.</li><li>Applied knowledge of animation systems, procedural asset generation, and VFX pipelines.</li><li>Familiarity with mobile graphics limitations and strategies for maximizing visual impact within those constraints.…</li></ul></div>
 <div class="note">Отклик принимает студия на своём сайте. LOOTWORK только показывает вакансию.</div>
-<h2>Ещё в Tripledot / Belka</h2><a class="card" href="../gh-tripledot-belka-4955732101/"><div>Game Designer - Lion Studios</div><div class="cmp">Berlin</div></a><a class="card" href="../gh-tripledot-belka-4952291101/"><div>Head of Engineering</div><div class="cmp">Tel Aviv</div></a><a class="card" href="../gh-tripledot-belka-4877809101/"><div>Lead Game Designer</div><div class="cmp">Toronto</div></a><a class="card" href="../gh-tripledot-belka-4950796101/"><div>Lead Technical Artist</div><div class="cmp">Toronto</div></a><a class="card" href="../gh-tripledot-belka-4948637101/"><div>Senior Animator (Unity)</div><div class="cmp">Tblisi</div></a><a class="card" href="../gh-tripledot-belka-4954095101/"><div>Market Intelligence Analyst - Lion Studios</div><div class="cmp">Berlin</div></a>
+<h2>Ещё в Tripledot / Belka</h2><a class="card" href="../gh-tripledot-belka-4955754101/"><div>Product Manager - Lion Studios</div><div class="cmp">Berlin</div></a><a class="card" href="../gh-tripledot-belka-4955732101/"><div>Game Designer - Lion Studios</div><div class="cmp">Berlin</div></a><a class="card" href="../gh-tripledot-belka-4952291101/"><div>Head of Engineering</div><div class="cmp">Tel Aviv</div></a><a class="card" href="../gh-tripledot-belka-4877809101/"><div>Lead Game Designer</div><div class="cmp">Toronto</div></a><a class="card" href="../gh-tripledot-belka-4950796101/"><div>Lead Technical Artist</div><div class="cmp">Toronto</div></a><a class="card" href="../gh-tripledot-belka-4948638101/"><div>Senior Animator (Unity)</div><div class="cmp">Limassol</div></a>
 
 <footer>
   Вакансии собираются автоматически с карьерных страниц игровых студий.

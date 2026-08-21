@@ -4,14 +4,26 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Вакансии 11 bit studios | LOOTWORK</title>
-<meta name="description" content="1 вакансия в 11 bit studios — напрямую с карьерной страницы студии.">
+<meta name="description" content="2 вакансии в 11 bit studios — напрямую с карьерной страницы студии.">
 <link rel="canonical" href="https://lootwork.github.io/company/11-bit-studios/">
 <meta property="og:title" content="Вакансии 11 bit studios | LOOTWORK">
-<meta property="og:description" content="1 вакансия в 11 bit studios — напрямую с карьерной страницы студии.">
+<meta property="og:description" content="2 вакансии в 11 bit studios — напрямую с карьерной страницы студии.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://lootwork.github.io/company/11-bit-studios/">
 <meta property="og:image" content="https://lootwork.github.io/og.png">
 <meta name="theme-color" content="#0c0a1a">
+<script>
+  // Ставим тему до отрисовки, иначе страница мигнёт тёмным и станет светлой.
+  // Фигурные скобки удвоены: этот кусок лежит внутри f-строки Python.
+  try {
+    var t = localStorage.getItem("theme");
+    if (!t) t = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+    document.documentElement.dataset.theme = t;
+    if (t === "light") {
+      document.querySelector('meta[name="theme-color"]').setAttribute("content", "#f6f5fb");
+    }
+  } catch (e) {}
+</script>
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +33,7 @@
 <body>
 <div class="wrap">
 <header><a class="logo" href="../../">LOOT<b>WORK</b></a></header>
-<h1>Вакансии 11 bit studios</h1><div class="sub">1 вакансия в 11 bit studios — напрямую с карьерной страницы студии.</div><div style="margin-top:18px"><a class="card" href="../../job/rc-11-bit-studios-2714406/"><div>Senior / Expert 3D Animator (Unannounced Project)</div><div class="cmp">11 bit studios · Warszawa</div></a></div>
+<h1>Вакансии 11 bit studios</h1><div class="sub">2 вакансии в 11 bit studios — напрямую с карьерной страницы студии.</div><h2>Открытые вакансии</h2><div><a class="card" href="../../job/rc-11-bit-studios-2713417/"><div>Senior / Expert Technical Artist (Frostpunk 1886)</div><div class="cmp">11 bit studios · Warszawa</div></a><a class="card" href="../../job/rc-11-bit-studios-2714406/"><div>Senior / Expert 3D Animator (Unannounced Project)</div><div class="cmp">11 bit studios · Warszawa</div></a></div><p>Из них с удалёнкой — 0, с указанной зарплатой — 0. Список пересобирается каждый день, закрытые вакансии удаляются автоматически.</p><h2>Студии</h2><p><a href="../../company/11-bit-studios/">11 bit studios</a> (2)</p><h2>Города и страны</h2><p>Warszawa (2)</p>
 <footer>
   Вакансии собираются автоматически с карьерных страниц игровых студий.
   Мы не работодатель и не принимаем отклики — откликаться нужно на сайте студии.<br>

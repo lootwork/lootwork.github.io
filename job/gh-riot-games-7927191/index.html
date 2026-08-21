@@ -20,6 +20,18 @@
 <meta property="og:url" content="https://lootwork.github.io/job/gh-riot-games-7927191/">
 <meta property="og:image" content="https://lootwork.github.io/og.png">
 <meta name="theme-color" content="#0c0a1a">
+<script>
+  // Ставим тему до отрисовки, иначе страница мигнёт тёмным и станет светлой.
+  // Фигурные скобки удвоены: этот кусок лежит внутри f-строки Python.
+  try {
+    var t = localStorage.getItem("theme");
+    if (!t) t = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+    document.documentElement.dataset.theme = t;
+    if (t === "light") {
+      document.querySelector('meta[name="theme-color"]').setAttribute("content", "#f6f5fb");
+    }
+  } catch (e) {}
+</script>
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -58,7 +70,7 @@
 <ul><li>提供2–4个特效作品案例（以实际效果与完成度为主）</li><li>包含： 技能特效 / 战斗特效 / 环境或氛围特效（如有） 引擎内效果演示（视频或录屏）</li><li>强调实际游戏内效果（非常重要）</li><li>展示对节奏、层次与打击感的理解</li><li>如有，请附带： 性能优化案例（前后对比）</li><li>Shader或技术实现说明 （如有）</li><li>商业项目或外包经验（如有）</li></ul>
 <p>用工性质：与专业人事服务公司FESCO Adecco签订劳动合同.</p></div>
 <div class="note">Отклик принимает студия на своём сайте. LOOTWORK только показывает вакансию.</div>
-<h2>Ещё в Riot Games</h2><a class="card" href="../gh-riot-games-8073585/"><div>Senior Animation Artist - VALORANT</div><div class="cmp">Singapore</div></a><a class="card" href="../gh-riot-games-7944656/"><div>Principal Machine Learning Engineer - League of Legends</div><div class="cmp">Los Angeles, United States</div></a><a class="card" href="../gh-riot-games-8090464/"><div>Principal Technical Producer, Account Management - Central Technology</div><div class="cmp">Los Angeles, United States, Mercer Island, United States</div></a><a class="card" href="../gh-riot-games-8130718/"><div>QA Engineer II - VALORANT, Core Game Features</div><div class="cmp">Los Angeles, United States</div></a><a class="card" href="../gh-riot-games-8104536/"><div>Senior Software Engineer, Platform &amp; Infrastructure - Riot Technology</div><div class="cmp">Los Angeles, United States, Mercer Island, United States, Redwood City, United States</div></a><a class="card" href="../gh-riot-games-8124195/"><div>Manager, Technical Game Design - Teamfight Tactics</div><div class="cmp">Los Angeles, United States</div></a>
+<h2>Ещё в Riot Games</h2><a class="card" href="../gh-riot-games-8124195/"><div>Manager, Technical Game Design - Teamfight Tactics</div><div class="cmp">Los Angeles, United States</div></a><a class="card" href="../gh-riot-games-7944656/"><div>Principal Machine Learning Engineer (Platform &amp; Integrations)- League of Legends</div><div class="cmp">Los Angeles, United States</div></a><a class="card" href="../gh-riot-games-8090464/"><div>Principal Technical Producer, Account Management - Central Technology</div><div class="cmp">Los Angeles, United States, Mercer Island, United States</div></a><a class="card" href="../gh-riot-games-8128657/"><div>Publishing Product Manager, Americas</div><div class="cmp">Los Angeles, United States</div></a><a class="card" href="../gh-riot-games-8130718/"><div>QA Engineer II - VALORANT, Core Game Features</div><div class="cmp">Los Angeles, United States</div></a><a class="card" href="../gh-riot-games-8118847/"><div>Regional Publishing Product Lead - Riftbound</div><div class="cmp">Seoul, Korea</div></a>
 
 <footer>
   Вакансии собираются автоматически с карьерных страниц игровых студий.

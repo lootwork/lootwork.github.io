@@ -12,6 +12,18 @@
 <meta property="og:url" content="https://lootwork.github.io/role/narrativ/">
 <meta property="og:image" content="https://lootwork.github.io/og.png">
 <meta name="theme-color" content="#0c0a1a">
+<script>
+  // Ставим тему до отрисовки, иначе страница мигнёт тёмным и станет светлой.
+  // Фигурные скобки удвоены: этот кусок лежит внутри f-строки Python.
+  try {
+    var t = localStorage.getItem("theme");
+    if (!t) t = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+    document.documentElement.dataset.theme = t;
+    if (t === "light") {
+      document.querySelector('meta[name="theme-color"]').setAttribute("content", "#f6f5fb");
+    }
+  } catch (e) {}
+</script>
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +33,7 @@
 <body>
 <div class="wrap">
 <header><a class="logo" href="../../">LOOT<b>WORK</b></a></header>
-<h1>Нарратив — вакансии в геймдеве</h1><div class="sub">5 вакансий по направлению «Нарратив» напрямую от игровых студий.</div><div style="margin-top:18px"><a class="card" href="../../job/gh-2k-games-7801202003/"><div>Principal Software Engineer, Narrative Sytems</div><div class="cmp">2K Games · Burnaby, Canada</div></a><a class="card" href="../../job/gh-scopely-5298879008/"><div>Narrative Writer(Contractor)</div><div class="cmp">Scopely · CH - Shanghai, China</div></a><a class="card" href="../../job/gh-riot-games-7919247/"><div>Narrative Designer 资深文案策划 - Unpublished R&amp;D Product</div><div class="cmp">Riot Games · Guangzhou, China</div></a><a class="card" href="../../job/lv-larian-studios-cd334afc-3346-48be-9c52-2006945174be/"><div>Writer</div><div class="cmp">Larian Studios · Warsaw</div></a><a class="card" href="../../job/lv-larian-studios-09bd74d9-6abc-44cf-af96-7236b7fc64ee/"><div>Writer – Open Application</div><div class="cmp">Larian Studios · локация не указана</div></a></div>
+<h1>Нарратив — вакансии в геймдеве</h1><div class="sub">5 вакансий по направлению «Нарратив» напрямую от игровых студий.</div><h2>Открытые вакансии</h2><div><a class="card" href="../../job/gh-2k-games-7801202003/"><div>Principal Software Engineer, Narrative Sytems</div><div class="cmp">2K Games · Burnaby, Canada</div></a><a class="card" href="../../job/gh-scopely-5298879008/"><div>Narrative Writer(Contractor)</div><div class="cmp">Scopely · CH - Shanghai, China</div></a><a class="card" href="../../job/gh-riot-games-7919247/"><div>Narrative Designer 资深文案策划 - Unpublished R&amp;D Product</div><div class="cmp">Riot Games · Guangzhou, China</div></a><a class="card" href="../../job/lv-larian-studios-cd334afc-3346-48be-9c52-2006945174be/"><div>Writer</div><div class="cmp">Larian Studios · Warsaw</div></a><a class="card" href="../../job/lv-larian-studios-09bd74d9-6abc-44cf-af96-7236b7fc64ee/"><div>Writer – Open Application</div><div class="cmp">Larian Studios · локация не указана</div></a></div><p>Из них с удалёнкой — 0, с указанной зарплатой — 0. Список пересобирается каждый день, закрытые вакансии удаляются автоматически.</p><h2>Студии</h2><p><a href="../../company/larian-studios/">Larian Studios</a> (2), <a href="../../company/2k-games/">2K Games</a> (1), <a href="../../company/scopely/">Scopely</a> (1), <a href="../../company/riot-games/">Riot Games</a> (1)</p><h2>Города и страны</h2><p>Burnaby, Canada (1), CH - Shanghai, China (1), Guangzhou, China (1), Warsaw (1)</p>
 <footer>
   Вакансии собираются автоматически с карьерных страниц игровых студий.
   Мы не работодатель и не принимаем отклики — откликаться нужно на сайте студии.<br>

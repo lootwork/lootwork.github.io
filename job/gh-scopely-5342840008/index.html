@@ -16,6 +16,18 @@ At Scopely, we care deeply about what we do and…">
 <meta property="og:url" content="https://lootwork.github.io/job/gh-scopely-5342840008/">
 <meta property="og:image" content="https://lootwork.github.io/og.png">
 <meta name="theme-color" content="#0c0a1a">
+<script>
+  // Ставим тему до отрисовки, иначе страница мигнёт тёмным и станет светлой.
+  // Фигурные скобки удвоены: этот кусок лежит внутри f-строки Python.
+  try {
+    var t = localStorage.getItem("theme");
+    if (!t) t = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+    document.documentElement.dataset.theme = t;
+    if (t === "light") {
+      document.querySelector('meta[name="theme-color"]').setAttribute("content", "#f6f5fb");
+    }
+  } catch (e) {}
+</script>
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -51,7 +63,7 @@ At Scopely, we care deeply about what we do and…">
 <p>Notice to Candidates: Scopely will never request payment or financial information during the application or hiring process. Please apply only through our official website and verify that all Talent Partner communications come from an email address ending in @scopely.com.</p>
 <p>Should you have any questions or encounter any fraudulent requests/emails/websites, please immediately contact recruiting@scopely.com. Our job applicant privacy policies are available here: California Privacy Notice and EEA/UK Privacy Notice.…</p></div>
 <div class="note">Отклик принимает студия на своём сайте. LOOTWORK только показывает вакансию.</div>
-<h2>Ещё в Scopely</h2><a class="card" href="../gh-scopely-5301857008/"><div>Data Analyst - Marvel Strike Force</div><div class="cmp">US - United States</div></a><a class="card" href="../gh-scopely-5395775008/"><div>Senior Agentic AI Engineer</div><div class="cmp">IN - Bangalore, India</div></a><a class="card" href="../gh-scopely-5165752008/"><div>Software Engineer (Gaming Fullstack) - WWE Champions</div><div class="cmp">US - United States</div></a><a class="card" href="../gh-scopely-5394718008/"><div>Sr Marketing Artist</div><div class="cmp">ES - Barcelona, Spain</div></a><a class="card" href="../gh-scopely-5394541008/"><div>Marketing Intelligence &amp; AI Automation Manager</div><div class="cmp">MX - Mexico City, Mexico</div></a><a class="card" href="../gh-scopely-5211608008/"><div>Pokémon GO Game Producer II - Live Events</div><div class="cmp">US - San Francisco, United States</div></a>
+<h2>Ещё в Scopely</h2><a class="card" href="../gh-scopely-5395416008/"><div>Lead Game Capture Artist</div><div class="cmp">ES - Barcelona, Spain</div></a><a class="card" href="../gh-scopely-5283492008/"><div>Product Analyst -  Star Trek Fleet Command</div><div class="cmp">ES - Barcelona, Spain</div></a><a class="card" href="../gh-scopely-5396208008/"><div>Senior Animator – MONOPOLY GO!</div><div class="cmp">ES - Barcelona, Spain</div></a><a class="card" href="../gh-scopely-5191920008/"><div>Senior Producer - Star Trek Fleet Command</div><div class="cmp">GB - London, United Kingdom</div></a><a class="card" href="../gh-scopely-5396883008/"><div>Senior Product Manager performance - Monopoly GO!</div><div class="cmp">ES - Barcelona, Spain</div></a><a class="card" href="../gh-scopely-5301857008/"><div>Data Analyst - Marvel Strike Force</div><div class="cmp">US - United States</div></a>
 
 <footer>
   Вакансии собираются автоматически с карьерных страниц игровых студий.

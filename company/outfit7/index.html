@@ -12,6 +12,18 @@
 <meta property="og:url" content="https://lootwork.github.io/company/outfit7/">
 <meta property="og:image" content="https://lootwork.github.io/og.png">
 <meta name="theme-color" content="#0c0a1a">
+<script>
+  // Ставим тему до отрисовки, иначе страница мигнёт тёмным и станет светлой.
+  // Фигурные скобки удвоены: этот кусок лежит внутри f-строки Python.
+  try {
+    var t = localStorage.getItem("theme");
+    if (!t) t = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+    document.documentElement.dataset.theme = t;
+    if (t === "light") {
+      document.querySelector('meta[name="theme-color"]').setAttribute("content", "#f6f5fb");
+    }
+  } catch (e) {}
+</script>
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +33,7 @@
 <body>
 <div class="wrap">
 <header><a class="logo" href="../../">LOOT<b>WORK</b></a></header>
-<h1>Вакансии Outfit7</h1><div class="sub">7 вакансий в Outfit7 — напрямую с карьерной страницы студии.</div><div style="margin-top:18px"><a class="card" href="../../job/gh-outfit7-7766013003/"><div>Principal Lead Product Marketing Manager</div><div class="cmp">Outfit7 · Ljubljana, Slovenia, Barcelona, Spain, Limassol, Cyprus</div></a><a class="card" href="../../job/gh-outfit7-6685260003/"><div>Senior User Acquisition Expert</div><div class="cmp">Outfit7 · Ljubljana, Slovenia, Barcelona, Spain, Limassol, Cyprus</div></a><a class="card" href="../../job/gh-outfit7-7831280003/"><div>Talent Pool for Growth Product Manager</div><div class="cmp">Outfit7 · Slovenia, Barcelona</div></a><a class="card" href="../../job/gh-outfit7-7820146003/"><div>Talent Pool for Senior Product Manager</div><div class="cmp">Outfit7 · Ljubljana, Cyprus</div></a><a class="card" href="../../job/gh-outfit7-7597620003/"><div>Senior Marketing Data Scientist</div><div class="cmp">Outfit7 · Ljubljana, Slovenia, Barcelona, Cyprus</div></a><a class="card" href="../../job/gh-outfit7-7805667003/"><div>VP of Marketing</div><div class="cmp">Outfit7 · Limassol, Cyprus</div></a><a class="card" href="../../job/gh-outfit7-7739164003/"><div>Distribution Analytics Lead (Senior Lead Marketing Data Scientist)</div><div class="cmp">Outfit7 · Ljubljana, Slovenia</div></a></div>
+<h1>Вакансии Outfit7</h1><div class="sub">7 вакансий в Outfit7 — напрямую с карьерной страницы студии.</div><h2>Открытые вакансии</h2><div><a class="card" href="../../job/gh-outfit7-7766013003/"><div>Principal Lead Product Marketing Manager</div><div class="cmp">Outfit7 · Ljubljana, Slovenia, Barcelona, Spain, Limassol, Cyprus</div></a><a class="card" href="../../job/gh-outfit7-6685260003/"><div>Senior User Acquisition Expert</div><div class="cmp">Outfit7 · Ljubljana, Slovenia, Barcelona, Spain, Limassol, Cyprus</div></a><a class="card" href="../../job/gh-outfit7-7831280003/"><div>Talent Pool for Growth Product Manager</div><div class="cmp">Outfit7 · Slovenia, Barcelona</div></a><a class="card" href="../../job/gh-outfit7-7820146003/"><div>Talent Pool for Senior Product Manager</div><div class="cmp">Outfit7 · Ljubljana, Cyprus</div></a><a class="card" href="../../job/gh-outfit7-7597620003/"><div>Senior Marketing Data Scientist</div><div class="cmp">Outfit7 · Ljubljana, Slovenia, Barcelona, Cyprus</div></a><a class="card" href="../../job/gh-outfit7-7805667003/"><div>VP of Marketing</div><div class="cmp">Outfit7 · Limassol, Cyprus</div></a><a class="card" href="../../job/gh-outfit7-7739164003/"><div>Distribution Analytics Lead (Senior Lead Marketing Data Scientist)</div><div class="cmp">Outfit7 · Ljubljana, Slovenia</div></a></div><p>Из них с удалёнкой — 0, с указанной зарплатой — 0. Список пересобирается каждый день, закрытые вакансии удаляются автоматически.</p><h2>Студии</h2><p><a href="../../company/outfit7/">Outfit7</a> (7)</p><h2>Города и страны</h2><p>Ljubljana, Slovenia (4), Limassol, Cyprus (3), Barcelona, Spain (2), Slovenia, Barcelona (1), Ljubljana, Cyprus (1), Barcelona, Cyprus (1)</p>
 <footer>
   Вакансии собираются автоматически с карьерных страниц игровых студий.
   Мы не работодатель и не принимаем отклики — откликаться нужно на сайте студии.<br>

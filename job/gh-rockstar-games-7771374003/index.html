@@ -16,6 +16,18 @@ Become part of a team working on some of the most rewarding, large-scale creativ
 <meta property="og:url" content="https://lootwork.github.io/job/gh-rockstar-games-7771374003/">
 <meta property="og:image" content="https://lootwork.github.io/og.png">
 <meta name="theme-color" content="#0c0a1a">
+<script>
+  // Ставим тему до отрисовки, иначе страница мигнёт тёмным и станет светлой.
+  // Фигурные скобки удвоены: этот кусок лежит внутри f-строки Python.
+  try {
+    var t = localStorage.getItem("theme");
+    if (!t) t = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+    document.documentElement.dataset.theme = t;
+    if (t === "light") {
+      document.querySelector('meta[name="theme-color"]').setAttribute("content", "#f6f5fb");
+    }
+  } catch (e) {}
+</script>
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -57,7 +69,7 @@ Become part of a team working on some of the most rewarding, large-scale creativ
 <p>*San Diego Base Pay Range</p>
 <p>$120,200—$145,200 USD</p></div>
 <div class="note">Отклик принимает студия на своём сайте. LOOTWORK только показывает вакансию.</div>
-<h2>Ещё в Rockstar Games</h2><a class="card" href="../gh-rockstar-games-7782767003/"><div>Product Manager, Creator Platform</div><div class="cmp">Manhattan, United States</div></a><a class="card" href="../gh-rockstar-games-7806700003/"><div>Senior Software Engineer, FiveM</div><div class="cmp">London, United Kingdom</div></a><a class="card" href="../gh-rockstar-games-7893386003/"><div>Application Security Engineer</div><div class="cmp">Dundee, United Kingdom</div></a><a class="card" href="../gh-rockstar-games-7864697003/"><div>Senior Data Scientist, Web/Marketing Analytics</div><div class="cmp">Manhattan, United States</div></a><a class="card" href="../gh-rockstar-games-7634972003/"><div>Senior Linux Systems Engineer</div><div class="cmp">Manhattan, United States</div></a><a class="card" href="../gh-rockstar-games-7771377003/"><div>Senior Full Stack Developer</div><div class="cmp">Carlsbad, United States</div></a>
+<h2>Ещё в Rockstar Games</h2><a class="card" href="../gh-rockstar-games-7796158003/"><div>Product Manager, Creator Platform</div><div class="cmp">London, United Kingdom</div></a><a class="card" href="../gh-rockstar-games-7806700003/"><div>Senior Software Engineer, FiveM</div><div class="cmp">London, United Kingdom</div></a><a class="card" href="../gh-rockstar-games-7644896003/"><div>Application Security Engineer</div><div class="cmp">Leeds, United Kingdom</div></a><a class="card" href="../gh-rockstar-games-7864697003/"><div>Senior Data Scientist, Web/Marketing Analytics</div><div class="cmp">Manhattan, United States</div></a><a class="card" href="../gh-rockstar-games-7634972003/"><div>Senior Linux Systems Engineer</div><div class="cmp">Manhattan, United States</div></a><a class="card" href="../gh-rockstar-games-7771377003/"><div>Senior Full Stack Developer</div><div class="cmp">Carlsbad, United States</div></a>
 
 <footer>
   Вакансии собираются автоматически с карьерных страниц игровых студий.

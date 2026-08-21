@@ -14,6 +14,18 @@ Hi, we are Ten Square Games, and we live games! No, not a typo - but a level up 
 <meta property="og:url" content="https://lootwork.github.io/job/rc-ten-square-games-2713857/">
 <meta property="og:image" content="https://lootwork.github.io/og.png">
 <meta name="theme-color" content="#0c0a1a">
+<script>
+  // Ставим тему до отрисовки, иначе страница мигнёт тёмным и станет светлой.
+  // Фигурные скобки удвоены: этот кусок лежит внутри f-строки Python.
+  try {
+    var t = localStorage.getItem("theme");
+    if (!t) t = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+    document.documentElement.dataset.theme = t;
+    if (t === "light") {
+      document.querySelector('meta[name="theme-color"]').setAttribute("content", "#f6f5fb");
+    }
+  } catch (e) {}
+</script>
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,7 +48,7 @@ Hi, we are Ten Square Games, and we live games! No, not a typo - but a level up 
 <p>We're looking for an Influencer Marketing Manager to join our Growth Marketing team and help scale influencer marketing activities across Ten Square Games' portfolio of mobile games.</p>
 <p>In this role, you'll be responsible for planning and executing influencer campaigns, building relationships with creators and agencies, and collaborating with internal teams and external partners to deliver high-quality campaigns that support business growth.</p></div>
 <div class="note">Отклик принимает студия на своём сайте. LOOTWORK только показывает вакансию.</div>
-<h2>Ещё в Ten Square Games</h2><a class="card" href="../rc-ten-square-games-2715083/"><div>Senior Unity Developer (f/m/d)</div><div class="cmp">Wrocław</div></a><a class="card" href="../rc-ten-square-games-2685245/"><div>Mid/ Senior Data Scientist (f/m/d)</div><div class="cmp">Wrocław</div></a><a class="card" href="../rc-ten-square-games-2679665/"><div>Art Lead (f/m/d)</div><div class="cmp">Wrocław</div></a><a class="card" href="../rc-ten-square-games-2664775/"><div>Mid/ Senior Game Designer (f/m/d)</div><div class="cmp">Wrocław</div></a><a class="card" href="../rc-ten-square-games-2642817/"><div>Junior Product Manager – Rotational Program</div><div class="cmp">Wrocław</div></a><a class="card" href="../rc-ten-square-games-2617191/"><div>Senior VFX Artist (f/m/d)</div><div class="cmp">Wrocław</div></a>
+<h2>Ещё в Ten Square Games</h2><a class="card" href="../rc-ten-square-games-2715083/"><div>Senior Unity Developer (f/m/d)</div><div class="cmp">Wrocław</div></a><a class="card" href="../rc-ten-square-games-2685245/"><div>Mid/ Senior Data Analyst with Python (f/m/d)</div><div class="cmp">Wrocław</div></a><a class="card" href="../rc-ten-square-games-2679665/"><div>Art Lead (f/m/d)</div><div class="cmp">Wrocław</div></a><a class="card" href="../rc-ten-square-games-2664775/"><div>Mid/ Senior Game Designer (f/m/d)</div><div class="cmp">Wrocław</div></a><a class="card" href="../rc-ten-square-games-2642817/"><div>Junior Product Manager – Rotational Program</div><div class="cmp">Wrocław</div></a><a class="card" href="../rc-ten-square-games-2617191/"><div>Senior VFX Artist (f/m/d)</div><div class="cmp">Wrocław</div></a>
 
 <footer>
   Вакансии собираются автоматически с карьерных страниц игровых студий.

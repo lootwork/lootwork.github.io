@@ -16,6 +16,18 @@ You will play a pivotal role in delivering high-impact software solutions across
 <meta property="og:url" content="https://lootwork.github.io/job/lv-xsolla-bacc542e-9e8c-4cbd-9667-3fa960c7c294/">
 <meta property="og:image" content="https://lootwork.github.io/og.png">
 <meta name="theme-color" content="#0c0a1a">
+<script>
+  // Ставим тему до отрисовки, иначе страница мигнёт тёмным и станет светлой.
+  // Фигурные скобки удвоены: этот кусок лежит внутри f-строки Python.
+  try {
+    var t = localStorage.getItem("theme");
+    if (!t) t = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+    document.documentElement.dataset.theme = t;
+    if (t === "light") {
+      document.querySelector('meta[name="theme-color"]').setAttribute("content", "#f6f5fb");
+    }
+  } catch (e) {}
+</script>
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -66,7 +78,7 @@ You will play a pivotal role in delivering high-impact software solutions across
 <h2>Rights Under the Fair Chance Act</h2>
 <p>Applicants are encouraged to inquire about their rights under the Fair Chance Act. If you have questions regarding our hiring practices, please contact careers@xsolla.com</p></div>
 <div class="note">Отклик принимает студия на своём сайте. LOOTWORK только показывает вакансию.</div>
-<h2>Ещё в Xsolla</h2><a class="card" href="../lv-xsolla-63efc53d-ecee-45e4-8f64-f1c4ed7e0a92/"><div>Senior Technical Product Manager, Ad Platform</div><div class="cmp">United States</div></a><a class="card" href="../lv-xsolla-50968b51-3346-412d-b7f7-9874f4829435/"><div>Senior Technical Product Manager, Advertising ML</div><div class="cmp">United States</div></a><a class="card" href="../lv-xsolla-e4a4a1a0-1411-44a2-9457-0460348a89dd/"><div>Site Reliability Engineer</div><div class="cmp">Baku</div></a><a class="card" href="../lv-xsolla-18a833bd-aedd-4dae-a296-e15d8bb0f230/"><div>CMO/VP of Marketing - Japan</div><div class="cmp">Tokyo</div></a><a class="card" href="../lv-xsolla-4889d04f-0e77-4cdb-8724-fd3a63009f7f/"><div>Head of Fund Analytics &amp; Automation — Credit Fund</div><div class="cmp">United States</div></a><a class="card" href="../lv-xsolla-c6f428b4-e648-41a4-b4d7-4707a4ad4802/"><div>Lead Environment Artist</div><div class="cmp">Serbia</div></a>
+<h2>Ещё в Xsolla</h2><a class="card" href="../lv-xsolla-890966e8-3b75-48e2-866f-1acc05484a77/"><div>Digital Marketing Manager, Japan</div><div class="cmp">Tokyo</div></a><a class="card" href="../lv-xsolla-63efc53d-ecee-45e4-8f64-f1c4ed7e0a92/"><div>Senior Technical Product Manager, Ad Platform</div><div class="cmp">United States</div></a><a class="card" href="../lv-xsolla-50968b51-3346-412d-b7f7-9874f4829435/"><div>Senior Technical Product Manager, Advertising ML</div><div class="cmp">United States</div></a><a class="card" href="../lv-xsolla-e4a4a1a0-1411-44a2-9457-0460348a89dd/"><div>Site Reliability Engineer</div><div class="cmp">Baku</div></a><a class="card" href="../lv-xsolla-18a833bd-aedd-4dae-a296-e15d8bb0f230/"><div>CMO/VP of Marketing - Japan</div><div class="cmp">Tokyo</div></a><a class="card" href="../lv-xsolla-4889d04f-0e77-4cdb-8724-fd3a63009f7f/"><div>Head of Fund Analytics &amp; Automation — Credit Fund</div><div class="cmp">United States</div></a>
 
 <footer>
   Вакансии собираются автоматически с карьерных страниц игровых студий.
