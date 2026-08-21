@@ -338,6 +338,13 @@
     color:var(--amber);border-radius:999px;font-family:var(--mono);font-size:11.5px;
     padding:3px 10px;margin-left:10px;vertical-align:middle;letter-spacing:.01em}
 
+  .consent{position:fixed;left:14px;right:14px;bottom:14px;z-index:55;max-width:580px;
+    margin:0 auto;background:var(--panel);border:1px solid var(--line);border-radius:12px;
+    padding:12px 14px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+    font-size:12.5px;color:var(--muted);box-shadow:0 12px 34px var(--shadow)}
+  .consent span{flex:1;min-width:210px;line-height:1.5}
+  .consent .btn{width:auto;padding:8px 15px;font-size:13px}
+  .consent a{color:var(--cyan)}
   .toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);z-index:60;
     background:var(--panel);border:1px solid var(--line);border-radius:11px;
     padding:11px 15px;display:flex;align-items:center;gap:14px;font-size:13.5px;
@@ -585,6 +592,10 @@
       <a href="/about/" id="footAbout">Покрытие базы</a>
       &nbsp;·&nbsp;
       <a href="/privacy/" id="footPrivacyLink">Приватность</a>
+      &nbsp;·&nbsp;
+      <a href="/terms/" id="footTerms">Условия</a>
+      &nbsp;·&nbsp;
+      <a href="#" id="footStats">Настройки аналитики</a>
       &nbsp;·&nbsp;
       <a href="#" id="footAddStudio">Добавить студию</a>
       &nbsp;·&nbsp;
@@ -1114,7 +1125,10 @@
       searchLabel:"Поиск вакансий",
       jobWord:"Вакансия", jobPage:"Отдельная страница этой вакансии →",
       allJobs:"Все вакансии", remoteJobs:"Удалённая работа",
-      aboutPage:"Покрытие базы", privacyPage:"Приватность",
+      aboutPage:"Покрытие базы", privacyPage:"Приватность", termsPage:"Условия",
+      consentText:"Считаем посещения через Яндекс.Метрику, чтобы понимать, какие части сайта полезны. Резюме и отклики LOOTWORK не собирает.",
+      consentYes:"Разрешить аналитику", consentNo:"Без аналитики",
+      consentMore:"Подробнее о приватности", statsSettings:"Настройки аналитики",
       company:"Компания", location:"Локация", any:"Любые", month:"За месяц",
       findCompany:"Найти компанию…", findLoc:"Страна или город",
       clear:"Очистить", show:"Показать", nothingShort:"Ничего не найдено",
@@ -1187,7 +1201,10 @@
       searchLabel:"Search jobs",
       jobWord:"Job", jobPage:"Open this job on its own page →",
       allJobs:"All jobs", remoteJobs:"Remote work",
-      aboutPage:"Coverage", privacyPage:"Privacy",
+      aboutPage:"Coverage", privacyPage:"Privacy", termsPage:"Terms",
+      consentText:"We use Yandex.Metrica to count visits and see which parts of the site are useful. LOOTWORK never collects CVs or applications.",
+      consentYes:"Allow analytics", consentNo:"No analytics",
+      consentMore:"More about privacy", statsSettings:"Analytics settings",
       company:"Company", location:"Location", any:"Any", month:"This month",
       findCompany:"Find a company…", findLoc:"Country or city",
       clear:"Clear", show:"Show", nothingShort:"Nothing found",
@@ -1277,6 +1294,8 @@
     if ($("markSync")) $("markSync").textContent = t("markSync");
     $("footAbout").textContent = t("aboutPage");
     $("footPrivacyLink").textContent = t("privacyPage");
+    $("footTerms").textContent = t("termsPage");
+    $("footStats").textContent = t("statsSettings");
     document.querySelectorAll(".close").forEach(b => b.setAttribute("aria-label", t("closeWord")));
     if ($("fbContactTitle")) $("fbContactTitle").textContent = t("fbContact");
     if ($("fbContactHint")) $("fbContactHint").textContent = t("fbContactHint");
@@ -2912,6 +2931,13 @@
     }).catch(() => {});
   });
 
+  $("footStats").addEventListener("click", e => {
+    e.preventDefault();
+    askConsent(true);           // показать выбор заново, даже если он уже сделан
+    const bar = document.querySelector(".consent");
+    if (bar && bar.scrollIntoView) bar.scrollIntoView({ block:"nearest" });
+  });
+
   $("shareBtn").addEventListener("click", onShare);
   $("moreBtn").addEventListener("click", () => { shownCount += PAGE; renderList(); });
   $("jobFav").addEventListener("click", () => {
@@ -3129,13 +3155,46 @@
 
   $("demoNote").hidden = !IS_DEMO;
 
-  // Яндекс.Метрика — считает визиты и время на сайте
-  if (CFG.metrikaId){
+  // Счётчик посещений запускаем только после согласия. Пока человек не ответил,
+  // никаких сторонних скриптов на странице нет.
+  function startMetrika(){
+    if (!CFG.metrikaId || window.ym) return;
     (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
     k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
     (window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym");
     window.ym(CFG.metrikaId,"init",{clickmap:true,trackLinks:true,accurateTrackBounce:true});
   }
+
+  function askConsent(again){
+    let choice = null;
+    try { choice = store.getItem("stats"); } catch(e){}
+    if (!again && choice === "yes"){ startMetrika(); return; }
+    if (!again && choice === "no") return;
+    if (document.querySelector(".consent")) return;
+
+    // Плашка узкая и внизу, а не поверх содержимого: перекрывать вакансии
+    // ради вопроса про счётчик — плохой размен.
+    const bar = document.createElement("div");
+    bar.className = "consent";
+    bar.innerHTML = '<span><span id="consentText"></span> ' +
+      '<a href="/privacy/" id="consentMore"></a></span>' +
+      '<button class="btn" id="consentNo"></button>' +
+      '<button class="btn" id="consentYes"></button>';
+    document.body.appendChild(bar);
+    $("consentText").textContent = t("consentText");
+    $("consentMore").textContent = t("consentMore");
+    $("consentNo").textContent = t("consentNo");
+    $("consentYes").textContent = t("consentYes");
+
+    const answer = value => {
+      try { store.setItem("stats", value); } catch(e){}
+      if (value === "yes") startMetrika();
+      bar.remove();
+    };
+    $("consentYes").addEventListener("click", () => answer("yes"));
+    $("consentNo").addEventListener("click", () => answer("no"));
+  }
+  askConsent();
 
   applyTheme();
   urlToState();
