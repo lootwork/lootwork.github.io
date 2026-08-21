@@ -1,9 +1,9 @@
 {
   "date": "2026-08-21",
-  "jobs": 819,
-  "studios": 39,
-  "withSalary": 111,
-  "remote": 184,
+  "jobs": 1076,
+  "studios": 63,
+  "withSalary": 138,
+  "remote": 244,
   "dropped": 0,
   "failedSources": 0,
   "reusedSources": 0,
@@ -13,6 +13,7 @@
     "greenhouse",
     "lever",
     "recruitee",
+    "smartrecruiters",
     "workable"
   ]
 }
