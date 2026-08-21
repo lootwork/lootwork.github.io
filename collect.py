@@ -1743,15 +1743,126 @@ ATS_PATTERNS = [
 SKIP_TOKENS = {"www", "apply", "jobs", "careers", "api", "embed", "job", "boards"}
 
 
-def detect(url: str):
-    """Смотрим страницу карьеры и вытаскиваем систему найма с адресом студии."""
-    print(f"Смотрю {url}")
-    try:
-        r = http_get(url, tries=2)
-        html = r.text
-    except Exception as e:
-        print(f"  не открылась: {str(e)[:70]}")
+# Куда студии обычно кладут вакансии. Если дали просто домен, обойдём эти пути.
+CAREER_PATHS = ["/careers", "/careers/", "/jobs", "/jobs/", "/career", "/company/careers",
+                "/about/careers", "/en/careers", "/join-us", "/work-with-us", "/"]
+
+
+def token_guesses(name: str, site: str):
+    """Многие студии рисуют страницу карьеры скриптом, и ссылки на доску
+    в исходнике не видно. Но адрес доски почти всегда собран из имени студии,
+    поэтому проще постучаться напрямую и посмотреть, кто ответит."""
+    base = re.sub(r"^https?://(www\.)?", "", site).split("/")[0].split(".")[0]
+    words = re.sub(r"[^a-zA-Z0-9 ]", " ", name).split()
+    plain = "".join(w.lower() for w in words)
+    hyphen = "-".join(w.lower() for w in words)
+    pascal = "".join(w.capitalize() for w in words)
+
+    out = []
+    for c in [base, plain, hyphen, pascal, base.capitalize(), plain + "careers", base + "jobs"]:
+        if c and c not in out:
+            out.append(c)
+    return out[:6]
+
+
+def guess_many(source: str):
+    """Перебор: для каждой студии пробуем несколько вариантов адреса
+    в каждой системе найма. Долго, но находит тех, кого не видно со страницы."""
+    from pathlib import Path as _P
+    f = _P(source)
+    lines = f.read_text(encoding="utf-8").splitlines() if f.exists() else [source]
+
+    found = []
+    for line in lines:
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        name, _, site = line.rpartition("|")
+        site = (site or line).strip()
+        name = name.strip() or site.split(".")[0].title()
+
+        hit = None
+        for token in token_guesses(name, site):
+            for ats in ("greenhouse", "lever", "ashby", "workable", "recruitee"):
+                try:
+                    jobs = FETCHERS[ats]({"name": "проверка", "token": token, "site": ""})
+                except Exception:
+                    continue
+                if jobs:
+                    hit = {"name": name, "ats": ats, "token": token,
+                           "site": site, "enabled": True}
+                    print(f"  OK   {name:<26} {ats}/{token} — вакансий: {len(jobs)}")
+                    break
+            if hit:
+                break
+        if not hit:
+            print(f"  нет  {name}")
+        else:
+            found.append(hit)
+        time.sleep(PAUSE / 3)
+
+    print("\n" + "=" * 60)
+    print(f"Угадано студий: {len(found)}. Строки для companies.json:\n")
+    for row in found:
+        print("  " + json.dumps(row, ensure_ascii=False) + ",")
+
+
+def detect_many(source: str):
+    """Разбираем список: строка с доменами или файл, по строке на студию.
+    Так за один запуск можно проверить сотню студий вместо одной."""
+    from pathlib import Path as _P
+    items = []
+    f = _P(source)
+    if f.exists():
+        items = [l.strip() for l in f.read_text(encoding="utf-8").splitlines()]
+    else:
+        items = [source]
+
+    found = []
+    for line in items:
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        # строка вида «Название | домен» или просто домен
+        name, _, site = line.rpartition("|")
+        site = (site or line).strip()
+        name = name.strip() or site.split("/")[0].replace("www.", "").split(".")[0].title()
+        got = detect(site, name, quiet=True)
+        found.extend(got)
+        time.sleep(PAUSE)
+
+    print("\n" + "=" * 60)
+    if not found:
+        print("Ничего не нашлось.")
         return
+    print(f"Нашлось студий: {len(found)}. Строки для companies.json:\n")
+    for row in found:
+        print("  " + json.dumps(row, ensure_ascii=False) + ",")
+
+
+def detect(url: str, name: str = "СТУДИЯ", quiet: bool = False):
+    """Смотрим страницу карьеры и вытаскиваем систему найма с адресом студии."""
+    if not url.startswith("http"):
+        url = "https://" + url.strip("/")
+    if not quiet:
+        print(f"Смотрю {url}")
+
+    # Пробуем несколько привычных адресов: /careers, /jobs и так далее.
+    base = url.rstrip("/")
+    pages, html = [base] if base.count("/") > 2 else [base + p for p in CAREER_PATHS], ""
+    for page in pages:
+        try:
+            r = http_get(page, tries=1, timeout=12)
+            if r.status_code < 400 and r.text:
+                html += r.text
+                if re.search(r"greenhouse|lever\.co|ashbyhq|workable|recruitee|smartrecruiters",
+                             r.text, re.I):
+                    break
+        except Exception:
+            continue
+    if not html:
+        print(f"  {name}: не открылась")
+        return []
 
     found, seen = [], set()
     for ats, pattern in ATS_PATTERNS:
@@ -1763,21 +1874,25 @@ def detect(url: str):
             found.append((ats, token))
 
     if not found:
-        print("  ничего не нашлось — похоже, своя система найма")
-        return
+        print(f"  {name}: своя система найма или ничего не найдено")
+        return []
 
+    rows = []
     for ats, token in found:
         probe = {"name": "проверка", "token": token, "site": ""}
         try:
             jobs = FETCHERS[ats](probe)
-            mark = "OK " if jobs else "пусто"
-            print(f'  {mark} {ats}/{token} — вакансий: {len(jobs)}')
             if jobs:
-                print(f'    {{"name": "СТУДИЯ", "ats": "{ats}", "token": "{token}", '
-                      f'"site": "", "enabled": true}},')
+                print(f'  OK   {name:<26} {ats}/{token} — вакансий: {len(jobs)}')
+                rows.append({"name": name, "ats": ats, "token": token,
+                             "site": re.sub(r"^https?://(www\.)?", "", url).split("/")[0],
+                             "enabled": True})
+            else:
+                print(f'  пусто {name:<26} {ats}/{token}')
         except Exception as e:
-            print(f"  нет  {ats}/{token} — {str(e)[:60]}")
-        time.sleep(PAUSE)
+            print(f"  нет   {name:<26} {ats}/{token} — {str(e)[:45]}")
+        time.sleep(PAUSE / 2)
+    return rows
 
 
 def main():
@@ -1786,8 +1901,10 @@ def main():
                     help="только проверить доски студий, ничего не записывать")
     ap.add_argument("--all", action="store_true",
                     help="при проверке брать и выключенных кандидатов тоже")
-    ap.add_argument("--detect", metavar="URL",
-                    help="найти систему найма по странице карьеры студии")
+    ap.add_argument("--detect", metavar="URL_ИЛИ_ФАЙЛ",
+                    help="найти систему найма: адрес студии или файл со списком")
+    ap.add_argument("--guess", metavar="ФАЙЛ",
+                    help="перебрать вероятные адреса досок для списка студий")
     ap.add_argument("--no-verify", action="store_true",
                     help="пропустить проверку живости ссылок (быстрее)")
     args = ap.parse_args()
@@ -1796,7 +1913,11 @@ def main():
         sys.exit(f"Нет файла {COMPANIES.name} — заполни список студий.")
 
     if args.detect:
-        detect(args.detect)
+        detect_many(args.detect)
+        return
+
+    if args.guess:
+        guess_many(args.guess)
         return
 
     companies = json.loads(COMPANIES.read_text(encoding="utf-8"))

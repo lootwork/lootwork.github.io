@@ -323,5 +323,201 @@
     "token": "spcareers",
     "site": "socialpoint.es",
     "enabled": true
+  },
+  {
+    "name": "CD Projekt Red",
+    "ats": "smartrecruiters",
+    "token": "CDPROJEKTRED",
+    "site": "cdprojektred.com",
+    "enabled": true
+  },
+  {
+    "name": "People Can Fly",
+    "ats": "smartrecruiters",
+    "token": "PeopleCanFly",
+    "site": "peoplecanfly.com",
+    "enabled": true
+  },
+  {
+    "name": "Jagex",
+    "ats": "workable",
+    "token": "jagex-limited",
+    "site": "jagex.com",
+    "enabled": true
+  },
+  {
+    "name": "Bigger Games",
+    "ats": "ashby",
+    "token": "biggergames",
+    "site": "biggergames.com",
+    "enabled": true
+  },
+  {
+    "name": "Kolibri Games",
+    "ats": "lever",
+    "token": "kolibrigames",
+    "site": "kolibrigames.com",
+    "enabled": true
+  },
+  {
+    "name": "Gameloft",
+    "ats": "smartrecruiters",
+    "token": "Gameloft",
+    "site": "gameloft.com",
+    "enabled": true
+  },
+  {
+    "name": "Digital Extremes",
+    "ats": "greenhouse",
+    "token": "digitalextremes",
+    "site": "digitalextremes.com",
+    "enabled": true
+  },
+  {
+    "name": "Bonfire Studios",
+    "ats": "greenhouse",
+    "token": "bonfirestudiosinc",
+    "site": "bonfirestudios.com",
+    "enabled": true
+  },
+  {
+    "name": "Second Dinner",
+    "ats": "ashby",
+    "token": "SecondDinner",
+    "site": "seconddinner.com",
+    "enabled": true
+  },
+  {
+    "name": "Jam City",
+    "ats": "lever",
+    "token": "jamcity",
+    "site": "jamcity.com",
+    "enabled": true
+  },
+  {
+    "name": "Homa Games",
+    "ats": "workable",
+    "token": "homa-games",
+    "site": "homagames.com",
+    "enabled": true
+  },
+  {
+    "name": "Small Giant Games",
+    "ats": "greenhouse",
+    "token": "sggcareers",
+    "site": "smallgiantgames.com",
+    "enabled": true
+  },
+  {
+    "name": "Krafton",
+    "ats": "greenhouse",
+    "token": "krafton",
+    "site": "krafton.com",
+    "enabled": true
+  },
+  {
+    "name": "Peak Games",
+    "ats": "greenhouse",
+    "token": "peak",
+    "site": "peak.com",
+    "enabled": true
+  },
+  {
+    "name": "Rebellion",
+    "ats": "workable",
+    "token": "rebellion",
+    "site": "rebellion.com",
+    "enabled": true
+  },
+  {
+    "name": "Behaviour Interactive",
+    "ats": "lever",
+    "token": "bhvr",
+    "site": "bhvr.com",
+    "enabled": true
+  },
+  {
+    "name": "Moon Active",
+    "ats": "ashby",
+    "token": "moonactive",
+    "site": "moonactive.com",
+    "enabled": true
+  },
+  {
+    "name": "Good Job Games",
+    "ats": "greenhouse",
+    "token": "goodjobgames",
+    "site": "goodjobgames.com",
+    "enabled": true
+  },
+  {
+    "name": "Kabam",
+    "ats": "lever",
+    "token": "kabam",
+    "site": "kabam.com",
+    "enabled": true
+  },
+  {
+    "name": "Dream Games",
+    "ats": "lever",
+    "token": "dreamgames",
+    "site": "dreamgames.com",
+    "enabled": true
+  },
+  {
+    "name": "Hutch Games",
+    "ats": "workable",
+    "token": "hutch",
+    "site": "hutch.io",
+    "enabled": true
+  },
+  {
+    "name": "Tactile Games",
+    "ats": "greenhouse",
+    "token": "tactilegames",
+    "site": "tactilegames.com",
+    "enabled": true
+  },
+  {
+    "name": "Skybox Labs",
+    "ats": "lever",
+    "token": "skyboxlabs",
+    "site": "skyboxlabs.com",
+    "enabled": true
+  },
+  {
+    "name": "Playrix",
+    "ats": "recruitee",
+    "token": "playrix",
+    "site": "playrix.com",
+    "enabled": true
+  },
+  {
+    "name": "Firesprite",
+    "ats": "greenhouse",
+    "token": "firesprite",
+    "site": "firesprite.com",
+    "enabled": true
+  },
+  {
+    "name": "Klang Games",
+    "ats": "greenhouse",
+    "token": "klanggames",
+    "site": "klang-games.com",
+    "enabled": true
+  },
+  {
+    "name": "Theorycraft Games",
+    "ats": "lever",
+    "token": "theorycraftgames",
+    "site": "theorycraftgames.com",
+    "enabled": true
+  },
+  {
+    "name": "Focus Entertainment",
+    "ats": "recruitee",
+    "token": "focusentertainment",
+    "site": "focus-entmt.com",
+    "enabled": true
   }
 ]

@@ -1,0 +1,53 @@
+# Второй заход: студии СНГ и восточной Европы, плюс те, кого стоит перепроверить.
+# Playrix уже нашёлся через свою доску, значит закрытый hh — не приговор.
+# Запуск:  python collect.py --guess studios-ru.txt
+
+Lesta Games | lesta.ru
+Owlcat Games | owlcat.games
+Nexters | nexters.com
+GDEV | gdev.inc
+Cubic Games | cubicgames.com
+MY.GAMES | my.games
+Astrum Entertainment | astrum.io
+Zeptolab | zeptolab.com
+Playgendary | playgendary.com
+Belka Games | belka-games.com
+Kefir Games | kefirgames.ru
+Melsoft | melsoft-games.com
+AppQuantum | appquantum.io
+Azur Games | azurgames.io
+SayGames | saygames.by
+IT Territory | itterritory.com
+Whisper Games | whisper.games
+Herocraft | herocraft.com
+Alawar | alawar.com
+Nekki | nekki.com
+Pixonic | pixonic.com
+Playgendary Limited | playgendary.co
+Fntastic | fntastic.com
+Mundfish | mundfish.com
+Sperasoft | sperasoft.com
+Room 8 Studio | room8studio.com
+Wargaming Cyprus | wargaming.net
+Ubisoft Ukraine | ubisoft.com.ua
+Gameloft Kharkiv | gameloft.ua
+Playtech | playtech.com
+Evoplay | evoplay.games
+Gamedev House | gamedevhouse.com
+Ilyon | ilyon.co
+Papaya | papaya.co
+Crazy Labs | crazylabs.co
+Zynga | zynga.com
+Wildlife Studios | wildlifestudios.com
+Tapnation | tap-nation.io
+Ducky | ducky.gg
+Lion Studios | lionstudios.cc
+AppLovin | applovin.com
+Miniclip | miniclip.com
+Zimad | zimad.com
+Nordeus Belgrade | nordeus.com
+Ubisoft Belgrade | ubisoft.rs
+Eipix | eipix.com
+Playstudios Europe | playstudios.rs
+3Lateral | 3lateral.com
+Take Two Serbia | take2games.rs
