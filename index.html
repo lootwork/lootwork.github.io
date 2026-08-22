@@ -953,6 +953,180 @@
     return HEAD_WORDS.test(clean);
   }
 
+  // Заголовки разделов внутри вакансии переведены вручную: их немного,
+  // они повторяются из вакансии в вакансию и не меняются со временем.
+  // Сам текст остаётся на языке оригинала — его миллионы знаков.
+  const HEAD_RU = {
+    "what we don't expect":"Чего мы не ждём",
+    "what we don’t expect":"Чего мы не ждём",
+    "will be a plus":"Будет плюсом",
+    "would be a plus":"Будет плюсом",
+    "what we offer you":"Что мы предлагаем",
+    "do twoich zadań będzie należało":"Что предстоит делать",
+    "wymagania":"Требования",
+    "oferujemy":"Что мы предлагаем",
+    "mile widziane":"Будет плюсом",
+    "o nas":"О нас",
+    "about the job":"О вакансии",
+    "in this role you will":"В этой роли вы будете",
+    "you will":"Вам предстоит",
+    "your experience":"Ваш опыт",
+    "desired skills":"Желательные навыки",
+    "skills, knowledge and expertise":"Навыки и опыт",
+    "required skills, knowledge, and expertise":"Обязательные навыки и опыт",
+    "required qualifications, knowledge, and job-related skills":"Обязательные требования и навыки",
+    "required":"Обязательно",
+    "preferred":"Желательно",
+    "must-have":"Обязательно",
+    "nice-to-have":"Будет плюсом",
+    "nice to haves":"Будет плюсом",
+    "nice to have (not required)":"Будет плюсом, но не обязательно",
+    "bonus items":"Дополнительный плюс",
+    "we are a match if you":"Мы подойдём друг другу, если вы",
+    "to complement our team, you should be":"Чтобы дополнить команду, вы должны",
+    "what we're looking for":"Кого мы ищем",
+    "what we’re looking for":"Кого мы ищем",
+    "what we are looking for":"Кого мы ищем",
+    "currently we are looking for":"Сейчас мы ищем",
+    "responsibilities at this position":"Обязанности на этой позиции",
+    "responsibilities - what you'll be doing…":"Обязанности",
+    "responsibilities - what you’ll be doing…":"Обязанности",
+    "how will you make an impact with us":"Как вы повлияете на результат",
+    "what success looks like":"Как выглядит успех в этой роли",
+    "what sets us apart":"Чем мы отличаемся",
+    "we are game makers":"Мы делаем игры",
+    "about the team":"О команде",
+    "personal well-being":"Забота о сотрудниках",
+    "personal development":"Развитие и обучение",
+    "relocation support":"Помощь с переездом",
+    "strategic leadership":"Стратегическое руководство",
+    "performance optimization":"Оптимизация производительности",
+    "team & collaboration":"Команда и взаимодействие",
+    "operational excellence":"Операционная эффективность",
+    "planning & delivery":"Планирование и сроки",
+    "what would we like to see in your portfolio":"Что хотим увидеть в портфолио",
+    "profil recherché":"Кого мы ищем",
+    "ce que nous proposons":"Что мы предлагаем",
+    "compétences appréciées":"Будет плюсом",
+    "missions":"Задачи",
+    "le poste":"О вакансии",
+    "responsibilities":"Обязанности",
+    "key responsibilities":"Основные обязанности",
+    "duties and responsibilities":"Обязанности",
+    "your responsibilities":"Ваши обязанности",
+    "your responsibilities may include":"Что предстоит делать",
+    "what you will do":"Что предстоит делать",
+    "what you'll do":"Что предстоит делать",
+    "what you’ll do":"Что предстоит делать",
+    "what will you do":"Что предстоит делать",
+    "what you'll be doing":"Что предстоит делать",
+    "what you’ll be doing":"Что предстоит делать",
+    "what we'll do together":"Чем будем заниматься вместе",
+    "what we’ll do together":"Чем будем заниматься вместе",
+    "the role":"О роли",
+    "role":"Роль",
+    "role overview":"О роли",
+    "about the role":"О роли",
+    "job overview":"О вакансии",
+    "overview":"Кратко",
+    "objectives":"Задачи",
+    "what is this job all about":"В чём суть работы",
+    "requirements":"Требования",
+    "qualifications":"Требования",
+    "qualifications & skills":"Требования и навыки",
+    "qualifications and skills":"Требования и навыки",
+    "required skills, knowledge and expertise":"Обязательные навыки и опыт",
+    "essential skills, attributes and experience":"Обязательные навыки и опыт",
+    "skills & experiences":"Навыки и опыт",
+    "skills and experience":"Навыки и опыт",
+    "what we need":"Что нам нужно",
+    "what are we looking for":"Кого мы ищем",
+    "what we are looking for":"Кого мы ищем",
+    "who we are looking for":"Кого мы ищем",
+    "what you have":"Что у вас должно быть",
+    "what you bring":"Что вы приносите",
+    "who you are":"Кто вы",
+    "about you":"О вас",
+    "profile":"Профиль кандидата",
+    "your profile":"Профиль кандидата",
+    "preferred qualifications":"Будет плюсом",
+    "beneficial qualifications":"Будет плюсом",
+    "nice to have":"Будет плюсом",
+    "would be nice if you also have":"Будет плюсом",
+    "highly desirable":"Очень желательно",
+    "bonus points":"Дополнительный плюс",
+    "what additional skills will help you stand out":"Что поможет выделиться",
+    "what will make you a great fit":"Кто нам подойдёт",
+    "who will be a great fit":"Кто нам подойдёт",
+    "who we think will be a great fit":"Кто нам подойдёт",
+    "we are a match, if you":"Мы подойдём друг другу, если вы",
+    "benefits":"Условия и льготы",
+    "benefits and compensation":"Условия и оплата",
+    "what we offer":"Что мы предлагаем",
+    "what we offer you":"Что мы предлагаем",
+    "what you can expect from us":"Что вы получите от нас",
+    "compensation":"Оплата",
+    "salary":"Зарплата",
+    "perks":"Бонусы",
+    "perks and benefits":"Бонусы и льготы",
+    "work mode":"Формат работы",
+    "where you'll be":"Где предстоит работать",
+    "where you’ll be":"Где предстоит работать",
+    "location":"Локация",
+    "about us":"О нас",
+    "who we are":"Кто мы",
+    "who are we":"Кто мы",
+    "team":"Команда",
+    "the team":"Команда",
+    "our team":"Наша команда",
+    "who you'll work with":"С кем предстоит работать",
+    "who you’ll work with":"С кем предстоит работать",
+    "about the project":"О проекте",
+    "the project":"О проекте",
+    "our stack":"Наш стек",
+    "stack":"Стек",
+    "tools":"Инструменты",
+    "how to apply":"Как откликнуться",
+    "application process":"Как проходит отбор",
+    "hiring process":"Как проходит отбор",
+    "interview process":"Этапы собеседования",
+    "next steps":"Дальнейшие шаги",
+    "why you'll love working here":"Почему у нас хорошо",
+    "why you’ll love working here":"Почему у нас хорошо",
+    "the difference you'll make":"Что изменится благодаря вам",
+    "the difference you’ll make":"Что изменится благодаря вам",
+    "good to know":"Полезно знать",
+    "equal employment opportunity statement":"О равных возможностях при найме",
+    "equal opportunity":"О равных возможностях",
+    "diversity and inclusion":"О разнообразии и равенстве",
+    "criminal history consideration":"Об учёте судимостей",
+    "rights under the fair chance act":"Права по Fair Chance Act",
+    "relevance to job responsibilities":"Связь с обязанностями",
+    "for candidates located in quebec":"Для кандидатов из Квебека",
+    "reports to":"Кому подчиняется",
+    "employment type":"Тип занятости",
+    "seniority":"Уровень",
+    "responsabilités":"Обязанности",
+    "profil":"Профиль кандидата",
+    "avantages":"Условия и льготы",
+    "notre stack":"Наш стек"
+  };
+
+  function headLabel(text){
+    if (lang !== "ru") return text;
+    const key = String(text).toLowerCase().replace(/[:?!.]+$/, "").replace(/\s+/g, " ").trim();
+    if (HEAD_RU[key]) return HEAD_RU[key];
+    // «About Wargaming», «About Supercell» — таких столько же, сколько студий
+    const about = key.match(/^about (?:the )?(.+)$/);
+    if (about) return "О " + text.replace(/^about (the )?/i, "");
+    const working = key.match(/^working at (.+)$/);
+    if (working) return "Работа в " + text.replace(/^working at /i, "");
+    // «The role is working within our studio: Belka Games» — так пишет Tripledot
+    const studio = text.match(/^the role is working within our studio:\s*(.+)$/i);
+    if (studio) return "Работа в студии " + studio[1].trim();
+    return text;
+  }
+
   function descHtml(text){
     const lines = String(text || "").split("\n").map(l => l.trim());
     const out = [];
@@ -973,7 +1147,7 @@
       flush();
       const next = lines.slice(i + 1).find(Boolean);
       if (looksLikeHeading(line, next))
-        out.push("<h4>" + esc(line.replace(/:$/, "")) + "</h4>");
+        out.push("<h4>" + esc(headLabel(line.replace(/:$/, ""))) + "</h4>");
       else
         out.push("<p>" + esc(line) + "</p>");
     });
@@ -1082,7 +1256,7 @@
     old:     { label:"Сначала старые",       fn:(a,b)=> new Date(a.posted||0) - new Date(b.posted||0) },
     payhigh: { label:"Зарплата: больше",     fn:(a,b)=> cmpSalary(a,b, -1) },
     paylow:  { label:"Зарплата: меньше",     fn:(a,b)=> cmpSalary(a,b,  1) },
-    region:  { label:"По локации",           fn:(a,b)=> String((a.locations||[])[0]||"яя").localeCompare(String((b.locations||[])[0]||"яя"),"ru") },
+    region:  { label:"По локации",           fn:(a,b)=> placeLabel(String((a.locations||[])[0]||"яя")).localeCompare(placeLabel(String((b.locations||[])[0]||"яя")),"ru") },
     company: { label:"По компании",          fn:(a,b)=> String(a.company).localeCompare(String(b.company),"ru") }
   };
 
@@ -1745,13 +1919,100 @@
 
   // Если мест несколько — показываем два и счётчик остальных,
   // иначе строка расползается на три ряда.
+  // Города и страны студии пишут по-английски. В русской версии сайта
+  // «Warsaw, Poland» рядом с «Программирование» выглядит недоделкой,
+  // поэтому переводим по словарю. Чего в словаре нет — оставляем как есть.
+  const PLACE_RU = {
+    // страны
+    "poland":"Польша", "germany":"Германия", "france":"Франция", "spain":"Испания",
+    "italy":"Италия", "united kingdom":"Британия", "uk":"Британия", "england":"Англия",
+    "united states":"США", "usa":"США", "canada":"Канада", "sweden":"Швеция",
+    "finland":"Финляндия", "norway":"Норвегия", "denmark":"Дания",
+    "netherlands":"Нидерланды", "belgium":"Бельгия", "austria":"Австрия",
+    "switzerland":"Швейцария", "czech republic":"Чехия", "czechia":"Чехия",
+    "slovakia":"Словакия", "hungary":"Венгрия", "romania":"Румыния",
+    "bulgaria":"Болгария", "greece":"Греция", "portugal":"Португалия",
+    "ireland":"Ирландия", "serbia":"Сербия", "croatia":"Хорватия",
+    "slovenia":"Словения", "cyprus":"Кипр", "turkey":"Турция", "türkiye":"Турция",
+    "ukraine":"Украина", "russia":"Россия", "belarus":"Беларусь",
+    "kazakhstan":"Казахстан", "georgia":"Грузия", "armenia":"Армения",
+    "azerbaijan":"Азербайджан", "lithuania":"Литва", "latvia":"Латвия",
+    "estonia":"Эстония", "israel":"Израиль", "uae":"ОАЭ", "india":"Индия",
+    "china":"Китай", "japan":"Япония", "south korea":"Южная Корея",
+    "korea":"Южная Корея", "singapore":"Сингапур", "vietnam":"Вьетнам",
+    "malaysia":"Малайзия", "indonesia":"Индонезия", "philippines":"Филиппины",
+    "thailand":"Таиланд", "hong kong":"Гонконг", "taiwan":"Тайвань",
+    "australia":"Австралия", "new zealand":"Новая Зеландия", "brazil":"Бразилия",
+    "mexico":"Мексика", "argentina":"Аргентина", "chile":"Чили", "malta":"Мальта",
+    "cis":"СНГ", "europe":"Европа", "iberia":"Иберия",
+    // города
+    "paris":"Париж", "kraków":"Краков", "krakow":"Краков", "warsaw":"Варшава",
+    "warszawa":"Варшава", "wrocław":"Вроцлав", "wroclaw":"Вроцлав",
+    "gdansk":"Гданьск", "poznan":"Познань",
+    "berlin":"Берлин", "hamburg":"Гамбург", "munich":"Мюнхен",
+    "frankfurt":"Франкфурт", "cologne":"Кёльн",
+    "london":"Лондон", "brighton":"Брайтон", "guildford":"Гилфорд",
+    "manchester":"Манчестер", "cambridge":"Кембридж", "oxford":"Оксфорд",
+    "dublin":"Дублин", "amsterdam":"Амстердам", "eindhoven":"Эйндховен",
+    "gent":"Гент", "ghent":"Гент", "brussels":"Брюссель",
+    "barcelona":"Барселона", "madrid":"Мадрид", "valencia":"Валенсия",
+    "lisboa":"Лиссабон", "lisbon":"Лиссабон", "milan":"Милан", "rome":"Рим",
+    "stockholm":"Стокгольм", "malmö":"Мальмё", "gothenburg":"Гётеборг",
+    "helsinki":"Хельсинки", "espoo":"Эспоо", "tampere":"Тампере",
+    "oslo":"Осло", "copenhagen":"Копенгаген", "tallinn":"Таллин",
+    "vilnius":"Вильнюс", "riga":"Рига",
+    "prague":"Прага", "praha":"Прага", "brno":"Брно", "bratislava":"Братислава",
+    "budapest":"Будапешт", "bucharest":"Бухарест", "cluj":"Клуж",
+    "belgrade":"Белград", "novi sad":"Нови-Сад", "zagreb":"Загреб",
+    "ljubljana":"Любляна", "sofia":"София", "athens":"Афины",
+    "nicosia":"Никосия", "limassol":"Лимасол", "larnaca":"Ларнака",
+    "istanbul":"Стамбул", "ankara":"Анкара", "izmir":"Измир", "sarıyer":"Сарыер",
+    "kyiv":"Киев", "kiev":"Киев", "lviv":"Львов", "kharkiv":"Харьков",
+    "karkiv":"Харьков", "minsk":"Минск", "moscow":"Москва", "perm":"Пермь",
+    "vladivostok":"Владивосток", "novosibirsk":"Новосибирск", "kazan":"Казань",
+    "tbilisi":"Тбилиси", "tblisi":"Тбилиси", "batumi":"Батуми",
+    "yerevan":"Ереван", "baku":"Баку", "almaty":"Алматы", "astana":"Астана",
+    "tel aviv":"Тель-Авив", "raanana":"Раанана", "herzliya":"Герцлия",
+    "montreal":"Монреаль", "montréal":"Монреаль", "quebec":"Квебек",
+    "québec":"Квебек", "toronto":"Торонто", "vancouver":"Ванкувер",
+    "burnaby":"Бернаби", "ottawa":"Оттава",
+    "new york":"Нью-Йорк", "los angeles":"Лос-Анджелес",
+    "san francisco":"Сан-Франциско", "san mateo":"Сан-Матео",
+    "seattle":"Сиэтл", "austin":"Остин", "novato":"Новато", "cary":"Кэри",
+    "frisco":"Фриско", "dallas":"Даллас", "chicago":"Чикаго", "boston":"Бостон",
+    "shanghai":"Шанхай", "beijing":"Пекин", "shenzhen":"Шэньчжэнь",
+    "guangzhou":"Гуанчжоу", "tokyo":"Токио", "osaka":"Осака",
+    "seoul":"Сеул", "bangalore":"Бангалор", "bengaluru":"Бангалор",
+    "hyderabad":"Хайдарабад", "pune":"Пуна", "mumbai":"Мумбаи",
+    "ho chi minh city":"Хошимин", "hanoi":"Ханой",
+    "kuala lumpur":"Куала-Лумпур", "jakarta":"Джакарта", "manila":"Манила",
+    "bangkok":"Бангкок", "sydney":"Сидней", "melbourne":"Мельбурн",
+    "brisbane":"Брисбен", "auckland":"Окленд",
+    "sao paulo":"Сан-Паулу", "são paulo":"Сан-Паулу", "buenos aires":"Буэнос-Айрес",
+    "mexico city":"Мехико"
+  };
+
+  function placeLabel(loc){
+    if (lang !== "ru") return loc;
+    // Место приходит как «Город, Страна» — переводим части по отдельности,
+    // иначе одна незнакомая часть оставила бы всю строку английской.
+    return String(loc).split(",")
+      .map(part => {
+        const clean = part.trim();
+        return PLACE_RU[clean.toLowerCase()] || clean;
+      })
+      .filter(Boolean)
+      .join(", ");
+  }
+
   function placeHtml(j){
     const l = j.locations || [];
     // Если города нет, а метка удалёнки и так стоит ниже — второй раз не пишем.
     if (!l.length) return "";
-    let text = l.slice(0, 2).join("  ·  ");
-    if (l.length > 2) text += " +" + (l.length - 2);
-    return ' <span class="place" title="'+esc(l.join(", "))+'">'+esc(text)+'</span>';
+    const ru = l.map(placeLabel);
+    let text = ru.slice(0, 2).join("  ·  ");
+    if (ru.length > 2) text += " +" + (ru.length - 2);
+    return ' <span class="place" title="'+esc(ru.join(", "))+'">'+hi(text)+'</span>';
   }
 
   // Логотип студии берём с её же сайта. Если сайта нет или иконка не отдалась —
@@ -2313,7 +2574,7 @@
     state.rkind.forEach(v => add(rkindLabel(v), () => state.rkind.delete(v)));
     state.grade.forEach(v => add(gradeLabel(v), () => state.grade.delete(v)));
     state.company.forEach(v => add(v, () => state.company.delete(v)));
-    state.location.forEach(v => add(v, () => state.location.delete(v)));
+    state.location.forEach(v => add(placeLabel(v), () => state.location.delete(v)));
     if (state.age) add(state.age === 7 ? t("week") : t("month"), () => state.age = null);
     if (state.remote) add(t("remote"), () => state.remote = false);
     if (state.salary) add(t("withSalary"), () => state.salary = false);
@@ -2504,7 +2765,7 @@
         row.setAttribute("role", "checkbox");
         row.setAttribute("aria-checked", on ? "true" : "false");
         row.className = "opt" + (on ? " on" : "");
-        row.innerHTML = '<div class="box">'+(on?"✓":"")+'</div><div>'+esc(loc)+
+        row.innerHTML = '<div class="box">'+(on?"✓":"")+'</div><div>'+esc(placeLabel(loc))+
                         '</div><div class="n">'+n+'</div>';
         row.addEventListener("click", () => {
           on ? draft.location.delete(loc) : draft.location.add(loc);
@@ -2605,7 +2866,7 @@
     reportJob = j; reportReason = null; reportWhen = null;
 
     $("reportRef").innerHTML = '<b>'+esc(j.title)+'</b><span>'+esc(j.company)+
-      ((j.locations||[]).length ? ' · '+esc(j.locations.join(", ")) : '')+'</span>';
+      ((j.locations||[]).length ? ' · '+esc(j.locations.map(placeLabel).join(", ")) : '')+'</span>';
 
     const rBox = $("reasons"); rBox.innerHTML = "";
     REASONS.forEach(([key,label]) => {
@@ -2749,7 +3010,7 @@
       logoHtml(j) +
       '<div class="meta">'+
         '<div class="cmp">'+esc(j.company)+'</div>'+
-        '<div class="row">'+esc((j.locations||[]).join("  ·  ") || t("noLoc"))+'</div>'+
+        '<div class="row">'+esc((j.locations||[]).map(placeLabel).join("  ·  ") || t("noLoc"))+'</div>'+
         '<div class="row">'+esc(tags.join("  ·  "))+'</div>'+
         (j.salary ? '<div class="pay">'+esc(j.salary)+'</div>' : '')+
       '</div>';
