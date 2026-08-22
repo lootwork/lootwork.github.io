@@ -575,6 +575,8 @@
     <div style="margin-top:10px">
       <a href="https://github.com/lootwork/lootwork.github.io" target="_blank" rel="noopener">GitHub</a>
       &nbsp;·&nbsp;
+      <a href="#" id="footTg" target="_blank" rel="noopener">Канал в Telegram</a>
+      &nbsp;·&nbsp;
       <a href="/jobs/" id="footAll">Все вакансии</a>
       &nbsp;·&nbsp;
       <a href="/role/programmirovanie/">Программирование</a>
@@ -1298,7 +1300,7 @@
       role:"Роль", grade:"Грейд", posted:"Когда опубликовано", terms:"Условия",
       searchLabel:"Поиск вакансий",
       jobWord:"Вакансия", jobPage:"Отдельная страница этой вакансии →",
-      allJobs:"Все вакансии", remoteJobs:"Удалённая работа",
+      allJobs:"Все вакансии", remoteJobs:"Удалённая работа", tgChannel:"Канал в Telegram",
       aboutPage:"Покрытие базы", privacyPage:"Приватность", termsPage:"Условия",
       consentText:"Считаем посещения через Яндекс.Метрику, чтобы понимать, какие части сайта полезны. Резюме и отклики LOOTWORK не собирает.",
       consentYes:"Разрешить аналитику", consentNo:"Без аналитики",
@@ -1374,7 +1376,7 @@
       role:"Role", grade:"Level", posted:"Posted", terms:"Conditions",
       searchLabel:"Search jobs",
       jobWord:"Job", jobPage:"Open this job on its own page →",
-      allJobs:"All jobs", remoteJobs:"Remote work",
+      allJobs:"All jobs", remoteJobs:"Remote work", tgChannel:"Telegram channel",
       aboutPage:"Coverage", privacyPage:"Privacy", termsPage:"Terms",
       consentText:"We use Yandex.Metrica to count visits and see which parts of the site are useful. LOOTWORK never collects CVs or applications.",
       consentYes:"Allow analytics", consentNo:"No analytics",
@@ -1462,6 +1464,12 @@
     $("jobApply").textContent = t("applyOn");
     if (openJob) $("jobPage").textContent = t("jobPage");   // окно может быть открыто
     $("footAll").textContent = t("allJobs");
+    const tg = $("footTg");
+    tg.hidden = !CFG.telegram;
+    if (CFG.telegram){
+      tg.href = CFG.telegram;
+      tg.textContent = t("tgChannel");
+    }
     $("footRemote").textContent = t("remoteJobs");
     $("vertical").textContent = t("vertical");
     applyTheme();                 // подпись кнопки темы тоже переводится
@@ -3533,7 +3541,26 @@
     $("consentYes").addEventListener("click", () => answer("yes"));
     $("consentNo").addEventListener("click", () => answer("no"));
   }
-  askConsent();
+  // Не спрашиваем на пороге. Человек сначала смотрит вакансии, и только
+  // если задержался — показываем плашку. Тому, кто ушёл через пять секунд,
+  // вопрос про счётчик не нужен вовсе.
+  (function scheduleConsent(){
+    let choice = null;
+    try { choice = store.getItem("stats"); } catch(e){}
+    if (choice === "yes"){ startMetrika(); return; }
+    if (choice === "no") return;
+
+    let shown = false;
+    const show = () => {
+      if (shown) return;
+      shown = true;
+      askConsent();
+    };
+    setTimeout(show, 12000);                       // просто задержался
+    window.addEventListener("scroll", () => {      // или начал листать
+      if (window.scrollY > 500) show();
+    }, { passive: true });
+  })();
 
   applyTheme();
   urlToState();
