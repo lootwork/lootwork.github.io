@@ -23,6 +23,11 @@ jobs:
 
       - name: Собрать вакансии
         run: python collect.py
+        env:
+          # Ключ бота и адрес канала лежат в секретах репозитория,
+          # в коде их нет. Если секретов нет — постинг просто не работает.
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT: ${{ secrets.TELEGRAM_CHAT }}
 
       - name: Закоммитить обновление
         run: |
