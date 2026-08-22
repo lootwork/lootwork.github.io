@@ -34,6 +34,7 @@ COMPANIES = HERE / "companies.json"
 OUT_JS = HERE / "jobs.js"
 STATUS = HERE / "status.json"
 HISTORY = HERE / "history.json"
+POSTED = HERE / "posted.json"
 REPORT = HERE / "report.md"
 SITEMAP = HERE / "sitemap.xml"
 BLOCKLIST = HERE / "blocklist.json"   # сюда попадают id, снятые по жалобам
@@ -1071,6 +1072,7 @@ def write_js(jobs):
     print(f"\nЗаписано {len(jobs)} вакансий в {OUT_JS.name}")
     write_status(jobs, today, studios)
     write_history(jobs, today)
+    tg_post(jobs)
     location_report(jobs)
     urls = write_pages(jobs, today)
     write_sitemap(today, urls)
@@ -1166,6 +1168,100 @@ def write_history(jobs, today):
     data.append(snapshot(jobs, today))
     data = data[-400:]
     HISTORY.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+
+
+# ---------------------------------------------------------------- Telegram
+# Сайт человек может закрыть и забыть. Подписка — единственный способ
+# вернуться к нему завтра, поэтому новые вакансии уходят ещё и в канал.
+# Ключ бота и адрес канала лежат в секретах гитхаба, в коде их нет.
+
+RKIND_WORD = {"worldwide": "удалёнка по миру", "zone": "удалёнка в регионе",
+              "hybrid": "гибрид"}
+
+TG_TOKEN = os.environ.get("TELEGRAM_TOKEN", "").strip()
+TG_CHAT = os.environ.get("TELEGRAM_CHAT", "").strip()
+TG_LIMIT = 8          # больше восьми постов подряд — это уже спам в ленте
+
+
+def tg_escape(text) -> str:
+    return (str(text or "").replace("&", "&amp;")
+            .replace("<", "&lt;").replace(">", "&gt;"))
+
+
+def tg_message(j) -> str:
+    where = ", ".join(j.get("locations") or [])
+    if not where:
+        where = RKIND_WORD.get(j.get("rkind"), "удалёнка") if j.get("remote") else ""
+
+    lines = [f"<b>{tg_escape(j['title'])}</b>", tg_escape(j.get("company") or "")]
+    if where:
+        lines.append(tg_escape(where))
+
+    marks = []
+    if j.get("salary"):
+        marks.append(tg_escape(j["salary"]))
+    if j.get("rkind") or j.get("remote"):
+        marks.append(RKIND_WORD.get(j.get("rkind"), "удалёнка"))
+    for tag in [j.get("grade"), j.get("spec")]:
+        if tag:
+            marks.append(tg_escape(tag))
+    for tech in (j.get("stack") or [])[:3]:
+        marks.append(tg_escape(tech))
+    if marks:
+        lines.append("")
+        lines.append(" · ".join(marks))
+
+    lines.append("")
+    lines.append(f'<a href="{SITE}/job/{j["id"]}/">Подробнее</a> · '
+                 f'<a href="{tg_escape(j.get("url") or SITE)}">Откликнуться на сайте студии</a>')
+    return "\n".join(lines)
+
+
+def tg_post(jobs):
+    """Отправляем только те вакансии, которых не было вчера, и не больше
+    восьми за раз. Список отправленного храним, чтобы не повторяться."""
+    if not TG_TOKEN or not TG_CHAT:
+        return
+    try:
+        posted = set(json.loads(POSTED.read_text(encoding="utf-8")))
+    except Exception:
+        posted = set()
+
+    fresh = [j for j in jobs if j["id"] not in posted and not j.get("pool")]
+    fresh.sort(key=lambda j: (j.get("posted") or ""), reverse=True)
+
+    # Первый запуск: канал пустой, и вываливать в него тысячу вакансий нельзя.
+    # Просто запоминаем всё как отправленное и начинаем с завтрашних новинок.
+    if not posted:
+        POSTED.write_text(json.dumps([j["id"] for j in jobs]), encoding="utf-8")
+        print("Telegram: первый запуск, запомнил текущие вакансии — постить начну со следующих")
+        return
+
+    sent = 0
+    for j in fresh[:TG_LIMIT]:
+        try:
+            r = http_get("https://api.telegram.org/bot" + TG_TOKEN + "/sendMessage",
+                         tries=2, params={
+                             "chat_id": TG_CHAT,
+                             "text": tg_message(j),
+                             "parse_mode": "HTML",
+                             "disable_web_page_preview": "true",
+                         })
+            if r.status_code >= 400:
+                print(f"Telegram: не отправилось — {r.text[:120]}")
+                break
+            sent += 1
+            posted.add(j["id"])
+            time.sleep(3)       # Telegram не любит частые сообщения в канал
+        except Exception as e:
+            print(f"Telegram: ошибка — {str(e)[:80]}")
+            break
+
+    # Помним только живые вакансии, иначе список будет расти вечно
+    alive = {j["id"] for j in jobs}
+    posted = {i for i in posted if i in alive}
+    POSTED.write_text(json.dumps(sorted(posted)), encoding="utf-8")
+    print(f"Telegram: отправлено {sent}, новых всего {len(fresh)}")
 
 
 def write_status(jobs, today, studios):
@@ -1650,7 +1746,6 @@ def job_ld(j):
     return ld
 
 
-RKIND_WORD = {"worldwide": "удалёнка по миру", "zone": "удалёнка в регионе", "hybrid": "гибрид"}
 
 
 def job_page(j, same_company):
