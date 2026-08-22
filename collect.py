@@ -445,13 +445,38 @@ NOT_A_PLACE = re.compile(
     r"location flexible|worldwide|global|n/?a)$", re.I)
 
 
+# Двухбуквенные коды стран: SmartRecruiters пишет «ES - Barcelona, Spain»,
+# кто-то — «Warsaw, pl». Для фильтра это разные страны, хотя страна одна.
+ISO2 = {
+    "pl":"Poland", "de":"Germany", "fr":"France", "es":"Spain", "it":"Italy",
+    "gb":"United Kingdom", "uk":"United Kingdom", "us":"United States", "ca":"Canada",
+    "se":"Sweden", "fi":"Finland", "no":"Norway", "dk":"Denmark", "nl":"Netherlands",
+    "be":"Belgium", "at":"Austria", "ch":"Switzerland", "cz":"Czech Republic",
+    "sk":"Slovakia", "hu":"Hungary", "ro":"Romania", "bg":"Bulgaria", "gr":"Greece",
+    "pt":"Portugal", "ie":"Ireland", "rs":"Serbia", "hr":"Croatia", "si":"Slovenia",
+    "cy":"Cyprus", "tr":"Turkey", "ua":"Ukraine", "ru":"Russia", "by":"Belarus",
+    "kz":"Kazakhstan", "ge":"Georgia", "am":"Armenia", "az":"Azerbaijan",
+    "lt":"Lithuania", "lv":"Latvia", "ee":"Estonia", "il":"Israel", "ae":"UAE",
+    "in":"India", "cn":"China", "jp":"Japan", "kr":"South Korea", "sg":"Singapore",
+    "vn":"Vietnam", "my":"Malaysia", "id":"Indonesia", "ph":"Philippines",
+    "th":"Thailand", "hk":"Hong Kong", "tw":"Taiwan", "au":"Australia",
+    "nz":"New Zealand", "br":"Brazil", "mx":"Mexico", "ar":"Argentina", "cl":"Chile",
+}
+
+
 def normalize_place(part: str) -> str:
     """«London, UK» → «London, United Kingdom», «Singapore-Guoco Midtown» → «Singapore»."""
     p = part.strip(" ,;·")
     if not p or NOT_A_PLACE.match(p):
         return ""
+    # «ES - Barcelona, Spain»: код страны спереди только мешает
+    p = re.sub(r"^[A-Z]{2}\s*[-–]\s*", "", p).strip()
     # адрес офиса после дефиса — это уже не город: «Singapore-Guoco Midtown»
     p = re.sub(r"^([A-Za-zА-Яа-яЁё\s]{3,})-[A-Za-z].*$", r"\1", p).strip()
+    # «Warsaw, pl» → «Warsaw, Poland»
+    m = re.match(r"^(.*),\s*([A-Za-z]{2})$", p)
+    if m and m.group(2).lower() in ISO2:
+        p = f"{m.group(1).strip()}, {ISO2[m.group(2).lower()]}"
     for pattern, full in COUNTRY_FIX:
         p = re.sub(pattern, full, p, flags=re.I)
     # «BLANK, Multiple Locations» — выкидываем куски-пустышки внутри строки
