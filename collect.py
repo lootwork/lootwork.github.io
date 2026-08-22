@@ -21,7 +21,7 @@ import re
 import shutil
 import sys
 import time
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 try:
@@ -33,6 +33,8 @@ HERE = Path(__file__).parent
 COMPANIES = HERE / "companies.json"
 OUT_JS = HERE / "jobs.js"
 STATUS = HERE / "status.json"
+HISTORY = HERE / "history.json"
+REPORT = HERE / "report.md"
 SITEMAP = HERE / "sitemap.xml"
 BLOCKLIST = HERE / "blocklist.json"   # сюда попадают id, снятые по жалобам
 
@@ -1043,9 +1045,102 @@ def write_js(jobs):
     )
     print(f"\nЗаписано {len(jobs)} вакансий в {OUT_JS.name}")
     write_status(jobs, today, studios)
+    write_history(jobs, today)
     location_report(jobs)
     urls = write_pages(jobs, today)
     write_sitemap(today, urls)
+
+
+# Страны для отчёта. Отдельный короткий словарь: полный живёт на витрине,
+# а здесь нужны только крупные направления.
+GEO_REPORT = {
+    "Польша": ["poland", "warsaw", "warszawa", "krak", "wroc", "gdan", "pozna"],
+    "США": ["united states", "usa", "california", "novato", "cary", "austin", "seattle",
+            "los angeles", "san mateo", "new york", "dallas", "frisco", "chicago"],
+    "Канада": ["canada", "montr", "toronto", "vancouver", "burnaby", "quebec"],
+    "Британия": ["united kingdom", "london", "brighton", "guildford", "manchester", "oxford"],
+    "Кипр": ["cyprus", "nicosia", "limassol", "larnaca"],
+    "Сербия": ["serbia", "belgrade", "novi sad"],
+    "Германия": ["germany", "berlin", "hamburg", "munich", "frankfurt", "cologne"],
+    "Турция": ["turkey", "istanbul", "ankara", "izmir"],
+    "Финляндия": ["finland", "helsinki", "espoo", "tampere"],
+    "Швеция": ["sweden", "stockholm", "malm", "gothenburg"],
+    "Испания": ["spain", "barcelona", "madrid", "valencia"],
+    "Франция": ["france", "paris", "lyon", "bordeaux", "montpellier"],
+    "Вьетнам": ["vietnam", "ho chi minh", "hanoi"],
+    "Китай": ["china", "shanghai", "beijing", "shenzhen", "guangzhou"],
+    "Сингапур": ["singapore"],
+    "Индия": ["india", "bangalore", "bengaluru", "hyderabad", "pune"],
+    "Израиль": ["israel", "tel aviv", "herzliya"],
+    "Нидерланды": ["netherlands", "amsterdam", "utrecht"],
+    "Грузия": ["georgia", "tbilisi", "batumi"],
+    "Азербайджан": ["azerbaijan", "baku"],
+    "Казахстан": ["kazakhstan", "almaty", "astana"],
+    "Армения": ["armenia", "yerevan"],
+    "Россия": ["russia", "moscow", "petersburg", "perm", "novosibirsk", "kazan"],
+    "Украина": ["ukraine", "kyiv", "kiev", "lviv", "kharkiv"],
+    "Чехия": ["czech", "prague", "brno"],
+    "Румыния": ["romania", "bucharest", "cluj"],
+    "Австралия": ["australia", "sydney", "melbourne", "brisbane"],
+    "Южная Корея": ["korea", "seoul"],
+    "Япония": ["japan", "tokyo", "osaka"],
+    "Канада (Квебек)": [],
+}
+
+
+def country_of(location: str):
+    low = (location or "").lower()
+    for country, marks in GEO_REPORT.items():
+        if any(m in low for m in marks):
+            return country
+    return None
+
+
+def snapshot(jobs, today):
+    """Слепок дня: по нему потом считаем, что изменилось за месяц."""
+    roles, countries, stacks = {}, {}, {}
+    companies = {}
+    for j in jobs:
+        r = j.get("role")
+        if r:
+            roles[r] = roles.get(r, 0) + 1
+        c = j.get("company")
+        if c:
+            companies[c] = companies.get(c, 0) + 1
+        seen = set()
+        for loc in j.get("locations") or []:
+            country = country_of(loc)
+            if country and country not in seen:
+                seen.add(country)
+                countries[country] = countries.get(country, 0) + 1
+        for tech in j.get("stack") or []:
+            stacks[tech] = stacks.get(tech, 0) + 1
+    return {
+        "date": today,
+        "jobs": len(jobs),
+        "studios": len({j.get("company") for j in jobs if j.get("company")}),
+        "remote": sum(1 for j in jobs if j.get("remote") or j.get("rkind")),
+        "worldwide": sum(1 for j in jobs if j.get("rkind") == "worldwide"),
+        "zone": sum(1 for j in jobs if j.get("rkind") == "zone"),
+        "hybrid": sum(1 for j in jobs if j.get("rkind") == "hybrid"),
+        "salary": sum(1 for j in jobs if j.get("salary")),
+        "junior": sum(1 for j in jobs if j.get("grade") == "Junior"),
+        "senior": sum(1 for j in jobs if j.get("grade") in ("Senior", "Lead")),
+        "roles": roles, "countries": countries, "stacks": stacks, "companies": companies,
+    }
+
+
+def write_history(jobs, today):
+    """Копим слепки: без истории отчёт сможет сказать «сейчас столько-то»,
+    но не сможет сказать «стало больше», а интересно именно второе."""
+    try:
+        data = json.loads(HISTORY.read_text(encoding="utf-8")) if HISTORY.exists() else []
+    except Exception:
+        data = []
+    data = [d for d in data if d.get("date") != today]
+    data.append(snapshot(jobs, today))
+    data = data[-400:]
+    HISTORY.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
 
 
 def write_status(jobs, today, studios):
@@ -1895,6 +1990,130 @@ def detect(url: str, name: str = "СТУДИЯ", quiet: bool = False):
     return rows
 
 
+# ------------------------------------------------------------------ отчёт
+# У нас есть цифры, которых больше нет ни у кого: сколько вакансий открыто
+# прямо сейчас у самих студий. Раз в месяц из них получается материал,
+# на который ссылаются — а это лучшая реклама, чем любой пост про себя.
+
+def delta(now: int, was) -> str:
+    if was is None:
+        return ""
+    d = now - was
+    if d == 0:
+        return " (без изменений)"
+    return f" ({'+' if d > 0 else '−'}{abs(d)})"
+
+
+def top(d: dict, n=10):
+    return sorted((d or {}).items(), key=lambda kv: -kv[1])[:n]
+
+
+def build_report():
+    """Черновик ежемесячного отчёта по рынку. Правится руками перед публикацией."""
+    if not HISTORY.exists():
+        print("Нет истории: сначала запусти обычный сбор хотя бы один раз.")
+        return
+    data = json.loads(HISTORY.read_text(encoding="utf-8"))
+    if not data:
+        print("История пустая.")
+        return
+
+    now = data[-1]
+    today = date.fromisoformat(now["date"])
+    # ищем слепок, ближайший к «месяц назад»
+    was = None
+    for d in data[:-1]:
+        try:
+            age = (today - date.fromisoformat(d["date"])).days
+        except Exception:
+            continue
+        if 24 <= age <= 40:
+            was = d
+    prev_roles = (was or {}).get("roles", {})
+    prev_comp = (was or {}).get("companies", {})
+
+    L = []
+    L.append(f"# Рынок вакансий в геймдеве: {human_date(now['date'])} {today.year}")
+    L.append("")
+    L.append(f"Раз в месяц публикуем срез по открытым вакансиям, собранным напрямую "
+             f"с карьерных страниц игровых студий. Данные на {human_date(now['date'])}.")
+    L.append("")
+    L.append("## Сколько всего")
+    L.append("")
+    L.append(f"- Открытых вакансий: **{now['jobs']}**{delta(now['jobs'], (was or {}).get('jobs'))}")
+    L.append(f"- Студий нанимают: **{now['studios']}**{delta(now['studios'], (was or {}).get('studios'))}")
+    share = round(now["remote"] * 100 / max(1, now["jobs"]))
+    L.append(f"- С удалённой работой: **{now['remote']}** ({share}% от всех)")
+    pay_share = round(now["salary"] * 100 / max(1, now["jobs"]))
+    L.append(f"- С указанной зарплатой: **{now['salary']}** ({pay_share}%)")
+    L.append("")
+
+    if was:
+        L.append(f"Месяц назад было {was['jobs']} вакансий от {was['studios']} студий.")
+        L.append("")
+
+    L.append("## Кто нанимает активнее всех")
+    L.append("")
+    for name, count in top(now.get("companies"), 12):
+        L.append(f"- {name}: {count}{delta(count, prev_comp.get(name))}")
+    L.append("")
+
+    L.append("## По направлениям")
+    L.append("")
+    for role, count in top(now.get("roles"), 12):
+        L.append(f"- {role}: {count}{delta(count, prev_roles.get(role))}")
+    L.append("")
+
+    L.append("## География")
+    L.append("")
+    for country, count in top(now.get("countries"), 12):
+        L.append(f"- {country}: {count}")
+    L.append("")
+
+    L.append("## Удалёнка")
+    L.append("")
+    L.append(f"Из {now['remote']} удалённых вакансий: по миру — {now['worldwide']}, "
+             f"только в своём регионе — {now['zone']}, гибрид — {now['hybrid']}.")
+    L.append("")
+    # Не пишем «у половины студий», если цифры говорят другое: в отчёте,
+    # который читают ради данных, такая небрежность стоит доверия.
+    tied = now["zone"] + now["hybrid"]
+    if tied:
+        L.append(f"Различие важное: у {tied} вакансий «удалённо» на самом деле "
+                 f"означает «из своей страны» или «часть дней в офисе». "
+                 f"Слово одно, а условия разные.")
+    else:
+        L.append("Слово «remote» у разных студий значит разное, поэтому мы "
+                 "разделяем удалёнку по миру, удалёнку в своём регионе и гибрид.")
+    L.append("")
+
+    L.append("## Технологии")
+    L.append("")
+    L.append(", ".join(f"{k} — {v}" for k, v in top(now.get("stacks"), 14)))
+    L.append("")
+
+    L.append("## Джуниоры и сеньоры")
+    L.append("")
+    ratio = now["senior"] / max(1, now["junior"])
+    L.append(f"Вакансий с пометкой Junior: **{now['junior']}**. "
+             f"С пометкой Senior или Lead: **{now['senior']}**, "
+             f"то есть примерно в {round(ratio)} раз больше. "
+             f"Грейд мы определяем по названию вакансии, поэтому у части позиций "
+             f"его нет вовсе — цифры показывают порядок, а не точный счёт.")
+    L.append("")
+
+    L.append("---")
+    L.append("")
+    L.append("Данные собраны автоматически с карьерных страниц студий: "
+             "Greenhouse, Lever, Ashby, Workable, Recruitee, SmartRecruiters. "
+             "Без агентств и перепостов. Полный список — на lootwork.github.io")
+
+    REPORT.write_text("\n".join(L), encoding="utf-8")
+    print(f"Готово: {REPORT.name}")
+    if not was:
+        print("Сравнить не с чем — истории меньше месяца. Цифры за месяц появятся позже.")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--probe", action="store_true",
@@ -1905,6 +2124,8 @@ def main():
                     help="найти систему найма: адрес студии или файл со списком")
     ap.add_argument("--guess", metavar="ФАЙЛ",
                     help="перебрать вероятные адреса досок для списка студий")
+    ap.add_argument("--report", action="store_true",
+                    help="собрать черновик ежемесячного отчёта по рынку")
     ap.add_argument("--no-verify", action="store_true",
                     help="пропустить проверку живости ссылок (быстрее)")
     args = ap.parse_args()
@@ -1918,6 +2139,10 @@ def main():
 
     if args.guess:
         guess_many(args.guess)
+        return
+
+    if args.report:
+        build_report()
         return
 
     companies = json.loads(COMPANIES.read_text(encoding="utf-8"))
