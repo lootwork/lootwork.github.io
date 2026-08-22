@@ -1754,7 +1754,7 @@ window.JOBS = [
     "title": "Senior Engineer, Server – NBA 2K",
     "company": "Visual Concepts",
     "locations": [
-      "Novato, CA"
+      "Novato, Canada"
     ],
     "remote": false,
     "rkind": null,
@@ -1804,7 +1804,7 @@ window.JOBS = [
     "title": "Senior Technical Artist (Rigger) NBA 2K",
     "company": "Visual Concepts",
     "locations": [
-      "Novato, CA"
+      "Novato, Canada"
     ],
     "remote": false,
     "rkind": null,
@@ -2510,7 +2510,7 @@ window.JOBS = [
     "title": "Data Analyst - MARVEL Strike Force",
     "company": "Scopely",
     "locations": [
-      "US - United States"
+      "United States"
     ],
     "remote": false,
     "rkind": null,
@@ -2533,7 +2533,7 @@ window.JOBS = [
     "title": "Full Stack Engineer - (Gaming Fullstack) - WWE Champions",
     "company": "Scopely",
     "locations": [
-      "MX - Mexico City, Mexico"
+      "Mexico City, Mexico"
     ],
     "remote": false,
     "rkind": null,
@@ -2558,7 +2558,7 @@ window.JOBS = [
     "title": "Lead Game Capture Artist",
     "company": "Scopely",
     "locations": [
-      "ES - Barcelona, Spain"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
@@ -2581,7 +2581,7 @@ window.JOBS = [
     "title": "Marketing Intelligence & AI Automation Manager",
     "company": "Scopely",
     "locations": [
-      "MX - Mexico City, Mexico"
+      "Mexico City, Mexico"
     ],
     "remote": false,
     "rkind": null,
@@ -2603,7 +2603,7 @@ window.JOBS = [
     "title": "Product Analyst -  Star Trek Fleet Command",
     "company": "Scopely",
     "locations": [
-      "ES - Barcelona, Spain"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
@@ -2626,7 +2626,7 @@ window.JOBS = [
     "title": "Product Manager - WWE Champions",
     "company": "Scopely",
     "locations": [
-      "CA - Canada"
+      "Canada"
     ],
     "remote": false,
     "rkind": null,
@@ -2648,7 +2648,7 @@ window.JOBS = [
     "title": "Senior Animator – MONOPOLY GO!",
     "company": "Scopely",
     "locations": [
-      "ES - Barcelona, Spain"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
@@ -2671,7 +2671,7 @@ window.JOBS = [
     "title": "Senior Community Manager - MARVEL Strike Force",
     "company": "Scopely",
     "locations": [
-      "MX - Mexico City, Mexico"
+      "Mexico City, Mexico"
     ],
     "remote": false,
     "rkind": null,
@@ -2691,7 +2691,7 @@ window.JOBS = [
     "title": "Senior Community Manager - MARVEL Strike  Force",
     "company": "Scopely",
     "locations": [
-      "CA - Canada"
+      "Canada"
     ],
     "remote": false,
     "rkind": null,
@@ -2711,7 +2711,7 @@ window.JOBS = [
     "title": "Senior Producer - Star Trek Fleet Command",
     "company": "Scopely",
     "locations": [
-      "ES - Barcelona, Spain"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
@@ -2731,7 +2731,7 @@ window.JOBS = [
     "title": "Senior Producer - WWE Champions",
     "company": "Scopely",
     "locations": [
-      "CA - Canada"
+      "Canada"
     ],
     "remote": false,
     "rkind": null,
@@ -2751,7 +2751,7 @@ window.JOBS = [
     "title": "Senior Product Manager performance - Monopoly GO!",
     "company": "Scopely",
     "locations": [
-      "ES - Barcelona, Spain"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
@@ -2773,7 +2773,7 @@ window.JOBS = [
     "title": "Senior Product Manager - WWE Champions",
     "company": "Scopely",
     "locations": [
-      "US - United States"
+      "United States"
     ],
     "remote": false,
     "rkind": null,
@@ -2793,7 +2793,7 @@ window.JOBS = [
     "title": "Senior Software Engineer (Gaming Backend) - WWE Champions",
     "company": "Scopely",
     "locations": [
-      "CA - Canada"
+      "Canada"
     ],
     "remote": false,
     "rkind": null,
@@ -2817,7 +2817,7 @@ window.JOBS = [
     "title": "QA Lead",
     "company": "CD Projekt Red",
     "locations": [
-      "Warsaw, pl"
+      "Warsaw, Poland"
     ],
     "remote": false,
     "rkind": null,
@@ -2839,7 +2839,7 @@ window.JOBS = [
     "title": "Game Designer Intern",
     "company": "Gameloft",
     "locations": [
-      "Hanoi, vn"
+      "Hanoi, Vietnam"
     ],
     "remote": false,
     "rkind": null,
@@ -2859,7 +2859,7 @@ window.JOBS = [
     "title": "Product Manager (Monetization Manager)",
     "company": "Gameloft",
     "locations": [
-      "Hanoi, vn"
+      "Hanoi, Vietnam"
     ],
     "remote": false,
     "rkind": null,
@@ -3208,7 +3208,7 @@ window.JOBS = [
     "title": "Senior Agentic AI Engineer",
     "company": "Scopely",
     "locations": [
-      "IN - Bangalore, India"
+      "Bangalore, India"
     ],
     "remote": false,
     "rkind": null,
@@ -3233,7 +3233,7 @@ window.JOBS = [
     "title": "Software Engineer (Gaming Fullstack) - WWE Champions",
     "company": "Scopely",
     "locations": [
-      "US - United States"
+      "United States"
     ],
     "remote": false,
     "rkind": null,
@@ -3258,7 +3258,7 @@ window.JOBS = [
     "title": "Sr Marketing Artist",
     "company": "Scopely",
     "locations": [
-      "ES - Barcelona, Spain"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
@@ -3282,7 +3282,7 @@ window.JOBS = [
     "title": "Expert Animation Programmer (R&D)",
     "company": "CD Projekt Red",
     "locations": [
-      "Vancouver, ca"
+      "Vancouver, Canada"
     ],
     "remote": true,
     "rkind": "zone",
@@ -3308,7 +3308,7 @@ window.JOBS = [
     "title": "Senior Engineer, Core",
     "company": "CD Projekt Red",
     "locations": [
-      "EUROPE - Multiple Locations, pl"
+      "EUROPE - Multiple Locations, Poland"
     ],
     "remote": true,
     "rkind": "zone",
@@ -3353,7 +3353,7 @@ window.JOBS = [
     "title": "Senior Product Manager - Asphalt Legends",
     "company": "Gameloft",
     "locations": [
-      "Barcelona, es"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": "worldwide",
@@ -3373,7 +3373,7 @@ window.JOBS = [
     "title": "Release Engineer",
     "company": "Gameloft",
     "locations": [
-      "Barcelona, es"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
@@ -3398,7 +3398,7 @@ window.JOBS = [
     "title": "DevOps Software Engineer",
     "company": "Gameloft",
     "locations": [
-      "Brisbane, au"
+      "Brisbane, Australia"
     ],
     "remote": false,
     "rkind": null,
@@ -3425,7 +3425,7 @@ window.JOBS = [
     "title": "Creative Project Manager",
     "company": "Gameloft",
     "locations": [
-      "Brisbane, au"
+      "Brisbane, Australia"
     ],
     "remote": false,
     "rkind": null,
@@ -3743,7 +3743,7 @@ window.JOBS = [
     "title": "Pokémon GO Game Producer II - Live Events",
     "company": "Scopely",
     "locations": [
-      "US - San Francisco, United States"
+      "San Francisco, United States"
     ],
     "remote": false,
     "rkind": "worldwide",
@@ -3763,7 +3763,7 @@ window.JOBS = [
     "title": "Pokémon GO Game Producer - Live Events",
     "company": "Scopely",
     "locations": [
-      "JP - Tokyo, Japan"
+      "Tokyo, Japan"
     ],
     "remote": false,
     "rkind": "worldwide",
@@ -3783,7 +3783,7 @@ window.JOBS = [
     "title": "Senior Security Engineer, Software",
     "company": "Scopely",
     "locations": [
-      "CH - Zurich, Switzerland"
+      "Zurich, Switzerland"
     ],
     "remote": false,
     "rkind": "worldwide",
@@ -3847,7 +3847,7 @@ window.JOBS = [
     "title": "Concepteur(-trice) narratif senior / Senior Narrative Designer",
     "company": "People Can Fly",
     "locations": [
-      "Montréal, ca"
+      "Montréal, Canada"
     ],
     "remote": true,
     "rkind": "zone",
@@ -3896,7 +3896,7 @@ window.JOBS = [
     "title": "Level Design Artist",
     "company": "Jam City",
     "locations": [
-      "San Francisco, CA"
+      "San Francisco, Canada"
     ],
     "remote": false,
     "rkind": null,
@@ -3920,7 +3920,7 @@ window.JOBS = [
     "title": "Technical Animator",
     "company": "Jam City",
     "locations": [
-      "San Francisco, CA"
+      "San Francisco, Canada"
     ],
     "remote": false,
     "rkind": null,
@@ -4500,7 +4500,7 @@ window.JOBS = [
     "title": "Animation Lead",
     "company": "Scopely",
     "locations": [
-      "ES - Barcelona, Spain"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
@@ -4523,7 +4523,7 @@ window.JOBS = [
     "title": "Director of Marketing - Monster Hunter Now",
     "company": "Scopely",
     "locations": [
-      "JP - Tokyo, Japan"
+      "Tokyo, Japan"
     ],
     "remote": false,
     "rkind": null,
@@ -4543,7 +4543,7 @@ window.JOBS = [
     "title": "Director of Marketing, North America - Pikmin Bloom",
     "company": "Scopely",
     "locations": [
-      "US - San Francisco, United States"
+      "San Francisco, United States"
     ],
     "remote": false,
     "rkind": "worldwide",
@@ -4563,7 +4563,7 @@ window.JOBS = [
     "title": "Global Live Event Marketing Manager - Pikmin Bloom",
     "company": "Scopely",
     "locations": [
-      "JP - Tokyo, Japan"
+      "Tokyo, Japan"
     ],
     "remote": false,
     "rkind": null,
@@ -4583,7 +4583,7 @@ window.JOBS = [
     "title": "Senior Data Scientist, Marketing",
     "company": "Scopely",
     "locations": [
-      "US - San Francisco, United States"
+      "San Francisco, United States"
     ],
     "remote": false,
     "rkind": null,
@@ -4606,7 +4606,7 @@ window.JOBS = [
     "title": "Senior Product Marketing Manager - Pikmin Bloom",
     "company": "Scopely",
     "locations": [
-      "JP - Tokyo, Japan"
+      "Tokyo, Japan"
     ],
     "remote": false,
     "rkind": "worldwide",
@@ -4626,7 +4626,7 @@ window.JOBS = [
     "title": "Senior Software Engineer - Pikmin Bloom",
     "company": "Scopely",
     "locations": [
-      "JP - Tokyo, Japan"
+      "Tokyo, Japan"
     ],
     "remote": false,
     "rkind": null,
@@ -4650,7 +4650,7 @@ window.JOBS = [
     "title": "Senior Systems & Economy Designer - Monster Hunter Now",
     "company": "Scopely",
     "locations": [
-      "JP - Tokyo, Japan"
+      "Tokyo, Japan"
     ],
     "remote": false,
     "rkind": null,
@@ -4894,7 +4894,7 @@ window.JOBS = [
     "title": "Tech QA Lead",
     "company": "CD Projekt Red",
     "locations": [
-      "Warsaw, pl"
+      "Warsaw, Poland"
     ],
     "remote": false,
     "rkind": null,
@@ -4918,7 +4918,7 @@ window.JOBS = [
     "title": "Concepteur de jeux de combat  / Combat Game Designer",
     "company": "People Can Fly",
     "locations": [
-      "Montréal, ca"
+      "Montréal, Canada"
     ],
     "remote": true,
     "rkind": "zone",
@@ -4940,7 +4940,7 @@ window.JOBS = [
     "title": "Concepteur(-trice) de niveau / Level Designer",
     "company": "People Can Fly",
     "locations": [
-      "Montréal, ca"
+      "Montréal, Canada"
     ],
     "remote": true,
     "rkind": "zone",
@@ -4963,7 +4963,7 @@ window.JOBS = [
     "title": "Artiste de niveau senior/Senior Level Artist - Remote, Canada",
     "company": "People Can Fly",
     "locations": [
-      "Montréal, ca"
+      "Montréal, Canada"
     ],
     "remote": true,
     "rkind": "worldwide",
@@ -5053,7 +5053,7 @@ window.JOBS = [
     "title": "Game Product Manager (Monetization Manager)",
     "company": "Gameloft",
     "locations": [
-      "Hanoi, vn"
+      "Hanoi, Vietnam"
     ],
     "remote": false,
     "rkind": null,
@@ -5076,7 +5076,7 @@ window.JOBS = [
     "title": "Division Principal Game Programmer (Unreal Engine, AI)",
     "company": "Gameloft",
     "locations": [
-      "Ho Chi Minh City, vn"
+      "Ho Chi Minh City, Vietnam"
     ],
     "remote": false,
     "rkind": null,
@@ -5103,7 +5103,7 @@ window.JOBS = [
     "title": "Localization Design Lead (2D and Video Assets)",
     "company": "Gameloft",
     "locations": [
-      "Ho Chi Minh City, vn"
+      "Ho Chi Minh City, Vietnam"
     ],
     "remote": false,
     "rkind": null,
@@ -5710,7 +5710,7 @@ window.JOBS = [
     "title": "Lead Finance Analyst",
     "company": "Scopely",
     "locations": [
-      "GB - London, United Kingdom"
+      "London, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
@@ -5732,7 +5732,7 @@ window.JOBS = [
     "title": "Senior Software Engineer (Unity)",
     "company": "Scopely",
     "locations": [
-      "IN - Bangalore, India"
+      "Bangalore, India"
     ],
     "remote": false,
     "rkind": null,
@@ -5758,7 +5758,7 @@ window.JOBS = [
     "title": "Sr. Development Manager, LiveOps QA",
     "company": "Scopely",
     "locations": [
-      "ES - Barcelona, Spain"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
@@ -5803,7 +5803,7 @@ window.JOBS = [
     "title": "Lead Gameplay Engineer (NPC Behavior)",
     "company": "CD Projekt Red",
     "locations": [
-      "Warsaw, pl"
+      "Warsaw, Poland"
     ],
     "remote": false,
     "rkind": null,
@@ -7211,7 +7211,7 @@ window.JOBS = [
     "title": "Game Design Director - Star Trek Fleet Command",
     "company": "Scopely",
     "locations": [
-      "ES - Barcelona, Spain"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": "worldwide",
@@ -7233,7 +7233,7 @@ window.JOBS = [
     "title": "Intern - Game Design (Slot)",
     "company": "Scopely",
     "locations": [
-      "IN - Bangalore, India"
+      "Bangalore, India"
     ],
     "remote": false,
     "rkind": null,
@@ -7255,7 +7255,7 @@ window.JOBS = [
     "title": "Product Manager Performance - Star Trek Fleet Command",
     "company": "Scopely",
     "locations": [
-      "IN - Bangalore, India"
+      "Bangalore, India"
     ],
     "remote": false,
     "rkind": null,
@@ -8111,7 +8111,7 @@ window.JOBS = [
     "title": "Executive Producer",
     "company": "Scopely",
     "locations": [
-      "IN - Bangalore, India"
+      "Bangalore, India"
     ],
     "remote": false,
     "rkind": null,
@@ -8131,7 +8131,7 @@ window.JOBS = [
     "title": "Product Marketing Manager - Star Trek",
     "company": "Scopely",
     "locations": [
-      "ES - Barcelona, Spain"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": "worldwide",
@@ -8151,11 +8151,11 @@ window.JOBS = [
     "title": "Senior Engineer, Graphics - Unannounced Project",
     "company": "Scopely",
     "locations": [
-      "ES - Barcelona, Spain",
-      "ES - Spain",
-      "GB - United Kingdom",
-      "IE - Ireland",
-      "PT - Portugal"
+      "Barcelona, Spain",
+      "Spain",
+      "United Kingdom",
+      "Ireland",
+      "Portugal"
     ],
     "remote": false,
     "rkind": "worldwide",
@@ -8179,7 +8179,7 @@ window.JOBS = [
     "title": "Senior Game Producer",
     "company": "Scopely",
     "locations": [
-      "IN - Bangalore, India"
+      "Bangalore, India"
     ],
     "remote": false,
     "rkind": null,
@@ -8199,10 +8199,10 @@ window.JOBS = [
     "title": "Senior Platform Engineer (Reliability) - Unannounced Project",
     "company": "Scopely",
     "locations": [
-      "ES - Spain",
-      "GB - United Kingdom",
-      "IE - Ireland",
-      "PT - Portugal"
+      "Spain",
+      "United Kingdom",
+      "Ireland",
+      "Portugal"
     ],
     "remote": false,
     "rkind": "worldwide",
@@ -8227,7 +8227,7 @@ window.JOBS = [
     "title": "Senior Security Compliance Engineer",
     "company": "Scopely",
     "locations": [
-      "ES - Barcelona, Spain"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
@@ -8251,7 +8251,7 @@ window.JOBS = [
     "title": "Staff Engineer, Server",
     "company": "Scopely",
     "locations": [
-      "ES - Barcelona, Spain"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
@@ -8296,7 +8296,7 @@ window.JOBS = [
     "title": "Audio Specialist",
     "company": "CD Projekt Red",
     "locations": [
-      "Warsaw, pl"
+      "Warsaw, Poland"
     ],
     "remote": false,
     "rkind": null,
@@ -8316,7 +8316,7 @@ window.JOBS = [
     "title": "IT Systems Engineer",
     "company": "CD Projekt Red",
     "locations": [
-      "Warsaw, pl"
+      "Warsaw, Poland"
     ],
     "remote": false,
     "rkind": null,
@@ -8340,7 +8340,7 @@ window.JOBS = [
     "title": "Senior VFX Artist",
     "company": "CD Projekt Red",
     "locations": [
-      "Warsaw, pl"
+      "Warsaw, Poland"
     ],
     "remote": false,
     "rkind": null,
@@ -8365,7 +8365,7 @@ window.JOBS = [
     "title": "Senior Engineer, Gameplay",
     "company": "CD Projekt Red",
     "locations": [
-      "Warsaw, pl"
+      "Warsaw, Poland"
     ],
     "remote": false,
     "rkind": null,
@@ -8677,7 +8677,7 @@ window.JOBS = [
     "title": "Data Analyst (CRM)",
     "company": "Scopely",
     "locations": [
-      "ES - Barcelona, Spain"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
@@ -8699,7 +8699,7 @@ window.JOBS = [
     "title": "Performance Marketing Director",
     "company": "Scopely",
     "locations": [
-      "ES - Barcelona, Spain"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": "worldwide",
@@ -8745,7 +8745,7 @@ window.JOBS = [
     "title": "Artiste d’éclairage / Lighting Artist - Remote",
     "company": "People Can Fly",
     "locations": [
-      "Montréal, ca"
+      "Montréal, Canada"
     ],
     "remote": true,
     "rkind": "worldwide",
@@ -9025,7 +9025,7 @@ window.JOBS = [
     "title": "Director, Quality Assurance",
     "company": "Scopely",
     "locations": [
-      "US - United States"
+      "United States"
     ],
     "remote": false,
     "rkind": null,
@@ -9045,7 +9045,7 @@ window.JOBS = [
     "title": "Senior Product Analyst - Stumble Guys!",
     "company": "Scopely",
     "locations": [
-      "ES - Barcelona, Spain"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
@@ -9068,7 +9068,7 @@ window.JOBS = [
     "title": "Sr.Client Security Engineer",
     "company": "Scopely",
     "locations": [
-      "CH - Shanghai, China"
+      "Shanghai, China"
     ],
     "remote": false,
     "rkind": null,
@@ -9093,7 +9093,7 @@ window.JOBS = [
     "title": "Sr. Security Compliance Engineer",
     "company": "Scopely",
     "locations": [
-      "ES - Spain"
+      "Spain"
     ],
     "remote": false,
     "rkind": null,
@@ -9761,7 +9761,7 @@ window.JOBS = [
     "title": "QA Analyst",
     "company": "CD Projekt Red",
     "locations": [
-      "Warsaw, pl"
+      "Warsaw, Poland"
     ],
     "remote": false,
     "rkind": null,
@@ -9783,7 +9783,7 @@ window.JOBS = [
     "title": "[Dungeons & Dragons PC-Console] Concepteur Narratif Senior - Senior Narrative Designer",
     "company": "Gameloft",
     "locations": [
-      "Montreal, ca"
+      "Montreal, Canada"
     ],
     "remote": false,
     "rkind": null,
@@ -9803,7 +9803,7 @@ window.JOBS = [
     "title": "Lead Game Designer [Disney Dreamlight Valley]",
     "company": "Gameloft",
     "locations": [
-      "Lviv, ua"
+      "Lviv, Ukraine"
     ],
     "remote": true,
     "rkind": "zone",
@@ -9940,8 +9940,8 @@ window.JOBS = [
     "title": "Art Lead - External Development",
     "company": "Scopely",
     "locations": [
-      "US - Culver City, United States",
-      "US - United States"
+      "Culver City, United States",
+      "United States"
     ],
     "remote": false,
     "rkind": null,
@@ -9963,7 +9963,7 @@ window.JOBS = [
     "title": "Lead VFX Artist",
     "company": "CD Projekt Red",
     "locations": [
-      "Warsaw, pl"
+      "Warsaw, Poland"
     ],
     "remote": false,
     "rkind": null,
@@ -9987,7 +9987,7 @@ window.JOBS = [
     "title": "Engineering Manager, Gameplay",
     "company": "CD Projekt Red",
     "locations": [
-      "Warsaw, pl"
+      "Warsaw, Poland"
     ],
     "remote": false,
     "rkind": null,
@@ -10010,7 +10010,7 @@ window.JOBS = [
     "title": "Lead Sound Designer",
     "company": "CD Projekt Red",
     "locations": [
-      "Warsaw, pl"
+      "Warsaw, Poland"
     ],
     "remote": false,
     "rkind": null,
@@ -10946,7 +10946,7 @@ window.JOBS = [
     "title": "AI Artist (Generalist)",
     "company": "Scopely",
     "locations": [
-      "IN - Bangalore, India"
+      "Bangalore, India"
     ],
     "remote": false,
     "rkind": null,
@@ -10970,7 +10970,7 @@ window.JOBS = [
     "title": "Client Engineer",
     "company": "Scopely",
     "locations": [
-      "ES - Barcelona, Spain"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": "worldwide",
@@ -10995,7 +10995,7 @@ window.JOBS = [
     "title": "Lead Technical Product Manager - MONOPOLY GO!",
     "company": "Scopely",
     "locations": [
-      "US - United States"
+      "United States"
     ],
     "remote": false,
     "rkind": "worldwide",
@@ -11018,7 +11018,7 @@ window.JOBS = [
     "title": "Senior AI Engineer_FLAMED",
     "company": "Scopely",
     "locations": [
-      "ES - Barcelona, Spain"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
@@ -11038,7 +11038,7 @@ window.JOBS = [
     "title": "Software Engineer",
     "company": "Scopely",
     "locations": [
-      "MX - Mexico City, Mexico"
+      "Mexico City, Mexico"
     ],
     "remote": false,
     "rkind": null,
@@ -11060,8 +11060,8 @@ window.JOBS = [
     "title": "Staff Product Manager",
     "company": "Scopely",
     "locations": [
-      "CA - Canada",
-      "US - United States"
+      "Canada",
+      "United States"
     ],
     "remote": false,
     "rkind": null,
@@ -11449,7 +11449,7 @@ window.JOBS = [
     "title": "APAC Marketing Operations Manager",
     "company": "Scopely",
     "locations": [
-      "IN - Bangalore, India"
+      "Bangalore, India"
     ],
     "remote": false,
     "rkind": null,
@@ -11471,7 +11471,7 @@ window.JOBS = [
     "title": "Artist(Contractor)",
     "company": "Scopely",
     "locations": [
-      "CH - China"
+      "China"
     ],
     "remote": false,
     "rkind": null,
@@ -11491,7 +11491,7 @@ window.JOBS = [
     "title": "Associate Product Marketing Manager- Monopoly Go!",
     "company": "Scopely",
     "locations": [
-      "US - Culver City, United States"
+      "Culver City, United States"
     ],
     "remote": false,
     "rkind": "worldwide",
@@ -11511,7 +11511,7 @@ window.JOBS = [
     "title": "Creative Marketing Manager",
     "company": "Scopely",
     "locations": [
-      "CH - Shanghai, China"
+      "Shanghai, China"
     ],
     "remote": false,
     "rkind": null,
@@ -11533,7 +11533,7 @@ window.JOBS = [
     "title": "Creative Production Manager, User Acquisition",
     "company": "Scopely",
     "locations": [
-      "MX - Mexico City, Mexico"
+      "Mexico City, Mexico"
     ],
     "remote": false,
     "rkind": null,
@@ -11553,7 +11553,7 @@ window.JOBS = [
     "title": "Director, Performance Marketing",
     "company": "Scopely",
     "locations": [
-      "CH - Shanghai, China"
+      "Shanghai, China"
     ],
     "remote": false,
     "rkind": "worldwide",
@@ -11573,7 +11573,7 @@ window.JOBS = [
     "title": "Director, Performance Marketing -  Unannounced ARPG Mobile Game",
     "company": "Scopely",
     "locations": [
-      "US - United States"
+      "United States"
     ],
     "remote": false,
     "rkind": null,
@@ -11593,7 +11593,7 @@ window.JOBS = [
     "title": "Engineering Manager",
     "company": "Scopely",
     "locations": [
-      "ES - Barcelona, Spain"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
@@ -11617,7 +11617,7 @@ window.JOBS = [
     "title": "Engineering Manager, Backend (Gaming)",
     "company": "Scopely",
     "locations": [
-      "IN - Bangalore, India"
+      "Bangalore, India"
     ],
     "remote": false,
     "rkind": null,
@@ -11640,7 +11640,7 @@ window.JOBS = [
     "title": "Engineer Manager (Unity)",
     "company": "Scopely",
     "locations": [
-      "IN - Bangalore, India"
+      "Bangalore, India"
     ],
     "remote": false,
     "rkind": null,
@@ -11663,7 +11663,7 @@ window.JOBS = [
     "title": "Lead Game Designer - Monopoly Go!",
     "company": "Scopely",
     "locations": [
-      "US - United States"
+      "United States"
     ],
     "remote": false,
     "rkind": null,
@@ -11683,8 +11683,8 @@ window.JOBS = [
     "title": "Lead Product Manager - LiveOps Automation",
     "company": "Scopely",
     "locations": [
-      "ES - Barcelona, Spain",
-      "ES - Spain"
+      "Barcelona, Spain",
+      "Spain"
     ],
     "remote": false,
     "rkind": "worldwide",
@@ -11704,7 +11704,7 @@ window.JOBS = [
     "title": "Lead Product Manager (Performance) - Star Trek Fleet Command",
     "company": "Scopely",
     "locations": [
-      "IL - Tel Aviv, Israel"
+      "Tel Aviv, Israel"
     ],
     "remote": false,
     "rkind": null,
@@ -11724,7 +11724,7 @@ window.JOBS = [
     "title": "Lead Product Manager/Producer, Mobile Games",
     "company": "Scopely",
     "locations": [
-      "CH - Shanghai, China"
+      "Shanghai, China"
     ],
     "remote": false,
     "rkind": null,
@@ -11744,7 +11744,7 @@ window.JOBS = [
     "title": "Lead Product Manager - Star Trek Fleet Command",
     "company": "Scopely",
     "locations": [
-      "IN - Bangalore, India"
+      "Bangalore, India"
     ],
     "remote": false,
     "rkind": null,
@@ -11764,7 +11764,7 @@ window.JOBS = [
     "title": "Lead QA Engineer",
     "company": "Scopely",
     "locations": [
-      "IN - Bangalore, India"
+      "Bangalore, India"
     ],
     "remote": false,
     "rkind": null,
@@ -11784,7 +11784,7 @@ window.JOBS = [
     "title": "Lead Technical Artist",
     "company": "Scopely",
     "locations": [
-      "CH - Shanghai, China"
+      "Shanghai, China"
     ],
     "remote": false,
     "rkind": null,
@@ -11808,7 +11808,7 @@ window.JOBS = [
     "title": "Narrative Writer(Contractor)",
     "company": "Scopely",
     "locations": [
-      "CH - Shanghai, China"
+      "Shanghai, China"
     ],
     "remote": false,
     "rkind": null,
@@ -11828,7 +11828,7 @@ window.JOBS = [
     "title": "People Technology Project Manager",
     "company": "Scopely",
     "locations": [
-      "ES - Barcelona, Spain"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
@@ -11848,7 +11848,7 @@ window.JOBS = [
     "title": "Performance Marketing Manager",
     "company": "Scopely",
     "locations": [
-      "ES - Barcelona, Spain"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
@@ -11868,7 +11868,7 @@ window.JOBS = [
     "title": "Principal Game Designer (Feature + Systems)",
     "company": "Scopely",
     "locations": [
-      "IN - Bangalore, India"
+      "Bangalore, India"
     ],
     "remote": false,
     "rkind": null,
@@ -11890,7 +11890,7 @@ window.JOBS = [
     "title": "Principal Sofware Engineer (Unity)",
     "company": "Scopely",
     "locations": [
-      "IN - Bangalore, India"
+      "Bangalore, India"
     ],
     "remote": false,
     "rkind": null,
@@ -11913,8 +11913,8 @@ window.JOBS = [
     "title": "Principal Technical Product Manager - External Development",
     "company": "Scopely",
     "locations": [
-      "CA - Canada",
-      "US - Culver City, United States"
+      "Canada",
+      "Culver City, United States"
     ],
     "remote": false,
     "rkind": null,
@@ -11934,7 +11934,7 @@ window.JOBS = [
     "title": "Product Manager, Performance",
     "company": "Scopely",
     "locations": [
-      "IN - Bangalore, India"
+      "Bangalore, India"
     ],
     "remote": false,
     "rkind": "worldwide",
@@ -11954,7 +11954,7 @@ window.JOBS = [
     "title": "Product Marketing Manager- Monopoly Go!",
     "company": "Scopely",
     "locations": [
-      "US - Culver City, United States"
+      "Culver City, United States"
     ],
     "remote": false,
     "rkind": "worldwide",
@@ -11974,7 +11974,7 @@ window.JOBS = [
     "title": "Senior AI Security Engineer",
     "company": "Scopely",
     "locations": [
-      "IN - Bangalore, India"
+      "Bangalore, India"
     ],
     "remote": false,
     "rkind": null,
@@ -11997,7 +11997,7 @@ window.JOBS = [
     "title": "Senior Analytics Engineer",
     "company": "Scopely",
     "locations": [
-      "MX - Mexico City, Mexico"
+      "Mexico City, Mexico"
     ],
     "remote": false,
     "rkind": "worldwide",
@@ -12019,7 +12019,7 @@ window.JOBS = [
     "title": "Senior Cloud Security Engineer",
     "company": "Scopely",
     "locations": [
-      "US - Bellevue, United States"
+      "Bellevue, United States"
     ],
     "remote": false,
     "rkind": null,
@@ -12044,7 +12044,7 @@ window.JOBS = [
     "title": "Senior Director, Marketing – New Game Launch",
     "company": "Scopely",
     "locations": [
-      "ES - Barcelona, Spain"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
@@ -12064,7 +12064,7 @@ window.JOBS = [
     "title": "Senior Director of Community - New Game",
     "company": "Scopely",
     "locations": [
-      "US - United States"
+      "United States"
     ],
     "remote": false,
     "rkind": null,
@@ -12084,7 +12084,7 @@ window.JOBS = [
     "title": "Senior Game Designer - Stumble Guys!",
     "company": "Scopely",
     "locations": [
-      "ES - Barcelona, Spain"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
@@ -12104,7 +12104,7 @@ window.JOBS = [
     "title": "Senior Game Producer - Yahtzee!",
     "company": "Scopely",
     "locations": [
-      "ES - Barcelona, Spain"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
@@ -12124,7 +12124,7 @@ window.JOBS = [
     "title": "Senior/Lead 3D Character Artist",
     "company": "Scopely",
     "locations": [
-      "IN - Bangalore, India"
+      "Bangalore, India"
     ],
     "remote": false,
     "rkind": null,
@@ -12148,7 +12148,7 @@ window.JOBS = [
     "title": "Senior Producer",
     "company": "Scopely",
     "locations": [
-      "ES - Barcelona, Spain"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
@@ -12168,7 +12168,7 @@ window.JOBS = [
     "title": "Senior Product Manager - Star Trek Fleet Command",
     "company": "Scopely",
     "locations": [
-      "IN - Bangalore, India"
+      "Bangalore, India"
     ],
     "remote": false,
     "rkind": null,
@@ -12188,7 +12188,7 @@ window.JOBS = [
     "title": "Senior Software Engineer- Unity",
     "company": "Scopely",
     "locations": [
-      "IN - Bangalore, India"
+      "Bangalore, India"
     ],
     "remote": false,
     "rkind": null,
@@ -12211,7 +12211,7 @@ window.JOBS = [
     "title": "Senior Test Platform & Reliability Engineer - Star Trek Fleet Command",
     "company": "Scopely",
     "locations": [
-      "IE - Dublin, Ireland"
+      "Dublin, Ireland"
     ],
     "remote": false,
     "rkind": null,
@@ -12235,7 +12235,7 @@ window.JOBS = [
     "title": "Software Engineer (Unity)",
     "company": "Scopely",
     "locations": [
-      "IN - Bangalore, India"
+      "Bangalore, India"
     ],
     "remote": false,
     "rkind": null,
@@ -12260,7 +12260,7 @@ window.JOBS = [
     "title": "Talent Tech Analyst",
     "company": "Scopely",
     "locations": [
-      "ES - Barcelona, Spain"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
@@ -12596,7 +12596,7 @@ window.JOBS = [
     "title": "Senior Asset Artist (Hard Surface)",
     "company": "People Can Fly",
     "locations": [
-      "Warszawa, pl"
+      "Warszawa, Poland"
     ],
     "remote": true,
     "rkind": "zone",
@@ -12803,7 +12803,7 @@ window.JOBS = [
     "title": "Developer Experience (DX) Lead",
     "company": "Gameloft",
     "locations": [
-      "Bucharest, ro"
+      "Bucharest, Romania"
     ],
     "remote": false,
     "rkind": null,
@@ -12823,7 +12823,7 @@ window.JOBS = [
     "title": "Senior Game Data Analyst",
     "company": "Gameloft",
     "locations": [
-      "Ho Chi Minh City, vn"
+      "Ho Chi Minh City, Vietnam"
     ],
     "remote": true,
     "rkind": "zone",
@@ -13054,7 +13054,7 @@ window.JOBS = [
     "title": "[Dungeons & Dragons PC-Console] Chef d'équipe concepteur de quêtes  - Lead quest designer",
     "company": "Gameloft",
     "locations": [
-      "Montreal, ca"
+      "Montreal, Canada"
     ],
     "remote": false,
     "rkind": null,
@@ -13159,7 +13159,7 @@ window.JOBS = [
     "title": "Responsable du marketing cinématique - Lead Marketing Cinematic",
     "company": "Gameloft",
     "locations": [
-      "Montreal, ca"
+      "Montreal, Canada"
     ],
     "remote": false,
     "rkind": null,
@@ -13182,7 +13182,7 @@ window.JOBS = [
     "title": "Senior Level Designer",
     "company": "Gameloft",
     "locations": [
-      "Brisbane, au"
+      "Brisbane, Australia"
     ],
     "remote": false,
     "rkind": null,
@@ -13204,7 +13204,7 @@ window.JOBS = [
     "title": "2D Graphic Artist Intern",
     "company": "Gameloft",
     "locations": [
-      "Yogyakarta, id"
+      "Yogyakarta, Indonesia"
     ],
     "remote": false,
     "rkind": null,
@@ -14427,7 +14427,7 @@ window.JOBS = [
     "title": "Environment Art QA Analyst",
     "company": "CD Projekt Red",
     "locations": [
-      "Warsaw, pl"
+      "Warsaw, Poland"
     ],
     "remote": false,
     "rkind": null,
@@ -14695,7 +14695,7 @@ window.JOBS = [
     "title": "Chef d’équipe, artiste de niveau / Lead Level Artist - Remote",
     "company": "People Can Fly",
     "locations": [
-      "Montréal, ca"
+      "Montréal, Canada"
     ],
     "remote": true,
     "rkind": "zone",
@@ -14717,7 +14717,7 @@ window.JOBS = [
     "title": "Product Owner AI",
     "company": "Gameloft",
     "locations": [
-      "Paris, fr"
+      "Paris, France"
     ],
     "remote": false,
     "rkind": null,
@@ -14914,7 +14914,7 @@ window.JOBS = [
     "title": "Senior Video & Streaming Engineer",
     "company": "CD Projekt Red",
     "locations": [
-      "Warsaw, pl"
+      "Warsaw, Poland"
     ],
     "remote": false,
     "rkind": null,
@@ -15463,7 +15463,7 @@ window.JOBS = [
     "title": "Analytics Engineer",
     "company": "Scopely",
     "locations": [
-      "ES - Barcelona, Spain"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": "worldwide",
@@ -15485,7 +15485,7 @@ window.JOBS = [
     "title": "Lighting and VFX Lead",
     "company": "Scopely",
     "locations": [
-      "ES - Barcelona, Spain"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
@@ -15508,8 +15508,8 @@ window.JOBS = [
     "title": "Senior Product Manager - LiveOps Automation",
     "company": "Scopely",
     "locations": [
-      "ES - Barcelona, Spain",
-      "ES - Spain"
+      "Barcelona, Spain",
+      "Spain"
     ],
     "remote": false,
     "rkind": "worldwide",
@@ -15529,7 +15529,7 @@ window.JOBS = [
     "title": "Senior Product Manager - Unannounced Project",
     "company": "Scopely",
     "locations": [
-      "ES - Barcelona, Spain"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": "worldwide",
@@ -15549,7 +15549,7 @@ window.JOBS = [
     "title": "Senior/Software Engineer",
     "company": "Scopely",
     "locations": [
-      "ES - Barcelona, Spain"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": "worldwide",
@@ -15573,7 +15573,7 @@ window.JOBS = [
     "title": "Video Artist",
     "company": "Gameloft",
     "locations": [
-      "Bucharest, ro"
+      "Bucharest, Romania"
     ],
     "remote": false,
     "rkind": null,
@@ -15599,7 +15599,7 @@ window.JOBS = [
     "title": "Video Artist Intern - Asphalt Legends",
     "company": "Gameloft",
     "locations": [
-      "Barcelona, es"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": "worldwide",
@@ -15621,7 +15621,7 @@ window.JOBS = [
     "title": "C++ Software Engineer - Asphalt Legends",
     "company": "Gameloft",
     "locations": [
-      "Barcelona, es"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": "worldwide",
@@ -15646,7 +15646,7 @@ window.JOBS = [
     "title": "3D Character Artist - Disney Speedstorm (Temporary)",
     "company": "Gameloft",
     "locations": [
-      "Barcelona, es"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
@@ -15673,7 +15673,7 @@ window.JOBS = [
     "title": "Lead Product Manager",
     "company": "Jam City",
     "locations": [
-      "Carlsbad, CA"
+      "Carlsbad, Canada"
     ],
     "remote": false,
     "rkind": null,
@@ -15852,7 +15852,7 @@ window.JOBS = [
     "title": "2D Graphic Designer",
     "company": "Gameloft",
     "locations": [
-      "Sofia, bg"
+      "Sofia, Bulgaria"
     ],
     "remote": false,
     "rkind": null,
@@ -15920,7 +15920,7 @@ window.JOBS = [
     "title": "Designer Graphique Senior (Marketing) Contrat Temporaire - Senior Graphic Designer (Marketing) – Temporary Contract",
     "company": "Gameloft",
     "locations": [
-      "Montreal, ca"
+      "Montreal, Canada"
     ],
     "remote": false,
     "rkind": null,
@@ -16029,7 +16029,7 @@ window.JOBS = [
     "title": "Associate Director, Growth Marketing",
     "company": "Jam City",
     "locations": [
-      "Culver City, CA"
+      "Culver City, Canada"
     ],
     "remote": false,
     "rkind": null,
@@ -16049,7 +16049,7 @@ window.JOBS = [
     "title": "Growth Marketing Manager",
     "company": "Jam City",
     "locations": [
-      "Culver City, CA"
+      "Culver City, Canada"
     ],
     "remote": false,
     "rkind": null,
@@ -16111,7 +16111,7 @@ window.JOBS = [
     "title": "Chef(fe) de projet TI - IT Project Manager",
     "company": "Gameloft",
     "locations": [
-      "Montreal, ca"
+      "Montreal, Canada"
     ],
     "remote": false,
     "rkind": null,
@@ -16320,7 +16320,7 @@ window.JOBS = [
     "title": "Devops & Release Engineer",
     "company": "Gameloft",
     "locations": [
-      "Paris, fr"
+      "Paris, France"
     ],
     "remote": false,
     "rkind": null,
@@ -16344,7 +16344,7 @@ window.JOBS = [
     "title": "Senior Technical Artist",
     "company": "Gameloft",
     "locations": [
-      "Paris, fr"
+      "Paris, France"
     ],
     "remote": false,
     "rkind": null,
@@ -16370,7 +16370,7 @@ window.JOBS = [
     "title": "Embedded QA",
     "company": "Gameloft",
     "locations": [
-      "Paris, fr"
+      "Paris, France"
     ],
     "remote": false,
     "rkind": null,
@@ -16486,7 +16486,7 @@ window.JOBS = [
     "title": "AI Engineer (for Game Development)",
     "company": "Gameloft",
     "locations": [
-      "Ho Chi Minh City, vn"
+      "Ho Chi Minh City, Vietnam"
     ],
     "remote": false,
     "rkind": null,
@@ -16796,7 +16796,7 @@ window.JOBS = [
     "title": "Lighting Artist",
     "company": "People Can Fly",
     "locations": [
-      "Warszawa, pl"
+      "Warszawa, Poland"
     ],
     "remote": true,
     "rkind": "zone",
@@ -17182,7 +17182,7 @@ window.JOBS = [
     "title": "Développeur(se) d'automatisation et d'infrastructure - Infrastructure & Automation Developer",
     "company": "Gameloft",
     "locations": [
-      "Montreal, ca"
+      "Montreal, Canada"
     ],
     "remote": false,
     "rkind": null,
@@ -17373,7 +17373,7 @@ window.JOBS = [
     "title": "Artiste de personnage principal(e) / Principal Character Artist",
     "company": "People Can Fly",
     "locations": [
-      "Montréal, ca"
+      "Montréal, Canada"
     ],
     "remote": true,
     "rkind": "zone",
@@ -17884,7 +17884,7 @@ window.JOBS = [
     "title": "Software Engineer (C++) - Online/Multiplayer",
     "company": "CD Projekt Red",
     "locations": [
-      "Warsaw, pl"
+      "Warsaw, Poland"
     ],
     "remote": false,
     "rkind": null,
@@ -18144,7 +18144,7 @@ window.JOBS = [
     "title": "Expert Level Designer",
     "company": "CD Projekt Red",
     "locations": [
-      "Warsaw, pl"
+      "Warsaw, Poland"
     ],
     "remote": false,
     "rkind": null,
@@ -18725,7 +18725,7 @@ window.JOBS = [
     "title": "[Dungeons & Dragons PC-Console] Producteur(trice) - Producer",
     "company": "Gameloft",
     "locations": [
-      "Montreal, ca"
+      "Montreal, Canada"
     ],
     "remote": false,
     "rkind": null,
@@ -19630,7 +19630,7 @@ window.JOBS = [
     "title": "Senior Gameplay Designer",
     "company": "CD Projekt Red",
     "locations": [
-      "Warsaw, pl"
+      "Warsaw, Poland"
     ],
     "remote": false,
     "rkind": null,
@@ -20216,7 +20216,7 @@ window.JOBS = [
     "title": "Engineering Director",
     "company": "CD Projekt Red",
     "locations": [
-      "Warsaw, pl"
+      "Warsaw, Poland"
     ],
     "remote": false,
     "rkind": null,
@@ -20393,7 +20393,7 @@ window.JOBS = [
     "title": "DevOps Engineering Manager",
     "company": "CD Projekt Red",
     "locations": [
-      "Warsaw, pl"
+      "Warsaw, Poland"
     ],
     "remote": false,
     "rkind": null,
@@ -20652,7 +20652,7 @@ window.JOBS = [
     "title": "[Dungeons & Dragons PC-Console] Artiste de concept - Concept Artist",
     "company": "Gameloft",
     "locations": [
-      "Montreal, ca"
+      "Montreal, Canada"
     ],
     "remote": false,
     "rkind": null,
@@ -20892,7 +20892,7 @@ window.JOBS = [
     "title": "Senior Publishing Producer",
     "company": "CD Projekt Red",
     "locations": [
-      "Warsaw, pl"
+      "Warsaw, Poland"
     ],
     "remote": false,
     "rkind": null,
@@ -21250,7 +21250,7 @@ window.JOBS = [
     "title": "Artiste Technique Senior / Senior Technical Artist",
     "company": "People Can Fly",
     "locations": [
-      "Montréal, ca"
+      "Montréal, Canada"
     ],
     "remote": true,
     "rkind": "zone",
@@ -21274,7 +21274,7 @@ window.JOBS = [
     "title": "Chef d'équipe, artiste éclairagiste / Lead Lighting Artist - Remote",
     "company": "People Can Fly",
     "locations": [
-      "Montréal, ca"
+      "Montréal, Canada"
     ],
     "remote": true,
     "rkind": "zone",
@@ -22472,7 +22472,7 @@ window.JOBS = [
     "title": "Lead Producer",
     "company": "Jam City",
     "locations": [
-      "Carlsbad, CA"
+      "Carlsbad, Canada"
     ],
     "remote": false,
     "rkind": null,
@@ -23435,7 +23435,7 @@ window.JOBS = [
     "title": "Narrative Designer",
     "company": "Jam City",
     "locations": [
-      "San Francisco, CA"
+      "San Francisco, Canada"
     ],
     "remote": false,
     "rkind": null,
