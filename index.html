@@ -2160,6 +2160,7 @@
     const shown = filtered();
     listEl.innerHTML = "";
     if (!shown.length){
+      reportEmptySearch();
       const q = state.query ? ' «'+esc(state.query)+'»' : "";
       // Предлагаем снять конкретные условия: обычно мешает одно из них,
       // а «сбросить всё» заставляет настраивать заново.
@@ -2556,6 +2557,83 @@
     el.hidden = false;
     clearTimeout(toastTimer);
     toastTimer = setTimeout(() => { el.hidden = true; }, 6000);
+  }
+
+  // ------------------------------------------------------------ диагностика
+  // Чинить можно только то, о чём знаешь. Самое ценное — не жалобы, а тихие
+  // неудачи: человек что-то искал, ничего не нашёл и молча ушёл. Собираем их.
+  //
+  // Ничего не отправляется, пока человек не разрешил аналитику: запрос — это
+  // текст, который он написал сам, и относиться к нему надо соответственно.
+  const DIAG_MAX = 6;               // не больше шести сообщений за визит
+  let diagSent = 0;
+  const diagSeen = new Set();
+
+  function statsAllowed(){
+    try { return store.getItem("stats") === "yes"; } catch(e){ return false; }
+  }
+
+  function diag(kind, detail, extra){
+    if (!statsAllowed() || !CFG.diagForm || diagSent >= DIAG_MAX) return;
+    const key = kind + "|" + detail;
+    if (diagSeen.has(key)) return;
+    diagSeen.add(key);
+    diagSent++;
+    postToForm(CFG.diagForm, {
+      kind: kind,
+      detail: String(detail).slice(0, 300),
+      extra: String(extra || "").slice(0, 300),
+      page: location.pathname + location.search.slice(0, 200)
+    });
+  }
+
+  // Раз в сутки — что человек ищет и не находит, а не каждое нажатие клавиши
+  function diagOncePerDay(kind, detail, extra){
+    const today = new Date().toISOString().slice(0, 10);
+    const key = "diag:" + kind + ":" + today;
+    try {
+      if (store.getItem(key)) return;
+      store.setItem(key, "1");
+    } catch(e){}
+    diag(kind, detail, extra);
+  }
+
+  // Ошибка скрипта у человека в браузере — то, чего мы у себя не увидим никогда
+  window.addEventListener("error", e => {
+    diag("ошибка", (e.message || "?") + " @ " + (e.filename || "").split("/").pop() +
+                   ":" + (e.lineno || 0), navigator.userAgent);
+  });
+  window.addEventListener("unhandledrejection", e => {
+    diag("ошибка", "промис: " + String(e.reason).slice(0, 150), navigator.userAgent);
+  });
+
+  let emptyTimer;
+  function reportEmptySearch(){
+    clearTimeout(emptyTimer);
+    // Ждём, пока человек допечатает: иначе «кон» и «конц» уедут как две неудачи
+    emptyTimer = setTimeout(() => {
+      const q = state.query;
+      if (!q || q.length < 3) return;
+      const filters = [];
+      state.role.forEach(v => filters.push(v));
+      state.spec.forEach(v => filters.push(v));
+      state.stack.forEach(v => filters.push(v));
+      state.rkind.forEach(v => filters.push(v));
+      state.grade.forEach(v => filters.push(v));
+      if (state.remote) filters.push("удалёнка");
+      if (state.salary) filters.push("с зарплатой");
+      diag("пустой поиск", q, filters.join(", "));
+    }, 1800);
+  }
+
+  // Места, которые не опознались ни как город, ни как страна: по ним видно,
+  // что пора дописать в словарь.
+  function reportOddPlaces(){
+    const odd = [];
+    counts("location").forEach(([loc]) => {
+      if (!geoKeys(loc).length && !PLACE_RU[loc.toLowerCase()]) odd.push(loc);
+    });
+    if (odd.length) diagOncePerDay("странные места", odd.slice(0, 12).join(" | "), odd.length);
   }
 
   function renderActiveTags(){
@@ -3459,6 +3537,7 @@
 
   applyTheme();
   urlToState();
+  setTimeout(reportOddPlaces, 4000);   // не мешаем первой отрисовке
   placeFilters();
   applyLang();
   if (!JOBS.length){
