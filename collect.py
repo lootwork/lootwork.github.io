@@ -338,6 +338,22 @@ BREAK_RE = re.compile(r"</(p|div|h\d|ul|ol|tr)>|<br\s*/?>", re.I)
 MAX_DESC = 6000
 
 
+def cut_desc(text: str) -> str:
+    """Режем длинный текст по границе абзаца или хотя бы слова.
+    Обрыв посреди слова («We may use artifici») выглядит как поломка."""
+    t = str(text or "")
+    if len(t) <= MAX_DESC:
+        return t
+    cut = t.rfind("\n\n", 0, MAX_DESC)
+    if cut < MAX_DESC * 0.5:
+        cut = t.rfind("\n", 0, MAX_DESC)
+    if cut < MAX_DESC * 0.5:
+        cut = t.rfind(" ", 0, MAX_DESC)
+    if cut < MAX_DESC * 0.5:
+        cut = MAX_DESC
+    return t[:cut].rstrip(" ,;:-—") + "…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии."
+
+
 def html_to_text(raw):
     """Из HTML вакансии делаем читаемый текст: абзацы и маркеры списка."""
     if not raw:
@@ -369,9 +385,7 @@ def html_to_text(raw):
     t = "\n".join(line.strip() for line in t.split("\n"))
     t = t.strip()
 
-    if len(t) > MAX_DESC:
-        cut = t.rfind("\n", 0, MAX_DESC)
-        t = t[:cut if cut > MAX_DESC * 0.6 else MAX_DESC].rstrip() + "…"
+    t = cut_desc(t)
     return t or None
 
 
@@ -748,7 +762,7 @@ def lever_desc(job):
             parts.append(body)
     parts.append(html_to_text(job.get("additional")))
     text = "\n".join(p for p in parts if p)
-    return text[:MAX_DESC] or None
+    return cut_desc(text) or None
 
 
 
@@ -783,7 +797,7 @@ def fetch_ashby(company: dict):
             "salary": comp.get("compensationTierSummary") or salary_from_text(desc),
             "posted": (job.get("publishedAt") or "")[:10] or None,
             "url": job.get("jobUrl") or job.get("applyUrl"),
-            "desc": desc[:MAX_DESC] if desc else None,
+            "desc": cut_desc(desc) if desc else None,
             "source": "ashby",
             "site": company.get("site"),
         })
@@ -886,7 +900,7 @@ def smartrecruiters_desc(token, job_id):
             title = (block.get("title") or "").strip()
             parts.append((title + "\n" if title else "") + text)
     joined = "\n\n".join(parts)
-    return joined[:MAX_DESC] or None
+    return cut_desc(joined) or None
 
 
 FETCHERS = {
@@ -1174,6 +1188,225 @@ def write_history(jobs, today):
 # Сайт человек может закрыть и забыть. Подписка — единственный способ
 # вернуться к нему завтра, поэтому новые вакансии уходят ещё и в канал.
 # Ключ бота и адрес канала лежат в секретах гитхаба, в коде их нет.
+
+# Города и страны студии пишут по-английски, а отдельные страницы у нас
+# русские. Словарь тот же, что на витрине.
+PLACE_RU = {
+    "poland": "Польша",
+    "germany": "Германия",
+    "france": "Франция",
+    "spain": "Испания",
+    "italy": "Италия",
+    "united kingdom": "Британия",
+    "uk": "Британия",
+    "england": "Англия",
+    "united states": "США",
+    "usa": "США",
+    "canada": "Канада",
+    "sweden": "Швеция",
+    "finland": "Финляндия",
+    "norway": "Норвегия",
+    "denmark": "Дания",
+    "netherlands": "Нидерланды",
+    "belgium": "Бельгия",
+    "austria": "Австрия",
+    "switzerland": "Швейцария",
+    "czech republic": "Чехия",
+    "czechia": "Чехия",
+    "slovakia": "Словакия",
+    "hungary": "Венгрия",
+    "romania": "Румыния",
+    "bulgaria": "Болгария",
+    "greece": "Греция",
+    "portugal": "Португалия",
+    "ireland": "Ирландия",
+    "serbia": "Сербия",
+    "croatia": "Хорватия",
+    "slovenia": "Словения",
+    "cyprus": "Кипр",
+    "turkey": "Турция",
+    "türkiye": "Турция",
+    "ukraine": "Украина",
+    "russia": "Россия",
+    "belarus": "Беларусь",
+    "kazakhstan": "Казахстан",
+    "georgia": "Грузия",
+    "armenia": "Армения",
+    "azerbaijan": "Азербайджан",
+    "lithuania": "Литва",
+    "latvia": "Латвия",
+    "estonia": "Эстония",
+    "israel": "Израиль",
+    "uae": "ОАЭ",
+    "india": "Индия",
+    "china": "Китай",
+    "japan": "Япония",
+    "south korea": "Южная Корея",
+    "korea": "Южная Корея",
+    "singapore": "Сингапур",
+    "vietnam": "Вьетнам",
+    "malaysia": "Малайзия",
+    "indonesia": "Индонезия",
+    "philippines": "Филиппины",
+    "thailand": "Таиланд",
+    "hong kong": "Гонконг",
+    "taiwan": "Тайвань",
+    "australia": "Австралия",
+    "new zealand": "Новая Зеландия",
+    "brazil": "Бразилия",
+    "mexico": "Мексика",
+    "argentina": "Аргентина",
+    "chile": "Чили",
+    "malta": "Мальта",
+    "cis": "СНГ",
+    "europe": "Европа",
+    "iberia": "Иберия",
+    "paris": "Париж",
+    "kraków": "Краков",
+    "krakow": "Краков",
+    "warsaw": "Варшава",
+    "warszawa": "Варшава",
+    "wrocław": "Вроцлав",
+    "wroclaw": "Вроцлав",
+    "gdansk": "Гданьск",
+    "poznan": "Познань",
+    "berlin": "Берлин",
+    "hamburg": "Гамбург",
+    "munich": "Мюнхен",
+    "frankfurt": "Франкфурт",
+    "cologne": "Кёльн",
+    "london": "Лондон",
+    "brighton": "Брайтон",
+    "guildford": "Гилфорд",
+    "manchester": "Манчестер",
+    "cambridge": "Кембридж",
+    "oxford": "Оксфорд",
+    "dublin": "Дублин",
+    "amsterdam": "Амстердам",
+    "eindhoven": "Эйндховен",
+    "gent": "Гент",
+    "ghent": "Гент",
+    "brussels": "Брюссель",
+    "barcelona": "Барселона",
+    "madrid": "Мадрид",
+    "valencia": "Валенсия",
+    "lisboa": "Лиссабон",
+    "lisbon": "Лиссабон",
+    "milan": "Милан",
+    "rome": "Рим",
+    "stockholm": "Стокгольм",
+    "malmö": "Мальмё",
+    "gothenburg": "Гётеборг",
+    "helsinki": "Хельсинки",
+    "espoo": "Эспоо",
+    "tampere": "Тампере",
+    "oslo": "Осло",
+    "copenhagen": "Копенгаген",
+    "tallinn": "Таллин",
+    "vilnius": "Вильнюс",
+    "riga": "Рига",
+    "prague": "Прага",
+    "praha": "Прага",
+    "brno": "Брно",
+    "bratislava": "Братислава",
+    "budapest": "Будапешт",
+    "bucharest": "Бухарест",
+    "cluj": "Клуж",
+    "belgrade": "Белград",
+    "novi sad": "Нови-Сад",
+    "zagreb": "Загреб",
+    "ljubljana": "Любляна",
+    "sofia": "София",
+    "athens": "Афины",
+    "nicosia": "Никосия",
+    "limassol": "Лимасол",
+    "larnaca": "Ларнака",
+    "istanbul": "Стамбул",
+    "ankara": "Анкара",
+    "izmir": "Измир",
+    "sarıyer": "Сарыер",
+    "kyiv": "Киев",
+    "kiev": "Киев",
+    "lviv": "Львов",
+    "kharkiv": "Харьков",
+    "karkiv": "Харьков",
+    "minsk": "Минск",
+    "moscow": "Москва",
+    "perm": "Пермь",
+    "vladivostok": "Владивосток",
+    "novosibirsk": "Новосибирск",
+    "kazan": "Казань",
+    "tbilisi": "Тбилиси",
+    "tblisi": "Тбилиси",
+    "batumi": "Батуми",
+    "yerevan": "Ереван",
+    "baku": "Баку",
+    "almaty": "Алматы",
+    "astana": "Астана",
+    "tel aviv": "Тель-Авив",
+    "raanana": "Раанана",
+    "herzliya": "Герцлия",
+    "montreal": "Монреаль",
+    "montréal": "Монреаль",
+    "quebec": "Квебек",
+    "québec": "Квебек",
+    "toronto": "Торонто",
+    "vancouver": "Ванкувер",
+    "burnaby": "Бернаби",
+    "ottawa": "Оттава",
+    "new york": "Нью-Йорк",
+    "los angeles": "Лос-Анджелес",
+    "san francisco": "Сан-Франциско",
+    "san mateo": "Сан-Матео",
+    "seattle": "Сиэтл",
+    "austin": "Остин",
+    "novato": "Новато",
+    "cary": "Кэри",
+    "frisco": "Фриско",
+    "dallas": "Даллас",
+    "chicago": "Чикаго",
+    "boston": "Бостон",
+    "shanghai": "Шанхай",
+    "beijing": "Пекин",
+    "shenzhen": "Шэньчжэнь",
+    "guangzhou": "Гуанчжоу",
+    "tokyo": "Токио",
+    "osaka": "Осака",
+    "seoul": "Сеул",
+    "bangalore": "Бангалор",
+    "bengaluru": "Бангалор",
+    "hyderabad": "Хайдарабад",
+    "pune": "Пуна",
+    "mumbai": "Мумбаи",
+    "ho chi minh city": "Хошимин",
+    "hanoi": "Ханой",
+    "kuala lumpur": "Куала-Лумпур",
+    "jakarta": "Джакарта",
+    "manila": "Манила",
+    "bangkok": "Бангкок",
+    "sydney": "Сидней",
+    "melbourne": "Мельбурн",
+    "brisbane": "Брисбен",
+    "auckland": "Окленд",
+    "sao paulo": "Сан-Паулу",
+    "são paulo": "Сан-Паулу",
+    "buenos aires": "Буэнос-Айрес",
+    "mexico city": "Мехико",
+}
+
+
+def place_ru(loc: str) -> str:
+    parts = []
+    for part in str(loc or "").split(","):
+        clean = part.strip()
+        if clean:
+            parts.append(PLACE_RU.get(clean.lower(), clean))
+    return ", ".join(parts)
+
+
+def places_ru(locs):
+    return [place_ru(l) for l in (locs or [])]
+
 
 RKIND_WORD = {"worldwide": "удалёнка по миру", "zone": "удалёнка в регионе",
               "hybrid": "гибрид"}
@@ -1625,7 +1858,7 @@ PAGE_CSS = """:root{--void:#0c0a1a;--panel:#15122b;--panel-2:#1c1838;--line:#2c2
    из настройки его системы. Иначе страница вакансии светит тёмным в глаза. */
 :root[data-theme="light"]{--void:#f6f5fb;--panel:#ffffff;--panel-2:#f1eff9;
 --line:#d9d5ec;--line-soft:#e7e4f3;--text:#191634;--muted:#6a6392;
---amber:#b06c00;--cyan:#0a7c9e;--apply-text:#fff}
+--amber:#e08a10;--cyan:#0a7c9e;--apply-text:#2a1a00}
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--void);color:var(--text);line-height:1.6;
 font-family:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:15px}
@@ -1749,11 +1982,11 @@ def job_ld(j):
 
 
 def job_page(j, same_company):
-    where = ", ".join(j.get("locations") or []) or "локация не указана"
+    where = ", ".join(places_ru(j.get("locations"))) or "локация не указана"
     tags = []
     if j.get("remote") or j.get("rkind"):
         tags.append(('<span class="tag remote">'
-                     + esc(RKIND_WORD.get(j.get("rkind"), "удалёнка")) + "</span>"))
+                     + esc(RKIND_WORD.get(j.get("rkind"), "удалёнка").capitalize()) + "</span>"))
     if j.get("pool"):
         tags.append('<span class="tag">заявка в резерв</span>')
     for v in [j.get("grade"), j.get("role"), j.get("spec")]:
@@ -1766,7 +1999,7 @@ def job_page(j, same_company):
     if same_company:
         rows = "".join(
             f'<a class="card" href="../{esc(o["id"])}/"><div>{esc(o["title"])}</div>'
-            f'<div class="cmp">{esc(", ".join(o.get("locations") or []) or "—")}</div></a>'
+            f'<div class="cmp">{esc(", ".join(places_ru(o.get("locations"))) or "—")}</div></a>'
             for o in same_company[:6])
         near = f'<h2>Ещё в {esc(j["company"])}</h2>{rows}'
 
@@ -1816,7 +2049,7 @@ def facts_block(jobs, depth):
         parts.append(f"<h2>Студии</h2><p>{links}</p>")
     if top_p:
         parts.append("<h2>Города и страны</h2><p>" +
-                     ", ".join(f"{esc(n)} ({c})" for n, c in top_p) + "</p>")
+                     ", ".join(f"{esc(place_ru(n))} ({c})" for n, c in top_p) + "</p>")
     return "".join(parts)
 
 
@@ -1824,7 +2057,7 @@ def list_page(heading, intro, jobs, canonical, depth, extra=""):
     rows = "".join(
         f'<a class="card" href="{"../" * depth}job/{esc(j["id"])}/"><div>{esc(j["title"])}</div>'
         f'<div class="cmp">{esc(j["company"])} · '
-        f'{esc(", ".join(j.get("locations") or []) or "локация не указана")}</div></a>'
+        f'{esc(", ".join(places_ru(j.get("locations"))) or "локация не указана")}</div></a>'
         for j in jobs)
     body = (f"<h1>{esc(heading)}</h1><div class=\"sub\">{esc(intro)}</div>"
             f"{extra}"

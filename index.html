@@ -42,6 +42,7 @@
     --pink:#ff6ba3;
 
     --shadow:rgba(0,0,0,.45);
+    --apply-text:#231602;
     --grid:rgba(255,255,255,.011);
     --glow:rgba(124,77,255,.13);
     --noise:.02;
@@ -70,8 +71,9 @@
     --line-soft:#e7e4f3;
     --text:#191634;
     --muted:#6a6392;
-    --amber:#b06c00;
+    --amber:#e08a10;
     --amber-deep:#fdf0d8;
+    --apply-text:#2a1a00;
     --cyan:#0a7c9e;
     --cyan-deep:#e0f4fa;
     --pink:#c33d78;
@@ -319,7 +321,7 @@
   .card-bottom{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:13px}
   /* Янтарь — самый сильный цвет в палитре. В ленте человек ещё сравнивает,
      поэтому там кнопка спокойная; сплошной янтарь остаётся окну вакансии. */
-  .apply{background:var(--amber);color:#fff;text-decoration:none;font-weight:700;
+  .apply{background:var(--amber);color:var(--apply-text, #2a1a00);text-decoration:none;font-weight:700;
     font-size:13.5px;padding:10px 20px;border-radius:9px;font-family:var(--body)}
   .apply:hover{filter:brightness(1.1)}
   .card .apply{background:transparent;color:var(--amber);border:1px solid var(--amber-line);font-weight:600}
@@ -384,7 +386,7 @@
   .btn{flex:1;font-family:var(--body);font-size:14px;font-weight:600;padding:13px;border-radius:11px;
     cursor:pointer;border:1px solid var(--line);background:var(--panel-2);color:var(--text)}
   .btn:hover{border-color:var(--cyan);color:var(--cyan)}
-  .btn.primary{background:var(--amber);color:#fff;border-color:var(--amber)}
+  .btn.primary{background:var(--amber);color:var(--apply-text, #2a1a00);border-color:var(--amber)}
   .btn.primary:hover:not(:disabled){filter:brightness(1.1)}
   .btn.primary:disabled{opacity:.35;cursor:default}
 
