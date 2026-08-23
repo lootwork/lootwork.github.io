@@ -28,7 +28,7 @@ window.JOBS = [
       "Python",
       "TypeScript"
     ],
-    "descRu": "Moon Active — одна из самых быстрорастущих компаний в сфере мобильных игр. Её продуктами пользуются миллионы активных игроков по всему миру, а штаб-квартира находится в центре Тель-Авива.\n\nКомпания ищет опытного Full Stack разработчика, увлечённого современными технологиями, который сыграет значимую роль в разработке новых приложений на базе AI.\n\nОбязанности\n\n• Проектировать и разрабатывать инновационные современные AI-приложения и продукты.\n• Работать с cross-functional teams: понимать business requirements и превращать их в технические спецификации для AI-driven applications.\n• Самостоятельно вести проекты от идеи до production.\n• Работать в динамичной среде, где код напрямую влияет на рост и эффективность компании.\n\nТребования\n\n• 5+ лет опыта software development.\n• B.Sc./M.Sc. in Computer Science или эквивалентное образование/опыт.\n• Уверенное владение современными языками: Python, TypeScript или Go.\n• Глубокое понимание современных architectures: microservices, event-driven systems, cloud-native deployments.\n• Практический опыт agentic coding и agent-based development workflows.\n• Сильные навыки frontend development и понимание user experience.\n• Знакомство с AI/ML APIs, context engineering или orchestration frameworks вроде LangChain будет большим плюсом."
+    "hasRu": true
   },
   {
     "id": "gh-wargaming-8138994",
@@ -49,7 +49,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
-    "descRu": "Wargaming ищет System Designer / Business Analyst для World of Tanks.\n\nВ этой роли предстоит помогать формировать features и systems: анализировать business requirements, превращать их в понятные specifications и обеспечивать единое понимание задачи всеми stakeholders. Работа ведётся вместе с designers, developers и product teams, чтобы связать бизнес-цели с реализацией и delivery. Это возможность работать с крупным live-продуктом на миллионы игроков и со временем брать более широкую ownership-зону, включая Feature Owner.\n\nЧто предстоит делать\n\n• Определять stakeholders и степень их влияния на feature; формулировать concept, goals и objectives и согласовывать их с ключевыми сторонами.\n• Работать с feature team, Publishing, Analytics, Art, Content Operations, UX/UI, Game Balance, Game Design и другими disciplines над vision и содержанием feature.\n• Собирать, анализировать и утверждать конечные requirements.\n• Консультировать специалистов, участвующих в разработке, delivery и поддержке feature.\n• Поддерживать requirements актуальными во время разработки.\n• После релиза анализировать performance feature и представлять результаты stakeholders.\n• Формировать дальнейший development plan.\n\nТребования\n\n• 3+ года релевантного опыта.\n• Знание современных software-development methodologies.\n• Понимание project/product lifecycle.\n• Базовое знание architecture информационных систем.\n• Теория business/system analysis и современные practices работы с requirements.\n• Умение структурированно излагать материал и находить нужных stakeholders.\n• Interviewing / requirements gathering.\n• Умение выявлять, классифицировать, анализировать, тестировать, документировать и приоритизировать requirements.\n• Навык написания technical specifications и визуализации requirements.\n• Умение согласовывать requirements.\n• English B1+.\n\nБудет преимуществом\n\n• Process modeling.\n• Базовые usability и prototyping.\n• Основы probability theory, statistics и mathematical analysis.\n• Хорошее знание World of Tanks.\n\nФормат работы\n\nHybrid: 2–3 дня в офисе, либо remote из любой точки Украины. Relocation и immigration support для этой роли не предусмотрены.\n\nЛьготы в Киеве\n\n24 рабочих дня отпуска + 6 personal days в год, карьерное обучение, premium private healthcare, mental-wellbeing program iFeel, bonuses к важным событиям, 50% компенсация английского, employee discounts, Personal Gaming Account, office snacks, events, seniority awards и referral program.\n\nCV необходимо отправить на английском языке."
+    "hasRu": true
   },
   {
     "id": "gh-tripledot-belka-4955754101",
@@ -70,7 +70,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
-    "descRu": "Tripledot Studios — одна из крупнейших независимых mobile-games компаний: более 2 500 сотрудников в 12 studios, крупное портфолио мобильных игр и свыше 25 млн daily active users.\n\nРоль открыта внутри Lion Studios, mobile-games publisher из San Francisco. Компания помогает mobile developers выводить игры на глобальную аудиторию; с 2018 года 90% её игр попадали в Top 10 App Store/Google Play, а 16 проектов занимали первое место в US App Store Top Free.\n\nLion Studios ищет двух Product Managers для live operations и product strategy puzzle-направлений Word и Sort. Конкретный subpod выбирается во время интервью в зависимости от background и сильных сторон кандидата.\n\nОбязанности\n\n• Владеть product roadmap и ежедневными решениями по live games в рамках стратегии Senior Product Manager.\n• Вести live ops: events, updates и promotions, повышающие revenue и player satisfaction.\n• Поддерживать growth strategy вместе с marketing и design teams.\n• Участвовать в monetization strategy и long-term vision новых puzzle titles ещё на стадии development.\n• Анализировать market/genre trends и превращать их в конкретные рекомендации для роста competitiveness и revenue.\n• Развивать культуру открытого обмена знаниями, constructive challenge и ownership результатов.\n\nТребования\n\n• 3+ года product management в live mobile games или эквивалентный опыт.\n• Сильные communication/collaboration skills и работа с distributed cross-disciplinary teams.\n• Глубокое знание game analytics и mobile-game KPIs.\n• Понимание live operations, marketing и event strategies.\n• Опыт построения и работы с long-term production pipelines, включая design-production processes.\n• Опыт вывода новой игры от development до global launch — сильный плюс.\n\nУсловия, указанные в доступной части описания\n\n25 дней оплачиваемого отпуска плюс государственные праздники, continuous professional development и дополнительная медицинская страховка с годовым бюджетом €1,200 на расходы вне public plans."
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-890966e8-3b75-48e2-866f-1acc05484a77",
@@ -92,7 +92,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ja",
     "stack": [],
-    "descRu": "О роли\n\nЭта позиция отвечает за планирование и реализацию стратегии digital marketing на японском рынке. В работе используются сайт, SEO, content marketing, digital advertising, email marketing, marketing automation и социальные сети — для роста узнаваемости бренда, lead generation, customer engagement и создания pipeline.\n\nРоль тесно взаимодействует с другими командами, чтобы локальные digital-инициативы соответствовали бизнес-целям Xsolla в Японии. Нужен специалист, который способен не только формировать стратегию, но и hands-on вести кампании, создавать и управлять контентом и доводить инициативы до результата.\n\nО компании\n\nXsolla — глобальная commerce-компания, предоставляющая инструменты и сервисы для решения задач игровой индустрии. С Xsolla работают разработчики всех масштабов — от indie до AAA — для финансирования, дистрибуции, маркетинга и монетизации игр. Компания базируется в Лос-Анджелесе и выступает Merchant of Record. Xsolla помогла более чем 1500 разработчикам выйти к большей аудитории и развивать бизнес по всему миру.\n\nПодробнее: https://www.xsolla.com\n\nОбязанности\n\n1. Digital Marketing Strategy\n\n• Разрабатывать и реализовывать digital-marketing стратегию для Японии.\n• Локализовать Global/APAC marketing strategy под японский рынок.\n• Планировать digital-инициативы, которые повышают brand awareness, приводят leads, увеличивают engagement и создают pipeline.\n\n2. Website & SEO\n\n• Планировать, вести и улучшать японский сайт и landing pages.\n• Разрабатывать и реализовывать SEO strategy, исследовать и анализировать keywords.\n• Работать с Global Web и Design teams.\n\n3. Content Marketing\n\n• Планировать и создавать для японского рынка blog posts, white papers, case studies, slide videos с AI-инструментами и другой контент.\n• Локализовать и переводить global content для Японии.\n• Разрабатывать SEO-oriented content strategy.\n• Анализировать performance контента и улучшать его.\n• Выбирать темы с учётом японской игровой индустрии и потребностей клиентов.\n\n4. Digital Campaign & Lead Generation\n\n• Планировать и запускать digital-ad campaigns во взаимодействии с HQ.\n• Создавать integrated campaigns с landing pages, email, advertising и другими каналами.\n\n5. CRM & Marketing Automation\n\n• Планировать и вести email marketing и newsletters.\n• Использовать marketing automation, в частности HubSpot, для lead nurturing.\n• Сегментировать клиентов и prospects.\n• Управлять и улучшать данные Campaign Member и Lead.\n\n6. Data & Performance Analytics\n\n• Регулярно готовить marketing-performance reports.\n• Анализировать маркетинговые данные через Google Analytics, Looker Studio, CRM и аналогичные инструменты; такой опыт будет преимуществом.\n\n7. Cross-functional Collaboration\n\n• Вести digital campaigns до и после мероприятий.\n• Обмениваться best practices с Global Marketing и APAC Marketing.\n• Координировать проекты с Design и другими командами.\n\nТребования и навыки\n\n• 3–5+ лет опыта в Digital Marketing.\n• Опыт B2B Marketing желателен.\n• Практический опыт не только перевода, но и самостоятельного создания контента для website, SEO, content marketing, digital advertising и email marketing.\n• Опыт полного цикла digital campaign — от планирования до реализации.\n\nБудет плюсом\n\n• Базовое понимание CRM/Marketing Automation — Salesforce, HubSpot и т. п.\n• Практическое знание SEO и Content Marketing.\n• Анализ и улучшение organic traffic и conversion rate.\n• Оптимизация user journey и conversion paths на сайте.\n• Data-driven улучшение инициатив и поддержка принятия решений.\n• Аналитика маркетинговых данных через Google Analytics, CRM и т. п.\n• Управление KPI: website traffic, conversion, MQL, pipeline.\n\nЯзыки\n\n• Японский — native level.\n• Английский — business level или выше.\n\nКого ищут\n\n• Человека, который гибко реагирует на быстрые изменения и воспринимает их позитивно.\n• Умеет работать с разными командами и конструктивно принимать feedback.\n• Интересуется одновременно цифрами и креативом.\n• Не ограничивается исполнением указаний, а самостоятельно находит проблемы и действует.\n• Активно изучает новые Digital Marketing и AI tools.\n\nОбязанности позиции со временем могут меняться в соответствии с целями организации и развитием сотрудника. После финального интервью Xsolla может проводить background checks там, где это разрешено законом. Компания заявляет о конфиденциальном обращении с информацией кандидатов и соблюдении применимого законодательства о защите данных, включая японский APPI. Вопросы о privacy: careers@xsolla.com.\n\nДругие вакансии: https://xsolla.com/careers"
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-63efc53d-ecee-45e4-8f64-f1c4ed7e0a92",
@@ -115,7 +115,7 @@ window.JOBS = [
     "stack": [
       "SQL"
     ],
-    "descRu": "Xsolla ищет technical product manager с глубокой экспертизой в data и identity platforms, который будет отвечать за слой данных, определяющий, что advertising business знает об игроке.\n\nXsolla обрабатывает game-commerce transactions более чем для 1 500 developers. Эти данные дают рекламному бизнесу стратегическое преимущество, но сейчас лишь небольшая их часть доходит до advertising stack в пригодном для использования виде. Роль должна построить не набор разовых pipelines, а полноценную platform, которой смогут пользоваться другие teams.\n\nОбязанности\n\n• Владеть identity/data platform для advertising и определить, какие данные из transaction layer нужны advertisers.\n• Спроектировать interface между customer data platform и ads stack; превратить Xsolla ID/Identity layer в продукт для targeting и audience segmentation.\n• Создать canonical event taxonomy/schema для web и app surfaces, включая полный funnel и server-side validation.\n• Отвечать за attribution и signal collection: MMP integration, historical backfill, SDK-side signals, device и identity resolution.\n• Владеть reporting APIs и Dashboard APIs для scalable client integrations с Xsolla Ads Platform.\n• Задать real-time event path для impressions, clicks и conversions, чтобы attribution и ranking models получали события вовремя.\n• Определить и поддерживать data contracts: format, destination, freshness и completeness guarantees для ML, ads operations и customer reporting; измерять соблюдение гарантий.\n• Обеспечить privacy compliance с GDPR, CCPA и ATT, включая SKAdNetwork, consent management и identity frameworks.\n• Совместно с data engineering, backend и SDK engineering выстроить последовательность реализации по спецификациям, понятным без постоянного участия PM.\n\nТребования\n\n• 6+ лет product management; 3+ года ownership data/identity/measurement platform, где результат — interface для других teams, а не просто dashboard.\n• Глубокое знание ad-tech: campaign hierarchies, multi-touch/view-through attribution, segmentation и personalization.\n• Понимание MMP postbacks AppsFlyer, Adjust, Singular.\n• Event taxonomy/schema governance и опыт наведения порядка в legacy data.\n• Kafka, Snowflake, BigQuery, Spark, Airflow, dbt на уровне, достаточном для архитектурных решений и переговоров с SDK/web engineering.\n• Privacy-preserving measurement: SKAdNetwork, деградация GAID/IDFA, consent systems и влияние signal loss на targeting/attribution.\n• Сильная discipline работы с data contracts и observability guarantees.\n• Leadership, stakeholder management и коммуникация с technical/non-technical teams.\n• Bachelor/Master in CS, Engineering, Statistics или близкой области.\n\nПлюсом будут\n\nIAB/MRC/OMSDK standards, CDP implementation, oRTB/exchange integrations, games/game commerce, SQL и способность читать Go или похожий backend code."
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-50968b51-3346-412d-b7f7-9874f4829435",
@@ -138,7 +138,7 @@ window.JOBS = [
     "stack": [
       "SQL"
     ],
-    "descRu": "Xsolla ищет technical PM, который будет отвечать не только за roadmap ML-системы, но и за то, какую цель модель оптимизирует. Роль владеет recommendation/ranking engine рекламных продуктов Xsolla — системой, определяющей, какие offers увидят миллионы игроков и в каком порядке.\n\nНужен человек с глубоким пониманием recommendation/ranking systems, экспериментального дизайна и ad economics, способный честно связывать model performance с revenue и не делать выводов, которые данные не поддерживают.\n\nОбязанности\n\n• Владеть recommendation engine как продуктом: ranking, relevance и model roadmap.\n• Определять objective функции ranker, constraints, guardrails и kill conditions. Сейчас target — eCPM, дальнейшее развитие будет частью ownership роли.\n• Определять metric definitions для всей команды и разрешать неоднозначности вроде gross vs publisher-side RPU, app-load vs impression-user denominators, mean daily values vs window totals.\n• Работать с ML над experiment design и hold-outs: pre-registered decision rules, power calculations, sample-ratio-mismatch checks, A/A validation, multiplicity correction, rollback triggers.\n• Вместе с Data Science оценивать model performance и готовить business readouts: что модель сделала, какой ценой и что делать дальше.\n• Представлять ranking perspective в общей ads roadmap на стыках pricing, identity и event telemetry.\n\nТребования\n\n• 6+ лет product management; 3+ года ownership recommendation/ranking/personalization/relevance system в production.\n• Глубокое знание experiment design/inference: MDE, statistical power, sample ratio mismatch, A/A tests, multiple-comparison correction, pre-registration.\n• Working knowledge ML: classification/regression, probability calibration, predicted conversion rate, expected-value objectives и влияние objective на model behavior.\n• Практика Snowflake, BigQuery, Spark, Airflow, dbt, MLflow, Vertex AI, feature stores.\n• Опыт вывода model changes в production traffic через controlled experiments.\n• Performance-advertising economics: eCPM, RPU, bid multipliers, campaign hierarchies, attribution.\n• Самостоятельный SQL и способность читать application code, чтобы проверять assumptions.\n• Сильная письменная коммуникация: specs, decision records и experiment readouts должны быть понятны другим teams без присутствия автора.\n• Bachelor/Master in CS, Engineering, Statistics, Economics или близкой области.\n\nПлюсом будут\n\nOfferwall/rewarded ads/loyalty/mobile monetization, two-stage ranking, pricing/yield/marketplace systems.\n\nВ доступной части описания также указано, что Xsolla применяет background check для роли, включая criminal history, employment и education verification в рамках Fair Chance Act."
+    "hasRu": true
   },
   {
     "id": "rc-11-bit-studios-2713417",
@@ -160,7 +160,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-gram-games-6146099004",
@@ -180,7 +181,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7731213003",
@@ -206,7 +208,7 @@ window.JOBS = [
       "Unreal",
       "Python"
     ],
-    "descRu": "Кто мы\n\nGearbox Studio Québec объединяет команду выдающихся специалистов, которых объединяет страсть к созданию отмеченных наградами и знаковых видеоигр. Наши богатые игровые вселенные развиваются через трансмедийные истории, живые мероприятия и сопутствующие продукты, предлагая игрокам незабываемые захватывающие приключения.\n\nСтудия известна работой над такими успешными сериями, как Borderlands, Tiny Tina’s Wonderlands и Brothers in Arms, а также дальнейшим развитием культовых франшиз Duke Nukem, Risk of Rain и Homeworld.\n\nУ Gearbox есть офисы в Канаде — в Квебеке и Монреале. Gearbox Studio Québec входит в состав 2K, издательского лейбла Take-Two Interactive Software, Inc. (NASDAQ: TTWO).\n\nПодробнее: www.GearboxSoftware.com.\n\nКого мы ищем\n\nМы ищем старшего технического художника UI, который присоединится к нашей команде. Вы будете задавать стандарты создания базовых UI-систем, на которых будет строиться дальнейшее развитие проекта. Вы возьмёте на себя ответственность за внедрение ключевых UI-материалов и будете тесно работать с дизайнерами, художниками, продюсерами, программистами и другими специалистами.\n\nОбязанности\n\n• Вместе с UI-художниками и командой формировать лучшие практики и оптимальные рабочие процессы.\n• Тесно взаимодействовать с UI-программистами при разработке новых возможностей движка.\n• Анализировать использование памяти и производительность на протяжении разработки проекта.\n• Создавать эффективные и удобные в использовании шейдеры для игры.\n• Анализировать и объяснять технические ограничения и сложности, связанные с UI-артом и UX-дизайном.\n• Исследовать и прототипировать художественные пайплайны, помогая воплощать идеи коллег.\n\nТребования\n\n• 6+ лет опыта в индустрии.\n• Глубокое знание Unreal Engine 5, особенно Material Editor и UMG.\n• Умение эффективно сотрудничать с междисциплинарными командами.\n• Способность доводить контент и системы до релизного качества с учётом памяти и производительности.\n• Нестандартное мышление при решении технических задач.\n• Самостоятельность и способность работать автономно, когда это необходимо.\n\nБудет плюсом\n\n• Практическое знание HLSL или GLSL.\n• Практический опыт Python-скриптинга или другого языка программирования.\n• Хорошее знание программ для 3D-моделирования и графических редакторов.\n• Опыт работы с платформами текущего поколения — Xbox Series X/S и PlayStation 5.\n• Опыт работы с другими популярными или проприетарными движками, включая Unity.\n• Сильный баланс между творческой/визуальной эстетикой и техническими навыками.\n\nРавные возможности\n\nGearbox Studio Québec стремится поддерживать инклюзивную, справедливую и свободную от дискриминации рабочую среду, отражающую разнообразие мира, который мы хотим развлекать.\n\nСтудия не допускает дискриминации по признакам расы, цвета кожи, религии, пола, беременности, сексуальной ориентации, гендерной идентичности или выражения, национального происхождения, возраста, инвалидности, генетической информации или иного статуса, защищённого законом.\n\nКвалифицированным кандидатам и сотрудникам предоставляются разумные условия и адаптации, необходимые для полноценного участия в найме, выполнения ключевых обязанностей и получения равного доступа к преимуществам и возможностям.\n\nЕсли вам нужна такая адаптация на любом этапе подачи заявки, свяжитесь с компанией."
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7714527003",
@@ -233,7 +235,8 @@ window.JOBS = [
       "Houdini",
       "ZBrush",
       "Substance"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7812741003",
@@ -256,7 +259,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7742031003",
@@ -276,7 +280,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7865976003",
@@ -299,7 +304,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "Perforce"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7710811003",
@@ -321,7 +327,8 @@ window.JOBS = [
     "spec": "Геймплей",
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7772137003",
@@ -348,7 +355,7 @@ window.JOBS = [
       "Perforce",
       "Wwise"
     ],
-    "descRu": "Кто мы\n\nGearbox Studio Québec объединяет команду выдающихся специалистов, увлечённых созданием отмеченных наградами и знаковых видеоигр. Богатые вселенные студии развиваются через трансмедийные истории, живые мероприятия и сопутствующие продукты, создавая для игроков запоминающиеся погружающие впечатления.\n\nСтудия известна сериями Borderlands, Tiny Tina’s Wonderlands и Brothers in Arms, а также продолжает развивать Duke Nukem, Risk of Rain и Homeworld. Gearbox представлена в Канаде офисами в Квебеке и Монреале и входит в состав 2K — издательского лейбла Take-Two Interactive Software, Inc. (NASDAQ: TTWO).\n\nПодробнее: www.GearboxSoftware.com.\n\nКого мы ищем\n\nНужен саунд-дизайнер уровня Middle, умеющий создавать мощный, погружающий и тактильно ощущаемый звук. На этой полной ставке вы будете одним из ключевых специалистов, отвечающих за звуковую обратную связь в боях, механику оружия и общее звуковое окружение игры. Здесь не предполагается простое следование техническому заданию: вы сможете напрямую влиять на аудионаправление проекта, экспериментировать с новыми системами и добиваться того, чтобы стрельба ощущалась максимально выразительно. В команде ценятся самостоятельность и ответственность за результат.\n\nОбязанности\n\n• Полный цикл создания: проектировать, редактировать и внедрять качественные аудиоэлементы — SFX, атмосферные слои, UI-звуки и звук для синематиков — в соответствии с творческим видением игры.\n• Интегрировать аудио непосредственно в Unreal Engine 5 с использованием Wwise, обеспечивая хорошую производительность и корректную техническую реализацию.\n• Работать с аудиопрограммистами над интерактивными системами, а с продюсерами и руководителями — над списками ассетов и поставками.\n• Самостоятельно управлять собственными аудиозадачами, сроками и технической документацией.\n• Проводить студийные и выездные записи, создавая уникальный исходный материал для внутренней библиотеки.\n\nТребования\n\n• 3+ года профессионального опыта в игровом аудио; как минимум один выпущенный проект с Wwise и коммерческим игровым движком.\n• Уверенная практическая работа с современными DAW — Reaper, Pro Tools и аналогами, аудиоплагинами и методами интерактивного внедрения звука.\n• Хорошее понимание рабочих процессов UE5.\n• Разнообразное портфолио, демонстрирующее внимание к деталям, сильные навыки сведения и понимание звукового сторителлинга.\n• Знакомство с системами контроля версий, например Perforce.\n• Отличные коммуникационные навыки, готовность к тесному сотрудничеству и развитию.\n\nБудет плюсом\n\n• Опыт линейного аудиопостпродакшена.\n• Базовый скриптинг либо продвинутый опыт с UE5 Blueprint.\n\nGearbox Studio Québec поддерживает инклюзивную, справедливую и свободную от дискриминации рабочую среду. Компания не допускает дискриминации по признакам, защищённым применимым законодательством, и предоставляет разумные условия кандидатам и сотрудникам, которым они необходимы. Если такая помощь нужна на любом этапе подачи заявки, можно обратиться к компании."
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7778402003",
@@ -374,7 +381,8 @@ window.JOBS = [
       "AWS",
       "Docker",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7865971003",
@@ -398,7 +406,8 @@ window.JOBS = [
       "Python",
       "AWS",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7762602003",
@@ -418,7 +427,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Lead",
     "spec": "Данные и ML",
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7865984003",
@@ -442,7 +452,8 @@ window.JOBS = [
       "Go",
       "Java",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7808524003",
@@ -464,7 +475,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-5978842003",
@@ -484,7 +496,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Lead",
     "spec": "Геймплей",
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7655940003",
@@ -507,7 +520,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7749619003",
@@ -530,7 +544,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7740629003",
@@ -552,7 +567,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7888167003",
@@ -574,7 +590,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7888174003",
@@ -600,7 +617,8 @@ window.JOBS = [
       "ZBrush",
       "Substance",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7856220003",
@@ -627,7 +645,8 @@ window.JOBS = [
       "C#",
       "Python",
       "JavaScript"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7812709003",
@@ -654,7 +673,8 @@ window.JOBS = [
       "ZBrush",
       "Substance",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7856226003",
@@ -676,7 +696,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7533148003",
@@ -700,7 +721,8 @@ window.JOBS = [
       "Unreal",
       "Houdini",
       "Substance"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7677521003",
@@ -723,7 +745,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7790808003",
@@ -743,7 +766,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7651061003",
@@ -763,7 +787,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7801202003",
@@ -786,7 +811,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7764371003",
@@ -812,7 +838,8 @@ window.JOBS = [
       "Python",
       "Maya",
       "Houdini"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7807546003",
@@ -832,7 +859,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7793437003",
@@ -852,7 +880,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7788943003",
@@ -874,7 +903,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7763604003",
@@ -897,7 +927,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-6520855003",
@@ -917,7 +948,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7865968003",
@@ -942,7 +974,8 @@ window.JOBS = [
       "Java",
       "AWS",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7835808003",
@@ -968,7 +1001,8 @@ window.JOBS = [
       "ZBrush",
       "Substance",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7812714003",
@@ -991,7 +1025,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7750300003",
@@ -1015,7 +1050,8 @@ window.JOBS = [
       "C++",
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7560589003",
@@ -1041,7 +1077,8 @@ window.JOBS = [
       "Java",
       "SQL",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7724805003",
@@ -1065,7 +1102,8 @@ window.JOBS = [
       "Unreal",
       "C++",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7533066003",
@@ -1088,7 +1126,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7803231003",
@@ -1113,7 +1152,8 @@ window.JOBS = [
       "C++",
       "C#",
       "Python"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7512739003",
@@ -1133,7 +1173,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Senior",
     "spec": "Геймплей",
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7813375003",
@@ -1156,7 +1197,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7651054003",
@@ -1179,7 +1221,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7731297003",
@@ -1201,7 +1244,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7793262003",
@@ -1223,7 +1267,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7812947003",
@@ -1250,7 +1295,8 @@ window.JOBS = [
       "Python",
       "Java",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7629738003",
@@ -1270,7 +1316,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7780015003",
@@ -1290,7 +1337,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7655923003",
@@ -1310,7 +1358,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7748410003",
@@ -1336,7 +1385,8 @@ window.JOBS = [
       "Python",
       "AWS",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7803064003",
@@ -1356,7 +1406,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7720905003",
@@ -1381,7 +1432,8 @@ window.JOBS = [
       "C++",
       "Houdini",
       "Substance"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7778375003",
@@ -1403,7 +1455,8 @@ window.JOBS = [
     "spec": "Движок",
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7829588003",
@@ -1428,7 +1481,8 @@ window.JOBS = [
       "TypeScript",
       "AWS",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7780664003",
@@ -1451,7 +1505,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "Perforce"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7930922003",
@@ -1475,7 +1530,8 @@ window.JOBS = [
       "Python",
       "Maya",
       "Perforce"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7887479003",
@@ -1499,7 +1555,8 @@ window.JOBS = [
       "Unreal",
       "Substance",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7814032003",
@@ -1525,7 +1582,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
-    "descRu": "Кто мы\n\nОснованная в 2005 году 2K Games — международная игровая компания, издающая проекты ряда влиятельных студий, включая Visual Concepts, Firaxis, Hangar 13, CatDaddy, Cloud Chamber, 31st Union, HB Studios, Gearbox и 2K SportsLab. Каталог компании постоянно растёт благодаря глобальной стратегии развития, созданию новых студий и привлечению разнообразных талантов. 2K выпускает игры в популярных жанрах — спорт, шутеры, экшен, RPG, стратегия, а также казуальные и семейные игры.\n\nВ командах работают инженеры, маркетологи, художники, сценаристы, специалисты по данным, продюсеры и другие эксперты. В портфолио входят NBA 2K, BioShock, Borderlands, Mafia, Sid Meier’s Civilization, XCOM, WWE 2K, WWE SuperCard, TopSpin 2K25 и PGA TOUR 2K.\n\n2K стремится поддерживать гостеприимную и инклюзивную рабочую среду и предлагает откликаться даже тем кандидатам, которые не соответствуют каждому пункту требований. Штаб-квартира 2K находится в Новато, Калифорния; компания является дочерней структурой Take-Two Interactive Software, Inc. (NASDAQ: TTWO).\n\nКого мы ищем\n\nНужен инженерный менеджер, который поможет развивать внутреннюю команду Engineering Services. Вы будете руководить востребованной группой инженеров, подключающихся к различным AAA-проектам для совместной разработки, оптимизации под платформы и решения критически важных технических задач. Роль сочетает практическое техническое наставничество со структурированным people management.\n\nЧто предстоит делать\n\n• Руководить, наставлять и управлять распределённой командой из 8+ инженеров, развивая культуру постоянного обучения и технического качества.\n• Создавать индивидуальные планы развития, ставить ежегодные цели эффективности и определять карьерные пути в техническое лидерство или управление людьми.\n• Работать с руководителями студий и внутренними продюсерами, согласуя распределение инженерных ресурсов со сроками проектов и ключевыми этапами.\n• Формировать лучшие практики по code review, технической документации и проактивной обратной связи.\n• Сохранять практические инженерные навыки, участвуя в некритичном для сроков программировании, технических proof-of-concept и ревью кода.\n\nЧто сделает вас подходящим кандидатом\n\n• 10+ лет профессионального опыта в разработке ПО в игровой индустрии, включая 2+ года прямого управления инженерами.\n• Опыт выпуска нескольких AAA-игр на консолях и глубокое понимание консольных пайплайнов, сертификации и аппаратных возможностей.\n• Отличное владение C/C++ и хорошее понимание многопоточных архитектур.\n• Сильные коммуникационные навыки для взаимодействия с внешними студиями и объяснения технических рисков нетехническим партнёрам.\n• Степень бакалавра в области Computer Science, разработки игр либо эквивалентный опыт.\n\nДополнительные преимущества\n\n• Большой опыт с игровыми движками — Unreal Engine, Unity или проприетарными решениями.\n• Практический опыт в multiplayer/networking, рендеринге, физике или портировании на консоли.\n\n2K является работодателем равных возможностей и предоставляет разумные условия квалифицированным кандидатам с инвалидностью для участия в процессе найма и выполнения обязанностей.\n\n2K Games и её студии никогда не используют мессенджеры или личные почтовые аккаунты для контакта с кандидатами или проведения интервью. Официальные письма отправляются только с адресов, заканчивающихся на `@2K.com`."
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7787506003",
@@ -1548,7 +1605,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7829580003",
@@ -1573,7 +1631,8 @@ window.JOBS = [
       "Java",
       "AWS",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7784349003",
@@ -1600,7 +1659,8 @@ window.JOBS = [
       "C#",
       "TypeScript",
       "JavaScript"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-2k-games-7728474003",
@@ -1622,7 +1682,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-hangar-13-7527472003",
@@ -1646,7 +1707,8 @@ window.JOBS = [
       "Unreal",
       "Houdini",
       "Substance"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-hangar-13-7760443003",
@@ -1672,7 +1734,8 @@ window.JOBS = [
       "Python",
       "Maya",
       "Houdini"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-hangar-13-7790812003",
@@ -1692,7 +1755,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-hangar-13-7760450003",
@@ -1715,7 +1779,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-hangar-13-7528605003",
@@ -1738,7 +1803,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-hangar-13-7762610003",
@@ -1761,7 +1827,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-visual-concepts-6588311003",
@@ -1783,7 +1850,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-visual-concepts-7750291003",
@@ -1807,7 +1875,8 @@ window.JOBS = [
       "C++",
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-visual-concepts-4619436003",
@@ -1833,7 +1902,8 @@ window.JOBS = [
       "Java",
       "SQL",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-visual-concepts-7930598003",
@@ -1857,7 +1927,8 @@ window.JOBS = [
       "Python",
       "Maya",
       "Perforce"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8124195",
@@ -1880,7 +1951,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7944656",
@@ -1902,7 +1974,8 @@ window.JOBS = [
     "spec": "Данные и ML",
     "stack": [
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8129452",
@@ -1922,7 +1995,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8090464",
@@ -1943,7 +2017,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8128657",
@@ -1963,7 +2038,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8130718",
@@ -1985,7 +2061,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8118847",
@@ -2005,7 +2082,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8142698",
@@ -2029,7 +2107,8 @@ window.JOBS = [
       "Unity",
       "Unreal",
       "Perforce"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8077274",
@@ -2049,7 +2128,8 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8092958",
@@ -2069,7 +2149,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8104536",
@@ -2096,7 +2177,8 @@ window.JOBS = [
       "Python",
       "AWS",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8115072",
@@ -2116,7 +2198,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8121706",
@@ -2141,7 +2224,8 @@ window.JOBS = [
       "Unreal",
       "Photoshop",
       "Figma"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7959426",
@@ -2164,7 +2248,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7981132",
@@ -2184,7 +2269,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": null,
     "spec": "Данные и ML",
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7981543",
@@ -2208,7 +2294,8 @@ window.JOBS = [
       "Unity",
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-6149331004",
@@ -2228,7 +2315,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-5996487004",
@@ -2249,7 +2337,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-ghost-story-games-8031365",
@@ -2275,7 +2364,8 @@ window.JOBS = [
       "C#",
       "Python",
       "Perforce"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-cloud-chamber-7714526003",
@@ -2302,7 +2392,8 @@ window.JOBS = [
       "Houdini",
       "ZBrush",
       "Substance"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-cloud-chamber-7865973003",
@@ -2325,7 +2416,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "Perforce"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-cloud-chamber-7710808003",
@@ -2347,7 +2439,8 @@ window.JOBS = [
     "spec": "Геймплей",
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-cloud-chamber-7660289003",
@@ -2370,7 +2463,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-cloud-chamber-7888165003",
@@ -2392,7 +2486,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-cloud-chamber-7888172003",
@@ -2418,7 +2513,8 @@ window.JOBS = [
       "ZBrush",
       "Substance",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-cloud-chamber-7812708003",
@@ -2445,7 +2541,8 @@ window.JOBS = [
       "ZBrush",
       "Substance",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-cloud-chamber-7856224003",
@@ -2467,7 +2564,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-cloud-chamber-7731294003",
@@ -2489,7 +2587,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-cloud-chamber-7793260003",
@@ -2511,7 +2610,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-cloud-chamber-7720903003",
@@ -2536,7 +2636,8 @@ window.JOBS = [
       "C++",
       "Houdini",
       "Substance"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5301857008",
@@ -2559,7 +2660,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5397639008",
@@ -2584,7 +2686,8 @@ window.JOBS = [
       "C#",
       "Python",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5395416008",
@@ -2607,7 +2710,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5394541008",
@@ -2629,7 +2733,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5283492008",
@@ -2652,7 +2757,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5398779008",
@@ -2674,7 +2780,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5396208008",
@@ -2697,7 +2804,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5398783008",
@@ -2717,7 +2825,8 @@ window.JOBS = [
     "role": "Поддержка",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5382921008",
@@ -2737,7 +2846,8 @@ window.JOBS = [
     "role": "Поддержка",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5390702008",
@@ -2757,7 +2867,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5398789008",
@@ -2777,7 +2888,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5396883008",
@@ -2799,7 +2911,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5210078008",
@@ -2819,7 +2932,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5398786008",
@@ -2843,7 +2957,8 @@ window.JOBS = [
       "Unity",
       "C#",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-cd-projekt-red-744000144698495",
@@ -2865,7 +2980,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-gameloft-744000144738274",
@@ -2885,7 +3001,8 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": "Junior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "sr-gameloft-744000144738369",
@@ -2908,7 +3025,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "wk-homa-games-B63999E3E1",
@@ -2933,7 +3051,8 @@ window.JOBS = [
       "C#",
       "Blender",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-kabam-7b7becfb-5567-40c2-b0e8-d3e271f113be",
@@ -2962,7 +3081,7 @@ window.JOBS = [
       "Docker",
       "Kubernetes"
     ],
-    "descRu": "Kabam стремится поднимать планку качества в free-to-play mobile games и строит команды вокруг страсти к играм, разнообразия и коллективной экспертизы. Компания ищет разработчика, которому интересно строить и поддерживать сложные игровые системы и инструменты и который готов заметно влиять на техническое направление проектов.\n\nЧем предстоит заниматься\n\n• Проектировать и архитектурно выстраивать надёжные, гибкие и производительные модульные игровые системы.\n• Превращать технические требования в решения, выбирать подходящие технологии, frameworks и cloud-infrastructure стратегии.\n• Оценивать и выбирать инструменты, базы данных и технологии под цели проекта.\n• Обеспечивать scalability, performance, security и maintainability программных решений и серверной инфраструктуры.\n• Совместно с cross-functional teams собирать требования и определять технические спецификации.\n• Формировать и рекомендовать coding standards и best practices для качественного и поддерживаемого кода.\n• Итеративно улучшать ПО на основе feedback, тестов и performance analysis.\n• Архитектурно проектировать, развёртывать и управлять cloud infrastructure в AWS/GCP через Infrastructure as Code.\n• Создавать и поддерживать CI/CD pipelines для автоматизации тестов, deployment и zero-downtime обновлений игровых серверов и API.\n• Анализировать и отлаживать сложные software issues, находить root causes и внедрять эффективные решения.\n• Проводить тщательное тестирование функциональных и нефункциональных требований.\n• Находить bottlenecks производительности, оптимизировать системы и внедрять monitoring/alerting в Datadog, Prometheus и аналогах.\n• Работать с product managers, designers и engineers над масштабируемыми решениями.\n• Документировать software design, код и технические процессы.\n• Активно участвовать в code review и давать конструктивную обратную связь.\n• Реализовывать server-side logic: API, базы данных, authentication systems и data-processing pipelines.\n\nТребования\n\n• Бакалавриат в Computer Science, Engineering или эквивалентный опыт.\n• 10+ лет разработки ПО, желательно в игровой индустрии.\n• Уверенное владение JavaScript, TypeScript или C#.\n• Отличное понимание backend/server engineering, включая Node.js.\n• Опыт RESTful API.\n• Сильный опыт AWS или GCP, включая compute, networking и managed databases.\n• Практический опыт Docker и Kubernetes для deployment и scaling игровых серверов.\n• Опыт Infrastructure as Code; Terraform будет плюсом.\n• Опыт NoSQL, например MongoDB.\n• Опыт realtime multiplayer applications на WebSocket.\n• Подтверждённый опыт CI/CD — GitHub Actions, GitLab CI, Jenkins и аналоги.\n• Умение писать чистый, простой и хорошо документированный код.\n• Умение работать как автономно, так и в динамичной команде.\n• Сильный опыт Git или Perforce.\n• Опыт поддержки CI pipelines будет плюсом.\n• Актуальное понимание mobile-games trends.\n• Умение общаться и с техническими, и с нетехническими коллегами.\n• Опыт Agile, Kanban или аналогичных подходов.\n• Французский + английский — преимущество."
+    "hasRu": true
   },
   {
     "id": "lv-kabam-74017619-4185-4d47-b01b-9396fa247fb0",
@@ -2989,7 +3108,8 @@ window.JOBS = [
       "AWS",
       "Docker",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-focus-entertainment-2572724",
@@ -3011,7 +3131,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
-    "descRu": "Focus Entertainment стремится создавать для игроков по всему миру уникальные впечатления. Издательская линия компании выделяется инновационными концепциями, необычными игровыми механиками и оригинальными вселенными, выходящими за привычные рамки видеоигр.\n\nВ составе графической команды Marketing Artist помогает продвигать игры, создавая анимированные и интерактивные маркетинговые материалы — motion design, HTML-форматы — а также внутриигровые скриншоты.\n\nОсновные задачи\n\n• Создавать motion-design анимации для коротких трейлеров, социальных сетей, страниц магазинов и рекламных кампаний.\n• Создавать анимированные HTML-баннеры и модули для display-рекламы, рассылок, лендингов и специальных кампаний, соблюдая визуальный стиль игры.\n• Адаптировать существующие статичные материалы — key art, логотипы, пиктограммы, материалы для соцсетей и рекламы — в анимированные или интерактивные форматы.\n• Создавать дополнительные маркетинговые графические элементы: анимированные титры, end cards, GIF.\n• Оптимизировать материалы для веба и разных платформ с учётом требований рекламных систем.\n\nРабота со скриншотами\n\n• Вместе со screenshot artists готовить сцены к съёмке: композицию, ракурс камеры, свет, позы и FX в соответствии с маркетинговыми задачами.\n• Отбирать, сортировать, ретушировать и кадрировать внутриигровые снимки, превращая их в материалы, готовые для motion или HTML.\n• Выполнять ретушь и композитинг, включая лёгкий photobashing и цветокоррекцию, чтобы усилить визуальное воздействие кадров."
+    "hasRu": true
   },
   {
     "id": "gh-wargaming-8048330",
@@ -3033,7 +3153,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-wargaming-7972339",
@@ -3056,7 +3177,8 @@ window.JOBS = [
     "stack": [
       "C++",
       "Python"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-tripledot-belka-4955732101",
@@ -3078,7 +3200,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Figma"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-e4a4a1a0-1411-44a2-9457-0460348a89dd",
@@ -3101,7 +3224,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-easybrain-740688fa-05e7-4618-b54b-699f7afb4c8b",
@@ -3124,7 +3248,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "Docker"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8073585",
@@ -3148,7 +3273,8 @@ window.JOBS = [
       "Unreal",
       "Maya",
       "Perforce"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-6134271004",
@@ -3171,7 +3297,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "Python"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-5990685004",
@@ -3194,7 +3321,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-5990687004",
@@ -3215,7 +3343,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-5990901004",
@@ -3238,7 +3367,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5395775008",
@@ -3263,7 +3393,8 @@ window.JOBS = [
       "SQL",
       "AWS",
       "Docker"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5165752008",
@@ -3288,7 +3419,8 @@ window.JOBS = [
       "C#",
       "Python",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5394718008",
@@ -3312,7 +3444,8 @@ window.JOBS = [
       "Maya",
       "Blender",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-cd-projekt-red-744000144627050",
@@ -3338,7 +3471,8 @@ window.JOBS = [
       "C++",
       "Maya",
       "Blender"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-cd-projekt-red-744000144615479",
@@ -3361,7 +3495,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "wk-jagex-830E439990",
@@ -3383,7 +3518,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-gameloft-744000144563459",
@@ -3403,7 +3539,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "sr-gameloft-744000144523591",
@@ -3428,7 +3565,8 @@ window.JOBS = [
       "Python",
       "Docker",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-gameloft-744000144515801",
@@ -3455,7 +3593,8 @@ window.JOBS = [
       "Python",
       "AWS",
       "Docker"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-gameloft-744000144515339",
@@ -3475,7 +3614,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "wk-homa-games-4C002B4690",
@@ -3499,7 +3639,8 @@ window.JOBS = [
       "Unity",
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-wargaming-8125550",
@@ -3521,7 +3662,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-wargaming-8139010",
@@ -3544,7 +3686,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "Perforce"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-tripledot-belka-4952291101",
@@ -3568,7 +3711,8 @@ window.JOBS = [
       "Unity",
       "C#",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-tripledot-belka-4877809101",
@@ -3588,7 +3732,8 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-tripledot-belka-4950796101",
@@ -3613,7 +3758,8 @@ window.JOBS = [
       "C#",
       "Spine",
       "Perforce"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-tripledot-belka-4952612101",
@@ -3637,7 +3783,8 @@ window.JOBS = [
       "Unity",
       "C#",
       "Python"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-tripledot-belka-4948638101",
@@ -3660,7 +3807,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "Spine"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-nordeus-8138602",
@@ -3680,7 +3828,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "rc-ten-square-games-2715083",
@@ -3702,7 +3851,8 @@ window.JOBS = [
     "spec": "Unity",
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-11-bit-studios-2714406",
@@ -3726,7 +3876,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
-    "descRu": "11 bit studios ищет опытного универсального 3D Animator в команду P12, нового IP студии. Проект должен сочетать увлекательный gameplay с эмоциональной достоверностью и запоминающимися переживаниями, характерными для игр студии. Роль предполагает hybrid-работу из офиса в Варшаве.\n\nЗадачи\n\n• Создавать character animation для gameplay: movement, combat и ranged combat.\n• Делать естественные и тонкие анимации близких взаимодействий, уделяя внимание рукам, телу и мелким жестам.\n• Работать как с keyframe animation, так и с motion-capture data.\n• Подготавливать/адаптировать rigs и выполнять basic skinning.\n• Implement и iterate animations в Unreal Engine.\n• Работать с designers, artists и остальной командой над animation solutions проекта."
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-6145723004",
@@ -3748,7 +3898,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-6147154004",
@@ -3775,7 +3926,8 @@ window.JOBS = [
       "Maya",
       "Blender",
       "Houdini"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5211608008",
@@ -3795,7 +3947,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5380382008",
@@ -3815,7 +3968,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5250466008",
@@ -3837,7 +3991,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Java"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-7796158003",
@@ -3857,7 +4012,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-7806700003",
@@ -3879,7 +4035,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-people-can-fly-744000144317269",
@@ -3901,7 +4058,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-digital-extremes-5169126007",
@@ -3928,7 +4086,8 @@ window.JOBS = [
       "SQL",
       "Photoshop",
       "Figma"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-jam-city-787abb3b-1009-42f3-bf82-9846dff0e646",
@@ -3952,7 +4111,8 @@ window.JOBS = [
       "Unity",
       "Maya",
       "Substance"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-jam-city-b2dc2180-109a-4486-804e-77fb5e8e51ed",
@@ -3975,7 +4135,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "Maya"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-krafton-8725187002",
@@ -3997,7 +4158,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ko",
     "stack": [],
-    "descRu": "KRAFTON говорит о своей миссии как о стремлении прокладывать путь к мечтам игроков, используя смелое воображение и технологии для создания запоминающихся миров.\n\nО команде\n\nExternal Development Team координирует внешнюю разработку с позиции головного офиса KRAFTON. Команда помогает студиям группы находить подходящих outsourcing- и co-development партнёров, чтобы те могли создавать лучшие игры. Для этого она тесно взаимодействует со студиями, выявляет их потребности, строит и поддерживает отношения с внешними vendors и помогает студиям эффективно работать с партнёрами. Это небольшая команда, которая ценит эффективность, личный вклад и автономность больше громоздких процессов.\n\nМиссия роли\n\nPartner Relationship Manager отвечает за отношения с внешними vendors, с которыми студии KRAFTON уже работают или потенциально могут работать.\n\n• Искать партнёров, соответствующих потребностям конкретных проектов, и рекомендовать их game-production командам.\n• Строить и поддерживать отношения с партнёрами через регулярную online/offline коммуникацию и встречи.\n• Поддерживать проекты студий KRAFTON: участвовать в переговорах по MSA, коммуникации и escalation проблем во время сотрудничества, регулярных статус-проверках и post-mortem review.\n• Поддерживать актуальную partner database и участвовать в проектировании и управлении системой базы данных.\n• Документировать best practices и case studies, чтобы повышать компетенции KRAFTON по управлению co-development во всех студиях.\n\nОбязательные требования\n\n• Опыт business development и/или account management.\n• Умение эффективно коммуницировать с внутренними и внешними партнёрами.\n• Опыт договорных переговоров.\n• Корейский и английский на уровне носителя или эквивалентная свободная степень владения.\n• Возможность ездить в зарубежные командировки.\n\nБудет преимуществом\n\n• Опыт outsourcing manager или PM в game-development команде.\n• Понимание процессов разработки и производства игр.\n• Опыт работы с outsourcing и/или co-development партнёрами внутри game-development команды.\n\nНайм и условия\n\nПроцесс: рассмотрение заявки → phone interview → Technical Fit Interview → Culture Fit Interview → проверка образования/опыта и references → обсуждение условий → оффер и выход. При необходимости могут добавляться тесты или дополнительные интервью. Результаты обычно отправляются на email в течение двух недель; вакансия может закрыться раньше при найме подходящего кандидата.\n\nНужны: резюме в свободной форме, cover letter, описание опыта; portfolio — опционально. Место работы — Yeoksam. Контракт на 1 год без перевода в permanent. Применяется 5-месячный probation period без изменения типа занятости или зарплаты; отрицательная оценка может привести к прекращению найма. Кандидаты с инвалидностью и иные категории, защищённые законом, получают предусмотренные законодательством преимущества. Ложные сведения в заявке могут привести к отмене оффера."
+    "hasRu": true
   },
   {
     "id": "gh-krafton-8725186002",
@@ -4019,7 +4180,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ko",
     "stack": [],
-    "descRu": "О команде\n\nExternal Development Team управляет внешней разработкой на уровне головного офиса KRAFTON. Команда помогает внутренним студиям находить подходящих outsourcing/co-development партнёров, поддерживает отношения с vendors и помогает организовать эффективное сотрудничество. Команда небольшая, ориентирована на эффективность, самостоятельность и личный вклад.\n\nМиссия роли\n\nStudio Relationship Manager служит основным контактным лицом между командой External Development и студиями KRAFTON, выявляет outsourcing-потребности и помогает подобрать подходящих партнёров.\n\n• Регулярно общаться со всеми студиями, кроме PUBG, отслеживать production status, текущие потребности и проблемы и заранее прогнозировать будущий спрос.\n• Вместе с Partner Relationship Manager находить partners, способных закрыть потребности каждой студии.\n• Сопровождать студии на всём пути выбора партнёра и заключения договора.\n• Делиться информацией, best practices и industry trends, чтобы повышать уровень outsourcing management во всей компании.\n\nОбязательные требования\n\n• Опыт outsourcing manager, PM или Assistant Producer в game-development команде.\n• Понимание game-production process.\n• Сильная организация и коммуникация для одновременной работы с несколькими студиями и проектами.\n• Корейский и английский на уровне носителя или эквивалентная свободная степень владения.\n• Возможность зарубежных командировок.\n\nБудет преимуществом\n\n• Опыт сотрудничества с outsourcing и/или co-development партнёрами в игровой разработке.\n• Базовое понимание game-art production и/или технологий.\n\nНайм и условия\n\nПроцесс включает application review, phone interview, Technical Fit Interview, Culture Fit Interview, проверки образования/опыта/references, обсуждение условий и финальный оффер. Возможны дополнительные тесты или интервью. Требуются резюме, cover letter и описание опыта; portfolio — опционально. Место работы — Yeoksam. Контракт на 1 год, без перевода в permanent. Применяется 5-месячный probation period."
+    "hasRu": true
   },
   {
     "id": "wk-hutch-games-29EC17AACA",
@@ -4039,7 +4200,8 @@ window.JOBS = [
     "role": "QA",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-tactile-games-4890782101",
@@ -4062,7 +4224,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "Blender"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-wargaming-8124661",
@@ -4087,7 +4250,8 @@ window.JOBS = [
       "Unreal",
       "Python",
       "Docker"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-tripledot-belka-4954095101",
@@ -4107,7 +4271,8 @@ window.JOBS = [
     "role": "Аналитика",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-tripledot-belka-4954404101",
@@ -4127,7 +4292,8 @@ window.JOBS = [
     "role": "Аналитика",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-tripledot-belka-4820995101",
@@ -4147,7 +4313,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-tripledot-belka-4953783101",
@@ -4167,7 +4334,8 @@ window.JOBS = [
     "role": "Аналитика",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-18a833bd-aedd-4dae-a296-e15d8bb0f230",
@@ -4187,7 +4355,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-easybrain-4bcf5107-5f98-4df7-8462-e0154e1ddf95",
@@ -4211,7 +4380,8 @@ window.JOBS = [
       "Unity",
       "Photoshop",
       "Spine"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-nordeus-8131565",
@@ -4231,7 +4401,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "rc-ten-square-games-2713857",
@@ -4251,7 +4422,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-gram-games-6135572004",
@@ -4272,7 +4444,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-gram-games-6142173004",
@@ -4292,7 +4465,8 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-gram-games-6145098004",
@@ -4314,7 +4488,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-netease-games-5166671007",
@@ -4336,7 +4511,8 @@ window.JOBS = [
     "role": "Анимация",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-netease-games-4927747007",
@@ -4356,7 +4532,8 @@ window.JOBS = [
     "role": "Поддержка",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-netease-games-4927750007",
@@ -4376,7 +4553,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-netease-games-5166658007",
@@ -4402,7 +4580,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "Maya"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-netease-games-4927744007",
@@ -4422,7 +4601,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-netease-games-5205258007",
@@ -4444,7 +4624,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-netease-games-5195349007",
@@ -4464,7 +4645,8 @@ window.JOBS = [
     "role": "Анимация",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-netease-games-5198271007",
@@ -4484,7 +4666,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-netease-games-5191784007",
@@ -4511,7 +4694,8 @@ window.JOBS = [
       "Unreal",
       "ZBrush",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-c16d0de3-e5b7-4fb9-ae0e-a906a75e9b15",
@@ -4536,7 +4720,8 @@ window.JOBS = [
       "Python",
       "AWS",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5393063008",
@@ -4559,7 +4744,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "Maya"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5021595008",
@@ -4579,7 +4765,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-4981705008",
@@ -4599,7 +4786,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5215189008",
@@ -4619,7 +4807,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5234167008",
@@ -4642,7 +4831,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5215191008",
@@ -4662,7 +4852,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5180929008",
@@ -4686,7 +4877,8 @@ window.JOBS = [
       "Unity",
       "C++",
       "C#"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-4981693008",
@@ -4706,7 +4898,8 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-7644896003",
@@ -4731,7 +4924,8 @@ window.JOBS = [
       "C#",
       "TypeScript",
       "JavaScript"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-socialpoint-5976449004",
@@ -4751,7 +4945,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-socialpoint-6007043004",
@@ -4774,7 +4969,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-socialpoint-6007045004",
@@ -4797,7 +4993,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-socialpoint-6100125004",
@@ -4817,7 +5014,8 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-socialpoint-6139526004",
@@ -4841,7 +5039,8 @@ window.JOBS = [
       "Python",
       "SQL",
       "Docker"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-socialpoint-5725444004",
@@ -4864,7 +5063,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-socialpoint-6142841004",
@@ -4887,7 +5087,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-socialpoint-6146108004",
@@ -4910,7 +5111,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-socialpoint-5712125004",
@@ -4930,7 +5132,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "sr-cd-projekt-red-744000144143017",
@@ -4954,7 +5157,8 @@ window.JOBS = [
       "Unreal",
       "C++",
       "Python"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-people-can-fly-744000144130389",
@@ -4976,7 +5180,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-people-can-fly-744000144128595",
@@ -4999,7 +5204,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "Maya"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-people-can-fly-744000144103729",
@@ -5021,7 +5227,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "wk-jagex-CCBEAAC795",
@@ -5043,7 +5250,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "wk-jagex-846E253125",
@@ -5065,7 +5273,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Python"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "wk-jagex-3E6825F3C6",
@@ -5085,7 +5294,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "sr-gameloft-744000144033075",
@@ -5108,7 +5318,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-gameloft-744000143985439",
@@ -5135,7 +5346,8 @@ window.JOBS = [
       "C#",
       "Python",
       "Perforce"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-gameloft-744000143980779",
@@ -5157,7 +5369,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-krafton-8725253002",
@@ -5182,7 +5395,7 @@ window.JOBS = [
       "AWS",
       "Docker"
     ],
-    "descRu": "О проекте\n\nKRAFTON запустила образовательную программу KRAFTON JUNGLE в 2022 году, чтобы развивать software developers с самостоятельностью, смелостью и командным мышлением. Программа стремится готовить специалистов, которые смогут продолжать расти через 5–10 лет, и помогать молодым людям с разным бэкграундом сделать первые шаги в профессии разработчика.\n\nКоманда ищет человека, которому действительно нравится помогать другим развиваться и который заинтересован в подготовке следующего поколения разработчиков.\n\nМиссия\n\nКоманда ищет Frontend Engineer, который будет развиваться вместе с KRAFTON JUNGLE.\n\n• Улучшать UI/UX web- и mobile-сервисов.\n• Анализировать user experience и предлагать улучшения.\n• Улучшать layout, components и interactions и внедрять изменения.\n• Поддерживать Jungle Learning Mate System.\n• Помогать студентам в обучении и поддерживать образовательные процессы.\n• Поддерживать alumni network и мероприятия выпускников.\n\nОбязательные требования\n\n• Базовое понимание UI/UX.\n• Опыт React, Next.js или других frontend frameworks.\n• Хорошая коммуникация и teamwork.\n• Возможность зарубежных командировок.\n\nБудет преимуществом\n\n• Практический опыт улучшения UI/UX в личных или командных проектах.\n• Желание помогать студентам решать проблемы и учиться.\n• Интерес к новым технологиям и готовность постоянно учиться.\n• Full-stack web development.\n• Опыт LMS или EdTech systems.\n• Опыт разработки в AWS/GCP cloud environments.\n• Понимание VSCode, GCC, Git, Docker, CI/CD и других development/collaboration tools.\n\nНайм и условия\n\nПроцесс: application review → phone interview → возможный Pre-Test → Technical Fit Interview → Culture Fit Interview → background/reference checks → условия → оффер. Требуются резюме с обязательной мотивацией, cover letter, career description и при необходимости portfolio. Работа — Yongin Jungle Campus. Контракт 1 год без conversion в permanent. Применяется 5-месячный probation period."
+    "hasRu": true
   },
   {
     "id": "ab-moon-active-39792f97-064a-4744-a812-da844620b80e",
@@ -5206,7 +5419,8 @@ window.JOBS = [
       "Unity",
       "Unreal",
       "C#"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-wargaming-8066793",
@@ -5230,7 +5444,8 @@ window.JOBS = [
       "Blender",
       "ZBrush",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-wargaming-8030704",
@@ -5250,7 +5465,8 @@ window.JOBS = [
     "role": "Арт",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-wargaming-8108499",
@@ -5275,7 +5491,8 @@ window.JOBS = [
       "ZBrush",
       "Substance",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-wargaming-7841726",
@@ -5295,7 +5512,8 @@ window.JOBS = [
     "role": "Поддержка",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-wargaming-7955997",
@@ -5318,7 +5536,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-wargaming-8078945",
@@ -5343,7 +5562,8 @@ window.JOBS = [
       "JavaScript",
       "Photoshop",
       "Figma"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-wargaming-8129700",
@@ -5363,7 +5583,8 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-wargaming-8078961",
@@ -5383,7 +5604,8 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-wargaming-8064281",
@@ -5403,7 +5625,8 @@ window.JOBS = [
     "role": "Арт",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-wargaming-7904063",
@@ -5423,7 +5646,8 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-wargaming-7716269",
@@ -5445,7 +5669,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-wargaming-7716275",
@@ -5467,7 +5692,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-wargaming-7938112",
@@ -5489,7 +5715,8 @@ window.JOBS = [
     "spec": "Движок",
     "stack": [
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-wargaming-7694777",
@@ -5513,7 +5740,8 @@ window.JOBS = [
       "Maya",
       "Blender",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-wargaming-7694788",
@@ -5537,7 +5765,8 @@ window.JOBS = [
       "Maya",
       "Blender",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-wargaming-7837365",
@@ -5561,7 +5790,8 @@ window.JOBS = [
       "Maya",
       "Blender",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-wargaming-7837376",
@@ -5585,7 +5815,8 @@ window.JOBS = [
       "Maya",
       "Blender",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-tripledot-belka-4953969101",
@@ -5605,7 +5836,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-amanotes-a0cf60b3-0916-4eec-a6c4-dfecf7b494ea",
@@ -5627,7 +5859,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-grid-esports-2709873",
@@ -5647,7 +5880,8 @@ window.JOBS = [
     "role": "Поддержка",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-supercell-22ca1a5d-e0b5-4ed5-8f40-8ae1653bc6a0",
@@ -5668,7 +5902,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7454356",
@@ -5692,7 +5927,8 @@ window.JOBS = [
       "Java",
       "TypeScript",
       "JavaScript"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7459632",
@@ -5715,7 +5951,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-6001731004",
@@ -5741,7 +5978,8 @@ window.JOBS = [
       "Blender",
       "ZBrush",
       "Substance"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5393200008",
@@ -5763,7 +6001,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5360707008",
@@ -5789,7 +6028,8 @@ window.JOBS = [
       "C#",
       "Java",
       "Swift"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5210907008",
@@ -5811,7 +6051,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-7864697003",
@@ -5834,7 +6075,8 @@ window.JOBS = [
     "stack": [
       "JavaScript",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-cd-projekt-red-744000143774407",
@@ -5857,7 +6099,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "wk-jagex-D3913FB96D",
@@ -5880,7 +6123,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-digital-extremes-5210646007",
@@ -5907,7 +6151,8 @@ window.JOBS = [
       "Maya",
       "Houdini",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "wk-homa-games-AA9BC37C4A",
@@ -5927,7 +6172,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": "Junior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-krafton-8682261002",
@@ -5949,7 +6195,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ko",
     "stack": [],
-    "descRu": "AI Research — направление\n\nAI Research KRAFTON сотрудничает с различными внутренними и внешними направлениями и создаёт AI-решения и собственные сервисы на базе deep learning. Основные направления:\n\n• Production Cost Down: применять deep learning к game-production pipeline для повышения эффективности и улучшения опыта создателей.\n• New Way to Create: расширять способы создания игр с помощью generative AI и других deep-learning технологий.\n• Virtual Friends: создавать Virtual Friends на базе deep learning и новые пользовательские сценарии внутри и вне игр.\n• Unique, Endless Gameplay: использовать deep learning для игрового контента, который даёт пользователям новый опыт при каждом прохождении.\n\nКоманда работает горизонтально и активно общается между дисциплинами, поощряя свободное обсуждение идей независимо от должности и стажа.\n\nО команде и роли\n\nKRAFTON MLSys & Ops строит высокопроизводительную и эффективную ML-serving платформу, чтобы исследовательские AI-модели стабильно работали в production — как в game-production окружении, так и в customer-facing сервисах.\n\nРоль ML Serving Engineer предполагает проектирование и непосредственную реализацию архитектуры для стабильного и cost-efficient serving LLM, coding agents и других передовых deep-learning моделей на современной GPU-инфраструктуре KRAFTON. Нужно исследовать и внедрять современные техники inference acceleration и optimization в реальные production services.\n\nМиссия\n\n• Проектировать и эксплуатировать production-grade large-model serving architecture.\n• Строить и стабилизировать LLM serving infrastructure для real-time использования непосредственно in-game.\n• Обслуживать и ускорять coding-agent services, включая GLM, где критичны throughput и низкая latency.\n• Формировать единый serving framework для новых моделей разных доменов из AI Research.\n• Строить observability и CI/CD pipelines.\n• Создавать интегрированные monitoring/logging/alerting systems для стабильной работы при large-scale serving и realtime issue detection.\n• Проектировать надёжный CI/CD/GitOps для zero-downtime model updates, automatic rollback и automated testing.\n• Исследовать и внедрять inference acceleration и serving optimization.\n• Снижать serving cost и сохранять performance под большой нагрузкой с помощью методов вроде TurboQuant, CacheBlend, FP8/INT4 quantization.\n• Развивать KV-cache optimization — GPU/CPU/disk offloading/loading и shared cache — а также Continuous Batching, PagedAttention и другие современные LLM-serving техники.\n\nОбязательные требования\n\n• Реальный опыт проектирования, строительства и эксплуатации AI/LLM serving systems под большим production traffic.\n• Практическое использование high-performance LLM inference engines вроде vLLM и TensorRT-LLM, включая optimization и stabilization.\n• Опыт значительного снижения cost и роста performance через KV-cache offloading/loading, PagedAttention, quantization и другие memory/compute optimizations.\n• Глубокий анализ failures и latency problems на уровнях inference engine, framework и GPU hardware и устранение root causes.\n• Опыт самостоятельного построения и развития monitoring/observability и CI/CD для serving reliability.\n• Возможность зарубежных командировок.\n\nБудет преимуществом\n\n• Способность принимать архитектурные решения и ясно понимать trade-offs по cost, latency и reliability.\n• Contribution в vLLM, LMCache или другие open-source serving ecosystems.\n• Глубокое знание vLLM, TensorRT-LLM, PyTorch Dynamo, FlashInfer, NVIDIA Triton и опыт custom kernels/CUDA low-level acceleration.\n\nНайм и условия\n\nПроцесс: application review → assignment (может зависеть от позиции) → Personality Assessment → Technical Fit Interview → 2–3 Culture Fit Interviews → оффер. Требуются резюме, cover letter, career description, transcript и обязательное portfolio. Работа — Yeoksam Centerfield West Tower. Тип занятости — permanent, но может измениться по итогам обсуждения условий. Применяется 5-месячный probation period."
+    "hasRu": true
   },
   {
     "id": "lv-amanotes-9c01d3c1-febb-4a43-afba-6633dc6633e7",
@@ -5969,7 +6215,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-amanotes-c302e217-6833-4f8f-ae18-32efa8e59b3a",
@@ -5991,7 +6238,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-amanotes-888bd5ff-55e8-4199-ac23-676313e0f992",
@@ -6013,7 +6261,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-amanotes-d61dacbe-bd43-4527-8c0b-679598c48cb4",
@@ -6033,7 +6282,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": "Junior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-4889d04f-0e77-4cdb-8724-fd3a63009f7f",
@@ -6056,7 +6306,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-supercell-ced1857b-2a07-45ee-a8d7-aa784a275ba6",
@@ -6076,7 +6327,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7424379",
@@ -6096,7 +6348,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Lead",
     "spec": "Геймплей",
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8118875",
@@ -6116,7 +6369,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7532239",
@@ -6136,7 +6390,8 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8056379",
@@ -6161,7 +6416,8 @@ window.JOBS = [
       "C#",
       "Go",
       "Java"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8076095",
@@ -6188,7 +6444,8 @@ window.JOBS = [
       "AWS",
       "Docker",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7763644",
@@ -6212,7 +6469,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7959477",
@@ -6239,7 +6497,8 @@ window.JOBS = [
       "ZBrush",
       "Substance",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8070799",
@@ -6261,7 +6520,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8049834",
@@ -6286,7 +6546,8 @@ window.JOBS = [
       "Go",
       "SQL",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7012037",
@@ -6307,7 +6568,8 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7592030",
@@ -6327,7 +6589,8 @@ window.JOBS = [
     "role": "Аналитика",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7412544",
@@ -6348,7 +6611,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Lead",
     "spec": "Данные и ML",
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7872902",
@@ -6373,7 +6637,8 @@ window.JOBS = [
       "C++",
       "C#",
       "Python"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8049807",
@@ -6393,7 +6658,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8108097",
@@ -6413,7 +6679,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Lead",
     "spec": "DevOps",
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8049865",
@@ -6436,7 +6703,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8078139",
@@ -6462,7 +6730,8 @@ window.JOBS = [
       "C++",
       "Maya",
       "Houdini"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8104538",
@@ -6482,7 +6751,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Lead",
     "spec": "DevOps",
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7118616",
@@ -6507,7 +6777,8 @@ window.JOBS = [
       "C#",
       "Python",
       "Java"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7782357",
@@ -6527,7 +6798,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8063865",
@@ -6547,7 +6819,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8114955",
@@ -6570,7 +6843,8 @@ window.JOBS = [
     "stack": [
       "SQL",
       "Perforce"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8114873",
@@ -6590,7 +6864,8 @@ window.JOBS = [
     "role": "Поддержка",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8003925",
@@ -6616,7 +6891,8 @@ window.JOBS = [
       "Blender",
       "Substance",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7551204",
@@ -6638,7 +6914,8 @@ window.JOBS = [
     "spec": "Данные и ML",
     "stack": [
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7181933",
@@ -6663,7 +6940,8 @@ window.JOBS = [
       "Unreal",
       "C#",
       "Java"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7838550",
@@ -6687,7 +6965,8 @@ window.JOBS = [
       "Java",
       "Kotlin",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8001087",
@@ -6709,7 +6988,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7940406",
@@ -6734,7 +7014,8 @@ window.JOBS = [
       "C++",
       "Python",
       "TypeScript"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8104534",
@@ -6756,7 +7037,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8017695",
@@ -6777,7 +7059,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8078155",
@@ -6802,7 +7085,8 @@ window.JOBS = [
       "Unreal",
       "JavaScript",
       "Figma"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7336877",
@@ -6826,7 +7110,8 @@ window.JOBS = [
       "Unity",
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7940524",
@@ -6849,7 +7134,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8014875",
@@ -6871,7 +7157,8 @@ window.JOBS = [
     "spec": "Данные и ML",
     "stack": [
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7977840",
@@ -6891,7 +7178,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": null,
     "spec": "Данные и ML",
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8011859",
@@ -6918,7 +7206,8 @@ window.JOBS = [
       "C#",
       "Java",
       "Perforce"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7364013",
@@ -6939,7 +7228,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7744274",
@@ -6962,7 +7252,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7906062",
@@ -6986,7 +7277,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8080761",
@@ -7011,7 +7303,8 @@ window.JOBS = [
       "C++",
       "Maya",
       "Blender"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8076086",
@@ -7033,7 +7326,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "TypeScript"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7688578",
@@ -7056,7 +7350,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8003927",
@@ -7082,7 +7377,8 @@ window.JOBS = [
       "AWS",
       "Docker",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7844349",
@@ -7104,7 +7400,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8011835",
@@ -7127,7 +7424,8 @@ window.JOBS = [
     "stack": [
       "AWS",
       "Docker"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8115074",
@@ -7147,7 +7445,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8049863",
@@ -7170,7 +7469,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Figma"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7984194",
@@ -7195,7 +7495,8 @@ window.JOBS = [
       "Unreal",
       "Maya",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-6144655004",
@@ -7218,7 +7519,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-6144551004",
@@ -7244,7 +7546,8 @@ window.JOBS = [
       "Maya",
       "Blender",
       "Houdini"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5390693008",
@@ -7266,7 +7569,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5256167008",
@@ -7288,7 +7592,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5180566008",
@@ -7308,7 +7613,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "wk-hutch-games-33AB3175D9",
@@ -7333,7 +7639,8 @@ window.JOBS = [
       "Maya",
       "Blender",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-tripledot-belka-4951559101",
@@ -7355,7 +7662,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-outfit7-7766013003",
@@ -7377,7 +7685,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-supercell-e8271fa2-f496-4380-8c10-b174ec076be5",
@@ -7399,7 +7708,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-supercell-32c51066-9a60-4bc8-8c82-a8f52080c200",
@@ -7422,7 +7732,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-supercell-fdef9348-750d-4c8f-88b2-517ba4804672",
@@ -7443,7 +7754,8 @@ window.JOBS = [
     "role": "Аналитика",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-87ee72b6-7d8b-472b-90e9-30cdb3d131b2",
@@ -7465,7 +7777,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "wk-zeptolab-82F3707C95",
@@ -7487,7 +7800,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-6103058004",
@@ -7510,7 +7824,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-5763801004",
@@ -7532,7 +7847,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-6000061004",
@@ -7555,7 +7871,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-6008339004",
@@ -7578,7 +7895,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-6141180004",
@@ -7601,7 +7919,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-6008341004",
@@ -7622,7 +7941,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-6016143004",
@@ -7645,7 +7965,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-5995635004",
@@ -7667,7 +7988,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-6001593004",
@@ -7689,7 +8011,8 @@ window.JOBS = [
     "spec": "Геймплей",
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-6001589004",
@@ -7711,7 +8034,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-6001702004",
@@ -7734,7 +8058,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-6130892004",
@@ -7758,7 +8083,8 @@ window.JOBS = [
       "Blender",
       "Substance",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-6019216004",
@@ -7782,7 +8108,8 @@ window.JOBS = [
       "Unreal",
       "Python",
       "Houdini"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-6118355004",
@@ -7804,7 +8131,8 @@ window.JOBS = [
       "Unreal",
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-6003199004",
@@ -7826,7 +8154,8 @@ window.JOBS = [
     "spec": "Unreal",
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-6128542004",
@@ -7848,7 +8177,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-6122979004",
@@ -7873,7 +8203,8 @@ window.JOBS = [
       "Java",
       "SQL",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-6019148004",
@@ -7896,7 +8227,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-6117647004",
@@ -7919,7 +8251,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "Python"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-5972880004",
@@ -7943,7 +8276,8 @@ window.JOBS = [
       "Unreal",
       "Python",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-6121331004",
@@ -7965,7 +8299,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-6122085004",
@@ -7987,7 +8322,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-6008409004",
@@ -8009,7 +8345,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-6122983004",
@@ -8031,7 +8368,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-6143677004",
@@ -8052,7 +8390,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "Substance"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-6119876004",
@@ -8074,7 +8413,8 @@ window.JOBS = [
       "Unreal",
       "C++",
       "Maya"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-5829633004",
@@ -8096,7 +8436,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-6008376004",
@@ -8120,7 +8461,8 @@ window.JOBS = [
       "Unreal",
       "C++",
       "Maya"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-5723660004",
@@ -8144,7 +8486,8 @@ window.JOBS = [
       "Unreal",
       "Photoshop",
       "Figma"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5320399008",
@@ -8164,7 +8507,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5389044008",
@@ -8184,7 +8528,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5368795008",
@@ -8212,7 +8557,8 @@ window.JOBS = [
       "Unity",
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5298505008",
@@ -8232,7 +8578,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5081833008",
@@ -8260,7 +8607,8 @@ window.JOBS = [
       "Python",
       "AWS",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5181482008",
@@ -8284,7 +8632,8 @@ window.JOBS = [
       "Python",
       "SQL",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-4958835008",
@@ -8307,7 +8656,8 @@ window.JOBS = [
     "stack": [
       "C#",
       "Python"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-7634972003",
@@ -8329,7 +8679,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Python"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-cd-projekt-red-744000143351452",
@@ -8349,7 +8700,8 @@ window.JOBS = [
     "role": "Звук",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "sr-cd-projekt-red-744000143353740",
@@ -8373,7 +8725,8 @@ window.JOBS = [
       "Python",
       "AWS",
       "Perforce"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-cd-projekt-red-744000143352561",
@@ -8398,7 +8751,8 @@ window.JOBS = [
       "Maya",
       "Blender",
       "Houdini"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-cd-projekt-red-744000143353679",
@@ -8421,7 +8775,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "wk-jagex-D95A3FF5F9",
@@ -8443,7 +8798,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "wk-jagex-C3FE5C5A9C",
@@ -8467,7 +8823,8 @@ window.JOBS = [
       "Unreal",
       "Figma",
       "Perforce"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-firesprite-6115299004",
@@ -8487,7 +8844,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-tripledot-belka-4861471101",
@@ -8509,7 +8867,8 @@ window.JOBS = [
     "spec": "Фронтенд",
     "stack": [
       "JavaScript"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-tripledot-belka-4901455101",
@@ -8531,7 +8890,8 @@ window.JOBS = [
     "spec": "Фронтенд",
     "stack": [
       "JavaScript"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-c6f428b4-e648-41a4-b4d7-4707a4ad4802",
@@ -8554,7 +8914,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-nordeus-8088472",
@@ -8577,7 +8938,8 @@ window.JOBS = [
     "stack": [
       "Photoshop",
       "Figma"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-nordeus-8090556",
@@ -8597,7 +8959,8 @@ window.JOBS = [
     "role": "QA",
     "grade": "Junior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-ee2589f2-d47a-45d8-86f2-98d5456d25f2",
@@ -8622,7 +8985,8 @@ window.JOBS = [
       "SQL",
       "AWS",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-1eaad2bd-2e9d-47c9-b996-76fcb09129d1",
@@ -8642,7 +9006,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-83fe4bd0-492e-4af9-989a-38b9de8d25e2",
@@ -8665,7 +9030,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "Figma"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-0dc64b3f-0286-4db2-a2d1-bacb17fc0784",
@@ -8687,7 +9053,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7088660",
@@ -8710,7 +9077,8 @@ window.JOBS = [
     "stack": [
       "C++",
       "Python"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5212408008",
@@ -8732,7 +9100,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5282076008",
@@ -8752,7 +9121,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-7771377003",
@@ -8778,7 +9148,8 @@ window.JOBS = [
       "TypeScript",
       "JavaScript",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-people-can-fly-744000143120319",
@@ -8800,7 +9171,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "wk-jagex-86BB1C69AF",
@@ -8820,7 +9192,8 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": "Junior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-krafton-8698997002",
@@ -8842,7 +9215,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ko",
     "stack": [],
-    "descRu": "О команде\n\nPublishing Platform KRAFTON объединяет продукты, отвечающие за все точки взаимодействия между играми и игроками: знакомство с играми, использование сервисов и дальнейшее удержание. Команда строит платформу, которая помогает live-service играм стабильно работать и расти на глобальном рынке и приносит ценность как игровым студиям, так и игрокам.\n\nВ направлении commerce и operations команда создаёт среду, где студии и операционные подразделения могут единообразно управлять товарами, быстро запускать разные sales strategies и отслеживать результаты на основе данных. Одна из ключевых целей роли — превращать сложные operational processes в простой и понятный user experience.\n\nМиссия\n\n• Выявлять user problems и business requirements в закреплённой части Publishing Platform и превращать их в конкретные product problems/tasks.\n• Вести полный lifecycle продукта от концепции через development и launch до operations, координируя engineering, design, business, operations и других stakeholders.\n• Формулировать product goals и priorities и согласовывать scope по user value и impact.\n• Создавать PRD, user flows, policy documents, work tickets и другие product deliverables.\n• Определять product KPI, data-driven отслеживать результаты и непрерывно улучшать player experience и operational efficiency.\n\nОбязательные требования\n\n• 5+ лет PM-опыта в games, IT services или commerce.\n• Опыт как минимум одного полного product cycle: problem definition → requirements → development collaboration → launch → improvement.\n• Опыт расстановки product priorities с одновременным учётом user perspective и business goals.\n• Умение разбираться в сложных policies/operational processes и превращать их в ясные product requirements и UX.\n• Умение через документы и коммуникацию ясно объяснять product direction, requirements и логику решений.\n\nБудет преимуществом\n\n• Product experience в games, platforms, commerce, payments, rewards, catalog/item management или operational tools.\n• Опыт проектирования/эксплуатации B2B или B2B2C platforms.\n• Data-driven оценка product performance и поиск направлений улучшения.\n• Способность читать английские документы и вести базовую рабочую коммуникацию на английском.\n• Использование AI tools для ускорения и улучшения planning, documentation, research и prototyping.\n• Любовь к играм и искренний интерес к player experience.\n\nНайм и условия\n\nПроцесс: application review → возможное assignment → Technical Fit Interview → Culture Fit Interview → оффер. Требуются resume, cover letter, career description и обязательное portfolio. Работа — Yeoksam Centerfield West Tower. Контракт 1 год, без conversion в permanent. Применяется 5-месячный probation period."
+    "hasRu": true
   },
   {
     "id": "ab-moon-active-d9438ecd-3caf-4705-b308-fc2f55c646de",
@@ -8866,7 +9239,8 @@ window.JOBS = [
       "Unity",
       "C#",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-kabam-ace1dc63-d0a4-431c-9a44-fc9d907d43e2",
@@ -8886,7 +9260,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-kabam-509c3760-32ee-47ce-b4fe-6f2b4c41f56f",
@@ -8906,7 +9281,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-outfit7-6685260003",
@@ -8928,7 +9304,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-supercell-4f664144-8f5f-4b80-b3e6-ed59f1814e7e",
@@ -8949,7 +9326,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-1e2d6c8f-5460-45f4-9505-b005eae74f34",
@@ -8971,7 +9349,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-8b7c1ea9-ed73-4ec7-bd1e-a687552f6ef6",
@@ -8993,7 +9372,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-c76d6189-b6bf-4be7-a523-a903286ad68c",
@@ -9015,7 +9395,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8029746",
@@ -9038,7 +9419,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "Perforce"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-blackbird-interactive-9ae1eeba-1c1e-4a35-9f70-8ef176f3b15b",
@@ -9060,7 +9442,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5383261008",
@@ -9080,7 +9463,8 @@ window.JOBS = [
     "role": "QA",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5285387008",
@@ -9103,7 +9487,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5123830008",
@@ -9128,7 +9513,8 @@ window.JOBS = [
       "Java",
       "Kotlin",
       "Swift"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5387038008",
@@ -9152,7 +9538,8 @@ window.JOBS = [
       "Python",
       "SQL",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-7632962003",
@@ -9176,7 +9563,8 @@ window.JOBS = [
       "C++",
       "C#",
       "Maya"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-7673247003",
@@ -9199,7 +9587,8 @@ window.JOBS = [
     "stack": [
       "C#",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-7636555003",
@@ -9219,7 +9608,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-7585824003",
@@ -9241,7 +9631,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Figma"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-7771376003",
@@ -9264,7 +9655,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-7800927003",
@@ -9286,7 +9678,8 @@ window.JOBS = [
     "spec": "Бэкенд",
     "stack": [
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-7767935003",
@@ -9310,7 +9703,8 @@ window.JOBS = [
       "TypeScript",
       "Blender",
       "Figma"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-7711703003",
@@ -9336,7 +9730,8 @@ window.JOBS = [
       "JavaScript",
       "SQL",
       "Perforce"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-7797779003",
@@ -9359,7 +9754,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-6653468003",
@@ -9381,7 +9777,8 @@ window.JOBS = [
     "spec": "Фронтенд",
     "stack": [
       "TypeScript"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-7738027003",
@@ -9401,7 +9798,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-7748469003",
@@ -9424,7 +9822,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-7782765003",
@@ -9449,7 +9848,8 @@ window.JOBS = [
       "C#",
       "Python",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-7711020003",
@@ -9476,7 +9876,8 @@ window.JOBS = [
       "SQL",
       "Docker",
       "Perforce"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-7792318003",
@@ -9500,7 +9901,8 @@ window.JOBS = [
       "C++",
       "C#",
       "Python"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-7793838003",
@@ -9522,7 +9924,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-7695704003",
@@ -9547,7 +9950,8 @@ window.JOBS = [
       "C#",
       "Python",
       "Lua"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-7771374003",
@@ -9569,7 +9973,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Python"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-7791617003",
@@ -9591,7 +9996,8 @@ window.JOBS = [
     "spec": "C++",
     "stack": [
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-7578196003",
@@ -9615,7 +10021,8 @@ window.JOBS = [
       "Python",
       "Java",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-7734497003",
@@ -9637,7 +10044,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Java"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-7694184003",
@@ -9662,7 +10070,8 @@ window.JOBS = [
       "Python",
       "Houdini",
       "ZBrush"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-7739156003",
@@ -9684,7 +10093,8 @@ window.JOBS = [
     "spec": "Фронтенд",
     "stack": [
       "C#"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-6620891003",
@@ -9706,7 +10116,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "C#"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-7711702003",
@@ -9731,7 +10142,8 @@ window.JOBS = [
       "C#",
       "SQL",
       "Perforce"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-7734376003",
@@ -9753,7 +10165,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Java"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-7800929003",
@@ -9773,7 +10186,8 @@ window.JOBS = [
     "role": "Аналитика",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-rockstar-games-7683473003",
@@ -9796,7 +10210,8 @@ window.JOBS = [
     "stack": [
       "C++",
       "C#"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-cd-projekt-red-744000142902159",
@@ -9818,7 +10233,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-gameloft-744000142975579",
@@ -9840,7 +10256,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
-    "descRu": "О компании\n\nGameloft уже более 25 лет создаёт игровые впечатления, призванные приносить радость игрокам по всему миру. Компания выпустила Asphalt, Dungeon Hunter, Modern Combat и более 200 других игр, а сейчас расширяет направление кроссплатформенных проектов для PC и консолей — среди них Disney Speedstorm и Disney Dreamlight Valley. В Gameloft работает более 3000 человек по всему миру, и компания подчёркивает ценность разнообразия команд и идей.\n\nО вакансии\n\nGameloft Montréal ищет Senior Narrative Designer в команду Dungeons & Dragons. Новый проект объединяет механики action-RPG/выживания с элементами life-sim и стремится по-новому раскрыть жанр.\n\nНарративный дизайнер отвечает за создание и развитие сюжетных элементов игры и выступает основной точкой контакта по вопросам истории, структуры, персонажей, сеттинга и диалогов. Он тесно взаимодействует с level-design командой на всех этапах разработки, чтобы механики, структура мира и история работали как единое целое.\n\nВы будете работать вместе с Lead Narrative Designer, level designers и командой нарративных дизайнеров.\n\nОсновные обязанности\n\n• Писать диалоги между персонажами и игроком, включая выборы, позволяющие игроку выражать себя.\n• Создавать индивидуальные голоса и характеры разнообразных персонажей и легендарных существ вселенной Dungeons & Dragons.\n• Разрабатывать увлекательный нарративный контент, соответствующий lore и ключевым дизайн-принципам игры.\n• Участвовать в создании квестов и приключений с цельными, убедительными и насыщенными поворотами сюжетными арками.\n• Писать тексты для озвучки, контекстных реакций и квестов.\n• Создавать и поддерживать дизайн-документацию по всем нарративным элементам.\n• Интегрировать сильный нарратив в системные механики игры и помогать сохранять между ними баланс.\n• Выявлять нарративные проблемы и совместно с коллегами находить творческие решения.\n• Уважительно давать и принимать обратную связь во время брейнштормов, разборов геймплея и table reads.\n• Ежедневно взаимодействовать с коллегами."
+    "hasRu": true
   },
   {
     "id": "sr-gameloft-744000142876500",
@@ -9862,7 +10278,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-behaviour-interactive-51365dfe-d47a-4782-98f7-08bca354f4df",
@@ -9885,7 +10302,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-moon-active-6da1d55a-8681-439b-baba-ed823acac61b",
@@ -9907,7 +10325,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-83ce977c-9338-44fa-8c9d-f6569ca32e2f",
@@ -9930,7 +10349,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "Figma"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-avalanche-studios-34e05018-cd16-4d05-96e6-5ffa29adb66e",
@@ -9953,7 +10373,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "FMOD"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-blackbird-interactive-13c5ffd2-f76f-49cf-9a78-78b296e08588",
@@ -9977,7 +10398,8 @@ window.JOBS = [
       "Unreal",
       "C++",
       "Perforce"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5383213008",
@@ -10000,7 +10422,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-cd-projekt-red-744000142664350",
@@ -10024,7 +10447,8 @@ window.JOBS = [
       "Unreal",
       "Maya",
       "Blender"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-cd-projekt-red-744000142635893",
@@ -10047,7 +10471,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-cd-projekt-red-744000142632739",
@@ -10070,7 +10495,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "Wwise"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-krafton-8360146002",
@@ -10092,7 +10518,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ko",
     "stack": [],
-    "descRu": "AI Research Division\n\nKRAFTON AI Research строит новое поколение AI-driven game production вокруг large language models. Команда самостоятельно работает по всей цепочке — model design, data composition, large-scale training, optimization, evaluation, deployment и operations — с двумя основными целями: повышать эффективность и доступность game production через deep learning и создавать Co-Playable Characters, способных играть вместе с пользователем.\n\nFoundation Model Engineering\n\nFoundation Model Engineering превращает research ideas и гипотезы уровня научных работ в реальные large-scale models и production systems. Research Engineer переводит исследовательское направление в обучаемые модели, воспроизводимые эксперименты, масштабируемые pipelines и стабильные evaluation/deployment systems.\n\nКоманда работает с distributed training, memory/communication optimization, checkpoint management и experiment automation для моделей от миллиардов до десятков миллиардов параметров. Инженер должен уметь разложить исследовательскую гипотезу на проверяемые эксперименты, проанализировать результаты и помочь определить следующее исследовательское направление. Цель — end-to-end Foundation Model pipeline от training до inference, evaluation и deployment.\n\nМиссия\n\n• Проектировать и реализовывать end-to-end pipelines для training, evaluation, inference и deployment крупных LLM и multimodal Foundation Models.\n• Превращать training algorithms, data strategies, optimization approaches и evaluation methods в реальный код и экспериментальные системы.\n• Формулировать research hypotheses как проверяемые эксперименты и вести design → implementation → execution → analysis → documentation.\n• Улучшать model/data/pipeline parallelism, communication, memory optimization и checkpoint strategies в distributed training.\n• Интегрировать новые model architectures, training techniques и optimization methods в существующий codebase и проверять их экспериментально.\n• Строить reproducible experiment environments для точного анализа причин улучшения/ухудшения моделей.\n• Анализировать training instability, convergence failures, distributed-system errors, data bottlenecks и evaluation inconsistencies.\n• Количественно оценивать model performance, training efficiency, system efficiency и evaluation results и представлять выводы researchers/engineers.\n\nОбязательные требования\n\n• Бакалавриат или выше в AI, Computer Science, Statistics, Electrical/Electronic Engineering или эквивалентный опыт.\n• R&D-опыт в machine learning, deep learning или Foundation Models.\n• Сильный software engineering: способность понимать и изменять models, training loops, data loaders, evaluation pipelines и experiment configs в больших codebases.\n• Умение количественно анализировать experiments, формулировать причины изменения performance и превращать их в следующие эксперименты.\n• Умение ясно документировать сложную реализацию, experiment setup и результаты.\n• Умение структурировать и решать задачи вместе с researchers, engineers и product organizations.\n\nБудет преимуществом\n\n• Training/evaluation/inference крупных LLM или multimodal Foundation Models.\n• Опыт distributed training, training optimization, model parallelism и других system-level задач large-model development.\n• Решение сложных проблем training instability, performance bottlenecks, evaluation mismatch и data quality.\n• Проектирование или улучшение ML pipelines от training до evaluation/inference/deployment.\n• Понимание LLM agents, reasoning, tool use, reinforcement learning и multimodal learning.\n• Способность превращать research ideas в рабочий код и воспроизводимые experiments.\n\nНайм и условия\n\nПроцесс: application review → phone interview → возможный Pre-Test → Technical Fit Interview → Culture Fit Interview → education/employment/reference checks → compensation discussion → final offer. Требуются CV, cover letter, career description, transcript и обязательное portfolio. Работа — Yeoksam Centerfield West Tower. Контракт на 1 год с возможностью перехода в permanent; AI Research применяет одинаковые compensation standards независимо от типа занятости. Применяется 5-месячный probation period."
+    "hasRu": true
   },
   {
     "id": "lv-kabam-e257e181-07a8-4fc7-a4d8-c8f32b0505fb",
@@ -10112,7 +10538,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-supercell-b9c005e5-63ae-4a68-94c6-db2ba6e08a9e",
@@ -10135,7 +10562,8 @@ window.JOBS = [
     "stack": [
       "C++",
       "Java"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-supercell-be3451d8-7ff6-4130-bbea-880d565051a1",
@@ -10155,7 +10583,8 @@ window.JOBS = [
     "role": "QA",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-moon-active-59750dbd-b3da-444c-8dbd-a755015d5181",
@@ -10179,7 +10608,8 @@ window.JOBS = [
       "Python",
       "JavaScript",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-huuuge-games-2702969",
@@ -10199,7 +10629,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-larian-studios-3281647f-284e-4c59-8690-733c359b227b",
@@ -10220,7 +10651,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-supercell-25896f6c-f9c6-449d-8abe-69ce7c63fffe",
@@ -10241,7 +10673,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8017748",
@@ -10261,7 +10694,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Lead",
     "spec": "Бэкенд",
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7915312",
@@ -10286,7 +10720,7 @@ window.JOBS = [
       "Blender",
       "Photoshop"
     ],
-    "descRu": "Команда неанонсированного R&D-продукта ставит player experience в центр разработки и ищет senior character concept artist, который будет формировать visual language персонажей от первых design explorations до production-ready решений. Роль тесно взаимодействует с art, narrative, animation, technical и другими cross-functional teams и подчиняется Creative Director.\n\nОбязанности\n\nCharacter Design\n• Character concepts от rough sketches до highly finished designs.\n• Определять visual language персонажей: shape, proportion, silhouette, materials и др.\n• Создавать distinctive и visually compelling character solutions.\n\nDesign Systems & Methodology\n• Строить логику дизайна: visual background, function, principles и narrative links.\n• Развивать design standards: proportions, style boundaries, detail density.\n• Балансировать overall style consistency и design diversity для long-term content expansion.\n\nCross-functional Collaboration\n• Работать с character art, animation, VFX и technical art, обеспечивая production feasibility.\n• Давать понятные, actionable deliverables: structural breakdowns, material guides, design notes.\n• Участвовать в reviews и отслеживать качество персонажа от concept до final implementation.\n\nQuality & Team\n• Помогать устанавливать character-design quality bar и overall art style.\n• Балансировать complexity и production cost под target platform/product needs.\n• Быстро предоставлять alternative designs при смене direction.\n• Менторить коллег, давать feedback external partners и развивать reusable design methods/standards.\n\nТребования\n\n• 6–10+ лет game-industry experience и хотя бы 1–2 полных проекта или проекта на ключевой production stage.\n• Сильная art foundation: anatomy, perspective, color, composition, shape/design.\n• Mature character-design methodology, не только drawing skill.\n• Полный design process: exploration sketches → refined design → design documentation.\n• Опыт разных stylized character approaches.\n• Понимание 3D production и cross-functional workflow.\n• Photoshop, Blender и другие 3D-assisted design tools.\n• Сильная коммуникация и ability to articulate design intent.\n\nБудет преимуществом\n\nCommercial distinctive-character design, complex character production, 3D/blockout skills, cross-cultural/global design, external-partner/team mentoring и глубокое понимание character backstory/design narrative.\n\nPortfolio\n\n3–5 representative character-design cases: exploration sketches, iterations, final designs и, особенно важно, объяснение design thinking/methodology. Желательны разные типы персонажей и commercial work."
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8077343",
@@ -10308,7 +10742,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8082804",
@@ -10334,7 +10769,7 @@ window.JOBS = [
       "Python",
       "Maya"
     ],
-    "descRu": "Technical Artists в Riot создают и оптимизируют technical foundation, workflows и tools для art production. В этой роли фокус — animation technology для неанонсированного проекта: стабильная и масштабируемая animation foundation, engine implementation и долгосрочное развитие character-rigging systems. Роль работает с animation, art direction, design, engineering и другими TAs и подчиняется Technical Art Lead.\n\nОбязанности\n\n• Проектировать и реализовывать high-priority engine-animation features: animation state machines, IK, character physics и связанные systems.\n• Переводить motion/camera/visual goals в executable technical solutions вместе с cross-functional teams.\n• Находить и решать key issues в real-time animation и animation-asset production; улучшать implementation, integration, optimization и asset specifications.\n• Строить/поддерживать/оптимизировать rigging и animation solutions для characters, creatures, props и performance needs.\n• Разрабатывать tools и debugging workflows, повышающие качество и скорость animation production.\n\nТребования\n\n• 6+ лет Technical Art в games/related industry и сильный hands-on technical-animation background.\n• Умение абстрагировать technical problem от visual target и балансировать animation quality, gameplay needs, implementation cost и maintainability.\n• Сильный Unreal Engine: Blueprints, animation state machines, IK, character physics, camera-related implementation.\n• Maya rigging workflows и понимание fundamentals character rigging/animation systems.\n• Отличная cross-functional communication.\n\nБудет преимуществом\n\nЗнание League of Legends IP, leadership в character-rigging system development, Maya Python scripting, stylized/deformable character rigs, high-end cinematic/performance character production.\n\nPortfolio/demo может быть обязательной частью application; возможен art test."
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8078076",
@@ -10358,7 +10793,8 @@ window.JOBS = [
       "C++",
       "C#",
       "Python"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8078074",
@@ -10382,7 +10818,8 @@ window.JOBS = [
       "C++",
       "C#",
       "Python"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8078078",
@@ -10406,7 +10843,8 @@ window.JOBS = [
       "C++",
       "C#",
       "Python"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8080763",
@@ -10429,7 +10867,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7257339",
@@ -10451,7 +10890,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Swift"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-bungie-6139094004",
@@ -10471,7 +10911,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "wk-homa-games-DE453781D2",
@@ -10493,7 +10934,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-kabam-90be6e1a-b4e4-40e0-af5b-8b6b2173aaf1",
@@ -10513,7 +10955,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-kabam-8f80b56d-9443-4d87-9a32-bd473c1e6dfe",
@@ -10533,7 +10976,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-klang-games-4948677101",
@@ -10556,7 +11000,8 @@ window.JOBS = [
     "stack": [
       "Photoshop",
       "Figma"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-tripledot-belka-4870239101",
@@ -10579,7 +11024,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-tripledot-belka-4943845101",
@@ -10601,7 +11047,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-tripledot-belka-4941466101",
@@ -10624,7 +11071,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-tripledot-belka-4939207101",
@@ -10646,7 +11094,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Python"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-tripledot-belka-4944288101",
@@ -10666,7 +11115,8 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-tripledot-belka-4909939101",
@@ -10686,7 +11136,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-tripledot-belka-4939386101",
@@ -10706,7 +11157,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-tripledot-belka-4947219101",
@@ -10726,7 +11178,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-tripledot-belka-4928237101",
@@ -10749,7 +11202,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-tripledot-belka-4941941101",
@@ -10769,7 +11223,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-tripledot-belka-4926736101",
@@ -10792,7 +11247,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "C#"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-tripledot-belka-4820731101",
@@ -10815,7 +11271,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "C#"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-tripledot-belka-4931784101",
@@ -10839,7 +11296,8 @@ window.JOBS = [
       "Unity",
       "C++",
       "C#"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-tripledot-belka-4821131101",
@@ -10864,7 +11322,8 @@ window.JOBS = [
       "C#",
       "Blender",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-8c0f5e96-f19f-4d7b-a2a2-a2531e925f02",
@@ -10884,7 +11343,8 @@ window.JOBS = [
     "role": "Поддержка",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-d00d0e70-7c03-4fe9-8ebe-884721476c10",
@@ -10907,7 +11367,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-0d1d8efb-8984-4173-8c50-07936105ae9b",
@@ -10927,7 +11388,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-f33b07cc-fe35-4e12-a81c-eaf1c69603a9",
@@ -10947,7 +11409,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-outfit7-7831280003",
@@ -10968,7 +11431,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-outfit7-7820146003",
@@ -10989,7 +11453,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5372414008",
@@ -11013,7 +11478,8 @@ window.JOBS = [
       "Blender",
       "ZBrush",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5342840008",
@@ -11038,7 +11504,8 @@ window.JOBS = [
       "Java",
       "Kotlin",
       "Swift"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5380596008",
@@ -11061,7 +11528,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5342333008",
@@ -11081,7 +11549,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5261506008",
@@ -11103,7 +11572,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "TypeScript"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-4797651008",
@@ -11124,7 +11594,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "wk-jagex-1766C4BBD0",
@@ -11146,7 +11617,8 @@ window.JOBS = [
     "spec": "DevOps",
     "stack": [
       "Python"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "wk-jagex-0895D3AFB3",
@@ -11169,7 +11641,8 @@ window.JOBS = [
     "stack": [
       "JavaScript",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-krafton-8524463002",
@@ -11193,7 +11666,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
-    "descRu": "Motion Capture Part\n\nMotion Capture Team входит в Art Department KRAFTON и отвечает за повышение эффективности и качества animation production. Команда использует оптическую систему VICON для производства высококачественных motion data, необходимых игровым командам. Маркеры крепятся к телу и объектам, а движения точно фиксируются инфракрасными камерами, формируя основу для реалистичной character animation.\n\nКоманда также помогает с подготовкой props, настройкой площадки и другими этапами capture process, тесно работая с project teams. Сейчас она поддерживает более 10 студий KRAFTON.\n\nArt Department\n\nArt Department предоставляет game studios KRAFTON графические технологии, production pipelines и технические решения, помогает быстро и стабильно запускать и масштабировать проекты. В рамках направлений «Scale-up the Creative» и «AI-first» команда делает упор на craftsmanship, high quality, data-driven optimization и production efficiency и помогает устранять технические bottlenecks вместе со студиями.\n\nМиссия\n\nMotion-capture съёмка\n\n• Подготавливать актёров, calibration и props до съёмки.\n• Понимать требования development teams и помогать на capture session; по мере роста опыта переходить к самостоятельному ведению съёмок.\n\nData editing / cleanup\n\n• Исправлять и улучшать captured motion data для повышения качества.\n• Использовать Vicon Shogun для поиска ошибок body data и корректировки движения.\n• Выполнять базовый cleanup, чтобы все данные соответствовали требуемому quality level.\n\nCharacter retargeting\n\n• Помогать retarget motion data на character rigs.\n• Использовать MotionBuilder для проверки результата и корректировки движений под конкретного персонажа.\n\nОбязательные требования\n\n• Опыт использования motion-capture systems.\n• Готовность осваивать новые systems/software.\n• Базовое понимание 3D animation, rigging и human movement.\n\nБудет преимуществом\n\n• Опыт optical motion capture.\n• Unreal Engine, MotionBuilder и другие DCC tools.\n• Опыт facial, hand, gyro и других mocap hardware/software.\n• Способность выступать как action performer/actor.\n\nНайм и условия\n\nПроцесс: application review → возможное assignment → Technical Fit Interview → Culture Fit Interview → оффер. Обязательны resume, cover letter, career description и portfolio. Работа — GREITS PANGYO. Контракт на 1 год без permanent conversion. Применяется 5-месячный probation period."
+    "hasRu": true
   },
   {
     "id": "gh-krafton-8470910002",
@@ -11215,7 +11688,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ko",
     "stack": [],
-    "descRu": "О команде\n\nКоманда определяет визуальное направление новых проектов и transmedia-расширений на базе PUBG IP, систематизирует visual foundation всей IP и стратегически руководит внутренним и внешним производством. Это не просто production-команда: она отвечает за развитие IP Visual Core и мира, долгосрочную visual system для расширения франшизы, управление внешними партнёрами и студиями, параллельные проекты и систему контроля качества.\n\nМиссия\n\n• Руководить развитием core visual foundation и мира PUBG IP Universe, одновременно управляя внешним производством и параллельными проектами.\n• Определять core visual boundaries и развивать Visual Foundation PUBG IP Universe.\n• Создать visual consistency framework и средне-/долгосрочную operating system для расширения IP.\n• Структурировать и поддерживать IP visual/guideline documentation, обеспечивать её внутреннее распространение и применение.\n• Управлять сотрудничеством с внешними студиями и независимыми художниками; профессионально определять визуальные критерии и framework и принимать ключевые визуальные решения на major milestones.\n• Вести review cadence, milestone gates, acceptance criteria и risk management для параллельных проектов.\n• Рано выявлять visual drift, rework, задержки и разброс качества и предлагать меры реагирования.\n• Готовить варианты и основания для решений финального Art Director/decision makers и руководить исполнением после утверждения.\n\nОбязательные требования\n\n• Возможность зарубежных командировок.\n• Опыт руководства art quality bar на AAA-проекте или проекте сопоставимого масштаба.\n• Опыт определения и эксплуатации style guides, standards documents и reference systems.\n• Опыт руководства briefing, feedback и QC во взаимодействии с внешними студиями/фрилансерами.\n• Сильная коммуникация: способность переводить высокоуровневый visual intent в ясные правила и выравнивать по ним команды.\n• 8+ лет в concept/3D art и 2+ года в роли Art Director.\n• Глубокое понимание lighting и опыт его review.\n\nБудет преимуществом\n\n• Работа с международными студиями.\n• Свободная коммуникация на английском.\n• Опыт расширения IP или одновременного ведения нескольких проектов.\n• Team leadership и mentoring.\n• Практический опыт lighting либо cinematic/game look development.\n\nНайм и условия\n\nПроцесс: application review → возможный Pre-Test → Technical Fit Interview → Culture Fit Interview → проверка образования/опыта и references → согласование условий → финальный оффер. Нужны resume, обязательное portfolio, при необходимости cover letter и career description. Место работы — Seocho Majesta City Tower I. Тип занятости — professional/specialist contract. Применяется 5-месячный probation без изменения типа занятости или зарплаты."
+    "hasRu": true
   },
   {
     "id": "lv-behaviour-interactive-909e32a5-3df5-46e5-96b4-73fff61c2eb9",
@@ -11239,7 +11712,8 @@ window.JOBS = [
       "TypeScript",
       "JavaScript",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-moon-active-782e0dd3-34c2-4d36-b1c7-eb59340858eb",
@@ -11261,7 +11735,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-moon-active-ad3f690a-ac95-4a7e-af5e-3b373775cc69",
@@ -11281,7 +11756,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-kabam-cbdbaeeb-1228-40c6-a022-48306ea63635",
@@ -11303,7 +11779,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-outfit7-7597620003",
@@ -11327,7 +11804,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-153e8850-013f-411c-996f-b9beedc579bb",
@@ -11350,7 +11828,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-b3a39853-dfe4-40cc-b9f1-b140e1018e3f",
@@ -11373,7 +11852,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-e51a4c50-ee4a-4505-b438-6211681bbf7d",
@@ -11404,7 +11884,8 @@ window.JOBS = [
       "Unity",
       "Go",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-1de2e2bf-23ec-42b0-b2b9-ed7298d61c19",
@@ -11428,7 +11909,8 @@ window.JOBS = [
       "Unity",
       "Go",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-b4b69245-4fe2-4934-9e59-994adfd4ec5e",
@@ -11452,7 +11934,8 @@ window.JOBS = [
       "Python",
       "SQL",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-eceb208c-587d-43fa-92f7-91fd9b9c6847",
@@ -11474,7 +11957,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-blackbird-interactive-134a5b7d-12c8-4e1f-889d-216b1ceed2d8",
@@ -11496,7 +11980,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5141567008",
@@ -11518,7 +12003,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Python"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5290885008",
@@ -11538,7 +12024,8 @@ window.JOBS = [
     "role": "Арт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5375411008",
@@ -11558,7 +12045,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5276789008",
@@ -11580,7 +12068,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5238543008",
@@ -11600,7 +12089,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5281535008",
@@ -11620,7 +12110,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5239651008",
@@ -11640,7 +12131,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5282364008",
@@ -11664,7 +12156,8 @@ window.JOBS = [
       "C#",
       "Java",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5347395008",
@@ -11686,7 +12179,8 @@ window.JOBS = [
     "spec": "Бэкенд",
     "stack": [
       "Python"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5347393008",
@@ -11709,7 +12203,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "C#"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5120395008",
@@ -11729,7 +12224,8 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5116904008",
@@ -11750,7 +12246,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5222107008",
@@ -11770,7 +12267,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5204332008",
@@ -11790,7 +12288,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5191999008",
@@ -11810,7 +12309,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5371149008",
@@ -11830,7 +12330,8 @@ window.JOBS = [
     "role": "QA",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5256146008",
@@ -11854,7 +12355,8 @@ window.JOBS = [
       "Unity",
       "C#",
       "Python"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5298879008",
@@ -11874,7 +12376,8 @@ window.JOBS = [
     "role": "Нарратив",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5255594008",
@@ -11894,7 +12397,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5216080008",
@@ -11914,7 +12418,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5271917008",
@@ -11936,7 +12441,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Figma"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5347405008",
@@ -11959,7 +12465,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "C#"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-4982485008",
@@ -11980,7 +12487,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5376213008",
@@ -12000,7 +12508,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5375407008",
@@ -12020,7 +12529,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5216078008",
@@ -12043,7 +12553,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5250464008",
@@ -12065,7 +12576,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5110280008",
@@ -12090,7 +12602,8 @@ window.JOBS = [
       "Java",
       "Docker",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5123217008",
@@ -12110,7 +12623,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5220555008",
@@ -12130,7 +12644,8 @@ window.JOBS = [
     "role": "Поддержка",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5342027008",
@@ -12150,7 +12665,8 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5354142008",
@@ -12170,7 +12686,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5347401008",
@@ -12194,7 +12711,8 @@ window.JOBS = [
       "Maya",
       "ZBrush",
       "Substance"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5343533008",
@@ -12214,7 +12732,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5323238008",
@@ -12234,7 +12753,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5298507008",
@@ -12257,7 +12777,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "C#"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5347517008",
@@ -12281,7 +12802,8 @@ window.JOBS = [
       "Python",
       "AWS",
       "Docker"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5360705008",
@@ -12306,7 +12828,8 @@ window.JOBS = [
       "C++",
       "C#",
       "Java"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5255592008",
@@ -12326,7 +12849,8 @@ window.JOBS = [
     "role": "Аналитика",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-krafton-8682253002",
@@ -12348,7 +12872,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ko",
     "stack": [],
-    "descRu": "KRAFTON рассматривает deep learning как одно из ключевых направлений расширения game-production capabilities и активно инвестирует в исследования и найм специалистов.\n\nAI Research Vision\n\nНаправление создаёт AI-решения и собственные технологии с двумя ключевыми целями:\n\n• Развивать AI, который повышает эффективность и доступность game production.\n• Создавать multimodal-LLM Foundation Models для совместной игры с пользователями.\n\nAI Agent Dev\n\nКоманда исследует Agentic AI и стремится сделать AI не просто инструментом, а полноценным коллегой, способным по-новому работать вместе с людьми. Цель — существенно изменить способы работы и максимально повысить индивидуальную productivity.\n\nКоманда междисциплинарная и международная, с открытой коммуникацией независимо от возраста и должности; KRAFTON предоставляет translation/interpretation support для снижения языковых барьеров.\n\nМиссия\n\n• Разрабатывать AI Agents и улучшать Agent Harness, чтобы агенты стабильно выполняли сложные реальные задачи.\n• Проектировать и строить benchmarks для системного измерения возможностей и ограничений agents и итеративно улучшать их на основе результатов.\n• Проводить research по ключевым компонентам Harness: Planning, Memory, Tool Use, Loop, Evaluation, Meta-Harness.\n\nОбязательные требования\n\n• Уверенное использование coding agents вроде Claude Code и Codex.\n• Понимание AI Agent development и опыт создания продуктов с agents.\n• Ответственность и способность доводить поставленную работу до конца.\n• Быстрая адаптация к новым domains.\n• Хорошая рабочая коммуникация.\n• Возможность зарубежных командировок.\n\nБудет преимуществом\n\n• Опыт руководства AX transformation в компании.\n• Engineering experience с Harness components: Planning, Memory, Tool Use, Loop, Evaluation, Meta-Harness.\n• Анализ open-source agents вроде OpenClaw и Hermes.\n• Опыт работы с Agent Benchmarks — создание или достижение высоких результатов.\n• Проектирование и внедрение LLM/Agent systems в production.\n\nНайм и условия\n\nПроцесс: application review → возможное assignment → Personality Assessment → Technical Fit Interview → 2–3 Culture Fit Interviews → оффер. Требуются resume, cover letter, career description, transcript и обязательное portfolio. Работа — Yeoksam Centerfield West Tower. Тип занятости — permanent, но может измениться в ходе compensation discussion. Применяется 5-месячный probation period."
+    "hasRu": true
   },
   {
     "id": "gh-krafton-8632414002",
@@ -12370,7 +12894,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ko",
     "stack": [],
-    "descRu": "О команде\n\nFoundation Model Evaluation Team всесторонне оценивает собственные foundation models KRAFTON и global frontier LLMs и использует данные оценки, чтобы определять направление model development. Поскольку стандартные benchmarks измеряют разные свойства и один score редко отражает реальные возможности модели, команда глубоко анализирует, где именно модель сильна или слаба, и связывает результаты с конкретными улучшениями.\n\nКоманда одновременно использует стандартные benchmarks, за которыми следит global frontier, и собственные evaluation sets, отражающие реальные use cases, чтобы отслеживать тенденции моделей. Результаты передаются model/data teams и напрямую влияют на technical roadmap и data strategy.\n\nМиссия\n\n• Определять capabilities и targets, на которых должна сосредоточиться собственная модель, задавая направление model development.\n• Проектировать новые benchmarks, которые измеряют реальные capabilities без искажения от data contamination.\n• Диагностировать frontier и internal models, быстро оценивать новые модели и поддерживать technical decision-making.\n• Тесно работать с data/model teams, выявлять слабости данных и возможности улучшения model design.\n• Разрабатывать evaluation pipelines/platforms для стабильного запуска large-scale evaluation и централизовать результаты и insights.\n• Публиковать результаты в Tech Reports или на top-tier venues: NeurIPS, ICLR, ICML, ACL, EMNLP и др.\n\nОбязательные требования\n\n• Магистратура/PhD в deep-learning related field либо эквивалентный research experience.\n• Опыт публикации работ по AI model evaluation/analysis или ML/NLP на top-tier AI/ML conferences — NeurIPS, ICLR, ICML, ACL, EMNLP и др.\n• Способность внимательно работать с данными и извлекать insights на детальном уровне.\n• Сильная письменная коммуникация по complex experiments и result analysis.\n• Быстрая адаптация к новым domains.\n• Хорошая рабочая коммуникация.\n• Возможность зарубежных командировок.\n\nБудет преимуществом\n\n• Доклады/награды на top-tier AI/ML conferences.\n• Hands-on сбор, генерация и очистка данных для model evaluation.\n• Проектирование собственных evaluation benchmarks или toolkits.\n• Проектирование/разработка agentic flows.\n• Построение и эксплуатация large-scale evaluation pipelines и distributed execution infrastructure.\n• Широкий опыт с Foundation Models/LLMs разных размеров.\n• Умение эффективно распространять и обсуждать lessons learned.\n\nНайм и условия\n\nПроцесс: application review → phone interview → take-home/Pre-Test → Technical Fit Interview → offer. Требуются resume, cover letter, career description, transcript; portfolio optional. Место работы — Seongsu. Стажировка на 3 месяца."
+    "hasRu": true
   },
   {
     "id": "gh-krafton-8565793002",
@@ -12394,7 +12918,7 @@ window.JOBS = [
     "stack": [
       "Kubernetes"
     ],
-    "descRu": "О команде\n\nAI Research Division KRAFTON исследует generative AI, multimodal AI, LLM и другие современные технологии и превращает их в core AI technologies для игр и сервисов. MLSys & Ops Team проектирует, строит и эксплуатирует GPU-инфраструктуру для разработки моделей: training/experiment environments, GPU clusters, infrastructure automation и observability.\n\nРоль — senior hands-on engineer, который будет развивать уже развёрнутую GPU Infrastructure на базе 125 узлов B300 в стабильную и эффективную GPU Platform для research/development teams.\n\nМиссия\n\n• Повышать стабильность, производительность, resource efficiency и automation B300 125-node GPU Infrastructure.\n• Проектировать и эксплуатировать Kubernetes-based ML/GPU Platform: scheduling, multi-tenancy, workload isolation, quotas, observability и incident response.\n• Улучшать GPU utilization, queue time, throughput и cost efficiency с учётом особенностей training/inference workloads.\n• Развивать reproducible ML Platform operations и согласовывать требования нескольких research/development organizations как требования общей платформы.\n\nОбязательные требования\n\nKRAFTON не ожидает знания абсолютно всего, а ищет глубокую экспертизу хотя бы в ключевых областях AI/ML infrastructure.\n\n• Практический опыт улучшения operations для ML/GPU Platform.\n• Опыт непосредственного улучшения scheduling, workload isolation, observability и incident response.\n• Способность анализировать failures/performance issues на уровне всей системы и доводить расследование до root-cause fixes и structural improvements.\n• Опыт сбора требований от research/development teams и предложения technical alternatives и priorities для общей ML/GPU infrastructure.\n• Опыт применения generative AI, LLM tools, code assistants и других AI-инструментов для повышения эффективности operations, troubleshooting, documentation и automation.\n• Возможность зарубежных командировок.\n\nБудет преимуществом\n\n• Построение/эксплуатация/оптимизация B200/B300, H100/H200, GB200/GB300 или сопоставимых GPU architectures.\n• Анализ и оптимизация GPU communication в NCCL, RDMA, RoCE, InfiniBand.\n• Distributed storage: Ceph, MinIO и оптимизация data throughput для AI training workloads.\n• GPU resource allocation, scheduling, priority и cost/performance optimization.\n• NVIDIA GPU Operator, DCGM, MIG/MPS, Run:ai, Slurm, Kueue, Volcano.\n• Улучшение distributed-training throughput и GPU utilization через оптимизацию data loading, communication bottlenecks и scheduling.\n\nНайм и условия\n\nПроцесс: application review → assignment → Personality Assessment → Technical Fit Interview → 2–3 Culture Fit interviews → offer. Требуются application, cover letter, career description, transcript и обязательное portfolio. Место работы — Yeoksam Centerfield West Tower. Занятость — permanent. Применяется 5-месячный probation."
+    "hasRu": true
   },
   {
     "id": "gh-krafton-8417764002",
@@ -12416,7 +12940,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ko",
     "stack": [],
-    "descRu": "О команде\n\nAI Companion Team применяет LLM, SLM и VLM в играх KRAFTON и разрабатывает AI Companion, способного взаимодействовать с игроком, строить стратегию и сотрудничать с ним. Цель — агент, который в real-time игровом окружении становится членом команды игрока, понимает ситуацию, проактивно помогает адаптироваться и обеспечивает более глубокий игровой опыт. Команда ведёт весь цикл — от optimized model design до production operation.\n\nМиссия\n\n• Исследовать и реализовывать VLA agent models, которые принимают multimodal inputs из игрового окружения — экран, текст, game state и др. — и выдают действия.\n• Проектировать данные и training recipes для улучшения instruction following, анализировать failure cases и улучшать модель.\n• Оптимизировать modeling, inference и serving под real-time constraints и валидировать производительность.\n• Строить и эксплуатировать pipelines для сбора и очистки large-scale training data.\n\nОбязательные требования\n\n• Текущая магистратура или PhD по AI, Computer Science или смежному техническому направлению.\n• Способность самостоятельно вести research, быстро разбирать deep-learning papers и проектировать эксперименты.\n• Быстрая адаптация к новым domains.\n• Сильная рабочая коммуникация.\n\nБудет преимуществом\n\n• Опыт публикаций в top-tier AI/ML venues: NeurIPS, ICLR, ICML и др.\n• Сильные результаты проектов по Vision Language Action Models.\n• Хорошая коммуникация с game design, art, business и другими нефункционально-смежными командами.\n\nНайм и условия\n\nПроцесс: application review → Phone Interview → возможный Pre-Test → Technical Fit Interview → Culture Fit Interview → education/employment/reference checks → offer. Требуются CV, cover letter, career description, transcript и обязательное portfolio. Место работы — Yeoksam Centerfield West Tower. Стажировка — 6 месяцев."
+    "hasRu": true
   },
   {
     "id": "gh-krafton-8524455002",
@@ -12438,7 +12962,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ko",
     "stack": [],
-    "descRu": "О команде\n\nKRAFTON развивает deep-learning research как одно из ключевых направлений расширения игровых технологий. AI Research Division работает над AI-решениями для внутренних и внешних задач и развивает собственные технологии, в частности для повышения эффективности game production и создания multimodal LLM-based Foundation Models, способных играть вместе с пользователями.\n\nКоманда исследует Generalist Agent for Game Environments — агента, который понимает сложную игровую среду, принимает решения в real time и взаимодействует с ней. Он должен работать с текстом, visual information, game state, logs и другими inputs, генерировать подходящие действия и адаптироваться к меняющимся целям и условиям, а не быть привязанным к одной роли или паттерну поведения.\n\nМиссия\n\n• Research & development Generalist Agent for Game Environments.\n• Проектирование и реализация agents для генерации действий и взаимодействий.\n• Улучшение качества через data design, training и evaluation.\n• Построение и эксплуатация data pipelines.\n• Оптимизация real-time inference и serving.\n• Документирование и распространение результатов исследования.\n\nОбязательные требования\n\n• Возможность в 2026 году оформить Professional Research Personnel status; магистратура или выше / завершённая объединённая Master/PhD программа согласно требованиям программы.\n• Понимание agent systems и практический project experience.\n• Умение разбирать deep-learning papers и проектировать эксперименты.\n• Опыт проектов с LLM, VLM и multimodal models.\n• Способность структурировать и решать проблемы.\n\nБудет преимуществом\n\n• Публикации в major AI/ML conferences/journals.\n• Research по Agents, VLA, Decision Making или Human-AI Interaction.\n• Опыт real-time inference optimization, serving и production deployment.\n• Data-driven evaluation и improvement."
+    "hasRu": true
   },
   {
     "id": "gh-nordeus-8104961",
@@ -12461,7 +12985,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-keen-software-house-4788416101",
@@ -12484,7 +13009,8 @@ window.JOBS = [
     "stack": [
       "Photoshop",
       "Figma"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-keen-software-house-4938598101",
@@ -12504,7 +13030,8 @@ window.JOBS = [
     "role": "QA",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-9692b364-8616-4846-80bf-9f26b17013a8",
@@ -12524,7 +13051,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-cbec4434-f547-44d9-9a6f-c81a84524cc1",
@@ -12555,7 +13083,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "wk-jagex-CB50662A4C",
@@ -12582,7 +13111,8 @@ window.JOBS = [
       "Java",
       "TypeScript",
       "Docker"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-krafton-8675496002",
@@ -12609,7 +13139,7 @@ window.JOBS = [
       "Wwise",
       "FMOD"
     ],
-    "descRu": "О команде\n\nAudio Dept. — центральная команда KRAFTON, которая создаёт и развивает sound production для проектов компании и помогает усиливать контент для игроков по всему миру.\n\nМиссия\n\n• Планировать и создавать характерные, интуитивно понятные stylized SFX.\n• Проектировать и улучшать sound direction, усиливающий gameplay feedback.\n• Вместе с design/development teams повышать качество звука с позиции общего игрового опыта.\n• Поддерживать единый sound tone & style на протяжении проекта.\n\nОбязательные требования\n\n• Опыт создания SFX для игр или media; portfolio обязательно.\n• Понимание sound style в casual, arcade и puzzle genres.\n• Уверенная работа с DAW: Pro Tools, Reaper, Logic или аналогами.\n• Понимание basic audio processing.\n• Умение воспроизводить нужный style через анализ references.\n• Хорошее понимание gameplay и опыт разных жанров.\n• Умение принимать feedback и коммуницировать в командной среде.\n\nБудет преимуществом\n\n• Опыт casual/puzzle/mobile games.\n• Интеграция audio в Unity или Unreal.\n• FMOD/Wwise.\n• UI/UX sound design."
+    "hasRu": true
   },
   {
     "id": "ab-moon-active-d6b8e001-c645-4463-9707-09552fab60fd",
@@ -12632,7 +13162,8 @@ window.JOBS = [
     "stack": [
       "Go",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-748af998-9a40-44d4-a818-85224fd7a340",
@@ -12654,7 +13185,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Figma"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-people-can-fly-744000141244724",
@@ -12680,7 +13212,8 @@ window.JOBS = [
       "ZBrush",
       "Substance",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-moon-active-e78f22a4-6067-48dc-8e09-a9ab7535451a",
@@ -12705,7 +13238,8 @@ window.JOBS = [
       "SQL",
       "AWS",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-amanotes-891bd4bd-f98c-44c4-a7b9-27788e99b900",
@@ -12725,7 +13259,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-amanotes-a3451dde-d684-43c0-81e7-d001d7f93e79",
@@ -12749,7 +13284,8 @@ window.JOBS = [
       "Python",
       "AWS",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7961094",
@@ -12769,7 +13305,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8073566",
@@ -12789,7 +13326,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8066266",
@@ -12811,7 +13349,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7959470",
@@ -12834,7 +13373,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-blackbird-interactive-56cf2bcb-952d-473a-80a5-8ac0a8c89972",
@@ -12861,7 +13401,8 @@ window.JOBS = [
       "C#",
       "Python",
       "Maya"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-gameloft-744000140860009",
@@ -12881,7 +13422,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "sr-gameloft-744000140817679",
@@ -12903,7 +13445,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-krafton-8593484002",
@@ -12925,7 +13468,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ko",
     "stack": [],
-    "descRu": "О команде\n\nAI Frontier Division превращает исследования KRAFTON в LM, RL, multimodal AI, TTS и других областях в реальные игровые продукты и бизнес. GX Frontier — squad на переднем крае этого процесса: он работает со студиями KRAFTON и внешними game studios, внедряет AI в реальные проекты и ищет новые способы создавать ценность для игроков.\n\nКоманда использует внутренние AI assets, включая CPC, но не ограничивается ими: для каждого проекта ищется и проверяется подходящее AI solution. PO, BD и engineers работают вместе; повторяемые решения превращаются в internal common modules с перспективой дальнейшей коммерциализации — модель, которую команда описывает как «Palantir for game AI».\n\nМиссия\n\n• Находить game-studio partnership opportunities и вести BD, отбирая партнёров с высокой вероятностью успешного AI use case.\n• Планировать in-game AI features и project roadmap и отвечать за end-to-end execution.\n• Вместе с AI Engineers/Researchers проектировать и вести разработку custom AI solutions для конкретных игр.\n• Проверять user value через PoC/Pilot design, operation и analysis.\n• Улучшать продукт на основании project data и выделять reusable modules.\n• Оценивать business potential внутренних модулей и участвовать в стратегии внешних продаж.\n\nОбязательные требования\n\n• Опыт end-to-end leadership хотя бы одного продукта, сервиса или бизнеса от запуска до operations.\n• Опыт поиска и коммерциализации новых возможностей в условиях высокой неопределённости.\n• Практическое понимание game industry business и game-development project operations; опыт game company/publisher/studio особенно ценится.\n• Понимание game-development pipeline и studio culture и опыт взаимодействия с internal stakeholders.\n• Опыт product development leadership вместе с engineers и cross-functional teams.\n• Data-driven product/business decisions, включая metrics и experiment design.\n• 7+ лет product/business strategy и commercialization либо эквивалентный уровень.\n• Возможность зарубежных командировок.\n\nБудет преимуществом\n\n• B2B BD/partnership/consulting для game companies или game platforms.\n• AI/ML product experience.\n• Startup или 0→1 product/business building.\n• In-game AI, NPC AI, procedural content generation и другие game-AI projects.\n• Global game market и сотрудничество с зарубежными studios.\n• Strategy consulting / structured business problem solving."
+    "hasRu": true
   },
   {
     "id": "lv-larian-studios-200ba4bf-d44b-49fe-920b-0743eacfc29b",
@@ -12952,7 +13495,8 @@ window.JOBS = [
       "Maya",
       "Blender",
       "Houdini"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-1326406a-3854-431e-9ac0-c216af6b668a",
@@ -12977,7 +13521,8 @@ window.JOBS = [
       "Swift",
       "TypeScript",
       "Figma"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-68b9b802-8143-48e5-bf5b-f8e665220d1e",
@@ -13002,7 +13547,8 @@ window.JOBS = [
       "Swift",
       "TypeScript",
       "Figma"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-b5bfc390-c999-4569-929d-51ed257ee259",
@@ -13028,7 +13574,8 @@ window.JOBS = [
       "Unity",
       "Maya",
       "Blender"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8073587",
@@ -13050,7 +13597,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7674322",
@@ -13072,7 +13620,7 @@ window.JOBS = [
     "spec": null,
     "lang": "zh",
     "stack": [],
-    "descRu": "Riot ищет design leader с глубоким game-design background для новой игры. Роль — одна из ключевых опор design team: на high level выстраивать economy, social ecosystem и core combat systems. Главная задача — одновременно формировать IP worldbuilding и создавать инновационный gameplay с долгосрочной жизнеспособностью, превосходящий существующие market standards.\n\nОбязанности\n\nVision & Strategy\n• Вместе с Producer формировать core vision, market positioning и long-term strategy продукта.\n• Задавать macro design direction: core loop, monetization model, social structure — с привязкой к business value и IP core.\n\nInnovation\n• Глубоко анализировать боли и ограничения genre/category и предлагать forward-looking mechanics вместо простого повторения известных решений.\n• Вести команду к differentiated experiences, которые отвечают более глубоким player needs.\n\nExecution & Cross-Functional Leadership\n• Превращать high-level strategy в executable designs и ясно передавать их design team.\n• Быть главным interface design team с engineering, art, IP и publishing, обеспечивая quality и on-time delivery core systems.\n\nTeam Leadership\n• Создавать high-standard workflows, documentation и review practices.\n• Участвовать в hiring/team building, быть craft benchmark и mentor, развивать designers через performance management и coaching.\n\nТребования\n\n• 8+ лет game design, включая 3+ года core development и long-term live operations в leading role.\n• 3+ года people/team management и team building.\n• Глубокое понимание fundamental game systems, market categories и способность к non-obvious innovation.\n• Сильные logic, communication и cross-functional leadership.\n• Глубокий практический опыт хотя бы двух mainstream mobile games.\n\nБудет преимуществом\n\n• Полный production/launch cycle крупной commercially successful game с годовой выручкой порядка сотен миллионов RMB.\n• Global product development/live operations.\n• Fluent English.\n• Сильное mathematical modeling для complex numerical systems.\n• Знание classic single-player games или Riot universe."
+    "hasRu": true
   },
   {
     "id": "gh-fortis-games-4713561005",
@@ -13096,7 +13644,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "wk-jagex-D8928688EA",
@@ -13116,7 +13665,8 @@ window.JOBS = [
     "role": "Арт",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "sr-gameloft-744000140722334",
@@ -13138,7 +13688,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
-    "descRu": "О компании\n\nGameloft более 25 лет создаёт игры для аудитории по всему миру. Компания известна сериями Asphalt, Dungeon Hunter, Modern Combat и более чем 200 другими проектами, а также развивает кроссплатформенные PC/console-игры, включая Disney Speedstorm и Disney Dreamlight Valley. В компании работает свыше 3000 сотрудников по всему миру.\n\nО вакансии\n\nGameloft Montréal ищет Lead Quest Designer для проекта Dungeons & Dragons, сочетающего action-RPG/выживание и элементы life-sim.\n\nВы будете развивать и поддерживать качество общего видения квестов и отвечать за их органичную интеграцию в открытый мир. Квесты должны поддерживать исследование, прогрессию и survival-crafting системы, сохраняя цельный пользовательский опыт. Роль также предполагает руководство, поддержку и наставничество команды в процессе проектирования, итераций и выпуска квестов, а также контроль их соответствия нарративным, геймплейным и производственным целям.\n\nОсновные обязанности\n\n• Определять и распространять лучшие практики, процессы и стандарты quest design внутри команды.\n• Наставлять и поддерживать сотрудников production-команды, работающих над аспектами level design.\n• Быть позитивным лидером внутри команды.\n• Поддерживать постоянную коммуникацию и регулярные синхронизации с различными подразделениями.\n• Тесно сотрудничать с production-командой, директорами и тимлидами.\n\nТребования\n\n• Не менее 5 лет профессионального опыта в quest design.\n• Опыт лидерской роли будет преимуществом.\n• Сильная коммуникация, интерес к менеджменту, профессиональному наставничеству и командному лидерству.\n• Как минимум одна выпущенная PC/console-игра, над которой кандидат работал в роли quest designer.\n• Колледж/диплом в области информатики, мультимедиа, графики, разработки игр или эквивалентный опыт.\n• Английский и французский — преимущество.\n• Хорошее владение рабочими инструментами, включая Office, Adobe и Atlassian.\n\nНавыки и профиль\n\n• Умение работать в Agile-среде, спокойно относиться к неудачным итерациям и быстро адаптироваться.\n• Способность принимать решения в сложной среде.\n• Открытость и эмпатия.\n• Готовность совмещать лидерскую роль с практической работой над проектом.\n• Умение ясно доносить идеи устно и письменно.\n• Командность.\n• Страсть к видеоиграм и знание их истории.\n• Хорошее знание Survival Craft игр.\n• Хорошее знание вселенной Dungeons & Dragons.\n• Воображение и творческий подход."
+    "hasRu": true
   },
   {
     "id": "gh-digital-extremes-5190928007",
@@ -13160,7 +13710,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "wk-rebellion-40BBC5FAFD",
@@ -13183,7 +13734,8 @@ window.JOBS = [
     "stack": [
       "Blender",
       "Substance"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-f4053c02-bf05-415c-89ce-eafabb325a06",
@@ -13203,7 +13755,8 @@ window.JOBS = [
     "role": "Аналитика",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-05410161-5815-48a0-84d1-9762e70c3a00",
@@ -13223,7 +13776,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "sr-gameloft-744000140472994",
@@ -13248,7 +13802,7 @@ window.JOBS = [
       "Unity",
       "Unreal"
     ],
-    "descRu": "О компании\n\nGameloft более 25 лет создаёт игровые впечатления для игроков по всему миру. Компания выпустила Asphalt, Dungeon Hunter, Modern Combat и более 200 других игр, а также развивает кроссплатформенные PC/console-проекты, включая Disney Speedstorm и Disney Dreamlight Valley. В Gameloft работает более 3000 сотрудников по всему миру.\n\nО вакансии\n\nКомпания ищет технически сильного Lead Marketing Cinematic, который будет помогать руководителю Creative Agency управлять видеопроизводством для разнообразного портфеля игр студии. Роль отвечает за работу capture artists и video editors над маркетинговыми материалами и user-acquisition контентом: трейлерами, gameplay showcases и материалами для соцсетей на PC, консолях и мобильных устройствах.\n\nВы будете главным специалистом направления по cinematic/gameplay capture, монтажу, ритму и визуальному сторителлингу, сочетая hands-on производство с лидерскими обязанностями и контролем качества.\n\nЛидерство и поддержка команды\n\n• Управлять ежедневным видеопроизводством: приоритетами, блокерами и расписанием.\n• Регулярно проводить синхронизации, давать конструктивную обратную связь и помогать capture artists и video editors развиваться.\n• Определять производственные стандарты, naming conventions и технические workflows, участвовать в онбординге и создавать документацию для обучения.\n• Помогать Creative Agency Lead следить за загрузкой команды, моральным состоянием и рисками производительности.\n\nПрактическое производство и техническая экспертиза\n\n• Самостоятельно создавать качественный видеоконтент для сложных или приоритетных проектов.\n• Глубоко использовать Unity и Unreal для in-game capture, настройки камер и решения технических ограничений игровых билдов.\n• Применять сильное чувство ритма, сторителлинга и sound design в финальном монтаже и адаптировать материалы под разные платформы.\n• Постоянно улучшать и документировать capture pipeline, повышая скорость, понятность и надёжность.\n\nProduction supervision и QA\n\n• Вместе с Creative Project Manager разбирать briefs, оценивать объём работ и находить производственные риски.\n• Проверять все материалы перед передачей stakeholders и следить за соответствием бренду, art direction и маркетинговым целям.\n• Давать точную и применимую обратную связь по композиции кадров, framing, staging, читаемости gameplay и технической полировке.\n\nСотрудничество\n\n• Работать с Marketing, User Acquisition и игровыми командами, уточняя ограничения и согласовывая creative direction.\n• Быть техническим связующим звеном между stakeholders и creative team, чтобы обратная связь передавалась ясно и корректно внедрялась."
+    "hasRu": true
   },
   {
     "id": "sr-gameloft-744000140392455",
@@ -13270,7 +13824,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-gameloft-744000140378549",
@@ -13290,7 +13845,8 @@ window.JOBS = [
     "role": "Арт",
     "grade": "Junior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-moon-active-f9d414e9-6bb9-4e35-99c2-6d452a66c7ae",
@@ -13313,7 +13869,8 @@ window.JOBS = [
     "stack": [
       "AWS",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-moon-active-fd2cd6bb-1e02-4270-95cb-e40f7f3d5ccc",
@@ -13336,7 +13893,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "C#"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-moon-active-806f31f5-b711-44d6-8e7b-7a5132b1db42",
@@ -13356,7 +13914,8 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-moon-active-de86cb90-ce2f-4224-8cef-f722387b4a16",
@@ -13379,7 +13938,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-moon-active-97952ab6-4175-4727-8c16-914895df3726",
@@ -13399,7 +13959,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-moon-active-b9ef962f-9edd-49f3-bb44-e288bb7885d4",
@@ -13423,7 +13984,8 @@ window.JOBS = [
       "Python",
       "AWS",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-moon-active-e08085a5-f3cf-4c0b-820a-053186774857",
@@ -13446,7 +14008,8 @@ window.JOBS = [
     "stack": [
       "Blender",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-moon-active-7d9ea95d-4eda-405f-a525-229092a6b989",
@@ -13466,7 +14029,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": "Junior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-moon-active-5bac5848-00ce-446c-a17f-3effaf80f4cd",
@@ -13486,7 +14050,8 @@ window.JOBS = [
     "role": "Аналитика",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-moon-active-f177fdbb-a616-4111-8684-f8a556255442",
@@ -13509,7 +14074,8 @@ window.JOBS = [
     "stack": [
       "Photoshop",
       "Figma"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-moon-active-eada340a-f672-43cb-ab8c-1fca2c761d59",
@@ -13529,7 +14095,8 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-moon-active-4efa0dea-cd29-4ea0-a21a-5ce3d4a8c0cc",
@@ -13552,7 +14119,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "C#"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-skybox-labs-186f5815-0f8f-4da9-b78c-c2d613a8dba3",
@@ -13572,7 +14140,8 @@ window.JOBS = [
     "role": "Аналитика",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-nordeus-6935112",
@@ -13599,7 +14168,8 @@ window.JOBS = [
       "Python",
       "Java",
       "JavaScript"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-nordeus-7627163",
@@ -13626,7 +14196,8 @@ window.JOBS = [
       "Java",
       "SQL",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-nordeus-7883124",
@@ -13650,7 +14221,8 @@ window.JOBS = [
       "Unity",
       "Photoshop",
       "Figma"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-008fb2f6-0dbe-457c-acaa-9989c9ae5f9f",
@@ -13677,7 +14249,8 @@ window.JOBS = [
       "Maya",
       "Blender",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-36027799-383b-49b5-af7c-8653745d2238",
@@ -13701,7 +14274,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8063670",
@@ -13723,7 +14297,7 @@ window.JOBS = [
     "spec": null,
     "lang": "zh",
     "stack": [],
-    "descRu": "Art Project Manager выступает мостом между internal и external art teams и обеспечивает high-quality delivery art content в условиях высокой неопределённости и быстрых итераций.\n\nОбязанности\n\n• End-to-end management internal/external art production: requirements planning, communication, production acceptance и version delivery.\n• Строить production plans, отслеживать progress, проводить retrospectives и предлагать process improvements.\n• Создавать и развивать art-production pipeline и закреплять standards внутри команды.\n• Налаживать cross-functional workflows между Art, Design, Engineering, QA и снижать communication/rework overhead.\n• Управлять outsourcing по schedule, cost и quality; быстро устранять bottlenecks и строить долгосрочные partner relationships.\n• Помогать Art Lead поддерживать production standards/style docs и clean reusable art assets.\n\nТребования\n\n• 5+ лет art project management в game industry.\n• Глубокое знание art-production pipeline, resource planning, budget estimation, risk и schedule management.\n• Сильный outsourcing/vendor management и quality feedback.\n• Process design и systematic problem solving.\n• Уверенная cross-functional collaboration.\n\nБудет преимуществом\n\n0→1 art project management в games; English as a working language.\n\nТип занятости: контракт через FESCO Adecco."
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8055923",
@@ -13746,7 +14320,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7921687",
@@ -13768,7 +14343,7 @@ window.JOBS = [
     "spec": null,
     "lang": "zh",
     "stack": [],
-    "descRu": "Combat Designer участвует в определении базового опыта двух ключевых направлений проекта — combat и sandbox — с player-centered подходом, глубиной стратегии и долгосрочной привлекательностью.\n\nОбязанности\n\n• Участвовать в high-level framework combat и sandbox gameplay и влиять на interaction rhythm, strategic depth и immersion.\n• Проектировать combat rules, units, skills, map mechanics и вместе с numerical designers вести balance testing.\n• Предлагать forward-looking ideas, превращать их в prototypes и улучшать через повторные playtests.\n• Работать с Engineering, Art, UI/UX для качественной реализации.\n• Анализировать competitors, industry trends, data и player feedback.\n• Проектировать systems с нуля, документировать core mechanics и помогать определять parameters/progression.\n• Поддерживать iteration после launch-ready implementation через user research/data.\n\nТребования\n\n• Bachelor+; 2+ года combat game-design experience, предпочтительно full mobile project от concept до release.\n• Strong logic, gameplay modeling и documentation.\n• Способность самостоятельно вести detailed design и cross-functional implementation.\n• Глубокий интерес к games и innovation и хорошее знание mainstream products.\n• Проактивность, communication и способность доводить complex designs до production.\n\nБудет преимуществом\n\nCore-design experience на top product, глубокое понимание player needs/IP, complex-system balancing, A/B tests/user-data analysis, English design documents и international mobile projects.\n\nТип занятости: контракт через FESCO Adecco."
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7921706",
@@ -13790,7 +14365,7 @@ window.JOBS = [
     "spec": null,
     "lang": "zh",
     "stack": [],
-    "descRu": "Systems Designer отвечает за city development и core systemic gameplay: progression, construction, resource flows и feature unlocks. Цель — построить долгосрочную motivation loop с meaningful choices и strategic depth.\n\nОбязанности\n\n• Вести design ключевых modules city growth, building upgrades и functionality systems.\n• Строить resource production/consumption и progression/motivation loops.\n• Переводить идеи в implementation-ready system designs, prototypes и iterative improvements.\n• Работать с Art, Engineering, Economy/Numerical Design и UI над quality delivery.\n• Использовать market benchmarks, player feedback и data для оптимизации progression curves и systems.\n• Вести 0→1 design city/building/resource features и документировать full system lifecycle.\n• Вместе с numerical designers задавать economy/resource distribution/development pacing.\n\nТребования\n\n• Bachelor+; 2+ года systems design или city-growth systems, желательно core-system work на shipped product.\n• Знание city building, progression и economic systems.\n• Сильное gameplay/system design, documentation и process decomposition.\n• Глубокое понимание long-term motivation и разнообразия gameplay.\n• Data-informed iteration и сильная communication/collaboration.\n\nБудет преимуществом\n\nCity-building, growth simulation, strategy или social-heavy mobile games; large progression/economy modeling, data tuning/A-B tests; international/multicultural projects; English system-design documentation.\n\nRiot предлагает competitive paid leave, flexible work arrangements и insurance benefits. Тип занятости: контракт через FESCO Adecco."
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7615783",
@@ -13810,7 +14385,8 @@ window.JOBS = [
     "role": "Арт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7702439",
@@ -13833,7 +14409,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7325238",
@@ -13859,7 +14436,8 @@ window.JOBS = [
       "C#",
       "Go",
       "Java"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7312899",
@@ -13884,7 +14462,8 @@ window.JOBS = [
       "Unreal",
       "Maya",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7615781",
@@ -13907,7 +14486,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7919247",
@@ -13929,7 +14509,7 @@ window.JOBS = [
     "spec": null,
     "lang": "zh",
     "stack": [],
-    "descRu": "Senior Narrative Designer будет строить и расширять worldbuilding и narrative experience новой social-heavy mobile game, сохраняя соответствие исходному IP и одновременно глубоко интегрируя story, characters и narrative packaging в core gameplay.\n\nОбязанности\n\n• Планировать narrative framework, content structure и expression core characters; быстро переводить narrative demos в working content.\n• Разрабатывать long-term narrative packaging, сохраняя style consistency и возможность эволюции.\n• Писать core product copy: system text, character VO, interactive events, live-ops content.\n• Поддерживать consistency tone, structure и immersion.\n• Исследовать narrative trends/industry examples и создавать новые interactive-content approaches.\n• Использовать user feedback и market changes для long-term content direction.\n• Писать high-standard narrative/content requirement docs с audiovisual requirements и implementation standards.\n• Координировать Art, Audio, Design, Engineering и Production.\n• Оценивать innovation, feasibility и overall player value narrative solutions.\n\nТребования\n\n• Bachelor+; 6+ лет interactive entertainment/game content design или narrative/copywriting.\n• Опыт large online/live-service content; new product from R&D to launch/core production stage желателен.\n• Сильная writing/narrative-design foundation и способность самостоятельно строить long-term content/character expression.\n• Cross-functional communication и способность превращать abstract ideas в executable requirements.\n• Высокий editorial/content quality bar, logical analysis, information synthesis и documentation.\n• Понимание interactive/immersive storytelling и готовность к rapid iteration.\n\nБудет преимуществом\n\nLarge long-running IP, leading content design for multiplayer/interactive products, global development, content/team project management, fluent English documentation/cross-team communication."
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7015284",
@@ -13952,7 +14532,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "C#"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7695533",
@@ -13972,7 +14553,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7921716",
@@ -13996,7 +14578,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
-    "descRu": "QA Engineer работает с Development, Art и Design над эффективным testing и debugging, чтобы проект вышел стабильным и качественным.\n\nОбязанности\n\n• Functional testing: test cases, execution и result evaluation.\n• Детально регистрировать bugs, вести их до fix и regression verification.\n• Coverage testing новых requirements и version updates, анализировать complex issues и предлагать improvements testing process.\n• Использовать JIRA, TestRail, ZenTao или аналогичные tools.\n• Работать с Development, Art, Design над улучшением quality/testing workflow.\n• Следить за новыми game-testing methods и постоянно улучшать process.\n\nТребования\n\n• Bachelor+; 2+ года game QA/testing и высокая чувствительность к gameplay/player experience.\n• Знание mainstream software-testing methods, process и test-case design.\n• Defect/test collaboration tools.\n• Strong logic и independent problem localization.\n• Ответственность, detail orientation и willingness to proactively drive fixes.\n• Сильная communication/cross-team collaboration.\n• Retrospective mindset и continuous learning.\n\nБудет преимуществом\n\nAutomation/performance/API testing, Unreal Engine 5 или League of Legends IP, scripting/custom QA tools, international/multi-platform projects, fluent English и English test docs.\n\nТип занятости: контракт через FESCO Adecco."
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7915314",
@@ -14023,7 +14605,7 @@ window.JOBS = [
       "Houdini",
       "Photoshop"
     ],
-    "descRu": "Команда ищет environment designer, который «создаёт пространственный опыт, а не просто рисует сцены». Роль определяет visual language environments через spatial experience и visual expression, балансируя art, design requirements и technical constraints; подчиняется Creative Director.\n\nОбязанности\n\n• Concept design core environments от rough ideation до high-fidelity environment concepts.\n• Определять terrain structure, architecture, materials, color/mood и общий environment visual language.\n• Создавать distinctive, immersive и readable environments.\n• Разрабатывать spatial/design methodology: layout, visual language, scale systems, modularity, detail density и visual guidance.\n• Балансировать visual quality, spatial readability и long-term content expansion.\n• Создавать clear spatial hierarchy/function zones и учитывать production feasibility.\n• Работать с 3D Environment Art, Technical Art и Engineering и выдавать structural breakdowns, modular recommendations и material guidance.\n• Поддерживать quality от concept до final implementation и участвовать в art-style quality bar.\n• Менторить команду и давать feedback external partners.\n\nТребования\n\n• 6–10+ лет game industry и 1–2 completed/key-stage projects.\n• Сильная art foundation: perspective, composition, color, lighting, spatial expression.\n• Mature environment-design methodology, а не только красивые illustrations.\n• Полный process: ideation → spatial design → refined concept.\n• Stylized-environment experience.\n• Понимание spatial design, 3D production и real-time rendering.\n• Photoshop, Blender и 3D-assisted design tools.\n• Strong cross-team communication.\n\nБудет преимуществом\n\nComplex-environment projects, modular content/asset reuse, 3D blockout/layout, Unreal basics, Houdini/PCG/procedural thinking, cross-cultural design, vendor/team mentoring.\n\nPortfolio\n\n3–5 environment cases с ideation, layout/blockout/composition и final concept. Важно показать design thinking и spatial logic, не только финальные изображения; желательно production/3D comparison."
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7093485",
@@ -14043,7 +14625,8 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8063875",
@@ -14065,7 +14648,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7859801",
@@ -14087,7 +14671,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7704828",
@@ -14111,7 +14696,7 @@ window.JOBS = [
     "stack": [
       "Perforce"
     ],
-    "descRu": "Senior Game Producer отвечает не просто за отслеживание schedule, а за архитектуру и улучшение всей development system: predictable, efficient и transparent pipeline, обеспечивающий on-time, high-quality, controlled delivery.\n\nОбязанности\n\n• Устанавливать production/project-management standards, следить одновременно за progress, quality, pipeline efficiency и team health.\n• Давать прозрачные status/health updates, заранее выявлять risks и координировать resolution/escalation.\n• Развивать cross-functional workflows и communication channels, устраняя friction/rework между Design, Art, Engineering и другими disciplines.\n• Выравнивать departments по schedule/priorities и превращать commitments в delivery.\n\nТребования\n\n• 8+ лет internal game development; 3+ года management PM/equivalent team; 0→1 project experience предпочтительно.\n• Full-cycle management крупного complex game project и знание mainstream engine development workflows.\n• Advanced Agile; PMP или ACP/CSM — преимущество.\n• Expert Jira и project-management tools; Excel/Tableau analytics; понимание Perforce/Git и CI/CD.\n\nБудет преимуществом\n\nFluent English, global publishing или multinational-team project management."
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7648785",
@@ -14131,7 +14716,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-6197738",
@@ -14151,7 +14737,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8063747",
@@ -14174,7 +14761,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8070760",
@@ -14196,7 +14784,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7648959",
@@ -14216,7 +14805,8 @@ window.JOBS = [
     "role": "QA",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7892751",
@@ -14241,7 +14831,8 @@ window.JOBS = [
       "C#",
       "Java",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7252205",
@@ -14265,7 +14856,8 @@ window.JOBS = [
       "Unreal",
       "C++",
       "C#"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8001084",
@@ -14292,7 +14884,8 @@ window.JOBS = [
       "Maya",
       "Blender",
       "Houdini"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7271179",
@@ -14317,7 +14910,7 @@ window.JOBS = [
       "C++",
       "C#"
     ],
-    "descRu": "Gameplay Software Engineer ведёт разработку gameplay features для нового проекта Riot, работает с Product, Design, Art и Engineering и помогает формировать technical vision направления.\n\nОбязанности\n\n• Вместе с designers понимать product requirements, вести requirements analysis, technical design и implementation gameplay systems.\n• Понимать workflows Design/Art, находить bottlenecks и создавать tools, повышающие development efficiency.\n• Iteratively улучшать robustness, scalability и performance решений.\n• Помогать устанавливать technical direction и development standards.\n\nТребования\n\n• 4+ года software engineering в game industry.\n• Expert C++ или C#.\n• Участие хотя бы в одном released game project.\n• Deep understanding common game/software design patterns.\n• Отличные debugging skills.\n• Product sense, pragmatism и player empathy в technical decisions.\n\nБудет преимуществом\n\n2+ года gameplay development, Unreal/Unity, medium-sized engineering teams, prototyping/pre-production, Agile.\n\nТип занятости: контракт через FESCO Adecco."
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7786020",
@@ -14342,7 +14935,7 @@ window.JOBS = [
       "C++",
       "Docker"
     ],
-    "descRu": "Services Engineer разрабатывает и поддерживает server-side modules нового продукта Riot, обеспечивая stability, efficiency и security и тесно работая с client и design teams.\n\nОбязанности\n\n• Разрабатывать и поддерживать game backend/service modules.\n• Реализовывать и оптимизировать core server systems, включая user data и support для combat logic.\n• Улучшать performance и решать issues в production/test environments.\n• Создавать server-side tools для development и operations efficiency.\n• Работать с client/design teams над delivery features/player experience.\n• Следить за server technologies и применять best practices.\n\nТребования\n\n• Bachelor+; 2+ года backend/server development; CS background предпочтителен.\n• C++, Java или Golang и strong coding/debugging.\n• High concurrency, distributed systems и middleware: message queues, caches, databases.\n• Самостоятельное ownership modules/features through development, testing, maintenance.\n• Strong troubleshooting и production-response skills.\n• Cross-team communication, schedule awareness и continuous learning.\n\nБудет преимуществом\n\nClient+server architecture, Jenkins/CI-CD, Docker/containerization.\n\nТип занятости: контракт через FESCO Adecco."
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7334759",
@@ -14368,7 +14961,8 @@ window.JOBS = [
       "C#",
       "Go",
       "Java"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7922898",
@@ -14393,7 +14987,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
-    "descRu": "Staff Gameplay Engineer несёт technical leadership за core gameplay systems, принимает high-quality pragmatic decisions в условиях неопределённости и строит player-facing systems, способные долго развиваться. Отдельная часть роли — практическое внедрение AI Agents в development workflow.\n\nОбязанности\n\n• Вести design и implementation core gameplay systems и отвечать за key modules.\n• Вместе с Design, Art и Product переводить requirements в production engineering solutions.\n• Балансировать iteration speed и engineering quality, улучшать performance/stability.\n• Находить bottlenecks и улучшать tools/processes.\n• Менторить engineers и повышать team engineering practices.\n• Вести cross-team technical alignment.\n• Внедрять AI Agents в реальный development workflow.\n\nТребования\n\n• Bachelor+; CS background предпочтителен.\n• 6–8+ лет game development, включая полный project cycle prototype→launch как core engineer/lead programmer.\n• Expert C++ и strong engineering fundamentals.\n• Самостоятельный system design и key technical decisions в complex projects.\n• Debugging/performance optimization.\n• Player perspective и понимание влияния technical choices на experience.\n• Сильный Unreal: Gameplay Framework и глубокая экспертиза хотя бы в 1–2 направлениях; engineering tradeoffs C++ vs Blueprint/Script и real performance troubleshooting.\n• Понимание AI Agents, hands-on practice, создание practical tools/workflows и способность оценивать benefits/cost/boundaries.\n\nБудет преимуществом\n\nMaster+ CS, full-project technical lead/lead programmer, medium/large team leadership, deeper Unreal modules, systematic team-level AI adoption, strong English cross-region communication."
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-4519009",
@@ -14421,7 +15015,7 @@ window.JOBS = [
       "AWS",
       "Docker"
     ],
-    "descRu": "Staff Services Engineer отвечает за backend globally scalable service suite раннего продукта: integration с standard Riot platforms, новые platform capabilities, infrastructure/compliance, monitoring/diagnostics и technical foundation для smooth launch at scale.\n\nОбязанности\n\n• Проектировать, строить и запускать internet-scale backend services для глобальной игры на миллионы игроков.\n• Создавать и поддерживать multi-service architecture для globally scalable services.\n• Реализовывать features end-to-end от in-game behavior до backend implementation.\n• Повышать server reliability/performance.\n• Строить server infrastructure для новых gameplay features и live services.\n• Использовать cloud technologies, включая AWS.\n• Менторить junior engineers.\n• Эффективно работать с Art, Design и другими disciplines.\n\nТребования\n\n• 6+ лет large-scale backend systems или game services.\n• Опыт создания large systems с нуля: requirements → scalable production-ready architecture.\n• Bachelor или equivalent experience.\n• Expert C++ и Golang.\n• Cloud computing/technologies.\n\nБудет преимуществом\n\n2+ года technical lead, global-scale online game, Unreal Engine, mobile development, client/service architecture с обеих сторон, Jenkins/CI-CD, Docker.\n\nНужно приложить resume и cover letter."
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7061304",
@@ -14445,7 +15039,8 @@ window.JOBS = [
       "Unreal",
       "C++",
       "Perforce"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8001082",
@@ -14472,7 +15067,8 @@ window.JOBS = [
       "Blender",
       "Houdini",
       "ZBrush"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-7927191",
@@ -14497,7 +15093,7 @@ window.JOBS = [
       "Houdini",
       "Photoshop"
     ],
-    "descRu": "Riot ищет production-focused 3D VFX Artist, способного быстро и стабильно создавать high-quality in-game effects на стадии R&D. Роль отвечает за combat/system VFX в рамках заданного art style и работает с art, animation, TA и client teams. Особый акцент — hands-on production, engine implementation и performance control.\n\nОбязанности\n\n• Создавать skills, combat feedback, environmental и UI effects.\n• Самостоятельно вести полный цикл: concept → production → engine implementation.\n• Использовать particle systems, materials и textures для high-quality visuals.\n• Собирать VFX в Unreal Engine и синхронизировать их с animations/skill logic.\n• Настраивать timing, layering и visual consistency.\n• Контролировать particle count, overdraw, shader complexity, frame rate, memory и draw calls, особенно на mobile.\n• Соблюдать resource/naming/structure standards и выдавать clean reusable assets.\n• Быстро iterating по feedback в multi-task environment.\n\nТребования\n\n• 5+ лет game VFX; full projects или outsourcing experience предпочтительны.\n• Сильное понимание timing, hierarchy, impact и motion.\n• Unreal VFX systems, желательно Niagara.\n• Material Editor и базовое понимание shaders.\n• Photoshop / After Effects / Houdini / 3D tools — один или несколько.\n• Понимание game-VFX production и production feasibility.\n• Performance optimization, особенно mobile.\n• Стабильный delivery, time management и коммуникация.\n\nБудет преимуществом\n\nStylized VFX, Houdini procedural VFX, HLSL, Unreal profiling/RenderDoc, outsourcing/remote collaboration.\n\nPortfolio\n\n2–4 VFX cases: skill/combat/environmental effects, preferably in-engine video. Важны реальные game results, timing/layering/impact; полезно показать performance optimization before/after и technical/shader implementation.\n\nТип занятости: employment contract с FESCO Adecco."
+    "hasRu": true
   },
   {
     "id": "gh-riot-games-8047592",
@@ -14519,7 +15115,7 @@ window.JOBS = [
     "spec": null,
     "lang": "zh",
     "stack": [],
-    "descRu": "Riot ищет execution-focused UI Visual Designer, способного быстро выпускать high-quality interface visuals для R&D-проекта. В рамках заданного UX и art style роль отвечает за visual design/finish игрового UI и тесно работает с UX, motion и client teams. Основной акцент — visual craft, скорость исполнения и production feasibility.\n\nОбязанности\n\n• Создавать game UI на базе established UX и style direction.\n• Самостоятельно вести wireframe → visual design → high-fidelity UI.\n• Развивать visual system и детали в рамках правил, сохраняя consistency.\n• Создавать UI elements: icons, buttons, panels, decorations.\n• Подготавливать production-ready UI assets, slicing, annotations и component specs.\n• Работать с UX/motion/development до корректной engine implementation.\n• Балансировать visual quality и mobile performance/resource limits.\n• Соблюдать typography, hierarchy и component standards, стабильно держать quality/delivery cadence.\n• Быстро реагировать на feedback и правильно расставлять priorities.\n\nТребования\n\n• 3+ года game UI visual design; shipped/outsourcing experience предпочтительны.\n• Сильные typography, color, composition и visual hierarchy.\n• Способность адаптироваться к разным styles, особенно stylized.\n• Уверенное владение design tools.\n• Полный UI visual pipeline от wireframes до resource delivery.\n• Basic UX: information hierarchy, readability, interaction fundamentals.\n• Понимание game UI implementation и production feasibility.\n• Надёжный execution/time management и коммуникация.\n\nБудет преимуществом\n\nStylized UI, mobile projects/adaptation/performance, UI motion fundamentals, icon/component-library design, Unreal UI или Unity UI pipeline, outsourcing/remote collaboration.\n\nPortfolio\n\n2–4 UI cases: screens, buttons/panels/icons, style variations/themes. Важно показать visual quality, consistency и адаптацию к combat/system/monetization screens; полезны motion demos и engine implementation comparisons.\n\nТип занятости: employment contract с FESCO Adecco."
+    "hasRu": true
   },
   {
     "id": "sr-cd-projekt-red-744000140250889",
@@ -14542,7 +15138,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "Blender"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-929b5c6b-b7a9-4bf7-87a6-f0a99698c5d4",
@@ -14573,7 +15170,8 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-d5eb0794-3865-4c68-9d2d-1a9bb086b7b1",
@@ -14597,7 +15195,8 @@ window.JOBS = [
       "Unity",
       "Blender",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-baaeea93-72d2-4379-af2f-5fc0c4394a53",
@@ -14619,7 +15218,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "wk-jagex-C6A3F25498",
@@ -14639,7 +15239,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-kabam-5b23b3c6-9298-47b1-9d90-9f31034cee69",
@@ -14664,7 +15265,8 @@ window.JOBS = [
       "Unreal",
       "Photoshop",
       "Spine"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-outfit7-7805667003",
@@ -14684,7 +15286,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-8f86c74e-7d06-447d-bd1b-ad268e46bb3e",
@@ -14724,7 +15327,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "C#"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-711e37e0-f0b9-4ceb-a2dd-4a604a102ff2",
@@ -14764,7 +15368,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "C#"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-b4dc3755-8895-41f3-bffd-995b3c1b7117",
@@ -14787,7 +15392,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-people-can-fly-744000139313759",
@@ -14809,7 +15415,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-gameloft-744000139264646",
@@ -14829,7 +15436,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "wk-rebellion-0188EDE4EE",
@@ -14851,7 +15459,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Maya"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "wk-rebellion-14D001A0EB",
@@ -14873,7 +15482,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Maya"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "wk-rebellion-26BEC98565",
@@ -14895,7 +15505,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Maya"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-1c009f86-3295-4ac2-8257-b4833738f9ab",
@@ -14917,7 +15528,8 @@ window.JOBS = [
     "spec": "DevOps",
     "stack": [
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-ten-square-games-2685245",
@@ -14939,7 +15551,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Python"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-bloober-team-2686152",
@@ -14959,7 +15572,8 @@ window.JOBS = [
     "role": "Звук",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-fanatee-63b25c3b-4755-45c8-abc9-c4d09672be01",
@@ -14981,7 +15595,8 @@ window.JOBS = [
       "Unity",
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-avalanche-studios-c7794126-f8bb-423d-b30a-0ee2a1bf6d36",
@@ -15006,7 +15621,8 @@ window.JOBS = [
       "ZBrush",
       "Substance",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-cd-projekt-red-744000139077819",
@@ -15028,7 +15644,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "wk-jagex-946BAE18D3",
@@ -15050,7 +15667,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-1c60d455-ff66-4eaa-97b8-743d0d6e79d1",
@@ -15070,7 +15688,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Junior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-b12862cb-eab8-4e19-b45a-dddf5da198f3",
@@ -15090,7 +15709,8 @@ window.JOBS = [
     "role": "Аналитика",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-outfit7-7739164003",
@@ -15113,7 +15733,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-reality-games-2135406",
@@ -15135,7 +15756,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-reality-games-1978812",
@@ -15157,7 +15779,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-reality-games-1754262",
@@ -15179,7 +15802,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-reality-games-1609515",
@@ -15199,7 +15823,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "rc-reality-games-1440686",
@@ -15224,7 +15849,8 @@ window.JOBS = [
       "Maya",
       "Houdini",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-reality-games-1293684",
@@ -15244,7 +15870,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "rc-reality-games-1083525",
@@ -15264,7 +15891,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "rc-reality-games-1032529",
@@ -15284,7 +15912,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Junior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "rc-reality-games-1027518",
@@ -15304,7 +15933,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "rc-grid-esports-2664146",
@@ -15324,7 +15954,8 @@ window.JOBS = [
     "role": "Поддержка",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-dream-games-a4654540-bb96-464e-b2c7-74fd862c72f7",
@@ -15350,7 +15981,8 @@ window.JOBS = [
       "Maya",
       "Blender",
       "Houdini"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "wk-hutch-games-B4A97D39E0",
@@ -15376,7 +16008,8 @@ window.JOBS = [
       "Blender",
       "Substance",
       "Figma"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-tactile-games-4781166101",
@@ -15398,7 +16031,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-larian-studios-252fd4ba-7d3c-4186-8da8-48a9f6f111a4",
@@ -15423,7 +16057,8 @@ window.JOBS = [
       "Python",
       "Docker",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-8451efa4-1869-4bd9-bb22-245f232705ed",
@@ -15445,7 +16080,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-krafton-8524459002",
@@ -15470,7 +16106,7 @@ window.JOBS = [
       "Python",
       "Maya"
     ],
-    "descRu": "О команде\n\nMotion Capture Team входит в Art Department KRAFTON и повышает эффективность и качество animation production. На базе optical motion-capture system VICON команда создаёт high-quality motion data для game-development teams: ставит markers на тело/объекты, снимает движения infrared cameras, готовит props и capture environment и поддерживает весь production flow. Сейчас команда обслуживает более 10 студий KRAFTON.\n\nArt Department в целом предоставляет game studios графические технологии, pipeline solutions и production guidelines, помогая быстро запускать и масштабировать проекты и устранять technical bottlenecks совместно со студиями.\n\nМиссия\n\n• Motion-capture shooting: подготовка actors, calibration, props и capture setup; помощь в съёмках с постепенным переходом к роли основного оператора.\n• Data editing/cleanup: исправлять body-data errors в Vicon Shogun и поддерживать единый quality level записанного motion data.\n• Character retargeting: помогать переносить motion data на character rigs, проверять и корректировать результаты в MotionBuilder.\n• Key animation cleanup: улучшать capture data, редактируя keys и выполняя детальную коррекцию в MotionBuilder; задача — повысить качество записанного движения, а не создавать animation с нуля.\n\nОбязательные требования\n\n• 3+ года практики motion capture.\n• Настройка optical capture systems и изготовление props.\n• Post-processing/editing motion-capture data.\n• Maya / MotionBuilder / 3ds Max или аналогичные DCC tools.\n• Animation work в DCC tools.\n• Character retargeting.\n• Troubleshooting hardware/software на motion-capture shooting.\n• Знание 3D animation, rigging и human movement.\n\nБудет преимуществом\n\n• Много разнообразных проектов.\n• Integrated performance capture: body + hands + facial.\n• Tool development через Python, MEL или HSL scripting.\n• Способность самостоятельно выполнять action acting / выступать actor для capture."
+    "hasRu": true
   },
   {
     "id": "wk-rebellion-5BF43D0715",
@@ -15490,7 +16126,8 @@ window.JOBS = [
     "role": "QA",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-dream-games-2a2c64d7-cc33-49a0-bf41-807b28933ca7",
@@ -15512,7 +16149,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Python"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-9ecf2f1c-f46f-4820-8364-d1c8945dfd45",
@@ -15534,7 +16172,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-9e094127-2bae-44bd-b144-49fb367aade5",
@@ -15557,7 +16196,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-4626426008",
@@ -15579,7 +16219,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-4592695008",
@@ -15602,7 +16243,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "Maya"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5206680008",
@@ -15623,7 +16265,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-4662583008",
@@ -15643,7 +16286,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-scopely-4596752008",
@@ -15667,7 +16311,8 @@ window.JOBS = [
       "C#",
       "Java",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-gameloft-744000138295106",
@@ -15693,7 +16338,8 @@ window.JOBS = [
       "Maya",
       "Blender",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-gameloft-744000138284916",
@@ -15715,7 +16361,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-gameloft-744000138286629",
@@ -15740,7 +16387,8 @@ window.JOBS = [
       "Python",
       "Swift",
       "Lua"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-gameloft-744000138286359",
@@ -15767,7 +16415,8 @@ window.JOBS = [
       "Blender",
       "ZBrush",
       "Substance"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-jam-city-2434afe6-2113-4cc3-8712-f99b161ca2ef",
@@ -15789,7 +16438,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-behaviour-interactive-86ddd557-7d9b-48f1-ab04-0a90ba38e2dc",
@@ -15815,7 +16465,8 @@ window.JOBS = [
       "Blender",
       "ZBrush",
       "Substance"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-behaviour-interactive-311c4d91-6a01-43f9-b1c1-16d9799f663b",
@@ -15837,7 +16488,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-ten-square-games-2679665",
@@ -15857,7 +16509,8 @@ window.JOBS = [
     "role": "Арт",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-4f766d0e-d7a8-4966-98dc-481f2951231c",
@@ -15879,7 +16532,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-31587df5-85ff-47ec-914c-ee0d51f1e123",
@@ -15902,7 +16556,8 @@ window.JOBS = [
     "stack": [
       "TypeScript",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-bloober-team-2678705",
@@ -15922,7 +16577,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": null,
     "spec": "Геймплей",
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-blackbird-interactive-7bf7ee87-dba3-4c20-af96-4add8ac61807",
@@ -15946,7 +16602,8 @@ window.JOBS = [
       "Unreal",
       "C++",
       "Perforce"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-gameloft-744000137841519",
@@ -15968,7 +16625,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-behaviour-interactive-096cfeaf-253c-44ba-ad5d-86e4be00cf85",
@@ -15992,7 +16650,8 @@ window.JOBS = [
       "Python",
       "SQL",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-tactile-games-4881422101",
@@ -16014,7 +16673,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-gameloft-744000137672429",
@@ -16036,7 +16696,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
-    "descRu": "О компании\n\nGameloft более 25 лет создаёт игры для глобальной аудитории. В портфолио — Asphalt, Dungeon Hunter, Modern Combat и более 200 других игр, а также PC/console-проекты Disney Speedstorm и Disney Dreamlight Valley. В компании работает более 3000 человек по всему миру.\n\nО вакансии\n\nSenior Graphic Designer (Marketing) входит в Creative Agency Gameloft и подчиняется Creative Agency Lead. Роль обслуживает запросы Marketing и User Acquisition, создавая привлекательный 2D-контент для performance-каналов вроде Facebook и Instagram, а также игровые материалы: логотипы, иконки, storyboards, key art и web design.\n\nНужно создавать рекламные креативы для разных игр, сохраняя уникальный визуальный стиль и тон каждого проекта. Главная цель — привлекать внимание пользователей и стимулировать установки игр.\n\n2D\n\n• Создавать, ретушировать, компоновать и полировать 2D/3D pack art и маркетинговые материалы в рамках заданного стиля, палитры и шаблонов.\n• Усиливать атмосферу и визуальное воздействие упаковки/маркетинговой подачи.\n• Обрабатывать готовые ассеты и выпускать множество форматов под разные спецификации: resize, relayout, localization.\n• Разрабатывать логотипы.\n• Создавать brand guidelines для будущих игр.\n• Разрабатывать concept illustrations персонажей и окружения для ранних игровых концептов при ограниченных visual guidelines.\n\nВидео и motion design\n\n• Делать базовый видеомонтаж и motion-анимации.\n\nОбщие задачи\n\n• Вести несколько задач с пересекающимися дедлайнами в быстром производственном окружении.\n• Участвовать в creative meetings, предлагать идеи и решения.\n• Изучать и соблюдать art/IP/licensing guidelines.\n• Вносить правки от лицензиаров, лидов и супервайзеров в срок и по спецификациям.\n• Отчитываться Creative Agency Lead по задачам, ревизиям, workflow, обучению и творческим идеям."
+    "hasRu": true
   },
   {
     "id": "gh-krafton-8524447002",
@@ -16065,7 +16725,7 @@ window.JOBS = [
       "Docker",
       "Kubernetes"
     ],
-    "descRu": "О команде\n\nAI Frontier Division превращает ключевые AI-компетенции KRAFTON в реальные бизнес-результаты. Шесть squads — In-game AI, Production AI, LLM AI и другие — быстро экспериментируют с продуктами и масштабируют успешные решения. Роль рассчитана на senior engineer, который использует AI не как вспомогательный инструмент, а как полноценного development partner и при этом умеет строить стабильные сервисы под большой трафик.\n\nМиссия\n\n• Вместе с PO отвечать за полный цикл AI-product: planning → development → deployment → operation.\n• Проектировать AI-функции: prompt design, API integration, RAG pipelines, MCP integrations, agent orchestration.\n• Вести end-to-end frontend/backend development.\n• Строить и оптимизировать model-inference pipelines и monitoring.\n• Проектировать high-traffic architectures и оптимизировать performance.\n• Развивать CI/CD и data pipelines для надёжной эксплуатации.\n\nОбязательные требования\n\n• 7+ лет software development или эквивалентный уровень.\n• Backend development на одном или нескольких: Node.js, Python, Kotlin, Go; понимание полного service flow.\n• Опыт end-to-end delivery: planning, testing, deployment, serving.\n• RDBMS и NoSQL.\n• Архитектура с учётом reliability/scalability и реальный production operations experience в high-traffic среде.\n• Monitoring и incident response, например Datadog/Grafana.\n• CI/CD и automated deployment pipelines.\n• Ежедневное использование coding agents вроде Claude Code, OpenAI Codex, Google Antigravity, Cursor и понимание их ограничений.\n• Context & Harness Engineering: CLAUDE.md, AGENTS.md, Rules, permissions, safety constraints, validation loops.\n• Понимание plugin/skill/MCP ecosystems и опыт custom tools/plugins.\n• Самостоятельное problem solving, документирование technical decisions, strong cross-functional communication и готовность быстро учиться.\n• Возможность зарубежных командировок.\n\nБудет преимуществом\n\n• AWS/GCP/Azure, Kubernetes, Docker, IaC.\n• GPU model serving через vLLM/Triton или production use of open-source models.\n• Эксплуатация AI-сервиса масштаба ~100k+ DAU.\n• React/TypeScript full-stack experience.\n• Tech lead / small-team leadership.\n• Практика multi-agent systems/agent orchestration."
+    "hasRu": true
   },
   {
     "id": "gh-krafton-8465450002",
@@ -16087,7 +16747,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ko",
     "stack": [],
-    "descRu": "О команде\n\nAI Frontier Division создаёт новые продукты и бизнесы на базе AI-технологий и R&D KRAFTON. Product Owner здесь работает как «mini CEO» своего направления: глубоко изучает рынок и клиентов, превращает AI assets компании в сервисы, быстро проверяет идеи небольшим squad вместе с AI-native engineers и AI researchers и развивает подтверждённые гипотезы в бизнес.\n\nМиссия\n\n• Искать новые AI-product/business opportunities, формировать strategy и вести реализацию.\n• Нести end-to-end responsibility за product/business strategy, execution и results.\n• Вместе с AI Engineers/Researchers задавать product-development strategy и вести delivery.\n• Находить early customers, проектировать PoC/Pilot и проверять Product-Market Fit.\n• Улучшать продукт на основе data и user feedback и отвечать за дальнейший business growth.\n\nОбязательные требования\n\n• Опыт end-to-end leadership хотя бы одного продукта/сервиса/бизнеса до запуска и operations.\n• Опыт определения новой opportunity/strategy в условиях неопределённости и доведения до commercialization.\n• Умение анализировать market/customer problems и превращать их в конкретную product/business opportunity.\n• Leadership product development с engineers и cross-functional teams.\n• Data-driven decisions, metrics analysis и experiment design.\n• 7+ лет product/business strategy и commercialization.\n• Возможность зарубежных командировок.\n\nБудет преимуществом\n\n• Startup / 0→1 product or business.\n• AI/ML-based products/services.\n• Тесное сотрудничество с engineers при launch/major-feature delivery.\n• Global products или продукты для зарубежных пользователей.\n• MBA или strategy-consulting / structured business problem solving."
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-91ac4595-beec-49c5-881a-2c23fc506ad4",
@@ -16109,7 +16769,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "wk-jagex-30ECD3B307",
@@ -16129,7 +16790,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-jam-city-c6d5eb23-addf-4b19-ac4f-c17017f58446",
@@ -16149,7 +16811,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-jam-city-94943ae6-6d9c-4dd1-8035-8510ce668e51",
@@ -16171,7 +16834,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-krafton-8617526002",
@@ -16193,7 +16857,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ko",
     "stack": [],
-    "descRu": "О команде\n\nWEST Publishing Team отвечает за regional publishing strategy, player growth, brand strength и long-term engagement PUBG: BATTLEGROUNDS на западных рынках. Роль подчиняется WEST Publishing Lead и отвечает за loyalty, retention, advocacy и рост regional community через strategic, insight-led initiatives.\n\nОсновные обязанности\n\n• Определять и вести player-engagement/community-growth strategy для Americas и EMEA.\n• Создавать программы, усиливающие loyalty, advocacy, retention и эмоциональную связь с PUBG.\n• Синхронизировать engagement с publishing campaigns, product updates, creators, esports и brand activations.\n• Превращать player feedback, sentiment, market signals и regional insights в практические рекомендации.\n• Работать с Brand, Marketing, Product, Social, Esports, Influencer, Legal, Regional Publishing и Global teams.\n• Устанавливать стандарты community planning, reporting, prioritization и impact measurement.\n• Использовать AI tools для research, insights, reporting, planning, documentation и workflow efficiency.\n\nТребования\n\n• Опыт community management, player engagement, publishing, live-service games, digital communities или близкой области.\n• Сильное понимание live-service player behavior, community growth, retention, loyalty и advocacy.\n• Project/stakeholder management и сильная письменная коммуникация в global/cross-functional среде.\n• Умение превращать feedback/sentiment/regional insights/market trends в action plans.\n• AI fluency для research, analysis и operations.\n• Высокая самостоятельность и способность доводить стратегию до результата.\n\nБудет преимуществом\n\n• PC/console live-service games и global/regional publishing.\n• Discord, Reddit, Steam, Twitch, YouTube и regional community channels.\n• Large-scale campaigns, product updates, esports или brand activations.\n• Хорошее знание PUBG: BATTLEGROUNDS, battle royale communities и competitive multiplayer behavior.\n\nЧто предлагают\n\nCompetitive salary, компенсация обязательной голландской медстраховки, 25 оплачиваемых + 4 дополнительных выходных рабочих дня в год, relocation package, pension, commuter allowance, lunch allowance, snacks/drinks, health & wellness allowance, помощь с visas и 30% ruling для подходящих кандидатов."
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-09161ef0-8266-4de5-9017-fd34a29c3a3d",
@@ -16213,7 +16877,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Junior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "sr-gameloft-744000137193670",
@@ -16235,7 +16900,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
-    "descRu": "О вакансии\n\nВ роли IT Project Manager вы будете вести технологические проекты от начала до конца — внедрение инструментов, миграции систем и другие ключевые инициативы в инфраструктуре и сервисах. Нужно обеспечивать выполнение проектов в срок, в пределах согласованного scope и бюджета, связывать бизнес-потребности с IT-решениями и координировать множество заинтересованных сторон.\n\nЕжедневные задачи\n\n• Вести IT-проекты от запуска до поставки и закрытия, сохраняя связь с бизнес-целями.\n• Определять и контролировать scope, сроки, ресурсы и бюджет, поддерживать подробные project plans.\n• Быть основной точкой контакта для stakeholders, организовывать взаимодействие между бизнесом, IT-командами и внешними поставщиками и регулярно сообщать о статусе.\n• Отслеживать эффективность проекта и управлять рисками, проблемами, зависимостями и change requests; эскалировать серьёзные блокеры и поддерживать governance, включая steering committees.\n• Координировать тестирование, валидацию и user acceptance, а также помогать с rollout и change management, чтобы решения были внедрены вовремя и действительно использовались.\n\nКак выглядит успех\n\nУспех в роли означает глубокое понимание систем, инструментов и процессов организации и формирование репутации надёжного лидера по delivery. Результат — плавное управление изменениями, более эффективное сотрудничество команд и высокий уровень удовлетворённости stakeholders. Вы также будете улучшать project governance, процессы, инструменты и коммуникацию.\n\nКоманды и взаимодействие\n\nРоль подчиняется руководителю Project Management Office Unit 42 в Монреале. Основное взаимодействие — с командами Unit 42, но работа затрагивает и остальную организацию, поскольку Unit 42 входит в Strategy & Transformation.\n\nВозможности развития\n\nВ дальнейшем возможен рост в Senior IT Project Manager или IT Product Manager, с углублением знаний enterprise systems, cloud platforms и emerging technologies. Роль предполагает тесную работу с senior leadership и ключевыми stakeholders и даёт доступ к стратегическому принятию решений."
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-a90cb94a-df2b-4f42-b60d-8abb68c4bf86",
@@ -16260,7 +16925,8 @@ window.JOBS = [
       "Unreal",
       "Java",
       "Kotlin"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-d1979d33-edb3-4668-bb23-2801615484d5",
@@ -16282,7 +16948,8 @@ window.JOBS = [
     "spec": "Бэкенд",
     "stack": [
       "Go"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-1befb865-6e2a-41b9-bc5d-939e5b2a7907",
@@ -16305,7 +16972,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-amanotes-52a09f10-5173-49e0-b7cc-77a02e82063a",
@@ -16327,7 +16995,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-acc651b7-70cd-4f14-ad90-d6ea98b1e25e",
@@ -16354,7 +17023,8 @@ window.JOBS = [
       "Houdini",
       "ZBrush",
       "Substance"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-cdbc5d64-684b-469b-afc2-8a8c5a29f759",
@@ -16376,7 +17046,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Python"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-blackbird-interactive-08a17822-d52b-4cc5-8e64-e80d5dc4ae25",
@@ -16400,7 +17071,8 @@ window.JOBS = [
       "Unreal",
       "C++",
       "Perforce"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-blackbird-interactive-15eed955-ebfe-4bfa-af48-d63dcede7ab8",
@@ -16424,7 +17096,8 @@ window.JOBS = [
       "Unreal",
       "C++",
       "Perforce"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-gameloft-744000136778258",
@@ -16448,7 +17121,8 @@ window.JOBS = [
       "Unreal",
       "Kubernetes",
       "Perforce"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-gameloft-744000136753850",
@@ -16474,7 +17148,8 @@ window.JOBS = [
       "Maya",
       "Blender",
       "Houdini"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-gameloft-744000136747775",
@@ -16497,7 +17172,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "Python"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-behaviour-interactive-fb13dc92-0b64-4952-855c-7fa5323dfc27",
@@ -16521,7 +17197,8 @@ window.JOBS = [
       "Unreal",
       "Wwise",
       "FMOD"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-behaviour-interactive-27959b6d-7071-4005-99aa-f035b74f0e65",
@@ -16548,7 +17225,8 @@ window.JOBS = [
       "Python",
       "Maya",
       "Blender"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-animoca-brands-3c7794c6-0dac-485b-ae9f-3cd11183ff8f",
@@ -16568,7 +17246,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-supercell-66476c5d-30b6-4772-aa41-94d251e3d73c",
@@ -16590,7 +17269,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-gameloft-744000136375799",
@@ -16612,7 +17292,8 @@ window.JOBS = [
     "spec": "Данные и ML",
     "stack": [
       "Python"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-krafton-8581491002",
@@ -16636,7 +17317,7 @@ window.JOBS = [
     "stack": [
       "Kubernetes"
     ],
-    "descRu": "AI Transformation Dept. ведёт company-wide AI Transformation (AX). Команда помогает business units повышать продуктивность через AI strategy, technology support, education и hands-on automation. Эта роль не столько про ручное infrastructure operations, сколько про проектирование AI/ML-based prediction/automation systems и распространение SRE practices по компании.\n\nМиссия\n\n• Стратегия внедрения и консультации по AIOps platform.\n• Архитектура AIOps и observability pipelines.\n• Scale-up стратегии Auto-healing/Auto-scaling.\n• Feasibility и ROI analysis automation initiatives.\n• Самостоятельное определение SLI/SLO/SLA и распространение SRE culture.\n• Автоматическое исполнение runbooks и разработка/эксплуатация platform tools.\n\nТребования\n\n• 7+ лет SRE, DevOps или Platform Engineering.\n• Опыт самостоятельного определения и внедрения SRE methodology в организации.\n• Cloud/Kubernetes systems, GitOps и Argo CD CI/CD.\n• Prometheus, Grafana, ELK, OpenTelemetry и другие observability tools.\n• On-call incident response и post-mortem-driven improvements.\n• Terraform, Karpenter, Ansible или аналогичные automation tools.\n• Возможность зарубежных командировок.\n\nБудет преимуществом\n\n• Production AIOps или deployment automation.\n• Automation с Claude Code CLI, Codex CLI или AI coding agents.\n• Platform tools на MCP, Skills, Plugin ecosystems.\n• Реальное применение SLI/SLO/Error Budget из SRE practices."
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-00caa189-33e6-4f65-84de-47145a3ebf39",
@@ -16659,7 +17340,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-amanotes-9c9416dd-bff1-4cf8-a4a7-b11150e37526",
@@ -16679,7 +17361,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "rc-grid-esports-2664098",
@@ -16699,7 +17382,8 @@ window.JOBS = [
     "role": "Поддержка",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "wk-rebellion-3C14DF6512",
@@ -16724,7 +17408,8 @@ window.JOBS = [
       "Houdini",
       "Substance",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "wk-rebellion-CC6520005F",
@@ -16750,7 +17435,8 @@ window.JOBS = [
       "SQL",
       "AWS",
       "Perforce"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "wk-rebellion-6C5CF621AE",
@@ -16775,7 +17461,8 @@ window.JOBS = [
       "Houdini",
       "Substance",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-c0e96a4f-fd6a-4ddb-a4f1-eee5cee2b096",
@@ -16795,7 +17482,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-supercell-ac462eb1-cbda-4c78-99bf-fcb71f917cc4",
@@ -16815,7 +17503,8 @@ window.JOBS = [
     "role": "Поддержка",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "wk-jagex-196E8C9DDD",
@@ -16838,7 +17527,8 @@ window.JOBS = [
     "stack": [
       "SQL",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-grid-esports-2666209",
@@ -16858,7 +17548,8 @@ window.JOBS = [
     "role": "Аналитика",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-supercell-25c49a59-3915-45b4-9389-6e1e4889f29f",
@@ -16878,7 +17569,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-supercell-a91f0f17-3e71-4767-a448-94bd86dbb525",
@@ -16900,7 +17592,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-people-can-fly-744000135725800",
@@ -16922,7 +17615,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-behaviour-interactive-9bf2e08c-def2-49fc-87d4-7c5f2c6f2b50",
@@ -16942,7 +17636,8 @@ window.JOBS = [
     "role": "Аналитика",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-behaviour-interactive-e1576270-0ff8-4cc7-9dbc-20609357e667",
@@ -16964,7 +17659,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-a0df2be4-366f-4c58-9623-e8638dc31031",
@@ -16987,7 +17683,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-ten-square-games-2664775",
@@ -17007,7 +17704,8 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-krafton-8602124002",
@@ -17036,7 +17734,7 @@ window.JOBS = [
       "AWS",
       "Docker"
     ],
-    "descRu": "Команда проверяет приложения до релиза на соответствие законам, regulations и platform policies разных стран, чтобы заранее находить риски и обеспечивать стабильный global launch.\n\nМиссия\n\n• Binary analysis мобильных приложений.\n• Reverse Engineering реальных distributed builds для проверки поведения и реализации.\n• Анализ code/resources на compliance, security vulnerabilities, unauthorized functionality и potential policy violations и разработка improvements.\n\nТребования\n\n• 8+ лет Android Native development.\n• 5+ лет Xcode/Swift.\n• 5+ лет Kotlin или Flutter.\n• Способность понимать поведение приложения по коду, находить performance/efficiency issues и разбираться в real data flows.\n• Умение выявлять и проверять потенциальные risks через code analysis.\n• Возможность зарубежных поездок.\n\nБудет преимуществом\n\nHybrid/iOS apps, reverse engineering, Python, NoSQL/MySQL, Docker/Kubernetes, AWS/Azure/GCP networking/service management."
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-660a3d26-b0cd-4473-832e-308dd2e02db8",
@@ -17058,7 +17756,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-858a40b3-0799-40ac-bbb9-c2b6c2fef113",
@@ -17078,7 +17777,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-0affadcf-dd1d-4649-9ab9-0244a585ee9c",
@@ -17098,7 +17798,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-supercell-46fab76c-cd8b-4845-acfd-fa8d322c26c2",
@@ -17118,7 +17819,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "sr-cd-projekt-red-744000135341300",
@@ -17144,7 +17846,8 @@ window.JOBS = [
       "Blender",
       "Substance",
       "Perforce"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-krafton-8602142002",
@@ -17170,7 +17873,7 @@ window.JOBS = [
       "AWS",
       "Docker"
     ],
-    "descRu": "Команда эксплуатирует популярный mobile shooter в крупной cloud infrastructure для десятков миллионов ежедневных игроков и соединяет традиционные DevOps practices с новыми AI/AX approaches.\n\nМиссия\n\n• DevOps для стабильной game-platform operation и technical enablement.\n• Использовать Agentic AI для operation/improvement крупной global multi-cloud infrastructure.\n• Снижать infrastructure cost.\n• Коммуницировать и вести documentation с game-platform teams и global partners.\n\nТребования\n\n• AWS/Azure/GCP.\n• Linux troubleshooting.\n• Automation на Bash, Python или другом языке.\n• IaC и эксплуатация infrastructure tooling.\n• Постоянное изучение новых технологий.\n• Практический опыт создания applications с AI Agents/Skills и применения их в team/company workflows.\n\nБудет преимуществом\n\nCS background, game development/service experience, English/Chinese, Docker/K8s/AI infrastructure, 7+ лет релевантного опыта."
+    "hasRu": true
   },
   {
     "id": "gh-krafton-8600522002",
@@ -17196,7 +17899,7 @@ window.JOBS = [
       "Kotlin",
       "Swift"
     ],
-    "descRu": "Senior-level role в команде, которая предотвращает regulatory, policy и technical risks мобильных приложений до global release и выступает technical bridge для external partners.\n\nМиссия\n\n• Binary analysis и technical research для security/regulatory validation strategy.\n• Reverse Engineering production apps и экспертные technical recommendations.\n• Анализ code/resources на compliance, vulnerabilities, unauthorized functionality и policy risks; разработка improvement policies и response plans.\n• Анализ technical issues, оценка impact/priority и построение short-/mid-/long-term solutions.\n\nТребования\n\n• 14+ лет Android Native и не менее 10 released apps.\n• 10+ лет Xcode/Swift и не менее 7 released apps.\n• 15+ лет Kotlin или Flutter.\n• Сильный code analysis, performance optimization и понимание application behavior/data flows.\n• Способность заранее находить и проверять technical risks.\n• Возможность зарубежных поездок.\n\nБудет преимуществом\n\nАнализ `.pak` files, application debugging через IDA Pro, C и Python code writing/review."
+    "hasRu": true
   },
   {
     "id": "wk-hutch-games-F033B0C7C5",
@@ -17219,7 +17922,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-aa75efaa-71ec-4c6e-b773-da557b06a650",
@@ -17243,7 +17947,8 @@ window.JOBS = [
       "Go",
       "SQL",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-32aaa66b-febe-480e-8657-741fb5271f4f",
@@ -17268,7 +17973,8 @@ window.JOBS = [
       "C#",
       "AWS",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-kolibri-games-7720f525-3a56-4706-9ed3-4e5a7df32acb",
@@ -17292,7 +17998,8 @@ window.JOBS = [
       "Unity",
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-gameloft-744000135040419",
@@ -17317,7 +18024,7 @@ window.JOBS = [
       "Python",
       "AWS"
     ],
-    "descRu": "О вакансии\n\nGameloft ищет FinOps Developer, который будет автоматизировать получение, проверку и отчётность по затратам на инфраструктуру, ПО, базы данных и облака, а также помогать с более широкими FinOps-задачами: выявлением аномалий, анализом распределения расходов, governance аккаунтов и планированием оптимизации.\n\nИдеальный кандидат уверенно пишет на Python, практически знаком с cloud platforms и умеет превращать данные о расходах в полезные выводы для технических и бизнес-команд.\n\nОсновные обязанности\n\n• Разрабатывать и поддерживать Python-скрипты для автоматизированного сбора и отчётности по расходам AWS, GCP, Azure, Alibaba Cloud/Aliyun, on-prem инфраструктуры, ПО и других сервисов, включая базы данных.\n• Создавать и поддерживать dashboards и reporting pipelines, показывающие расходы, usage trends, marketplace charges и возможности оптимизации.\n• Сотрудничать с межфункциональными командами, чтобы стратегии cost optimization реально внедрялись.\n• Участвовать в проектировании и реализации CI/CD pipelines и решений по infrastructure automation для cloud и hybrid environments.\n• Проводить cost-allocation analysis и сверять автоматические отчёты с cloud billing sources, повышая точность FinOps-автоматизации.\n• Оценивать новые инструменты и технологии для улучшения автоматизации и операционной эффективности.\n• Проектировать, документировать и поддерживать FinOps automation procedures, reporting logic и документацию по поставляемым инструментам и решениям."
+    "hasRu": true
   },
   {
     "id": "wk-rebellion-B57FD23C09",
@@ -17339,7 +18046,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "wk-rebellion-7DA712F769",
@@ -17361,7 +18069,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Blender"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "wk-rebellion-D58E53C5D9",
@@ -17383,7 +18092,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-huuuge-games-2658219",
@@ -17403,7 +18113,8 @@ window.JOBS = [
     "role": "Аналитика",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-crytek-7f131d50-64b1-4f95-9dd7-d6398c86637b",
@@ -17425,7 +18136,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-avalanche-studios-06b9cfb7-b18c-45d9-900b-83edebda0299",
@@ -17445,7 +18157,8 @@ window.JOBS = [
     "role": "QA",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-bigger-games-149228bb-acd5-4c92-9b70-6cb4a512a885",
@@ -17465,7 +18178,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-easybrain-b86ca16a-8fc8-41db-90a9-8bb3593373db",
@@ -17485,7 +18199,8 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "sr-people-can-fly-744000134528029",
@@ -17507,7 +18222,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "wk-homa-games-8FDD4C25D9",
@@ -17527,7 +18243,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-krafton-8607413002",
@@ -17549,7 +18266,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ko",
     "stack": [],
-    "descRu": "Studio Support Division поддерживает game studios в art, audio, localization и outsourcing. Новая Tech Ops unit будет диагностировать technical risks игровых проектов и вместе со студиями решать проблемы как на server, так и на client side.\n\nМиссия\n\n• Сформировать и вести Tech Ops unit, включая server/client engineering team building.\n• Спроектировать и развивать framework технической диагностики/DD игровых проектов.\n• Проводить technical assessments проектов и предлагать improvements.\n• Рано выявлять technical risks и помогать studios устранять их совместно с engineering teams.\n• Превращать накопленный technical know-how в reusable company assets/guidelines.\n\nТребования\n\n• 5+ лет практики хотя бы в game server или game client engineering.\n• Самостоятельная диагностика и решение сложных проблем в основной области.\n• Базовое понимание второй стороны — client или server.\n• Опыт согласования technical direction с множеством stakeholders.\n• Ясная technical communication, включая non-engineers.\n\nБудет преимуществом\n\nMulti-project/multi-studio support, technical assessment/code review/architecture review, technical documentation/internal standards, team lead или tech lead."
+    "hasRu": true
   },
   {
     "id": "lv-avalanche-studios-1fb38616-edf5-4017-93f6-2b2ee66c1c82",
@@ -17569,7 +18286,8 @@ window.JOBS = [
     "role": "QA",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-krafton-8503503002",
@@ -17595,7 +18313,7 @@ window.JOBS = [
       "Maya",
       "Blender"
     ],
-    "descRu": "Visual R&D Team в Art Department соединяет artistic creativity и technology, решает production bottlenecks и создаёт practical graphics solutions для глобальных KRAFTON studios. Среди направлений — VCC (Visual R&D Character Customization), next-gen graphics research и улучшение development processes.\n\nМиссия\n\n• Решать technical-art issues в rendering, shaders и asset pipelines.\n• Анализировать performance impact art assets и предлагать optimizations.\n• Оптимизировать shaders и rendering pipeline.\n• Устранять technical bottlenecks artist workflows.\n• Определять performance standards по platforms/genres, регулярно пересматривать и распространять их.\n• Документировать optimization best practices и обучать studios.\n• Проводить project performance diagnostics и hands-on optimization support, включая короткие onsite assignments при необходимости.\n• Готовить reports и recommendations по результатам оптимизации.\n\nТребования\n\n• 5+ лет Technical Art в game-development pipeline.\n• HLSL/GLSL shaders и optimization.\n• DCC tools (Maya, Blender и др.) и game engines.\n• Python/MEL scripting.\n• Понимание mobile/console/PC multi-platform optimization.\n• Technical documentation и communication.\n• Чтение англоязычной technical documentation.\n• Возможность зарубежных командировок.\n\nБудет преимуществом\n\nLow-end mobile optimization, multi-platform shipping, live-service performance improvement, collaboration with global studios."
+    "hasRu": true
   },
   {
     "id": "gh-krafton-8503598002",
@@ -17620,7 +18338,7 @@ window.JOBS = [
       "Unreal",
       "Maya"
     ],
-    "descRu": "Creative Cinematic Dept. создаёт cinematic content для глобальной аудитории на базе разных KRAFTON IP, сочетая Unreal Engine, AI и другие new technologies с creative production. Cinematic Production Team стремится передавать мир и эмоции IP через максимально качественный visual storytelling.\n\nМиссия\n\n• Lighting setup и visual mood на уровне отдельных cinematic shots.\n• Lighting design и lookdev для усиления режиссёрского замысла и эмоций.\n• Unreal Engine lighting и контроль rendering quality.\n• Совместная работа с Character, Environment, FX и другими disciplines до final visual quality.\n• Предлагать lighting style под direction проекта и повышать visual bar.\n\nТребования\n\n• Lighting Artist experience в games, film/video, VFX или смежной области.\n• Сильный Unreal Engine lighting experience.\n• Умение выражать эмоции и cinematic mood через lighting.\n• Cross-discipline collaboration.\n• Ownership и внимание к деталям.\n• Возможность зарубежных командировок.\n\nБудет преимуществом\n\nMaya Lighting, Nuke/compositing, virtual production, digital humans, metaverse, AI, любовь к game IP и cinematic production, активный gaming background."
+    "hasRu": true
   },
   {
     "id": "gh-krafton-8503467002",
@@ -17642,7 +18360,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ko",
     "stack": [],
-    "descRu": "Global Publishing Dept.3 занимается game publishing и помогает проектам повышать коммерческий потенциал от strategy до execution вместе с development и related teams.\n\nМиссия\n\n• Планировать, запускать и анализировать global digital marketing campaigns: social, display, search и др.\n• Планировать KOL campaigns и partnerships в Korea, Asia и global regions.\n• Вести user acquisition и re-engagement и оптимизировать performance.\n• Синхронизировать digital marketing с regional business units и помогать local campaigns.\n• Reporting и data-driven improvement.\n• Поддерживать campaigns вокруг game shows и других key industry events.\n\nТребования\n\n• 3+ года digital/performance marketing planning & execution.\n• Hands-on influencer/streamer/KOL campaigns.\n• Business-level English.\n• Meta Ads, Google Ads, TikTok Ads.\n• KPI setting/tracking/analysis и improvement actions.\n• Работа с internal teams и external agencies.\n• Возможность зарубежных командировок.\n\nБудет преимуществом\n\nГеймерский background, game industry/global communities, Chzzk/SOOP/Twitch/YouTube, Steam/Epic/mobile UA, Chinese или China/SEA marketing, marketing automation/data analysis tools, multicultural teams."
+    "hasRu": true
   },
   {
     "id": "gh-krafton-8581493002",
@@ -17667,7 +18385,7 @@ window.JOBS = [
       "Python",
       "AWS"
     ],
-    "descRu": "Команда строит и эксплуатирует database environments для разных проектов KRAFTON в on-premise и public cloud и выполняет классические DBA responsibilities.\n\nМиссия\n\n• Установка, deployment, monitoring, logging и operation databases для игр и related services.\n• Data Modeling, Performance Tuning и другой database technical support.\n• Создание и применение security policies/procedures, включая personal-data protection.\n• R&D по разным database environments и накопление internal knowledge.\n\nТребования\n\n• 3+ года эксплуатации хотя бы одного NoSQL: DynamoDB, MongoDB и др.\n• 1+ год AWS/Azure/GCP.\n• Database schema design/optimization для high-volume/high-traffic systems.\n• Понимание cloud infrastructure, DevOps и SRE methodologies.\n• Понимание game-development process/culture.\n• Возможность зарубежных командировок.\n\nБудет преимуществом\n\nAWS DynamoDB, RDB operations, Ansible/Terraform/Python, Prometheus/ELK, large-scale data processing, migration tools."
+    "hasRu": true
   },
   {
     "id": "gh-krafton-8460159002",
@@ -17692,7 +18410,7 @@ window.JOBS = [
       "Kotlin",
       "Swift"
     ],
-    "descRu": "XE (Experience Engineering) Dept. проектирует и эксплуатирует продукты от внутренних analytics dashboards до global external/web/event services. Новая роль — с нуля построить unified mobile app на KID (KRAFTON ID), связывающее game ecosystem KRAFTON с пользователями. Старт — Native + Hybrid WebView для быстрого запуска, затем постепенный переход к pure Native. Разработчик будет единолично вести mobile-app domain при наличии отдельных PM/backend roles.\n\nМиссия\n\n• Архитектура и development нового iOS/Android app.\n• KRAFTON ID authentication, user profiles, game records и preference data integrations.\n• Объединение множества KRAFTON service modules в одном app.\n• Архитектура Hybrid(WebView) integrations и roadmap перехода к pure Native.\n• Client-side data management и UI/UX для personalized content.\n• Backend API integration и app state-management architecture.\n• App Store/Google Play releases и CI/CD.\n\nТребования\n\n• 7+ лет mobile-app development.\n• React Native или Flutter cross-platform design/development/shipping.\n• Опыт построения приложения с нуля до store release.\n• Hybrid/WebView и Native↔WebView bridge communication.\n• REST APIs и state-management patterns.\n• OAuth/authentication integration.\n• App Store/Google Play release/review process.\n• Сильная коммуникация с PM и backend engineers.\n• Возможность зарубежных поездок.\n\nБудет преимуществом\n\nKotlin/Jetpack Compose, Swift/SwiftUI, large B2C/global apps, gaming/community apps, Super App/Mini App integration, personalization/recommendations, push/deep/dynamic links, Fastlane/Bitrise, Crashlytics/Firebase Analytics, Kotlin Multiplatform, AI/LLM tools."
+    "hasRu": true
   },
   {
     "id": "gh-krafton-8581468002",
@@ -17714,7 +18432,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ko",
     "stack": [],
-    "descRu": "О команде\n\nLocalization Team KRAFTON локализует игры компании для глобальной аудитории. Команда рассматривает локализацию не просто как перевод, а как recreation/transcreation контента так, чтобы игрок воспринимал его как созданный на своём языке. В основе процесса — linguistic quality, technology и баланс скорости производства с качеством.\n\nМиссия\n\n• Следить, чтобы локализованные материалы выпускались вовремя и на высоком уровне качества.\n• Работать с game teams, QA и marketing по requirements и schedules локализации.\n• Координировать ежедневную работу vendors: task assignment, communication, delivery и escalation quality issues.\n• Давать партнёрам — vendors, translators, regional offices — guidelines, references, training и support.\n• Эксплуатировать и мониторить AI-assisted translation pipelines, включая request management и quality oversight.\n• Анализировать workflow pain points и предлагать практические решения, в том числе AI-driven improvements.\n• При необходимости участвовать в переводе и review руками.\n\nОбязательные требования\n\n• 2+ года localization experience с project-coordination responsibilities либо сопоставимый project-management experience.\n• Знание localization process и CAT tools.\n• Интерес к video games и localization.\n• Отличная устная и письменная коммуникация на корейском и английском.\n• Умение вести несколько high-priority projects одновременно.\n• Готовность работать с AI-assisted translation и emerging localization technologies.\n• Проактивность, самостоятельность и командность.\n• Сильное problem solving и внимание к деталям.\n\nБудет преимуществом\n\n• Hands-on game localization как specialist/translator.\n• Управление AI-assisted translation tools или MTPE workflows.\n• Jira, Confluence и TMS.\n• Координация simultaneous multi-language releases/global launches.\n• Ещё один язык помимо Korean и English.\n\nУсловия\n\nПроцесс: application review → опциональный Phone Interview → Technical Fit Interview → Culture Fit Interview → offer. Место работы — Yeoksam Centerfield East Tower. Контракт на 1 год как замена сотрудника в parental leave, без перехода в permanent role."
+    "hasRu": true
   },
   {
     "id": "gh-krafton-8574570002",
@@ -17736,7 +18454,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ko",
     "stack": [],
-    "descRu": "О команде\n\nLocalization Team KRAFTON адаптирует игры компании для глобальной аудитории, делая ставку на transcreation, linguistic excellence и современные технологии. Цель — чтобы локализованный контент воспринимался игроком как изначально созданный на его языке.\n\nМиссия\n\n• Редактировать и вычитывать переводы из разных источников: human translation, machine translation и AI-assisted output.\n• Выполнять post-editing и quality review AI-translated content в hybrid localization pipeline.\n• Создавать и поддерживать glossaries и style guides для human/AI workflows.\n• Планировать и проводить linguistic QA и оценивать качество human/AI outputs через established metrics/frameworks.\n• Работать с translators и external vendors, поддерживая consistency и tone игры.\n• Давать linguistic feedback для улучшения AI translation models, prompts и post-processing logic.\n• Развивать guidelines и процессы для повышения translation quality.\n\nОбязательные требования\n\n• 1+ год в localization industry как linguist, editor или copywriter, желательно в gaming.\n• Native-level English и опыт review game-translation content.\n• Сильное понимание cultural nuances source/target languages.\n• Готовность работать с AI-assisted workflows и emerging localization technologies.\n• Отличная коммуникация и interpersonal skills.\n• Интерес к video games и localization.\n• Самостоятельность, проактивность и командность.\n\nБудет преимуществом\n\n• CAT tools: SDL Trados, MemoQ и др.\n• Hands-on game localization как specialist/translator.\n• MTPE или AI-assisted translation review.\n• Korean на уровне TOPIK 5+ либо эквивалентный business-level reading/writing/speaking.\n\nУсловия\n\nПроцесс: application review → опциональный Phone Interview → Language Test → Technical Fit Interview → Culture Fit Interview → offer. Требуются English Resume и Cover Letter. Место работы — Yeoksam Centerfield East Tower. Контракт на 1 год, без перехода в permanent role."
+    "hasRu": true
   },
   {
     "id": "lv-behaviour-interactive-4db7b168-3106-4b40-9abe-9f27d510f62c",
@@ -17758,7 +18476,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-behaviour-interactive-18024240-e637-409f-a647-b422541e2dc7",
@@ -17785,7 +18504,8 @@ window.JOBS = [
       "ZBrush",
       "Substance",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-384e323c-5b67-4846-8943-a8e7a03fe237",
@@ -17806,7 +18526,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-crytek-f5364e79-e4f7-46e3-b809-d0a21e893d8f",
@@ -17826,7 +18547,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-bigger-games-70478eff-1c45-437b-a000-15a2e3a37d1e",
@@ -17848,7 +18570,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-focus-entertainment-2651382",
@@ -17870,7 +18593,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
-    "descRu": "PulluP Entertainment стремится создавать для игроков по всему миру уникальные впечатления. Компания опирается на инновационные концепции, необычные игровые механики и оригинальные вселенные. Более 20 лет опыта и успешных проектов позволяют ей направлять страсть и креативность на создание игр и запоминающихся историй.\n\nВ IT-команде вы будете одним из ключевых специалистов, обеспечивающих бесперебойную работу компании. Вы помогаете сотрудникам и следите за тем, чтобы у них были нужные инструменты, оборудование и сервисы для эффективной работы. Как первая точка контакта для пользователей, вы напрямую влияете на непрерывность работы группы и эффективность команд, создающих будущие игры.\n\nПоддержка пользователей и инциденты\n\n• Обрабатывать обращения и инциденты через ticketing-систему, эффективно расставляя приоритеты с учётом бизнес-важности.\n• Диагностировать и устранять проблемы удалённо или на месте.\n• Сопровождать каждое обращение до полного решения.\n• При необходимости эскалировать сложные инциденты специализированным командам.\n• Оказывать качественную поддержку всем сотрудникам, включая VIP-пользователей.\n\nОборудование и программное обеспечение\n\n• Подготавливать, настраивать и развёртывать рабочие станции, периферию и ПО.\n• Участвовать в организации и техническом оснащении рабочих мест.\n• Устанавливать обновления и security patches, поддерживая надёжную и безопасную среду.\n• Управлять жизненным циклом IT-оборудования и отслеживать складские запасы.\n• Обрабатывать ситуации, связанные с потерей, кражей или возвратом оборудования компании.\n\nАдминистрирование и постоянное улучшение\n\n• Администрировать пользовательские учётные записи в Active Directory и Microsoft 365 на протяжении всего их жизненного цикла.\n• Управлять правами доступа к ресурсам и совместным рабочим пространствам.\n• Писать и обновлять техническую документацию и пользовательские инструкции.\n• Обучать сотрудников хорошим практикам информационной безопасности.\n• Участвовать в постоянном улучшении сервисов и пользовательского опыта."
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-efccf807-d02a-433b-8b47-e994c2ff2a93",
@@ -17890,7 +18613,8 @@ window.JOBS = [
     "role": "Поддержка",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-ae3e631b-88fb-42b6-bd7d-47f34a9859ab",
@@ -17917,7 +18641,8 @@ window.JOBS = [
       "Houdini",
       "ZBrush",
       "Substance"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-supercell-fbf26285-b36d-4977-b137-e3264b5a033a",
@@ -17939,7 +18664,8 @@ window.JOBS = [
     "spec": "DevOps",
     "stack": [
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-120ea1df-94b1-4620-80c5-276a25846d42",
@@ -17970,7 +18696,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-8ff694d3-1018-4f2a-9bb9-96818398a19a",
@@ -17990,7 +18717,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-blackbird-interactive-3e7c12f7-870b-4147-9f09-71f46ae29c23",
@@ -18014,7 +18742,8 @@ window.JOBS = [
       "Unreal",
       "Maya",
       "Perforce"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-cd-projekt-red-744000132828464",
@@ -18039,7 +18768,8 @@ window.JOBS = [
       "C++",
       "Python",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-crytek-a7e75d28-8d84-4598-8209-28b70e024005",
@@ -18062,7 +18792,8 @@ window.JOBS = [
     "stack": [
       "JavaScript",
       "Figma"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-behaviour-interactive-59c7a84a-e602-483a-919f-0552c4aaa4c7",
@@ -18084,7 +18815,8 @@ window.JOBS = [
     "spec": "Бэкенд",
     "stack": [
       "TypeScript"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-ten-square-games-2642817",
@@ -18104,7 +18836,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Junior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-supercell-85d37bfd-864e-4d51-8743-f2d9d07fbac1",
@@ -18124,7 +18857,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-c8e8b2a6-4a11-4594-a64b-1963007e3333",
@@ -18144,7 +18878,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-supercell-8d939573-6cf0-4f7e-91f6-46d0af27728b",
@@ -18164,7 +18899,8 @@ window.JOBS = [
     "role": "Арт",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-supercell-afac0f22-9b86-4c60-8fe7-29f0e024126f",
@@ -18190,7 +18926,8 @@ window.JOBS = [
       "AWS",
       "Docker",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-avalanche-studios-1bcb2598-8253-404a-b897-91b72ad6085c",
@@ -18214,7 +18951,8 @@ window.JOBS = [
       "C++",
       "Python",
       "Maya"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-huuuge-games-2638693",
@@ -18234,7 +18972,8 @@ window.JOBS = [
     "role": "Аналитика",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "rc-huuuge-games-2638486",
@@ -18254,7 +18993,8 @@ window.JOBS = [
     "role": "Аналитика",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-amanotes-ba8099c2-03d4-44ac-9bbd-61063df8984d",
@@ -18274,7 +19014,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "sr-cd-projekt-red-744000131838265",
@@ -18296,7 +19037,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-amanotes-340ca3e8-c264-4150-8f7a-628477a24381",
@@ -18318,7 +19060,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-f97d5a7a-a9af-40a2-9209-e1451198163d",
@@ -18341,7 +19084,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "Blender"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-good-job-games-4968083003",
@@ -18366,7 +19110,8 @@ window.JOBS = [
       "Maya",
       "Photoshop",
       "Spine"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-good-job-games-5095371003",
@@ -18386,7 +19131,8 @@ window.JOBS = [
     "role": "Арт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-good-job-games-7660128003",
@@ -18408,7 +19154,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-good-job-games-6296942003",
@@ -18433,7 +19180,8 @@ window.JOBS = [
       "Maya",
       "Photoshop",
       "Spine"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-good-job-games-4303829003",
@@ -18458,7 +19206,8 @@ window.JOBS = [
       "Blender",
       "ZBrush",
       "Substance"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-good-job-games-6229125003",
@@ -18481,7 +19230,8 @@ window.JOBS = [
     "stack": [
       "Maya",
       "Blender"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-good-job-games-7661366003",
@@ -18504,7 +19254,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-good-job-games-4221785003",
@@ -18527,7 +19278,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "C#"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-good-job-games-5332845003",
@@ -18550,7 +19302,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "C#"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-good-job-games-7715325003",
@@ -18570,7 +19323,8 @@ window.JOBS = [
     "role": "Арт",
     "grade": "Junior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-good-job-games-7451583003",
@@ -18590,7 +19344,8 @@ window.JOBS = [
     "role": "Арт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-good-job-games-7715335003",
@@ -18610,7 +19365,8 @@ window.JOBS = [
     "role": "Арт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-good-job-games-7721045003",
@@ -18630,7 +19386,8 @@ window.JOBS = [
     "role": "Арт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-good-job-games-7491067003",
@@ -18655,7 +19412,8 @@ window.JOBS = [
       "Blender",
       "ZBrush",
       "Substance"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-good-job-games-4668446003",
@@ -18679,7 +19437,8 @@ window.JOBS = [
       "Unity",
       "C++",
       "C#"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-good-job-games-6284775003",
@@ -18701,7 +19460,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-good-job-games-6284774003",
@@ -18723,7 +19483,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-good-job-games-7574002003",
@@ -18745,7 +19506,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-good-job-games-4618090003",
@@ -18767,7 +19529,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-supercell-2aa24f0b-5f80-48bc-940e-f122184339d7",
@@ -18787,7 +19550,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "sr-cd-projekt-red-744000131470988",
@@ -18807,7 +19571,8 @@ window.JOBS = [
     "role": "Нарратив",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "wk-rebellion-26021E16C2",
@@ -18829,7 +19594,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Figma"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-larian-studios-1dc05a1f-50ad-419b-8772-d2c4bd5cad57",
@@ -18855,7 +19621,8 @@ window.JOBS = [
       "Maya",
       "Houdini",
       "Substance"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-gameloft-744000131224045",
@@ -18877,7 +19644,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
-    "descRu": "Gameloft ищет Producer для PC/console-проекта Dungeons & Dragons, который сочетает action-RPG/выживание с элементами life-sim. Продюсер выступает полноценным project manager и вместе с командой контролирует этапы производства с точки зрения бюджета, сроков и контента.\n\nОсновные обязанности\n\n• Следить, чтобы цели Game Manager достигались и правильно доносились до соответствующих команд.\n• Отвечать за несколько команд, контролировать цели и дедлайны и обеспечивать поставку запланированных работ.\n• Управлять задачами в production tools вроде Jira и Confluence и отслеживать работу команды.\n• Участвовать в наставничестве junior-сотрудников production-команды.\n• Оценивать, анализировать и решать проблемы project management.\n• Участвовать в game-leadership meetings по планированию, расписанию и управлению командами.\n• Проводить встречи и управлять коммуникацией с внутренними и внешними stakeholders.\n• Помогать развивать и улучшать рабочие методы и процедуры.\n\nТребования\n\n• Бакалавриат в management, computer science или смежной области.\n• 5+ лет production-опыта в игровой индустрии.\n• Опыт запуска PC/console-проекта.\n• Опыт Agile/Scrum.\n• Отличная организация и аналитическое мышление для качественного delivery при жёстких сроках и установленном бюджете.\n• Умение вдохновлять команду и решать проблемные ситуации.\n• Глубокое знание и любовь к консольным и/или мобильным играм.\n\nДополнительно\n\nGameloft заявляет, что стремится использовать игры как положительную силу и создавать более инклюзивную среду. В отображаемой версии LOOTWORK раздел с преимуществами далее обрезан по лимиту."
+    "hasRu": true
   },
   {
     "id": "lv-amanotes-b6f59262-8856-4566-9a0e-c888ece532ff",
@@ -18899,7 +19666,8 @@ window.JOBS = [
     "spec": "Мобильная",
     "stack": [
       "Kotlin"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-amanotes-785e2661-4a01-4aec-885e-33c4e34f2f1f",
@@ -18919,7 +19687,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-kabam-b974a409-510c-4d1a-946e-32cd10c2a9e9",
@@ -18939,7 +19708,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-behaviour-interactive-06855abc-fcc0-4f03-b065-3bd1d82629e0",
@@ -18959,7 +19729,8 @@ window.JOBS = [
     "role": "Аналитика",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-747317a2-6c34-4edb-ad12-9b40de51fdfc",
@@ -18981,7 +19752,8 @@ window.JOBS = [
     "spec": "Фронтенд",
     "stack": [
       "TypeScript"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-9d388b93-a014-4b16-8ae7-e551b4cbd406",
@@ -19001,7 +19773,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-bigger-games-81b0689f-3607-49b9-bb68-c561103ef34e",
@@ -19023,7 +19796,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Python"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-focus-entertainment-2622215",
@@ -19043,7 +19817,8 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-larian-studios-2379cc51-2eb7-4e8c-9dcc-052cb7a8c868",
@@ -19063,7 +19838,8 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-supercell-5e9f01f3-cb0b-4de8-9092-1fda1f67ba1a",
@@ -19087,7 +19863,8 @@ window.JOBS = [
       "Java",
       "SQL",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-behaviour-interactive-7249200c-5107-496f-9dd2-41967fd30adf",
@@ -19107,7 +19884,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-bf199825-2f50-4cac-839a-1d3143fc3ecc",
@@ -19127,7 +19905,8 @@ window.JOBS = [
     "role": "Арт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "rc-ten-square-games-2617191",
@@ -19147,7 +19926,8 @@ window.JOBS = [
     "role": "VFX",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-supercell-3e4ade1a-54e5-4776-9c83-e936b34ccd0f",
@@ -19167,7 +19947,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-2ad73b79-d854-400c-9f33-6f08bf5b30d0",
@@ -19190,7 +19971,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "Figma"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-amanotes-34ec48d4-4197-4aea-9946-19cecb50bec7",
@@ -19210,7 +19992,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-avalanche-studios-1e28159d-6d17-4016-a73a-42d16ed52300",
@@ -19230,7 +20013,8 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-9f886cfd-3e8a-453b-bfab-c268a5ebb5fd",
@@ -19256,7 +20040,8 @@ window.JOBS = [
       "AWS",
       "Docker",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-cd-projekt-red-744000127482986",
@@ -19283,7 +20068,8 @@ window.JOBS = [
       "Python",
       "TypeScript",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-behaviour-interactive-25efda18-1535-4fbb-875d-9120683170b1",
@@ -19307,7 +20093,8 @@ window.JOBS = [
       "Unreal",
       "Python",
       "Maya"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-larian-studios-5bd314b3-0fcd-4dc1-9097-410d7b3f51cd",
@@ -19331,7 +20118,8 @@ window.JOBS = [
       "TypeScript",
       "JavaScript",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-586e8bb9-892c-4b0a-9272-3c870ef17e27",
@@ -19354,7 +20142,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-a14913d3-128a-4239-b6fd-caec7332790d",
@@ -19378,7 +20167,8 @@ window.JOBS = [
       "TypeScript",
       "JavaScript",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-d1cc3abc-fc26-4732-97ba-49971da226cf",
@@ -19396,7 +20186,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-266f30df-f0c5-4f5c-bfb0-726805216a50",
@@ -19422,7 +20213,8 @@ window.JOBS = [
       "AWS",
       "Docker",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-larian-studios-c0eba700-cfdb-4481-acf2-063f5772d5d8",
@@ -19446,7 +20238,8 @@ window.JOBS = [
       "C++",
       "Python",
       "Wwise"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-amanotes-c8deafe4-2090-4103-bfde-d1e64e8bc146",
@@ -19466,7 +20259,8 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-edc9a5f4-4162-4989-932c-4ebf28707783",
@@ -19490,7 +20284,8 @@ window.JOBS = [
       "Go",
       "AWS",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "wk-hutch-games-2AD6EC2170",
@@ -19512,7 +20307,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-ea4d594b-4b7d-443e-b747-1212d6baa9e2",
@@ -19534,7 +20330,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ja",
     "stack": [],
-    "descRu": "О позиции\n\nРоль отвечает за планирование и реализацию Field Marketing стратегии Xsolla на японском рынке. Через отраслевые мероприятия, конференции, семинары, вебинары, roundtables, customer events и partner events нужно повышать узнаваемость бренда, вовлекать клиентов, генерировать leads и pipeline и поддерживать рост выручки.\n\nВажна не просто организация мероприятий: кандидат должен понимать, зачем нужна конкретная инициатива, какую аудиторию необходимо достичь, какой бизнес-результат ожидается и как измерять успех. Позиция находится в Токио.\n\nО компании\n\nXsolla — глобальная commerce-компания с инструментами и сервисами для игровой индустрии. Она помогает indie- и AAA-разработчикам финансировать, распространять, продвигать и монетизировать игры. Компания базируется в Лос-Анджелесе, работает как Merchant of Record и помогла более чем 1500 разработчикам расширить аудиторию и бизнес.\n\n1. Field Marketing Strategy\n\n• Разрабатывать и реализовывать Field Marketing strategy и годовой план для Японии.\n• Согласовывать японские инициативы с Global/APAC Marketing и Japan business objectives.\n• Планировать программы по целевым индустриям, компаниям и customer segments.\n• Создавать integrated campaigns, объединяющие events, seminars, webinars, roundtables, customer events и другие каналы.\n• Определять KPI и постоянно улучшать эффективность.\n\n2. Events & Experiences\n\n• Планировать и проводить отраслевые conferences, trade shows, seminars, networking events и другие customer-facing мероприятия.\n• Планировать и управлять мероприятиями Xsolla и внешними sponsorships.\n• Вести полный event lifecycle: цели, аудитория, content planning, привлечение участников, on-site execution и post-event follow-up.\n• Координировать partners, agencies и vendors.\n• Работать со speakers, customers и partners.\n• Организовывать follow-up по leads после мероприятий и тесно взаимодействовать с Sales.\n\n3. Demand Generation & Pipeline\n\n• Генерировать leads и pipeline через events и Field Marketing.\n• Проектировать pre-event, during-event и post-event campaigns.\n• Отслеживать MQL, SQL и другие business KPI.\n• Связывать участие в мероприятии с дальнейшим customer journey.\n\n4. Content & Thought Leadership\n\n• Разрабатывать темы и контент для events, seminars и других программ.\n• Создавать материалы совместно с customers, partners и industry experts.\n• Планировать panel discussions, roundtables, executive sessions и другие thought-leadership активности.\n• Усиливать экспертную позицию и узнаваемость Xsolla в японской игровой индустрии.\n• Локализовать и переводить Global/Regional content для Японии.\n\n5. Customer & Partner Marketing\n\n• Организовывать мероприятия для существующих клиентов и партнёров.\n• Развивать Customer Success Stories, Case Studies, Customer Panels.\n• Создавать executive events для укрепления отношений с key accounts.\n• Проводить совместные marketing initiatives со strategic partners и industry organizations.\n• Расширять сеть контактов и visibility Xsolla в японской игровой экосистеме.\n\n6. Budget & Vendor Management\n\n• Планировать и управлять Field Marketing/Event budget.\n• Выбирать, согласовывать условия и управлять event sponsorships, vendors и agencies.\n• Оптимизировать распределение бюджета.\n• Работать с Global/Regional budget и approval processes."
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-795c93a6-efdb-4264-96eb-3ca170e0cd35",
@@ -19560,7 +20356,8 @@ window.JOBS = [
       "Unity",
       "Photoshop",
       "Figma"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "wk-rebellion-331FDD9137",
@@ -19584,7 +20381,8 @@ window.JOBS = [
       "Unity",
       "Unreal",
       "Blender"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-22cf358c-7c7f-40ae-afaa-2e52a1cbfecf",
@@ -19608,7 +20406,8 @@ window.JOBS = [
       "Unreal",
       "Maya",
       "Blender"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-57370d09-718f-4d9d-a43f-440aeb9be344",
@@ -19632,7 +20431,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-11dfc90c-e1b2-4be9-8fde-a9b896425031",
@@ -19654,7 +20454,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-0340b92a-5e8e-49f6-ab2a-4ace439c5bb9",
@@ -19674,7 +20475,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-c9280217-459f-48ae-b8b7-e41293bf400f",
@@ -19697,7 +20499,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "C#"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-197911ba-aee0-438d-99a8-59069de723db",
@@ -19720,7 +20523,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "C#"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-skybox-labs-c31046c8-3204-4a30-978c-171cd7874f27",
@@ -19743,7 +20547,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-supercell-2ea14727-3642-4b98-97a4-06d8f63cadce",
@@ -19763,7 +20568,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "sr-cd-projekt-red-744000123860449",
@@ -19785,7 +20591,8 @@ window.JOBS = [
     "spec": "Геймплей",
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-6173525e-9c55-4967-b4c0-ebe63d8c750b",
@@ -19803,7 +20610,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": "Junior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-skybox-labs-0b0982e3-1625-4a2c-97a3-3f591f551cbb",
@@ -19828,7 +20636,8 @@ window.JOBS = [
       "C++",
       "Python",
       "Houdini"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-ab32a727-ae02-4d5f-9358-2795f8f563c2",
@@ -19849,7 +20658,8 @@ window.JOBS = [
     "role": "QA",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-04d07247-0f4b-4de7-aeb1-52fab1d22f21",
@@ -19873,7 +20683,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-crytek-d82d4509-5f52-4757-ba24-11f352f5bc75",
@@ -19899,7 +20710,8 @@ window.JOBS = [
       "Python",
       "TypeScript",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-f4f03ec8-16d0-44e5-8a28-e07e08e38ce4",
@@ -19919,7 +20731,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-7e04fe74-d35f-48a4-b839-9f97c39e0a3d",
@@ -19943,7 +20756,8 @@ window.JOBS = [
       "AWS",
       "Docker",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-amanotes-6d610a18-1bf2-4954-9785-15a727c4c27c",
@@ -19963,7 +20777,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-larian-studios-cd334afc-3346-48be-9c52-2006945174be",
@@ -19983,7 +20798,8 @@ window.JOBS = [
     "role": "Нарратив",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-0b7b206f-dfd3-48c2-85ac-8cb7452df132",
@@ -20007,7 +20823,8 @@ window.JOBS = [
       "SQL",
       "AWS",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-0059c21b-e431-486d-babd-e87d212a835e",
@@ -20033,7 +20850,8 @@ window.JOBS = [
       "AWS",
       "Docker",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-crytek-15dc6fbb-2edd-4367-9372-a87d7fcf43ec",
@@ -20053,7 +20871,8 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-easybrain-66863456-4eb0-4f08-bb23-d13dae6c4722",
@@ -20073,7 +20892,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-d11d7fef-d8e9-43c2-bbe7-1e4246da145f",
@@ -20097,7 +20917,8 @@ window.JOBS = [
       "Unity",
       "Blender",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-9d29cb7e-aa45-49cc-abfb-a3fd36d2bf9d",
@@ -20122,7 +20943,8 @@ window.JOBS = [
       "Python",
       "Houdini",
       "Perforce"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-avalanche-studios-596ec1d3-822d-4543-8787-cb01f9141898",
@@ -20146,7 +20968,8 @@ window.JOBS = [
       "Unreal",
       "Maya",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-avalanche-studios-d37523d3-eb60-4d45-91c2-11767f5957c3",
@@ -20168,7 +20991,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Figma"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "wk-jagex-25AA51A796",
@@ -20193,7 +21017,8 @@ window.JOBS = [
       "Maya",
       "ZBrush",
       "Substance"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-supercell-f5eddac0-3d89-4224-8301-bde715e2dde2",
@@ -20214,7 +21039,8 @@ window.JOBS = [
     "role": "Арт",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-larian-studios-8dc39b30-2d2b-4e33-9ba1-eaac56c2ba5c",
@@ -20241,7 +21067,8 @@ window.JOBS = [
       "Docker",
       "Kubernetes",
       "Perforce"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-69707d04-3f72-4174-8429-62e2fbe0ca03",
@@ -20263,7 +21090,8 @@ window.JOBS = [
     "spec": "Бэкенд",
     "stack": [
       "TypeScript"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-8b505ffd-0480-4ef1-873b-02c43815cd07",
@@ -20285,7 +21113,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-bigger-games-9d46c0da-1eab-4ab1-ae90-8b6665edb01b",
@@ -20307,7 +21136,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-huuuge-games-2558395",
@@ -20327,7 +21157,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "rc-bloober-team-2558273",
@@ -20349,7 +21180,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-cd-projekt-red-744000119322249",
@@ -20372,7 +21204,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-kabam-0adb479d-f223-4e80-a0b2-3bc9107bf7b9",
@@ -20396,7 +21229,8 @@ window.JOBS = [
       "Unity",
       "C++",
       "C#"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-larian-studios-09bd74d9-6abc-44cf-af96-7236b7fc64ee",
@@ -20417,7 +21251,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
-    "descRu": "Спасибо за интерес к карьере в Larian Studios!\n\nLarian постоянно стремится знакомиться с талантливыми и увлечёнными разработчиками, особенно со специалистами в области сценарном деле. Даже если прямо сейчас подходящей позиции нет, отклик на эту открытую заявку означает, что вы хотите рассматриваться для будущих возможностей в Larian Studios.\n\nКогда появится роль, соответствующая вашим навыкам и опыту, компания может связаться с вами. В таких ролях вы тесно работаете с основными командами, создавая увлекательные истории, диалоги и сюжетный контент, который оживляет миры и персонажей. Сценаристы Larian используют разные подходы к повествованию: нелинейные истории, выборы с выраженной agency игрока, ветвящиеся пути и общие сюжетные арки.\n\nLarian предлагает использовать открытую заявку, чтобы рассказать о себе, своём опыте, навыках и профессиональном подходе. Пока подходящей позиции нет, рекомендуется регулярно проверять страницу Careers на новые вакансии. Компания благодарит за интерес и рассчитывает на возможность поработать вместе в будущем."
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-4cb496e1-7f11-4e3c-a93e-2d9221968eae",
@@ -20440,7 +21274,8 @@ window.JOBS = [
     "stack": [
       "TypeScript",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-fe6a2e57-3aa8-4226-93f0-1264e815507e",
@@ -20460,7 +21295,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-larian-studios-6b6eb172-a4cb-431f-8af9-23236f8e51c9",
@@ -20482,7 +21318,8 @@ window.JOBS = [
     "spec": "Геймплей",
     "stack": [
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-ee349ff7-8ff1-4a0d-8769-ded933f3dcdd",
@@ -20504,7 +21341,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-ffaca67c-efa0-4a7d-a3bd-8a4e08d328a1",
@@ -20524,7 +21362,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "sr-cd-projekt-red-744000117286468",
@@ -20547,7 +21386,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "Perforce"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-bacc542e-9e8c-4cbd-9667-3fa960c7c294",
@@ -20571,7 +21411,8 @@ window.JOBS = [
       "Go",
       "Docker",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-bigger-games-14511bd4-b8eb-4a5d-9b88-44fa9a48ada8",
@@ -20594,7 +21435,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "C#"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "wk-rebellion-61FF9282A8",
@@ -20616,7 +21458,8 @@ window.JOBS = [
     "spec": "Геймплей",
     "stack": [
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "wk-homa-games-515240B841",
@@ -20639,7 +21482,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "C#"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "wk-rebellion-EC9066B2A2",
@@ -20664,7 +21508,8 @@ window.JOBS = [
       "Docker",
       "Kubernetes",
       "Perforce"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "wk-rebellion-A109731EA7",
@@ -20689,7 +21534,8 @@ window.JOBS = [
       "JavaScript",
       "AWS",
       "Perforce"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-bonfire-studios-4178767009",
@@ -20713,7 +21559,8 @@ window.JOBS = [
       "Unity",
       "C++",
       "C#"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-a70bdc3f-3d56-4634-9b8e-a5d40fc4433c",
@@ -20737,7 +21584,8 @@ window.JOBS = [
       "AWS",
       "Docker",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-crytek-897a9afe-06a0-40d4-9331-0b559c56aa1f",
@@ -20760,7 +21608,8 @@ window.JOBS = [
     "stack": [
       "JavaScript",
       "Figma"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-amanotes-96e45f3d-675c-42fb-93ef-f1e4aa812956",
@@ -20783,7 +21632,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "C#"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-gameloft-744000115751358",
@@ -20805,7 +21655,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
-    "descRu": "Gameloft ищет Concept Artist для PC/console-проекта Dungeons & Dragons, объединяющего action-RPG/выживание и элементы life-sim.\n\nОсновные обязанности\n\n• Создавать выразительных персонажей, существ и окружение по направлению Art Director и с учётом обратной связи game-design команды.\n• Формировать единый и узнаваемый стиль целого игрового мира.\n• Быстро прорабатывать идеи через sketches и thumbnails.\n• Создавать concepts для ежедневного производства игровых art assets.\n• Создавать качественный key art, соответствующий lore и creative direction проекта.\n• Доносить визуальные идеи между командами и подразделениями.\n• Сдавать качественные иллюстрации вовремя, с высоким вниманием к деталям.\n\nТребования\n\n• 4+ года профессионального опыта в аналогичной роли.\n• Образование в art, graphic design или смежной области.\n• Сильное портфолио concept art для gamedev, желательно с акцентом на стилизацию.\n• Умение создавать качественные concepts окружения, оружия и props.\n• Сильный упор на design thinking и problem solving.\n• Умение быстро принимать и внедрять feedback.\n• Сочетание 2D- и 3D-техник с использованием современных инструментов.\n• Хорошее чувство ландшафта, географии и архитектуры.\n• Умение работать в команде.\n• Отличные коммуникационные навыки.\n• Проактивность, самомотивация и способность работать без прямого контроля.\n\nДополнительно\n\nGameloft заявляет о стремлении использовать игры как позитивную силу и строить более инклюзивный мир. Компания хочет, чтобы сотрудники могли сосредоточиться на главном — создании качественных игр, которыми можно гордиться. В текущем описании LOOTWORK список льгот начинается, но обрезан лимитом."
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-5212ef39-d17c-4139-bd9e-3fccce126ff1",
@@ -20830,7 +21680,8 @@ window.JOBS = [
       "JavaScript",
       "AWS",
       "Docker"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-f1c5d5ca-04ff-482e-87af-405e4a1414c8",
@@ -20854,7 +21705,8 @@ window.JOBS = [
       "AWS",
       "Docker",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-bonfire-studios-4131143009",
@@ -20874,7 +21726,8 @@ window.JOBS = [
     "role": "Анимация",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "gh-bonfire-studios-4132150009",
@@ -20894,7 +21747,8 @@ window.JOBS = [
     "role": "Анимация",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-fe065e86-bf17-4d50-b630-c7b375c4edb5",
@@ -20919,7 +21773,8 @@ window.JOBS = [
       "Swift",
       "TypeScript",
       "JavaScript"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-good-job-games-7489383003",
@@ -20941,7 +21796,8 @@ window.JOBS = [
     "spec": "Данные и ML",
     "stack": [
       "Python"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-09a7b7ec-7c95-491e-9d1b-0da77f2f8873",
@@ -20962,7 +21818,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Junior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-c677097e-8abf-4989-92e2-46c36080a639",
@@ -20982,7 +21839,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-d5e8a645-f8e1-490f-8280-a6a183aae529",
@@ -21002,7 +21860,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-supercell-1d91d31a-2022-40a2-ae8f-289decdf2ea4",
@@ -21025,7 +21884,8 @@ window.JOBS = [
     "stack": [
       "Java",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-cd-projekt-red-744000112115038",
@@ -21045,7 +21905,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-amanotes-b280ffc0-b9fb-4af1-a545-148dbdaff5bd",
@@ -21067,7 +21928,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-amanotes-fd0958b1-2370-4d57-8058-ab1e3a5ac96d",
@@ -21087,7 +21949,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-supercell-1c446790-5fad-48b4-a194-92a8caaac381",
@@ -21109,7 +21972,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-aafd0eab-e98c-4e66-a556-90b677a87bf8",
@@ -21133,7 +21997,8 @@ window.JOBS = [
       "TypeScript",
       "JavaScript",
       "Figma"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-b47ed6c2-2f7d-4319-803c-1457c846ac29",
@@ -21156,7 +22021,8 @@ window.JOBS = [
     "stack": [
       "Go",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-supercell-4dc6b102-5f3f-4211-9f81-646c16f29888",
@@ -21176,7 +22042,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-avalanche-studios-cfabf115-b13a-45f9-83d0-db2efc358335",
@@ -21201,7 +22068,8 @@ window.JOBS = [
       "Java",
       "SQL",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-589818ee-a4ef-4d18-80a4-64bd2e17782d",
@@ -21225,7 +22093,8 @@ window.JOBS = [
       "AWS",
       "Docker",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-2a094b06-bf3b-456a-a136-27c4545cfe00",
@@ -21248,7 +22117,8 @@ window.JOBS = [
     "stack": [
       "TypeScript",
       "JavaScript"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-avalanche-studios-557484be-0668-4a31-a06b-84a52edbdd51",
@@ -21271,7 +22141,8 @@ window.JOBS = [
     "stack": [
       "SQL",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-08960a16-42f4-44f7-8096-8072438bbdb3",
@@ -21294,7 +22165,8 @@ window.JOBS = [
     "stack": [
       "Docker",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "gh-bonfire-studios-4075212009",
@@ -21314,7 +22186,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Junior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "wk-rebellion-98FDF5BB20",
@@ -21336,7 +22209,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-8298ae62-cc3a-4110-be98-e27ade43c33f",
@@ -21360,7 +22234,8 @@ window.JOBS = [
       "Go",
       "SQL",
       "Docker"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-supercell-bdc0c3c3-f381-48c7-bcb1-101cc21b1466",
@@ -21383,7 +22258,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-people-can-fly-744000106807696",
@@ -21407,7 +22283,8 @@ window.JOBS = [
       "Unreal",
       "Python",
       "Maya"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "sr-people-can-fly-744000106807780",
@@ -21429,7 +22306,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-larian-studios-d546d9c3-ab0d-4c77-81d8-8b8388c158ff",
@@ -21451,7 +22329,8 @@ window.JOBS = [
     "spec": "Геймплей",
     "stack": [
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-3ff76511-7e63-4de9-85cb-e570b9889d82",
@@ -21471,7 +22350,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-f5b67c57-4878-4410-a709-4ef29b45d7f9",
@@ -21491,7 +22371,8 @@ window.JOBS = [
     "role": "QA",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-a9ce97c9-52f5-4767-a784-012eaa0df83a",
@@ -21517,7 +22398,8 @@ window.JOBS = [
       "AWS",
       "Docker",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-2bb002c9-50a4-4129-a831-e38a9d82f6c0",
@@ -21540,7 +22422,8 @@ window.JOBS = [
     "stack": [
       "Java",
       "Kotlin"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-77132545-27aa-45ba-bce9-0ca5bf04f580",
@@ -21564,7 +22447,8 @@ window.JOBS = [
       "TypeScript",
       "Docker",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-e0cee92b-d327-4f37-a148-310de5a35350",
@@ -21588,7 +22472,8 @@ window.JOBS = [
       "C++",
       "AWS",
       "Docker"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-amanotes-01540a47-eed9-4b9b-9de9-a91658f76aa3",
@@ -21610,7 +22495,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Figma"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-supercell-06058b2e-d65d-4e7f-9217-946ab424c508",
@@ -21631,7 +22517,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-1228b276-5183-4981-8620-4fc06632f268",
@@ -21655,7 +22542,8 @@ window.JOBS = [
       "Python",
       "SQL",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-reality-games-2412535",
@@ -21678,7 +22566,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-lucid-reality-labs-1667691",
@@ -21700,7 +22589,8 @@ window.JOBS = [
     "spec": "Фронтенд",
     "stack": [
       "JavaScript"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-amanotes-73e664da-d664-4033-88ce-9b58970a69fe",
@@ -21727,7 +22617,8 @@ window.JOBS = [
       "SQL",
       "AWS",
       "Docker"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-283a9c87-1e43-454f-9dd9-bbb21cdd379e",
@@ -21749,7 +22640,8 @@ window.JOBS = [
     "spec": "Фронтенд",
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-reality-games-1150477",
@@ -21771,7 +22663,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-e0816368-5dfc-4d76-92e1-dbcdd16848f9",
@@ -21796,7 +22689,8 @@ window.JOBS = [
       "AWS",
       "Docker",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-d9b3ab79-3dc4-47e4-98ac-57c06f44a355",
@@ -21819,7 +22713,8 @@ window.JOBS = [
     "stack": [
       "Docker",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-2cf1f27e-ccb4-46d2-9042-c08f48907d86",
@@ -21841,7 +22736,8 @@ window.JOBS = [
     "spec": "Бэкенд",
     "stack": [
       "Go"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-4c56db6a-8f24-4ac5-af42-b4d183586816",
@@ -21861,7 +22757,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Lead",
     "spec": "Фронтенд",
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-56509726-51c6-4b4a-8983-8023cca96bd5",
@@ -21885,7 +22782,8 @@ window.JOBS = [
       "Go",
       "SQL",
       "Docker"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-amanotes-1fe8667a-667f-4c31-901c-f747a06d8fa0",
@@ -21910,7 +22808,8 @@ window.JOBS = [
       "Maya",
       "Blender",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-amanotes-9a6a467a-feb9-4335-bee0-8d100ebd2b5c",
@@ -21933,7 +22832,8 @@ window.JOBS = [
     "stack": [
       "Photoshop",
       "Figma"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-amanotes-b1a475bc-e8e9-480c-bb1c-fb5b9f26c232",
@@ -21957,7 +22857,8 @@ window.JOBS = [
       "Unity",
       "C++",
       "Java"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-amanotes-6494be0d-2f94-4705-b460-cd4ce4aa6448",
@@ -21977,7 +22878,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-ebb74747-c739-4247-bafc-a088c10fa643",
@@ -22003,7 +22905,8 @@ window.JOBS = [
       "AWS",
       "Docker",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-590dc198-720c-4efe-bb3d-3ecdfd53603b",
@@ -22025,7 +22928,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "JavaScript"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-kolibri-games-72d04588-5bdd-4be8-ad28-a5c0d3adecb6",
@@ -22047,7 +22951,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-0596a991-0649-40dc-9812-ba482219b1a1",
@@ -22069,7 +22974,8 @@ window.JOBS = [
     "spec": "Фронтенд",
     "stack": [
       "TypeScript"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-amanotes-53d882d0-3ef0-409e-a657-9ee654b76d73",
@@ -22089,7 +22995,8 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-e742967e-3808-4a3f-8d91-4d357f3f17ff",
@@ -22109,7 +23016,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Lead",
     "spec": "Бэкенд",
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-7e396bbb-655d-4f94-8a78-2015c34d9b9b",
@@ -22129,7 +23037,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-3619b321-edfe-40ed-bc42-f34b39e39d59",
@@ -22152,7 +23061,8 @@ window.JOBS = [
     "stack": [
       "Docker",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-reality-games-2367141",
@@ -22172,7 +23082,8 @@ window.JOBS = [
     "role": "Поддержка",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "rc-reality-games-2366783",
@@ -22192,7 +23103,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-164a8740-d61a-41ee-9d10-8892b60ac0cb",
@@ -22215,7 +23127,8 @@ window.JOBS = [
     "stack": [
       "Go",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-0017fccd-82d6-42a8-8231-ccda407463f9",
@@ -22238,7 +23151,8 @@ window.JOBS = [
     "stack": [
       "Go",
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-380042b7-95eb-407b-9e4f-0b4a7e9b0347",
@@ -22262,7 +23176,8 @@ window.JOBS = [
       "Unity",
       "Blender",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-avalanche-studios-5188df85-9155-499f-b9fa-b8c703be8a2f",
@@ -22286,7 +23201,8 @@ window.JOBS = [
       "C++",
       "Python",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-larian-studios-27fc755d-40b6-43b9-b58a-3ca3ebb01fc7",
@@ -22306,7 +23222,8 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": "Junior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-82e04d00-239d-4a39-a781-671f2958db4e",
@@ -22329,7 +23246,8 @@ window.JOBS = [
     "stack": [
       "TypeScript",
       "JavaScript"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-3aff5760-0e40-4896-944a-980a2369608f",
@@ -22351,7 +23269,8 @@ window.JOBS = [
     "spec": "Фронтенд",
     "stack": [
       "TypeScript"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-1dd5a9e7-9298-432d-906b-04d24ce57223",
@@ -22371,7 +23290,8 @@ window.JOBS = [
     "role": "QA",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "rc-reality-games-2336273",
@@ -22391,7 +23311,8 @@ window.JOBS = [
     "role": "Поддержка",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-f030891c-9663-4d5a-980e-e6966174493d",
@@ -22417,7 +23338,8 @@ window.JOBS = [
       "AWS",
       "Docker",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-159174f3-b2d4-4d17-819b-53e6722b8e51",
@@ -22437,7 +23359,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-3702e353-59ec-4da3-8fcf-0278952f1782",
@@ -22460,7 +23383,8 @@ window.JOBS = [
     "stack": [
       "Kotlin",
       "Swift"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-c6df5226-4102-4b05-a65d-fc7da6f86c52",
@@ -22482,7 +23406,8 @@ window.JOBS = [
       "Go",
       "AWS",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-reality-games-1026110",
@@ -22504,7 +23429,8 @@ window.JOBS = [
     "spec": "Бэкенд",
     "stack": [
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-fanatee-8c1d49e1-d701-41b2-ba44-df3e3b906ebe",
@@ -22522,7 +23448,8 @@ window.JOBS = [
     "role": "Поддержка",
     "grade": "Junior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "rc-reality-games-2295782",
@@ -22542,7 +23469,8 @@ window.JOBS = [
     "role": "Звук",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "rc-reality-games-2295555",
@@ -22562,7 +23490,8 @@ window.JOBS = [
     "role": "Арт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-64a1b630-eff7-4b57-8cb6-60b84daa2b3a",
@@ -22582,7 +23511,8 @@ window.JOBS = [
     "role": "Поддержка",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-ed247956-f43a-48d4-8385-64c2d6e45001",
@@ -22605,7 +23535,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-jam-city-447a0acc-8b52-4b0b-8255-a7cb86f2a55b",
@@ -22625,7 +23556,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-a94d937b-bcd3-40c2-82d9-c3f9d9ab2849",
@@ -22645,7 +23577,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-c3513ba1-5642-4b16-9975-8ab813fe8f83",
@@ -22665,7 +23598,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "rc-ten-square-games-2280053",
@@ -22685,7 +23619,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-a8e80b3f-9cd0-421e-bcc1-6ff03a4ab182",
@@ -22705,7 +23640,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-22a159a5-88df-49ad-958d-2c3ad66dc06c",
@@ -22725,7 +23661,8 @@ window.JOBS = [
     "role": "Поддержка",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-5b63cabf-a47a-4dcc-a34b-2059cde1cda2",
@@ -22749,7 +23686,8 @@ window.JOBS = [
       "Python",
       "SQL",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-c8222d67-a318-46b0-aa00-44f6cc67918e",
@@ -22771,7 +23709,8 @@ window.JOBS = [
     "spec": "Фронтенд",
     "stack": [
       "Docker"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-amanotes-bbeb632b-0262-4513-b211-5bcab49d4b40",
@@ -22794,7 +23733,8 @@ window.JOBS = [
     "stack": [
       "Photoshop",
       "Figma"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-a5f7382d-eb1a-4f54-9fd1-8703d38e0a86",
@@ -22812,7 +23752,8 @@ window.JOBS = [
     "role": "Поддержка",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-df434055-fe50-4682-9e72-29720761db52",
@@ -22833,7 +23774,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "Unreal"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-598164cd-61a6-477a-a0cc-debbd3f5d18a",
@@ -22857,7 +23799,8 @@ window.JOBS = [
       "Python",
       "AWS",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-reality-games-2201648",
@@ -22877,7 +23820,8 @@ window.JOBS = [
     "role": "Арт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-89827fb8-d3bc-4007-b459-a3020044ea06",
@@ -22897,7 +23841,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "rc-reality-games-2191509",
@@ -22917,7 +23862,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "rc-reality-games-1026657",
@@ -22939,7 +23885,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-reality-games-1026660",
@@ -22959,7 +23906,8 @@ window.JOBS = [
     "role": "Поддержка",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-544a42ef-2490-482e-92df-2eb3e8455861",
@@ -22979,7 +23927,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-25c25eb0-2791-496d-8a8e-49b27b667e5f",
@@ -22999,7 +23948,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "ab-voodoo-aa6b1d49-6a1d-49ff-9740-a48a1ba956aa",
@@ -23021,7 +23971,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-larian-studios-426112f6-122c-4cef-b97f-37e7df14526f",
@@ -23042,7 +23993,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
-    "descRu": "Спасибо за интерес к карьере в Larian Studios!\n\nLarian постоянно стремится знакомиться с талантливыми и увлечёнными разработчиками, особенно со специалистами в области анимации. Даже если прямо сейчас подходящей позиции нет, отклик на эту открытую заявку означает, что вы хотите рассматриваться для будущих возможностей в Larian Studios.\n\nКогда появится роль, соответствующая вашим навыкам и опыту, компания может связаться с вами. В таких ролях вы тесно работаете с основными командами над плавными и выразительными анимациями — как кинематографическими, так и геймплейными — которые оживляют персонажей и существ.\n\nLarian предлагает использовать открытую заявку, чтобы рассказать о себе, своём опыте, навыках и профессиональном подходе. Пока подходящей позиции нет, рекомендуется регулярно проверять страницу Careers на новые вакансии. Компания благодарит за интерес и рассчитывает на возможность поработать вместе в будущем."
+    "hasRu": true
   },
   {
     "id": "lv-larian-studios-64e1e658-7c7a-4c7f-b950-f997d40a9d8e",
@@ -23063,7 +24014,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
-    "descRu": "Спасибо за интерес к карьере в Larian Studios!\n\nLarian постоянно стремится знакомиться с талантливыми и увлечёнными разработчиками, особенно со специалистами в области создании персонажей. Даже если прямо сейчас подходящей позиции нет, отклик на эту открытую заявку означает, что вы хотите рассматриваться для будущих возможностей в Larian Studios.\n\nКогда появится роль, соответствующая вашим навыкам и опыту, компания может связаться с вами. В таких ролях вы тесно работаете с art- и design-командами, создавая детализированных, визуально выразительных персонажей, соответствующих lore игровых миров.\n\nLarian предлагает использовать открытую заявку, чтобы рассказать о себе, своём опыте, навыках и профессиональном подходе. Пока подходящей позиции нет, рекомендуется регулярно проверять страницу Careers на новые вакансии. Компания благодарит за интерес и рассчитывает на возможность поработать вместе в будущем."
+    "hasRu": true
   },
   {
     "id": "lv-larian-studios-b17cce86-db83-402d-8851-a5a5db3e822b",
@@ -23084,7 +24035,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
-    "descRu": "Спасибо за интерес к карьере в Larian Studios!\n\nLarian постоянно стремится знакомиться с талантливыми и увлечёнными разработчиками, особенно со специалистами в области синематике. Даже если прямо сейчас подходящей позиции нет, отклик на эту открытую заявку означает, что вы хотите рассматриваться для будущих возможностей в Larian Studios.\n\nКогда появится роль, соответствующая вашим навыкам и опыту, компания может связаться с вами. В таких ролях вы создаёте качественные синематические сцены, объединяющие сторителлинг, анимацию, освещение и работу камеры, чтобы усиливать впечатления игрока.\n\nLarian предлагает использовать открытую заявку, чтобы рассказать о себе, своём опыте, навыках и профессиональном подходе. Пока подходящей позиции нет, рекомендуется регулярно проверять страницу Careers на новые вакансии. Компания благодарит за интерес и рассчитывает на возможность поработать вместе в будущем."
+    "hasRu": true
   },
   {
     "id": "lv-larian-studios-4fd694b3-ece7-4307-9949-15cac512a815",
@@ -23103,7 +24054,8 @@ window.JOBS = [
     "role": "Арт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-larian-studios-9bd7d394-e1cc-4acf-8176-68eb2b08aa18",
@@ -23122,7 +24074,8 @@ window.JOBS = [
     "role": "Арт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-larian-studios-8a0ddf95-82a6-470f-9a1b-3126f569613b",
@@ -23143,7 +24096,8 @@ window.JOBS = [
     "spec": "Геймплей",
     "stack": [
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-larian-studios-2dadccc5-fd1a-4abd-a594-367827be9268",
@@ -23164,7 +24118,7 @@ window.JOBS = [
     "spec": "Геймплей",
     "lang": "fr",
     "stack": [],
-    "descRu": "Спасибо за интерес к карьере в Larian Studios!\n\nLarian постоянно стремится знакомиться с талантливыми и увлечёнными разработчиками, особенно со специалистами в области gameplay scripting. Даже если прямо сейчас подходящей позиции нет, отклик на эту открытую заявку означает, что вы хотите рассматриваться для будущих возможностей в Larian Studios.\n\nКогда появится роль, соответствующая вашим навыкам и опыту, компания может связаться с вами. В таких ролях вы скриптуете события, квесты, поведение персонажей и игровую логику, создавая динамичный геймплей и бесшовные взаимодействия игрока с миром.\n\nLarian предлагает использовать открытую заявку, чтобы рассказать о себе, своём опыте, навыках и профессиональном подходе. Пока подходящей позиции нет, рекомендуется регулярно проверять страницу Careers на новые вакансии. Компания благодарит за интерес и рассчитывает на возможность поработать вместе в будущем."
+    "hasRu": true
   },
   {
     "id": "lv-larian-studios-c94ffeae-dd5e-4a6e-a239-dddbcec58f9c",
@@ -23185,7 +24139,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
-    "descRu": "Спасибо за интерес к карьере в Larian Studios!\n\nLarian постоянно стремится знакомиться с талантливыми и увлечёнными разработчиками, особенно со специалистами в области level design. Даже если прямо сейчас подходящей позиции нет, отклик на эту открытую заявку означает, что вы хотите рассматриваться для будущих возможностей в Larian Studios.\n\nКогда появится роль, соответствующая вашим навыкам и опыту, компания может связаться с вами. В таких ролях вы проектируете увлекательные, атмосферные и интерактивные пространства, которые поддерживают геймплей, повествование и исследование мира игроком.\n\nLarian предлагает использовать открытую заявку, чтобы рассказать о себе, своём опыте, навыках и профессиональном подходе. Пока подходящей позиции нет, рекомендуется регулярно проверять страницу Careers на новые вакансии. Компания благодарит за интерес и рассчитывает на возможность поработать вместе в будущем."
+    "hasRu": true
   },
   {
     "id": "lv-larian-studios-bf42260a-554e-44dd-8d96-a6621982d4ca",
@@ -23206,7 +24160,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
-    "descRu": "Спасибо за интерес к карьере в Larian Studios!\n\nLarian постоянно стремится знакомиться с талантливыми и увлечёнными разработчиками, особенно со специалистами в области освещении. Даже если прямо сейчас подходящей позиции нет, отклик на эту открытую заявку означает, что вы хотите рассматриваться для будущих возможностей в Larian Studios.\n\nКогда появится роль, соответствующая вашим навыкам и опыту, компания может связаться с вами. В таких ролях вы создаёте освещение, которое усиливает атмосферу, повествование и вовлечённость игрока, одновременно поддерживая визуальную целостность окружения.\n\nLarian предлагает использовать открытую заявку, чтобы рассказать о себе, своём опыте, навыках и профессиональном подходе. Пока подходящей позиции нет, рекомендуется регулярно проверять страницу Careers на новые вакансии. Компания благодарит за интерес и рассчитывает на возможность поработать вместе в будущем."
+    "hasRu": true
   },
   {
     "id": "lv-larian-studios-c34990ef-5128-44de-86fc-b1df5d596a51",
@@ -23227,7 +24181,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
-    "descRu": "Спасибо за интерес к карьере в Larian Studios!\n\nLarian постоянно стремится знакомиться с талантливыми и увлечёнными разработчиками, особенно со специалистами в области продюсировании. Даже если прямо сейчас подходящей позиции нет, отклик на эту открытую заявку означает, что вы хотите рассматриваться для будущих возможностей в Larian Studios.\n\nКогда появится роль, соответствующая вашим навыкам и опыту, компания может связаться с вами. В таких ролях вы координируете команды, управляете расписанием проекта и следите, чтобы разработка шла плавно и эффективно без потери творческого качества.\n\nLarian предлагает использовать открытую заявку, чтобы рассказать о себе, своём опыте, навыках и профессиональном подходе. Пока подходящей позиции нет, рекомендуется регулярно проверять страницу Careers на новые вакансии. Компания благодарит за интерес и рассчитывает на возможность поработать вместе в будущем."
+    "hasRu": true
   },
   {
     "id": "lv-larian-studios-90157c7a-cc80-4cc3-8d78-285e5745f25e",
@@ -23248,7 +24202,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
-    "descRu": "Спасибо за интерес к карьере в Larian Studios!\n\nLarian постоянно стремится знакомиться с талантливыми и увлечёнными разработчиками, особенно со специалистами в области саунд-дизайне. Даже если прямо сейчас подходящей позиции нет, отклик на эту открытую заявку означает, что вы хотите рассматриваться для будущих возможностей в Larian Studios.\n\nКогда появится роль, соответствующая вашим навыкам и опыту, компания может связаться с вами. В таких ролях вы создаёте погружающий звуковой опыт для игр: sound effects, звуки окружения, диалоги и динамические музыкальные системы.\n\nLarian предлагает использовать открытую заявку, чтобы рассказать о себе, своём опыте, навыках и профессиональном подходе. Пока подходящей позиции нет, рекомендуется регулярно проверять страницу Careers на новые вакансии. Компания благодарит за интерес и рассчитывает на возможность поработать вместе в будущем."
+    "hasRu": true
   },
   {
     "id": "lv-larian-studios-f499a22b-9ea6-418b-be66-c0d7b5efaee3",
@@ -23269,7 +24223,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
-    "descRu": "Спасибо за интерес к карьере в Larian Studios!\n\nLarian постоянно стремится знакомиться с талантливыми и увлечёнными разработчиками, особенно со специалистами в области технической анимации или риггинге. Даже если прямо сейчас подходящей позиции нет, отклик на эту открытую заявку означает, что вы хотите рассматриваться для будущих возможностей в Larian Studios.\n\nКогда появится роль, соответствующая вашим навыкам и опыту, компания может связаться с вами. В таких ролях вы создаёте и поддерживаете animation rigs, помогаете развивать animation pipeline, строите инструменты и логику анимации внутри движка и оптимизируете анимации для плавного и реалистичного движения персонажей.\n\nLarian предлагает использовать открытую заявку, чтобы рассказать о себе, своём опыте, навыках и профессиональном подходе. Пока подходящей позиции нет, рекомендуется регулярно проверять страницу Careers на новые вакансии. Компания благодарит за интерес и рассчитывает на возможность поработать вместе в будущем."
+    "hasRu": true
   },
   {
     "id": "lv-larian-studios-4ef19671-90b0-4cc7-9365-64aa3c671563",
@@ -23288,7 +24242,8 @@ window.JOBS = [
     "role": "Технический художник",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-larian-studios-566055cd-27a3-4429-a829-cc10e2132308",
@@ -23309,7 +24264,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
-    "descRu": "Спасибо за интерес к карьере в Larian Studios!\n\nLarian постоянно стремится знакомиться с талантливыми и увлечёнными разработчиками, особенно со специалистами в области техническом QA. Даже если прямо сейчас подходящей позиции нет, отклик на эту открытую заявку означает, что вы хотите рассматриваться для будущих возможностей в Larian Studios.\n\nКогда появится роль, соответствующая вашим навыкам и опыту, компания может связаться с вами. В таких ролях вы выявляете технические проблемы, разрабатываете стратегии тестирования и тесно работаете с программными командами. Также вы можете участвовать в автоматизации тестов, создавая и поддерживая системы, которые проверяют стабильность и производительность инструментов, gameplay features и других систем до их интеграции в игру.\n\nLarian предлагает использовать открытую заявку, чтобы рассказать о себе, своём опыте, навыках и профессиональном подходе. Пока подходящей позиции нет, рекомендуется регулярно проверять страницу Careers на новые вакансии. Компания благодарит за интерес и рассчитывает на возможность поработать вместе в будущем."
+    "hasRu": true
   },
   {
     "id": "lv-larian-studios-04cb183c-c7a0-42a5-93f9-8782b9b198a9",
@@ -23330,7 +24285,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
-    "descRu": "Спасибо за интерес к карьере в Larian Studios!\n\nLarian постоянно стремится знакомиться с талантливыми и увлечёнными разработчиками, особенно со специалистами в области визуальных эффектах. Даже если прямо сейчас подходящей позиции нет, отклик на эту открытую заявку означает, что вы хотите рассматриваться для будущих возможностей в Larian Studios.\n\nКогда появится роль, соответствующая вашим навыкам и опыту, компания может связаться с вами. В таких ролях вы создаёте динамичные и выразительные визуальные эффекты, усиливающие игровой опыт и оживляющие магические, природные и кинематографические моменты.\n\nLarian предлагает использовать открытую заявку, чтобы рассказать о себе, своём опыте, навыках и профессиональном подходе. Пока подходящей позиции нет, рекомендуется регулярно проверять страницу Careers на новые вакансии. Компания благодарит за интерес и рассчитывает на возможность поработать вместе в будущем."
+    "hasRu": true
   },
   {
     "id": "rc-ten-square-games-2114537",
@@ -23350,7 +24305,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-larian-studios-ad8ea7ad-77b1-4839-8268-412ab72faf8b",
@@ -23372,7 +24328,8 @@ window.JOBS = [
     "spec": "Геймплей",
     "stack": [
       "C++"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-bigger-games-107a1702-01e9-405e-9e32-fdd62c87d891",
@@ -23394,7 +24351,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "C#"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-bigger-games-0ce9aa65-7475-4359-9485-64e773d19ffa",
@@ -23417,7 +24375,8 @@ window.JOBS = [
     "stack": [
       "Java",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-bigger-games-e4dc9337-cd10-469f-8683-fe880d74615e",
@@ -23440,7 +24399,8 @@ window.JOBS = [
     "stack": [
       "Java",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-bigger-games-28bcafc9-3e56-4c8e-8e5d-cc41b99a15f8",
@@ -23463,7 +24423,8 @@ window.JOBS = [
     "stack": [
       "C#",
       "Java"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "ab-bigger-games-3cf01539-89b6-4f80-9d38-561a20905df5",
@@ -23486,7 +24447,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "Spine"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-playrix-2061146",
@@ -23506,7 +24468,8 @@ window.JOBS = [
     "role": "Арт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-86377699-ad33-419d-b81d-dfbf9d859b10",
@@ -23528,7 +24491,8 @@ window.JOBS = [
     "spec": "Бэкенд",
     "stack": [
       "Go"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-reality-games-2050941",
@@ -23550,7 +24514,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "SQL"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-reality-games-2050833",
@@ -23570,7 +24535,8 @@ window.JOBS = [
     "role": "Программирование",
     "grade": null,
     "spec": "Данные и ML",
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "rc-reality-games-1300650",
@@ -23590,7 +24556,8 @@ window.JOBS = [
     "role": "QA",
     "grade": "Junior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-jam-city-49a238e4-ce71-4a5d-8aeb-53a866bab441",
@@ -23610,7 +24577,8 @@ window.JOBS = [
     "role": "Нарратив",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "rc-reality-games-1999421",
@@ -23630,7 +24598,8 @@ window.JOBS = [
     "role": "Арт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "rc-reality-games-1142878",
@@ -23652,7 +24621,8 @@ window.JOBS = [
     "spec": "Unity",
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-reality-games-1027523",
@@ -23672,7 +24642,8 @@ window.JOBS = [
     "role": "Арт",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-amanotes-442b9253-a92c-4d2b-b557-f9be0a459eb4",
@@ -23692,7 +24663,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-xsolla-36de3791-840b-4073-b7f7-ac4a2685ad3c",
@@ -23716,7 +24688,8 @@ window.JOBS = [
       "Go",
       "SQL",
       "Docker"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-fanatee-5f3cf507-f63d-4457-9aed-d0e53ea7d770",
@@ -23736,7 +24709,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-dream-games-2a650ecb-c187-4e06-a50a-ee23866a952e",
@@ -23759,7 +24733,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "C#"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-fanatee-6b377205-1198-4e9d-9a02-00f150ee52cd",
@@ -23779,7 +24754,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-behaviour-interactive-0e47a11d-556e-4d17-b470-12896c61dd81",
@@ -23803,7 +24779,8 @@ window.JOBS = [
       "Unreal",
       "Maya",
       "Blender"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-spyke-games-4c361f74-5939-42d0-8589-9373c4a68e07",
@@ -23827,7 +24804,8 @@ window.JOBS = [
       "Unity",
       "Maya",
       "Photoshop"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-spyke-games-cce93ae1-350d-48f8-87a9-5197969dd94f",
@@ -23847,7 +24825,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-spyke-games-d795b15d-0f99-43ca-a7f7-bd4a8ddb335c",
@@ -23867,7 +24846,8 @@ window.JOBS = [
     "role": "QA",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-amanotes-61a771f9-baf2-4c8b-9503-34a98fe1da42",
@@ -23889,7 +24869,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Figma"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-amanotes-b4c5ae56-8391-49c6-a67f-1e66484df8ed",
@@ -23911,7 +24892,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-spyke-games-13e16ba5-0bc9-4d0a-8e0d-7c101ba46657",
@@ -23931,7 +24913,8 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-spyke-games-6879c36b-a336-4796-a2a9-7a4b1617d3b7",
@@ -23957,7 +24940,8 @@ window.JOBS = [
       "Godot",
       "C#",
       "Java"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-spyke-games-5dae1c71-86d7-4b28-aa2f-b6ab68bca148",
@@ -23981,7 +24965,8 @@ window.JOBS = [
       "Unity",
       "Photoshop",
       "Spine"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-spyke-games-f4566647-ecb8-47de-bec4-3928fbe67d16",
@@ -24005,7 +24990,8 @@ window.JOBS = [
       "Python",
       "SQL",
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-spyke-games-8e5d6d79-2056-4c83-9c68-4de94e2a8890",
@@ -24027,7 +25013,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-spyke-games-77ea64f9-0d67-4fc5-884b-0d6d5064abaa",
@@ -24052,7 +25039,8 @@ window.JOBS = [
       "AWS",
       "Docker",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-spyke-games-2b9ed21c-b392-4d09-916d-fd8ecacc05b7",
@@ -24078,7 +25066,8 @@ window.JOBS = [
       "Godot",
       "C#",
       "Java"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-reality-games-1069051",
@@ -24098,7 +25087,8 @@ window.JOBS = [
     "role": "Поддержка",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-amanotes-284789f4-a83e-4727-9738-211cdfbe8201",
@@ -24124,7 +25114,8 @@ window.JOBS = [
       "Python",
       "TypeScript",
       "JavaScript"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "rc-reality-games-1021714",
@@ -24144,7 +25135,8 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "hasRu": true
   },
   {
     "id": "lv-dream-games-0714caf0-4077-44f3-a1d4-8985b9baf1bc",
@@ -24167,7 +25159,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "C#"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-dream-games-665462af-2bae-4c82-b2da-b27cee93bccf",
@@ -24193,7 +25186,8 @@ window.JOBS = [
       "AWS",
       "Docker",
       "Kubernetes"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-dream-games-f16a1f7b-03e4-493a-b5bc-851f66e105cd",
@@ -24218,7 +25212,8 @@ window.JOBS = [
       "C++",
       "C#",
       "Java"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-dream-games-ddd317b1-11f6-4477-9ca0-d35dd0a279fe",
@@ -24243,7 +25238,8 @@ window.JOBS = [
       "C++",
       "C#",
       "Java"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-fanatee-3cdcc244-14ba-4c43-8637-d94f94c37841",
@@ -24266,7 +25262,7 @@ window.JOBS = [
       "Unity",
       "C#"
     ],
-    "descRu": "Fanatee создаёт игры для миллионов игроков по всему миру. Development team отвечает за планирование, написание и поддержку кода, на котором работают продукты компании.\n\nОбязанности\n\n• Участвовать в планировании и разработке игр.\n• Оптимизировать game performance.\n• Работать с front-end и back-end teams над качеством продукта.\n• Участвовать в specification features, балансируя cost и benefit технических решений.\n• Следить за schedules и ясно сообщать о progress.\n• Самостоятельно писать robust/scalable code.\n• Исследовать AI solutions, повышающие скорость разработки features и code quality.\n\nТребования\n\n• Computer Science, Engineering, Game Design или близкое образование.\n• Advanced Unity и C#.\n• Интеграция с native Android/iOS components: push notifications, IAP.\n• Local database и offline-data management.\n• Интерес к AI techniques/tools — Claude Code, Codex, Gemini CLI и др. — в game development.\n• Отличная коммуникация и teamwork.\n• Проактивность, быстрый learning и высокий quality bar.\n\nБудет преимуществом\n\nAdvanced English, game-data architecture, shipped commercial projects.\n\nЧто предлагают\n\nCompetitive compensation, flexible benefits, semiannual profit sharing, life insurance, health/dental coverage, relaxed environment, career-development support и отдельную комнату отдыха со snacks, fruit и drinks."
+    "hasRu": true
   },
   {
     "id": "lv-dream-games-36e9e67a-d287-4794-a4ec-95cac8950169",
@@ -24288,7 +25284,8 @@ window.JOBS = [
     "spec": "DevOps",
     "stack": [
       "AWS"
-    ]
+    ],
+    "hasRu": true
   },
   {
     "id": "lv-dream-games-82f56330-c6c7-42d5-a438-731cda77dbd5",
@@ -24313,6 +25310,7 @@ window.JOBS = [
       "C++",
       "C#",
       "Java"
-    ]
+    ],
+    "hasRu": true
   }
 ];
