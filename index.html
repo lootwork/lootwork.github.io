@@ -310,6 +310,7 @@
     border:1px solid var(--line-soft);border-radius:7px;padding:3px 9px}
   .tag.remote{color:var(--cyan);border-color:var(--cyan-deep);background:var(--cyan-deep)}
   .tag.src{color:var(--ok);border-color:var(--ok-line);font-family:var(--mono);font-size:11px}
+  .tag.tr{color:var(--cyan);border-color:var(--cyan-deep)}
   .tag.lang{color:#d8a3ff;border-color:#3d2a55}
   .tag.pool{color:var(--muted);border-style:dashed}
   .tag.role{color:var(--role, var(--muted));border-color:var(--role, var(--line-soft))}
@@ -440,6 +441,8 @@
   .job-head .pay{font-family:var(--mono);color:var(--amber);font-size:14px;margin-top:6px}
   /* Текст вакансии приходит сплошной простынёй. Разбираем его на заголовки,
      списки и абзацы — иначе читать невозможно. */
+  .tr-note{font-size:12.5px;color:var(--muted);border-left:2px solid var(--cyan);
+    padding-left:10px;margin-bottom:14px}
   .job-source{font-family:var(--mono);font-size:11.5px;color:var(--ok);margin:0 0 16px;
     letter-spacing:.03em}
   .job-desc{font-size:14.5px;line-height:1.7;color:var(--text);opacity:.92}
@@ -1294,6 +1297,7 @@
       hidden:"Скрытые", restore:"Вернуть в список", hide:"Скрыть вакансию", more2:"Ещё",
       pool:"резерв", dropWord:"Убрать", shownWord:"Показано",
       langOn:"на", translateIt:"Открыть перевод вакансии, она на",
+      translated:"перевод", manualTr:"Описание переведено вручную. Оригинал — по кнопке «Откликнуться на сайте студии».",
       officialHint:"Вакансия взята с карьерной страницы студии",
       sourceWord:"источник", checkedWord:"проверено",
       fbContact:"Контакт для ответа", fbContactHint:"Без контакта ответить не смогу.",
@@ -1371,6 +1375,7 @@
       hidden:"Hidden", restore:"Bring back", hide:"Hide this job", more2:"More",
       pool:"talent pool", dropWord:"Remove", shownWord:"Showing",
       langOn:"in", translateIt:"Open a translation, this one is in",
+      translated:"translated", manualTr:"This description was translated by hand.",
       officialHint:"Taken from the studio career page",
       sourceWord:"source", checkedWord:"checked",
       fbContact:"Contact for a reply", fbContactHint:"Without a contact I cannot reply.",
@@ -1812,7 +1817,7 @@
     return j._hayMain;
   }
   function hayDesc(j){
-    if (!j._hayDesc) j._hayDesc = (j.desc || "").toLowerCase();
+    if (!j._hayDesc) j._hayDesc = ((j.desc || "") + " " + (j.descRu || "")).toLowerCase();
     return j._hayDesc;
   }
 
@@ -2116,8 +2121,9 @@
     if (j.remote || j.rkind)
       tags.push('<span class="tag remote">'+esc(j.rkind ? rkindLabel(j.rkind) : t("remote"))+'</span>');
     if (j.pool) tags.push('<span class="tag pool">'+t("pool")+'</span>');
-    if (j.lang && j.lang !== "ru")
+    if (j.lang && j.lang !== "ru" && !j.descRu)
       tags.push('<span class="tag lang">'+t("langOn")+' '+esc(langLabel(j.lang))+'</span>');
+    if (j.descRu) tags.push('<span class="tag tr">'+t("translated")+'</span>');
     if (j.grade) tags.push('<span class="tag grade">'+esc(j.grade)+'</span>');
     if (j.role) tags.push('<span class="tag role">'+esc(roleLabel(j.role))+'</span>');
     if (j.spec) tags.push('<span class="tag role">'+esc(specLabel(j.spec))+'</span>');
@@ -3140,9 +3146,13 @@
       : "";
 
     const d = $("jobDesc");
-    if (j.desc){
+    // Переведённый текст показываем только в русской версии: в английской
+    // человеку нужен оригинал.
+    const useRu = lang === "ru" && j.descRu;
+    const body = useRu ? j.descRu : j.desc;
+    if (body){
       d.className = "job-desc";
-      d.innerHTML = descHtml(j.desc);
+      d.innerHTML = (useRu ? '<div class="tr-note">'+t("manualTr")+'</div>' : "") + descHtml(body);
     } else {
       d.className = "job-desc empty-desc";
       d.textContent = t("noDesc");
@@ -3153,7 +3163,7 @@
     $("jobPage").textContent = t("jobPage");
 
     const tr = $("jobTranslate");
-    if (j.lang && j.lang !== "ru" && j.url){
+    if (j.lang && j.lang !== "ru" && j.url && !(lang === "ru" && j.descRu)){
       tr.hidden = false;
       tr.href = translateUrl(j.url);
       tr.textContent = t("translateIt") + " " + langLabel(j.lang) + " →";

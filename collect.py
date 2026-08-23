@@ -36,6 +36,7 @@ OUT_JS = HERE / "jobs.js"
 STATUS = HERE / "status.json"
 HISTORY = HERE / "history.json"
 POSTED = HERE / "posted.json"
+TRANSLATIONS = HERE / "translations.json"
 REPORT = HERE / "report.md"
 SITEMAP = HERE / "sitemap.xml"
 BLOCKLIST = HERE / "blocklist.json"   # сюда попадают id, снятые по жалобам
@@ -1026,6 +1027,45 @@ def check_alive(url: str) -> bool:
         return True              # не достучались — это про связь, а не про вакансию
 
 
+def read_translations():
+    """Ручные переводы описаний: файл translations.json в корне.
+    Формат простой — ключ это адрес вакансии у студии или её номер:
+
+      {
+        "https://jobs.lever.co/larian/09bd...": "Русский текст описания",
+        "sr-gameloft-744000142975579": "Русский текст описания"
+      }
+
+    Адрес надёжнее номера: номер меняется, если студия перевыложит вакансию.
+    """
+    if not TRANSLATIONS.exists():
+        return {}
+    try:
+        data = json.loads(TRANSLATIONS.read_text(encoding="utf-8"))
+    except Exception as e:
+        print(f"translations.json не прочитался: {str(e)[:80]}")
+        return {}
+    if not isinstance(data, dict):
+        return {}
+    return {str(k).strip(): v for k, v in data.items() if isinstance(v, str) and v.strip()}
+
+
+def apply_translations(jobs):
+    """Подставляем перевод, если он есть. Оригинал не выбрасываем:
+    человек должен иметь возможность прочитать первоисточник."""
+    tr = read_translations()
+    if not tr:
+        return 0
+    hits = 0
+    for j in jobs:
+        text = tr.get(j.get("url") or "") or tr.get(j.get("id") or "")
+        if text:
+            j["descRu"] = cut_desc(text)
+            hits += 1
+    print(f"Переводов подставлено: {hits} из {len(tr)} в файле")
+    return hits
+
+
 def read_previous():
     """Достаём вакансии из прошлой выгрузки — они пригодятся, если студия
     сегодня не ответила. Лучше показать вчерашнее, чем потерять полсотни строк."""
@@ -1121,6 +1161,7 @@ def collect(companies, verify_links: bool):
             time.sleep(PAUSE)
         jobs = live
 
+    apply_translations(jobs)
     jobs.sort(key=lambda j: (j.get("posted") or ""), reverse=True)
     return jobs
 
@@ -2036,6 +2077,14 @@ def job_ld(j):
 
 
 
+def translated_note(j) -> str:
+    if not j.get("descRu"):
+        return ""
+    return ('<p class="note">Описание переведено вручную. '
+            f'<a href="{esc(j.get("url") or SITE)}" target="_blank" rel="nofollow noopener">'
+            'Оригинал на сайте студии →</a></p>')
+
+
 def translate_block(j) -> str:
     """Сами мы описание не переводим, но одну кнопку дать можем:
     она открывает страницу студии в переводчике Google."""
@@ -2078,7 +2127,8 @@ def job_page(j, same_company):
 <div class="sub">{esc(j['company'])} · {esc(where)}{(' · опубликовано ' + esc(human_date(j['posted']))) if j.get('posted') else ''}</div>
 <div class="tags">{''.join(tags)}</div>
 <a class="apply" href="{esc(j['url'])}" target="_blank" rel="nofollow noopener">Откликнуться на сайте студии</a>
-<div class="desc">{desc_html(j.get('desc'))}</div>
+<div class="desc">{desc_html(j.get('descRu') or j.get('desc'))}</div>
+{translated_note(j)}
 {translate_block(j)}
 <div class="note">Отклик принимает студия на своём сайте. LOOTWORK только показывает вакансию.</div>
 {near}
