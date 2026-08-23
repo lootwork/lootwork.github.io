@@ -310,6 +310,7 @@
     border:1px solid var(--line-soft);border-radius:7px;padding:3px 9px}
   .tag.remote{color:var(--cyan);border-color:var(--cyan-deep);background:var(--cyan-deep)}
   .tag.src{color:var(--ok);border-color:var(--ok-line);font-family:var(--mono);font-size:11px}
+  .tag.lang{color:#d8a3ff;border-color:#3d2a55}
   .tag.pool{color:var(--muted);border-style:dashed}
   .tag.role{color:var(--role, var(--muted));border-color:var(--role, var(--line-soft))}
   .tag.grade{color:var(--grade);border-color:var(--grade-line)}
@@ -689,6 +690,7 @@
       <div class="job-source" id="jobSource"></div>
       <div class="job-desc" id="jobDesc"></div>
       <div style="margin-top:16px"><a id="jobPage" href="#" target="_blank" rel="noopener"></a></div>
+      <div style="margin-top:8px"><a id="jobTranslate" href="#" target="_blank" rel="noopener" hidden></a></div>
     </div>
     <div class="sheet-foot">
       <button class="btn" id="jobFav">В избранное</button>
@@ -1291,6 +1293,7 @@
       remote:"Удалёнка", withSalary:"Есть зарплата", week:"За неделю", favs:"Избранное",
       hidden:"Скрытые", restore:"Вернуть в список", hide:"Скрыть вакансию", more2:"Ещё",
       pool:"резерв", dropWord:"Убрать", shownWord:"Показано",
+      langOn:"на", translateIt:"Открыть перевод вакансии, она на",
       officialHint:"Вакансия взята с карьерной страницы студии",
       sourceWord:"источник", checkedWord:"проверено",
       fbContact:"Контакт для ответа", fbContactHint:"Без контакта ответить не смогу.",
@@ -1367,6 +1370,7 @@
       remote:"Remote", withSalary:"Salary listed", week:"This week", favs:"Saved",
       hidden:"Hidden", restore:"Bring back", hide:"Hide this job", more2:"More",
       pool:"talent pool", dropWord:"Remove", shownWord:"Showing",
+      langOn:"in", translateIt:"Open a translation, this one is in",
       officialHint:"Taken from the studio career page",
       sourceWord:"source", checkedWord:"checked",
       fbContact:"Contact for a reply", fbContactHint:"Without a contact I cannot reply.",
@@ -1574,6 +1578,28 @@
     "QA":"#1f6fb5", "Аналитика":"#2c8a63", "Продакт":"#c05a1e",
     "Продюсирование":"#b85520", "Маркетинг":"#8b45c4", "Поддержка":"#3f6cb0"
   };
+  // Часть вакансий написана не по-английски. Сами мы их не переводим, но
+  // честно предупреждаем и даём кнопку, которая открывает перевод страницы
+  // студии в переводчике Google. Бесплатно и без ключей.
+  const LANG_NAMES = {
+    ja:"японском", ko:"корейском", zh:"китайском", th:"тайском", ar:"арабском",
+    fr:"французском", de:"немецком", pl:"польском", es:"испанском",
+    pt:"португальском", tr:"турецком", it:"итальянском", ru:"русском"
+  };
+  const LANG_EN = {
+    ja:"Japanese", ko:"Korean", zh:"Chinese", th:"Thai", ar:"Arabic",
+    fr:"French", de:"German", pl:"Polish", es:"Spanish",
+    pt:"Portuguese", tr:"Turkish", it:"Italian", ru:"Russian"
+  };
+  function langLabel(code){
+    return lang === "en" ? (LANG_EN[code] || code)
+                         : (LANG_NAMES[code] || code);
+  }
+  function translateUrl(url){
+    return "https://translate.google.com/translate?sl=auto&tl=" +
+           (lang === "en" ? "en" : "ru") + "&u=" + encodeURIComponent(url);
+  }
+
   function roleColor(v){
     const map = theme === "light" ? ROLE_COLOR_LIGHT : ROLE_COLOR;
     return map[v] || (theme === "light" ? "#7a739f" : "#5a5290");
@@ -2090,6 +2116,8 @@
     if (j.remote || j.rkind)
       tags.push('<span class="tag remote">'+esc(j.rkind ? rkindLabel(j.rkind) : t("remote"))+'</span>');
     if (j.pool) tags.push('<span class="tag pool">'+t("pool")+'</span>');
+    if (j.lang && j.lang !== "ru")
+      tags.push('<span class="tag lang">'+t("langOn")+' '+esc(langLabel(j.lang))+'</span>');
     if (j.grade) tags.push('<span class="tag grade">'+esc(j.grade)+'</span>');
     if (j.role) tags.push('<span class="tag role">'+esc(roleLabel(j.role))+'</span>');
     if (j.spec) tags.push('<span class="tag role">'+esc(specLabel(j.spec))+'</span>');
@@ -3123,6 +3151,15 @@
     $("jobApply").href = j.url;
     $("jobPage").href = "/job/" + encodeURIComponent(j.id) + "/";
     $("jobPage").textContent = t("jobPage");
+
+    const tr = $("jobTranslate");
+    if (j.lang && j.lang !== "ru" && j.url){
+      tr.hidden = false;
+      tr.href = translateUrl(j.url);
+      tr.textContent = t("translateIt") + " " + langLabel(j.lang) + " →";
+    } else {
+      tr.hidden = true;
+    }
     syncJobFav();
     $("jobOverlay").hidden = false;
     $("jobOverlay").querySelector(".sheet-body").scrollTop = 0;

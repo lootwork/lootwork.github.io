@@ -19,6 +19,7 @@ import os
 import json
 import re
 import shutil
+import urllib.parse
 import sys
 import time
 from datetime import date, datetime, timezone
@@ -216,6 +217,57 @@ def classify_spec(title: str, role: str):
 def classify_stack(title: str, desc: str):
     hay = (title or "") + " " + (desc or "")
     return [name for name, pattern in STACK_RULES if re.search(pattern, hay, re.I)][:6]
+
+
+# Часть студий публикует вакансии не на английском: канадские дублируют
+# на французском, японский офис пишет по-японски. Человек должен видеть это
+# заранее, а не открыв вакансию.
+LANG_NAMES = {"ja": "японском", "ko": "корейском", "zh": "китайском",
+              "th": "тайском", "ar": "арабском", "fr": "французском",
+              "de": "немецком", "pl": "польском", "es": "испанском",
+              "pt": "португальском", "tr": "турецком", "it": "итальянском",
+              "ru": "русском"}
+
+LANG_WORDS = {
+    "fr": r"\b(le|la|les|des|une|vous|nous|avec|pour|dans|qui|votre|sera)\b",
+    "de": r"\b(und|der|die|das|mit|für|von|ein|eine|sind|wir|deine)\b",
+    "pl": r"\b(oraz|jest|nie|się|dla|praca|nasze|który|będzie|twoje)\b",
+    "es": r"\b(que|para|con|los|las|una|del|por|nuestro)\b",
+    "pt": r"\b(que|para|com|uma|dos|nosso|você)\b",
+    "it": r"\b(che|per|con|una|del|nostro|sarà)\b",
+    "tr": r"\b(ve|bir|için|ile|olarak|deneyim|takım)\b",
+    "en": r"\b(the|and|you|will|with|for|our|are|team|experience)\b",
+}
+
+
+def detect_lang(text: str):
+    """Возвращает код языка описания или None, если это английский."""
+    if not text:
+        return None
+    head = text[:3000]
+    if re.search(r"[\u3040-\u30ff]", head):
+        return "ja"
+    if re.search(r"[\uac00-\ud7af]", head):
+        return "ko"
+    if re.search(r"[\u4e00-\u9fff]", head):
+        return "zh"
+    if re.search(r"[\u0e00-\u0e7f]", head):
+        return "th"
+    if re.search(r"[\u0600-\u06ff]", head):
+        return "ar"
+    if len(re.findall(r"[А-Яа-яЁё]", head)) > 120:
+        return "ru"
+
+    low = head.lower()
+    scores = {code: len(re.findall(pattern, low)) for code, pattern in LANG_WORDS.items()}
+    best = max(scores, key=scores.get)
+    if scores[best] < 3 or best == "en":
+        return None
+    # Английский встречается почти в каждом тексте: считаем язык другим,
+    # только если его признаков заметно больше.
+    if scores[best] < scores.get("en", 0) * 1.3:
+        return None
+    return best
 
 
 def classify_grade(title: str):
@@ -1049,6 +1101,9 @@ def collect(companies, verify_links: bool):
         j["role"] = role
         j["grade"] = classify_grade(j["title"])
         j["spec"] = classify_spec(j["title"], role)
+        lang = detect_lang(j.get("desc"))
+        if lang:
+            j["lang"] = lang
         j["stack"] = classify_stack(j["title"], j.get("desc"))
         jobs.append(j)
 
@@ -1981,6 +2036,18 @@ def job_ld(j):
 
 
 
+def translate_block(j) -> str:
+    """Сами мы описание не переводим, но одну кнопку дать можем:
+    она открывает страницу студии в переводчике Google."""
+    if not j.get("lang") or j["lang"] == "ru" or not j.get("url"):
+        return ""
+    where = LANG_NAMES.get(j["lang"], j["lang"])
+    link = ("https://translate.google.com/translate?sl=auto&tl=ru&u="
+            + urllib.parse.quote(j["url"], safe=""))
+    return (f'<p class="note"><a href="{esc(link)}" target="_blank" rel="nofollow noopener">'
+            f'Открыть перевод вакансии, она на {esc(where)} →</a></p>')
+
+
 def job_page(j, same_company):
     where = ", ".join(places_ru(j.get("locations"))) or "локация не указана"
     tags = []
@@ -1989,6 +2056,8 @@ def job_page(j, same_company):
                      + esc(RKIND_WORD.get(j.get("rkind"), "удалёнка").capitalize()) + "</span>"))
     if j.get("pool"):
         tags.append('<span class="tag">заявка в резерв</span>')
+    if j.get("lang") and j["lang"] != "ru":
+        tags.append('<span class="tag">на ' + esc(LANG_NAMES.get(j["lang"], j["lang"])) + "</span>")
     for v in [j.get("grade"), j.get("role"), j.get("spec")]:
         if v:
             tags.append(f'<span class="tag">{esc(v)}</span>')
@@ -2010,6 +2079,7 @@ def job_page(j, same_company):
 <div class="tags">{''.join(tags)}</div>
 <a class="apply" href="{esc(j['url'])}" target="_blank" rel="nofollow noopener">Откликнуться на сайте студии</a>
 <div class="desc">{desc_html(j.get('desc'))}</div>
+{translate_block(j)}
 <div class="note">Отклик принимает студия на своём сайте. LOOTWORK только показывает вакансию.</div>
 {near}
 """
