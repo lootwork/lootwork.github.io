@@ -5,7 +5,7 @@
    из настройки его системы. Иначе страница вакансии светит тёмным в глаза. */
 :root[data-theme="light"]{--void:#f6f5fb;--panel:#ffffff;--panel-2:#f1eff9;
 --line:#d9d5ec;--line-soft:#e7e4f3;--text:#191634;--muted:#6a6392;
---amber:#b06c00;--cyan:#0a7c9e;--apply-text:#fff}
+--amber:#e08a10;--cyan:#0a7c9e;--apply-text:#2a1a00}
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--void);color:var(--text);line-height:1.6;
 font-family:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:15px}
