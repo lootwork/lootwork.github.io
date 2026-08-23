@@ -3115,6 +3115,23 @@
 
   // ---------------------------------------------------------------- окно вакансии
 
+  // Один перевод — один маленький файл. Скачали, запомнили, второй раз не просим.
+  function loadTranslation(j){
+    if (j._trLoading) return;
+    j._trLoading = true;
+    fetch("/tr/" + encodeURIComponent(j.id) + ".json")
+      .then(r => r.ok ? r.json() : null)
+      .then(data => {
+        if (!data || !data.ru) return;
+        j.descRu = data.ru;
+        if (openJob && openJob.id === j.id && lang === "ru"){
+          $("jobDesc").innerHTML = '<div class="tr-note">'+t("manualTr")+'</div>' + descHtml(j.descRu);
+          $("jobTranslate").hidden = true;
+        }
+      })
+      .catch(() => { j._trLoading = false; });
+  }
+
   let openJob = null;
 
   function showJob(j){

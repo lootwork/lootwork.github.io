@@ -1060,10 +1060,27 @@ def apply_translations(jobs):
     for j in jobs:
         text = tr.get(j.get("url") or "") or tr.get(j.get("id") or "")
         if text:
-            j["descRu"] = cut_desc(text)
+            j["_ru"] = cut_desc(text)     # временно, для отдельных страниц
+            j["hasRu"] = True             # это уедет в данные сайта
             hits += 1
     print(f"Переводов подставлено: {hits} из {len(tr)} в файле")
     return hits
+
+
+def write_translation_files(jobs):
+    """Каждый перевод — отдельным маленьким файлом. Витрина просит его,
+    только когда человек открыл вакансию, а не при заходе на сайт."""
+    d = HERE / "tr"
+    shutil.rmtree(d, ignore_errors=True)   # старые переводы закрытых вакансий не нужны
+    d.mkdir(parents=True, exist_ok=True)
+    n = 0
+    for j in jobs:
+        if not j.get("_ru"):
+            continue
+        (d / f"{j['id']}.json").write_text(
+            json.dumps({"ru": j["_ru"]}, ensure_ascii=False), encoding="utf-8")
+        n += 1
+    print(f"Файлов с переводами: {n}")
 
 
 def read_previous():
@@ -1168,7 +1185,10 @@ def collect(companies, verify_links: bool):
 
 def write_js(jobs):
     today = datetime.now(timezone.utc).date().isoformat()
-    body = json.dumps(jobs, ensure_ascii=False, indent=2)
+    write_translation_files(jobs)
+    # Переводы уехали в отдельные файлы, в общих данных их держать не нужно.
+    light = [{k: v for k, v in j.items() if k != "_ru"} for j in jobs]
+    body = json.dumps(light, ensure_ascii=False, indent=2)
     studios = len({j.get("company") for j in jobs if j.get("company")})
     OUT_JS.write_text(
         "// jobs.js — сгенерировано collect.py, руками не править.\n"
@@ -1653,7 +1673,8 @@ def write_sitemap(today: str, urls=None):
 # страницы: на каждую вакансию, студию, роль и на удалёнку.
 
 SITE = "https://lootwork.github.io"
-PAGE_DIRS = ["job", "company", "role", "spec", "jobs", "remote", "privacy", "about", "where", "terms"]
+PAGE_DIRS = ["job", "company", "role", "spec", "jobs", "remote", "privacy", "about",
+             "where", "terms"]
 
 TRANSLIT = {
     "а":"a","б":"b","в":"v","г":"g","д":"d","е":"e","ё":"e","ж":"zh","з":"z","и":"i",
@@ -2078,7 +2099,7 @@ def job_ld(j):
 
 
 def translated_note(j) -> str:
-    if not j.get("descRu"):
+    if not j.get("_ru"):
         return ""
     return ('<p class="note">Описание переведено вручную. '
             f'<a href="{esc(j.get("url") or SITE)}" target="_blank" rel="nofollow noopener">'
@@ -2127,7 +2148,7 @@ def job_page(j, same_company):
 <div class="sub">{esc(j['company'])} · {esc(where)}{(' · опубликовано ' + esc(human_date(j['posted']))) if j.get('posted') else ''}</div>
 <div class="tags">{''.join(tags)}</div>
 <a class="apply" href="{esc(j['url'])}" target="_blank" rel="nofollow noopener">Откликнуться на сайте студии</a>
-<div class="desc">{desc_html(j.get('descRu') or j.get('desc'))}</div>
+<div class="desc">{desc_html(j.get('_ru') or j.get('desc'))}</div>
 {translated_note(j)}
 {translate_block(j)}
 <div class="note">Отклик принимает студия на своём сайте. LOOTWORK только показывает вакансию.</div>
