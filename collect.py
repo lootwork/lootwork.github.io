@@ -1047,7 +1047,15 @@ def read_translations():
         return {}
     if not isinstance(data, dict):
         return {}
-    return {str(k).strip(): v for k, v in data.items() if isinstance(v, str) and v.strip()}
+    out = {}
+    for k, v in data.items():
+        if not isinstance(v, str) or not v.strip():
+            continue
+        lines = []
+        for line in v.split("\n"):
+            lines.append(re.sub(r"^\s*[-–—*]\s+", "• ", line))
+        out[str(k).strip()] = "\n".join(lines)
+    return out
 
 
 def apply_translations(jobs):
@@ -1537,32 +1545,155 @@ def tg_escape(text) -> str:
             .replace("<", "&lt;").replace(">", "&gt;"))
 
 
-def tg_message(j) -> str:
-    where = ", ".join(j.get("locations") or [])
-    if not where:
-        where = RKIND_WORD.get(j.get("rkind"), "удалёнка") if j.get("remote") else ""
+def tg_sections(text):
+    """Разбираем описание на разделы: заголовок и его пункты.
+    Нужно, чтобы вытащить в пост именно обязанности, а не «о компании»."""
+    lines = [l.strip() for l in str(text or "").split("\n")]
+    sections, current = [], {"head": "", "body": [], "bullets": []}
+    for i, line in enumerate(lines):
+        if not line:
+            continue
+        if line.startswith("•"):
+            current["bullets"].append(line.lstrip("• ").strip())
+            continue
+        nxt = next((l for l in lines[i + 1:] if l), "")
+        if looks_like_heading(line, nxt):
+            if current["head"] or current["body"] or current["bullets"]:
+                sections.append(current)
+            current = {"head": line.rstrip(":"), "body": [], "bullets": []}
+        else:
+            current["body"].append(line)
+    sections.append(current)
+    return sections
 
-    lines = [f"<b>{tg_escape(j['title'])}</b>", tg_escape(j.get("company") or "")]
-    if where:
-        lines.append(tg_escape(where))
 
-    marks = []
-    if j.get("salary"):
-        marks.append(tg_escape(j["salary"]))
+DUTY_HEADS = re.compile(r"обязанност|предстоит делать|что делать|задачи|роли|вы будете", re.I)
+SKIP_HEADS = re.compile(r"о нас|кто мы|о компании|о студии|равн\w+ возможност|"
+                        r"права|конфиденциальн|about", re.I)
+
+
+def tg_summary(j):
+    """Короткая выжимка: одно предложение о сути и до четырёх пунктов дела.
+    Человек в ленте должен понять, о чём вакансия, не открывая ссылку."""
+    text = j.get("_ru") or j.get("desc") or ""
+    if not text:
+        return "", []
+
+    sections = tg_sections(text)
+
+    # Первый осмысленный абзац, но не «о компании»
+    intro = ""
+    for sec in sections:
+        if SKIP_HEADS.search(sec["head"] or ""):
+            continue
+        for para in sec["body"]:
+            if len(para) > 60 and not para.startswith("http"):
+                intro = para
+                break
+        if intro:
+            break
+    if len(intro) > 300:
+        cut = intro.rfind(" ", 0, 300)
+        intro = intro[:cut if cut > 150 else 300].rstrip(" ,;:") + "…"
+
+    # Пункты: сначала ищем обязанности, если их нет — берём любые
+    duties = []
+    for sec in sections:
+        if DUTY_HEADS.search(sec["head"] or "") and sec["bullets"]:
+            duties = sec["bullets"]
+            break
+    if not duties:
+        for sec in sections:
+            if sec["bullets"] and not SKIP_HEADS.search(sec["head"] or ""):
+                duties = sec["bullets"]
+                break
+
+    short = []
+    for d in duties[:4]:
+        d = d.rstrip(" .;")
+        if len(d) > 160:
+            cut = d.rfind(" ", 0, 160)
+            d = d[:cut if cut > 80 else 160].rstrip(" ,;:") + "…"
+        short.append(d)
+    return intro, short
+
+
+# Ищут и по-русски, и по-английски: «#арт» и «#art» — это разные хештеги,
+# и человек, привыкший к английским названиям профессий, ставит вторые.
+ROLE_TAG_EN = {
+    "Программирование": "programming", "Геймдизайн": "gamedesign", "Арт": "art",
+    "Анимация": "animation", "VFX": "vfx", "Продюсирование": "production",
+    "QA": "qa", "Аналитика": "analytics", "Маркетинг": "marketing",
+    "Звук": "audio", "Нарратив": "narrative", "Поддержка": "support",
+    "Технический художник": "technicalart", "Продакт": "product",
+}
+SPEC_TAG_EN = {
+    "Движок": "engine", "Геймплей": "gameplay", "Бэкенд": "backend",
+    "Фронтенд": "frontend", "Мобильная": "mobile", "Инструменты": "tools",
+    "Данные и ML": "data", "DevOps": "devops", "Unity": "unity",
+    "Unreal": "unreal", "C++": "cpp",
+}
+
+
+def tg_tags(j):
+    """Хештеги: по ним ищут внутри Telegram, а мы заодно попадаем в поиск."""
+    tags = []
+    role = (j.get("role") or "").lower().replace(" ", "")
+    if role:
+        tags.append("#" + role)
+    role_en = ROLE_TAG_EN.get(j.get("role") or "")
+    if role_en:
+        tags.append("#" + role_en)
+    spec_en = SPEC_TAG_EN.get(j.get("spec") or "")
+    if spec_en:
+        tags.append("#" + spec_en)
     if j.get("rkind") or j.get("remote"):
-        marks.append(RKIND_WORD.get(j.get("rkind"), "удалёнка"))
-    for tag in [j.get("grade"), j.get("spec")]:
-        if tag:
-            marks.append(tg_escape(tag))
+        tags.append("#удалёнка")
+        tags.append("#remote")
+    grade = (j.get("grade") or "").lower()
+    if grade:
+        tags.append("#" + grade)
     for tech in (j.get("stack") or [])[:3]:
-        marks.append(tg_escape(tech))
-    if marks:
-        lines.append("")
-        lines.append(" · ".join(marks))
+        clean = re.sub(r"[^a-zA-Zа-яА-Я0-9]", "", tech).lower()
+        if clean:
+            tags.append("#" + clean)
+    return " ".join(dict.fromkeys(tags))
 
-    lines.append("")
-    lines.append(f'<a href="{SITE}/job/{j["id"]}/">Подробнее</a> · '
-                 f'<a href="{tg_escape(j.get("url") or SITE)}">Откликнуться на сайте студии</a>')
+
+def tg_message(j) -> str:
+    where = ", ".join(places_ru(j.get("locations")))
+    fmt = RKIND_WORD.get(j.get("rkind"), "удалёнка") if (j.get("rkind") or j.get("remote")) else ""
+
+    lines = [f"<b>{tg_escape(j['title'])}</b>", ""]
+
+    facts = [f"<b>Студия:</b> {tg_escape(j.get('company') or '')}"]
+    if where:
+        facts.append(f"<b>Где:</b> {tg_escape(where)}")
+    if fmt:
+        facts.append(f"<b>Формат:</b> {tg_escape(fmt)}")
+    facts.append(f"<b>Зарплата:</b> {tg_escape(j['salary'])}" if j.get("salary")
+                 else "<b>Зарплата:</b> не указана")
+    if j.get("grade"):
+        facts.append(f"<b>Уровень:</b> {tg_escape(j['grade'])}")
+    direction = " · ".join(x for x in [j.get("role"), j.get("spec")] if x)
+    if direction:
+        facts.append(f"<b>Направление:</b> {tg_escape(direction)}")
+    if j.get("stack"):
+        facts.append(f"<b>Стек:</b> {tg_escape(', '.join(j['stack'][:5]))}")
+    lines += facts
+
+    intro, duties = tg_summary(j)
+    if intro:
+        lines += ["", tg_escape(intro)]
+    if duties:
+        lines += ["", "<b>Что предстоит делать:</b>"]
+        lines += ["— " + tg_escape(d) for d in duties]
+
+    lines += ["", f'<a href="{SITE}/job/{j["id"]}/">Описание целиком</a> · '
+                  f'<a href="{tg_escape(j.get("url") or SITE)}">Откликнуться у студии</a>']
+    tags = tg_tags(j)
+    if tags:
+        lines += ["", tags]
     return "\n".join(lines)
 
 

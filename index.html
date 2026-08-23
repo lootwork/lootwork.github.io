@@ -2121,9 +2121,9 @@
     if (j.remote || j.rkind)
       tags.push('<span class="tag remote">'+esc(j.rkind ? rkindLabel(j.rkind) : t("remote"))+'</span>');
     if (j.pool) tags.push('<span class="tag pool">'+t("pool")+'</span>');
-    if (j.lang && j.lang !== "ru" && !j.descRu)
+    if (j.lang && j.lang !== "ru" && !(j.descRu || j.hasRu))
       tags.push('<span class="tag lang">'+t("langOn")+' '+esc(langLabel(j.lang))+'</span>');
-    if (j.descRu) tags.push('<span class="tag tr">'+t("translated")+'</span>');
+    if (j.descRu || j.hasRu) tags.push('<span class="tag tr">'+t("translated")+'</span>');
     if (j.grade) tags.push('<span class="tag grade">'+esc(j.grade)+'</span>');
     if (j.role) tags.push('<span class="tag role">'+esc(roleLabel(j.role))+'</span>');
     if (j.spec) tags.push('<span class="tag role">'+esc(specLabel(j.spec))+'</span>');
@@ -3123,7 +3123,8 @@
       .then(r => r.ok ? r.json() : null)
       .then(data => {
         if (!data || !data.ru) return;
-        j.descRu = data.ru;
+        // часть переводов размечена дефисами — приводим к нашему маркеру
+        j.descRu = data.ru.replace(/^[ \t]*[-–—*][ \t]+/gm, "• ");
         if (openJob && openJob.id === j.id && lang === "ru"){
           $("jobDesc").innerHTML = '<div class="tr-note">'+t("manualTr")+'</div>' + descHtml(j.descRu);
           $("jobTranslate").hidden = true;
@@ -3165,6 +3166,10 @@
     const d = $("jobDesc");
     // Переведённый текст показываем только в русской версии: в английской
     // человеку нужен оригинал.
+    // Перевод лежит отдельным файлом и грузится, только когда вакансию открыли:
+    // держать тысячу переводов в общих данных — это лишние пять мегабайт
+    // каждому, кто просто зашёл посмотреть список.
+    if (lang === "ru" && j.hasRu && !j.descRu) loadTranslation(j);
     const useRu = lang === "ru" && j.descRu;
     const body = useRu ? j.descRu : j.desc;
     if (body){
@@ -3180,7 +3185,7 @@
     $("jobPage").textContent = t("jobPage");
 
     const tr = $("jobTranslate");
-    if (j.lang && j.lang !== "ru" && j.url && !(lang === "ru" && j.descRu)){
+    if (j.lang && j.lang !== "ru" && j.url && !(lang === "ru" && (j.descRu || j.hasRu))){
       tr.hidden = false;
       tr.href = translateUrl(j.url);
       tr.textContent = t("translateIt") + " " + langLabel(j.lang) + " →";
