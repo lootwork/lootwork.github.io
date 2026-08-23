@@ -1,5 +1,5 @@
 // jobs.js — сгенерировано collect.py, руками не править.
-// Обновлено: 2026-08-23. Вакансий: 1080.
+// Обновлено: 2026-08-23. Вакансий: 1079.
 
 window.JOBS_DEMO = false;
 window.JOBS_UPDATED = "2026-08-23";
@@ -29,6 +29,26 @@ window.JOBS = [
       "TypeScript"
     ],
     "hasRu": true
+  },
+  {
+    "id": "ab-moon-active-20e2b32e-24ff-4c45-b442-f60de4574926",
+    "title": "Product Manager",
+    "company": "Moon Active",
+    "locations": [
+      "Tel Aviv"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-23",
+    "url": "https://jobs.ashbyhq.com/moonactive/20e2b32e-24ff-4c45-b442-f60de4574926",
+    "desc": "Moon Active is one of the worlds fastest-growing mobile game companies, providing entertainment to millions of active users across the universe. The company is headquartered in the heart of Tel Aviv.\n\nWere looking for an experienced and extremely motivated Product Manager to join our growing Product team. Are you charismatic, super assertive and have no problem taking ownership? Then this could be the perfect fit for you!\n\nAs a Product Manager, you'll get the chance to make a direct impact on millions of players from around the world, help scale our product strategy and the success of our games features. You'll also have a great impact on the company's business performance.\n\nResponsibilities\n\n- Lead the success and growth of the product by developing a product vision, strategy, roadmap and lifecycle management framework and seek opportunities for key initiatives to improve the customer experience\n\n- Gather and analyze requirements, write clear and detailed PRDs, UI/UX flows, wireframes, define A/B tests and user stories, prioritize backlogs and handle development/engineering\n\n- Own the success of the feature once its released to production by running tests and optimising performance and business results\n\n- Collaborate with relevant cross-functional teams (R&D, Design, BI/BA, etc) to guarantee a smooth, and efficient implementation.\n\nRequirements\n\n- At least 2 years of experience as a Product Manager.\n\n- Adapts well to a dynamic and rapidly changing work environment.\n\n- Strong organizational and analytical skills with a high attention to detail.\n\n- Exceptional communication skills and can clearly convey messages in English (written and oral).\n\n- Excellent collaboration skills and can work effectively with and influence other teammates.\n\n- Problem solver and a creative thinker that can provide insightful and innovative solutions to any problem.\n\n- Team player, a people person and truly enjoys working with multiple teams.\n\n- Strong passion for mobile games - Advantage",
+    "source": "ashby",
+    "site": "moonactive.com",
+    "role": "Продакт",
+    "grade": null,
+    "spec": null,
+    "stack": []
   },
   {
     "id": "gh-wargaming-8138994",
@@ -171,7 +191,7 @@ window.JOBS = [
       "London, United Kingdom"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-21",
     "url": "https://job-boards.greenhouse.io/gramgamescareers/jobs/6146099004",
@@ -181,6 +201,7 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": "Lead",
     "spec": null,
+    "permit": true,
     "stack": [],
     "hasRu": true
   },
@@ -270,7 +291,7 @@ window.JOBS = [
       "Novato, United States"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-21",
     "url": "https://job-boards.greenhouse.io/2k/jobs/7742031003",
@@ -486,7 +507,7 @@ window.JOBS = [
       "Burnaby, Canada"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-21",
     "url": "https://job-boards.greenhouse.io/2k/jobs/5978842003",
@@ -500,18 +521,18 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-2k-games-7655940003",
+    "id": "gh-2k-games-7655939003",
     "title": "Gameplay Engineer",
     "company": "2K Games",
     "locations": [
-      "Novato, United States"
+      "Montréal, Canada"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/2k/jobs/7655940003",
-    "desc": "As a Gameplay Engineer at Cloud Chamber you will bridge the gap between technical execution and creative vision, ensuring that our player-centric gameplay feels as impactful as it looks. You will work in close collaboration with a talented development team, report to our Associate Technical Director, and be responsible for helping the team craft compelling and immersive gameplay systems that support our creative ambitions, ultimately bringing the world of BioShock to life.\n\nWhat You’ll Do:\n\n• Work closely and constructively with design and art teams to realize creative ambitions.\n• Architect and coordinate the implementation of new Gameplay systems and features for player verbs, camera, weapon, etc.\n• Work within Unreal 5 engine, both adapting existing systems and building new technology, in order to fulfill the project’s technical needs and achieve its creative goals.\n• Keep current on technological developments and advancements in the game industry.\n• Identify technical and developmental risks/obstacles and generate solutions to overcome identified risks.\n• Partner closely with design, engineering, animation, and audio to further the goals of the project.\n\nWhat We’ll Do Together:\n\nAt Cloud Chamber, we are champions of high standards, pushing for progress and embracing change. We will work closely and constructively across design, art, engineering, animation, and audio teams to realize our creative ambitions. Together, we will stay current on technological advancements and identify solutions to overcome developmental obstacles.\n\nSkills & Experiences:\n\n• 3+ years industry or related experience.\n• Previous experience being a contributor to a gameplay engineering team.\n• Strong 3D Math skills with C/C++ experience.\n• Experience with the C/C++ programming language along with a strong familiarity of Object-Oriented (OO) design principles.\n• Commitment to code quality, documentation and sound testing procedures.\n• Debugging/Problem-Solving Skills.\n• Understanding of current data structures, algorithms and methodologies.\n• Experience working with player-centric systems, such as character, camera, and control (3Cs).\n• Current console experience.\n• Strong understanding and familiarity with current Unreal Engine technology is desired.\n\nWho You Are:\n\n• A reliable, positive force multiplier, actively seeking opportunities to integrate work across disciplines and contribute to a healthy, supportive team environment.\n• A solid communicator with excellent written and verbal communication skills, with the ability to articulate complex ideas clearly, package information for diverse audiences, and deliver difficult feedback with empathy and professionalism.\n• A persistent and self-motivated person with a proactive mindset.\n• Able to maintain effectiveness and quality under pressure, ambiguity, and fast-changing priorities.\n• An active listener able to build and maintain trust-based relationships across all levels of the organization, understand differing perspectives, and navigate organizational complexity with tact and emotional intelligence.\n• Highly open to feedback and direction, possessing a desire to learn new skills, and capable of producing quick, quality revisions based on new insights or constraints.\n• A strong owner of your tasks, who strives to drive their work forward autonomously while maintaining a critical eye for detail and organization, ensuring high standards of quality.\n• Dedicated to upholding Cloud Chamber’s core values, contributing to a positive and respectful company culture while striving for excellence in all endeavors.\n\nWho We Are:\n\nAt Cloud Chamber we strive to make BioShock games that move people: evocative, immersive, and meaningful experiences that stay with you long after you’ve rolled credits. Great games are born from great collaborations, supported by a culture that brings out the best in our teams. We work openly, learn through play, take ownership, push ourselves to be better, and deliver for our players.\n\nThe pay range for this position in California at the start of employment is expected to be between $85,700 and $126,860 per Year. However, base pay offered is based on market location, and may vary further depending on individualized factors for job candidates, such as job-related knowledge, skills, experience, and other objective business considerations. Subject to those same considerations, the total compensation package for this position may also include other elements, including a bonus and/or equity awards and eligibility to participate in our 401(K) plan and Employee Stock Purchase Program. Regular, full-time employees are also eligible for a range of benefits at the Company, including: medical, dental, vision, and basic life insurance coverage; 14 paid holidays per calendar year; paid vacation time per calendar year (ranging from 15 to 25 days) or eligibility to participate in the Company's discretionary time off program; up to 10 paid sick days per calendar year; paid parental and compassionate leave; wellbeing programs for mental health and other wellness support; family planning support through Maven; commuter benefits; and reimbursements for fitness-related expenses.\n\nFor candidates located in Quebec:\nThis position requires professional proficiency in both French and English. Proficiency in English is required to collaborate with our U.S. teams and international partners, as well as to handle specialized technical documentation (reading, writing, and communication).\n\nAs an equal opportunity employer, we are committed to ensuring that qualified individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, perform their essential job functions, and receive other benefits and privileges of employment. Please contact us if you need reasonable accommodation.…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
+    "url": "https://job-boards.greenhouse.io/2k/jobs/7655939003",
+    "desc": "As a Gameplay Engineer at Cloud Chamber you will bridge the gap between technical execution and creative vision, ensuring that our player-centric gameplay feels as impactful as it looks. You will work in close collaboration with a talented development team, report to our Associate Technical Director, and be responsible for helping the team craft compelling and immersive gameplay systems that support our creative ambitions, ultimately bringing the world of BioShock to life.\n\nWhat You’ll Do:\n\n• Work closely and constructively with design and art teams to realize creative ambitions.\n• Architect and coordinate the implementation of new Gameplay systems and features for player verbs, camera, weapon, etc.\n• Work within Unreal 5 engine, both adapting existing systems and building new technology, in order to fulfill the project’s technical needs and achieve its creative goals.\n• Keep current on technological developments and advancements in the game industry.\n• Identify technical and developmental risks/obstacles and generate solutions to overcome identified risks.\n• Partner closely with design, engineering, animation, and audio to further the goals of the project.\n\nWhat We’ll Do Together:\n\nAt Cloud Chamber, we are champions of high standards, pushing for progress and embracing change. We will work closely and constructively across design, art, engineering, animation, and audio teams to realize our creative ambitions. Together, we will stay current on technological advancements and identify solutions to overcome developmental obstacles.\n\nSkills & Experiences:\n\n• 3+ years industry or related experience.\n• Previous experience being a contributor to a gameplay engineering team.\n• Strong 3D Math skills with C/C++ experience.\n• Experience with the C/C++ programming language along with a strong familiarity of Object-Oriented (OO) design principles.\n• Commitment to code quality, documentation and sound testing procedures.\n• Debugging/Problem-Solving Skills.\n• Understanding of current data structures, algorithms and methodologies.\n• Experience working with player-centric systems, such as character, camera, and control (3Cs).\n• Current console experience.\n• Strong understanding and familiarity with current Unreal Engine technology is desired.\n\nWho You Are:\n\n• A reliable, positive force multiplier, actively seeking opportunities to integrate work across disciplines and contribute to a healthy, supportive team environment.\n• A solid communicator with excellent written and verbal communication skills, with the ability to articulate complex ideas clearly, package information for diverse audiences, and deliver difficult feedback with empathy and professionalism.\n• A persistent and self-motivated person with a proactive mindset.\n• Able to maintain effectiveness and quality under pressure, ambiguity, and fast-changing priorities.\n• An active listener able to build and maintain trust-based relationships across all levels of the organization, understand differing perspectives, and navigate organizational complexity with tact and emotional intelligence.\n• Highly open to feedback and direction, possessing a desire to learn new skills, and capable of producing quick, quality revisions based on new insights or constraints.\n• A strong owner of your tasks, who strives to drive their work forward autonomously while maintaining a critical eye for detail and organization, ensuring high standards of quality.\n• Dedicated to upholding Cloud Chamber’s core values, contributing to a positive and respectful company culture while striving for excellence in all endeavors.\n\nWho We Are:\n\nAt Cloud Chamber we strive to make BioShock games that move people: evocative, immersive, and meaningful experiences that stay with you long after you’ve rolled credits. Great games are born from great collaborations, supported by a culture that brings out the best in our teams. We work openly, learn through play, take ownership, push ourselves to be better, and deliver for our players.\n\nFor candidates located in Quebec:\nThis position requires professional proficiency in both French and English. Proficiency in English is required to collaborate with our U.S. teams and international partners, as well as to handle specialized technical documentation (reading, writing, and communication).\n\nAs an equal opportunity employer, we are committed to ensuring that qualified individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, perform their essential job functions, and receive other benefits and privileges of employment. Please contact us if you need reasonable accommodation.\n\nPlease note that 2K Games and its studios never use instant messaging apps or personal email accounts to contact prospective employees or conduct interviews. When emailing prospective employees, we only use 2K.com accounts.",
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Программирование",
@@ -520,8 +541,7 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ],
-    "hasRu": true
+    ]
   },
   {
     "id": "gh-2k-games-7749619003",
@@ -531,7 +551,7 @@ window.JOBS = [
       "Burnaby, Canada"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-21",
     "url": "https://job-boards.greenhouse.io/2k/jobs/7749619003",
@@ -571,18 +591,18 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-2k-games-7888167003",
+    "id": "gh-2k-games-7888166003",
     "title": "Lead Animator",
     "company": "2K Games",
     "locations": [
-      "Novato, United States"
+      "Montréal, Canada"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/2k/jobs/7888167003",
-    "desc": "As a Lead Gameplay Animator at Cloud Chamber, you will join our talented development team to help shape the character performance and movement systems of our project. In this role, you’ll collaborate with a passionate group of game developers to craft high-end player characters and AI animations that support responsive, immersive gameplay—bringing the richly imagined world of BioShock to life.\n\nWhat You’ll Do:\n\n• Manage, support, and mentor a team of animators in developing high-end gameplay and AI animations, conducting regular 1:1s, annual evaluations, and setting clear, actionable goals.\n• Partner with the Animation Director and leadership to establish the animation vision, evangelize studio values, and shape a positive and inclusive team culture.\n• Develop and refine animation pipelines, workflows, and tools, setting up onboarding, Unreal Engine 5 training, and motion capture planning.\n• Deliver exceptional hand-key animations and edit motion capture data for first-person and third-person characters, taking on animation tasks as time permits.\n• Collaborate with Production on milestone roadmaps, sprint planning, and task delegation while addressing blocking issues and participating in hiring efforts.\n• Take an active role in the animation leadership circle by sharing your voice and best practices to help guide the team's culture, as well as updating the group on new or outstanding issues\n\nWhat We’ll Do Together:\n\nAt Cloud Chamber, we are champions of high standards, pushing for progress and embracing change. We will work closely and constructively across design, art, engineering, animation, and audio teams to realize our creative ambitions. Together, we will stay current on technological advancements and identify solutions to overcome developmental obstacles to deliver a world-class AAA experience.\n\nSkills & Experiences:\n\n• Shipped multiple AAA titles as a Lead, Team Lead, or Senior Animator ideally utilizing Unreal Engine.\n• Deep knowledge of gameplay and AI animation systems, animation graph/data integration, motion capture pipelines, and rigging/prototyping processes.\n• Strong practical skill in hand-key facial animation (such as FaceFX) alongside high proficiency in animating human bipeds, organic forms, quadrupeds, and mechanical objects.\n• Exceptional understanding of traditional animation principles, human anatomy, caricature, form, gesture, and silhouette as applied to real-time interactive gameplay.\n\nWho You Are:\n\n• A reliable, positive force multiplier, actively seeking opportunities to integrate work across disciplines and contribute to a healthy, supportive team environment.\n• A solid communicator with excellent written and verbal communication skills, with the ability to articulate complex ideas clearly, package information for diverse audiences, and deliver difficult feedback with empathy and professionalism.\n• Experienced in working in cross-disciplinary teams with strong communication skills.\n• Persistent and self-motivated with a proactive mindset.\n• Able to maintain effectiveness and quality under pressure, ambiguity, and fast-changing priorities.\n• An active listener able to build and maintain trust-based relationships across all levels of the organization, understand differing perspectives, and navigate organizational complexity with tact and emotional intelligence.\n• Highly open to feedback and direction, possessing a desire to learn new skills, and capable of producing quick, quality revisions based on new insights or constraints.\n• A strong ownership of tasks, striving to drive work forward autonomously while maintaining a critical eye for detail and organization, ensuring high standards of quality.\n• Dedicated to upholding Cloud Chamber's core values, contributing to a positive and respectful company culture while striving for excellence in all endeavors.\n\nWho We Are:\n\nAt Cloud Chamber we strive to make BioShock games that move people: evocative, immersive, and meaningful experiences that stay with you long after you’ve rolled credits. Great games are born from great collaborations, supported by a culture that brings out the best in our teams. We work openly, learn through play, take ownership, push ourselves to be better, and deliver for our players.\n\nThe pay range for this position in California at the start of employment is expected to be between $123,200 - $182,360 USD per Year. However, base pay offered is based on market location, and may vary further depending on individualized factors for job candidates, such as job-related knowledge, skills, experience, and other objective business considerations. Subject to those same considerations, the total compensation package for this position may also include other elements, including a bonus and/or equity awards and eligibility to participate in our 401(K) plan and Employee Stock Purchase Program. Regular, full-time employees are also eligible for a range of benefits at the Company, including: medical, dental, vision, and basic life insurance coverage; 14 paid holidays per calendar year; paid vacation time per calendar year (ranging from 15 to 25 days) or eligibility to participate in the Company's discretionary time off program; up to 10 paid sick days per calendar year; paid parental and compassionate leave; wellbeing programs for mental health and other wellness support; family planning support through Maven; commuter benefits; and reimbursements for fitness-related expenses.\n\nFor candidates located in Quebec:\nThis position requires professional proficiency in both French and English. Proficiency in English is required to collaborate with our U.S. teams and international partners, as well as to handle specialized technical documentation (reading, writing, and communication).…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
+    "url": "https://job-boards.greenhouse.io/2k/jobs/7888166003",
+    "desc": "As a Lead Gameplay Animator at Cloud Chamber, you will join our talented development team to help shape the character performance and movement systems of our project. In this role, you’ll collaborate with a passionate group of game developers to craft high-end player characters and AI animations that support responsive, immersive gameplay—bringing the richly imagined world of BioShock to life.\n\nWhat You’ll Do:\n\n• Manage, support, and mentor a team of animators in developing high-end gameplay and AI animations, conducting regular 1:1s, annual evaluations, and setting clear, actionable goals.\n• Partner with the Animation Director and leadership to establish the animation vision, evangelize studio values, and shape a positive and inclusive team culture.\n• Develop and refine animation pipelines, workflows, and tools, setting up onboarding, Unreal Engine 5 training, and motion capture planning.\n• Deliver exceptional hand-key animations and edit motion capture data for first-person and third-person characters, taking on animation tasks as time permits.\n• Collaborate with Production on milestone roadmaps, sprint planning, and task delegation while addressing blocking issues and participating in hiring efforts.\n• Take an active role in the animation leadership circle by sharing your voice and best practices to help guide the team's culture, as well as updating the group on new or outstanding issues\n\nWhat We’ll Do Together:\n\nAt Cloud Chamber, we are champions of high standards, pushing for progress and embracing change. We will work closely and constructively across design, art, engineering, animation, and audio teams to realize our creative ambitions. Together, we will stay current on technological advancements and identify solutions to overcome developmental obstacles to deliver a world-class AAA experience.\n\nSkills & Experiences:\n\n• Shipped multiple AAA titles as a Lead, Team Lead, or Senior Animator ideally utilizing Unreal Engine.\n• Deep knowledge of gameplay and AI animation systems, animation graph/data integration, motion capture pipelines, and rigging/prototyping processes.\n• Strong practical skill in hand-key facial animation (such as FaceFX) alongside high proficiency in animating human bipeds, organic forms, quadrupeds, and mechanical objects.\n• Exceptional understanding of traditional animation principles, human anatomy, caricature, form, gesture, and silhouette as applied to real-time interactive gameplay.\n\nWho You Are:\n\n• A reliable, positive force multiplier, actively seeking opportunities to integrate work across disciplines and contribute to a healthy, supportive team environment.\n• A solid communicator with excellent written and verbal communication skills, with the ability to articulate complex ideas clearly, package information for diverse audiences, and deliver difficult feedback with empathy and professionalism.\n• Experienced in working in cross-disciplinary teams with strong communication skills.\n• Persistent and self-motivated with a proactive mindset.\n• Able to maintain effectiveness and quality under pressure, ambiguity, and fast-changing priorities.\n• An active listener able to build and maintain trust-based relationships across all levels of the organization, understand differing perspectives, and navigate organizational complexity with tact and emotional intelligence.\n• Highly open to feedback and direction, possessing a desire to learn new skills, and capable of producing quick, quality revisions based on new insights or constraints.\n• A strong ownership of tasks, striving to drive work forward autonomously while maintaining a critical eye for detail and organization, ensuring high standards of quality.\n• Dedicated to upholding Cloud Chamber's core values, contributing to a positive and respectful company culture while striving for excellence in all endeavors.\n\nWho We Are:\n\nAt Cloud Chamber we strive to make BioShock games that move people: evocative, immersive, and meaningful experiences that stay with you long after you’ve rolled credits. Great games are born from great collaborations, supported by a culture that brings out the best in our teams. We work openly, learn through play, take ownership, push ourselves to be better, and deliver for our players.\n\nFor candidates located in Quebec:\nThis position requires professional proficiency in both French and English. Proficiency in English is required to collaborate with our U.S. teams and international partners, as well as to handle specialized technical documentation (reading, writing, and communication).\n\nAs an equal opportunity employer, we are committed to ensuring that qualified individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, perform their essential job functions, and receive other benefits and privileges of employment. Please contact us if you need reasonable accommodation.\n\nPlease note that 2K Games and its studios never use instant messaging apps or personal email accounts to contact prospective employees or conduct interviews. When emailing prospective employees, we only use 2K.com accounts.",
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Анимация",
@@ -590,8 +610,7 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ],
-    "hasRu": true
+    ]
   },
   {
     "id": "gh-2k-games-7888174003",
@@ -677,18 +696,18 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-2k-games-7856226003",
+    "id": "gh-2k-games-7856225003",
     "title": "Lead Lighting Artist",
     "company": "2K Games",
     "locations": [
-      "Novato, United States"
+      "Montréal, Canada"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/2k/jobs/7856226003",
-    "desc": "As a Lead Lighting Artist at Cloud Chamber, you will join our talented development team to help shape our visual narrative and atmosphere. In this role, you’ll collaborate with a passionate group of game developers to craft visually stunning, dynamic lighting that supports world-class real-time environments and cinematics—bringing the richly imagined world of BioShock to life.\n\nWhat You’ll Do:\n\nAs a Lead Lighting Artist, you are a primary driver of your direct reports' success. You will set clear expectations, provide coaching, and manage the health, career growth, and output of a high-performing art team while establishing best practices across lighting pipelines.\n\n• Lead a team of lighting artists and provide guidance, feedback, and mentorship to ensure high-quality results.\n• Establish best practices and standards within the team to drive productivity, quality, and excellence.\n• Foster a positive, proactive, and agile work environment that encourages innovation and collaboration.\n• Collaborate closely with the Art Director and other leads, to understand and uphold the visual style and direction for lighting.\n• Develop and maintain a consistent and efficient lighting pipeline and workflows, acting as the primary point of contact for issues, proactively resolving problems and addressing roadblocks.\n• Research and implement new techniques and technologies related to lighting with the goal of continuous development and improvement.\n• Collaborate with:\n• Our Core Tech Team to ensure adherence to technical specifications and optimization requirements for real-time rendering engines.\n• Production and scheduling teams to define realistic timelines and manage project priorities.\n• Other groups within the art department to achieve cohesive and visually stunning results.\n• Continuously monitor project progress with an eye for improvement and optimization, providing updates to cross-functional stakeholders, and adjusting priorities as needed.\n• Receive and apply constructive feedback as part of our iterative process effectively while maintaining a positive attitude.\n\nWhat We’ll Do Together:\n\nAt Cloud Chamber, we are champions of high standards, pushing for progress and embracing change. We will work closely and constructively across design, art, engineering, animation, and audio teams to realize our creative ambitions. Together, we will stay current on technological advancements and identify solutions to overcome developmental obstacles to deliver a world-class AAA experience.\n\nSkills & Experiences:\n\n• 7+ years of experience in real-time lighting and final rendering, with a proven track record as an Art Lead on at least one shipped AAA title.\n• Deep understanding of Physically Based Rendering (PBR), runtime optimization, lighting for in-game cinematics, and practical expertise with Unreal Engine 5 (specifically Lumen Lighting and Sequencer).\n• Demonstrated history of successfully recruiting, developing, mentoring, and retaining top artistic talent while managing workload output and team well-being.\n• Proven experience collaborating directly with Core Tech and Production teams to establish and optimize real-time pipelines under runtime constraints.\n\nWho You Are:\n\n• A reliable, positive force multiplier, actively seeking opportunities to integrate work across disciplines and contribute to a healthy, supportive team environment.\n• A solid communicator with excellent written and verbal communication skills, with the ability to articulate complex ideas clearly, package information for diverse audiences, and deliver difficult feedback with empathy and professionalism.\n• Experienced in working in cross-disciplinary teams with strong communication skills.\n• Persistent and self-motivated with a proactive mindset.\n• Able to maintain effectiveness and quality under pressure, ambiguity, and fast-changing priorities.\n• An active listener able to build and maintain trust-based relationships across all levels of the organization, understand differing perspectives, and navigate organizational complexity with tact and emotional intelligence.\n• Highly open to feedback and direction, possessing a desire to learn new skills, and capable of producing quick, quality revisions based on new insights or constraints.\n• A strong ownership of tasks, striving to drive work forward autonomously while maintaining a critical eye for detail and organization, ensuring high standards of quality.\n• Dedicated to upholding Cloud Chamber's core values, contributing to a positive and respectful company culture while striving for excellence in all endeavors.\n\nWho We Are:\n\nAt Cloud Chamber we strive to make BioShock games that move people: evocative, immersive, and meaningful experiences that stay with you long after you’ve rolled credits. Great games are born from great collaborations, supported by a culture that brings out the best in our teams. We work openly, learn through play, take ownership, push ourselves to be better, and deliver for our players.…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
+    "url": "https://job-boards.greenhouse.io/2k/jobs/7856225003",
+    "desc": "As a Lead Lighting Artist at Cloud Chamber, you will join our talented development team to help shape our visual narrative and atmosphere. In this role, you’ll collaborate with a passionate group of game developers to craft visually stunning, dynamic lighting that supports world-class real-time environments and cinematics—bringing the richly imagined world of BioShock to life.\n\nWhat You’ll Do:\n\nAs a Lead Lighting Artist, you are a primary driver of your direct reports' success. You will set clear expectations, provide coaching, and manage the health, career growth, and output of a high-performing art team while establishing best practices across lighting pipelines.\n\n• Lead a team of lighting artists and provide guidance, feedback, and mentorship to ensure high-quality results.\n• Establish best practices and standards within the team to drive productivity, quality, and excellence.\n• Foster a positive, proactive, and agile work environment that encourages innovation and collaboration.\n• Collaborate closely with the Art Director and other leads, to understand and uphold the visual style and direction for lighting.\n• Develop and maintain a consistent and efficient lighting pipeline and workflows, acting as the primary point of contact for issues, proactively resolving problems and addressing roadblocks.\n• Research and implement new techniques and technologies related to lighting with the goal of continuous development and improvement.\n• Collaborate with:\n• Our Core Tech Team to ensure adherence to technical specifications and optimization requirements for real-time rendering engines.\n• Production and scheduling teams to define realistic timelines and manage project priorities.\n• Other groups within the art department to achieve cohesive and visually stunning results.\n• Continuously monitor project progress with an eye for improvement and optimization, providing updates to cross-functional stakeholders, and adjusting priorities as needed.\n• Receive and apply constructive feedback as part of our iterative process effectively while maintaining a positive attitude.\n\nWhat We’ll Do Together:\n\nAt Cloud Chamber, we are champions of high standards, pushing for progress and embracing change. We will work closely and constructively across design, art, engineering, animation, and audio teams to realize our creative ambitions. Together, we will stay current on technological advancements and identify solutions to overcome developmental obstacles to deliver a world-class AAA experience.\n\nSkills & Experiences:\n\n• 7+ years of experience in real-time lighting and final rendering, with a proven track record as an Art Lead on at least one shipped AAA title.\n• Deep understanding of Physically Based Rendering (PBR), runtime optimization, lighting for in-game cinematics, and practical expertise with Unreal Engine 5 (specifically Lumen Lighting and Sequencer).\n• Demonstrated history of successfully recruiting, developing, mentoring, and retaining top artistic talent while managing workload output and team well-being.\n• Proven experience collaborating directly with Core Tech and Production teams to establish and optimize real-time pipelines under runtime constraints.\n\nWho You Are:\n\n• A reliable, positive force multiplier, actively seeking opportunities to integrate work across disciplines and contribute to a healthy, supportive team environment.\n• A solid communicator with excellent written and verbal communication skills, with the ability to articulate complex ideas clearly, package information for diverse audiences, and deliver difficult feedback with empathy and professionalism.\n• Experienced in working in cross-disciplinary teams with strong communication skills.\n• Persistent and self-motivated with a proactive mindset.\n• Able to maintain effectiveness and quality under pressure, ambiguity, and fast-changing priorities.\n• An active listener able to build and maintain trust-based relationships across all levels of the organization, understand differing perspectives, and navigate organizational complexity with tact and emotional intelligence.\n• Highly open to feedback and direction, possessing a desire to learn new skills, and capable of producing quick, quality revisions based on new insights or constraints.\n• A strong ownership of tasks, striving to drive work forward autonomously while maintaining a critical eye for detail and organization, ensuring high standards of quality.\n• Dedicated to upholding Cloud Chamber's core values, contributing to a positive and respectful company culture while striving for excellence in all endeavors.\n\nWho We Are:\n\nAt Cloud Chamber we strive to make BioShock games that move people: evocative, immersive, and meaningful experiences that stay with you long after you’ve rolled credits. Great games are born from great collaborations, supported by a culture that brings out the best in our teams. We work openly, learn through play, take ownership, push ourselves to be better, and deliver for our players.\n\nFor candidates located in Quebec:\nThis position requires professional proficiency in both French and English. Proficiency in English is required to collaborate with our U.S. teams and international partners, as well as to handle specialized technical documentation (reading, writing, and communication).\n\nAs an equal opportunity employer, we are committed to ensuring that qualified individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, perform their essential job functions, and receive other benefits and privileges of employment. Please contact us if you need reasonable accommodation.\n\nPlease note that 2K Games and its studios never use instant messaging apps or personal email accounts to contact prospective employees or conduct interviews. When emailing prospective employees, we only use 2K.com accounts.",
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Арт",
@@ -696,8 +715,7 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ],
-    "hasRu": true
+    ]
   },
   {
     "id": "gh-2k-games-7533148003",
@@ -707,7 +725,7 @@ window.JOBS = [
       "Brighton, United Kingdom"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-21",
     "url": "https://job-boards.greenhouse.io/2k/jobs/7533148003",
@@ -822,7 +840,7 @@ window.JOBS = [
       "Brighton, United Kingdom"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-21",
     "url": "https://job-boards.greenhouse.io/2k/jobs/7764371003",
@@ -870,7 +888,7 @@ window.JOBS = [
       "Prague, Czech Republic"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-21",
     "url": "https://job-boards.greenhouse.io/2k/jobs/7793437003",
@@ -914,7 +932,7 @@ window.JOBS = [
       "Brighton, United Kingdom"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-21",
     "url": "https://job-boards.greenhouse.io/2k/jobs/7763604003",
@@ -938,7 +956,7 @@ window.JOBS = [
       "Tokyo, Japan"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-21",
     "url": "https://job-boards.greenhouse.io/2k/jobs/6520855003",
@@ -1113,7 +1131,7 @@ window.JOBS = [
       "Brighton, United Kingdom"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-21",
     "url": "https://job-boards.greenhouse.io/2k/jobs/7533066003",
@@ -1248,18 +1266,18 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-2k-games-7793262003",
+    "id": "gh-2k-games-7793261003",
     "title": "Senior Level Designer",
     "company": "2K Games",
     "locations": [
-      "Novato, United States"
+      "Montréal, Canada"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/2k/jobs/7793262003",
-    "desc": "As a Senior Level Designer at Cloud Chamber, you will be responsible for blocking out the world and crafting the player experience within the stunning narrative experience and systems-driven world of BioShock. At your core you are collaborative, compassionate, and authentic; a dedicated designer with a passion for creating memorable, immersive player experiences. You will be an integral part of a design team that is breathing life into a new and fantastical world.\n\nWhat You’ll Do:\n\n• Use Blueprint scripting to create gameplay content.\n• Design and block out world geometry.\n• Collaborate closely with world architects on layout, and other teams as needed, to implement the creative vision of the project.\n• Take the initiative on solving difficult or novel cross-disciplinary sequences or sections of content, and see them through from initial conception to completion.\n• Work with multi-disciplinary strike teams to improve the game in various focus areas (combat, AI, progression, exploration, narrative, etc).\n• Apply your years of experience and knowledge to mentor junior designers and encourage them to grow their skills.\n• Design and implement other scripted and systemic content throughout the game world.\n\nWhat We’ll Do Together:\n\nAt Cloud Chamber, we are champions of high standards, pushing for progress and embracing change. We will work closely and constructively across design, art, engineering, animation, and audio teams to realize our creative ambitions. Together, we will stay current on technological advancements and identify solutions to overcome developmental obstacles to deliver a world-class AAA experience.\n\nSkills & Experiences:\n\n• Shipped at least one AAA title as a designer.\n• 5+ years professional experience in video game design.\n• Self-motivated with an eye for solution-based problem solving.\n• Previous experience with Unreal is a plus.\n• Able to collaborate well across time zones in a global, multi-site organization.\n• Able to work well independently, in small pods, and in larger collaborative teams.\n• Able to succinctly and effectively document your work.\n• Excellent communications skills.\n• Ability to prioritize tasks and handle opposing priorities.\n\nWho You Are:\n\nAs a collaboratively minded designer you are eager to work with a global design team to pitch and develop playable game content. You are a dreamer and a creator who isn't shy about sharing your ideas. At Cloud Chamber we encourage design theory discourse and the free exchange of ideas. You’re able to give constructive feedback, and receive it as well. You’re a gamer; always playing the next, new thing, often revisiting the oldies as well, learning from what you’ve played, good and bad, and sharing your findings with the team.\n\n• A reliable, positive force multiplier, actively seeking opportunities to integrate work across disciplines and contribute to a healthy, supportive team environment.\n• A solid communicator with excellent written and verbal communication skills, with the ability to articulate complex ideas clearly, package information for diverse audiences, and deliver difficult feedback with empathy and professionalism.\n• Experienced in working in cross-disciplinary teams with strong communication skills.\n• Persistent and self-motivated with a proactive mindset.\n• Able to maintain effectiveness and quality under pressure, ambiguity, and fast-changing priorities.\n• An active listener able to build and maintain trust-based relationships across all levels of the organization, understand differing perspectives, and navigate organizational complexity with tact and emotional intelligence.\n• Highly open to feedback and direction, possessing a desire to learn new skills, and capable of producing quick, quality revisions based on new insights or constraints.\n• A strong ownership of tasks, striving to drive work forward autonomously while maintaining a critical eye for detail and organization, ensuring high standards of quality.\n• Dedicated to upholding Cloud Chamber's core values, contributing to a positive and respectful company culture while striving for excellence in all endeavors.\n\nWho We Are:\n\nAt Cloud Chamber we strive to make BioShock games that move people: evocative, immersive, and meaningful experiences that stay with you long after you’ve rolled credits. Great games are born from great collaborations, supported by a culture that brings out the best in our teams. We work openly, learn through play, take ownership, push ourselves to be better, and deliver for our players.\n\nThe pay range for this position in California at the start of employment is expected to be between $100,200 and $148,320 USD per Year. However, base pay offered is based on market location, and may vary further depending on individualized factors for job candidates, such as job-related knowledge, skills, experience, and other objective business considerations. Subject to those same considerations, the total compensation package for this position may also include other elements, including a bonus and/or equity awards and eligibility to participate in our 401(K) plan and Employee Stock Purchase Program. Regular, full-time employees are also eligible for a range of benefits at the Company, including: medical, dental, vision, and basic life insurance coverage; 14 paid holidays per calendar year; paid vacation time per calendar year (ranging from 15 to 25 days) or eligibility to participate in the Company's discretionary time off program; up to 10 paid sick days per calendar year; paid parental and compassionate leave; wellbeing programs for mental health and other wellness support; family planning support through Maven; commuter benefits; and reimbursements for fitness-related expenses.…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
+    "url": "https://job-boards.greenhouse.io/2k/jobs/7793261003",
+    "desc": "As a Senior Level Designer at Cloud Chamber, you will be responsible for blocking out the world and crafting the player experience within the stunning narrative experience and systems-driven world of BioShock. At your core you are collaborative, compassionate, and authentic; a dedicated designer with a passion for creating memorable, immersive player experiences. You will be an integral part of a design team that is breathing life into a new and fantastical world.\n\nWhat You’ll Do:\n\n• Use Blueprint scripting to create gameplay content.\n• Design and block out world geometry.\n• Collaborate closely with world architects on layout, and other teams as needed, to implement the creative vision of the project.\n• Take the initiative on solving difficult or novel cross-disciplinary sequences or sections of content, and see them through from initial conception to completion.\n• Work with multi-disciplinary strike teams to improve the game in various focus areas (combat, AI, progression, exploration, narrative, etc).\n• Apply your years of experience and knowledge to mentor junior designers and encourage them to grow their skills.\n• Design and implement other scripted and systemic content throughout the game world.\n\nWhat We’ll Do Together:\n\nAt Cloud Chamber, we are champions of high standards, pushing for progress and embracing change. We will work closely and constructively across design, art, engineering, animation, and audio teams to realize our creative ambitions. Together, we will stay current on technological advancements and identify solutions to overcome developmental obstacles to deliver a world-class AAA experience.\n\nSkills & Experiences:\n\n• Shipped at least one AAA title as a designer.\n• 5+ years professional experience in video game design.\n• Self-motivated with an eye for solution-based problem solving.\n• Previous experience with Unreal is a plus.\n• Able to collaborate well across time zones in a global, multi-site organization.\n• Able to work well independently, in small pods, and in larger collaborative teams.\n• Able to succinctly and effectively document your work.\n• Excellent communications skills.\n• Ability to prioritize tasks and handle opposing priorities.\n\nWho You Are:\n\nAs a collaboratively minded designer you are eager to work with a global design team to pitch and develop playable game content. You are a dreamer and a creator who isn't shy about sharing your ideas. At Cloud Chamber we encourage design theory discourse and the free exchange of ideas. You’re able to give constructive feedback, and receive it as well. You’re a gamer; always playing the next, new thing, often revisiting the oldies as well, learning from what you’ve played, good and bad, and sharing your findings with the team.\n\n• A reliable, positive force multiplier, actively seeking opportunities to integrate work across disciplines and contribute to a healthy, supportive team environment.\n• A solid communicator with excellent written and verbal communication skills, with the ability to articulate complex ideas clearly, package information for diverse audiences, and deliver difficult feedback with empathy and professionalism.\n• Experienced in working in cross-disciplinary teams with strong communication skills.\n• Persistent and self-motivated with a proactive mindset.\n• Able to maintain effectiveness and quality under pressure, ambiguity, and fast-changing priorities.\n• An active listener able to build and maintain trust-based relationships across all levels of the organization, understand differing perspectives, and navigate organizational complexity with tact and emotional intelligence.\n• Highly open to feedback and direction, possessing a desire to learn new skills, and capable of producing quick, quality revisions based on new insights or constraints.\n• A strong ownership of tasks, striving to drive work forward autonomously while maintaining a critical eye for detail and organization, ensuring high standards of quality.\n• Dedicated to upholding Cloud Chamber's core values, contributing to a positive and respectful company culture while striving for excellence in all endeavors.\n\nWho We Are:\n\nAt Cloud Chamber we strive to make BioShock games that move people: evocative, immersive, and meaningful experiences that stay with you long after you’ve rolled credits. Great games are born from great collaborations, supported by a culture that brings out the best in our teams. We work openly, learn through play, take ownership, push ourselves to be better, and deliver for our players.\n\nFor candidates located in Quebec:\nThis position requires professional proficiency in both French and English. Proficiency in English is required to collaborate with our U.S. teams and international partners, as well as to handle specialized technical documentation (reading, writing, and communication).\n\nAs an equal opportunity employer, we are committed to ensuring that qualified individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, perform their essential job functions, and receive other benefits and privileges of employment. Please contact us if you need reasonable accommodation.\n\nPlease note that 2K Games and its studios never use instant messaging apps or personal email accounts to contact prospective employees or conduct interviews. When emailing prospective employees, we only use 2K.com accounts.",
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Геймдизайн",
@@ -1267,8 +1285,7 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ],
-    "hasRu": true
+    ]
   },
   {
     "id": "gh-2k-games-7812947003",
@@ -1278,7 +1295,7 @@ window.JOBS = [
       "Dublin, Ireland"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-21",
     "url": "https://job-boards.greenhouse.io/2k/jobs/7812947003",
@@ -1306,7 +1323,7 @@ window.JOBS = [
       "Seoul, South Korea"
     ],
     "remote": false,
-    "rkind": "worldwide",
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-21",
     "url": "https://job-boards.greenhouse.io/2k/jobs/7629738003",
@@ -1459,18 +1476,18 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-2k-games-7829588003",
+    "id": "gh-2k-games-7856209003",
     "title": "Senior Site Reliability Engineer",
     "company": "2K Games",
     "locations": [
-      "Bangalore, India"
+      "Burnaby, Canada"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/2k/jobs/7829588003",
-    "desc": "Who We Are\n\n2K is headquartered in Novato, California and is a wholly owned label of Take-Two Interactive Software, Inc. (NASDAQ: TTWO). Founded in 2005, 2K Games is a global video game company, publishing titles developed by some of the most influential game development studios in the world. Our studios responsible for developing 2K’s portfolio of world-class games across multiple platforms, include Visual Concepts, Firaxis, Hangar 13, CatDaddy, Cloud Chamber, 31st Union, HB Studios, and 2K SportsLab. Our portfolio of titles is expanding due to our global strategic plan, building and acquiring exciting studios whose content continues to inspire all of us! 2K publishes titles in today’s most popular gaming genres, including sports, shooters, action, role-playing, strategy, casual, and family entertainment.\n\nOur team of engineers, marketers, artists, writers, data scientists, producers, thinkers and doers, are the professional publishing stewards of 2K’s portfolio currently includes several AAA, sports and entertainment brands, including global powerhouse NBA®️ 2K, renowned BioShock®️, Borderlands®️, Mafia, Sid Meier’s Civilization®️ and XCOM®️ brands; popular WWE®️ 2K and WWE®️ SuperCard franchises, TopSpin 2K25, as well as the critically and commercially acclaimed PGA TOUR®️ 2K\n\nAt 2K, we pride ourselves on creating an inclusive work environment, which means encouraging our teams to Come as You Are and do your best work! We encourage ALL applicants to explore our global positions, even if they don’t meet every requirement for the role. If you're interested in the job and think you have what it takes to work at 2K, we encourage you to apply!\n\nThe Team\n\nThe 2K SRE team owns the infrastructure behind every player connection — All 2K game services, account platforms, CI/CD pipelines, and developer tooling spanning AWS, GCP, and on-premises data centers across multiple global regions. Global launch windows and live-service events push systems to their limits, and this team is expected to hold the line.\n\nPost-mortems here focus on systems, not people. Automation is the default answer to repetitive work. The infrastructure keeps millions of players connected — and the team takes that seriously!\n\nWhat we Need\n\nThe Senior SRE at 2K is a hands-on technical leader — shaping production infrastructure across multiple clouds and regions while partnering with network engineers, systems architects, and game studio developers. This is an ownership role: driving technical direction, influencing reliability from architecture review through production operation, and closing the gap between what engineering ships and what players experience.\n\nWhat You'll Do\n\nPlatform & Infrastructure\n\nDesign, build, and operate scalable multi-cloud and hybrid infrastructure using Terraform, Pulumi, and GitOps workflows (ArgoCD, Flux). Own Kubernetes platforms (EKS, GKE) end-to-end — cluster lifecycle, multi-tenancy, networking (Istio, Cilium), and autoscaling — and push progressive delivery patterns (blue/green, canary) across game service deployments.\n\nObservability & Reliability\n\n• Build and run the full observability stack: Prometheus + Grafana + Datadog\n• Define SLI/SLO/error budget policies and build alerting that cuts through the noise\n• Lead chaos engineering exercises to surface failure modes before players encounter them\n• Drive incident response and post-mortems with a focus on systemic fixes and real follow-through\n\nAutomation, Security & Developer Experience\n\nEliminate toil through self-service provisioning, automated remediation, and intelligent scaling. Harden CI/CD pipelines (GitHub Actions, Jenkins, ArgoCD) . Embed security at the platform layer through secrets management (PasswordState, 1Password, and AWS Secrets Manager), policy-as-code (OPA/Gatekeeper).\n\nLeadership\n\n• Promote SRE practices across 2K studios through reliability reviews, runbooks, and embedded collaboration\n• Shape architectural decisions and author engineering RFCs that move the platform forward\n\nWhat Will Make You a Great Fit\n\n• 5+ years in SRE, Platform Engineering, or equivalent infrastructure work at production scale\n• Deep Kubernetes experience in cloud environments (EKS or GKE preferred) — networking, storage, multi-cluster patterns\n• Strong IaC proficiency with Terraform and/or Pulumi; hands-on with Helm, Terragrunt, and GitOps tooling (ArgoCD or GitHub Actions)\n• Modern and Legacy Tech: AWS, GCP, VMware, and Bare metal servers\n• Server Configuration using Ansible, Puppet, and AWS Systems Manager\n• Observability stack experience: Datadog, Prometheus + Grafana, and OpenTelemetry,\n• SLI/SLO/error budget fluency — including how to operationalize them inside engineering teams\n• Production-quality code in Go, Python, or TypeScript: tools, automation, and internal libraries\n• Linux internals, TCP/IP networking, DNS, and TLS — proven enough to debug at the system level\n• Incident response and post-mortem leadership with a track record of systemic follow-through\n\nPreferred Qualifications\n\n• Live-service game or large-scale consumer internet experience at millions of concurrent users\n• Service mesh depth (Istio, Cilium) and advanced Kubernetes networking\n• FinOps and managing resources at cloud scale\n• Experience with AI and Agentic Development\n• Cloud certifications (AWS Solutions Architect, GCP Professional Cloud Architect, CKA/CKS, or equivalent)\n• Experience mentoring SREs or leading reliability working groups\n\nWhat we offer you…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
+    "url": "https://job-boards.greenhouse.io/2k/jobs/7856209003",
+    "desc": "At 2K, we create some of the most iconic and culture-shaping video games in entertainment, including NBA® 2K, one of the top-selling franchises in the world, and legendary titles like BioShock®, Borderlands®, Mafia, Sid Meier’s Civilization®, and XCOM®, as well as fan favorites WWE® 2K, TopSpin®, and PGA TOUR® 2K. We build unforgettable experiences by pushing the boundaries of creativity, authenticity and innovation across every genre.\n\nOur portfolio is brought to life by some of the most influential game development studios in the world. Visual Concepts, Firaxis Games, Hangar 13, Cat Daddy Games, 31st Union, Cloud Chamber, Gearbox, HB Studios, and 2K SportsLab create world-class experiences across platforms.\n\nBut what truly powers 2K is our people.\n\nWe believe the best ideas come from teams that feel empowered, supported, and inspired. As an equal opportunity employer, we are committed to fostering a diverse, inclusive workplace where people are encouraged to come as they are and do their best work.\n\nWhat We Need\n\nThe 2K SRE team owns the infrastructure behind every player connection — All 2K game services, account platforms, CI/CD pipelines, and developer tooling spanning AWS, GCP, and on-premises data centers across multiple global regions. Global launch windows and live-service events push systems to their limits, and this team is expected to hold the line.\n\nPost-mortems here focus on systems, not people. Automation is the default answer to repetitive work. The infrastructure keeps millions of players connected — and the team takes that seriously!\n\nThe Senior SRE at 2K is a hands-on technical leader — shaping production infrastructure across multiple clouds and regions while partnering with network engineers, systems architects, and game studio developers. This is an ownership role: driving technical direction, influencing reliability from architecture review through production operation, and closing the gap between what engineering ships and what players experience.\n\nWhat You'll Do\n\nPlatform & Infrastructure\n\nDesign, build, and operate scalable multi-cloud and hybrid infrastructure using Terraform, Pulumi, and GitOps workflows (ArgoCD, Flux). Own Kubernetes platforms (EKS, GKE) end-to-end — cluster lifecycle, multi-tenancy, networking (Istio, Cilium), and autoscaling — and push progressive delivery patterns (blue/green, canary) across game service deployments.\n\nObservability & Reliability\n\n• Build and run the full observability stack: Prometheus + Grafana + Datadog\n• Define SLI/SLO/error budget policies and build alerting that cuts through the noise\n• Lead chaos engineering exercises to surface failure modes before players encounter them\n• Drive incident response and post-mortems with a focus on systemic fixes and real follow-through\n\nAutomation, Security & Developer Experience\n\nEliminate toil through self-service provisioning, automated remediation, and intelligent scaling. Harden CI/CD pipelines (GitHub Actions, Jenkins, ArgoCD) . Embed security at the platform layer through secrets management (PasswordState, 1Password, and AWS Secrets Manager), policy-as-code (OPA/Gatekeeper).\n\nLeadership\n\n• Promote SRE practices across 2K studios through reliability reviews, runbooks, and embedded collaboration\n• Shape architectural decisions and author engineering RFCs that move the platform forward\n\nWhat Will Make You A Great Fit\n\nRequired Qualifications\n\n• 5+ years in SRE, Platform Engineering, or equivalent infrastructure work at production scale\n• Deep Kubernetes experience in cloud environments (EKS or GKE preferred) — networking, storage, multi-cluster patterns\n• Strong IaC proficiency with Terraform and/or Pulumi; hands-on with Helm, Terragrunt, and GitOps tooling (ArgoCD or GitHub Actions)\n• Modern and Legacy Tech: AWS, GCP, VMware, and Bare metal servers\n• Server Configuration using Ansible, Puppet, and AWS Systems Manager\n• Observability stack experience: Datadog, Prometheus + Grafana, and OpenTelemetry,\n• SLI/SLO/error budget fluency — including how to operationalize them inside engineering teams\n• Production-quality code in Go, Python, or TypeScript: tools, automation, and internal libraries\n• Linux internals, TCP/IP networking, DNS, and TLS — proven enough to debug at the system level\n• Incident response and post-mortem leadership with a track record of systemic follow-through\n\nPreferred Qualifications\n\n• Live-service game or large-scale consumer internet experience at millions of concurrent users\n• Service mesh depth (Istio, Cilium) and advanced Kubernetes networking\n• FinOps and managing resources at cloud scale\n• Experience with AI and Agentic Development\n• Cloud certifications (AWS Solutions Architect, GCP Professional Cloud Architect, CKA/CKS, or equivalent)\n• Experience mentoring SREs or leading reliability working groups\n\nThe pay range for this position in Burnaby, Canada at the start of employment is expected to be between $96,400 and $142,660 per Year. However, base pay offered is based on market location, and may vary further depending on individualized factors for job candidates, such as job-related knowledge, skills, experience, and other objective business considerations.\n\nSubject to those same considerations, the total compensation package for employees in regular roles may also include other elements, including a bonus and/or equity awards, in addition to a full range of medical, financial, and/or other benefits, provided that temporary or intern roles will not be eligible for many of these payments or benefits. Details of participation in compensation and benefit plans (if applicable) will be provided if an employee receives an offer of employment. If hired the company reserves the right to modify base salary (as well as any other discretionary payment or compensation or benefit program) at any time, including for reasons related to individual performance, company or individual department/team performance, and market factors.…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Программирование",
@@ -1481,8 +1498,7 @@ window.JOBS = [
       "TypeScript",
       "AWS",
       "Kubernetes"
-    ],
-    "hasRu": true
+    ]
   },
   {
     "id": "gh-2k-games-7780664003",
@@ -1492,7 +1508,7 @@ window.JOBS = [
       "Austin, United States"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-21",
     "url": "https://job-boards.greenhouse.io/2k/jobs/7780664003",
@@ -1609,7 +1625,7 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-2k-games-7829580003",
+    "id": "gh-2k-games-7807539003",
     "title": "Staff Platform Engineer",
     "company": "2K Games",
     "locations": [
@@ -1619,8 +1635,8 @@ window.JOBS = [
     "rkind": null,
     "salary": null,
     "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/2k/jobs/7829580003",
-    "desc": "Who We Are\n\nAt 2K, we create some of the most iconic and culture-shaping video games in entertainment, including NBA® 2K, one of the top-selling franchises in the world, and legendary titles like BioShock®, Borderlands®, Mafia, Sid Meier’s Civilization®, and XCOM®, as well as fan favorites WWE® 2K, TopSpin®, and PGA TOUR® 2K. We build unforgettable experiences by pushing the boundaries of creativity, authenticity and innovation across every genre.\n\nOur portfolio is brought to life by some of the most influential game development studios in the world. Visual Concepts, Firaxis Games, Hangar 13, Cat Daddy Games, 31st Union, Cloud Chamber, Gearbox, HB Studios, and 2K SportsLab create world-class experiences across platforms.\n\nBut what truly powers 2K is our people.\n\nWe believe the best ideas come from teams that feel empowered, supported, and inspired. As an equal opportunity employer, we are committed to fostering a diverse, inclusive workplace where people are encouraged to come as they are and do their best work.\n\nWhat We Need\n\nThe Staff Platform Engineer is a principal-level technical leader at 2K, serving as the architect and champion of our internal developer ecosystems. This role is dedicated to treating the platform as a product, with the primary goal of optimizing the experience for internal Game Service Developers. By building robust \"paved paths,\" self-service infrastructure, and sophisticated automation, the Staff Platform Engineer enables our development teams to deploy and scale services with maximum velocity and minimal friction. This role operates at a high level of technical influence, shaping the long-term roadmap for platform engineering and mentoring senior talent across the organization.\n\nResponsibilities & Requirements\n\nDuties\n\n• Platform Product Ownership: Lead the design, development, and delivery of scalable Kubernetes infrastructure, ensuring seamless integration into the Internal Developer Platform (IDP) to provide Game Service Developers with intuitive, self-service infrastructure capabilities.\n• AI Strategy & Execution: Utilize AI and LLM-backed agentic workflows to automate environment bootstrapping, infrastructure provisioning, security vulnerabilities, and context-aware troubleshooting.\n• Developer Experience (DevEx) Strategy: Identify bottlenecks in the software development lifecycle and build automated solutions to improve developer velocity and autonomy.\n• Infrastructure as Code (IaC): Architect and maintain modular, reusable IaC libraries (e.g., Terraform) to standardize environment provisioning across multi-cloud and terrestrial data centers.\n• Standardization & Governance: Define and implement organization-wide standards for container orchestration, CI/CD pipelines, and service discovery within the Kubernetes ecosystem.\n• Advanced Troubleshooting: Provide Tier 3 support for complex platform-level issues, conducting deep-dive root cause analysis and implementing architectural changes to prevent systemic recurrence.\n• Technical Leadership: Serve as a primary consultant to Product Engineering teams, ensuring their services are architected to leverage the platform and Kubernetes patterns effectively.\n• On-Call Leadership: Participate in and lead the escalation path for the platform engineering on-call rotation, ensuring platform availability for internal customers.\n\nMust-Haves\n\n• Behavioral: Strong \"customer-first\" mindset with a focus on internal developer needs; ability to influence without authority across different studios and time zones.\n• Functional / Technical: Expert-level mastery of Kubernetes architecture, cloud-native ecosystems, and the \"Platform-as-a-Product\" philosophy.\n• Strategic Influence: Ability to translate long-term business goals into technical roadmaps for the platform team.\n• Educational Background: Bachelor’s degree in Computer Science, Engineering, or a related field, or equivalent professional experience.\n• Experience: 10+ years of experience in Infrastructure, DevOps, or Platform Engineering, with at least 4+ years specifically focused on building internal developer platforms or Kubernetes-based tooling.\n• Cloud Expertise: Deep expert-level experience with AWS and/or GCP, specifically managing highly elastic, mission-critical production workloads.\n• Orchestration & Containers: Expert knowledge of Kubernetes internals (operators, controllers, CRDs) and container security at scale.\n• AI & Agentic Engineering Skills: Proven foundational knowledge or hands-on experience incorporating Large Language Models (LLMs) and AI agents into automated engineering workflows, APIs, or platform tools.\n• Programming: Advanced proficiency in Go, Python, or Java, with a focus on building automation tools, Kubernetes operators, and APIs.\n• CI/CD & Tooling: Mastery of Git, Jenkins, GitLab CI, or GitHub Actions, and configuration management tools (Ansible, Puppet) alongside Terraform.\n• Architecture: Proven ability to architect multi-region, high-availability systems that support global user bases.\n• Availability: Willingness and ability to participate in a 24/7 rotational on-call schedule to support platform stability.\n\nNice-to-Haves\n\n• Prior experience in the gaming industry, specifically supporting large-scale multiplayer backend services.\n• Experience contributing to open-source projects related to platform engineering (e.g., Backstage, Crossplane).\n• Deep understanding of networking protocols and global traffic management.\n\nAs an equal opportunity employer, we are committed to ensuring that qualified individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, to perform their essential job functions, and to receive other benefits and privileges of employment. Please contact us if you need reasonable accommodation.…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
+    "url": "https://job-boards.greenhouse.io/2k/jobs/7807539003",
+    "desc": "Who We Are\n\nAt 2K, we create some of the most iconic and culture-shaping video games in entertainment, including NBA® 2K, one of the top-selling franchises in the world, and legendary titles like BioShock®, Borderlands®, Mafia, Sid Meier’s Civilization®, and XCOM®, as well as fan favorites WWE® 2K, TopSpin®, and PGA TOUR® 2K. We build unforgettable experiences by pushing the boundaries of creativity, authenticity and innovation across every genre.\n\nOur portfolio is brought to life by some of the most influential game development studios in the world. Visual Concepts, Firaxis Games, Hangar 13, Cat Daddy Games, 31st Union, Cloud Chamber, Gearbox, HB Studios, and 2K SportsLab create world-class experiences across platforms.\n\nBut what truly powers 2K is our people.\n\nWe believe the best ideas come from teams that feel empowered, supported, and inspired. As an equal opportunity employer, we are committed to fostering a diverse, inclusive workplace where people are encouraged to come as they are and do their best work.\n\nWhat We Need\n\nAs a Staff Platform Engineer at 2K, you are a visionary technical leader serving as the architect and champion of our internal developer ecosystems. Your primary mission is to steer the integration of advanced AI capabilities into our core infrastructure, driving the design and evolution of our next-generation Autonomous Agentic Development Platform (ADP). By championing a strict \"platform-as-a-product\" philosophy, you will ensure our ecosystem is continuously optimized for internal game and back-end service teams. Through the creation of robust \"golden paths,\" self-service infrastructure, and sophisticated automation, you will unlock developer velocity and eliminate operational friction. Operating with organization-wide influence, you will shape the long-term roadmap for platform engineering and mentor senior technical talent across 2K.\n\nWhat You’ll Do\n\n• AI Strategy & Execution: Own the strategic roadmap and oversee the architectural delivery of our developer portal, utilizing AI and LLM-backed agentic workflows to automate complex environment bootstrapping, context-aware troubleshooting, and intent-driven infrastructure provisioning.\n• Technical Leadership: Accountable for driving the technical strategic roadmap within Platform Engineering. Serve as the primary architectural advisor to engineering tech leads, consulting on core design strategies to ensure their services are built to leverage cloud-native Kubernetes patterns and advanced AI platform features effectively.\n• Platform Product Ownership: Drive a \"platform as a product\" strategy, positioning the Internal Developer Platform (IDP) as the central hub of the developer experience. Partner with engineering leaders to deliver intuitive, frictionless, self-service capabilities that abstract away underlying infrastructure complexities and accelerate software delivery.\n• DevEx Strategy: Collaborate with tech leads across different studios to identify systemic bottlenecks in the software development lifecycle, advising and steering teams on the design of automated solutions that elevate developer velocity, autonomy, and overall experience.\n• Infrastructure as Code (IaC): Provide high-level architectural direction and governance to internal tech leads as they build and maintain modular, reusable Terraform libraries, ensuring standardized environment provisioning across multi-cloud and on-prem data centers.\n• Governance & Standards: Define organization-wide standards for container orchestration, CI/CD pipelines, and service discovery within the Kubernetes ecosystem, partnering with engineering leads to ensure adoption and operational consistency.\n• Advanced Troubleshooting: Provide Tier 2 support for complex platform-level issues, conducting deep-dive root cause analysis and implementing architectural changes to prevent systemic recurrence.\n• Operational Resilience & On-Call Strategy: Establish and iterate on the incident management and escalation strategy. In this role, you will partner with engineering leads to define operational guardrails, SLA/SLO frameworks, and blameless post-mortem processes to ensure continuous platform availability and high operational maturity.\n\nWhat Will Make You A Great Fit\n\n• Deep Industry Experience: 10+ years of experience in Infrastructure, DevOps, or Platform Engineering, with at least 4+ years specifically focused on building internal developer platforms or Kubernetes-based tooling.\n• Kubernetes Expertise: Expert-level mastery of Kubernetes architecture, cloud-native ecosystems, and internals such as operators, controllers, and CRDs.\n• Cloud Architecture: Deep, expert-level experience with AWS and/or GCP, specifically managing highly elastic, mission-critical production workloads.\n• AI & Agentic Engineering Skills: Proven foundational knowledge or hands-on experience incorporating Large Language Models (LLMs) and AI agents into automated engineering workflows, APIs, or platform tools.\n• Strong Programming Foundations: Advanced proficiency in Go, Python, Java, or Rust, with a clear focus on building automation tools, Kubernetes operators, and developer-facing APIs.\n• Modern Tooling Mastery: Complete mastery of Git, configuration management tools, and CI/CD platforms (such as GitHub Actions and ArgoCD) alongside expert-level Terraform utilization.\n• High-Availability by Design: Proven ability to architect multi-region, high-availability systems capable of supporting global user bases.\n• Customer-First Mindset: A strong \"customer-first\" behavioral mindset tailored to internal developer needs, combined with the ability to influence without authority across distributed teams and time zones.\n• Rotational Availability: Willingness and ability to participate in a 24/7 rotational on-call schedule to maintain platform stability.\n\nBonus Items…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
     "site": "2k.com",
     "source": "greenhouse",
     "role": "Программирование",
@@ -1631,8 +1647,7 @@ window.JOBS = [
       "Java",
       "AWS",
       "Kubernetes"
-    ],
-    "hasRu": true
+    ]
   },
   {
     "id": "gh-2k-games-7784349003",
@@ -1693,7 +1708,7 @@ window.JOBS = [
       "Brno, Czechia"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-21",
     "url": "https://job-boards.greenhouse.io/hangar13/jobs/7527472003",
@@ -1718,7 +1733,7 @@ window.JOBS = [
       "Brighton, United Kingdom"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-21",
     "url": "https://job-boards.greenhouse.io/hangar13/jobs/7760443003",
@@ -1745,7 +1760,7 @@ window.JOBS = [
       "Prague, Czech Republic"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-21",
     "url": "https://job-boards.greenhouse.io/hangar13/jobs/7790812003",
@@ -1766,7 +1781,7 @@ window.JOBS = [
       "Brighton, United Kingdom"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-21",
     "url": "https://job-boards.greenhouse.io/hangar13/jobs/7760450003",
@@ -1790,7 +1805,7 @@ window.JOBS = [
       "Brighton, United Kingdom"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-21",
     "url": "https://job-boards.greenhouse.io/hangar13/jobs/7528605003",
@@ -1814,7 +1829,7 @@ window.JOBS = [
       "Brighton, United Kingdom"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-21",
     "url": "https://job-boards.greenhouse.io/hangar13/jobs/7762610003",
@@ -2103,6 +2118,7 @@ window.JOBS = [
     "role": "Технический художник",
     "grade": null,
     "spec": null,
+    "permit": true,
     "stack": [
       "Unity",
       "Unreal",
@@ -2280,7 +2296,7 @@ window.JOBS = [
       "Sydney, Australia"
     ],
     "remote": false,
-    "rkind": "worldwide",
+    "rkind": "zone",
     "salary": null,
     "posted": "2026-08-21",
     "url": "https://www.riotgames.com/en/work-with-us/job/7981543?gh_jid=7981543",
@@ -2290,6 +2306,7 @@ window.JOBS = [
     "role": "Программирование",
     "grade": null,
     "spec": "Unreal",
+    "permit": true,
     "stack": [
       "Unity",
       "Unreal",
@@ -2375,7 +2392,7 @@ window.JOBS = [
       "Montréal, Canada"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-21",
     "url": "https://job-boards.greenhouse.io/cloudchamberen/jobs/7714526003",
@@ -2517,18 +2534,18 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-cloud-chamber-7812708003",
+    "id": "gh-cloud-chamber-7812706003",
     "title": "Lead Level Artist",
     "company": "Cloud Chamber",
     "locations": [
-      "Novato, United States"
+      "Montréal, Canada"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/cloudchamberen/jobs/7812708003",
-    "desc": "As a Lead Level Artist at Cloud Chamber you will join our talented group of developers and lead a team of artists responsible for creating compelling, stylized, high-quality level art and immersive world-building under the guidance of the Art Director and Associate Art Director.\n\nAs a leader, your role is to build and foster a collaborative process, and share your vast knowledge of tools and best practices with your team. As an artist, your years of experience in the games industry have given you a solid understanding of form and composition as well as the ability to skillfully work within constraints and harmoniously collaborate with other departments. You will be asked to use all the tools and experience at your disposal to bring our richly imagined world to life.\n\nWhat You’ll Do:\n\n• Partner with other Art Leads to manage, mentor, and inspire a team of World Builders and Level Artists.\n• Work closely with the Art Director, Associate Art Director, and other Leads to ensure artistic consistency and unity across the project.\n• Collaborate with Design and Narrative Leads to create immersive and believable environments.\n• Design and improve upon the modular systems of architecture for our levels.\n• Provide objective, empathetic feedback and establish realistic development schedules.\n• Manage the day-to-day activities of the World Art Team.\n• Mentor and manage the career growth and development of the artists on your team.\n• Create and manage asset lists in collaboration with internal and external partner teams.\n• Coordinate workflow, support interdisciplinary communication, and facilitate efficient and effective building of the game world.\n\nWhat We’ll Do Together:\n\nAt Cloud Chamber, we are champions of high standards, pushing for progress and embracing change. We will work closely and constructively across design, art, engineering, animation, and audio teams to realize our creative ambitions. Together, we will stay current on technological advancements and identify solutions to overcome developmental obstacles to deliver a world-class AAA experience.\n\nSkills & Experiences:\n\n• 7 or more years of experience in internal game development with an emphasis on environmental art or level architecture.\n• At least 2 shipped titles (UE5/UE4 preferred), one shipped title in a leadership capacity, AAA titles preferred.\n• Prior experience leading other artists and managing their career growth, goal-setting, and overall job performance.\n• Ability to communicate and collaborate across multiple disciplines and locations clearly and effectively.\n• Knowledge of current industry standard tools: 3D Studio Max / Maya, ZBrush, Substance, Photoshop, etc.\n• Recent use of industry standard game editors (UE5 preferred).\n• Experience with industry-standard asset management tools.\n• Ability to support, inspire, and elevate team capabilities.\n• Knowledge of classic drawing and/or painting techniques with the ability to sketch out ideas on paper.\n• Solid awareness and sense of spatial composition and proportions.\n• Understanding of basic architecture.\n• Comfortable working in an iterative design environment.\n\nWho You Are:\n\n• A strong and empathetic leader with proven mentoring skills and a track record of supporting high functioning teams.\n• A reliable, positive force multiplier, actively seeking opportunities to integrate work across disciplines and contribute to a healthy, supportive team environment.\n• A solid communicator with excellent written and verbal communication skills, with the ability to articulate complex ideas clearly, package information for diverse audiences, and deliver difficult feedback with empathy and professionalism.\n• Experienced in working in cross-disciplinary teams with strong communication skills.\n• Persistent and self-motivated with a proactive mindset.\n• Able to maintain effectiveness and quality under pressure, ambiguity, and fast-changing priorities.\n• An active listener able to build and maintain trust-based relationships across all levels of the organization, understand differing perspectives, and navigate organizational complexity with tact and emotional intelligence.\n• Highly open to feedback and direction, possessing a desire to learn new skills, and capable of producing quick, quality revisions based on new insights or constraints.\n• A strong ownership of tasks, striving to drive work forward autonomously while maintaining a critical eye for detail and organization, ensuring high standards of quality.\n• Dedicated to upholding Cloud Chamber's core values, contributing to a positive and respectful company culture while striving for excellence in all endeavors.\n\nWho We Are:\n\nAt Cloud Chamber we strive to make BioShock games that move people: evocative, immersive, and meaningful experiences that stay with you long after you’ve rolled credits. Great games are born from great collaborations, supported by a culture that brings out the best in our teams. We work openly, learn through play, take ownership, push ourselves to be better, and deliver for our players.\n\n#LI-Remote…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
+    "url": "https://job-boards.greenhouse.io/cloudchamberen/jobs/7812706003",
+    "desc": "As a Lead Level Artist at Cloud Chamber you will join our talented group of developers and lead a team of artists responsible for creating compelling, stylized, high-quality level art and immersive world-building under the guidance of the Art Director and Associate Art Director.\n\nAs a leader, your role is to build and foster a collaborative process, and share your vast knowledge of tools and best practices with your team. As an artist, your years of experience in the games industry have given you a solid understanding of form and composition as well as the ability to skillfully work within constraints and harmoniously collaborate with other departments. You will be asked to use all the tools and experience at your disposal to bring our richly imagined world to life.\n\nWhat You’ll Do:\n\n• Partner with other Art Leads to manage, mentor, and inspire a team of World Builders and Level Artists.\n• Work closely with the Art Director, Associate Art Director, and other Leads to ensure artistic consistency and unity across the project.\n• Collaborate with Design and Narrative Leads to create immersive and believable environments.\n• Design and improve upon the modular systems of architecture for our levels.\n• Provide objective, empathetic feedback and establish realistic development schedules.\n• Manage the day-to-day activities of the World Art Team.\n• Mentor and manage the career growth and development of the artists on your team.\n• Create and manage asset lists in collaboration with internal and external partner teams.\n• Coordinate workflow, support interdisciplinary communication, and facilitate efficient and effective building of the game world.\n\nWhat We’ll Do Together:\n\nAt Cloud Chamber, we are champions of high standards, pushing for progress and embracing change. We will work closely and constructively across design, art, engineering, animation, and audio teams to realize our creative ambitions. Together, we will stay current on technological advancements and identify solutions to overcome developmental obstacles to deliver a world-class AAA experience.\n\nSkills & Experiences:\n\n• 7 or more years of experience in internal game development with an emphasis on environmental art or level architecture.\n• At least 2 shipped titles (UE5/UE4 preferred), one shipped title in a leadership capacity, AAA titles preferred.\n• Prior experience leading other artists and managing their career growth, goal-setting, and overall job performance.\n• Ability to communicate and collaborate across multiple disciplines and locations clearly and effectively.\n• Knowledge of current industry standard tools: 3D Studio Max / Maya, ZBrush, Substance, Photoshop, etc.\n• Recent use of industry standard game editors (UE5 preferred).\n• Experience with industry-standard asset management tools.\n• Ability to support, inspire, and elevate team capabilities.\n• Knowledge of classic drawing and/or painting techniques with the ability to sketch out ideas on paper.\n• Solid awareness and sense of spatial composition and proportions.\n• Understanding of basic architecture.\n• Comfortable working in an iterative design environment.\n\nWho You Are:\n\n• A strong and empathetic leader with proven mentoring skills and a track record of supporting high functioning teams.\n• A reliable, positive force multiplier, actively seeking opportunities to integrate work across disciplines and contribute to a healthy, supportive team environment.\n• A solid communicator with excellent written and verbal communication skills, with the ability to articulate complex ideas clearly, package information for diverse audiences, and deliver difficult feedback with empathy and professionalism.\n• Experienced in working in cross-disciplinary teams with strong communication skills.\n• Persistent and self-motivated with a proactive mindset.\n• Able to maintain effectiveness and quality under pressure, ambiguity, and fast-changing priorities.\n• An active listener able to build and maintain trust-based relationships across all levels of the organization, understand differing perspectives, and navigate organizational complexity with tact and emotional intelligence.\n• Highly open to feedback and direction, possessing a desire to learn new skills, and capable of producing quick, quality revisions based on new insights or constraints.\n• A strong ownership of tasks, striving to drive work forward autonomously while maintaining a critical eye for detail and organization, ensuring high standards of quality.\n• Dedicated to upholding Cloud Chamber's core values, contributing to a positive and respectful company culture while striving for excellence in all endeavors.\n\nWho We Are:\n\nAt Cloud Chamber we strive to make BioShock games that move people: evocative, immersive, and meaningful experiences that stay with you long after you’ve rolled credits. Great games are born from great collaborations, supported by a culture that brings out the best in our teams. We work openly, learn through play, take ownership, push ourselves to be better, and deliver for our players.\n\nFor candidates located in Quebec:\nThis position requires professional proficiency in both French and English. Proficiency in English is required to collaborate with our U.S. teams and international partners, as well as to handle specialized technical documentation (reading, writing, and communication).\n\n#LI-Remote\nAs an equal opportunity employer, we are committed to ensuring that qualified individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, perform their essential job functions, and receive other benefits and privileges of employment. Please contact us if you need reasonable accommodation.\n\nPlease note that 2K Games and its studios never use instant messaging apps or personal email accounts to contact prospective employees or conduct interviews. When emailing prospective employees, we only use 2K.com accounts",
     "site": "cloudchambergames.com",
     "source": "greenhouse",
     "role": "Арт",
@@ -2541,8 +2558,7 @@ window.JOBS = [
       "ZBrush",
       "Substance",
       "Photoshop"
-    ],
-    "hasRu": true
+    ]
   },
   {
     "id": "gh-cloud-chamber-7856224003",
@@ -2568,31 +2584,8 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-cloud-chamber-7731294003",
+    "id": "gh-cloud-chamber-7731296003",
     "title": "Senior Level Artist",
-    "company": "Cloud Chamber",
-    "locations": [
-      "Montréal, Canada"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/cloudchamberen/jobs/7731294003",
-    "desc": "As a Senior Level Artist at Cloud Chamber, you will join our talented development team to shape the next installment of the BioShock franchise. In this role, you’ll collaborate with a passionate group of game developers to construct visually stunning and gameplay-enhancing game worlds, create and maintain modular kits to optimally build believable and detailed spaces, and propel the narrative through environmental storytelling, bringing the richly imagined world of BioShock to life.\n\nWhat You’ll Do:\n\n• Collaborate closely with the Level Design, Modeling, Narrative, Concept, Combat, and Cinematic teams.\n• Create believable, functional, and visually strong environments from scratch.\n• Gather references, concept art, and translate Art Direction into clear and repeatable. architectural and world construction rules, communicating and championing those rules to peers both in and out of the Art Department.\n• Iterate on layouts using blocking to support and enhance combat and level design requirements, scene composition, and general world logic.\n• Create and compose modular kits and collection sets to form optimized yet dramatic and detailed spaces.\n• Assume full long term creative, technical, and production ownership over your levels. Contribute to the artistic vision of your space, ensure that dependencies are properly communicated, and your work is technically compliant according to best practices established by the Tech Art and Core Tech teams.\n• Participate in look development, creating visual benchmark environments and level layouts to present to your team and develop processes in which to replicate those successes.\n• Communicate effectively with team members, production, and management to ensure that project goals and deadlines are met.\n• Work with Leads to develop world building and modeling processes, alignment decks, documentation and tutorials, and ensure that quality is maintained for environment art.\n• Receive, give, and apply feedback effectively while maintaining a constructive, team centric attitude.\n\nWhat We’ll Do Together:\n\nAt Cloud Chamber, we are champions of high standards, pushing for progress and embracing change. We will work closely and constructively across design, art, engineering, animation, and audio teams to realize our creative ambitions. Together, we will stay current on technological advancements and identify solutions to overcome developmental obstacles to deliver a world-class AAA experience.\n\nSkills & Experiences:\n\n• Experience shipping at least one 3D AAA title in FPS or Third Person (using Unreal 4 or Unreal 5).\n• Professional experience working with Unreal 5.\n• Experience working within cross-discipline strike teams on collaborative assignments effectively and constructively.\n• Bachelor’s Degree in Art, or equivalent work experience.\n• Superior eye for composition, contrast, color, and detail.\n• Proficient in the creation of modular kits and proxy models for high-quality, stylized environments.\n• Solid understanding of form, shape, structure, and silhouette as it relates to world building.\n• Solid understanding of architectural structure, spatial design, industrial design, and the details necessary for crafting the building blocks of believable environments.\n• Experience creating and maintaining asset libraries, organized by theme and function.\n• Experience with materials and shaders, knowing what is needed and where to use them for difficult visual targets is a plus.\n• An interest in relevant adjacent disciplines such as architecture, urban design, interior design, photography, film, lighting, and drawing is beneficial.\n\nWho You Are:\n\n• A reliable, positive force multiplier, actively seeking opportunities to integrate work across disciplines and contribute to a healthy, supportive team environment.\n• A solid communicator with excellent written and verbal communication skills, with the ability to articulate complex ideas clearly, package information for diverse audiences, and deliver difficult feedback with empathy and professionalism.\n• A persistent and self-motivated person with a proactive mindset.\n• Able to maintain effectiveness and quality under pressure, ambiguity, and fast-changing priorities.\n• An active listener able to build and maintain trust-based relationships across all levels of the organization, understand differing perspectives, and navigate organizational complexity with tact and emotional intelligence.\n• Highly open to feedback and direction, possessing a desire to learn new skills, and capable of producing quick, quality revisions based on new insights or constraints.\n• A strong owner of your tasks, who strives to drive their work forward autonomously while maintaining a critical eye for detail and organization, ensuring high standards of quality.\n• Dedicated to upholding Cloud Chamber’s core values, contributing to a positive and respectful company culture while striving for excellence in all endeavors.\n\nWho We Are:\n\nAt Cloud Chamber we strive to make BioShock games that move people: evocative, immersive, and meaningful experiences that stay with you long after you’ve rolled credits. Great games are born from great collaborations, supported by a culture that brings out the best in our teams. We work openly, learn through play, take ownership, push ourselves to be better, and deliver for our players.\n\nFor candidates located in Quebec:\nThis position requires professional proficiency in both French and English. Proficiency in English is required to collaborate with our U.S. teams and international partners, as well as to handle specialized technical documentation (reading, writing, and communication).…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "site": "cloudchambergames.com",
-    "source": "greenhouse",
-    "role": "Арт",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "Unreal"
-    ],
-    "hasRu": true
-  },
-  {
-    "id": "gh-cloud-chamber-7793260003",
-    "title": "Senior Level Designer",
     "company": "Cloud Chamber",
     "locations": [
       "Novato, United States"
@@ -2601,8 +2594,30 @@ window.JOBS = [
     "rkind": null,
     "salary": null,
     "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/cloudchamberen/jobs/7793260003",
-    "desc": "As a Senior Level Designer at Cloud Chamber, you will be responsible for blocking out the world and crafting the player experience within the stunning narrative experience and systems-driven world of BioShock. At your core you are collaborative, compassionate, and authentic; a dedicated designer with a passion for creating memorable, immersive player experiences. You will be an integral part of a design team that is breathing life into a new and fantastical world.\n\nWhat You’ll Do:\n\n• Use Blueprint scripting to create gameplay content.\n• Design and block out world geometry.\n• Collaborate closely with world architects on layout, and other teams as needed, to implement the creative vision of the project.\n• Take the initiative on solving difficult or novel cross-disciplinary sequences or sections of content, and see them through from initial conception to completion.\n• Work with multi-disciplinary strike teams to improve the game in various focus areas (combat, AI, progression, exploration, narrative, etc).\n• Apply your years of experience and knowledge to mentor junior designers and encourage them to grow their skills.\n• Design and implement other scripted and systemic content throughout the game world.\n\nWhat We’ll Do Together:\n\nAt Cloud Chamber, we are champions of high standards, pushing for progress and embracing change. We will work closely and constructively across design, art, engineering, animation, and audio teams to realize our creative ambitions. Together, we will stay current on technological advancements and identify solutions to overcome developmental obstacles to deliver a world-class AAA experience.\n\nSkills & Experiences:\n\n• Shipped at least one AAA title as a designer.\n• 5+ years professional experience in video game design.\n• Self-motivated with an eye for solution-based problem solving.\n• Previous experience with Unreal is a plus.\n• Able to collaborate well across time zones in a global, multi-site organization.\n• Able to work well independently, in small pods, and in larger collaborative teams.\n• Able to succinctly and effectively document your work.\n• Excellent communications skills.\n• Ability to prioritize tasks and handle opposing priorities.\n\nWho You Are:\n\nAs a collaboratively minded designer you are eager to work with a global design team to pitch and develop playable game content. You are a dreamer and a creator who isn't shy about sharing your ideas. At Cloud Chamber we encourage design theory discourse and the free exchange of ideas. You’re able to give constructive feedback, and receive it as well. You’re a gamer; always playing the next, new thing, often revisiting the oldies as well, learning from what you’ve played, good and bad, and sharing your findings with the team.\n\n• A reliable, positive force multiplier, actively seeking opportunities to integrate work across disciplines and contribute to a healthy, supportive team environment.\n• A solid communicator with excellent written and verbal communication skills, with the ability to articulate complex ideas clearly, package information for diverse audiences, and deliver difficult feedback with empathy and professionalism.\n• Experienced in working in cross-disciplinary teams with strong communication skills.\n• Persistent and self-motivated with a proactive mindset.\n• Able to maintain effectiveness and quality under pressure, ambiguity, and fast-changing priorities.\n• An active listener able to build and maintain trust-based relationships across all levels of the organization, understand differing perspectives, and navigate organizational complexity with tact and emotional intelligence.\n• Highly open to feedback and direction, possessing a desire to learn new skills, and capable of producing quick, quality revisions based on new insights or constraints.\n• A strong ownership of tasks, striving to drive work forward autonomously while maintaining a critical eye for detail and organization, ensuring high standards of quality.\n• Dedicated to upholding Cloud Chamber's core values, contributing to a positive and respectful company culture while striving for excellence in all endeavors.\n\nWho We Are:\n\nAt Cloud Chamber we strive to make BioShock games that move people: evocative, immersive, and meaningful experiences that stay with you long after you’ve rolled credits. Great games are born from great collaborations, supported by a culture that brings out the best in our teams. We work openly, learn through play, take ownership, push ourselves to be better, and deliver for our players.\n\nThe pay range for this position in California at the start of employment is expected to be between $100,200 and $148,320 USD per Year. However, base pay offered is based on market location, and may vary further depending on individualized factors for job candidates, such as job-related knowledge, skills, experience, and other objective business considerations. Subject to those same considerations, the total compensation package for this position may also include other elements, including a bonus and/or equity awards and eligibility to participate in our 401(K) plan and Employee Stock Purchase Program. Regular, full-time employees are also eligible for a range of benefits at the Company, including: medical, dental, vision, and basic life insurance coverage; 14 paid holidays per calendar year; paid vacation time per calendar year (ranging from 15 to 25 days) or eligibility to participate in the Company's discretionary time off program; up to 10 paid sick days per calendar year; paid parental and compassionate leave; wellbeing programs for mental health and other wellness support; family planning support through Maven; commuter benefits; and reimbursements for fitness-related expenses.\n\n#LI-Hybrid…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
+    "url": "https://job-boards.greenhouse.io/cloudchamberen/jobs/7731296003",
+    "desc": "As a Senior Level Artist at Cloud Chamber, you will join our talented development team to shape the next installment of the BioShock franchise. In this role, you’ll collaborate with a passionate group of game developers to construct visually stunning and gameplay-enhancing game worlds, create and maintain modular kits to optimally build believable and detailed spaces, and propel the narrative through environmental storytelling, bringing the richly imagined world of BioShock to life.\n\nWhat You’ll Do:\n\n• Collaborate closely with the Level Design, Modeling, Narrative, Concept, Combat, and Cinematic teams.\n• Create believable, functional, and visually strong environments from scratch.\n• Gather references, concept art, and translate Art Direction into clear and repeatable. architectural and world construction rules, communicating and championing those rules to peers both in and out of the Art Department.\n• Iterate on layouts using blocking to support and enhance combat and level design requirements, scene composition, and general world logic.\n• Create and compose modular kits and collection sets to form optimized yet dramatic and detailed spaces.\n• Assume full long term creative, technical, and production ownership over your levels. Contribute to the artistic vision of your space, ensure that dependencies are properly communicated, and your work is technically compliant according to best practices established by the Tech Art and Core Tech teams.\n• Participate in look development, creating visual benchmark environments and level layouts to present to your team and develop processes in which to replicate those successes.\n• Communicate effectively with team members, production, and management to ensure that project goals and deadlines are met.\n• Work with Leads to develop world building and modeling processes, alignment decks, documentation and tutorials, and ensure that quality is maintained for environment art.\n• Receive, give, and apply feedback effectively while maintaining a constructive, team centric attitude.\n\nWhat We’ll Do Together:\n\nAt Cloud Chamber, we are champions of high standards, pushing for progress and embracing change. We will work closely and constructively across design, art, engineering, animation, and audio teams to realize our creative ambitions. Together, we will stay current on technological advancements and identify solutions to overcome developmental obstacles to deliver a world-class AAA experience.\n\nSkills & Experiences:\n\n• Experience shipping at least one 3D AAA title in FPS or Third Person (using Unreal 4 or Unreal 5).\n• Professional experience working with Unreal 5.\n• Experience working within cross-discipline strike teams on collaborative assignments effectively and constructively.\n• Bachelor’s Degree in Art, or equivalent work experience.\n• Superior eye for composition, contrast, color, and detail.\n• Proficient in the creation of modular kits and proxy models for high-quality, stylized environments.\n• Solid understanding of form, shape, structure, and silhouette as it relates to world building.\n• Solid understanding of architectural structure, spatial design, industrial design, and the details necessary for crafting the building blocks of believable environments.\n• Experience creating and maintaining asset libraries, organized by theme and function.\n• Experience with materials and shaders, knowing what is needed and where to use them for difficult visual targets is a plus.\n• An interest in relevant adjacent disciplines such as architecture, urban design, interior design, photography, film, lighting, and drawing is beneficial.\n\nWho You Are:\n\n• A reliable, positive force multiplier, actively seeking opportunities to integrate work across disciplines and contribute to a healthy, supportive team environment.\n• A solid communicator with excellent written and verbal communication skills, with the ability to articulate complex ideas clearly, package information for diverse audiences, and deliver difficult feedback with empathy and professionalism.\n• A persistent and self-motivated person with a proactive mindset.\n• Able to maintain effectiveness and quality under pressure, ambiguity, and fast-changing priorities.\n• An active listener able to build and maintain trust-based relationships across all levels of the organization, understand differing perspectives, and navigate organizational complexity with tact and emotional intelligence.\n• Highly open to feedback and direction, possessing a desire to learn new skills, and capable of producing quick, quality revisions based on new insights or constraints.\n• A strong owner of your tasks, who strives to drive their work forward autonomously while maintaining a critical eye for detail and organization, ensuring high standards of quality.\n• Dedicated to upholding Cloud Chamber’s core values, contributing to a positive and respectful company culture while striving for excellence in all endeavors.\n\nWho We Are:\n\nAt Cloud Chamber we strive to make BioShock games that move people: evocative, immersive, and meaningful experiences that stay with you long after you’ve rolled credits. Great games are born from great collaborations, supported by a culture that brings out the best in our teams. We work openly, learn through play, take ownership, push ourselves to be better, and deliver for our players.…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
+    "site": "cloudchambergames.com",
+    "source": "greenhouse",
+    "role": "Арт",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unreal"
+    ]
+  },
+  {
+    "id": "gh-cloud-chamber-7793258003",
+    "title": "Senior Level Designer",
+    "company": "Cloud Chamber",
+    "locations": [
+      "Montréal, Canada"
+    ],
+    "remote": false,
+    "rkind": "hybrid",
+    "salary": null,
+    "posted": "2026-08-21",
+    "url": "https://job-boards.greenhouse.io/cloudchamberen/jobs/7793258003",
+    "desc": "As a Senior Level Designer at Cloud Chamber, you will be responsible for blocking out the world and crafting the player experience within the stunning narrative experience and systems-driven world of BioShock. At your core you are collaborative, compassionate, and authentic; a dedicated designer with a passion for creating memorable, immersive player experiences. You will be an integral part of a design team that is breathing life into a new and fantastical world.\n\nWhat You’ll Do:\n\n• Use Blueprint scripting to create gameplay content.\n• Design and block out world geometry.\n• Collaborate closely with world architects on layout, and other teams as needed, to implement the creative vision of the project.\n• Take the initiative on solving difficult or novel cross-disciplinary sequences or sections of content, and see them through from initial conception to completion.\n• Work with multi-disciplinary strike teams to improve the game in various focus areas (combat, AI, progression, exploration, narrative, etc).\n• Apply your years of experience and knowledge to mentor junior designers and encourage them to grow their skills.\n• Design and implement other scripted and systemic content throughout the game world.\n\nWhat We’ll Do Together:\n\nAt Cloud Chamber, we are champions of high standards, pushing for progress and embracing change. We will work closely and constructively across design, art, engineering, animation, and audio teams to realize our creative ambitions. Together, we will stay current on technological advancements and identify solutions to overcome developmental obstacles to deliver a world-class AAA experience.\n\nSkills & Experiences:\n\n• Shipped at least one AAA title as a designer.\n• 5+ years professional experience in video game design.\n• Self-motivated with an eye for solution-based problem solving.\n• Previous experience with Unreal is a plus.\n• Able to collaborate well across time zones in a global, multi-site organization.\n• Able to work well independently, in small pods, and in larger collaborative teams.\n• Able to succinctly and effectively document your work.\n• Excellent communications skills.\n• Ability to prioritize tasks and handle opposing priorities.\n\nWho You Are:\n\nAs a collaboratively minded designer you are eager to work with a global design team to pitch and develop playable game content. You are a dreamer and a creator who isn't shy about sharing your ideas. At Cloud Chamber we encourage design theory discourse and the free exchange of ideas. You’re able to give constructive feedback, and receive it as well. You’re a gamer; always playing the next, new thing, often revisiting the oldies as well, learning from what you’ve played, good and bad, and sharing your findings with the team.\n\n• A reliable, positive force multiplier, actively seeking opportunities to integrate work across disciplines and contribute to a healthy, supportive team environment.\n• A solid communicator with excellent written and verbal communication skills, with the ability to articulate complex ideas clearly, package information for diverse audiences, and deliver difficult feedback with empathy and professionalism.\n• Experienced in working in cross-disciplinary teams with strong communication skills.\n• Persistent and self-motivated with a proactive mindset.\n• Able to maintain effectiveness and quality under pressure, ambiguity, and fast-changing priorities.\n• An active listener able to build and maintain trust-based relationships across all levels of the organization, understand differing perspectives, and navigate organizational complexity with tact and emotional intelligence.\n• Highly open to feedback and direction, possessing a desire to learn new skills, and capable of producing quick, quality revisions based on new insights or constraints.\n• A strong ownership of tasks, striving to drive work forward autonomously while maintaining a critical eye for detail and organization, ensuring high standards of quality.\n• Dedicated to upholding Cloud Chamber's core values, contributing to a positive and respectful company culture while striving for excellence in all endeavors.\n\nWho We Are:\n\nAt Cloud Chamber we strive to make BioShock games that move people: evocative, immersive, and meaningful experiences that stay with you long after you’ve rolled credits. Great games are born from great collaborations, supported by a culture that brings out the best in our teams. We work openly, learn through play, take ownership, push ourselves to be better, and deliver for our players.\n\nFor candidates located in Quebec:\nThis position requires professional proficiency in both French and English. Proficiency in English is required to collaborate with our U.S. teams and international partners, as well as to handle specialized technical documentation (reading, writing, and communication).\n\n#LI-Hybrid\nAs an equal opportunity employer, we are committed to ensuring that qualified individuals with disabilities are provided reasonable accommodation to participate in the job application or interview process, perform their essential job functions, and receive other benefits and privileges of employment. Please contact us if you need reasonable accommodation.\n\nPlease note that 2K Games and its studios never use instant messaging apps or personal email accounts to contact prospective employees or conduct interviews. When emailing prospective employees, we only use 2K.com accounts",
     "site": "cloudchambergames.com",
     "source": "greenhouse",
     "role": "Геймдизайн",
@@ -2610,8 +2625,7 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ],
-    "hasRu": true
+    ]
   },
   {
     "id": "gh-cloud-chamber-7720903003",
@@ -2621,7 +2635,7 @@ window.JOBS = [
       "Novato, United States"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-21",
     "url": "https://job-boards.greenhouse.io/cloudchamberen/jobs/7720903003",
@@ -2850,25 +2864,24 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-scopely-5390702008",
+    "id": "gh-scopely-5191920008",
     "title": "Senior Producer - Star Trek Fleet Command",
     "company": "Scopely",
     "locations": [
-      "Barcelona, Spain"
+      "London, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5390702008?gh_jid=5390702008",
-    "desc": "Scopely is looking for a Senior Producer to join our Star Trek Fleet Command team based in Barcelona on a hybrid basis.\n\nAt Scopely, we care deeply about what we do and want to inspire play every day - whether in our work environments alongside our talented colleagues or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily.\n\nStar Trek Fleet Command's ongoing success goes from strength to strength. Our in-house developed multi-platform 4X MMO was launched in 2018 and continues to evolve, being consistently one of the top 10 gross revenue Massive Multiplayer Strategy games on the market.\n\nWhat You Will Do\n\nThe person in this position will join an experienced team of producers dedicated to facilitating multi-disciplined pods to deliver the best for our players by creating and improving communication channels, celebrating successes, and always making sure we understand how and where our teams can improve.\n\nYou will work across multiple multidisciplined teams to manage a program of work and deliver a wide variety of updates and capabilities for Star Trek™ Fleet Command, taking these projects from concept to delivery. You will also have the opportunity to help other producers who are just starting their journey to deliver great experiences. We work on exciting additions to heritage IP that many people worldwide hold dear, and you will have the opportunity to make a massive impact on the daily experiences of hundreds of thousands of players by ensuring your team has everything it needs to succeed.\n\n• Lead, inform, motivate and align project teams to deliver on individual & shared goals\n• Be heavily involved in production, coordination, triage, and release planning\n• Work directly with talented multi-disciplined feature/content teams to drive the best output and healthy team cultures\n• Facilitate requirement gathering, identifying dependencies, and capacity planning within the team, partnering with the product team, the art team, as well as the wider senior game leadership team\n• Maintain project status and progress so you can ensure team's capability to deliver to the player on time\n• Maintain and iterate on team processes such as retrospectives and sprint planning to keep the team healthy and contributing to the overall improvement of the studio\n• Be an active member of the Star Trek Fleet Command features team to improve how the whole game team operates\n\nWhat We're Looking For\n\n• Highly experienced working in development teams\n• Experience on a live game title with detailed dependencies between projects and updates\n• Experience with content\n• Excellent communication and people interaction skills\n• Solid understanding of Agile and its standard practices\n• Experience working with JIRA\n• Naturally, be a very structured and well-organised person\n• Clear ability to assess the priority of multiple issues rapidly to focus response accordingly\n• To have a demonstrated ability to facilitate cross-team discussion and organisation\n• Willing to spend a lot of time on the details of how games are delivered\n\nPlease ensure that the résumé/CV you attach is written in English.\n\nAt Scopely, we create games for everyone - and want to ensure that the people behind our games reflect that! We are committed to creating a diverse, supportive work environment where everyone is treated with respect. We are committed to providing equal employment opportunities and welcome individuals from all backgrounds to join us & embrace the adventure!\n\nAbout Scopely\n\nScopely is a leading video game and global interactive entertainment company, home to many of the world’s most beloved and enduring experiences, including two of the most successful mobile games of all-time “MONOPOLY GO!” and “Pokémon GO,” along with “Stumble Guys,” “Star Trek™ Fleet Command,” “MARVEL Strike Force,” “WWE Champions,” the Scrabble® franchise, “Yahtzee® With Buddies,” and many others. Across mobile, web, PC, and console, Scopely creates, develops, publishes, and live-operates one of the most diversified and award-winning portfolios in the games industry — bringing hundreds of millions of players together through a shared love of play.\n\nFounded in 2011, Scopely is powered by its exceptional team — including thousands of world-class gamemakers around the globe, a distinctive tenet-driven culture, and its proprietary technology platform, Playgami. Together, these strengths have fueled Scopely’s position as the #1 mobile games company in the U.S. and #2 globally, generating more than $10 billion in lifetime revenue. Whether building global sensations like “MONOPOLY GO!” from the ground up, or expanding through strategic acquisitions, including the FoxNext, GSN, and Scopely Explore games businesses — Scopely consistently delivers experiences players love today and return to for years to come.\n\nRecognized multiple times as one of the \"100 Most Influential Companies in the World\" by TIME magazine and one of Fast Company's \"World's Most Innovative Companies\" and “Best Workplaces for Innovators,” Scopely believes that video games can be a force for good — creating meaningful connections, vibrant communities, and making life better through play.\n\nScopely has global operations and partners across four continents in more than a dozen countries worldwide. For more information, visit: https://www.scopely.com/.\n\nNotice to Candidates: Scopely will never request payment or financial information during the application or hiring process. Please apply only through our official website and verify that all Talent Partner communications come from an email address ending in @scopely.com.…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5191920008?gh_jid=5191920008",
+    "desc": "Scopely is looking for a Senior Producer to join our Star Trek Fleet Command team based in the UK on a remote basis.\n\nAt Scopely, we care deeply about what we do and want to inspire play every day - whether in our work environments alongside our talented colleagues or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily.\n\nStar Trek Fleet Command's ongoing success goes from strength to strength. Our in-house developed multi-platform 4X MMO was launched in 2018 and continues to evolve, being consistently one of the top 10 gross revenue Massive Multiplayer Strategy games on the market.\n\nWhat You Will Do\n\nThe person in this position will join an experienced team of producers dedicated to facilitating multi-disciplined pods to deliver the best for our players by creating and improving communication channels, celebrating successes, and always making sure we understand how and where our teams can improve.\n\nYou will work across multiple multidisciplined teams to manage a program of work and deliver a wide variety of updates and capabilities for Star Trek™ Fleet Command, taking these projects from concept to delivery. You will also have the opportunity to help other producers who are just starting their journey to deliver great experiences. We work on exciting additions to heritage IP that many people worldwide hold dear, and you will have the opportunity to make a massive impact on the daily experiences of hundreds of thousands of players by ensuring your team has everything it needs to succeed.\n\n• Lead, inform, motivate and align project teams to deliver on individual & shared goals\n• Be heavily involved in production, coordination, triage, and release planning\n• Work directly with talented multi-disciplined feature/content teams to drive the best output and healthy team cultures\n• Facilitate requirement gathering, identifying dependencies, and capacity planning within the team, partnering with the product team, the art team, as well as the wider senior game leadership team\n• Maintain project status and progress so you can ensure team's capability to deliver to the player on time\n• Maintain and iterate on team processes such as retrospectives and sprint planning to keep the team healthy and contributing to the overall improvement of the studio\n• Be an active member of the Star Trek Fleet Command features team to improve how the whole game team operates\n\nWhat We're Looking For\n\n• Highly experienced working in development teams\n• Experience on a live game title with detailed dependencies between projects and updates\n• Experience with content\n• Excellent communication and people interaction skills\n• Solid understanding of Agile and its standard practices\n• Experience working with JIRA\n• Naturally, be a very structured and well-organised person\n• Clear ability to assess the priority of multiple issues rapidly to focus response accordingly\n• To have a demonstrated ability to facilitate cross-team discussion and organisation\n• Willing to spend a lot of time on the details of how games are delivered\n\nPlease ensure that the résumé/CV you attach is written in English.\n\nAt Scopely, we create games for everyone - and want to ensure that the people behind our games reflect that! We are committed to creating a diverse, supportive work environment where everyone is treated with respect. We are committed to providing equal employment opportunities and welcome individuals from all backgrounds to join us & embrace the adventure!\n\nAbout Scopely\n\nScopely is a leading video game and global interactive entertainment company, home to many of the world’s most beloved and enduring experiences, including two of the most successful mobile games of all-time “MONOPOLY GO!” and “Pokémon GO,” along with “Stumble Guys,” “Star Trek™ Fleet Command,” “MARVEL Strike Force,” “WWE Champions,” the Scrabble® franchise, “Yahtzee® With Buddies,” and many others. Across mobile, web, PC, and console, Scopely creates, develops, publishes, and live-operates one of the most diversified and award-winning portfolios in the games industry — bringing hundreds of millions of players together through a shared love of play.\n\nFounded in 2011, Scopely is powered by its exceptional team — including thousands of world-class gamemakers around the globe, a distinctive tenet-driven culture, and its proprietary technology platform, Playgami. Together, these strengths have fueled Scopely’s position as the #1 mobile games company in the U.S. and #2 globally, generating more than $10 billion in lifetime revenue. Whether building global sensations like “MONOPOLY GO!” from the ground up, or expanding through strategic acquisitions, including the FoxNext, GSN, and Scopely Explore games businesses — Scopely consistently delivers experiences players love today and return to for years to come.\n\nRecognized multiple times as one of the \"100 Most Influential Companies in the World\" by TIME magazine and one of Fast Company's \"World's Most Innovative Companies\" and “Best Workplaces for Innovators,” Scopely believes that video games can be a force for good — creating meaningful connections, vibrant communities, and making life better through play.\n\nScopely has global operations and partners across four continents in more than a dozen countries worldwide. For more information, visit: https://www.scopely.com/.\n\nNotice to Candidates: Scopely will never request payment or financial information during the application or hiring process. Please apply only through our official website and verify that all Talent Partner communications come from an email address ending in @scopely.com.…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
     "site": "scopely.com",
     "source": "greenhouse",
     "role": "Продюсирование",
     "grade": "Senior",
     "spec": null,
-    "stack": [],
-    "hasRu": true
+    "stack": []
   },
   {
     "id": "gh-scopely-5398789008",
@@ -2936,17 +2949,17 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-scopely-5398786008",
+    "id": "gh-scopely-5398787008",
     "title": "Senior Software Engineer (Gaming Backend) - WWE Champions",
     "company": "Scopely",
     "locations": [
-      "Canada"
+      "Mexico City, Mexico"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5398786008?gh_jid=5398786008",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5398787008?gh_jid=5398787008",
     "desc": "Scopely is looking for a Senior Software Engineer (Gaming Backend) to join our WWE Champions team in the United States or Canada on a remote basis or Mexico City on a hybrid basis.\n\nAt Scopely, we care deeply about what we do and want to inspire play every day - whether in our work environments alongside our talented colleagues or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily.\n\nWWE Champions is our ultimate and unique RPG puzzle match game featuring WWE superstars and legends across mobile and PC platforms. WWE Champions is the most downloaded WWE game to date, with a highly engaged and passionate community - who will remain undefeated?\n\nWhat You Will Do\n\nAs a Senior Software Engineer, you will design, build, and evolve backend systems that power core gameplay and live-service operations at scale. You will take ownership to drive live-ops excellence through incident management and reliability improvements, enable cross-functional teams to deliver high-quality player experiences and technical roadmap for live mobile games. This role requires a balance of deep backend engineering expertise, support live-ops and design team pre and post releases and strong leadership to unblock technical challenges in a high-concurrency environment.\n\n• Actively support liveops initiatives and game design releases, providing comprehensive backend support both pre- and post-launch\n• Ensure seamless coordination with the design team throughout the lifecycle of game updates and content releases\n• Support live-service excellence by leading incident management, reliability hardening, and operational readiness for production systems\n• Drive the technical roadmap for our backend initiatives, ensuring scalable, high-performance architecture for live mobile games\n• Lead the design and delivery of high-impact features by bridging server-side logic with game client requirements\n• Act as a technical multiplier by unblocking cross-functional teams (Product, Design, QA, Analytics), facilitating design discussions, and providing mentorship\n• Contribute to hands-on feature development, ensuring code quality and maintainability across both client and server codebases\n• Identify and mitigate technical debt and operational bottlenecks to improve overall team velocity\n\nWhat We’re Looking For\n\nExperience & Technical Skills\n\n• 6+ years of professional software development experience in gaming or large-scale live-service applications\n• Deep expertise in backend engineering with high-level server-side languages and frameworks\n• Experience collaborating with game client engineers (e.g., Unity/C#) to deliver integrated fullstack features\n• Proven track record of designing scalable systems and managing live-service operations\n• Familiarity with cloud infrastructure (AWS or equivalent) and modern CI/CD practices\n• Experience working with content pipelines and performance optimization\n\nCross-Functional & Domain Knowledge\n\n• Experience building and supporting player-facing features (progression, social, live events, monetization)\n• Strong understanding of the interplay between backend services and Unity clients\n• Proven ability to lead technical planning and execution in complex, cross-functional environments\n• Experience managing technical roadmaps and balancing feature delivery with system health\n\nSoft Skills & Education\n\n• Bachelor’s degree in Computer Science or related field, or equivalent practical experience\n• Strong communication and leadership skills; ability to explain complex technical concepts to non-technical stakeholders\n• Collaborative and proactive mindset, focused on team success and mentorship\n• High ownership of technical outcomes and a pragmatic approach to problem-solving\n\nPlease ensure that the résumé/CV you attach is written in English.\n\nAbout Scopely\n\nScopely is a leading video game and global interactive entertainment company, home to many of the world’s most beloved and enduring experiences, including two of the most successful mobile games of all-time “MONOPOLY GO!” and “Pokémon GO,” along with “Stumble Guys,” “Star Trek™ Fleet Command,” “MARVEL Strike Force,” “WWE Champions,” the Scrabble® franchise, “Yahtzee® With Buddies,” and many others. Across mobile, web, PC, and console, Scopely creates, develops, publishes, and live-operates one of the most diversified and award-winning portfolios in the games industry — bringing hundreds of millions of players together through a shared love of play.\n\nFounded in 2011, Scopely is powered by its exceptional team — including thousands of world-class gamemakers around the globe, a distinctive tenet-driven culture, and its proprietary technology platform, Playgami. Together, these strengths have fueled Scopely’s position as the #1 mobile games company in the U.S. and #2 globally, generating more than $10 billion in lifetime revenue. Whether building global sensations like “MONOPOLY GO!” from the ground up, or expanding through strategic acquisitions, including the FoxNext, GSN, and Scopely Explore games businesses — Scopely consistently delivers experiences players love today and return to for years to come.\n\nRecognized multiple times as one of the \"100 Most Influential Companies in the World\" by TIME magazine and one of Fast Company's \"World's Most Innovative Companies\" and “Best Workplaces for Innovators,” Scopely believes that video games can be a force for good — creating meaningful connections, vibrant communities, and making life better through play.\n\nScopely has global operations and partners across four continents in more than a dozen countries worldwide. For more information, visit: https://www.scopely.com/.…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
     "site": "scopely.com",
     "source": "greenhouse",
@@ -2957,8 +2970,7 @@ window.JOBS = [
       "Unity",
       "C#",
       "AWS"
-    ],
-    "hasRu": true
+    ]
   },
   {
     "id": "sr-cd-projekt-red-744000144698495",
@@ -3022,6 +3034,7 @@ window.JOBS = [
     "role": "Продакт",
     "grade": null,
     "spec": null,
+    "permit": true,
     "stack": [
       "Python",
       "SQL"
@@ -3153,30 +3166,6 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ],
-    "hasRu": true
-  },
-  {
-    "id": "gh-wargaming-7972339",
-    "title": "Gameplay Developer (World of Tanks, PC)",
-    "company": "Wargaming",
-    "locations": [
-      "Belgrade"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7972339",
-    "desc": "Job Overview\n\nWargaming is inviting talented Gameplay developers who are ready to learn a lot, take responsibility for the result of their work and meet the expectations of our players together with us. In our team you will have to solve interesting tasks related to the development of World of Tanks on the whole technological stack.\n\nWhat will you do?\n\n• Participate in the creation of new game modes and logic on both game client and server using mainly Python;\n• Develop high performance (in terms of memory and execution time) in-game components;\n• Improve and develop the existing technology stack;\n• Work with dozens of additional services and applications that make up the large-scale infrastructure of our project (payment systems, authorization systems, analytical data warehouses, etc.);\n• Cover the functionality with tests.\n\nWhat are we looking for?\n\n• Experience in commercial software development;\n• Strong knowledge of basic data structures and algorithms;\n• Development experience in Python and/or C++;\n• Knowledge of design patterns;\n• Experience in developing asynchronous/multithreaded applications;\n• Knowledge of CPU and memory principles (RAM, ROM, cache, virtual memory, swap file, etc.);\n• Familiarity with databases, message brokers;\n• Knowledge of the basics of computer networks.\n\nWhat additional skills will help you stand out?\n\n• Experience in web applications development (frontend, backend);\n• Experience of working with distributed systems;\n• Passion for computer games;\n• Gamedev experience\n\nWork mode\n\n• Remote (from Serbia).\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Belgrade include:\n\n• Additional vacation days based on years of service at Wargaming: up to 5 days on top of the statutory minimum\n• Additional paid time off (5 Personal Days, Birthday Leave, Marriage Leave, Compassionate Leave)\n• Sick Leave Compensation, Maternity Leave Benefits\n• Premium Private Health Insurance\n• Career development and education opportunities within the company\n• English clubs and platform for learning languages\n• Mental well-being program (iFeel)\n• Commuting allowance\n• Company events\n• FitPass membership\n• Discounts for employees\n• Personal Gaming Account\n• Coffee, fruits, and snacks in the office\n• On-site canteen with subsidized prices for food and drinks\n• Seniority Awards\n• Referral program - you can recommend the best talents to the Company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\n\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
-    "site": "wargaming.com",
-    "source": "greenhouse",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "Геймплей",
-    "stack": [
-      "C++",
-      "Python"
     ],
     "hasRu": true
   },
@@ -3455,7 +3444,7 @@ window.JOBS = [
       "Vancouver, Canada"
     ],
     "remote": true,
-    "rkind": "zone",
+    "rkind": "hybrid",
     "salary": "$ 180 100 – 247 600",
     "posted": "2026-08-20",
     "url": "https://jobs.smartrecruiters.com/CDPROJEKTRED/744000144627050",
@@ -3482,7 +3471,7 @@ window.JOBS = [
       "EUROPE - Multiple Locations, Poland"
     ],
     "remote": true,
-    "rkind": "zone",
+    "rkind": null,
     "salary": "23 700 – 37 000 PLN",
     "posted": "2026-08-20",
     "url": "https://jobs.smartrecruiters.com/CDPROJEKTRED/744000144615479",
@@ -3516,6 +3505,7 @@ window.JOBS = [
     "role": "Арт",
     "grade": "Lead",
     "spec": null,
+    "permit": true,
     "stack": [
       "Unreal"
     ],
@@ -3762,17 +3752,17 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-tripledot-belka-4952612101",
+    "id": "gh-tripledot-belka-4951036101",
     "title": "Principal Technical Artist",
     "company": "Tripledot / Belka",
     "locations": [
-      "Dallas"
+      "Toronto"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-19",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4952612101",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4951036101",
     "desc": "Who are we?\n\nTripledot Studios is one of the largest independent mobile games companies in the world.\n\nWe are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios.\n\nOur expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users.\n\nTripledot’s guiding principle is that when people love what they do, what they do will be loved by others.\n\nWe’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games.\n\nOur ambition is to be the most successful games company in the world, and we’re just getting started.\n\nThis role sits within our Peoplefun studio.\n\nPeopleFun is an award-winning creator of mobile games for players across the globe. We are part of Tripledot Studios, one of the world's largest independent mobile game companies, with world-class projects, resources, and infrastructure. PeopleFun is a Dallas-based game studio founded and led by game industry veterans, where game developers thrive on collaboration, creativity, teamwork, and fun. Our games are played by over 25 million players each month, and we have a number of exciting mobile games in development to fuel the future growth of PeopleFun.\n\nWe believe in bringing People together through Fun by creating the best in class social features and communities in our games that enables our players to engage deeply with other players. Secondly we endeavor to bring our studio teammates together by creating the very best game teams that foster healthy collaboration, incredible productivity, and life-long professional relationships.\n\nPosition Overview\n\nPeopleFun is seeking a Principal Technical Artist to help stand up a brand new game team and shape the visual and technical foundation of a new casual mobile title. You will be one of the earliest people on the project, working shoulder to shoulder with artists, engineers, and designers to get ideas on screen fast, learn from them, and turn the ones that work into durable pipelines, shaders, tools, and systems.\n\nThis is a deeply technical role for someone who thinks in pipelines and profilers but still has the eye of an artist. You will own how art gets authored, integrated, optimized, and rendered, including the game's VFX and its UI implementation in Unity UI Toolkit, and you will set the technical standards the rest of the team builds against as it grows.\n\nResponsibilities\n\n• Rapidly prototype visual and technical ideas to help the team evaluate direction, prove out feasibility, and find the fun early.\n• Architect and implement art pipelines, tools, and workflows from scratch, scaling them as the team and project grow.\n• Author shaders and rendering solutions that deliver the intended look while staying within mobile performance and memory budgets.\n• Author production-quality VFX/PFX yourself — particle effects, shader-driven effects, and animated feedback — and build the systems and tooling that let others create them.\n• Establish UI implementation standards in Unity UI Toolkit, including hierarchy structure, layout systems, and responsive behavior across mobile resolutions, aspect ratios, and safe areas.\n• Define technical specifications and asset standards, and build validation tooling that keeps assets compliant as the project scales.\n• Profile and optimize art content — draw calls, overdraw, atlasing, texture and memory budgets, load times, and runtime performance across device tiers.\n• Develop tools and scripts in C#, Python, or similar to automate repetitive art and build tasks, including asset export, import, and marketing asset generation.\n• Debug and resolve visual and performance issues, finding creative solutions within platform constraints.\n• Stay current with developments in mobile graphics, tools, and techniques, proactively bringing best practices into production.\n\nRequirements\n\n• 5+ years of professional experience as a Technical Artist in mobile games, with a demonstrated track record of technical depth and artistic judgment.\n• Extensive hands-on Unity experience, including the render pipeline, asset pipeline, prefab and scene architecture, and editor tooling.\n• Strong proficiency in shader development, lighting, and rendering techniques.\n• Demonstrated ability to author VFX/PFX to a shippable quality bar, with a reel or portfolio showing your own effects work.\n• Proven track record of prototyping and rapid iteration, with the judgment to know when to move fast and when to build something that lasts.\n• Demonstrated expertise with Unity UI Toolkit — layout systems, hierarchy design, UXML/USS, and responsive UI implementation for mobile.\n• Deep understanding of optimizing art assets for mobile platforms, including memory management, profiling, and performance debugging.\n• Proven experience building tools and scripts for art pipelines using C#, Python, or similar languages.\n• Solid grounding in 2D art, animation, and UI design principles, with enough craft sensibility to evaluate and elevate the work of the art team.\n• Excellent problem-solving skills, with the ability to work both independently and collaboratively in a fast-paced, cross-functional team.\n\nPreferred Qualifications…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
     "site": "tripledotstudios.com",
     "source": "greenhouse",
@@ -3783,8 +3773,7 @@ window.JOBS = [
       "Unity",
       "C#",
       "Python"
-    ],
-    "hasRu": true
+    ]
   },
   {
     "id": "gh-tripledot-belka-4948638101",
@@ -3919,6 +3908,7 @@ window.JOBS = [
     "role": "Арт",
     "grade": "Junior",
     "spec": null,
+    "permit": true,
     "stack": [
       "Unreal",
       "C#",
@@ -3995,25 +3985,24 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-rockstar-games-7796158003",
+    "id": "gh-rockstar-games-7782767003",
     "title": "Product Manager, Creator Platform",
     "company": "Rockstar Games",
     "locations": [
-      "London, United Kingdom"
+      "Manhattan, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-19",
-    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7796158003",
-    "desc": "At Rockstar Games, we create world-class entertainment experiences.\n\nBecome part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry.\n\nRockstar Games is seeking a Product Manager to drive forward key workstreams surrounding Creator Tooling, for our Creator Platform ecosystem and related products. This role focuses on advancing platform capabilities, increasing player engagement, and supporting creator success through practical creator tools, live service iteration, and operational excellence.\n\nThis is a full-time, permanent and in-office position based in Rockstar’s unique game development studio in the heart of London.\n\nWHAT WE DO\n\n• The Rockstar Games Creator Platform Team builds and operates technology platforms that enable creators to develop their own game modes, experiences, and modifications, and players to experience community-created content on fully customized servers.\n• We use data, experimentation, and live service operations to continuously improve creator and player outcomes across our ecosystem.\n• We work at the intersection of games, creator ecosystems, platform infrastructure, community, and innovation.\n• We create technology, tools, and solutions to enhance the creator experience and empower our community to create and share any experience imaginable.\n\nRESPONSIBILITIES\n\n• Develop detailed business and product requirements that guide design and technical specifications, driving features end-to-end from discovery and competitive analysis through documentation and delivery.\n• Partner with other PMs and Data Analytics to establish the KPI frameworks that measure platform health, creator success, and player engagement.\n• Drive the end-to-end product process for platform features and technology, including discovery, competitive analysis, documentation, and delivery.\n• Continuously iterate on our live service platforms by identifying growth opportunities and friction points across the creator lifecycle from onboarding and publishing to retention, discovery, and monetization and acting on them.\n• Translate quantitative and qualitative signals including analytics, creator feedback, and player behavior into clear product decisions, prioritized roadmaps, and actionable hypotheses.\n• Actively contribute to the development of your product roadmap, clearly articulating your recommendations and gaining stakeholder consensus.\n• Utilize both quantitative and qualitative data to analyze the impact of product changes and iterate to improve key metrics.\n• Collaborate effectively with UX/UI Design, translating ideas into visually appealing and user-friendly prototypes that can be developed into final features.\n\nREQUIREMENTS\n\n• 4+ years of product management or strategy and operations experience in technology, with a focus on live services or data-driven products.\n• Knack for influencing stakeholders across a variety of groups, including publishing, design, technical leadership, and external development partners, without explicit authority.\n• Strong analysis skills, with hands-on experience defining KPIs, running experiments, and deriving actionable insights from a variety of sources\n• Experience driving live service iteration on consumer or developer facing platforms\n• Preference towards working iteratively and responding to changing requirements and evolving stakeholder visions.\n\nPLUSES\n\n• Please note that these are desirable skills and are not required to apply for the position.\n• Passion for gaming, sandbox games, modding, and user-generated content and the communities that coalesce around them.\n• Hands-on experience developing game mods and in modding communities.\n\nADDITIONAL INFORMATION\n\nHOW TO APPLY\n\nPlease apply with a resume and cover letter demonstrating how you meet the skills above. If we would like to move forward with your application, a Rockstar recruiter will reach out to you to explain next steps and guide you through the process.\n\nRockstar is committed to creating a work environment that promotes equal opportunity, dignity and respect. In line with this commitment, Rockstar will provide reasonable accommodations to qualified job applicants with disabilities during the recruitment process in order for such applicants to be considered for the position for which they are applying, as well as to qualified employees to enable them to perform the essential functions of their roles. If you need more information about Rockstar’s reasonable accommodation policies or process, or need to request an accommodation, please notify your recruiter during the interview process.\n\nIf you’ve got the right skills for the job, we want to hear from you. We encourage applications from all suitable candidates regardless of age, disability, gender identity, sexual orientation, religion, belief, race, or any other protected category.\n\n#LI-CR",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7782767003",
+    "desc": "At Rockstar Games, we create world-class entertainment experiences.\n\nBecome part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry.\n\nRockstar Games is seeking a Product Manager to drive forward key workstreams surrounding Creator Tooling, for our Creator Platform ecosystem and related products. This role focuses on advancing platform capabilities, increasing player engagement, and supporting creator success through practical creator tools, live service iteration, and operational excellence.\n\nThis is a full-time, in-office position based out of Rockstar’s NYC headquarters in Downtown Manhattan.\n\nWHAT WE DO\n\n• The Rockstar Games Creator Platform Team builds and operates technology platforms that enable creators to develop their own game modes, experiences, and modifications, and players to experience community-created content on fully customized servers.\n• We use data, experimentation, and live service operations to continuously improve creator and player outcomes across our ecosystem.\n• We work at the intersection of games, creator ecosystems, platform infrastructure, community, and innovation.\n• We create technology, tools, and solutions to enhance the creator experience and empower our community to create and share any experience imaginable.\n\nRESPONSIBILITIES\n\n• Develop detailed business and product requirements that guide design and technical specifications, driving features end-to-end from discovery and competitive analysis through documentation and delivery.\n• Partner with other PMs and Data Analytics to establish the KPI frameworks that measure platform health, creator success, and player engagement.\n• Drive the end-to-end product process for platform features and technology, including discovery, competitive analysis, documentation, and delivery.\n• Continuously iterate on our live service platforms by identifying growth opportunities and friction points across the creator lifecycle from onboarding and publishing to retention, discovery, and monetization and acting on them.\n• Translate quantitative and qualitative signals including analytics, creator feedback, and player behavior into clear product decisions, prioritized roadmaps, and actionable hypotheses.\n• Actively contribute to the development of your product roadmap, clearly articulating your recommendations and gaining stakeholder consensus.\n• Utilize both quantitative and qualitative data to analyze the impact of product changes and iterate to improve key metrics.\n• Collaborate effectively with UX/UI Design, translating ideas into visually appealing and user-friendly prototypes that can be developed into final features.\n\nREQUIREMENTS\n\n• 4+ years of product management or strategy and operations experience in technology, with a focus on live services or data-driven products.\n• Knack for influencing stakeholders across a variety of groups, including publishing, design, technical leadership, and external development partners, without explicit authority.\n• Strong analysis skills, with hands-on experience defining KPIs, running experiments, and deriving actionable insights from a variety of sources\n• Experience driving live service iteration on consumer or developer facing platforms\n• Preference towards working iteratively and responding to changing requirements and evolving stakeholder visions.\n\nPLUSES\n\n• Please note that these are desirable skills and are not required to apply for the position.\n• Passion for gaming, sandbox games, modding, and user-generated content and the communities that coalesce around them.\n• Hands-on experience developing game mods and in modding communities.\n\nADDITIONAL INFORMATION\n\nHOW TO APPLY\n\nPlease apply with a resume and cover letter demonstrating how you meet the skills above. If we would like to move forward with your application, a Rockstar recruiter will reach out to you to explain next steps and guide you through the process.\n\nRockstar is committed to creating a work environment that promotes equal opportunity, dignity and respect. In line with this commitment, Rockstar will provide reasonable accommodations to qualified job applicants with disabilities during the recruitment process in order for such applicants to be considered for the position for which they are applying, as well as to qualified employees to enable them to perform the essential functions of their roles. If you need more information about Rockstar’s reasonable accommodation policies or process, or need to request an accommodation, please notify your recruiter during the interview process.\n\nIf you’ve got the right skills for the job, we want to hear from you. We encourage applications from all suitable candidates regardless of age, disability, gender identity, sexual orientation, religion, belief, race, or any other protected category.\n\n#LI-CR\nThe pay range for this position in New York State (inclusive of New York City) at the start of employment is expected to be between the range below* per year. However, base pay offered is based on market location, and may vary further depending on individualized factors for job candidates, such as job-related knowledge, skills, experience, and other objective business considerations.…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
     "site": "rockstargames.com",
     "source": "greenhouse",
     "role": "Продакт",
     "grade": null,
     "spec": null,
-    "stack": [],
-    "hasRu": true
+    "stack": []
   },
   {
     "id": "gh-rockstar-games-7806700003",
@@ -4355,6 +4344,7 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
+    "permit": true,
     "stack": [],
     "hasRu": true
   },
@@ -4434,7 +4424,7 @@ window.JOBS = [
       "London, United Kingdom"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-18",
     "url": "https://job-boards.greenhouse.io/gramgamescareers/jobs/6135572004",
@@ -4444,6 +4434,7 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": "Lead",
     "spec": null,
+    "permit": true,
     "stack": [],
     "hasRu": true
   },
@@ -4465,6 +4456,7 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": "Lead",
     "spec": null,
+    "permit": true,
     "stack": [],
     "hasRu": true
   },
@@ -4486,6 +4478,7 @@ window.JOBS = [
     "role": "VFX",
     "grade": "Senior",
     "spec": null,
+    "permit": true,
     "stack": [
       "Unity"
     ],
@@ -4522,7 +4515,7 @@ window.JOBS = [
       "United Kingdom"
     ],
     "remote": true,
-    "rkind": "worldwide",
+    "rkind": "zone",
     "salary": null,
     "posted": "2026-08-18",
     "url": "https://job-boards.greenhouse.io/neteasegames/jobs/4927747007",
@@ -4532,6 +4525,7 @@ window.JOBS = [
     "role": "Поддержка",
     "grade": null,
     "spec": null,
+    "permit": true,
     "stack": [],
     "hasRu": true
   },
@@ -4543,7 +4537,7 @@ window.JOBS = [
       "United Kingdom"
     ],
     "remote": true,
-    "rkind": "worldwide",
+    "rkind": "zone",
     "salary": null,
     "posted": "2026-08-18",
     "url": "https://job-boards.greenhouse.io/neteasegames/jobs/4927750007",
@@ -4553,6 +4547,7 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
+    "permit": true,
     "stack": [],
     "hasRu": true
   },
@@ -4591,7 +4586,7 @@ window.JOBS = [
       "United Kingdom"
     ],
     "remote": true,
-    "rkind": "worldwide",
+    "rkind": "zone",
     "salary": null,
     "posted": "2026-08-18",
     "url": "https://job-boards.greenhouse.io/neteasegames/jobs/4927744007",
@@ -4601,6 +4596,7 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
+    "permit": true,
     "stack": [],
     "hasRu": true
   },
@@ -4902,18 +4898,18 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-rockstar-games-7644896003",
+    "id": "gh-rockstar-games-7893386003",
     "title": "Application Security Engineer",
     "company": "Rockstar Games",
     "locations": [
-      "Leeds, United Kingdom"
+      "Dundee, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-18",
-    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7644896003",
-    "desc": "At Rockstar Games, we create world-class entertainment experiences.\n\nBecome part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry.\n\nRockstar is on the lookout for a passionate Application Security Engineer who possess a passion for diving into complex software designs to identify security flaws and vulnerabilities.\n\nThis is a full-time, permanent and in-office position based in Rockstar’s unique game development studio in the heart of Leeds, England.\n\nWHAT WE DO\n\n• The Rockstar Games Application Security team partners with numerous development teams across the company to incorporate security practices throughout the software development lifecycle.\n• We strive to understand the threat landscape affecting our development studios, the gaming industry, and the world at large to define secure development standards and guidelines to safeguard our business and protect our players.\n• We independently assess our application code and builds through various techniques (static analysis, dynamic analysis, software composition analysis, etc.) to identify potential vulnerabilities and design flaws and work with development teams to remediate.\n\nRESPONSIBILITIES\n\n• Track trends in the security community and stay abreast of emerging threats.\n• Provide technical security guidance to developers, team leads and producers.\n• Create and maintain threat models of applications and features to systematically understand how they can be attacked to prioritize control development.\n• Conduct automated and manual security assessments of applications and services.\n• Drive remediation efforts behind internally and publicly identified vulnerabilities.\n• Support maintaining Rockstar Games’ public and private bug bounty programs.\n\nREQUIREMENTS\n\n• 3+ years of experience working in a professional, academic or research environment identifying and remediating security bugs/flaws.\n• Strong knowledge of the principles and techniques for both manual and automated application security assessments of desktop and web applications.\n• Good knowledge of common web security vulnerabilities (e.g., OWASP Top 10), attack techniques and remediation tactics/strategies.\n• Good understanding of common low-level vulnerabilities (e.g. use-after-free and buffer overflows)and common mitigations.\n• Good understanding of networking and web technologies (e.g. WebSockets, HTTPS, TCP/IP, UDP) and security controls relevant to them.\n• Familiarity with Windows and Linux operating systems fundamentals.\n• Familiarity with the software development lifecycle (SDLC) and working knowledge of components to secure the SLDC.\n• Practical experience with client network traffic testing tools and techniques e.g., Burp Suite, Fiddler and Bruno.\n• Practical experience with thick client testing tools and techniques e.g. Procmon, Strings2, Dependencies.\n• Proficiency in C#.\n• Excellent communication skills.\n\nPLUSES\n\nPlease note that these are desirable skills and are not required to apply for the position.\n\n• BSc/MSc in a computer science or related field.\n• Background in reverse engineering and exploit research & development and relevant tools such as Ghidra, IDA, x64dbg and WinDbg.\n• Experience with scripting and process automation. An understanding of effective practices for securing the SDLC that considers developer experience, sustainability and compliments release velocity.\n• Experience with authentication protocols and extensions such as OAuth2 and OIDC.\n• Experience in results-oriented, retail driven environment with strict deadlines and ship dates.\n• Familiarity with bug bounty programs/responsible disclosure programs, either running one or as a researcher.\n• Proficiency in C++ and JavaScript/TypeScript.\n\nHOW TO APPLY\n\nPlease apply with a CV and cover letter demonstrating how you meet the skills above. If we would like to move forward with your application, a Rockstar recruiter will reach out to you to explain next steps and guide you through the process.\n\nRockstar is committed to creating a work environment that promotes equal opportunity, dignity and respect. In line with this commitment, Rockstar will provide reasonable accommodations to qualified job applicants with disabilities during the recruitment process in order for such applicants to be considered for the position for which they are applying, as well as to qualified employees to enable them to perform the essential functions of their roles. If you need more information about Rockstar’s reasonable accommodation policies or process, or need to request an accommodation, please notify your recruiter during the interview process.\n\nIf you’ve got the right skills for the job, we want to hear from you. We encourage applications from all suitable candidates regardless of age, disability, gender identity, sexual orientation, religion, belief, race, or any other protected category.\n\n#LI-AH",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7893386003",
+    "desc": "At Rockstar Games, we create world-class entertainment experiences.\n\nBecome part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry.\n\nRockstar is on the lookout for a passionate Application Security Engineer who possess a passion for diving into complex software designs to identify security flaws and vulnerabilities.\n\nThis is a full-time, permanent and in-office position based in Rockstar’s unique game development studio in the heart of Dundee, Scotland.\n\nWHAT WE DO\n\n• The Rockstar Games Application Security team partners with numerous development teams across the company to incorporate security practices throughout the software development lifecycle.\n• We strive to understand the threat landscape affecting our development studios, the gaming industry, and the world at large to define secure development standards and guidelines to safeguard our business and protect our players.\n• We independently assess our application code and builds through various techniques (static analysis, dynamic analysis, software composition analysis, etc.) to identify potential vulnerabilities and design flaws and work with development teams to remediate.\n\nRESPONSIBILITIES\n\n• Track trends in the security community and stay abreast of emerging threats.\n• Provide technical security guidance to developers, team leads and producers.\n• Create and maintain threat models of applications and features to systematically understand how they can be attacked to prioritize control development.\n• Conduct automated and manual security assessments of applications and services.\n• Drive remediation efforts behind internally and publicly identified vulnerabilities.\n• Support maintaining Rockstar Games’ public and private bug bounty programs.\n\nREQUIREMENTS\n\n• 3+ years of experience working in a professional, academic or research environment identifying and remediating security bugs/flaws.\n• Strong knowledge of the principles and techniques for both manual and automated application security assessments of desktop and web applications.\n• Good knowledge of common web security vulnerabilities (e.g., OWASP Top 10), attack techniques and remediation tactics/strategies.\n• Good understanding of common low-level vulnerabilities (e.g. use-after-free and buffer overflows)and common mitigations.\n• Good understanding of networking and web technologies (e.g. WebSockets, HTTPS, TCP/IP, UDP) and security controls relevant to them.\n• Familiarity with Windows and Linux operating systems fundamentals.\n• Familiarity with the software development lifecycle (SDLC) and working knowledge of components to secure the SLDC.\n• Practical experience with client network traffic testing tools and techniques e.g., Burp Suite, Fiddler and Bruno.\n• Practical experience with thick client testing tools and techniques e.g. Procmon, Strings2, Dependencies.\n• Proficiency in C#.\n• Excellent communication skills.\n\nPLUSES\n\nPlease note that these are desirable skills and are not required to apply for the position.\n\n• BSc/MSc in a computer science or related field.\n• Background in reverse engineering and exploit research & development and relevant tools such as Ghidra, IDA, x64dbg and WinDbg.\n• Experience with scripting and process automation. An understanding of effective practices for securing the SDLC that considers developer experience, sustainability and compliments release velocity.\n• Experience with authentication protocols and extensions such as OAuth2 and OIDC.\n• Experience in results-oriented, retail driven environment with strict deadlines and ship dates.\n• Familiarity with bug bounty programs/responsible disclosure programs, either running one or as a researcher.\n• Proficiency in C++ and JavaScript/TypeScript.\n\nHOW TO APPLY\n\nPlease apply with a CV and cover letter demonstrating how you meet the skills above. If we would like to move forward with your application, a Rockstar recruiter will reach out to you to explain next steps and guide you through the process.\n\nRockstar is committed to creating a work environment that promotes equal opportunity, dignity and respect. In line with this commitment, Rockstar will provide reasonable accommodations to qualified job applicants with disabilities during the recruitment process in order for such applicants to be considered for the position for which they are applying, as well as to qualified employees to enable them to perform the essential functions of their roles. If you need more information about Rockstar’s reasonable accommodation policies or process, or need to request an accommodation, please notify your recruiter during the interview process.\n\nIf you’ve got the right skills for the job, we want to hear from you. We encourage applications from all suitable candidates regardless of age, disability, gender identity, sexual orientation, religion, belief, race, or any other protected category.\n\n#LI-AH",
     "site": "rockstargames.com",
     "source": "greenhouse",
     "role": "Программирование",
@@ -4924,8 +4920,7 @@ window.JOBS = [
       "C#",
       "TypeScript",
       "JavaScript"
-    ],
-    "hasRu": true
+    ]
   },
   {
     "id": "gh-socialpoint-5976449004",
@@ -4945,6 +4940,7 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Lead",
     "spec": null,
+    "permit": true,
     "stack": [],
     "hasRu": true
   },
@@ -4966,6 +4962,7 @@ window.JOBS = [
     "role": "Аналитика",
     "grade": "Lead",
     "spec": null,
+    "permit": true,
     "stack": [
       "Python",
       "SQL"
@@ -4990,6 +4987,7 @@ window.JOBS = [
     "role": "Аналитика",
     "grade": "Lead",
     "spec": null,
+    "permit": true,
     "stack": [
       "Python",
       "SQL"
@@ -5014,6 +5012,7 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": "Lead",
     "spec": null,
+    "permit": true,
     "stack": [],
     "hasRu": true
   },
@@ -5035,6 +5034,7 @@ window.JOBS = [
     "role": "Аналитика",
     "grade": "Senior",
     "spec": null,
+    "permit": true,
     "stack": [
       "Python",
       "SQL",
@@ -5060,6 +5060,7 @@ window.JOBS = [
     "role": "Аналитика",
     "grade": "Senior",
     "spec": null,
+    "permit": true,
     "stack": [
       "Python",
       "SQL"
@@ -5084,6 +5085,7 @@ window.JOBS = [
     "role": "Аналитика",
     "grade": "Senior",
     "spec": null,
+    "permit": true,
     "stack": [
       "Python",
       "SQL"
@@ -5108,6 +5110,7 @@ window.JOBS = [
     "role": "Аналитика",
     "grade": "Senior",
     "spec": null,
+    "permit": true,
     "stack": [
       "Python",
       "SQL"
@@ -5132,6 +5135,7 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Senior",
     "spec": null,
+    "permit": true,
     "stack": [],
     "hasRu": true
   },
@@ -5248,6 +5252,7 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": null,
     "spec": null,
+    "permit": true,
     "stack": [
       "Unreal"
     ],
@@ -5294,6 +5299,7 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": null,
     "spec": null,
+    "permit": true,
     "stack": [],
     "hasRu": true
   },
@@ -5315,6 +5321,7 @@ window.JOBS = [
     "role": "Продакт",
     "grade": null,
     "spec": null,
+    "permit": true,
     "stack": [
       "Python",
       "SQL"
@@ -5367,6 +5374,7 @@ window.JOBS = [
     "role": "Арт",
     "grade": "Lead",
     "spec": null,
+    "permit": true,
     "stack": [
       "Photoshop"
     ],
@@ -5405,7 +5413,7 @@ window.JOBS = [
       "London"
     ],
     "remote": true,
-    "rkind": "worldwide",
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-18",
     "url": "https://jobs.ashbyhq.com/moonactive/39792f97-064a-4744-a812-da844620b80e",
@@ -5448,25 +5456,24 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-wargaming-8030704",
+    "id": "gh-wargaming-8030709",
     "title": "Art Director (World of Tanks Console)",
     "company": "Wargaming",
     "locations": [
-      "Belgrade"
+      "Nicosia"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8030704",
-    "desc": "Job Overview\n\nWe are looking for an Art Director to join Wargaming and be a part of the product team working on World of Tanks Console. The Art Director's role combines high-level creative vision with strategic leadership. You will drive a team of highly professional artists, define the visual identity of the game, and ensure that every feature on console platforms reflects a cohesive and premium look and feel. As a subject matter expert, you will work in close collaboration with game teams to identify, prototype, and implement visual solutions that elevate player experience.\n\nReports to\n\nStudio Development Director\n\nWhat will you do?\n\n• Provide artistic leadership: Drive the overall vision of the project and ensure all artistic output aligns with the established style.\n• Strategic Impact: Collaborate with Creative Directors and Product Managers to define the long-term visual strategy for WoT Console, ensuring art assets directly contribute to player engagement and monetization goals.\n• Ensure art production quality and consistency: Maintain high standards across in-house teams and external contractors by establishing clear visual guidelines, review processes, and feedback loops.\n• Design and maintain visual stylistics: Create and conduct the art vision of the game features.\n• Act as a mentor: Guide team members to foster professional growth, focusing on creative excellence and artistic development.\n• Facilitate knowledge transfer: Collaborate with the production team to integrate high-quality visual solutions into the game development pipeline.\n\nWhat are we looking for?\n\n• 3+ years of experience as an Art Lead or Art Director in the game industry (a portfolio demonstrating released projects is a must).\n• Expertise in directing key art disciplines: art: concepts, environments, characters, vehicles, lighting, UI/UX, VFX, animation.\n• Proven ability to design and maintain visual stylistics across a variety of artistic directions.\n• Strong sense of scene composition, color, and lighting, with a deep understanding of how visuals impact gameplay.\n• Solid understanding of game development principles and modern pipelines.\n• Professional proficiency in English.\n\nWhat additional skills will help you stand out?\n\n• Experience in UI/UX direction.\n• Proven track record in managing and leading diverse art teams.\n• Basic understanding of programming/scripting to bridge the gap between art and tech.\n\nWork mode\n\n• Onsite\n• This role is eligible for relocation & immigration support.\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Belgrade include:\n\n• Additional vacation days based on years of service at Wargaming: up to 5 days on top of the statutory minimum\n• Additional paid time off (5 Personal Days, Birthday Leave, Marriage Leave, Compassionate Leave)\n• Sick Leave Compensation, Maternity Leave Benefits\n• Premium Private Health Insurance\n• Career development and education opportunities within the company\n• English clubs and platform for learning languages\n• Mental well-being program (iFeel)\n• Commuting allowance\n• Company events\n• FitPass membership\n• Discounts for employees\n• Personal Gaming Account\n• Coffee, fruits, and snacks in the office\n• On-site canteen with subsidized prices for food and drinks\n• Seniority Awards\n• Referral program - you can recommend the best talents to the Company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\n\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8030709",
+    "desc": "Job Overview\n\nWe are looking for an Art Director to join Wargaming and be a part of the product team working on World of Tanks Console. The Art Director's role combines high-level creative vision with strategic leadership. You will drive a team of highly professional artists, define the visual identity of the game, and ensure that every feature on console platforms reflects a cohesive and premium look and feel. As a subject matter expert, you will work in close collaboration with game teams to identify, prototype, and implement visual solutions that elevate player experience.\n\nReports to\n\nStudio Development Director\n\nWhat will you do?\n\n• Provide artistic leadership: Drive the overall vision of the project and ensure all artistic output aligns with the established style.\n• Strategic Impact: Collaborate with Creative Directors and Product Managers to define the long-term visual strategy for WoT Console, ensuring art assets directly contribute to player engagement and monetization goals.\n• Ensure art production quality and consistency: Maintain high standards across in-house teams and external contractors by establishing clear visual guidelines, review processes, and feedback loops.\n• Design and maintain visual stylistics: Create and conduct the art vision of the game features.\n• Act as a mentor: Guide team members to foster professional growth, focusing on creative excellence and artistic development.\n• Facilitate knowledge transfer: Collaborate with the production team to integrate high-quality visual solutions into the game development pipeline.\n\nWhat are we looking for?\n\n• 3+ years of experience as an Art Lead or Art Director in the game industry (a portfolio demonstrating released projects is a must).\n• Expertise in directing key art disciplines: art: concepts, environments, characters, vehicles, lighting, UI/UX, VFX, animation.\n• Proven ability to design and maintain visual stylistics across a variety of artistic directions.\n• Strong sense of scene composition, color, and lighting, with a deep understanding of how visuals impact gameplay.\n• Solid understanding of game development principles and modern pipelines.\n• Professional proficiency in English.\n\nWhat additional skills will help you stand out?\n\n• Experience in UI/UX direction.\n• Proven track record in managing and leading diverse art teams.\n• Basic understanding of programming/scripting to bridge the gap between art and tech.\n\nWork mode\n\n• Hybrid\n• This role is eligible for relocation & immigration support.\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Nicosia include:\n\n• 21 days annual leave (additional days based on years of service: up to 25 days)\n• Additional paid time off (5 Personal Days, Birthday Leave, Marriage Leave, Compassionate Leave)\n• Sick Leave (10 days top-up to statutory allowance per year)\n• Maternity Leave (18 weeks top-up to statutory allowance per case)\n• Career development and education opportunities within the company\n• English Language courses fully covered by the company upon Manager’s approval\n• Private Health Care\n• Mental well-being program (iFeel)\n• Onsite gym and spa\n• Free parking close to the Nicosia offices, based on availability\n• Free drinks-equipped kitchen in every floor building\n• Eurobank benefits (if applicable)\n• Employee discounts (e.g. restaurants, bars, etc.)\n• Personal Gaming Account\n• Onsite canteen with subsidized prices for food and drinks\n• Company events, Social Clubs\n• Seniority Awards\n• Referral program - You can recommend the best talents to the company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Арт",
     "grade": "Lead",
     "spec": null,
-    "stack": [],
-    "hasRu": true
+    "stack": []
   },
   {
     "id": "gh-wargaming-8108499",
@@ -5516,18 +5523,18 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-wargaming-7955997",
+    "id": "gh-wargaming-7955999",
     "title": "Data Analyst",
     "company": "Wargaming",
     "locations": [
-      "Belgrade"
+      "Nicosia"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7955997",
-    "desc": "Job Overview\n\nWe are seeking a data analytics professional to join our Data & Marketing Tech Team, to help improve measurement, analysis, and decision-making across complex data environments. This role combines data analysis, data research, and applied AI automation to work with multiple data sources, investigate business questions, and support reliable, scalable analytical workflows.\n\nReports to\n\n• Team Lead of Data & Marketing Technology\n\nWhat will you do?\n\n• Analyze data to answer business questions, identify patterns, and generate actionable insights\n• Research data across complex systems with multiple internal and external sources, understanding data flows, dependencies, and limitations\n• Support experiment measurement and analysis, including A/B tests, incrementality studies, and creative testing\n• Partner with marketing, product, and engineering on tracking requirements, measurement plans, and documentation\n• Design AI-powered automations for insight generation, anomaly detection, data validation, and analytical workflows\n• Help maintain data pipelines/semantic layers; ensure metric definitions and transformation logic are clean and well-documented\n\nWhat are we looking for?\n\n• Educated in Computer Science, Mathematics, Physics, or a similar field\n• Hands-on experience with data analysis and automation (SQL + Python, BI tools, workflow automation)\n• Proactive mindset and eagerness to grow practical AI skills (ML fundamentals, LLM tooling, data quality automation)\n• Experience operationalizing LLM workflows (prompting, evaluation, guardrails) for analytics use cases\n• Responsible, self-driven approach with the ability to take ownership of tasks and communicate proactively\n\nWhat additional skills will help you stand out?\n\n• Experience with warehouses (BigQuery/Snowflake), dbt, Airflow, or similar\n• Experience with product, marketing, or user behavior analytics, including funnels, cohorts, retention, attribution, LTV, experimentation, or similar measurement topics\n• Familiarity with mobile attribution, analytics, or measurement platforms, as well as working with multi-source data integration\n• Experience with predictive modeling techniques (e.g., regression/classification, time-series forecasting, uplift/propensity modeling) and model evaluation\n\nWork mode\n\n• Hybrid (2-3 days of work from the office)\n• This role is eligible for relocation & immigration support.\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Belgrade include:\n\n• Additional vacation days based on years of service at Wargaming: up to 5 days on top of the statutory minimum\n• Additional paid time off (5 Personal Days, Birthday Leave, Marriage Leave, Compassionate Leave)\n• Sick Leave Compensation, Maternity Leave Benefits\n• Premium Private Health Insurance\n• Career development and education opportunities within the company\n• English clubs and platform for learning languages\n• Mental well-being program (iFeel)\n• Commuting allowance\n• Company events\n• FitPass membership\n• Discounts for employees\n• Personal Gaming Account\n• Coffee, fruits, and snacks in the office\n• On-site canteen with subsidized prices for food and drinks\n• Seniority Awards\n• Referral program - you can recommend the best talents to the Company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\n\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7955999",
+    "desc": "Job Overview\n\nWe are seeking a data analytics professional to join our Data & Marketing Tech Team, to help improve measurement, analysis, and decision-making across complex data environments. This role combines data analysis, data research, and applied AI automation to work with multiple data sources, investigate business questions, and support reliable, scalable analytical workflows.\n\nReports to\n\n• Team Lead of Data & Marketing Technology\n\nWhat will you do?\n\n• Analyze data to answer business questions, identify patterns, and generate actionable insights\n• Research data across complex systems with multiple internal and external sources, understanding data flows, dependencies, and limitations\n• Support experiment measurement and analysis, including A/B tests, incrementality studies, and creative testing\n• Partner with marketing, product, and engineering on tracking requirements, measurement plans, and documentation\n• Design AI-powered automations for insight generation, anomaly detection, data validation, and analytical workflows\n• Help maintain data pipelines/semantic layers; ensure metric definitions and transformation logic are clean and well-documented\n\nWhat are we looking for?\n\n• Educated in Computer Science, Mathematics, Physics, or a similar field\n• Hands-on experience with data analysis and automation (SQL + Python, BI tools, workflow automation)\n• Proactive mindset and eagerness to grow practical AI skills (ML fundamentals, LLM tooling, data quality automation)\n• Experience operationalizing LLM workflows (prompting, evaluation, guardrails) for analytics use cases\n• Responsible, self-driven approach with the ability to take ownership of tasks and communicate proactively\n\nWhat additional skills will help you stand out?\n\n• Experience with warehouses (BigQuery/Snowflake), dbt, Airflow, or similar\n• Experience with product, marketing, or user behavior analytics, including funnels, cohorts, retention, attribution, LTV, experimentation, or similar measurement topics\n• Familiarity with mobile attribution, analytics, or measurement platforms, as well as working with multi-source data integration\n• Experience with predictive modeling techniques (e.g., regression/classification, time-series forecasting, uplift/propensity modeling) and model evaluation\n\nWork mode\n\n• Hybrid (2-3 days of work from the office)\n• This role is eligible for relocation & immigration support.\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Nicosia include:\n\n• 21 days annual leave (additional days based on years of service: up to 25 days)\n• Additional paid time off (5 Personal Days, Birthday Leave, Marriage Leave, Compassionate Leave)\n• Sick Leave (10 days top-up to statutory allowance per year)\n• Maternity Leave (18 weeks top-up to statutory allowance per case)\n• Career development and education opportunities within the company\n• English Language courses fully covered by the company upon Manager’s approval\n• Private Health Care\n• Mental well-being program (iFeel)\n• Onsite gym and spa\n• Free parking close to the Nicosia offices, based on availability\n• Free drinks-equipped kitchen in every floor building\n• Hellenic Bank benefits (if applicable)\n• Employee discounts (e.g. restaurants, bars, etc.)\n• Personal Gaming Account\n• Onsite canteen with subsidized prices for food and drinks\n• Company events, Social Clubs\n• Seniority Awards\n• Referral program - You can recommend the best talents to the company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Аналитика",
@@ -5536,8 +5543,7 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ],
-    "hasRu": true
+    ]
   },
   {
     "id": "gh-wargaming-8078945",
@@ -5566,25 +5572,24 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-wargaming-8129700",
+    "id": "gh-wargaming-8129695",
     "title": "Game Designer (World of Tanks PC)",
     "company": "Wargaming",
     "locations": [
-      "Vilnius"
+      "Nicosia"
     ],
     "remote": false,
     "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8129700",
-    "desc": "Job Overview\n\nWargaming is looking for a Game Designer to work on the legendary World of Tanks action MMO game with 160 million registered users worldwide.\n\nReports to\n\nLead Game Designer\n\nWhat will you do?\n\n• Feature owning in a separate team on the project. Controlling the game design direction and final quality of the features.\n• Working with core gameplay and meta. Focus here may differ depending on the current team’s priorities and backlog.\n• Participation in brainstorms & playtests.\n• Being responsible for translating the high-level game vision and design direction into tangible gameplay elements that work in concert with each other and with the other core disciplines (LD, narrative, level, art, sound, and tech) to create compelling and fun game experiences for the player.\n• Designing and communicating consistent game experiences across all main AAA platforms.\n• Using input from research, data analysis, and other teams to deeply understand customers and drive design decisions.\n\nWhat are we looking for?\n\n• 3+ years of experience as a Game Designer.\n• Good understanding of the modern f2p game design from sides of both core and meta gameplay.\n• Deep shooter experience: as a player or as a game designer.\n• Excellent communication and collaboration skills.\n• Ability to work within restrictions to solve problems as they occur.\n• Active contribution to the growth of the studio. Lead by example, including demonstrating a willingness to give and receive feedback, collaborate with others to share techniques, and ideas, and contribute to a positive working environment.\n• Willingness to take initiative and responsibility to increase the quality of the game and the health of the team.\n• Deep understanding of the needs of game users, and familiarity with the various processes of game production and operation.\n\nWhat additional skills will help you stand out?\n\n• Good knowledge of World of Tanks mechanics and systems.\n• Solid gameplay experience in World of Tanks.\n• Experience working on other Vehicle Shooter titles.\n\nWork mode\n\n• Hybrid\n\nThe salary range for this role in Vilnius is 3040- 4000 EUR monthly gross.\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Vilnius include:\n\n• Additional paid time off\n• Sick Leave Compensation\n• Pregnancy and Childbirth Leave Benefit\n• Career development and education opportunities within the company\n• Meal Allowance\n• Premium Private Health Care\n• Mental well-being program (iFeel)\n• Perks discounts platform (over 450 exclusive discounts)\n• Personal Gaming Account\n• Coffee, fruits, and snacks in the office\n• Company events\n• Seniority Awards\n• Referral program - You can recommend the best talents to the company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8129695",
+    "desc": "Job Overview\n\nWargaming is looking for a Game Designer to work on the legendary World of Tanks action MMO game with 160 million registered users worldwide.\n\nReports to\n\nLead Game Designer\n\nWhat will you do?\n\n• Feature owning in a separate team on the project. Controlling the game design direction and final quality of the features.\n• Working with core gameplay and meta. Focus here may differ depending on the current team’s priorities and backlog.\n• Participation in brainstorms & playtests.\n• Being responsible for translating the high-level game vision and design direction into tangible gameplay elements that work in concert with each other and with the other core disciplines (LD, narrative, level, art, sound, and tech) to create compelling and fun game experiences for the player.\n• Designing and communicating consistent game experiences across all main AAA platforms.\n• Using input from research, data analysis, and other teams to deeply understand customers and drive design decisions.\n\nWhat are we looking for?\n\n• 3+ years of experience as a Game Designer.\n• Good understanding of the modern f2p game design from sides of both core and meta gameplay.\n• Deep shooter experience: as a player or as a game designer.\n• Excellent communication and collaboration skills.\n• Ability to work within restrictions to solve problems as they occur.\n• Active contribution to the growth of the studio. Lead by example, including demonstrating a willingness to give and receive feedback, collaborate with others to share techniques, and ideas, and contribute to a positive working environment.\n• Willingness to take initiative and responsibility to increase the quality of the game and the health of the team.\n• Deep understanding of the needs of game users, and familiarity with the various processes of game production and operation.\n\nWhat additional skills will help you stand out?\n\n• Good knowledge of World of Tanks mechanics and systems.\n• Solid gameplay experience in World of Tanks.\n• Experience working on other Vehicle Shooter titles.\n\nWork mode\n\nHybrid\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Nicosia include:\n\n• 21 days annual leave (additional days based on years of service: up to 25 days)\n• Additional paid time off (5 Personal Days, Birthday Leave, Marriage Leave, Compassionate Leave)\n• Sick Leave (10 days top-up to statutory allowance per year)\n• Maternity Leave (18 weeks top-up to statutory allowance per case)\n• Career development and education opportunities within the company\n• English Language courses fully covered by the company upon Manager’s approval\n• Health Care\n• Mental well-being program (iFeel)\n• Onsite gym and spa\n• Free parking close to the Nicosia offices, based on availability\n• Free drinks-equipped kitchen in every floor building\n• Eurobank benefits (if applicable)\n• Employee discounts (e.g. restaurants, bars, etc.)\n• Personal Gaming Account\n• Onsite canteen with subsidized prices for food and drinks\n• Company events, Social Clubs\n• Seniority Awards\n• Referral program - You can recommend the best talents to the company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Геймдизайн",
     "grade": null,
     "spec": null,
-    "stack": [],
-    "hasRu": true
+    "stack": []
   },
   {
     "id": "gh-wargaming-8078961",
@@ -5608,25 +5613,47 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-wargaming-8064281",
-    "title": "Lead Art Owner/Art Producer (World of Tanks PC)",
+    "id": "gh-wargaming-7972336",
+    "title": "Gameplay Developer (World of Tanks, PC)",
     "company": "Wargaming",
     "locations": [
-      "Nicosia"
+      "Prague"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8064281",
-    "desc": "Job Overview\n\nWe are looking for a Lead Art Owner/Art Producer to manage a team of Art Owners supporting World of Tanks game production. This role combines people management, resource planning, production coordination, and process improvement to ensure the AO team operates effectively and the art pipeline runs smoothly. Lead Art Owner/Art Producer will work closely with cross-functional stakeholders - Art Direction, Art Management, Production, Project Management, and Design. Lead Art Owner/Art Producer will oversee workload, balance scope against capacity, support delivery planning, grow team capability, and drive cross-functional alignment. This role requires a strong understanding of art production, excellent communication skills, and an openness to innovation, including AI-driven workflow improvements.\n\nReports to\n\nArt Department Manager\n\nWhat will you do?\n\n• Lead a team of Art Owners\n• Conduct regular 1:1s, provide feedback, and manage performance through quarterly/annual goals and regular reviews.\n• Monitor AO workload and utilization, balancing scope and capacity across the team.\n• Coach and mentor the team in terms of their long-term skills development.\n• Partner with production and art leadership on resource planning and proactively address bandwidth or staffing risks.\n• Ensure clear priorities, ownership, and escalation paths for the AO team.\n• Improve task handoff, delivery flow, and coordination across the AO function.\n• Help AO team to identify and remove bottlenecks, mitigate risks, and ensure smooth art production delivery.\n• Act as a key point of contact for cross-functional stakeholders - Producers, Art Directors, Art Managers, Project Managers, and Design.\n• Strengthen stakeholder alignment, team collaboration, and communication transparency.\n• Review and improve AO-related processes, workflows, and best practices.\n• Drive innovation through smarter ways of working, including AI-enabled tools and automation where relevant.\n\nWhat are we looking for?\n\n• Experience leading or managing a team in game development, ideally in a AAA environment.\n• Strong people management skills, including coaching, feedback, and performance reviews.\n• Experience in resource management, workload balancing, and production planning.\n• Proven ability to work closely with art teams and cross-functional stakeholders.\n• Solid understanding of art production pipelines and delivery workflows.\n• Experience improving processes in complex, multi-stakeholder environments.\n• Previous hands-on art background in any discipline.\n• Strong communication, stakeholder management, and alignment skills.\n• English skills (B2+), written and spoken.\n• Russian skills (B2+), written and spoken\n\nWhat additional skills will help you stand out?\n\n• Familiarity with AI tools, automation, and/or workflow innovation in game production.\n\nWork mode\n\n• Hybrid (2-3 days of work from the office)\n• This role is eligible for relocation & immigration support.\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Nicosia include:\n\n• 21 days annual leave (additional days based on years of service: up to 25 days)\n• Additional paid time off (5 Personal Days, Birthday Leave, Marriage Leave, Compassionate Leave)\n• Sick Leave (10 days top-up to statutory allowance per year)\n• Maternity Leave (18 weeks top-up to statutory allowance per case)\n• Career development and education opportunities within the company\n• English Language courses fully covered by the company upon Manager’s approval\n• Private Health Care\n• Mental well-being program (iFeel)\n• Onsite gym and spa\n• Free parking close to the Nicosia offices, based on availability\n• Free drinks-equipped kitchen in every floor building\n• Eurobank benefits (if applicable)\n• Employee discounts (e.g. restaurants, bars, etc.)\n• Personal Gaming Account\n• Onsite canteen with subsidized prices for food and drinks\n• Company events, Social Clubs\n• Seniority Awards\n• Referral program - You can recommend the best talents to the company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7972336",
+    "desc": "Job Overview\n\nWargaming is inviting talented Gameplay developers who are ready to learn a lot, take responsibility for the result of their work and meet the expectations of our players together with us. In our team you will have to solve interesting tasks related to the development of World of Tanks on the whole technological stack.\n\nWhat will you do?\n\n• Participate in the creation of new game modes and logic on both game client and server using mainly Python;\n• Develop high performance (in terms of memory and execution time) in-game components;\n• Improve and develop the existing technology stack;\n• Work with dozens of additional services and applications that make up the large-scale infrastructure of our project (payment systems, authorization systems, analytical data warehouses, etc.);\n• Cover the functionality with tests.\n\nWhat are we looking for?\n\n• Experience in commercial software development;\n• Strong knowledge of basic data structures and algorithms;\n• Development experience in Python and/or C++;\n• Knowledge of design patterns;\n• Experience in developing asynchronous/multithreaded applications;\n• Knowledge of CPU and memory principles (RAM, ROM, cache, virtual memory, swap file, etc.);\n• Familiarity with databases, message brokers;\n• Knowledge of the basics of computer networks.\n\nWhat additional skills will help you stand out?\n\n• Experience in web applications development (frontend, backend);\n• Experience of working with distributed systems;\n• Passion for computer games;\n• Gamedev experience\n\nWork mode\n\n• Hybrid (3 days of work from the office)\n• This role is eligible for relocation & immigration support.\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Prague include:\n\n• 5 weeks of Annual Leave per calendar year\n• Additional paid time off\n• Sick Leave Compensation, Maternity & Paternity Leave Benefits\n• Career development and education opportunities within the company\n• Meal card contribution\n• Public transportation allowance\n• Premium private healthcare\n• Mental well-being program (iFeel)\n• Multisport Employee discounts\n• Personal Gaming Account\n• Coffee, fruits, and snacks in the office\n• Company events\n• Seniority Awards\n• Referral program - You can recommend the best talents to the company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
+    "site": "wargaming.com",
+    "source": "greenhouse",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Геймплей",
+    "stack": [
+      "C++",
+      "Python"
+    ]
+  },
+  {
+    "id": "gh-wargaming-8064286",
+    "title": "Lead Art Owner/Art Producer (World of Tanks PC)",
+    "company": "Wargaming",
+    "locations": [
+      "Vilnius"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-17",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8064286",
+    "desc": "Job Overview\n\nWe are looking for a Lead Art Owner/Art Producer to manage a team of Art Owners supporting World of Tanks game production. This role combines people management, resource planning, production coordination, and process improvement to ensure the AO team operates effectively and the art pipeline runs smoothly. Lead Art Owner/Art Producer will work closely with cross-functional stakeholders - Art Direction, Art Management, Production, Project Management, and Design. Lead Art Owner/Art Producer will oversee workload, balance scope against capacity, support delivery planning, grow team capability, and drive cross-functional alignment. This role requires a strong understanding of art production, excellent communication skills, and an openness to innovation, including AI-driven workflow improvements.\n\nReports to\n\nArt Department Manager\n\nWhat will you do?\n\n• Lead a team of Art Owners\n• Conduct regular 1:1s, provide feedback, and manage performance through quarterly/annual goals and regular reviews.\n• Monitor AO workload and utilization, balancing scope and capacity across the team.\n• Coach and mentor the team in terms of their long-term skills development.\n• Partner with production and art leadership on resource planning and proactively address bandwidth or staffing risks.\n• Ensure clear priorities, ownership, and escalation paths for the AO team.\n• Improve task handoff, delivery flow, and coordination across the AO function.\n• Help AO team to identify and remove bottlenecks, mitigate risks, and ensure smooth art production delivery.\n• Act as a key point of contact for cross-functional stakeholders - Producers, Art Directors, Art Managers, Project Managers, and Design.\n• Strengthen stakeholder alignment, team collaboration, and communication transparency.\n• Review and improve AO-related processes, workflows, and best practices.\n• Drive innovation through smarter ways of working, including AI-enabled tools and automation where relevant.\n\nWhat are we looking for?\n\n• Experience leading or managing a team in game development, ideally in a AAA environment.\n• Strong people management skills, including coaching, feedback, and performance reviews.\n• Experience in resource management, workload balancing, and production planning.\n• Proven ability to work closely with art teams and cross-functional stakeholders.\n• Solid understanding of art production pipelines and delivery workflows.\n• Experience improving processes in complex, multi-stakeholder environments.\n• Previous hands-on art background in any discipline.\n• Strong communication, stakeholder management, and alignment skills.\n• English skills (B2+), written and spoken.\n• Russian skills (B2+), written and spoken\n\nWhat additional skills will help you stand out?\n\n• Familiarity with AI tools, automation, and/or workflow innovation in game production.\n\nWork mode\n\n• Hybrid (2-3 days of work from the office)\n• This role is eligible for relocation & immigration support.\n\nThe salary range for this role in Vilnius is EUR 5670 monthly gross.\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Vilnius include:\n\n• Additional paid time off\n• Sick Leave Compensation\n• Pregnancy and Childbirth Leave Benefit\n• Career development and education opportunities within the company\n• Meal Allowance\n• Premium Private Health Care\n• Mental well-being program (iFeel)\n• Perks discounts platform (over 450 exclusive discounts)\n• Personal Gaming Account\n• Coffee, fruits, and snacks in the office\n• Company events\n• Seniority Awards\n• Referral program - You can recommend the best talents to the company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Арт",
     "grade": "Lead",
     "spec": null,
-    "stack": [],
-    "hasRu": true
+    "stack": []
   },
   {
     "id": "gh-wargaming-7904063",
@@ -5719,18 +5746,18 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-wargaming-7694777",
+    "id": "gh-wargaming-7694787",
     "title": "Senior Concept Artist Generalist (World of Tanks: HEAT)",
     "company": "Wargaming",
     "locations": [
-      "Belgrade"
+      "Vilnius"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7694777",
-    "desc": "Job Overview\n\nWe’re excited to launch a groundbreaking AAA game project - World of Tanks: HEAT and are looking for passionate, creative Senior Concept Artist Generalist to join our talented team. Our studio fosters a collaborative environment where your ideas are valued and your contributions will have a direct impact on the game’s success.\n\nOur team is a mix of industry veterans and fresh talent, dedicated to pushing the boundaries of what games can be. If you thrive in a dynamic atmosphere and are eager to shape an exciting AAA title from the ground up, we want to hear from you! Join us in creating something truly special in the gaming world. Your next big opportunity awaits!\n\nReports to\n\nArt Director\n\nWhat will you do?\n\n• Environment Design: create concept art for game environments, mostly exteriors, to enhance player exploration and engagement\n• Prop and Object Design: generate concept art for props, objects, and interactive elements within the game world, adding detail and depth to the overall environment and gameplay experience\n• UI/UX Design: collaborate with the UI/UX team to design backgrounds for user interfaces\n• Marketing Materials: produce concept art for marketing materials, including key art, promotional images, and visual assets used in trailers and advertisements, to attract and engage players\n• Storyboarding: assist in the creation of storyboards and visual sequences to visualize narrative elements, cutscenes, and gameplay scenarios, aiding in communication and planning\n• Iteration and Revision: iterate on concept designs based on feedback from stakeholders, making necessary revisions to enhance aesthetics, functionality, and alignment with project goals\n\nWhat are we looking for?\n\n• Proven Experience: a strong portfolio demonstrating your concept art skills across a variety of styles and themes within the gaming industry\n• Artistic Skills: proficiency in digital art tools and software, such as Photoshop, Procreate, or equivalent applications, with a keen understanding of composition, color theory, and visual storytelling\n• Creativity: ability to generate original and innovative concepts that push the boundaries of visual design while staying true to the project's artistic direction\n• Collaboration: strong communication and collaboration skills to effectively work within a multidisciplinary team and translate concepts into tangible assets that meet project requirements\n• Adaptability: the flexibility to adapt your artistic style and approach to suit different project requirements, themes, and artistic directions\n• Time Management: ability to manage multiple tasks and meet deadlines in a fast-paced and dynamic environment without compromising quality\n• Passion for Games: a genuine passion for video games and a deep understanding of how concept art contributes to the overall gaming experience, driving player immersion and engagement\n• English: upper-intermediate level or higher\n\nWhat additional skills will help you stand out?\n\n• Experience with 3D Software: familiarity with 3D modeling software, such as Maya or Blender, to create basic 3D mockups or reference models for concept art\n• Experience with game engines\n• Traditional Art Skills: proficiency in traditional art techniques, such as sketching, painting, or sculpting, to complement digital concept art creation and enhance visual storytelling\n• Storyboarding Experience: previous experience in storyboarding or sequential art for visual storytelling purposes, aiding in the development of narrative-driven content\n\nWork mode\n\n• Onsite\n• This role is eligible for relocation & immigration support\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Belgrade include:\n\n• Additional vacation days based on years of service at Wargaming: up to 5 days on top of the statutory minimum\n• Additional paid time off (5 Personal Days, Birthday Leave, Marriage Leave, Compassionate Leave)\n• Sick Leave Compensation, Maternity Leave Benefits\n• Premium Private Health Insurance\n• Career development and education opportunities within the company\n• English clubs and platform for learning languages\n• Mental well-being program (iFeel)\n• Commuting allowance\n• Company events\n• FitPass membership\n• Discounts for employees\n• Personal Gaming Account\n• Coffee, fruits, and snacks in the office\n• On-site canteen with subsidized prices for food and drinks\n• Seniority Awards\n• Referral program - you can recommend the best talents to the Company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7694787",
+    "desc": "Job Overview\n\nWe’re excited to launch a groundbreaking AAA game project - World of Tanks: HEAT and are looking for passionate, creative Senior Concept Artist Generalist to join our talented team. Our studio fosters a collaborative environment where your ideas are valued and your contributions will have a direct impact on the game’s success.\n\nOur team is a mix of industry veterans and fresh talent, dedicated to pushing the boundaries of what games can be. If you thrive in a dynamic atmosphere and are eager to shape an exciting AAA title from the ground up, we want to hear from you! Join us in creating something truly special in the gaming world. Your next big opportunity awaits!\n\nReports to\n\nArt Director\n\nWhat will you do?\n\n• Environment Design: create concept art for game environments, mostly exteriors, to enhance player exploration and engagement\n• Prop and Object Design: generate concept art for props, objects, and interactive elements within the game world, adding detail and depth to the overall environment and gameplay experience\n• UI/UX Design: collaborate with the UI/UX team to design backgrounds for user interfaces\n• Marketing Materials: produce concept art for marketing materials, including key art, promotional images, and visual assets used in trailers and advertisements, to attract and engage players\n• Storyboarding: assist in the creation of storyboards and visual sequences to visualize narrative elements, cutscenes, and gameplay scenarios, aiding in communication and planning\n• Iteration and Revision: iterate on concept designs based on feedback from stakeholders, making necessary revisions to enhance aesthetics, functionality, and alignment with project goals\n\nWhat are we looking for?\n\n• Proven Experience: a strong portfolio demonstrating your concept art skills across a variety of styles and themes within the gaming industry\n• Artistic Skills: proficiency in digital art tools and software, such as Photoshop, Procreate, or equivalent applications, with a keen understanding of composition, color theory, and visual storytelling\n• Creativity: ability to generate original and innovative concepts that push the boundaries of visual design while staying true to the project's artistic direction\n• Collaboration: strong communication and collaboration skills to effectively work within a multidisciplinary team and translate concepts into tangible assets that meet project requirements\n• Adaptability: the flexibility to adapt your artistic style and approach to suit different project requirements, themes, and artistic directions\n• Time Management: ability to manage multiple tasks and meet deadlines in a fast-paced and dynamic environment without compromising quality\n• Passion for Games: a genuine passion for video games and a deep understanding of how concept art contributes to the overall gaming experience, driving player immersion and engagement\n• English: upper-intermediate level or higher\n\nWhat additional skills will help you stand out?\n\n• Experience with 3D Software: familiarity with 3D modeling software, such as Maya or Blender, to create basic 3D mockups or reference models for concept art\n• Experience with game engines\n• Traditional Art Skills: proficiency in traditional art techniques, such as sketching, painting, or sculpting, to complement digital concept art creation and enhance visual storytelling\n• Storyboarding Experience: previous experience in storyboarding or sequential art for visual storytelling purposes, aiding in the development of narrative-driven content\n\nWork mode\n\n• Onsite\n• This role is eligible for relocation & immigration support\n\nThe salary range for this role in Vilnius is EUR 4500-6000 monthly gross.\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Vilnius include:\n\n• Additional paid time off\n• Sick Leave Compensation\n• Pregnancy and Childbirth Leave Benefit\n• Career development and education opportunities within the company\n• Meal Allowance\n• Premium Private Health Care\n• Mental well-being program (iFeel)\n• Perks discounts platform (over 450 exclusive discounts)\n• Personal Gaming Account\n• Coffee, fruits, and snacks in the office\n• Company events\n• Seniority Awards\n• Referral program - You can recommend the best talents to the company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Арт",
@@ -5740,8 +5767,7 @@ window.JOBS = [
       "Maya",
       "Blender",
       "Photoshop"
-    ],
-    "hasRu": true
+    ]
   },
   {
     "id": "gh-wargaming-7694788",
@@ -5761,6 +5787,7 @@ window.JOBS = [
     "role": "Арт",
     "grade": "Senior",
     "spec": null,
+    "permit": true,
     "stack": [
       "Maya",
       "Blender",
@@ -5819,25 +5846,24 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-tripledot-belka-4953969101",
+    "id": "gh-tripledot-belka-4954014101",
     "title": "Producer",
     "company": "Tripledot / Belka",
     "locations": [
-      "Barcelona"
+      "London"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4953969101",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4954014101",
     "desc": "Who are we?\n\nTripledot Studios is one of the largest independent mobile games companies in the world.\n\nWe are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios.\n\nOur expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users.\n\nTripledot’s guiding principle is that when people love what they do, what they do will be loved by others.\n\nWe’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games.\n\nOur ambition is to be the most successful games company in the world, and we’re just getting started.\n\nTripledot Games is a leading developer and publisher of casual and puzzle games, with a strong presence in London, Warsaw and Barcelona. The studio is responsible for multiple top 10 titles including Woodoku, Woodoku Blast, Solitaire and TripleTile.\n\nOur best-in-class data-driven approach spans the entire lifecycle from publishing to machine learning puzzle levels, helping us make fast, smart decisions at every stage of development. We are also one of the largest IAA operators worldwide.\n\nTripledot Games is a diverse and collaborative studio, home to people from over 36 nationalities. We take pride in our craftsmanship, strong focus on outcomes, and continuous improvement, building high-quality, scalable games that players around the world love.\n\nRole Overview\n\nAs a Producer at Tripledot Studios, you will lead a team on multiple initiatives, ensuring smooth communication, resource management, and timely delivery of high-quality features. You will guide the team from prototyping to soft launches, driving success and growth.\n\nThis role offers ownership of a skilled team, where you will manage essential ceremonies and processes while fostering collaboration both internally and with external stakeholders. It is ideal for someone who thrives in a fast-paced environment and is passionate about maintaining delivery best practices while creating engaging player experiences.\n\nThe ideal candidate is adaptable, conflict-resilient, and has a proven game production background, familiarity with tools like Jira, and the ability to work independently.\n\nKey Responsibilities\n\n• End-to-End Ownership: Owning the timelines for games/features from design to release with ability to dive into technical discussions and translate coherently to stakeholders.\n• Product Quality & Business Balance: Utilize a strong game sense to balance core business needs with delivering high-quality execution.\n• Team Leadership & Delivery: Coordinate a cross-functional team of ~30 (Dev, Art, QA) across multiple tracks—maintaining live games and developing new prototypes simultaneously as well as managing release schedule and releases.\n• Agile Facilitation: Own the team’s operating rhythm by leading agile ceremonies (stand-ups, planning, retrospectives) to drive execution and resolve blockers.\n• Central Team Synchronization: Manage dependencies with external departments (UA, Data, Central Tech), ensuring their requirements and deadlines are integrated into the project roadmap.\n• Roadmapping & Reporting: Maintain transparent roadmaps and communicate progress to stakeholders through regular, visual reporting and clear work plans.\n• Risk Management: Proactively identify production bottlenecks and risks, devising solutions to mitigate them before they impact the schedule or quality.\n• Process Optimization: Continuously adapt production methodologies to fit the team’s needs, favoring efficiency over rigid adherence to dogma.\n• Product Collaboration: Partner with the Product team to organize the backlog, ensuring tasks are distributed effectively to meet player and business goals.\n• Culture & Conflict Resolution: Foster a productive environment by resolving interpersonal conflicts, maintaining high morale, and promoting accountability.\n\nRequired Skills, Knowledge & Expertise\n\n• Production Experience: Proven track record in a Production/Delivery role within the games industry (Mobile preferred).\n• Scale: Experience organizing and coordinating large teams (30+) through the full development cycle, from prototype to Live Ops.\n• Methodology: Mastery of Agile/Scrum best practices, with the ability to tailor processes to team dynamics rather than imposing unnecessary procedures.\n• Stakeholder Management: Skilled in managing cross-departmental dependencies and aligning external deadlines with internal schedules.\n• Tool Proficiency: Advanced command of Jira and task-tracking suites to manage complex workflows.\n• Soft Skills: High emotional intelligence for conflict resolution, motivation, and a supportive, facilitative leadership style.\n• Strategic Thinking: Ability to make independent, data-informed decisions regarding resource allocation and development paths.\n• Location: Willingness to work onsite in London, Barcelona, or Warsaw.\n\nWorking at Tripledot…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "role": "Продюсирование",
     "grade": null,
     "spec": null,
-    "stack": [],
-    "hasRu": true
+    "stack": []
   },
   {
     "id": "lv-amanotes-a0cf60b3-0916-4eec-a6c4-dfecf7b494ea",
@@ -5955,18 +5981,16 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-epic-games-6001731004",
+    "id": "gh-epic-games-6001733004",
     "title": "Senior Environment Artist",
     "company": "Epic Games",
-    "locations": [
-      "Cary, United States"
-    ],
+    "locations": [],
     "remote": false,
     "rkind": null,
-    "salary": null,
+    "salary": "$ 176 262 – 293 770",
     "posted": "2026-08-17",
-    "url": "https://epicgames.com/careers/jobs/6001731004?gh_jid=6001731004",
-    "desc": "WHAT MAKES US EPIC?\n\nAt the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating.\n\nBeing Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development.\n\nART\n\nWhat We Do\n\nPush your artistic talent to the limit on a team of world-class environment, character and concept artists who strive to innovate and inspire.\n\nWhat You'll Do\n\nEpic Games is looking for experienced Senior Environment Artists to help build several initiatives as part of our collaboration with Disney. Our Senior Environment Artists are highly talented, creative, and versatile individuals who build the aesthetically groundbreaking and technically advanced environments used in our games. In this role, you will work directly with a world-class art team to help create exciting and compelling environments and own points of interest that will invite the player to discover and explore.\n\nIn this role, you will\n\n• Taking basic game designs and concept art, utilizing Unreal Engine, and bringing new points of interest to life, by collaborating with a variety of stakeholders, as an environment art point of contact\n• As an environment art point of contact you will work closely with Leads and Production to ensure a high-quality delivery of work through tasking and prioritizing deliverables, driving creative conversation with your level design partner, and maintaining clear and open lines of communication\n• Working in pre-production by contributing to ideation, building prototypes for both environmental sets and environmental gameplay needs - helping to ensure team success throughout the upcoming production cycle\n• Building and texturing assets, namely focused on architectural and thematic sets, that Level Design will use to dress the environments\n• Being an expert in 3D asset creation in DCC tools, such as 3DS Max, Maya, Blender, ZBrush. Strong knowledge of baking and texturing tools, such as Marmoset, Substance Painter and Designer, in order to develop assets in a high-to-low poly baking process, utilizing tileable textures, trim sheets, and unique unwraps, and displacement map creation\n• Strong understanding of performance restraints, and developing for multiple platforms\n• Providing mentorship to other Environment Artists, and making the team around them stronger through individual guidance, tutorial and documentation creation, and leading by example through setting and raising our high bar of quality and timeliness\n\nWhat we're looking for\n\n• At minimum, 5 years of professional experience in the video game industry building environments and assets for shipped titles\n• At minimum, 3 shipped titles which exhibit AAA game quality art\n• Online portfolio of previous professional and personal work\n• Excellent written and verbal English communication skills\n\nEPIC JOB + EPIC BENEFITS = EPIC LIFE\n\nOur intent is to cover all things that are medically necessary and improve the quality of life. We pay 100% of the premiums for both you and your dependents. Our coverage includes Medical, Dental, a Vision HRA, Long Term Disability, Life Insurance & a 401k with competitive match. We also offer a robust mental well-being program through Modern Health, which provides free therapy and coaching for employees & dependents. Throughout the year we celebrate our employees with events and company-wide paid breaks. We offer unlimited PTO and sick time and recognize individuals for 7 years of employment with a paid sabbatical.\nABOUT US\n\nEpic Games​ ​is a leading interactive entertainment company. For over 30 years we've been making award-winning games and engine technology that empowers others to make visually stunning games and 3D content that bring environments to life like never before. Epic's award-winning Unreal Engine technology not only provides game developers the ability to build high-fidelity, interactive experiences for PC, console, mobile, and VR, it is also a tool being embraced by content creators across a variety of industries such as media and entertainment, automotive, and architectural design. As we continue to build our Engine technology and develop remarkable games, we strive to build teams of world-class talent.\n\nLike what you hear? Come be a part of something Epic!\n\nEpic Games deeply values diverse teams and an inclusive work culture, and we are proud to be an Equal Opportunity employer. Learn more about our Equal Employment Opportunity (EEO) Policy here.\n\nNote to Recruitment Agencies: Epic does not accept any unsolicited resumes or approaches from any unauthorized third party (including recruitment or placement agencies) (i.e., a third party with whom we do not have a negotiated and validly executed agreement). We will not pay any fees to any unauthorized third party. Further details on these matters can be found here.",
+    "url": "https://epicgames.com/careers/jobs/6001733004?gh_jid=6001733004",
+    "desc": "WHAT MAKES US EPIC?\n\nAt the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating.\n\nBeing Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development.\n\nART\n\nWhat We Do\n\nPush your artistic talent to the limit on a team of world-class environment, character and concept artists who strive to innovate and inspire.\n\nWhat You'll Do\n\nEpic Games is looking for experienced Senior Environment Artists to help build several initiatives as part of our collaboration with Disney. Our Senior Environment Artists are highly talented, creative, and versatile individuals who build the aesthetically groundbreaking and technically advanced environments used in our games. In this role, you will work directly with a world-class art team to help create exciting and compelling environments and own points of interest that will invite the player to discover and explore.\n\nIn this role, you will\n\n• Taking basic game designs and concept art, utilizing Unreal Engine, and bringing new points of interest to life, by collaborating with a variety of stakeholders, as an environment art point of contact\n• As an environment art point of contact you will work closely with Leads and Production to ensure a high-quality delivery of work through tasking and prioritizing deliverables, driving creative conversation with your level design partner, and maintaining clear and open lines of communication\n• Working in pre-production by contributing to ideation, building prototypes for both environmental sets and environmental gameplay needs - helping to ensure team success throughout the upcoming production cycle\n• Building and texturing assets, namely focused on architectural and thematic sets, that Level Design will use to dress the environments\n• Being an expert in 3D asset creation in DCC tools, such as 3DS Max, Maya, Blender, ZBrush. Strong knowledge of baking and texturing tools, such as Marmoset, Substance Painter and Designer, in order to develop assets in a high-to-low poly baking process, utilizing tileable textures, trim sheets, and unique unwraps, and displacement map creation\n• Strong understanding of performance restraints, and developing for multiple platforms\n• Providing mentorship to other Environment Artists, and making the team around them stronger through individual guidance, tutorial and documentation creation, and leading by example through setting and raising our high bar of quality and timeliness\n\nWhat we're looking for\n\n• At minimum, 5 years of professional experience in the video game industry building environments and assets for shipped titles\n• At minimum, 3 shipped titles which exhibit AAA game quality art\n• Online portfolio of previous professional and personal work\n• Excellent written and verbal English communication skills\n\nThis role is open to multiple locations across the US (including CA, NYC, & WA).\n\nPay Transparency Information\n\nThe expected annual base pay range(s) for this position are detailed below. Each base pay range is relevant only for individuals who are residents of or will be expected to work within the specified locale. Compensation varies based on a variety of factors, which include (but aren’t limited to) things such as skills and competencies, qualifications, knowledge, and experience. In addition to base pay, most employees are eligible to participate in Epic’s generous benefit plans and discretionary incentive programs (subject to the terms of those plans or programs).\nNew York City Base Pay Range\n$176,262—$293,770 USD\n\nCalifornia Base Pay Range\n$155,111—$258,518 USD\n\nWashington Base Pay Range\n$165,686—$276,144 USD\n\nABOUT US\n\nEpic Games​ ​is a leading interactive entertainment company. For over 30 years we've been making award-winning games and engine technology that empowers others to make visually stunning games and 3D content that bring environments to life like never before. Epic's award-winning Unreal Engine technology not only provides game developers the ability to build high-fidelity, interactive experiences for PC, console, mobile, and VR, it is also a tool being embraced by content creators across a variety of industries such as media and entertainment, automotive, and architectural design. As we continue to build our Engine technology and develop remarkable games, we strive to build teams of world-class talent.\n\nLike what you hear? Come be a part of something Epic!\n\nEpic Games deeply values diverse teams and an inclusive work culture, and we are proud to be an Equal Opportunity employer. Learn more about our Equal Employment Opportunity (EEO) Policy here.\n\nNote to Recruitment Agencies: Epic does not accept any unsolicited resumes or approaches from any unauthorized third party (including recruitment or placement agencies) (i.e., a third party with whom we do not have a negotiated and validly executed agreement). We will not pay any fees to any unauthorized third party. Further details on these matters can be found here.",
     "site": "epicgames.com",
     "source": "greenhouse",
     "role": "Арт",
@@ -5978,8 +6002,7 @@ window.JOBS = [
       "Blender",
       "ZBrush",
       "Substance"
-    ],
-    "hasRu": true
+    ]
   },
   {
     "id": "gh-scopely-5393200008",
@@ -6120,6 +6143,7 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Senior",
     "spec": "Геймплей",
+    "permit": true,
     "stack": [
       "Unreal",
       "C++"
@@ -6284,6 +6308,28 @@ window.JOBS = [
     "spec": null,
     "stack": [],
     "hasRu": true
+  },
+  {
+    "id": "gh-tripledot-belka-4953254101",
+    "title": "Data Scientist",
+    "company": "Tripledot / Belka",
+    "locations": [
+      "London"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-14",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4953254101",
+    "desc": "Who are we?\n\nTripledot Studios is one of the largest independent mobile games companies in the world.\n\nWe are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios.\n\nOur expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users.\n\nTripledot’s guiding principle is that when people love what they do, what they do will be loved by others.\n\nWe’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games.\n\nOur ambition is to be the most successful games company in the world, and we’re just getting started.\n\nThe role is working within our studio: Tripledot Games\n\nAbout Tripledot Games\n\nTripledot Games is a leading developer and publisher of casual and puzzle games, with a strong presence in London, Warsaw, and Barcelona. The studio is responsible for multiple top 10 titles, including Woodoku, Woodoku Blast, Solitaire, and TripleTile. Our best-in-class data-driven approach spans the entire lifecycle from publishing to machine learning puzzle levels, helping us make fast, smart decisions at every stage of development.\n\nWe are also one of the largest IAA operators worldwide. Tripledot Games is a diverse and collaborative studio, home to people from over 36 nationalities. We take pride in our craftsmanship, strong focus on outcomes, and continuous improvement, building high-quality, scalable games that players around the world love.\n\nRole Overview\n\nAs a Data Scientist in our Experimentation team, you will help deliver and improve Tripledot’s company-wide experimentation analysis platform. Working closely with Data Engineering, you will define the statistical logic and methodologies behind platform features, build prototypes in Python, and ensure the platform produces accurate, reliable results for product teams across our games portfolio.\n\nYour initial focus will include hands-on quality assurance: running independent analyses, comparing results with platform outputs, investigating discrepancies, and validating features and metrics. This offers the opportunity to develop deep expertise in experimentation and A/B testing across a sophisticated internal platform. As the platform evolves, the role will expand into more advanced statistical and machine learning work that delivers value across the business.\n\nKey Responsibilities\n\n• Define statistical logic, calculation methods, and detailed requirements for experimentation platform features.\n• Prototype statistical methodologies and analyses in Python before implementation.\n• Partner closely with Data Engineers as they develop and improve the experimentation platform.\n• Perform thorough data and feature QA by independently calculating results and comparing them with platform outputs.\n• Investigate discrepancies, identify root causes, and help ensure metrics and analyses are accurate and reliable.\n• Explore opportunities to automate QA processes and improve the efficiency and quality of validation.\n• Build a deep understanding of experimentation methodologies, including A/B testing, monitoring, segmentation, and analysis.\n• Collaborate with BI, Machine Learning, product teams, and other stakeholders to understand requests and shape effective solutions.\n• Contribute to future statistical, algorithmic, and machine learning initiatives as the team’s priorities evolve.\n\nSkills, Knowledge and Expertise\n\n• 3-5 years of professional experience as a Data Scientist or in a closely related role\n• Strong Python skills, including the ability to prototype analyses and write clear, reliable scripts.\n• Solid knowledge of statistics and standard statistical methodologies.\n• Practical understanding of experimentation and A/B testing, including how metrics and results should be calculated and validated.\n• Familiarity with machine learning methods and the ability to apply relevant approaches when needed.\n• Excellent attention to detail and a disciplined approach to repetitive or methodical QA work.\n• Strong problem-solving skills, with the initiative to propose creative solutions and process improvements.\n• Clear communication skills and the ability to explain analytical methods, results, and rationale.\n• Experience with experimentation platforms or high-volume digital products, such as gaming, e-commerce, or ride-hailing, would be valuable.\n• Ability to critically evaluate and validate AI-generated code, analyses, or modelling suggestions to ensure correctness and reproducibility.\n• Experience using AI-assisted tools (e.g. code assistants or analytical copilots) to accelerate data exploration, research prototyping, and development workflows while maintaining scientific and statistical rigor.\n• Interest in exploring AI-driven approaches that improve experimentation platforms, developer productivity, or data science research workflows.\n\nWorking at Tripledot…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
+    "site": "tripledotstudios.com",
+    "source": "greenhouse",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python"
+    ]
   },
   {
     "id": "lv-xsolla-4889d04f-0e77-4cdb-8724-fd3a63009f7f",
@@ -7499,18 +7545,18 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-epic-games-6144655004",
+    "id": "gh-epic-games-6144437004",
     "title": "Senior Engine Programmer, Unreal Cloud Services",
     "company": "Epic Games",
     "locations": [
-      "Montreal, Canada"
+      "London, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-14",
-    "url": "https://epicgames.com/careers/jobs/6144655004?gh_jid=6144655004",
-    "desc": "WHAT MAKES US EPIC?\n\nAt the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating.\n\nBeing Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development.\n\nPROGRAMMING - UNREAL ENGINE\n\nWhat We Do\n\nUnreal-powered projects have been on the bleeding edge of real-time entertainment for over 20 years. Our team of programming experts are always innovating to improve the tools and technology that empower content developers worldwide.\n\nWhat You'll Do\n\nJoin Unreal Cloud Services, the team behind Lore (Epic's next-generation, open-source version control system built for the future of game development). You'll work at the boundary between editor and cloud, making distributed workflows, collaboration, and version control feel like a natural part of the creator experience. As Unreal evolves toward UE6, you'll help bring these capabilities together into a cohesive editor experience.\n\nIn this role, you will\n\n• Build Unreal Editor features that bring cloud-based collaboration into everyday creator workflows\n• Implement responsive editor experiences that interact with asynchronous and distributed servi\n• Work across editor, networking, storage, revision control, and UX systems to make cloud-backed workflows feel natural to Unreal Engi\n• Partner with Product and UX teams to turn product ideas into clear, practical, and polished editor experiences\n• Collaborate with backend and infrastructure programmers on features that span the editor and cloud services\n• Use modern development practices, including AI-assisted programming, to improve implementation, debugging, and iteration\n\nWhat we're looking for\n\n• Strong C++ skills and experience working in a large native codebase\n• Experience building user-facing tools, editor features, and complex interactive workflows\n• Experience building clients that interact with asynchronous or networked services\n• Strong understanding of parallelism, networking, latency, and failure handling\n• Strong eye for user experience and how technical behavior affects creator workflows\n• Experience working closely with Product, UX, and programming teams to ship features\n• Experience with Unreal Engine, another game engine, or comparable tools development\n• Experience with Rust is a plus\n\nEPIC JOB + EPIC BENEFITS = EPIC LIFE\n\nWe pay 100% for benefits for both employees and dependents and offer coverage for supplemental medical, dental, vision, critical illness, telemedicine, Life and AD&D, long term disability insurance as well as weekly indemnity (short term disability) and a retirement savings plan with a competitive employer match. In addition to the EAP (employee assistance program), we also offer a robust mental well-being program through Modern Health, which provides free therapy and coaching for employees & dependents.\nABOUT US\n\nEpic Games​ ​is a leading interactive entertainment company. For over 30 years we've been making award-winning games and engine technology that empowers others to make visually stunning games and 3D content that bring environments to life like never before. Epic's award-winning Unreal Engine technology not only provides game developers the ability to build high-fidelity, interactive experiences for PC, console, mobile, and VR, it is also a tool being embraced by content creators across a variety of industries such as media and entertainment, automotive, and architectural design. As we continue to build our Engine technology and develop remarkable games, we strive to build teams of world-class talent.\n\nLike what you hear? Come be a part of something Epic!\n\nEpic Games deeply values diverse teams and an inclusive work culture, and we are proud to be an Equal Opportunity employer. Learn more about our Equal Employment Opportunity (EEO) Policy here.\n\nNote to Recruitment Agencies: Epic does not accept any unsolicited resumes or approaches from any unauthorized third party (including recruitment or placement agencies) (i.e., a third party with whom we do not have a negotiated and validly executed agreement). We will not pay any fees to any unauthorized third party. Further details on these matters can be found here.",
+    "url": "https://epicgames.com/careers/jobs/6144437004?gh_jid=6144437004",
+    "desc": "WHAT MAKES US EPIC?\n\nAt the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating.\n\nBeing Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development.\n\nENGINEERING - UNREAL ENGINE\n\nWhat We Do\n\nUnreal-powered projects have been on the bleeding edge of real-time entertainment for over 20 years. Our team of engineering experts are always innovating to improve the tools and technology that empower content developers worldwide.\n\nWhat You'll Do\n\nJoin Unreal Cloud Services, the team behind Lore (Epic's next-generation, open-source version control system built for the future of game development). You'll work at the boundary between editor and cloud, making distributed workflows, collaboration, and version control feel like a natural part of the creator experience. As Unreal evolves toward UE6, you'll help bring these capabilities together into a cohesive editor experience.\n\nIn this role, you will\n\n• Build Unreal Editor features that bring cloud-based collaboration into everyday creator workflows\n• Implement responsive editor experiences that interact with asynchronous and distributed servi\n• Work across editor, networking, storage, revision control, and UX systems to make cloud-backed workflows feel natural to Unreal Engi\n• Partner with Product and UX teams to turn product ideas into clear, practical, and polished editor experiences\n• Collaborate with backend and infrastructure engineers on features that span the editor and cloud services\n• Use modern development practices, including AI-assisted programming, to improve implementation, debugging, and iteration\n\nWhat we're looking for\n\n• Strong C++ skills and experience working in a large native codebase\n• Experience building user-facing tools, editor features, and complex interactive workflows\n• Experience building clients that interact with asynchronous or networked services\n• Strong understanding of parallelism, networking, latency, and failure handling\n• Strong eye for user experience and how technical behavior affects creator workflows\n• Experience working closely with Product, UX, and engineering teams to ship features\n• Experience with Unreal Engine, another game engine, or comparable tools development\n• Experience with Rust is a plus\n\nEPIC JOB + EPIC BENEFITS = EPIC LIFE\n\nWe pay 100% for benefits except for PMI (for dependents). Our current benefits package includes pension, private medical insurance, health care cash plan, dental insurance, disability and life insurance, critical illness, cycle to work scheme, flu shots, health checks, and meals. We also offer a robust mental well-being program through Modern Health, which provides free therapy and coaching for employees & dependents.\nABOUT US\n\nEpic Games​ ​is a leading interactive entertainment company. For over 30 years we've been making award-winning games and engine technology that empowers others to make visually stunning games and 3D content that bring environments to life like never before. Epic's award-winning Unreal Engine technology not only provides game developers the ability to build high-fidelity, interactive experiences for PC, console, mobile, and VR, it is also a tool being embraced by content creators across a variety of industries such as media and entertainment, automotive, and architectural design. As we continue to build our Engine technology and develop remarkable games, we strive to build teams of world-class talent.\n\nLike what you hear? Come be a part of something Epic!\n\nEpic Games deeply values diverse teams and an inclusive work culture, and we are proud to be an Equal Opportunity employer. Learn more about our Equal Employment Opportunity (EEO) Policy here.\n\nNote to Recruitment Agencies: Epic does not accept any unsolicited resumes or approaches from any unauthorized third party (including recruitment or placement agencies) (i.e., a third party with whom we do not have a negotiated and validly executed agreement). We will not pay any fees to any unauthorized third party. Further details on these matters can be found here.",
     "site": "epicgames.com",
     "source": "greenhouse",
     "role": "Программирование",
@@ -7519,22 +7565,21 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ],
-    "hasRu": true
+    ]
   },
   {
-    "id": "gh-epic-games-6144551004",
+    "id": "gh-epic-games-6144078004",
     "title": "Senior Technical Artist, World and Content Creation",
     "company": "Epic Games",
     "locations": [
-      "Montreal, Canada"
+      "Cary, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-14",
-    "url": "https://epicgames.com/careers/jobs/6144551004?gh_jid=6144551004",
-    "desc": "WHAT MAKES US EPIC?\n\nAt the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating.\n\nBeing Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development.\n\nART\n\nWhat We Do\n\nPush your artistic talent to the limit on a team of world-class environment, character and concept artists who strive to innovate and inspire.\n\nWhat You'll Do\n\nJoin the industry-leading Unreal Engine team as a Senior Technical Artist and help shape the future of the world and content creation. You'll work hands-on across the full development cycle from procedural content generation to world partition streaming, modeling, and terrain tools to define what best-in-class tools look like for creators across all platforms.\n\nIn this role, you will\n\n• Contribute to the design and iterative development of world building and content creation tools in Unreal Engine\n• Partner with Programming and UX teams to design workflows and build applicable solutions\n• Ensure tools are best-in-class by creating prototypes, demos, and examples, and providing ongoing feedback\n• Drive product initiatives with minimal direction\n• Engage with internal Epic Games production teams and external users to understand their needs and requirements\n• Apply subject matter expertise to influence product deliverables and manage the product roadmap\n• Collaborate with marketing and sales teams to articulate the problems you're solving and the value delivered to users\n\nWhat we're looking for\n\n• Experience in world-building and/or content creation (as a Senior Technical Artist or equivalent), working alongside strong programming teams\n• Subject matter expertise in environment and asset production, 3D modeling, geometry scripting, and procedural content generation\n• Experience with Unreal's Procedural Content Generation (PCG) Framework, Houdini, Maya, 3ds Max, or Blender\n• Ability to represent user needs and think across near-term (tactics) and long-term (strategy) product goals\n• Experience driving product initiatives and seeing features through from development to productization\n• Excellent communication and relationship-building skills, with the ability to manage complex tasks, adapt to shifting scope, and work across cross-functional teams\n• Scripting experience or strong technical fundamentals\n• Artistic skills or a strong eye for evaluating artistic work\n• Experience with Unreal Engine, Unity, or a proprietary game engine is a plus\n\nEPIC JOB + EPIC BENEFITS = EPIC LIFE\n\nWe pay 100% for benefits for both employees and dependents and offer coverage for supplemental medical, dental, vision, critical illness, telemedicine, Life and AD&D, long term disability insurance as well as weekly indemnity (short term disability) and a retirement savings plan with a competitive employer match. In addition to the EAP (employee assistance program), we also offer a robust mental well-being program through Modern Health, which provides free therapy and coaching for employees & dependents.\nABOUT US\n\nEpic Games​ ​is a leading interactive entertainment company. For over 30 years we've been making award-winning games and engine technology that empowers others to make visually stunning games and 3D content that bring environments to life like never before. Epic's award-winning Unreal Engine technology not only provides game developers the ability to build high-fidelity, interactive experiences for PC, console, mobile, and VR, it is also a tool being embraced by content creators across a variety of industries such as media and entertainment, automotive, and architectural design. As we continue to build our Engine technology and develop remarkable games, we strive to build teams of world-class talent.\n\nLike what you hear? Come be a part of something Epic!\n\nEpic Games deeply values diverse teams and an inclusive work culture, and we are proud to be an Equal Opportunity employer. Learn more about our Equal Employment Opportunity (EEO) Policy here.\n\nNote to Recruitment Agencies: Epic does not accept any unsolicited resumes or approaches from any unauthorized third party (including recruitment or placement agencies) (i.e., a third party with whom we do not have a negotiated and validly executed agreement). We will not pay any fees to any unauthorized third party. Further details on these matters can be found here.",
+    "url": "https://epicgames.com/careers/jobs/6144078004?gh_jid=6144078004",
+    "desc": "WHAT MAKES US EPIC?\n\nAt the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating.\n\nBeing Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development.\n\nART\n\nWhat We Do\n\nPush your artistic talent to the limit on a team of world-class environment, character and concept artists who strive to innovate and inspire.\n\nWhat You'll Do\n\nJoin the industry-leading Unreal Engine team as a Senior Technical Artist and help shape the future of the world and content creation. You'll work hands-on across the full development cycle from procedural content generation to world partition streaming, modeling, and terrain tools to define what best-in-class tools look like for creators across all platforms.\n\nIn this role, you will\n\n• Contribute to the design and iterative development of world building and content creation tools in Unreal Engine\n• Partner with Programming and UX teams to design workflows and build applicable solutions\n• Ensure tools are best-in-class by creating prototypes, demos, and examples, and providing ongoing feedback\n• Drive product initiatives with minimal direction\n• Engage with internal Epic Games production teams and external users to understand their needs and requirements\n• Apply subject matter expertise to influence product deliverables and manage the product roadmap\n• Collaborate with marketing and sales teams to articulate the problems you're solving and the value delivered to users\n\nWhat we're looking for\n\n• Experience in world-building and/or content creation (as a Senior Technical Artist or equivalent), working alongside strong engineering teams\n• Subject matter expertise in environment and asset production, 3D modeling, geometry scripting, and procedural content generation\n• Experience with Unreal's Procedural Content Generation (PCG) Framework, Houdini, Maya, 3ds Max, or Blender\n• Ability to represent user needs and think across near-term (tactics) and long-term (strategy) product goals\n• Experience driving product initiatives and seeing features through from development to productization\n• Excellent communication and relationship-building skills, with the ability to manage complex tasks, adapt to shifting scope, and work across cross-functional teams\n• Scripting experience or strong technical fundamentals\n• Artistic skills or a strong eye for evaluating artistic work\n• Experience with Unreal Engine, Unity, or a proprietary game engine is a plus\n\nEPIC JOB + EPIC BENEFITS = EPIC LIFE\n\nOur intent is to cover all things that are medically necessary and improve the quality of life. We pay 100% of the premiums for both you and your dependents. Our coverage includes Medical, Dental, a Vision HRA, Long Term Disability, Life Insurance & a 401k with competitive match. We also offer a robust mental well-being program through Modern Health, which provides free therapy and coaching for employees & dependents. Throughout the year we celebrate our employees with events and company-wide paid breaks. We offer unlimited PTO and sick time and recognize individuals for 7 years of employment with a paid sabbatical.\nABOUT US\n\nEpic Games​ ​is a leading interactive entertainment company. For over 30 years we've been making award-winning games and engine technology that empowers others to make visually stunning games and 3D content that bring environments to life like never before. Epic's award-winning Unreal Engine technology not only provides game developers the ability to build high-fidelity, interactive experiences for PC, console, mobile, and VR, it is also a tool being embraced by content creators across a variety of industries such as media and entertainment, automotive, and architectural design. As we continue to build our Engine technology and develop remarkable games, we strive to build teams of world-class talent.\n\nLike what you hear? Come be a part of something Epic!\n\nEpic Games deeply values diverse teams and an inclusive work culture, and we are proud to be an Equal Opportunity employer. Learn more about our Equal Employment Opportunity (EEO) Policy here.\n\nNote to Recruitment Agencies: Epic does not accept any unsolicited resumes or approaches from any unauthorized third party (including recruitment or placement agencies) (i.e., a third party with whom we do not have a negotiated and validly executed agreement). We will not pay any fees to any unauthorized third party. Further details on these matters can be found here.",
     "site": "epicgames.com",
     "source": "greenhouse",
     "role": "Технический художник",
@@ -7546,8 +7591,7 @@ window.JOBS = [
       "Maya",
       "Blender",
       "Houdini"
-    ],
-    "hasRu": true
+    ]
   },
   {
     "id": "gh-scopely-5390693008",
@@ -7557,7 +7601,7 @@ window.JOBS = [
       "Barcelona, Spain"
     ],
     "remote": false,
-    "rkind": "worldwide",
+    "rkind": "zone",
     "salary": null,
     "posted": "2026-08-14",
     "url": "https://job-boards.greenhouse.io/scopely/jobs/5390693008?gh_jid=5390693008",
@@ -7567,6 +7611,7 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": "Lead",
     "spec": null,
+    "permit": true,
     "stack": [
       "SQL"
     ],
@@ -7828,18 +7873,16 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-epic-games-5763801004",
+    "id": "gh-epic-games-5763803004",
     "title": "Character Animation Lead",
     "company": "Epic Games",
-    "locations": [
-      "Cary, United States"
-    ],
+    "locations": [],
     "remote": false,
     "rkind": null,
-    "salary": null,
+    "salary": "$ 210 445 – 308 652",
     "posted": "2026-08-13",
-    "url": "https://epicgames.com/careers/jobs/5763801004?gh_jid=5763801004",
-    "desc": "WHAT MAKES US EPIC?\n\nAt the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating.\n\nBeing Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development.\n\nART\n\nWhat We Do\n\nPush your artistic talent to the limit on a team of world-class environment, character, and concept artists who strive to innovate and inspire.\n\nWhat You'll Do\n\nEpic Games is looking for a Character Animation Director to join our Special Projects team to help drive the vision and execution of character animation across experimental and gameplay-driven prototypes. You will combine strong animation fundamentals with technical fluency in Unreal Engine to build responsive, expressive, and scalable animation systems. You will act as a bridge between animation and engineering - helping to define workflows, shape systems, and solve complex problems at the intersection of gameplay and motion. This role requires both hands-on creation and leadership: setting quality bars, guiding others, and helping a small team move quickly without sacrificing clarity or craft.\n\nIn this role, you will\n\n• Lead the creation and implementation of high-quality, gameplay-driven animation in Unreal Engine\n• Prototype and iterate on new approaches to character movement, responsiveness, and player-driven animation\n• Collaborate closely with engineers and technical designers to design scalable, flexible animation systems. Excite those around you with creative and clear thinking\n• Own animation quality and leadership across projects, ensuring a strong and consistent point of view\n• Translate gameplay needs into animation behaviours that feel intuitive and responsive\n• Debug and solve complex animation and integration issues in the engine\n• Contribute to and help evolve animation pipelines, tools, and workflows for rapid iteration\n• Mentor and support other animators, fostering a culture of curiosity, experimentation, and craft excellence\n\nWhat we're looking for\n\n• Expert-level understanding of character animation principles, with the ability to deliver both realistic and stylized motion\n• Deep experience working in Unreal Engine, including Animation Blueprints, state machines, blending, and runtime systems\n• Strong understanding of gameplay animation-how input, timing, and responsiveness shape player experience\n• Proven ability to collaborate effectively with engineers and technical designers on complex, system-driven features\n• Experience building or contributing to animation systems (not just assets), including debugging and iteration in-engine\n• Animating in engine using Unreal Engine animation tools\n• Comfort working in ambiguous, exploratory environments with rapid iteration cycles\n• Strong problem-solving skills and the ability to balance creative goals with technical constraints\n• Excellent communication and leadership skills\n• Experienced AAA development or equivalent real-time production environments\n\nBonus Points\n\n• Experience with motion matching, procedural animation, or emerging animation technologies\n• Familiarity with Control Rig and runtime rigging workflows in Unreal Engine\n\nEPIC JOB + EPIC BENEFITS = EPIC LIFE\n\nOur intent is to cover all things that are medically necessary and improve the quality of life. We pay 100% of the premiums for both you and your dependents. Our coverage includes Medical, Dental, a Vision HRA, Long Term Disability, Life Insurance & a 401k with competitive match. We also offer a robust mental well-being program through Modern Health, which provides free therapy and coaching for employees & dependents. Throughout the year we celebrate our employees with events and company-wide paid breaks. We offer unlimited PTO and sick time and recognize individuals for 7 years of employment with a paid sabbatical.\nABOUT US\n\nEpic Games​ ​is a leading interactive entertainment company. For over 30 years we've been making award-winning games and engine technology that empowers others to make visually stunning games and 3D content that bring environments to life like never before. Epic's award-winning Unreal Engine technology not only provides game developers the ability to build high-fidelity, interactive experiences for PC, console, mobile, and VR, it is also a tool being embraced by content creators across a variety of industries such as media and entertainment, automotive, and architectural design. As we continue to build our Engine technology and develop remarkable games, we strive to build teams of world-class talent.\n\nLike what you hear? Come be a part of something Epic!\n\nEpic Games deeply values diverse teams and an inclusive work culture, and we are proud to be an Equal Opportunity employer. Learn more about our Equal Employment Opportunity (EEO) Policy here.\n\nNote to Recruitment Agencies: Epic does not accept any unsolicited resumes or approaches from any unauthorized third party (including recruitment or placement agencies) (i.e., a third party with whom we do not have a negotiated and validly executed agreement). We will not pay any fees to any unauthorized third party. Further details on these matters can be found here.",
+    "url": "https://epicgames.com/careers/jobs/5763803004?gh_jid=5763803004",
+    "desc": "WHAT MAKES US EPIC?\n\nAt the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating.\n\nBeing Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development.\n\nART\n\nWhat We Do\n\nPush your artistic talent to the limit on a team of world-class environment, character, and concept artists who strive to innovate and inspire.\n\nWhat You'll Do\n\nEpic Games is looking for a Character Animation Director to join our Special Projects team to help drive the vision and execution of character animation across experimental and gameplay-driven prototypes. You will combine strong animation fundamentals with technical fluency in Unreal Engine to build responsive, expressive, and scalable animation systems. You will act as a bridge between animation and engineering - helping to define workflows, shape systems, and solve complex problems at the intersection of gameplay and motion. This role requires both hands-on creation and leadership: setting quality bars, guiding others, and helping a small team move quickly without sacrificing clarity or craft.\n\nIn this role, you will\n\n• Lead the creation and implementation of high-quality, gameplay-driven animation in Unreal Engine\n• Prototype and iterate on new approaches to character movement, responsiveness, and player-driven animation\n• Collaborate closely with engineers and technical designers to design scalable, flexible animation systems. Excite those around you with creative and clear thinking\n• Own animation quality and leadership across projects, ensuring a strong and consistent point of view\n• Translate gameplay needs into animation behaviours that feel intuitive and responsive\n• Debug and solve complex animation and integration issues in the engine\n• Contribute to and help evolve animation pipelines, tools, and workflows for rapid iteration\n• Mentor and support other animators, fostering a culture of curiosity, experimentation, and craft excellence\n\nWhat we're looking for\n\n• Expert-level understanding of character animation principles, with the ability to deliver both realistic and stylized motion\n• Deep experience working in Unreal Engine, including Animation Blueprints, state machines, blending, and runtime systems\n• Strong understanding of gameplay animation-how input, timing, and responsiveness shape player experience\n• Proven ability to collaborate effectively with engineers and technical designers on complex, system-driven features\n• Experience building or contributing to animation systems (not just assets), including debugging and iteration in-engine\n• Animating in engine using Unreal Engine animation tools\n• Comfort working in ambiguous, exploratory environments with rapid iteration cycles\n• Strong problem-solving skills and the ability to balance creative goals with technical constraints\n• Excellent communication and leadership skills\n• Experienced AAA development or equivalent real-time production environments\n\nBonus Points\n\n• Experience with motion matching, procedural animation, or emerging animation technologies\n• Familiarity with Control Rig and runtime rigging workflows in Unreal Engine\n\nThis role is open to multiple locations in North America.\n\nEPIC JOB + EPIC BENEFITS = EPIC LIFE\n\nOur intent is to cover all things that are medically necessary and improve the quality of life. We pay 100% of the premiums for both you and your dependents. Our coverage includes Medical, Dental, a Vision HRA, Long Term Disability, Life Insurance & a 401k with competitive match. We also offer a robust mental well-being program through Modern Health, which provides free therapy and coaching for employees & dependents. Throughout the year we celebrate our employees with events and company-wide paid breaks. We offer unlimited PTO and sick time and recognize individuals for 7 years of employment with a paid sabbatical.\nCalifornia Base Pay Range\n$210,445—$308,652 USD\n\nWashington Base Pay Range\n$191,313—$280,592 USD\n\nABOUT US\n\nEpic Games​ ​is a leading interactive entertainment company. For over 30 years we've been making award-winning games and engine technology that empowers others to make visually stunning games and 3D content that bring environments to life like never before. Epic's award-winning Unreal Engine technology not only provides game developers the ability to build high-fidelity, interactive experiences for PC, console, mobile, and VR, it is also a tool being embraced by content creators across a variety of industries such as media and entertainment, automotive, and architectural design. As we continue to build our Engine technology and develop remarkable games, we strive to build teams of world-class talent.\n\nLike what you hear? Come be a part of something Epic!\n\nEpic Games deeply values diverse teams and an inclusive work culture, and we are proud to be an Equal Opportunity employer. Learn more about our Equal Employment Opportunity (EEO) Policy here.\n\nNote to Recruitment Agencies: Epic does not accept any unsolicited resumes or approaches from any unauthorized third party (including recruitment or placement agencies) (i.e., a third party with whom we do not have a negotiated and validly executed agreement). We will not pay any fees to any unauthorized third party. Further details on these matters can be found here.",
     "site": "epicgames.com",
     "source": "greenhouse",
     "role": "Анимация",
@@ -7847,8 +7890,7 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ],
-    "hasRu": true
+    ]
   },
   {
     "id": "gh-epic-games-6000061004",
@@ -7916,6 +7958,7 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Junior",
     "spec": "Геймплей",
+    "permit": true,
     "stack": [
       "Unreal",
       "C++"
@@ -7969,41 +8012,34 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-epic-games-5995635004",
+    "id": "gh-epic-games-5998666004",
     "title": "Influencer Marketing Director",
     "company": "Epic Games",
-    "locations": [
-      "Cary, United States"
-    ],
+    "locations": [],
     "remote": false,
     "rkind": null,
-    "salary": null,
+    "salary": "$ 178 214 – 261 381",
     "posted": "2026-08-13",
-    "url": "https://epicgames.com/careers/jobs/5995635004?gh_jid=5995635004",
-    "desc": "WHAT MAKES US EPIC?\n\nAt the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating.\n\nBeing Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development.\n\nMARKETING\n\nWhat We Do\n\nWe deliver the most innovative gaming experiences possible to players around the world. Whether through community outreach, world-class events, or partnership integrations, the Epic Games Publishing and Marketing teams seek to surprise players with new experiences every time they drop in to play.\n\nWhat You'll Do\n\nEpic Games is seeking a highly strategic, culturally fluent, and operationally rigorous Influencer Marketing Director to lead creator and talent partnerships across Fortnite. This role will shape how creators, streamers, athletes, musicians, entertainers, and their communities connect with Fortnite through major launches, live-service moments, partnerships, and creator campaigns.\n\nThe ideal candidate combines deep fluency in the Fortnite creator ecosystem with strong strategic judgment, communication skills, and the ability to operate effectively in a fast-paced, high-volume environment. This person should understand both gaming culture and broader entertainment ecosystems, and be equally comfortable building creator strategy, managing high-profile talent relationships, and navigating complex cross-functional initiatives.\n\nIn this role, you will\n\n• Develop and lead creator and influencer strategies tied to Fortnite launches, partnerships, live-service beats, and major campaigns\n• Translate brand and business objectives into measurable creator programs that drive audience engagement, conversation, and commercial impact\n• Build and manage relationships with key gaming creators, streamers, athletes, entertainers, agents, and talent representatives across multiple verticals\n• Lead high-profile creator and talent integrations from planning through execution, including negotiations, hospitality, experiential activations, and content coordination\n• Present creator strategies, talent recommendations, and campaign plans clearly and concisely to senior leadership\n• Partner cross-functionally across Paid Media, Brand Marketing, Competitive, IP Partnerships teams and external partners to deliver cohesive global campaigns\n• Manage agency partners and oversee campaign execution to ensure work meets Epic’s creative, operational, and business standards\n• Operate effectively across multiple high-visibility initiatives simultaneously while navigating compressed timelines, shifting priorities, and fast-moving launch environments\n\nWhat we're looking for\n\n• 8+ years of experience in influencer marketing, creator partnerships, talent relations, or cultural marketing within gaming, entertainment, sports, music, or adjacent industries\n• Deep understanding of Fortnite, gaming creators, livestream culture, and the broader creator ecosystem across Twitch, YouTube, TikTok, Instagram, and X\n• Proven experience managing high-profile creator or celebrity partnerships, including negotiations, experiential activations, hospitality, and complex partner coordination\n• Strong communication and presentation skills, with the ability to deliver concise strategic recommendations to senior stakeholders\n• Experience operating effectively in fast-paced, high-volume environments with multiple concurrent launches and evolving priorities\n• Strong cross-functional collaboration skills and the ability to influence teams and stakeholders within highly matrixed organizations\n• Experience managing agency partners, external vendors, and regional campaign execution across global markets\n• Demonstrated operational rigor, sound judgment, and attention to detail, with the ability to balance creative thinking and business impact\n\nEPIC JOB + EPIC BENEFITS = EPIC LIFE\n\nOur intent is to cover all things that are medically necessary and improve the quality of life. We pay 100% of the premiums for both you and your dependents. Our coverage includes Medical, Dental, a Vision HRA, Long Term Disability, Life Insurance & a 401k with competitive match. We also offer a robust mental well-being program through Modern Health, which provides free therapy and coaching for employees & dependents. Throughout the year we celebrate our employees with events and company-wide paid breaks. We offer unlimited PTO and sick time and recognize individuals for 7 years of employment with a paid sabbatical.\nABOUT US\n\nEpic Games​ ​is a leading interactive entertainment company. For over 30 years we've been making award-winning games and engine technology that empowers others to make visually stunning games and 3D content that bring environments to life like never before. Epic's award-winning Unreal Engine technology not only provides game developers the ability to build high-fidelity, interactive experiences for PC, console, mobile, and VR, it is also a tool being embraced by content creators across a variety of industries such as media and entertainment, automotive, and architectural design. As we continue to build our Engine technology and develop remarkable games, we strive to build teams of world-class talent.\n\nLike what you hear? Come be a part of something Epic!\n\nEpic Games deeply values diverse teams and an inclusive work culture, and we are proud to be an Equal Opportunity employer. Learn more about our Equal Employment Opportunity (EEO) Policy here.…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
+    "url": "https://epicgames.com/careers/jobs/5998666004?gh_jid=5998666004",
+    "desc": "WHAT MAKES US EPIC?\n\nAt the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating.\n\nBeing Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development.\n\nMARKETING\n\nWhat We Do\n\nWe deliver the most innovative gaming experiences possible to players around the world. Whether through community outreach, world-class events, or partnership integrations, the Epic Games Publishing and Marketing teams seek to surprise players with new experiences every time they drop in to play.\n\nWhat You'll Do\n\nEpic Games is seeking a highly strategic, culturally fluent, and operationally rigorous Influencer Marketing Director to lead creator and talent partnerships across Fortnite. This role will shape how creators, streamers, athletes, musicians, entertainers, and their communities connect with Fortnite through major launches, live-service moments, partnerships, and creator campaigns.\n\nThe ideal candidate combines deep fluency in the Fortnite creator ecosystem with strong strategic judgment, communication skills, and the ability to operate effectively in a fast-paced, high-volume environment. This person should understand both gaming culture and broader entertainment ecosystems, and be equally comfortable building creator strategy, managing high-profile talent relationships, and navigating complex cross-functional initiatives.\n\nIn this role, you will\n\n• Develop and lead creator and influencer strategies tied to Fortnite launches, partnerships, live-service beats, and major campaigns\n• Translate brand and business objectives into measurable creator programs that drive audience engagement, conversation, and commercial impact\n• Build and manage relationships with key gaming creators, streamers, athletes, entertainers, agents, and talent representatives across multiple verticals\n• Lead high-profile creator and talent integrations from planning through execution, including negotiations, hospitality, experiential activations, and content coordination\n• Present creator strategies, talent recommendations, and campaign plans clearly and concisely to senior leadership\n• Partner cross-functionally across Paid Media, Brand Marketing, Competitive, IP Partnerships teams and external partners to deliver cohesive global campaigns\n• Manage agency partners and oversee campaign execution to ensure work meets Epic’s creative, operational, and business standards\n• Operate effectively across multiple high-visibility initiatives simultaneously while navigating compressed timelines, shifting priorities, and fast-moving launch environments\n\nWhat we're looking for\n\n• 8+ years of experience in influencer marketing, creator partnerships, talent relations, or cultural marketing within gaming, entertainment, sports, music, or adjacent industries\n• Deep understanding of Fortnite, gaming creators, livestream culture, and the broader creator ecosystem across Twitch, YouTube, TikTok, Instagram, and X\n• Proven experience managing high-profile creator or celebrity partnerships, including negotiations, experiential activations, hospitality, and complex partner coordination\n• Strong communication and presentation skills, with the ability to deliver concise strategic recommendations to senior stakeholders\n• Experience operating effectively in fast-paced, high-volume environments with multiple concurrent launches and evolving priorities\n• Strong cross-functional collaboration skills and the ability to influence teams and stakeholders within highly matrixed organizations\n• Experience managing agency partners, external vendors, and regional campaign execution across global markets\n• Demonstrated operational rigor, sound judgment, and attention to detail, with the ability to balance creative thinking and business impact\n\nThis role is open to multiple locations across the US (including CA & NYC).\n\nEPIC JOB + EPIC BENEFITS = EPIC LIFE\n\nOur intent is to cover all things that are medically necessary and improve the quality of life. We pay 100% of the premiums for both you and your dependents. Our coverage includes Medical, Dental, a Vision HRA, Long Term Disability, Life Insurance & a 401k with competitive match. We also offer a robust mental well-being program through Modern Health, which provides free therapy and coaching for employees & dependents. Throughout the year we celebrate our employees with events and company-wide paid breaks. We offer unlimited PTO and sick time and recognize individuals for 7 years of employment with a paid sabbatical.\n\nPay Transparency Information\n\nThe expected annual base pay range(s) for this position are detailed below. Each base pay range is relevant only for individuals who are residents of or will be expected to work within the specified locale. Compensation varies based on a variety of factors, which include (but aren’t limited to) things such as skills and competencies, qualifications, knowledge, and experience. In addition to base pay, most employees are eligible to participate in Epic’s generous benefit plans and discretionary incentive programs (subject to the terms of those plans or programs).\nNew York City Base Pay Range\n$178,214—$261,381 USD\n\nCalifornia Base Pay Range\n$163,363—$239,599 USD\n\nABOUT US…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
     "site": "epicgames.com",
     "source": "greenhouse",
     "role": "Маркетинг",
     "grade": "Lead",
     "spec": null,
-    "stack": [
-      "Unreal"
-    ],
-    "hasRu": true
+    "stack": []
   },
   {
-    "id": "gh-epic-games-6001593004",
+    "id": "gh-epic-games-6006487004",
     "title": "Lead Gameplay Designer",
     "company": "Epic Games",
-    "locations": [
-      "Cary, United States"
-    ],
+    "locations": [],
     "remote": false,
     "rkind": null,
-    "salary": null,
+    "salary": "$ 144 535 – 211 984",
     "posted": "2026-08-13",
-    "url": "https://epicgames.com/careers/jobs/6001593004?gh_jid=6001593004",
-    "desc": "WHAT MAKES US EPIC?\n\nAt the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating.\n\nBeing Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development.\n\nDESIGN\n\nWhat We Do\n\nPut your design skills to work at a cutting-edge company that challenges the norm. From character and level design to competitive gameplay and system design, help shape the future of interactive entertainment at Epic.\n\nWhat You'll Do\n\nEpic Games is looking for a Gameplay Designer to help create compelling gameplay experiences across combat, progression, systems, moment-to-moment mechanics, and live gameplay content for our collaboration with LEGO. In this role, you’ll partner closely with design leadership, art, engineering, animation, UX, audio, production, and QA to deliver high-quality features from concept through ship. You will own and iterate on gameplay systems, mechanics, and content while balancing player experience, readability, accessibility, engagement, and long-term retention. The ideal candidate is highly collaborative, deeply player-focused, and comfortable working in a fast-paced cross-disciplinary environment where iteration and feedback are core to development.\n\nIn this role, you will\n\n• Work in close collaboration with project leads & directors to design, prototype, tune, and ship features and systems that support the engagement, gameplay, and creative vision of the project\n• Document and create clear, actionable design documents, and iterate on these features, working with a team of developers across multiple disciplines, and oversee their successful implementation from start to finish\n• Get hands-on creating the scripting, data, and content required by those features, diving into the engine, and leveraging other tools\n• Be responsible for soliciting and rapidly integrating feedback from across the team on your own initiative, ensuring we’re continually delivering a fun and fresh experience to our players\n• Help establish and maintain design pipelines, best practices, and cross-discipline communication standards to scope, prioritize deliverables, and hit milestone goals\n\nWhat we're looking for\n\n• 5+ years of experience on a live service game, shipping a variety of different features and content types to react to changing player patterns\n• Strong scripting and technical capabilities. Bonus points if you have experience with Unreal Engine and the Ability System\n• Demonstrated talent and a deep understanding of gameplay feel, player motivations or intent, gameplay mechanics, systemic content, and the core LEGO player fantasy\n• Ability to break down high-level creative direction into actionable gameplay features and production-ready tasks\n• Ability to work independently, take initiative, and react quickly to changing project needs, drive decisions, and then own the outcome and vision\n• Commitment to quality, rapid iteration, and delivering exceptional player experiences\n\nEPIC JOB + EPIC BENEFITS = EPIC LIFE\n\nOur intent is to cover all things that are medically necessary and improve the quality of life. We pay 100% of the premiums for both you and your dependents. Our coverage includes Medical, Dental, a Vision HRA, Long Term Disability, Life Insurance & a 401k with competitive match. We also offer a robust mental well-being program through Modern Health, which provides free therapy and coaching for employees & dependents. Throughout the year we celebrate our employees with events and company-wide paid breaks. We offer unlimited PTO and sick time and recognize individuals for 7 years of employment with a paid sabbatical.\nABOUT US\n\nEpic Games​ ​is a leading interactive entertainment company. For over 30 years we've been making award-winning games and engine technology that empowers others to make visually stunning games and 3D content that bring environments to life like never before. Epic's award-winning Unreal Engine technology not only provides game developers the ability to build high-fidelity, interactive experiences for PC, console, mobile, and VR, it is also a tool being embraced by content creators across a variety of industries such as media and entertainment, automotive, and architectural design. As we continue to build our Engine technology and develop remarkable games, we strive to build teams of world-class talent.\n\nLike what you hear? Come be a part of something Epic!\n\nEpic Games deeply values diverse teams and an inclusive work culture, and we are proud to be an Equal Opportunity employer. Learn more about our Equal Employment Opportunity (EEO) Policy here.\n\nNote to Recruitment Agencies: Epic does not accept any unsolicited resumes or approaches from any unauthorized third party (including recruitment or placement agencies) (i.e., a third party with whom we do not have a negotiated and validly executed agreement). We will not pay any fees to any unauthorized third party. Further details on these matters can be found here.",
+    "url": "https://epicgames.com/careers/jobs/6006487004?gh_jid=6006487004",
+    "desc": "WHAT MAKES US EPIC?\n\nAt the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating.\n\nBeing Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development.\n\nDESIGN\n\nWhat We Do\n\nPut your design skills to work at a cutting-edge company that challenges the norm. From character and level design to competitive gameplay and system design, help shape the future of interactive entertainment at Epic.\n\nWhat You'll Do\n\nEpic Games is looking for a Gameplay Designer to help create compelling gameplay experiences across combat, progression, systems, moment-to-moment mechanics, and live gameplay content for our collaboration with LEGO. In this role, you’ll partner closely with design leadership, art, programming, animation, UX, audio, production, and QA to deliver high-quality features from concept through ship. You will own and iterate on gameplay systems, mechanics, and content while balancing player experience, readability, accessibility, engagement, and long-term retention. The ideal candidate is highly collaborative, deeply player-focused, and comfortable working in a fast-paced cross-disciplinary environment where iteration and feedback are core to development.\n\nIn this role, you will\n\n• Work in close collaboration with project leads & directors to design, prototype, tune, and ship features and systems that support the engagement, gameplay, and creative vision of the project\n• Document and create clear, actionable design documents, and iterate on these features, working with a team of developers across multiple disciplines, and oversee their successful implementation from start to finish\n• Get hands-on creating the scripting, data, and content required by those features, diving into the engine, and leveraging other tools\n• Be responsible for soliciting and rapidly integrating feedback from across the team on your own initiative, ensuring we’re continually delivering a fun and fresh experience to our players\n• Help establish and maintain design pipelines, best practices, and cross-discipline communication standards to scope, prioritize deliverables, and hit milestone goals\n\nWhat we're looking for\n\n• 5+ years of experience on a live service game, shipping a variety of different features and content types to react to changing player patterns\n• Strong scripting and technical capabilities. Bonus points if you have experience with Unreal Engine and the Ability System\n• Demonstrated talent and a deep understanding of gameplay feel, player motivations or intent, gameplay mechanics, systemic content, and the core LEGO player fantasy\n• Ability to break down high-level creative direction into actionable gameplay features and production-ready tasks\n• Ability to work independently, take initiative, and react quickly to changing project needs, drive decisions, and then own the outcome and vision\n• Commitment to quality, rapid iteration, and delivering exceptional player experiences\n\nThis role is open to multiple locations in North America (including CA & WA).\n\nPay Transparency Information\n\nThe expected annual base pay range(s) for this position are detailed below. Each base pay range is relevant only for individuals who are residents of or will be expected to work within the specified locale. Compensation varies based on a variety of factors, which include (but aren’t limited to) things such as skills and competencies, qualifications, knowledge, and experience. In addition to base pay, most employees are eligible to participate in Epic’s generous benefit plans and discretionary incentive programs (subject to the terms of those plans or programs).\nNew York City Base Pay Range\n$144,535—$211,984 USD\n\nCalifornia Base Pay Range\n$158,988—$233,182 USD\n\nWashington Base Pay Range\n$144,535—$211,984 USD\n\nABOUT US\n\nEpic Games​ ​is a leading interactive entertainment company. For over 30 years we've been making award-winning games and engine technology that empowers others to make visually stunning games and 3D content that bring environments to life like never before. Epic's award-winning Unreal Engine technology not only provides game developers the ability to build high-fidelity, interactive experiences for PC, console, mobile, and VR, it is also a tool being embraced by content creators across a variety of industries such as media and entertainment, automotive, and architectural design. As we continue to build our Engine technology and develop remarkable games, we strive to build teams of world-class talent.\n\nLike what you hear? Come be a part of something Epic!\n\nEpic Games deeply values diverse teams and an inclusive work culture, and we are proud to be an Equal Opportunity employer. Learn more about our Equal Employment Opportunity (EEO) Policy here.\n\nNote to Recruitment Agencies: Epic does not accept any unsolicited resumes or approaches from any unauthorized third party (including recruitment or placement agencies) (i.e., a third party with whom we do not have a negotiated and validly executed agreement). We will not pay any fees to any unauthorized third party. Further details on these matters can be found here.",
     "site": "epicgames.com",
     "source": "greenhouse",
     "role": "Программирование",
@@ -8011,8 +8047,7 @@ window.JOBS = [
     "spec": "Геймплей",
     "stack": [
       "Unreal"
-    ],
-    "hasRu": true
+    ]
   },
   {
     "id": "gh-epic-games-6001589004",
@@ -8062,16 +8097,18 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-epic-games-6130892004",
+    "id": "gh-epic-games-6121292004",
     "title": "Principal Environment Artist",
     "company": "Epic Games",
-    "locations": [],
+    "locations": [
+      "Cary, United States"
+    ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 176 262 – 293 770",
+    "salary": null,
     "posted": "2026-08-13",
-    "url": "https://epicgames.com/careers/jobs/6130892004?gh_jid=6130892004",
-    "desc": "WHAT MAKES US EPIC?\n\nAt the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating.\n\nBeing Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development.\n\nART\n\nWhat We Do\n\nPush your artistic talent to the limit on a team of world-class environment, character and concept artists who strive to innovate and inspire.\n\nWhat You'll Do\n\nEpic Games is seeking a Principal Environment Artist to help define and elevate the visual quality of Fortnite’s worlds. This role combines hands-on environment art production, artistic leadership, and technical problem-solving.\n\nYou will create benchmark-quality work, establish visual standards, develop scalable workflows, and solve complex artistic and technical challenges. Working closely with Art Direction, Technical Art, Design, Engineering, and Production, you will help align visual quality with gameplay, performance, memory, and production requirements while mentoring artists and advancing environment art practices across the project.\n\nIn this role, you will\n\n• Create benchmark-quality environment assets, materials, modular kits, and complete scenes that establish the visual quality bar for Fortnite\n• Establish and maintain environment art standards across composition, lighting, color, atmosphere, materials, visual storytelling, gameplay readability, and environmental polish\n• Develop and improve scalable environment art workflows that increase visual quality, consistency, production efficiency, and content reuse across the project\n• Partner with Technical Art and Engineering to develop content creation pipelines, and maintain environment art documentation, best practices, workflows, and quality standards\n• Identify and resolve complex artistic and technical problems while balancing visual quality, runtime performance, memory usage, platform requirements, and production schedules\n• Mentor artists across different experience levels by providing technical guidance, artistic critique, workflow support, and professional development\n• Evaluate emerging tools, technologies, and production techniques and recommend improvements that meaningfully advance the environment art team’s capabilities\n\nWhat we're looking for\n\n• Bachelor’s degree or at least 10 years of progressive professional experience creating real-time 3D environments for commercially released video games\n• Professional experience creating production-ready environment assets, materials, modular kits, and complete real-time scenes\n• Preferably professional experience using Unreal Engine for environment world-building, PBR materials, lighting, content implementation, and optimization\n• Professional experience optimizing real-time environment content for performance, memory usage, visual quality, and multiple hardware platforms\n• Professional experience using a 3D content creation application such as Maya, 3ds Max, or Blender; texture-authoring software such as Substance Painter or Substance Designer; and image-editing software such as Photoshop or equivalent professional tools\n• Experience developing or improving environment art workflows, pipelines, documentation, or quality standards\n• Experience reviewing the work of other artists and providing actionable artistic and technical feedback\n• Experience mentoring or providing professional guidance to environment artists\n• Portfolio demonstrating professional environment artwork, including examples of 3D modeling, materials, composition, lighting, world-building, and completed real-time environments\n• Strong written and verbal communication skills and demonstrated experience collaborating with multidisciplinary development teams\n\nPreferred Qualifications:\n\n• Experience developing large-scale worlds for a AAA, multiplayer, or continuously updated game\n• Experience with procedural environment creation, advanced material systems, shader workflows, terrain systems, or environment art tools\n• Experience establishing visual benchmarks and discipline-wide quality standards\n• Experience collaborating with external development partners or reviewing externally produced environment artwork\n• Experience delivering environment content across multiple platforms with different performance and memory constraints\n\nThis role is open to multiple locations across the US (including CA, NYC, & WA).\n\nPay Transparency Information\n\nThe expected annual base pay range(s) for this position are detailed below. Each base pay range is relevant only for individuals who are residents of or will be expected to work within the specified locale. Compensation varies based on a variety of factors, which include (but aren’t limited to) things such as skills and competencies, qualifications, knowledge, and experience. In addition to base pay, most employees are eligible to participate in Epic’s generous benefit plans and discretionary incentive programs (subject to the terms of those plans or programs).\nNew York City Base Pay Range\n$176,262—$293,770 USD\n\nCalifornia Base Pay Range\n$155,111—$258,518 USD\n\nWashington Base Pay Range\n$141,010—$235,016 USD\n\nABOUT US…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
+    "url": "https://epicgames.com/careers/jobs/6121292004?gh_jid=6121292004",
+    "desc": "WHAT MAKES US EPIC?\n\nAt the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating.\n\nBeing Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development.\n\nART\n\nWhat We Do\n\nPush your artistic talent to the limit on a team of world-class environment, character and concept artists who strive to innovate and inspire.\n\nWhat You'll Do\n\nEpic Games is seeking a Principal Environment Artist to help define and elevate the visual quality of Fortnite’s worlds. This role combines hands-on environment art production, artistic leadership, and technical problem-solving.\n\nYou will create benchmark-quality work, establish visual standards, develop scalable workflows, and solve complex artistic and technical challenges. Working closely with Art Direction, Technical Art, Design, Engineering, and Production, you will help align visual quality with gameplay, performance, memory, and production requirements while mentoring artists and advancing environment art practices across the project.\n\nIn this role, you will\n\n• Create benchmark-quality environment assets, materials, modular kits, and complete scenes that establish the visual quality bar for Fortnite\n• Establish and maintain environment art standards across composition, lighting, color, atmosphere, materials, visual storytelling, gameplay readability, and environmental polish\n• Develop and improve scalable environment art workflows that increase visual quality, consistency, production efficiency, and content reuse across the project\n• Partner with Technical Art and Engineering to develop content creation pipelines, and maintain environment art documentation, best practices, workflows, and quality standards\n• Identify and resolve complex artistic and technical problems while balancing visual quality, runtime performance, memory usage, platform requirements, and production schedules\n• Mentor artists across different experience levels by providing technical guidance, artistic critique, workflow support, and professional development\n• Evaluate emerging tools, technologies, and production techniques and recommend improvements that meaningfully advance the environment art team’s capabilities\n\nWhat we're looking for\n\n• Bachelor’s degree or at least 10 years of progressive professional experience creating real-time 3D environments for commercially released video games\n• Professional experience creating production-ready environment assets, materials, modular kits, and complete real-time scenes\n• Preferably professional experience using Unreal Engine for environment world-building, PBR materials, lighting, content implementation, and optimization\n• Professional experience optimizing real-time environment content for performance, memory usage, visual quality, and multiple hardware platforms\n• Professional experience using a 3D content creation application such as Maya, 3ds Max, or Blender; texture-authoring software such as Substance Painter or Substance Designer; and image-editing software such as Photoshop or equivalent professional tools\n• Experience developing or improving environment art workflows, pipelines, documentation, or quality standards\n• Experience reviewing the work of other artists and providing actionable artistic and technical feedback\n• Experience mentoring or providing professional guidance to environment artists\n• Portfolio demonstrating professional environment artwork, including examples of 3D modeling, materials, composition, lighting, world-building, and completed real-time environments\n• Strong written and verbal communication skills and demonstrated experience collaborating with multidisciplinary development teams\n\nPreferred Qualifications:\n\n• Experience developing large-scale worlds for a AAA, multiplayer, or continuously updated game\n• Experience with procedural environment creation, advanced material systems, shader workflows, terrain systems, or environment art tools\n• Experience establishing visual benchmarks and discipline-wide quality standards\n• Experience collaborating with external development partners or reviewing externally produced environment artwork\n• Experience delivering environment content across multiple platforms with different performance and memory constraints\n\nEPIC JOB + EPIC BENEFITS = EPIC LIFE\n\nOur intent is to cover all things that are medically necessary and improve the quality of life. We pay 100% of the premiums for both you and your dependents. Our coverage includes Medical, Dental, a Vision HRA, Long Term Disability, Life Insurance & a 401k with competitive match. We also offer a robust mental well-being program through Modern Health, which provides free therapy and coaching for employees & dependents. Throughout the year we celebrate our employees with events and company-wide paid breaks. We offer unlimited PTO and sick time and recognize individuals for 7 years of employment with a paid sabbatical.\nABOUT US\n\nEpic Games​ ​is a leading interactive entertainment company. For over 30 years we've been making award-winning games and engine technology that empowers others to make visually stunning games and 3D content that bring environments to life like never before. Epic's award-winning Unreal Engine technology not only provides game developers the ability to build high-fidelity, interactive experiences for PC, console, mobile, and VR, it is also a tool being embraced by content creators across a variety of industries such as media and entertainment, automotive, and architectural design. As we continue to build our Engine technology and develop remarkable games, we strive to build teams of world-class talent.…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
     "site": "epicgames.com",
     "source": "greenhouse",
     "role": "Арт",
@@ -8083,22 +8120,19 @@ window.JOBS = [
       "Blender",
       "Substance",
       "Photoshop"
-    ],
-    "hasRu": true
+    ]
   },
   {
-    "id": "gh-epic-games-6019216004",
+    "id": "gh-epic-games-6018016004",
     "title": "Principal Technical VFX Artist",
     "company": "Epic Games",
-    "locations": [
-      "Porto Alegre, Brazil"
-    ],
+    "locations": [],
     "remote": false,
     "rkind": null,
-    "salary": null,
+    "salary": "$ 200 423 – 293 954",
     "posted": "2026-08-13",
-    "url": "https://epicgames.com/careers/jobs/6019216004?gh_jid=6019216004",
-    "desc": "WHAT MAKES US EPIC?\n\nAt the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating.\n\nBeing Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development.\n\nART\n\nWhat We Do\n\nPush your artistic talent to the limit on a team of world-class environment, character and concept artists who strive to innovate and inspire.\n\nWhat You'll Do\n\nEpic is looking for a Principal FX Artist to join Rocket League, a live-service game with a huge passionate fanbase. You'll own FX systems, solve hard technical problems, and set the visual and technical standard for how effects work across the game. You're someone who gets energized by constraints, thinks in systems, and loves the moment when a gnarly technical problem becomes a beautiful effect in the build.\n\nIn this role, you will\n\n• Drive VFX systems and quality, design reusable, scalable solutions that support rapid iteration and long-term production across gameplay, cosmetics, and arena systems\n• Author outstanding real-time effects across a range of styles, from grounded and physical to high-energy and stylized\n• Collaborate with Tech Art and Engineering to define performance budgets and hit them without sacrificing visual quality\n• Prototype and validate new VFX workflows\n• Set the quality bar, defining what \"good\" looks like for the team\n• Mentor and elevate artists across disciplines; raise the floor and the ceiling\n\nWhat we're looking for\n\n• Real-time FX portfolio required, shipped titles carry more weight than student work\n• Deep proficiency with Niagara and Unreal Engine's material system\n• Shader authoring experience (HLSL or Material Editor)\n• Scripting experience — Python, Blueprint, or equivalent; this is what separates a technical FX artist from a visual one\n• Strong understanding of GPU performance — draw calls, particle costs, memory — and a track record of optimizing without killing the look\n• A critical eye for timing, weight, and motion grounded in how things actually behave in the real world\n• Experience shipping multiple titles in the game industry\n• Experience on a live-service game is a strong plus\n• Houdini experience is a plus for candidates who work from simulation reference\n\nEPIC JOB + EPIC BENEFITS = EPIC LIFE\n\nWe pay 100% for benefits for both employees (EEs) and dependents (deps). Our current benefits package includes coverage for medical, dental, and life insurance. We also offer supplemental benefits including daily meal vouchers, and commuter benefits for onsite employees.\nABOUT US\n\nEpic Games​ ​is a leading interactive entertainment company. For over 30 years we've been making award-winning games and engine technology that empowers others to make visually stunning games and 3D content that bring environments to life like never before. Epic's award-winning Unreal Engine technology not only provides game developers the ability to build high-fidelity, interactive experiences for PC, console, mobile, and VR, it is also a tool being embraced by content creators across a variety of industries such as media and entertainment, automotive, and architectural design. As we continue to build our Engine technology and develop remarkable games, we strive to build teams of world-class talent.\n\nLike what you hear? Come be a part of something Epic!\n\nEpic Games deeply values diverse teams and an inclusive work culture, and we are proud to be an Equal Opportunity employer. Learn more about our Equal Employment Opportunity (EEO) Policy here.\n\nNote to Recruitment Agencies: Epic does not accept any unsolicited resumes or approaches from any unauthorized third party (including recruitment or placement agencies) (i.e., a third party with whom we do not have a negotiated and validly executed agreement). We will not pay any fees to any unauthorized third party. Further details on these matters can be found here.",
+    "url": "https://epicgames.com/careers/jobs/6018016004?gh_jid=6018016004",
+    "desc": "WHAT MAKES US EPIC?\n\nAt the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating.\n\nBeing Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development.\n\nART\n\nWhat We Do\n\nPush your artistic talent to the limit on a team of world-class environment, character and concept artists who strive to innovate and inspire.\n\nWhat You'll Do\n\nEpic is looking for a Principal Technical FX Artist to join Rocket League, a live-service game with a huge passionate fanbase. You'll own FX systems, solve hard technical problems, and set the visual and technical standard for how effects work across the game. You're someone who gets energized by constraints, thinks in systems, and loves the moment when a gnarly technical problem becomes a beautiful effect in the build.\n\nIn this role, you will\n\n• Drive VFX systems and quality, design reusable, scalable solutions that support rapid iteration and long-term production across gameplay, cosmetics, and arena systems\n• Author outstanding real-time effects across a range of styles, from grounded and physical to high-energy and stylized\n• Collaborate with Tech Art and Programming to define performance budgets and hit them without sacrificing visual quality\n• Prototype and validate new VFX workflows\n• Set the quality bar, defining what \"good\" looks like for the team\n• Mentor and elevate artists across disciplines; raise the floor and the ceiling\n\nWhat we're looking for\n\n• Real-time FX portfolio required, shipped titles carry more weight than student work\n• Deep proficiency with Niagara and Unreal Engine's material system\n• Shader authoring experience (HLSL or Material Editor)\n• Scripting experience — Python, Blueprint, or equivalent; this is what separates a technical FX artist from a visual one\n• Strong understanding of GPU performance — draw calls, particle costs, memory — and a track record of optimizing without killing the look\n• A critical eye for timing, weight, and motion grounded in how things actually behave in the real world\n• Experience shipping multiple titles in the game industry\n• Experience on a live-service game is a strong plus\n• Houdini experience is a plus for candidates who work from simulation reference\n\nThis role is open to multiple locations in North America (including CA & WA).\n\nPay Transparency Information\n\nThe expected annual base pay range(s) for this position are detailed below. Each base pay range is relevant only for individuals who are residents of or will be expected to work within the specified locale. Compensation varies based on a variety of factors, which include (but aren’t limited to) things such as skills and competencies, qualifications, knowledge, and experience. In addition to base pay, most employees are eligible to participate in Epic’s generous benefit plans and discretionary incentive programs (subject to the terms of those plans or programs).\nCalifornia Base Pay Range\n$200,423—$293,954 USD\n\nWashington Base Pay Range\n$182,204—$267,232 USD\n\nABOUT US\n\nEpic Games​ ​is a leading interactive entertainment company. For over 30 years we've been making award-winning games and engine technology that empowers others to make visually stunning games and 3D content that bring environments to life like never before. Epic's award-winning Unreal Engine technology not only provides game developers the ability to build high-fidelity, interactive experiences for PC, console, mobile, and VR, it is also a tool being embraced by content creators across a variety of industries such as media and entertainment, automotive, and architectural design. As we continue to build our Engine technology and develop remarkable games, we strive to build teams of world-class talent.\n\nLike what you hear? Come be a part of something Epic!\n\nEpic Games deeply values diverse teams and an inclusive work culture, and we are proud to be an Equal Opportunity employer. Learn more about our Equal Employment Opportunity (EEO) Policy here.\n\nNote to Recruitment Agencies: Epic does not accept any unsolicited resumes or approaches from any unauthorized third party (including recruitment or placement agencies) (i.e., a third party with whom we do not have a negotiated and validly executed agreement). We will not pay any fees to any unauthorized third party. Further details on these matters can be found here.",
     "site": "epicgames.com",
     "source": "greenhouse",
     "role": "VFX",
@@ -8108,20 +8142,21 @@ window.JOBS = [
       "Unreal",
       "Python",
       "Houdini"
-    ],
-    "hasRu": true
+    ]
   },
   {
-    "id": "gh-epic-games-6118355004",
+    "id": "gh-epic-games-5892150004",
     "title": "Senior Data Scientist",
     "company": "Epic Games",
-    "locations": [],
+    "locations": [
+      "Cary, United States"
+    ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 181 477 – 266 166",
+    "salary": null,
     "posted": "2026-08-13",
-    "url": "https://epicgames.com/careers/jobs/6118355004?gh_jid=6118355004",
-    "desc": "WHAT MAKES US EPIC?\n\nAt the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating.\n\nBeing Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development.\n\nANALYTICS\n\nWhat We Do\n\nOur Data & Analytics teams build powerful stories and visuals that inform the games we make, the technology we develop, and business decisions that drive Epic.\n\nWhat You'll Do\n\nThis position will primarily be responsible for developing strategic insights to inform Finance and Product leadership on the Epic ecosystem. The Senior Data Scientist will work in a cross-functional team environment under the direction of the Ecosystem Director of Analytics. In addition to other responsibilities, this position will maintain the core business reporting and forecasting that the org relies on, and develop high-leverage data models to improve the efficiency of the entire Insights department.\n\nIn this role, you will\n\n• Maintain and evolve core business reporting to analyze fluctuations across our core businesses — decomposing the underlying factors and isolating the causal influence of external events and internal activations\n• Build, maintain, analyze, and leverage time series forecasting methods to anticipate ecosystem trends and inform Finance and Product planning\n• Develop and maintain core data models leveraged by the entire department, improving consistency, efficiency, and analytical leverage across teams\n• Perform executive deep dives on high-priority subjects relevant to the Fortnite ecosystem, translating complex analysis into clear narratives for leadership\n• Build a deep understanding of our products and become an expert on all analytics data collected\n• Take accountability for the quality of data reported by our products, and work with engineering and QA to consistently monitor and improve our data\n• Support users of our self-service data pipeline, helping them understand the data they are using and teaching them appropriate methods to access and summarize it\n• Collaborate with the ecosystem analytics team to enhance data-driven decision-making across the organization\n\nWhat we're looking for\n\nRequired Qualifications:\n\n• Minimum 5-7 years of professional experience as a Data Scientist or in a related field\n• Expertise with SQL and Python\n• Familiarity with time series modeling\n• Demonstrated skills in predictive analytics, especially within complex and high-dimensional environments\n• Strong written and verbal communication skills with experience delivering presentations to senior leadership, including C-suite executives\n• Demonstrated understanding of both contemporary video games and analytics best practices\n\nPreferred Qualifications:\n\n• Expertise with machine learning and PySpark\n• Experience with time series forecasting libraries such as Prophet\n• Experience developing and leveraging AI workflows\n• Experience with causal inference methods\n• Passion for the gaming industry\n\nThis role is open to multiple locations across the US (including CA, NYC, & WA).\n\nPay Transparency Information\n\nThe expected annual base pay range(s) for this position are detailed below. Each base pay range is relevant only for individuals who are residents of or will be expected to work within the specified locale. Compensation varies based on a variety of factors, which include (but aren’t limited to) things such as skills and competencies, qualifications, knowledge, and experience. In addition to base pay, most employees are eligible to participate in Epic’s generous benefit plans and discretionary incentive programs (subject to the terms of those plans or programs).\nNew York City Base Pay Range\n$181,477—$266,166 USD\n\nCalifornia Base Pay Range\n$181,477—$266,166 USD\n\nWashington Base Pay Range\n$145,181—$212,933 USD\n\nABOUT US\n\nEpic Games​ ​is a leading interactive entertainment company. For over 30 years we've been making award-winning games and engine technology that empowers others to make visually stunning games and 3D content that bring environments to life like never before. Epic's award-winning Unreal Engine technology not only provides game developers the ability to build high-fidelity, interactive experiences for PC, console, mobile, and VR, it is also a tool being embraced by content creators across a variety of industries such as media and entertainment, automotive, and architectural design. As we continue to build our Engine technology and develop remarkable games, we strive to build teams of world-class talent.\n\nLike what you hear? Come be a part of something Epic!\n\nEpic Games deeply values diverse teams and an inclusive work culture, and we are proud to be an Equal Opportunity employer. Learn more about our Equal Employment Opportunity (EEO) Policy here.\n\nNote to Recruitment Agencies: Epic does not accept any unsolicited resumes or approaches from any unauthorized third party (including recruitment or placement agencies) (i.e., a third party with whom we do not have a negotiated and validly executed agreement). We will not pay any fees to any unauthorized third party. Further details on these matters can be found here.",
+    "url": "https://epicgames.com/careers/jobs/5892150004?gh_jid=5892150004",
+    "desc": "WHAT MAKES US EPIC?\n\nAt the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating.\n\nBeing Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development.\n\nANALYTICS\n\nWhat We Do\n\nOur Data & Analytics teams build powerful stories and visuals that inform the games we make, the technology we develop, and business decisions that drive Epic.\n\nWhat You'll Do\n\nEpic Games is looking for a Senior Data Scientist to support the meta-progression systems area. You’ll apply mixed methods to own the end-to-end life cycle of creating data assets, reports, insights, to impact the direction of efforts across Epic’s portfolio of products and ecosystems, with a particular focus on our meta-progression systems, like XP and Quests. The successful candidate will have the ability to apply a range of data technologies, statistical methods, and visualization methods to influence development and product teams, and to partner with stakeholders across all parts of the business.\n\nIn this role, you will\n\n• Partner with progression and quest product managers and designers to identify opportunities for our meta-progression systems and use data to develop metrics and insights\n• Scope the telemetry these systems depend on and build the ETL, data models, and dashboards stakeholders rely on to tune XP, quests, and the Battle Pass each season\n• Run exploratory analysis, whether that's how to cohort players, what's behind an engagement shift, or funnel analysis\n• Design and run experiments: A/B tests where we can randomize, and other causal inference methods (difference-in-differences, regression discontinuity) where we can't\n• Partner on new progression features from the start, from scoping what to measure through standing up reporting for launch\n\nWhat we're looking for\n\n• At least 5 years in analytics or data science, with a proven interest in and knowledge of live-service games and how players engage with them\n• Strong product sense, and a track record of shaping what a team builds by putting the right data in front of the right people\n• Fluent, efficient SQL over very large datasets and solid footing in the Python analytics stack\n• Experience scoping telemetry with engineering teams and building the ETL and data models on top of it\n• Grounding in experimental design and A/B testing, with the judgment to know when a clean experiment isn't possible; quasi-experimental methods (RDD, difference-in-differences) are a plus\n• Experience with production tooling: version control (GitHub), orchestration (Airflow / Astronomer), and AI coding tools such as Claude Code.\n\nEPIC JOB + EPIC BENEFITS = EPIC LIFE\n\nOur intent is to cover all things that are medically necessary and improve the quality of life. We pay 100% of the premiums for both you and your dependents. Our coverage includes Medical, Dental, a Vision HRA, Long Term Disability, Life Insurance & a 401k with competitive match. We also offer a robust mental well-being program through Modern Health, which provides free therapy and coaching for employees & dependents. Throughout the year we celebrate our employees with events and company-wide paid breaks. We offer unlimited PTO and sick time and recognize individuals for 7 years of employment with a paid sabbatical.\nABOUT US\n\nEpic Games​ ​is a leading interactive entertainment company. For over 30 years we've been making award-winning games and engine technology that empowers others to make visually stunning games and 3D content that bring environments to life like never before. Epic's award-winning Unreal Engine technology not only provides game developers the ability to build high-fidelity, interactive experiences for PC, console, mobile, and VR, it is also a tool being embraced by content creators across a variety of industries such as media and entertainment, automotive, and architectural design. As we continue to build our Engine technology and develop remarkable games, we strive to build teams of world-class talent.\n\nLike what you hear? Come be a part of something Epic!\n\nEpic Games deeply values diverse teams and an inclusive work culture, and we are proud to be an Equal Opportunity employer. Learn more about our Equal Employment Opportunity (EEO) Policy here.\n\nNote to Recruitment Agencies: Epic does not accept any unsolicited resumes or approaches from any unauthorized third party (including recruitment or placement agencies) (i.e., a third party with whom we do not have a negotiated and validly executed agreement). We will not pay any fees to any unauthorized third party. Further details on these matters can be found here.",
     "site": "epicgames.com",
     "source": "greenhouse",
     "role": "Аналитика",
@@ -8131,8 +8166,7 @@ window.JOBS = [
       "Unreal",
       "Python",
       "SQL"
-    ],
-    "hasRu": true
+    ]
   },
   {
     "id": "gh-epic-games-6003199004",
@@ -8255,18 +8289,16 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-epic-games-5972880004",
+    "id": "gh-epic-games-5973992004",
     "title": "Senior Machine Learning Engineer, Discovery Recommendations",
     "company": "Epic Games",
-    "locations": [
-      "Cary, United States"
-    ],
+    "locations": [],
     "remote": false,
     "rkind": null,
-    "salary": null,
+    "salary": "$ 232 666 – 341 243",
     "posted": "2026-08-13",
-    "url": "https://epicgames.com/careers/jobs/5972880004?gh_jid=5972880004",
-    "desc": "WHAT MAKES US EPIC?\n\nAt the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating.\n\nBeing Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development.\n\nANALYTICS\n\nWhat We Do\n\nOur Data & Analytics teams build powerful stories and visuals that inform the games we make, the technology we develop, and business decisions that drive Epic.\n\nWhat You'll Do\n\nYou will design, build, and optimize the recommendation systems that power Fortnite's Discover experience, serving personalized recommendations to one of the largest player bases in gaming across a massive catalog of creator-built experiences.\n\nYou'll work across the full recommendation stack: candidate generation, content ranking, impression allocation, and real-time reranking.\n\nUnlike recommendation systems that operate over a stable catalog, you're working with a massive, rapidly changing content library where new experiences are published daily, quality signals are sparse, and the system's own outputs shape the data it learns from.\n\nIn this role, you will\n\n• Design and implement retrieval, ranking, and reranking models for creator content using deep learning approaches (two-tower architectures, transformer-based sequence models, embedding-based retrieval) and build the user representation systems that power personalized discovery\n• Build and optimize multi-stage candidate generation and impression allocation pipelines that balance relevance, diversity, and fair content exposure across a large and rapidly evolving catalog\n• Design and run A/B experiments to validate model improvements, own evaluation frameworks that capture recommendation quality holistically, and drive the path from experiment to production deployment\n• Collaborate with analytics and content quality teams on ranking signals including genre classification, creator credibility, and content quality metrics\n• Own ML infrastructure decisions: choosing the right tradeoffs between batch, near-real-time, and streaming serving architectures\n\nWhat we're looking for\n\n• 5+ years of experience building production recommendation or ranking systems, ideally in a UGC, marketplace, or content discovery context\n• Experience with deep learning for information retrieval and multi-stage recommendation pipelines (candidate generation, scoring, reranking)\n• Demonstrated ability to design and analyze A/B experiments, with awareness of biases inherent to recommendation systems\n• Strong Python engineering skills with experience in PyTorch and large-scale data processing frameworks (Spark preferred)\n• Comfort working in a cloud-based ML environment\n• Experience with explore/exploit strategies, content cold-start, or counterfactual evaluation methods applied to recommendation\n• Experience with content understanding models (NLP, vision, or generative AI) used as ranking features\n• Familiarity with creator economy dynamics and how recommendation design affects content quality and creator incentives\n• Experience with our stack: PyTorch (TorchRec, Transformers), Ray, Databricks, AWS\n• Passion for video games and/or experience with gaming analytics\n\nEPIC JOB + EPIC BENEFITS = EPIC LIFE\n\nOur intent is to cover all things that are medically necessary and improve the quality of life. We pay 100% of the premiums for both you and your dependents. Our coverage includes Medical, Dental, a Vision HRA, Long Term Disability, Life Insurance & a 401k with competitive match. We also offer a robust mental well-being program through Modern Health, which provides free therapy and coaching for employees & dependents. Throughout the year we celebrate our employees with events and company-wide paid breaks. We offer unlimited PTO and sick time and recognize individuals for 7 years of employment with a paid sabbatical.\nABOUT US\n\nEpic Games​ ​is a leading interactive entertainment company. For over 30 years we've been making award-winning games and engine technology that empowers others to make visually stunning games and 3D content that bring environments to life like never before. Epic's award-winning Unreal Engine technology not only provides game developers the ability to build high-fidelity, interactive experiences for PC, console, mobile, and VR, it is also a tool being embraced by content creators across a variety of industries such as media and entertainment, automotive, and architectural design. As we continue to build our Engine technology and develop remarkable games, we strive to build teams of world-class talent.\n\nLike what you hear? Come be a part of something Epic!\n\nEpic Games deeply values diverse teams and an inclusive work culture, and we are proud to be an Equal Opportunity employer. Learn more about our Equal Employment Opportunity (EEO) Policy here.\n\nNote to Recruitment Agencies: Epic does not accept any unsolicited resumes or approaches from any unauthorized third party (including recruitment or placement agencies) (i.e., a third party with whom we do not have a negotiated and validly executed agreement). We will not pay any fees to any unauthorized third party. Further details on these matters can be found here.",
+    "url": "https://epicgames.com/careers/jobs/5973992004?gh_jid=5973992004",
+    "desc": "WHAT MAKES US EPIC?\n\nAt the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating.\n\nBeing Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development.\n\nANALYTICS\n\nWhat We Do\n\nOur Data & Analytics teams build powerful stories and visuals that inform the games we make, the technology we develop, and business decisions that drive Epic.\n\nWhat You'll Do\n\nYou will design, build, and optimize the recommendation systems that power Fortnite's Discover experience, serving personalized recommendations to one of the largest player bases in gaming across a massive catalog of creator-built experiences.\n\nYou'll work across the full recommendation stack: candidate generation, content ranking, impression allocation, and real-time reranking.\n\nUnlike recommendation systems that operate over a stable catalog, you're working with a massive, rapidly changing content library where new experiences are published daily, quality signals are sparse, and the system's own outputs shape the data it learns from.\n\nIn this role, you will\n\n• Design and implement retrieval, ranking, and reranking models for creator content using deep learning approaches (two-tower architectures, transformer-based sequence models, embedding-based retrieval) and build the user representation systems that power personalized discovery\n• Build and optimize multi-stage candidate generation and impression allocation pipelines that balance relevance, diversity, and fair content exposure across a large and rapidly evolving catalog\n• Design and run A/B experiments to validate model improvements, own evaluation frameworks that capture recommendation quality holistically, and drive the path from experiment to production deployment\n• Collaborate with analytics and content quality teams on ranking signals including genre classification, creator credibility, and content quality metrics\n• Own ML infrastructure decisions: choosing the right tradeoffs between batch, near-real-time, and streaming serving architectures\n\nWhat we're looking for\n\n• 5+ years of experience building production recommendation or ranking systems, ideally in a UGC, marketplace, or content discovery context\n• Experience with deep learning for information retrieval and multi-stage recommendation pipelines (candidate generation, scoring, reranking)\n• Demonstrated ability to design and analyze A/B experiments, with awareness of biases inherent to recommendation systems\n• Strong Python engineering skills with experience in PyTorch and large-scale data processing frameworks (Spark preferred)\n• Comfort working in a cloud-based ML environment\n• Experience with explore/exploit strategies, content cold-start, or counterfactual evaluation methods applied to recommendation\n• Experience with content understanding models (NLP, vision, or generative AI) used as ranking features\n• Familiarity with creator economy dynamics and how recommendation design affects content quality and creator incentives\n• Experience with our stack: PyTorch (TorchRec, Transformers), Ray, Databricks, AWS\n• Passion for video games and/or experience with gaming analytics\n\nThis role is open to multiple locations across the US (including CA, NYC, & WA).\n\nEPIC JOB + EPIC BENEFITS = EPIC LIFE\n\nOur intent is to cover all things that are medically necessary and improve the quality of life. We pay 100% of the premiums for both you and your dependents. Our coverage includes Medical, Dental, a Vision HRA, Long Term Disability, Life Insurance & a 401k with competitive match. We also offer a robust mental well-being program through Modern Health, which provides free therapy and coaching for employees & dependents. Throughout the year we celebrate our employees with events and company-wide paid breaks. We offer unlimited PTO and sick time and recognize individuals for 7 years of employment with a paid sabbatical.\n\nPay Transparency Information\n\nThe expected annual base pay range(s) for this position are detailed below. Each base pay range is relevant only for individuals who are residents of or will be expected to work within the specified locale. Compensation varies based on a variety of factors, which include (but aren’t limited to) things such as skills and competencies, qualifications, knowledge, and experience. In addition to base pay, most employees are eligible to participate in Epic’s generous benefit plans and discretionary incentive programs (subject to the terms of those plans or programs).\nNew York City Base Pay Range\n$232,666—$341,243 USD\n\nCalifornia Base Pay Range\n$209,399—$307,119 USD\n\nWashington Base Pay Range\n$190,363—$279,199 USD\n\nABOUT US\n\nEpic Games​ ​is a leading interactive entertainment company. For over 30 years we've been making award-winning games and engine technology that empowers others to make visually stunning games and 3D content that bring environments to life like never before. Epic's award-winning Unreal Engine technology not only provides game developers the ability to build high-fidelity, interactive experiences for PC, console, mobile, and VR, it is also a tool being embraced by content creators across a variety of industries such as media and entertainment, automotive, and architectural design. As we continue to build our Engine technology and develop remarkable games, we strive to build teams of world-class talent.\n\nLike what you hear? Come be a part of something Epic!\n\nEpic Games deeply values diverse teams and an inclusive work culture, and we are proud to be an Equal Opportunity employer. Learn more about our Equal Employment Opportunity (EEO) Policy here.…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
     "site": "epicgames.com",
     "source": "greenhouse",
     "role": "Программирование",
@@ -8276,11 +8308,10 @@ window.JOBS = [
       "Unreal",
       "Python",
       "AWS"
-    ],
-    "hasRu": true
+    ]
   },
   {
-    "id": "gh-epic-games-6121331004",
+    "id": "gh-epic-games-6130249004",
     "title": "Senior Producer",
     "company": "Epic Games",
     "locations": [
@@ -8290,8 +8321,8 @@ window.JOBS = [
     "rkind": null,
     "salary": null,
     "posted": "2026-08-13",
-    "url": "https://epicgames.com/careers/jobs/6121331004?gh_jid=6121331004",
-    "desc": "WHAT MAKES US EPIC?\n\nAt the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating.\n\nBeing Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development.\n\nPRODUCTION\n\nWhat We Do\n\nWhether it’s driving a vision from start to finish or collaborating with teams to inspire and deliver projects of Epic quality, Epic’s production teams take pride in consistently delivering world-class products and experiences.\n\nWhat You'll Do\n\nWe are taking LEGO Fortnite to the next level with continuous live improvements and additions. We are looking for a Senior Producer to join us on the LEGO Fortnite production team and be responsible for partnering with an initiative leader to deliver fun, high-quality live content. We are looking for individuals who excel in organization, have exceptional communication abilities, and who are comfortable managing schedules of complex projects. The ideal candidates are passionate about working in technology and games as well as have a history of working within artistic environments.\n\nIn this role, you will\n\n• Lead by example: play testing the game, inspiring professional candor in others, and ensuring full consideration of estimates, direction, and player input\n• Partner with Design, Engineering, Art, QA, and production teams to scope, schedule, and ensure deliverables\n• Ensure the team has the best organizational structure, processes, and practices that allow them to produce high quality work efficiently and on time\n• Own the outcome: Help drive complicated tradeoff decisions involving all disciplines. Be a partner to our Release team and make sure major databases (Shotgrid and JIRA) are being kept up to date\n• Own the schedule: Build and maintain project plans, schedules, and roadmaps considering dependencies across multiple development teams to ensure successful releases\n• Proactively communicate: Provide transparency on project status and risks to stakeholders in order to ensure they are properly informed of any impacts from upcoming releases\n\nWhat we're looking for\n\n• Developed 2+ games from concept through launch in production/project management roles with 3+ years operating a live service game\n• Strong experience using JIRA and other core project management tools\n• Deep understanding of game development, partner approval processes, and dependency chains\n• Strong organizational skills and attention to detail with demonstrated strong communication skills with varying levels of stakeholders, within your team and throughout the company\n• Experience in an environment where you had to exhibit amazing problem-solving skills daily, viewing each new problem as an opportunity for success\n• Self-starter, you approach challenges creatively and methodically, seeing them through to final resolution\n• Ability to drive high velocity, high impact development cycles, balancing out short-term needs and long-term vision\n• Ability to adapt and be effective in new situations within a highly dynamic environment\n\nEPIC JOB + EPIC BENEFITS = EPIC LIFE\n\nOur intent is to cover all things that are medically necessary and improve the quality of life. We pay 100% of the premiums for both you and your dependents. Our coverage includes Medical, Dental, a Vision HRA, Long Term Disability, Life Insurance & a 401k with competitive match. We also offer a robust mental well-being program through Modern Health, which provides free therapy and coaching for employees & dependents. Throughout the year we celebrate our employees with events and company-wide paid breaks. We offer unlimited PTO and sick time and recognize individuals for 7 years of employment with a paid sabbatical.\nABOUT US\n\nEpic Games​ ​is a leading interactive entertainment company. For over 30 years we've been making award-winning games and engine technology that empowers others to make visually stunning games and 3D content that bring environments to life like never before. Epic's award-winning Unreal Engine technology not only provides game developers the ability to build high-fidelity, interactive experiences for PC, console, mobile, and VR, it is also a tool being embraced by content creators across a variety of industries such as media and entertainment, automotive, and architectural design. As we continue to build our Engine technology and develop remarkable games, we strive to build teams of world-class talent.\n\nLike what you hear? Come be a part of something Epic!\n\nEpic Games deeply values diverse teams and an inclusive work culture, and we are proud to be an Equal Opportunity employer. Learn more about our Equal Employment Opportunity (EEO) Policy here.\n\nNote to Recruitment Agencies: Epic does not accept any unsolicited resumes or approaches from any unauthorized third party (including recruitment or placement agencies) (i.e., a third party with whom we do not have a negotiated and validly executed agreement). We will not pay any fees to any unauthorized third party. Further details on these matters can be found here.",
+    "url": "https://epicgames.com/careers/jobs/6130249004?gh_jid=6130249004",
+    "desc": "WHAT MAKES US EPIC?\n\nAt the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating.\n\nBeing Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development.\n\nPRODUCTION\n\nWhat We Do\n\nWhether it’s driving a vision from start to finish or collaborating with teams to inspire and deliver projects of Epic quality, Epic’s production teams take pride in consistently delivering world-class products and experiences.\n\nWhat You'll Do\n\nAs Sr. Producer, you'll lead critical cross-functional initiatives on the Unreal Engine team, working closely with development teams to align projects with business goals, manage risk, and drive delivery. You'll help build the foundation of production practices on the team and scale effective delivery methods across multiple programs. The engine moves fast and priorities shift, so this role is for someone who treats that as the normal operating condition, not an exception, and keeps teams delivering through it.\n\nIn this role, you will\n\n• Lead production planning, team operations, and delivery execution across key Unreal Engine initiatives\n• Establish and scale roadmap, workstream, and milestone management practices for complex, cross-functional programs\n• Partner with engineering leads to determine the time, people, and resources needed to see projects through to completion\n• Provide strategic oversight of ongoing projects, including defining and tracking key metrics and KPIs\n• Anticipate and communicate risks, dependencies, and blockers clearly across all levels of the organization\n• Monitor cross-functional schedules, resource allocation, and cost efficiency\n• Foster communication and alignment between development teams and partner organizations\n• Continuously improve production practices and workflows to raise team and program performance\n• Own the health and stability of live releases by triaging incoming issues, coordinating bug fixes, and driving cross-team incident response\n\nWhat we're looking for\n\n• 10+ years of experience in production or program management within complex, matrixed organizations, ideally in software development on tools, platforms, or engines\n• A track record of fostering trust and transparency, managing tension constructively, and giving actionable feedback that grows talent and team capability\n• Experience building and scaling production practices and planning frameworks, creating a unified roadmap and driving alignment on strategic priorities\n• Strong stakeholder management instincts: building partnerships across technical and non-technical functions and resolving concerns before they escalate\n• Comfortable bringing structure and clarity to ambiguous situations, thinking strategically while breaking problems into actionable steps\n• Experience aligning interconnected workstreams toward shared milestones, with sound risk mitigation instincts and the flexibility to adapt plans as priorities shift\n• Ability to lead through influence rather than authority, enabling autonomy while holding teams accountable for results\n• Exceptional communication and facilitation skills, with the adaptability to engage a wide range of teams and technologies as focus shifts\n• Preferred: familiarity with Jira and workflow automation, and prior experience as a Producer or Sr. Producer on an engine or tools team\n\nEPIC JOB + EPIC BENEFITS = EPIC LIFE\n\nOur intent is to cover all things that are medically necessary and improve the quality of life. We pay 100% of the premiums for both you and your dependents. Our coverage includes Medical, Dental, a Vision HRA, Long Term Disability, Life Insurance & a 401k with competitive match. We also offer a robust mental well-being program through Modern Health, which provides free therapy and coaching for employees & dependents. Throughout the year we celebrate our employees with events and company-wide paid breaks. We offer unlimited PTO and sick time and recognize individuals for 7 years of employment with a paid sabbatical.\nABOUT US\n\nEpic Games​ ​is a leading interactive entertainment company. For over 30 years we've been making award-winning games and engine technology that empowers others to make visually stunning games and 3D content that bring environments to life like never before. Epic's award-winning Unreal Engine technology not only provides game developers the ability to build high-fidelity, interactive experiences for PC, console, mobile, and VR, it is also a tool being embraced by content creators across a variety of industries such as media and entertainment, automotive, and architectural design. As we continue to build our Engine technology and develop remarkable games, we strive to build teams of world-class talent.\n\nLike what you hear? Come be a part of something Epic!\n\nEpic Games deeply values diverse teams and an inclusive work culture, and we are proud to be an Equal Opportunity employer. Learn more about our Equal Employment Opportunity (EEO) Policy here.\n\nNote to Recruitment Agencies: Epic does not accept any unsolicited resumes or approaches from any unauthorized third party (including recruitment or placement agencies) (i.e., a third party with whom we do not have a negotiated and validly executed agreement). We will not pay any fees to any unauthorized third party. Further details on these matters can be found here.",
     "site": "epicgames.com",
     "source": "greenhouse",
     "role": "Продюсирование",
@@ -8299,22 +8330,21 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ],
-    "hasRu": true
+    ]
   },
   {
-    "id": "gh-epic-games-6122085004",
+    "id": "gh-epic-games-6131368004",
     "title": "Senior Producer, Art",
     "company": "Epic Games",
     "locations": [
-      "Cary, United States"
+      "Montreal, Canada"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-13",
-    "url": "https://epicgames.com/careers/jobs/6122085004?gh_jid=6122085004",
-    "desc": "WHAT MAKES US EPIC?\n\nAt the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating.\n\nBeing Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development.\n\nPRODUCTION\n\nWhat We Do\n\nWhether it’s driving a vision from start to finish or collaborating with teams to inspire and deliver projects of Epic quality, Epic’s production teams take pride in consistently delivering world-class products and experiences.\n\nWhat You'll Do\n\nHelp us take Fortnite Battle Royale to the next level. As a Senior Art Producer on the Fortnite production team, you'll partner with Art Directors, artists, and designers to drive fun, high-quality live content from concept through delivery. We need someone who's deeply organized, communicates clearly across disciplines, and thrives managing the schedules of multiple complex art projects. You should be passionate about games and technology, with a proven track record producing within artistic teams.\n\nIn this role, you will\n\n• Own the Schedule - Partner with art discipline leads, to help scope and schedule the desired work for the team. Build and maintain dependency-driven asset schedules to ensure the successful, on-time, release of content, to the Epic Art Quality bar\n• Center of Communication - Facilitate constant communication with the art production team, as well as cross-department production teams, providing transparency on asset status, risks, and opportunities. Ensure stakeholders have proper visibility into development and are informed of any changes that may impact their teams\n• Proactively Seek Resolution - Strong ability to identify problems, and propose solutions, for your team before they become roadblocks. Keeping a finger on the pulse of dependency deliverables, tech initiatives, and the project's high-level needs. Own the outcome of your area, and never wait to see if someone else will clear your path. Self-starter, you approach challenges creatively and methodically, seeing them through to the final resolution\n• Flexible Multitasker - Ability to handle multiple large production needs within your department or across small strike teams. Understanding how to identify and break down prioritizations, and keeping up strong communication via multiple outlets; IE email, slack, meetings, and development roadmaps\n• Facilitate Development Operations - Schedule team meetings, running dailies art reviews, as well as in-game content reviews, while providing actionable notes and follow up to attendees\n• Mentor and facilitate growth of more junior Art Producers\n\nWhat we're looking for\n\n• Prior experience in video game development, ideally live-service\n• Previous experience working in a production role where you've managed art teams in the creation and delivery of high-quality art\n• Previous experience supporting more technical art disciplines (Tech Art, Lighting, FX) is a plus\n• Deep understanding of dependency-driven pipelines, scheduling and asset tracking, and project management practices\n• Strong organizational skills and attention to detail\n• Experience in an environment where you had to exhibit amazing problem-solving skills daily, viewing each new problem as an opportunity for success\n• Have the ability to communicate with varying levels of stakeholders, within your team and throughout the company\n• Ability to drive high velocity, high-impact development cycles, balancing out short-term needs and long-term vision\n• Familiarity with Jira, Confluence, Shotgrid/Flow\n\nEPIC JOB + EPIC BENEFITS = EPIC LIFE\n\nOur intent is to cover all things that are medically necessary and improve the quality of life. We pay 100% of the premiums for both you and your dependents. Our coverage includes Medical, Dental, a Vision HRA, Long Term Disability, Life Insurance & a 401k with competitive match. We also offer a robust mental well-being program through Modern Health, which provides free therapy and coaching for employees & dependents. Throughout the year we celebrate our employees with events and company-wide paid breaks. We offer unlimited PTO and sick time and recognize individuals for 7 years of employment with a paid sabbatical.\nABOUT US\n\nEpic Games​ ​is a leading interactive entertainment company. For over 30 years we've been making award-winning games and engine technology that empowers others to make visually stunning games and 3D content that bring environments to life like never before. Epic's award-winning Unreal Engine technology not only provides game developers the ability to build high-fidelity, interactive experiences for PC, console, mobile, and VR, it is also a tool being embraced by content creators across a variety of industries such as media and entertainment, automotive, and architectural design. As we continue to build our Engine technology and develop remarkable games, we strive to build teams of world-class talent.\n\nLike what you hear? Come be a part of something Epic!\n\nEpic Games deeply values diverse teams and an inclusive work culture, and we are proud to be an Equal Opportunity employer. Learn more about our Equal Employment Opportunity (EEO) Policy here.\n\nNote to Recruitment Agencies: Epic does not accept any unsolicited resumes or approaches from any unauthorized third party (including recruitment or placement agencies) (i.e., a third party with whom we do not have a negotiated and validly executed agreement). We will not pay any fees to any unauthorized third party. Further details on these matters can be found here.",
+    "url": "https://epicgames.com/careers/jobs/6131368004?gh_jid=6131368004",
+    "desc": "WHAT MAKES US EPIC?\n\nAt the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating.\n\nBeing Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development.\n\nPRODUCTION\n\nWhat We Do\n\nWhether it’s driving a vision from start to finish or collaborating with teams to inspire and deliver projects of Epic quality, Epic’s production teams take pride in consistently delivering world-class products and experiences.\n\nWhat You'll Do\n\nHelp us take Fortnite Battle Royale to the next level. As a Senior Art Producer on the Fortnite production team, you'll partner with Art Directors, artists, and designers to drive fun, high-quality live content from concept through delivery. We need someone who's deeply organized, communicates clearly across disciplines, and thrives managing the schedules of multiple complex art projects. You should be passionate about games and technology, with a proven track record producing within artistic teams.\n\nIn this role, you will\n\n• Own the Schedule - Partner with art discipline leads, to help scope and schedule the desired work for the team. Build and maintain dependency-driven asset schedules to ensure the successful, on-time, release of content, to the Epic Art Quality bar\n• Center of Communication - Facilitate constant communication with the art production team, as well as cross-department production teams, providing transparency on asset status, risks, and opportunities. Ensure stakeholders have proper visibility into development and are informed of any changes that may impact their teams\n• Proactively Seek Resolution - Strong ability to identify problems, and propose solutions, for your team before they become roadblocks. Keeping a finger on the pulse of dependency deliverables, tech initiatives, and the project's high-level needs. Own the outcome of your area, and never wait to see if someone else will clear your path. Self-starter, you approach challenges creatively and methodically, seeing them through to the final resolution\n• Flexible Multitasker - Ability to handle multiple large production needs within your department or across small strike teams. Understanding how to identify and break down prioritizations, and keeping up strong communication via multiple outlets; IE email, slack, meetings, and development roadmaps\n• Facilitate Development Operations - Schedule team meetings, running dailies art reviews, as well as in-game content reviews, while providing actionable notes and follow up to attendees\n• Mentor and facilitate growth of more junior Art Producers\n\nWhat we're looking for\n\n• Prior experience in video game development, ideally live-service\n• Previous experience working in a production role where you've managed art teams in the creation and delivery of high-quality art\n• Previous experience supporting more technical art disciplines (Tech Art, Lighting, FX) is a plus\n• Deep understanding of dependency-driven pipelines, scheduling and asset tracking, and project management practices\n• Strong organizational skills and attention to detail\n• Experience in an environment where you had to exhibit amazing problem-solving skills daily, viewing each new problem as an opportunity for success\n• Have the ability to communicate with varying levels of stakeholders, within your team and throughout the company\n• Ability to drive high velocity, high-impact development cycles, balancing out short-term needs and long-term vision\n• Familiarity with Jira, Confluence, Shotgrid/Flow\n\nEPIC JOB + EPIC BENEFITS = EPIC LIFE\n\nWe pay 100% for benefits for both employees and dependents and offer coverage for supplemental medical, dental, vision, critical illness, telemedicine, Life and AD&D, long term disability insurance as well as weekly indemnity (short term disability) and a retirement savings plan with a competitive employer match. In addition to the EAP (employee assistance program), we also offer a robust mental well-being program through Modern Health, which provides free therapy and coaching for employees & dependents.\nABOUT US\n\nEpic Games​ ​is a leading interactive entertainment company. For over 30 years we've been making award-winning games and engine technology that empowers others to make visually stunning games and 3D content that bring environments to life like never before. Epic's award-winning Unreal Engine technology not only provides game developers the ability to build high-fidelity, interactive experiences for PC, console, mobile, and VR, it is also a tool being embraced by content creators across a variety of industries such as media and entertainment, automotive, and architectural design. As we continue to build our Engine technology and develop remarkable games, we strive to build teams of world-class talent.\n\nLike what you hear? Come be a part of something Epic!\n\nEpic Games deeply values diverse teams and an inclusive work culture, and we are proud to be an Equal Opportunity employer. Learn more about our Equal Employment Opportunity (EEO) Policy here.\n\nNote to Recruitment Agencies: Epic does not accept any unsolicited resumes or approaches from any unauthorized third party (including recruitment or placement agencies) (i.e., a third party with whom we do not have a negotiated and validly executed agreement). We will not pay any fees to any unauthorized third party. Further details on these matters can be found here.",
     "site": "epicgames.com",
     "source": "greenhouse",
     "role": "Арт",
@@ -8322,8 +8352,7 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ],
-    "hasRu": true
+    ]
   },
   {
     "id": "gh-epic-games-6008409004",
@@ -8349,8 +8378,28 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-epic-games-6122983004",
+    "id": "gh-epic-games-6122985004",
     "title": "Senior Software Engineer",
+    "company": "Epic Games",
+    "locations": [],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 165 686 – 243 007",
+    "posted": "2026-08-13",
+    "url": "https://epicgames.com/careers/jobs/6122985004?gh_jid=6122985004",
+    "desc": "WHAT MAKES US EPIC?\n\nAt the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating.\n\nBeing Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development.\n\nENGINEERING - EPIC GAMES SERVICES\n\nWhat We Do\n\nDriving the plug-in power behind Unreal Engine 5. We bridge connections for licensees and our own internal game teams to online services. This allows games like Fortnite to utilize a combination of platform online services as well as Epic’s own online services to build cross-platform online features. Login, parties, voice chat, matchmaking, purchasing, cloud storage, and analytics are just a few examples of online features that our Online Game Services team helps games utilize.\n\nWhat You'll Do\n\nThe Applications Team builds desktop and web applications, as well as supporting online services to power content discovery and digital delivery. Our team of engineering experts is always innovating to improve the tools and technology that empower internal and external developers to deliver their digital content to users across multiple platforms. Whether it be supporting Fortnite, the Epic Games Store, or external partners, we are committed to improving the scalability, efficiency, portability, and stability of our tech offerings. As a member of our Applications team, you can expect to coordinate with a cross-site group of highly skilled individuals. You will have opportunities to architect new features and evolve existing products used daily by millions of gamers, developers, and enterprise professionals. You will partner closely with backend services teams to ensure that the underlying systems we build meet internal and external customer needs.\n\nIn this role, you will\n\n• Focus on the technical implementation and evolution of the Epic Games Launcher desktop application\n• Be hands-on and use your technical expertise to drive solutions for a range of challenges\n• Collaborate with other teams (including Product, Design, QA, and Backend Service Teams)\n• Design, architect, implement, and ship well-documented new features\n• Improve, and evolve existing tools and features\n• Maintain and hunt for bugs in existing code bases\n• Take part in foundational work as we embark on a new chapter for our desktop clients\n\nWhat we're looking for\n\n• Experience building perfect experience-focused desktop applications, as well as strong professional experience building production software in Rust\n• Owned and shipped large initiatives that require coordination across multiple teams\n• Ability to architect system interfaces and tools\n• Track record of development on tight schedules with complex technical requirements\n• Passion for building great user experiences and products that serve diverse use cases\n• Someone who is user-focused, solution-oriented, passionate, and innovative. These traits equal success at Epic and are at the core of just about everything we do\n\nThis role is open to multiple locations across the US (including WA).\n\nPay Transparency Information\n\nThe expected annual base pay range(s) for this position are detailed below. Each base pay range is relevant only for individuals who are residents of or will be expected to work within the specified locale. Compensation varies based on a variety of factors, which include (but aren’t limited to) things such as skills and competencies, qualifications, knowledge, and experience. In addition to base pay, most employees are eligible to participate in Epic’s generous benefit plans and discretionary incentive programs (subject to the terms of those plans or programs).\nWashington Base Pay Range\n$165,686—$243,007 USD\n\nABOUT US\n\nEpic Games​ ​is a leading interactive entertainment company. For over 30 years we've been making award-winning games and engine technology that empowers others to make visually stunning games and 3D content that bring environments to life like never before. Epic's award-winning Unreal Engine technology not only provides game developers the ability to build high-fidelity, interactive experiences for PC, console, mobile, and VR, it is also a tool being embraced by content creators across a variety of industries such as media and entertainment, automotive, and architectural design. As we continue to build our Engine technology and develop remarkable games, we strive to build teams of world-class talent.\n\nLike what you hear? Come be a part of something Epic!\n\nEpic Games deeply values diverse teams and an inclusive work culture, and we are proud to be an Equal Opportunity employer. Learn more about our Equal Employment Opportunity (EEO) Policy here.\n\nNote to Recruitment Agencies: Epic does not accept any unsolicited resumes or approaches from any unauthorized third party (including recruitment or placement agencies) (i.e., a third party with whom we do not have a negotiated and validly executed agreement). We will not pay any fees to any unauthorized third party. Further details on these matters can be found here.",
+    "site": "epicgames.com",
+    "source": "greenhouse",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unreal"
+    ]
+  },
+  {
+    "id": "gh-epic-games-6139762004",
+    "title": "Senior Technical Artist",
     "company": "Epic Games",
     "locations": [
       "Cary, United States"
@@ -8359,29 +8408,8 @@ window.JOBS = [
     "rkind": null,
     "salary": null,
     "posted": "2026-08-13",
-    "url": "https://epicgames.com/careers/jobs/6122983004?gh_jid=6122983004",
-    "desc": "WHAT MAKES US EPIC?\n\nAt the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating.\n\nBeing Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development.\n\nENGINEERING - EPIC GAMES SERVICES\n\nWhat We Do\n\nDriving the plug-in power behind Unreal Engine 5. We bridge connections for licensees and our own internal game teams to online services. This allows games like Fortnite to utilize a combination of platform online services as well as Epic’s own online services to build cross-platform online features. Login, parties, voice chat, matchmaking, purchasing, cloud storage, and analytics are just a few examples of online features that our Online Game Services team helps games utilize.\n\nWhat You'll Do\n\nThe Applications Team builds desktop and web applications, as well as supporting online services to power content discovery and digital delivery. Our team of engineering experts is always innovating to improve the tools and technology that empower internal and external developers to deliver their digital content to users across multiple platforms. Whether it be supporting Fortnite, the Epic Games Store, or external partners, we are committed to improving the scalability, efficiency, portability, and stability of our tech offerings. As a member of our Applications team, you can expect to coordinate with a cross-site group of highly skilled individuals. You will have opportunities to architect new features and evolve existing products used daily by millions of gamers, developers, and enterprise professionals. You will partner closely with backend services teams to ensure that the underlying systems we build meet internal and external customer needs.\n\nIn this role, you will\n\n• Focus on the technical implementation and evolution of the Epic Games Launcher desktop application\n• Be hands-on and use your technical expertise to drive solutions for a range of challenges\n• Collaborate with other teams (including Product, Design, QA, and Backend Service Teams)\n• Design, architect, implement, and ship well-documented new features\n• Improve, and evolve existing tools and features\n• Maintain and hunt for bugs in existing code bases\n• Take part in foundational work as we embark on a new chapter for our desktop clients\n\nWhat we're looking for\n\n• Experience building perfect experience-focused desktop applications, as well as strong professional experience building production software in Rust\n• Owned and shipped large initiatives that require coordination across multiple teams\n• Ability to architect system interfaces and tools\n• Track record of development on tight schedules with complex technical requirements\n• Passion for building great user experiences and products that serve diverse use cases\n• Someone who is user-focused, solution-oriented, passionate, and innovative. These traits equal success at Epic and are at the core of just about everything we do\n\nEPIC JOB + EPIC BENEFITS = EPIC LIFE\n\nOur intent is to cover all things that are medically necessary and improve the quality of life. We pay 100% of the premiums for both you and your dependents. Our coverage includes Medical, Dental, a Vision HRA, Long Term Disability, Life Insurance & a 401k with competitive match. We also offer a robust mental well-being program through Modern Health, which provides free therapy and coaching for employees & dependents. Throughout the year we celebrate our employees with events and company-wide paid breaks. We offer unlimited PTO and sick time and recognize individuals for 7 years of employment with a paid sabbatical.\nABOUT US\n\nEpic Games​ ​is a leading interactive entertainment company. For over 30 years we've been making award-winning games and engine technology that empowers others to make visually stunning games and 3D content that bring environments to life like never before. Epic's award-winning Unreal Engine technology not only provides game developers the ability to build high-fidelity, interactive experiences for PC, console, mobile, and VR, it is also a tool being embraced by content creators across a variety of industries such as media and entertainment, automotive, and architectural design. As we continue to build our Engine technology and develop remarkable games, we strive to build teams of world-class talent.\n\nLike what you hear? Come be a part of something Epic!\n\nEpic Games deeply values diverse teams and an inclusive work culture, and we are proud to be an Equal Opportunity employer. Learn more about our Equal Employment Opportunity (EEO) Policy here.\n\nNote to Recruitment Agencies: Epic does not accept any unsolicited resumes or approaches from any unauthorized third party (including recruitment or placement agencies) (i.e., a third party with whom we do not have a negotiated and validly executed agreement). We will not pay any fees to any unauthorized third party. Further details on these matters can be found here.",
-    "site": "epicgames.com",
-    "source": "greenhouse",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "Unreal"
-    ],
-    "hasRu": true
-  },
-  {
-    "id": "gh-epic-games-6143677004",
-    "title": "Senior Technical Artist",
-    "company": "Epic Games",
-    "locations": [],
-    "remote": false,
-    "rkind": null,
-    "salary": "$ 151 585 – 252 641",
-    "posted": "2026-08-13",
-    "url": "https://epicgames.com/careers/jobs/6143677004?gh_jid=6143677004",
-    "desc": "WHAT MAKES US EPIC?\n\nAt the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating.\n\nBeing Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development.\n\nART\n\nWhat We Do\n\nPush your artistic talent to the limit on a team of world-class environment, character and concept artists who strive to innovate and inspire.\n\nWhat You'll Do\n\nEpic is looking for a Senior Tech Artist to join our team working on Fortnite Events. A successful candidate should have a deep knowledge in look development, lighting and complex game art. A successful candidate should have a broad knowledge of art creation for games. You should understand modeling, texturing, and animation fundamentals. You should be able to combine geometry, materials, effects, and UE Blueprints to create complex art. You should be able to work with both internal ICs, leads and directors as well as direct vendors to support the more technical aspects of creating art.\n\nIn this role, you will\n\n• Create complex materials for landscape and environments\n• Be responsible for world lighting, sets lighting, clouds, atmospherics, water lookdev\n• Execute on a range of visual styles with emphasis on stylized with a high level of fidelity\n• Work with engineers and artists to optimize content for many platforms\n• Own gameplay and engine features from the TechArt side maintaining the high-quality bar for Fortnite Events\n\nWhat we're looking for\n\n• Must have a strong reel/portfolio showing executed game tech art\n• Experienced knowledge of PBR principles and material editors\n• Establish workflows and tools for other artists to utilize when making unique assets\n• Experience using texturing packagers such as Substance Designer\n• High level of proficiency in setting up world environmental lighting\n• Desire and knowledge of how to push Unreal Engine further\n• Desire to work with a team and own features and initiatives from inception to ship\n• Familiarity with the Unreal 5 Engine art pipeline\n• Experience working on multiple platforms\n• Scripting experience Blueprint or other\n\nThis role is open to multiple locations across the US (including CA, NYC, & WA).\n\nPay Transparency Information\n\nThe expected annual base pay range(s) for this position are detailed below. Each base pay range is relevant only for individuals who are residents of or will be expected to work within the specified locale. Compensation varies based on a variety of factors, which include (but aren’t limited to) things such as skills and competencies, qualifications, knowledge, and experience. In addition to base pay, most employees are eligible to participate in Epic’s generous benefit plans and discretionary incentive programs (subject to the terms of those plans or programs).\nNew York City Base Pay Range\n$151,585—$252,641 USD\n\nCalifornia Base Pay Range\n$166,744—$277,906 USD\n\nWashington Base Pay Range\n$151,585—$252,641 USD\n\nABOUT US\n\nEpic Games​ ​is a leading interactive entertainment company. For over 30 years we've been making award-winning games and engine technology that empowers others to make visually stunning games and 3D content that bring environments to life like never before. Epic's award-winning Unreal Engine technology not only provides game developers the ability to build high-fidelity, interactive experiences for PC, console, mobile, and VR, it is also a tool being embraced by content creators across a variety of industries such as media and entertainment, automotive, and architectural design. As we continue to build our Engine technology and develop remarkable games, we strive to build teams of world-class talent.\n\nLike what you hear? Come be a part of something Epic!\n\nEpic Games deeply values diverse teams and an inclusive work culture, and we are proud to be an Equal Opportunity employer. Learn more about our Equal Employment Opportunity (EEO) Policy here.\n\nNote to Recruitment Agencies: Epic does not accept any unsolicited resumes or approaches from any unauthorized third party (including recruitment or placement agencies) (i.e., a third party with whom we do not have a negotiated and validly executed agreement). We will not pay any fees to any unauthorized third party. Further details on these matters can be found here.",
+    "url": "https://epicgames.com/careers/jobs/6139762004?gh_jid=6139762004",
+    "desc": "WHAT MAKES US EPIC?\n\nAt the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating.\n\nBeing Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development.\n\nART\n\nWhat We Do\n\nPush your artistic talent to the limit on a team of world-class environment, character and concept artists who strive to innovate and inspire.\n\nWhat You'll Do\n\nEpic is looking for a Senior Tech Artist to join our team working on Fortnite Events. A successful candidate should have a deep knowledge in look development, lighting and complex game art. A successful candidate should have a broad knowledge of art creation for games. You should understand modeling, texturing, and animation fundamentals. You should be able to combine geometry, materials, effects, and UE Blueprints to create complex art. You should be able to work with both internal ICs, leads and directors as well as direct vendors to support the more technical aspects of creating art.\n\nIn this role, you will\n\n• Create complex materials for landscape and environments\n• Be responsible for world lighting, sets lighting, clouds, atmospherics, water lookdev\n• Execute on a range of visual styles with emphasis on stylized with a high level of fidelity\n• Work with engineers and artists to optimize content for many platforms\n• Own gameplay and engine features from the TechArt side maintaining the high-quality bar for Fortnite Events\n\nWhat we're looking for\n\n• Must have a strong reel/portfolio showing executed game tech art\n• Experienced knowledge of PBR principles and material editors\n• Establish workflows and tools for other artists to utilize when making unique assets\n• Experience using texturing packagers such as Substance Designer\n• High level of proficiency in setting up world environmental lighting\n• Desire and knowledge of how to push Unreal Engine further\n• Desire to work with a team and own features and initiatives from inception to ship\n• Familiarity with the Unreal 5 Engine art pipeline\n• Experience working on multiple platforms\n• Scripting experience Blueprint or other\n\nEPIC JOB + EPIC BENEFITS = EPIC LIFE\n\nOur intent is to cover all things that are medically necessary and improve the quality of life. We pay 100% of the premiums for both you and your dependents. Our coverage includes Medical, Dental, a Vision HRA, Long Term Disability, Life Insurance & a 401k with competitive match. We also offer a robust mental well-being program through Modern Health, which provides free therapy and coaching for employees & dependents. Throughout the year we celebrate our employees with events and company-wide paid breaks. We offer unlimited PTO and sick time and recognize individuals for 7 years of employment with a paid sabbatical.\nABOUT US\n\nEpic Games​ ​is a leading interactive entertainment company. For over 30 years we've been making award-winning games and engine technology that empowers others to make visually stunning games and 3D content that bring environments to life like never before. Epic's award-winning Unreal Engine technology not only provides game developers the ability to build high-fidelity, interactive experiences for PC, console, mobile, and VR, it is also a tool being embraced by content creators across a variety of industries such as media and entertainment, automotive, and architectural design. As we continue to build our Engine technology and develop remarkable games, we strive to build teams of world-class talent.\n\nLike what you hear? Come be a part of something Epic!\n\nEpic Games deeply values diverse teams and an inclusive work culture, and we are proud to be an Equal Opportunity employer. Learn more about our Equal Employment Opportunity (EEO) Policy here.\n\nNote to Recruitment Agencies: Epic does not accept any unsolicited resumes or approaches from any unauthorized third party (including recruitment or placement agencies) (i.e., a third party with whom we do not have a negotiated and validly executed agreement). We will not pay any fees to any unauthorized third party. Further details on these matters can be found here.",
     "site": "epicgames.com",
     "source": "greenhouse",
     "role": "Технический художник",
@@ -8390,8 +8418,7 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "Substance"
-    ],
-    "hasRu": true
+    ]
   },
   {
     "id": "gh-epic-games-6119876004",
@@ -8434,24 +8461,23 @@ window.JOBS = [
     "role": "Анимация",
     "grade": null,
     "spec": null,
+    "permit": true,
     "stack": [
       "Unreal"
     ],
     "hasRu": true
   },
   {
-    "id": "gh-epic-games-6008376004",
+    "id": "gh-epic-games-6008098004",
     "title": "Technical Designer in Animation",
     "company": "Epic Games",
-    "locations": [
-      "Montreal, Canada"
-    ],
+    "locations": [],
     "remote": false,
     "rkind": null,
-    "salary": null,
+    "salary": "$ 129 273 – 189 600",
     "posted": "2026-08-13",
-    "url": "https://epicgames.com/careers/jobs/6008376004?gh_jid=6008376004",
-    "desc": "WHAT MAKES US EPIC?\n\nAt the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating.\n\nBeing Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development.\n\nART\n\nWhat We Do\n\nPush your artistic talent to the limit on a team of world-class environment, character and concept artists who strive to innovate and inspire.\n\nWhat You'll Do\n\nEpic Games is looking for a Technical Designer in Animation (TDiA) to join our team working across various animation systems. As a TDiA, you will use your animation sense and technical understanding of character animation to design and create gameplay animation systems that facilitate entertaining, high-quality characters. You will be a primary point of contact for animation implementation, any animation-related technical challenges, and will work closely with Animation, Design, and Programming colleagues to ensure the animation pipeline operates smoothly and efficiently. You will also help identify potential issues and deploy correct solutions, using your technical knowledge to help bridge and facilitate communication between the animation team and other departments.\n\nIn this role, you will\n\n• Build animation behavior tools, techniques, and frameworks that enable complex systems and entertaining characters\n• Design and implement animation state machines, behaviors, and runtime solutions\n• Partner with animation leadership to translate creative vision into technical reality, protecting style consistency and pushing the quality bar\n• Collaborate with Design and Programming to troubleshoot and resolve in-game animation issues and technical challenges\n• Identify opportunities to improve the animation pipeline and workflow, and provide technical solutions for the animation team\n• Create documentation and deliver training to level up the animation team's technical fluency\n• Collaborate with Technical Designers in Animation (TDiA) across Epic Games to share solutions, align workflows where appropriate and identify opportunities to leverage existing tools and systems rather than duplicating effort\n\nWhat we're looking for\n\n• A strong animation sense with a clear understanding of realistic and stylized character motion and how to achieve them with state-of-the-art animation methods\n• An understanding of generative AI tools and capabilities as it relates to character animation\n• Expertise with animation pipelines, including source content creation tools such as Maya, MotionBuilder, and the Unreal Engine using our Control Rig toolset\n• Exceptional problem-solving ability with strong written communication and teamwork skills\n• Strong familiarity with gameplay animation tools and concepts, such as blend trees, state machines, and Unreal Engine Animation Blueprints\n• Experience with AAA game development, preferably on a large team using an established game engine (internal or commercial); experience with Unreal Engine is a plus\n• Self-motivation, a strong work ethic, and the ability to work independently\n• Experience with C++ is not required\n\nEPIC JOB + EPIC BENEFITS = EPIC LIFE\n\nWe pay 100% for benefits for both employees and dependents and offer coverage for supplemental medical, dental, vision, critical illness, telemedicine, Life and AD&D, long term disability insurance as well as weekly indemnity (short term disability) and a retirement savings plan with a competitive employer match. In addition to the EAP (employee assistance program), we also offer a robust mental well-being program through Modern Health, which provides free therapy and coaching for employees & dependents.\nABOUT US\n\nEpic Games​ ​is a leading interactive entertainment company. For over 30 years we've been making award-winning games and engine technology that empowers others to make visually stunning games and 3D content that bring environments to life like never before. Epic's award-winning Unreal Engine technology not only provides game developers the ability to build high-fidelity, interactive experiences for PC, console, mobile, and VR, it is also a tool being embraced by content creators across a variety of industries such as media and entertainment, automotive, and architectural design. As we continue to build our Engine technology and develop remarkable games, we strive to build teams of world-class talent.\n\nLike what you hear? Come be a part of something Epic!\n\nEpic Games deeply values diverse teams and an inclusive work culture, and we are proud to be an Equal Opportunity employer. Learn more about our Equal Employment Opportunity (EEO) Policy here.\n\nNote to Recruitment Agencies: Epic does not accept any unsolicited resumes or approaches from any unauthorized third party (including recruitment or placement agencies) (i.e., a third party with whom we do not have a negotiated and validly executed agreement). We will not pay any fees to any unauthorized third party. Further details on these matters can be found here.",
+    "url": "https://epicgames.com/careers/jobs/6008098004?gh_jid=6008098004",
+    "desc": "WHAT MAKES US EPIC?\n\nAt the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating.\n\nBeing Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development.\n\nART\n\nWhat We Do\n\nPush your artistic talent to the limit on a team of world-class environment, character and concept artists who strive to innovate and inspire.\n\nWhat You'll Do\n\nEpic Games is looking for a Technical Designer in Animation (TDiA) to join our team working across various animation systems. As a TDiA, you will use your animation sense and technical understanding of character animation to design and create gameplay animation systems that facilitate entertaining, high-quality characters. You will be a primary point of contact for animation implementation, any animation-related technical challenges, and will work closely with Animation, Design, and Programming colleagues to ensure the animation pipeline operates smoothly and efficiently. You will also help identify potential issues and deploy correct solutions, using your technical knowledge to help bridge and facilitate communication between the animation team and other departments.\n\nIn this role, you will\n\n• Build animation behavior tools, techniques, and frameworks that enable complex systems and entertaining characters\n• Design and implement animation state machines, behaviors, and runtime solutions\n• Partner with animation leadership to translate creative vision into technical reality, protecting style consistency and pushing the quality bar\n• Collaborate with Design and Programming to troubleshoot and resolve in-game animation issues and technical challenges\n• Identify opportunities to improve the animation pipeline and workflow, and provide technical solutions for the animation team\n• Create documentation and deliver training to level up the animation team's technical fluency\n• Collaborate with Technical Designers in Animation (TDiA) across Epic Games to share solutions, align workflows where appropriate and identify opportunities to leverage existing tools and systems rather than duplicating effort\n\nWhat we're looking for\n\n• A strong animation sense with a clear understanding of realistic and stylized character motion and how to achieve them with state-of-the-art animation methods\n• An understanding of generative AI tools and capabilities as it relates to character animation\n• Expertise with animation pipelines, including source content creation tools such as Maya, MotionBuilder, and the Unreal Engine using our Control Rig toolset\n• Exceptional problem-solving ability with strong written communication and teamwork skills\n• Strong familiarity with gameplay animation tools and concepts, such as blend trees, state machines, and Unreal Engine Animation Blueprints\n• Experience with AAA game development, preferably on a large team using an established game engine (internal or commercial); experience with Unreal Engine is a plus\n• Self-motivation, a strong work ethic, and the ability to work independently\n• Experience with C++ is not required\n\nThis role is open to multiple locations in North America (including CA & WA).\n\nPay Transparency Information\n\nThe expected annual base pay range(s) for this position are detailed below. Each base pay range is relevant only for individuals who are residents of or will be expected to work within the specified locale. Compensation varies based on a variety of factors, which include (but aren’t limited to) things such as skills and competencies, qualifications, knowledge, and experience. In addition to base pay, most employees are eligible to participate in Epic’s generous benefit plans and discretionary incentive programs (subject to the terms of those plans or programs).\nCalifornia Base Pay Range\n$129,273—$189,600 USD\n\nWashington Base Pay Range\n$117,521—$172,365 USD\n\nABOUT US\n\nEpic Games​ ​is a leading interactive entertainment company. For over 30 years we've been making award-winning games and engine technology that empowers others to make visually stunning games and 3D content that bring environments to life like never before. Epic's award-winning Unreal Engine technology not only provides game developers the ability to build high-fidelity, interactive experiences for PC, console, mobile, and VR, it is also a tool being embraced by content creators across a variety of industries such as media and entertainment, automotive, and architectural design. As we continue to build our Engine technology and develop remarkable games, we strive to build teams of world-class talent.\n\nLike what you hear? Come be a part of something Epic!\n\nEpic Games deeply values diverse teams and an inclusive work culture, and we are proud to be an Equal Opportunity employer. Learn more about our Equal Employment Opportunity (EEO) Policy here.\n\nNote to Recruitment Agencies: Epic does not accept any unsolicited resumes or approaches from any unauthorized third party (including recruitment or placement agencies) (i.e., a third party with whom we do not have a negotiated and validly executed agreement). We will not pay any fees to any unauthorized third party. Further details on these matters can be found here.",
     "site": "epicgames.com",
     "source": "greenhouse",
     "role": "Анимация",
@@ -8461,8 +8487,7 @@ window.JOBS = [
       "Unreal",
       "C++",
       "Maya"
-    ],
-    "hasRu": true
+    ]
   },
   {
     "id": "gh-epic-games-5723660004",
@@ -8511,27 +8536,6 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-scopely-5389044008",
-    "title": "Product Marketing Manager - Star Trek",
-    "company": "Scopely",
-    "locations": [
-      "Barcelona, Spain"
-    ],
-    "remote": false,
-    "rkind": "worldwide",
-    "salary": null,
-    "posted": "2026-08-13",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5389044008?gh_jid=5389044008",
-    "desc": "Scopely is looking for a Product Marketing Manager to join our Star Trek™ Fleet Command team, helping shape how one of mobile gaming's deepest, most enduring, and most community-driven live-service experiences is understood, experienced, and adopted by millions of players worldwide.\n\nThis role sits at the intersection of Product, Live Operations, Marketing, Community, Campaigns, and Player Experience. You will partner closely with Product teams to translate complex systems, features, and roadmap initiatives into compelling player value, ensuring every launch delivers a clear narrative, coordinated execution, and an exceptional player experience.\n\nProduct Marketing serves as the connective tissue across the player-facing organization. While Product defines what we build, Community builds trust, Campaign Marketing activates audiences, and Player Experience supports players, Product Marketing ensures every team is aligned around a shared strategy, consistent messaging, and a coordinated go-to-market plan.\n\nSuccess in this role requires equal parts strategic thinking and hands-on execution. You'll develop positioning, own go-to-market strategy, create messaging frameworks, build launch materials, guide creative development, and coordinate cross-functional teams to bring new features, seasonal content, technical improvements, and major Star Trek moments to life.\n\nStar Trek Fleet Command is one of the most sophisticated strategy games in mobile. The ideal candidate enjoys simplifying complexity, thrives in cross-functional environments, and is energized by turning ambitious product ideas into experiences that players understand, value, and remember.\n\nWhat You’ll Do:\n\nOwn the Player-Facing Narrative\n\n• Own the player-facing narrative for Star Trek Fleet Command, translating product strategy into clear, compelling experiences that help players understand not just what we're building, but why it matters\n• Champion the player perspective throughout the product development lifecycle, ensuring features, systems, and content are positioned in ways that resonate with our diverse player base\n• Establish messaging frameworks that create consistency across every player-facing touchpoint, from launch campaigns and CRM to roadmap communications and in-game messaging\n\nTranslate Product Strategy into Player Value\n\n• Partner with Product, Design, Economy, Live Operations, Analytics, and Creative teams throughout feature development\n• Translate complex gameplay systems, progression mechanics, monetization initiatives, technical improvements, and roadmap priorities into compelling player-facing narratives\n• Develop positioning, messaging, and value propositions for new features, seasonal content, technical improvements, and franchise initiatives\n• Ensure every major release tells a clear story that connects product innovation with meaningful player outcomes\n\nLead Go-to-Market Strategy\n\n• Own integrated go-to-market strategies for major game features, seasonal arcs, technical improvements, and franchise partnerships\n• Build launch plans that align messaging, timing, audiences, business objectives, and player education across every player-facing channel\n• Define player segmentation and messaging strategies that support players throughout their lifecycle and progression journey\n• Establish launch objectives and success criteria in partnership with Product, Marketing, and Analytics teams\n\nDrive Cross-Functional Launch Readiness\n\n• Serve as the central marketing partner connecting Product, Community, Campaign Marketing, CRM, Creative, Analytics, Player Experience, Publishing, and external partners\n• Coordinate launch readiness across all player-facing functions, ensuring messaging, creative assets, support documentation, operational plans, and partner approvals are complete before release\n• Facilitate launch planning, milestone reviews, and cross-functional communication to proactively identify risks and remove blockers\n• Partner with Community and Player Experience to ensure player communications, support readiness, and recovery messaging remain aligned throughout launches and live incidents\n\nOwn Product Messaging & Creative Stewardship\n\n• Create creative briefs, messaging frameworks, presentations, launch documentation, executive materials, and marketing guidance that enable successful execution across the organization\n• Review and approve marketing assets to ensure consistency across channels and alignment with product strategy, brand standards, and franchise guidelines\n• Partner with Creative teams to develop high-quality marketing materials that communicate player value while maintaining franchise authenticity\n• Manage approvals and asset delivery with Paramount and other external partners\n\nMeasure Product Adoption & Optimize Performance\n\n• Monitor feature adoption, player engagement, sentiment, campaign performance, and commercial outcomes following launches\n• Partner with Analytics, Community, and Player Experience to identify player friction, adoption barriers, and opportunities for optimization\n• Translate quantitative and qualitative player insights into actionable recommendations for future launches and product improvements\n• Continuously refine positioning, messaging, and go-to-market strategies through experimentation, testing, and post-launch analysis\n\nLead the Product Marketing Function…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "site": "scopely.com",
-    "source": "greenhouse",
-    "role": "Маркетинг",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "hasRu": true
-  },
-  {
     "id": "gh-scopely-5368795008",
     "title": "Senior Engineer, Graphics - Unannounced Project",
     "company": "Scopely",
@@ -8543,7 +8547,7 @@ window.JOBS = [
       "Portugal"
     ],
     "remote": false,
-    "rkind": "worldwide",
+    "rkind": "zone",
     "salary": null,
     "posted": "2026-08-13",
     "url": "https://job-boards.greenhouse.io/scopely/jobs/5368795008?gh_jid=5368795008",
@@ -8553,6 +8557,7 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Senior",
     "spec": "Движок",
+    "permit": true,
     "stack": [
       "Unity",
       "Unreal",
@@ -8592,7 +8597,7 @@ window.JOBS = [
       "Portugal"
     ],
     "remote": false,
-    "rkind": "worldwide",
+    "rkind": "zone",
     "salary": null,
     "posted": "2026-08-13",
     "url": "https://job-boards.greenhouse.io/scopely/jobs/5081833008?gh_jid=5081833008",
@@ -8602,6 +8607,7 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Senior",
     "spec": "Бэкенд",
+    "permit": true,
     "stack": [
       "C#",
       "Python",
@@ -8653,6 +8659,7 @@ window.JOBS = [
     "role": "Программирование",
     "grade": null,
     "spec": "Бэкенд",
+    "permit": true,
     "stack": [
       "C#",
       "Python"
@@ -8796,6 +8803,7 @@ window.JOBS = [
     "role": "QA",
     "grade": "Senior",
     "spec": null,
+    "permit": true,
     "stack": [
       "Unreal"
     ],
@@ -8819,6 +8827,7 @@ window.JOBS = [
     "role": "Арт",
     "grade": null,
     "spec": null,
+    "permit": true,
     "stack": [
       "Unreal",
       "Figma",
@@ -8871,18 +8880,18 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-tripledot-belka-4901455101",
+    "id": "gh-tripledot-belka-4872910101",
     "title": "Playable Ads Developer (PeopleFun)",
     "company": "Tripledot / Belka",
     "locations": [
-      "Tblisi"
+      "Minsk"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-12",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4901455101",
-    "desc": "Who are we?\n\nTripledot Studios is one of the largest independent mobile games companies in the world.\n\nWe are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios.\n\nOur expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users.\n\nTripledot’s guiding principle is that when people love what they do, what they do will be loved by others.\n\nWe’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games.\n\nOur ambition is to be the most successful games company in the world, and we’re just getting started.\n\nThe role is working within our PeopleFun studio.\n\nPeopleFun is an award-winning creator of mobile games for players across the globe. PeopleFun is a Dallas-based game studio founded and led by game industry veterans, where game developers thrive on collaboration, creativity, teamwork, and fun. Our games are played by over 25 million players each month, and we have a number of exciting mobile games in development to fuel the future growth of PeopleFun.\n\nWe believe in bringing People together through Fun by creating the best in class social features and communities in our games that enables our players to engage deeply with other players. Secondly we endeavor to bring our studio teammates together by creating the very best game teams that foster healthy collaboration, incredible productivity, and life-long professional relationships.\n\nRole Overview\n\nWe're looking for a Playable Ad Developer to own playable ad production across all games at PeopleFun. You'll convert our existing titles into HTML5 playable experiences, build tools and processes that scale production and actively use AI to increase output and quality. This is a hands-on role with real scope - you're not just executing briefs, you're helping shape how we build playables as a studio.\n\nKey Responsibilities\n\n• Own the end-to-end creation of playable ads across all PeopleFun games\n• Build scalable processes and tooling to increase production volume and consistency\n• Leverage AI tools to speed up and improve playable ad development\n• Optimise playables for user experience, performance and cross-platform compatibility\n• Collaborate with marketing, creative producers, artists and animators\n\nRequired Skills, Knowledge and Expertise\n\n• 2+ years of experience developing Playable Ads or HTML games\n• Good knowledge of JavaScript, with experience in CSS, HTML5 and cross-platform composition\n• Hands-on use of AI tools in development workflow\n• Experience with adaptive composition and JS/CSS animation\n• Comfortable working with Git\n• Curious, self-driven and eager to explore new tools and approaches\n• Portfolio of playable ads (required)",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4872910101",
+    "desc": "Who are we?\n\nTripledot Studios is one of the largest independent mobile games companies in the world.\n\nWe are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios.\n\nOur expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users.\n\nTripledot’s guiding principle is that when people love what they do, what they do will be loved by others.\n\nWe’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games.\n\nOur ambition is to be the most successful games company in the world, and we’re just getting started.\n\nThe role is working within our PeopleFun studio.\n\nPeopleFun is an award-winning creator of mobile games for players across the globe. PeopleFun is a Dallas-based game studio founded and led by game industry veterans, where game developers thrive on collaboration, creativity, teamwork, and fun. Our games are played by over 25 million players each month, and we have a number of exciting mobile games in development to fuel the future growth of PeopleFun.\n\nWe believe in bringing People together through Fun by creating the best in class social features and communities in our games that enables our players to engage deeply with other players. Secondly we endeavor to bring our studio teammates together by creating the very best game teams that foster healthy collaboration, incredible productivity, and life-long professional relationships.\n\nRole Overview\n\nWe're looking for a Playable Ad Developer to own playable ad production across all games at PeopleFun. You'll convert our existing titles into HTML5 playable experiences, build tools and processes that scale production and actively use AI to increase output and quality. This is a hands-on role with real scope - you're not just executing briefs, you're helping shape how we build playables as a studio.\n\nKey Responsibilities\n\n• Own the end-to-end creation of playable ads across all PeopleFun games\n• Build scalable processes and tooling to increase production volume and consistency\n• Leverage AI tools to speed up and improve playable ad development\n• Optimise playables for user experience, performance and cross-platform compatibility\n• Collaborate with marketing, creative producers, artists and animators\n\nRequired Skills, Knowledge and Expertise\n\n• 2+ years of experience developing Playable Ads or HTML games\n• Good knowledge of JavaScript, with experience in CSS, HTML5 and cross-platform composition\n• Hands-on use of AI tools in development workflow\n• Experience with adaptive composition and JS/CSS animation\n• Comfortable working with Git\n• Curious, self-driven and eager to explore new tools and approaches\n• Portfolio of playable ads (required)\n\nWorking at Tripledot\n\n• 20 business days paid holiday in addition to bank holidays to relax and refresh throughout the year\n• 20 business days remote working: Work from anywhere in the world, or use the time to cover mandatory office days to WFH, 20 days of the year.\n• Lunch: Provided daily in the office to keep you fueled and focused.\n• Continuous Professional Development: Propel your career with continuous opportunities for professional development.\n• Private Medical Cover: Ensure your health is in good hands through private health insurance\n• Sport Compensation: Stay fit and active with our sport compensation benefit.\n• Taxi to compensate for travel to the office.\n• English Classes: Enhance your English skills with our provided English classes.",
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "role": "Программирование",
@@ -8890,8 +8899,7 @@ window.JOBS = [
     "spec": "Фронтенд",
     "stack": [
       "JavaScript"
-    ],
-    "hasRu": true
+    ]
   },
   {
     "id": "lv-xsolla-c6f428b4-e648-41a4-b4d7-4707a4ad4802",
@@ -9125,6 +9133,26 @@ window.JOBS = [
     "hasRu": true
   },
   {
+    "id": "gh-scopely-5380598008",
+    "title": "Product Marketing Manager - Star Trek",
+    "company": "Scopely",
+    "locations": [
+      "United States"
+    ],
+    "remote": false,
+    "rkind": "worldwide",
+    "salary": null,
+    "posted": "2026-08-12",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5380598008?gh_jid=5380598008",
+    "desc": "Scopely is looking for a Product Marketing Manager to join our Star Trek™ Fleet Command team, helping shape how one of mobile gaming's deepest, most enduring, and most community-driven live-service experiences is understood, experienced, and adopted by millions of players worldwide.\n\nThis role sits at the intersection of Product, Live Operations, Marketing, Community, Campaigns, and Player Experience. You will partner closely with Product teams to translate complex systems, features, and roadmap initiatives into compelling player value, ensuring every launch delivers a clear narrative, coordinated execution, and an exceptional player experience.\n\nProduct Marketing serves as the connective tissue across the player-facing organization. While Product defines what we build, Community builds trust, Campaign Marketing activates audiences, and Player Experience supports players, Product Marketing ensures every team is aligned around a shared strategy, consistent messaging, and a coordinated go-to-market plan.\n\nSuccess in this role requires equal parts strategic thinking and hands-on execution. You'll develop positioning, own go-to-market strategy, create messaging frameworks, build launch materials, guide creative development, and coordinate cross-functional teams to bring new features, seasonal content, technical improvements, and major Star Trek moments to life.\n\nStar Trek Fleet Command is one of the most sophisticated strategy games in mobile. The ideal candidate enjoys simplifying complexity, thrives in cross-functional environments, and is energized by turning ambitious product ideas into experiences that players understand, value, and remember.\n\nWhat You’ll Do:\n\nOwn the Player-Facing Narrative\n\n• Own the player-facing narrative for Star Trek Fleet Command, translating product strategy into clear, compelling experiences that help players understand not just what we're building, but why it matters\n• Champion the player perspective throughout the product development lifecycle, ensuring features, systems, and content are positioned in ways that resonate with our diverse player base\n• Establish messaging frameworks that create consistency across every player-facing touchpoint, from launch campaigns and CRM to roadmap communications and in-game messaging\n\nTranslate Product Strategy into Player Value\n\n• Partner with Product, Design, Economy, Live Operations, Analytics, and Creative teams throughout feature development\n• Translate complex gameplay systems, progression mechanics, monetization initiatives, technical improvements, and roadmap priorities into compelling player-facing narratives\n• Develop positioning, messaging, and value propositions for new features, seasonal content, technical improvements, and franchise initiatives\n• Ensure every major release tells a clear story that connects product innovation with meaningful player outcomes\n\nLead Go-to-Market Strategy\n\n• Own integrated go-to-market strategies for major game features, seasonal arcs, technical improvements, and franchise partnerships\n• Build launch plans that align messaging, timing, audiences, business objectives, and player education across every player-facing channel\n• Define player segmentation and messaging strategies that support players throughout their lifecycle and progression journey\n• Establish launch objectives and success criteria in partnership with Product, Marketing, and Analytics teams\n\nDrive Cross-Functional Launch Readiness\n\n• Serve as the central marketing partner connecting Product, Community, Campaign Marketing, CRM, Creative, Analytics, Player Experience, Publishing, and external partners\n• Coordinate launch readiness across all player-facing functions, ensuring messaging, creative assets, support documentation, operational plans, and partner approvals are complete before release\n• Facilitate launch planning, milestone reviews, and cross-functional communication to proactively identify risks and remove blockers\n• Partner with Community and Player Experience to ensure player communications, support readiness, and recovery messaging remain aligned throughout launches and live incidents\n\nOwn Product Messaging & Creative Stewardship\n\n• Create creative briefs, messaging frameworks, presentations, launch documentation, executive materials, and marketing guidance that enable successful execution across the organization\n• Review and approve marketing assets to ensure consistency across channels and alignment with product strategy, brand standards, and franchise guidelines\n• Partner with Creative teams to develop high-quality marketing materials that communicate player value while maintaining franchise authenticity\n• Manage approvals and asset delivery with Paramount and other external partners\n\nMeasure Product Adoption & Optimize Performance\n\n• Monitor feature adoption, player engagement, sentiment, campaign performance, and commercial outcomes following launches\n• Partner with Analytics, Community, and Player Experience to identify player friction, adoption barriers, and opportunities for optimization\n• Translate quantitative and qualitative player insights into actionable recommendations for future launches and product improvements\n• Continuously refine positioning, messaging, and go-to-market strategies through experimentation, testing, and post-launch analysis\n\nLead the Product Marketing Function…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
+    "site": "scopely.com",
+    "source": "greenhouse",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "stack": []
+  },
+  {
     "id": "gh-rockstar-games-7771377003",
     "title": "Senior Full Stack Developer",
     "company": "Rockstar Games",
@@ -9192,6 +9220,7 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": "Junior",
     "spec": null,
+    "permit": true,
     "stack": [],
     "hasRu": true
   },
@@ -9440,6 +9469,7 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": "Senior",
     "spec": null,
+    "permit": true,
     "stack": [
       "Unreal"
     ],
@@ -9467,17 +9497,17 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-scopely-5285387008",
+    "id": "gh-scopely-5384531008",
     "title": "Senior Product Analyst - Stumble Guys!",
     "company": "Scopely",
     "locations": [
-      "Barcelona, Spain"
+      "Tel Aviv, Israel"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-11",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5285387008?gh_jid=5285387008",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5384531008?gh_jid=5384531008",
     "desc": "Are you passionate about using data to shape products played by millions of people around the world? Do you enjoy uncovering player insights, designing experiments, and influencing product decisions with data? If so, we'd love to meet you!\n\nWe're looking for a Senior Product Analyst to help shape the future of Stumble Guys, one of the world's leading mobile games. You'll join a team of Product Analysts and Analytics Engineers, partnering closely with Product Managers, Game Designers, Data Engineers, and Developers to turn player behavior into actionable insights.\n\nFrom event instrumentation and data modeling to A/B testing and deep-dive analyses, you'll help answer our most challenging product questions and directly influence the future of the game.\n\nIf you're excited about working on a game played by millions of daily active users (just ask your younger cousins - they're probably already playing!), we'd love to hear from you!\n\nWe also work with a modern analytics stack including Google Cloud Platform, BigQuery, Looker and Hex.\n\nWhat You Will Do\n\n• Analyze large and complex datasets to understand the behavior of millions of players and answer strategic product questions.\n• Partner closely with Product, Game Design, Engineering, Marketing, and Leadership to drive data-informed decisions.\n• Design, analyze, and communicate A/B tests to evaluate new features and optimize player experiences.\n• Develop frameworks, dashboards, and analytical tools that empower teams to make better product decisions.\n• Generate actionable insights that improve player engagement, retention, monetization, and overall game performance.\n• Define and validate event tracking to ensure high-quality product analytics.\n• Present findings and recommendations to cross-functional stakeholders and leadership\n\nWhat We're Looking For\n\n• Significant experience working as a Product Analyst, ideally in gaming, mobile apps, or other consumer digital products.\n• Strong SQL skills and experience working with large-scale datasets.\n• Experience with experimentation (A/B testing), product analytics, and statistical analysis.\n• Intellectual curiosity with a passion for solving complex business problems through data.\n• Excellent communication and storytelling skills—you can translate complex analyses into clear recommendations.\n• Python or R experience is a plus.\n• Fluent English, written and spoken.\n\nPlease ensure that the résumé/CV you attach is written in English.\n\nAbout Scopely\n\nScopely is a leading video game and global interactive entertainment company, home to many of the world’s most beloved and enduring experiences, including two of the most successful mobile games of all-time “MONOPOLY GO!” and “Pokémon GO,” along with “Stumble Guys,” “Star Trek™ Fleet Command,” “MARVEL Strike Force,” “WWE Champions,” the Scrabble® franchise, “Yahtzee® With Buddies,” and many others. Across mobile, web, PC, and console, Scopely creates, develops, publishes, and live-operates one of the most diversified and award-winning portfolios in the games industry — bringing hundreds of millions of players together through a shared love of play.\n\nFounded in 2011, Scopely is powered by its exceptional team — including thousands of world-class gamemakers around the globe, a distinctive tenet-driven culture, and its proprietary technology platform, Playgami. Together, these strengths have fueled Scopely’s position as the #1 mobile games company in the U.S. and #2 globally, generating more than $10 billion in lifetime revenue. Whether building global sensations like “MONOPOLY GO!” from the ground up, or expanding through strategic acquisitions, including the FoxNext, GSN, and Scopely Explore games businesses — Scopely consistently delivers experiences players love today and return to for years to come.\n\nRecognized multiple times as one of the \"100 Most Influential Companies in the World\" by TIME magazine and one of Fast Company's \"World's Most Innovative Companies\" and “Best Workplaces for Innovators,” Scopely believes that video games can be a force for good — creating meaningful connections, vibrant communities, and making life better through play.\n\nScopely has global operations and partners across four continents in more than a dozen countries worldwide. For more information, visit: https://www.scopely.com/.\n\nNotice to Candidates: Scopely will never request payment or financial information during the application or hiring process. Please apply only through our official website and verify that all Talent Partner communications come from an email address ending in @scopely.com.\n\nShould you have any questions or encounter any fraudulent requests/emails/websites, please immediately contact recruiting@scopely.com. Our job applicant privacy policies are available here: California Privacy Notice and EEA/UK Privacy Notice.\n\nEmployment at Scopely is based solely on a person's merit and qualifications. Scopely does not discriminate against any employee or applicant because of race, creed, color, religion, gender, sexual orientation, gender identity/expression, national origin, disability, age, genetic information, veteran status, marital status, pregnancy or related condition (including breastfeeding), or any other basis protected by law. We also consider qualified applicants with arrest or conviction records, consistent with applicable federal, state and local law.",
     "site": "scopely.com",
     "source": "greenhouse",
@@ -9487,8 +9517,7 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ],
-    "hasRu": true
+    ]
   },
   {
     "id": "gh-scopely-5123830008",
@@ -9635,18 +9664,18 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-rockstar-games-7771376003",
+    "id": "gh-rockstar-games-7787467003",
     "title": "Associate Principal Threat Intelligence Analyst",
     "company": "Rockstar Games",
     "locations": [
-      "Manhattan, United States"
+      "Carlsbad, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 125 000 – 150 000",
     "posted": "2026-08-11",
-    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7771376003",
-    "desc": "At Rockstar Games, we create world-class entertainment experiences.\n\nBecome part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry.\n\nRockstar is on the lookout for a passionate Associate Principal Threat Intelligence Analyst to join our growing Game Security team. This role will be responsible for identifying and analyzing potential threats to Rockstar’s Live Service titles as well as the organization at large. The successful candidate will have a strong understanding of intelligence and investigations principles, excellent analytical skills, and the ability to stay ahead of emerging threats.\n\nThis is a full-time, in-office position based out of Rockstar’s NYC headquarters in Downtown Manhattan.\n\nWHAT WE DO\n\n• The Rockstar Game Security team is responsible for protecting our players, employees, and intellectual property.\n• We support all Rockstar titles from malicious actors and insider threats.\n• We work closely with other teams to enforce, support, and improve security solutions.\n\nRESPONSIBILITIES\n\n• Identify and prevent fraudulent or malicious behavior using open-source intelligence (OSINT), internal tools, and investigative methods.\n• Own complex investigations, including data collection, analysis, and synthesis from multiple systems.\n• Maintain intelligence on relevant subjects and emerging threats.\n• Ensure consistent, high-quality investigative reporting and intelligence outputs.\n• Support response efforts for security incidents and escalations as needed.\n• Drive process improvements, including automation and tooling to scale investigative workflows.\n• Develop and maintain reporting to measure program effectiveness and inform decision-making.\n• Stay current on emerging technologies, investigative techniques, and threat landscapes.\n\nREQUIREMENTS\n\n• 8+ years professional experience in threat intelligence, investigations, or similar roles.\n• Strong expertise in intelligence gathering, monitoring, and investigative reporting.\n• Experience conducting complex investigations across digital platforms.\n• Proficiency with data analysis tools and systems (e.g., SQL, Hadoop, or similar).\n• Experience with link analysis methodologies and tools.\n• Familiarity with legal, regulatory, and compliance considerations related to investigations.\n• Background in threat intelligence, open-source intelligence or internal/external investigations preferred.\n• Familiarity with security assessment tools and monitoring systems.\n\nPLUSES\n\nPlease note that these are desirable skills and are not required to apply for the position.\n\n• Experience with Maltego, Hunchly, Splunk, case management platforms, and/or relational databases.\n• Experience working with online games, live services, or large-scale AAA multiplayer environments.\n• Strong analytical mind with problem-solving skills.\n• Excellent collaboration and communication skills across technical and non-technical teams.\n• Mentoring mindset, sharing knowledge, expertise, and best practices with peers.\n• Scripting skills (e.g. SQL, Python) for automation and analysis.\n• Basic level of fluency or above in languages other than English.\n\nADDITIONAL INFORMATION\n\nHOW TO APPLY\n\nPlease apply with a resume and cover letter demonstrating how you meet the skills above. If we would like to move forward with your application, a Rockstar recruiter will reach out to you to explain next steps and guide you through the process.\n\nRockstar is committed to creating a work environment that promotes equal opportunity, dignity and respect. In line with this commitment, Rockstar will provide reasonable accommodations to qualified job applicants with disabilities during the recruitment process in order for such applicants to be considered for the position for which they are applying, as well as to qualified employees to enable them to perform the essential functions of their roles. If you need more information about Rockstar’s reasonable accommodation policies or process, or need to request an accommodation, please notify your recruiter during the interview process.\n\nIf you’ve got the right skills for the job, we want to hear from you. We encourage applications from all suitable candidates regardless of age, disability, gender identity, sexual orientation, religion, belief, race, or any other protected category.\nThe pay range for this position in New York State (inclusive of New York City) at the start of employment is expected to be between the range below* per year. However, base pay offered is based on market location, and may vary further depending on individualized factors for job candidates, such as job-related knowledge, skills, experience, and other objective business considerations.\n\nSubject to those same considerations, the total compensation package for this position may also include other elements, including a bonus and/or equity awards, in addition to a full range of medical, financial, and/or other benefits. Details of participation in these benefit plans will be provided if an employee receives an offer of employment. If hired, employee will be in an \"at-will position\" and the company reserves the right to modify base salary (as well as any other discretionary payment or compensation or benefit program) at any time, including for reasons related to individual performance, company or individual department/team performance, and market factors.\n\n*NY Base Pay Range\n$125,000—$150,000 USD",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7787467003",
+    "desc": "At Rockstar Games, we create world-class entertainment experiences.\n\nBecome part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry.\n\nRockstar is on the lookout for a passionate Associate Principal Threat Intelligence Analyst to join our growing Game Security team. This role will be responsible for identifying and analyzing potential threats to Rockstar’s Live Service titles as well as the organization at large. The successful candidate will have a strong understanding of intelligence and investigations principles, excellent analytical skills, and the ability to stay ahead of emerging threats.\n\nThis is a full-time, in-office position based out of Rockstar’s new state-of-the-art game development studio in Carlsbad, CA.\n\nWHAT WE DO\n\n• The Rockstar Game Security team is responsible for protecting our players, employees, and intellectual property.\n• We support all Rockstar titles from malicious actors and insider threats.\n• We work closely with other teams to enforce, support, and improve security solutions.\n\nRESPONSIBILITIES\n\n• Identify and prevent fraudulent or malicious behavior using open-source intelligence (OSINT), internal tools, and investigative methods.\n• Own complex investigations, including data collection, analysis, and synthesis from multiple systems.\n• Maintain intelligence on relevant subjects and emerging threats.\n• Ensure consistent, high-quality investigative reporting and intelligence outputs.\n• Support response efforts for security incidents and escalations as needed.\n• Drive process improvements, including automation and tooling to scale investigative workflows.\n• Develop and maintain reporting to measure program effectiveness and inform decision-making.\n• Stay current on emerging technologies, investigative techniques, and threat landscapes.\n\nREQUIREMENTS\n\n• 8+ years professional experience in threat intelligence, investigations, or similar roles.\n• Strong expertise in intelligence gathering, monitoring, and investigative reporting.\n• Experience conducting complex investigations across digital platforms.\n• Proficiency with data analysis tools and systems (e.g., SQL, Hadoop, or similar).\n• Experience with link analysis methodologies and tools.\n• Familiarity with legal, regulatory, and compliance considerations related to investigations.\n• Background in threat intelligence, open-source intelligence or internal/external investigations preferred.\n• Familiarity with security assessment tools and monitoring systems.\n\nPLUSES\n\nPlease note that these are desirable skills and are not required to apply for the position.\n\n• Experience with Maltego, Hunchly, Splunk, case management platforms, and/or relational databases.\n• Experience working with online games, live services, or large-scale AAA multiplayer environments.\n• Strong analytical mind with problem-solving skills.\n• Excellent collaboration and communication skills across technical and non-technical teams.\n• Mentoring mindset, sharing knowledge, expertise, and best practices with peers.\n• Scripting skills (e.g. SQL, Python) for automation and analysis.\n• Basic level of fluency or above in languages other than English.\n\nADDITIONAL INFORMATION\n\nHOW TO APPLY\n\nPlease apply with a resume and cover letter demonstrating how you meet the skills above. If we would like to move forward with your application, a Rockstar recruiter will reach out to you to explain next steps and guide you through the process.\n\nRockstar is committed to creating a work environment that promotes equal opportunity, dignity and respect. In line with this commitment, Rockstar will provide reasonable accommodations to qualified job applicants with disabilities during the recruitment process in order for such applicants to be considered for the position for which they are applying, as well as to qualified employees to enable them to perform the essential functions of their roles. If you need more information about Rockstar’s reasonable accommodation policies or process, or need to request an accommodation, please notify your recruiter during the interview process.\n\nIf you’ve got the right skills for the job, we want to hear from you. We encourage applications from all suitable candidates regardless of age, disability, gender identity, sexual orientation, religion, belief, race, or any other protected category.\nThe pay range for this position in San Diego at the start of employment is expected to be between the range below* per year. However, base pay offered is based on market location, and may vary further depending on individualized factors for job candidates, such as job-related knowledge, skills, experience, and other objective business considerations.\n\nSubject to those same considerations, the total compensation package for this position may also include other elements, including a bonus and/or equity awards, in addition to a full range of medical, financial, and/or other benefits. Details of participation in these benefit plans will be provided if an employee receives an offer of employment. If hired, employee will be in an \"at-will position\" and the company reserves the right to modify base salary (as well as any other discretionary payment or compensation or benefit program) at any time, including for reasons related to individual performance, company or individual department/team performance, and market factors.\n\n*San Diego Base Pay Range\n$125,000—$150,000 USD",
     "site": "rockstargames.com",
     "source": "greenhouse",
     "role": "Аналитика",
@@ -9655,8 +9684,7 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ],
-    "hasRu": true
+    ]
   },
   {
     "id": "gh-rockstar-games-7800927003",
@@ -9905,18 +9933,18 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-rockstar-games-7793838003",
+    "id": "gh-rockstar-games-7794203003",
     "title": "Senior Data Design Analyst",
     "company": "Rockstar Games",
     "locations": [
-      "London, United Kingdom"
+      "Leeds, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-11",
-    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7793838003",
-    "desc": "At Rockstar Games, we create world-class entertainment experiences.\n\nBecome part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry.\n\nRockstar is on the lookout for a skilled Data Design Analyst who is passionate about video games and data design.\n\nThis is a full-time, permanent and in-office position based in Rockstar’s unique game development studio in the heart of London.\n\nWHAT WE DO\n\n• The Rockstar Games Analytics team provides insights and actionable results to a wide variety of stakeholders across the organization in support of their decision making.\n• We partner with multiple departments across the company, leveraging analytics to measure and improve on the success and health of our games.\n• We collaborate as a distributed team to develop innovative data pipelines, data products, data models, reports, analyses, and machine learning applications.\n• The Data Design function within Analytics partners closely with game development, analytics engineering, and data science teams to design telemetry that is reliable, interpretable, and optimized for downstream data model and pipeline consumption.\n\nRESPONSIBILITIES\n\n• Partner with game development, analytics engineering, and data science stakeholders to understand gameplay systems, product questions, and downstream data needs.\n• Design clear, consistent, and scalable telemetry specifications that capture player behaviour and game systems accurately while supporting efficient data model pipeline consumption.\n• In collaboration with the Game Data Development team, translate analytical requirements into raw telemetry event designs, schemas, naming conventions, validation rules, and documentation that can be implemented by development teams.\n• Review proposed telemetry designs for completeness, quality, consistency, and suitability for downstream modelling, reporting, experimentation, and machine learning use cases.\n• Collaborate with analytics engineers to ensure telemetry is structured to reduce transformation complexity and improve reliability of curated data products.\n• Support the Data Integrity & Operations team’s telemetry QA by defining expected behaviours, edge cases, acceptance criteria, and validation checks for new or updated game instrumentation.\n• Maintain documentation and design standards that improve discoverability, governance, and consistency across game telemetry.\n• Contribute to best practices for event taxonomy, schema design, metadata capture, and lifecycle management of telemetry definitions.\n\nREQUIREMENTS\n\n• 5+ years experience in analytics, data design, data analysis, product analytics, game analytics, or a related data-focused role.\n• Bachelor’s degree or equivalent experience in a quantitative, technical, analytical, or design-oriented field.\n• Strong understanding of event-based data, data schemas, data quality principles, and how raw telemetry supports downstream analytics and data modelling.\n• Ability to translate ambiguous stakeholder questions into structured data requirements and practical telemetry designs.\n• Familiarity with SQL and working with large-scale datasets to investigate, validate, or interpret behavioural data.\n• Excellent written communication skills, with the ability to create clear specifications, documentation, and guidance for both technical and non-technical audiences.\n• Strong attention to detail and ability to reason through edge cases, data lineage, implementation constraints, and downstream usage patterns.\n\nPLUSES\n\nPlease note that these are desirable skills and are not required to apply for the position.\n\n• Experience working with game telemetry, live service analytics, behavioural event taxonomies, data catalogues, or analytics engineering workflows.\n\nHOW TO APPLY\n\nPlease apply with a CV and cover letter demonstrating how you meet the skills above. If we would like to move forward with your application, a Rockstar recruiter will reach out to you to explain next steps and guide you through the process.\n\nRockstar is committed to creating a work environment that promotes equal opportunity, dignity and respect. In line with this commitment, Rockstar will provide reasonable accommodations to qualified job applicants with disabilities during the recruitment process in order for such applicants to be considered for the position for which they are applying, as well as to qualified employees to enable them to perform the essential functions of their roles. If you need more information about Rockstar’s reasonable accommodation policies or process, or need to request an accommodation, please notify your recruiter during the interview process.\n\nIf you’ve got the right skills for the job, we want to hear from you. We encourage applications from all suitable candidates regardless of age, disability, gender identity, sexual orientation, religion, belief, race, or any other protected category.\n\n#LI-DM1",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7794203003",
+    "desc": "At Rockstar Games, we create world-class entertainment experiences.\n\nBecome part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry.\n\nRockstar is on the lookout for a skilled Data Design Analyst who is passionate about video games and data design.\n\nThis is a full-time, permanent and in-office position based in Rockstar’s unique game development studio in the heart of Leeds, England.\n\nWHAT WE DO\n\n• The Rockstar Games Analytics team provides insights and actionable results to a wide variety of stakeholders across the organization in support of their decision making.\n• We partner with multiple departments across the company, leveraging analytics to measure and improve on the success and health of our games.\n• We collaborate as a distributed team to develop innovative data pipelines, data products, data models, reports, analyses, and machine learning applications.\n• The Data Design function within Analytics partners closely with game development, analytics engineering, and data science teams to design telemetry that is reliable, interpretable, and optimized for downstream data model and pipeline consumption.\n\nRESPONSIBILITIES\n\n• Partner with game development, analytics engineering, and data science stakeholders to understand gameplay systems, product questions, and downstream data needs.\n• Design clear, consistent, and scalable telemetry specifications that capture player behaviour and game systems accurately while supporting efficient data model pipeline consumption.\n• In collaboration with the Game Data Development team, translate analytical requirements into raw telemetry event designs, schemas, naming conventions, validation rules, and documentation that can be implemented by development teams.\n• Review proposed telemetry designs for completeness, quality, consistency, and suitability for downstream modelling, reporting, experimentation, and machine learning use cases.\n• Collaborate with analytics engineers to ensure telemetry is structured to reduce transformation complexity and improve reliability of curated data products.\n• Support the Data Integrity & Operations team’s telemetry QA by defining expected behaviours, edge cases, acceptance criteria, and validation checks for new or updated game instrumentation.\n• Maintain documentation and design standards that improve discoverability, governance, and consistency across game telemetry.\n• Contribute to best practices for event taxonomy, schema design, metadata capture, and lifecycle management of telemetry definitions.\n\nREQUIREMENTS\n\n• 5+ years experience in analytics, data design, data analysis, product analytics, game analytics, or a related data-focused role.\n• Bachelor’s degree or equivalent experience in a quantitative, technical, analytical, or design-oriented field.\n• Strong understanding of event-based data, data schemas, data quality principles, and how raw telemetry supports downstream analytics and data modelling.\n• Ability to translate ambiguous stakeholder questions into structured data requirements and practical telemetry designs.\n• Familiarity with SQL and working with large-scale datasets to investigate, validate, or interpret behavioural data.\n• Excellent written communication skills, with the ability to create clear specifications, documentation, and guidance for both technical and non-technical audiences.\n• Strong attention to detail and ability to reason through edge cases, data lineage, implementation constraints, and downstream usage patterns.\n\nPLUSES\n\nPlease note that these are desirable skills and are not required to apply for the position.\n\n• Experience working with game telemetry, live service analytics, behavioural event taxonomies, data catalogues, or analytics engineering workflows.\n\nHOW TO APPLY\n\nPlease apply with a CV and cover letter demonstrating how you meet the skills above. If we would like to move forward with your application, a Rockstar recruiter will reach out to you to explain next steps and guide you through the process.\n\nRockstar is committed to creating a work environment that promotes equal opportunity, dignity and respect. In line with this commitment, Rockstar will provide reasonable accommodations to qualified job applicants with disabilities during the recruitment process in order for such applicants to be considered for the position for which they are applying, as well as to qualified employees to enable them to perform the essential functions of their roles. If you need more information about Rockstar’s reasonable accommodation policies or process, or need to request an accommodation, please notify your recruiter during the interview process.\n\nIf you’ve got the right skills for the job, we want to hear from you. We encourage applications from all suitable candidates regardless of age, disability, gender identity, sexual orientation, religion, belief, race, or any other protected category.\n\n#LI-DM1",
     "site": "rockstargames.com",
     "source": "greenhouse",
     "role": "Аналитика",
@@ -9924,8 +9952,7 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "SQL"
-    ],
-    "hasRu": true
+    ]
   },
   {
     "id": "gh-rockstar-games-7695704003",
@@ -10000,18 +10027,18 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-rockstar-games-7578196003",
+    "id": "gh-rockstar-games-7575962003",
     "title": "Senior Software Engineer, Data Engineering",
     "company": "Rockstar Games",
     "locations": [
-      "Carlsbad, United States"
+      "Manhattan, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-11",
-    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7578196003",
-    "desc": "At Rockstar Games, we create world-class entertainment experiences.\n\nBecome part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry.\n\nRockstar Games is seeking a Senior Software Engineer in Data Engineering to join a team focused on building a cutting-edge game analytics platform and tools to better understand our players and enhance their experience in our games.\n\nThe ideal candidate will be skilled in developing complex ingestion and transformation processes with an emphasis on reliability and performance. In collaboration with Data Engineers, Machine Learning Engineers, and other Software Engineers, the candidate will empower the team of Analysts and Data Scientists to deliver data driven insights and applications to company stakeholders.\n\nThis is a full-time, in-office position based out of Rockstar’s new state-of-the-art game development studio in Carlsbad, CA.\n\nWHAT WE DO\n\n• The Rockstar Games Online Services team builds the technology foundation that powers our games and delivers world-class player experiences.\n• Our Data Engineering group manages petabyte-scale data, integrating dozens of streaming and batch sources with strict requirements for reliability, compliance, and low-latency processing.\n• We approach data engineering with the rigor of software engineering by applying modern practices such as clean architecture, modular design, and automated testing. Our focus is on building scalable, reusable platforms and frameworks that enable our partners in Data Science and Game Development to deliver insights and unlock new possibilities for players.\n\nRESPONSIBILITIES\n\n• Design, build, and maintain high-throughput streaming and batch data processing services, with a primary focus on raw and bronze-level ingestion.\n• Develop and operate stream–based applications responsible for real-time data transformation, enrichment, validation, and routing.\n• Own and evolve event schemas and data contracts, including Avro schemas and Schema Registry governance.\n• Ensure scalability, fault tolerance, and performance of streaming and ingestion pipelines under heavy load.\n• Contribute to platform-level concerns such as deployment automation, observability, operational tooling, and CI/CD.\n• Participate in the design and implementation of cloud-native data infrastructure supporting real-time and batch workloads.\n\nREQUIREMENTS\n\n• 5+ years of professional experience building production software systems, preferably in a distributed or data-intensive environment.\n• Strong experience with Java (and/or Scala) as well as Python, in backend or data processing applications.\n• Experience designing and operating streaming systems using Kafka or Kafka Streams (or similar).\n• Experience working with event-driven architectures, including schema evolution and compatibility.\n• Experience building real-time and/or near-real-time data pipelines at scale.\n• Solid understanding of distributed systems concepts (partitioning, fault tolerance, backpressure, exactly-once/at-least-once semantics).\n• Familiarity with Avro, Protobuf, or similar serialization formats and schema governance practices.\n\nPLUSES\n\nPlease note that these are desirable skills and are not required to apply for the position.\n\n• Experience with Databricks, particularly for ingestion, bronze-layer processing, or structured streaming.\n• Experience deploying and scaling applications in containerized environments (e.g., Kubernetes, AKS).\n• Experience working with artifact repositories (e.g., Artifactory, ProGet, Maven repositories).\n• Experience with Infrastructure-as-Code (e.g., Terraform, Databricks Asset Bundles).\n• Familiarity with the Microsoft Azure cloud ecosystem.\n• Familiarity with Apache Spark.\n• Familiarity with CI/CD pipelines, automated testing, and deployment workflows.\n\nHOW TO APPLY\n\nPlease apply with a resume and cover letter demonstrating how you meet the skills above. If we would like to move forward with your application, a Rockstar recruiter will reach out to you to explain next steps and guide you through the process.\n\nRockstar is committed to creating a work environment that promotes equal opportunity, dignity and respect. In line with this commitment, Rockstar will provide reasonable accommodations to qualified job applicants with disabilities during the recruitment process in order for such applicants to be considered for the position for which they are applying, as well as to qualified employees to enable them to perform the essential functions of their roles. If you need more information about Rockstar’s reasonable accommodation policies or process, or need to request an accommodation, please notify your recruiter during the interview process.\n\nIf you’ve got the right skills for the job, we want to hear from you. We encourage applications from all suitable candidates regardless of age, disability, gender identity, sexual orientation, religion, belief, race, or any other protected category.\n\n#LI-BB1\nThe pay range for this position in San Diego at the start of employment is expected to be between the range below* per year. However, base pay offered is based on market location, and may vary further depending on individualized factors for job candidates, such as job-related knowledge, skills, experience, and other objective business considerations.…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7575962003",
+    "desc": "At Rockstar Games, we create world-class entertainment experiences.\n\nBecome part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry.\n\nRockstar Games is seeking a Senior Software Engineer in Data Engineering to join a team focused on building a cutting-edge game analytics platform and tools to better understand our players and enhance their experience in our games.\n\nThe ideal candidate will be skilled in developing complex ingestion and transformation processes with an emphasis on reliability and performance. In collaboration with Data Engineers, Machine Learning Engineers, and other Software Engineers, the candidate will empower the team of Analysts and Data Scientists to deliver data driven insights and applications to company stakeholders.\n\nThis is a full-time, in-office position based out of Rockstar’s NYC headquarters in Downtown Manhattan.\n\nWHAT WE DO\n\n• The Rockstar Games Online Services team builds the technology foundation that powers our games and delivers world-class player experiences.\n• Our Data Engineering group manages petabyte-scale data, integrating dozens of streaming and batch sources with strict requirements for reliability, compliance, and low-latency processing.\n• We approach data engineering with the rigor of software engineering by applying modern practices such as clean architecture, modular design, and automated testing. Our focus is on building scalable, reusable platforms and frameworks that enable our partners in Data Science and Game Development to deliver insights and unlock new possibilities for players.\n\nRESPONSIBILITIES\n\n• Design, build, and maintain high-throughput streaming and batch data processing services, with a primary focus on raw and bronze-level ingestion.\n• Develop and operate stream–based applications responsible for real-time data transformation, enrichment, validation, and routing.\n• Own and evolve event schemas and data contracts, including Avro schemas and Schema Registry governance.\n• Ensure scalability, fault tolerance, and performance of streaming and ingestion pipelines under heavy load.\n• Contribute to platform-level concerns such as deployment automation, observability, operational tooling, and CI/CD.\n• Participate in the design and implementation of cloud-native data infrastructure supporting real-time and batch workloads.\n\nREQUIREMENTS\n\n• 5+ years of professional experience building production software systems, preferably in a distributed or data-intensive environment.\n• Strong experience with Java (and/or Scala) as well as Python, in backend or data processing applications.\n• Experience designing and operating streaming systems using Kafka or Kafka Streams (or similar).\n• Experience working with event-driven architectures, including schema evolution and compatibility.\n• Experience building real-time and/or near-real-time data pipelines at scale.\n• Solid understanding of distributed systems concepts (partitioning, fault tolerance, backpressure, exactly-once/at-least-once semantics).\n• Familiarity with Avro, Protobuf, or similar serialization formats and schema governance practices.\n\nPLUSES\n\nPlease note that these are desirable skills and are not required to apply for the position.\n\n• Experience with Databricks, particularly for ingestion, bronze-layer processing, or structured streaming.\n• Experience deploying and scaling applications in containerized environments (e.g., Kubernetes, AKS).\n• Experience working with artifact repositories (e.g., Artifactory, ProGet, Maven repositories).\n• Experience with Infrastructure-as-Code (e.g., Terraform, Databricks Asset Bundles).\n• Familiarity with the Microsoft Azure cloud ecosystem.\n• Familiarity with Apache Spark.\n• Familiarity with CI/CD pipelines, automated testing, and deployment workflows.\n\nHOW TO APPLY\n\nPlease apply with a resume and cover letter demonstrating how you meet the skills above. If we would like to move forward with your application, a Rockstar recruiter will reach out to you to explain next steps and guide you through the process.\n\nRockstar is committed to creating a work environment that promotes equal opportunity, dignity and respect. In line with this commitment, Rockstar will provide reasonable accommodations to qualified job applicants with disabilities during the recruitment process in order for such applicants to be considered for the position for which they are applying, as well as to qualified employees to enable them to perform the essential functions of their roles. If you need more information about Rockstar’s reasonable accommodation policies or process, or need to request an accommodation, please notify your recruiter during the interview process.\n\nIf you’ve got the right skills for the job, we want to hear from you. We encourage applications from all suitable candidates regardless of age, disability, gender identity, sexual orientation, religion, belief, race, or any other protected category.\n\n#LI-BB1\nThe pay range for this position in New York State (inclusive of New York City) at the start of employment is expected to be between the range below* per year. However, base pay offered is based on market location, and may vary further depending on individualized factors for job candidates, such as job-related knowledge, skills, experience, and other objective business considerations.…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
     "site": "rockstargames.com",
     "source": "greenhouse",
     "role": "Программирование",
@@ -10021,8 +10048,7 @@ window.JOBS = [
       "Python",
       "Java",
       "Kubernetes"
-    ],
-    "hasRu": true
+    ]
   },
   {
     "id": "gh-rockstar-games-7734497003",
@@ -10048,18 +10074,18 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-rockstar-games-7694184003",
+    "id": "gh-rockstar-games-7693094003",
     "title": "Senior Technical Artist: Procedural Art",
     "company": "Rockstar Games",
     "locations": [
-      "Leeds, United Kingdom"
+      "Oakville, Canada"
     ],
     "remote": false,
     "rkind": null,
-    "salary": null,
+    "salary": "$ 105 000 – 115 000",
     "posted": "2026-08-11",
-    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7694184003",
-    "desc": "At Rockstar Games, we create world-class entertainment experiences.\n\nBecome part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry.\n\nRockstar is on the lookout for a talented Technical Artist who possess a passion for technology and innovation.\n\nThis is a full-time, permanent and in-office position based out of Rockstar’s unique game development studio in the heart of Leeds, England.\n\nWHAT WE DO\n\n• The Rockstar Games Technical Art team creates, maintains and enhances tools and workflows for artists across our Art, Animation, and VFX teams.\n• We create and maintain photogrammetry tools and pipelines, and support live scan sessions.\n• We drive innovation and efficiency in our pipelines by continuously researching and developing new technology.\n\nRESPONSIBILITIES\n\n• Design, develop, and support tools and pipelines in DCC and standalone contexts.\n• Develop automated solutions for data processing.\n• Stay informed on the latest technology and research related to the art of data pipelines and machine learning.\n• Write clear and detailed documentation for tools and workflows.\n• Diagnose and solve technical issues affecting artists.\n\nREQUIREMENTS\n\n• 5+ years of experience as a Technical Artist, Technical Director, Tools Programmer, or similar.\n• Experience developing tools for DCCs like Houdini, Zbrush, Agisoft, or Metashape.\n• Experience working through a full game production cycle or long-term project.\n• A strong understanding of Photogrammetry workflows and software.\n• Proficiency in Python.\n• Experience with build systems like Jenkins, Airflow, or Celery.\n• An understanding of a 3D asset pipeline and color management.\n• Ability to think creatively and develop innovative solutions to complex problems.\n\nPLUSES\n\nPlease note that these are desirable skills and are not required to apply for the position.\n\n• A degree in Computer Science or related discipline.\n• C++ programming skills.\n• Experience working with package management and deployment systems like Rez or PyPi.\n• Experience with ML based photogrammetry workflows like Gaussian Splats or Nerfs.\n\nHOW TO APPLY\n\nPlease apply with a resume and cover letter demonstrating how you meet the skills above. If we would like to move forward with your application, a Rockstar recruiter will reach out to you to explain next steps and guide you through the process.\n\nRockstar is committed to creating a work environment that promotes equal opportunity, dignity and respect. In line with this commitment, Rockstar will provide accommodations to job applicants with disabilities (or on the basis of any other protected ground under human rights legislation) during the recruitment process, as well as to any Rockstar employees in order for them to perform the essential functions of their roles. Rockstar will comply with its obligations under the Human Rights Code and the Accessibility for Ontarians with Disabilities Act and will provide accommodations as long as such accommodations do not pose an undue hardship on Rockstar. If you need more information about Rockstar’s accommodation policies or process, or need to request an accommodation, please notify your recruiter during the interview process.\n\nIf you’ve got the right skills for the job, we want to hear from you. We encourage applications from all suitable candidates regardless of age, disability, gender identity, sexual orientation, religion, belief, race, or any other protected category.\n\n#LI-AS1",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7693094003",
+    "desc": "At Rockstar Games, we create world-class entertainment experiences.\n\nBecome part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry.\n\nRockstar is on the lookout for a talented Technical Artist who possess a passion for technology and innovation.\n\nThis is a full-time, in-office position based out of Rockstar’s unique game development studio in Oakville, ON.\n\nWHAT WE DO\n\n• The Rockstar Games Technical Art team creates, maintains and enhances tools and workflows for artists across our Art, Animation, and VFX teams.\n• We create and maintain photogrammetry tools and pipelines, and support live scan sessions.\n• We drive innovation and efficiency in our pipelines by continuously researching and developing new technology.\n\nRESPONSIBILITIES\n\n• Design, develop, and support tools and pipelines in DCC and standalone contexts.\n• Develop automated solutions for data processing.\n• Stay informed on the latest technology and research related to the art of data pipelines and machine learning.\n• Write clear and detailed documentation for tools and workflows.\n• Diagnose and solve technical issues affecting artists.\n\nREQUIREMENTS\n\n• 5+ years of experience as a Technical Artist, Technical Director, Tools Programmer, or similar.\n• Experience developing tools for DCCs like Houdini, Zbrush, Agisoft, or Metashape.\n• Experience working through a full game production cycle or long-term project.\n• A strong understanding of Photogrammetry workflows and software.\n• Proficiency in Python.\n• Experience with build systems like Jenkins, Airflow, or Celery.\n• An understanding of a 3D asset pipeline and color management.\n• Ability to think creatively and develop innovative solutions to complex problems.\n\nPLUSES\n\nPlease note that these are desirable skills and are not required to apply for the position.\n\n• A degree in Computer Science or related discipline.\n• C++ programming skills.\n• Experience working with package management and deployment systems like Rez or PyPi.\n• Experience with ML based photogrammetry workflows like Gaussian Splats or Nerfs.\n\nHOW TO APPLY\n\nPlease apply with a resume and cover letter demonstrating how you meet the skills above. If we would like to move forward with your application, a Rockstar recruiter will reach out to you to explain next steps and guide you through the process.\n\nRockstar is committed to creating a work environment that promotes equal opportunity, dignity and respect. In line with this commitment, Rockstar will provide accommodations to job applicants with disabilities (or on the basis of any other protected ground under human rights legislation) during the recruitment process, as well as to any Rockstar employees in order for them to perform the essential functions of their roles. Rockstar will comply with its obligations under the Human Rights Code and the Accessibility for Ontarians with Disabilities Act and will provide accommodations as long as such accommodations do not pose an undue hardship on Rockstar. If you need more information about Rockstar’s accommodation policies or process, or need to request an accommodation, please notify your recruiter during the interview process.\n\nIf you’ve got the right skills for the job, we want to hear from you. We encourage applications from all suitable candidates regardless of age, disability, gender identity, sexual orientation, religion, belief, race, or any other protected category.\n\n#LI-AS1\nThe pay range for this position in Ontario, Canada at the start of employment is expected to be between the range below* per year. However, base pay offered is based on market location, and may vary further depending on individualized factors for job candidates, such as job-related knowledge, skills, experience, and other objective business considerations.\n\nSubject to those same considerations, the total compensation package for this position may also include other elements, including a bonus and/or equity awards, in addition to a full range of medical, financial, and/or other benefits. Details of participation in these benefit plans will be provided if an employee receives an offer of employment. If hired, the company reserves the right to modify base salary (as well as any other discretionary payment or compensation or benefit program) at any time, including for reasons related to individual performance, company or individual department/team performance, and market factors. The use of Artificial Intelligence is not being used to screen candidates. The position is for an existing vacancy.\n\n*Ontario Base Pay Range\n$105,000—$115,000 CAD",
     "site": "rockstargames.com",
     "source": "greenhouse",
     "role": "Технический художник",
@@ -10070,8 +10096,7 @@ window.JOBS = [
       "Python",
       "Houdini",
       "ZBrush"
-    ],
-    "hasRu": true
+    ]
   },
   {
     "id": "gh-rockstar-games-7739156003",
@@ -10097,18 +10122,18 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "gh-rockstar-games-6620891003",
+    "id": "gh-rockstar-games-6589243003",
     "title": "Senior Web Engineer",
     "company": "Rockstar Games",
     "locations": [
-      "Andover, United States"
+      "Manhattan, United States"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 130 000 – 150 000",
+    "salary": "$ 121 400 – 161 800",
     "posted": "2026-08-11",
-    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/6620891003",
-    "desc": "At Rockstar Games, we create world-class entertainment experiences.\n\nBecome part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly motivated environment where you can learn and collaborate with some of the most talented people in the industry.\n\nRockstar Games is seeking a passionate and experienced Senior Web Engineer with a focus on the “back of the frontend” to join our online development team. This role will involve a deep understanding of how high-profile frontends are delivered, secured and integrated via services and APIs with less focus on the presentation.\n\nThe successful candidate will be working on innovative technology with an internationally established team, while having great attention to detail, being a strong collaborator and have outstanding communication and interpersonal skills.\n\nWe are looking for someone who is passionate about games, eager for new challenges, and ready to continue our legacy of creating the greatest games in the world.\n\nThis is a full-time, in-office position based out of Rockstar’s game development studio in Andover, MA.\n\nWHAT WE DO\n\n• The Rockstar Games Online Services team creates connected experiences that are found across our game franchises.\n• We architect and maintain high-impact features to support the development of the Rockstar community and websites.\n• We create innovative in-game experiences, including user-generated content.\n• We build services and tools that support our consumer-facing experiences and our internal business needs.\n\nRESPONSIBILITIES\n\n• Development of accessible front-end components and applications using React.\n• Integrating front-end applications with Next.js and ASP.NET Core (C#).\n• Develop comprehensive test suites.\n• Web performance optimization.\n• Collaboration with other Rockstar technology teams across our worldwide studios.\n\nREQUIREMENTS\n\n• A degree in computer science or 5+ years of experience in professional web development.\n• 5+ years of experience using React.\n• 5+ years of experience using Node.js or C#.\n• Extensive experience in accessible web development.\n• Ability to effectively facilitate communication with teams in various locations worldwide.\n• Experience with automated testing, shared code, and source control, preferably Git.\n• Knowledge of Agile, software development, and web-security best practices.\n• Passion for web technologies and a desire to remain up to date with the latest technologies.\n\nPLUSES\n\nPlease note that these are desirable skills and are not required to apply for the position.\n\n• Experience working on high-traffic, responsive websites and applications.\n• Experience with Next.js SSR/ISR.\n• Exposure to Elasticsearch/OpenSearch.\n• Exposure to observability tools.\n• Knowledge of Rockstar’s game titles and passion for playing video games.\n\nHOW TO APPLY\n\nPlease apply with a resume and cover letter demonstrating how you meet the skills above. If we would like to move forward with your application, a Rockstar recruiter will reach out to you to explain next steps and guide you through the process.\n\nRockstar is committed to creating a work environment that promotes equal opportunity, dignity and respect. In line with this commitment, Rockstar will provide reasonable accommodations to qualified job applicants with disabilities during the recruitment process in order for such applicants to be considered for the position for which they are applying, as well as to qualified employees to enable them to perform the essential functions of their roles. If you need more information about Rockstar’s reasonable accommodation policies or process, or need to request an accommodation, please notify your recruiter during the interview process.\nThe pay range for this position in Andover, Massachusetts at the start of employment is expected to be between the range below* per year. However, base pay offered is based on market location, and may vary further depending on individualized factors for job candidates, such as job-related knowledge, skills, experience, and other objective business considerations.\n\nSubject to those same considerations, the total compensation package for this position may also include other elements, including a bonus and/or equity awards, in addition to a full range of medical, financial, and/or other benefits. Details of participation in these benefit plans will be provided if an employee receives an offer of employment. If hired, employee will be in an \"at-will position\" and the company reserves the right to modify base salary (as well as any other discretionary payment or compensation or benefit program) at any time, including for reasons related to individual performance, company or individual department/team performance, and market factors.\n\nNE Base Pay Range\n$130,000—$150,000 USD",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/6589243003",
+    "desc": "At Rockstar Games, we create world-class entertainment experiences.\n\nBecome part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly motivated environment where you can learn and collaborate with some of the most talented people in the industry.\n\nRockstar Games is seeking a passionate and experienced Senior Web Engineer with a focus on the “back of the frontend” to join our online development team. This role will involve a deep understanding of how high-profile frontends are delivered, secured and integrated via services and APIs with less focus on the presentation.\n\nThe successful candidate will be working on innovative technology with an internationally established team, while having great attention to detail, being a strong collaborator and have outstanding communication and interpersonal skills.\n\nWe are looking for someone who is passionate about games, eager for new challenges, and ready to continue our legacy of creating the greatest games in the world.\n\nThis is a full-time, in-office position based out of Rockstar’s NYC headquarters in Downtown Manhattan.\n\nWHAT WE DO\n\n• The Rockstar Games Online Services team creates connected experiences that are found across our game franchises.\n• We architect and maintain high-impact features to support the development of the Rockstar community and websites.\n• We create innovative in-game experiences, including user-generated content.\n• We build services and tools that support our consumer-facing experiences and our internal business needs.\n\nRESPONSIBILITIES\n\n• Development of accessible front-end components and applications using React.\n• Integrating front-end applications with Next.js and ASP.NET Core (C#).\n• Develop comprehensive test suites.\n• Web performance optimization.\n• Collaboration with other Rockstar technology teams across our worldwide studios.\n\nREQUIREMENTS\n\n• A degree in computer science or 5+ years of experience in professional web development.\n• 5+ years of experience using React.\n• 5+ years of experience using Node.js or C#.\n• Extensive experience in accessible web development.\n• Ability to effectively facilitate communication with teams in various locations worldwide.\n• Experience with automated testing, shared code, and source control, preferably Git.\n• Knowledge of Agile, software development, and web-security best practices.\n• Passion for web technologies and a desire to remain up to date with the latest technologies.\n\nPLUSES\n\nPlease note that these are desirable skills and are not required to apply for the position.\n\n• Experience working on high-traffic, responsive websites and applications.\n• Experience with Next.js SSR/ISR.\n• Exposure to Elasticsearch/OpenSearch.\n• Exposure to observability tools.\n• Knowledge of Rockstar’s game titles and passion for playing video games.\n\nHOW TO APPLY\n\nPlease apply with a resume and cover letter demonstrating how you meet the skills above. If we would like to move forward with your application, a Rockstar recruiter will reach out to you to explain next steps and guide you through the process.\n\nRockstar is committed to creating a work environment that promotes equal opportunity, dignity and respect. In line with this commitment, Rockstar will provide reasonable accommodations to qualified job applicants with disabilities during the recruitment process in order for such applicants to be considered for the position for which they are applying, as well as to qualified employees to enable them to perform the essential functions of their roles. If you need more information about Rockstar’s reasonable accommodation policies or process, or need to request an accommodation, please notify your recruiter during the interview process.\nThe pay range for this position in New York State (inclusive of New York City) at the start of employment is expected to be between the range below* per year. However, base pay offered is based on market location, and may vary further depending on individualized factors for job candidates, such as job-related knowledge, skills, experience, and other objective business considerations.\n\nSubject to those same considerations, the total compensation package for this position may also include other elements, including a bonus and/or equity awards, in addition to a full range of medical, financial, and/or other benefits. Details of participation in these benefit plans will be provided if an employee receives an offer of employment. If hired, employee will be in an \"at-will position\" and the company reserves the right to modify base salary (as well as any other discretionary payment or compensation or benefit program) at any time, including for reasons related to individual performance, company or individual department/team performance, and market factors.\n\n*NY Base Pay Range\n$121,400—$161,800 USD",
     "site": "rockstargames.com",
     "source": "greenhouse",
     "role": "Программирование",
@@ -10116,8 +10141,7 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "C#"
-    ],
-    "hasRu": true
+    ]
   },
   {
     "id": "gh-rockstar-games-7711702003",
@@ -10394,6 +10418,7 @@ window.JOBS = [
     "role": "Программирование",
     "grade": null,
     "spec": "Unreal",
+    "permit": true,
     "stack": [
       "Unreal",
       "C++",
@@ -10594,7 +10619,7 @@ window.JOBS = [
       "Tel Aviv"
     ],
     "remote": true,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-09",
     "url": "https://jobs.ashbyhq.com/moonactive/59750dbd-b3da-444c-8dbd-a755015d5181",
@@ -11071,29 +11096,6 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ],
-    "hasRu": true
-  },
-  {
-    "id": "gh-tripledot-belka-4939207101",
-    "title": "Data Scientist",
-    "company": "Tripledot / Belka",
-    "locations": [
-      "Jakarta"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-06",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4939207101",
-    "desc": "Who are we?\n\nTripledot Studios is one of the largest independent mobile games companies in the world.\n\nWe are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios.\n\nOur expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users.\n\nTripledot’s guiding principle is that when people love what they do, what they do will be loved by others.\n\nWe’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games.\n\nOur ambition is to be the most successful games company in the world, and we’re just getting started.\n\nThe role is working within our studio: Tripledot Games\n\nAbout Tripledot Games\n\nTripledot Games is a leading developer and publisher of casual and puzzle games, with a strong presence in London, Warsaw, and Barcelona. The studio is responsible for multiple top 10 titles, including Woodoku, Woodoku Blast, Solitaire, and TripleTile. Our best-in-class data-driven approach spans the entire lifecycle from publishing to machine learning puzzle levels, helping us make fast, smart decisions at every stage of development.\n\nWe are also one of the largest IAA operators worldwide. Tripledot Games is a diverse and collaborative studio, home to people from over 36 nationalities. We take pride in our craftsmanship, strong focus on outcomes, and continuous improvement, building high-quality, scalable games that players around the world love.\n\nRole Overview\n\nAs a Data Scientist in our Experimentation team, you will help deliver and improve Tripledot’s company-wide experimentation analysis platform. Working closely with Data Engineering, you will define the statistical logic and methodologies behind platform features, build prototypes in Python, and ensure the platform produces accurate, reliable results for product teams across our games portfolio.\n\nYour initial focus will include hands-on quality assurance: running independent analyses, comparing results with platform outputs, investigating discrepancies, and validating features and metrics. This offers the opportunity to develop deep expertise in experimentation and A/B testing across a sophisticated internal platform. As the platform evolves, the role will expand into more advanced statistical and machine learning work that delivers value across the business.\n\nKey Responsibilities\n\n• Define statistical logic, calculation methods, and detailed requirements for experimentation platform features.\n• Prototype statistical methodologies and analyses in Python before implementation.\n• Partner closely with Data Engineers as they develop and improve the experimentation platform.\n• Perform thorough data and feature QA by independently calculating results and comparing them with platform outputs.\n• Investigate discrepancies, identify root causes, and help ensure metrics and analyses are accurate and reliable.\n• Explore opportunities to automate QA processes and improve the efficiency and quality of validation.\n• Build a deep understanding of experimentation methodologies, including A/B testing, monitoring, segmentation, and analysis.\n• Collaborate with BI, Machine Learning, product teams, and other stakeholders to understand requests and shape effective solutions.\n• Contribute to future statistical, algorithmic, and machine learning initiatives as the team’s priorities evolve.\n\nSkills, Knowledge and Expertise\n\n• 3-5 years of professional experience as a Data Scientist or in a closely related role\n• Strong Python skills, including the ability to prototype analyses and write clear, reliable scripts.\n• Solid knowledge of statistics and standard statistical methodologies.\n• Practical understanding of experimentation and A/B testing, including how metrics and results should be calculated and validated.\n• Familiarity with machine learning methods and the ability to apply relevant approaches when needed.\n• Excellent attention to detail and a disciplined approach to repetitive or methodical QA work.\n• Strong problem-solving skills, with the initiative to propose creative solutions and process improvements.\n• Clear communication skills and the ability to explain analytical methods, results, and rationale.\n• Experience with experimentation platforms or high-volume digital products, such as gaming, e-commerce, or ride-hailing, would be valuable.\n• Ability to critically evaluate and validate AI-generated code, analyses, or modelling suggestions to ensure correctness and reproducibility.\n• Experience using AI-assisted tools (e.g. code assistants or analytical copilots) to accelerate data exploration, research prototyping, and development workflows while maintaining scientific and statistical rigor.\n• Interest in exploring AI-driven approaches that improve experimentation platforms, developer productivity, or data science research workflows.\n\nWorking at Tripledot…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "site": "tripledotstudios.com",
-    "source": "greenhouse",
-    "role": "Аналитика",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Python"
     ],
     "hasRu": true
   },
@@ -11615,6 +11617,7 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Junior",
     "spec": "DevOps",
+    "permit": true,
     "stack": [
       "Python"
     ],
@@ -11723,7 +11726,7 @@ window.JOBS = [
       "Tel Aviv"
     ],
     "remote": true,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-06",
     "url": "https://jobs.ashbyhq.com/moonactive/782e0dd3-34c2-4d36-b1c7-eb59340858eb",
@@ -11736,27 +11739,6 @@ window.JOBS = [
     "stack": [
       "SQL"
     ],
-    "hasRu": true
-  },
-  {
-    "id": "ab-moon-active-ad3f690a-ac95-4a7e-af5e-3b373775cc69",
-    "title": "Product Manager",
-    "company": "Moon Active",
-    "locations": [
-      "Tel Aviv"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-06",
-    "url": "https://jobs.ashbyhq.com/moonactive/ad3f690a-ac95-4a7e-af5e-3b373775cc69",
-    "desc": "Moon Active is one of the world’s fastest-growing mobile game companies, providing entertainment to millions of active users across the universe. The company is headquartered in the heart of Tel Aviv.\n\nWe’re looking for an experienced and extremely motivated Product Manager to join our growing Product team. Are you charismatic, super assertive and have no problem taking ownership? Then this could be the perfect fit for you!\n\nAs a Product Manager, you’ll get the chance to make a direct impact on millions of players from around the world, help scale our product strategy and the success of our games’ features. You’ll also have a great impact on the company’s business performance.\n\nResponsibilities\n\n- Lead the success and growth of the product by developing a product vision, strategy, roadmap and lifecycle management framework and seek opportunities for key initiatives to improve the customer experience\n\n- Gather and analyze requirements, write clear and detailed PRDs, UI/UX flows, wireframes, define A/B tests and user stories, prioritize backlogs and handle development/engineering\n\n- Own the success of the feature once it’s released to production by running tests and optimising performance and business results\n\n- Collaborate with relevant cross-functional teams (R&D, Design, BI/BA, etc) to guarantee a smooth, and efficient implementation.\n\nRequirements\n\n- At least 2 years of experience as a Product Manager.\n\n- Adapts well to a dynamic and rapidly changing work environment.\n\n- Strong organizational and analytical skills with a high attention to detail.\n\n- Exceptional communication skills and can clearly convey messages in English (written and oral).\n\n- Excellent collaboration skills and can work effectively with and influence other teammates.\n\n- Problem solver and a creative thinker that can provide insightful and innovative solutions to any problem.\n\n- Team player, a people person and truly enjoys working with multiple teams.\n\n- Strong passion for mobile games - Advantage",
-    "source": "ashby",
-    "site": "moonactive.com",
-    "role": "Продакт",
-    "grade": null,
-    "spec": null,
-    "stack": [],
     "hasRu": true
   },
   {
@@ -11978,6 +11960,7 @@ window.JOBS = [
     "role": "VFX",
     "grade": null,
     "spec": null,
+    "permit": true,
     "stack": [
       "Unreal"
     ],
@@ -12397,6 +12380,7 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": null,
     "spec": null,
+    "permit": true,
     "stack": [],
     "hasRu": true
   },
@@ -12849,6 +12833,7 @@ window.JOBS = [
     "role": "Аналитика",
     "grade": null,
     "spec": null,
+    "permit": true,
     "stack": [],
     "hasRu": true
   },
@@ -13104,6 +13089,7 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Lead",
     "spec": null,
+    "permit": true,
     "stack": [
       "Unreal",
       "C#",
@@ -13223,7 +13209,7 @@ window.JOBS = [
       "Warsaw"
     ],
     "remote": true,
-    "rkind": "worldwide",
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-03",
     "url": "https://jobs.ashbyhq.com/moonactive/e78f22a4-6067-48dc-8e09-a9ab7535451a",
@@ -13360,7 +13346,7 @@ window.JOBS = [
       "Sydney, Australia"
     ],
     "remote": false,
-    "rkind": "worldwide",
+    "rkind": "zone",
     "salary": null,
     "posted": "2026-07-31",
     "url": "https://www.riotgames.com/en/work-with-us/job/7959470?gh_jid=7959470",
@@ -13370,6 +13356,7 @@ window.JOBS = [
     "role": "Программирование",
     "grade": null,
     "spec": null,
+    "permit": true,
     "stack": [
       "Unreal",
       "C++"
@@ -13394,6 +13381,7 @@ window.JOBS = [
     "role": "Технический художник",
     "grade": null,
     "spec": null,
+    "permit": true,
     "stack": [
       "Unity",
       "Unreal",
@@ -13443,6 +13431,7 @@ window.JOBS = [
     "role": "Аналитика",
     "grade": "Senior",
     "spec": null,
+    "permit": true,
     "stack": [
       "SQL"
     ],
@@ -13759,27 +13748,6 @@ window.JOBS = [
     "hasRu": true
   },
   {
-    "id": "lv-xsolla-05410161-5815-48a0-84d1-9762e70c3a00",
-    "title": "Program Mentor - Games Marketing",
-    "company": "Xsolla",
-    "locations": [
-      "Berlin, Germany"
-    ],
-    "remote": false,
-    "rkind": "worldwide",
-    "salary": "4 000 € – 5 000 €",
-    "posted": "2026-07-29",
-    "url": "https://jobs.lever.co/xsolla/05410161-5815-48a0-84d1-9762e70c3a00",
-    "desc": "ABOUT YOU\n\nWe are looking for a Game Marketing Mentor to join our Developer Success team. This person will work with our Program Director to take over Marketing related topics as part of our incubation and acceleration programs globally.\n\nAs a mentor, you will be responsible for organizing and managing weekly meetings with the participating teams, monitoring and tracking their progress, curating course materials based on existing education materials, and occasionally traveling to in-person events related to the various global programs.\n\nYou will be one of the main contacts for incubated/accelerated teams. You will support the teams in their journey, guide them through our educational materials, evaluate their progress, and identify any additional support they may require. When requested by any partners, you will also be responsible for creating detailed reporting and evaluation of the teams’ progress through the program.\n\nAs part of your work with the teams, you will also be responsible for communication and management of external experts based on the needs of any given cohort. You will be the main communication point for your external experts and support the processing of all necessary legal and financial documentation and processes within Xsolla.\n\nAs a Games Marketing mentor, the ideal candidate will bring extensive experience in video games industry marketing, community management, influencer marketing, and social media management in the indie to AA sphere.\n\nABOUT US\n\nXsolla is a global commerce company with robust tools and services to help developers solve the inherent challenges of the video game industry. From indie to AAA, companies partner with Xsolla to help them fund, distribute, market, and monetize their games. Grounded in the belief in the future of video games, Xsolla is resolute in the mission to bring opportunities together, and continually make new resources available to creators. Headquartered and incorporated in Los Angeles, California, Xsolla operates as the merchant of record and has helped over 1,500+ game developers to reach more players and grow their businesses around the world. With more paths to profits and ways to win, developers have all the things needed to enjoy the game.\n\nFor more information, visit xsolla.com.\n\nRESPONSIBILITIES\n• Mentor incubated/accelerated teams.\n• Provide expertise and specific insights to the external incubated/accelerated teams as well as internally as needed.\n• Take detailed notes and create reports on team progress.\n• Identify and solve problems or needs of the teams.\n• Review educational materials and update Program Director on any recommended changes or additions.\n• Keep in mind specific needs of partners for some of the programs and adapt mentoring techniques accordingly.\n• Work autonomously to manage own calendar, schedule, and update relevant Jira tickets and documentation.\n• Outreach and management of external experts as required by the program.\n• Attend in-person events when necessary/relevant.\n\nQUALIFICATIONS & SKILLS\nRequired:\n\n• Bachelor's degree or equivalent work experience.\n• 5+ years of experience in the video games industry as a Marketing Manager, Social Media Manager, or similar.\n• Proven track record of working on launched game projects.\n• Deep understanding of game business cycle, in particular community building and marketing.\n• Fluent in written and spoken English; fluency in additional languages is a plus.\n• Enjoys working closely with founders and teams.\n• Ability to learn, understand, and adapt quickly to new changes.\n• Proactive and autonomous working style.\n\nPreferred:\n\n• Multilingual; fluency in Arabic is a plus.\n• Experience organizing digital and in-person events.\n• Indie and/or AA marketing experience.\n• Timezone location: GMT-0 to GMT+8.\n• Experience running or participating in accelerator/incubator programs (Y Combinator, Techstars, or gaming-specific accelerators).\n• Experience with Jira, Salesforce, or project management tools.\n• Network within the indie game development community.\n• Public speaking or workshop facilitation experience.\nThe duties and responsibilities of this position may evolve over time to support the organization’s goals and individual growth. This job description is intended to outline the general nature and level of work being performed and is not intended to be an exhaustive list of all duties, responsibilities, and qualifications required.\n\nBy submitting your application, you consent to Xsolla conducting background checks, where permitted by law, after the final interview stage. All checks will comply with local regulations, and your information will be handled confidentially.\n\nXsolla takes your privacy seriously and will not sell or externally distribute any personal data received during the hiring process. In accordance with applicable data protection laws, Xsolla is committed to protecting your personal information and respecting your privacy.\n\nFor any inquiries related to data privacy, please contact: careers@xsolla.com\n\nExplore more opportunities at: https://xsolla.com/careers",
-    "source": "lever",
-    "site": "xsolla.com",
-    "role": "Маркетинг",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "hasRu": true
-  },
-  {
     "id": "sr-gameloft-744000140472994",
     "title": "Responsable du marketing cinématique - Lead Marketing Cinematic",
     "company": "Gameloft",
@@ -13856,7 +13824,7 @@ window.JOBS = [
       "Tel Aviv"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-07-29",
     "url": "https://jobs.ashbyhq.com/moonactive/f9d414e9-6bb9-4e35-99c2-6d452a66c7ae",
@@ -13880,7 +13848,7 @@ window.JOBS = [
       "Tel Aviv"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-07-29",
     "url": "https://jobs.ashbyhq.com/moonactive/fd2cd6bb-1e02-4270-95cb-e40f7f3d5ccc",
@@ -13904,7 +13872,7 @@ window.JOBS = [
       "Warsaw"
     ],
     "remote": true,
-    "rkind": "worldwide",
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-07-29",
     "url": "https://jobs.ashbyhq.com/moonactive/806f31f5-b711-44d6-8e7b-7a5132b1db42",
@@ -13925,7 +13893,7 @@ window.JOBS = [
       "Tel Aviv"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-07-29",
     "url": "https://jobs.ashbyhq.com/moonactive/de86cb90-ce2f-4224-8cef-f722387b4a16",
@@ -13949,7 +13917,7 @@ window.JOBS = [
       "Tel Aviv"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-07-29",
     "url": "https://jobs.ashbyhq.com/moonactive/97952ab6-4175-4727-8c16-914895df3726",
@@ -13970,7 +13938,7 @@ window.JOBS = [
       "Tel Aviv"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-07-29",
     "url": "https://jobs.ashbyhq.com/moonactive/b9ef962f-9edd-49f3-bb44-e288bb7885d4",
@@ -13995,7 +13963,7 @@ window.JOBS = [
       "Tel Aviv"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-07-29",
     "url": "https://jobs.ashbyhq.com/moonactive/e08085a5-f3cf-4c0b-820a-053186774857",
@@ -14019,7 +13987,7 @@ window.JOBS = [
       "Tel Aviv"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-07-29",
     "url": "https://jobs.ashbyhq.com/moonactive/7d9ea95d-4eda-405f-a525-229092a6b989",
@@ -14040,7 +14008,7 @@ window.JOBS = [
       "Tel Aviv"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-07-29",
     "url": "https://jobs.ashbyhq.com/moonactive/5bac5848-00ce-446c-a17f-3effaf80f4cd",
@@ -14106,7 +14074,7 @@ window.JOBS = [
       "Warsaw"
     ],
     "remote": true,
-    "rkind": "worldwide",
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-07-29",
     "url": "https://jobs.ashbyhq.com/moonactive/4efa0dea-cd29-4ea0-a21a-5ce3d4a8c0cc",
@@ -15239,6 +15207,7 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": null,
     "spec": null,
+    "permit": true,
     "stack": [],
     "hasRu": true
   },
@@ -15457,6 +15426,7 @@ window.JOBS = [
     "role": "Анимация",
     "grade": null,
     "spec": null,
+    "permit": true,
     "stack": [
       "Maya"
     ],
@@ -15480,6 +15450,7 @@ window.JOBS = [
     "role": "Анимация",
     "grade": "Junior",
     "spec": null,
+    "permit": true,
     "stack": [
       "Maya"
     ],
@@ -15503,6 +15474,7 @@ window.JOBS = [
     "role": "Анимация",
     "grade": "Senior",
     "spec": null,
+    "permit": true,
     "stack": [
       "Maya"
     ],
@@ -15665,6 +15637,7 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Senior",
     "spec": null,
+    "permit": true,
     "stack": [
       "SQL"
     ],
@@ -15699,7 +15672,7 @@ window.JOBS = [
       "Los Angeles, United States"
     ],
     "remote": false,
-    "rkind": "worldwide",
+    "rkind": "zone",
     "salary": "90 000 $ – 130 000 $",
     "posted": "2026-07-21",
     "url": "https://jobs.lever.co/xsolla/b12862cb-eab8-4e19-b45a-dddf5da198f3",
@@ -15709,6 +15682,7 @@ window.JOBS = [
     "role": "Аналитика",
     "grade": null,
     "spec": null,
+    "permit": true,
     "stack": [],
     "hasRu": true
   },
@@ -16126,6 +16100,7 @@ window.JOBS = [
     "role": "QA",
     "grade": "Senior",
     "spec": null,
+    "permit": true,
     "stack": [],
     "hasRu": true
   },
@@ -16598,6 +16573,7 @@ window.JOBS = [
     "role": "Программирование",
     "grade": null,
     "spec": "Unreal",
+    "permit": true,
     "stack": [
       "Unreal",
       "C++",
@@ -16790,6 +16766,7 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": "Senior",
     "spec": null,
+    "permit": true,
     "stack": [],
     "hasRu": true
   },
@@ -17067,6 +17044,7 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Lead",
     "spec": "Unreal",
+    "permit": true,
     "stack": [
       "Unreal",
       "C++",
@@ -17092,6 +17070,7 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Senior",
     "spec": "Unreal",
+    "permit": true,
     "stack": [
       "Unreal",
       "C++",
@@ -17290,6 +17269,7 @@ window.JOBS = [
     "role": "Программирование",
     "grade": null,
     "spec": "Данные и ML",
+    "permit": true,
     "stack": [
       "Python"
     ],
@@ -18057,7 +18037,7 @@ window.JOBS = [
       "Oxford, United Kingdom"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-06-30",
     "url": "https://apply.workable.com/j/7DA712F769",
@@ -18067,6 +18047,7 @@ window.JOBS = [
     "role": "Арт",
     "grade": "Lead",
     "spec": null,
+    "permit": true,
     "stack": [
       "Blender"
     ],
@@ -18134,6 +18115,7 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Lead",
     "spec": null,
+    "permit": true,
     "stack": [
       "C++"
     ],
@@ -18547,6 +18529,7 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": "Lead",
     "spec": null,
+    "permit": true,
     "stack": [],
     "hasRu": true
   },
@@ -18738,6 +18721,7 @@ window.JOBS = [
     "role": "Анимация",
     "grade": null,
     "spec": null,
+    "permit": true,
     "stack": [
       "Unreal",
       "Maya",
@@ -18789,6 +18773,7 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Senior",
     "spec": null,
+    "permit": true,
     "stack": [
       "JavaScript",
       "Figma"
@@ -20328,6 +20313,7 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
+    "permit": true,
     "lang": "ja",
     "stack": [],
     "hasRu": true
@@ -20631,6 +20617,7 @@ window.JOBS = [
     "role": "Технический художник",
     "grade": "Senior",
     "spec": null,
+    "permit": true,
     "stack": [
       "Unreal",
       "C++",
@@ -20704,6 +20691,7 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Senior",
     "spec": "Инструменты",
+    "permit": true,
     "stack": [
       "C++",
       "C#",
@@ -20871,6 +20859,7 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": "Senior",
     "spec": null,
+    "permit": true,
     "stack": [],
     "hasRu": true
   },
@@ -21012,6 +21001,7 @@ window.JOBS = [
     "role": "Арт",
     "grade": null,
     "spec": null,
+    "permit": true,
     "stack": [
       "Unreal",
       "Maya",
@@ -21456,6 +21446,7 @@ window.JOBS = [
     "role": "Программирование",
     "grade": "Senior",
     "spec": "Геймплей",
+    "permit": true,
     "stack": [
       "C++"
     ],
@@ -21605,6 +21596,7 @@ window.JOBS = [
     "role": "Программирование",
     "grade": null,
     "spec": null,
+    "permit": true,
     "stack": [
       "JavaScript",
       "Figma"
