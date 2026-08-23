@@ -1,8 +1,8 @@
 // jobs.js — сгенерировано collect.py, руками не править.
-// Обновлено: 2026-08-22. Вакансий: 1079.
+// Обновлено: 2026-08-23. Вакансий: 1079.
 
 window.JOBS_DEMO = false;
-window.JOBS_UPDATED = "2026-08-22";
+window.JOBS_UPDATED = "2026-08-23";
 window.JOBS_STUDIOS = 63;
 
 window.JOBS = [
