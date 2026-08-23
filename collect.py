@@ -1572,6 +1572,28 @@ SKIP_HEADS = re.compile(r"о нас|кто мы|о компании|о студ�
                         r"права|конфиденциальн|about", re.I)
 
 
+def cut_at_sentence(text: str, limit: int) -> str:
+    """Режем по концу предложения, а не по числу знаков. Обрыв на середине
+    мысли («…в соответствии с общим Art Vision и») читается как брак."""
+    t = text.strip()
+    if len(t) <= limit:
+        return t.rstrip(" ,;:")
+    window = t[:limit + 60]
+    end = max(window.rfind(". "), window.rfind("! "), window.rfind("? "))
+    if end > limit * 0.4:
+        return window[:end + 1].strip()
+    cut = t.rfind(" ", 0, limit)
+    return t[:cut if cut > limit * 0.5 else limit].rstrip(" ,;:") + "…"
+
+
+def latin_share(text: str) -> float:
+    """Доля латиницы. Если пункт наполовину английский, читать его невозможно,
+    и лучше взять следующий."""
+    cyr = len(re.findall(r"[А-Яа-яЁё]", text))
+    lat = len(re.findall(r"[A-Za-z]", text))
+    return lat / max(1, cyr + lat)
+
+
 def tg_summary(j):
     """Короткая выжимка: одно предложение о сути и до четырёх пунктов дела.
     Человек в ленте должен понять, о чём вакансия, не открывая ссылку."""
@@ -1592,9 +1614,8 @@ def tg_summary(j):
                 break
         if intro:
             break
-    if len(intro) > 300:
-        cut = intro.rfind(" ", 0, 300)
-        intro = intro[:cut if cut > 150 else 300].rstrip(" ,;:") + "…"
+    # Одного-двух предложений хватает: дальше человек идёт по ссылке.
+    intro = cut_at_sentence(intro, 220)
 
     # Пункты: сначала ищем обязанности, если их нет — берём любые
     duties = []
@@ -1609,12 +1630,23 @@ def tg_summary(j):
                 break
 
     short = []
-    for d in duties[:4]:
-        d = d.rstrip(" .;")
-        if len(d) > 160:
-            cut = d.rfind(" ", 0, 160)
-            d = d[:cut if cut > 80 else 160].rstrip(" ,;:") + "…"
-        short.append(d)
+    for d in duties:
+        d = d.strip().rstrip(" .;")
+        if len(d) < 15:
+            continue
+        # Пункт, где больше половины слов английские, в русском посте
+        # выглядит как недоделка — пропускаем и берём следующий.
+        if latin_share(d) > 0.5:
+            continue
+        # Пункт целиком почти всегда одно предложение. Режем только совсем
+        # длинные, иначе половина пунктов кончалась бы многоточием.
+        short.append(d if len(d) <= 240 else cut_at_sentence(d, 190))
+        if len(short) == 4:
+            break
+    # Если после отсева ничего не осталось, лучше показать как есть,
+    # чем не показать ничего.
+    if not short:
+        short = [cut_at_sentence(d, 150) for d in duties[:3] if len(d.strip()) > 15]
     return intro, short
 
 
