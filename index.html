@@ -311,6 +311,7 @@
   .tag.remote{color:var(--cyan);border-color:var(--cyan-deep);background:var(--cyan-deep)}
   .tag.src{color:var(--ok);border-color:var(--ok-line);font-family:var(--mono);font-size:11px}
   .tag.tr{color:var(--cyan);border-color:var(--cyan-deep)}
+  .tag.permit{color:#e8b06a;border-color:#4a3a1c;cursor:help}
   .tag.lang{color:#d8a3ff;border-color:#3d2a55}
   .tag.pool{color:var(--muted);border-style:dashed}
   .tag.role{color:var(--role, var(--muted));border-color:var(--role, var(--line-soft))}
@@ -443,6 +444,8 @@
      списки и абзацы — иначе читать невозможно. */
   .tr-note{font-size:12.5px;color:var(--muted);border-left:2px solid var(--cyan);
     padding-left:10px;margin-bottom:14px}
+  .permit-note{font-size:12.5px;color:#e8b06a;border-left:2px solid #4a3a1c;
+    padding-left:10px;margin:0 0 14px}
   .job-source{font-family:var(--mono);font-size:11.5px;color:var(--ok);margin:0 0 16px;
     letter-spacing:.03em}
   .job-desc{font-size:14.5px;line-height:1.7;color:var(--text);opacity:.92}
@@ -691,6 +694,7 @@
     <div class="sheet-body">
       <div class="job-head" id="jobHead"></div>
       <div class="job-source" id="jobSource"></div>
+      <div class="permit-note" id="jobPermit" hidden></div>
       <div class="job-desc" id="jobDesc"></div>
       <div style="margin-top:16px"><a id="jobPage" href="#" target="_blank" rel="noopener"></a></div>
       <div style="margin-top:8px"><a id="jobTranslate" href="#" target="_blank" rel="noopener" hidden></a></div>
@@ -908,7 +912,8 @@
   const state = {
     role:new Set(), spec:new Set(), stack:new Set(), rkind:new Set(),
     grade:new Set(), company:new Set(), location:new Set(),
-    age:null, remote:false, salary:false, onlyFav:false, onlyHidden:false, query:""
+    age:null, remote:false, salary:false, noPermit:false,
+    onlyFav:false, onlyHidden:false, query:""
   };
   let sortMode = "new";
   let sortChosen = false;      // человек выбрал сортировку руками — не трогаем
@@ -1297,6 +1302,10 @@
       hidden:"Скрытые", restore:"Вернуть в список", hide:"Скрыть вакансию", more2:"Ещё",
       pool:"резерв", dropWord:"Убрать", shownWord:"Показано",
       langOn:"на", translateIt:"Открыть перевод вакансии, она на",
+      noPermit:"Без разрешения на работу", noPermitShort:"без разрешения",
+      permitTag:"нужно разрешение",
+      permitHint:"Студия требует право работать в своей стране: гражданство, вид на жительство или рабочую визу. Даже если написано «удалённо», кандидата из другой страны обычно не рассматривают.",
+      permitNote:"В этой вакансии студия требует право работать в своей стране — гражданство, вид на жительство или рабочую визу. Проверьте условия в оригинале перед откликом.",
       translated:"перевод", manualTr:"Описание переведено вручную. Оригинал — по кнопке «Откликнуться на сайте студии».",
       officialHint:"Вакансия взята с карьерной страницы студии",
       sourceWord:"источник", checkedWord:"проверено",
@@ -1375,6 +1384,10 @@
       hidden:"Hidden", restore:"Bring back", hide:"Hide this job", more2:"More",
       pool:"talent pool", dropWord:"Remove", shownWord:"Showing",
       langOn:"in", translateIt:"Open a translation, this one is in",
+      noPermit:"No work permit needed", noPermitShort:"no permit needed",
+      permitTag:"work permit needed",
+      permitHint:"The studio requires the right to work in its country: citizenship, residency or a work visa. Even when the job says remote, candidates from other countries are usually not considered.",
+      permitNote:"This job requires the right to work in the studio country — citizenship, residency or a work visa. Check the original posting before applying.",
       translated:"translated", manualTr:"This description was translated by hand.",
       officialHint:"Taken from the studio career page",
       sourceWord:"source", checkedWord:"checked",
@@ -1792,6 +1805,7 @@
     if (st.spec && st.spec.size && !st.spec.has(j.spec)) return false;
     if (st.stack && st.stack.size && !(j.stack||[]).some(v => st.stack.has(v))) return false;
     if (st.rkind && st.rkind.size && !st.rkind.has(j.rkind)) return false;
+    if (st.noPermit && j.permit) return false;
     if (st.grade.size && !(st.grade.has(j.grade) || (!j.grade && st.grade.has(NO_GRADE))))
       return false;
     if (st.company.size && !st.company.has(j.company)) return false;
@@ -1953,6 +1967,7 @@
     return state.role.size + state.spec.size + state.stack.size + state.rkind.size
          + state.grade.size + state.company.size + state.location.size
          + (state.age ? 1 : 0) + (state.remote ? 1 : 0) + (state.salary ? 1 : 0)
+         + (state.noPermit ? 1 : 0)
          + (state.onlyFav ? 1 : 0);
   }
 
@@ -2121,6 +2136,8 @@
     if (j.remote || j.rkind)
       tags.push('<span class="tag remote">'+esc(j.rkind ? rkindLabel(j.rkind) : t("remote"))+'</span>');
     if (j.pool) tags.push('<span class="tag pool">'+t("pool")+'</span>');
+    if (j.permit)
+      tags.push('<span class="tag permit" title="'+esc(t("permitHint"))+'">'+t("permitTag")+'</span>');
     if (j.lang && j.lang !== "ru" && !(j.descRu || j.hasRu))
       tags.push('<span class="tag lang">'+t("langOn")+' '+esc(langLabel(j.lang))+'</span>');
     if (j.descRu || j.hasRu) tags.push('<span class="tag tr">'+t("translated")+'</span>');
@@ -2275,9 +2292,10 @@
     const box = $("quick");
     box.innerHTML = "";
 
-    const chip = (label, isOn, toggle, kind) => {
+    const chip = (label, isOn, toggle, kind, hint) => {
       const b = document.createElement("button");
       b.className = "qchip" + (kind ? " q-" + kind : "") + (isOn() ? " on" : "");
+      if (hint) b.title = hint;
       markPressed(b, isOn());
       b.textContent = label;
       b.addEventListener("click", () => { toggle(); shownCount = PAGE; renderList(); });
@@ -2291,6 +2309,12 @@
         chip(t("hasSalary") + " " + withPay, () => state.salary,
              () => state.salary = !state.salary, "cond");
     chip(t("week"), () => state.age === 7, () => state.age = state.age === 7 ? null : 7, "cond");
+    // Для человека из СНГ «удалёнка» в вакансии из США часто означает
+    // «удалённо, но с правом работать в США». Даём это отфильтровать.
+    const withPermit = JOBS.filter(j => j.permit).length;
+    if (withPermit)
+      chip(t("noPermit"), () => state.noPermit, () => state.noPermit = !state.noPermit,
+           "cond", t("permitHint"));
 
     // четыре самые многочисленные роли — они закрывают большинство запросов
     counts("role").slice(0, 4).forEach(([role]) => {
@@ -2700,6 +2724,7 @@
     if (state.age) add(state.age === 7 ? t("week") : t("month"), () => state.age = null);
     if (state.remote) add(t("remote"), () => state.remote = false);
     if (state.salary) add(t("withSalary"), () => state.salary = false);
+    if (state.noPermit) add(t("noPermitShort"), () => state.noPermit = false);
     if (state.onlyFav) add(t("favs"), () => state.onlyFav = false);
     if (state.onlyHidden) add(t("hidden"), () => state.onlyHidden = false);
   }
@@ -2710,7 +2735,8 @@
     return { role:new Set(s.role), spec:new Set(s.spec), stack:new Set(s.stack),
              rkind:new Set(s.rkind),
              grade:new Set(s.grade), company:new Set(s.company),
-             location:new Set(s.location), age:s.age, remote:s.remote, salary:s.salary, query:s.query };
+             location:new Set(s.location), age:s.age, remote:s.remote, salary:s.salary,
+             noPermit:s.noPermit, query:s.query };
   }
 
   function markPressed(btn, on){ btn.setAttribute("aria-pressed", on ? "true" : "false"); }
@@ -3184,6 +3210,12 @@
     $("jobPage").href = "/job/" + encodeURIComponent(j.id) + "/";
     $("jobPage").textContent = t("jobPage");
 
+    const pm = $("jobPermit");
+    if (pm){
+      pm.hidden = !j.permit;
+      pm.textContent = t("permitNote");
+    }
+
     const tr = $("jobTranslate");
     if (j.lang && j.lang !== "ru" && j.url && !(lang === "ru" && (j.descRu || j.hasRu))){
       tr.hidden = false;
@@ -3296,7 +3328,7 @@
     if (wide.matches){ doReset(); buildFilterUi(); return; }
     draft = { role:new Set(), spec:new Set(), stack:new Set(), rkind:new Set(),
               grade:new Set(), company:new Set(), location:new Set(),
-              age:null, remote:false, salary:false, query:state.query };
+              age:null, remote:false, salary:false, noPermit:false, query:state.query };
     buildFilterUi();
   });
   $("companySearch").addEventListener("input", buildFilterUi);
@@ -3495,7 +3527,7 @@
   function doReset(){
     state.role.clear(); state.spec.clear(); state.stack.clear(); state.rkind.clear();
     state.grade.clear(); state.company.clear(); state.location.clear();
-    state.age = null; state.remote = false; state.salary = false; state.onlyFav = false;
+    state.age = null; state.remote = false; state.salary = false; state.noPermit = false; state.onlyFav = false;
     state.query = ""; sortMode = "new";
     searchEl.value = ""; shownCount = PAGE;
     renderList();

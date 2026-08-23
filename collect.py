@@ -271,6 +271,23 @@ def detect_lang(text: str):
     return best
 
 
+# Половина вакансий из США, Японии и Кореи не рассматривает людей без права
+# работать в стране. Формально это «удалёнка», а на деле для человека из СНГ
+# дверь закрыта. Ищем прямые формулировки об этом.
+PERMIT_RE = re.compile(
+    r"authoriz\w+ to work|legally authorized|right to work|work authorization|"
+    r"work(ing)? permit|eligible to work|visa sponsor|sponsorship|"
+    r"security clearance|permanent resident|citizenship|"
+    r"must (reside|be located|live) in|"
+    r"право на работу|разрешени\w+ на работу|вид на жительство|"
+    r"гражданств|рабочая виза", re.I)
+
+
+def needs_permit(j) -> bool:
+    text = (j.get("desc") or "") + " " + (j.get("title") or "")
+    return bool(PERMIT_RE.search(text))
+
+
 def classify_grade(title: str):
     low = title.lower()
     for grade, pattern in GRADE_RULES:
@@ -474,10 +491,26 @@ ZONE_RE = re.compile(
     r"time ?zone|based in", re.I)
 
 
+# LinkedIn-метки, которые студии оставляют в тексте: им можно верить больше,
+# чем галочке «remote» в системе найма. Ashby, например, отдавал как удалёнку
+# вакансию, у которой в описании стоит #LI-Hybrid.
+LI_HYBRID = re.compile(r"#LI[-\s]?Hybrid", re.I)
+LI_REMOTE = re.compile(r"#LI[-\s]?Remote", re.I)
+LI_ONSITE = re.compile(r"#LI[-\s]?Onsite|#LI[-\s]?On-?site", re.I)
+
+
 def remote_kind(raw_location, title, desc):
     """worldwide — откуда угодно, zone — только из своего региона, hybrid — часть дней в офисе."""
     loc = str(raw_location or "")
-    head = (title or "") + " " + loc + " " + (desc or "")[:600]
+    full = desc or ""
+    head = (title or "") + " " + loc + " " + full[:600]
+
+    # Явная метка в тексте важнее всего остального
+    if LI_ONSITE.search(full):
+        return None
+    if LI_HYBRID.search(full):
+        return "hybrid"
+
     if HYBRID_RE.search(loc) or HYBRID_RE.search(title or ""):
         return "hybrid"
     if WORLDWIDE_RE.search(head):
@@ -1166,6 +1199,12 @@ def collect(companies, verify_links: bool):
         j["role"] = role
         j["grade"] = classify_grade(j["title"])
         j["spec"] = classify_spec(j["title"], role)
+        if needs_permit(j):
+            j["permit"] = True
+            # «Удалёнка по миру» и «нужно право работать в стране» вместе
+            # не бывают: на деле это удалёнка внутри страны.
+            if j.get("rkind") == "worldwide":
+                j["rkind"] = "zone"
         lang = detect_lang(j.get("desc"))
         if lang:
             j["lang"] = lang
@@ -1567,7 +1606,20 @@ def tg_sections(text):
     return sections
 
 
-DUTY_HEADS = re.compile(r"обязанност|предстоит делать|что делать|задачи|роли|вы будете", re.I)
+DUTY_HEADS = re.compile(r"обязанност|предстоит делать|что делать|задачи|роли|вы будете|"
+                        r"responsibilit|what you|the role|your role", re.I)
+
+# Абзац про суть работы: с него и надо начинать пост.
+ABOUT_ROLE = re.compile(
+    r"мы ищем|ищем|в этой роли|вы будете|вам предстоит|эта позиция|роль |"
+    r"we are looking|we're looking|looking for|in this role|you will|"
+    r"the role|this position|as an? ", re.I)
+
+# А это — рассказ о компании, он в посте не нужен: человек пришёл за работой.
+ABOUT_COMPANY = re.compile(
+    r"^(at |в )?[A-ZА-Я][\w&.\- ]{1,28},? (we|is|are|была|основана)|"
+    r"основан|founded in|is one of the|одна из|крупнейш|leading (developer|publisher)|"
+    r"наша миссия|our mission|штаб-квартира|headquarter", re.I)
 SKIP_HEADS = re.compile(r"о нас|кто мы|о компании|о студии|равн\w+ возможност|"
                         r"права|конфиденциальн|about", re.I)
 
@@ -1603,17 +1655,21 @@ def tg_summary(j):
 
     sections = tg_sections(text)
 
-    # Первый осмысленный абзац, но не «о компании»
-    intro = ""
+    # Ищем абзац про саму работу. Если такого нет — берём первый осмысленный,
+    # но пропускаем рассказ о компании: в посте он занимает место зря.
+    paras = []
     for sec in sections:
         if SKIP_HEADS.search(sec["head"] or ""):
             continue
         for para in sec["body"]:
             if len(para) > 60 and not para.startswith("http"):
-                intro = para
-                break
-        if intro:
-            break
+                paras.append(para)
+
+    intro = next((p for p in paras if ABOUT_ROLE.search(p[:160])), "")
+    if not intro:
+        intro = next((p for p in paras if not ABOUT_COMPANY.search(p[:120])), "")
+    if not intro and paras:
+        intro = paras[0]
     # Одного-двух предложений хватает: дальше человек идёт по ссылке.
     intro = cut_at_sentence(intro, 220)
 
@@ -1705,6 +1761,8 @@ def tg_message(j) -> str:
         facts.append(f"<b>Формат:</b> {tg_escape(fmt)}")
     facts.append(f"<b>Зарплата:</b> {tg_escape(j['salary'])}" if j.get("salary")
                  else "<b>Зарплата:</b> не указана")
+    if j.get("permit"):
+        facts.append("<b>Важно:</b> нужно право работать в стране студии")
     if j.get("grade"):
         facts.append(f"<b>Уровень:</b> {tg_escape(j['grade'])}")
     direction = " · ".join(x for x in [j.get("role"), j.get("spec")] if x)
@@ -2269,6 +2327,15 @@ def translated_note(j) -> str:
             'Оригинал на сайте студии →</a></p>')
 
 
+def permit_block(j) -> str:
+    if not j.get("permit"):
+        return ""
+    return ('<p class="note">В этой вакансии студия требует право работать в своей стране — '
+            'гражданство, вид на жительство или рабочую визу. Даже если указана удалённая '
+            'работа, кандидата из другой страны обычно не рассматривают. '
+            'Проверьте условия в оригинале перед откликом.</p>')
+
+
 def translate_block(j) -> str:
     """Сами мы описание не переводим, но одну кнопку дать можем:
     она открывает страницу студии в переводчике Google."""
@@ -2289,6 +2356,8 @@ def job_page(j, same_company):
                      + esc(RKIND_WORD.get(j.get("rkind"), "удалёнка").capitalize()) + "</span>"))
     if j.get("pool"):
         tags.append('<span class="tag">заявка в резерв</span>')
+    if j.get("permit"):
+        tags.append('<span class="tag">нужно разрешение на работу</span>')
     if j.get("lang") and j["lang"] != "ru":
         tags.append('<span class="tag">на ' + esc(LANG_NAMES.get(j["lang"], j["lang"])) + "</span>")
     for v in [j.get("grade"), j.get("role"), j.get("spec")]:
@@ -2313,6 +2382,7 @@ def job_page(j, same_company):
 <a class="apply" href="{esc(j['url'])}" target="_blank" rel="nofollow noopener">Откликнуться на сайте студии</a>
 <div class="desc">{desc_html(j.get('_ru') or j.get('desc'))}</div>
 {translated_note(j)}
+{permit_block(j)}
 {translate_block(j)}
 <div class="note">Отклик принимает студия на своём сайте. LOOTWORK только показывает вакансию.</div>
 {near}
