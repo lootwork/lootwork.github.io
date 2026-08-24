@@ -19,7 +19,7 @@ jobs:
           python-version: "3.12"
 
       - name: Поставить зависимости
-        run: pip install requests
+        run: pip install requests pillow
 
       - name: Собрать вакансии
         run: python collect.py
@@ -38,5 +38,14 @@ jobs:
             echo "Изменений нет"
           else
             git commit -m "Вакансии: обновление $(date +%F)"
-            git push
+            # Пока шёл сбор, в репозиторий могли залить файлы руками.
+            # Тогда обычная отправка отклоняется — сначала забираем чужие
+            # изменения, свои кладём поверх, и только потом отправляем.
+            for i in 1 2 3; do
+              git pull --rebase --autostash origin main && git push && exit 0
+              echo "Попытка $i не прошла, пробую ещё раз"
+              sleep 5
+            done
+            echo "Не удалось отправить результат"
+            exit 1
           fi
