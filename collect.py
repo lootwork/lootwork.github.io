@@ -864,6 +864,9 @@ def fetch_ashby(company: dict):
     r.raise_for_status()
     out = []
     for job in r.json().get("jobs", []):
+        # Снятую вакансию Ashby может продолжать отдавать, но помечает её
+        if job.get("isListed") is False:
+            continue
         title = (job.get("title") or "").strip()
         location = job.get("location") or ""
         extra = [x.get("location") for x in (job.get("secondaryLocations") or [])
@@ -1048,14 +1051,27 @@ def check_alive(url: str) -> bool:
         if r.status_code >= 400:
             return True          # не пустили или сервер лёг — вакансию оставляем
         low = r.text[:200_000].lower()
+        # Ashby и другие доски на скриптах отдают закрытую вакансию с кодом 200,
+        # а «страницы нет» пишут прямо в тексте. Без этих меток мёртвые ссылки
+        # висели у нас неделями.
         dead_marks = (
             "no longer accepting", "position has been filled", "job is closed",
             "this job is no longer available", "this posting has expired",
             "position closed", "job not found", "the role has been filled",
             "no longer available", "vacancy is closed",
+            "page not found", "page you requested was not found",
+            "job posting not found", "posting not found", "position is no longer",
+            "opportunity is no longer", "this role is no longer",
+            "job you are looking for", "job has been closed", "role is closed",
             "вакансия закрыта", "вакансия неактуальна", "вакансия в архиве",
+            "страница не найдена", "такой страницы нет",
         )
-        return not any(m in low for m in dead_marks)
+        if any(m in low for m in dead_marks):
+            return False
+
+        # Пустая страница-скелет: ни признаков жизни, ни признаков смерти.
+        # Это не повод хоронить, но и не повод считать живой без проверки.
+        return True
     except Exception:
         return True              # не достучались — это про связь, а не про вакансию
 
@@ -1827,11 +1843,55 @@ ROLE_COLOR_TG = {
 }
 
 
+# Откуда брать шрифты, по убыванию желательности. Если папки fonts нет,
+# один раз скачиваем их с Google Fonts, а совсем в крайнем случае берём
+# системный DejaVu: он некрасивый, но с кириллицей.
+FONT_URLS = {
+    "Unbounded": "https://raw.githubusercontent.com/google/fonts/main/ofl/unbounded/Unbounded%5Bwght%5D.ttf",
+    "Manrope": "https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/Manrope%5Bwght%5D.ttf",
+    "JetBrainsMono": "https://raw.githubusercontent.com/google/fonts/main/ofl/jetbrainsmono/JetBrainsMono%5Bwght%5D.ttf",
+}
+SYSTEM_FONTS = [
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
+]
+_font_warned = set()
+
+
+def _font_path(name):
+    path = FONTS / f"{name}.ttf"
+    if path.exists():
+        return path
+    # пробуем скачать один раз за запуск
+    if name not in _font_warned:
+        _font_warned.add(name)
+        url = FONT_URLS.get(name)
+        if url:
+            try:
+                FONTS.mkdir(parents=True, exist_ok=True)
+                r = http_get(url, tries=2, timeout=30)
+                if r.status_code < 400 and len(r.content) > 50_000:
+                    path.write_bytes(r.content)
+                    print(f"Шрифт {name} скачан ({len(r.content) // 1024} КБ)")
+                    return path
+            except Exception as e:
+                print(f"Шрифт {name} не скачался: {str(e)[:60]}")
+        print(f"Шрифт {name} недоступен — карточка будет системным шрифтом")
+    if path.exists():
+        return path
+    for sys_path in SYSTEM_FONTS:
+        if os.path.exists(sys_path):
+            return Path(sys_path)
+    return None
+
+
 def _font(name, size, weight=None):
     from PIL import ImageFont
-    path = FONTS / f"{name}.ttf"
-    if not path.exists():
-        return ImageFont.load_default()
+    path = _font_path(name)
+    if not path:
+        # Совсем без шрифта рисовать нельзя: получится мелкая каша без кириллицы
+        raise RuntimeError("нет ни одного подходящего шрифта")
     ft = ImageFont.truetype(str(path), size)
     if weight is not None:
         try:
@@ -1995,6 +2055,8 @@ def tg_send(j) -> bool:
     try:
         photo = tg_image(j)
     except Exception as e:
+        # Без шрифта картинка получится мелкой кашей без кириллицы —
+        # тогда честнее отправить обычный текст.
         print(f"Telegram: картинка не нарисовалась — {str(e)[:70]}")
 
     if photo and photo.exists():
