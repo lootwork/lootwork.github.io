@@ -1571,6 +1571,25 @@ def places_ru(locs):
     return [place_ru(l) for l in (locs or [])]
 
 
+# Слово «офис» ставим только там, где студия прямо это написала. Отсутствие
+# пометки про удалёнку офисом не является: чаще всего студия просто ничего
+# не сказала, и врать за неё нельзя.
+ONSITE_RE = re.compile(
+    r"#LI[-\s]?Onsite|#LI[-\s]?On-?site|\bon[-\s]?site\b|\bin[-\s]the[-\s]office\b|"
+    r"\bin[-\s]office\b|работа в офисе|офисный формат", re.I)
+
+
+def work_format(j) -> str:
+    """Формат работы человеческими словами."""
+    if j.get("rkind"):
+        return RKIND_WORD.get(j["rkind"], "удалёнка")
+    if j.get("remote"):
+        return "удалёнка"
+    if ONSITE_RE.search((j.get("desc") or "") + " " + (j.get("title") or "")):
+        return "офис"
+    return "формат не указан"
+
+
 RKIND_WORD = {"worldwide": "удалёнка по миру", "zone": "удалёнка в регионе",
               "hybrid": "гибрид"}
 
@@ -1748,17 +1767,19 @@ def tg_tags(j):
     return " ".join(dict.fromkeys(tags))
 
 
-def tg_message(j) -> str:
+TG_CAPTION_LIMIT = 1024
+
+
+def tg_message(j, duty_limit=4, with_intro=True) -> str:
     where = ", ".join(places_ru(j.get("locations")))
-    fmt = RKIND_WORD.get(j.get("rkind"), "удалёнка") if (j.get("rkind") or j.get("remote")) else ""
+    fmt = work_format(j)
 
     lines = [f"<b>{tg_escape(j['title'])}</b>", ""]
 
     facts = [f"<b>Студия:</b> {tg_escape(j.get('company') or '')}"]
     if where:
         facts.append(f"<b>Где:</b> {tg_escape(where)}")
-    if fmt:
-        facts.append(f"<b>Формат:</b> {tg_escape(fmt)}")
+    facts.append(f"<b>Формат:</b> {tg_escape(fmt)}")
     facts.append(f"<b>Зарплата:</b> {tg_escape(j['salary'])}" if j.get("salary")
                  else "<b>Зарплата:</b> не указана")
     if j.get("permit"):
@@ -1773,7 +1794,8 @@ def tg_message(j) -> str:
     lines += facts
 
     intro, duties = tg_summary(j)
-    if intro:
+    duties = duties[:duty_limit]
+    if intro and with_intro:
         lines += ["", tg_escape(intro)]
     if duties:
         lines += ["", "<b>Что предстоит делать:</b>"]
@@ -1785,6 +1807,214 @@ def tg_message(j) -> str:
     if tags:
         lines += ["", tags]
     return "\n".join(lines)
+
+
+
+# ------------------------------------------------------- картинка для поста
+# Пост с картинкой в ленте Telegram заметнее текстового, а карточка в
+# стилистике сайта заодно работает как узнавание бренда.
+
+TG_IMAGE = HERE / ".tg_card.jpg"   # временный файл, в репозиторий не попадает
+FONTS = HERE / "fonts"
+
+ROLE_COLOR_TG = {
+    "Программирование": (95, 227, 255), "Технический художник": (126, 224, 192),
+    "Арт": (255, 143, 199), "Анимация": (199, 155, 255), "VFX": (159, 140, 255),
+    "Геймдизайн": (255, 176, 63), "Нарратив": (224, 185, 140), "Звук": (111, 211, 168),
+    "QA": (102, 194, 255), "Аналитика": (138, 214, 180), "Продакт": (255, 160, 107),
+    "Продюсирование": (255, 154, 92), "Маркетинг": (211, 140, 255),
+    "Поддержка": (127, 168, 232),
+}
+
+
+def _font(name, size, weight=None):
+    from PIL import ImageFont
+    path = FONTS / f"{name}.ttf"
+    if not path.exists():
+        return ImageFont.load_default()
+    ft = ImageFont.truetype(str(path), size)
+    if weight is not None:
+        try:
+            ft.set_variation_by_axes([weight])
+        except Exception:
+            pass
+    return ft
+
+
+def _wrap(draw, text, font, width, max_lines):
+    """Переносим по словам: длинные названия вакансий иначе уезжают за край."""
+    words = str(text or "").split()
+    lines, line = [], ""
+    for w in words:
+        probe = (line + " " + w).strip()
+        if draw.textlength(probe, font=font) <= width or not line:
+            line = probe
+        else:
+            lines.append(line)
+            line = w
+            if len(lines) == max_lines:
+                break
+    if line and len(lines) < max_lines:
+        lines.append(line)
+    if len(lines) == max_lines and words:
+        last = lines[-1]
+        while draw.textlength(last + "…", font=font) > width and len(last) > 4:
+            last = last[:-1]
+        joined = " ".join(lines)
+        if len(joined) < len(str(text).strip()):
+            lines[-1] = last.rstrip(" ,;:") + "…"
+    return lines
+
+
+def tg_image(j):
+    """Квадратная карточка вакансии для ленты Telegram.
+    Если Pillow нет — возвращаем None, и пост уйдёт обычным текстом."""
+    try:
+        from PIL import Image, ImageDraw, ImageFilter
+    except Exception:
+        return None
+
+    S = 1080
+    VOID = (12, 10, 26)
+    PANEL = (28, 24, 56)
+    LINE = (44, 37, 84)
+    TEXT = (236, 234, 255)
+    MUTED = (148, 140, 192)
+    AMBER = (255, 176, 63)
+    accent = ROLE_COLOR_TG.get(j.get("role"), (95, 227, 255))
+
+    img = Image.new("RGB", (S, S), VOID)
+    glow = Image.new("RGB", (S, S), VOID)
+    gd = ImageDraw.Draw(glow)
+    gd.ellipse([-280, -340, 700, 420], fill=(56, 36, 118))
+    gd.ellipse([600, -240, 1400, 380], fill=(10, 70, 104))
+    glow = glow.filter(ImageFilter.GaussianBlur(170))
+    img = Image.blend(img, glow, 0.5)
+    d = ImageDraw.Draw(img)
+
+    x = 84
+    logo = _font("Unbounded", 42, 700)
+    d.text((x, 76), "LOOT", font=logo, fill=TEXT)
+    w1 = d.textlength("LOOT", font=logo)
+    d.text((x + w1, 76), "::", font=logo, fill=(70, 120, 150))
+    w2 = d.textlength("::", font=logo)
+    d.text((x + w1 + w2, 76), "WORK", font=logo, fill=AMBER)
+
+    role = " · ".join(v for v in [j.get("role"), j.get("spec")] if v)
+    if role:
+        small = _font("JetBrainsMono", 22, 600)
+        d.text((x, 152), _wrap(d, role.upper(), small, S - x * 2, 1)[0],
+               font=small, fill=accent)
+
+    # Название — главное на карточке, под него отдан весь центр.
+    title_font = _font("Unbounded", 68, 700)
+    lines = _wrap(d, j.get("title"), title_font, S - x * 2, 4)
+    if len(lines) > 3:
+        title_font = _font("Unbounded", 54, 700)
+        lines = _wrap(d, j.get("title"), title_font, S - x * 2, 4)
+    step = int(title_font.size * 1.26)
+    y = 272
+    for line in lines:
+        d.text((x, y), line, font=title_font, fill=TEXT)
+        y += step
+
+    # Три плашки внизу — то, ради чего человек смотрит вакансию: где работать,
+    # какой нужен опыт и сколько платят. Если студия молчит, так и пишем:
+    # «не указана» честнее пустого места.
+    DIM = (110, 103, 154)
+    fmt = work_format(j)
+    chips = [
+        (fmt, (95, 227, 255) if fmt != "формат не указан" else DIM),
+        (j.get("grade") or "опыт не указан", MUTED if j.get("grade") else DIM),
+        (j.get("salary") or "зарплата не указана", AMBER if j.get("salary") else DIM),
+    ]
+
+    cf = _font("JetBrainsMono", 26, 600)
+    gap, chip_h, row_gap = 18, 62, 16
+    rows, row, row_w = [], [], 0
+    for label, color in chips:
+        w = d.textlength(label, font=cf) + 44
+        if row and row_w + gap + w > S - x * 2:
+            rows.append(row)
+            row, row_w = [], 0
+        row.append((label, color, w))
+        row_w += w + (gap if row_w else 0)
+    if row:
+        rows.append(row)
+    rows = rows[:2]
+
+    chips_top = S - 110 - len(rows) * chip_h - (len(rows) - 1) * row_gap
+
+    body = _font("Manrope", 38, 600)
+    place_font = _font("Manrope", 34, 500)
+    where = ", ".join(places_ru(j.get("locations")))
+    if not where and (j.get("remote") or j.get("rkind")):
+        where = "Без привязки к городу"
+
+    place_y = chips_top - 92
+    company_y = place_y - 58
+    if y + 40 > company_y:          # длинное название — прижимаем блок ниже
+        company_y = y + 40
+        place_y = company_y + 56
+    d.text((x, company_y), j.get("company") or "", font=body, fill=TEXT)
+    if where:
+        d.text((x, place_y), _wrap(d, where, place_font, S - x * 2, 1)[0],
+               font=place_font, fill=MUTED)
+
+    cy = chips_top
+    for r in rows:
+        cx = x
+        for label, color, w in r:
+            d.rounded_rectangle([cx, cy, cx + w, cy + chip_h], radius=15,
+                                fill=PANEL, outline=LINE, width=2)
+            d.text((cx + 22, cy + 16), label, font=cf, fill=color)
+            cx += w + gap
+        cy += chip_h + row_gap
+
+    foot = _font("JetBrainsMono", 24, 500)
+    d.text((x, S - 76), "lootwork.github.io", font=foot, fill=(120, 112, 168))
+
+    img.save(TG_IMAGE, "JPEG", quality=88)
+    return TG_IMAGE
+
+
+def tg_caption(j) -> str:
+    """Подпись под картинкой не может быть длиннее 1024 знаков, поэтому
+    при нужде убираем пункты, а в крайнем случае и вступление."""
+    for duties, intro in ((4, True), (3, True), (2, True), (1, True), (0, True), (0, False)):
+        text = tg_message(j, duty_limit=duties, with_intro=intro)
+        if len(text) <= TG_CAPTION_LIMIT:
+            return text
+    return text[:TG_CAPTION_LIMIT - 1]
+
+
+def tg_send(j) -> bool:
+    """Пост с картинкой заметнее в ленте. Если картинка не получилась —
+    отправляем обычным текстом, без неё."""
+    photo = None
+    try:
+        photo = tg_image(j)
+    except Exception as e:
+        print(f"Telegram: картинка не нарисовалась — {str(e)[:70]}")
+
+    if photo and photo.exists():
+        with open(photo, "rb") as fh:
+            r = requests.post(
+                "https://api.telegram.org/bot" + TG_TOKEN + "/sendPhoto",
+                data={"chat_id": TG_CHAT, "caption": tg_caption(j), "parse_mode": "HTML"},
+                files={"photo": fh}, timeout=TIMEOUT)
+        if r.status_code < 400:
+            return True
+        print(f"Telegram: картинка не ушла — {r.text[:120]}")
+
+    r = http_get("https://api.telegram.org/bot" + TG_TOKEN + "/sendMessage",
+                 tries=2, params={"chat_id": TG_CHAT, "text": tg_message(j),
+                                  "parse_mode": "HTML",
+                                  "disable_web_page_preview": "true"})
+    if r.status_code >= 400:
+        print(f"Telegram: не отправилось — {r.text[:120]}")
+        return False
+    return True
 
 
 def tg_post(jobs):
@@ -1810,15 +2040,7 @@ def tg_post(jobs):
     sent = 0
     for j in fresh[:TG_LIMIT]:
         try:
-            r = http_get("https://api.telegram.org/bot" + TG_TOKEN + "/sendMessage",
-                         tries=2, params={
-                             "chat_id": TG_CHAT,
-                             "text": tg_message(j),
-                             "parse_mode": "HTML",
-                             "disable_web_page_preview": "true",
-                         })
-            if r.status_code >= 400:
-                print(f"Telegram: не отправилось — {r.text[:120]}")
+            if not tg_send(j):
                 break
             sent += 1
             posted.add(j["id"])
