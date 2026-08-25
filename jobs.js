@@ -1,9 +1,9 @@
 // jobs.js — сгенерировано collect.py, руками не править.
-// Обновлено: 2026-08-25. Вакансий: 1070.
+// Обновлено: 2026-08-25. Вакансий: 1044.
 
 window.JOBS_DEMO = false;
 window.JOBS_UPDATED = "2026-08-25";
-window.JOBS_STUDIOS = 63;
+window.JOBS_STUDIOS = 62;
 
 window.JOBS = [
   {
@@ -27,7 +27,8 @@ window.JOBS = [
     "stack": [
       "SQL",
       "AWS"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-riot-games-8142653",
@@ -50,7 +51,35 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "Perforce"
-    ]
+    ],
+    "seen": "2026-08-25"
+  },
+  {
+    "id": "gh-riot-games-8142698",
+    "title": "Rendering Technical Artist II - League of Legends (Contract)",
+    "company": "Riot Games",
+    "locations": [
+      "Singapore"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://www.riotgames.com/en/work-with-us/job/8142698?gh_jid=8142698",
+    "desc": "Riot Games was established in 2006 by entrepreneurial gamers who believe that player-focused game development can result in great games. In 2009, Riot released its debut title, League of Legends, to critical and player acclaim. Players form the foundation of our community, and it’s for them that we continue to evolve and improve the League of Legends experience.\n\nWe’re looking for humble but ambitious, razor-sharp professionals who can teach us a thing or two. We promise to return the favor. Like us, you take play seriously; you’re passionate about games. We embrace those who see things differently, aren’t afraid to experiment, and who have a healthy disregard for constraints.\n\nThat’s where you come in.\n\nAs a Rendering Technical Artist (Contract) on the Singapore League of Legends PC Team, you’ll help bring the world of Runeterra and beyond to life through materials, lighting, and real-time rendering. League’s visual targets are built on a modern real-time, PBR-based rendering pipeline with stylized, hand-painted treatments, and you’ll author, extend, and maintain the shaders and materials that realize them across champions, skins, and related content.\n\nWorking closely with artists, designers, engineers, and external partners, you’ll act as a bridge between art and engineering—translating visual and art-direction goals into robust, performant solutions that behave consistently across around-game and in-game environments. As an experienced technical artist, you’ll also diagnose rendering issues early, reduce rework, and help raise the craft bar for how shaders and materials are authored across internal and external teams.\n\nReporting to the Technical Art Manager, you will ensure that assets meet technical performance standards and artistic direction requirements. In collaboration with Art, Design, Engineering, and external partners, you will contribute to production support and workflow improvements.\n\nPlease note that Riot Games does not offer relocation packages for this position. You need to be able to work legally in Singapore, without Riot Games’ sponsorship, to be considered.\n\nResponsibilities:\n\n• Author, extend, and maintain real-time shaders and materials for League of Legends within a PBR-based rendering workflow, including reusable shader functions and shared material systems that scale across champions and skins.\n• Apply strong PBR fundamentals across albedo, normal, roughness, metallic, ambient occlusion, emissive, lighting, and reflection-probe inputs, ensuring shader features account for the full material response rather than the diffuse channel in isolation.\n• Collaborate directly with Art and Design to understand desired visual behaviors and art direction, and translate them into clear, achievable, and performant rendering solutions.\n• Provide hands-on technical support to internal and external vendor artists, helping them author, integrate, and troubleshoot materials and shaders for Epic and Legendary skins.\n• Validate assets across neutral lighting, around-game, and in-game environments and applicable quality levels, diagnosing issues involving lighting, shadows, material response, shader parameters, and texture inputs.\n• Collaborate with engineering to manage in-game memory budgets, profile shader and rendering cost, and optimize game performance using tools such as RenderDoc or equivalent GPU-capture tools.\n• Integrate visual assets from external vendors into the game engine using Perforce, working closely with the Art Director and Technical Art Manager to maintain quality and consistency.\n• Create and maintain clear technical documentation—shader and material workflows, authoring standards, and best practices—and develop custom tools and scripts so artists can work more independently.\n\nRequired Qualifications:\n\n• 4+ years of professional experience as a Technical Artist in game development or a related real-time graphics field.\n• Demonstrated hands-on experience writing, debugging, and shipping shaders for a modern real-time, PBR-based game engine, with a strong understanding of how albedo, normal, roughness, metallic, ambient occlusion, lighting, and reflections combine to define surface response.\n• Ability to read, write, and debug common real-time shader languages such as HLSL and GLSL, along with node-based shader graphs or comparable proprietary shader and material systems.\n• Strong skills in modeling, shaders, texturing, and lighting for games, with an understanding of stylized, hand-painted content pipelines and how visual style, color, and lighting direction influence material and shader approaches.\n• Proficiency in commercial or proprietary game engines (e.g. Unity/Unreal), with familiarity in performance profiling, GPU cost analysis, memory budgets, and optimization across a range of hardware.\n• Strong technical writing skills, with experience creating and maintaining clear technical documentation such as shader and material guides, authoring standards, and workflow references.\n• Familiarity with version control systems such as Git or Perforce.\n• Excellent communication skills, with the ability to act as an ambassador between art and engineering and collaborate effectively with external partners and internal teams.\n\nDesired Qualifications…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
+    "site": "riotgames.com",
+    "source": "greenhouse",
+    "role": "Технический художник",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "Unity",
+      "Unreal",
+      "Perforce"
+    ],
+    "seen": "2026-08-25",
+    "hasRu": true
   },
   {
     "id": "gh-epic-games-5996487004",
@@ -72,7 +101,131 @@ window.JOBS = [
       "Unreal",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
+  },
+  {
+    "id": "gh-scopely-5398064008",
+    "title": "3D Artist - Monopoly GO!",
+    "company": "Scopely",
+    "locations": [
+      "Barcelona, Spain"
+    ],
+    "remote": false,
+    "rkind": "worldwide",
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5398064008?gh_jid=5398064008",
+    "desc": "Scopely is looking for a 3D Artist to join the Monopoly GO! team in Barcelona on a hybrid basis.\n\nAt Scopely, we care deeply about what we do and strive to inspire play every day—whether through our collaborative work environment or our connection with the global communities who enjoy our games. We are a diverse team of passionate creators developing, publishing, and innovating within the mobile games industry, connecting millions of people around the world every day.\n\nMONOPOLY GO! is a global phenomenon and the biggest mobile game launch in history, captivating millions of players worldwide.\n\nWhat You Will Do\n\n• Collaborate with our team of artists and narrative designers to explore and refine gameplay and visual direction\n• Work closely with the Art Director, Principal Artist, and Concept Team to create 3D assets that capture the charm and style of our established art pillars\n• Produce high-quality models, textures, and materials that align with our stylized, playful aesthetic\n• Support the creative vision of each season through consistent quality and attention to detail\n• Implement and optimize 3D assets in Unity, ensuring proper performance and visual fidelity\n• Provide and receive constructive feedback to maintain high artistic and technical standards\n• Collaborate with other departments (Design, Engineering, Animation) to ensure seamless integration of assets\n• Contribute to the improvement of workflows, tools, and documentation within the 3D pipeline\n• Stay up to date on new tools, technologies, and AI-based creative methods that could enhance production efficiency\n\nWhat We’re Looking For\n\n• Professional experience as a 3D Artist in game development\n• Strong modeling, texturing, and shading skills, with a portfolio that demonstrates a high-quality, stylized or whimsical art style\n• Proficiency in major 3D software (Maya, 3ds Max, Blender, etc.)\n• Experience with 2D and 3D texturing tools (Photoshop, Substance Painter, 3DCoat)\n• Solid understanding of Unity pipelines for importing and optimizing 3D assets\n• Familiarity with technical constraints and performance optimization on mobile platforms\n• Ability to work collaboratively within a multidisciplinary team\n• Positive attitude and openness to feedback.\n\nBonus Points\n\n• Experience in casual or stylized mobile games\n• Knowledge of game art production pipelines and asset management\n• Familiarity with AI tools for ideation or texturing\n• A genuine passion for creating and playing games\n\nAbout Scopely\n\nScopely is a leading video game and global interactive entertainment company, home to many of the world’s most beloved and enduring experiences, including two of the most successful mobile games of all-time “MONOPOLY GO!” and “Pokémon GO,” along with “Stumble Guys,” “Star Trek™ Fleet Command,” “MARVEL Strike Force,” “WWE Champions,” the Scrabble® franchise, “Yahtzee® With Buddies,” and many others. Across mobile, web, PC, and console, Scopely creates, develops, publishes, and live-operates one of the most diversified and award-winning portfolios in the games industry — bringing hundreds of millions of players together through a shared love of play.\n\nFounded in 2011, Scopely is powered by its exceptional team — including thousands of world-class gamemakers around the globe, a distinctive tenet-driven culture, and its proprietary technology platform, Playgami. Together, these strengths have fueled Scopely’s position as the #1 mobile games company in the U.S. and #2 globally, generating more than $10 billion in lifetime revenue. Whether building global sensations like “MONOPOLY GO!” from the ground up, or expanding through strategic acquisitions, including the FoxNext, GSN, and Scopely Explore games businesses — Scopely consistently delivers experiences players love today and return to for years to come.\n\nRecognized multiple times as one of the \"100 Most Influential Companies in the World\" by TIME magazine and one of Fast Company's \"World's Most Innovative Companies\" and “Best Workplaces for Innovators,” Scopely believes that video games can be a force for good — creating meaningful connections, vibrant communities, and making life better through play.\n\nScopely has global operations and partners across four continents in more than a dozen countries worldwide. For more information, visit: https://www.scopely.com/.\n\nNotice to Candidates: Scopely will never request payment or financial information during the application or hiring process. Please apply only through our official website and verify that all Talent Partner communications come from an email address ending in @scopely.com.\n\nShould you have any questions or encounter any fraudulent requests/emails/websites, please immediately contact recruiting@scopely.com. Our job applicant privacy policies are available here: California Privacy Notice and EEA/UK Privacy Notice.\n\nEmployment at Scopely is based solely on a person's merit and qualifications. Scopely does not discriminate against any employee or applicant because of race, creed, color, religion, gender, sexual orientation, gender identity/expression, national origin, disability, age, genetic information, veteran status, marital status, pregnancy or related condition (including breastfeeding), or any other basis protected by law. We also consider qualified applicants with arrest or conviction records, consistent with applicable federal, state and local law.",
+    "site": "scopely.com",
+    "source": "greenhouse",
+    "role": "Арт",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unity",
+      "Maya",
+      "Blender",
+      "Substance",
+      "Photoshop"
+    ],
+    "seen": "2026-08-25"
+  },
+  {
+    "id": "gh-scopely-5347395008",
+    "title": "Engineering Manager, Backend (Gaming)",
+    "company": "Scopely",
+    "locations": [
+      "Bangalore, India"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5347395008?gh_jid=5347395008",
+    "desc": "Scopely is looking for an Engineering Manager, Backend (Gaming) to join the WWE Champions team in Bangalore!\n\nAt Scopely, we care deeply about what we do and want to inspire play, every day - whether in our work environments alongside our talented colleagues, or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily.\n\nWWE Champions is our ultimate and unique RPG puzzle match game featuring WWE superstars and legends across mobile and PC platforms. WWE Champions is the most downloaded WWE game to date, with a highly engaged and passionate community.\n\nWhat You’ll Do\n\nAs an Engineering Manager, you will lead the teams overseeing the systems that power live game configuration, blueprint and content delivery, feature controls, and the backend runtime that serves core gameplay and live operations at scale. You will be accountable for team health, technical execution, operational excellence, and cross-functional delivery across a complex live-service ecosystem, ensuring that tools used by designers and live-ops teams translate safely and reliably into production game behavior.\n\n• Lead and grow an engineering team responsible for both Game Backend and Live Tools, including coaching, performance management, hiring, and career development\n• Own delivery across two tightly connected domains: the internal content/configuration platform and the live backend services that power player-facing gameplay systems\n• Drive execution for systems that manage blueprints, game configuration, live-ops content, server controls, A/B testing, segmentation, and feature rollout workflows\n• Partner closely with product, design, analytics, QA, and operations to plan and deliver live-service features, events, and tooling improvements\n• Ensure strong operational rigor across backend services, including reliability, performance, observability, incident response, and production readiness\n• Guide technical direction for a large Python/Django ecosystem built on Redis, DynamoDB, async job processing, and blueprint-driven runtime behavior\n• Oversee the health of deployment and publishing flows that move data between services, including blueprint packaging, environment promotion, caching, and rollout safety\n• Help the team balance short-term live-ops responsiveness with long-term platform investments, code health, and system maintainability\n• Establish clear engineering processes for planning, prioritization, estimation, quality, release management, and cross-team coordination\n• Partner with senior engineers and tech leads on architecture, technical risk management, and modernization opportunities across legacy and live production systems\n• Create strong feedback loops with stakeholders who depend on internal tools, ensuring design, content, and live-ops workflows are efficient, safe, and scalable\n• Support live-service excellence by leading incident reviews, improving operational playbooks, and hardening systems that directly affect player experience\n\nWhat We’re Looking For…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
+    "site": "scopely.com",
+    "source": "greenhouse",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Бэкенд",
+    "stack": [
+      "Python"
+    ],
+    "seen": "2026-08-25",
+    "hasRu": true
+  },
+  {
+    "id": "gh-scopely-5398026008",
+    "title": "Senior 3D Artist - Monopoly GO!",
+    "company": "Scopely",
+    "locations": [
+      "Barcelona, Spain"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5398026008?gh_jid=5398026008",
+    "desc": "Scopely is looking for a Senior 3D Artist to join the MONOPOLY GO! team in Barcelona on a hybrid basis.\n\nAt Scopely, we care deeply about what we do and strive to inspire play every day—whether through our collaborative work environment or our connection with the global communities who enjoy our games. We are a diverse team of passionate creators developing, publishing, and innovating within the mobile games industry, connecting millions of people around the world every day.\n\nMONOPOLY GO! is a global phenomenon and the biggest mobile game launch in history, captivating millions of players worldwide.\n\nWhat You Will Do\n\n• Collaborate with our team of artists and narrative designers to explore and refine gameplay and visual direction\n• Work closely with the Art Director, Principal Artist, and Concept Team to create 3D assets that capture the charm and style of our established art pillars\n• Produce high-quality models, textures, and materials that align with our stylized, playful aesthetic\n• Support the creative vision of each season through consistent quality and attention to detail\n• Implement and optimize 3D assets in Unity, ensuring proper performance and visual fidelity\n• Provide and receive constructive feedback to maintain high artistic and technical standards\n• Collaborate with other departments (Design, Engineering, Animation) to ensure seamless integration of assets\n• Contribute to the improvement of workflows, tools, and documentation within the 3D pipeline\n• Stay up to date on new tools, technologies, and AI-based creative methods that could enhance production efficiency\n\nWhat We’re Looking For\n\n• 5+ years of professional experience as a 3D Artist in game development\n• Strong modeling, texturing, and shading skills, with a portfolio that demonstrates a high-quality, stylized or whimsical art style\n• Proficiency in major 3D software (Maya, 3ds Max, Blender, etc.)\n• Experience with 2D and 3D texturing tools (Photoshop, Substance Painter, 3DCoat)\n• Solid understanding of Unity pipelines for importing and optimizing 3D assets\n• Familiarity with technical constraints and performance optimization on mobile platforms\n• Ability to work collaboratively within a multidisciplinary team\n• Positive attitude and openness to feedback\n\nBonus Points\n\n• Experience in casual or stylized mobile games\n• Knowledge of game art production pipelines and asset management\n• Familiarity with AI tools for ideation or texturing\n• A genuine passion for creating and playing games\n\nAbout Scopely\n\nScopely is a leading video game and global interactive entertainment company, home to many of the world’s most beloved and enduring experiences, including two of the most successful mobile games of all-time “MONOPOLY GO!” and “Pokémon GO,” along with “Stumble Guys,” “Star Trek™ Fleet Command,” “MARVEL Strike Force,” “WWE Champions,” the Scrabble® franchise, “Yahtzee® With Buddies,” and many others. Across mobile, web, PC, and console, Scopely creates, develops, publishes, and live-operates one of the most diversified and award-winning portfolios in the games industry — bringing hundreds of millions of players together through a shared love of play.\n\nFounded in 2011, Scopely is powered by its exceptional team — including thousands of world-class gamemakers around the globe, a distinctive tenet-driven culture, and its proprietary technology platform, Playgami. Together, these strengths have fueled Scopely’s position as the #1 mobile games company in the U.S. and #2 globally, generating more than $10 billion in lifetime revenue. Whether building global sensations like “MONOPOLY GO!” from the ground up, or expanding through strategic acquisitions, including the FoxNext, GSN, and Scopely Explore games businesses — Scopely consistently delivers experiences players love today and return to for years to come.\n\nRecognized multiple times as one of the \"100 Most Influential Companies in the World\" by TIME magazine and one of Fast Company's \"World's Most Innovative Companies\" and “Best Workplaces for Innovators,” Scopely believes that video games can be a force for good — creating meaningful connections, vibrant communities, and making life better through play.\n\nScopely has global operations and partners across four continents in more than a dozen countries worldwide. For more information, visit: https://www.scopely.com/.\n\nNotice to Candidates: Scopely will never request payment or financial information during the application or hiring process. Please apply only through our official website and verify that all Talent Partner communications come from an email address ending in @scopely.com.\n\nShould you have any questions or encounter any fraudulent requests/emails/websites, please immediately contact recruiting@scopely.com. Our job applicant privacy policies are available here: California Privacy Notice and EEA/UK Privacy Notice.\n\nEmployment at Scopely is based solely on a person's merit and qualifications. Scopely does not discriminate against any employee or applicant because of race, creed, color, religion, gender, sexual orientation, gender identity/expression, national origin, disability, age, genetic information, veteran status, marital status, pregnancy or related condition (including breastfeeding), or any other basis protected by law. We also consider qualified applicants with arrest or conviction records, consistent with applicable federal, state and local law.",
+    "site": "scopely.com",
+    "source": "greenhouse",
+    "role": "Арт",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unity",
+      "Maya",
+      "Blender",
+      "Substance",
+      "Photoshop"
+    ],
+    "seen": "2026-08-25"
+  },
+  {
+    "id": "gh-scopely-5396883008",
+    "title": "Senior Product Manager performance - Monopoly GO!",
+    "company": "Scopely",
+    "locations": [
+      "Barcelona, Spain"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5396883008?gh_jid=5396883008",
+    "desc": "Scopely is looking for a Senior Product Performance Manager to join our MONOPOLY GO! team in our Barcelona (Spain) Hub on a hybrid basis.\n\nAt Scopely, we care deeply about what we do and want to inspire play, every day - whether in our work environments alongside our talented colleagues, or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily.\n\nMONOPOLY GO! is a global phenomenon and one of the biggest mobile game launches in history, captivating millions of players worldwide.\n\nAs a Senior Product Manager within Live Mini Games Performance, you will own the performance and continuous optimization of some of MONOPOLY GO!’s most important live experiences. You’ll combine deep analytics, experimentation, player insights, and strong product judgment to identify opportunities and turn them into measurable improvements in engagement and business performance.\n\nWhat You’ll Do\n\nDrive Performance, Experimentation & Insights\n\n• Own performance for key Live Mini Games, developing a deep understanding of player behavior, engagement, and business outcomes\n• Identify opportunities through quantitative and qualitative analysis and translate insights into clear product actions\n• Build and manage a strong pipeline of A/B tests and live optimizations, defining hypotheses, KPIs, and success criteria\n• Lead performance readouts and turn learnings into broader strategies and best practices across the Mini Games portfolio\n• Continuously optimize gameplay, balancing, rewards, pacing, and other live levers to improve player experience and performance\n\nOwn Execution & Cross-Functional Collaboration\n\n• Independently prioritize opportunities and drive initiatives from hypothesis through execution, measurement, and iteration\n• Partner closely with Analytics, Data Science, Economy, Game Design, Production, Engineering, and Live Operations\n• Act as a go-to product expert for your areas of ownership and proactively communicate performance, insights, risks, and recommendations to stakeholders\n• Help raise the performance, experimentation, and analytical rigor of the wider team\n\nEmbrace AI as a Product & Productivity Tool\n\n• Use AI tools to accelerate analysis, ideation, research, documentation, and everyday product workflows\n• Identify opportunities to apply AI to improve how we understand players, optimize Live Mini Games, and operate the portfolio\n• Experiment with emerging AI capabilities and help establish effective AI-enabled ways of working across the team\n\nWhat We’re Looking For\n\n• 5+ years of experience in Product Management or related product disciplines, including 3+ years of Product Management experience\n• Strong track record of using data, experimentation, and product judgment to improve measurable product outcomes\n• Strong analytical skills and the ability to independently turn complex data into actionable insights\n• Experience defining hypotheses, KPIs, A/B tests, and performance readouts\n• Strong understanding of F2P game systems, LiveOps, player behavior, and game economies\n• High degree of ownership and comfort independently prioritizing and solving complex problems\n• AI-savvy mindset with hands-on experience using AI tools to improve the quality and speed of your work\n• Excellent communication and cross-functional collaboration skills\n\nNice to Have\n\n• Experience working on successful live-service mobile games\n• Experience with casual or social games\n• Experience with game economy, balancing, segmentation, or LiveOps optimization\n• Advanced SQL, Excel, or other analytical tooling experience\n• Experience applying AI to analytics, experimentation, game development, or LiveOps\n\nAbout Scopely\n\nScopely is a leading video game and global interactive entertainment company, home to many of the world’s most beloved and enduring experiences, including two of the most successful mobile games of all-time “MONOPOLY GO!” and “Pokémon GO,” along with “Stumble Guys,” “Star Trek™ Fleet Command,” “MARVEL Strike Force,” “WWE Champions,” the Scrabble® franchise, “Yahtzee® With Buddies,” and many others. Across mobile, web, PC, and console, Scopely creates, develops, publishes, and live-operates one of the most diversified and award-winning portfolios in the games industry — bringing hundreds of millions of players together through a shared love of play.\n\nFounded in 2011, Scopely is powered by its exceptional team — including thousands of world-class gamemakers around the globe, a distinctive tenet-driven culture, and its proprietary technology platform, Playgami. Together, these strengths have fueled Scopely’s position as the #1 mobile games company in the U.S. and #2 globally, generating more than $10 billion in lifetime revenue. Whether building global sensations like “MONOPOLY GO!” from the ground up, or expanding through strategic acquisitions, including the FoxNext, GSN, and Scopely Explore games businesses — Scopely consistently delivers experiences players love today and return to for years to come.\n\nRecognized multiple times as one of the \"100 Most Influential Companies in the World\" by TIME magazine and one of Fast Company's \"World's Most Innovative Companies\" and “Best Workplaces for Innovators,” Scopely believes that video games can be a force for good — creating meaningful connections, vibrant communities, and making life better through play.\n\nScopely has global operations and partners across four continents in more than a dozen countries worldwide. For more information, visit: https://www.scopely.com/.\n\nNotice to Candidates: Scopely will never request payment or financial information during the application or hiring process. Please apply only through our official website and verify that all Talent Partner communications come from an email address ending in @scopely.com.…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
+    "site": "scopely.com",
+    "source": "greenhouse",
+    "role": "Продакт",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "SQL"
+    ],
+    "seen": "2026-08-25",
+    "hasRu": true
+  },
+  {
+    "id": "gh-rockstar-games-7773278003",
+    "title": "Zendesk Analyst",
+    "company": "Rockstar Games",
+    "locations": [
+      "Bengaluru, India"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7773278003",
+    "desc": "At Rockstar Games, we create world-class entertainment experiences.\n\nBecome part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry.\n\nRockstar is looking for a Zendesk Analyst who is passionate to work on platform builds. This hire will be responsible for omnichannel routing and automation that supports millions of player interactions a year.\n\nThis is a full-time, in-office position based in Rockstar’s large game development studio in Bangalore, India.\n\nWHAT WE DO\n\n• The Rockstar Games Customer Experience Team focuses on improving the relationship between our games and our players with the goal of delivering a continuous, outstanding support experience.\n• We contribute to the brand by helping to improve the overall player experience.\n• We provide global support operations across multiple languages, channels, and locations.\n• We build the platform foundation that ensures the right ticket reaches the right agent at the right time, with the right context to resolve.\n\nRESPONSIBILITIES\n\n• Build and maintain Zendesk routing rules, triggers, automations, forms, fields, views, and SLA policies that translate Live Agent business requirements into reliable platform behavior.\n• Bring ideas and improvements to the table, spotting friction in agent workflows, surfacing simpler or more reliable ways to configure, and driving the changes through to delivery.\n• Build contextual workspaces to the Agent Workspace and Efficiency function's design specifications, raising trade-offs and design questions early rather than late.\n• Configure and maintain Tymeshift business rules, working directly with Workforce Management (WFM) to translate adherence and intraday needs into platform behavior.\n• Enforce Zendesk permissions and access controls consistently across Business Process Outsourcing partners, proactively auditing access and flagging risks before they become security issues.\n• Build and maintain Explore dashboards and reports in partnership with Analytics, anticipating what Live Agent leadership needs from data before they ask.\n• Implement Auto Assist, Copilot, and other Artificial Intelligence tooling configurations, partnering with the AI and Enablement function to translate procedure designs into reliable builds.\n• Run change management with discipline, maintaining version control and a configuration change log, and proactively communicating changes to affected teams before they land.\n\nREQUIREMENTS\n\n• Bachelor's degree or equivalent, preferably in computer science, information systems, business operations, or a related field.\n• 4+ years of hands-on Zendesk configuration experience in a customer service, BPO, or live operations environment, including triggers, automations, routing rules, forms, fields, views, and SLA policies. Zendesk Support Administrator Expert Certification strongly preferred.\n• Track record of acting on your own initiative, identifying problems and opportunities, raising them, and driving them through to delivery.\n• Experience translating business requirements into clean, well-documented platform builds that scale across multiple sites and BPO partners.\n• Experience configuring and maintaining workforce management tooling such as Tymeshift, NICE, or Verint, with working knowledge of how WFM rules connect to operational adherence.\n• Strong understanding of permissions, access controls, and security best practices in a multi-vendor environment, with the discipline to audit and flag risks proactively.\n• Experience building reports in Zendesk Explore, Looker, Tableau, Power BI, or similar, and a habit of anticipating what stakeholders need from data before they ask.\n• Strong communicator who works cross-functionally with Operations, WFM, Analytics, and AI/Automation teams, raises trade-offs early, and pushes back when requirements aren't clear.\n\nPLUSES\n\nPlease note that these are desirable skills and are not required to apply for the position.\n\n• Experience in gaming, live operations, or interactive entertainment industries.\n• Zendesk certifications (App Developer, AI Specialist, or equivalent) beyond Support Administrator Expert.\n• Experience with AI tooling integration in customer service platforms (Auto Assist, Copilot, conversational AI).\n• Familiarity with skills-based routing design and optimization.\n• Experience supporting workforce planning for large-scale product launches with significant volume variability.\n• Passion for Rockstar Games and a genuine dedication to delivering outstanding player experiences.\n\nHOW TO APPLY\n\nPlease apply with a CV and cover letter demonstrating how you meet the skills above. If we would like to move forward with your application, a Rockstar recruiter will reach out to you to explain next steps and guide you through the process.\n\nRockstar is committed to creating a work environment that promotes equal opportunity, dignity and respect. In line with this commitment, Rockstar will provide reasonable accommodations to qualified job applicants with disabilities during the recruitment process in order for such applicants to be considered for the position for which they are applying, as well as to qualified employees to enable them to perform the essential functions of their roles. If you need more information about Rockstar’s reasonable accommodation policies or process, or need to request an accommodation, please notify your recruiter during the interview process.\n\nIf you’ve got the right skills for the job, we want to hear from you. We encourage applications from all suitable candidates regardless of age, disability, gender identity, sexual orientation, religion, belief, race, or any other protected category.\n\n#LI-RN1",
+    "site": "rockstargames.com",
+    "source": "greenhouse",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25"
   },
   {
     "id": "sr-gameloft-744000145415469",
@@ -95,7 +248,8 @@ window.JOBS = [
     "permit": true,
     "stack": [
       "Photoshop"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-wargaming-7956125",
@@ -118,7 +272,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-wargaming-8139027",
@@ -138,7 +293,8 @@ window.JOBS = [
     "role": "Геймдизайн",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-tripledot-belka-4941466101",
@@ -162,6 +318,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -186,6 +343,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -209,6 +367,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -233,7 +392,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unity"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "lv-amanotes-b928cf87-d609-44d1-a67c-973503a283c2",
@@ -256,7 +416,8 @@ window.JOBS = [
     "stack": [
       "TypeScript",
       "SQL"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "rc-grid-esports-2709865",
@@ -276,7 +437,8 @@ window.JOBS = [
     "role": "Поддержка",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-netease-games-5166671007",
@@ -299,6 +461,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -321,6 +484,7 @@ window.JOBS = [
     "spec": null,
     "permit": true,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -343,6 +507,7 @@ window.JOBS = [
     "spec": null,
     "permit": true,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -370,6 +535,7 @@ window.JOBS = [
       "Unreal",
       "Maya"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -392,6 +558,7 @@ window.JOBS = [
     "spec": null,
     "permit": true,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -413,6 +580,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -434,6 +602,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -462,6 +631,7 @@ window.JOBS = [
       "ZBrush",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -488,6 +658,7 @@ window.JOBS = [
       "Unreal",
       "Python"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -512,6 +683,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -532,7 +704,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-riot-games-8148781",
@@ -555,33 +728,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
-  },
-  {
-    "id": "gh-riot-games-8142698",
-    "title": "Rendering Technical Artist II - League of Legends (Contract)",
-    "company": "Riot Games",
-    "locations": [
-      "Singapore"
     ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-24",
-    "url": "https://www.riotgames.com/en/work-with-us/job/8142698?gh_jid=8142698",
-    "desc": "Riot Games was established in 2006 by entrepreneurial gamers who believe that player-focused game development can result in great games. In 2009, Riot released its debut title, League of Legends, to critical and player acclaim. Players form the foundation of our community, and it’s for them that we continue to evolve and improve the League of Legends experience.\n\nWe’re looking for humble but ambitious, razor-sharp professionals who can teach us a thing or two. We promise to return the favor. Like us, you take play seriously; you’re passionate about games. We embrace those who see things differently, aren’t afraid to experiment, and who have a healthy disregard for constraints.\n\nThat’s where you come in.\n\nAs a Rendering Technical Artist (Contract) on the Singapore League of Legends PC Team, you’ll help bring the world of Runeterra and beyond to life through materials, lighting, and real-time rendering. League’s visual targets are built on a modern real-time, PBR-based rendering pipeline with stylized, hand-painted treatments, and you’ll author, extend, and maintain the shaders and materials that realize them across champions, skins, and related content.\n\nWorking closely with artists, designers, engineers, and external partners, you’ll act as a bridge between art and engineering—translating visual and art-direction goals into robust, performant solutions that behave consistently across around-game and in-game environments. As an experienced technical artist, you’ll also diagnose rendering issues early, reduce rework, and help raise the craft bar for how shaders and materials are authored across internal and external teams.\n\nReporting to the Technical Art Manager, you will ensure that assets meet technical performance standards and artistic direction requirements. In collaboration with Art, Design, Engineering, and external partners, you will contribute to production support and workflow improvements.\n\nPlease note that Riot Games does not offer relocation packages for this position. You need to be able to work legally in Singapore, without Riot Games’ sponsorship, to be considered.\n\nResponsibilities:\n\n• Author, extend, and maintain real-time shaders and materials for League of Legends within a PBR-based rendering workflow, including reusable shader functions and shared material systems that scale across champions and skins.\n• Apply strong PBR fundamentals across albedo, normal, roughness, metallic, ambient occlusion, emissive, lighting, and reflection-probe inputs, ensuring shader features account for the full material response rather than the diffuse channel in isolation.\n• Collaborate directly with Art and Design to understand desired visual behaviors and art direction, and translate them into clear, achievable, and performant rendering solutions.\n• Provide hands-on technical support to internal and external vendor artists, helping them author, integrate, and troubleshoot materials and shaders for Epic and Legendary skins.\n• Validate assets across neutral lighting, around-game, and in-game environments and applicable quality levels, diagnosing issues involving lighting, shadows, material response, shader parameters, and texture inputs.\n• Collaborate with engineering to manage in-game memory budgets, profile shader and rendering cost, and optimize game performance using tools such as RenderDoc or equivalent GPU-capture tools.\n• Integrate visual assets from external vendors into the game engine using Perforce, working closely with the Art Director and Technical Art Manager to maintain quality and consistency.\n• Create and maintain clear technical documentation—shader and material workflows, authoring standards, and best practices—and develop custom tools and scripts so artists can work more independently.\n\nRequired Qualifications:\n\n• 4+ years of professional experience as a Technical Artist in game development or a related real-time graphics field.\n• Demonstrated hands-on experience writing, debugging, and shipping shaders for a modern real-time, PBR-based game engine, with a strong understanding of how albedo, normal, roughness, metallic, ambient occlusion, lighting, and reflections combine to define surface response.\n• Ability to read, write, and debug common real-time shader languages such as HLSL and GLSL, along with node-based shader graphs or comparable proprietary shader and material systems.\n• Strong skills in modeling, shaders, texturing, and lighting for games, with an understanding of stylized, hand-painted content pipelines and how visual style, color, and lighting direction influence material and shader approaches.\n• Proficiency in commercial or proprietary game engines (e.g. Unity/Unreal), with familiarity in performance profiling, GPU cost analysis, memory budgets, and optimization across a range of hardware.\n• Strong technical writing skills, with experience creating and maintaining clear technical documentation such as shader and material guides, authoring standards, and workflow references.\n• Familiarity with version control systems such as Git or Perforce.\n• Excellent communication skills, with the ability to act as an ambassador between art and engineering and collaborate effectively with external partners and internal teams.\n\nDesired Qualifications…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "site": "riotgames.com",
-    "source": "greenhouse",
-    "role": "Технический художник",
-    "grade": null,
-    "spec": null,
-    "permit": true,
-    "stack": [
-      "Unity",
-      "Unreal",
-      "Perforce"
-    ],
-    "hasRu": true
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-ghost-story-games-8031365",
@@ -607,6 +755,7 @@ window.JOBS = [
       "C#",
       "Python"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -632,6 +781,7 @@ window.JOBS = [
       "ZBrush",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -655,6 +805,7 @@ window.JOBS = [
     "stack": [
       "Python"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -676,6 +827,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -699,6 +851,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -720,6 +873,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -741,6 +895,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -762,29 +917,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
-    "hasRu": true
-  },
-  {
-    "id": "gh-scopely-5347395008",
-    "title": "Engineering Manager, Backend (Gaming)",
-    "company": "Scopely",
-    "locations": [
-      "Bangalore, India"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-24",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5347395008?gh_jid=5347395008",
-    "desc": "Scopely is looking for an Engineering Manager, Backend (Gaming) to join the WWE Champions team in Bangalore!\n\nAt Scopely, we care deeply about what we do and want to inspire play, every day - whether in our work environments alongside our talented colleagues, or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily.\n\nWWE Champions is our ultimate and unique RPG puzzle match game featuring WWE superstars and legends across mobile and PC platforms. WWE Champions is the most downloaded WWE game to date, with a highly engaged and passionate community.\n\nWhat You’ll Do\n\nAs an Engineering Manager, you will lead the teams overseeing the systems that power live game configuration, blueprint and content delivery, feature controls, and the backend runtime that serves core gameplay and live operations at scale. You will be accountable for team health, technical execution, operational excellence, and cross-functional delivery across a complex live-service ecosystem, ensuring that tools used by designers and live-ops teams translate safely and reliably into production game behavior.\n\n• Lead and grow an engineering team responsible for both Game Backend and Live Tools, including coaching, performance management, hiring, and career development\n• Own delivery across two tightly connected domains: the internal content/configuration platform and the live backend services that power player-facing gameplay systems\n• Drive execution for systems that manage blueprints, game configuration, live-ops content, server controls, A/B testing, segmentation, and feature rollout workflows\n• Partner closely with product, design, analytics, QA, and operations to plan and deliver live-service features, events, and tooling improvements\n• Ensure strong operational rigor across backend services, including reliability, performance, observability, incident response, and production readiness\n• Guide technical direction for a large Python/Django ecosystem built on Redis, DynamoDB, async job processing, and blueprint-driven runtime behavior\n• Oversee the health of deployment and publishing flows that move data between services, including blueprint packaging, environment promotion, caching, and rollout safety\n• Help the team balance short-term live-ops responsiveness with long-term platform investments, code health, and system maintainability\n• Establish clear engineering processes for planning, prioritization, estimation, quality, release management, and cross-team coordination\n• Partner with senior engineers and tech leads on architecture, technical risk management, and modernization opportunities across legacy and live production systems\n• Create strong feedback loops with stakeholders who depend on internal tools, ensuring design, content, and live-ops workflows are efficient, safe, and scalable\n• Support live-service excellence by leading incident reviews, improving operational playbooks, and hardening systems that directly affect player experience\n\nWhat We’re Looking For…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "site": "scopely.com",
-    "source": "greenhouse",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "Бэкенд",
-    "stack": [
-      "Python"
-    ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -809,6 +942,7 @@ window.JOBS = [
       "Unity",
       "C#"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -830,6 +964,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -853,6 +988,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -874,6 +1010,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -895,6 +1032,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -918,6 +1056,7 @@ window.JOBS = [
     "stack": [
       "Figma"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -942,6 +1081,7 @@ window.JOBS = [
       "Unity",
       "C#"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -963,6 +1103,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -984,6 +1125,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -1008,6 +1150,7 @@ window.JOBS = [
       "Python",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -1029,6 +1172,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -1050,6 +1194,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -1071,6 +1216,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -1096,29 +1242,7 @@ window.JOBS = [
       "ZBrush",
       "Substance"
     ],
-    "hasRu": true
-  },
-  {
-    "id": "gh-scopely-5396883008",
-    "title": "Senior Product Manager performance - Monopoly GO!",
-    "company": "Scopely",
-    "locations": [
-      "Barcelona, Spain"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-24",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5396883008?gh_jid=5396883008",
-    "desc": "Scopely is looking for a Senior Product Performance Manager to join our MONOPOLY GO! team in our Barcelona (Spain) Hub on a hybrid basis.\n\nAt Scopely, we care deeply about what we do and want to inspire play, every day - whether in our work environments alongside our talented colleagues, or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily.\n\nMONOPOLY GO! is a global phenomenon and one of the biggest mobile game launches in history, captivating millions of players worldwide.\n\nAs a Senior Product Manager within Live Mini Games Performance, you will own the performance and continuous optimization of some of MONOPOLY GO!’s most important live experiences. You’ll combine deep analytics, experimentation, player insights, and strong product judgment to identify opportunities and turn them into measurable improvements in engagement and business performance.\n\nWhat You’ll Do\n\nDrive Performance, Experimentation & Insights\n\n• Own performance for key Live Mini Games, developing a deep understanding of player behavior, engagement, and business outcomes\n• Identify opportunities through quantitative and qualitative analysis and translate insights into clear product actions\n• Build and manage a strong pipeline of A/B tests and live optimizations, defining hypotheses, KPIs, and success criteria\n• Lead performance readouts and turn learnings into broader strategies and best practices across the Mini Games portfolio\n• Continuously optimize gameplay, balancing, rewards, pacing, and other live levers to improve player experience and performance\n\nOwn Execution & Cross-Functional Collaboration\n\n• Independently prioritize opportunities and drive initiatives from hypothesis through execution, measurement, and iteration\n• Partner closely with Analytics, Data Science, Economy, Game Design, Production, Engineering, and Live Operations\n• Act as a go-to product expert for your areas of ownership and proactively communicate performance, insights, risks, and recommendations to stakeholders\n• Help raise the performance, experimentation, and analytical rigor of the wider team\n\nEmbrace AI as a Product & Productivity Tool\n\n• Use AI tools to accelerate analysis, ideation, research, documentation, and everyday product workflows\n• Identify opportunities to apply AI to improve how we understand players, optimize Live Mini Games, and operate the portfolio\n• Experiment with emerging AI capabilities and help establish effective AI-enabled ways of working across the team\n\nWhat We’re Looking For\n\n• 5+ years of experience in Product Management or related product disciplines, including 3+ years of Product Management experience\n• Strong track record of using data, experimentation, and product judgment to improve measurable product outcomes\n• Strong analytical skills and the ability to independently turn complex data into actionable insights\n• Experience defining hypotheses, KPIs, A/B tests, and performance readouts\n• Strong understanding of F2P game systems, LiveOps, player behavior, and game economies\n• High degree of ownership and comfort independently prioritizing and solving complex problems\n• AI-savvy mindset with hands-on experience using AI tools to improve the quality and speed of your work\n• Excellent communication and cross-functional collaboration skills\n\nNice to Have\n\n• Experience working on successful live-service mobile games\n• Experience with casual or social games\n• Experience with game economy, balancing, segmentation, or LiveOps optimization\n• Advanced SQL, Excel, or other analytical tooling experience\n• Experience applying AI to analytics, experimentation, game development, or LiveOps\n\nAbout Scopely\n\nScopely is a leading video game and global interactive entertainment company, home to many of the world’s most beloved and enduring experiences, including two of the most successful mobile games of all-time “MONOPOLY GO!” and “Pokémon GO,” along with “Stumble Guys,” “Star Trek™ Fleet Command,” “MARVEL Strike Force,” “WWE Champions,” the Scrabble® franchise, “Yahtzee® With Buddies,” and many others. Across mobile, web, PC, and console, Scopely creates, develops, publishes, and live-operates one of the most diversified and award-winning portfolios in the games industry — bringing hundreds of millions of players together through a shared love of play.\n\nFounded in 2011, Scopely is powered by its exceptional team — including thousands of world-class gamemakers around the globe, a distinctive tenet-driven culture, and its proprietary technology platform, Playgami. Together, these strengths have fueled Scopely’s position as the #1 mobile games company in the U.S. and #2 globally, generating more than $10 billion in lifetime revenue. Whether building global sensations like “MONOPOLY GO!” from the ground up, or expanding through strategic acquisitions, including the FoxNext, GSN, and Scopely Explore games businesses — Scopely consistently delivers experiences players love today and return to for years to come.\n\nRecognized multiple times as one of the \"100 Most Influential Companies in the World\" by TIME magazine and one of Fast Company's \"World's Most Innovative Companies\" and “Best Workplaces for Innovators,” Scopely believes that video games can be a force for good — creating meaningful connections, vibrant communities, and making life better through play.\n\nScopely has global operations and partners across four continents in more than a dozen countries worldwide. For more information, visit: https://www.scopely.com/.\n\nNotice to Candidates: Scopely will never request payment or financial information during the application or hiring process. Please apply only through our official website and verify that all Talent Partner communications come from an email address ending in @scopely.com.…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "site": "scopely.com",
-    "source": "greenhouse",
-    "role": "Продакт",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "SQL"
-    ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -1140,6 +1264,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -1167,6 +1292,7 @@ window.JOBS = [
       "Java",
       "Swift"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -1191,6 +1317,7 @@ window.JOBS = [
       "Unity",
       "C#"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -1217,6 +1344,7 @@ window.JOBS = [
       "C#",
       "Java"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -1242,6 +1370,7 @@ window.JOBS = [
       "SQL",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -1262,7 +1391,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-rockstar-games-7771377003",
@@ -1289,6 +1419,7 @@ window.JOBS = [
       "JavaScript",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -1316,7 +1447,8 @@ window.JOBS = [
       "Python",
       "TypeScript",
       "AWS"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "sr-cd-projekt-red-744000145348609",
@@ -1342,7 +1474,8 @@ window.JOBS = [
       "Blender",
       "Substance",
       "Perforce"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "sr-cd-projekt-red-744000145327290",
@@ -1362,7 +1495,8 @@ window.JOBS = [
     "role": "Нарратив",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "seen": "2026-08-25"
   },
   {
     "id": "sr-gameloft-744000145265465",
@@ -1387,7 +1521,8 @@ window.JOBS = [
       "Python",
       "Docker",
       "Kubernetes"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-digital-extremes-5169126007",
@@ -1415,6 +1550,7 @@ window.JOBS = [
       "SQL",
       "Figma"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -1437,7 +1573,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "SQL"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "wk-homa-games-B63999E3E1",
@@ -1463,6 +1600,7 @@ window.JOBS = [
       "Blender",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -1486,7 +1624,8 @@ window.JOBS = [
     "stack": [
       "Unity",
       "Unreal"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "ab-moon-active-9f1eb9b4-17d3-43e3-8d96-ef168ff07c6f",
@@ -1510,6 +1649,7 @@ window.JOBS = [
       "Python",
       "TypeScript"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -1530,7 +1670,8 @@ window.JOBS = [
     "role": "Продакт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-wargaming-8138994",
@@ -1551,6 +1692,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -1572,6 +1714,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -1594,6 +1737,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ja",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -1617,6 +1761,7 @@ window.JOBS = [
     "stack": [
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -1640,6 +1785,7 @@ window.JOBS = [
     "stack": [
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -1663,6 +1809,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -1685,6 +1832,7 @@ window.JOBS = [
     "spec": null,
     "permit": true,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -1713,6 +1861,7 @@ window.JOBS = [
       "ZBrush",
       "Substance"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -1734,6 +1883,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -1758,6 +1908,7 @@ window.JOBS = [
       "Unreal",
       "Perforce"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -1785,6 +1936,7 @@ window.JOBS = [
       "Perforce",
       "Wwise"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -1812,6 +1964,7 @@ window.JOBS = [
       "Docker",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -1837,6 +1990,7 @@ window.JOBS = [
       "AWS",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -1858,6 +2012,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": "Данные и ML",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -1883,6 +2038,7 @@ window.JOBS = [
       "Java",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -1906,6 +2062,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -1927,6 +2084,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": "Геймплей",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -1950,7 +2108,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-2k-games-7749619003",
@@ -1974,6 +2133,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -1997,6 +2157,7 @@ window.JOBS = [
     "stack": [
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2021,7 +2182,8 @@ window.JOBS = [
       "Unreal",
       "Maya",
       "Perforce"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-2k-games-7888173003",
@@ -2047,7 +2209,8 @@ window.JOBS = [
       "ZBrush",
       "Substance",
       "Photoshop"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-2k-games-7856220003",
@@ -2075,6 +2238,7 @@ window.JOBS = [
       "Python",
       "JavaScript"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2103,6 +2267,7 @@ window.JOBS = [
       "Substance",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2126,6 +2291,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2151,6 +2317,7 @@ window.JOBS = [
       "Houdini",
       "Substance"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2175,6 +2342,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2196,6 +2364,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2217,6 +2386,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2241,6 +2411,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2268,6 +2439,7 @@ window.JOBS = [
       "Maya",
       "Houdini"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2289,6 +2461,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2310,6 +2483,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2333,6 +2507,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2357,6 +2532,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2378,6 +2554,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2404,6 +2581,7 @@ window.JOBS = [
       "AWS",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2431,6 +2609,7 @@ window.JOBS = [
       "Substance",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2455,6 +2634,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2480,6 +2660,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2507,6 +2688,7 @@ window.JOBS = [
       "SQL",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2532,6 +2714,7 @@ window.JOBS = [
       "C++",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2556,6 +2739,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2582,6 +2766,7 @@ window.JOBS = [
       "C#",
       "Python"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2603,6 +2788,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": "Геймплей",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2627,6 +2813,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2651,6 +2838,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2673,7 +2861,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-2k-games-7793261003",
@@ -2695,7 +2884,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-2k-games-7812947003",
@@ -2723,6 +2913,7 @@ window.JOBS = [
       "Java",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2744,6 +2935,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2765,6 +2957,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2786,6 +2979,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2813,6 +3007,7 @@ window.JOBS = [
       "AWS",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2834,6 +3029,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2857,7 +3053,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "C++"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-2k-games-7778375003",
@@ -2880,6 +3077,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2906,6 +3104,7 @@ window.JOBS = [
       "AWS",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2930,6 +3129,7 @@ window.JOBS = [
       "Unreal",
       "Perforce"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2955,6 +3155,7 @@ window.JOBS = [
       "Maya",
       "Perforce"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -2980,6 +3181,7 @@ window.JOBS = [
       "Substance",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3006,6 +3208,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3030,6 +3233,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3055,7 +3259,8 @@ window.JOBS = [
       "Java",
       "AWS",
       "Kubernetes"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-2k-games-7784349003",
@@ -3083,6 +3288,7 @@ window.JOBS = [
       "TypeScript",
       "JavaScript"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3106,6 +3312,7 @@ window.JOBS = [
     "stack": [
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3131,6 +3338,7 @@ window.JOBS = [
       "Houdini",
       "Substance"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3158,6 +3366,7 @@ window.JOBS = [
       "Maya",
       "Houdini"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3179,6 +3388,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3203,6 +3413,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3227,6 +3438,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3251,6 +3463,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3274,6 +3487,7 @@ window.JOBS = [
     "stack": [
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3299,6 +3513,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3326,6 +3541,7 @@ window.JOBS = [
       "SQL",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3351,6 +3567,7 @@ window.JOBS = [
       "Maya",
       "Perforce"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3375,6 +3592,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3398,6 +3616,7 @@ window.JOBS = [
     "stack": [
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3419,6 +3638,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3441,6 +3661,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3462,6 +3683,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3485,6 +3707,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3506,6 +3729,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3527,6 +3751,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3548,6 +3773,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3576,6 +3802,7 @@ window.JOBS = [
       "AWS",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3597,6 +3824,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3623,6 +3851,7 @@ window.JOBS = [
       "Photoshop",
       "Figma"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3647,6 +3876,7 @@ window.JOBS = [
       "Unity",
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3668,6 +3898,7 @@ window.JOBS = [
     "grade": null,
     "spec": "Данные и ML",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3694,6 +3925,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3715,6 +3947,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3743,6 +3976,7 @@ window.JOBS = [
       "ZBrush",
       "Substance"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3767,6 +4001,7 @@ window.JOBS = [
       "Unreal",
       "Perforce"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3791,6 +4026,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3814,6 +4050,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3841,6 +4078,7 @@ window.JOBS = [
       "Substance",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3869,6 +4107,7 @@ window.JOBS = [
       "Substance",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3892,6 +4131,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3915,6 +4155,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3938,6 +4179,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -3964,21 +4206,22 @@ window.JOBS = [
       "Houdini",
       "Substance"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
-    "id": "gh-scopely-5301857008",
+    "id": "gh-scopely-5397611008",
     "title": "Data Analyst - MARVEL Strike Force",
     "company": "Scopely",
     "locations": [
-      "United States"
+      "Canada"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 91 300 – 140 000",
+    "salary": null,
     "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5301857008?gh_jid=5301857008",
-    "desc": "Scopely is looking for a Data Analyst to join our Marvel Strike Force remotely in the United States or Canada on a remote basis\n\nAt Scopely, we care deeply about what we do and want to inspire play, every day - whether in our work environments alongside our talented colleagues, or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily.\n\nMarvel Strike Force is Scopely's squad-based Hero Collector RPG, housing heroes and villains across the Marvel Universe.\n\nWhat You Will Do\n\n• Use AI-enabled tools thoughtfully to accelerate analytical workflows, including data exploration, SQL/Python development, documentation, QA, summarization, and insight generation, while maintaining strong judgment around data quality, accuracy, privacy, and business context\n• Partner with product, design, economy, live operations, marketing, and leadership teams to turn data into clear insights that improve player engagement, retention, monetization, and long-term game health\n• Own recurring business-health reporting for Marvel Strike Force, including KPI reads, trend context, variance explanations, and executive-ready narratives for what changed, why it changed, and what to do next\n• Analyze player behavior across onboarding, progression, events, offers, combat modes, and other core game systems to identify risks, opportunities, and player-impacting friction\n• Design and validate analytics tracking for new features, live events, player offers, and experiments so teams can measure performance accurately from launch onwar\n\nWhat We're Looking For\n\n• B.Tech/BS in Computer Science, Statistics, Math, Physics or other quantitative disciplines\n• 2+ years of experience in data analytics, product analytics, business analytics, financial analysis, data science, or a similar quantitative role\n• 2+ years’ experience using SQL/Python, including complex queries from multiple data sources\n• 2+ years’ experience creating reports using Tableau/Looker or a similar reporting system\n• Curiosity and hands-on interest in using AI tools to improve analytics workflows, with the judgment to validate outputs, protect sensitive data, and distinguish useful acceleration from unsupported conclusions\n• Familiarity with experimentation, including A/B test design, metric selection, statistical significance, guardrail metrics, and post-test interpretation\n• Excellent communication and storytelling skills, with the ability to turn detailed analysis into concise, actionable recommendations for both technical and non-technical partners\n• Comfort working quickly in a live-service environment where priorities shift, data is imperfect, and decisions often need both speed and rigor\n\nBonus Points\n\n• Demonstrates openness to using AI-enabled tools to improve analytical workflows, accelerate insight generation, and support high-quality data-driven decision-making\n• Passion for games and curiosity about what motivates players, especially in RPG, hero collector, strategy, or squad-based combat games\n• Advanced degrees a plus\n• 2+ years within the mobile gaming domain\n• Experience analyzing player lifecycle metrics such as onboarding, funnels, retention, engagement, progression, monetization, economy health, offers, events, or churn\n• Experience with modern analytics workflows such as dbt, Snowflake, BigQuery, Git, notebook-based analysis, or reusable data models\n\nPlease ensure that the résumé/CV you attach is written in English.\nFor candidates in CA, CO, NJ, NY, and WA, the annual salary range is provided below. In addition to base pay, employees may be eligible for equity, bonuses, and a comprehensive benefits package, including healthcare benefits, retirement benefits, pet insurance, paid holidays, paid Scopely free days, and unlimited paid time off. Base pay offered may vary depending on job-related knowledge, skills, and experience.\n\nCA, CO, NJ, NY, and WA Annual Salary Range\n$91,300—$140,000 USD\n\nAbout Scopely\n\nScopely is a leading video game and global interactive entertainment company, home to many of the world’s most beloved and enduring experiences, including two of the most successful mobile games of all-time “MONOPOLY GO!” and “Pokémon GO,” along with “Stumble Guys,” “Star Trek™ Fleet Command,” “MARVEL Strike Force,” “WWE Champions,” the Scrabble® franchise, “Yahtzee® With Buddies,” and many others. Across mobile, web, PC, and console, Scopely creates, develops, publishes, and live-operates one of the most diversified and award-winning portfolios in the games industry — bringing hundreds of millions of players together through a shared love of play.\n\nFounded in 2011, Scopely is powered by its exceptional team — including thousands of world-class gamemakers around the globe, a distinctive tenet-driven culture, and its proprietary technology platform, Playgami. Together, these strengths have fueled Scopely’s position as the #1 mobile games company in the U.S. and #2 globally, generating more than $10 billion in lifetime revenue. Whether building global sensations like “MONOPOLY GO!” from the ground up, or expanding through strategic acquisitions, including the FoxNext, GSN, and Scopely Explore games businesses — Scopely consistently delivers experiences players love today and return to for years to come.\n\nRecognized multiple times as one of the \"100 Most Influential Companies in the World\" by TIME magazine and one of Fast Company's \"World's Most Innovative Companies\" and “Best Workplaces for Innovators,” Scopely believes that video games can be a force for good — creating meaningful connections, vibrant communities, and making life better through play.\n\nScopely has global operations and partners across four continents in more than a dozen countries worldwide. For more information, visit: https://www.scopely.com/.…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5397611008?gh_jid=5397611008",
+    "desc": "Scopely is looking for a Data Analyst to join our Marvel Strike Force remotely in the United States or Canada on a remote basis\n\nAt Scopely, we care deeply about what we do and want to inspire play, every day - whether in our work environments alongside our talented colleagues, or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily.\n\nMarvel Strike Force is Scopely's squad-based Hero Collector RPG, housing heroes and villains across the Marvel Universe.\n\nWhat You Will Do\n\n• Use AI-enabled tools thoughtfully to accelerate analytical workflows, including data exploration, SQL/Python development, documentation, QA, summarization, and insight generation, while maintaining strong judgment around data quality, accuracy, privacy, and business context\n• Partner with product, design, economy, live operations, marketing, and leadership teams to turn data into clear insights that improve player engagement, retention, monetization, and long-term game health\n• Own recurring business-health reporting for Marvel Strike Force, including KPI reads, trend context, variance explanations, and executive-ready narratives for what changed, why it changed, and what to do next\n• Analyze player behavior across onboarding, progression, events, offers, combat modes, and other core game systems to identify risks, opportunities, and player-impacting friction\n• Design and validate analytics tracking for new features, live events, player offers, and experiments so teams can measure performance accurately from launch onwar\n\nWhat We're Looking For\n\n• B.Tech/BS in Computer Science, Statistics, Math, Physics or other quantitative disciplines\n• 2+ years of experience in data analytics, product analytics, business analytics, financial analysis, data science, or a similar quantitative role\n• 2+ years’ experience using SQL/Python, including complex queries from multiple data sources\n• 2+ years’ experience creating reports using Tableau/Looker or a similar reporting system\n• Curiosity and hands-on interest in using AI tools to improve analytics workflows, with the judgment to validate outputs, protect sensitive data, and distinguish useful acceleration from unsupported conclusions\n• Familiarity with experimentation, including A/B test design, metric selection, statistical significance, guardrail metrics, and post-test interpretation\n• Excellent communication and storytelling skills, with the ability to turn detailed analysis into concise, actionable recommendations for both technical and non-technical partners\n• Comfort working quickly in a live-service environment where priorities shift, data is imperfect, and decisions often need both speed and rigor\n\nBonus Points\n\n• Demonstrates openness to using AI-enabled tools to improve analytical workflows, accelerate insight generation, and support high-quality data-driven decision-making\n• Passion for games and curiosity about what motivates players, especially in RPG, hero collector, strategy, or squad-based combat games\n• Advanced degrees a plus\n• 2+ years within the mobile gaming domain\n• Experience analyzing player lifecycle metrics such as onboarding, funnels, retention, engagement, progression, monetization, economy health, offers, events, or churn\n• Experience with modern analytics workflows such as dbt, Snowflake, BigQuery, Git, notebook-based analysis, or reusable data models\n\nPlease ensure that the résumé/CV you attach is written in English.\n\nAbout Scopely\n\nScopely is a leading video game and global interactive entertainment company, home to many of the world’s most beloved and enduring experiences, including two of the most successful mobile games of all-time “MONOPOLY GO!” and “Pokémon GO,” along with “Stumble Guys,” “Star Trek™ Fleet Command,” “MARVEL Strike Force,” “WWE Champions,” the Scrabble® franchise, “Yahtzee® With Buddies,” and many others. Across mobile, web, PC, and console, Scopely creates, develops, publishes, and live-operates one of the most diversified and award-winning portfolios in the games industry — bringing hundreds of millions of players together through a shared love of play.\n\nFounded in 2011, Scopely is powered by its exceptional team — including thousands of world-class gamemakers around the globe, a distinctive tenet-driven culture, and its proprietary technology platform, Playgami. Together, these strengths have fueled Scopely’s position as the #1 mobile games company in the U.S. and #2 globally, generating more than $10 billion in lifetime revenue. Whether building global sensations like “MONOPOLY GO!” from the ground up, or expanding through strategic acquisitions, including the FoxNext, GSN, and Scopely Explore games businesses — Scopely consistently delivers experiences players love today and return to for years to come.\n\nRecognized multiple times as one of the \"100 Most Influential Companies in the World\" by TIME magazine and one of Fast Company's \"World's Most Innovative Companies\" and “Best Workplaces for Innovators,” Scopely believes that video games can be a force for good — creating meaningful connections, vibrant communities, and making life better through play.\n\nScopely has global operations and partners across four continents in more than a dozen countries worldwide. For more information, visit: https://www.scopely.com/.\n\nNotice to Candidates: Scopely will never request payment or financial information during the application or hiring process. Please apply only through our official website and verify that all Talent Partner communications come from an email address ending in @scopely.com.\n\nShould you have any questions or encounter any fraudulent requests/emails/websites, please immediately contact recruiting@scopely.com. Our job applicant privacy policies are available here: California Privacy Notice and EEA/UK Privacy Notice.…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
     "site": "scopely.com",
     "source": "greenhouse",
     "role": "Аналитика",
@@ -3988,7 +4231,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
-    "hasRu": true
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-scopely-5397634008",
@@ -4013,7 +4256,8 @@ window.JOBS = [
       "C#",
       "Python",
       "AWS"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-scopely-5395416008",
@@ -4037,6 +4281,7 @@ window.JOBS = [
       "Unity",
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -4060,6 +4305,7 @@ window.JOBS = [
     "stack": [
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -4084,6 +4330,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -4107,6 +4354,7 @@ window.JOBS = [
     "stack": [
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -4131,27 +4379,29 @@ window.JOBS = [
       "Unity",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
-    "id": "gh-scopely-5191920008",
+    "id": "gh-scopely-5390699008",
     "title": "Senior Producer - Star Trek Fleet Command",
     "company": "Scopely",
     "locations": [
-      "London, United Kingdom"
+      "Dublin, Ireland"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5191920008?gh_jid=5191920008",
-    "desc": "Scopely is looking for a Senior Producer to join our Star Trek Fleet Command team based in the UK on a remote basis.\n\nAt Scopely, we care deeply about what we do and want to inspire play every day - whether in our work environments alongside our talented colleagues or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily.\n\nStar Trek Fleet Command's ongoing success goes from strength to strength. Our in-house developed multi-platform 4X MMO was launched in 2018 and continues to evolve, being consistently one of the top 10 gross revenue Massive Multiplayer Strategy games on the market.\n\nWhat You Will Do\n\nThe person in this position will join an experienced team of producers dedicated to facilitating multi-disciplined pods to deliver the best for our players by creating and improving communication channels, celebrating successes, and always making sure we understand how and where our teams can improve.\n\nYou will work across multiple multidisciplined teams to manage a program of work and deliver a wide variety of updates and capabilities for Star Trek™ Fleet Command, taking these projects from concept to delivery. You will also have the opportunity to help other producers who are just starting their journey to deliver great experiences. We work on exciting additions to heritage IP that many people worldwide hold dear, and you will have the opportunity to make a massive impact on the daily experiences of hundreds of thousands of players by ensuring your team has everything it needs to succeed.\n\n• Lead, inform, motivate and align project teams to deliver on individual & shared goals\n• Be heavily involved in production, coordination, triage, and release planning\n• Work directly with talented multi-disciplined feature/content teams to drive the best output and healthy team cultures\n• Facilitate requirement gathering, identifying dependencies, and capacity planning within the team, partnering with the product team, the art team, as well as the wider senior game leadership team\n• Maintain project status and progress so you can ensure team's capability to deliver to the player on time\n• Maintain and iterate on team processes such as retrospectives and sprint planning to keep the team healthy and contributing to the overall improvement of the studio\n• Be an active member of the Star Trek Fleet Command features team to improve how the whole game team operates\n\nWhat We're Looking For\n\n• Highly experienced working in development teams\n• Experience on a live game title with detailed dependencies between projects and updates\n• Experience with content\n• Excellent communication and people interaction skills\n• Solid understanding of Agile and its standard practices\n• Experience working with JIRA\n• Naturally, be a very structured and well-organised person\n• Clear ability to assess the priority of multiple issues rapidly to focus response accordingly\n• To have a demonstrated ability to facilitate cross-team discussion and organisation\n• Willing to spend a lot of time on the details of how games are delivered\n\nPlease ensure that the résumé/CV you attach is written in English.\n\nAt Scopely, we create games for everyone - and want to ensure that the people behind our games reflect that! We are committed to creating a diverse, supportive work environment where everyone is treated with respect. We are committed to providing equal employment opportunities and welcome individuals from all backgrounds to join us & embrace the adventure!\n\nAbout Scopely\n\nScopely is a leading video game and global interactive entertainment company, home to many of the world’s most beloved and enduring experiences, including two of the most successful mobile games of all-time “MONOPOLY GO!” and “Pokémon GO,” along with “Stumble Guys,” “Star Trek™ Fleet Command,” “MARVEL Strike Force,” “WWE Champions,” the Scrabble® franchise, “Yahtzee® With Buddies,” and many others. Across mobile, web, PC, and console, Scopely creates, develops, publishes, and live-operates one of the most diversified and award-winning portfolios in the games industry — bringing hundreds of millions of players together through a shared love of play.\n\nFounded in 2011, Scopely is powered by its exceptional team — including thousands of world-class gamemakers around the globe, a distinctive tenet-driven culture, and its proprietary technology platform, Playgami. Together, these strengths have fueled Scopely’s position as the #1 mobile games company in the U.S. and #2 globally, generating more than $10 billion in lifetime revenue. Whether building global sensations like “MONOPOLY GO!” from the ground up, or expanding through strategic acquisitions, including the FoxNext, GSN, and Scopely Explore games businesses — Scopely consistently delivers experiences players love today and return to for years to come.\n\nRecognized multiple times as one of the \"100 Most Influential Companies in the World\" by TIME magazine and one of Fast Company's \"World's Most Innovative Companies\" and “Best Workplaces for Innovators,” Scopely believes that video games can be a force for good — creating meaningful connections, vibrant communities, and making life better through play.\n\nScopely has global operations and partners across four continents in more than a dozen countries worldwide. For more information, visit: https://www.scopely.com/.\n\nNotice to Candidates: Scopely will never request payment or financial information during the application or hiring process. Please apply only through our official website and verify that all Talent Partner communications come from an email address ending in @scopely.com.…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5390699008?gh_jid=5390699008",
+    "desc": "Scopely is looking for a Senior Producer to join our Star Trek Fleet Command team based in Dublin on a hybrid basis.\n\nAt Scopely, we care deeply about what we do and want to inspire play every day - whether in our work environments alongside our talented colleagues or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily.\n\nStar Trek Fleet Command's ongoing success goes from strength to strength. Our in-house developed multi-platform 4X MMO was launched in 2018 and continues to evolve, being consistently one of the top 10 gross revenue Massive Multiplayer Strategy games on the market.\n\nWhat You Will Do\n\nThe person in this position will join an experienced team of producers dedicated to facilitating multi-disciplined pods to deliver the best for our players by creating and improving communication channels, celebrating successes, and always making sure we understand how and where our teams can improve.\n\nYou will work across multiple multidisciplined teams to manage a program of work and deliver a wide variety of updates and capabilities for Star Trek™ Fleet Command, taking these projects from concept to delivery. You will also have the opportunity to help other producers who are just starting their journey to deliver great experiences. We work on exciting additions to heritage IP that many people worldwide hold dear, and you will have the opportunity to make a massive impact on the daily experiences of hundreds of thousands of players by ensuring your team has everything it needs to succeed.\n\n• Lead, inform, motivate and align project teams to deliver on individual & shared goals\n• Be heavily involved in production, coordination, triage, and release planning\n• Work directly with talented multi-disciplined feature/content teams to drive the best output and healthy team cultures\n• Facilitate requirement gathering, identifying dependencies, and capacity planning within the team, partnering with the product team, the art team, as well as the wider senior game leadership team\n• Maintain project status and progress so you can ensure team's capability to deliver to the player on time\n• Maintain and iterate on team processes such as retrospectives and sprint planning to keep the team healthy and contributing to the overall improvement of the studio\n• Be an active member of the Star Trek Fleet Command features team to improve how the whole game team operates\n\nWhat We're Looking For\n\n• Highly experienced working in development teams\n• Experience on a live game title with detailed dependencies between projects and updates\n• Experience with content\n• Excellent communication and people interaction skills\n• Solid understanding of Agile and its standard practices\n• Experience working with JIRA\n• Naturally, be a very structured and well-organised person\n• Clear ability to assess the priority of multiple issues rapidly to focus response accordingly\n• To have a demonstrated ability to facilitate cross-team discussion and organisation\n• Willing to spend a lot of time on the details of how games are delivered\n\nPlease ensure that the résumé/CV you attach is written in English.\n\nAt Scopely, we create games for everyone - and want to ensure that the people behind our games reflect that! We are committed to creating a diverse, supportive work environment where everyone is treated with respect. We are committed to providing equal employment opportunities and welcome individuals from all backgrounds to join us & embrace the adventure!\n\nAbout Scopely\n\nScopely is a leading video game and global interactive entertainment company, home to many of the world’s most beloved and enduring experiences, including two of the most successful mobile games of all-time “MONOPOLY GO!” and “Pokémon GO,” along with “Stumble Guys,” “Star Trek™ Fleet Command,” “MARVEL Strike Force,” “WWE Champions,” the Scrabble® franchise, “Yahtzee® With Buddies,” and many others. Across mobile, web, PC, and console, Scopely creates, develops, publishes, and live-operates one of the most diversified and award-winning portfolios in the games industry — bringing hundreds of millions of players together through a shared love of play.\n\nFounded in 2011, Scopely is powered by its exceptional team — including thousands of world-class gamemakers around the globe, a distinctive tenet-driven culture, and its proprietary technology platform, Playgami. Together, these strengths have fueled Scopely’s position as the #1 mobile games company in the U.S. and #2 globally, generating more than $10 billion in lifetime revenue. Whether building global sensations like “MONOPOLY GO!” from the ground up, or expanding through strategic acquisitions, including the FoxNext, GSN, and Scopely Explore games businesses — Scopely consistently delivers experiences players love today and return to for years to come.\n\nRecognized multiple times as one of the \"100 Most Influential Companies in the World\" by TIME magazine and one of Fast Company's \"World's Most Innovative Companies\" and “Best Workplaces for Innovators,” Scopely believes that video games can be a force for good — creating meaningful connections, vibrant communities, and making life better through play.\n\nScopely has global operations and partners across four continents in more than a dozen countries worldwide. For more information, visit: https://www.scopely.com/.\n\nNotice to Candidates: Scopely will never request payment or financial information during the application or hiring process. Please apply only through our official website and verify that all Talent Partner communications come from an email address ending in @scopely.com.…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
     "site": "scopely.com",
     "source": "greenhouse",
     "role": "Продюсирование",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-scopely-5283484008",
@@ -4171,7 +4421,8 @@ window.JOBS = [
     "role": "Продюсирование",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-scopely-5398792008",
@@ -4191,21 +4442,22 @@ window.JOBS = [
     "role": "Продакт",
     "grade": "Senior",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "seen": "2026-08-25"
   },
   {
-    "id": "gh-scopely-5398786008",
+    "id": "gh-scopely-5372408008",
     "title": "Senior Software Engineer (Gaming Backend) - WWE Champions",
     "company": "Scopely",
     "locations": [
-      "Canada"
+      "United States"
     ],
     "remote": false,
     "rkind": null,
-    "salary": null,
+    "salary": "$ 145 000 – 220 000",
     "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5398786008?gh_jid=5398786008",
-    "desc": "Scopely is looking for a Senior Software Engineer (Gaming Backend) to join our WWE Champions team in the United States or Canada on a remote basis or Mexico City on a hybrid basis.\n\nAt Scopely, we care deeply about what we do and want to inspire play every day - whether in our work environments alongside our talented colleagues or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily.\n\nWWE Champions is our ultimate and unique RPG puzzle match game featuring WWE superstars and legends across mobile and PC platforms. WWE Champions is the most downloaded WWE game to date, with a highly engaged and passionate community - who will remain undefeated?\n\nWhat You Will Do\n\nAs a Senior Software Engineer, you will design, build, and evolve backend systems that power core gameplay and live-service operations at scale. You will take ownership to drive live-ops excellence through incident management and reliability improvements, enable cross-functional teams to deliver high-quality player experiences and technical roadmap for live mobile games. This role requires a balance of deep backend engineering expertise, support live-ops and design team pre and post releases and strong leadership to unblock technical challenges in a high-concurrency environment.\n\n• Actively support liveops initiatives and game design releases, providing comprehensive backend support both pre- and post-launch\n• Ensure seamless coordination with the design team throughout the lifecycle of game updates and content releases\n• Support live-service excellence by leading incident management, reliability hardening, and operational readiness for production systems\n• Drive the technical roadmap for our backend initiatives, ensuring scalable, high-performance architecture for live mobile games\n• Lead the design and delivery of high-impact features by bridging server-side logic with game client requirements\n• Act as a technical multiplier by unblocking cross-functional teams (Product, Design, QA, Analytics), facilitating design discussions, and providing mentorship\n• Contribute to hands-on feature development, ensuring code quality and maintainability across both client and server codebases\n• Identify and mitigate technical debt and operational bottlenecks to improve overall team velocity\n\nWhat We’re Looking For\n\nExperience & Technical Skills\n\n• 6+ years of professional software development experience in gaming or large-scale live-service applications\n• Deep expertise in backend engineering with high-level server-side languages and frameworks\n• Experience collaborating with game client engineers (e.g., Unity/C#) to deliver integrated fullstack features\n• Proven track record of designing scalable systems and managing live-service operations\n• Familiarity with cloud infrastructure (AWS or equivalent) and modern CI/CD practices\n• Experience working with content pipelines and performance optimization\n\nCross-Functional & Domain Knowledge\n\n• Experience building and supporting player-facing features (progression, social, live events, monetization)\n• Strong understanding of the interplay between backend services and Unity clients\n• Proven ability to lead technical planning and execution in complex, cross-functional environments\n• Experience managing technical roadmaps and balancing feature delivery with system health\n\nSoft Skills & Education\n\n• Bachelor’s degree in Computer Science or related field, or equivalent practical experience\n• Strong communication and leadership skills; ability to explain complex technical concepts to non-technical stakeholders\n• Collaborative and proactive mindset, focused on team success and mentorship\n• High ownership of technical outcomes and a pragmatic approach to problem-solving\n\nPlease ensure that the résumé/CV you attach is written in English.\n\nAbout Scopely\n\nScopely is a leading video game and global interactive entertainment company, home to many of the world’s most beloved and enduring experiences, including two of the most successful mobile games of all-time “MONOPOLY GO!” and “Pokémon GO,” along with “Stumble Guys,” “Star Trek™ Fleet Command,” “MARVEL Strike Force,” “WWE Champions,” the Scrabble® franchise, “Yahtzee® With Buddies,” and many others. Across mobile, web, PC, and console, Scopely creates, develops, publishes, and live-operates one of the most diversified and award-winning portfolios in the games industry — bringing hundreds of millions of players together through a shared love of play.\n\nFounded in 2011, Scopely is powered by its exceptional team — including thousands of world-class gamemakers around the globe, a distinctive tenet-driven culture, and its proprietary technology platform, Playgami. Together, these strengths have fueled Scopely’s position as the #1 mobile games company in the U.S. and #2 globally, generating more than $10 billion in lifetime revenue. Whether building global sensations like “MONOPOLY GO!” from the ground up, or expanding through strategic acquisitions, including the FoxNext, GSN, and Scopely Explore games businesses — Scopely consistently delivers experiences players love today and return to for years to come.\n\nRecognized multiple times as one of the \"100 Most Influential Companies in the World\" by TIME magazine and one of Fast Company's \"World's Most Innovative Companies\" and “Best Workplaces for Innovators,” Scopely believes that video games can be a force for good — creating meaningful connections, vibrant communities, and making life better through play.\n\nScopely has global operations and partners across four continents in more than a dozen countries worldwide. For more information, visit: https://www.scopely.com/.…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5372408008?gh_jid=5372408008",
+    "desc": "Scopely is looking for a Senior Software Engineer (Gaming Backend) to join our WWE Champions team in the United States or Canada on a remote basis or Mexico City on a hybrid basis.\n\nAt Scopely, we care deeply about what we do and want to inspire play every day - whether in our work environments alongside our talented colleagues or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily.\n\nWWE Champions is our ultimate and unique RPG puzzle match game featuring WWE superstars and legends across mobile and PC platforms. WWE Champions is the most downloaded WWE game to date, with a highly engaged and passionate community - who will remain undefeated?\n\nWhat You Will Do\n\nAs a Senior Software Engineer, you will design, build, and evolve backend systems that power core gameplay and live-service operations at scale. You will take ownership to drive live-ops excellence through incident management and reliability improvements, enable cross-functional teams to deliver high-quality player experiences and technical roadmap for live mobile games. This role requires a balance of deep backend engineering expertise, support live-ops and design team pre and post releases and strong leadership to unblock technical challenges in a high-concurrency environment.\n\n• Actively support liveops initiatives and game design releases, providing comprehensive backend support both pre- and post-launch\n• Ensure seamless coordination with the design team throughout the lifecycle of game updates and content releases\n• Support live-service excellence by leading incident management, reliability hardening, and operational readiness for production systems\n• Drive the technical roadmap for our backend initiatives, ensuring scalable, high-performance architecture for live mobile games\n• Lead the design and delivery of high-impact features by bridging server-side logic with game client requirements\n• Act as a technical multiplier by unblocking cross-functional teams (Product, Design, QA, Analytics), facilitating design discussions, and providing mentorship\n• Contribute to hands-on feature development, ensuring code quality and maintainability across both client and server codebases\n• Identify and mitigate technical debt and operational bottlenecks to improve overall team velocity\n\nWhat We’re Looking For\n\nExperience & Technical Skills\n\n• 6+ years of professional software development experience in gaming or large-scale live-service applications\n• Deep expertise in backend engineering with high-level server-side languages and frameworks\n• Experience collaborating with game client engineers (e.g., Unity/C#) to deliver integrated fullstack features\n• Proven track record of designing scalable systems and managing live-service operations\n• Familiarity with cloud infrastructure (AWS or equivalent) and modern CI/CD practices\n• Experience working with content pipelines and performance optimization\n\nCross-Functional & Domain Knowledge\n\n• Experience building and supporting player-facing features (progression, social, live events, monetization)\n• Strong understanding of the interplay between backend services and Unity clients\n• Proven ability to lead technical planning and execution in complex, cross-functional environments\n• Experience managing technical roadmaps and balancing feature delivery with system health\n\nSoft Skills & Education\n\n• Bachelor’s degree in Computer Science or related field, or equivalent practical experience\n• Strong communication and leadership skills; ability to explain complex technical concepts to non-technical stakeholders\n• Collaborative and proactive mindset, focused on team success and mentorship\n• High ownership of technical outcomes and a pragmatic approach to problem-solving\n\nPlease ensure that the résumé/CV you attach is written in English.\nFor candidates in CA, CO, NJ, NY, and WA, the annual salary range is provided below. In addition to base pay, employees may be eligible for equity, bonuses, and a comprehensive benefits package, including healthcare benefits, retirement benefits, pet insurance, paid holidays, paid Scopely free days, and unlimited paid time off. Base pay offered may vary depending on job-related knowledge, skills, and experience.\n\nCA, CO, NJ, NY, and WA Annual Salary Range\n$145,000—$220,000 USD\n\nAbout Scopely\n\nScopely is a leading video game and global interactive entertainment company, home to many of the world’s most beloved and enduring experiences, including two of the most successful mobile games of all-time “MONOPOLY GO!” and “Pokémon GO,” along with “Stumble Guys,” “Star Trek™ Fleet Command,” “MARVEL Strike Force,” “WWE Champions,” the Scrabble® franchise, “Yahtzee® With Buddies,” and many others. Across mobile, web, PC, and console, Scopely creates, develops, publishes, and live-operates one of the most diversified and award-winning portfolios in the games industry — bringing hundreds of millions of players together through a shared love of play.\n\nFounded in 2011, Scopely is powered by its exceptional team — including thousands of world-class gamemakers around the globe, a distinctive tenet-driven culture, and its proprietary technology platform, Playgami. Together, these strengths have fueled Scopely’s position as the #1 mobile games company in the U.S. and #2 globally, generating more than $10 billion in lifetime revenue. Whether building global sensations like “MONOPOLY GO!” from the ground up, or expanding through strategic acquisitions, including the FoxNext, GSN, and Scopely Explore games businesses — Scopely consistently delivers experiences players love today and return to for years to come.…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
     "site": "scopely.com",
     "source": "greenhouse",
     "role": "Программирование",
@@ -4216,7 +4468,7 @@ window.JOBS = [
       "C#",
       "AWS"
     ],
-    "hasRu": true
+    "seen": "2026-08-25"
   },
   {
     "id": "sr-cd-projekt-red-744000144698495",
@@ -4239,6 +4491,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -4260,6 +4513,7 @@ window.JOBS = [
     "grade": "Junior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -4285,6 +4539,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -4313,6 +4568,7 @@ window.JOBS = [
       "Docker",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -4342,6 +4598,7 @@ window.JOBS = [
       "Docker",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -4364,6 +4621,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -4387,21 +4645,22 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
-    "id": "gh-wargaming-7972349",
+    "id": "gh-wargaming-7972350",
     "title": "Gameplay Developer (World of Tanks, PC)",
     "company": "Wargaming",
     "locations": [
-      "Vilnius"
+      "Warsaw"
     ],
     "remote": false,
     "rkind": null,
-    "salary": null,
+    "salary": "13 280 – 19 920 PLN",
     "posted": "2026-08-20",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7972349",
-    "desc": "Job Overview\n\nWargaming is inviting talented Gameplay developers who are ready to learn a lot, take responsibility for the result of their work and meet the expectations of our players together with us. In our team you will have to solve interesting tasks related to the development of World of Tanks on the whole technological stack.\n\nWhat will you do?\n\n• Participate in the creation of new game modes and logic on both game client and server using mainly Python;\n• Develop high performance (in terms of memory and execution time) in-game components;\n• Improve and develop the existing technology stack;\n• Work with dozens of additional services and applications that make up the large-scale infrastructure of our project (payment systems, authorization systems, analytical data warehouses, etc.);\n• Cover the functionality with tests.\n\nWhat are we looking for?\n\n• Experience in commercial software development;\n• Strong knowledge of basic data structures and algorithms;\n• Development experience in Python and/or C++;\n• Knowledge of design patterns;\n• Experience in developing asynchronous/multithreaded applications;\n• Knowledge of CPU and memory principles (RAM, ROM, cache, virtual memory, swap file, etc.);\n• Familiarity with databases, message brokers;\n• Knowledge of the basics of computer networks.\n\nWhat additional skills will help you stand out?\n\n• Experience in web applications development (frontend, backend);\n• Experience of working with distributed systems;\n• Passion for computer games;\n• Gamedev experience\n\nWork mode\n\n• Remote (from Lithuania).\n\nThe salary range for this role in Vilnius is EUR 3380-5060 monthly gross.\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Vilnius include:\n\n• Additional paid time off\n• Sick Leave Compensation\n• Pregnancy and Childbirth Leave Benefit\n• Career development and education opportunities within the company\n• Meal Allowance\n• Premium Private Health Care\n• Mental well-being program (iFeel)\n• Perks discounts platform (over 450 exclusive discounts)\n• Personal Gaming Account\n• Coffee, fruits, and snacks in the office\n• Company events\n• Seniority Awards\n• Referral program - You can recommend the best talents to the company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7972350",
+    "desc": "Job Overview\n\nWargaming is inviting talented Gameplay developers who are ready to learn a lot, take responsibility for the result of their work and meet the expectations of our players together with us. In our team you will have to solve interesting tasks related to the development of World of Tanks on the whole technological stack.\n\nWhat will you do?\n\n• Participate in the creation of new game modes and logic on both game client and server using mainly Python;\n• Develop high performance (in terms of memory and execution time) in-game components;\n• Improve and develop the existing technology stack;\n• Work with dozens of additional services and applications that make up the large-scale infrastructure of our project (payment systems, authorization systems, analytical data warehouses, etc.);\n• Cover the functionality with tests.\n\nWhat are we looking for?\n\n• Experience in commercial software development;\n• Strong knowledge of basic data structures and algorithms;\n• Development experience in Python and/or C++;\n• Knowledge of design patterns;\n• Experience in developing asynchronous/multithreaded applications;\n• Knowledge of CPU and memory principles (RAM, ROM, cache, virtual memory, swap file, etc.);\n• Familiarity with databases, message brokers;\n• Knowledge of the basics of computer networks.\n\nWhat additional skills will help you stand out?\n\n• Experience in web applications development (frontend, backend);\n• Experience of working with distributed systems;\n• Passion for computer games;\n• Gamedev experience\n\nWork mode\n\n• Full-time employment\n• Remote (from Poland)\n\nType of Contract and Salary\n\n• Employment Contract (umowa o prace)\n• The salary range for this role is 13,280-19,920 PLN gross monthly (The final salary within the range will depend on the candidate’s experience, skills, and performance during the interview. Please note that this salary range applies to Poland; for other locations, it might be different.)\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Warsaw include:\n\n• Additional paid time off (5 Personal Days, Birthday Leave) on top of the statutory minimum\n• Sick Leave 100% Compensation (10 days per calendar year)\n• Career development and education opportunities within the company\n• Premium Private Health Care\n• Mental well-being program (iFeel)\n• Multisport card\n• Personal Gaming Account\n• Company events\n• Seniority Awards\n• Referral program - you can recommend the best talents to the Company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Программирование",
@@ -4410,7 +4669,8 @@ window.JOBS = [
     "stack": [
       "C++",
       "Python"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-tripledot-belka-4955732101",
@@ -4433,6 +4693,7 @@ window.JOBS = [
     "stack": [
       "Figma"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -4457,6 +4718,7 @@ window.JOBS = [
       "Python",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -4481,6 +4743,7 @@ window.JOBS = [
       "Python",
       "Docker"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -4506,6 +4769,7 @@ window.JOBS = [
       "Maya",
       "Perforce"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -4529,7 +4793,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "Python"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-epic-games-5990685004",
@@ -4553,6 +4818,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -4575,6 +4841,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -4599,6 +4866,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -4625,6 +4893,7 @@ window.JOBS = [
       "AWS",
       "Docker"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -4651,6 +4920,7 @@ window.JOBS = [
       "Python",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -4676,6 +4946,7 @@ window.JOBS = [
       "Blender",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -4703,6 +4974,7 @@ window.JOBS = [
       "Maya",
       "Blender"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -4727,6 +4999,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -4751,6 +5024,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -4772,6 +5046,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -4800,6 +5075,7 @@ window.JOBS = [
       "AWS",
       "Docker"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -4821,6 +5097,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -4846,6 +5123,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -4868,7 +5146,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "SQL"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-wargaming-8139010",
@@ -4892,6 +5171,7 @@ window.JOBS = [
       "Python",
       "Perforce"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -4917,6 +5197,7 @@ window.JOBS = [
       "C#",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -4938,6 +5219,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -4964,6 +5246,7 @@ window.JOBS = [
       "Spine",
       "Perforce"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -4989,6 +5272,7 @@ window.JOBS = [
       "C#",
       "Python"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5013,6 +5297,7 @@ window.JOBS = [
       "Unity",
       "Spine"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5034,6 +5319,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5057,6 +5343,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5081,6 +5368,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5104,6 +5392,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5133,6 +5422,7 @@ window.JOBS = [
       "Blender",
       "Houdini"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5154,6 +5444,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5175,6 +5466,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5198,6 +5490,7 @@ window.JOBS = [
     "stack": [
       "Java"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5219,6 +5512,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5242,6 +5536,7 @@ window.JOBS = [
     "stack": [
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5265,6 +5560,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5290,6 +5586,7 @@ window.JOBS = [
       "Maya",
       "Substance"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5314,6 +5611,7 @@ window.JOBS = [
       "Unity",
       "Maya"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5336,6 +5634,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ko",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5358,6 +5657,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ko",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5379,6 +5679,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5403,6 +5704,7 @@ window.JOBS = [
       "Unity",
       "Blender"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5428,7 +5730,8 @@ window.JOBS = [
       "Unreal",
       "Python",
       "Docker"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-tripledot-belka-4954095101",
@@ -5449,6 +5752,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5470,6 +5774,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5491,6 +5796,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5512,6 +5818,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5534,6 +5841,7 @@ window.JOBS = [
     "spec": null,
     "permit": true,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5556,7 +5864,8 @@ window.JOBS = [
     "spec": "Фронтенд",
     "stack": [
       "TypeScript"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "lv-easybrain-4bcf5107-5f98-4df7-8462-e0154e1ddf95",
@@ -5581,6 +5890,7 @@ window.JOBS = [
       "Photoshop",
       "Spine"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5602,6 +5912,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5623,6 +5934,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5646,6 +5958,7 @@ window.JOBS = [
     "spec": null,
     "permit": true,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5668,6 +5981,7 @@ window.JOBS = [
     "spec": null,
     "permit": true,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5692,6 +6006,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5718,6 +6033,7 @@ window.JOBS = [
       "AWS",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5742,6 +6058,7 @@ window.JOBS = [
       "Unreal",
       "Maya"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5763,6 +6080,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5784,6 +6102,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5805,6 +6124,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5829,6 +6149,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5850,6 +6171,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5875,6 +6197,7 @@ window.JOBS = [
       "C++",
       "C#"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5896,21 +6219,22 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
-    "id": "gh-rockstar-games-7644896003",
+    "id": "gh-rockstar-games-7893386003",
     "title": "Application Security Engineer",
     "company": "Rockstar Games",
     "locations": [
-      "Leeds, United Kingdom"
+      "Dundee, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-18",
-    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7644896003",
-    "desc": "At Rockstar Games, we create world-class entertainment experiences.\n\nBecome part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry.\n\nRockstar is on the lookout for a passionate Application Security Engineer who possess a passion for diving into complex software designs to identify security flaws and vulnerabilities.\n\nThis is a full-time, permanent and in-office position based in Rockstar’s unique game development studio in the heart of Leeds, England.\n\nWHAT WE DO\n\n• The Rockstar Games Application Security team partners with numerous development teams across the company to incorporate security practices throughout the software development lifecycle.\n• We strive to understand the threat landscape affecting our development studios, the gaming industry, and the world at large to define secure development standards and guidelines to safeguard our business and protect our players.\n• We independently assess our application code and builds through various techniques (static analysis, dynamic analysis, software composition analysis, etc.) to identify potential vulnerabilities and design flaws and work with development teams to remediate.\n\nRESPONSIBILITIES\n\n• Track trends in the security community and stay abreast of emerging threats.\n• Provide technical security guidance to developers, team leads and producers.\n• Create and maintain threat models of applications and features to systematically understand how they can be attacked to prioritize control development.\n• Conduct automated and manual security assessments of applications and services.\n• Drive remediation efforts behind internally and publicly identified vulnerabilities.\n• Support maintaining Rockstar Games’ public and private bug bounty programs.\n\nREQUIREMENTS\n\n• 3+ years of experience working in a professional, academic or research environment identifying and remediating security bugs/flaws.\n• Strong knowledge of the principles and techniques for both manual and automated application security assessments of desktop and web applications.\n• Good knowledge of common web security vulnerabilities (e.g., OWASP Top 10), attack techniques and remediation tactics/strategies.\n• Good understanding of common low-level vulnerabilities (e.g. use-after-free and buffer overflows)and common mitigations.\n• Good understanding of networking and web technologies (e.g. WebSockets, HTTPS, TCP/IP, UDP) and security controls relevant to them.\n• Familiarity with Windows and Linux operating systems fundamentals.\n• Familiarity with the software development lifecycle (SDLC) and working knowledge of components to secure the SLDC.\n• Practical experience with client network traffic testing tools and techniques e.g., Burp Suite, Fiddler and Bruno.\n• Practical experience with thick client testing tools and techniques e.g. Procmon, Strings2, Dependencies.\n• Proficiency in C#.\n• Excellent communication skills.\n\nPLUSES\n\nPlease note that these are desirable skills and are not required to apply for the position.\n\n• BSc/MSc in a computer science or related field.\n• Background in reverse engineering and exploit research & development and relevant tools such as Ghidra, IDA, x64dbg and WinDbg.\n• Experience with scripting and process automation. An understanding of effective practices for securing the SDLC that considers developer experience, sustainability and compliments release velocity.\n• Experience with authentication protocols and extensions such as OAuth2 and OIDC.\n• Experience in results-oriented, retail driven environment with strict deadlines and ship dates.\n• Familiarity with bug bounty programs/responsible disclosure programs, either running one or as a researcher.\n• Proficiency in C++ and JavaScript/TypeScript.\n\nHOW TO APPLY\n\nPlease apply with a CV and cover letter demonstrating how you meet the skills above. If we would like to move forward with your application, a Rockstar recruiter will reach out to you to explain next steps and guide you through the process.\n\nRockstar is committed to creating a work environment that promotes equal opportunity, dignity and respect. In line with this commitment, Rockstar will provide reasonable accommodations to qualified job applicants with disabilities during the recruitment process in order for such applicants to be considered for the position for which they are applying, as well as to qualified employees to enable them to perform the essential functions of their roles. If you need more information about Rockstar’s reasonable accommodation policies or process, or need to request an accommodation, please notify your recruiter during the interview process.\n\nIf you’ve got the right skills for the job, we want to hear from you. We encourage applications from all suitable candidates regardless of age, disability, gender identity, sexual orientation, religion, belief, race, or any other protected category.\n\n#LI-AH",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7893386003",
+    "desc": "At Rockstar Games, we create world-class entertainment experiences.\n\nBecome part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry.\n\nRockstar is on the lookout for a passionate Application Security Engineer who possess a passion for diving into complex software designs to identify security flaws and vulnerabilities.\n\nThis is a full-time, permanent and in-office position based in Rockstar’s unique game development studio in the heart of Dundee, Scotland.\n\nWHAT WE DO\n\n• The Rockstar Games Application Security team partners with numerous development teams across the company to incorporate security practices throughout the software development lifecycle.\n• We strive to understand the threat landscape affecting our development studios, the gaming industry, and the world at large to define secure development standards and guidelines to safeguard our business and protect our players.\n• We independently assess our application code and builds through various techniques (static analysis, dynamic analysis, software composition analysis, etc.) to identify potential vulnerabilities and design flaws and work with development teams to remediate.\n\nRESPONSIBILITIES\n\n• Track trends in the security community and stay abreast of emerging threats.\n• Provide technical security guidance to developers, team leads and producers.\n• Create and maintain threat models of applications and features to systematically understand how they can be attacked to prioritize control development.\n• Conduct automated and manual security assessments of applications and services.\n• Drive remediation efforts behind internally and publicly identified vulnerabilities.\n• Support maintaining Rockstar Games’ public and private bug bounty programs.\n\nREQUIREMENTS\n\n• 3+ years of experience working in a professional, academic or research environment identifying and remediating security bugs/flaws.\n• Strong knowledge of the principles and techniques for both manual and automated application security assessments of desktop and web applications.\n• Good knowledge of common web security vulnerabilities (e.g., OWASP Top 10), attack techniques and remediation tactics/strategies.\n• Good understanding of common low-level vulnerabilities (e.g. use-after-free and buffer overflows)and common mitigations.\n• Good understanding of networking and web technologies (e.g. WebSockets, HTTPS, TCP/IP, UDP) and security controls relevant to them.\n• Familiarity with Windows and Linux operating systems fundamentals.\n• Familiarity with the software development lifecycle (SDLC) and working knowledge of components to secure the SLDC.\n• Practical experience with client network traffic testing tools and techniques e.g., Burp Suite, Fiddler and Bruno.\n• Practical experience with thick client testing tools and techniques e.g. Procmon, Strings2, Dependencies.\n• Proficiency in C#.\n• Excellent communication skills.\n\nPLUSES\n\nPlease note that these are desirable skills and are not required to apply for the position.\n\n• BSc/MSc in a computer science or related field.\n• Background in reverse engineering and exploit research & development and relevant tools such as Ghidra, IDA, x64dbg and WinDbg.\n• Experience with scripting and process automation. An understanding of effective practices for securing the SDLC that considers developer experience, sustainability and compliments release velocity.\n• Experience with authentication protocols and extensions such as OAuth2 and OIDC.\n• Experience in results-oriented, retail driven environment with strict deadlines and ship dates.\n• Familiarity with bug bounty programs/responsible disclosure programs, either running one or as a researcher.\n• Proficiency in C++ and JavaScript/TypeScript.\n\nHOW TO APPLY\n\nPlease apply with a CV and cover letter demonstrating how you meet the skills above. If we would like to move forward with your application, a Rockstar recruiter will reach out to you to explain next steps and guide you through the process.\n\nRockstar is committed to creating a work environment that promotes equal opportunity, dignity and respect. In line with this commitment, Rockstar will provide reasonable accommodations to qualified job applicants with disabilities during the recruitment process in order for such applicants to be considered for the position for which they are applying, as well as to qualified employees to enable them to perform the essential functions of their roles. If you need more information about Rockstar’s reasonable accommodation policies or process, or need to request an accommodation, please notify your recruiter during the interview process.\n\nIf you’ve got the right skills for the job, we want to hear from you. We encourage applications from all suitable candidates regardless of age, disability, gender identity, sexual orientation, religion, belief, race, or any other protected category.\n\n#LI-AH",
     "site": "rockstargames.com",
     "source": "greenhouse",
     "role": "Программирование",
@@ -5922,7 +6246,7 @@ window.JOBS = [
       "TypeScript",
       "JavaScript"
     ],
-    "hasRu": true
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-socialpoint-5976449004",
@@ -5944,6 +6268,7 @@ window.JOBS = [
     "spec": null,
     "permit": true,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5969,6 +6294,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -5994,6 +6320,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -6016,6 +6343,7 @@ window.JOBS = [
     "spec": null,
     "permit": true,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -6042,6 +6370,7 @@ window.JOBS = [
       "SQL",
       "Docker"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -6067,6 +6396,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -6092,6 +6422,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -6117,6 +6448,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -6139,6 +6471,7 @@ window.JOBS = [
     "spec": null,
     "permit": true,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -6164,6 +6497,7 @@ window.JOBS = [
       "C++",
       "Python"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -6187,6 +6521,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -6211,6 +6546,7 @@ window.JOBS = [
       "Unreal",
       "Maya"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -6234,6 +6570,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -6258,6 +6595,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -6281,6 +6619,7 @@ window.JOBS = [
     "stack": [
       "Python"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -6303,6 +6642,7 @@ window.JOBS = [
     "spec": null,
     "permit": true,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -6328,6 +6668,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -6356,6 +6697,7 @@ window.JOBS = [
       "Python",
       "Perforce"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -6381,6 +6723,7 @@ window.JOBS = [
       "AWS",
       "Docker"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -6406,6 +6749,7 @@ window.JOBS = [
       "Unreal",
       "C#"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -6431,6 +6775,7 @@ window.JOBS = [
       "ZBrush",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -6452,6 +6797,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -6478,6 +6824,7 @@ window.JOBS = [
       "Substance",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -6499,21 +6846,22 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
-    "id": "gh-wargaming-7955999",
+    "id": "gh-wargaming-7955997",
     "title": "Data Analyst",
     "company": "Wargaming",
     "locations": [
-      "Nicosia"
+      "Belgrade"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7955999",
-    "desc": "Job Overview\n\nWe are seeking a data analytics professional to join our Data & Marketing Tech Team, to help improve measurement, analysis, and decision-making across complex data environments. This role combines data analysis, data research, and applied AI automation to work with multiple data sources, investigate business questions, and support reliable, scalable analytical workflows.\n\nReports to\n\n• Team Lead of Data & Marketing Technology\n\nWhat will you do?\n\n• Analyze data to answer business questions, identify patterns, and generate actionable insights\n• Research data across complex systems with multiple internal and external sources, understanding data flows, dependencies, and limitations\n• Support experiment measurement and analysis, including A/B tests, incrementality studies, and creative testing\n• Partner with marketing, product, and engineering on tracking requirements, measurement plans, and documentation\n• Design AI-powered automations for insight generation, anomaly detection, data validation, and analytical workflows\n• Help maintain data pipelines/semantic layers; ensure metric definitions and transformation logic are clean and well-documented\n\nWhat are we looking for?\n\n• Educated in Computer Science, Mathematics, Physics, or a similar field\n• Hands-on experience with data analysis and automation (SQL + Python, BI tools, workflow automation)\n• Proactive mindset and eagerness to grow practical AI skills (ML fundamentals, LLM tooling, data quality automation)\n• Experience operationalizing LLM workflows (prompting, evaluation, guardrails) for analytics use cases\n• Responsible, self-driven approach with the ability to take ownership of tasks and communicate proactively\n\nWhat additional skills will help you stand out?\n\n• Experience with warehouses (BigQuery/Snowflake), dbt, Airflow, or similar\n• Experience with product, marketing, or user behavior analytics, including funnels, cohorts, retention, attribution, LTV, experimentation, or similar measurement topics\n• Familiarity with mobile attribution, analytics, or measurement platforms, as well as working with multi-source data integration\n• Experience with predictive modeling techniques (e.g., regression/classification, time-series forecasting, uplift/propensity modeling) and model evaluation\n\nWork mode\n\n• Hybrid (2-3 days of work from the office)\n• This role is eligible for relocation & immigration support.\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Nicosia include:\n\n• 21 days annual leave (additional days based on years of service: up to 25 days)\n• Additional paid time off (5 Personal Days, Birthday Leave, Marriage Leave, Compassionate Leave)\n• Sick Leave (10 days top-up to statutory allowance per year)\n• Maternity Leave (18 weeks top-up to statutory allowance per case)\n• Career development and education opportunities within the company\n• English Language courses fully covered by the company upon Manager’s approval\n• Private Health Care\n• Mental well-being program (iFeel)\n• Onsite gym and spa\n• Free parking close to the Nicosia offices, based on availability\n• Free drinks-equipped kitchen in every floor building\n• Hellenic Bank benefits (if applicable)\n• Employee discounts (e.g. restaurants, bars, etc.)\n• Personal Gaming Account\n• Onsite canteen with subsidized prices for food and drinks\n• Company events, Social Clubs\n• Seniority Awards\n• Referral program - You can recommend the best talents to the company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7955997",
+    "desc": "Job Overview\n\nWe are seeking a data analytics professional to join our Data & Marketing Tech Team, to help improve measurement, analysis, and decision-making across complex data environments. This role combines data analysis, data research, and applied AI automation to work with multiple data sources, investigate business questions, and support reliable, scalable analytical workflows.\n\nReports to\n\n• Team Lead of Data & Marketing Technology\n\nWhat will you do?\n\n• Analyze data to answer business questions, identify patterns, and generate actionable insights\n• Research data across complex systems with multiple internal and external sources, understanding data flows, dependencies, and limitations\n• Support experiment measurement and analysis, including A/B tests, incrementality studies, and creative testing\n• Partner with marketing, product, and engineering on tracking requirements, measurement plans, and documentation\n• Design AI-powered automations for insight generation, anomaly detection, data validation, and analytical workflows\n• Help maintain data pipelines/semantic layers; ensure metric definitions and transformation logic are clean and well-documented\n\nWhat are we looking for?\n\n• Educated in Computer Science, Mathematics, Physics, or a similar field\n• Hands-on experience with data analysis and automation (SQL + Python, BI tools, workflow automation)\n• Proactive mindset and eagerness to grow practical AI skills (ML fundamentals, LLM tooling, data quality automation)\n• Experience operationalizing LLM workflows (prompting, evaluation, guardrails) for analytics use cases\n• Responsible, self-driven approach with the ability to take ownership of tasks and communicate proactively\n\nWhat additional skills will help you stand out?\n\n• Experience with warehouses (BigQuery/Snowflake), dbt, Airflow, or similar\n• Experience with product, marketing, or user behavior analytics, including funnels, cohorts, retention, attribution, LTV, experimentation, or similar measurement topics\n• Familiarity with mobile attribution, analytics, or measurement platforms, as well as working with multi-source data integration\n• Experience with predictive modeling techniques (e.g., regression/classification, time-series forecasting, uplift/propensity modeling) and model evaluation\n\nWork mode\n\n• Hybrid (2-3 days of work from the office)\n• This role is eligible for relocation & immigration support.\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Belgrade include:\n\n• Additional vacation days based on years of service at Wargaming: up to 5 days on top of the statutory minimum\n• Additional paid time off (5 Personal Days, Birthday Leave, Marriage Leave, Compassionate Leave)\n• Sick Leave Compensation, Maternity Leave Benefits\n• Premium Private Health Insurance\n• Career development and education opportunities within the company\n• English clubs and platform for learning languages\n• Mental well-being program (iFeel)\n• Commuting allowance\n• Company events\n• FitPass membership\n• Discounts for employees\n• Personal Gaming Account\n• Coffee, fruits, and snacks in the office\n• On-site canteen with subsidized prices for food and drinks\n• Seniority Awards\n• Referral program - you can recommend the best talents to the Company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\n\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Аналитика",
@@ -6522,7 +6870,9 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "seen": "2026-08-25",
+    "hasRu": true
   },
   {
     "id": "gh-wargaming-8078945",
@@ -6548,27 +6898,30 @@ window.JOBS = [
       "Photoshop",
       "Figma"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
-    "id": "gh-wargaming-8129695",
+    "id": "gh-wargaming-8129700",
     "title": "Game Designer (World of Tanks PC)",
     "company": "Wargaming",
     "locations": [
-      "Nicosia"
+      "Vilnius"
     ],
     "remote": false,
     "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8129695",
-    "desc": "Job Overview\n\nWargaming is looking for a Game Designer to work on the legendary World of Tanks action MMO game with 160 million registered users worldwide.\n\nReports to\n\nLead Game Designer\n\nWhat will you do?\n\n• Feature owning in a separate team on the project. Controlling the game design direction and final quality of the features.\n• Working with core gameplay and meta. Focus here may differ depending on the current team’s priorities and backlog.\n• Participation in brainstorms & playtests.\n• Being responsible for translating the high-level game vision and design direction into tangible gameplay elements that work in concert with each other and with the other core disciplines (LD, narrative, level, art, sound, and tech) to create compelling and fun game experiences for the player.\n• Designing and communicating consistent game experiences across all main AAA platforms.\n• Using input from research, data analysis, and other teams to deeply understand customers and drive design decisions.\n\nWhat are we looking for?\n\n• 3+ years of experience as a Game Designer.\n• Good understanding of the modern f2p game design from sides of both core and meta gameplay.\n• Deep shooter experience: as a player or as a game designer.\n• Excellent communication and collaboration skills.\n• Ability to work within restrictions to solve problems as they occur.\n• Active contribution to the growth of the studio. Lead by example, including demonstrating a willingness to give and receive feedback, collaborate with others to share techniques, and ideas, and contribute to a positive working environment.\n• Willingness to take initiative and responsibility to increase the quality of the game and the health of the team.\n• Deep understanding of the needs of game users, and familiarity with the various processes of game production and operation.\n\nWhat additional skills will help you stand out?\n\n• Good knowledge of World of Tanks mechanics and systems.\n• Solid gameplay experience in World of Tanks.\n• Experience working on other Vehicle Shooter titles.\n\nWork mode\n\nHybrid\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Nicosia include:\n\n• 21 days annual leave (additional days based on years of service: up to 25 days)\n• Additional paid time off (5 Personal Days, Birthday Leave, Marriage Leave, Compassionate Leave)\n• Sick Leave (10 days top-up to statutory allowance per year)\n• Maternity Leave (18 weeks top-up to statutory allowance per case)\n• Career development and education opportunities within the company\n• English Language courses fully covered by the company upon Manager’s approval\n• Health Care\n• Mental well-being program (iFeel)\n• Onsite gym and spa\n• Free parking close to the Nicosia offices, based on availability\n• Free drinks-equipped kitchen in every floor building\n• Eurobank benefits (if applicable)\n• Employee discounts (e.g. restaurants, bars, etc.)\n• Personal Gaming Account\n• Onsite canteen with subsidized prices for food and drinks\n• Company events, Social Clubs\n• Seniority Awards\n• Referral program - You can recommend the best talents to the company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8129700",
+    "desc": "Job Overview\n\nWargaming is looking for a Game Designer to work on the legendary World of Tanks action MMO game with 160 million registered users worldwide.\n\nReports to\n\nLead Game Designer\n\nWhat will you do?\n\n• Feature owning in a separate team on the project. Controlling the game design direction and final quality of the features.\n• Working with core gameplay and meta. Focus here may differ depending on the current team’s priorities and backlog.\n• Participation in brainstorms & playtests.\n• Being responsible for translating the high-level game vision and design direction into tangible gameplay elements that work in concert with each other and with the other core disciplines (LD, narrative, level, art, sound, and tech) to create compelling and fun game experiences for the player.\n• Designing and communicating consistent game experiences across all main AAA platforms.\n• Using input from research, data analysis, and other teams to deeply understand customers and drive design decisions.\n\nWhat are we looking for?\n\n• 3+ years of experience as a Game Designer.\n• Good understanding of the modern f2p game design from sides of both core and meta gameplay.\n• Deep shooter experience: as a player or as a game designer.\n• Excellent communication and collaboration skills.\n• Ability to work within restrictions to solve problems as they occur.\n• Active contribution to the growth of the studio. Lead by example, including demonstrating a willingness to give and receive feedback, collaborate with others to share techniques, and ideas, and contribute to a positive working environment.\n• Willingness to take initiative and responsibility to increase the quality of the game and the health of the team.\n• Deep understanding of the needs of game users, and familiarity with the various processes of game production and operation.\n\nWhat additional skills will help you stand out?\n\n• Good knowledge of World of Tanks mechanics and systems.\n• Solid gameplay experience in World of Tanks.\n• Experience working on other Vehicle Shooter titles.\n\nWork mode\n\n• Hybrid\n\nThe salary range for this role in Vilnius is 3040- 4000 EUR monthly gross.\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Vilnius include:\n\n• Additional paid time off\n• Sick Leave Compensation\n• Pregnancy and Childbirth Leave Benefit\n• Career development and education opportunities within the company\n• Meal Allowance\n• Premium Private Health Care\n• Mental well-being program (iFeel)\n• Perks discounts platform (over 450 exclusive discounts)\n• Personal Gaming Account\n• Coffee, fruits, and snacks in the office\n• Company events\n• Seniority Awards\n• Referral program - You can recommend the best talents to the company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Геймдизайн",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "seen": "2026-08-25",
+    "hasRu": true
   },
   {
     "id": "gh-wargaming-8078961",
@@ -6589,27 +6942,29 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
-    "id": "gh-wargaming-8064276",
+    "id": "gh-wargaming-8064286",
     "title": "Lead Art Owner/Art Producer (World of Tanks PC)",
     "company": "Wargaming",
     "locations": [
-      "Belgrade"
+      "Vilnius"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8064276",
-    "desc": "Job Overview\n\nWe are looking for a Lead Art Owner/Art Producer to manage a team of Art Owners supporting World of Tanks game production. This role combines people management, resource planning, production coordination, and process improvement to ensure the AO team operates effectively and the art pipeline runs smoothly. Lead Art Owner/Art Producer will work closely with cross-functional stakeholders - Art Direction, Art Management, Production, Project Management, and Design. Lead Art Owner/Art Producer will oversee workload, balance scope against capacity, support delivery planning, grow team capability, and drive cross-functional alignment. This role requires a strong understanding of art production, excellent communication skills, and an openness to innovation, including AI-driven workflow improvements.\n\nReports to\n\nArt Department Manager\n\nWhat will you do?\n\n• Lead a team of Art Owners\n• Conduct regular 1:1s, provide feedback, and manage performance through quarterly/annual goals and regular reviews.\n• Monitor AO workload and utilization, balancing scope and capacity across the team.\n• Coach and mentor the team in terms of their long-term skills development.\n• Partner with production and art leadership on resource planning and proactively address bandwidth or staffing risks.\n• Ensure clear priorities, ownership, and escalation paths for the AO team.\n• Improve task handoff, delivery flow, and coordination across the AO function.\n• Help AO team to identify and remove bottlenecks, mitigate risks, and ensure smooth art production delivery.\n• Act as a key point of contact for cross-functional stakeholders - Producers, Art Directors, Art Managers, Project Managers, and Design.\n• Strengthen stakeholder alignment, team collaboration, and communication transparency.\n• Review and improve AO-related processes, workflows, and best practices.\n• Drive innovation through smarter ways of working, including AI-enabled tools and automation where relevant.\n\nWhat are we looking for?\n\n• Experience leading or managing a team in game development, ideally in a AAA environment.\n• Strong people management skills, including coaching, feedback, and performance reviews.\n• Experience in resource management, workload balancing, and production planning.\n• Proven ability to work closely with art teams and cross-functional stakeholders.\n• Solid understanding of art production pipelines and delivery workflows.\n• Experience improving processes in complex, multi-stakeholder environments.\n• Previous hands-on art background in any discipline.\n• Strong communication, stakeholder management, and alignment skills.\n• English skills (B2+), written and spoken.\n• Russian skills (B2+), written and spoken\n\nWhat additional skills will help you stand out?\n\n• Familiarity with AI tools, automation, and/or workflow innovation in game production.\n\nWork mode\n\n• Hybrid (2-3 days of work from the office)\n• This role is eligible for relocation & immigration support.\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Belgrade include:\n\n• Additional vacation days based on years of service at Wargaming: up to 5 days on top of the statutory minimum\n• Additional paid time off (5 Personal Days, Birthday Leave, Marriage Leave, Compassionate Leave)\n• Sick Leave Compensation, Maternity Leave Benefits\n• Premium Private Health Insurance\n• Career development and education opportunities within the company\n• English clubs and platform for learning languages\n• Mental well-being program (iFeel)\n• Commuting allowance\n• Company events\n• FitPass membership\n• Discounts for employees\n• Personal Gaming Account\n• Coffee, fruits, and snacks in the office\n• On-site canteen with subsidized prices for food and drinks\n• Seniority Awards\n• Referral program - you can recommend the best talents to the Company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\n\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8064286",
+    "desc": "Job Overview\n\nWe are looking for a Lead Art Owner/Art Producer to manage a team of Art Owners supporting World of Tanks game production. This role combines people management, resource planning, production coordination, and process improvement to ensure the AO team operates effectively and the art pipeline runs smoothly. Lead Art Owner/Art Producer will work closely with cross-functional stakeholders - Art Direction, Art Management, Production, Project Management, and Design. Lead Art Owner/Art Producer will oversee workload, balance scope against capacity, support delivery planning, grow team capability, and drive cross-functional alignment. This role requires a strong understanding of art production, excellent communication skills, and an openness to innovation, including AI-driven workflow improvements.\n\nReports to\n\nArt Department Manager\n\nWhat will you do?\n\n• Lead a team of Art Owners\n• Conduct regular 1:1s, provide feedback, and manage performance through quarterly/annual goals and regular reviews.\n• Monitor AO workload and utilization, balancing scope and capacity across the team.\n• Coach and mentor the team in terms of their long-term skills development.\n• Partner with production and art leadership on resource planning and proactively address bandwidth or staffing risks.\n• Ensure clear priorities, ownership, and escalation paths for the AO team.\n• Improve task handoff, delivery flow, and coordination across the AO function.\n• Help AO team to identify and remove bottlenecks, mitigate risks, and ensure smooth art production delivery.\n• Act as a key point of contact for cross-functional stakeholders - Producers, Art Directors, Art Managers, Project Managers, and Design.\n• Strengthen stakeholder alignment, team collaboration, and communication transparency.\n• Review and improve AO-related processes, workflows, and best practices.\n• Drive innovation through smarter ways of working, including AI-enabled tools and automation where relevant.\n\nWhat are we looking for?\n\n• Experience leading or managing a team in game development, ideally in a AAA environment.\n• Strong people management skills, including coaching, feedback, and performance reviews.\n• Experience in resource management, workload balancing, and production planning.\n• Proven ability to work closely with art teams and cross-functional stakeholders.\n• Solid understanding of art production pipelines and delivery workflows.\n• Experience improving processes in complex, multi-stakeholder environments.\n• Previous hands-on art background in any discipline.\n• Strong communication, stakeholder management, and alignment skills.\n• English skills (B2+), written and spoken.\n• Russian skills (B2+), written and spoken\n\nWhat additional skills will help you stand out?\n\n• Familiarity with AI tools, automation, and/or workflow innovation in game production.\n\nWork mode\n\n• Hybrid (2-3 days of work from the office)\n• This role is eligible for relocation & immigration support.\n\nThe salary range for this role in Vilnius is EUR 5670 monthly gross.\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Vilnius include:\n\n• Additional paid time off\n• Sick Leave Compensation\n• Pregnancy and Childbirth Leave Benefit\n• Career development and education opportunities within the company\n• Meal Allowance\n• Premium Private Health Care\n• Mental well-being program (iFeel)\n• Perks discounts platform (over 450 exclusive discounts)\n• Personal Gaming Account\n• Coffee, fruits, and snacks in the office\n• Company events\n• Seniority Awards\n• Referral program - You can recommend the best talents to the company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Арт",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-wargaming-7904063",
@@ -6630,67 +6985,22 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
-    "id": "gh-wargaming-7716269",
-    "title": "Project Manager (World of Tanks: HEAT)",
-    "company": "Wargaming",
-    "locations": [
-      "Nicosia"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7716269",
-    "desc": "Job Overview\n\nAbout the Project\n\nWorld of Tanks: HEAT is a cross-platform (PC and consoles) tank MMO shooter currently in development. We're building on the legacy of one of the most successful free-to-play games while creating something fresh for a new generation of players.\n\nAbout the Team\n\nOur teams own and develop core gameplay systems that define the player’s experience in battle, including hero abilities, agent creation, combat mechanics, and game modes. We build the systems that make moment-to-moment gameplay engaging, responsive, and strategically deep. From designing unique hero kits to implementing new gameplay loops and modes, we shape how players interact with the game at its core.\n\nA team consists of game mode and hero designers, UX designers, C++ and UI developers, and QAs, working together to deliver cohesive gameplay experiences. We collaborate closely with art teams — including VFX, SFX, 2D Art and 3D modeling — to bring mechanics and abilities to life with strong visual and audio feedback. We hold ourselves to a high technical bar and care deeply about both craft and delivery.\n\nAs we grow, we need more support on the managerial side. You'll join an existing Delivery Manager who will support your onboarding and partner with you as we scale.\n\nThe Role\n\nAs a Project Manager, you work with the team to turn gameplay vision into deliverable iterations — from new hero mechanics and ability systems to full-fledged game modes. You balance competing priorities, ensure alignment between design and implementation, and keep development moving smoothly. You're not here to push tasks, but to build a system where a talented team can do their best work and ship reliably.\n\nThis role requires a servant leadership mindset. You enable teams rather than direct them. You create visibility, remove impediments, and empower people to self-organize and collaborate effectively across disciplines. You help navigate the complexity of gameplay development — where design iteration, technical constraints, and player experience must come together seamlessly.\n\nYou're a force multiplier. When you're doing your job well, the team delivers high-quality gameplay features faster, with clarity and confidence.\n\nReports to\n\nDelivery Manager\n\nWhat will you do?\n\nRole Mission: ensure predictable and efficient delivery of features by supporting Feature Owners and teams in planning, execution, and continuous improvement.\n\nPlanning & Delivery\n\n• Plan iteration and release scope with the team based on product priorities, feature scope, team capacity\n• Ensure realistic and stable commitments for each iteration\n• Run the estimation process and shape quarterly roadmaps, monthly releases, and bi-weekly iterations\n• Work with teams to find the best implementation paths for product requirements\n• Monitor delivery progress and adjust plans to maintain predictability\n• Identify risks early and drive mitigation actions\n\nProcess & Facilitation\n\n• Follow and support team processes within our broader framework\n• Facilitate core team ceremonies (refinements, plannings, and preparation sessions for monthly and quarterly cycles, retrospectives)\n• Support Feature Owners and teams in moving features through lifecycle phases (Concept → Prototyping → Production)\n• Track delivery metrics (throughput, cycle time, defect’s number, velocity) and use them to drive decisions\n• Identify bottlenecks and improve flow across delivery pipelines\n• Drive continuous improvement of team processes and ways of working\n\nCoordination & Communication\n\n• Facilitate cross-team synchronization between teams, ensuring alignment without creating overhead\n• Balance requests from stakeholders against team capacity\n• Manage dependencies with external teams\n• Keep stakeholders informed on progress, risks, and tradeoffs\n• Help stakeholders refine priorities based on what's realistic\n• Manage expectations from both internal and external teams and stakeholders\n\nTeam Health & Performance\n\n• Remove blockers and enable team productivity\n• Identify and mitigate risks before they impact delivery\n• Facilitate conflict resolution within the team\n• Foster a collaborative and high-performance team environment\n• Enable teams to self-organize and continuously improve\n\nOut of Scope:\n\nThis role does not:\n\n• Own product backlog or prioritization\n• Define feature scope or requirements\n• Make design, technical decisions\n• Manage team directly.\n\nWhat are we looking for?\n\n• Proven experience as a Delivery Manager, Producer, or Project Manager on game development teams (4+ years preferred)\n• Experience across all stages of game development or product development from concept to release and live operations\n• Strong stakeholder management skills - you can navigate competing interests, set expectations, build trust, and maintain alignment across teams and leadership levels\n• Strong facilitation skills - you can run a planning session that people find useful\n• Experience managing distributed or hybrid multi-cultural teams working across different locations or time zones\n• Ability to communicate clearly with both engineers and non-technical stakeholders\n• A servant leadership mindset - you see your role as enabling the team, not directing it\n• Resilience under pressure - you stay calm and effective when priorities shift or crises emerge\n\nWhat additional skills will help you stand out?\n\n• Experience in core gameplay production (heroes, abilities, game modes)\n• Experience with game feature development pipelines (concept → rapid prototyping → production)\n• Understanding of live game production, including seasonal content and player feedback\n• Experience working in cross-functional game development teams\n• Ability to work in creative, iterative environments\n• Strong personal gaming background (shooters, vehicle-based or competitive multiplayer games)\n• Background working in scaled agile environments with multiple dependent teams (LeSS, SAFe, or similar)\n\nWork mode…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "site": "wargaming.com",
-    "source": "greenhouse",
-    "role": "Продюсирование",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "C++"
-    ],
-    "hasRu": true
-  },
-  {
-    "id": "gh-wargaming-7716275",
-    "title": "Project Manager (World of Tanks: HEAT) (m/f/i)",
-    "company": "Wargaming",
-    "locations": [
-      "Warsaw"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7716275",
-    "desc": "Job Overview\n\nAbout the Project\n\nWorld of Tanks: HEAT is a cross-platform (PC and consoles) tank MMO shooter currently in development. We're building on the legacy of one of the most successful free-to-play games while creating something fresh for a new generation of players.\n\nAbout the Team\n\nOur teams own and develop core gameplay systems that define the player’s experience in battle, including hero abilities, agent creation, combat mechanics, and game modes. We build the systems that make moment-to-moment gameplay engaging, responsive, and strategically deep. From designing unique hero kits to implementing new gameplay loops and modes, we shape how players interact with the game at its core.\n\nA team consists of game mode and hero designers, UX designers, C++ and UI developers, and QAs, working together to deliver cohesive gameplay experiences. We collaborate closely with art teams — including VFX, SFX, 2D Art and 3D modeling — to bring mechanics and abilities to life with strong visual and audio feedback. We hold ourselves to a high technical bar and care deeply about both craft and delivery.\n\nAs we grow, we need more support on the managerial side. You'll join an existing Delivery Manager who will support your onboarding and partner with you as we scale.\n\nThe Role\n\nAs a Project Manager, you work with the team to turn gameplay vision into deliverable iterations — from new hero mechanics and ability systems to full-fledged game modes. You balance competing priorities, ensure alignment between design and implementation, and keep development moving smoothly. You're not here to push tasks, but to build a system where a talented team can do their best work and ship reliably.\n\nThis role requires a servant leadership mindset. You enable teams rather than direct them. You create visibility, remove impediments, and empower people to self-organize and collaborate effectively across disciplines. You help navigate the complexity of gameplay development — where design iteration, technical constraints, and player experience must come together seamlessly.\n\nYou're a force multiplier. When you're doing your job well, the team delivers high-quality gameplay features faster, with clarity and confidence.\n\nReports to\n\nDelivery Manager\n\nWhat will you do?\n\nRole Mission: ensure predictable and efficient delivery of features by supporting Feature Owners and teams in planning, execution, and continuous improvement.\n\nPlanning & Delivery\n\n• Plan iteration and release scope with the team based on product priorities, feature scope, team capacity\n• Ensure realistic and stable commitments for each iteration\n• Run the estimation process and shape quarterly roadmaps, monthly releases, and bi-weekly iterations\n• Work with teams to find the best implementation paths for product requirements\n• Monitor delivery progress and adjust plans to maintain predictability\n• Identify risks early and drive mitigation actions\n\nProcess & Facilitation\n\n• Follow and support team processes within our broader framework\n• Facilitate core team ceremonies (refinements, plannings, and preparation sessions for monthly and quarterly cycles, retrospectives)\n• Support Feature Owners and teams in moving features through lifecycle phases (Concept → Prototyping → Production)\n• Track delivery metrics (throughput, cycle time, defect’s number, velocity) and use them to drive decisions\n• Identify bottlenecks and improve flow across delivery pipelines\n• Drive continuous improvement of team processes and ways of working\n\nCoordination & Communication\n\n• Facilitate cross-team synchronization between teams, ensuring alignment without creating overhead\n• Balance requests from stakeholders against team capacity\n• Manage dependencies with external teams\n• Keep stakeholders informed on progress, risks, and tradeoffs\n• Help stakeholders refine priorities based on what's realistic\n• Manage expectations from both internal and external teams and stakeholders\n\nTeam Health & Performance\n\n• Remove blockers and enable team productivity\n• Identify and mitigate risks before they impact delivery\n• Facilitate conflict resolution within the team\n• Foster a collaborative and high-performance team environment\n• Enable teams to self-organize and continuously improve\n\nOut of Scope:\n\nThis role does not:\n\n• Own product backlog or prioritization\n• Define feature scope or requirements\n• Make design, technical decisions\n• Manage team directly.\n\nWhat are we looking for?\n\n• Proven experience as a Delivery Manager, Producer, or Project Manager on game development teams (4+ years preferred)\n• Experience across all stages of game development or product development from concept to release and live operations\n• Strong stakeholder management skills - you can navigate competing interests, set expectations, build trust, and maintain alignment across teams and leadership levels\n• Strong facilitation skills - you can run a planning session that people find useful\n• Experience managing distributed or hybrid multi-cultural teams working across different locations or time zones\n• Ability to communicate clearly with both engineers and non-technical stakeholders\n• A servant leadership mindset - you see your role as enabling the team, not directing it\n• Resilience under pressure - you stay calm and effective when priorities shift or crises emerge\n\nWhat additional skills will help you stand out?\n\n• Experience in core gameplay production (heroes, abilities, game modes)\n• Experience with game feature development pipelines (concept → rapid prototyping → production)\n• Understanding of live game production, including seasonal content and player feedback\n• Experience working in cross-functional game development teams\n• Ability to work in creative, iterative environments\n• Strong personal gaming background (shooters, vehicle-based or competitive multiplayer games)\n• Background working in scaled agile environments with multiple dependent teams (LeSS, SAFe, or similar)\n\nWork mode…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "site": "wargaming.com",
-    "source": "greenhouse",
-    "role": "Продюсирование",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "C++"
-    ],
-    "hasRu": true
-  },
-  {
-    "id": "gh-wargaming-7938117",
+    "id": "gh-wargaming-7938112",
     "title": "Render Engineer (Unannounced Project)",
     "company": "Wargaming",
     "locations": [
-      "Nicosia"
+      "Belgrade"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7938117",
-    "desc": "Job Overview\n\nWargaming is looking for a Render Developer to join our Game Engine Development team. This position includes working on development of a cross-platform game engine which is written in C++.\n\nWhat will you do?\n\n• Implement new and improve existing graphic features\n• Refactoring, code optimization, fix graphic bugs\n• Writing code according to code style\n• Creation of tech documentation\n\nWhat are we looking for?\n\n• 2+ year of experience in commercial C++ development\n• Experience in any graphics API (DirectX, Vulkan, OpenGL)\n• Experience in writing shaders (GSL, HLSL)\n• Basic knowledge of linear algebra (vectors, matrices, quaternions)\n• Experience in creation of own 3D demo applications or creation of own engine\n• Knowledge and experience in working with debugging and profiling tools (Nsight, Renderdoc, PIX etc)\n• Understanding the graphics pipeline and GPU architecture\n• Practical knowledge of DirectX 11/12/Vulkan\n\nWhat additional skills will help you stand out?\n\n• An intermediate level of English\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Nicosia include:\n\n• 21 days annual leave (additional days based on years of service: up to 25 days)\n• Additional paid time off (5 Personal Days, Birthday Leave, Marriage Leave, Compassionate Leave)\n• Sick Leave (10 days top-up to statutory allowance per year)\n• Maternity Leave (18 weeks top-up to statutory allowance per case)\n• Career development and education opportunities within the company\n• English Language courses fully covered by the company upon Manager’s approval\n• Private Health Care\n• Mental well-being program (iFeel)\n• Onsite gym and spa\n• Free parking close to the Nicosia offices, based on availability\n• Free drinks-equipped kitchen in every floor building\n• Eurobank benefits (if applicable)\n• Employee discounts (e.g. restaurants, bars, etc.)\n• Personal Gaming Account\n• Onsite canteen with subsidized prices for food and drinks\n• Company events, Social Clubs\n• Seniority Awards\n• Referral program - You can recommend the best talents to the company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7938112",
+    "desc": "Job Overview\n\nWargaming is looking for a Render Developer to join our Game Engine Development team. This position includes working on development of a cross-platform game engine which is written in C++.\n\nWhat will you do?\n\n• Implement new and improve existing graphic features\n• Refactoring, code optimization, fix graphic bugs\n• Writing code according to code style\n• Creation of tech documentation\n\nWhat are we looking for?\n\n• 2+ year of experience in commercial C++ development\n• Experience in any graphics API (DirectX, Vulkan, OpenGL)\n• Experience in writing shaders (GSL, HLSL)\n• Basic knowledge of linear algebra (vectors, matrices, quaternions)\n• Experience in creation of own 3D demo applications or creation of own engine\n• Knowledge and experience in working with debugging and profiling tools (Nsight, Renderdoc, PIX etc)\n• Understanding the graphics pipeline and GPU architecture\n• Practical knowledge of DirectX 11/12/Vulkan\n\nWhat additional skills will help you stand out?\n\n• An intermediate level of English\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Belgrade include:\n\n• Additional vacation days based on years of service at Wargaming: up to 5 days on top of the statutory minimum\n• Additional paid time off (5 Personal Days, Birthday Leave, Marriage Leave, Compassionate Leave)\n• Sick Leave Compensation, Maternity Leave Benefits\n• Premium Private Health Insurance\n• Career development and education opportunities within the company\n• English clubs and platform for learning languages\n• Mental well-being program (iFeel)\n• Commuting allowance\n• Company events\n• FitPass membership\n• Discounts for employees\n• Personal Gaming Account\n• Coffee, fruits, and snacks in the office\n• On-site canteen with subsidized prices for food and drinks\n• Seniority Awards\n• Referral program - you can recommend the best talents to the Company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Программирование",
@@ -6698,21 +7008,23 @@ window.JOBS = [
     "spec": "Движок",
     "stack": [
       "C++"
-    ]
+    ],
+    "seen": "2026-08-25",
+    "hasRu": true
   },
   {
-    "id": "gh-wargaming-7694787",
+    "id": "gh-wargaming-7694782",
     "title": "Senior Concept Artist Generalist (World of Tanks: HEAT)",
     "company": "Wargaming",
     "locations": [
-      "Vilnius"
+      "Nicosia"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7694787",
-    "desc": "Job Overview\n\nWe’re excited to launch a groundbreaking AAA game project - World of Tanks: HEAT and are looking for passionate, creative Senior Concept Artist Generalist to join our talented team. Our studio fosters a collaborative environment where your ideas are valued and your contributions will have a direct impact on the game’s success.\n\nOur team is a mix of industry veterans and fresh talent, dedicated to pushing the boundaries of what games can be. If you thrive in a dynamic atmosphere and are eager to shape an exciting AAA title from the ground up, we want to hear from you! Join us in creating something truly special in the gaming world. Your next big opportunity awaits!\n\nReports to\n\nArt Director\n\nWhat will you do?\n\n• Environment Design: create concept art for game environments, mostly exteriors, to enhance player exploration and engagement\n• Prop and Object Design: generate concept art for props, objects, and interactive elements within the game world, adding detail and depth to the overall environment and gameplay experience\n• UI/UX Design: collaborate with the UI/UX team to design backgrounds for user interfaces\n• Marketing Materials: produce concept art for marketing materials, including key art, promotional images, and visual assets used in trailers and advertisements, to attract and engage players\n• Storyboarding: assist in the creation of storyboards and visual sequences to visualize narrative elements, cutscenes, and gameplay scenarios, aiding in communication and planning\n• Iteration and Revision: iterate on concept designs based on feedback from stakeholders, making necessary revisions to enhance aesthetics, functionality, and alignment with project goals\n\nWhat are we looking for?\n\n• Proven Experience: a strong portfolio demonstrating your concept art skills across a variety of styles and themes within the gaming industry\n• Artistic Skills: proficiency in digital art tools and software, such as Photoshop, Procreate, or equivalent applications, with a keen understanding of composition, color theory, and visual storytelling\n• Creativity: ability to generate original and innovative concepts that push the boundaries of visual design while staying true to the project's artistic direction\n• Collaboration: strong communication and collaboration skills to effectively work within a multidisciplinary team and translate concepts into tangible assets that meet project requirements\n• Adaptability: the flexibility to adapt your artistic style and approach to suit different project requirements, themes, and artistic directions\n• Time Management: ability to manage multiple tasks and meet deadlines in a fast-paced and dynamic environment without compromising quality\n• Passion for Games: a genuine passion for video games and a deep understanding of how concept art contributes to the overall gaming experience, driving player immersion and engagement\n• English: upper-intermediate level or higher\n\nWhat additional skills will help you stand out?\n\n• Experience with 3D Software: familiarity with 3D modeling software, such as Maya or Blender, to create basic 3D mockups or reference models for concept art\n• Experience with game engines\n• Traditional Art Skills: proficiency in traditional art techniques, such as sketching, painting, or sculpting, to complement digital concept art creation and enhance visual storytelling\n• Storyboarding Experience: previous experience in storyboarding or sequential art for visual storytelling purposes, aiding in the development of narrative-driven content\n\nWork mode\n\n• Onsite\n• This role is eligible for relocation & immigration support\n\nThe salary range for this role in Vilnius is EUR 4500-6000 monthly gross.\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Vilnius include:\n\n• Additional paid time off\n• Sick Leave Compensation\n• Pregnancy and Childbirth Leave Benefit\n• Career development and education opportunities within the company\n• Meal Allowance\n• Premium Private Health Care\n• Mental well-being program (iFeel)\n• Perks discounts platform (over 450 exclusive discounts)\n• Personal Gaming Account\n• Coffee, fruits, and snacks in the office\n• Company events\n• Seniority Awards\n• Referral program - You can recommend the best talents to the company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7694782",
+    "desc": "Job Overview\n\nWe’re excited to launch a groundbreaking AAA game project - World of Tanks: HEAT and are looking for passionate, creative Senior Concept Artist Generalist to join our talented team. Our studio fosters a collaborative environment where your ideas are valued and your contributions will have a direct impact on the game’s success.\n\nOur team is a mix of industry veterans and fresh talent, dedicated to pushing the boundaries of what games can be. If you thrive in a dynamic atmosphere and are eager to shape an exciting AAA title from the ground up, we want to hear from you! Join us in creating something truly special in the gaming world. Your next big opportunity awaits!\n\nReports to\n\nArt Director\n\nWhat will you do?\n\n• Environment Design: create concept art for game environments, mostly exteriors, to enhance player exploration and engagement\n• Prop and Object Design: generate concept art for props, objects, and interactive elements within the game world, adding detail and depth to the overall environment and gameplay experience\n• UI/UX Design: collaborate with the UI/UX team to design backgrounds for user interfaces\n• Marketing Materials: produce concept art for marketing materials, including key art, promotional images, and visual assets used in trailers and advertisements, to attract and engage players\n• Storyboarding: assist in the creation of storyboards and visual sequences to visualize narrative elements, cutscenes, and gameplay scenarios, aiding in communication and planning\n• Iteration and Revision: iterate on concept designs based on feedback from stakeholders, making necessary revisions to enhance aesthetics, functionality, and alignment with project goals\n\nWhat are we looking for?\n\n• Proven Experience: a strong portfolio demonstrating your concept art skills across a variety of styles and themes within the gaming industry\n• Artistic Skills: proficiency in digital art tools and software, such as Photoshop, Procreate, or equivalent applications, with a keen understanding of composition, color theory, and visual storytelling\n• Creativity: ability to generate original and innovative concepts that push the boundaries of visual design while staying true to the project's artistic direction\n• Collaboration: strong communication and collaboration skills to effectively work within a multidisciplinary team and translate concepts into tangible assets that meet project requirements\n• Adaptability: the flexibility to adapt your artistic style and approach to suit different project requirements, themes, and artistic directions\n• Time Management: ability to manage multiple tasks and meet deadlines in a fast-paced and dynamic environment without compromising quality\n• Passion for Games: a genuine passion for video games and a deep understanding of how concept art contributes to the overall gaming experience, driving player immersion and engagement\n• English: upper-intermediate level or higher\n\nWhat additional skills will help you stand out?\n\n• Experience with 3D Software: familiarity with 3D modeling software, such as Maya or Blender, to create basic 3D mockups or reference models for concept art\n• Experience with game engines\n• Traditional Art Skills: proficiency in traditional art techniques, such as sketching, painting, or sculpting, to complement digital concept art creation and enhance visual storytelling\n• Storyboarding Experience: previous experience in storyboarding or sequential art for visual storytelling purposes, aiding in the development of narrative-driven content\n\nWork mode\n\n• Onsite\n• This role is eligible for relocation & immigration support\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Nicosia include:\n\n• 21 days annual leave (additional days based on years of service: up to 25 days)\n• Additional paid time off (5 Personal Days, Birthday Leave, Marriage Leave, Compassionate Leave)\n• Sick Leave (10 days top-up to statutory allowance per year)\n• Maternity Leave (18 weeks top-up to statutory allowance per case)\n• Career development and education opportunities within the company\n• English Language courses fully covered by the company upon Manager’s approval\n• Private Health Care\n• Mental well-being program (iFeel)\n• Onsite gym and spa\n• Free parking close to the Nicosia offices, based on availability\n• Free drinks-equipped kitchen in every floor building\n• Eurobank benefits (if applicable)\n• Employee discounts (e.g. restaurants, bars, etc.)\n• Personal Gaming Account\n• Onsite canteen with subsidized prices for food and drinks\n• Company events, Social Clubs\n• Seniority Awards\n• Referral program - You can recommend the best talents to the company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Арт",
@@ -6722,7 +7034,8 @@ window.JOBS = [
       "Maya",
       "Blender",
       "Photoshop"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-wargaming-7694788",
@@ -6748,21 +7061,22 @@ window.JOBS = [
       "Blender",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
-    "id": "gh-wargaming-7837370",
+    "id": "gh-wargaming-7837365",
     "title": "Senior Concept Artist – Vehicles / Props (World of Tanks)",
     "company": "Wargaming",
     "locations": [
-      "Nicosia"
+      "Belgrade"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7837370",
-    "desc": "Job Overview\n\nWorld of Tanks is looking for a passionate, creative Senior Concept Artist to join our talented team. Our studio fosters a collaborative environment where your ideas are valued, and your contributions will have a direct impact on the game’s success.\nOur team is a mix of industry veterans and fresh talent, dedicated to pushing the boundaries of what games can be. If you thrive in a dynamic atmosphere and are eager to shape an exciting AAA title from the ground up, we want to hear from you! Join us in creating something truly special in the gaming world. Your next big opportunity awaits!\n\nWhat will you do?\n\n• Concept Development: Create innovative and functional designs high-quality assets for games, including vehicle design, skins, immersive environments, engaging character designs, UI elements that enhance gameplay and fit seamlessly with the game's mechanics and player experience.\n• Collaboration: Work closely with the Art Director, Producer, and cross-disciplinary teams (Engineering, Animation, etc.) to ensure alignment across all aspects of the game development process.\n• Creative Ownership: Take full ownership of your work, with minimal guidance and a strong attention to detail.\n• Iteration and Revision: iterate on concept designs based on feedback from stakeholders, making necessary revisions to enhance aesthetics, functionality, and alignment with project.\n• Problem Solving: Identify design challenges quickly and propose creative, practical solutions during art reviews, pitches, and collaborative meetings.\n• Continuous Development: Contribute through hands-on mentorship to concept artists, supporting their skill growth and the ongoing improvement of workflows.\n• Action: Proactively seek and incorporate feedback, turning stakeholder insights into stronger outcomes.\n\nWhat are we looking for?\n\n• Proven Experience: a strong portfolio demonstrating your concept art skills across a variety of styles and themes within the gaming industry.\n• Artistic Skills: proficiency in digital art tools and software, such as Photoshop, Procreate, or equivalent applications, with a keen understanding of composition, color theory, and visual storytelling.\n• Creativity: ability to generate original and innovative concepts that push the boundaries of visual design while staying true to the project's artistic direction.\n• Collaboration: strong communication and collaboration skills to effectively work within a multidisciplinary team and translate concepts into tangible assets that meet project requirements.\n• Adaptability: the flexibility to adapt your artistic style and approach to suit different project requirements, themes, and artistic directions.\n• Time Management: ability to manage multiple tasks and meet deadlines in a fast-paced and dynamic environment without compromising quality.\n• Passion for Games: a genuine passion for video games and a deep understanding of how concept art contributes to the overall gaming experience, driving player immersion and engagement.\n• English: Intermediate level or higher.\n\nWhat additional skills will help you stand out?\n\n• Experience with 3D Software: familiarity with 3D modeling software, such as Maya or Blender, to create basic 3D mockups or reference models for concept art.\n• Experience with game engines.\n• Experience as a Team Leader.\n• Traditional Art Skills: proficiency in traditional art techniques, such as sketching, painting, or sculpting, to complement digital concept art creation and enhance visual storytelling.\n\nWork mode\n\n• Onsite // Hybrid (2-3 days of work from the office).\n• This role is eligible for relocation & immigration support.\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Nicosia include:\n\n• 21 days annual leave (additional days based on years of service: up to 25 days)\n• Additional paid time off (5 Personal Days, Birthday Leave, Marriage Leave, Compassionate Leave)\n• Sick Leave (10 days top-up to statutory allowance per year)\n• Maternity Leave (18 weeks top-up to statutory allowance per case)\n• Career development and education opportunities within the company\n• English Language courses fully covered by the company upon Manager’s approval\n• Premium Private Health Care\n• Mental well-being program (iFeel)\n• Onsite gym and spa\n• Free parking close to the Nicosia offices, based on availability\n• Free drinks-equipped kitchen in every floor building\n• Eurobank benefits (if applicable)\n• Employee discounts (e.g. restaurants, bars, etc.)\n• Personal Gaming Account\n• Onsite canteen with subsidized prices for food and drinks\n• Company events, Social Clubs\n• Seniority Awards\n• Referral program - You can recommend the best talents to the company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7837365",
+    "desc": "Job Overview\n\nWorld of Tanks is looking for a passionate, creative Senior Concept Artist to join our talented team. Our studio fosters a collaborative environment where your ideas are valued, and your contributions will have a direct impact on the game’s success.\nOur team is a mix of industry veterans and fresh talent, dedicated to pushing the boundaries of what games can be. If you thrive in a dynamic atmosphere and are eager to shape an exciting AAA title from the ground up, we want to hear from you! Join us in creating something truly special in the gaming world. Your next big opportunity awaits!\n\nWhat will you do?\n\n• Concept Development: Create innovative and functional designs high-quality assets for games, including vehicle design, skins, immersive environments, engaging character designs, UI elements that enhance gameplay and fit seamlessly with the game's mechanics and player experience.\n• Collaboration: Work closely with the Art Director, Producer, and cross-disciplinary teams (Engineering, Animation, etc.) to ensure alignment across all aspects of the game development process.\n• Creative Ownership: Take full ownership of your work, with minimal guidance and a strong attention to detail.\n• Iteration and Revision: iterate on concept designs based on feedback from stakeholders, making necessary revisions to enhance aesthetics, functionality, and alignment with project.\n• Problem Solving: Identify design challenges quickly and propose creative, practical solutions during art reviews, pitches, and collaborative meetings.\n• Continuous Development: Contribute through hands-on mentorship to concept artists, supporting their skill growth and the ongoing improvement of workflows.\n• Action: Proactively seek and incorporate feedback, turning stakeholder insights into stronger outcomes.\n\nWhat are we looking for?\n\n• Proven Experience: a strong portfolio demonstrating your concept art skills across a variety of styles and themes within the gaming industry.\n• Artistic Skills: proficiency in digital art tools and software, such as Photoshop, Procreate, or equivalent applications, with a keen understanding of composition, color theory, and visual storytelling.\n• Creativity: ability to generate original and innovative concepts that push the boundaries of visual design while staying true to the project's artistic direction.\n• Collaboration: strong communication and collaboration skills to effectively work within a multidisciplinary team and translate concepts into tangible assets that meet project requirements.\n• Adaptability: the flexibility to adapt your artistic style and approach to suit different project requirements, themes, and artistic directions.\n• Time Management: ability to manage multiple tasks and meet deadlines in a fast-paced and dynamic environment without compromising quality.\n• Passion for Games: a genuine passion for video games and a deep understanding of how concept art contributes to the overall gaming experience, driving player immersion and engagement.\n• English: Intermediate level or higher.\n\nWhat additional skills will help you stand out?\n\n• Experience with 3D Software: familiarity with 3D modeling software, such as Maya or Blender, to create basic 3D mockups or reference models for concept art.\n• Experience with game engines.\n• Experience as a Team Leader.\n• Traditional Art Skills: proficiency in traditional art techniques, such as sketching, painting, or sculpting, to complement digital concept art creation and enhance visual storytelling.\n\nWork mode\n\n• Onsite // Hybrid (2-3 days of work from the office).\n• This role is eligible for relocation & immigration support.\n\nBenefits\n\nBenefits and perks are tailored to the local market and culture. Our benefits in Belgrade include:\n\n• Additional vacation days based on years of service at Wargaming: up to 5 days on top of the statutory minimum\n• Additional paid time off (5 Personal Days, Birthday Leave, Marriage Leave, Compassionate Leave)\n• Sick Leave Compensation, Maternity Leave Benefits\n• Premium Private Health Insurance\n• Career development and education opportunities within the company\n• English clubs and platform for learning languages\n• Mental well-being program (iFeel)\n• Commuting allowance\n• Company events\n• FitPass membership\n• Discounts for employees\n• Personal Gaming Account\n• Coffee, fruits, and snacks in the office\n• On-site canteen with subsidized prices for food and drinks\n• Seniority Awards\n• Referral program - you can recommend the best talents to the Company and receive a reward\n\nPlease submit your CV in English to ensure smooth processing and review.\n\nAbout Wargaming\n\nWargaming is an award-winning online game developer and publisher headquartered in Nicosia, Cyprus. Operating since 1998, Wargaming has become one of the leaders in the gaming industry with 15 offices worldwide, including studios in Chicago, Prague, Shanghai, Tokyo, and Vilnius. Our diverse and multicultural team works together to deliver a top-class experience to millions of players who enjoy Wargaming's titles across all major gaming platforms. Our flagship products include free-to-play hits World of Tanks, World of Warships and World of Tanks Blitz.\n\nPlease see Wargaming Candidate Privacy Policy for details on how Wargaming uses your personal data.",
     "site": "wargaming.com",
     "source": "greenhouse",
     "role": "Арт",
@@ -6772,7 +7086,9 @@ window.JOBS = [
       "Maya",
       "Blender",
       "Photoshop"
-    ]
+    ],
+    "seen": "2026-08-25",
+    "hasRu": true
   },
   {
     "id": "gh-wargaming-7837376",
@@ -6797,6 +7113,7 @@ window.JOBS = [
       "Blender",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -6818,6 +7135,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -6841,6 +7159,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -6862,28 +7181,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
-    "hasRu": true
-  },
-  {
-    "id": "ab-supercell-22ca1a5d-e0b5-4ed5-8f40-8ae1653bc6a0",
-    "title": "Marketing Lead, New Games",
-    "company": "Supercell",
-    "locations": [
-      "London",
-      "Helsinki"
-    ],
-    "remote": true,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-17",
-    "url": "https://jobs.ashbyhq.com/supercell/22ca1a5d-e0b5-4ed5-8f40-8ae1653bc6a0",
-    "desc": "HELP OUR NEWEST GAMES FIND THEIR FIRST FANS.\n\nAt Supercell, every game team operates like its own startup – small, independent, and united by the ambition to create games that players love for years. Marketing follows the same philosophy: player-first, insight-driven, creatively brave, and built on deep trust in teams.\n\nThis role sits within Marketing Development, the team that acts as connective tissue across Supercell's new and emerging games; who shape how Supercell grows early-stage games, how we use insights to guide decision-making, and how we develop world-class marketing talent and craft to launch our next projects. These might be a new mobile game looking for its first fans, an emerging title gaining momentum, or a creative experiment that might evolve into something completely new.\n\nYou'll be the marketing leader embedded across a portfolio of projects, giving every one of them strategic marketing, market and audience insight, and a dedicated partner at every stage of the road to launch. You'll report to the Head of Marketing Development and work alongside a small, growing team, whilst partnering daily with Game Leads and central functions – Performance Marketing, Creative Studio, Data & Insights, PR & Comms, Live Ops & Monetisation, and Community. As the portfolio scales, you’ll build and lead a team to meet the growth needs.\n\nThe right candidate has deep experience in new games marketing or IP development, is energised by ambiguity and early stage problem-solving, and is obsessed with understanding and serving our players. You'll need to move fluidly between strategic thinking and getting hands-on with a brief – this isn't a hands-off role.\n\nWHAT YOU'LL BE DOING\n\n- Own marketing strategy across a portfolio of games – ensuring every game has the right foundations for healthy, long-term growth.\n\n- Bring sharp market, audience, and competitive insight into game positioning, creative direction, and new games planning to strengthen strategic decision-making.\n\n- Enable effective experimentation by leading with a test and learn approach, helping teams reinforce or validate creative bets from early concept exploration to structured soft-launch testing.\n\n- Develop trust, partnership and cross-functional collaboration with game teams, new games stakeholders, and the wider marketing organisation.\n\n- Member of the Marketing Development team at Supercell, supporting how we prepare for the future and contribute towards our upcoming titles, helping to build the function and playbook for our teams.\n\n- Close partner across marketing teams, including UA, insights, ASO and creative studios, to drive hypothesis-led briefs and strategy to creative testing.\n\n- Partner closely with the Research and Analytics functions to deepen our understanding of the player journey through player experience research, and help inform our future product and marketing strategy.\n\nWHAT YOU HAVE\n\n- 10+ years building GTM strategy and campaigns for games or entertainment IP - including at least one new IP launch from early concept.\n\n- A track record in early stage games marketing: You have a knowledge and interest in new games and the evolving ways players discover and fall in love with something new.\n\n- Passionate about helping small, creative teams succeed, with a deep belief that great marketing starts with understanding players, not just plans.\n\n- Both strategic and creative - willing to drive strategic thinking, convert into brief and execute through the production stage.\n\n- Work fluently across marketing functions with a good understanding of the various functions and how they might contribute to the different stages of new games development.\n\n- A self-starter approach to AI. You've found ways to use it in your day-to-day work, you experiment, figure things out and bring the same energy to every new challenge.\n\n- Collaborative and humble, thriving in an environment where influence comes from the quality of your thinking and relationships, not role or hierarchy.\n\n- Passion for games. Games are something that you enjoy and care about, and you are excited to work with talented teams searching for future experiences.\n\nWHERE YOU'LL BE\n\nThis role is based either in Helsinki or London. The team members and key internal stakeholders are based in all of our global studios, so to be successful, you’ll be expected to travel quite regularly in this role\n\n–––\n\nThat's it about the role! Below, we've gathered some things we feel are important for you to know. Totally optional, but a highly recommended read.\n\nOnce you're ready to apply, just send us your application through the form on the bottom of the page.\n\n–––\n\nABOUT SUPERCELL\n\nSupercell is a games company from Helsinki, Finland, with offices https://supr.cl/jd-offices also in San Francisco, Seoul, Shanghai, and London. You might know us as the makers of Hay Day, Clash of Clans, Boom Beach, Clash Royale, and Brawl Stars. Our mission is to create great games https://supr.cl/jd-games that as many people as possible play for years and that are remembered forever.\n\nSo, how do we make great games? By putting together the best teams and giving them the freedom and independence to succeed. And by taking risks, failing, sharing learnings https://supercell.com/en/news/learning-from-failures/, and killing lots of projects.\n\n…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "source": "ashby",
-    "site": "supercell.com",
-    "role": "Маркетинг",
-    "grade": "Lead",
-    "spec": null,
-    "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -6909,6 +7207,7 @@ window.JOBS = [
       "TypeScript",
       "JavaScript"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -6933,6 +7232,7 @@ window.JOBS = [
       "Unity",
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -6960,21 +7260,22 @@ window.JOBS = [
       "ZBrush",
       "Substance"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
-    "id": "gh-scopely-5386596008",
+    "id": "gh-scopely-5393200008",
     "title": "Lead Finance Analyst",
     "company": "Scopely",
     "locations": [
-      "Barcelona, Spain"
+      "London, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5386596008?gh_jid=5386596008",
-    "desc": "Scopely is seeking an experienced a Lead Finance Analyst/Manager to join Product Finance in support of our LIVE Games Portfolio — a group of live-operated, top-grossing mobile games generating meaningful revenue for Scopely. This is a senior, high-visibility role for someone ready to operate as a true finance business partner: owning financial models end-to-end, driving KPI and performance reporting, and initiating the projects that shape how the portfolio is managed.\n\nBased out of our Barcelona office, you will partner directly with General Managers and cross-functional stakeholders across game studios, User Acquisition, Data Science and Finance leadership, Accounting, and central teams. You will be a key voice in portfolio-level decision-making, translating data and models into clear recommendations for senior leadership. Ability to thrive in a fast-paced environment, exhibit the highest personal and professional integrity, and work effectively with supervision while independently managing recurring monthly and quarterly deliverables.\n\nUnlike an entry-level analyst role, this position calls for someone who can operate with a high degree of autonomy — identifying problems, initiating and leading projects, and managing senior stakeholders across the organization with minimal oversight, while still delivering the operational rigor (forecasting, close support, variance analysis) that keeps the portfolio running smoothly\n\nWhy This Role Stands Out\n\n• Strategic Ownership: Own end-to-end financial modeling, forecasting, and reporting for titles within the LIVE Games Portfolio, presenting directly to senior game and finance leadership.\n• Stakeholder Leadership: Serve as the primary finance point of contact for a broad set of cross-functional partners — game GMs, UA, Data/BI, Accounting — building the trusted relationships that shape business decisions.\n• Project Initiation: Identify opportunities and lead process improvement and automation projects — forecasting model redesigns, KPI dashboard builds, reporting infrastructure — from scoping through execution.\n• Global Portfolio Exposure: Work across Scopely's live games portfolio from our Barcelona hub, collaborating daily with teams across the US, EMEA, and beyond.\n• Top Talent Environment: Join a high-caliber team with backgrounds in consulting, banking, private equity, and high-growth tech from companies such as Amazon, Google, and Netflix.\n• Career Trajectory: Senior individual contributors on this team have a clear path to Finance Manager / Senior Manager roles with expanding portfolio and people-leadership scope.\n• Tech-Forward Finance: Be part of an AI-powered FP&A team, contributing to the automation of reporting and the build-out of predictive, self-serve tools.\n\nWhat We’re Looking For:\n\n• Experience: 5+ years in FP&A, investment banking, consulting, or strong analytical roles, ideally with exposure to gaming, mobile apps, subscription, or consumer tech business models.\n• Financial Modeling & Analytics: Advanced Excel/Google Sheets skills, with a demonstrated ability to build and maintain complex revenue, UA, and cost models, and to translate large datasets into clear KPI narratives.\n• Stakeholder Management: Proven ability to manage senior stakeholders across functions, build consensus, and influence decisions without direct authority.\n• Project Leadership: A track record of scoping and driving cross-functional projects to completion, from process redesign to new reporting infrastructure.\n• Commercial Acumen: Strong understanding of the KPIs that drive live-service/mobile games businesses (e.g., DAU/MAU, ARPDAU, LTV, ROAS, retention) and how they connect to financial performance.\n• Tools: Familiarity with BI and data visualization platforms (Tableau, Power BI, Looker) and financial planning systems (e.g., Workday Adaptive Planning) strongly preferred; SQL is a plus.\n• Communication: Excellent written and verbal communication skills in English; ability to synthesize complex analysis into clear, concise recommendations for leadership.\n• Location: Based in, or willing to relocate to, Barcelona, with the flexibility to collaborate across time zones with US and global teams.\n• Passion: A genuine interest in games, consumer products, or technology-driven businesses.\n\nAbout Scopely\n\nScopely is a leading video game and global interactive entertainment company, home to many of the world’s most beloved and enduring experiences, including two of the most successful mobile games of all-time “MONOPOLY GO!” and “Pokémon GO,” along with “Stumble Guys,” “Star Trek™ Fleet Command,” “MARVEL Strike Force,” “WWE Champions,” the Scrabble® franchise, “Yahtzee® With Buddies,” and many others. Across mobile, web, PC, and console, Scopely creates, develops, publishes, and live-operates one of the most diversified and award-winning portfolios in the games industry — bringing hundreds of millions of players together through a shared love of play.\n\nFounded in 2011, Scopely is powered by its exceptional team — including thousands of world-class gamemakers around the globe, a distinctive tenet-driven culture, and its proprietary technology platform, Playgami. Together, these strengths have fueled Scopely’s position as the #1 mobile games company in the U.S. and #2 globally, generating more than $10 billion in lifetime revenue. Whether building global sensations like “MONOPOLY GO!” from the ground up, or expanding through strategic acquisitions, including the FoxNext, GSN, and Scopely Explore games businesses — Scopely consistently delivers experiences players love today and return to for years to come.\n\nRecognized multiple times as one of the \"100 Most Influential Companies in the World\" by TIME magazine and one of Fast Company's \"World's Most Innovative Companies\" and “Best Workplaces for Innovators,” Scopely believes that video games can be a force for good — creating meaningful connections, vibrant communities, and making life better through play.…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5393200008?gh_jid=5393200008",
+    "desc": "Scopely is seeking an experienced Lead Analyst / Finance Manager to join Product Finance in support of our LIVE Games Portfolio — a group of live-operated, top-grossing mobile games generating meaningful revenue for Scopely. This is a senior, high-visibility role for someone ready to operate as a true finance business partner: owning financial models end-to-end, driving KPI and performance reporting, and initiating the projects that shape how the portfolio is managed.\n\nYou will partner directly with General Managers and cross-functional stakeholders across game studios, User Acquisition, Data Science and Finance leadership, Accounting, and central teams. You will be a key voice in portfolio-level decision-making, translating data and models into clear recommendations for senior leadership. Ability to thrive in a fast-paced environment, exhibit the highest personal and professional integrity, and work effectively with supervision while independently managing recurring monthly and quarterly deliverables.\n\nUnlike an entry-level analyst role, this position calls for someone who can operate with a high degree of autonomy — identifying problems, initiating and leading projects, and managing senior stakeholders across the organization with minimal oversight, while still delivering the operational rigor (forecasting, close support, variance analysis) that keeps the portfolio running smoothly\n\nWhy This Role Stands Out\n\n• Strategic Ownership: Own end-to-end financial modeling, forecasting, and reporting for titles within the LIVE Games Portfolio, presenting directly to senior game and finance leadership.\n• Stakeholder Leadership: Serve as the primary finance point of contact for a broad set of cross-functional partners — game GMs, UA, Data/BI, Accounting — building the trusted relationships that shape business decisions.\n• Project Initiation: Identify opportunities and lead process improvement and automation projects — forecasting model redesigns, KPI dashboard builds, reporting infrastructure — from scoping through execution.\n• Global Portfolio Exposure: Work across Scopely's live games portfolio from our Barcelona hub, collaborating daily with teams across the US, EMEA, and beyond.\n• Top Talent Environment: Join a high-caliber team with backgrounds in consulting, banking, private equity, and high-growth tech from companies such as Amazon, Google, and Netflix.\n• Career Trajectory: Senior individual contributors on this team have a clear path to Finance Manager / Senior Manager roles with expanding portfolio and people-leadership scope.\n• Tech-Forward Finance: Be part of an AI-powered FP&A team, contributing to the automation of reporting and the build-out of predictive, self-serve tools.\n\nWhat We’re Looking For:\n\n• Experience: 5+ years in FP&A, investment banking, consulting, or strong analytical roles, ideally with exposure to gaming, mobile apps, subscription, or consumer tech business models.\n• Financial Modeling & Analytics: Advanced Excel/Google Sheets skills, with a demonstrated ability to build and maintain complex revenue, UA, and cost models, and to translate large datasets into clear KPI narratives.\n• Stakeholder Management: Proven ability to manage senior stakeholders across functions, build consensus, and influence decisions without direct authority.\n• Project Leadership: A track record of scoping and driving cross-functional projects to completion, from process redesign to new reporting infrastructure.\n• Commercial Acumen: Strong understanding of the KPIs that drive live-service/mobile games businesses (e.g., DAU/MAU, ARPDAU, LTV, ROAS, retention) and how they connect to financial performance.\n• Tools: Familiarity with BI and data visualization platforms (Tableau, Power BI, Looker) and financial planning systems (e.g., Workday Adaptive Planning) strongly preferred; SQL is a plus.\n• Communication: Excellent written and verbal communication skills in English; ability to synthesize complex analysis into clear, concise recommendations for leadership.\n• Location: Based in, or willing to relocate to, Barcelona, with the flexibility to collaborate across time zones with US and global teams.\n• Passion: A genuine interest in games, consumer products, or technology-driven businesses.\n\nAbout Scopely\n\nScopely is a leading video game and global interactive entertainment company, home to many of the world’s most beloved and enduring experiences, including two of the most successful mobile games of all-time “MONOPOLY GO!” and “Pokémon GO,” along with “Stumble Guys,” “Star Trek™ Fleet Command,” “MARVEL Strike Force,” “WWE Champions,” the Scrabble® franchise, “Yahtzee® With Buddies,” and many others. Across mobile, web, PC, and console, Scopely creates, develops, publishes, and live-operates one of the most diversified and award-winning portfolios in the games industry — bringing hundreds of millions of players together through a shared love of play.\n\nFounded in 2011, Scopely is powered by its exceptional team — including thousands of world-class gamemakers around the globe, a distinctive tenet-driven culture, and its proprietary technology platform, Playgami. Together, these strengths have fueled Scopely’s position as the #1 mobile games company in the U.S. and #2 globally, generating more than $10 billion in lifetime revenue. Whether building global sensations like “MONOPOLY GO!” from the ground up, or expanding through strategic acquisitions, including the FoxNext, GSN, and Scopely Explore games businesses — Scopely consistently delivers experiences players love today and return to for years to come.\n\nRecognized multiple times as one of the \"100 Most Influential Companies in the World\" by TIME magazine and one of Fast Company's \"World's Most Innovative Companies\" and “Best Workplaces for Innovators,” Scopely believes that video games can be a force for good — creating meaningful connections, vibrant communities, and making life better through play.…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
     "site": "scopely.com",
     "source": "greenhouse",
     "role": "Аналитика",
@@ -6982,7 +7283,9 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "SQL"
-    ]
+    ],
+    "seen": "2026-08-25",
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5210907008",
@@ -7005,6 +7308,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7029,6 +7333,7 @@ window.JOBS = [
       "JavaScript",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7053,6 +7358,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7078,6 +7384,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7106,6 +7413,7 @@ window.JOBS = [
       "Houdini",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7128,6 +7436,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ko",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7151,6 +7460,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7174,6 +7484,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7195,6 +7506,7 @@ window.JOBS = [
     "grade": "Junior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7219,27 +7531,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
-    "hasRu": true
-  },
-  {
-    "id": "ab-supercell-ced1857b-2a07-45ee-a8d7-aa784a275ba6",
-    "title": "Product Lead, Game Engine",
-    "company": "Supercell",
-    "locations": [
-      "Helsinki"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-14",
-    "url": "https://jobs.ashbyhq.com/supercell/ced1857b-2a07-45ee-a8d7-aa784a275ba6",
-    "desc": "WE ARE LOOKING FOR AN EXPERIENCED PRODUCT LEAD TO OWN TITAN AS A PRODUCT.\n\nTITAN IS SUPERCELL'S PROPRIETARY GAME ENGINE – THE IN-HOUSE TECHNOLOGY THAT POWERS EVERY GAME WE MAKE, REACHING 300 MILLION PLAYERS A MONTH. TITAN IS ALSO THE NAME OF THE ~ 70 PEOPLE ORGANIZATION BEHIND IT: THE TEAMS THAT BUILD THE ENGINE, THE DEVELOPER TOOLING, AND THE LIVEOPS INFRASTRUCTURE THAT EVERY GAME TEAM AT SUPERCELL BUILDS ON. (HERE'S THE STORY OF HOW TITAN CAME TO BE https://supercell.com/en/news/game-engine-called-titan/ – MOST PEOPLE OUTSIDE SUPERCELL HAVE NEVER HEARD OF IT.)\n\nAs a Product Lead, you will define the product strategy for the entire Titan product, own the Titan-level roadmap, and ensure we have a deep & continuous understanding of game and partner teams needs. Reporting to the Head of Titan, you'll be part of the Titan leadership team, focused on building the product craft for Titan – largely from scratch, because that function doesn't fully exist yet.\n\nIf you love turning complexity into clarity, and want your work to shape the foundation every Supercell game is built on, this is that role.\n\nWHAT YOU'LL BE DOING\n\n- Own Titan as a product: define and drive its vision, strategy, and product management framework, and build that function largely from scratch.\n\n- Translate Supercell's game development ambitions into a coherent, multi-year strategic direction for Titan, and identify where capabilities, scope, or team alignment are missing.\n\n- Productize what Titan already has – packaging, documentation, and adoption paths – so existing capabilities are legible and their value is actually realized.\n\n- Define how Titan measures success (adoption, developer satisfaction, platform health), and use that to sharpen strategy.\n\n- Build and own the single Titan-level roadmap, sparring with teams to challenge assumptions, sharpen priorities, and drive the trade-offs that connect team plans to Titan strategy.\n\n- Be the main point of contact for game and partner teams on overall Titan level needs: build a deep, first-hand understanding of what they actually need – distinguishing that from what they ask for – and turn it into org-wide priorities.\n\n- Partner with team leads on their productization & prioritization and coach teams to think more like product teams, helping each one concretize what it offers.\n\n- Communicate Titan's strategy and roadmap across the organization, and work with the Head of Titan, team leads, and tech owners to turn it into shared priorities and ways of working, while respecting each team's independence over its own staffing, roadmap, and execution.\n\nWHAT YOU HAVE\n\n- Extensive product management background, with a proven track record of owning product strategy and roadmap for a complex, multi-team product or platform.\n\n- Experience leading product – you've built and shaped a product function, not just contributed to one.\n\n- Passion for getting things done, with a desire to be hands-on\n\n- Deep technical savviness and background from tech: proven track record of making good judgment calls in a deeply technical environment.\n\n- The ability to lead through influence rather than authority – you'll operate as a peer to engineering leads, with no formal reporting line into their teams.\n\n- AI fluency: you understand the current tools and capabilities AI provides, and have a strong point of view on how AI can influence development workflows.\n\n- Comfort with ambiguity – you bring structure, you don't wait for someone to hand it to you.\n\nWOULD BE NICE IF YOU ALSO HAVE\n\n- Leadership and people management experience – you may grow a product management team over time.\n\n- Background in gaming industry.\n\nWHAT SUCCESS IN THIS ROLE MEANS\n\n- Titan has a clear, shared product vision that game teams believe in and Titan teams are energized by.\n\n- Titan is productized: the scope is well defined and articulated.\n\n- Titan's roadmap is coherent, well-prioritized, and understood across all teams and stakeholders.\n\n- Game & partner teams feel genuinely heard, and Titan's priorities reflect their most important needs.\n\n- Team leads can focus on leading their teams, with roadmap-level trade-offs made visibly and deliberately at the Titan level rather than absorbed into their day-to-day.\n\n- Titan is seen across Supercell as a product-led organization, not a pure engineering org.\n\nWHERE YOU'LL BE\n\nThe role requires close collaboration with the engine teams and the game teams that use it, so ideally, you’d be based in Helsinki.\n\n–––\n\nThat's it about the role! Below, we've gathered some things we feel are important for you to know. Totally optional, but a highly recommended read.\n\nOnce you're ready to apply, just send us your application through the form on the bottom of the page.\n\n–––\n\nABOUT SUPERCELL\n\nSupercell is a games company from Helsinki, Finland, with offices https://supr.cl/jd-offices also in San Francisco, Seoul, Shanghai, and London. You might know us as the makers of Hay Day, Clash of Clans, Boom Beach, Clash Royale, and Brawl Stars. Our mission is to create great games https://supr.cl/jd-games that as many people as possible play for years and that are remembered forever.\n\nSo, how do we make great games? By putting together the best teams and giving them the freedom and independence to succeed. And by taking risks, failing, sharing learnings https://supercell.com/en/news/learning-from-failures/, and killing lots of projects.\n\n…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "source": "ashby",
-    "site": "supercell.com",
-    "role": "Продакт",
-    "grade": "Lead",
-    "spec": null,
-    "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7261,6 +7553,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": "Геймплей",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7282,6 +7575,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7303,6 +7597,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7329,6 +7624,7 @@ window.JOBS = [
       "Go",
       "Java"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7357,6 +7653,7 @@ window.JOBS = [
       "Docker",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7382,6 +7679,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7410,6 +7708,7 @@ window.JOBS = [
       "Substance",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7433,6 +7732,7 @@ window.JOBS = [
     "stack": [
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7459,6 +7759,7 @@ window.JOBS = [
       "SQL",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7481,6 +7782,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7502,6 +7804,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7524,6 +7827,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": "Данные и ML",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7550,6 +7854,7 @@ window.JOBS = [
       "C#",
       "Python"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7571,6 +7876,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7592,6 +7898,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": "DevOps",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7616,6 +7923,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7643,6 +7951,7 @@ window.JOBS = [
       "Maya",
       "Houdini"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7664,6 +7973,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": "DevOps",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7690,6 +8000,7 @@ window.JOBS = [
       "Python",
       "Java"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7711,6 +8022,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7732,6 +8044,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7756,6 +8069,7 @@ window.JOBS = [
       "SQL",
       "Perforce"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7777,6 +8091,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7804,6 +8119,7 @@ window.JOBS = [
       "Substance",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7827,6 +8143,7 @@ window.JOBS = [
     "stack": [
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7853,6 +8170,7 @@ window.JOBS = [
       "C#",
       "Java"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7878,6 +8196,7 @@ window.JOBS = [
       "Kotlin",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7901,6 +8220,7 @@ window.JOBS = [
     "stack": [
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7927,6 +8247,7 @@ window.JOBS = [
       "Python",
       "TypeScript"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7950,6 +8271,7 @@ window.JOBS = [
     "stack": [
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7972,6 +8294,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -7998,6 +8321,7 @@ window.JOBS = [
       "JavaScript",
       "Figma"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -8023,6 +8347,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -8047,6 +8372,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -8070,6 +8396,7 @@ window.JOBS = [
     "stack": [
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -8091,6 +8418,7 @@ window.JOBS = [
     "grade": null,
     "spec": "Данные и ML",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -8119,6 +8447,7 @@ window.JOBS = [
       "Java",
       "Perforce"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -8141,6 +8470,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -8165,6 +8495,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -8190,6 +8521,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -8216,6 +8548,7 @@ window.JOBS = [
       "Maya",
       "Blender"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -8239,6 +8572,7 @@ window.JOBS = [
     "stack": [
       "TypeScript"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -8263,6 +8597,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -8290,6 +8625,7 @@ window.JOBS = [
       "Docker",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -8313,6 +8649,7 @@ window.JOBS = [
     "stack": [
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -8337,6 +8674,7 @@ window.JOBS = [
       "AWS",
       "Docker"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -8358,6 +8696,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -8382,6 +8721,7 @@ window.JOBS = [
     "stack": [
       "Figma"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -8408,6 +8748,7 @@ window.JOBS = [
       "Maya",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -8432,6 +8773,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -8458,7 +8800,8 @@ window.JOBS = [
       "Maya",
       "Blender",
       "Houdini"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-scopely-5390693008",
@@ -8482,6 +8825,7 @@ window.JOBS = [
     "stack": [
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -8508,6 +8852,7 @@ window.JOBS = [
       "Blender",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -8531,75 +8876,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
-    "hasRu": true
-  },
-  {
-    "id": "ab-supercell-e8271fa2-f496-4380-8c10-b174ec076be5",
-    "title": "Marketing Producer",
-    "company": "Supercell",
-    "locations": [
-      "New York",
-      "San Francisco",
-      "Los Angeles"
-    ],
-    "remote": true,
-    "rkind": null,
-    "salary": "$ 106 800 – 177 600",
-    "posted": "2026-08-13",
-    "url": "https://jobs.ashbyhq.com/supercell/e8271fa2-f496-4380-8c10-b174ec076be5",
-    "desc": "Help Shape How Supercell Shows Up for Players Across North America\n\nWe’re looking for a Marketing Producer who loves bringing clarity, alignment, and creative momentum to complex marketing work. You’ll join our Americas Marketing team as a core partner in turning global strategies into regional stories that resonate deeply with players here in North America.\nWorking alongside our Americas Marketing Lead, Marketing Managers, and Partnership Managers, you’ll help bring campaigns, collaborations, and co-marketing initiatives to life in ways that feel true to our games and the communities around them. You’ll ensure that every activation — big or small — runs smoothly, with clear communication, thoughtful planning, and an eye for quality.\nThis role is also about shaping the craft of production itself. You’ll help build how producers across regions work together, share learnings, and operate as one cohesive global craft. If you enjoy turning strategy into action while improving the systems that make great work possible, this could be a wonderful fit.\n\nWHAT YOU'LL BE DOING\n\n- Build and refine frameworks for how marketing producers across North America and other regions collaborate, improving visibility, communication, and alignment.\n\n- Lead end-to-end production for regional campaigns, ensuring each activation moves smoothly from brief to delivery.\n\n- Partner closely with the Americas Marketing Lead and Americas Marketing Managers to connect regional goals with global direction and game team priorities.\n\n- Develop clear project plans, schedules, milestones, and dependencies — keeping stakeholders aligned and campaigns moving forward.\n\n- Manage budgets and resource planning with accuracy and intention, balancing creativity with operational discipline.\n\n- Act as a key connector between regional teams, global marketing, and game teams, establishing communication rhythms that build trust and transparency.\n\n- Run structured campaign retros, synthesizing learnings and sharing best practices to raise the bar for marketing production across regions.\n\n- Mentor and support other Marketing Producers, helping strengthen their strategic thinking, planning, and cross-regional collaboration skills.\n\n- Ensure all campaign outputs meet Supercell’s creative standards across asset delivery, messaging, and player-facing channels.\n\n- Continuously improve how we work — identifying new tools, rituals, or processes that make collaboration more effective, scalable, and player-first.\n\nWHAT YOU HAVE\n\n- Experience leading marketing production, campaign operations, or integrated marketing projects across multiple stakeholders.\n\n- Strong planning and organizational instincts — you bring order and clarity to complex work.\n\n- Excellent communication skills, especially when navigating multiple teams, time zones, and creative partners.\n\n- A collaborative, low-ego approach. You value relationships and believe great work comes from working closely with others.\n\n- Comfortable managing budgets, timelines, resources, and shifting priorities\n\n- A passion for player-first marketing and a desire to understand regional nuances.\n\n- A builder’s mindset — you enjoy improving systems just as much as running them.\n\nWOULD BE NICE IF YOU ALSO HAVE\n\n- Experience working across global or distributed teams.\n\n- Production experience within gaming, entertainment, or community-driven industries.\n\n- Familiarity with creative tools, workflows, or marketing asset pipelines.\n\n- A passion for mentorship or craft development.\n\nWHAT SUCCESS LOOKS LIKE\n\n- North America campaigns run smoothly, with clear planning, predictable delivery, and strong creative quality\n\n- Regional and global teams feel more connected, informed, and aligned in how they collaborate.\n\n- Producers across regions share learnings and operate as a cohesive global craft.\n\n- Budgets, timelines, and workflows are handled with confidence and clarity.\n\n- You’re seen as a trusted partner — someone who brings energy, direction, and structure to complex work.\n\nWHERE YOU'LL BE\n\nThis role can be based in New York, NY, Los Angeles, CA, or San Francisco, CA, with close collaboration across the Americas, Helsinki, and other global teams. While we work together across multiple time zones, we value a healthy balance between flexibility and partnership. As a Supercell employee, you are expected to travel as part of your role to collaborate with global teams, attend industry events, and contribute to the success of our games and partnerships. While travel may vary by role, employees should anticipate at least 25% travel.\n\nSALARY RANGE FOR THIS ROLE\n\nWhile the salary range based on your background, skills, and experience for this position is $106,800–$177,600, your financial compensation model also consists of an annual bonus, RSU equity, and 401(k).\n\n–––\n\nThat's it about the role! Below, we've gathered some things we feel are important for you to know. Totally optional, but a highly recommended read.\n\nOnce you're ready to apply, just send us your application through the form on the bottom of the page.\n\n–––\n\nABOUT SUPERCELL…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "source": "ashby",
-    "site": "supercell.com",
-    "role": "Маркетинг",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "hasRu": true
-  },
-  {
-    "id": "ab-supercell-32c51066-9a60-4bc8-8c82-a8f52080c200",
-    "title": "MarTech Engineer",
-    "company": "Supercell",
-    "locations": [
-      "Helsinki",
-      "London"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-13",
-    "url": "https://jobs.ashbyhq.com/supercell/32c51066-9a60-4bc8-8c82-a8f52080c200",
-    "desc": "WE'RE LOOKING FOR A MARTECH ENGINEER TO OWN AND EVOLVE OUR CRM DATA PLATFORM. TODAY IT POWERS SCHEDULED DATA SYNCS; TOMORROW IT WILL POWER REAL-TIME, MULTI-CHANNEL MARKETING AND AUDIENCE ACTIVATION ACROSS EMAIL, MOBILE PUSH NOTIFICATIONS, AND FUTURE CHANNELS LIKE WHATSAPP.\n\nThis is a platform engineering role with product ownership. You'll build the systems behind CRM while owning the platform end to end-from architecture and reliability to governance and self-service. You'll also partner with the engineers responsible for our mobile attribution platform to support our marketing measurement stack.\n\nThe Marketing Data team builds the automation and infrastructure behind Supercell's player lifecycle marketing and marketing measurement. We move player data and events between our data warehouse, CRM platform, and attribution stack-reliably, securely, and at scale.\n\nWHAT YOU'LL BE DOING\n\n- Own the CRM data platform. Build and operate reliable, scalable, and compliant data pipelines between our warehouse and CRM platforms, and build strong engineering partnerships with internal teams and vendors.\n\n- Build real-time capabilities. Deliver player events into and from the CRM platform in near real time to power triggered lifecycle messaging and richer player experiences.\n\n- Expand our messaging channels. Build the data, identity, and subscription foundations that enable channels such as email, mobile push notifications, and future messaging platforms to launch on the same reliable infrastructure.\n\n- Support marketing measurement. Partner on our mobile attribution stack, helping ensure accurate attribution and conversion data flows between marketing platforms and our warehouse - so marketing performance can be measured end to end.\n\n- Build privacy by design. Ensure consent, identity management and GDPR requirements are built into the platform from day one, alongside platform- and region- specific mobile privacy frameworks and requirements.\n\n- Enable self-service. Build tools and workflows that allow new CRM data sources and events to be onboarded quickly, safely, and with minimal engineering effort.\n\n- Build reliable production systems. Apply good engineering practices, including testing, CI/CD, observability, alerting, and resilient system design.\n\nWHAT IT MIGHT LOOK LIKE IN YOUR FIRST 6–12 MONTHS\n\n- Move CRM from batch to real time. Build a Kinesis-to-Braze event service for a high-value player trigger, validate its latency and reliability, then scale it into a reusable platform capability.\n\n- Launch mobile push notifications as a first-class channel. Build the data, identity, and subscription foundations, launch the channel for one game, then create a repeatable onboarding model for future games.\n\n- Connect CRM to our internal CDP. Integrate with our internal audience platform so internally built audiences are available as a CRM platform activation layer.\n\n- Evolve the CRM workspace architecture. As the CRM program grows, lead the evolution from a shared workspace to a workspace-per-game model while keeping identity, reporting, and data pipelines consistent.\n\n- Reduce onboarding from days to minutes. Build a documented, validated self-service onboarding workflow so new CRM data syncs can be added quickly and safely with minimal engineering effort.\n\n- Turn CRM audiences into paid retargeting. Use the CRM platform's and custom in-house ad-platform connectors to activate player audiences for retargeting, closing the loop between owned and paid channels.\n\n- Strengthen privacy and compliance. Validate consent and age restrictions, and account deletion across both batch and real-time pipelines, backed by automated testing and monitoring.\n\nTO EXCEL HERE, YOU\n\n- Own systems, not just code. This is a platform engineering role with product ownership. You can take a problem from an idea to a reliable, production service.\n\n- Are a strong engineer. You're comfortable building production services and integrating with APIs at scale.\n\n- Have strong data engineering skills. You have experience with PySpark, Delta Lake, Databricks (or a similar platform), and building reliable batch and streaming pipelines.\n\n- Are comfortable with AWS and modern platform engineering. You have experience with services such as Kinesis, S3, and IAM, infrastructure as code (e.g. Terraform), and modern CI/CD practices.\n\n- Have built event-driven systems. You understand streaming technologies such as Kinesis, Kafka, or Pub/Sub, including ordering, retries, backpressure, and failure handling.\n\n- Know CRM and engagement platforms. Braze experience is ideal, but experience with similar platforms is equally valuable.\n\n- Understand messaging platforms. You're familiar with email and mobile push notifications, along with the identity and subscription models behind them.\n\n- Build with privacy in mind. You understand consent management, GDPR, data retention, and handle data responsibly.\n\n- Communicate well across disciplines. You enjoy working with engineers, marketers, and analysts, and know when to build self-service solutions versus owning operational complexity.\n\n- Thrive in ambiguity. You're comfortable owning problems, learning quickly, and focusing on impact for players.\n\nWOULD BE NICE IF YOU ALSO HAVE\n\n- Experience evolving a CRM or lifecycle platform from batch to real time.\n\n- Hands-on experience with Braze (Currents, CDI, REST APIs, subscription groups, Liquid personalization).\n\n- Experience with email deliverability, including SPF, DKIM, DMARC, sending domains, and domain/IP warm-up.\n\n- Experience operating mobile push notification platforms (APNs/FCM).…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "source": "ashby",
-    "site": "supercell.com",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "AWS"
-    ],
-    "hasRu": true
-  },
-  {
-    "id": "ab-supercell-fdef9348-750d-4c8f-88b2-517ba4804672",
-    "title": "Marketing Data Science Lead",
-    "company": "Supercell",
-    "locations": [
-      "Helsinki",
-      "London"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-13",
-    "url": "https://jobs.ashbyhq.com/supercell/fdef9348-750d-4c8f-88b2-517ba4804672",
-    "desc": "WE’RE HIRING A LEAD TO TAKE OUR MARKETING DATA SCIENCE TEAM FORWARD. ABOUT HALF THE ROLE IS PROJECT OWNERSHIP AND STAKEHOLDER LEADERSHIP: TURNING QUESTIONS AND NEEDS FROM GAME TEAMS AND MARKETING INTO WELL-SCOPED DATA SCIENCE WORK, AND SHIPPING OUTCOMES THAT CHANGE DECISIONS. THE OTHER HALF IS CRAFT (SENIOR DATA SCIENCE EXPERTISE, MOBILE MARKETING MEASUREMENT AND AI FLUENCY) WHILE BEING THE PEOPLE LEAD FOR THE TEAM.\n\nOn top of that, we expect this Lead to shape where Marketing Data Science goes next. AI is changing what’s possible in measurement, automation, and decision support faster than our roadmap. We want someone with a point of view on that, who pushes us to act on it.\n\nYou’ll report to the Head of Marketing Data and Analytics and lead a team of data scientists and analysts across a variety of data science domains and marketing functions.\n\nThe Marketing Data Science team sits behind some of Supercell’s most consequential investment decisions. We measure, model, and forecast across the full mix of marketing investments and activities: performance/UA, brand, game teams marketing and live-ops, product marketing and lifecycle, influencer and partnerships, community and social.\n\nWHAT YOU'LL BE DOING\n\n- Make game teams better at marketing decisions. Be close to game-team marketing analysts, live-ops/monetisation leads and marketers. Translate their questions into the right modeling and measurement work.\n\n- Connect data science across the full marketing mix. Performance/UA, brand, product marketing and lifecycle, influencer and community, events. Each has different measurement realities. Connect them into a coherent picture.\n\n- Own the predictive modeling and measurement portfolio. pLTV, attribution, incrementality, brand/lifecycle, signal and audience modeling - end to end, from methodology to production to adoption.\n\n- Set the technical bar. Strong, opinionated view of what good looks like in applied ML, causal inference, and mobile games business data science. Hands-on when the problem needs it. Decide what ships and what doesn’t.\n\n- Bring AI into how the team works. Use AI tools where they actually move the work - creative media analysis, model diagnostics, automation and decisions processes.\n\n- Shape where the function is going. You’re not just executing a roadmap - you have a view on what Marketing Data Science should be in 6-36 months, and you push us to get there.\n\n- Lead and grow the team. Support, mentor, coach on stakeholder communication, set standards, hire. Make the team better than it is today.\n\nWHAT IT MIGHT LOOK LIKE IN PRACTICE\n\nRepresentative examples of what you might tackle in your first 6-12 months.\n\n\"ARE OUR ATTRIBUTION AND PLTV MODELS SHAPING INVESTMENTS?\"\n\n- Work with Games and marketing on how they actually use attribution and profitability evaluation - in what decisions, with what trust.\n\n- Close the gap between model and decision quality: what measurement is for, where it stops, what we use at the edges.\n\n\"ARE GAME TEAMS GETTING WHAT THEY NEED FROM US?\"\n\n- Map what game teams actually use and where they want more, reset the cadence and format of how we deliver insight and shape ways we support marketing decisions in games.\n\n- Pick one game and run a quarter as a deeper partnership. Prove what “good” looks like, then scale.\n\n\"HOW DO WE MEASURE WHAT ATTRIBUTION CAN’T SEE?\", \"HOW DOES BRAND, CONTENT, AND COMMUNITY FEED PERFORMANCE AND BACK?\"\n\n- Based on a portfolio of approaches )geo experiments, holdouts, synthetic controls, MMM, lift studies and more) build algorithms for decisions on how we invest in which channels.\n\n- Deliver answers on how brand, influencer, and community marketing initiatives move downstream player value and translate it into a clear narrative for marketing leadership and games.\n\n\"WHERE DOES AI ACTUALLY MOVE OUR WORK?\"\n\n- Identify 2-3 places where AI materially changes what we can do - e.g. creative analysis at scale, model-drift diagnostics, decision-support for UA and game teams.\n\n- Pick one. Ship it. Measure whether it actually changes work.\n\n- Decide what team owns internally vs. lean on the wider Data and Insights organization.\n\n\"WHAT DOES “GOOD” LOOK LIKE FOR A NEW GAME ON DAY ONE?\"\n\n- Define measurement and forecasting models before soft-launch - across the mix, not just UA.\n\n- Productize the approach so it doesn’t get reinvented per game.\n\nAnd many other things. We expect you to take ownership, work independently, and drive the topics you believe matter.\n\nTO EXCEL HERE, YOU\n\n- Own projects and stakeholders, not just models. You take a business problem and solve it - from game team conversation to shipped outcome.\n\n- Have deep marketing measurement craft in mobile (or close to it). Built or owned measurement work in mobile gaming, apps or other digital business verticals. Comfortable across the mix - not only performance. Understand F2P games well enough to design best-in-class measurement around them.\n\n- Are a senior data scientist in practice, not just title. Strong applied stats, causal inference, classical ML, coding. Hands-on with infrastructure and models in production - CI/CD, monitoring, feature stores, large-scale data warehouses, realtime inference.\n\n- Use AI in your own work. You’ve actually integrated AI tooling into how you do data science. You have a view on where it changes the craft and where it’s noise.\n\n- Communicate clearly across audiences. Able to explain a model to a game lead in three minutes. Or a methodology to a senior DS in thirty. No 100-page decks. Comfortable saying \"I don’t know\" and \"we shouldn’t do that because\".…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "source": "ashby",
-    "site": "supercell.com",
-    "role": "Аналитика",
-    "grade": "Lead",
-    "spec": null,
-    "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -8623,6 +8900,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -8646,6 +8924,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -8670,6 +8949,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -8690,7 +8970,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-epic-games-6000061004",
@@ -8714,6 +8995,7 @@ window.JOBS = [
       "Unity",
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -8738,6 +9020,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -8763,6 +9046,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -8785,6 +9069,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -8809,6 +9094,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -8827,7 +9113,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": "Lead",
     "spec": null,
-    "stack": []
+    "stack": [],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-epic-games-6006487004",
@@ -8847,7 +9134,8 @@ window.JOBS = [
     "spec": "Геймплей",
     "stack": [
       "Unreal"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-epic-games-6001589004",
@@ -8870,6 +9158,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -8894,6 +9183,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -8919,6 +9209,7 @@ window.JOBS = [
       "Substance",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -8943,7 +9234,8 @@ window.JOBS = [
       "Unreal",
       "Python",
       "Houdini"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-epic-games-5892150004",
@@ -8967,7 +9259,8 @@ window.JOBS = [
       "Unreal",
       "Python",
       "SQL"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-epic-games-6003199004",
@@ -8990,6 +9283,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9013,6 +9307,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9036,7 +9331,8 @@ window.JOBS = [
       "Java",
       "SQL",
       "AWS"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-epic-games-5986042004",
@@ -9061,7 +9357,8 @@ window.JOBS = [
       "C++",
       "C#",
       "Java"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-epic-games-6117647004",
@@ -9085,6 +9382,7 @@ window.JOBS = [
       "Unreal",
       "Python"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9110,6 +9408,7 @@ window.JOBS = [
       "Python",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9133,6 +9432,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9155,7 +9455,8 @@ window.JOBS = [
     "spec": null,
     "stack": [
       "Unreal"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-epic-games-6008409004",
@@ -9178,6 +9479,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9201,6 +9503,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9224,7 +9527,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "Substance"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-epic-games-6119876004",
@@ -9247,6 +9551,7 @@ window.JOBS = [
       "C++",
       "Maya"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9271,6 +9576,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9295,7 +9601,8 @@ window.JOBS = [
       "Unreal",
       "C++",
       "Maya"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-epic-games-5723660004",
@@ -9320,6 +9627,7 @@ window.JOBS = [
       "Photoshop",
       "Figma"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9350,6 +9658,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9380,6 +9689,7 @@ window.JOBS = [
       "AWS",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9405,6 +9715,7 @@ window.JOBS = [
       "SQL",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9430,6 +9741,7 @@ window.JOBS = [
       "C#",
       "Python"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9453,6 +9765,7 @@ window.JOBS = [
     "stack": [
       "Python"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9478,6 +9791,7 @@ window.JOBS = [
       "AWS",
       "Perforce"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9504,6 +9818,7 @@ window.JOBS = [
       "Blender",
       "Houdini"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9528,6 +9843,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9552,6 +9868,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9578,6 +9895,7 @@ window.JOBS = [
       "Figma",
       "Perforce"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9599,6 +9917,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9622,6 +9941,7 @@ window.JOBS = [
     "stack": [
       "JavaScript"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9645,6 +9965,7 @@ window.JOBS = [
     "stack": [
       "JavaScript"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9669,6 +9990,7 @@ window.JOBS = [
       "Unity",
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9693,6 +10015,7 @@ window.JOBS = [
       "Photoshop",
       "Figma"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9714,6 +10037,7 @@ window.JOBS = [
     "grade": "Junior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9740,6 +10064,7 @@ window.JOBS = [
       "AWS",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9761,6 +10086,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9785,6 +10111,7 @@ window.JOBS = [
       "Unity",
       "Figma"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9808,6 +10135,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9831,6 +10159,7 @@ window.JOBS = [
     "stack": [
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9852,6 +10181,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9872,7 +10202,8 @@ window.JOBS = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "seen": "2026-08-25"
   },
   {
     "id": "sr-people-can-fly-744000143120319",
@@ -9895,6 +10226,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9917,6 +10249,7 @@ window.JOBS = [
     "spec": null,
     "permit": true,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9939,6 +10272,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ko",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9960,6 +10294,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -9981,6 +10316,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10004,28 +10340,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
-    "hasRu": true
-  },
-  {
-    "id": "ab-supercell-4f664144-8f5f-4b80-b3e6-ed59f1814e7e",
-    "title": "Head of Performance Marketing",
-    "company": "Supercell",
-    "locations": [
-      "London",
-      "Helsinki"
-    ],
-    "remote": true,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-11",
-    "url": "https://jobs.ashbyhq.com/supercell/4f664144-8f5f-4b80-b3e6-ed59f1814e7e",
-    "desc": "LEAD THE MARKETING ENGINE BEHIND SOME OF THE WORLD'S MOST ICONIC MOBILE GAMES.\n\nWe’re looking for a Head of Performance Marketing to join Supercell – someone who combines strategic capability and clarity, technical depth, and people-first leadership. You’ll lead our Performance Marketing function, including world-class Performance Marketing teams, ASO, and CRM, driving growth for some of the world’s most iconic mobile games while enabling a talented team to do their best work.\n\nYou’ll be deeply embedded in the business by balancing creative ambition with operational excellence, and turning data, technology, and insight into growth.\n\nYou will lead a talented team responsible for driving user acquisition and cross-media operations across Supercell’s live and future games. Our Performance Marketing team operates both centrally and embedded within game teams – you’ll need to set direction and enable success across both models, building the systems and culture that empower the team wherever they sit.\n\nThis is a role for someone who leads with clarity and empathy, sees the bigger picture without losing sight of impact, and navigates complex organizations with diplomacy and confidence. You’ll partner closely with leaders and teams across Game teams, Marketing, Data & Analytics, Finance, and Creative Production to ensure our media strategies drive long-term growth and business impact.\n\nWe pride ourselves on the level of thoughtfulness, quality, and focus put into every aspect of our work. Be it the games themselves or how we communicate them to our players, we are passionate about not compromising on quality ever and choosing a long-term approach to make Supercell a truly global games company that will last for many decades to come.\n\nLet us know if you are who we are looking for!\n\nWHAT YOU'LL BE DOING\n\n- Shape the strategic vision and direction for Supercell’s Performance Marketing function, ensuring alignment with company and game-level business goals. Drive cross-functional alignment through openness, integrity, and collaboration – ensuring clarity of direction across marketing, analytics, and operations.\n\n- Lead and develop a high-performing team of Performance Marketing, ASO, and CRM professionals; setting clear goals, fostering autonomy, and creating an environment where people do their best work.\n\n- Build and maintain measurement frameworks, governance structures, and operational systems that enable the team to perform at their best, alongside coaching and culture that help individuals grow.\n\n- Build strong partnerships with Game Leads, Marketing Leads, Data, and Finance to ensure marketing investment decisions are data-informed, scalable, and business-driven.\n\n- Oversee media strategy and governance – ensuring that Supercell’s global marketing efforts are effective, efficient, and future-proofed against evolving market dynamics.\n\n- Own CRM as a strategic growth lever – ensuring lifecycle and retention strategy is tightly integrated with user acquisition, game-level priorities, and long-term business goals.\n\n- Embrace AI curiosity and capability – comfortable working with AI-powered campaign tools and platforms, you understand how algorithms make decisions and how to work with them, not just around them. This includes using AI for workflow automation, creative production, and campaign optimization, while staying honest about the trade-offs involved.\n\n- Push boundaries. Take bold bets. Own risks and back your team when it counts.\n\nWHAT YOU HAVE\n\n- Extensive leadership experience in performance marketing and media or operations with a proven track record of leading high-impact, high-scale teams in complex, global organizations.\n\n- Deep understanding of performance marketing and user acquisition, with the ability to translate complex technical and data-driven concepts into strategic direction. This includes a strong grasp of product dynamics and the interaction between UA and product – understanding how marketing decisions shape and are shaped by the player experience and game economy.\n\n- Player-first mindset. You believe great marketing ultimately serves the player experience, not just the metrics.\n\n- Portfolio-level experience managing marketing investment across multiple products at different lifecycle stages, with the ability to allocate, prioritize, and adapt strategy as games grow, mature, or launch.\n\n- Strong business and financial mindset, able to connect marketing performance to commercial outcomes and broader company goals.\n\n- Fluent in data and analytics, with the ability to guide strategic decision-making in collaboration with data science and analytics teams.\n\n- Exceptional stakeholder management skills, capable of influencing senior leaders and aligning diverse perspectives around shared priorities.\n\n- Diplomatic and emotionally intelligent, with the ability to lead through trust, clarity, and empathy – even in ambiguity.\n\n- A builder of people and culture, passionate about coaching, growing, and empowering others to succeed.\n\n- Passion for games and building systems that last.\n\n- A self-starter approach to use AI. You've found ways to use it in your day-to-day work, you experiment, figure things out and bring the same energy to every new challenge.\n\nWHERE YOU'LL BE\n\nThis role can be based either in Helsinki or London. The team members are located in both our Helsinki and London Studios; however, most of our team members and stakeholders are located in Helsinki!\n\nTo be successful, you'll be expected to travel regularly in this role, especially if based out of London.\n\n–––…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "source": "ashby",
-    "site": "supercell.com",
-    "role": "Маркетинг",
-    "grade": "Lead",
-    "spec": null,
-    "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10049,6 +10364,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10072,6 +10388,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10095,6 +10412,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10119,6 +10437,7 @@ window.JOBS = [
       "Unreal",
       "Perforce"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10143,20 +10462,21 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
-    "id": "gh-scopely-5384531008",
+    "id": "gh-scopely-5285387008",
     "title": "Senior Product Analyst - Stumble Guys!",
     "company": "Scopely",
     "locations": [
-      "Tel Aviv, Israel"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-11",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5384531008?gh_jid=5384531008",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5285387008?gh_jid=5285387008",
     "desc": "Are you passionate about using data to shape products played by millions of people around the world? Do you enjoy uncovering player insights, designing experiments, and influencing product decisions with data? If so, we'd love to meet you!\n\nWe're looking for a Senior Product Analyst to help shape the future of Stumble Guys, one of the world's leading mobile games. You'll join a team of Product Analysts and Analytics Engineers, partnering closely with Product Managers, Game Designers, Data Engineers, and Developers to turn player behavior into actionable insights.\n\nFrom event instrumentation and data modeling to A/B testing and deep-dive analyses, you'll help answer our most challenging product questions and directly influence the future of the game.\n\nIf you're excited about working on a game played by millions of daily active users (just ask your younger cousins - they're probably already playing!), we'd love to hear from you!\n\nWe also work with a modern analytics stack including Google Cloud Platform, BigQuery, Looker and Hex.\n\nWhat You Will Do\n\n• Analyze large and complex datasets to understand the behavior of millions of players and answer strategic product questions.\n• Partner closely with Product, Game Design, Engineering, Marketing, and Leadership to drive data-informed decisions.\n• Design, analyze, and communicate A/B tests to evaluate new features and optimize player experiences.\n• Develop frameworks, dashboards, and analytical tools that empower teams to make better product decisions.\n• Generate actionable insights that improve player engagement, retention, monetization, and overall game performance.\n• Define and validate event tracking to ensure high-quality product analytics.\n• Present findings and recommendations to cross-functional stakeholders and leadership\n\nWhat We're Looking For\n\n• Significant experience working as a Product Analyst, ideally in gaming, mobile apps, or other consumer digital products.\n• Strong SQL skills and experience working with large-scale datasets.\n• Experience with experimentation (A/B testing), product analytics, and statistical analysis.\n• Intellectual curiosity with a passion for solving complex business problems through data.\n• Excellent communication and storytelling skills—you can translate complex analyses into clear recommendations.\n• Python or R experience is a plus.\n• Fluent English, written and spoken.\n\nPlease ensure that the résumé/CV you attach is written in English.\n\nAbout Scopely\n\nScopely is a leading video game and global interactive entertainment company, home to many of the world’s most beloved and enduring experiences, including two of the most successful mobile games of all-time “MONOPOLY GO!” and “Pokémon GO,” along with “Stumble Guys,” “Star Trek™ Fleet Command,” “MARVEL Strike Force,” “WWE Champions,” the Scrabble® franchise, “Yahtzee® With Buddies,” and many others. Across mobile, web, PC, and console, Scopely creates, develops, publishes, and live-operates one of the most diversified and award-winning portfolios in the games industry — bringing hundreds of millions of players together through a shared love of play.\n\nFounded in 2011, Scopely is powered by its exceptional team — including thousands of world-class gamemakers around the globe, a distinctive tenet-driven culture, and its proprietary technology platform, Playgami. Together, these strengths have fueled Scopely’s position as the #1 mobile games company in the U.S. and #2 globally, generating more than $10 billion in lifetime revenue. Whether building global sensations like “MONOPOLY GO!” from the ground up, or expanding through strategic acquisitions, including the FoxNext, GSN, and Scopely Explore games businesses — Scopely consistently delivers experiences players love today and return to for years to come.\n\nRecognized multiple times as one of the \"100 Most Influential Companies in the World\" by TIME magazine and one of Fast Company's \"World's Most Innovative Companies\" and “Best Workplaces for Innovators,” Scopely believes that video games can be a force for good — creating meaningful connections, vibrant communities, and making life better through play.\n\nScopely has global operations and partners across four continents in more than a dozen countries worldwide. For more information, visit: https://www.scopely.com/.\n\nNotice to Candidates: Scopely will never request payment or financial information during the application or hiring process. Please apply only through our official website and verify that all Talent Partner communications come from an email address ending in @scopely.com.\n\nShould you have any questions or encounter any fraudulent requests/emails/websites, please immediately contact recruiting@scopely.com. Our job applicant privacy policies are available here: California Privacy Notice and EEA/UK Privacy Notice.\n\nEmployment at Scopely is based solely on a person's merit and qualifications. Scopely does not discriminate against any employee or applicant because of race, creed, color, religion, gender, sexual orientation, gender identity/expression, national origin, disability, age, genetic information, veteran status, marital status, pregnancy or related condition (including breastfeeding), or any other basis protected by law. We also consider qualified applicants with arrest or conviction records, consistent with applicable federal, state and local law.",
     "site": "scopely.com",
     "source": "greenhouse",
@@ -10166,7 +10486,9 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "seen": "2026-08-25",
+    "hasRu": true
   },
   {
     "id": "gh-scopely-5123830008",
@@ -10192,6 +10514,7 @@ window.JOBS = [
       "Kotlin",
       "Swift"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10217,6 +10540,7 @@ window.JOBS = [
       "C#",
       "Maya"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10241,6 +10565,7 @@ window.JOBS = [
       "C#",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10262,6 +10587,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10285,21 +10611,22 @@ window.JOBS = [
     "stack": [
       "Figma"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
-    "id": "gh-rockstar-games-7771376003",
+    "id": "gh-rockstar-games-7787467003",
     "title": "Associate Principal Threat Intelligence Analyst",
     "company": "Rockstar Games",
     "locations": [
-      "Manhattan, United States"
+      "Carlsbad, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 125 000 – 150 000",
     "posted": "2026-08-11",
-    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7771376003",
-    "desc": "At Rockstar Games, we create world-class entertainment experiences.\n\nBecome part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry.\n\nRockstar is on the lookout for a passionate Associate Principal Threat Intelligence Analyst to join our growing Game Security team. This role will be responsible for identifying and analyzing potential threats to Rockstar’s Live Service titles as well as the organization at large. The successful candidate will have a strong understanding of intelligence and investigations principles, excellent analytical skills, and the ability to stay ahead of emerging threats.\n\nThis is a full-time, in-office position based out of Rockstar’s NYC headquarters in Downtown Manhattan.\n\nWHAT WE DO\n\n• The Rockstar Game Security team is responsible for protecting our players, employees, and intellectual property.\n• We support all Rockstar titles from malicious actors and insider threats.\n• We work closely with other teams to enforce, support, and improve security solutions.\n\nRESPONSIBILITIES\n\n• Identify and prevent fraudulent or malicious behavior using open-source intelligence (OSINT), internal tools, and investigative methods.\n• Own complex investigations, including data collection, analysis, and synthesis from multiple systems.\n• Maintain intelligence on relevant subjects and emerging threats.\n• Ensure consistent, high-quality investigative reporting and intelligence outputs.\n• Support response efforts for security incidents and escalations as needed.\n• Drive process improvements, including automation and tooling to scale investigative workflows.\n• Develop and maintain reporting to measure program effectiveness and inform decision-making.\n• Stay current on emerging technologies, investigative techniques, and threat landscapes.\n\nREQUIREMENTS\n\n• 8+ years professional experience in threat intelligence, investigations, or similar roles.\n• Strong expertise in intelligence gathering, monitoring, and investigative reporting.\n• Experience conducting complex investigations across digital platforms.\n• Proficiency with data analysis tools and systems (e.g., SQL, Hadoop, or similar).\n• Experience with link analysis methodologies and tools.\n• Familiarity with legal, regulatory, and compliance considerations related to investigations.\n• Background in threat intelligence, open-source intelligence or internal/external investigations preferred.\n• Familiarity with security assessment tools and monitoring systems.\n\nPLUSES\n\nPlease note that these are desirable skills and are not required to apply for the position.\n\n• Experience with Maltego, Hunchly, Splunk, case management platforms, and/or relational databases.\n• Experience working with online games, live services, or large-scale AAA multiplayer environments.\n• Strong analytical mind with problem-solving skills.\n• Excellent collaboration and communication skills across technical and non-technical teams.\n• Mentoring mindset, sharing knowledge, expertise, and best practices with peers.\n• Scripting skills (e.g. SQL, Python) for automation and analysis.\n• Basic level of fluency or above in languages other than English.\n\nADDITIONAL INFORMATION\n\nHOW TO APPLY\n\nPlease apply with a resume and cover letter demonstrating how you meet the skills above. If we would like to move forward with your application, a Rockstar recruiter will reach out to you to explain next steps and guide you through the process.\n\nRockstar is committed to creating a work environment that promotes equal opportunity, dignity and respect. In line with this commitment, Rockstar will provide reasonable accommodations to qualified job applicants with disabilities during the recruitment process in order for such applicants to be considered for the position for which they are applying, as well as to qualified employees to enable them to perform the essential functions of their roles. If you need more information about Rockstar’s reasonable accommodation policies or process, or need to request an accommodation, please notify your recruiter during the interview process.\n\nIf you’ve got the right skills for the job, we want to hear from you. We encourage applications from all suitable candidates regardless of age, disability, gender identity, sexual orientation, religion, belief, race, or any other protected category.\nThe pay range for this position in New York State (inclusive of New York City) at the start of employment is expected to be between the range below* per year. However, base pay offered is based on market location, and may vary further depending on individualized factors for job candidates, such as job-related knowledge, skills, experience, and other objective business considerations.\n\nSubject to those same considerations, the total compensation package for this position may also include other elements, including a bonus and/or equity awards, in addition to a full range of medical, financial, and/or other benefits. Details of participation in these benefit plans will be provided if an employee receives an offer of employment. If hired, employee will be in an \"at-will position\" and the company reserves the right to modify base salary (as well as any other discretionary payment or compensation or benefit program) at any time, including for reasons related to individual performance, company or individual department/team performance, and market factors.\n\n*NY Base Pay Range\n$125,000—$150,000 USD",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7787467003",
+    "desc": "At Rockstar Games, we create world-class entertainment experiences.\n\nBecome part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry.\n\nRockstar is on the lookout for a passionate Associate Principal Threat Intelligence Analyst to join our growing Game Security team. This role will be responsible for identifying and analyzing potential threats to Rockstar’s Live Service titles as well as the organization at large. The successful candidate will have a strong understanding of intelligence and investigations principles, excellent analytical skills, and the ability to stay ahead of emerging threats.\n\nThis is a full-time, in-office position based out of Rockstar’s new state-of-the-art game development studio in Carlsbad, CA.\n\nWHAT WE DO\n\n• The Rockstar Game Security team is responsible for protecting our players, employees, and intellectual property.\n• We support all Rockstar titles from malicious actors and insider threats.\n• We work closely with other teams to enforce, support, and improve security solutions.\n\nRESPONSIBILITIES\n\n• Identify and prevent fraudulent or malicious behavior using open-source intelligence (OSINT), internal tools, and investigative methods.\n• Own complex investigations, including data collection, analysis, and synthesis from multiple systems.\n• Maintain intelligence on relevant subjects and emerging threats.\n• Ensure consistent, high-quality investigative reporting and intelligence outputs.\n• Support response efforts for security incidents and escalations as needed.\n• Drive process improvements, including automation and tooling to scale investigative workflows.\n• Develop and maintain reporting to measure program effectiveness and inform decision-making.\n• Stay current on emerging technologies, investigative techniques, and threat landscapes.\n\nREQUIREMENTS\n\n• 8+ years professional experience in threat intelligence, investigations, or similar roles.\n• Strong expertise in intelligence gathering, monitoring, and investigative reporting.\n• Experience conducting complex investigations across digital platforms.\n• Proficiency with data analysis tools and systems (e.g., SQL, Hadoop, or similar).\n• Experience with link analysis methodologies and tools.\n• Familiarity with legal, regulatory, and compliance considerations related to investigations.\n• Background in threat intelligence, open-source intelligence or internal/external investigations preferred.\n• Familiarity with security assessment tools and monitoring systems.\n\nPLUSES\n\nPlease note that these are desirable skills and are not required to apply for the position.\n\n• Experience with Maltego, Hunchly, Splunk, case management platforms, and/or relational databases.\n• Experience working with online games, live services, or large-scale AAA multiplayer environments.\n• Strong analytical mind with problem-solving skills.\n• Excellent collaboration and communication skills across technical and non-technical teams.\n• Mentoring mindset, sharing knowledge, expertise, and best practices with peers.\n• Scripting skills (e.g. SQL, Python) for automation and analysis.\n• Basic level of fluency or above in languages other than English.\n\nADDITIONAL INFORMATION\n\nHOW TO APPLY\n\nPlease apply with a resume and cover letter demonstrating how you meet the skills above. If we would like to move forward with your application, a Rockstar recruiter will reach out to you to explain next steps and guide you through the process.\n\nRockstar is committed to creating a work environment that promotes equal opportunity, dignity and respect. In line with this commitment, Rockstar will provide reasonable accommodations to qualified job applicants with disabilities during the recruitment process in order for such applicants to be considered for the position for which they are applying, as well as to qualified employees to enable them to perform the essential functions of their roles. If you need more information about Rockstar’s reasonable accommodation policies or process, or need to request an accommodation, please notify your recruiter during the interview process.\n\nIf you’ve got the right skills for the job, we want to hear from you. We encourage applications from all suitable candidates regardless of age, disability, gender identity, sexual orientation, religion, belief, race, or any other protected category.\nThe pay range for this position in San Diego at the start of employment is expected to be between the range below* per year. However, base pay offered is based on market location, and may vary further depending on individualized factors for job candidates, such as job-related knowledge, skills, experience, and other objective business considerations.\n\nSubject to those same considerations, the total compensation package for this position may also include other elements, including a bonus and/or equity awards, in addition to a full range of medical, financial, and/or other benefits. Details of participation in these benefit plans will be provided if an employee receives an offer of employment. If hired, employee will be in an \"at-will position\" and the company reserves the right to modify base salary (as well as any other discretionary payment or compensation or benefit program) at any time, including for reasons related to individual performance, company or individual department/team performance, and market factors.\n\n*San Diego Base Pay Range\n$125,000—$150,000 USD",
     "site": "rockstargames.com",
     "source": "greenhouse",
     "role": "Аналитика",
@@ -10309,7 +10636,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
-    "hasRu": true
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-rockstar-games-7800927003",
@@ -10332,6 +10659,7 @@ window.JOBS = [
     "stack": [
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10357,6 +10685,7 @@ window.JOBS = [
       "Blender",
       "Figma"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10384,6 +10713,7 @@ window.JOBS = [
       "SQL",
       "Perforce"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10408,6 +10738,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10431,6 +10762,7 @@ window.JOBS = [
     "stack": [
       "TypeScript"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10452,6 +10784,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10476,6 +10809,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10502,6 +10836,7 @@ window.JOBS = [
       "Python",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10530,6 +10865,7 @@ window.JOBS = [
       "Docker",
       "Perforce"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10555,6 +10891,7 @@ window.JOBS = [
       "C#",
       "Python"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10578,6 +10915,7 @@ window.JOBS = [
     "stack": [
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10604,6 +10942,7 @@ window.JOBS = [
       "Python",
       "Lua"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10627,6 +10966,7 @@ window.JOBS = [
     "stack": [
       "Python"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10650,6 +10990,7 @@ window.JOBS = [
     "stack": [
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10675,6 +11016,7 @@ window.JOBS = [
       "Java",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10698,21 +11040,22 @@ window.JOBS = [
     "stack": [
       "Java"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
-    "id": "gh-rockstar-games-7694184003",
+    "id": "gh-rockstar-games-7700435003",
     "title": "Senior Technical Artist: Procedural Art",
     "company": "Rockstar Games",
     "locations": [
-      "Leeds, United Kingdom"
+      "Carlsbad, United States"
     ],
     "remote": false,
     "rkind": null,
-    "salary": null,
+    "salary": "$ 105 000 – 140 000",
     "posted": "2026-08-11",
-    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7694184003",
-    "desc": "At Rockstar Games, we create world-class entertainment experiences.\n\nBecome part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry.\n\nRockstar is on the lookout for a talented Technical Artist who possess a passion for technology and innovation.\n\nThis is a full-time, permanent and in-office position based out of Rockstar’s unique game development studio in the heart of Leeds, England.\n\nWHAT WE DO\n\n• The Rockstar Games Technical Art team creates, maintains and enhances tools and workflows for artists across our Art, Animation, and VFX teams.\n• We create and maintain photogrammetry tools and pipelines, and support live scan sessions.\n• We drive innovation and efficiency in our pipelines by continuously researching and developing new technology.\n\nRESPONSIBILITIES\n\n• Design, develop, and support tools and pipelines in DCC and standalone contexts.\n• Develop automated solutions for data processing.\n• Stay informed on the latest technology and research related to the art of data pipelines and machine learning.\n• Write clear and detailed documentation for tools and workflows.\n• Diagnose and solve technical issues affecting artists.\n\nREQUIREMENTS\n\n• 5+ years of experience as a Technical Artist, Technical Director, Tools Programmer, or similar.\n• Experience developing tools for DCCs like Houdini, Zbrush, Agisoft, or Metashape.\n• Experience working through a full game production cycle or long-term project.\n• A strong understanding of Photogrammetry workflows and software.\n• Proficiency in Python.\n• Experience with build systems like Jenkins, Airflow, or Celery.\n• An understanding of a 3D asset pipeline and color management.\n• Ability to think creatively and develop innovative solutions to complex problems.\n\nPLUSES\n\nPlease note that these are desirable skills and are not required to apply for the position.\n\n• A degree in Computer Science or related discipline.\n• C++ programming skills.\n• Experience working with package management and deployment systems like Rez or PyPi.\n• Experience with ML based photogrammetry workflows like Gaussian Splats or Nerfs.\n\nHOW TO APPLY\n\nPlease apply with a resume and cover letter demonstrating how you meet the skills above. If we would like to move forward with your application, a Rockstar recruiter will reach out to you to explain next steps and guide you through the process.\n\nRockstar is committed to creating a work environment that promotes equal opportunity, dignity and respect. In line with this commitment, Rockstar will provide accommodations to job applicants with disabilities (or on the basis of any other protected ground under human rights legislation) during the recruitment process, as well as to any Rockstar employees in order for them to perform the essential functions of their roles. Rockstar will comply with its obligations under the Human Rights Code and the Accessibility for Ontarians with Disabilities Act and will provide accommodations as long as such accommodations do not pose an undue hardship on Rockstar. If you need more information about Rockstar’s accommodation policies or process, or need to request an accommodation, please notify your recruiter during the interview process.\n\nIf you’ve got the right skills for the job, we want to hear from you. We encourage applications from all suitable candidates regardless of age, disability, gender identity, sexual orientation, religion, belief, race, or any other protected category.\n\n#LI-AS1",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7700435003",
+    "desc": "At Rockstar Games, we create world-class entertainment experiences.\n\nBecome part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry.\n\nRockstar is on the lookout for a talented Technical Artist who possess a passion for technology and innovation.\n\nThis is a full-time, in-office position based out of Rockstar’s new state-of-the-art game development studio in Carlsbad, CA\n\nWHAT WE DO\n\n• The Rockstar Games Technical Art team creates, maintains and enhances tools and workflows for artists across our Art, Animation, and VFX teams.\n• We create and maintain photogrammetry tools and pipelines, and support live scan sessions.\n• We drive innovation and efficiency in our pipelines by continuously researching and developing new technology.\n\nRESPONSIBILITIES\n\n• Design, develop, and support tools and pipelines in DCC and standalone contexts.\n• Develop automated solutions for data processing.\n• Stay informed on the latest technology and research related to the art of data pipelines and machine learning.\n• Write clear and detailed documentation for tools and workflows.\n• Diagnose and solve technical issues affecting artists.\n\nREQUIREMENTS\n\n• 5+ years of experience as a Technical Artist, Technical Director, Tools Programmer, or similar.\n• Experience developing tools for DCCs like Houdini, Zbrush, Agisoft, or Metashape.\n• Experience working through a full game production cycle or long-term project.\n• A strong understanding of Photogrammetry workflows and software.\n• Proficiency in Python.\n• Experience with build systems like Jenkins, Airflow, or Celery.\n• An understanding of a 3D asset pipeline and color management.\n• Ability to think creatively and develop innovative solutions to complex problems.\n\nPLUSES\n\nPlease note that these are desirable skills and are not required to apply for the position.\n\n• A degree in Computer Science or related discipline.\n• C++ programming skills.\n• Experience working with package management and deployment systems like Rez or PyPi.\n• Experience with ML based photogrammetry workflows like Gaussian Splats or Nerfs.\n\nHOW TO APPLY\n\nPlease apply with a resume and cover letter demonstrating how you meet the skills above. If we would like to move forward with your application, a Rockstar recruiter will reach out to you to explain next steps and guide you through the process.\n\nRockstar is committed to creating a work environment that promotes equal opportunity, dignity and respect. In line with this commitment, Rockstar will provide accommodations to job applicants with disabilities (or on the basis of any other protected ground under human rights legislation) during the recruitment process, as well as to any Rockstar employees in order for them to perform the essential functions of their roles. Rockstar will comply with its obligations under the Human Rights Code and the Accessibility for Ontarians with Disabilities Act and will provide accommodations as long as such accommodations do not pose an undue hardship on Rockstar. If you need more information about Rockstar’s accommodation policies or process, or need to request an accommodation, please notify your recruiter during the interview process.\n\nIf you’ve got the right skills for the job, we want to hear from you. We encourage applications from all suitable candidates regardless of age, disability, gender identity, sexual orientation, religion, belief, race, or any other protected category.\n\n#LI-AS1\nThe pay range for this position in San Diego at the start of employment is expected to be between the range below* per year. However, base pay offered is based on market location, and may vary further depending on individualized factors for job candidates, such as job-related knowledge, skills, experience, and other objective business considerations.\n\nSubject to those same considerations, the total compensation package for this position may also include other elements, including a bonus and/or equity awards, in addition to a full range of medical, financial, and/or other benefits. Details of participation in these benefit plans will be provided if an employee receives an offer of employment. If hired, employee will be in an \"at-will position\" and the company reserves the right to modify base salary (as well as any other discretionary payment or compensation or benefit program) at any time, including for reasons related to individual performance, company or individual department/team performance, and market factors.\n\n*San Diego Base Pay Range\n$105,000—$140,000 USD",
     "site": "rockstargames.com",
     "source": "greenhouse",
     "role": "Технический художник",
@@ -10724,21 +11067,21 @@ window.JOBS = [
       "Houdini",
       "ZBrush"
     ],
-    "hasRu": true
+    "seen": "2026-08-25"
   },
   {
-    "id": "gh-rockstar-games-7739156003",
+    "id": "gh-rockstar-games-7741310003",
     "title": "Senior Web Developer - Tools",
     "company": "Rockstar Games",
     "locations": [
-      "Edinburgh, United Kingdom"
+      "Dundee, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-11",
-    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7739156003",
-    "desc": "At Rockstar Games, we create world-class entertainment experiences.\n\nBecome part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry.\n\nRockstar is on the lookout for a passionate Web Developer with strong experience in React and .NET to help build modern, scalable applications that help power our complex productions. This role works closely with designers, back-end engineers and stakeholders across the organisation to deliver high quality user experiences.\n\nThis is a full-time, permanent and in-office position based in Rockstar’s state-of-the-art game development studio in Edinburgh, Scotland.\n\nWHAT WE DO\n\n• The Rockstar Games Tools Team create and maintain software tools that are used by all game development disciplines to support the creation of all Rockstar Games projects.\n\nRESPONSIBILITIES\n\n• Design and develop complex, high performance web applications that are the backbone of project management and collaboration across our projects.\n• Development of accessible front-end components and applications using React.\n• Integration of front-end applications with ASP.NET Core (C#).\n• Contribute to architectural decisions and continuous improvement of the code base.\n• Develop comprehensive test suites.\n• Web performance optimization.\n\nREQUIREMENTS\n\n• A degree in computer science or 5+ years of experience in professional web development.\n• 5+ years of experience using React.\n• 5+ years of experience using .NET.\n• Experience with real-time technologies e.g. WebSockets, SignalR.\n• Experience with automated testing, shared code, and source control.\n• Knowledge of Agile, software development, and web-security best practices.\n• Passion for web technologies and a desire to remain up to date with the latest technologies.\n\nPLUSES\n\nPlease note that these are desirable skills and are not required to apply for the position.\n\n• Knowledge of authentication/authorization systems e.g. OAuth, identity providers.\n• Experience working on chat, collaboration or messaging platforms.\n• Understanding of UI/UX principles and/or working closely with design systems.\n• Exposure to Elasticsearch/OpenSearch.\n• Exposure to observability tools.\n• Knowledge of Rockstar’s game titles and passion for playing video games.\n\nHOW TO APPLY\n\nPlease apply with a CV and cover letter demonstrating how you meet the skills above. If we would like to move forward with your application, a Rockstar recruiter will reach out to you to explain next steps and guide you through the process.\n\nRockstar is committed to creating a work environment that promotes equal opportunity, dignity and respect. In line with this commitment, Rockstar will provide reasonable accommodations to qualified job applicants with disabilities during the recruitment process in order for such applicants to be considered for the position for which they are applying, as well as to qualified employees to enable them to perform the essential functions of their roles. If you need more information about Rockstar’s reasonable accommodation policies or process, or need to request an accommodation, please notify your recruiter during the interview process.\n\nIf you’ve got the right skills for the job, we want to hear from you. We encourage applications from all suitable candidates regardless of age, disability, gender identity, sexual orientation, religion, belief, race, or any other protected category.\n\n#LI-EM1",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7741310003",
+    "desc": "At Rockstar Games, we create world-class entertainment experiences.\n\nBecome part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry.\n\nRockstar is on the lookout for a passionate Web Developer with strong experience in React and .NET to help build modern, scalable applications that help power our complex productions. This role works closely with designers, back-end engineers and stakeholders across the organisation to deliver high quality user experiences.\n\nThis is a full-time, permanent and in-office position based in Rockstar’s state-of-the-art game development studio in Dundee, Scotland.\n\nWHAT WE DO\n\n• The Rockstar Games Tools Team create and maintain software tools that are used by all game development disciplines to support the creation of all Rockstar Games projects.\n\nRESPONSIBILITIES\n\n• Design and develop complex, high performance web applications that are the backbone of project management and collaboration across our projects.\n• Development of accessible front-end components and applications using React.\n• Integration of front-end applications with ASP.NET Core (C#).\n• Contribute to architectural decisions and continuous improvement of the code base.\n• Develop comprehensive test suites.\n• Web performance optimization.\n\nREQUIREMENTS\n\n• A degree in computer science or 5+ years of experience in professional web development.\n• 5+ years of experience using React.\n• 5+ years of experience using .NET.\n• Experience with real-time technologies e.g. WebSockets, SignalR.\n• Experience with automated testing, shared code, and source control.\n• Knowledge of Agile, software development, and web-security best practices.\n• Passion for web technologies and a desire to remain up to date with the latest technologies.\n\nPLUSES\n\nPlease note that these are desirable skills and are not required to apply for the position.\n\n• Knowledge of authentication/authorization systems e.g. OAuth, identity providers.\n• Experience working on chat, collaboration or messaging platforms.\n• Understanding of UI/UX principles and/or working closely with design systems.\n• Exposure to Elasticsearch/OpenSearch.\n• Exposure to observability tools.\n• Knowledge of Rockstar’s game titles and passion for playing video games.\n\nHOW TO APPLY\n\nPlease apply with a CV and cover letter demonstrating how you meet the skills above. If we would like to move forward with your application, a Rockstar recruiter will reach out to you to explain next steps and guide you through the process.\n\nRockstar is committed to creating a work environment that promotes equal opportunity, dignity and respect. In line with this commitment, Rockstar will provide reasonable accommodations to qualified job applicants with disabilities during the recruitment process in order for such applicants to be considered for the position for which they are applying, as well as to qualified employees to enable them to perform the essential functions of their roles. If you need more information about Rockstar’s reasonable accommodation policies or process, or need to request an accommodation, please notify your recruiter during the interview process.\n\nIf you’ve got the right skills for the job, we want to hear from you. We encourage applications from all suitable candidates regardless of age, disability, gender identity, sexual orientation, religion, belief, race, or any other protected category.\n\n#LI-EM1",
     "site": "rockstargames.com",
     "source": "greenhouse",
     "role": "Программирование",
@@ -10747,7 +11090,7 @@ window.JOBS = [
     "stack": [
       "C#"
     ],
-    "hasRu": true
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-rockstar-games-6620891003",
@@ -10770,6 +11113,7 @@ window.JOBS = [
     "stack": [
       "C#"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10796,6 +11140,7 @@ window.JOBS = [
       "SQL",
       "Perforce"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10819,6 +11164,7 @@ window.JOBS = [
     "stack": [
       "Java"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10840,6 +11186,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10864,6 +11211,7 @@ window.JOBS = [
       "C++",
       "C#"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10887,6 +11235,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10909,6 +11258,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10932,6 +11282,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10956,6 +11307,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -10979,6 +11331,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11003,6 +11356,7 @@ window.JOBS = [
       "Unity",
       "Figma"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11027,6 +11381,7 @@ window.JOBS = [
       "Python",
       "FMOD"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11053,6 +11408,7 @@ window.JOBS = [
       "C++",
       "Perforce"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11078,6 +11434,7 @@ window.JOBS = [
       "Maya",
       "Blender"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11102,6 +11459,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11126,6 +11484,7 @@ window.JOBS = [
       "Unreal",
       "Wwise"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11148,6 +11507,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ko",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11169,51 +11529,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
-    "hasRu": true
-  },
-  {
-    "id": "ab-supercell-b9c005e5-63ae-4a68-94c6-db2ba6e08a9e",
-    "title": "Senior Automation Engineer",
-    "company": "Supercell",
-    "locations": [
-      "Helsinki"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-09",
-    "url": "https://jobs.ashbyhq.com/supercell/b9c005e5-63ae-4a68-94c6-db2ba6e08a9e",
-    "desc": "We’re looking for a Senior Automation Engineer to join our Central Automation team in Helsinki and help shape the next generation of engineering tools across Supercell.\n\nYou’ll work alongside our Automation team to improve the systems hundreds of automated tests rely on every day, build infrastructure that game teams trust, and explore how AI can remove friction from development, testing, and releasing games. Your work won’t belong to a single title or technology, it will influence how multiple game teams build and ship products every day.\n\nIf you enjoy solving hard engineering problems, building platforms other developers love to use, and experimenting with new technologies before they become industry standard, we’d love to meet you.\n\nYou’ll have the opportunity to shape how engineers across Supercell build, test, and ship games.\n\nRather than maintaining a single automation framework, you’ll help define the future of engineering productivity, from modern CI systems and scalable automation infrastructure to AI-powered developer workflows. If you enjoy building platforms, solving hard technical problems, and enabling others to do their best work, you’ll fit right in.\n\nWe partner closely with game teams to understand what slows them down and build tools that help them move faster without sacrificing confidence. Rather than owning one product, we own the developer experience around automation.\n\nWHAT YOU'LL DO\n\n- Design and evolve the automation infrastructure used across Supercell.\n\n- Improve the reliability, scalability, and observability of our automation platforms.\n\n- Build tools that help developers test, debug, and release with confidence.\n\n- Partner closely with game teams to solve real engineering problems rather than hypothetical ones.\n\n- Help define how AI can improve automation, testing, debugging, reporting, and developer productivity.\n\n- Reduce flaky tests, improve feedback loops, and increase trust in automation.\n\n- Take ownership of services and infrastructure that other engineers rely on every day.\n\n- Continuously improve the developer experience across our engineering ecosystem.\n\nWE ARE LOOKING FOR SOMEONE WHO\n\n- Has built and operated automation platforms or infrastructure at scale.\n\n- Understands that great automation is as much about reliability and usability as it is about writing tests.\n\n- Has hands-on experience with areas like mobile automation, device farms, CI/CD, job orchestration, infrastructure, or developer tooling.\n\n- Is excited by the opportunities AI creates and wants to turn those opportunities into practical tools that engineers actually use.\n\n- Enjoys working across teams, understanding different perspectives, and solving problems collaboratively.\n\n- Takes ownership, enjoys ambiguity, and is comfortable figuring things out without waiting for detailed instructions.\n\n- Wants to build platforms that make hundreds of other engineers more productive.\n\nWOULD BE NICE IF YOU ALSO HAVE\n\n- Experience with Android and/or iOS development.\n\n- Strong C++ or Java experience.\n\n- Deep knowledge of mobile automation frameworks and supporting infrastructure.\n\n- Experience operating large-scale device farms.\n\n- Experience with AI-assisted engineering, including test generation, failure classification, log analysis, or developer productivity tooling.\n\n- Experience working in game development or mobile gaming.\n\n–––\n\nThat's it about the role! Below, we've gathered some things we feel are important for you to know. Totally optional, but a highly recommended read.\n\nOnce you're ready to apply, just send us your application through the form on the bottom of the page.\n\n–––\n\nABOUT SUPERCELL\n\nSupercell is a games company from Helsinki, Finland, with offices https://supr.cl/jd-offices also in San Francisco, Seoul, Shanghai, and London. You might know us as the makers of Hay Day, Clash of Clans, Boom Beach, Clash Royale, and Brawl Stars. Our mission is to create great games https://supr.cl/jd-games that as many people as possible play for years and that are remembered forever.\n\nSo, how do we make great games? By putting together the best teams and giving them the freedom and independence to succeed. And by taking risks, failing, sharing learnings https://supercell.com/en/news/learning-from-failures/, and killing lots of projects.\n\nHEY, YOU MIGHT LOVE IT HERE!\n\nIndependent cells and trust are at the core of our culture https://supr.cl/jd-why-you. But it takes more than that to make great games. We take good care of our people, providing them with the compensation, work environment, and resources they need to succeed while having fun along the way.\n\nYOU ARE NOT YOUR JOB TITLE ™\n\nHere, you won’t need to focus on chasing titles https://supr.cl/jd-job-title or climbing ladders. Internally, our job titles don’t include prefixes like Senior, Junior, Principal, or Director. Recognition isn’t tied to your title, as it doesn't define the impact you can have around here.\n\nBENEFITS AND COMPENSATION…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "source": "ashby",
-    "site": "supercell.com",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "C++",
-      "Java"
-    ],
-    "hasRu": true
-  },
-  {
-    "id": "ab-supercell-be3451d8-7ff6-4130-bbea-880d565051a1",
-    "title": "Senior QA Specialist",
-    "company": "Supercell",
-    "locations": [
-      "Helsinki"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-09",
-    "url": "https://jobs.ashbyhq.com/supercell/be3451d8-7ff6-4130-bbea-880d565051a1",
-    "desc": "WE’RE HIRING SEVERAL EXPERIENCED QA SPECIALISTS TO ENSURE OUR PLAYERS GET THE EXPERIENCE THEY DESERVE. INSTEAD OF DISTANTLY SUPPORTING, YOU’LL BE FULLY EMBEDDED WITHIN A SPECIFIC GAME TEAM, LIKE CLASH OF CLANS, CLASH ROYALE, BRAWL STARS OR HAY DAY, WORKING SIDE-BY-SIDE TO KEEP OUR QUALITY BAR HIGH AND OUR PLAYERS ENGAGED.\n\nOur game teams focus on building experiences that millions of people will enjoy for years. To do that, we need people who live and breathe quality and player experience. Supercell is growing but our teams are still small and efficient. You’ll have a couple of testers as your peers so you’re in good company with loads of ownership.\n\nWe believe in a personal approach to hiring. In addition to hard and soft skills, we want to make sure you find a team where you’ll thrive. Throughout the process, we’ll work with you to figure out which game team best aligns with your specific expertise and what you’re most passionate about.\n\nIf you love the innovative side of QA as much as the collaborative, player-focused approach and you're comfortable being the person your team can count on – let’s get in touch!\n\nWHAT YOU'LL BE DOING\n\n- Provide QA support for your specific team to design, develop, and apply testing processes that improve game quality and player experience, wherever you're needed most.\n\n- Validate release candidates across the full release cycle, ensuring builds are stable, compliant, and ready for submission.\n\n- Test game performance (FPS, memory, loading times, battery, network) and investigate crashes, ANRs, and other technical issues to find root causes.\n\n- Validate backend systems, live features, and SDK integrations, and support live operations by helping investigate issues and verify fixes quickly.\n\n- Plan and execute tests with no explicit requirements, taking the initiative to analyze the product and determine the best tests to mitigate risk.\n\n- Manage external test vendors to help scale testing capability.\n\n- Own bug tracking, reporting, and regression testing to keep releases high quality.\n\n- Continuously evolve how we test by introducing better tools, strategies, and ways of working.\n\nWHAT YOU HAVE\n\n- At least 7 years of hands-on experience testing games, with a track record spanning both technical/systems-level testing and broader feature and content testing.\n\n- Good knowledge of iOS and Android ecosystems, with experience testing games on both platforms.\n\n- Experience testing performance metrics such as FPS, memory, battery, loading times, and network behavior.\n\n- Ability to investigate complex issues such as crashes, ANRs, and backend-related bugs.\n\n- Familiarity with client-server architectures and live service environments.\n\n- Comfortable working across multiple teams at once, adapting quickly to different workflows and project needs.\n\n- Strong understanding of F2P games, game design, and live operations.\n\n- Strong analytical and problem-solving skills, with a hands-on, investigative mindset.\n\n- Clear communication skills, as in you can explain technical issues to engineers and non-technical stakeholders alike.\n\n- A reliable, independent team player who stays calm under pressure and can multitask across projects.\n\n- A self-starter approach to use AI: you've found ways to use it in your day-to-day work, you experiment, figure things out and bring the same energy to every new challenge.\n\nWOULD BE NICE IF YOU ALSO HAVE\n\n- Experience with release processes, CI/CD pipelines, or build systems.\n\n- Familiarity with backend systems, cloud environments, or server testing.\n\n- Experience with performance profiling tools and optimization workflows.\n\n- Knowledge of SDK integrations and platform services.\n\n- Scripting or basic programming skills for debugging or automation.\n\n- Previous experience managing external test vendors.\n\n- Knowledge of game analytics and performance monitoring tools.\n\nWHERE YOU'LL BE\n\nOur teams are based in the capital of happiest country in the world, Helsinki, Finland\n\n–––\n\nThat's it about the role! Below, we've gathered some things we feel are important for you to know. Totally optional, but a highly recommended read.\n\nOnce you're ready to apply, just send us your application through the form on the bottom of the page.\n\n–––\n\nABOUT SUPERCELL\n\nSupercell is a games company from Helsinki, Finland, with offices https://supr.cl/jd-offices also in San Francisco, Seoul, Shanghai, and London. You might know us as the makers of Hay Day, Clash of Clans, Boom Beach, Clash Royale, and Brawl Stars. Our mission is to create great games https://supr.cl/jd-games that as many people as possible play for years and that are remembered forever.\n\nSo, how do we make great games? By putting together the best teams and giving them the freedom and independence to succeed. And by taking risks, failing, sharing learnings https://supercell.com/en/news/learning-from-failures/, and killing lots of projects.\n\nHEY, YOU MIGHT LOVE IT HERE!\n\nIndependent cells and trust are at the core of our culture https://supr.cl/jd-why-you. But it takes more than that to make great games. We take good care of our people, providing them with the compensation, work environment, and resources they need to succeed while having fun along the way.\n\n…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "source": "ashby",
-    "site": "supercell.com",
-    "role": "QA",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11239,6 +11555,7 @@ window.JOBS = [
       "JavaScript",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11260,6 +11577,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11282,28 +11600,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
-    "hasRu": true
-  },
-  {
-    "id": "ab-supercell-25896f6c-f9c6-449d-8abe-69ce7c63fffe",
-    "title": "Product Marketing Manager, Hay Day",
-    "company": "Supercell",
-    "locations": [
-      "Helsinki",
-      "London"
-    ],
-    "remote": false,
-    "rkind": "worldwide",
-    "salary": null,
-    "posted": "2026-08-07",
-    "url": "https://jobs.ashbyhq.com/supercell/25896f6c-f9c6-449d-8abe-69ce7c63fffe",
-    "desc": "HAY DAY IS ONE OF SUPERCELL’S MOST ICONIC GAMES, DELIGHTING TENS OF MILLIONS OF PLAYERS WORLDWIDE WITH ITS COZY, SOCIAL FARMING EXPERIENCE. WE ARE LOOKING FOR A PRODUCT MARKETING MANAGER TO OWN GO-TO-MARKET (GTM) STRATEGY AND EXECUTION – TURNING EVERY UPDATE, FEATURE DROP, AND SEASONAL MOMENT INTO A CAMPAIGN OUR PLAYERS AND COMMUNITY CAN’T STOP TALKING ABOUT.\n\nSitting directly within the Hay Day game team, you will bridge product development, live ops, creative production, and community to turn product updates into major commercial and player-engagement wins.\n\nWHAT YOU'LL BE DOING\n\n- Drive End-to-End GTM Strategy: Partner directly with product leads and game designers from early feature concepts to define positioning, formulate clear pre-launch hypotheses, and deliver high-impact marketing campaigns for all live updates, seasonal beats, and feature drops.\n\n- Lead Creative Campaign Delivery: Direct internal art directors, video producers, and external agencies to produce compelling trailers, visual assets, and marketing collateral that land with Hay Day’s core audience.\n\n- Explore Growth Channels with UA: Partner closely with UA and Performance Marketing teams to test and scale performance-driven channels including Connected TV (CTV), influencer integrations, creator platforms, and podcasts and more to expand game reach during major moments.\n\n- In-Game & Channel Execution: Operationalize player communications across in-game pop-ups, newsfeed beats, push notifications, App Store Optimization (ASO), and Web Shop / D2C channels.\n\n- Amplify via Community & Creators: Collaborate with Community Managers and content creators to design shareable launch beats that drive organic reach and creator content.\n\n- Measure & Iterate: Partner with analytics to validate campaign hypotheses, track launch performance, feature adoption, and player sentiment—using post-launch data to continuously sharpen future GTM playbooks.\n\nWHAT YOU HAVE\n\n- 5+ years of Product Marketing experience in mobile gaming or live-service consumer products (casual, simulation, or puzzle experience is a big plus).\n\n- Proven GTM execution track record: Demonstrated experience taking live features and product updates from early concept to full public launch.\n\n- Sharp creative instincts: Strong aesthetic eye with the ability to give clear, actionable feedback on trailer cuts, visual assets, and player copy.\n\n- Performance channel & UA literacy: Solid understanding of performance marketing mechanics and experience evaluating multi-channel campaigns (UA, CTV, creator partnerships, podcasts).\n\n- Data & Hypothesis-Driven Mindset: Experience framing clear GTM hypotheses, defining success metrics pre-launch, and using post-campaign analytics to back up strategic decisions.\n\n- Cross-functional leadership: Exceptional project management skills with the ability to align developers, artists, and marketers without formal authority.\n\n- Collaborative mindset: Naturally builds trust, communicates openly, and thrives in cross-functional teams. Partner with analytics and support the insights team.\n\nWHERE YOU'LL BE\n\nYou are based in or willing to relocate to Helsinki, Finland. Alternatively, located in London with a willingness to travel.\n\n–––\n\nThat's it about the role! Below, we've gathered some things we feel are important for you to know. Totally optional, but a highly recommended read.\n\nOnce you're ready to apply, just send us your application through the form on the bottom of the page.\n\n–––\n\nABOUT SUPERCELL\n\nSupercell is a games company from Helsinki, Finland, with offices https://supr.cl/jd-offices also in San Francisco, Seoul, Shanghai, and London. You might know us as the makers of Hay Day, Clash of Clans, Boom Beach, Clash Royale, and Brawl Stars. Our mission is to create great games https://supr.cl/jd-games that as many people as possible play for years and that are remembered forever.\n\nSo, how do we make great games? By putting together the best teams and giving them the freedom and independence to succeed. And by taking risks, failing, sharing learnings https://supercell.com/en/news/learning-from-failures/, and killing lots of projects.\n\nHEY, YOU MIGHT LOVE IT HERE!\n\nIndependent cells and trust are at the core of our culture https://supr.cl/jd-why-you. But it takes more than that to make great games. We take good care of our people, providing them with the compensation, work environment, and resources they need to succeed while having fun along the way.\n\nYOU ARE NOT YOUR JOB TITLE ™\n\nHere, you won’t need to focus on chasing titles https://supr.cl/jd-job-title or climbing ladders. Internally, our job titles don’t include prefixes like Senior, Junior, Principal, or Director. Recognition isn’t tied to your title, as it doesn't define the impact you can have around here.\n\nBENEFITS AND COMPENSATION…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "source": "ashby",
-    "site": "supercell.com",
-    "role": "Маркетинг",
-    "grade": null,
-    "spec": null,
-    "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11325,6 +11622,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": "Бэкенд",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11350,6 +11648,7 @@ window.JOBS = [
       "Blender",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11373,6 +11672,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11399,6 +11699,7 @@ window.JOBS = [
       "Python",
       "Maya"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11424,6 +11725,7 @@ window.JOBS = [
       "C#",
       "Python"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11449,6 +11751,7 @@ window.JOBS = [
       "C#",
       "Python"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11474,6 +11777,7 @@ window.JOBS = [
       "C#",
       "Python"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11498,6 +11802,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11521,6 +11826,7 @@ window.JOBS = [
     "stack": [
       "Swift"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11542,6 +11848,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11565,6 +11872,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11586,6 +11894,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11607,6 +11916,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11631,6 +11941,7 @@ window.JOBS = [
       "Photoshop",
       "Figma"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11655,6 +11966,7 @@ window.JOBS = [
       "Unity",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11678,6 +11990,7 @@ window.JOBS = [
     "stack": [
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11701,6 +12014,7 @@ window.JOBS = [
     "stack": [
       "Python"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11722,6 +12036,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11743,6 +12058,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11764,6 +12080,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11785,6 +12102,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11806,6 +12124,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11830,6 +12149,7 @@ window.JOBS = [
       "Unity",
       "C#"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11854,6 +12174,7 @@ window.JOBS = [
       "Unity",
       "C#"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11879,6 +12200,7 @@ window.JOBS = [
       "C++",
       "C#"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11905,6 +12227,7 @@ window.JOBS = [
       "Blender",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11926,6 +12249,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11950,6 +12274,7 @@ window.JOBS = [
       "Unity",
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11971,6 +12296,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -11992,6 +12318,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12014,6 +12341,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12036,32 +12364,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
-    "hasRu": true
-  },
-  {
-    "id": "gh-scopely-5342840008",
-    "title": "Client Engineer",
-    "company": "Scopely",
-    "locations": [
-      "Barcelona, Spain"
-    ],
-    "remote": false,
-    "rkind": "worldwide",
-    "salary": null,
-    "posted": "2026-08-06",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5342840008?gh_jid=5342840008",
-    "desc": "Scopely is seeking a highly motivated Client Engineer to join our Playgami team in Barcelona on a hybrid basis!\n\nAt Scopely, we care deeply about what we do and want to encourage play every day - whether in our work environments alongside our talented colleagues or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing, and innovating the mobile games industry, connecting millions of people worldwide daily.\n\nPlaygami is building the best SaaS gaming platform ever! The team strives to build the world’s best products for game production, operation, and insights. Powering many award-winning, loved-by-millions franchise games over mobile, web, and PC.\n\nWhat You’ll Do\n\nWe are looking for a Client Engineer to work closely with our game teams to improve advertising technology and monetization. This role focuses on integrating and evolving the Playgami Ads SDK across multiple games while helping studios maximize advertising performance and player experience.\n\n• Partner closely with game teams to integrate and optimize the Playgami Ads SDK in mobile games\n• Design, develop, and maintain client-side advertising technology used across Scopely's game portfolio\n• Help improve ad monetization by identifying technical opportunities and best practices\n• Collaborate with product managers, backend engineers, and game developers to deliver new advertising capabilities\n• Troubleshoot integration issues and support game teams throughout the integration lifecycle\n• Contribute to the evolution of Playgami's Ads technology, driving improvements in performance, reliability, and developer experience\n• Share technical knowledge and establish best practices across multiple game teams\n\nWhat We're Looking For\n\n• Strong experience developing mobile applications or SDKs using Unity, Android (Java/Kotlin), iOS (Swift/Objective-C), or similar client technologies\n• Experience integrating or working with third-party SDKs and mobile frameworks\n• Strong software engineering fundamentals, including object-oriented design and debugging complex systems\n• Excellent problem-solving skills and the ability to work across multiple codebases and teams\n• Strong communication skills and experience collaborating with cross-functional stakeholders\n• A customer-oriented mindset with a passion for helping engineering teams succeed\n• Interest in mobile performance, user experience, and software quality\n• Excellent written and verbal English communication skills\n\nNice to Have\n\n• Experience with mobile advertising technologies such as Google Mobile Ads, AppLovin MAX, Unity Ads, ironSource, or similar platforms\n• Experience optimizing ad monetization, mediation, bidding, or waterfall configurations\n• Familiarity with mobile game development and live operations\n• Experience building reusable SDKs or platform components\n• Knowledge of analytics, A/B testing, and experimentation platforms\n• Knowledge of backend technologies\n• Experience working with large-scale mobile applications used by millions of players\n\nAt Scopely, we create games for everyone, and want to ensure that the people behind our games reflect that! We are committed to creating a diverse, supportive work environment where everyone is treated with respect. We are committed to providing equal employment opportunities and welcome individuals from all backgrounds to join us and embrace the adventure!\n\nAbout Scopely\n\nScopely is a leading video game and global interactive entertainment company, home to many of the world’s most beloved and enduring experiences, including two of the most successful mobile games of all-time “MONOPOLY GO!” and “Pokémon GO,” along with “Stumble Guys,” “Star Trek™ Fleet Command,” “MARVEL Strike Force,” “WWE Champions,” the Scrabble® franchise, “Yahtzee® With Buddies,” and many others. Across mobile, web, PC, and console, Scopely creates, develops, publishes, and live-operates one of the most diversified and award-winning portfolios in the games industry — bringing hundreds of millions of players together through a shared love of play.\n\nFounded in 2011, Scopely is powered by its exceptional team — including thousands of world-class gamemakers around the globe, a distinctive tenet-driven culture, and its proprietary technology platform, Playgami. Together, these strengths have fueled Scopely’s position as the #1 mobile games company in the U.S. and #2 globally, generating more than $10 billion in lifetime revenue. Whether building global sensations like “MONOPOLY GO!” from the ground up, or expanding through strategic acquisitions, including the FoxNext, GSN, and Scopely Explore games businesses — Scopely consistently delivers experiences players love today and return to for years to come.\n\nRecognized multiple times as one of the \"100 Most Influential Companies in the World\" by TIME magazine and one of Fast Company's \"World's Most Innovative Companies\" and “Best Workplaces for Innovators,” Scopely believes that video games can be a force for good — creating meaningful connections, vibrant communities, and making life better through play.\n\nScopely has global operations and partners across four continents in more than a dozen countries worldwide. For more information, visit: https://www.scopely.com/.\n\nNotice to Candidates: Scopely will never request payment or financial information during the application or hiring process. Please apply only through our official website and verify that all Talent Partner communications come from an email address ending in @scopely.com.\n\nShould you have any questions or encounter any fraudulent requests/emails/websites, please immediately contact recruiting@scopely.com. Our job applicant privacy policies are available here: California Privacy Notice and EEA/UK Privacy Notice.…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "site": "scopely.com",
-    "source": "greenhouse",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Unity",
-      "Java",
-      "Kotlin",
-      "Swift"
-    ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12086,6 +12389,7 @@ window.JOBS = [
       "Unity",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12107,6 +12411,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12130,6 +12435,7 @@ window.JOBS = [
     "stack": [
       "TypeScript"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12152,6 +12458,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12176,6 +12483,7 @@ window.JOBS = [
     "stack": [
       "Python"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12200,6 +12508,7 @@ window.JOBS = [
       "JavaScript",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12224,6 +12533,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12246,6 +12556,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ko",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12271,6 +12582,7 @@ window.JOBS = [
       "JavaScript",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12294,6 +12606,7 @@ window.JOBS = [
     "stack": [
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12317,6 +12630,7 @@ window.JOBS = [
     "stack": [
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12342,6 +12656,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12366,6 +12681,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12390,6 +12706,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12422,6 +12739,7 @@ window.JOBS = [
       "Go",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12447,6 +12765,7 @@ window.JOBS = [
       "Go",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12472,6 +12791,7 @@ window.JOBS = [
       "SQL",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12495,6 +12815,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12519,6 +12840,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12540,7 +12862,36 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
+  },
+  {
+    "id": "gh-scopely-5196204008",
+    "title": "Client Engineer",
+    "company": "Scopely",
+    "locations": [
+      "Shanghai, China"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-05",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5196204008?gh_jid=5196204008",
+    "desc": "Scopely is looking for a Client Engineer to join an unannounced title based in our Shanghai office (5 days in the office).\n\nAt Scopely, we care deeply about what we do and want to inspire play, every day - whether in our work environments alongside our talented colleagues, or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily.\n\nWe are in the early stages of development on an ambitious mobile game in China, and we’re assembling a team of passionate game makers to craft unforgettable characters and immersive adventures that players will love.\n\nWhat You Will Do\n\nWe are looking for a Client Engineer to help build the next generation of our games. You will work with a team of passionate engineers while developing core systems and features that power large-scale, real-time experiences for our unannounced game title. You’ll work on complex technical challenges involving real-time interaction, large-scale systems, and a persistent shared world used by tens of millions of players.\n\n• Develop, and maintain key client-side components that enable rich, scalable game experiences.\n• Partner closely with server, product, design, and other cross-functional teams to ensure technical alignment and product quality.\n• Apply engineering best practices, including code reviews, unit testing, load testing, and performance optimization.\n• Troubleshoot complex issues across mobile platforms to ensure stability and uptime for live systems.\n• Participate in regular in-person meetings and collaboration sessions (role requires 5 days/week in office).\n\nWhat You Will Need\n\n• Experience developing commercial games in Unity, C#\n• Experience with at least one of the following:\n• Mobile native coding (Java/Kotlin for Android, ObjC/Swift for iOS, C/C++ for native)\n• Network programming, cloud computing and server debugging\n• Graphics programming for 3D games\n• Familiar with Git, Bash and Gradle\n• Strong problem solving and communication skills\n• Professional proficiency in both Mandarin and English\n• BS / MS in Computer Science or Software Engineering or equivalent\n\nBonus Points\n\n• Experience with profiling and optimization for mobile\n• Experience with developing productivity tools and creating efficient procedures\n• Rich experience in playing mobile games and console games\n• Experience leading a team: task breakdown&scoping, code reviews, mentoring junior devs, prototyping, etc.\n• Excellent verbal English communication\n\nAt Scopely, we create games for everyone - and want to ensure that the people behind our games reflect that! We are committed to creating a diverse, supportive work environment where everyone is treated with respect. We are committed to providing equal employment opportunities and welcome individuals from all backgrounds to join us & embrace the adventure!\n\nAbout Scopely\n\nScopely is a leading video game and global interactive entertainment company, home to many of the world’s most beloved and enduring experiences, including two of the most successful mobile games of all-time “MONOPOLY GO!” and “Pokémon GO,” along with “Stumble Guys,” “Star Trek™ Fleet Command,” “MARVEL Strike Force,” “WWE Champions,” the Scrabble® franchise, “Yahtzee® With Buddies,” and many others. Across mobile, web, PC, and console, Scopely creates, develops, publishes, and live-operates one of the most diversified and award-winning portfolios in the games industry — bringing hundreds of millions of players together through a shared love of play.\n\nFounded in 2011, Scopely is powered by its exceptional team — including thousands of world-class gamemakers around the globe, a distinctive tenet-driven culture, and its proprietary technology platform, Playgami. Together, these strengths have fueled Scopely’s position as the #1 mobile games company in the U.S. and #2 globally, generating more than $10 billion in lifetime revenue. Whether building global sensations like “MONOPOLY GO!” from the ground up, or expanding through strategic acquisitions, including the FoxNext, GSN, and Scopely Explore games businesses — Scopely consistently delivers experiences players love today and return to for years to come.\n\nRecognized multiple times as one of the \"100 Most Influential Companies in the World\" by TIME magazine and one of Fast Company's \"World's Most Innovative Companies\" and “Best Workplaces for Innovators,” Scopely believes that video games can be a force for good — creating meaningful connections, vibrant communities, and making life better through play.\n\nScopely has global operations and partners across four continents in more than a dozen countries worldwide. For more information, visit: https://www.scopely.com/.\n\nNotice to Candidates: Scopely will never request payment or financial information during the application or hiring process. Please apply only through our official website and verify that all Talent Partner communications come from an email address ending in @scopely.com.\n\nShould you have any questions or encounter any fraudulent requests/emails/websites, please immediately contact recruiting@scopely.com. Our job applicant privacy policies are available here: California Privacy Notice and EEA/UK Privacy Notice.\n\nEmployment at Scopely is based solely on a person's merit and qualifications. Scopely does not discriminate against any employee or applicant because of race, creed, color, religion, gender, sexual orientation, gender identity/expression, national origin, disability, age, genetic information, veteran status, marital status, pregnancy or related condition (including breastfeeding), or any other basis protected by law. We also consider qualified applicants with arrest or conviction records, consistent with applicable federal, state and local law.",
+    "site": "scopely.com",
+    "source": "greenhouse",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unity",
+      "C++",
+      "C#",
+      "Java",
+      "Kotlin",
+      "Swift"
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-scopely-5276789008",
@@ -12563,6 +12914,7 @@ window.JOBS = [
     "stack": [
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12584,6 +12936,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12609,6 +12962,7 @@ window.JOBS = [
       "Java",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12630,6 +12984,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12651,6 +13006,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12672,6 +13028,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12697,6 +13054,7 @@ window.JOBS = [
       "C#",
       "Python"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12718,6 +13076,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12740,6 +13099,7 @@ window.JOBS = [
     "spec": null,
     "permit": true,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12761,6 +13121,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12782,6 +13143,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12805,6 +13167,7 @@ window.JOBS = [
     "stack": [
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12831,6 +13194,7 @@ window.JOBS = [
       "Docker",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12852,6 +13216,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12873,6 +13238,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12894,6 +13260,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12915,6 +13282,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12936,6 +13304,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12961,6 +13330,7 @@ window.JOBS = [
       "AWS",
       "Docker"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -12983,6 +13353,7 @@ window.JOBS = [
     "spec": null,
     "permit": true,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13005,6 +13376,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ko",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13029,6 +13401,7 @@ window.JOBS = [
     "stack": [
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13051,6 +13424,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ko",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13073,6 +13447,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ko",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13097,6 +13472,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13118,6 +13494,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13139,6 +13516,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13171,6 +13549,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13200,6 +13579,7 @@ window.JOBS = [
       "TypeScript",
       "Docker"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13227,6 +13607,7 @@ window.JOBS = [
       "Wwise",
       "FMOD"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13251,6 +13632,7 @@ window.JOBS = [
       "Go",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13274,6 +13656,7 @@ window.JOBS = [
     "stack": [
       "Figma"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13301,6 +13684,7 @@ window.JOBS = [
       "Substance",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13327,6 +13711,7 @@ window.JOBS = [
       "AWS",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13348,6 +13733,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13373,6 +13759,7 @@ window.JOBS = [
       "AWS",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13394,6 +13781,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13415,6 +13803,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13438,6 +13827,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13463,6 +13853,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13492,6 +13883,7 @@ window.JOBS = [
       "Python",
       "Maya"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13513,6 +13905,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13535,6 +13928,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ko",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13563,6 +13957,7 @@ window.JOBS = [
       "Blender",
       "Houdini"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13589,6 +13984,7 @@ window.JOBS = [
       "TypeScript",
       "Figma"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13615,6 +14011,7 @@ window.JOBS = [
       "TypeScript",
       "Figma"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13642,6 +14039,7 @@ window.JOBS = [
       "Maya",
       "Blender"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13665,6 +14063,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13687,6 +14086,7 @@ window.JOBS = [
     "spec": null,
     "lang": "zh",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13712,6 +14112,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13733,6 +14134,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13755,6 +14157,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13778,6 +14181,7 @@ window.JOBS = [
     "stack": [
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13802,6 +14206,7 @@ window.JOBS = [
       "Blender",
       "Substance"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13823,6 +14228,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13848,6 +14254,7 @@ window.JOBS = [
       "Unity",
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13871,6 +14278,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13892,6 +14300,7 @@ window.JOBS = [
     "grade": "Junior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13916,6 +14325,7 @@ window.JOBS = [
       "AWS",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13940,6 +14350,7 @@ window.JOBS = [
       "Unity",
       "C#"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13961,6 +14372,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -13985,6 +14397,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14006,6 +14419,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14031,6 +14445,7 @@ window.JOBS = [
       "AWS",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14055,6 +14470,7 @@ window.JOBS = [
       "Blender",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14076,6 +14492,7 @@ window.JOBS = [
     "grade": "Junior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14097,6 +14514,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14121,6 +14539,7 @@ window.JOBS = [
       "Photoshop",
       "Figma"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14142,6 +14561,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14166,6 +14586,7 @@ window.JOBS = [
       "Unity",
       "C#"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14187,6 +14608,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14215,6 +14637,7 @@ window.JOBS = [
       "Java",
       "JavaScript"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14243,6 +14666,7 @@ window.JOBS = [
       "SQL",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14268,6 +14692,7 @@ window.JOBS = [
       "Photoshop",
       "Figma"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14296,6 +14721,7 @@ window.JOBS = [
       "Blender",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14321,6 +14747,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14343,6 +14770,7 @@ window.JOBS = [
     "spec": null,
     "lang": "zh",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14367,29 +14795,32 @@ window.JOBS = [
       "Python",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
-    "id": "gh-riot-games-7921687",
+    "id": "gh-riot-games-7102266",
     "title": "Game Designer, Combat - Unpublished R&D Product (Contract)",
     "company": "Riot Games",
     "locations": [
-      "Guangzhou, China"
+      "Shanghai, China"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-07-28",
-    "url": "https://www.riotgames.com/en/work-with-us/job/7921687?gh_jid=7921687",
-    "desc": "作为一名战斗策划，您将根据项目的目标与方向，参与定义游戏在战斗和沙盘两个核心方向的基础体验。您将以玩家为中心，推进战斗与沙盘系统的设计与平衡，保证玩法的策略深度和持久吸引力。您需要与项目组各部门高效协作，推动方案实现并持续优化内容品质。\n\n我们是谁\n\n我们团队始终坚信以玩家体验为核心，这不仅是工作的基础，更是驱动我们不断创新的动力。如果你热衷于探索前沿设计，喜欢带来影响深远的玩法创新，欢迎加入我们，一起定义新世代社交策略体验！\n\n您的影响\n\n定义战斗与沙盘体验\n\n• 以项目前景和目标为导向，参与战斗系统和沙盘玩法的整体框架设计，切实影响玩家的主要互动节奏、策略深度和沉浸反馈，助推产品体验达成行业领先。\n\n构建与平衡战斗与沙盘系统\n\n• 拟定并完善战斗规则、单位/技能/地图机制等基础内容，协同数值策划推进平衡测试与落地，确保玩法公平有趣、策略丰富。\n\n推动创新与验证原型\n\n• 积极提出前瞻性设计设想，将创意理念转化为可操作的原型，并参与多轮体验验证与调优，助力玩法体系不断自我突破。\n\n跨团队协作与高效实现\n\n• 主动联合程序、美术、UI/UX等多职能团队，推进战斗与沙盘系统的高效协作开发与品质管控，确保方案与整体产品战略保持一致。\n\n关注玩家与市场动态\n\n• 跟进主流竞品和行业趋势，结合实际数据与玩家反馈，持续优化设计内容，提升玩家体验与系统可玩性。\n\n岗位职责\n\n• 深度参与从0到1的方案设计，清晰梳理系统结构和功能细节，保障玩法基础可靠可拓展。\n• 负责核心机制的文档输出与细化，协助数值团队定义关键参数与成长体系。\n• 主动关注和分析主流竞品的玩法思路，结合玩家偏好和市场趋势提出可落地的创新点，推动功能快速上线、反复迭代。\n• 与项目相关各部门密切沟通，确保设计方案能够以较高还原度和效率开发落地。\n• 敏锐洞察玩家需求，参与数据分析和用户调研，对系统功能体验持续进行优化、跟踪与调整。\n\n任职要求\n\n• 本科及以上学历，2年以上战斗方向的游戏策划经验，有完整移动端项目从立项到上线的实践经历优先。\n• 拥有良好的逻辑思维、玩法建模及文档输出能力，能独立负责细化方案与推进开发协作。\n• 热衷游戏及玩法创新，对市场主流产品有深入体验及见解。\n• 积极主动，善于跨部门沟通，具备团队协作精神和推动复杂方案落地的执行力。\n\n加分项\n\n• 有头部产品核心策划经验。\n• 深度体验游戏，对玩家需求和IP特色有独到理解。\n• 具备复杂系统数据与体验调优能力。\n• 熟悉A/B测试、用户数据分析方法，能基于结果提出有效优化建议。\n• 能阅读或撰写英文设计文档，有国际化手游项目经验。\n\n用工性质：与专业人事服务公司FESCO Adecco签订劳动合同.",
+    "url": "https://www.riotgames.com/en/work-with-us/job/7102266?gh_jid=7102266",
+    "desc": "作为一名游戏设计师，你将负责设计、调整并优化玩家体验。你出色的分析能力、对玩家的洞察力以及创造力将共同打造游戏内外令人惊喜且具有吸引力的玩家体验。你将与跨学科团队合作，充分运用各种工具，持续迭代和优化以玩家为核心的设计，致力于让全球数百万玩家感到满意与喜爱。\n\n在研发（R&D）团队中担任战斗游戏设计师。你将与其他设计师、艺术家和工程师密切协作，优化和迭代以玩家为中心的设计，致力于创造突破性的游戏体验。由于团队规模仍较小，该岗位需要大量实操工作，亲自创建和调校战斗系统/机制。你应能适应目标与限制主要由团队驱动的不确定性环境，同时适应大大小小的变更作为设计流程的日常一部分。\n\n职责：\n\n• 设计、实现并改进战斗机制与系统，使其令玩家满意并提升对游戏概念的信心。\n• 在所处游戏类型中探索创新战斗设计方案，提出多种可行的设计与解决方案，清晰说明各种方案之间的权衡与风险。\n• 利用快速原型与游戏测试验证设计方案的可行性。\n• 编写清晰的设计文档，确保非设计人员也能评估与实现相关内容。\n• 与设计团队及其他跨职能团队协作，共同打造出色的整体游戏体验。积极配合、听取反馈并不断迭代，以实现最高质量的产品。\n\n岗位要求：\n\n• 至少 3 年专业游戏设计工作经验。\n• 至少 2 年 Unreal 引擎使用经验，熟练使用技能编辑器、关卡编辑器、GAS 系统及蓝图。\n• 在以下领域至少精通一项：战斗机制、战斗手感、战斗 AI、角色控制 / 摄像机 / 操作系统。\n• 能够流利使用中文普通话交流。\n\n加分项：\n\n• 在至少一款已发行游戏中，熟练使用某款游戏引擎的脚本编程。\n• 能流利使用英语进行口头与书面交流。\n\n在此岗位中，你将通过精湛的专业技能、积极的协作精神和以玩家愉悦体验为导向的决策获得成功。我们将重点参考你过往的学习经历、工作经验及你与游戏的个人关系。如果你具有强烈的玩家同理心，并真正关心玩家的游戏体验，这份工作可能正是为你量身打造的！\n\n用工性质：与专业人事服务公司FESCO Adecco签订劳动合同",
     "site": "riotgames.com",
     "source": "greenhouse",
     "role": "Геймдизайн",
     "grade": null,
     "spec": null,
     "lang": "zh",
-    "stack": [],
-    "hasRu": true
+    "stack": [
+      "Unreal"
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-riot-games-7921706",
@@ -14411,6 +14842,7 @@ window.JOBS = [
     "spec": null,
     "lang": "zh",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14432,6 +14864,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14456,6 +14889,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14483,6 +14917,7 @@ window.JOBS = [
       "Go",
       "Java"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14509,6 +14944,7 @@ window.JOBS = [
       "Maya",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14533,6 +14969,7 @@ window.JOBS = [
       "Unity",
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14555,6 +14992,7 @@ window.JOBS = [
     "spec": null,
     "lang": "zh",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14579,6 +15017,7 @@ window.JOBS = [
       "Unity",
       "C#"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14600,6 +15039,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14624,6 +15064,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14651,6 +15092,7 @@ window.JOBS = [
       "Houdini",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14672,6 +15114,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14695,6 +15138,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14718,6 +15162,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14742,6 +15187,7 @@ window.JOBS = [
     "stack": [
       "Perforce"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14763,6 +15209,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14784,6 +15231,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14808,6 +15256,7 @@ window.JOBS = [
       "Unity",
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14831,6 +15280,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14852,6 +15302,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14878,6 +15329,7 @@ window.JOBS = [
       "Java",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -14903,21 +15355,22 @@ window.JOBS = [
       "C++",
       "C#"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
-    "id": "gh-riot-games-7271179",
+    "id": "gh-riot-games-7449571",
     "title": "Software Engineer, Gameplay - Unpublished R&D Product (Contract)",
     "company": "Riot Games",
     "locations": [
-      "Shanghai, China"
+      "Guangzhou, China"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-07-28",
-    "url": "https://www.riotgames.com/en/work-with-us/job/7271179?gh_jid=7271179",
-    "desc": "拳头游戏的工程师不仅在特定技术领域具备深厚的专业知识，也同样重视在更广泛、多样化的领域中工作的机会。作为一名软件工程师，您还将深入参与旨在增强团队凝聚力、实现跨团队目标的项目。您将主导游戏玩法功能的开发，并为其他工程师清晰地展示何为卓越的工程实践。\n\n作为研发部门的一名Software Engineer, Gameplay，您将运用自身在游戏玩法技术领域的精深知识，为拳头游戏激动人心的新作注入生命力。您将与产品负责人、设计师、艺术家及其他工程师在团队中紧密合作，共同探索产品的根本性问题，并打造出能将玩家的梦想变为现实的卓越体验。理想的候选人应充满热情、积极主动，并有志于引领该游戏领域的技术愿景。\n\n职责：\n\n• 与策划团队合作，沟通理解产品需求，主导并参与相关系统的需求分析、技术设计及最终实现游戏功能\n• 理解策划、美术团队的开发流程，与专业领域的负责人协作识别开发中的瓶颈，规划并交付相关的工具，提高团队开发效率\n• 不断迭代和优化解决方案，以确保其稳健性、可扩展性和高性能\n• 协助团队确立技术方向与开发标准\n\n必备条件：\n\n• 在游戏行业中有4年以上作为软件工程师的开发经验\n• 精通C++或C#\n• 参与过至少一个已发布的游戏项目\n• 对常见的游戏和软件设计模式有深入理解\n• 出色的调试技能\n• 在技术决策中具备产品意识、务实态度和玩家同理心\n\n优先条件：\n\n• 拥有2年以上的游戏玩法开发经验\n• 具有使用商业引擎（如Unreal或Unity）的经验\n• 具备与中型工程团队合作的经验\n• 参与过游戏开发的原型设计和前期制作阶段\n• 具备敏捷开发经验\n\n用工性质：与专业人事服务公司FESCO Adecco签订劳动合同",
+    "url": "https://www.riotgames.com/en/work-with-us/job/7449571?gh_jid=7449571",
+    "desc": "关于我们\n\n我们以玩家体验为核心，致力于用创新技术为全球玩家带来卓越的游戏体验。作为Riot中国在研项目组的一员，你将和多元化团队一同探索前沿引擎技术，不断学习与成长，共同打造高品质、充满想象力的游戏产品。我们鼓励开放合作、不断挑战自我，诚邀热爱研发和创新的你加入！\n\n岗位职责\n\n• 负责基于Unreal Engine 5（UE5）引擎的游戏客户端功能开发与维护；\n• 实现和优化客户端各类核心功能，保障高性能和稳定性，为玩家呈现流畅的游戏体验；\n• 参与客户端功能模块的技术实现与维护，推动功能高质量落地；\n• 与策划、美术及服务器等多团队协作，确保功能需求精准实现和体验优化；\n• 针对新需求和玩家反馈，持续进行性能分析、问题定位与优化迭代；\n• 跟踪引擎和行业新技术，将高效工具、流程和最佳实践应用到项目中。\n\n任职要求\n\n• 本科及以上学历，2年以上游戏客户端开发经验，有较强的C++编程功底；\n• 至少1年以上Unreal Engine 5（UE5）项目开发经验 或 2年以上Unity项目开发经验，熟悉引擎开发流程；\n• 能够独立负责细分功能模块的开发、优化与维护；\n• 具备良好的性能优化能力，能够定位并解决客户端的性能问题与兼容性问题；\n• 能与策划、美术、服务端等岗位高效沟通协作，共同推动需求开发与落地；\n• 具备严谨的编码规范与问题分析能力，乐于分享与持续学习新技术。\n\n加分项\n\n• 有大型多人在线游戏、沙盒、MOBA或高复杂度项目的UE5客户端开发经验；\n• 熟悉UE5渲染、UI、动画、网络同步等相关模块开发；\n• 有Unreal Engine工具或插件开发经验；\n• 拥有既能独立钻研新技术又能带动团队贡献的能力；\n• 熟悉英雄联盟IP，有国际化、多文化项目经验；\n• 英语口语流利，能阅读或编写英文技术文档。\n\n用工性质：与专业人事服务公司FESCO Adecco签订劳动合同.",
     "site": "riotgames.com",
     "source": "greenhouse",
     "role": "Программирование",
@@ -14925,10 +15378,10 @@ window.JOBS = [
     "spec": "Геймплей",
     "lang": "zh",
     "stack": [
-      "C++",
-      "C#"
+      "Unreal",
+      "C++"
     ],
-    "hasRu": true
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-riot-games-7449588",
@@ -14951,7 +15404,8 @@ window.JOBS = [
     "lang": "zh",
     "stack": [
       "C++"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-riot-games-7334759",
@@ -14978,6 +15432,7 @@ window.JOBS = [
       "Go",
       "Java"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15003,6 +15458,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15031,6 +15487,7 @@ window.JOBS = [
       "AWS",
       "Docker"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15056,6 +15513,7 @@ window.JOBS = [
       "C++",
       "Perforce"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15084,6 +15542,7 @@ window.JOBS = [
       "Houdini",
       "ZBrush"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15109,6 +15568,7 @@ window.JOBS = [
       "Houdini",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15131,6 +15591,7 @@ window.JOBS = [
     "spec": null,
     "lang": "zh",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15155,6 +15616,7 @@ window.JOBS = [
       "Unreal",
       "Blender"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15187,6 +15649,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15212,6 +15675,7 @@ window.JOBS = [
       "Blender",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15235,6 +15699,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15257,6 +15722,7 @@ window.JOBS = [
     "spec": null,
     "permit": true,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15283,6 +15749,7 @@ window.JOBS = [
       "Photoshop",
       "Spine"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15304,6 +15771,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15345,6 +15813,7 @@ window.JOBS = [
       "Unity",
       "C#"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15386,6 +15855,7 @@ window.JOBS = [
       "Unity",
       "C#"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15410,6 +15880,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15433,6 +15904,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15454,6 +15926,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15478,6 +15951,7 @@ window.JOBS = [
     "stack": [
       "Maya"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15502,6 +15976,7 @@ window.JOBS = [
     "stack": [
       "Maya"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15526,6 +16001,7 @@ window.JOBS = [
     "stack": [
       "Maya"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15549,6 +16025,7 @@ window.JOBS = [
     "stack": [
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15572,6 +16049,7 @@ window.JOBS = [
     "stack": [
       "Python"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15593,6 +16071,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15616,6 +16095,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15642,6 +16122,7 @@ window.JOBS = [
       "Substance",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15665,6 +16146,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15689,6 +16171,7 @@ window.JOBS = [
     "stack": [
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15710,6 +16193,7 @@ window.JOBS = [
     "grade": "Junior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15732,6 +16216,7 @@ window.JOBS = [
     "spec": null,
     "permit": true,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15756,6 +16241,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15779,6 +16265,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15802,6 +16289,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15825,6 +16313,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15846,6 +16335,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15872,6 +16362,7 @@ window.JOBS = [
       "Houdini",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15893,6 +16384,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15914,6 +16406,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15935,6 +16428,7 @@ window.JOBS = [
     "grade": "Junior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15956,6 +16450,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -15977,6 +16472,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16004,6 +16500,7 @@ window.JOBS = [
       "Substance",
       "Figma"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16027,6 +16524,7 @@ window.JOBS = [
     "stack": [
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16053,6 +16551,7 @@ window.JOBS = [
       "Docker",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16076,6 +16575,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16101,6 +16601,7 @@ window.JOBS = [
       "Python",
       "Maya"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16123,6 +16624,7 @@ window.JOBS = [
     "spec": null,
     "permit": true,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16146,6 +16648,7 @@ window.JOBS = [
     "stack": [
       "Python"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16169,6 +16672,7 @@ window.JOBS = [
     "stack": [
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16193,6 +16697,7 @@ window.JOBS = [
       "Python",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16216,6 +16721,7 @@ window.JOBS = [
     "stack": [
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16240,6 +16746,7 @@ window.JOBS = [
       "Unreal",
       "Maya"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16261,6 +16768,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16286,6 +16794,7 @@ window.JOBS = [
       "Java",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16313,6 +16822,7 @@ window.JOBS = [
       "Blender",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16336,6 +16846,7 @@ window.JOBS = [
     "stack": [
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16362,6 +16873,7 @@ window.JOBS = [
       "Swift",
       "Lua"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16385,6 +16897,7 @@ window.JOBS = [
     "stack": [
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16412,6 +16925,7 @@ window.JOBS = [
       "ZBrush",
       "Substance"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16435,6 +16949,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16456,6 +16971,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16479,6 +16995,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16503,6 +17020,7 @@ window.JOBS = [
       "TypeScript",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16524,6 +17042,7 @@ window.JOBS = [
     "grade": null,
     "spec": "Геймплей",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16550,6 +17069,7 @@ window.JOBS = [
       "C++",
       "Perforce"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16573,6 +17093,7 @@ window.JOBS = [
     "stack": [
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16598,6 +17119,7 @@ window.JOBS = [
       "SQL",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16621,6 +17143,7 @@ window.JOBS = [
     "stack": [
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16643,6 +17166,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16672,6 +17196,7 @@ window.JOBS = [
       "Docker",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16694,6 +17219,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ko",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16717,6 +17243,7 @@ window.JOBS = [
     "stack": [
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16739,6 +17266,7 @@ window.JOBS = [
     "spec": null,
     "permit": true,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16760,6 +17288,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16783,6 +17312,7 @@ window.JOBS = [
     "stack": [
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16804,6 +17334,7 @@ window.JOBS = [
     "grade": "Junior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16830,6 +17361,7 @@ window.JOBS = [
       "Java",
       "Kotlin"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16853,6 +17385,7 @@ window.JOBS = [
     "stack": [
       "Go"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16877,6 +17410,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16900,6 +17434,7 @@ window.JOBS = [
     "stack": [
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16928,6 +17463,7 @@ window.JOBS = [
       "ZBrush",
       "Substance"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16951,6 +17487,7 @@ window.JOBS = [
     "stack": [
       "Python"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -16977,6 +17514,7 @@ window.JOBS = [
       "C++",
       "Perforce"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17003,6 +17541,7 @@ window.JOBS = [
       "C++",
       "Perforce"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17028,6 +17567,7 @@ window.JOBS = [
       "Kubernetes",
       "Perforce"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17055,6 +17595,7 @@ window.JOBS = [
       "Blender",
       "Houdini"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17079,6 +17620,7 @@ window.JOBS = [
       "Unreal",
       "Python"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17104,6 +17646,7 @@ window.JOBS = [
       "Wwise",
       "FMOD"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17132,6 +17675,7 @@ window.JOBS = [
       "Maya",
       "Blender"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17153,53 +17697,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
-    "hasRu": true
-  },
-  {
-    "id": "ab-supercell-66476c5d-30b6-4772-aa41-94d251e3d73c",
-    "title": "Senior UI Artist",
-    "company": "Supercell",
-    "locations": [
-      "Helsinki"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-07-08",
-    "url": "https://jobs.ashbyhq.com/supercell/66476c5d-30b6-4772-aa41-94d251e3d73c",
-    "desc": "THIS IS YOUR OPPORTUNITY TO WORK ON CLASH ROYALE AT SUPERCELL, ONE OF THE MOST BELOVED MOBILE GAMES IN THE WORLD, AND CONTINUE BRINGING JOY TO THE MILLIONS OF PLAYERS WHO ENJOY THE GAME EVERY DAY.\n\nWe are looking for an experienced and passionate Senior UI Artist to join the Clash Royale team.\n\nThis is a hands-on art role focused on creating beautiful, polished UI art for an ever-evolving live game. You will work closely with a tight-knit team of developers, UX designers, and game designers to turn features, events, and game systems into clear, delightful, high-quality visual experiences.\n\nYou will have a direct impact on how the game looks and feels through its interface: making the experience more readable, more beautiful, more responsive, and more satisfying for players.\n\nWe are looking for someone who thrives in a small, highly collaborative team. You should be able to work independently, make strong visual decisions, proactively seek alignment with the game’s art direction, and bring ideas that help push the player experience further.\n\nWHAT YOU'LL BE DOING\n\n- Create high-quality UI screens, elements, and assets for a live mobile game.\n\n- Create polished UI animations and motion treatments that make the interface feel responsive, satisfying, and alive.\n\n- Work closely with Designers to translate wireframes, flows, and feature designs into visually polished, production-ready UI.\n\n- Collaborate with developers to ensure UI assets and animations are implemented correctly and efficiently in the game.\n\n- Understand and align your work with feature goals, player needs, community feedback, and live game priorities.\n\n- Maintain and evolve the game’s UI visual language while respecting the existing art direction and established game conventions.\n\n- Proactively seek feedback and alignment from relevant stakeholders, including art direction, design, development, marketing, and community.\n\n- Improve the quality, consistency, readability, and polish of existing UI across the live game.\n\n- Contribute ideas and feedback that help improve the game experience for players.\n\n- Create assets and iterations efficiently in response to live-game needs, team feedback, player feedback, and changing priorities.\n\n- Help build and maintain reusable UI components, visual standards, and production practices that make future UI work faster and better.\n\nWHAT YOU HAVE\n\n- 5+ years of experience as a UI Artist, Game Artist, 2D Artist, or similar role in games.\n\n- A strong portfolio demonstrating excellent UI art, craft, visual polish, readability, and attention to detail.\n\n- Strong understanding of layout, composition, color, typography, visual hierarchy, iconography, and readability.\n\n- Experience creating UI animations, transitions, interaction feedback, or other motion design for game interfaces.\n\n- Proficiency in Photoshop or similar 2D art production tools.\n\n- Experience working with animation tools, or willingness to learn Adobe Animate / Flash and other tools used in our UI production pipeline.\n\n- Ability to work independently in a small team, organize your own work, and move features forward without heavy process.\n\n- Ability to adapt to an existing art direction and create UI that feels native to the game.\n\n- Experience working with multiple stakeholders and driving alignment around the visual quality and direction of UI.\n\n- Strong collaboration and communication skills.\n\n- Passion for mobile games.\n\nWOULD BE NICE IF YOU ALSO HAVE\n\n- Familiarity with working in a live game environment.\n\n- Familiarity with and passion for Clash Royale.\n\n- Experience with Adobe Animate / Flash.\n\n- Experience with 3D software.\n\n- Background as a Game Artist, Graphic Designer, or Marketing Artist.\n\n- Experience with LiveOps features, events, offers, shops, rewards, or other live-game UI.\n\n- Experience creating or maintaining UI style guides, component libraries, or reusable asset systems.\n\n- Experience using AI-assisted tools responsibly to improve efficiency, iteration speed, or production quality.\n\n–––\n\nThat's it about the role! Below, we've gathered some things we feel are important for you to know. Totally optional, but a highly recommended read.\n\nOnce you're ready to apply, just send us your application through the form on the bottom of the page.\n\n–––\n\nABOUT SUPERCELL\n\nSupercell is a games company from Helsinki, Finland, with offices https://supr.cl/jd-offices also in San Francisco, Seoul, Shanghai, and London. You might know us as the makers of Hay Day, Clash of Clans, Boom Beach, Clash Royale, and Brawl Stars. Our mission is to create great games https://supr.cl/jd-games that as many people as possible play for years and that are remembered forever.\n\nSo, how do we make great games? By putting together the best teams and giving them the freedom and independence to succeed. And by taking risks, failing, sharing learnings https://supercell.com/en/news/learning-from-failures/, and killing lots of projects.\n\nHEY, YOU MIGHT LOVE IT HERE!\n\nIndependent cells and trust are at the core of our culture https://supr.cl/jd-why-you. But it takes more than that to make great games. We take good care of our people, providing them with the compensation, work environment, and resources they need to succeed while having fun along the way.\n\n…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "source": "ashby",
-    "site": "supercell.com",
-    "role": "Арт",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "Photoshop"
-    ],
-    "hasRu": true
-  },
-  {
-    "id": "sr-gameloft-744000136375799",
-    "title": "AI Engineer (for Game Development)",
-    "company": "Gameloft",
-    "locations": [
-      "Ho Chi Minh City, Vietnam"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-07-08",
-    "url": "https://jobs.smartrecruiters.com/Gameloft/744000136375799",
-    "desc": "Job Description\nWHAT YOU WILL BE WORKING ON​\nWhat you will focus on\nAs our Senior AI Engineer, you'll own the AI technology that powers the next generation of our games—from computer vision and generative AI to conversational AI and AI-assisted development workflows. You'll bridge cutting-edge AI research with production-ready solutions, ensuring our AI features are scalable, reliable, and enjoyable for millions of players.\nWhat it means on a daily basis​\n\n• Design, build, and optimize end-to-end AI workflows and ML pipelines, from data collection and model training to deployment and monitoring.\n• Lead the development of AI features across computer vision, generative AI, conversational AI, and AI-driven gameplay experiences.\n• Research, prototype, evaluate, and productionize the latest AI technologies while balancing innovation with maintainability and performance.\n• Drive AI-assisted development by implementing agentic workflows, AI coding assistants, and modern AI engineering practices to improve team productivity.\n• Mentor AI engineers and collaborate closely with game, product, engineering, and infrastructure teams to deliver impactful AI features.\nWho you would be working with​\n\n• Production Team to identify and build AI-powered player experiences.\n• Programming team to design scalable AI architecture and production pipelines.\n• Junior AI Engineers by providing technical mentorship, code reviews, and best practices.\n• Cross-functional teams to integrate AI into gameplay and development workflows.\n\nQualifications\nWHAT YOU NEED TO SUCCEED​\n\n• Experience building and shipping production AI/ML systems.\n• Strong Python programming skills with solid software engineering fundamentals (testing, CI/CD, clean architecture, version control).\n• Deep expertise in Computer Vision, including object detection, classification, tracking, and model optimization using frameworks such as PyTorch or TensorFlow.\n• Experience designing and operating end-to-end ML pipelines covering data, training, evaluation, deployment, and monitoring.\n• Experience deploying AI models to resource-constrained environments such as mobile, edge devices, WebGL, or on-device inference.\n• Hands-on experience with Large Language Models (LLMs), conversational AI, prompt engineering, safety guardrails, and chatbot frameworks.\n• Experience building AI agent workflows, AI coding assistants, and modern AI engineering tools (e.g., MCP, RAG, agent frameworks, context engineering).\n• Strong understanding of generative AI workflows for image generation and content creation.\n• Ability to read academic research and translate it into practical production solutions.\nWHO YOU ARE\n\n• Passionate about applying the latest AI technologies to create meaningful player experiences.\n• A hands-on technical leader who enjoys taking ownership from research through production.\n• Curious and forward-thinking, always exploring emerging AI models, tools, and engineering practices.\n• Strong problem solver who balances innovation with scalability, reliability, and product impact.\n• Collaborative communicator who can work effectively across engineering, product, design, and game development teams.\n• A mentor who enjoys helping others grow and raising the technical bar across the team.\n• Adaptable and pragmatic, able to navigate rapidly evolving AI technologies while maintaining production quality.\n\nAdditional Information\nWHAT'S IN IT FOR YOU\nBenefits\n\n• A hybrid working model with 2 days working from home every week.\n• A range of well-being events and policies to support employees physically, mentally, and emotionally.\n• Various training packages, including internal training, training sponsorship, and e-learning platforms (iLearn, Udemy, O'Reilly,...).\n• Opportunities to collaborate and train with Gameloft worldwide experts and develop yourself.\n• An attractive monthly salary alongside Tet and other performance bonuses.\n• Minimum 12 days of paid annual leave, plus 5 days of paid sick leave, Christmas leave, Birthday leave, CSR leave,...\n• 100% coverage of mandatory insurance plus private healthcare insurance.\n• A monthly allowance to support lunch meals and working-from-home electricity and Internet bills.\n• Relocation supprt for international candidates joining from overseas.\nLife at Gameloft\n\n• A collaborative workplace environment, with over 15+ nationalities, where hundreds of world-renowned game titles were born.\n• An open-space office, a canteen, a billiard table, a ping-pong table, and a foosball table.\n• A gaming room equipped with mutiple devices (PS, Xbox, Nintendo Switch, arcade machine,...).\n• A capable and encouraging team of professionals focused on creating compelling video games.\n• A global company where you can meet great people around the world.\n• A fun place to work in the heart of the city.\nHow to proceed\nReady to level up your career? Apply now and help us create the next great game!\nPlease note:\nTo ensure a fair and compliant recruitment process under the General Data Protection Regulation (GDPR), please submit your application through the official job posting, preferably via Gameloft website, Gameloft or Gameloft Vietnam LinkedIn pages, or SmartRecruiters. Applications sent via email or LinkedIn messages will not be considered.\nDue to the high volume of applications, only candidates whose profiles most closely match the role needs will be contacted by our recruiters. We sincerely appreciate your understanding and interest.\nWhat's more?\nWant to know more? Visit our websites:\n\n• Saigon Studio website\n• LinkedIn page\n• Facebook page\nCheck out some projects at Saigon Studio:\n\n• Asphalt 8 - Coin Rush Trailer\n• Asphalt Legends Unite - Launch Trailer\n• Applaydu Season 6\n• Bluey's Happy Snaps\n• Carmen Sandiego - Announcement Trailer\n• Gangstar Vegas - Gameplay Trailer",
-    "source": "smartrecruiters",
-    "site": "gameloft.com",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "Данные и ML",
-    "permit": true,
-    "stack": [
-      "Python"
-    ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17224,6 +17722,7 @@ window.JOBS = [
     "stack": [
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17248,6 +17747,7 @@ window.JOBS = [
       "Python",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17269,6 +17769,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17290,6 +17791,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17316,6 +17818,7 @@ window.JOBS = [
       "Substance",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17343,6 +17846,7 @@ window.JOBS = [
       "AWS",
       "Perforce"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17369,6 +17873,7 @@ window.JOBS = [
       "Substance",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17390,27 +17895,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
-    "hasRu": true
-  },
-  {
-    "id": "ab-supercell-ac462eb1-cbda-4c78-99bf-fcb71f917cc4",
-    "title": "Senior UI Designer, Community",
-    "company": "Supercell",
-    "locations": [
-      "Helsinki"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-07-06",
-    "url": "https://jobs.ashbyhq.com/supercell/ac462eb1-cbda-4c78-99bf-fcb71f917cc4",
-    "desc": "WE ARE LOOKING FOR A PASSIONATE AND EXPERIENCED UI DESIGNER TO JOIN THE COMMUNITY TEAM AT SUPERCELL. YOU WILL HELP DEFINE HOW PLAYERS EXPERIENCE SUPERCELL BEYOND GAMEPLAY ITSELF BY DESIGNING INTUITIVE, POLISHED, AND DELIGHTFUL SERVICES THAT REWARD, INFORM, AND INSPIRE OUR PLAYERS. YOU’LL WORK ACROSS A VARIETY OF TOUCHPOINTS, FROM IN-GAME NEWS AND DEEP LINK REWARDS TO WEB PLATFORMS FOR CREATORS, HELPING TO SHAPE PRODUCTS THAT PLAYERS WILL LOVE FOR YEARS TO COME.\n\nThis is your opportunity to work with a passionate team that connects millions of players with the games they love, through products like the Community Hub, Community Events, the  Creator Program https://creators.supercell.com, and  Make https://make.supercell.com/en. The Community Hub is the home for social, creators, and community within our games, and Community Events bring players together through moments like the  Adidas Starr Cup https://www.youtube.com/watch?v=4IE_PQaG7xk and  Keep Brawl Alive https://www.youtube.com/watch?v=XRNeVhqC3Ro. Our dream is to turn players into superfans by bringing players closer to the games.\n\nAs a designer on the Community Team, you’ll collaborate closely with our game teams, community managers, Supercell ID and Store teams, and external partners to create cohesive, player-first experiences. You’ll take ownership of both the visual and UX design of key player-facing services, breaking down complex systems into simple, elegant flows that feel right at home in the Supercell world.\n\nWHAT YOU'LL BE DOING\n\n- Design intuitive, polished player-facing services for Supercell’s Community and Creator initiatives.\n\n- Create visually outstanding UI and UX that enhance the player experience across web and in-game platforms.\n\n- Collaborate closely with game teams, Supercell ID, Store teams, and external digital agencies to deliver seamless and engaging designs.\n\n- Take ownership of your projects from early concepts to polished releases, including supporting live operations.\n\n- Contribute to the long-term vision of player-facing community services at Supercell.\n\n- Help the team develop new tools and ways of working, including smart AI usage.\n\nWHAT YOU HAVE\n\n- Background in product or UI/UX design, with a proven track record of delivering high-quality, player- or consumer-facing designs.\n\n- A portfolio showcasing stunning UI/UX work that drives excitement and engagement.\n\n- Exceptional visual skills and creative vision, ideally backed by a background in graphic design and art direction.\n\n- Deep understanding of UX principles and the ability to adapt designs based on player feedback and live needs.\n\n- Strong information architecture and visual hierarchy skills.\n\n- Solid interaction and motion design skills in UI context.\n\n- Ability to work independently, take full ownership of your projects, and thrive in a fast-paced, collaborative environment.\n\n- Excellent communication skills to clearly share your vision and design rationale across teams.\n\n- Experience leveraging AI tools and an innovator mindset.\n\n- A passion for mobile games and a player-first mindset.\n\nWHERE YOU'LL BE\n\nThis role is based in our Helsinki office. We value a collaborative work environment and genuine human interactions. You will work very closely with our other Helsinki-based teams.\n\nIf you are not local, our relocation team would be excited to help you with your move to Helsinki. We provide comprehensive support not only for you, but also for your family!\n\n–––\n\nThat's it about the role! Below, we've gathered some things we feel are important for you to know. Totally optional, but a highly recommended read.\n\nOnce you're ready to apply, just send us your application through the form on the bottom of the page.\n\n–––\n\nABOUT SUPERCELL\n\nSupercell is a games company from Helsinki, Finland, with offices https://supr.cl/jd-offices also in San Francisco, Seoul, Shanghai, and London. You might know us as the makers of Hay Day, Clash of Clans, Boom Beach, Clash Royale, and Brawl Stars. Our mission is to create great games https://supr.cl/jd-games that as many people as possible play for years and that are remembered forever.\n\nSo, how do we make great games? By putting together the best teams and giving them the freedom and independence to succeed. And by taking risks, failing, sharing learnings https://supercell.com/en/news/learning-from-failures/, and killing lots of projects.\n\nHEY, YOU MIGHT LOVE IT HERE!\n\nIndependent cells and trust are at the core of our culture https://supr.cl/jd-why-you. But it takes more than that to make great games. We take good care of our people, providing them with the compensation, work environment, and resources they need to succeed while having fun along the way.\n\nYOU ARE NOT YOUR JOB TITLE ™\n\nHere, you won’t need to focus on chasing titles https://supr.cl/jd-job-title or climbing ladders. Internally, our job titles don’t include prefixes like Senior, Junior, Principal, or Director. Recognition isn’t tied to your title, as it doesn't define the impact you can have around here.\n\n…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "source": "ashby",
-    "site": "supercell.com",
-    "role": "Поддержка",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17435,6 +17920,7 @@ window.JOBS = [
       "SQL",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17456,50 +17942,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
-    "hasRu": true
-  },
-  {
-    "id": "ab-supercell-25c49a59-3915-45b4-9389-6e1e4889f29f",
-    "title": "Marketing Manager, Korea",
-    "company": "Supercell",
-    "locations": [
-      "Seoul"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-07-03",
-    "url": "https://jobs.ashbyhq.com/supercell/25c49a59-3915-45b4-9389-6e1e4889f29f",
-    "desc": "At Supercell, we craft immersive game worlds that inspire millions. Our dream is to create great games that as many people as possible play for years and that are remembered forever. We believe that the best teams make the best games — this is your chance to bring our games to life in APAC.\n\nWe're looking for a Marketing Manager to join our APAC Marketing Team to drive regional marketing campaigns and initiatives in Korea. This role requires strong campaign execution, cross-functional collaboration, and a deep understanding of the Korean market.\n\nThe ideal candidate is an operator with exceptional marketing judgement, capable of turning strategy into outstanding regional execution while proactively identifying opportunities to improve campaigns and regional impact.\n\nWHAT YOU'LL BE DOING\n\n- Own the end-to-end execution of Supercell marketing campaigns, activations, and initiatives in Korea.\n\n- Translate regional marketing strategy into concrete, high-quality go-to-market plans.\n\n- Serve as the primary integration point across social, community, creator, esports, partnerships, and media workstreams.\n\n- Lead day-to-day campaign and program execution in partnership with Marketing Strategists, Regional Marketing leadership, local execution teams, game teams, central marketing, and external partners.\n\n- Manage timelines, budgets, and scopes to ensure campaigns ship on time and at a high quality bar.\n\n- Balance quality and impact; recommend prioritization and scope adjustments when needed.\n\n- Run structured campaign kick-offs with clear roles, POCs, timelines, deliverables, and escalation paths.\n\n- Set creative and quality standards for market-facing activations; review outputs for brand and local fit.\n\nWHAT YOU HAVE\n\n- 8+ years of experience in executing integrated marketing campaigns in Korea — gaming industry experience preferred.\n\n- Proven track record managing end-to-end marketing campaigns and activations.\n\n- Hands-on experience in digital, social, creator, influencer, and/or partnership marketing activations; understanding of local platforms, agencies, and channel execution.\n\n- Demonstrated ability to manage multiple concurrent campaigns and partners with clear timelines, priorities, and accountability.\n\n- Experience working with agencies and production partners; comfortable briefing vendors and setting quality bars.\n\n- Excellent project management and prioritization — calm under ambiguity, proactive, ownership-minded, and effective when plans change.\n\n- Strong stakeholder communication — able to align game teams, Regional Marketing leadership, and partners; comfortable presenting plans and results to senior audiences.\n\n- Deep understanding of Supercell games.\n\n- Professional fluency in Korean and English (written and verbal).\n\n- Deep understanding of the Korean market — culture, media, agencies, platforms, player/consumer behaviour.\n\n- Experience working with international teams across time zones.\n\n- Based in Korea (Seoul); onsite/hybrid as required.\n\n- Willingness to travel to Helsinki, Japan, and other Supercell hubs as needed.\n\nThis is a full-time role based in Seoul, South Korea. You’ll work closely with colleagues also based in Helsinki, Japan, and other Supercell hubs, and with external partners and agencies based in Korea.\n\n——\n\nThat's it about the role! Below, we've gathered some things we feel are important for you to know. Totally optional, but a highly recommended read.\n\nOnce you're ready to apply, just send us your application through the form on the bottom of the page.\n\n–––\n\nABOUT SUPERCELL\n\nSupercell is a games company from Helsinki, Finland, with offices https://supr.cl/jd-offices also in San Francisco, Seoul, Shanghai, and London. You might know us as the makers of Hay Day, Clash of Clans, Boom Beach, Clash Royale, and Brawl Stars. Our mission is to create great games https://supr.cl/jd-games that as many people as possible play for years and that are remembered forever.\n\nSo, how do we make great games? By putting together the best teams and giving them the freedom and independence to succeed. And by taking risks, failing, sharing learnings https://supercell.com/en/news/learning-from-failures/, and killing lots of projects.\n\nHEY, YOU MIGHT LOVE IT HERE!\n\nIndependent cells and trust are at the core of our culture https://supr.cl/jd-why-you. But it takes more than that to make great games. We take good care of our people, providing them with the compensation, work environment, and resources they need to succeed while having fun along the way.\n\nYOU ARE NOT YOUR JOB TITLE ™\n\nHere, you won’t need to focus on chasing titles https://supr.cl/jd-job-title or climbing ladders. Internally, our job titles don’t include prefixes like Senior, Junior, Principal, or Director. Recognition isn’t tied to your title, as it doesn't define the impact you can have around here.\n\nBENEFITS AND COMPENSATION…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "source": "ashby",
-    "site": "supercell.com",
-    "role": "Маркетинг",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "hasRu": true
-  },
-  {
-    "id": "ab-supercell-a91f0f17-3e71-4767-a448-94bd86dbb525",
-    "title": "Gameplay Capture & Video Artist, Creative Studio",
-    "company": "Supercell",
-    "locations": [
-      "Helsinki"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-07-03",
-    "url": "https://jobs.ashbyhq.com/supercell/a91f0f17-3e71-4767-a448-94bd86dbb525",
-    "desc": "FROM EXPLOSIVE ACTION TO COZY CASUAL, JOIN US TO MAKE IT ALL LOOK AS GOOD AS IT PLAYS.\n\nSupercell makes games for as many people as possible – games that are played for years and remembered forever. The Creative Studio's job is to make sure the world sees them at their best. We're looking for a versatile Gameplay Capture & Video Artist to do exactly that across our portfolio, from fast, action-driven titles to midcore and casual experiences.\n\nYou'll be the person who knows how to make any game look its best on camera – capturing the moments that stop a scroll and drive installs across Meta, TikTok, YouTube and beyond, then turning that raw material into performance creative at the volume and speed UA demands.\n\nThis is a UA-first craft role, and it's built on trust. Supercell runs on small, independent teams and very little process – which means you'll own your work end to end, set your own bar for quality, and be trusted to make the calls on how to hit it. We're not looking for someone who waits to be told what to do. We're looking for someone who treats this craft like it's their own studio: proactive, self-driven, and relentless about reaching a higher bar than anyone asked for.\n\nIf you love games, understand what makes an ad convert, and want real ownership over your work, this is for you.\n\nWHAT YOU'LL BE DOING\n\n- Capture high-quality gameplay footage and stills across a range of Supercell titles and genres (action, midcore, casual), with the instinct to surface the most compelling, install-driving moments in each.\n\n- Own the production of UA creative at volume – turning raw capture into testable ad variants optimized for performance across Meta, TikTok, YouTube and other paid channels.\n\n- Build AI-assisted creative tools (e.g. Scenario, Higgsfield) into your everyday workflow, feeding clean capture into AI generation and iteration to scale output and explore concepts faster.\n\n- Capture across multiple devices and platforms (iOS, Android, PC) to a consistently high technical standard.\n\n- Edit and enhance footage with sound, transitions, effects and pacing tuned for short-form, performance-driven formats.\n\n- Work iteratively with UA – reading creative performance signals and rapidly producing new variants and concepts in response.\n\n- Collaborate directly across cells – UA, marketing, brand and game teams – with minimal bureaucracy, taking your work where it has the most impact even when that's outside the strict scope of the role.\n\n- Optimize and version content for different placements, formats and aspect ratios, so every asset fits the channel and the test.\n\nWHAT YOU HAVE\n\n- Proven experience in gameplay capture and video editing for performance/UA creative, with a portfolio that shows both craft and an understanding of what drives results.\n\n- A self-set high bar – demonstrable evidence (work-related or not) of pushing your craft further than required, without anyone telling you to.\n\n- Demonstrated ability to capture polished footage across multiple games, genres and devices.\n\n- Expert proficiency with capture and editing tools – OBS Studio and Adobe Creative Suite (After Effects, Premiere, Media Encoder).\n\n- Hands-on experience (or strong, demonstrable aptitude) with AI-assisted creative tools, and a genuine drive to build them into a production workflow.\n\n- A strong feel for gameplay across genres, and an instinct for the moments that resonate with different player audiences.\n\n- Proven ability to produce high-quality creative quickly and at volume under tight, iterative deadlines.\n\n- A collaborative, data-aware mindset and the maturity to \"disagree and commit\" – push your point of view hard, then get fully behind the decision.\n\n- Strong communication and organizational skills, with the ability to own multiple titles and projects in parallel with little oversight.\n\nWOULD BE NICE IF YOU ALSO HAVE\n\n- Strong motion design, graphic design or animation skills.\n\n- Affinity for digital trends and memes, and the ability to apply them seamlessly into creative.\n\n- Experience with Unreal Engine for gameplay capture, camera work or visual effects.\n\n- Experience in a high-volume creative testing environment (in-house UA team or performance-focused agency)\n\nWHERE YOU'LL BE\n\nThis role will be based in our Helsinki office.\n\n–––\n\nThat's it about the role! Below, we've gathered some things we feel are important for you to know. Totally optional, but a highly recommended read.\n\nOnce you're ready to apply, just send us your application through the form on the bottom of the page.\n\n–––\n\nABOUT SUPERCELL\n\nSupercell is a games company from Helsinki, Finland, with offices https://supr.cl/jd-offices also in San Francisco, Seoul, Shanghai, and London. You might know us as the makers of Hay Day, Clash of Clans, Boom Beach, Clash Royale, and Brawl Stars. Our mission is to create great games https://supr.cl/jd-games that as many people as possible play for years and that are remembered forever.\n\nSo, how do we make great games? By putting together the best teams and giving them the freedom and independence to succeed. And by taking risks, failing, sharing learnings https://supercell.com/en/news/learning-from-failures/, and killing lots of projects.\n\nHEY, YOU MIGHT LOVE IT HERE!…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "source": "ashby",
-    "site": "supercell.com",
-    "role": "Арт",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Unreal"
-    ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17523,6 +17966,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17544,6 +17988,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17567,6 +18012,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17591,6 +18037,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17612,6 +18059,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17635,7 +18083,8 @@ window.JOBS = [
     "stack": [
       "Python",
       "SQL"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "gh-krafton-8602124002",
@@ -17664,6 +18113,7 @@ window.JOBS = [
       "AWS",
       "Docker"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17687,6 +18137,7 @@ window.JOBS = [
     "stack": [
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17708,6 +18159,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17729,27 +18181,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
-    "hasRu": true
-  },
-  {
-    "id": "ab-supercell-46fab76c-cd8b-4845-acfd-fa8d322c26c2",
-    "title": "Senior Marketing Manager, EMEA",
-    "company": "Supercell",
-    "locations": [
-      "Berlin"
-    ],
-    "remote": true,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-07-01",
-    "url": "https://jobs.ashbyhq.com/supercell/46fab76c-cd8b-4845-acfd-fa8d322c26c2",
-    "desc": "AT SUPERCELL, WE CRAFT IMMERSIVE GAME WORLDS THAT INSPIRE MILLIONS. NOW, WE'RE LOOKING FOR A MARKETING MANAGER TO BRING OUR GAMES TO LIFE ACROSS EMEA.\n\nWe are seeking a Senior Marketing Manager to join our International Marketing team and to drive regional marketing campaigns and marketing initiatives across the EMEA region. This role requires strong campaign execution, cross-functional collaboration, and in particular a deep understanding of the DACH cultural landscape. The ideal candidate is an operator with exceptional marketing judgement, capable of turning strategy into outstanding regional execution while proactively identifying opportunities to improve campaigns and regional impact.\n\nWHAT YOU'LL BE DOING\n\n- Own the end-to-end execution of Supercell marketing campaigns, activations, and initiatives across EMEA.\n\n- Translate regional marketing strategy into concrete, high-quality regional go-to-market plans.\n\n- Lead the delivery of campaigns across digital, social, influencer, and partnership channels.\n\n- Manage timelines, budgets, and scopes to ensure campaigns ship on time and at a high quality bar.\n\n- Partner closely with local agencies, game teams, marketing strategists, and creatives to ensure smooth execution.\n\n- Coordinate with creators, agencies, and external partners to deliver integrated campaigns.\n\n- Oversee production across non-owned channels, events, and activations, ensuring consistency and accuracy.\n\n- Track campaign performance and player response, sharing insights with stakeholders.\n\n- Continuously improve execution quality by applying learnings and raising the bar over time.\n\n- Capture learnings, identify execution improvements and proactively recommend ways to improve future campaigns.\n\nWHAT YOU HAVE\n\n- Strong experience executing marketing campaigns in EMEA and ideally DACH markets, France and the UK - preferably in gaming, entertainment, or consumer brands.\n\n- Deep understanding of DACH media, culture, and player behavior.\n\n- Hands-on experience across digital and social marketing, including influencer and creator collaborations.\n\n- Familiarity with broader media channels such as TV, CTV, audio, and out-of-home.\n\n- Proven ability to manage complex projects, timelines, and budgets.\n\n- Experience working with international teams across time zones.\n\n- Clear and concise communication skills with strong attention to detail.\n\n- A proactive, adaptable mindset and comfort working in a fast-moving environment.\n\nWOULD BE NICE IF YOU ALSO HAVE\n\n- Experience working on live games or live service products.\n\n- Familiarity with Supercell games or a strong interest in mobile and competitive gaming.\n\n- Experience executing campaigns across EMEA.\n\nWHERE YOU'LL BE\n\nThis is a remote role based in Berlin, Germany.\n\nYou'll work closely with teammates in Helsinki, London and partners across the region. This is a globally connected role, with travel expected to Helsinki on a regular basis with occasional international travel.\n\nWHAT SUCCESS LOOKS LIKE\n\n• First months: You're confidently executing campaigns aligned with global strategy, building strong relationships across teams, and ensuring smooth delivery.\n\n• 6–12 months: Your work is driving measurable impact across awareness, engagement, and player growth. Campaigns feel locally relevant and consistently meet a high quality bar.\n\n–––\n\nThat's it about the role! Below, we've gathered some things we feel are important for you to know. Totally optional, but a highly recommended read.\n\nOnce you're ready to apply, just send us your application through the form on the bottom of the page.\n\n–––\n\nABOUT SUPERCELL\n\nSupercell is a games company from Helsinki, Finland, with offices https://supr.cl/jd-offices also in San Francisco, Seoul, Shanghai, and London. You might know us as the makers of Hay Day, Clash of Clans, Boom Beach, Clash Royale, and Brawl Stars. Our mission is to create great games https://supr.cl/jd-games that as many people as possible play for years and that are remembered forever.\n\nSo, how do we make great games? By putting together the best teams and giving them the freedom and independence to succeed. And by taking risks, failing, sharing learnings https://supercell.com/en/news/learning-from-failures/, and killing lots of projects.\n\nHEY, YOU MIGHT LOVE IT HERE!\n\nIndependent cells and trust are at the core of our culture https://supr.cl/jd-why-you. But it takes more than that to make great games. We take good care of our people, providing them with the compensation, work environment, and resources they need to succeed while having fun along the way.\n\nYOU ARE NOT YOUR JOB TITLE ™\n\nHere, you won’t need to focus on chasing titles https://supr.cl/jd-job-title or climbing ladders. Internally, our job titles don’t include prefixes like Senior, Junior, Principal, or Director. Recognition isn’t tied to your title, as it doesn't define the impact you can have around here.\n\nBENEFITS AND COMPENSATION…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "source": "ashby",
-    "site": "supercell.com",
-    "role": "Маркетинг",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17776,6 +18208,7 @@ window.JOBS = [
       "AWS",
       "Docker"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17802,6 +18235,7 @@ window.JOBS = [
       "Kotlin",
       "Swift"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17826,6 +18260,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17851,6 +18286,7 @@ window.JOBS = [
       "SQL",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17877,6 +18313,7 @@ window.JOBS = [
       "AWS",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17902,6 +18339,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17927,6 +18365,7 @@ window.JOBS = [
       "Python",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17950,6 +18389,7 @@ window.JOBS = [
     "stack": [
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17974,6 +18414,7 @@ window.JOBS = [
     "stack": [
       "Blender"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -17997,6 +18438,7 @@ window.JOBS = [
     "stack": [
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18018,6 +18460,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18042,6 +18485,7 @@ window.JOBS = [
     "stack": [
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18063,6 +18507,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18084,6 +18529,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18105,6 +18551,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18128,6 +18575,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18150,6 +18598,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ko",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18171,6 +18620,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18197,6 +18647,7 @@ window.JOBS = [
       "Maya",
       "Blender"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18222,6 +18673,7 @@ window.JOBS = [
       "Python",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18247,6 +18699,7 @@ window.JOBS = [
       "Kotlin",
       "Swift"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18269,6 +18722,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ko",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18291,6 +18745,7 @@ window.JOBS = [
     "spec": null,
     "lang": "ko",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18314,6 +18769,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18342,6 +18798,7 @@ window.JOBS = [
       "Substance",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18364,6 +18821,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18386,6 +18844,7 @@ window.JOBS = [
     "spec": null,
     "permit": true,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18409,6 +18868,7 @@ window.JOBS = [
     "stack": [
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18431,6 +18891,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18452,6 +18913,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18480,29 +18942,7 @@ window.JOBS = [
       "ZBrush",
       "Substance"
     ],
-    "hasRu": true
-  },
-  {
-    "id": "ab-supercell-fbf26285-b36d-4977-b137-e3264b5a033a",
-    "title": "Senior Cloud Engineer",
-    "company": "Supercell",
-    "locations": [
-      "Helsinki"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-06-19",
-    "url": "https://jobs.ashbyhq.com/supercell/fbf26285-b36d-4977-b137-e3264b5a033a",
-    "desc": "WE'RE LOOKING FOR AN EXPERIENCED CLOUD ENGINEER TO JOIN THE CLOUD TEAM AT SUPERCELL. THE CLOUD TEAM PROVIDES THE FOUNDATION, EXPERTISE, AND SUPPORT THAT LETS EVERY SUPERCELL TEAM BUILD AND OPERATE SECURELY, EFFICIENTLY, AND AT SCALE ACROSS OUR MULTI-PROVIDER CLOUD ENVIRONMENT. OUR MISSION IS TO HELP EVERY TEAM USE THE CLOUD EFFECTIVELY AND SAFELY WITH MINIMAL OVERHEAD, WHILE MAKING SURE THERE ARE NO UNWELCOME SURPRISES.\n\nIn this role you'll help us scale with the company's growth. As headcount and complexity increase, so does the demand on our cloud infrastructure. Rather than absorbing that linearly, we want to meet it with opinionated golden paths, automation, and self-service. You'll look several months ahead to spot scalability bottlenecks, technical debt, and emerging needs across the company, turning those into concrete technical direction and actions. You will design guardrails that minimise risk without being invasive, building paved roads that make the secure and efficient choice the easy choice. You’ll also ensure these paths work smoothly for both human developers and the AI tools or agents they use.\n\nYou will operate with very high autonomy: keeping stakeholders and the team informed, and proactively deciding what makes the most sense for Supercell, so that teams can focus on creating great games.\n\nWHAT YOU'LL BE DOING\n\n- Build golden paths. Design and maintain opinionated, production-ready golden paths (think \"hosting in 15 minutes\") covering infrastructure, CI/CD, DNS, monitoring, auth, and storage. You’ll back these with reusable IaC templates and patterns that other developers build on. The goal is to enable teams and individuals to provision and run what they need themselves; we provide the paved roads, templates, and guardrails rather than owning and operating their infrastructure.\n\n- Automate high-risk operations into self-service. Turn manual operations (like account provisioning and deprovisioning, access grants and revocations, domain issuance) into deterministic, auditable pipelines triggered through self-service. Teams own their resources; we own the orchestration and guardrails, so changes run consistently and stay traceable across hundreds of accounts.\n\n- Own governance and security guardrails. Design and implement cloud governance using vendors’ native and customer tooling for Service Control Policies, WAF, IAM, SSO/Okta access and account governance. Pair preventative controls with detective layers that surface anomalies, configuration drift, and unexpected behaviour before they become problems. Minimise risk without getting in developers' way.\n\n- Enable safe AI-assisted development. Build guardrails for AI coding tools and \"vibecoding\" workflows (such as secrets handling, scoped permissions, sandboxing) and define how AI agents safely access cloud resources with agent identities and least-privilege IAM\n\n- Write opinionated docs for humans and agents. Create and maintain golden-path guidance, runbooks, and best practices that are equally consumable by developers and LLM agents (e.g. machine-readable/structured docs, MCP-style interfaces, and developer-portal content)\n\n- Raise Supercell’s game. Act as a force multiplier by mentoring other engineers, leading architectural reviews, and facilitating consensus during technical disagreements. Set the technical standards rather than just following them, and share learnings — including failures — openly through post-mortems.\n\n- Support FinOps. Help teams use the cloud cost-efficiently by surfacing cost-optimisation opportunities, improving cost visibility, and supporting accountability for usage across teams and projects.\n\n- Be a trusted partner to technical teams. Advise on cloud architecture, troubleshoot complex issues, and maintain close relationships across Supercell and with our cloud vendors. React quickly to emerging business and technical topics.\n\nWHAT YOU HAVE\n\n- Strong cloud computing and networking knowledge, with deep experience from at least one major cloud provider (e.g. AWS, Google Cloud)\n\n- Deep technical mastery across intersecting systems. You're the person others turn to for the hardest problems, but you also know when to route teams to the right internal expertise or external partners.\n\n- Solid grounding in cloud security and the common threat patterns in modern cloud environments\n\n- Hands-on experience with Terraform and GitHub Actions\n\n- Strong scripting and programming experience used to automate tasks and build custom tooling\n\n- Experience with cloud identity and access management, including IAM policies, roles, and permission boundaries across AWS and GCP.\n\n- Experience with application level identity, such as SSO, OIDC, and identity providers like Okta.\n\n- Familiarity with Internal Developer Platforms, including AI-assisted development tools, and a clear-eyed view of their security implications.\n\n- A track record of influence beyond your own work: mentoring engineers, leading architectural reviews, and setting technical standards\n\n- High autonomy. You identify and tackle problems before they're assigned, turn vague business pain points into technical roadmaps, and independently drive complex, ambiguous projects to completion.\n\n- Comfortable managing priorities and tight deadlines, even when dealing with incomplete data.\n\n- A humble, kind, and respectful attitude toward others and their work\n\nWOULD BE NICE IF YOU ALSO HAVE\n\n- Experience from multiple hyperscalers and a feel for how they compare\n\n- Experience securing AI agents, building MCP servers, or authoring agent-readable documentation…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "source": "ashby",
-    "site": "supercell.com",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "DevOps",
-    "stack": [
-      "AWS"
-    ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18535,6 +18975,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18556,6 +18997,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18582,6 +19024,7 @@ window.JOBS = [
       "Maya",
       "Perforce"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18608,6 +19051,7 @@ window.JOBS = [
       "Python",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18633,6 +19077,7 @@ window.JOBS = [
       "JavaScript",
       "Figma"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18656,6 +19101,7 @@ window.JOBS = [
     "stack": [
       "TypeScript"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18677,27 +19123,7 @@ window.JOBS = [
     "grade": "Junior",
     "spec": null,
     "stack": [],
-    "hasRu": true
-  },
-  {
-    "id": "ab-supercell-85d37bfd-864e-4d51-8743-f2d9d07fbac1",
-    "title": "Marketing Producer, Clash Royale",
-    "company": "Supercell",
-    "locations": [
-      "Helsinki"
-    ],
-    "remote": false,
-    "rkind": "worldwide",
-    "salary": null,
-    "posted": "2026-06-16",
-    "url": "https://jobs.ashbyhq.com/supercell/85d37bfd-864e-4d51-8743-f2d9d07fbac1",
-    "desc": "WE'RE SEEKING A MARKETING PRODUCER TO BRING OPERATIONAL EXCELLENCE TO CLASH ROYALE. STEP INTO THE HEART OF A NEW GLOBAL MARKETING ORGANIZATION, WHERE YOU'LL ENGAGE WITH AN ICONIC GAME BRAND AND CAPTIVATE MILLIONS OF DEDICATED GAMERS WORLDWIDE. WE'RE LOOKING FOR A HIGHLY STRUCTURED AND ORGANISED COLLABORATOR WHO TAKE FULL OWNERSHIP OF THEIR PROJECTS, BEING ABLE TO INTERPRET STRATEGIC DIRECTION INTO A HANDS-ON APPROACH TO REALIZE THE TEAM’S CREATIVE VISIONS. JOIN US AND PLAY A PIVOTAL ROLE IN DEFINING THE FUTURE OF GAME MARKETING.\n\nYou will work very closely with the Marketing Lead with all marketing initiatives, strategy, execution, and production for Clash Royale. This role requires strong project management expertise, with high attention to details - in reality this means being on top of operational marketing activities and key deliverables at all times. You are a strong communicator, who takes ownership and is passionate about our games and is continuously striving for better performance.\n\nWe pride ourselves on the level of thoughtfulness, quality, and focus put into every aspect of our work. Be it the games themselves or how we communicate them to our players – we are passionate about not compromising on quality ever and choosing a long-term approach to make Supercell a truly global games company that will last for many decades to come.\n\nAll of this is way easier said than done. It takes vision, commitment, and super-talented (and perhaps slightly crazy) people who will pursue only the very best work possible. If that sounds like you (including the “slightly crazy” part), then let's chat!\n\nWHAT YOU'LL BE DOING\n\n- Collaborate closely with the Marketing, Game Development and partners to define, execute and operationalise the marketing campaigns across multiple titles\n\n- Supporting the Marketing Lead on ensuring delivery of marketing initiatives\n\n- Guide the delivery of end-to-end marketing campaigns, coordinate with cross-functional teams\n\n- Develop project plans, timelines, and manage budgets for marketing initiatives\n\n- Track and update leadership on project budgets, ensuring efficient allocation of resources and adherence to project timelines\n\n- Ensure marketing efforts align with marketing strategy and project objectives/business goals\n\n- Conduct quality checks on marketing materials to ensure accuracy, consistency, and compliance with brand standards\n\n- Manage end-to-end production processes for non-owned channels\n\n- Work closely with marketers on testing and implementation of new creatives, analyzing the results, and sharing learnings to improve the performance of future Marketing strategies and optimization\n\n- Manage existing partner relationships, in addition to sourcing new partners that will enable us to level up the quality and quantity of our initiatives\n\n- Foster a collaborative and creative environment, encouraging cross-functional teamwork and knowledge sharing within the Marketing Team\n\nWHAT YOU HAVE\n\n- Hands-on experience working on global, large-scale marketing campaigns\n\n- Agency or creative production experience\n\n- Extensive knowledge of marketing production, project management, outsourcing, able to understand and manage production pipelines end-to-end\n\n- Strong organizational and communication skills, with the ability to collaborate closely with both internal stakeholders and external partners\n\n- High level of attention to details\n\n- Ability to work independently and on a project basis\n\n- Entrepreneurial mindset and ability to thrive in a fast-moving complex environment\n\n- Excellent domain of English language\n\n- Passionate about marketing and industry trends\n\n- Interest in gaming\n\n- A self-starter approach to use AI. You've found ways to use it in your day-to-day work, you experiment, figure things out and bring the same energy to every new challenge.\n\nWHERE YOU'LL BE\n\nThis position is based in Helsinki, where most of Clash Royale team members are located.\n\n–––\n\nThat's it about the role! Below, we've gathered some things we feel are important for you to know. Totally optional, but a highly recommended read.\n\nOnce you're ready to apply, just send us your application through the form on the bottom of the page.\n\n–––\n\nABOUT SUPERCELL\n\nSupercell is a games company from Helsinki, Finland, with offices https://supr.cl/jd-offices also in San Francisco, Seoul, Shanghai, and London. You might know us as the makers of Hay Day, Clash of Clans, Boom Beach, Clash Royale, and Brawl Stars. Our mission is to create great games https://supr.cl/jd-games that as many people as possible play for years and that are remembered forever.\n\nSo, how do we make great games? By putting together the best teams and giving them the freedom and independence to succeed. And by taking risks, failing, sharing learnings, and killing lots of projects.\n\nHEY, YOU MIGHT LOVE IT HERE!\n\nIndependent cells and trust are at the core of our culture https://supr.cl/jd-why-you. But it takes more than that to make great games. We take good care of our people, providing them with the compensation, work environment, and resources they need to succeed while having fun along the way.\n\nYOU ARE NOT YOUR JOB TITLE ™…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "source": "ashby",
-    "site": "supercell.com",
-    "role": "Маркетинг",
-    "grade": null,
-    "spec": null,
-    "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18719,54 +19145,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
-    "hasRu": true
-  },
-  {
-    "id": "ab-supercell-8d939573-6cf0-4f7e-91f6-46d0af27728b",
-    "title": "Art Lead, Clash Royale",
-    "company": "Supercell",
-    "locations": [
-      "Shanghai"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-06-15",
-    "url": "https://jobs.ashbyhq.com/supercell/8d939573-6cf0-4f7e-91f6-46d0af27728b",
-    "desc": "The Clash Royale team moves fast. A lot of art ships every season: characters, skins, UI, campaigns. Making sure it all lands on time, at quality, without burning anyone out, is no small thing.\n\nWe're looking for an Art Lead to be the person who makes that machine hum. Not someone standing at the side tracking spreadsheets, but someone in the middle of it, working shoulder to shoulder with artists, designers, and external studios to keep production moving and continuously finding ways to do it better.\n\nThe role spans Helsinki and Shanghai, which means good communication isn't just nice to have, it's the job. If you're the kind of person who gets satisfaction from a well-run pipeline as much as from a beautiful piece of art landing in-game, you'll feel right at home here.\n\nWHAT YOU'LL BE DOING\n\n- Own the art production pipeline end to end, from planning and scheduling through to final delivery, making sure the team always knows what's coming and when.\n\n- Work closely with artists, game designers, and producers across Helsinki and Shanghai to keep art flowing smoothly across every update and season.\n\n- Manage relationships with external art studios and contractors, giving clear direction, maintaining quality, and building partnerships that scale.\n\n- Spot bottlenecks before they become problems and drive practical improvements to how the team works, without overcomplicating things.\n\n- Keep a close eye on quality, cost, and timelines, knowing when to push and when to protect the team.\n\n- Make sure everyone who needs to know what's happening actually knows, internally and externally.\n\nWHAT YOU HAVE\n\n- Experience in art production, ideally in the mobile game industry or another fast-paced live content environment.\n\n- A solid understanding of game art and what it takes to produce it well, from concept through implementation.\n\n- Strong project management skills and a natural ability to keep multiple things moving at once without losing sight of the details.\n\n- Experience working with and directing external studios or contractors.\n\n- Clear, confident communication, especially across time zones and between disciplines that don't always speak the same language.\n\n- Comfort in a high-trust, low-process environment where you own outcomes rather than waiting to be told what to do.\n\n- Strong  art taste and visual judgment to serve as the go-to art person across workstreams — able to give meaningful creative feedback to external partners and confidently hold the quality bar, not just logistical direction.\n\nWOULD BE NICE IF YOU ALSO HAVE\n\n- Familiarity with the Clash Royale art style and what makes it distinct.\n\n- Experience managing production across multiple locations or studios simultaneously.\n\n- A background that bridges art and production, whether you started as an artist or came up through production with a strong visual eye.\n\n- Familiarity with the Chinese creative industry and art outsourcing landscape — whether through working with Chinese art studios, local production experience, or Mandarin language skills that make collaboration with local partners easier.\n\n–––\n\nThat's it about the role! Below, we've gathered some things we feel are important for you to know. Totally optional, but a highly recommended read.\n\nOnce you're ready to apply, just send us your application through the form on the bottom of the page.\n\n–––\n\nABOUT SUPERCELL\n\nSupercell is a games company from Helsinki, Finland, with offices https://supr.cl/jd-offices also in San Francisco, Seoul, Shanghai, and London. You might know us as the makers of Hay Day, Clash of Clans, Boom Beach, Clash Royale, and Brawl Stars. Our mission is to create great games https://supr.cl/jd-games that as many people as possible play for years and that are remembered forever.\n\nSo, how do we make great games? By putting together the best teams and giving them the freedom and independence to succeed. And by taking risks, failing, sharing learnings https://supercell.com/en/news/learning-from-failures/, and killing lots of projects.\n\nHEY, YOU MIGHT LOVE IT HERE!\n\nIndependent cells and trust are at the core of our culture https://supr.cl/jd-why-you. But it takes more than that to make great games. We take good care of our people, providing them with the compensation, work environment, and resources they need to succeed while having fun along the way.\n\nYOU ARE NOT YOUR JOB TITLE ™\n\nHere, you won’t need to focus on chasing titles https://supr.cl/jd-job-title or climbing ladders. Internally, our job titles don’t include prefixes like Senior, Junior, Principal, or Director. Recognition isn’t tied to your title, as it doesn't define the impact you can have around here.\n\nBENEFITS AND COMPENSATION\n\nLuring you in with glitter, glamour, and gems isn't what we're about. We want you to enjoy your time here fully, so we structure our compensation and benefits https://supr.cl/jd-benefits with that in mind. It starts with perceiving you as a human being, not a resource.\n\n…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "source": "ashby",
-    "site": "supercell.com",
-    "role": "Арт",
-    "grade": "Lead",
-    "spec": null,
-    "stack": [],
-    "hasRu": true
-  },
-  {
-    "id": "ab-supercell-afac0f22-9b86-4c60-8fe7-29f0e024126f",
-    "title": "Senior Machine Learning Engineer",
-    "company": "Supercell",
-    "locations": [
-      "Helsinki"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-06-15",
-    "url": "https://jobs.ashbyhq.com/supercell/afac0f22-9b86-4c60-8fe7-29f0e024126f",
-    "desc": "WE’RE LOOKING FOR A SENIOR MACHINE LEARNING ENGINEER WHO CAN BUILD LARGE-SCALE SYSTEMS AND TURN THEM INTO IMPACTFUL SOLUTIONS FOR PLAYERS AND THE BUSINESS. IF DESIGNING REAL-TIME, PLAYER-FACING USE CASES WITH MEASURABLE IMPACT AT MASSIVE SCALE SOUNDS EXCITING, THIS COULD BE A GREAT FIT.\n\nSupercell is rapidly scaling its machine learning capabilities. We are building a scalable ML platform and bringing personalized player experiences into production at massive scale. Our ambition is to empower game teams to deliver billions of automated, data-driven decisions across the full player journey every day.\n\nYou’ll join a small, high-impact team of Data Science and Machine Learning experts, working closely with game teams, LiveOps, Data, and Analytics. You’ll play a key role in shaping Supercell’s ML platform, delivering impactful solutions, and enabling teams to build and scale ML-driven features.\n\nYour work will span the full ML lifecycle from business problem formulation and data collection to modeling and deployment real-time decisioning, helping turn ideas into production systems that directly impact players. You’ll set strong engineering practices, share your knowledge, and help shape how we use ML to optimize player experiences.\n\nWHAT YOU'LL BE DOING\n\n- Understand our games, players, and business goals to identify where ML can deliver meaningful impact, and build strong relationships across teams.\n\n- Design and build end-to-end, real-time and event-driven ML systems from data to low-latency serving, enabling context-aware player experiences.\n\n- Develop and deploy ML models and decision systems that shape personalized player experiences across the full player journey.\n\n- Build scalable ML systems and reusable platform capabilities, enabling game teams to adopt ML through tools, pipelines, and APIs.\n\n- Balance speed, robustness, experimentation, and standardization while continuously reducing time from idea to experiment to production.\n\n- Operate, monitor, and optimize production ML systems to ensure world-class performance, reliability, and scalability.\n\n- Champion modern MLOps practices through mentorship, code and design reviews, documentation, and by guiding game teams in adopting ML workflows.\n\n- Shape ML strategy and ensure it drives real player and business impact.\n\n- Continue to level up Supercell AI maturity throught knowledge sharing and adoption of new tools.\n\nWHAT YOU HAVE\n\n- Deep expertise in Machine Learning with a strong track record of taking ML systems into production.\n\n- Hands-on experience deploying ML models at large scale, operating in high-traffic, low-latency production environments.\n\n- Strong software, data, and ML engineering skills, with the ability to design, build, and maintain robust end-to-end ML pipelines.\n\n- Experience leveraging modern AI-assisted development tools to improve productivity and accelerate iteration speed.\n\n- Proven ability to collaborate with other developers and AI agents, as well as independently drive ML projects from idea to production.\n\n- Excellent problem-solving ability, with strong analytical thinking and attention to detail.\n\n- Clear and effective communication skills, able to translate complex technical concepts for both technical and non-technical audiences.\n\n- Positive, proactive, and “can-do” mindset, with a willingness to dive deep and take ownership.\n\n- Passion for games. Previous industry experience is a strong plus.\n\nWHAT YOU'LL BE USING\n\nThe following list is not intended as a strict set of requirements, but rather as examples of relevant technologies and areas of experience\n\n- Data & Processing: Python, Databricks, SQL, Spark, Redis, Tecton\n\n- Cloud: AWS, GCP\n\n- ML Frameworks: PyTorch, Ray, TensorFlow, ONNX\n\n- ML Training: Databricks Spark and Ray train + data\n\n- ML Serving: Ray serve, FastAPI, Triton inference\n\n- Infrastructure & Deployment: Docker, Kubernetes, Terraform, Kubeflow, GitHub Actions\n\n- Monitoring and tracking: Grafana, Prometheus, Weights and Biases, MLflow\n\n- AI development tools: Claude Code, Codex\n\nWHERE YOU'LL BE\n\nThis role is based in our Helsinki office. We value a collaborative work environment and genuine human interactions. You will work very closely with our other Helsinki-based teams.\n\nIf you are not local, our relocation team would be excited to help you with your move to Helsinki. We provide comprehensive support not only for you, but also for your family!\n\n–––\n\nThat's it about the role! Below, we've gathered some things we feel are important for you to know. Totally optional, but a highly recommended read.\n\nOnce you're ready to apply, just send us your application through the form on the bottom of the page.\n\n–––\n\nABOUT SUPERCELL\n\nSupercell is a games company from Helsinki, Finland, with offices https://supr.cl/jd-offices also in San Francisco, Seoul, Shanghai, and London. You might know us as the makers of Hay Day, Clash of Clans, Boom Beach, Clash Royale, and Brawl Stars. Our mission is to create great games https://supr.cl/jd-games that as many people as possible play for years and that are remembered forever.\n\nSo, how do we make great games? By putting together the best teams and giving them the freedom and independence to succeed. And by taking risks, failing, sharing learnings https://supercell.com/en/news/learning-from-failures/, and killing lots of projects.\n\n…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "source": "ashby",
-    "site": "supercell.com",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "Данные и ML",
-    "stack": [
-      "Python",
-      "SQL",
-      "AWS",
-      "Docker",
-      "Kubernetes"
-    ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18792,6 +19171,7 @@ window.JOBS = [
       "Python",
       "Maya"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18813,6 +19193,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18834,6 +19215,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18855,6 +19237,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18878,6 +19261,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18901,6 +19285,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18925,6 +19310,7 @@ window.JOBS = [
       "Unity",
       "Blender"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18951,6 +19337,7 @@ window.JOBS = [
       "Photoshop",
       "Spine"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18972,6 +19359,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -18995,6 +19383,7 @@ window.JOBS = [
     "stack": [
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19021,6 +19410,7 @@ window.JOBS = [
       "Photoshop",
       "Spine"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19047,6 +19437,7 @@ window.JOBS = [
       "ZBrush",
       "Substance"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19071,6 +19462,7 @@ window.JOBS = [
       "Maya",
       "Blender"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19095,6 +19487,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19119,6 +19512,7 @@ window.JOBS = [
       "Unity",
       "C#"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19143,6 +19537,7 @@ window.JOBS = [
       "Unity",
       "C#"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19164,6 +19559,7 @@ window.JOBS = [
     "grade": "Junior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19185,6 +19581,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19206,6 +19603,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19227,6 +19625,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19253,6 +19652,7 @@ window.JOBS = [
       "ZBrush",
       "Substance"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19278,6 +19678,7 @@ window.JOBS = [
       "C++",
       "C#"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19301,6 +19702,7 @@ window.JOBS = [
     "stack": [
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19324,6 +19726,7 @@ window.JOBS = [
     "stack": [
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19347,6 +19750,7 @@ window.JOBS = [
     "stack": [
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19370,27 +19774,7 @@ window.JOBS = [
     "stack": [
       "Photoshop"
     ],
-    "hasRu": true
-  },
-  {
-    "id": "ab-supercell-2aa24f0b-5f80-48bc-940e-f122184339d7",
-    "title": "Senior Product Manager, LiveOps & Monetization, Clash Royale",
-    "company": "Supercell",
-    "locations": [
-      "Helsinki"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-06-10",
-    "url": "https://jobs.ashbyhq.com/supercell/2aa24f0b-5f80-48bc-940e-f122184339d7",
-    "desc": "WE ARE LOOKING FOR A SENIOR PRODUCT MANAGER TO JOIN THE CLASH ROYALE TEAM TO DRIVE PLAYER ENGAGEMENT AND BUSINESS GROWTH THROUGH LIVE OPERATIONS, AND MONETIZATION-RELATED INITIATIVES. YOU GET TO OWN AND EXECUTE ON MULTIPLE AREAS OF THE GAME, ALL WHILE PROVIDING UNMATCHED PLAYER EXPERIENCES.\n\nThis is a unique opportunity to work on one of the biggest and most recognizable mobile games in the world and directly shape how it is being operated for and enjoyed by millions of players every day.\n\nWe believe commercial success and fantastic player experience must go hand-in-hand. As a member of a Live Ops pod within a game team, you will deliver on goals for the growth of your game by channeling a razor-sharp focus on performance and operational excellence to ensure you find the right balance.\n\nYou will utilize game data, competitive research, and player feedback to optimize existing and formulate new engagement and monetization strategies, and then collaborate with cross-functional teams in order to translate these into player-facing features and initiatives. You will also analyze and report on engagement & monetization performance, from high-level KPIs to deep dives into specific initiatives.\n\nBring your best deck and join our diverse and international team to help us further grow what we believe is the best game on mobile!\n\nWHAT YOU'LL BE DOING\n\n- Take full ownership and accountability for several elements of live operations and/or monetization (which will be mutually agreed based on your profile and interest).\n\n- Define the roadmap and action plan for owned areas, ensuring it integrates seamlessly into the broader live operations and monetization strategy.\n\n- Define and track your own goals for all major initiatives that will be feeding into high-level targets of the game.\n\n- Design, execute, and analyze A/B tests and multivariate experiments to optimize player experience, and business impact.\n\n- Seek for feedback and alignment on your plans, and collaborate effectively within a cross-disciplinary pod that will support you in executing your initiatives.\n\n- Bring to the team an understanding of best-in-class F2P live ops activities, feature design and monetization mechanics\n\nWHAT YOU HAVE\n\n- At least 6 years of experience as a Product Manager in free-to-play mobile games.\n\n- Good understanding of engagement drivers and monetization design in live service games.\n\n- Strong ownership, hands-on approach, and impact-driven focus on constantly pushing game performance and delivering fantastic player experiences.\n\n- Excellent quantitative and analytical skills with an emphasis on metrics-driven decision making.\n\n- Constantly looking for new experiments and ways to improve performance, with the ability to make data driven decisions and recommendations.\n\n- Comfortable taking calculated risks, learning and sharing the lessons learned.\n\nWHERE YOU'LL BE\n\nThis position is based in Helsinki, where most of Clash Royale team members are located.\n\n–––\n\nThat's it about the role! Below, we've gathered some things we feel are important for you to know. Totally optional, but a highly recommended read.\n\nOnce you're ready to apply, just send us your application through the form on the bottom of the page.\n\n–––\n\nABOUT SUPERCELL\n\nSupercell is a games company from Helsinki, Finland, with offices https://supr.cl/jd-offices also in San Francisco, Seoul, Shanghai, and London. You might know us as the makers of Hay Day, Clash of Clans, Boom Beach, Clash Royale, Brawl Stars, and Squad Busters. Our mission is to create great games https://supr.cl/jd-games that as many people as possible play for years and that are remembered forever.\n\nSo, how do we make great games? By putting together the best teams and giving them the freedom and independence to succeed. And by taking risks, failing, sharing learnings, and killing lots of projects.\n\nHEY, YOU MIGHT LOVE IT HERE!\n\nIndependent cells and trust are at the core of our culture https://supr.cl/jd-why-you. But it takes more than that to make great games. We take good care of our people, providing them with the compensation, work environment, and resources they need to succeed while having fun along the way.\n\nYOU ARE NOT YOUR JOB TITLE ™\n\nHere, you won’t need to focus on chasing titles https://supr.cl/jd-job-title or climbing ladders. Internally, our job titles don’t include prefixes like Senior, Junior, Principal, or Director. Recognition isn’t tied to your title, as it doesn't define the impact you can have around here.\n\nBENEFITS AND COMPENSATION\n\nLuring you in with glitter, glamour, and gems isn't what we're about. We want you to enjoy your time here fully, so we structure our compensation and benefits https://supr.cl/jd-benefits with that in mind. It starts with perceiving you as a human being, not a resource.\n\nRELOCATION? YES!…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "source": "ashby",
-    "site": "supercell.com",
-    "role": "Продакт",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19414,6 +19798,7 @@ window.JOBS = [
     "stack": [
       "Figma"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19441,6 +19826,7 @@ window.JOBS = [
       "Houdini",
       "Substance"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19463,6 +19849,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19486,6 +19873,7 @@ window.JOBS = [
     "stack": [
       "Kotlin"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19507,6 +19895,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19528,6 +19917,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19549,6 +19939,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19572,6 +19963,7 @@ window.JOBS = [
     "stack": [
       "TypeScript"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19593,6 +19985,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19616,6 +20009,7 @@ window.JOBS = [
     "stack": [
       "Python"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19637,6 +20031,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19658,31 +20053,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
-    "hasRu": true
-  },
-  {
-    "id": "ab-supercell-5e9f01f3-cb0b-4de8-9092-1fda1f67ba1a",
-    "title": "Senior Server Engineer, Brawl Stars",
-    "company": "Supercell",
-    "locations": [
-      "Helsinki"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-05-29",
-    "url": "https://jobs.ashbyhq.com/supercell/5e9f01f3-cb0b-4de8-9092-1fda1f67ba1a",
-    "desc": "WE ARE LOOKING FOR AN EXPERIENCED SERVER ENGINEER TO JOIN THE BRAWL STARS TEAM. AS A SERVER ENGINEER AT SUPERCELL, YOU'LL BE EMBEDDED IN A GAME TEAM, ACTIVELY CONTRIBUTING TO GAME DESIGN AND DIRECTION. YOU'LL BE RESPONSIBLE FOR MAKING SURE THAT OUR TENS OF MILLIONS OF DAILY PLAYERS GET THE BEST, MOST UNINTERRUPTED EXPERIENCE POSSIBLE. IN THE BRAWL STARS TEAM YOU WILL BE WORKING CLOSELY WITH CLIENT PROGRAMMERS AND OTHER TEAM MEMBERS TO DEVELOP NEW GAME FEATURES.\n\nCommunication between server engineers in different game teams is absolutely vital to our success. Our server engineers frequently share learnings – both successes and failures – across game teams to make each team better. You must be humble, pragmatic and willing to admit and explain your mistakes. That way, the next time something goes wrong, we'll all be better prepared.\n\nIf you have experience of developing live systems and using virtualized computing, and you understand what it means to support a system with large user volumes, in addition to being interested and excited about game feature development – you might just be the person we're looking for!\n\nWHAT YOU'LL BE DOING\n\n- Design, implementation, deployment and maintenance of highly-scalable and available backends for live games\n\n- Work closely with client programmers and other team members to develop new game features and actively contributing to game design discussions\n\n- Contribute to best-practices on reliability and availability\n\n- Troubleshoot and tune high-volume sharded database systems\n\n- Periodically offer round-the-clock first-line support of the production environments, as part of a rotating on-call duty\n\nWHAT YOU HAVE\n\n- Prior experience in game development, enthusiasm towards games and game feature development in general\n\n- Strong experience in server-side Java, including concurrency and distributed systems.\n\n- Good experience with Linux shell and scripting languages\n\n- Database design and implementation skills, and good SQL knowledge\n\n- Familiarity with Cloud computing\n\n- Hands-on experience with cloud platforms (AWS, GCP or Tencent Cloud), including automation and Infrastructure as Code (e.g. Terraform)\n\n- Knowledge of networking, security, and cloud security practices\n\n- Proven ability to design and implement high-performance, scalable distributed systems in a production setting\n\n- Ability to think clearly under pressure. We aim for minimal downtime in our games, and you are expected to be able to respond to and troubleshoot a wide range of issues in a production environment.\n\n- Being passionate and committed to tasks, and in general an autonomous person with high levels of initiative and energy\n\n- An open and respectful attitude towards others and their work\n\n- A self-starter approach to use AI: you've found ways to use it in your day-to-day work, you experiment, figure things out and bring the same energy to every new challenge\n\nWOULD BE NICE IF YOU ALSO HAVE\n\n- Familiarity with ZooKeeper or similar coordination / service discovery systems\n\n- A track record of improving operational procedures (deployments, observability, incident response, runbooks) for production services\n\n- Knowledge of network protocols and non-blocking IO\n\n- Previous working experience on high-throughput live systems is a big plus. If absent, then at least a solid appreciation of the challenges involved is expected.\n\n- Experience in server development without application servers\n\nWHERE YOU'LL BE\n\nThis role is based in our Helsinki Studio.\n\n–––\n\nThat's it about the role! Below, we've gathered some things we feel are important for you to know. Totally optional, but a highly recommended read.\n\nOnce you're ready to apply, just send us your application through the form on the bottom of the page.\n\n–––\n\nABOUT SUPERCELL\n\nSupercell is a games company from Helsinki, Finland, with offices https://supr.cl/jd-offices also in San Francisco, Seoul, Shanghai, and London. You might know us as the makers of Hay Day, Clash of Clans, Boom Beach, Clash Royale, and Brawl Stars. Our mission is to create great games https://supr.cl/jd-games that as many people as possible play for years and that are remembered forever.\n\nSo, how do we make great games? By putting together the best teams and giving them the freedom and independence to succeed. And by taking risks, failing, sharing learnings https://supercell.com/en/news/learning-from-failures/, and killing lots of projects.\n\nHEY, YOU MIGHT LOVE IT HERE!\n\nIndependent cells and trust are at the core of our culture https://supr.cl/jd-why-you. But it takes more than that to make great games. We take good care of our people, providing them with the compensation, work environment, and resources they need to succeed while having fun along the way.\n\nYOU ARE NOT YOUR JOB TITLE ™\n\nHere, you won’t need to focus on chasing titles https://supr.cl/jd-job-title or climbing ladders. Internally, our job titles don’t include prefixes like Senior, Junior, Principal, or Director. Recognition isn’t tied to your title, as it doesn't define the impact you can have around here.\n\nBENEFITS AND COMPENSATION…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "source": "ashby",
-    "site": "supercell.com",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "Бэкенд",
-    "stack": [
-      "Java",
-      "SQL",
-      "AWS"
-    ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19704,6 +20075,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19725,6 +20097,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19746,27 +20119,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
-    "hasRu": true
-  },
-  {
-    "id": "ab-supercell-3e4ade1a-54e5-4776-9c83-e936b34ccd0f",
-    "title": "Product Marketing Manager, Brawl Stars",
-    "company": "Supercell",
-    "locations": [
-      "Helsinki"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-05-27",
-    "url": "https://jobs.ashbyhq.com/supercell/3e4ade1a-54e5-4776-9c83-e936b34ccd0f",
-    "desc": "IN THE BRAWL STARS MARKETING TEAM, YOUR FOUR PS ARE PASSION, PLAYERS, POP, AND PECULIARITY! TO SUCCEED IN THIS ROLE, THE TEAM KEEPS TALKING ABOUT CREATIVITY, CREATIVITY, CREATIVITY. YOU MIGHT BE THE MISSING FOURTH C IF YOU CAN CREATE CATCHIER COPY THAN THIS!\n\nBrawl Stars is one of the biggest mobile games in the world, with 100M+ monthly active players and a content machine that ships at a pace few studios can match. We're looking for a Product Marketing Manager to own the go-to-market execution for our updates, seasons, and IP collaborations – turning every launch into a moment that players and creators can't stop talking about. This is a senior individual contributor role. You'll sit at the intersection of game development, creative production, and community – then make sure the world notices.\n\nYou'll report to the Live Ops Marketing Lead and work closely with cross-functional teams across game development, live ops, community, art, and analytics. We want someone with sharp creative instincts, a bias for action, and the ability to think strategically while shipping at high velocity.\n\nWe are looking for a seasoned creative marketer with product marketing experience who thrives in a multifunctional, uber-collaborative environment and is obsessed with delivering the best player experience. We value those who bring a fresh perspective, enjoy experimentation, and thrive in an environment that challenges traditional norms.\n\nThe Product Marketing Manager will be part of the Brawl Stars game team within the Live Ops Marketing pillar, bridging the gap between the marketing and product teams. Brawl Stars ships at a pace few studios can match – major updates every few weeks, each accompanied by trailers, social content, creator activations, and community campaigns. This role is the engine behind all of it: ensuring every launch moment is crafted with care, lands with impact, and converts into pure fandom.\n\nFrom marketing strategy to in-game communication execution, this person loves to think strategically while getting their hands dirty. They have sharp creative instincts – the kind of person who can give clear, specific feedback on a trailer cut, a social post, or a visual concept – combined with exceptional communication and project management skills to bring together all marketing stakeholders: producers, communities, brand, creative and art direction, esports, regional/local activations, analysts, and researchers.\n\nYou can have your particular skill (or two), and we don't expect you to be perfect in everything. What's more important is your creative eye, your ability to elevate content at speed, and your eagerness to help build a love for the game that delivers our players a seamless and immersive experience.\n\nWHAT YOU'LL BE DOING\n\n- Own the go-to-market planning and creative execution for Brawl Stars updates, seasons, chapters, and IP collaborations – from concept through delivery and retrospective.\n\n- Drive creative direction for marketing campaigns – working with in-house artists, video producers, and external partners to produce trailers, social content, and launch assets that hit the right tone and quality bar. You don't just manage creative, you elevate it.\n\n- Collaborate with the game team to shape how features and content are revealed and positioned – co-designing animations, teasers, and in-game communication that build anticipation and drive engagement.\n\n- Partner with community managers and the content creator ecosystem to ensure every launch is amplified organically – designing moments that give creators something worth making content about.\n\n- Coordinate go-to-market plans for evergreen marketing campaigns for new features, content, or updates designed to engage our global audience. Collaborate with regional teams to amplify these tentpoles with local flavor and cultural relevance.\n\n- Develop a deep understanding of the game and business, including existing features, product roadmap, and live operations. Coordinate global marketing efforts and align with product and business goals.\n\n- Strategize and operationalize player communication inside and outside the game, including pop-ups, push notifications, platform features, and store optimization (ASO).\n\n- Collaborate with Marketing Analytics and Business & Operations stakeholders to analyze campaign performance and apply learnings to inform future campaigns for constant performance improvement.\n\n- Identify and develop growth levers through marketing via rigorous AB testing, scaling up initiatives that drive meaningful business growth.\n\n- Build repeatable creative frameworks and production rhythms that allow the team to deliver consistently at high velocity without sacrificing quality.\n\nWHAT YOU HAVE\n\n- 5+ years of experience in product marketing, ideally in the gaming industry and/or entertainment\n\n- Strong creative instincts – you can give clear, actionable feedback on a trailer, a social post, or a campaign concept. You understand what makes content land with an audience.\n\n- A solid understanding of social platforms and content culture, especially among younger audiences. You know what trends and why.\n\n- A deep understanding of the game/product development process and lifecycle management.\n\n- Experience working with a broad range of marketing functions (e.g. brand, performance, influencers, and esports) with a good understanding of how they can work together to deliver growth.\n\n- Analytical skills to assess market data and campaign performance – you use data to sharpen creative decisions, not replace them.…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "source": "ashby",
-    "site": "supercell.com",
-    "role": "Маркетинг",
-    "grade": null,
-    "spec": null,
-    "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19791,6 +20144,7 @@ window.JOBS = [
       "Unity",
       "Figma"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19812,6 +20166,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19833,6 +20188,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19860,6 +20216,7 @@ window.JOBS = [
       "Docker",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19883,7 +20240,8 @@ window.JOBS = [
     "stack": [
       "Unreal",
       "Wwise"
-    ]
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "lv-behaviour-interactive-25efda18-1535-4fbb-875d-9120683170b1",
@@ -19908,6 +20266,7 @@ window.JOBS = [
       "Python",
       "Maya"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19933,6 +20292,7 @@ window.JOBS = [
       "JavaScript",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19957,6 +20317,7 @@ window.JOBS = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -19982,6 +20343,7 @@ window.JOBS = [
       "JavaScript",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20001,6 +20363,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20028,6 +20391,7 @@ window.JOBS = [
       "Docker",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20053,6 +20417,7 @@ window.JOBS = [
       "Python",
       "Wwise"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20074,6 +20439,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20099,6 +20465,7 @@ window.JOBS = [
       "AWS",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20122,6 +20489,7 @@ window.JOBS = [
     "stack": [
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20145,6 +20513,7 @@ window.JOBS = [
     "permit": true,
     "lang": "ja",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20172,6 +20541,7 @@ window.JOBS = [
       "Photoshop",
       "Figma"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20197,6 +20567,7 @@ window.JOBS = [
       "Unreal",
       "Blender"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20222,6 +20593,7 @@ window.JOBS = [
       "Maya",
       "Blender"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20247,6 +20619,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20270,6 +20643,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20291,6 +20665,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20315,6 +20690,7 @@ window.JOBS = [
       "Unity",
       "C#"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20339,6 +20715,7 @@ window.JOBS = [
       "Unity",
       "C#"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20363,27 +20740,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
-    "hasRu": true
-  },
-  {
-    "id": "ab-supercell-2ea14727-3642-4b98-97a4-06d8f63cadce",
-    "title": "Product Lead, D2C",
-    "company": "Supercell",
-    "locations": [
-      "Helsinki"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-04-30",
-    "url": "https://jobs.ashbyhq.com/supercell/2ea14727-3642-4b98-97a4-06d8f63cadce",
-    "desc": "SUPERCELL IS BUILDING DIRECT RELATIONSHIPS WITH PLAYERS THROUGH THE SUPERCELL STORE AND OTHER DIRECT-TO-CONSUMER (D2C) PRODUCTS. D2C IS ALREADY A SIGNIFICANT ELEMENT OF EACH GAME’S P&L, AND KEY TO SUPERCELL’S MISSION TO CREATE GREAT GAMES THAT AS MANY PEOPLE AS POSSIBLE PLAY FOR YEARS AND THAT ARE REMEMBERED FOREVER. WE'RE BUILDING ON THAT MOMENTUM BY EMBEDDING A DEDICATED D2C OWNER INSIDE EACH GAME TEAM.\n\nWe're looking for a Product Lead, D2C to take full ownership of a single game's direct-to-consumer business. You'll sit inside the game team, work shoulder-to-shoulder with the game's leadership, and be the one person whose entire job is growing the game's D2C success. A central platform team handles the infrastructure: the commerce surfaces, payments, checkout, fraud, delivery, compliance, and you will partner closely with them to develop new features. Your focus will be on planning and pulling the commercial and creative levers: how to build direct relationships, how to message, what to sell, and how to rally the game team to grow.\n\nThis is a role for someone who thrives on influence rather than authority. You won't have direct reports, but you'll have the backing of game team leadership to mobilize live ops and monetization, marketing and community, engineering, art, analytics and QA behind a shared plan. The right person is a natural operator and collaborator with strong commercial instincts, a deep understanding of live game economies, and the ability to make D2C feel like a natural extension of the game - not a side project.\n\nWHAT YOU'LL BE DOING\n\nOwn the game's D2C strategy\n\n- Build and own the game's D2C Growth Strategy: define targets, identify the key growth pillars, and map concrete initiatives to move the numbers\n\n- Be accountable for KPIs that drive success: D2C revenue share, conversion, retention, top-of-funnel, etc.\n\n- Review performance regularly with game leadership, course-correct based on data, and always know what's next to move the needle\n\n- Do this with a player-first mindset. We want to grow the relationship for the long-term, not over-fit on short-term wins\n\n- Design A/B tests, work with Analytics to evaluate results, and assess every activation: what worked, what didn't, what to scale\n\nDesign and implement the offer calendar\n\n- Design the Store offer roadmap aligned with the game's live ops cadence, seasonal moments, and content releases\n\n- Partner with the game's monetization leadership to own the economy impact of Store offers and ensure Store strategy is a well-integrated part of the wider monetization strategy, not an isolated silo\n\n- Allocate and manage the game's live ops budget for D2C activations\n\nDrive traffic and conversion\n\n- Partner with Marketing and Community to grow Store visits and convert visitors\n\n- Plan campaigns, freebie-to-upsell funnels, creator activations, and community events that bring players to the Store\n\n- Ensure D2C is part of every major commercial moment, not an afterthought\n\n- Build D2C into our regular communications channels\n\nShape the Store development roadmap\n\n- Work with the central Store team to prioritize which platform features your game needs next\n\n- Provide clear, game-specific requirements and feedback on new tools, offer types, and UX improvements\n\nEmbed D2C thinking into the game’s development and design\n\n- Be in the room when new features, content, and systems are designed, so D2C is considered early in the process\n\n- Align with design and engineering so Store features and campaigns line up with feature release\n\n- Be an inspiring, transparent coordinator so that when you need to gather engineering, community, art and QA resources, it doesn’t end up feeling like a major tax on the team\n\nUphold the game's quality bar\n\n- Write QA plans for Store activations and coordinate with game team QA\n\n- The Store must feel like a seamless extension of the game experience\n\nWHAT YOU HAVE\n\n- Experience managing live game commercial operations: monetization, live ops, or game product management. You understand game economies, seasonal content cadences, and what makes it worth it for players to invest\n\n- Strong commercial and analytical mindset: comfortable owning revenue KPIs, running A/B tests, interpreting cohort data, and making data-backed decisions\n\n- An inspiring coordinator: The ability to influence and mobilize cross-functional teammates without positional authority\n\n- Understanding of mobile gaming communities: creators, Discord, Reddit, social channels, and how they drive player behavior\n\n- Operational discipline: you can run a calendar, track dozens of moving pieces, and make sure nothing falls through the cracks\n\n- D2C or web store experience in gaming is a strong plus, but not required if you bring the right commercial and product instincts\n\n- Experience running a P&L, leading a business vertical, or managing a smaller game's commercial performance is a strong plus\n\nWHERE YOU'LL BE\n\nThis role is going to be based onsite in our Helsinki office!\n\n–––\n\nThat's it about the role! Below, we've gathered some things we feel are important for you to know. Totally optional, but a highly recommended read.\n\nOnce you're ready to apply, just send us your application through the form on the bottom of the page.\n\n–––\n\nABOUT SUPERCELL…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "source": "ashby",
-    "site": "supercell.com",
-    "role": "Продакт",
-    "grade": "Lead",
-    "spec": null,
-    "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20407,6 +20764,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20426,6 +20784,7 @@ window.JOBS = [
     "grade": "Junior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20453,6 +20812,7 @@ window.JOBS = [
       "Python",
       "Houdini"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20475,6 +20835,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20500,6 +20861,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20528,6 +20890,7 @@ window.JOBS = [
       "TypeScript",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20549,6 +20912,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20574,6 +20938,7 @@ window.JOBS = [
       "Docker",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20595,6 +20960,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20616,6 +20982,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20641,6 +21008,7 @@ window.JOBS = [
       "AWS",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20668,6 +21036,7 @@ window.JOBS = [
       "Docker",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20690,6 +21059,7 @@ window.JOBS = [
     "spec": null,
     "permit": true,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20711,6 +21081,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20736,6 +21107,7 @@ window.JOBS = [
       "Blender",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20762,6 +21134,7 @@ window.JOBS = [
       "Houdini",
       "Perforce"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20787,6 +21160,7 @@ window.JOBS = [
       "Maya",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20810,6 +21184,7 @@ window.JOBS = [
     "stack": [
       "Figma"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20837,28 +21212,7 @@ window.JOBS = [
       "ZBrush",
       "Substance"
     ],
-    "hasRu": true
-  },
-  {
-    "id": "ab-supercell-f5eddac0-3d89-4224-8301-bde715e2dde2",
-    "title": "Art Director, Clash of Clans",
-    "company": "Supercell",
-    "locations": [
-      "Helsinki",
-      "London"
-    ],
-    "remote": true,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-04-10",
-    "url": "https://jobs.ashbyhq.com/supercell/f5eddac0-3d89-4224-8301-bde715e2dde2",
-    "desc": "CLASH OF CLANS IS ONE OF THE MOST RECOGNISABLE GAMES EVER MADE. WE WANT TO KEEP IT THAT WAY, AND THEN SOME.\n\nClash is growing beyond the game, showing up in trailers, campaigns, toys, and collaborations. The visual identity has to stretch to cover all of it, stay true to what players love, and still feel fresh. We're also modernising how we make things: pipelines are evolving, our content production is scaling, and we're working more closely with external partners than ever before.\n\nWe need someone who can own this at a strategic level. Someone who sets the vision, builds the conditions for great work, and steers the IP with confidence across every surface it touches.\n\nWHAT YOU'LL BE DOING\n\n- Define and evolve the visual direction of Clash across the game, cosmetics, and wherever else the IP lives. True to its DNA, but never frozen in time.\n\n- Set the standard for style and brand fit across in-game art, marketing, trailers, toy lines, campaigns, and entertainment partners, and empower the team to uphold it.\n\n- Partner with game design, product, and marketing leadership to ensure art strategy supports gameplay clarity, player understanding, and long-term brand health.\n\n- Mentor and support Clash artists, help them do the best work of their careers while staying aligned on the IP.\n\n- Shape the roadmap for modernising Clash pipelines (2D to 3D, audio, tooling, and emerging technologies), championing approaches that give artists more time for the work only they can do.\n\n- Represent art at a senior level across the business: outsourcing partners, Entertainment and Partnerships, marketing, and franchise collaborators.\n\nWHAT YOU HAVE\n\n- A strong track record leading art direction on stylised games. Mobile and live-service experience is a big plus.\n\n- Deep IP and brand instincts, the ability to define what's on-brand vs off and build the frameworks that help a whole team make that call consistently.\n\n- Leadership experience on a highly collaborative senior art teams: setting vision, developing artists, and making the culture as strong as the output.\n\n- Strategic experience managing outsourcing pipelines and external partners at scale, balancing quality ambitions with the realities of live-game timelines and budgets.\n\n- Comfort operating in a low-process, high-trust environment where you own the outcomes, not just the opinions.\n\n- A self-starter approach to use AI. You've found ways to use it in your day-to-day work, you experiment, figure things out and bring the same energy to every new challenge.\n\nWOULD BE NICE IF YOU ALSO HAVE\n\n- Experience with cosmetics economies or large seasonal content pipelines.\n\n- Experience bridging game art strategy and marketing/UA: key art, trailers, social.\n\n- Familiarity with Clash (as a player or from prior work) and a feel for how it's evolved.\n\nWHERE YOU'LL BE\n\nThis role can be based either in Helsinki or London. Clash of Clans team members are located in both our Helsinki and London Studios however most of our Artists are located in Helsinki!\n\nTo be successful, you'll be expected to travel regularly in this role especially if based out of London.\n\n–––\n\nThat's it about the role! Below, we've gathered some things we feel are important for you to know. Totally optional, but a highly recommended read.\n\nOnce you're ready to apply, just send us your application through the form on the bottom of the page.\n\n–––\n\nABOUT SUPERCELL\n\nSupercell is a games company from Helsinki, Finland, with offices https://supr.cl/jd-offices also in San Francisco, Seoul, Shanghai, and London. You might know us as the makers of Hay Day, Clash of Clans, Boom Beach, Clash Royale, and Brawl Stars. Our mission is to create great games https://supr.cl/jd-games that as many people as possible play for years and that are remembered forever.\n\nSo, how do we make great games? By putting together the best teams and giving them the freedom and independence to succeed. And by taking risks, failing, sharing learnings https://supercell.com/en/news/learning-from-failures/, and killing lots of projects.\n\nHEY, YOU MIGHT LOVE IT HERE!\n\nIndependent cells and trust are at the core of our culture https://supr.cl/jd-why-you. But it takes more than that to make great games. We take good care of our people, providing them with the compensation, work environment, and resources they need to succeed while having fun along the way.\n\nYOU ARE NOT YOUR JOB TITLE ™\n\nHere, you won’t need to focus on chasing titles https://supr.cl/jd-job-title or climbing ladders. Internally, our job titles don’t include prefixes like Senior, Junior, Principal, or Director. Recognition isn’t tied to your title, as it doesn't define the impact you can have around here.\n\nBENEFITS AND COMPENSATION\n\nLuring you in with glitter, glamour, and gems isn't what we're about. We want you to enjoy your time here fully, so we structure our compensation and benefits https://supr.cl/jd-benefits with that in mind. It starts with perceiving you as a human being, not a resource.\n\n…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "source": "ashby",
-    "site": "supercell.com",
-    "role": "Арт",
-    "grade": "Lead",
-    "spec": null,
-    "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20887,6 +21241,7 @@ window.JOBS = [
       "Kubernetes",
       "Perforce"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20910,6 +21265,7 @@ window.JOBS = [
     "stack": [
       "TypeScript"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20933,6 +21289,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20956,6 +21313,7 @@ window.JOBS = [
     "stack": [
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -20977,6 +21335,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21000,6 +21359,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21024,6 +21384,7 @@ window.JOBS = [
       "Unreal",
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21049,6 +21410,7 @@ window.JOBS = [
       "C++",
       "C#"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21070,6 +21432,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21094,6 +21457,7 @@ window.JOBS = [
       "TypeScript",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21115,6 +21479,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21138,6 +21503,7 @@ window.JOBS = [
     "stack": [
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21161,6 +21527,7 @@ window.JOBS = [
     "stack": [
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21182,6 +21549,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21206,6 +21574,7 @@ window.JOBS = [
       "Unreal",
       "Perforce"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21231,6 +21600,7 @@ window.JOBS = [
       "Docker",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21255,6 +21625,7 @@ window.JOBS = [
       "Unity",
       "C#"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21279,6 +21650,7 @@ window.JOBS = [
     "stack": [
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21303,6 +21675,7 @@ window.JOBS = [
       "Unity",
       "C#"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21329,6 +21702,7 @@ window.JOBS = [
       "Kubernetes",
       "Perforce"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21355,6 +21729,7 @@ window.JOBS = [
       "AWS",
       "Perforce"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21380,6 +21755,7 @@ window.JOBS = [
       "C++",
       "C#"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21405,6 +21781,7 @@ window.JOBS = [
       "Docker",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21430,6 +21807,7 @@ window.JOBS = [
       "JavaScript",
       "Figma"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21454,6 +21832,7 @@ window.JOBS = [
       "Unity",
       "C#"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21476,6 +21855,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21502,6 +21882,7 @@ window.JOBS = [
       "AWS",
       "Docker"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21527,6 +21908,7 @@ window.JOBS = [
       "Docker",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21548,6 +21930,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21569,6 +21952,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21595,6 +21979,7 @@ window.JOBS = [
       "TypeScript",
       "JavaScript"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21618,6 +22003,7 @@ window.JOBS = [
     "stack": [
       "Python"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21640,6 +22026,7 @@ window.JOBS = [
     "grade": "Junior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21661,6 +22048,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21682,30 +22070,7 @@ window.JOBS = [
     "stack": [
       "SQL"
     ],
-    "hasRu": true
-  },
-  {
-    "id": "ab-supercell-1d91d31a-2022-40a2-ae8f-289decdf2ea4",
-    "title": "Senior Software Engineer, Supercell ID",
-    "company": "Supercell",
-    "locations": [
-      "Helsinki"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-03-04",
-    "url": "https://jobs.ashbyhq.com/supercell/1d91d31a-2022-40a2-ae8f-289decdf2ea4",
-    "desc": "WE ARE LOOKING FOR A SENIOR SOFTWARE ENGINEER TO JOIN THE SUPERCELL ID TEAM WITHIN OUR PLAYER PLATFORM ORGANIZATION. IN THIS ROLE, YOU WILL OWN AND DRIVE SIGNIFICANT EVOLUTIONS OF SUPERCELL ID: SETTING TECHNICAL DIRECTION, LEADING HIGH-IMPACT INITIATIVES END-TO-END, AND RAISING THE BAR FOR PLAYER SAFETY, RELIABILITY, AND TRUST ACROSS OUR ECOSYSTEM.\n\nAs a Senior Software Engineer you will play a key role in designing and building new features, maintaining and operating existing systems, and collaborating with game teams, Player Care, Trust & Safety, Legal, and others across Supercell. We're a small team with outsized impact – and outsized expectations. We expect Senior Software Engineers to take active part in planning and leading feature projects beyond just technical execution. This means being present in every part of the project lifecycle, from planning and scoping to shipping and operating.\n\nSupercell ID connects hundreds of millions of players to Supercell's ecosystem. The team builds critical infrastructure and UX that links all our games and web services together into a cohesive player experience. We care about account safety, registration and login, compliance, identity, and Supercell-wide architecture for consolidating and packaging common account use cases.\n\nWHAT YOU'LL BE DOING\n\n- Design, build, and operate a scalable, highly available, and secure platform for hundreds of millions of players\n\n- Own systems end-to-end – from architecture decisions through production operation\n\n- Collaborate with stakeholders to define requirements\n\n- Participate in 24/7 on-call rotation for production support\n\nWHAT YOU HAVE\n\n- Strong programming skills (we use Java and DynamoDB, but value experience in other stacks too)\n\n- Experience owning and operating business-critical systems – you've designed for failure, set up observability, and been woken up when things broke\n\n- A security mindset – you think about threats and vulnerabilities during design, not after launch\n\n- Ability to break down complex problems into incremental deliverables that each bring value\n\n- Familiarity with cloud infrastructure (AWS preferred) and infrastructure-as-code (Terraform)\n\n- Proficiency using modern AI-assisted development tools in your day-to-day work\n\n- Experience driving cross-team projects and working with non-engineering stakeholders\n\n- Comfort with ambiguity and a strong sense of ownership\n\nWOULD BE NICE IF YOU ALSO HAVE\n\n- Experience with identity/authentication systems (OAuth, OIDC, session management)\n\n- Experience building multi-region systems with high availability goals\n\n- Experience developing AI-assisted engineering workflows or tooling\n\nWHY THIS ROLE\n\n- Scale: Your work reaches hundreds of millions of players across all Supercell games and services\n\n- Ownership: Small team, big responsibility – you'll shape technical direction, not just execute tickets\n\n- Impact: Supercell ID is foundational infrastructure; what you build matters to every game team and every player\n\n- Environment: High autonomy, low bureaucracy – we trust you to make good decisions\n\nWHERE YOU WILL BE\n\n- We're open to this role being based in either our Helsinki or London office. However, London-based individuals will be expected to travel regularly to Helsinki, as that is where the majority of this team is based.\n\n–––\n\nThat's it about the role! Below, we've gathered some things we feel are important for you to know. Totally optional, but a highly recommended read.\n\nOnce you're ready to apply, just send us your application through the form on the bottom of the page.\n\n–––\n\nABOUT SUPERCELL\n\nSupercell is a games company from Helsinki, Finland, with offices https://supr.cl/jd-offices also in San Francisco, Seoul, Shanghai, and London. You might know us as the makers of Hay Day, Clash of Clans, Boom Beach, Clash Royale, and Brawl Stars. Our mission is to create great games https://supr.cl/jd-games that as many people as possible play for years and that are remembered forever.\n\nSo, how do we make great games? By putting together the best teams and giving them the freedom and independence to succeed. And by taking risks, failing, sharing learnings https://supercell.com/en/news/learning-from-failures/, and killing lots of projects.\n\nHEY, YOU MIGHT LOVE IT HERE!\n\nIndependent cells and trust are at the core of our culture https://supr.cl/jd-why-you. But it takes more than that to make great games. We take good care of our people, providing them with the compensation, work environment, and resources they need to succeed while having fun along the way.\n\nYOU ARE NOT YOUR JOB TITLE ™\n\nHere, you won’t need to focus on chasing titles https://supr.cl/jd-job-title or climbing ladders. Internally, our job titles don’t include prefixes like Senior, Junior, Principal, or Director. Recognition isn’t tied to your title, as it doesn't define the impact you can have around here.\n\nBENEFITS AND COMPENSATION…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "source": "ashby",
-    "site": "supercell.com",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "Java",
-      "AWS"
-    ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21727,6 +22092,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21750,6 +22116,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21771,29 +22138,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
-    "hasRu": true
-  },
-  {
-    "id": "ab-supercell-1c446790-5fad-48b4-a194-92a8caaac381",
-    "title": "Senior Game Designer, Project R.I.S.E",
-    "company": "Supercell",
-    "locations": [
-      "Shanghai"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-02-25",
-    "url": "https://jobs.ashbyhq.com/supercell/1c446790-5fad-48b4-a194-92a8caaac381",
-    "desc": "We are looking for a passionate and experienced game designer who specializes in Unreal Engine to join our Shanghai Studio.\n\nYou will be working on one of our new projects. You should be able to independently design new features and systems, and support their implementation, but the ideal candidate will have demonstrable experience in crafting second-to-second action gameplay, including, but not limited to level mechanics, layout design and enemy/AI behavior.\n\nIf you think that describes you, then we’d love to hear from you.\n\nWHAT YOU'LL BE DOING\n\n- Prototype gameplay content (mechanics, enemies, level interactivity) by yourself with minimal dependencies on other disciplines.\n\n- On-hands design and iteration of new features, game mechanics and gameplay content\n\n- Collaborate with other disciplines to follow your designs from initial documentation through to final in-engine polish.\n\n- Support the development of the game with any additional skills.\n\nWHAT YOU HAVE\n\n- At least 7 years of professional experience as a Gameplay Designer with a portfolio demonstrating combat gameplay and/or level content created by yourself using Unreal Engine & Blueprint.\n\n- Proven ability to implement enemies, NPCs and combat mechanics into interesting encounters\n\n- Proactive doer who takes responsibility and pride in their own work when given the freedom to work independently\n\n- Strong cross-discipline communication skills\n\n- Being a great teammate - we believe making games is a team sport\n\n- A self-starter approach to use AI. You've found ways to use it in your day-to-day work, you experiment, figure things out and bring the same energy to every new challenge.\n\nWOULD BE NICE IF YOU ALSO HAVE\n\n- Familiarity with level design tools and concepts. Proven track record of building level blockout.\n\n- Experience with combat AI and familiarity with Unreal Behavior Trees.\n\n- Extensive knowledge of Unreal's GAS - from Gameplay Effects to Ability Modifiers\n\nWHERE YOU'LL BE\n\nThis role is based in our Shanghai office. If you are not local, our relocation team would be excited to help you with your move to Shanghai,China. We provide comprehensive support not only for you, but also for your family!\n\n–––\n\nThat's it about the role! Below, we've gathered some things we feel are important for you to know. Totally optional, but a highly recommended read.\n\nOnce you're ready to apply, just send us your application through the form on the bottom of the page.\n\n–––\n\nAbout Supercell\nSupercell is a games company from Helsinki, Finland, with offices https://supr.cl/jd-offices also in San Francisco, Seoul, Shanghai, and London. You might know us as the makers of Hay Day, Clash of Clans, Boom Beach, Clash Royale, Brawl Stars, and Squad Busters. Our mission is to create great games https://supr.cl/jd-games that as many people as possible play for years and that are remembered forever.\n\nSo, how do we make great games? By putting together the best teams and giving them the freedom and independence to succeed. And by taking risks, failing, sharing learnings, and killing lots of projects.\n\nThe Shanghai studio\nAs Supercell’s first international game development studio, the Shanghai studio is one of the most exciting things happening in Supercell and a unique opportunity to join at a relatively early stage to help shape our path. Our vision is to be a world-class international studio, making new global hit games while leveraging the unique advantages of the game development scene in China and broader Asia.\n\nHey, you Might Love It Here!\nIndependent cells and trust are at the core of our culture https://supr.cl/jd-why-you. But it takes more than that to make great games. We take good care of our people, providing them with the compensation, work environment, and resources they need to succeed while having fun along the way.\n\nYou Are Not Your Job Title ™\nHere, you won’t need to focus on chasing titles https://supr.cl/jd-job-title or climbing ladders. Internally, our job titles don’t include prefixes like Senior, Junior, Principal, or Director. Recognition isn’t tied to your title, as it doesn't define the impact you can have around here.\n\nBenefits and Compensation\nLuring you in with glitter, glamour, and gems isn't what we're about. We want you to enjoy your time here fully, so we structure our compensation and benefits https://supr.cl/jd-benefits with that in mind. It starts with perceiving you as a human being, not a resource.\n\nRelocation? Yes!\nNo matter where you’re moving from, our dedicated mobility team and partners will support you throughout your move. We’ll ensure the process is as smooth as possible for you and anyone joining you – whether they’re family members of the human or animal kind!\n\n…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "source": "ashby",
-    "site": "supercell.com",
-    "role": "Геймдизайн",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "Unreal"
-    ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21819,6 +22164,7 @@ window.JOBS = [
       "JavaScript",
       "Figma"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21843,27 +22189,7 @@ window.JOBS = [
       "Go",
       "SQL"
     ],
-    "hasRu": true
-  },
-  {
-    "id": "ab-supercell-4dc6b102-5f3f-4211-9f81-646c16f29888",
-    "title": "Product Lead, Project R.I.S.E",
-    "company": "Supercell",
-    "locations": [
-      "Shanghai"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-02-13",
-    "url": "https://jobs.ashbyhq.com/supercell/4dc6b102-5f3f-4211-9f81-646c16f29888",
-    "desc": "We are looking for a senior product leader to join a new game and play a crucial role in driving the strategy, roadmap, and plans to prepare for global readiness. You will have the unique opportunity to work on a new Supercell title, and directly shape how that game will be operated and enjoyed by millions of players for years to come.\n\nAt Supercell, we believe that small teams that find a way to work well together have the potential to create memorable games. It’s important that each team member takes pride in their work and knows what it means to take responsibility and deliver quality and fun to players. As a Product Lead, you will be responsible for the live operations and monetization strategy of the game and collaborate with key game team stakeholders to make sure the right features, content, and tools are in place in order for the game to be a commercial success. You will own the full strategy and planning for live ops, monetization and economy, and work directly with the Game Lead on key activities including business planning and go to market strategy.\n\nIf you think that describes you, then we’d love to hear from you!\n\nWHAT YOU'LL BE DOING\n\n- Key stakeholder in the game leadership team, working directly with the Game Lead and collaborating closely with your peers across other functions\n\n- Support the Game Lead on strategic activities including business strategy, planning, and go to market strategy for soft launch, global launch and post launch live operations\n\n- Develop and own the live ops and monetization strategy for the game, taking into account audience expectations and the required milestones and target metrics\n\n- Own the roadmap of features and tools needed to grow, innovate and improve live ops of the game, and coordinate their development with relevant stakeholders. Define clear and measurable goals for each initiative driven and understand how it will lead to achieving your business goals.\n\n- Bring to the team an understanding of best-in-class F2P live ops activities, feature design and monetization mechanics\n\n- Ensure your team's decision making is based on a foundation of solid data and player insights, collaborating closely with key stakeholders across Game Analytics and Research, and continuously assess whether you are prioritizing the highest impact opportunities to improve the player experience and reach your business goals.\n\n- Work closely with key cross functional stakeholders across Game Analytics, Research, Live Operations & Monetization, and Marketing, ensuring close alignment with each stakeholder and identifying opportunities for collaboration and growth\n\nWHAT YOU HAVE\n\n- 7+ years of work experience, with at least 3+ years in a leadership role with product ownership and/or team lead responsibilities.\n\n- Prior experience on a free-to-play mobile game that has been operated for multiple years with a strong track record of driving sustained growth\n\n- Strong understanding of live operations, monetization, and economy and how these capabilities interact with one another and contribute to business success.\n\n- Passionate about live operations, ready to be hands on when needed and with a clear vision on how to build and manage a high performing team of operators.\n\n- Able to work effectively and drive collaboration within a cross discipline game team including design, engineering, UI/UX, art, and other key functions.\n\n- A self-starter approach to use AI. You've found ways to use it in your day-to-day work, you experiment, figure things out and bring the same energy to every new challenge.\n\n- Passion for games and being obsessed with delivering the best player experience.\n\nWOULD BE NICE IF YOU ALSO HAVE\n\n- Experience running live operations for the Chinese market\n\n- Working proficiency in Mandarin\n\nWHERE YOU'LL BE\n\nThis role is based in our Shanghai office. If you are not local, our relocation team would be excited to help you with your move to Shanghai,China. We provide comprehensive support not only for you, but also for your family!\n\n–––\n\nThat's it about the role! Below, we've gathered some things we feel are important for you to know. Totally optional, but a highly recommended read.\n\nOnce you're ready to apply, just send us your application through the form on the bottom of the page.\n\n–––\n\nAbout Supercell\nSupercell is a games company from Helsinki, Finland, with offices https://supr.cl/jd-offices also in San Francisco, Seoul, Shanghai, and London. You might know us as the makers of Hay Day, Clash of Clans, Boom Beach, Clash Royale, Brawl Stars, and Squad Busters. Our mission is to create great games https://supr.cl/jd-games that as many people as possible play for years and that are remembered forever.\n\nSo, how do we make great games? By putting together the best teams and giving them the freedom and independence to succeed. And by taking risks, failing, sharing learnings, and killing lots of projects.\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "source": "ashby",
-    "site": "supercell.com",
-    "role": "Продакт",
-    "grade": "Lead",
-    "spec": null,
-    "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21890,6 +22216,7 @@ window.JOBS = [
       "SQL",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21915,6 +22242,7 @@ window.JOBS = [
       "Docker",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21939,6 +22267,7 @@ window.JOBS = [
       "TypeScript",
       "JavaScript"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21963,6 +22292,7 @@ window.JOBS = [
       "SQL",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -21987,6 +22317,7 @@ window.JOBS = [
       "Docker",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22008,6 +22339,7 @@ window.JOBS = [
     "grade": "Junior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22031,6 +22363,7 @@ window.JOBS = [
     "stack": [
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22056,30 +22389,7 @@ window.JOBS = [
       "SQL",
       "Docker"
     ],
-    "hasRu": true
-  },
-  {
-    "id": "ab-supercell-bdc0c3c3-f381-48c7-bcb1-101cc21b1466",
-    "title": "Senior Client Programmer, Project R.I.S.E",
-    "company": "Supercell",
-    "locations": [
-      "Shanghai"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-02-04",
-    "url": "https://jobs.ashbyhq.com/supercell/bdc0c3c3-f381-48c7-bcb1-101cc21b1466",
-    "desc": "We are looking for a passionate and experienced Client Programmer who specializes in Unreal Engine to join our Shanghai Studio.\n\nYou will be working on one of our new projects. You should be able to independently design new features and systems, and support their implementation, but the ideal candidate will have demonstrable experience in crafting second-to-second action gameplay, including, but not limited to level mechanics, layout design and enemy/AI behavior.As a client programmer at Supercell, you are responsible for delivering gameplay and mechanics, but will need to collaborate with game designers, game artists and other programmers to deliver on the product vision.\n\nIf you think that describes you, then we’d love to hear from you！\n\nWHAT YOU'LL BE DOING\n\n- Work closely with designers and artists to architect and implement new features and systems that facilitate the creation of new and exciting gameplay experiences\n\n- Own the end-to-end development of combat gameplay modules from scratch, including gameplay code frameworks, editor tools, and production workflows.\n\n- Maintain and evolve character and ability pipelines, providing ongoing technical support to designers to enrich combat gameplay experiences.\n\n- React to design changes and related feedback with thought-out solutions, plan effectively and iterate quickly to achieve the goals\n\n- Debug, troubleshoot, and optimize existing codebase\n\n- Support the development of the game with any additional skills, act as a problem solver\n\nWHAT YOU HAVE\n\n- 8+ years combined industry experience.\n\n- Experience with C++ programming\n\n- Good understanding of Unreal Engine’s gameplay framework\n\n- Demonstrable mastery of object-oriented programming, design patterns, and game design principles\n\n- Highly motivated, positive and personable, and passionate about gameplay, system design, and methodologies\n\n- Adaptable and ability to multi-task and prioritize work based on changing schedules and feedback/critiques\n\n- Effective cross-discipline communication and problem solving skills\n\n- Being a great teammate - we believe making games is a team sport\n\n- A self-starter approach to use AI: you've found ways to use it in your day-to-day work, you experiment, figure things out and bring the same energy to every new challenge.\n\nWOULD BE NICE IF YOU ALSO HAVE\n\n- At least one shipped project\n\n- Good understanding of AI coding tools, hands-on experience with AI Agents and AI-assisted workflows.\n\n- Comprehensive project development experience and understanding of technical focus at each stage of development, from inception to online release\n\n- Extensive knowledge of Unreal's GAS - from Gameplay Effects to Abilities\n\n- Experience extending editors in Unreal to improve development efficiency\n\nWHERE YOU'LL BE\n\nThis role is based in our Shanghai office. If you are not local, our relocation team would be excited to help you with your move to Shanghai,China. We provide comprehensive support not only for you, but also for your family!\n\n–––\n\nThat's it about the role! Below, we've gathered some things we feel are important for you to know. Totally optional, but a highly recommended read.\n\nOnce you're ready to apply, just send us your application through the form on the bottom of the page.\n\n–––\n\nAbout Supercell\nSupercell is a games company from Helsinki, Finland, with offices https://supr.cl/jd-offices also in San Francisco, Seoul, Shanghai, and London. You might know us as the makers of Hay Day, Clash of Clans, Boom Beach, Clash Royale, Brawl Stars, and Squad Busters. Our mission is to create great games https://supr.cl/jd-games that as many people as possible play for years and that are remembered forever.\n\nSo, how do we make great games? By putting together the best teams and giving them the freedom and independence to succeed. And by taking risks, failing, sharing learnings, and killing lots of projects.\n\nThe Shanghai studio\nAs Supercell’s first international game development studio, the Shanghai studio is one of the most exciting things happening in Supercell and a unique opportunity to join at a relatively early stage to help shape our path. Our vision is to be a world-class international studio, making new global hit games while leveraging the unique advantages of the game development scene in China and broader Asia.\n\nHey, you Might Love It Here!\nIndependent cells and trust are at the core of our culture https://supr.cl/jd-why-you. But it takes more than that to make great games. We take good care of our people, providing them with the compensation, work environment, and resources they need to succeed while having fun along the way.\n\nYou Are Not Your Job Title ™\nHere, you won’t need to focus on chasing titles https://supr.cl/jd-job-title or climbing ladders. Internally, our job titles don’t include prefixes like Senior, Junior, Principal, or Director. Recognition isn’t tied to your title, as it doesn't define the impact you can have around here.…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "source": "ashby",
-    "site": "supercell.com",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "Unreal",
-      "C++"
-    ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22105,6 +22415,7 @@ window.JOBS = [
       "Python",
       "Maya"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22128,6 +22439,7 @@ window.JOBS = [
     "stack": [
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22151,6 +22463,7 @@ window.JOBS = [
     "stack": [
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22172,6 +22485,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22193,6 +22507,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22220,6 +22535,7 @@ window.JOBS = [
       "Docker",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22244,6 +22560,7 @@ window.JOBS = [
       "Java",
       "Kotlin"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22269,6 +22586,7 @@ window.JOBS = [
       "Docker",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22294,6 +22612,7 @@ window.JOBS = [
       "AWS",
       "Docker"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22317,28 +22636,7 @@ window.JOBS = [
     "stack": [
       "Figma"
     ],
-    "hasRu": true
-  },
-  {
-    "id": "ab-supercell-06058b2e-d65d-4e7f-9217-946ab424c508",
-    "title": "Senior Product Manager, Live Ops & Monetization, Hay Day",
-    "company": "Supercell",
-    "locations": [
-      "Helsinki",
-      "London"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-01-16",
-    "url": "https://jobs.ashbyhq.com/supercell/06058b2e-d65d-4e7f-9217-946ab424c508",
-    "desc": "WE ARE LOOKING FOR A SENIOR PRODUCT MANAGER TO JOIN THE HAY DAY TEAM TO DRIVE PLAYER ENGAGEMENT AND BUSINESS GROWTH THROUGH LIVE OPERATIONS, AND MONETIZATION-RELATED INITIATIVES. YOU GET TO OWN AND EXECUTE ON MULTIPLE AREAS OF THE GAME, ALL WHILE PROVIDING UNMATCHED PLAYER EXPERIENCES.\n\n(Read more about the team, flannel, the big mistake and nothing bad in this article https://supr.cl/nothing-bad-happens-in-hay-day-jd we made.)\n\nThis is a unique opportunity to work on one of the biggest and most recognizable mobile games in the world and directly shape how it is being operated for and enjoyed by millions of players every day.\n\nWe believe commercial success and fantastic player experience must go hand-in-hand. As a member of a Live Ops pod within a game team, you will deliver on goals for the growth of your game by channeling a razor-sharp focus on performance and operational excellence to ensure you find the right balance.\n\nYou will utilize game data, competitive research, and player feedback to optimize existing and formulate new engagement and monetization strategies, and then collaborate with cross-functional teams in order to translate these into player-facing features and initiatives. You will also analyze and report on engagement & monetization performance, from high-level KPIs to deep dives into specific initiatives.\n\nBring your best deck and join our diverse and international team to help us further grow what we believe is the best game on mobile!\n\nWHAT YOU'LL BE DOING\n\n- Take full ownership and accountability for several elements of live operations and/or monetization (which will be mutually agreed based on your profile and interest).\n\n- Define the roadmap and action plan for owned areas, ensuring it integrates seamlessly into the broader live operations and monetization strategy.\n\n- Define and track your own goals for all major initiatives that will be feeding into high-level targets of the game.\n\n- Design, execute, and analyze A/B tests and multivariate experiments to optimize player experience, and business impact.\n\n- Seek for feedback and alignment on your plans, and collaborate effectively within a cross-disciplinary pod that will support you in executing your initiatives.\n\n- Bring to the team an understanding of best-in-class F2P live ops activities, feature design and monetization mechanics\n\nWHAT YOU HAVE\n\n- At least 6 years of experience as a Product Manager in free-to-play mobile games.\n\n- Good understanding of engagement drivers and monetization design in live service games.\n\n- Strong ownership, hands-on approach, and impact-driven focus on constantly pushing game performance and delivering fantastic player experiences.\n\n- Excellent quantitative and analytical skills with an emphasis on metrics-driven decision making.\n\n- Constantly looking for new experiments and ways to improve performance, with the ability to make data driven decisions and recommendations.\n\n- Comfortable taking calculated risks, learning and sharing the lessons learned.\n\n- A self-starter approach to use AI. You've found ways to use it in your day-to-day work, you experiment, figure things out and bring the same energy to every new challenge.\n\nWHERE YOU'LL BE\n\nThis role can be based either in our Helsinki or London Studio.\n\nThere will be some travel expectations with this role to help build relationships, as stakeholders are based in both locations.\n\n–––\n\nThat's it about the role! Below, we've gathered some things we feel are important for you to know. Totally optional, but a highly recommended read.\n\nOnce you're ready to apply, just send us your application through the form on the bottom of the page.\n\n–––\n\nABOUT SUPERCELL\n\nSupercell is a games company from Helsinki, Finland, with offices https://supr.cl/jd-offices also in San Francisco, Seoul, Shanghai, and London. You might know us as the makers of Hay Day, Clash of Clans, Boom Beach, Clash Royale, and Brawl Stars. Our mission is to create great games https://supr.cl/jd-games that as many people as possible play for years and that are remembered forever.\n\nSo, how do we make great games? By putting together the best teams and giving them the freedom and independence to succeed. And by taking risks, failing, sharing learnings, and killing lots of projects.\n\nHEY, YOU MIGHT LOVE IT HERE!\n\nIndependent cells and trust are at the core of our culture https://supr.cl/jd-why-you. But it takes more than that to make great games. We take good care of our people, providing them with the compensation, work environment, and resources they need to succeed while having fun along the way.\n\nYOU ARE NOT YOUR JOB TITLE ™\n\nHere, you won’t need to focus on chasing titles https://supr.cl/jd-job-title or climbing ladders. Internally, our job titles don’t include prefixes like Senior, Junior, Principal, or Director. Recognition isn’t tied to your title, as it doesn't define the impact you can have around here.\n\nBENEFITS AND COMPENSATION…\n\nТекст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.",
-    "source": "ashby",
-    "site": "supercell.com",
-    "role": "Продакт",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22364,6 +22662,7 @@ window.JOBS = [
       "SQL",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22388,6 +22687,7 @@ window.JOBS = [
       "Unity",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22411,6 +22711,7 @@ window.JOBS = [
     "stack": [
       "JavaScript"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22434,6 +22735,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22457,6 +22759,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22483,6 +22786,7 @@ window.JOBS = [
       "Docker",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22507,6 +22811,7 @@ window.JOBS = [
       "Docker",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22530,6 +22835,7 @@ window.JOBS = [
     "stack": [
       "Go"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22551,7 +22857,29 @@ window.JOBS = [
     "grade": "Lead",
     "spec": "Фронтенд",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
+  },
+  {
+    "id": "lv-dream-games-79b732cb-96d7-4792-b7bb-be5c48fa2218",
+    "title": "AI Content Producer",
+    "company": "Dream Games",
+    "locations": [
+      "Istanbul"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2025-12-22",
+    "url": "https://jobs.lever.co/dreamgames/79b732cb-96d7-4792-b7bb-be5c48fa2218",
+    "desc": "We are looking for an AI Content Producer to produce AI videos internally for marketing purposes. As an AI Content Producer, you will be responsible for onboarding different AI tools and using the right mix to generate the highest quality content. You will manage the whole process from ideation to launch of these creatives. You will also work closely with the performance marketing, brand marketing, and product teams to ensure the best execution and improvement of creatives.\n\nAt Dream Games, all team members have a genuine chance to contribute to the final product and have an impact on the company. If you want to be a team member of a fast-growing company, you might be the person we are looking for!\n\nRESPONSIBILITIES\n• Use generative AI tools (such as Veo 3, Sora, Kling AI, Runway) to create, remix, and iterate video creatives at scale\n• Automate creative variation through AI-driven pipelines\n• Optimize the best mix of AI tools to create the highest quality content\n• Develop AI-powered content workflows that reduce production time\n• Quality check all AI outputs for accuracy, brand alignment, and potential issues\n• Stay current with emerging AI tools and integrate them into workflows\n• Monitor AI content performance and optimize based on engagement metrics\n\nREQUIREMENTS\n• Effective prompt engineering and the ability to produce consistent, quality outputs from AI tools\n• Hands-on experience with AI video generation tools\n• Creative and results-oriented mindset\n• Proactive, self-motivated, and very organized\n• Strong communication skills and attention to detail\n• Passion for gaming and understanding of the mobile gaming industry\n• Proficient in English\n\nProtecting your privacy and the security of your data is a top priority for Dream Games. We collect and process your personal data as confidential as part of the recruitment process. Please read our Statement of Personal Data Protection Law and Consent Letter to know more details.",
+    "source": "lever",
+    "site": "dreamgames.com",
+    "role": "Продюсирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25"
   },
   {
     "id": "lv-xsolla-56509726-51c6-4b4a-8983-8023cca96bd5",
@@ -22576,6 +22904,7 @@ window.JOBS = [
       "SQL",
       "Docker"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22602,6 +22931,7 @@ window.JOBS = [
       "Blender",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22626,6 +22956,7 @@ window.JOBS = [
       "Photoshop",
       "Figma"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22651,6 +22982,7 @@ window.JOBS = [
       "C++",
       "Java"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22672,6 +23004,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22699,6 +23032,7 @@ window.JOBS = [
       "Docker",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22722,6 +23056,7 @@ window.JOBS = [
     "stack": [
       "JavaScript"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22745,6 +23080,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22768,6 +23104,7 @@ window.JOBS = [
     "stack": [
       "TypeScript"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22789,6 +23126,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": "Бэкенд",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22810,6 +23148,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22834,6 +23173,7 @@ window.JOBS = [
       "Docker",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22855,6 +23195,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22876,6 +23217,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22900,6 +23242,7 @@ window.JOBS = [
       "Go",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22924,6 +23267,7 @@ window.JOBS = [
       "Go",
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22949,6 +23293,7 @@ window.JOBS = [
       "Blender",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22974,6 +23319,7 @@ window.JOBS = [
       "Python",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -22995,6 +23341,7 @@ window.JOBS = [
     "grade": "Junior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23019,6 +23366,7 @@ window.JOBS = [
       "TypeScript",
       "JavaScript"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23042,6 +23390,7 @@ window.JOBS = [
     "stack": [
       "TypeScript"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23063,6 +23412,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23084,6 +23434,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23111,6 +23462,7 @@ window.JOBS = [
       "Docker",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23132,6 +23484,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23156,6 +23509,7 @@ window.JOBS = [
       "Kotlin",
       "Swift"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23179,6 +23533,7 @@ window.JOBS = [
       "AWS",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23202,6 +23557,7 @@ window.JOBS = [
     "stack": [
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23221,6 +23577,7 @@ window.JOBS = [
     "grade": "Junior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23242,6 +23599,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23263,6 +23621,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23284,6 +23643,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23308,6 +23668,7 @@ window.JOBS = [
       "Unity",
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23329,6 +23690,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23350,6 +23712,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23371,6 +23734,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23392,6 +23756,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23413,6 +23778,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23434,6 +23800,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23459,6 +23826,7 @@ window.JOBS = [
       "SQL",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23482,6 +23850,7 @@ window.JOBS = [
     "stack": [
       "Docker"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23501,6 +23870,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23523,6 +23893,7 @@ window.JOBS = [
       "Unity",
       "Unreal"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23548,6 +23919,7 @@ window.JOBS = [
       "AWS",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23569,6 +23941,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23590,6 +23963,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23611,6 +23985,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23634,6 +24009,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23655,6 +24031,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23676,6 +24053,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23697,6 +24075,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23720,6 +24099,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23741,6 +24121,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23762,6 +24143,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23783,6 +24165,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23803,6 +24186,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23823,6 +24207,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23845,6 +24230,7 @@ window.JOBS = [
     "stack": [
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23866,6 +24252,7 @@ window.JOBS = [
     "spec": "Геймплей",
     "lang": "fr",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23887,6 +24274,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23908,6 +24296,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23929,6 +24318,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23950,6 +24340,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23971,6 +24362,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -23991,6 +24383,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24012,6 +24405,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24033,6 +24427,7 @@ window.JOBS = [
     "spec": null,
     "lang": "fr",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24054,6 +24449,7 @@ window.JOBS = [
     "grade": "Senior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24077,6 +24473,7 @@ window.JOBS = [
     "stack": [
       "C++"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24100,6 +24497,7 @@ window.JOBS = [
     "stack": [
       "C#"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24124,6 +24522,7 @@ window.JOBS = [
       "Java",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24148,6 +24547,7 @@ window.JOBS = [
       "Java",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24172,6 +24572,7 @@ window.JOBS = [
       "C#",
       "Java"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24196,6 +24597,7 @@ window.JOBS = [
       "Unity",
       "Spine"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24217,6 +24619,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24240,6 +24643,7 @@ window.JOBS = [
     "stack": [
       "Go"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24263,6 +24667,7 @@ window.JOBS = [
     "stack": [
       "SQL"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24284,6 +24689,7 @@ window.JOBS = [
     "grade": null,
     "spec": "Данные и ML",
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24305,6 +24711,7 @@ window.JOBS = [
     "grade": "Junior",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24326,6 +24733,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24347,6 +24755,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24370,6 +24779,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24391,6 +24801,7 @@ window.JOBS = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24412,6 +24823,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24437,6 +24849,7 @@ window.JOBS = [
       "SQL",
       "Docker"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24458,6 +24871,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24482,6 +24896,7 @@ window.JOBS = [
       "Unity",
       "C#"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24503,6 +24918,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24528,6 +24944,7 @@ window.JOBS = [
       "Maya",
       "Blender"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24553,6 +24970,7 @@ window.JOBS = [
       "Maya",
       "Photoshop"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24574,6 +24992,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24595,6 +25014,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24618,6 +25038,7 @@ window.JOBS = [
     "stack": [
       "Figma"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24641,6 +25062,7 @@ window.JOBS = [
     "stack": [
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24662,6 +25084,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24689,6 +25112,7 @@ window.JOBS = [
       "C#",
       "Java"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24714,6 +25138,7 @@ window.JOBS = [
       "Photoshop",
       "Spine"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24739,6 +25164,7 @@ window.JOBS = [
       "SQL",
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24762,6 +25188,7 @@ window.JOBS = [
     "stack": [
       "Unity"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24788,6 +25215,7 @@ window.JOBS = [
       "Docker",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24815,6 +25243,7 @@ window.JOBS = [
       "C#",
       "Java"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24836,6 +25265,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24863,6 +25293,7 @@ window.JOBS = [
       "TypeScript",
       "JavaScript"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24884,6 +25315,7 @@ window.JOBS = [
     "grade": null,
     "spec": null,
     "stack": [],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24908,7 +25340,31 @@ window.JOBS = [
       "Unity",
       "C#"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
+  },
+  {
+    "id": "lv-dream-games-9905ab64-0fc7-4def-ac9b-a68c6c501a80",
+    "title": "Marketing Illustrator",
+    "company": "Dream Games",
+    "locations": [
+      "Istanbul"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2021-10-27",
+    "url": "https://jobs.lever.co/dreamgames/9905ab64-0fc7-4def-ac9b-a68c6c501a80",
+    "desc": "We are looking for a passionate Illustrator to join our Marketing team. As an Illustrator, you will create characters, environments, and objects from concept to final artwork. In the studio, you will work closely with the marketing team and motion graphic designers to create ads that millions of people will watch daily.\n\nAt Dream Games, all team members have a genuine chance to contribute to the final product and have an impact on the company. If you want to be a team member of a fast-growing company, you might be the person we are looking for!\n\nRESPONSIBILITIES\n• Developing visual concepts and ideas for new ads\n• Creating appealing characters, environments, and objects\n• Working on the development of a visual style, design, and overall look of the ads\n• Finding creative art solutions for the production challenges\n• Contributing to the development of user-oriented design culture\n\nREQUIREMENTS\n• Passion for high-quality art production\n• Experience with Adobe Photoshop or Adobe Illustrator\n• Knowledge of composition, perspective, lighting, and color theory\n• Passion and interest in games\n• Appreciation and understanding of teamwork\n\nProtecting your privacy and the security of your data is a top priority for Dream Games. We collect and process your personal data as confidential as part of the recruitment process. Please read our Statement of Personal Data Protection Law and Consent Letter to know more details.",
+    "source": "lever",
+    "site": "dreamgames.com",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Photoshop"
+    ],
+    "seen": "2026-08-25"
   },
   {
     "id": "lv-dream-games-665462af-2bae-4c82-b2da-b27cee93bccf",
@@ -24935,6 +25391,7 @@ window.JOBS = [
       "Docker",
       "Kubernetes"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -24955,7 +25412,8 @@ window.JOBS = [
     "role": "Арт",
     "grade": null,
     "spec": null,
-    "stack": []
+    "stack": [],
+    "seen": "2026-08-25"
   },
   {
     "id": "lv-dream-games-f16a1f7b-03e4-493a-b5bc-851f66e105cd",
@@ -24981,6 +25439,7 @@ window.JOBS = [
       "C#",
       "Java"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -25007,6 +25466,7 @@ window.JOBS = [
       "C#",
       "Java"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -25030,6 +25490,7 @@ window.JOBS = [
       "Unity",
       "C#"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -25053,6 +25514,7 @@ window.JOBS = [
     "stack": [
       "AWS"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   },
   {
@@ -25079,6 +25541,7 @@ window.JOBS = [
       "C#",
       "Java"
     ],
+    "seen": "2026-08-25",
     "hasRu": true
   }
 ];
