@@ -93,6 +93,68 @@
     --grade-line:#d8cff0;
   }
 
+  /* Финтех — другая отрасль, и выглядеть он должен иначе. Не перекраска
+     ради перекраски: зелёный и глубокий синий читаются как деньги и банк,
+     а не как игры. */
+  :root[data-mode="fintech"]{
+    --void:#07120f;
+    --panel:#0e1c19;
+    --panel-2:#132723;
+    --line:#1f3d36;
+    --line-soft:#183029;
+    --text:#e8f5ef;
+    --muted:#7ea79a;
+    --amber:#4ade9b;
+    --amber-deep:#0f2d22;
+    --apply-text:#04231a;
+    --cyan:#6fc9ff;
+    --cyan-deep:#0d2839;
+    --pink:#ff7d7d;
+    --glow:rgba(16,140,110,.16);
+    --grid:rgba(255,255,255,.012);
+  }
+  :root[data-mode="fintech"][data-theme="light"]{
+    --void:#f2f8f5;
+    --panel:#ffffff;
+    --panel-2:#e9f4ef;
+    --line:#c9e0d6;
+    --line-soft:#dcece5;
+    --text:#0d251d;
+    --muted:#4f7768;
+    --amber:#128a5c;
+    --amber-deep:#dff3e9;
+    --apply-text:#ffffff;
+    --cyan:#1173b0;
+    --cyan-deep:#e0f0fa;
+    --glow:rgba(16,140,110,.12);
+    --grid:rgba(10,60,40,.035);
+  }
+
+  .modes{display:flex;gap:2px;background:var(--panel-2);border:1px solid var(--line-soft);
+    border-radius:999px;padding:3px}
+  .mode-btn{background:none;border:none;color:var(--muted);font-family:var(--body);
+    font-weight:600;font-size:12.5px;padding:7px 15px;border-radius:999px;cursor:pointer;
+    transition:color .16s,background .22s}
+  .mode-btn:hover{color:var(--text)}
+  .mode-btn.on{background:var(--panel);color:var(--text);box-shadow:0 2px 10px var(--shadow)}
+
+  /* Переход между отраслями: экран гаснет, сквозь него проступает слово,
+     под ним подменяется содержимое — и всё проявляется обратно. */
+  .swap{position:fixed;inset:0;z-index:90;display:flex;align-items:center;
+    justify-content:center;background:var(--void);pointer-events:none;
+    animation:swapIn .9s cubic-bezier(.4,0,.2,1) forwards}
+  .swap[hidden]{display:none}
+  .swap span{font-family:var(--display);font-weight:700;
+    font-size:clamp(38px,11vw,132px);letter-spacing:.06em;color:var(--text);
+    opacity:0;transform:scale(.92);
+    animation:swapWord .9s cubic-bezier(.4,0,.2,1) forwards}
+  @keyframes swapIn{ 0%{opacity:0} 22%{opacity:1} 64%{opacity:1} 100%{opacity:0} }
+  @keyframes swapWord{
+    0%{opacity:0;transform:scale(.9) translateY(14px);filter:blur(9px)}
+    30%{opacity:1;transform:scale(1) translateY(0);filter:blur(0)}
+    60%{opacity:1;transform:scale(1.02)}
+    100%{opacity:0;transform:scale(1.08);filter:blur(7px)} }
+
   *{box-sizing:border-box;margin:0;padding:0}
 
   body{
@@ -573,6 +635,10 @@
     <div class="brandline">
       <div class="brand"><a id="logo" href="/" title="На главную">LOOT<i>::</i><b>WORK</b></a></div>
       <div class="head-controls">
+        <div class="modes" id="modes" role="tablist">
+          <button class="mode-btn on" id="modeGame" data-mode="gamedev" role="tab">Геймдев</button>
+          <button class="mode-btn" id="modeFin" data-mode="fintech" role="tab">Финтех</button>
+        </div>
         <button class="theme-btn" id="themeBtn" aria-label="Тема" title="Тема"></button>
         <div class="lang">
           <button class="lang-btn on" data-lang="ru">RU</button>
@@ -712,6 +778,8 @@
 </a>
 <button class="fab" id="fbBtn">Написать нам</button>
 </div>
+
+<div class="swap" id="swap" hidden aria-hidden="true"><span id="swapWord"></span></div>
 
 <div class="tg-card" id="tgCard" hidden>
   <button class="tg-close" id="tgClose" aria-label="Закрыть">×</button>
@@ -861,7 +929,14 @@
   "use strict";
 
   const CFG = window.CONFIG || {};
-  const JOBS = (window.JOBS || []).slice();
+  // Данные каждой отрасли лежат отдельным файлом. Геймдев приходит сразу,
+  // финтех подгружаем при первом переключении — иначе человек, зашедший
+  // за вакансиями в играх, качал бы вдобавок весь финтех.
+  let mode = "gamedev";
+  try { mode = store.getItem("mode") || "gamedev"; } catch(e){}
+  if (new URLSearchParams(location.search).get("m") === "fintech") mode = "fintech";
+
+  let JOBS = (window.JOBS || []).slice();
 
   // Старый формат хранил одну локацию строкой, новый — список.
   // Приводим к списку, чтобы дальше был один путь.
@@ -937,7 +1012,7 @@
   });
 
   const IS_DEMO = !!window.JOBS_DEMO;
-  const UPDATED = window.JOBS_UPDATED || null;
+  let UPDATED = window.JOBS_UPDATED || null;
   const PAGE = 40;
 
   const REASONS = [
@@ -1426,7 +1501,12 @@
       pitch:"Работа в геймдеве напрямую от студий",
       subtext:"Без агентств, дублей и ручных перепостов. Вакансии берём с карьерных страниц игровых компаний.",
       how:"Как это работает", howTitle:"Как это работает", ok:"Понятно",
-      jobsWord:"вакансий", studiosWord:"студий", updatedOn:"обновлено",
+      jobsWord:"вакансий", studiosWord:"студий", companiesWord:"компаний", updatedOn:"обновлено",
+      titleGame:"LOOTWORK — вакансии в геймдеве напрямую от студий",
+      titleFin:"LOOTWORK — вакансии в финтехе напрямую от компаний",
+      modeGame:"Геймдев", modeFin:"Финтех",
+      pitchFinHtml:'Вакансии в <em>финтехе</em><br><strong>напрямую</strong> от компаний',
+      verticalFin:"Прямо от компаний · Живые ссылки · Без агентств",
       hasSalary:"Есть зарплата", reasonTitle:"Причина", whenTitle:"Когда столкнулся",
       reportTitle:"Что не так с вакансией?", reportHint:"Ответы помогают чистить базу. Займёт секунд десять.",
       writeTitle:"Написать", fbHint:"Мы читаем каждое сообщение. Оставь контакт — ответим.",
@@ -1511,7 +1591,12 @@
       pitch:"Game industry jobs, straight from the studios",
       subtext:"No agencies, no duplicates, no manual reposts. We take jobs from studio career pages.",
       how:"How it works", howTitle:"How it works", ok:"Got it",
-      jobsWord:"jobs", studiosWord:"studios", updatedOn:"updated",
+      jobsWord:"jobs", studiosWord:"studios", companiesWord:"companies", updatedOn:"updated",
+      titleGame:"LOOTWORK — game industry jobs straight from studios",
+      titleFin:"LOOTWORK — fintech jobs straight from companies",
+      modeGame:"Games", modeFin:"Fintech",
+      pitchFinHtml:'Fintech jobs,<br><strong>straight</strong> from the <em>companies</em>',
+      verticalFin:"Straight from companies · Live links · No agencies",
       hasSalary:"Salary listed", reasonTitle:"Reason", whenTitle:"When did you notice",
       reportTitle:"What is wrong with this job?", reportHint:"Your answer helps keep the list clean. Takes ten seconds.",
       writeTitle:"Contact us", fbHint:"We read every message. Leave a contact and we will reply.",
@@ -1570,7 +1655,7 @@
       tg.textContent = t("tgChannel");
     }
     $("footRemote").textContent = t("remoteJobs");
-    $("vertical").textContent = t("vertical");
+    $("vertical").textContent = mode === "fintech" ? t("verticalFin") : t("vertical");
     applyTheme();                 // подпись кнопки темы тоже переводится
     if ($("markSync")) $("markSync").textContent = t("markSync");
     $("footAbout").textContent = t("aboutPage");
@@ -1595,7 +1680,9 @@
     $("reportUndo").textContent = t("undo");
     $("fbUndo").textContent = t("undo");
     $("fbBtn").textContent = t("write");
-    $("pitch").innerHTML = t("pitchHtml") || esc(t("pitch"));
+    $("pitch").innerHTML = mode === "fintech" ? t("pitchFinHtml") : t("pitchHtml");
+    $("modeGame").textContent = t("modeGame");
+    $("modeFin").textContent = t("modeFin");
     $("subtext").textContent = t("subtext");
     $("howBtn").textContent = t("how");
     $("howTitle").textContent = t("howTitle");
@@ -1767,10 +1854,12 @@
   }
 
   function renderStats(){
-    const studios = window.JOBS_STUDIOS || new Set(JOBS.map(j => j.company)).size;
+    const studios = (mode === "fintech" ? window.JOBS_FINTECH_STUDIOS : window.JOBS_STUDIOS)
+      || new Set(JOBS.map(j => j.company)).size;
     // Для доски вакансий цифры — главный довод доверия, поэтому не строкой
     // мелким шрифтом, а тремя плашками с крупным числом.
     const cells = [[JOBS.length, t("jobsWord")], [studios, t("studiosWord")]];
+    cells[1][1] = mode === "fintech" ? t("companiesWord") : t("studiosWord");
     if (UPDATED) cells.push([humanDate(UPDATED), t("updatedOn")]);
     $("stats").innerHTML = cells.map(([big, small]) =>
       '<div class="stat"><b>'+esc(big)+'</b><span>'+esc(small)+'</span></div>').join("");
@@ -3749,6 +3838,68 @@
   // Сайт человек закроет и забудет. Подписка — единственный способ вернуть его
   // завтра, поэтому зовём в канал. Но не на входе: сначала пусть посмотрит
   // вакансии, иначе окно закроют не читая.
+  // ------------------------------------------------------- смена отрасли
+  let swapping = false;
+
+  function applyMode(){
+    document.documentElement.dataset.mode = mode;
+    $("modeGame").classList.toggle("on", mode === "gamedev");
+    $("modeFin").classList.toggle("on", mode === "fintech");
+    document.title = mode === "fintech" ? t("titleFin") : t("titleGame");
+  }
+
+  function loadFintech(){
+    if (window.JOBS_FINTECH) return Promise.resolve();
+    return new Promise((done, fail) => {
+      const el = document.createElement("script");
+      el.src = "/jobs-fintech.js";
+      el.onload = done;
+      el.onerror = fail;
+      document.head.appendChild(el);
+    });
+  }
+
+  // Показываем слово отрасли поверх экрана: пока оно горит, содержимое
+  // под ним успевает смениться, и переход выглядит цельным, а не рывком.
+  function swapTo(next){
+    if (swapping || next === mode) return;
+    swapping = true;
+
+    const finish = () => {
+      mode = next;
+      try { store.setItem("mode", mode); } catch(e){}
+      JOBS = ((mode === "fintech" ? window.JOBS_FINTECH : window.JOBS) || []).slice();
+      UPDATED = (mode === "fintech" ? window.JOBS_FINTECH_UPDATED : window.JOBS_UPDATED) || null;
+      applyMode();
+      doReset();
+      applyLang();
+      renderStats();
+      window.scrollTo({ top: 0, behavior: "auto" });
+    };
+
+    if (calmMotion()){
+      loadFintech().then(finish).catch(finish).then(() => { swapping = false; });
+      return;
+    }
+
+    const layer = $("swap");
+    $("swapWord").textContent = next === "fintech" ? "FINTECH" : "GAMEDEV";
+    layer.hidden = false;
+    setTimeout(() => { loadFintech().then(finish).catch(finish); }, 380);
+    setTimeout(() => { layer.hidden = true; swapping = false; }, 950);
+  }
+
+  document.querySelectorAll(".mode-btn").forEach(b =>
+    b.addEventListener("click", () => swapTo(b.dataset.mode)));
+
+  // Горячая клавиша «M» — переключение отрасли
+  document.addEventListener("keydown", e => {
+    if (!["m","M","ь","Ь"].includes(e.key)) return;
+    if (/^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement.tagName)) return;
+    if (e.metaKey || e.ctrlKey || e.altKey) return;
+    swapTo(mode === "fintech" ? "gamedev" : "fintech");
+  });
+
   function tgSetup(){
     const card = $("tgCard"), fab = $("tgFab");
     if (!CFG.telegram){ return; }
@@ -3821,6 +3972,15 @@
   })();
 
   applyTheme();
+  applyMode();
+  // Если человек в прошлый раз ушёл с финтеха, возвращаем его туда же
+  if (mode === "fintech" && !window.JOBS_FINTECH){
+    loadFintech().then(() => {
+      JOBS = (window.JOBS_FINTECH || []).slice();
+      UPDATED = window.JOBS_FINTECH_UPDATED || null;
+      doReset(); applyLang(); renderStats();
+    }).catch(() => { mode = "gamedev"; applyMode(); });
+  }
   urlToState();
   setTimeout(reportOddPlaces, 4000);   // не мешаем первой отрисовке
   placeFilters();

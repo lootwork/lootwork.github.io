@@ -637,6 +637,20 @@ ISO2 = {
 }
 
 
+# Штаты США пишут теми же двумя буквами, что и страны: «Menlo Park, CA» —
+# это Калифорния, а не Канада. Раньше мы отправляли пол-Кремниевой долины
+# в Канаду.
+US_STATES = {
+    "al","ak","az","ar","ca","co","ct","de","fl","ga","hi","id","il","in","ia",
+    "ks","ky","la","me","md","ma","mi","mn","ms","mo","mt","ne","nv","nh","nj",
+    "nm","ny","nc","nd","oh","ok","or","pa","ri","sc","sd","tn","tx","ut","vt",
+    "va","wa","wv","wi","wy","dc",
+}
+# Города, где двухбуквенный код всё-таки означает страну
+CANADA_CITIES = {"toronto", "vancouver", "montreal", "montréal", "calgary",
+                 "ottawa", "quebec", "québec", "burnaby", "edmonton", "winnipeg"}
+
+
 def normalize_place(part: str) -> str:
     """«London, UK» → «London, United Kingdom», «Singapore-Guoco Midtown» → «Singapore»."""
     p = part.strip(" ,;·")
@@ -646,10 +660,22 @@ def normalize_place(part: str) -> str:
     p = re.sub(r"^[A-Z]{2}\s*[-–]\s*", "", p).strip()
     # адрес офиса после дефиса — это уже не город: «Singapore-Guoco Midtown»
     p = re.sub(r"^([A-Za-zА-Яа-яЁё\s]{3,})-[A-Za-z].*$", r"\1", p).strip()
-    # «Warsaw, pl» → «Warsaw, Poland»
+    # хвосты вида «San Francisco HQ», «Berlin Office»
+    p = re.sub(r"\s+\(?(hq|office|headquarters)\)?$", "", p, flags=re.I).strip()
+
+    # «Warsaw, pl» → «Warsaw, Poland», «Austin, TX» → «Austin, United States»
     m = re.match(r"^(.*),\s*([A-Za-z]{2})$", p)
-    if m and m.group(2).lower() in ISO2:
-        p = f"{m.group(1).strip()}, {ISO2[m.group(2).lower()]}"
+    if m:
+        city, code = m.group(1).strip(), m.group(2).lower()
+        if code in US_STATES and city.lower() not in CANADA_CITIES:
+            p = f"{city}, United States"
+        elif code in ISO2:
+            p = f"{city}, {ISO2[code]}"
+
+    # «Singapore, Singapore» — повтор ни о чём не говорит
+    bits = [b.strip() for b in p.split(",") if b.strip()]
+    if len(bits) == 2 and bits[0].lower() == bits[1].lower():
+        p = bits[0]
     for pattern, full in COUNTRY_FIX:
         p = re.sub(pattern, full, p, flags=re.I)
     # «BLANK, Multiple Locations» — выкидываем куски-пустышки внутри строки
