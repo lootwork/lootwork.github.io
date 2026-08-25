@@ -131,7 +131,7 @@
   }
 
   .modes{display:flex;gap:2px;background:var(--panel-2);border:1px solid var(--line-soft);
-    border-radius:999px;padding:3px}
+    border-radius:999px;padding:3px;flex:none}
   .mode-btn{background:none;border:none;color:var(--muted);font-family:var(--body);
     font-weight:600;font-size:12.5px;padding:7px 15px;border-radius:999px;cursor:pointer;
     transition:color .16s,background .22s}
@@ -156,6 +156,7 @@
     100%{opacity:0;transform:scale(1.08);filter:blur(7px)} }
 
   *{box-sizing:border-box;margin:0;padding:0}
+  html,body{overflow-x:hidden;max-width:100%}
 
   body{
     background:
@@ -211,7 +212,8 @@
   #logo:hover{opacity:.85}
   .vertical{font-family:var(--mono);font-size:11.5px;letter-spacing:.34em;
     text-transform:uppercase;color:var(--cyan);margin-top:7px}
-  .head-controls{display:flex;align-items:center;gap:8px}
+  .head-controls{display:flex;align-items:center;gap:8px;flex-wrap:wrap;
+    justify-content:flex-end}
   .theme-btn{background:var(--panel);border:1px solid var(--line);border-radius:999px;
     width:34px;height:34px;cursor:pointer;font-size:15px;line-height:1;color:var(--muted);
     display:flex;align-items:center;justify-content:center}
@@ -572,6 +574,11 @@
   .tg-fab[hidden]{display:none}
 
   @media (max-width:640px){
+    /* На узком экране шапка не помещалась в одну строку и растягивала
+       страницу шире окна — отсюда и обрезанные фильтры. */
+    .brandline{flex-wrap:wrap;gap:10px}
+    .head-controls{gap:6px}
+    .mode-btn{padding:6px 12px;font-size:12px}
     .tg-card{left:12px;right:12px;width:auto;bottom:84px}
     .dock{right:12px;bottom:12px;gap:8px}
   }
@@ -1344,8 +1351,19 @@
   const NO_GRADE = "__none";
 
   function counts(field){
+    // Учитываем поиск и все остальные фильтры, кроме этого же:
+    // человек должен видеть, сколько останется, если он добавит условие.
+    const base = { ...cloneState(state) };
+    base[field] = (field === "grade" || field === "role" || field === "spec"
+                   || field === "stack" || field === "rkind"
+                   || field === "company" || field === "location")
+                  ? new Set() : base[field];
+    const toks = state.query ? tokens(state.query) : [];
+    const pool = JOBS.filter(j => passes(j, base) &&
+      (!toks.length || toks.every(tok => matchesToken(j, tok))));
+
     const m = new Map();
-    JOBS.forEach(j => {
+    pool.forEach(j => {
       const vals = (field === "location") ? j.locations
                  : (field === "stack")    ? j.stack
                  : [j[field]];
@@ -1353,7 +1371,7 @@
     });
     const out = [...m.entries()].sort((a,b) => b[1]-a[1]);
     if (field === "grade"){
-      const none = JOBS.filter(j => !j.grade).length;
+      const none = pool.filter(j => !j.grade).length;
       if (none) out.push([NO_GRADE, none]);
     }
     return out;
@@ -2645,30 +2663,31 @@
       out.push({ text, kind, apply, sub: sub || "" });
     };
 
-    // Первая строка — обычный поиск по набранному. Человек всегда должен
-    // видеть путь «просто найти», а не только выбор из готовых вариантов.
-    const hits = JOBS.filter(j => !hidden.has(j.id) && hayMain(j).includes(q)).length;
-    if (hits) push(searchEl.value.trim() + "  " + hits, t("searchFor"),
-      () => { state.query = q; });
-
-    // Категории: они сужают выдачу осмысленно и не зависят от того,
-    // сколько вакансий в базе — этим и полезны, когда список вырастет.
+    // Категории идут первыми: если человек набрал «маркетинг» или «саппорт»,
+    // ему нужна сама категория, а не строка «маркетинг 86». Цифры в подсказках
+    // только мешают — сколько нашлось, он увидит в выдаче.
     const cats = [];
+    const catsExact = [];    // точное совпадение выносим наверх
+    const addCat = (n, label, kind, apply) => {
+      const bucket = label.toLowerCase() === q ? catsExact : cats;
+      bucket.push([n, label, kind, apply]);
+    };
+
     counts("role").forEach(([v, n]) => {
       if ([v, ROLE_EN[v] || "", roleLabel(v)].some(x => x.toLowerCase().includes(q)))
-        cats.push([n, roleLabel(v) + "  " + n, t("gtRole"), () => { state.role.add(v); state.query = ""; }]);
+        addCat(n, roleLabel(v), t("gtRole"), () => { state.role.add(v); state.query = ""; });
     });
     counts("spec").forEach(([v, n]) => {
       if ([v, SPEC_EN[v] || "", specLabel(v)].some(x => x.toLowerCase().includes(q)))
-        cats.push([n, specLabel(v) + "  " + n, t("gtSpec"), () => { state.spec.add(v); state.query = ""; }]);
+        addCat(n, specLabel(v), t("gtSpec"), () => { state.spec.add(v); state.query = ""; });
     });
     counts("stack").forEach(([v, n]) => {
       if (v.toLowerCase().includes(q))
-        cats.push([n, v + "  " + n, t("gtStack"), () => { state.stack.add(v); state.query = ""; }]);
+        addCat(n, v, t("gtStack"), () => { state.stack.add(v); state.query = ""; });
     });
     counts("company").forEach(([v, n]) => {
       if (v.toLowerCase().includes(q))
-        cats.push([n, v + "  " + n, t("gtCompany"), () => { state.company.add(v); state.query = ""; }]);
+        addCat(n, v, t("gtCompany"), () => { state.company.add(v); state.query = ""; });
     });
     countryGroups().byCountry.forEach((rec, key) => {
       // Ищем и по названию на обоих языках, и по городам: набрал «krak» —
@@ -2676,9 +2695,17 @@
       const words = [countryLabel(key), COUNTRY_LABEL.ru[key] || "", COUNTRY_LABEL.en[key] || ""]
                     .concat(GEO[key] || []);
       if (words.some(x => String(x).toLowerCase().includes(q)))
-        cats.push([rec.n, countryLabel(key) + "  " + rec.n, t("gtLocation"),
-          () => { rec.locs.forEach(l => state.location.add(l)); state.query = ""; }]);
+        addCat(rec.n, countryLabel(key), t("gtLocation"),
+          () => { rec.locs.forEach(l => state.location.add(l)); state.query = ""; });
     });
+
+    // Точные совпадения — впереди всех, ещё до «просто найти».
+    catsExact.sort((a, b) => b[0] - a[0]).forEach(([, label, kind, apply]) =>
+      push(label, kind, apply));
+
+    // Строка «просто найти» — для случаев, когда готовой категории нет.
+    const hits = JOBS.filter(j => !hidden.has(j.id) && hayMain(j).includes(q)).length;
+    if (hits) push(searchEl.value.trim(), t("searchFor"), () => { state.query = q; });
 
     cats.sort((a, b) => b[0] - a[0]).slice(0, 6)
         .forEach(([, text, kind, apply]) => push(text, kind, apply));
@@ -3788,6 +3815,9 @@
       if (!sortChosen) sortMode = state.query ? "rel" : "new";
       shownCount = PAGE;
       renderList();
+      // Цифры в фильтрах должны сходиться с тем, что человек видит:
+      // сузил поиск — сузились и счётчики.
+      buildFilterUi();
     }, 120);
   });
 
