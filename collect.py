@@ -33,6 +33,7 @@ except ImportError:
 HERE = Path(__file__).parent
 COMPANIES = HERE / "companies.json"
 OUT_JS = HERE / "jobs.js"
+OUT_FIN = HERE / "jobs-fintech.js"
 STATUS = HERE / "status.json"
 HISTORY = HERE / "history.json"
 POSTED = HERE / "posted.json"
@@ -204,6 +205,73 @@ STACK_RULES = [
     ("Figma", r"\bfigma\b"), ("Perforce", r"\bperforce\b|\bp4v\b"), ("Wwise", r"\bwwise\b"),
     ("FMOD", r"\bfmod\b"),
 ]
+
+
+# В финтехе своя карта профессий: здесь нет художников и геймдизайнеров,
+# зато есть риски, комплаенс, антифрод и платежи. Порядок важен —
+# побеждает первое совпадение.
+FIN_ROLE_RULES = [
+    # Сначала профессия, потом область. Бэкендер, который делает платежи,
+    # ищет себя в «Программировании», а не в «Платежах» — область станет
+    # уточнением ниже.
+    ("Квант",           r"\bquant\b|quantitative|pricing model|derivative pricing|"
+                        r"market maker|квант"),
+    ("Программирование",r"engineer|developer|programmer|architect|\bsre\b|devops|"
+                        r"разработчик|инженер|программист"),
+    ("Данные и ML",     r"data (scien|engineer|analyst|platform)|machine learning|"
+                        r"\bml\b|analytics engineer|дата|данн"),
+    ("Комплаенс",       r"compliance|\baml\b|\bkyc\b|\bkyb\b|sanction|regulatory|"
+                        r"financial crime|mlro|комплаенс|санкц"),
+    ("Антифрод",        r"fraud|chargeback|dispute|abuse (analyst|manager)|антифрод|мошенн"),
+    ("Риски",           r"\brisk\b|underwrit|actuar|collections|риск|андеррайт"),
+    ("Платежи",         r"payment|payout|acquir|issuing|settlement|billing|treasury|"
+                        r"merchant|платеж|эквайр"),
+    ("Трейдинг",        r"trading|trader|broker|liquidity|dealing|трейд|биржев"),
+    ("Продакт",         r"product (manager|owner|lead|director)|head of product|продакт"),
+    ("Дизайн",          r"designer|\bux\b|\bui\b|design lead|дизайнер"),
+    ("Аналитика",       r"analyst|analytics|business intelligence|\bbi\b|аналитик"),
+    ("Маркетинг",       r"marketing|growth|\bseo\b|content|brand|communications|маркетинг"),
+    ("Продажи",         r"sales|account (executive|manager)|business development|"
+                        r"partnership|продаж|партнёрств"),
+    ("Поддержка",       r"support|customer (care|success|service|operations)|"
+                        r"operations specialist|поддержк"),
+    ("Финансы",         r"finance|accountant|controller|fp&a|audit|\btax\b|бухгалт|финанс"),
+    ("Юристы",          r"legal|counsel|lawyer|privacy officer|юрист|правов"),
+    ("Люди",            r"\bhr\b|recruit|talent|people (partner|ops)|рекрут|кадров"),
+    ("Продюсирование",  r"project manager|program manager|delivery manager|scrum|проектн"),
+]
+
+# Уточнение для инженеров и аналитиков: чем именно человек занимается.
+FIN_SPEC_RULES = [
+    ("Платежи",      r"payment|payout|acquir|issuing|settlement|billing|card|merchant"),
+    ("Антифрод",     r"fraud|chargeback|abuse|risk engine"),
+    ("Комплаенс",    r"compliance|\baml\b|\bkyc\b|sanction|financial crime"),
+    ("Блокчейн",     r"blockchain|crypto|web3|solidity|smart contract|блокчейн|крипто"),
+    ("Безопасность", r"security|appsec|infosec|penetration|безопасност"),
+    ("Данные",       r"data (engineer|platform|warehouse)|etl|spark|snowflake"),
+    ("DevOps",       r"devops|\bsre\b|platform engineer|infrastructure|kubernetes|cloud"),
+    ("Бэкенд",       r"back[- ]?end|\bserver\b|golang|\bjava\b(?!script)|kotlin|scala|"
+                     r"\bapi\b|microservice|бэкенд"),
+    ("Фронтенд",     r"front[- ]?end|\breact\b|typescript|javascript|\bweb\b|фронтенд"),
+    ("Мобильная",    r"\bios\b|\bandroid\b|mobile (developer|engineer)|flutter|мобильн"),
+    ("QA",           r"\bqa\b|test engineer|automation engineer|тестировщ"),
+]
+
+
+def classify_fin_role(title: str):
+    for name, pattern in FIN_ROLE_RULES:
+        if re.search(pattern, title or "", re.I):
+            return name
+    return None
+
+
+def classify_fin_spec(title: str, role: str):
+    if role not in ("Программирование", "Данные и ML", "Аналитика", "Продакт"):
+        return None
+    for name, pattern in FIN_SPEC_RULES:
+        if re.search(pattern, title or "", re.I):
+            return name
+    return None
 
 
 def classify_spec(title: str, role: str):
@@ -1202,6 +1270,8 @@ def collect(companies, verify_links: bool):
             continue
         try:
             got = fetcher(c)
+            for g in got:
+                g["industry"] = c.get("industry", "gamedev")
             raw.extend(got)
             if not got:
                 RUN["empty"].append(c["name"])
@@ -1234,9 +1304,16 @@ def collect(companies, verify_links: bool):
         j["desc"] = strip_media(j.get("desc"))
         if is_pool(j["title"]):
             j["pool"] = True
-        role = classify_role(j["title"])
+        # У каждой отрасли своя карта профессий: в геймдеве нет комплаенса,
+        # в финтехе нет геймдизайнеров. Смешивать их в одном классификаторе
+        # значит получить кашу в обоих.
+        industry = j.get("industry") or "gamedev"
+        if industry == "fintech":
+            role = classify_fin_role(j["title"])
+        else:
+            role = classify_role(j["title"])
         if not role:
-            continue                      # не смогли отнести к геймдеву — пропускаем
+            continue                      # не смогли отнести к отрасли — пропускаем
 
         key = (j["company"].lower(), j["title"].lower())
         if key in seen:
@@ -1245,7 +1322,8 @@ def collect(companies, verify_links: bool):
 
         j["role"] = role
         j["grade"] = classify_grade(j["title"])
-        j["spec"] = classify_spec(j["title"], role)
+        j["spec"] = (classify_fin_spec(j["title"], role) if industry == "fintech"
+                     else classify_spec(j["title"], role))
         if needs_permit(j):
             j["permit"] = True
             # «Удалёнка по миру» и «нужно право работать в стране» вместе
@@ -1283,26 +1361,46 @@ def collect(companies, verify_links: bool):
     return jobs
 
 
-def write_js(jobs):
+def write_industry_js(jobs, industry, path):
+    """Данные каждой отрасли — отдельным файлом. Иначе человек, зашедший
+    за вакансиями в геймдеве, качал бы ещё и весь финтех."""
     today = datetime.now(timezone.utc).date().isoformat()
-    write_translation_files(jobs)
-    # Переводы уехали в отдельные файлы, в общих данных их держать не нужно.
     light = [{k: v for k, v in j.items() if k != "_ru"} for j in jobs]
     body = json.dumps(light, ensure_ascii=False, indent=2)
     studios = len({j.get("company") for j in jobs if j.get("company")})
-    OUT_JS.write_text(
-        "// jobs.js — сгенерировано collect.py, руками не править.\n"
-        f"// Обновлено: {today}. Вакансий: {len(jobs)}.\n\n"
-        "window.JOBS_DEMO = false;\n"
-        f'window.JOBS_UPDATED = "{today}";\n'
-        f"window.JOBS_STUDIOS = {studios};\n\n"
-        f"window.JOBS = {body};\n",
+    var = "JOBS" if industry == "gamedev" else "JOBS_FINTECH"
+    path.write_text(
+        f"// {path.name} — сгенерировано collect.py, руками не править.\n"
+        f"// Отрасль: {industry}. Обновлено: {today}. Вакансий: {len(jobs)}.\n\n"
+        + ("window.JOBS_DEMO = false;\n"
+           f'window.JOBS_UPDATED = "{today}";\n'
+           f"window.JOBS_STUDIOS = {studios};\n\n" if industry == "gamedev" else
+           f'window.JOBS_FINTECH_UPDATED = "{today}";\n'
+           f"window.JOBS_FINTECH_STUDIOS = {studios};\n\n")
+        + f"window.{var} = {body};\n",
         encoding="utf-8",
     )
-    print(f"\nЗаписано {len(jobs)} вакансий в {OUT_JS.name}")
+    print(f"Записано {len(jobs)} вакансий ({industry}) в {path.name}")
+    return studios
+
+
+def write_js(jobs):
+    today = datetime.now(timezone.utc).date().isoformat()
+    write_translation_files(jobs)
+
+    games = [j for j in jobs if (j.get("industry") or "gamedev") == "gamedev"]
+    fin = [j for j in jobs if j.get("industry") == "fintech"]
+
+    print()
+    studios = write_industry_js(games, "gamedev", OUT_JS)
+    if fin:
+        write_industry_js(fin, "fintech", OUT_FIN)
+    elif OUT_FIN.exists():
+        OUT_FIN.unlink()
+
     write_status(jobs, today, studios)
     write_history(jobs, today)
-    tg_post(jobs)
+    tg_post(games)          # в канал уходит только геймдев
     location_report(jobs)
     urls = write_pages(jobs, today)
     write_sitemap(today, urls)

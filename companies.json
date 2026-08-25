@@ -4,28 +4,32 @@
     "ats": "greenhouse",
     "token": "wargamingen",
     "site": "wargaming.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Tripledot / Belka",
     "ats": "greenhouse",
     "token": "tripledotstudios",
     "site": "tripledotstudios.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Xsolla",
     "ats": "lever",
     "token": "xsolla",
     "site": "xsolla.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Easybrain",
     "ats": "lever",
     "token": "easybrain",
     "site": "easybrain.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Scorewarrior",
@@ -33,126 +37,144 @@
     "token": "scorewarrior",
     "site": "scorewarrior.com",
     "enabled": false,
-    "note": "своя система найма, через общие доски не отдаёт"
+    "note": "своя система найма, через общие доски не отдаёт",
+    "industry": "gamedev"
   },
   {
     "name": "Nordeus",
     "ats": "greenhouse",
     "token": "nordeus",
     "site": "nordeus.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Evoplay Games",
     "ats": "greenhouse",
     "token": "evoplaygames",
     "site": null,
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "DPS Games",
     "ats": "greenhouse",
     "token": "dpsgames",
     "site": null,
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Outfit7",
     "ats": "greenhouse",
     "token": "outfit7",
     "site": "outfit7.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Huuuge Games",
     "ats": "recruitee",
     "token": "huuuge",
     "site": "huuugegames.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Ten Square Games",
     "ats": "recruitee",
     "token": "tensquaregames",
     "site": "tensquaregames.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Reality Games",
     "ats": "recruitee",
     "token": "realitygames",
     "site": null,
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Illuvium",
     "ats": "recruitee",
     "token": "illuvium",
     "site": "illuvium.io",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Lucid Reality Labs",
     "ats": "recruitee",
     "token": "lucidrealitylabs",
     "site": "lucidrealitylabs.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "11 bit studios",
     "ats": "recruitee",
     "token": "11bitstudios",
     "site": "11bitstudios.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Bloober Team",
     "ats": "recruitee",
     "token": "blooberteam",
     "site": "blooberteam.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Crytek",
     "ats": "lever",
     "token": "crytek",
     "site": "crytek.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Larian Studios",
     "ats": "lever",
     "token": "larian",
     "site": "larian.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Amanotes",
     "ats": "lever",
     "token": "amanotes",
     "site": "amanotes.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Animoca Brands",
     "ats": "lever",
     "token": "animocabrands",
     "site": "animocabrands.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Fanatee",
     "ats": "lever",
     "token": "fanatee",
     "site": "fanatee.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Keen Software House",
     "ats": "greenhouse",
     "token": "keensoftwarehouseas",
     "site": "keenswh.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Inworld AI",
@@ -160,49 +182,56 @@
     "token": "inworldai",
     "site": "inworld.ai",
     "enabled": false,
-    "note": "своя система найма, через общие доски не отдаёт"
+    "note": "своя система найма, через общие доски не отдаёт",
+    "industry": "gamedev"
   },
   {
     "name": "GRID Esports",
     "ats": "recruitee",
     "token": "grid",
     "site": "grid.gg",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Gram Games",
     "ats": "greenhouse",
     "token": "gramgamescareers",
     "site": "gramgames.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "NetEase Games",
     "ats": "greenhouse",
     "token": "neteasegames",
     "site": "neteasegames.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "2K Games",
     "ats": "greenhouse",
     "token": "2k",
     "site": "2k.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Hangar 13",
     "ats": "greenhouse",
     "token": "hangar13",
     "site": "hangar13games.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Visual Concepts",
     "ats": "greenhouse",
     "token": "visualconcepts",
     "site": "visualconcepts.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Wizards of the Coast",
@@ -210,314 +239,367 @@
     "token": "wizardsofthecoast",
     "site": "wizards.com",
     "enabled": false,
-    "note": "своя система найма, через общие доски не отдаёт"
+    "note": "своя система найма, через общие доски не отдаёт",
+    "industry": "gamedev"
   },
   {
     "name": "Supercell",
     "ats": "ashby",
     "token": "supercell",
     "site": "supercell.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Voodoo",
     "ats": "ashby",
     "token": "voodoo",
     "site": "voodoo.io",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Zeptolab",
     "ats": "workable",
     "token": "zeptolab",
     "site": "zeptolab.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Riot Games",
     "ats": "greenhouse",
     "token": "riotgames",
     "site": "riotgames.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Epic Games",
     "ats": "greenhouse",
     "token": "epicgames",
     "site": "epicgames.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Bungie",
     "ats": "greenhouse",
     "token": "bungie",
     "site": "bungie.net",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Guerrilla Games",
     "ats": "greenhouse",
     "token": "guerrilla-games",
     "site": "guerrilla-games.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Fortis Games",
     "ats": "greenhouse",
     "token": "fortisgames",
     "site": "fortisgames.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Ghost Story Games",
     "ats": "greenhouse",
     "token": "gsgcareers",
     "site": "ghoststorygames.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Cloud Chamber",
     "ats": "greenhouse",
     "token": "cloudchamberen",
     "site": "cloudchambergames.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Avalanche Studios",
     "ats": "lever",
     "token": "avalanchestudios",
     "site": "avalanchestudios.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Blackbird Interactive",
     "ats": "lever",
     "token": "blackbirdinteractive",
     "site": "blackbirdinteractive.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Spyke Games",
     "ats": "lever",
     "token": "spyke-games",
     "site": "spykegames.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Scopely",
     "ats": "greenhouse",
     "token": "scopely",
     "site": "scopely.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Rockstar Games",
     "ats": "greenhouse",
     "token": "rockstargames",
     "site": "rockstargames.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Socialpoint",
     "ats": "greenhouse",
     "token": "spcareers",
     "site": "socialpoint.es",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "CD Projekt Red",
     "ats": "smartrecruiters",
     "token": "CDPROJEKTRED",
     "site": "cdprojektred.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "People Can Fly",
     "ats": "smartrecruiters",
     "token": "PeopleCanFly",
     "site": "peoplecanfly.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Jagex",
     "ats": "workable",
     "token": "jagex-limited",
     "site": "jagex.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Bigger Games",
     "ats": "ashby",
     "token": "biggergames",
     "site": "biggergames.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Kolibri Games",
     "ats": "lever",
     "token": "kolibrigames",
     "site": "kolibrigames.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Gameloft",
     "ats": "smartrecruiters",
     "token": "Gameloft",
     "site": "gameloft.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Digital Extremes",
     "ats": "greenhouse",
     "token": "digitalextremes",
     "site": "digitalextremes.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Bonfire Studios",
     "ats": "greenhouse",
     "token": "bonfirestudiosinc",
     "site": "bonfirestudios.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Second Dinner",
     "ats": "ashby",
     "token": "SecondDinner",
     "site": "seconddinner.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Jam City",
     "ats": "lever",
     "token": "jamcity",
     "site": "jamcity.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Homa Games",
     "ats": "workable",
     "token": "homa-games",
     "site": "homagames.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Small Giant Games",
     "ats": "greenhouse",
     "token": "sggcareers",
     "site": "smallgiantgames.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Krafton",
     "ats": "greenhouse",
     "token": "krafton",
     "site": "krafton.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Peak Games",
     "ats": "greenhouse",
     "token": "peak",
     "site": "peak.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Rebellion",
     "ats": "workable",
     "token": "rebellion",
     "site": "rebellion.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Behaviour Interactive",
     "ats": "lever",
     "token": "bhvr",
     "site": "bhvr.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Moon Active",
     "ats": "ashby",
     "token": "moonactive",
     "site": "moonactive.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Good Job Games",
     "ats": "greenhouse",
     "token": "goodjobgames",
     "site": "goodjobgames.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Kabam",
     "ats": "lever",
     "token": "kabam",
     "site": "kabam.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Dream Games",
     "ats": "lever",
     "token": "dreamgames",
     "site": "dreamgames.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Hutch Games",
     "ats": "workable",
     "token": "hutch",
     "site": "hutch.io",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Tactile Games",
     "ats": "greenhouse",
     "token": "tactilegames",
     "site": "tactilegames.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Skybox Labs",
     "ats": "lever",
     "token": "skyboxlabs",
     "site": "skyboxlabs.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Playrix",
     "ats": "recruitee",
     "token": "playrix",
     "site": "playrix.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Firesprite",
     "ats": "greenhouse",
     "token": "firesprite",
     "site": "firesprite.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Klang Games",
     "ats": "greenhouse",
     "token": "klanggames",
     "site": "klang-games.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Theorycraft Games",
     "ats": "lever",
     "token": "theorycraftgames",
     "site": "theorycraftgames.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
   },
   {
     "name": "Focus Entertainment",
     "ats": "recruitee",
     "token": "focusentertainment",
     "site": "focus-entmt.com",
-    "enabled": true
+    "enabled": true,
+    "industry": "gamedev"
+  },
+  {
+    "name": "Monzo",
+    "ats": "greenhouse",
+    "token": "monzo",
+    "site": "monzo.com",
+    "enabled": true,
+    "industry": "fintech"
   }
 ]

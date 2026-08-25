@@ -1,0 +1,122 @@
+# Финтех-компании для проверки. Формат: Название | домен
+# Запуск:  python collect.py --guess fintech.txt
+# Скрипт переберёт вероятные адреса досок и напечатает готовые строки.
+
+Revolut | revolut.com
+Wise | wise.com
+Starling Bank | starlingbank.com
+Klarna | klarna.com
+N26 | n26.com
+Adyen | adyen.com
+Checkout.com | checkout.com
+Mollie | mollie.com
+GoCardless | gocardless.com
+Tide | tide.co
+Zopa | zopa.com
+Marshmallow | marshmallow.com
+ClearBank | clear.bank
+Thought Machine | thoughtmachine.net
+Form3 | form3.tech
+Modulr | modulrfinance.com
+Wealthify | wealthify.com
+Freetrade | freetrade.io
+Trading 212 | trading212.com
+Plum | withplum.com
+Curve | curve.com
+Payoneer | payoneer.com
+Paysafe | paysafe.com
+Rapyd | rapyd.net
+SumUp | sumup.com
+Qonto | qonto.com
+Pennylane | pennylane.com
+Swile | swile.co
+Lydia | lydia-app.com
+Alan | alan.com
+Younited | younited-credit.com
+Solaris | solarisgroup.com
+Trade Republic | traderepublic.com
+Scalable Capital | scalable.capital
+Raisin | raisin.com
+Mambu | mambu.com
+Bitpanda | bitpanda.com
+Bunq | bunq.com
+Backbase | backbase.com
+Nium | nium.com
+Airwallex | airwallex.com
+Thunes | thunes.com
+Paddle | paddle.com
+Primer | primer.io
+Ebury | ebury.com
+Zilch | payzilch.com
+Yapily | yapily.com
+TrueLayer | truelayer.com
+Griffin | griffin.com
+Fintech Farm | fintechfarm.com
+Wallester | wallester.com
+Salt Edge | saltedge.com
+Paysera | paysera.com
+Nexi | nexigroup.com
+Satispay | satispay.com
+Klara | klara.com
+Vivid Money | vivid.money
+Finom | finom.co
+Papaya Global | papayaglobal.com
+Melio | meliopayments.com
+Rapid Finance | rapidfinance.com
+Tipalti | tipalti.com
+eToro | etoro.com
+Plus500 | plus500.com
+XTB | xtb.com
+Exness | exness.com
+FxPro | fxpro.com
+Deriv | deriv.com
+Binance | binance.com
+Kraken | kraken.com
+Coinbase | coinbase.com
+Bitstamp | bitstamp.net
+Gemini | gemini.com
+Ledger | ledger.com
+Chainalysis | chainalysis.com
+Fireblocks | fireblocks.com
+ConsenSys | consensys.io
+Circle | circle.com
+Ripple | ripple.com
+BitGo | bitgo.com
+Blockchain.com | blockchain.com
+Wirex | wirexapp.com
+Nexo | nexo.com
+CoinGecko | coingecko.com
+Bybit | bybit.com
+OKX | okx.com
+Stripe | stripe.com
+Plaid | plaid.com
+Brex | brex.com
+Ramp | ramp.com
+Mercury | mercury.com
+Affirm | affirm.com
+Chime | chime.com
+Marqeta | marqeta.com
+Carta | carta.com
+Robinhood | robinhood.com
+Wealthfront | wealthfront.com
+Betterment | betterment.com
+SoFi | sofi.com
+Remitly | remitly.com
+Toast | toasttab.com
+Block | block.xyz
+Alloy | alloy.com
+Unit | unit.co
+Lithic | lithic.com
+Column | column.com
+Modern Treasury | moderntreasury.com
+Sardine | sardine.ai
+Persona | withpersona.com
+Middesk | middesk.com
+Pipe | pipe.com
+Deel | deel.com
+Rippling | rippling.com
+Payhawk | payhawk.com
+Pleo | pleo.io
+Spendesk | spendesk.com
+Soldo | soldo.com
+Moss | getmoss.com
