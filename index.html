@@ -464,7 +464,14 @@
   .thanks{text-align:center;padding:28px 10px;font-size:15px;line-height:1.6}
   .thanks .big{font-size:38px;display:block;margin-bottom:12px;color:var(--amber)}
 
-  .to-top{position:fixed;right:18px;bottom:78px;z-index:40;width:46px;height:46px;
+  /* Плавающие кнопки живут в одном столбике: раньше они стояли каждая
+     на своём отступе снизу и налезали друг на друга. */
+  .dock{position:fixed;right:18px;bottom:18px;z-index:40;
+    display:flex;flex-direction:column;align-items:flex-end;gap:10px;
+    transition:bottom .2s}
+  .dock > *{position:static !important}
+
+  .to-top{width:46px;height:46px;
     background:var(--panel);border:1px solid var(--line);color:var(--cyan);
     font-size:20px;border-radius:50%;cursor:pointer;box-shadow:0 8px 26px var(--shadow);
     transition:transform .14s,border-color .14s}
@@ -474,7 +481,7 @@
   /* Всплывающее приглашение в канал. Появляется не сразу и только один раз:
      показывать его на входе — значит мешать человеку до того, как он понял,
      зачем сюда пришёл. */
-  .tg-card{position:fixed;right:18px;bottom:18px;z-index:58;width:330px;max-width:calc(100vw - 36px);
+  .tg-card{position:fixed;right:18px;bottom:86px;z-index:58;width:330px;max-width:calc(100vw - 36px);
     background:var(--panel);border:1px solid var(--line);border-radius:16px;
     padding:16px 16px 14px;box-shadow:0 18px 44px var(--shadow);
     display:grid;grid-template-columns:auto 1fr;gap:12px 12px;
@@ -496,18 +503,22 @@
     50%{box-shadow:0 8px 26px var(--shadow),0 0 0 7px rgba(42,171,238,.14)} }
 
   /* Отказался от окна — остаётся заметная кнопка, но уже не поперёк дороги */
-  .tg-fab{right:18px;bottom:74px;display:flex;align-items:center;gap:9px;
+  .tg-fab{display:flex;align-items:center;gap:9px;
     text-decoration:none;border-color:#1c5e80;color:#5ec6ee;
     animation:tgPulse 2.8s ease-in-out 3}
   .tg-fab:hover{border-color:#2aabee;color:#7fd6f5}
   .tg-fab[hidden]{display:none}
 
   @media (max-width:640px){
-    .tg-card{left:12px;right:12px;width:auto;bottom:12px}
-    .tg-fab{bottom:68px}
+    .tg-card{left:12px;right:12px;width:auto;bottom:84px}
+    .dock{right:12px;bottom:12px;gap:8px}
   }
 
-  .fab{position:fixed;right:18px;bottom:18px;z-index:40;background:var(--panel);
+  /* Пока внизу висит плашка про аналитику, поднимаем кнопки над ней */
+  body.has-consent .dock{bottom:84px}
+  @media (max-width:640px){ body.has-consent .dock{bottom:120px} }
+
+  .fab{background:var(--panel);
     border:1px solid var(--line);color:var(--text);font-family:var(--body);font-weight:600;
     font-size:13.5px;padding:13px 19px;border-radius:999px;cursor:pointer;
     box-shadow:0 8px 26px var(--shadow)}
@@ -691,6 +702,7 @@
   </div>
 </div>
 
+<div class="dock" id="dock">
 <button class="to-top" id="toTop" title="Наверх" hidden>↑</button>
 <a class="fab tg-fab" id="tgFab" href="#" target="_blank" rel="noopener" hidden>
   <svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true">
@@ -699,6 +711,7 @@
   <span id="tgFabText">Канал в Telegram</span>
 </a>
 <button class="fab" id="fbBtn">Написать нам</button>
+</div>
 
 <div class="tg-card" id="tgCard" hidden>
   <button class="tg-close" id="tgClose" aria-label="Закрыть">×</button>
@@ -3699,6 +3712,7 @@
       '<button class="btn" id="consentNo"></button>' +
       '<button class="btn" id="consentYes"></button>';
     document.body.appendChild(bar);
+    document.body.classList.add("has-consent");
     $("consentText").textContent = t("consentText");
     $("consentMore").textContent = t("consentMore");
     $("consentNo").textContent = t("consentNo");
@@ -3708,6 +3722,7 @@
       try { store.setItem("stats", value); } catch(e){}
       if (value === "yes") startMetrika();
       bar.remove();
+      document.body.classList.remove("has-consent");
     };
     $("consentYes").addEventListener("click", () => answer("yes"));
     $("consentNo").addEventListener("click", () => answer("no"));
