@@ -1,5 +1,5 @@
 // jobs-fintech.js — сгенерировано collect.py, руками не править.
-// Отрасль: fintech. Обновлено: 2026-08-25. Вакансий: 2197.
+// Отрасль: fintech. Обновлено: 2026-08-25. Вакансий: 2192.
 
 window.JOBS_FINTECH_UPDATED = "2026-08-25";
 window.JOBS_FINTECH_STUDIOS = 73;
@@ -247,6 +247,56 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-adyen-7255277",
+    "title": "Engineering Manager, Capital",
+    "company": "Adyen",
+    "locations": [
+      "San Francisco"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 198 000 – 293 000",
+    "posted": "2026-08-25",
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/7255277",
+    "site": "adyen.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Java"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. Engineering Manager, Capital The Opportunity We’re looking for…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-adyen-6630580",
+    "title": "Group Product Manager, Credit and Data Platform",
+    "company": "Adyen",
+    "locations": [
+      "Chicago",
+      "San Francisco"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 00 – 348 000",
+    "posted": "2026-08-25",
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/6630580",
+    "site": "adyen.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Данные и ML",
+    "grade": null,
+    "spec": "Данные",
+    "permit": true,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Facebook, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. Group Product Manager, Credit and Data Platform We have a…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-adyen-6761873",
     "title": "Java Software Engineer / Senior Java Engineer - CX",
     "company": "Adyen",
@@ -293,6 +343,32 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-08-25",
     "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. Merchant Fraud Analyst We are looking for an ambitious analyst…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-adyen-7989148",
+    "title": "Senior Platform Engineer - Container Services",
+    "company": "Adyen",
+    "locations": [
+      "Chicago"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 180 000 – 243 000",
+    "posted": "2026-08-25",
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/7989148",
+    "site": "adyen.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "DevOps",
+    "stack": [
+      "Python",
+      "Kubernetes"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. The Opportunity We are looking for a Platform Engineer for the…",
     "hasDesc": true
   },
   {
@@ -343,6 +419,32 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-08-25",
     "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. Senior Software Engineer, US Bank Accounts Team We’re looking…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-adyen-8090234",
+    "title": "Software Engineer II (Java) - Lifecycle Experience",
+    "company": "Adyen",
+    "locations": [
+      "Chicago"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 154 000 – 200 000",
+    "posted": "2026-08-25",
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/8090234",
+    "site": "adyen.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Бэкенд",
+    "stack": [
+      "Java",
+      "SQL"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. Lifecycle Experience Team The Lifecycle Experience teams aim to…",
     "hasDesc": true
   },
   {
@@ -446,17 +548,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-tide-7780973003",
+    "id": "gh-tide-7780974003",
     "title": "Engineering Manager - Accounts Platform",
     "company": "Tide",
     "locations": [
-      "Lithuania"
+      "Bulgaria"
     ],
     "remote": false,
     "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-25",
-    "url": "https://job-boards.greenhouse.io/tide/jobs/7780973003",
+    "url": "https://job-boards.greenhouse.io/tide/jobs/7780974003",
     "site": "tide.co",
     "source": "greenhouse",
     "industry": "fintech",
@@ -469,17 +571,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-tide-7820211003",
+    "id": "gh-tide-7820212003",
     "title": "Security Engineer 3 - Vulnerability Management",
     "company": "Tide",
     "locations": [
-      "India, Bengaluru"
+      "India, Delhi NCR"
     ],
     "remote": false,
     "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-25",
-    "url": "https://job-boards.greenhouse.io/tide/jobs/7820211003",
+    "url": "https://job-boards.greenhouse.io/tide/jobs/7820212003",
     "site": "tide.co",
     "source": "greenhouse",
     "industry": "fintech",
@@ -904,6 +1006,29 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "ab-airwallex-f46b2b27-52bb-4775-bfc2-92d53e99db17",
+    "title": "Director, Credit Risk",
+    "company": "Airwallex",
+    "locations": [
+      "San Francisco"
+    ],
+    "remote": true,
+    "rkind": "worldwide",
+    "salary": "$190K – $320K • Offers Equity • Offers Bonus",
+    "posted": "2026-08-25",
+    "url": "https://jobs.ashbyhq.com/airwallex/f46b2b27-52bb-4775-bfc2-92d53e99db17",
+    "source": "ashby",
+    "site": "airwallex.com",
+    "industry": "fintech",
+    "role": "Риски",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "ABOUT AIRWALLEX Airwallex is the only unified payments and financial platform for global businesses. Powered by our unique combination of proprietary infrastructure and software, we empower over 250,000 businesses worldwide – including Brex, Navan, Qantas, SHEIN and many more – with fully integrated solutions to manage everything from business accounts, payments, spend management and treasury, to embedded finance at a global scale. Proudly founded in Melbourne, we have a team of over 2,300 of the brightest and most innovative people in tech across 27 offices around the globe. Valued at US$11 billion and backed by world-leading investors including T. Rowe Price, Visa, Mastercard, Robinhood…",
+    "hasDesc": true
+  },
+  {
     "id": "ab-airwallex-c7070452-6ec6-443c-8015-db339403634a",
     "title": "Senior AI Engineer (Risk & Payments)",
     "company": "Airwallex",
@@ -1073,7 +1198,7 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-melio-7792385003",
+    "id": "gh-melio-7820287003",
     "title": "Senior Data Analyst",
     "company": "Melio",
     "locations": [
@@ -1083,7 +1208,7 @@ window.JOBS_FINTECH = [
     "rkind": null,
     "salary": null,
     "posted": "2026-08-25",
-    "url": "https://job-boards.greenhouse.io/melio/jobs/7792385003",
+    "url": "https://job-boards.greenhouse.io/melio/jobs/7820287003",
     "site": "meliopayments.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -1094,7 +1219,30 @@ window.JOBS_FINTECH = [
       "SQL"
     ],
     "seen": "2026-08-25",
-    "descShort": "Senior Data Analyst- Compliance team As a Data Analyst at Melio you will be working with colleagues from various disciplines, such as - Product, Engineering, Marketing, Sales, Customer Success, Risk, Data Scientists within the team and other Data Analysts - on their KPIs, the way they observe information and the hardest questions each team is facing in order to drive insights and keep Melio a data driven company. You will play a key role in the ability of each team at Melio to keep scaling! Minimum qualifications to apply for this role: • 5+ years of experience as a Data Analyst • SQL at a high level is mandatory • An ability to understand complex ideas and simplify them to relevant…",
+    "descShort": "As a Data Analyst at Melio you will be working with colleagues from various disciplines, such as - Product, Engineering, Marketing, Sales, Customer Success, Risk, Data Scientists within the team and other Data Analysts - on their KPIs, the way they observe information and the hardest questions each team is facing in order to drive insights and keep Melio a data driven company. You will play a key role in the ability of each team at Melio to keep scaling! Minimum qualifications to apply for this role: • 5+ years of experience as a Data Analyst • SQL at a high level is mandatory • An ability to understand complex ideas and simplify them to relevant stakeholders. • Team player, effective…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-coinbase-8021857",
+    "title": "Derivative Sales Analyst (Prosumer Sales)",
+    "company": "Coinbase",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "$ 126 990 – 149 400",
+    "posted": "2026-08-25",
+    "url": "https://www.coinbase.com/careers/positions/8021857?gh_jid=8021857",
+    "site": "coinbase.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Ready to do the most impactful work of your career? At Coinbase, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase. As a Derivative Sales Analyst on the Institutional team, you'll own and grow relationships with…",
     "hasDesc": true
   },
   {
@@ -1123,6 +1271,32 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-coinbase-8024880",
+    "title": "Senior Analytics Engineer, GFCO Analytics",
+    "company": "Coinbase",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "$ 180 370 – 212 200",
+    "posted": "2026-08-25",
+    "url": "https://www.coinbase.com/careers/positions/8024880?gh_jid=8024880",
+    "site": "coinbase.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Ready to do the most impactful work of your career? At Coinbase, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase. We're hiring a Senior Analytics Engineer to join the GFCO Analytics Engineering team and build the…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-coinbase-7736521",
     "title": "Senior Analytics Engineer (Platform - Financial Analytics)",
     "company": "Coinbase",
@@ -1146,6 +1320,52 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-08-25",
     "descShort": "Ready to do the most impactful work of your career? At Coinbase, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase. Senior Analytics Engineer As a Senior Analytics Engineer on the Platform team, you'll build the…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-coinbase-8154856",
+    "title": "Senior Enterprise Product Manager, FP&A",
+    "company": "Coinbase",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "$ 148 835 – 175 100",
+    "posted": "2026-08-25",
+    "url": "https://www.coinbase.com/careers/positions/8154856?gh_jid=8154856",
+    "site": "coinbase.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Продакт",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Ready to do the most impactful work of your career? At Coinbase, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase. We’re looking for a Senior Systems Analyst, Enterprise Apps (Finance) to join our Enterprise…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-coinbase-8095207",
+    "title": "Senior IT Automation Engineer",
+    "company": "Coinbase",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "$ 113 815 – 133 900",
+    "posted": "2026-08-25",
+    "url": "https://www.coinbase.com/careers/positions/8095207?gh_jid=8095207",
+    "site": "coinbase.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "QA",
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Ready to do the most impactful work of your career? At Coinbase, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase. As a Senior IT Support Engineer on the IT Tooling team within IT Support & Services (ITSS), you'll own…",
     "hasDesc": true
   },
   {
@@ -1228,6 +1448,31 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-08-25",
     "descShort": "Ready to do the most impactful work of your career? At Coinbase, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase. As a Software Engineer on the CX Shared Agent Platforms and SFDC Solutions team, you'll build and…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-coinbase-8070574",
+    "title": "Software Engineer, Frontend (Coinbase Advisor - Agentic Trading)",
+    "company": "Coinbase",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "$ 152 405 – 197 230",
+    "posted": "2026-08-25",
+    "url": "https://www.coinbase.com/careers/positions/8070574?gh_jid=8070574",
+    "site": "coinbase.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Фронтенд",
+    "stack": [
+      "TypeScript"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Ready to do the most impactful work of your career? At Coinbase, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase. Software Engineer, Frontend (Coinbase Advisor - Agentic Trading) We're hiring a Senior Software…",
     "hasDesc": true
   },
   {
@@ -1359,6 +1604,33 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-ripple-8107315",
+    "title": "Staff Data Scientist",
+    "company": "Ripple",
+    "locations": [
+      "London, United Kingdom"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://ripple.com/careers/all-jobs/job/8107315?gh_jid=8107315",
+    "site": "ripple.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Данные и ML",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "At Ripple, we’re building a world where value moves like information does today. It’s big, it’s bold, and we’re already doing it. Through our crypto solutions for financial institutions, businesses, governments and developers, we are improving the global financial system and creating greater economic fairness and opportunity for more people, in more places around the world. And we get to do the best work of our career and grow our skills surrounded by colleagues who have our backs. If you’re ready to see your impact and unlock incredible career growth opportunities, join us, and build real world value. THE WORK: We're looking for a Staff Data Scientist to be the technical lead across…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-bitgo-7821447002",
     "title": "Application Security Engineer",
     "company": "BitGo",
@@ -1458,17 +1730,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-bitgo-8523888002",
+    "id": "gh-bitgo-8523884002",
     "title": "Product Marketing Manager, Prime / OTC",
     "company": "BitGo",
     "locations": [
-      "San Francisco, United States"
+      "Palo Alto, United States"
     ],
     "remote": false,
     "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-25",
-    "url": "https://job-boards.greenhouse.io/bitgo/jobs/8523888002",
+    "url": "https://job-boards.greenhouse.io/bitgo/jobs/8523884002",
     "site": "bitgo.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -1504,17 +1776,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-bitgo-8621431002",
+    "id": "gh-bitgo-8621427002",
     "title": "Senior Security Application Engineer",
     "company": "BitGo",
     "locations": [
-      "San Francisco, United States"
+      "Palo Alto, United States"
     ],
     "remote": false,
     "rkind": "worldwide",
     "salary": "$ 200 000 – 235 000",
     "posted": "2026-08-25",
-    "url": "https://job-boards.greenhouse.io/bitgo/jobs/8621431002",
+    "url": "https://job-boards.greenhouse.io/bitgo/jobs/8621427002",
     "site": "bitgo.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -1555,17 +1827,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-bitgo-8584800002",
+    "id": "gh-bitgo-8575180002",
     "title": "Solutions Engineer",
     "company": "BitGo",
     "locations": [
-      "São Paulo, Brazil"
+      "New York, United States"
     ],
     "remote": false,
     "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-25",
-    "url": "https://job-boards.greenhouse.io/bitgo/jobs/8584800002",
+    "url": "https://job-boards.greenhouse.io/bitgo/jobs/8575180002",
     "site": "bitgo.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -1628,17 +1900,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-blockchain-com-8045360",
+    "id": "gh-blockchain-com-8045355",
     "title": "Business Analyst",
     "company": "Blockchain.com",
     "locations": [
-      "Malta"
+      "London"
     ],
     "remote": false,
     "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-25",
-    "url": "https://job-boards.greenhouse.io/blockchain/jobs/8045360",
+    "url": "https://job-boards.greenhouse.io/blockchain/jobs/8045355",
     "site": "blockchain.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -1978,6 +2250,31 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-stripe-8004223",
+    "title": "Financial Connections TechOps Integration Reliability Engineer",
+    "company": "Stripe",
+    "locations": [
+      "Toronto"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://stripe.com/jobs/search?gh_jid=8004223",
+    "site": "stripe.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "SQL"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. About the team Stripe's Financial Connections group is building technology that expands the scope of problems we tackle beyond card payments. We aspire to enable individuals and…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-stripe-8014382",
     "title": "Head of Brand Studio Operations",
     "company": "Stripe",
@@ -2056,6 +2353,32 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-stripe-8142302",
+    "title": "Security Incident Response Engineer",
+    "company": "Stripe",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://stripe.com/jobs/search?gh_jid=8142302",
+    "site": "stripe.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Безопасность",
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. About the team The Security Incident Response team works to analyze, investigate, and respond to threats before they impact Stripe’s business or users. From external attacks to insider…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-stripe-8153331",
     "title": "Software Quality Assurance Engineer",
     "company": "Stripe",
@@ -2124,6 +2447,29 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-08-25",
     "descShort": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. About the team Risk Engineering builds the systems that protect Stripe from fraud, credit losses, and regulatory risk across user onboarding, compliance, financial crimes, and…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-brex-8742343002",
+    "title": "Compliance Manager, Marketing",
+    "company": "Brex",
+    "locations": [
+      "United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 153 000 – 170 000",
+    "posted": "2026-08-25",
+    "url": "https://www.brex.com/careers/8742343002?gh_jid=8742343002",
+    "site": "brex.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and finance teams to accelerate operations, gain real-time visibility, and control spend effortlessly. Brex’s AI-native automation and world-class service eliminate manual expense and accounting tasks for customers so they can focus on what matters most. Tens of thousands of the world's best companies run on Brex, including DoorDash, Coinbase, Robinhood, Zoom, Plaid, Reddit, and SeatGeek. Working at Brex allows you to push…",
     "hasDesc": true
   },
   {
@@ -2203,6 +2549,291 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-chime-8569366002",
+    "title": "Senior AI/ML Engineer",
+    "company": "Chime",
+    "locations": [
+      "Chicago, United States",
+      "New York, United States",
+      "San Francisco, United States",
+      "Seattle, United States"
+    ],
+    "remote": false,
+    "rkind": "hybrid",
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/chime/jobs/8569366002?gh_jid=8569366002",
+    "site": "chime.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL",
+      "AWS"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "About the role We’re hiring for a Senior AI/ML Engineer, Growth & Marketing AI to help us build the next generation of AI-powered growth and marketing capabilities at Chime. In this role, you’ll develop foundational transformer models that convert behavioral and financial data into highly personalized experiences, recommendations, and communications for millions of members. You’ll work closely with the Growth & Marketing team, as well as the Product and Engineering teams to deploy scalable AI systems that improve member engagement and drive company growth. This is a highly applied role where you’ll have the opportunity to work with rich datasets, solve challenging real-world problems, and…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-carta-7918458003",
+    "title": "Senior Support Analyst",
+    "company": "Carta",
+    "locations": [
+      "Sandy, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://job-boards.greenhouse.io/carta/jobs/7918458003",
+    "site": "carta.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Аналитика",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "The Company You’ll Join Carta is the connected platform and AI-native ecosystem for private capital. Built to replace fragmented tools with a single system of record, Carta brings together the software, services, and legal infrastructure that founders use to manage equity, fund managers use to run administration and reporting, and legal teams use to close transactions. Trusted by 55,000 companies and 1.8M+ equity holders in 160+ countries, and 10,000 funds and SPVs representing $250B+ in assets under management, Carta is transforming how private capital operates. Recognized by Fortune, Forbes, Fast Company, Inc. and Great Places to Work. For more information about our offices and culture…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-6669758",
+    "title": "Android Engineer, Government Products",
+    "company": "Robinhood",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/6669758?t=gh_src=&gh_jid=6669758",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Мобильная",
+    "permit": true,
+    "stack": [
+      "Java",
+      "Kotlin"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-7350823",
+    "title": "Android Engineer, Money Experience",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7350823?t=gh_src=&gh_jid=7350823",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Мобильная",
+    "stack": [
+      "Java",
+      "Kotlin"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role Our group is building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers & sharp problem-solvers. Individuals who are wired to make an impact. Robinhood is where ambitious people do the best work of their careers. We’re a high-performing, fast-moving team with…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8003458",
+    "title": "Assistant General Counsel, Regulatory",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States",
+      "New York, United States",
+      "Washington, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8003458?t=gh_src=&gh_jid=8003458",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8123231",
+    "title": "Business Analyst (New Grad)",
+    "company": "Robinhood",
+    "locations": [
+      "Washington, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8123231?t=gh_src=&gh_jid=8123231",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "SQL"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-7839130",
+    "title": "Chief of Staff, Brokerage Product",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7839130?t=gh_src=&gh_jid=7839130",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Трейдинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8054481",
+    "title": "Compliance Advisory Lead, Money",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States",
+      "New York, United States",
+      "Washington, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8054481?t=gh_src=&gh_jid=8054481",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Комплаенс",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8077870",
+    "title": "Compliance Senior Specialist",
+    "company": "Robinhood",
+    "locations": [
+      "Chicago, United States",
+      "Denver, United States",
+      "Lake Mary, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8077870?t=gh_src=&gh_jid=8077870",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Комплаенс",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8060590",
+    "title": "Crypto AML Program Manager",
+    "company": "Robinhood",
+    "locations": [
+      "Denver, United States",
+      "Menlo Park, United States",
+      "New York, United States",
+      "Westlake, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8060590?t=gh_src=&gh_jid=8060590",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "SQL"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role The Robinhood Crypto Compliance team supports all of Robinhood in developing and deploying new and enhanced crypto products and services compliantly. They serve as Robinhood’s primary point of contact for compliance matters related to the firm's crypto business. This team is responsible for providing guidance, training, testing and…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8011599",
+    "title": "Customer Experience Representative, Active Trader",
+    "company": "Robinhood",
+    "locations": [
+      "Chicago, United States",
+      "Denver, United States",
+      "Westlake, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8011599?t=gh_src=&gh_jid=8011599",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Трейдинг",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Swift"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role Robinhood's Customer Experience team is committed to providing an outstanding customer experience. In your role as an Advanced Services Representative, you will be empowered to help our customers with some of their most complex issues. In particular, your work will focus primarily on options trading and margin related issues…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-robinhood-7489697",
     "title": "Engineering Manager, Credit Cards & Banking",
     "company": "Robinhood",
@@ -2225,6 +2856,414 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-08-25",
     "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role The Credit Cards & Banking team is part of Robinhood’s Money Engineering organization. This team builds the products and systems behind some of Robinhood’s most ambitious consumer experiences, including Robinhood Gold Credit Card, Banking, and the next generation of card and banking products. This is a high-impact engineering…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-7456663",
+    "title": "Finance & Strategy Senior Analyst",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7456663?t=gh_src=&gh_jid=7456663",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Аналитика",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8008723",
+    "title": "Full Stack Software Engineer, Credit Cards & Banking",
+    "company": "Robinhood",
+    "locations": [
+      "Bellevue, United States",
+      "Menlo Park, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8008723?t=gh_src=&gh_jid=8008723",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Платежи",
+    "stack": [
+      "TypeScript"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role Robinhood’s Credit Card & Banking Product Engineering team conceptualizes, designs and builds our entire customer-facing product: from mobile application to underlying backend systems. Team members are trusted with full ownership over our innovative features and drive them from design to launch. We are looking for a full stack…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8105960",
+    "title": "ICT Risk Oversight Lead",
+    "company": "Robinhood",
+    "locations": [
+      "Luxembourg"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8105960?t=gh_src=&gh_jid=8105960",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Риски",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team & role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-6674980",
+    "title": "iOS Engineer, Government Products",
+    "company": "Robinhood",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/6674980?t=gh_src=&gh_jid=6674980",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Мобильная",
+    "permit": true,
+    "stack": [
+      "Swift"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-7794027",
+    "title": "iOS Engineer, Money Experience",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7794027?t=gh_src=&gh_jid=7794027",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Мобильная",
+    "stack": [
+      "Swift"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role Our group is building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers & sharp problem-solvers. Individuals who are wired to make an impact. Robinhood is where ambitious people do the best work of their careers. We’re a high-performing, fast-moving team with…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8119781",
+    "title": "Lifecycle Marketing Manager",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8119781?t=gh_src=&gh_jid=8119781",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "SQL"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-7960680",
+    "title": "Machine Learning Engineer",
+    "company": "Robinhood",
+    "locations": [
+      "Bellevue, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7960680?t=gh_src=&gh_jid=7960680",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL",
+      "Kubernetes"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8055526",
+    "title": "Manager of Response, Automation, Intelligence & Detection Engineering",
+    "company": "Robinhood",
+    "locations": [
+      "Denver, United States",
+      "Menlo Park, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8055526?t=gh_src=&gh_jid=8055526",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8072899",
+    "title": "Marketing & Communications Compliance Senior Specialist",
+    "company": "Robinhood",
+    "locations": [
+      "Denver, United States",
+      "Menlo Park, United States",
+      "New York, United States",
+      "Washington, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8072899?t=gh_src=&gh_jid=8072899",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Комплаенс",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Figma"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8109753",
+    "title": "Privacy Engineer",
+    "company": "Robinhood",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8109753?t=gh_src=&gh_jid=8109753",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8067556",
+    "title": "Product Marketing Manager, International",
+    "company": "Robinhood",
+    "locations": [
+      "London, United Kingdom"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8067556?t=gh_src=&gh_jid=8067556",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Маркетинг",
+    "grade": "Junior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team & role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-7739588",
+    "title": "Quality Engineer, Mobile",
+    "company": "Robinhood",
+    "locations": [
+      "Toronto, Canada"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7739588?t=gh_src=&gh_jid=7739588",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "Java"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8100160",
+    "title": "Senior Android Engineer, Crypto Expansion",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8100160?t=gh_src=&gh_jid=8100160",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Блокчейн",
+    "stack": [
+      "Java",
+      "Kotlin"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8049885",
+    "title": "Senior Android Engineer, iRAD",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8049885?t=gh_src=&gh_jid=8049885",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Мобильная",
+    "stack": [
+      "Java",
+      "Kotlin"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8049809",
+    "title": "Senior Android Engineer, Trading Products",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8049809?t=gh_src=&gh_jid=8049809",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Мобильная",
+    "stack": [
+      "Java",
+      "Kotlin"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8084379",
+    "title": "Senior Android Engineer, Wallet",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8084379?t=gh_src=&gh_jid=8084379",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Мобильная",
+    "stack": [
+      "Java",
+      "Kotlin"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
     "hasDesc": true
   },
   {
@@ -2279,6 +3318,87 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-robinhood-8035713",
+    "title": "Senior Cloud Engineer",
+    "company": "Robinhood",
+    "locations": [
+      "London, United Kingdom"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8035713?t=gh_src=&gh_jid=8035713",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "DevOps",
+    "stack": [
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the Team: Bitstamp Exchange Platform Bitstamp made history in 2011 as the world’s first regulated crypto exchange. As a key part of the Robinhood family, the Exchange Platform team owns the full service lifecycle. We are the architects of a modern, high-velocity ecosystem that enables our global expansion, ensuring the world’s longest-running…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-7178427",
+    "title": "Senior Cloud Security Engineer",
+    "company": "Robinhood",
+    "locations": [
+      "Bellevue, United States",
+      "Menlo Park, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7178427?t=gh_src=&gh_jid=7178427",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Безопасность",
+    "stack": [
+      "Python",
+      "Go",
+      "AWS"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8060703",
+    "title": "Senior Compensation Analyst",
+    "company": "Robinhood",
+    "locations": [
+      "Chicago, United States",
+      "Menlo Park, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8060703?t=gh_src=&gh_jid=8060703",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Аналитика",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-robinhood-7847485",
     "title": "Senior Corporate Security Engineer",
     "company": "Robinhood",
@@ -2303,6 +3423,462 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-robinhood-8097597",
+    "title": "Senior Data Science Manager, Algorithms",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8097597?t=gh_src=&gh_jid=8097597",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Данные и ML",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world's biggest financial problems. We're looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn't a place for complacency, it's where ambitious people do the best work of their careers. We're a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8080893",
+    "title": "Senior Data Scientist, Product",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8080893?t=gh_src=&gh_jid=8080893",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Данные и ML",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8080179",
+    "title": "Senior Growth Engagement Manager, International",
+    "company": "Robinhood",
+    "locations": [
+      "London, United Kingdom"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8080179?t=gh_src=&gh_jid=8080179",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Маркетинг",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8027506",
+    "title": "Senior iOS Engineer, Crypto Trading",
+    "company": "Robinhood",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8027506?t=gh_src=&gh_jid=8027506",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Блокчейн",
+    "permit": true,
+    "stack": [
+      "Swift"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8060600",
+    "title": "Senior PM, International Trading",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8060600?t=gh_src=&gh_jid=8060600",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Трейдинг",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role Robinhood set out to open the financial system to the many, not the few. We've done it for tens of millions of people in the US—now we're taking it global. This is one of the most ambitious initiatives for the company, and you'd be sitting at the center of it. We're building an elite team that applies frontier technology to the…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-7490017",
+    "title": "Senior Product Designer",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7490017?t=gh_src=&gh_jid=7490017",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Дизайн",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8147756",
+    "title": "Senior Product Designer, DeFi",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8147756?t=gh_src=&gh_jid=8147756",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Дизайн",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-6494244",
+    "title": "Senior Product Designer, Redesign",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/6494244?t=gh_src=&gh_jid=6494244",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Дизайн",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world's biggest financial problems. We're looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn't a place for complacency, it's where ambitious people do the best work of their careers. We're a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8082718",
+    "title": "Senior Product Manager, Crypto Wallet",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8082718?t=gh_src=&gh_jid=8082718",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Продакт",
+    "grade": "Senior",
+    "spec": "Блокчейн",
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role Robinhood set out to open the financial system to the many, not the few. We've done it for tens of millions of people in the US—now we're taking it global. This is one of the most ambitious initiatives for the company, and you'd be sitting at the center of it. We're building an elite team that applies frontier technology to the…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-7747728",
+    "title": "Senior Product Manager, Money Movement",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7747728?t=gh_src=&gh_jid=7747728",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Продакт",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8142285",
+    "title": "Senior Quality Engineer",
+    "company": "Robinhood",
+    "locations": [
+      "Toronto, Canada"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8142285?t=gh_src=&gh_jid=8142285",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "Java"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8083818",
+    "title": "Senior Software Developer, Developer Experience (DevX)",
+    "company": "Robinhood",
+    "locations": [
+      "Toronto, Canada"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8083818?t=gh_src=&gh_jid=8083818",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "Kubernetes"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold builders and sharp problem-solvers who are wired to deliver great outcomes. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. The DevX team’s mission is…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-7871254",
+    "title": "Senior Software Developer, Kubernetes Compute",
+    "company": "Robinhood",
+    "locations": [
+      "Toronto, Canada"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7871254?t=gh_src=&gh_jid=7871254",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "DevOps",
+    "stack": [
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world's biggest financial problems. We're looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn't a place for complacency, it's where ambitious people do the best work of their careers. We're a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-7264931",
+    "title": "Senior Software Engineer, Backend",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7264931?t=gh_src=&gh_jid=7264931",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Бэкенд",
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. Senior Software Engineer, Backend About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8080244",
+    "title": "Senior Software Engineer, Cloud Networking",
+    "company": "Robinhood",
+    "locations": [
+      "Bellevue, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8080244?t=gh_src=&gh_jid=8080244",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "DevOps",
+    "stack": [
+      "Python",
+      "Go",
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-7648452",
+    "title": "Senior Software Engineer, Custody Services",
+    "company": "Robinhood",
+    "locations": [
+      "London, United Kingdom"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7648452?t=gh_src=&gh_jid=7648452",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-4738660",
+    "title": "Senior Software Engineer, Data Engineering",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/4738660?t=gh_src=&gh_jid=4738660",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Данные",
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8100213",
+    "title": "Senior Software Engineer, Data Lake",
+    "company": "Robinhood",
+    "locations": [
+      "Bellevue, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8100213?t=gh_src=&gh_jid=8100213",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "Java",
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-robinhood-8120101",
     "title": "Senior Software Engineer, Enterprise Build",
     "company": "Robinhood",
@@ -2318,6 +3894,339 @@ window.JOBS_FINTECH = [
     "source": "greenhouse",
     "industry": "fintech",
     "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8036588",
+    "title": "Senior Software Engineer, Kubernetes Compute",
+    "company": "Robinhood",
+    "locations": [
+      "Bellevue, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8036588?t=gh_src=&gh_jid=8036588",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "DevOps",
+    "stack": [
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8132616",
+    "title": "Senior Software Engineer, Load and Fault Environments",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8132616?t=gh_src=&gh_jid=8132616",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "Kubernetes"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world's biggest financial problems. We're looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn't a place for complacency, it's where ambitious people do the best work of their careers. We're a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-7838644",
+    "title": "Senior Software Engineer - Robinhood Command Center",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7838644?t=gh_src=&gh_jid=7838644",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team & role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-7993511",
+    "title": "Senior Software Engineer, Robinhood Command Center",
+    "company": "Robinhood",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7993511?t=gh_src=&gh_jid=7993511",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team & role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-7899482",
+    "title": "Senior Software Engineer, Security Platform",
+    "company": "Robinhood",
+    "locations": [
+      "Bellevue, United States",
+      "Menlo Park, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7899482?t=gh_src=&gh_jid=7899482",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Безопасность",
+    "stack": [
+      "Python",
+      "Java",
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-7729019",
+    "title": "Senior Software Engineer, Storage Platform",
+    "company": "Robinhood",
+    "locations": [
+      "Bellevue, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7729019?t=gh_src=&gh_jid=7729019",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8083811",
+    "title": "Senior Software Engineer, Streaming Platform",
+    "company": "Robinhood",
+    "locations": [
+      "Bellevue, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8083811?t=gh_src=&gh_jid=8083811",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Kubernetes"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8088453",
+    "title": "Senior Software Engineer, Wallet",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8088453?t=gh_src=&gh_jid=8088453",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "Java"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8142278",
+    "title": "Senior Staff Software Developer, Core Infrastructure",
+    "company": "Robinhood",
+    "locations": [
+      "Toronto, Canada"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8142278?t=gh_src=&gh_jid=8142278",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "DevOps",
+    "stack": [
+      "Python",
+      "Kubernetes"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world's biggest financial problems. We're looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn't a place for complacency, it's where ambitious people do the best work of their careers. We're a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8142276",
+    "title": "Senior Staff Software Engineer, Core Infrastructure",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8142276?t=gh_src=&gh_jid=8142276",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "DevOps",
+    "stack": [
+      "Python",
+      "Kubernetes"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world's biggest financial problems. We're looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn't a place for complacency, it's where ambitious people do the best work of their careers. We're a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-7729014",
+    "title": "Senior Staff Software Engineer, Data Platform",
+    "company": "Robinhood",
+    "locations": [
+      "Bellevue, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7729014?t=gh_src=&gh_jid=7729014",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Данные",
+    "stack": [
+      "Kubernetes"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8048650",
+    "title": "Senior Tax Operations Analyst",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8048650?t=gh_src=&gh_jid=8048650",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Аналитика",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "SQL"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8072892",
+    "title": "Senior Treasury Analyst",
+    "company": "Robinhood",
+    "locations": [
+      "Chicago, United States",
+      "Menlo Park, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8072892?t=gh_src=&gh_jid=8072892",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Платежи",
     "grade": "Senior",
     "spec": null,
     "stack": [],
@@ -2352,6 +4261,166 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-robinhood-7737164",
+    "title": "Software Developer, Ops Platform and Fraud Investigations",
+    "company": "Robinhood",
+    "locations": [
+      "Toronto, Canada"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7737164?t=gh_src=&gh_jid=7737164",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Антифрод",
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team of bold thinkers and sharp problem-solvers who are wired to make an impact. The Ops Platform organization develops internal platforms that replace repetitive manual processes with AI-driven systems. These tools support key areas such as Fraud Operations, Account Operations, Financial Crimes Operations…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-7263592",
+    "title": "Software Engineer, Backend",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7263592?t=gh_src=&gh_jid=7263592",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Бэкенд",
+    "stack": [
+      "Python",
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8077370",
+    "title": "Software Engineer, Cryptography",
+    "company": "Robinhood",
+    "locations": [
+      "Bellevue, United States",
+      "Menlo Park, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8077370?t=gh_src=&gh_jid=8077370",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Блокчейн",
+    "stack": [
+      "C++",
+      "C#",
+      "Python",
+      "Java"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the Role & Team The Cryptographic Services & Infrastructure team secures and manages cryptographic keys and enables Robinhood engineering teams to safely leverage core capabilities like encryption and decryption. Join a high-impact team responsible for protecting some of Robinhood's most sensitive financial and customer data! In this role, you will…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8067604",
+    "title": "Software Engineer, Proactive Capabilities",
+    "company": "Robinhood",
+    "locations": [
+      "Bellevue, United States",
+      "Menlo Park, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8067604?t=gh_src=&gh_jid=8067604",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the Team + Role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8088446",
+    "title": "Software Engineer, Wallet",
+    "company": "Robinhood",
+    "locations": [
+      "Toronto, Canada"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8088446?t=gh_src=&gh_jid=8088446",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "Java"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8114730",
+    "title": "Staff Android Engineer",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8114730?t=gh_src=&gh_jid=8114730",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Мобильная",
+    "stack": [
+      "Java",
+      "Kotlin"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-robinhood-7997218",
     "title": "Staff Data Scientist,  ML (Credit Risk)",
     "company": "Robinhood",
@@ -2377,6 +4446,473 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-08-25",
     "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world's biggest financial problems. We're looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn't a place for complacency, it's where ambitious people do the best work of their careers. We're a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8072766",
+    "title": "Staff Data Scientist, ML (People Analytics & Insights)",
+    "company": "Robinhood",
+    "locations": [
+      "Chicago, United States",
+      "Menlo Park, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8072766?t=gh_src=&gh_jid=8072766",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Данные и ML",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8082579",
+    "title": "Staff Machine Learning Engineer, AI R&D",
+    "company": "Robinhood",
+    "locations": [
+      "Bellevue, United States",
+      "Menlo Park, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8082579?t=gh_src=&gh_jid=8082579",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. ABOUT THE TEAM + ROLE We are building an elite team, applying frontier technologies to the world's biggest financial problems. We're looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn't a place for complacency, it's where ambitious people do the best work of their careers. We're a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-7460167",
+    "title": "Staff Offensive Security Engineer",
+    "company": "Robinhood",
+    "locations": [
+      "Bellevue, United States",
+      "Menlo Park, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7460167?t=gh_src=&gh_jid=7460167",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Безопасность",
+    "stack": [
+      "Python",
+      "JavaScript",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for thoughtful problem-solvers and builders who want to make a meaningful contribution. Robinhood is a place where people take ownership of their work and help improve financial access for all. We operate with high…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8060585",
+    "title": "Staff PM, International Growth & Expansion",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8060585?t=gh_src=&gh_jid=8060585",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Маркетинг",
+    "grade": "Junior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role Robinhood set out to open the financial system to the many, not the few. We've done it for tens of millions of people in the US—now we're taking it global. This is one of the most ambitious initiatives for the company, and you'd be sitting at the center of it. We are building an elite team, applying frontier technologies to the…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-7804648",
+    "title": "Staff Product Designer, National Impact",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7804648?t=gh_src=&gh_jid=7804648",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Дизайн",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8044746",
+    "title": "Staff Product Manager, Banking",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States",
+      "New York, United States",
+      "Washington, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8044746?t=gh_src=&gh_jid=8044746",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Продакт",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role Robinhood's Money team is building the next generation of banking and spending products for all Americans. Our team members drive never-before-seen products and features from concept to launch to hyperscale. As a Product Manager, you will play a central role in shaping the future of our core banking product and the broader platform…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8131181",
+    "title": "Staff Product Manager-  Integrations & Advisor Platform",
+    "company": "Robinhood",
+    "locations": [
+      "Clearwater, United States",
+      "Menlo Park, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8131181?t=gh_src=&gh_jid=8131181",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Продакт",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the Team We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-7968044",
+    "title": "Staff Product Manager, National Impact",
+    "company": "Robinhood",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7968044?t=gh_src=&gh_jid=7968044",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Продакт",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the Team + Role Robinhood is assembling an elite team applying advanced technology to the country's biggest financial challenges. National Impact builds industry-changing products in partnership with the U.S. Government that expands financial access for millions of Americans. The team launched its debut product, Trump Accounts, as the #1 app in the…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8079744",
+    "title": "Staff Product Manager, Platform Operations",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8079744?t=gh_src=&gh_jid=8079744",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Продакт",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8082056",
+    "title": "Staff Quality Engineer",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8082056?t=gh_src=&gh_jid=8082056",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "Java"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-7939818",
+    "title": "Staff Security Engineer, Detection & Response",
+    "company": "Robinhood",
+    "locations": [
+      "Bellevue, United States",
+      "Denver, United States",
+      "Menlo Park, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7939818?t=gh_src=&gh_jid=7939818",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Безопасность",
+    "stack": [
+      "Kubernetes"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8080939",
+    "title": "Staff Software Developer, DevX (Developer Infrastructure)",
+    "company": "Robinhood",
+    "locations": [
+      "Toronto, Canada"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8080939?t=gh_src=&gh_jid=8080939",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "DevOps",
+    "stack": [
+      "Python"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold builders and sharp problem-solvers who are wired to deliver great outcomes. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. The DevX team’s mission is…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8080937",
+    "title": "Staff Software Engineer, DevX (Developer Infrastructure)",
+    "company": "Robinhood",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8080937?t=gh_src=&gh_jid=8080937",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "DevOps",
+    "stack": [
+      "Python"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world's biggest financial problems. We're looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn't a place for complacency, it's where ambitious people do the best work of their careers. We're a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-7819461",
+    "title": "Staff Software Engineer, Identity & Access Management",
+    "company": "Robinhood",
+    "locations": [
+      "Bellevue, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7819461?t=gh_src=&gh_jid=7819461",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the Role + Team The Security Engineering team builds the identity and access control plane governing how employees, services, and agentic workloads access Robinhood’s critical infrastructure. We are a platform-building engineering team focused on creating secure, frictionless, and automated self-service access systems at scale. As a Staff Software…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-7489707",
+    "title": "Staff Software Engineer, Observability",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7489707?t=gh_src=&gh_jid=7489707",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world's biggest financial problems. We're looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn't a place for complacency, it's where ambitious people do the best work of their careers. We're a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8044227",
+    "title": "Staff Software Engineer, Storage Platform",
+    "company": "Robinhood",
+    "locations": [
+      "Bellevue, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8044227?t=gh_src=&gh_jid=8044227",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-7489950",
+    "title": "Staff Software Engineer, Web3",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7489950?t=gh_src=&gh_jid=7489950",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Блокчейн",
+    "stack": [
+      "Python",
+      "Java"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8003233",
+    "title": "Staff Web Engineer, Legend",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8003233?t=gh_src=&gh_jid=8003233",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Фронтенд",
+    "stack": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role The Robinhood Legend team builds and owns our advanced desktop trading platform, designed to meet the needs of active and sophisticated traders. The team works across real-time data infrastructure, advanced charting, options and futures trading tools, and highly customizable workspace experiences. Their mission is to deliver a…",
     "hasDesc": true
   },
   {
@@ -2408,6 +4944,29 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-toast-7791610",
+    "title": "Senior Principal Software Engineer, GTM",
+    "company": "Toast",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=7791610",
+    "site": "toasttab.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. GTM Experiences defines how Toast engages with, supports, and grows customers across their entire lifecycle. This organization brings together Onboarding, Support, and Product-Led Growth (PLG) into a unified group responsible for designing and delivering a cohesive, end-to-end customer experience powered by intelligent systems and agents. This team builds the platforms and experiences that shape how customers discover value, get started, receive help, and expand their use of Toast. We operate at the…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-toast-8022865",
     "title": "Senior Software  Engineer – (Java Full Stack)",
     "company": "Toast",
@@ -2436,17 +4995,44 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-toast-7791886",
-    "title": "Staff Software Engineer, Android",
+    "id": "gh-toast-8039434",
+    "title": "Software Engineer, Orders API",
     "company": "Toast",
     "locations": [
-      "Bangalore, India"
+      "Boston, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-25",
-    "url": "https://careers.toasttab.com/jobs?gh_jid=7791886",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=8039434",
+    "site": "toasttab.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Бэкенд",
+    "stack": [
+      "Java",
+      "Kotlin",
+      "AWS"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. Toast is driven by building the restaurant platform that helps restaurants adapt, take control, and get back to what they do best: building the businesses they love. We are looking for a Software Engineer to join the Orders API team. On the Orders API team, our mission is to provide a state-of-the-art platform with unmatched reliability, which empowers Toast R&D, external partners, and customers to effortlessly innovate on experiences throughout the order lifecycle. Our primary artifact is the Orders API…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-toast-7735338",
+    "title": "Staff Software Engineer, Android",
+    "company": "Toast",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=7735338",
     "site": "toasttab.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -2455,11 +5041,10 @@ window.JOBS_FINTECH = [
     "spec": "Мобильная",
     "stack": [
       "Java",
-      "Kotlin",
-      "AWS"
+      "Kotlin"
     ],
     "seen": "2026-08-25",
-    "descShort": "Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. Toast is looking for a Staff Software Engineer, Android to join the Membership POS team in India. You'll play a key role in building the platform that manages subscriptions and memberships and tracks usage of member benefits for customers and guests—all within Toast’s ecosystem. A day in the life (Responsibilities) • Design, build, deploy, and maintain highly resilient and scalable features across Toast’s enterprise management products; Hands-on design and implementation of Android applications in Java or…",
+    "descShort": "Staff Software Engineer, Android Location: Remote USA Who We Are Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. Are you bready* for a change? Toast currently serves hundreds of multi-unit brands, including Caribou Coffee, Choice Hotels, Craveworthy Brands, WaBa Grill, Nothing Bundt Cakes, Papa Gino's & D'Angelo, Costa Vida Fresh Mexican Grill, and The Human Bean, among others. We are looking for a Staff Software Engineer to join our enterprise drive-thru team and help us build the best-in-class drive-thru solutions that enable significant future growth.…",
     "hasDesc": true
   },
   {
@@ -2487,6 +5072,58 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-08-25",
     "descShort": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture new initiatives, and more. Every challenge creates possibilities, and we need different perspectives to see them all. Bring yours to Block. The Role The People Technology team, part of the People…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-block-5195926008",
+    "title": "Legal Systems Engineer",
+    "company": "Block",
+    "locations": [
+      "San Francisco, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "http://block.xyz/careers/jobs/5195926008?gh_jid=5195926008",
+    "site": "block.xyz",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "JavaScript"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture new initiatives, and more. Every challenge creates possibilities, and we need different perspectives to see them all. Bring yours to Block. The Role As a Legal Systems Engineer, you will lead the…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-block-4989505008",
+    "title": "Senior Software Engineer, Data Enablement",
+    "company": "Block",
+    "locations": [
+      "Bay Area, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "http://block.xyz/careers/jobs/4989505008?gh_jid=4989505008",
+    "site": "block.xyz",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Kotlin",
+      "AWS"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture new initiatives, and more. Every challenge creates possibilities, and we need different perspectives to see them all. Bring yours to Block. The Role The Data Enablement team builds the platforms and…",
     "hasDesc": true
   },
   {
@@ -3800,17 +6437,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-thunes-6574804003",
+    "id": "gh-thunes-6400109003",
     "title": "Golang Software Engineer",
     "company": "Thunes",
     "locations": [
-      "Paris, France"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-24",
-    "url": "https://www.thunes.com/jobs/6574804003?gh_jid=6574804003",
+    "url": "https://www.thunes.com/jobs/6400109003?gh_jid=6400109003",
     "site": "thunes.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -3875,7 +6512,7 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-thunes-7581841003",
+    "id": "gh-thunes-7784657003",
     "title": "KYC Officer",
     "company": "Thunes",
     "locations": [
@@ -3885,7 +6522,7 @@ window.JOBS_FINTECH = [
     "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-24",
-    "url": "https://www.thunes.com/jobs/7581841003?gh_jid=7581841003",
+    "url": "https://www.thunes.com/jobs/7784657003?gh_jid=7784657003",
     "site": "thunes.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -3967,17 +6604,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-thunes-7797425003",
+    "id": "gh-thunes-7825866003",
     "title": "Product Manager (Global Accounts)",
     "company": "Thunes",
     "locations": [
-      "Barcelona, Spain"
+      "London, United Kingdom"
     ],
     "remote": false,
     "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-24",
-    "url": "https://www.thunes.com/jobs/7797425003?gh_jid=7797425003",
+    "url": "https://www.thunes.com/jobs/7825866003?gh_jid=7825866003",
     "site": "thunes.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -4117,17 +6754,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-thunes-7800904003",
+    "id": "gh-thunes-7806963003",
     "title": "Senior Product Marketing Manager (9 months temporary contract)",
     "company": "Thunes",
     "locations": [
-      "Barcelona, Spain"
+      "London, United Kingdom"
     ],
     "remote": false,
     "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-24",
-    "url": "https://www.thunes.com/jobs/7800904003?gh_jid=7800904003",
+    "url": "https://www.thunes.com/jobs/7806963003?gh_jid=7806963003",
     "site": "thunes.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -4366,29 +7003,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4953600101",
-    "title": "Onboarding Analyst - Institutional",
-    "company": "Ebury",
-    "locations": [
-      "Dubai"
-    ],
-    "remote": false,
-    "rkind": "hybrid",
-    "salary": null,
-    "posted": "2026-08-24",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4953600101",
-    "site": "ebury.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Аналитика",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. KYC Onboarding Analyst - Institutional Dubai Office (4 days in office / 1 day from home) In this pivotal role, you will be responsible for conducting comprehensive Customer Due Diligence (CDD) and Enhanced Due Diligence (EDD)…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-coinbase-8008372",
     "title": "Performance Marketing Manager, Global",
     "company": "Coinbase",
@@ -4509,34 +7123,6 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-08-25",
     "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. What You’ll Do Join our mission to deliver unparalleled customer support in the dynamic world of cryptocurrency and DeFi. As a Customer Frontline Support Engineer, you will act as the first point of contact for our customers, resolving…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-ripple-7791472",
-    "title": "Staff Data Scientist",
-    "company": "Ripple",
-    "locations": [
-      "Chicago, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": "$ 200 000 – 250 000",
-    "posted": "2026-08-24",
-    "url": "https://ripple.com/careers/all-jobs/job/7791472?gh_jid=7791472",
-    "site": "ripple.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Данные и ML",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "C#",
-      "Python",
-      "SQL",
-      "AWS"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "At Ripple, we’re building a world where value moves like information does today. It’s big, it’s bold, and we’re already doing it. Through our crypto solutions for financial institutions, businesses, governments and developers, we are improving the global financial system and creating greater economic fairness and opportunity for more people, in more places around the world. And we get to do the best work of our career and grow our skills surrounded by colleagues who have our backs. If you’re ready to see your impact and unlock incredible career growth opportunities, join us, and build real world value. GTreasury, now a Ripple solution, was acquired by Ripple in 2025, marking a significant…",
     "hasDesc": true
   },
   {
@@ -4739,17 +7325,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-blockchain-com-8147215",
+    "id": "gh-blockchain-com-7792540",
     "title": "Infrastructure Security Engineer",
     "company": "Blockchain.com",
     "locations": [
-      "Paris"
+      "London"
     ],
     "remote": false,
     "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-24",
-    "url": "https://job-boards.greenhouse.io/blockchain/jobs/8147215",
+    "url": "https://job-boards.greenhouse.io/blockchain/jobs/7792540",
     "site": "blockchain.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -4817,17 +7403,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-blockchain-com-8147277",
+    "id": "gh-blockchain-com-8147304",
     "title": "Performance Marketing Specialist, Mobile",
     "company": "Blockchain.com",
     "locations": [
-      "Paris"
+      "Singapore"
     ],
     "remote": false,
     "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-24",
-    "url": "https://job-boards.greenhouse.io/blockchain/jobs/8147277",
+    "url": "https://job-boards.greenhouse.io/blockchain/jobs/8147304",
     "site": "blockchain.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -4842,17 +7428,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-blockchain-com-8147195",
+    "id": "gh-blockchain-com-7904343",
     "title": "Security Engineer, Institutional Trading",
     "company": "Blockchain.com",
     "locations": [
-      "Paris"
+      "London"
     ],
     "remote": false,
     "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-24",
-    "url": "https://job-boards.greenhouse.io/blockchain/jobs/8147195",
+    "url": "https://job-boards.greenhouse.io/blockchain/jobs/7904343",
     "site": "blockchain.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -4979,17 +7565,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-blockchain-com-6597903",
+    "id": "gh-blockchain-com-5946660",
     "title": "Site Reliability Engineer - Core",
     "company": "Blockchain.com",
     "locations": [
-      "Buenos Aires"
+      "London"
     ],
     "remote": false,
     "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-24",
-    "url": "https://job-boards.greenhouse.io/blockchain/jobs/6597903",
+    "url": "https://job-boards.greenhouse.io/blockchain/jobs/5946660",
     "site": "blockchain.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -5082,26 +7668,27 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7960057003",
+    "id": "gh-okx-7883614003",
     "title": "Growth Lead, Northeast Asia",
     "company": "OKX",
     "locations": [
-      "Northeast Asia"
+      "Singapore"
     ],
-    "remote": true,
-    "rkind": "worldwide",
+    "remote": false,
+    "rkind": null,
     "salary": null,
     "posted": "2026-08-24",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7960057003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7883614003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
     "role": "Маркетинг",
     "grade": "Lead",
     "spec": null,
+    "permit": true,
     "stack": [],
     "seen": "2026-08-25",
-    "descShort": "Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things Done. These shared values drive our culture, shape our processes, and foster a friendly, rewarding, and diverse environment for every…",
+    "descShort": "OKX will be prioritising applicants who have a current right to work in Singapore, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
     "hasDesc": true
   },
   {
@@ -5464,17 +8051,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-stripe-7827184",
+    "id": "gh-stripe-8144185",
     "title": "Solutions Architect, Enterprise (Presales)",
     "company": "Stripe",
     "locations": [
-      "Chicago, CA OR United States"
+      "San Francisco, United States"
     ],
-    "remote": true,
-    "rkind": "zone",
+    "remote": false,
+    "rkind": null,
     "salary": null,
     "posted": "2026-08-24",
-    "url": "https://stripe.com/jobs/search?gh_jid=7827184",
+    "url": "https://stripe.com/jobs/search?gh_jid=8144185",
     "site": "stripe.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -5564,17 +8151,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8522919002",
+    "id": "gh-brex-8522918002",
     "title": "Director, Organic Growth & Discoverability",
     "company": "Brex",
     "locations": [
-      "New York, United States"
+      "Seattle, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-24",
-    "url": "https://www.brex.com/careers/8522919002?gh_jid=8522919002",
+    "url": "https://www.brex.com/careers/8522918002?gh_jid=8522918002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -5793,111 +8380,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-robinhood-8105960",
-    "title": "ICT Risk Oversight Lead",
-    "company": "Robinhood",
-    "locations": [
-      "Luxembourg"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-24",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8105960?t=gh_src=&gh_jid=8105960",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Риски",
-    "grade": "Lead",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team & role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8067604",
-    "title": "Software Engineer, Proactive Capabilities",
-    "company": "Robinhood",
-    "locations": [
-      "Bellevue, United States",
-      "Menlo Park, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-24",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8067604?t=gh_src=&gh_jid=8067604",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Python",
-      "AWS",
-      "Kubernetes"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the Team + Role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-7939818",
-    "title": "Staff Security Engineer, Detection & Response",
-    "company": "Robinhood",
-    "locations": [
-      "Bellevue, United States",
-      "Denver, United States",
-      "Menlo Park, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-24",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/7939818?t=gh_src=&gh_jid=7939818",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "Безопасность",
-    "stack": [
-      "Kubernetes"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-7819461",
-    "title": "Staff Software Engineer, Identity & Access Management",
-    "company": "Robinhood",
-    "locations": [
-      "Bellevue, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-24",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/7819461?t=gh_src=&gh_jid=7819461",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Python",
-      "AWS",
-      "Kubernetes"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the Role + Team The Security Engineering team builds the identity and access control plane governing how employees, services, and agentic workloads access Robinhood’s critical infrastructure. We are a platform-building engineering team focused on creating secure, frictionless, and automated self-service access systems at scale. As a Staff Software…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-betterment-8144052",
     "title": "401(k) Compliance Associate",
     "company": "Betterment",
@@ -5970,17 +8452,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-toast-8141220",
+    "id": "gh-toast-8127661",
     "title": "Principal Product Manager, International Mid-Market",
     "company": "Toast",
     "locations": [
-      "London, United Kingdom"
+      "Dublin, Ireland"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-24",
-    "url": "https://careers.toasttab.com/jobs?gh_jid=8141220",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=8127661",
     "site": "toasttab.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -6189,30 +8671,6 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-08-25",
     "descShort": "Who We Are About Stripe At Stripe, you have an unprecedented opportunity to put the global economy within everyone’s reach. Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. About The Team The Solutions Architecture Team partners with our users to realize their full potential through the adoption of prescriptive solutions that drive their growth and success. We work with C-level executives, finance…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8147756",
-    "title": "Senior Product Designer, DeFi",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States",
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-23",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8147756?t=gh_src=&gh_jid=8147756",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Дизайн",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
     "hasDesc": true
   },
   {
@@ -6506,17 +8964,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-tide-7815727003",
+    "id": "gh-tide-7766790003",
     "title": "Senior Software Engineer, Flutter",
     "company": "Tide",
     "locations": [
-      "India, Bengaluru"
+      "India, Hyderabad"
     ],
     "remote": false,
     "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/tide/jobs/7815727003",
+    "url": "https://job-boards.greenhouse.io/tide/jobs/7766790003",
     "site": "tide.co",
     "source": "greenhouse",
     "industry": "fintech",
@@ -6792,17 +9250,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-bitpanda-4933367101",
+    "id": "gh-bitpanda-4933368101",
     "title": "Senior Product Marketing Specialist - Crypto & Advanced Trading",
     "company": "Bitpanda",
     "locations": [
-      "Vienna, Austria"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-21",
-    "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4933367101",
+    "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4933368101",
     "site": "bitpanda.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -7328,29 +9786,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ripple-8013611",
-    "title": "Senior Staff Partner Engineer",
-    "company": "Ripple",
-    "locations": [
-      "San Francisco, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": "$ 208 000 – 260 000",
-    "posted": "2026-08-21",
-    "url": "https://ripple.com/careers/all-jobs/job/8013611?gh_jid=8013611",
-    "site": "ripple.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "At Ripple, we’re building a world where value moves like information does today. It’s big, it’s bold, and we’re already doing it. Through our crypto solutions for financial institutions, businesses, governments and developers, we are improving the global financial system and creating greater economic fairness and opportunity for more people, in more places around the world. And we get to do the best work of our career and grow our skills surrounded by colleagues who have our backs. If you’re ready to see your impact and unlock incredible career growth opportunities, join us, and build real world value. THE WORK: Are you ready to be at the forefront of revolutionizing global payments and…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-ripple-7961902",
     "title": "Senior Staff Security Engineer, AI Security",
     "company": "Ripple",
@@ -7505,28 +9940,27 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7809112003",
+    "id": "gh-okx-7728124003",
     "title": "Senior Manager / Director, Growth Operation",
     "company": "OKX",
     "locations": [
-      "Singapore"
+      "Hong Kong, Hong Kong SAR"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7809112003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7728124003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
     "role": "Маркетинг",
     "grade": "Lead",
     "spec": null,
-    "permit": true,
     "lang": "zh",
     "stack": [],
     "seen": "2026-08-25",
-    "descShort": "OKX will be prioritising applicants who have a current right to work in Singapore, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
+    "descShort": "Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things Done. These shared values drive our culture, shape our processes, and foster a friendly, rewarding, and diverse environment for every…",
     "hasDesc": true
   },
   {
@@ -7602,32 +10036,6 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-08-25",
     "descShort": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world's largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. About the team The Communications team builds our brand and influence across the world. We're looking for someone to join our small—but high-leverage—Corporate Communications…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-stripe-5416444",
-    "title": "Data Analyst",
-    "company": "Stripe",
-    "locations": [
-      "Canada"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://stripe.com/jobs/search?gh_jid=5416444",
-    "site": "stripe.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Данные и ML",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Python",
-      "SQL"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. About the team Data Science at Stripe is a vibrant community where data analysts and data scientists learn and grow together. You'll work with some of the most fundamental data at…",
     "hasDesc": true
   },
   {
@@ -7780,17 +10188,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-stripe-8097801",
+    "id": "gh-stripe-8031833",
     "title": "Software Engineer, Intern",
     "company": "Stripe",
     "locations": [
-      "Dublin"
+      "Bengaluru"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-21",
-    "url": "https://stripe.com/jobs/search?gh_jid=8097801",
+    "url": "https://stripe.com/jobs/search?gh_jid=8031833",
     "site": "stripe.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -7998,17 +10406,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8687493002",
+    "id": "gh-brex-8580566002",
     "title": "Manager, Back Office & Payment Operations",
     "company": "Brex",
     "locations": [
-      "New York, United States"
+      "São Paulo, Brazil"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-21",
-    "url": "https://www.brex.com/careers/8687493002?gh_jid=8687493002",
+    "url": "https://www.brex.com/careers/8580566002?gh_jid=8580566002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -8636,29 +11044,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-mercury-5850044004",
-    "title": "Senior Software Engineer - AI Engineering",
-    "company": "Mercury",
-    "locations": [
-      "San Francisco, or within Canada or United States"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/mercury/jobs/5850044004",
-    "site": "mercury.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "In 1600, William Gilbert published De Magnete—the first systematic study of magnetism. He didn't just theorize; he built instruments, ran experiments, and shared what he learned so that others could go further. Three centuries later, those foundations helped power the modern world. At Mercury, we're making a deliberate, company-wide bet on AI. Frontier users are already pushing boundaries—building agents, automating workflows, moving fast. But they're doing it in silos. This role exists to change that: to take those scattered experiments and turn them into shared infrastructure, shared context, and shared capability. The goal is a multiplier effect—where the most ambitious AI work inside…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-mercury-6118243004",
     "title": "Senior Software Engineer - Banking Integration Platform",
     "company": "Mercury",
@@ -9002,17 +11387,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7819445003",
+    "id": "gh-affirm-7819447003",
     "title": "Software Engineer II, Fullstack (App Experience)",
     "company": "Affirm",
     "locations": [
-      "United States"
+      "Canada"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 165 000 – 225 000",
+    "salary": "$ 133 000 – 183 000",
     "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7819445003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7819447003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -9123,793 +11508,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-robinhood-8003458",
-    "title": "Assistant General Counsel, Regulatory",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States",
-      "New York, United States",
-      "Washington, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8003458?t=gh_src=&gh_jid=8003458",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Комплаенс",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8123231",
-    "title": "Business Analyst (New Grad)",
-    "company": "Robinhood",
-    "locations": [
-      "Washington, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8123231?t=gh_src=&gh_jid=8123231",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Аналитика",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "SQL"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8060590",
-    "title": "Crypto AML Program Manager",
-    "company": "Robinhood",
-    "locations": [
-      "Denver, United States",
-      "Menlo Park, United States",
-      "New York, United States",
-      "Westlake, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8060590?t=gh_src=&gh_jid=8060590",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Комплаенс",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "SQL"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role The Robinhood Crypto Compliance team supports all of Robinhood in developing and deploying new and enhanced crypto products and services compliantly. They serve as Robinhood’s primary point of contact for compliance matters related to the firm's crypto business. This team is responsible for providing guidance, training, testing and…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-7960680",
-    "title": "Machine Learning Engineer",
-    "company": "Robinhood",
-    "locations": [
-      "Bellevue, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/7960680?t=gh_src=&gh_jid=7960680",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Python",
-      "SQL",
-      "Kubernetes"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8072899",
-    "title": "Marketing & Communications Compliance Senior Specialist",
-    "company": "Robinhood",
-    "locations": [
-      "Denver, United States",
-      "Menlo Park, United States",
-      "New York, United States",
-      "Washington, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8072899?t=gh_src=&gh_jid=8072899",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Комплаенс",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "Figma"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8074057",
-    "title": "Product Marketing Manager, International",
-    "company": "Robinhood",
-    "locations": [
-      "Ljubljana, Slovenia"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8074057?t=gh_src=&gh_jid=8074057",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Маркетинг",
-    "grade": "Junior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team & role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8084381",
-    "title": "Senior Android Engineer, Wallet",
-    "company": "Robinhood",
-    "locations": [
-      "Toronto, Canada"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8084381?t=gh_src=&gh_jid=8084381",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "Мобильная",
-    "stack": [
-      "Java",
-      "Kotlin"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8097597",
-    "title": "Senior Data Science Manager, Algorithms",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8097597?t=gh_src=&gh_jid=8097597",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Данные и ML",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "Python",
-      "SQL"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world's biggest financial problems. We're looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn't a place for complacency, it's where ambitious people do the best work of their careers. We're a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8080893",
-    "title": "Senior Data Scientist, Product",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8080893?t=gh_src=&gh_jid=8080893",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Данные и ML",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "Python",
-      "SQL"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8080179",
-    "title": "Senior Growth Engagement Manager, International",
-    "company": "Robinhood",
-    "locations": [
-      "London, United Kingdom"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8080179?t=gh_src=&gh_jid=8080179",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Маркетинг",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8060600",
-    "title": "Senior PM, International Trading",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States",
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8060600?t=gh_src=&gh_jid=8060600",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Трейдинг",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role Robinhood set out to open the financial system to the many, not the few. We've done it for tens of millions of people in the US—now we're taking it global. This is one of the most ambitious initiatives for the company, and you'd be sitting at the center of it. We're building an elite team that applies frontier technology to the…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8082718",
-    "title": "Senior Product Manager, Crypto Wallet",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States",
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8082718?t=gh_src=&gh_jid=8082718",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Продакт",
-    "grade": "Senior",
-    "spec": "Блокчейн",
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role Robinhood set out to open the financial system to the many, not the few. We've done it for tens of millions of people in the US—now we're taking it global. This is one of the most ambitious initiatives for the company, and you'd be sitting at the center of it. We're building an elite team that applies frontier technology to the…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-7747728",
-    "title": "Senior Product Manager, Money Movement",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/7747728?t=gh_src=&gh_jid=7747728",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Продакт",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8142285",
-    "title": "Senior Quality Engineer",
-    "company": "Robinhood",
-    "locations": [
-      "Toronto, Canada"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8142285?t=gh_src=&gh_jid=8142285",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "Python",
-      "Java"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8088455",
-    "title": "Senior Software Engineer, Wallet",
-    "company": "Robinhood",
-    "locations": [
-      "Toronto, Canada"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8088455?t=gh_src=&gh_jid=8088455",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "Python",
-      "Java"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8142278",
-    "title": "Senior Staff Software Developer, Core Infrastructure",
-    "company": "Robinhood",
-    "locations": [
-      "Toronto, Canada"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8142278?t=gh_src=&gh_jid=8142278",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "DevOps",
-    "stack": [
-      "Python",
-      "Kubernetes"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world's biggest financial problems. We're looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn't a place for complacency, it's where ambitious people do the best work of their careers. We're a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8142276",
-    "title": "Senior Staff Software Engineer, Core Infrastructure",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8142276?t=gh_src=&gh_jid=8142276",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "DevOps",
-    "stack": [
-      "Python",
-      "Kubernetes"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world's biggest financial problems. We're looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn't a place for complacency, it's where ambitious people do the best work of their careers. We're a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-7737164",
-    "title": "Software Developer, Ops Platform and Fraud Investigations",
-    "company": "Robinhood",
-    "locations": [
-      "Toronto, Canada"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/7737164?t=gh_src=&gh_jid=7737164",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "Антифрод",
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team of bold thinkers and sharp problem-solvers who are wired to make an impact. The Ops Platform organization develops internal platforms that replace repetitive manual processes with AI-driven systems. These tools support key areas such as Fraud Operations, Account Operations, Financial Crimes Operations…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8077370",
-    "title": "Software Engineer, Cryptography",
-    "company": "Robinhood",
-    "locations": [
-      "Bellevue, United States",
-      "Menlo Park, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8077370?t=gh_src=&gh_jid=8077370",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "Блокчейн",
-    "stack": [
-      "C++",
-      "C#",
-      "Python",
-      "Java"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the Role & Team The Cryptographic Services & Infrastructure team secures and manages cryptographic keys and enables Robinhood engineering teams to safely leverage core capabilities like encryption and decryption. Join a high-impact team responsible for protecting some of Robinhood's most sensitive financial and customer data! In this role, you will…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8088446",
-    "title": "Software Engineer, Wallet",
-    "company": "Robinhood",
-    "locations": [
-      "Toronto, Canada"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8088446?t=gh_src=&gh_jid=8088446",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Python",
-      "Java"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8114730",
-    "title": "Staff Android Engineer",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8114730?t=gh_src=&gh_jid=8114730",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "Мобильная",
-    "stack": [
-      "Java",
-      "Kotlin"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8082579",
-    "title": "Staff Machine Learning Engineer, AI R&D",
-    "company": "Robinhood",
-    "locations": [
-      "Bellevue, United States",
-      "Menlo Park, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8082579?t=gh_src=&gh_jid=8082579",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Python"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. ABOUT THE TEAM + ROLE We are building an elite team, applying frontier technologies to the world's biggest financial problems. We're looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn't a place for complacency, it's where ambitious people do the best work of their careers. We're a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8060585",
-    "title": "Staff PM, International Growth & Expansion",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States",
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8060585?t=gh_src=&gh_jid=8060585",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Маркетинг",
-    "grade": "Junior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role Robinhood set out to open the financial system to the many, not the few. We've done it for tens of millions of people in the US—now we're taking it global. This is one of the most ambitious initiatives for the company, and you'd be sitting at the center of it. We are building an elite team, applying frontier technologies to the…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8044746",
-    "title": "Staff Product Manager, Banking",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States",
-      "New York, United States",
-      "Washington, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8044746?t=gh_src=&gh_jid=8044746",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Продакт",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role Robinhood's Money team is building the next generation of banking and spending products for all Americans. Our team members drive never-before-seen products and features from concept to launch to hyperscale. As a Product Manager, you will play a central role in shaping the future of our core banking product and the broader platform…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8131181",
-    "title": "Staff Product Manager-  Integrations & Advisor Platform",
-    "company": "Robinhood",
-    "locations": [
-      "Clearwater, United States",
-      "Menlo Park, United States",
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8131181?t=gh_src=&gh_jid=8131181",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Продакт",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the Team We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-7968044",
-    "title": "Staff Product Manager, National Impact",
-    "company": "Robinhood",
-    "locations": [
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/7968044?t=gh_src=&gh_jid=7968044",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Продакт",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the Team + Role Robinhood is assembling an elite team applying advanced technology to the country's biggest financial challenges. National Impact builds industry-changing products in partnership with the U.S. Government that expands financial access for millions of Americans. The team launched its debut product, Trump Accounts, as the #1 app in the…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8079744",
-    "title": "Staff Product Manager, Platform Operations",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States",
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8079744?t=gh_src=&gh_jid=8079744",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Продакт",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8080939",
-    "title": "Staff Software Developer, DevX (Developer Infrastructure)",
-    "company": "Robinhood",
-    "locations": [
-      "Toronto, Canada"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8080939?t=gh_src=&gh_jid=8080939",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "DevOps",
-    "stack": [
-      "Python"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold builders and sharp problem-solvers who are wired to deliver great outcomes. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. The DevX team’s mission is…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8080937",
-    "title": "Staff Software Engineer, DevX (Developer Infrastructure)",
-    "company": "Robinhood",
-    "locations": [
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8080937?t=gh_src=&gh_jid=8080937",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "DevOps",
-    "stack": [
-      "Python"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world's biggest financial problems. We're looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn't a place for complacency, it's where ambitious people do the best work of their careers. We're a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-7489950",
-    "title": "Staff Software Engineer, Web3",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States",
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/7489950?t=gh_src=&gh_jid=7489950",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "Блокчейн",
-    "stack": [
-      "Python",
-      "Java"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8003233",
-    "title": "Staff Web Engineer, Legend",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States",
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8003233?t=gh_src=&gh_jid=8003233",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "Фронтенд",
-    "stack": [
-      "TypeScript",
-      "JavaScript"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role The Robinhood Legend team builds and owns our advanced desktop trading platform, designed to meet the needs of active and sophisticated traders. The team works across real-time data infrastructure, advanced charting, options and futures trading tools, and highly customizable workspace experiences. Their mission is to deliver a…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-betterment-7184616",
     "title": "Sr. Full Stack Software Engineer - Product Engineering",
     "company": "Betterment",
@@ -9961,17 +11559,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-toast-8147377",
+    "id": "gh-toast-8147381",
     "title": "Customer Growth Sales Account Executive",
     "company": "Toast",
     "locations": [
-      "Delaware, United States"
+      "Westerville, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-21",
-    "url": "https://careers.toasttab.com/jobs?gh_jid=8147377",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=8147381",
     "site": "toasttab.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -10177,31 +11775,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-adyen-7255277",
-    "title": "Engineering Manager, Capital",
-    "company": "Adyen",
-    "locations": [
-      "San Francisco"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": "$ 198 000 – 293 000",
-    "posted": "2026-08-20",
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/7255277",
-    "site": "adyen.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Java"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. Engineering Manager, Capital The Opportunity We’re looking for…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-adyen-8041403",
     "title": "Engineering Manager - Credit Card Payments",
     "company": "Adyen",
@@ -10402,31 +11975,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-adyen-6630580",
-    "title": "Group Product Manager, Credit and Data Platform",
-    "company": "Adyen",
-    "locations": [
-      "Chicago",
-      "San Francisco"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": "$ 00 – 348 000",
-    "posted": "2026-08-20",
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/6630580",
-    "site": "adyen.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Данные и ML",
-    "grade": null,
-    "spec": "Данные",
-    "permit": true,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Facebook, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. Group Product Manager, Credit and Data Platform We have a…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-adyen-8114423",
     "title": "Head of Growth, Scheme Compliance",
     "company": "Adyen",
@@ -10495,6 +12043,29 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-08-25",
     "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. The Role We are looking for a highly strategic, visionary, and…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-adyen-8142106",
+    "title": "Implementation Engineer",
+    "company": "Adyen",
+    "locations": [
+      "Chicago"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 130 000 – 175 000",
+    "posted": "2026-08-20",
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/8142106",
+    "site": "adyen.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. Implementation Engineer Adyen is looking for an Implementation…",
     "hasDesc": true
   },
   {
@@ -10959,29 +12530,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-coinbase-8021857",
-    "title": "Derivative Sales Analyst (Prosumer Sales)",
-    "company": "Coinbase",
-    "locations": [
-      "United States"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": "$ 126 990 – 149 400",
-    "posted": "2026-08-20",
-    "url": "https://www.coinbase.com/careers/positions/8021857?gh_jid=8021857",
-    "site": "coinbase.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Аналитика",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Ready to do the most impactful work of your career? At Coinbase, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase. As a Derivative Sales Analyst on the Institutional team, you'll own and grow relationships with…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-coinbase-8105437",
     "title": "Senior Software Engineer, Blockchain Platform Nodes",
     "company": "Coinbase",
@@ -11104,17 +12652,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ripple-7685310",
+    "id": "gh-ripple-7685312",
     "title": "Staff Cloud Architect",
     "company": "Ripple",
     "locations": [
-      "Singapore"
+      "Sydney, Australia"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-20",
-    "url": "https://ripple.com/careers/all-jobs/job/7685310?gh_jid=7685310",
+    "url": "https://ripple.com/careers/all-jobs/job/7685312?gh_jid=7685312",
     "site": "ripple.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -11588,7 +13136,7 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-bybit-4942186101",
+    "id": "gh-bybit-4942182101",
     "title": "Lead Backend Development Engineer",
     "company": "Bybit",
     "locations": [
@@ -11598,7 +13146,7 @@ window.JOBS_FINTECH = [
     "rkind": null,
     "salary": null,
     "posted": "2026-08-20",
-    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4942186101",
+    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4942182101",
     "site": "bybit.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -11755,7 +13303,7 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-bybit-4882378101",
+    "id": "gh-bybit-4904748101",
     "title": "MLRO & Compliance Officer, UAE (ADGM) - Broker Dealer Entity",
     "company": "Bybit",
     "locations": [
@@ -11765,7 +13313,7 @@ window.JOBS_FINTECH = [
     "rkind": null,
     "salary": null,
     "posted": "2026-08-20",
-    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4882378101",
+    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4904748101",
     "site": "bybit.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -11778,7 +13326,7 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-bybit-4932857101",
+    "id": "gh-bybit-4932856101",
     "title": "MLRO & Compliance Officer, UAE (ADGM) - RIE & RCH",
     "company": "Bybit",
     "locations": [
@@ -11788,7 +13336,7 @@ window.JOBS_FINTECH = [
     "rkind": null,
     "salary": null,
     "posted": "2026-08-20",
-    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4932857101",
+    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4932856101",
     "site": "bybit.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -11900,7 +13448,7 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-bybit-4936076101",
+    "id": "gh-bybit-4942178101",
     "title": "Principal Backend Development Engineer",
     "company": "Bybit",
     "locations": [
@@ -11910,14 +13458,17 @@ window.JOBS_FINTECH = [
     "rkind": null,
     "salary": null,
     "posted": "2026-08-20",
-    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4936076101",
+    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4942178101",
     "site": "bybit.com",
     "source": "greenhouse",
     "industry": "fintech",
     "role": "Программирование",
     "grade": "Lead",
     "spec": "Бэкенд",
-    "stack": [],
+    "stack": [
+      "Java",
+      "SQL"
+    ],
     "seen": "2026-08-25",
     "descShort": "About Us Established in 2018, Bybit is one of the world’s leading cryptocurrency exchanges and digital financial platforms, serving over 80 million users across more than 200 countries and regions. Powered by world-class technology and a user-first mindset, Bybit delivers a seamless ecosystem across trading, payments, wealth management, custody, institutional services, and Web3 — connecting users to the future of digital finance. Our core values define how we build. We listen, care and improve to create products and experiences that put users first. Backed by a global team of ambitious builders, problem-solvers, and innovators, we foster a high-performance and fast-moving environment where…",
     "hasDesc": true
@@ -12618,17 +14169,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-bybit-4948627101",
+    "id": "gh-bybit-4948647101",
     "title": "Senior Principal Site Reliability Engineer",
     "company": "Bybit",
     "locations": [
-      "Hong Kong SAR"
+      "Kuala Lumpur, Malaysia"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-20",
-    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4948627101",
+    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4948647101",
     "site": "bybit.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -12900,31 +14451,6 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-08-25",
     "descShort": "Who we are About Stripe Stripe, LLC. is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. What you’ll do Responsibilities • Partner with the Tax team stakeholders to design and implement features of our financial systems that include Oracle Cloud Applications…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-stripe-8004223",
-    "title": "Financial Connections TechOps Integration Reliability Engineer",
-    "company": "Stripe",
-    "locations": [
-      "Toronto"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://stripe.com/jobs/search?gh_jid=8004223",
-    "site": "stripe.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "SQL"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. About the team Stripe's Financial Connections group is building technology that expands the scope of problems we tackle beyond card payments. We aspire to enable individuals and…",
     "hasDesc": true
   },
   {
@@ -13597,60 +15123,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7796530003",
-    "title": "Product Security Engineer II",
-    "company": "Affirm",
-    "locations": [
-      "Canada"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7796530003",
-    "site": "affirm.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "Безопасность",
-    "stack": [
-      "Python",
-      "Kotlin",
-      "TypeScript",
-      "JavaScript"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About the InfoSec & IT Team The Application Security team helps Affirm build and launch products that earn customer trust, meet compliance obligations, and reduce business risk. We partner closely with product, engineering, infrastructure, risk, compliance, and other teams to identify security risks early, recommend pragmatic mitigations, and help teams find safe paths to launch. We are looking for an early-career Application Security Engineer who is curious, collaborative, and comfortable working with code. You will…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-affirm-7906568003",
-    "title": "Security Risk Management Specialist II",
-    "company": "Affirm",
-    "locations": [
-      "Canada"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": "$ 101 000 – 151 000",
-    "posted": "2026-08-20",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7906568003",
-    "site": "affirm.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Риски",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Python",
-      "AWS"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About the Team Affirm values security as being critical to the company's continued success. The Security Risk Management team is evolving beyond traditional governance, risk, and compliance; we are building an engineering driven program that designs, automates, and scales the controls, workflows, and tooling that protect Affirm and our customers. About the Role The ideal candidate will evaluate, build, and refine solutions to third-party risk and security governance challenges across the Security Third Party Program and…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-affirm-7806920003",
     "title": "Senior Machine Learning Engineer (Fraud)",
     "company": "Affirm",
@@ -13727,24 +15199,23 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7807506003",
+    "id": "gh-affirm-7807508003",
     "title": "Software Engineer I, Backend (Collections)",
     "company": "Affirm",
     "locations": [
-      "Spain"
+      "Poland"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "EUR 57 000 – 87 000",
+    "salary": "203 000 – 303 000",
     "posted": "2026-08-20",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7807506003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7807508003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
     "role": "Программирование",
     "grade": null,
     "spec": "Бэкенд",
-    "permit": true,
     "stack": [
       "Python",
       "Kotlin",
@@ -13894,1225 +15365,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-robinhood-6669758",
-    "title": "Android Engineer, Government Products",
-    "company": "Robinhood",
-    "locations": [
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/6669758?t=gh_src=&gh_jid=6669758",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "Мобильная",
-    "permit": true,
-    "stack": [
-      "Java",
-      "Kotlin"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-7350823",
-    "title": "Android Engineer, Money Experience",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/7350823?t=gh_src=&gh_jid=7350823",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "Мобильная",
-    "stack": [
-      "Java",
-      "Kotlin"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role Our group is building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers & sharp problem-solvers. Individuals who are wired to make an impact. Robinhood is where ambitious people do the best work of their careers. We’re a high-performing, fast-moving team with…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-7839130",
-    "title": "Chief of Staff, Brokerage Product",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/7839130?t=gh_src=&gh_jid=7839130",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Трейдинг",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8054481",
-    "title": "Compliance Advisory Lead, Money",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States",
-      "New York, United States",
-      "Washington, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8054481?t=gh_src=&gh_jid=8054481",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Комплаенс",
-    "grade": "Lead",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8077870",
-    "title": "Compliance Senior Specialist",
-    "company": "Robinhood",
-    "locations": [
-      "Chicago, United States",
-      "Denver, United States",
-      "Lake Mary, United States",
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8077870?t=gh_src=&gh_jid=8077870",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Комплаенс",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8011599",
-    "title": "Customer Experience Representative, Active Trader",
-    "company": "Robinhood",
-    "locations": [
-      "Chicago, United States",
-      "Denver, United States",
-      "Westlake, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8011599?t=gh_src=&gh_jid=8011599",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Трейдинг",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Swift"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role Robinhood's Customer Experience team is committed to providing an outstanding customer experience. In your role as an Advanced Services Representative, you will be empowered to help our customers with some of their most complex issues. In particular, your work will focus primarily on options trading and margin related issues…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-7456663",
-    "title": "Finance & Strategy Senior Analyst",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/7456663?t=gh_src=&gh_jid=7456663",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Аналитика",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8008723",
-    "title": "Full Stack Software Engineer, Credit Cards & Banking",
-    "company": "Robinhood",
-    "locations": [
-      "Bellevue, United States",
-      "Menlo Park, United States",
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8008723?t=gh_src=&gh_jid=8008723",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "Платежи",
-    "stack": [
-      "TypeScript"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role Robinhood’s Credit Card & Banking Product Engineering team conceptualizes, designs and builds our entire customer-facing product: from mobile application to underlying backend systems. Team members are trusted with full ownership over our innovative features and drive them from design to launch. We are looking for a full stack…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-6674980",
-    "title": "iOS Engineer, Government Products",
-    "company": "Robinhood",
-    "locations": [
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/6674980?t=gh_src=&gh_jid=6674980",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "Мобильная",
-    "permit": true,
-    "stack": [
-      "Swift"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-7794027",
-    "title": "iOS Engineer, Money Experience",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/7794027?t=gh_src=&gh_jid=7794027",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "Мобильная",
-    "stack": [
-      "Swift"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role Our group is building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers & sharp problem-solvers. Individuals who are wired to make an impact. Robinhood is where ambitious people do the best work of their careers. We’re a high-performing, fast-moving team with…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8119781",
-    "title": "Lifecycle Marketing Manager",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States",
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8119781?t=gh_src=&gh_jid=8119781",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Маркетинг",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "SQL"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8055526",
-    "title": "Manager of Response, Automation, Intelligence & Detection Engineering",
-    "company": "Robinhood",
-    "locations": [
-      "Denver, United States",
-      "Menlo Park, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8055526?t=gh_src=&gh_jid=8055526",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8109753",
-    "title": "Privacy Engineer",
-    "company": "Robinhood",
-    "locations": [
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8109753?t=gh_src=&gh_jid=8109753",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-7739588",
-    "title": "Quality Engineer, Mobile",
-    "company": "Robinhood",
-    "locations": [
-      "Toronto, Canada"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/7739588?t=gh_src=&gh_jid=7739588",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Python",
-      "Java"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8100160",
-    "title": "Senior Android Engineer, Crypto Expansion",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States",
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8100160?t=gh_src=&gh_jid=8100160",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "Блокчейн",
-    "stack": [
-      "Java",
-      "Kotlin"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8049885",
-    "title": "Senior Android Engineer, iRAD",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States",
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8049885?t=gh_src=&gh_jid=8049885",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "Мобильная",
-    "stack": [
-      "Java",
-      "Kotlin"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8049809",
-    "title": "Senior Android Engineer, Trading Products",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8049809?t=gh_src=&gh_jid=8049809",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "Мобильная",
-    "stack": [
-      "Java",
-      "Kotlin"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8035713",
-    "title": "Senior Cloud Engineer",
-    "company": "Robinhood",
-    "locations": [
-      "London, United Kingdom"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8035713?t=gh_src=&gh_jid=8035713",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "DevOps",
-    "stack": [
-      "AWS",
-      "Docker",
-      "Kubernetes"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the Team: Bitstamp Exchange Platform Bitstamp made history in 2011 as the world’s first regulated crypto exchange. As a key part of the Robinhood family, the Exchange Platform team owns the full service lifecycle. We are the architects of a modern, high-velocity ecosystem that enables our global expansion, ensuring the world’s longest-running…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-7178427",
-    "title": "Senior Cloud Security Engineer",
-    "company": "Robinhood",
-    "locations": [
-      "Bellevue, United States",
-      "Menlo Park, United States",
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/7178427?t=gh_src=&gh_jid=7178427",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "Безопасность",
-    "stack": [
-      "Python",
-      "Go",
-      "AWS"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8060703",
-    "title": "Senior Compensation Analyst",
-    "company": "Robinhood",
-    "locations": [
-      "Chicago, United States",
-      "Menlo Park, United States",
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8060703?t=gh_src=&gh_jid=8060703",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Аналитика",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8027506",
-    "title": "Senior iOS Engineer, Crypto Trading",
-    "company": "Robinhood",
-    "locations": [
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8027506?t=gh_src=&gh_jid=8027506",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "Блокчейн",
-    "permit": true,
-    "stack": [
-      "Swift"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-7490017",
-    "title": "Senior Product Designer",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States",
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/7490017?t=gh_src=&gh_jid=7490017",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Дизайн",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-6494244",
-    "title": "Senior Product Designer, Redesign",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States",
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/6494244?t=gh_src=&gh_jid=6494244",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Дизайн",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world's biggest financial problems. We're looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn't a place for complacency, it's where ambitious people do the best work of their careers. We're a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8083818",
-    "title": "Senior Software Developer, Developer Experience (DevX)",
-    "company": "Robinhood",
-    "locations": [
-      "Toronto, Canada"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8083818?t=gh_src=&gh_jid=8083818",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "Python",
-      "Kubernetes"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold builders and sharp problem-solvers who are wired to deliver great outcomes. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. The DevX team’s mission is…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-7871254",
-    "title": "Senior Software Developer, Kubernetes Compute",
-    "company": "Robinhood",
-    "locations": [
-      "Toronto, Canada"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/7871254?t=gh_src=&gh_jid=7871254",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "DevOps",
-    "stack": [
-      "AWS",
-      "Kubernetes"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world's biggest financial problems. We're looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn't a place for complacency, it's where ambitious people do the best work of their careers. We're a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-7264931",
-    "title": "Senior Software Engineer, Backend",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States",
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/7264931?t=gh_src=&gh_jid=7264931",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "Бэкенд",
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. Senior Software Engineer, Backend About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8080244",
-    "title": "Senior Software Engineer, Cloud Networking",
-    "company": "Robinhood",
-    "locations": [
-      "Bellevue, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8080244?t=gh_src=&gh_jid=8080244",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "DevOps",
-    "stack": [
-      "Python",
-      "Go",
-      "AWS",
-      "Kubernetes"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-7648454",
-    "title": "Senior Software Engineer, Custody Services",
-    "company": "Robinhood",
-    "locations": [
-      "Ljubljana, Slovenia"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/7648454?t=gh_src=&gh_jid=7648454",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "Python",
-      "AWS",
-      "Docker",
-      "Kubernetes"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-4738660",
-    "title": "Senior Software Engineer, Data Engineering",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/4738660?t=gh_src=&gh_jid=4738660",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "Данные",
-    "stack": [
-      "Python",
-      "SQL"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8100213",
-    "title": "Senior Software Engineer, Data Lake",
-    "company": "Robinhood",
-    "locations": [
-      "Bellevue, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8100213?t=gh_src=&gh_jid=8100213",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "Python",
-      "Java",
-      "AWS",
-      "Kubernetes"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8036588",
-    "title": "Senior Software Engineer, Kubernetes Compute",
-    "company": "Robinhood",
-    "locations": [
-      "Bellevue, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8036588?t=gh_src=&gh_jid=8036588",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "DevOps",
-    "stack": [
-      "AWS",
-      "Kubernetes"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8132616",
-    "title": "Senior Software Engineer, Load and Fault Environments",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8132616?t=gh_src=&gh_jid=8132616",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "Python",
-      "Kubernetes"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world's biggest financial problems. We're looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn't a place for complacency, it's where ambitious people do the best work of their careers. We're a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-7838644",
-    "title": "Senior Software Engineer - Robinhood Command Center",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/7838644?t=gh_src=&gh_jid=7838644",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team & role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-7993511",
-    "title": "Senior Software Engineer, Robinhood Command Center",
-    "company": "Robinhood",
-    "locations": [
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/7993511?t=gh_src=&gh_jid=7993511",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team & role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-7899482",
-    "title": "Senior Software Engineer, Security Platform",
-    "company": "Robinhood",
-    "locations": [
-      "Bellevue, United States",
-      "Menlo Park, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/7899482?t=gh_src=&gh_jid=7899482",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "Безопасность",
-    "stack": [
-      "Python",
-      "Java",
-      "AWS",
-      "Kubernetes"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-7729019",
-    "title": "Senior Software Engineer, Storage Platform",
-    "company": "Robinhood",
-    "locations": [
-      "Bellevue, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/7729019?t=gh_src=&gh_jid=7729019",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "AWS",
-      "Kubernetes"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8083811",
-    "title": "Senior Software Engineer, Streaming Platform",
-    "company": "Robinhood",
-    "locations": [
-      "Bellevue, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8083811?t=gh_src=&gh_jid=8083811",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "Kubernetes"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-7729014",
-    "title": "Senior Staff Software Engineer, Data Platform",
-    "company": "Robinhood",
-    "locations": [
-      "Bellevue, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/7729014?t=gh_src=&gh_jid=7729014",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "Данные",
-    "stack": [
-      "Kubernetes"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8048650",
-    "title": "Senior Tax Operations Analyst",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States",
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8048650?t=gh_src=&gh_jid=8048650",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Аналитика",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "SQL"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8072892",
-    "title": "Senior Treasury Analyst",
-    "company": "Robinhood",
-    "locations": [
-      "Chicago, United States",
-      "Menlo Park, United States",
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8072892?t=gh_src=&gh_jid=8072892",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Платежи",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-7263592",
-    "title": "Software Engineer, Backend",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States",
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/7263592?t=gh_src=&gh_jid=7263592",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "Бэкенд",
-    "stack": [
-      "Python",
-      "AWS",
-      "Kubernetes"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8072766",
-    "title": "Staff Data Scientist, ML (People Analytics & Insights)",
-    "company": "Robinhood",
-    "locations": [
-      "Chicago, United States",
-      "Menlo Park, United States",
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8072766?t=gh_src=&gh_jid=8072766",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Данные и ML",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Python",
-      "SQL"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-7460167",
-    "title": "Staff Offensive Security Engineer",
-    "company": "Robinhood",
-    "locations": [
-      "Bellevue, United States",
-      "Menlo Park, United States",
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/7460167?t=gh_src=&gh_jid=7460167",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "Безопасность",
-    "stack": [
-      "Python",
-      "JavaScript",
-      "AWS",
-      "Docker",
-      "Kubernetes"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for thoughtful problem-solvers and builders who want to make a meaningful contribution. Robinhood is a place where people take ownership of their work and help improve financial access for all. We operate with high…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-7804648",
-    "title": "Staff Product Designer, National Impact",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States",
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/7804648?t=gh_src=&gh_jid=7804648",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Дизайн",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8082056",
-    "title": "Staff Quality Engineer",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8082056?t=gh_src=&gh_jid=8082056",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Python",
-      "Java"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-7489707",
-    "title": "Staff Software Engineer, Observability",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/7489707?t=gh_src=&gh_jid=7489707",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Python",
-      "AWS",
-      "Kubernetes"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world's biggest financial problems. We're looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn't a place for complacency, it's where ambitious people do the best work of their careers. We're a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8044227",
-    "title": "Staff Software Engineer, Storage Platform",
-    "company": "Robinhood",
-    "locations": [
-      "Bellevue, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8044227?t=gh_src=&gh_jid=8044227",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "AWS",
-      "Kubernetes"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-betterment-8137838",
     "title": "Sr. Marketing Associate, B2B",
     "company": "Betterment",
@@ -15160,29 +15412,6 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-08-25",
     "descShort": "Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. We are hiring a Principal Software Engineer to join our data platform (AAP) team in Dublin. The AAP team owns the foundational data infrastructure that powers Toast's analytics products and AI/ML capabilities: real-time streaming pipelines, a cloud-native data lakehouse, feature serving for ML-driven product experiences, and the infrastructure that enables product teams across Toast to build intelligent, data-driven experiences for our 170,000+ restaurant customers. We are in the middle of a significant…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-toast-8143842",
-    "title": "Senior Manager, GTM Sales Engineer & AI solutions",
-    "company": "Toast",
-    "locations": [
-      "Toronto, Canada"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://careers.toasttab.com/jobs?gh_jid=8143842",
-    "site": "toasttab.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. Retail is Toast's biggest bet and we are growing rapidly. The opportunity is massive, and the category is ours to define. You'll have the backing of Toast's scale, brand, and resources but you'll be on the team architecting how we operate, scale, and win. The decisions you make in this role will shape how Toast competes in retail for years to come. Toast is prioritizing AI integration across the enterprise to redefine GTM velocity. As part of this strategy, multiple business units are pursuing specialized…",
     "hasDesc": true
   },
   {
@@ -15533,6 +15762,29 @@ window.JOBS_FINTECH = [
     "industry": "fintech",
     "role": "Аналитика",
     "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "ABOUT TIDE At Tide, we help SMEs save time and money in the running of their businesses by not only offering business accounts and related banking services, but also a comprehensive set of highly usable and connected administrative solutions, from invoicing to accounting. Tide is transforming the small business banking market and now supports over 2 million members globally across the UK, India, Germany and France. Using advanced technology, all solutions are designed with SMEs in mind. With quick onboarding, low fees and innovative features, we thrive on making data driven decisions to serve our mission: to help SMEs save time and money so they can get back to doing what they love. Tide…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-tide-7863571003",
+    "title": "Senior Product Manager, Ongoing Monitoring",
+    "company": "Tide",
+    "locations": [
+      "United Kingdom"
+    ],
+    "remote": false,
+    "rkind": "worldwide",
+    "salary": null,
+    "posted": "2026-08-19",
+    "url": "https://job-boards.greenhouse.io/tide/jobs/7863571003",
+    "site": "tide.co",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Продакт",
+    "grade": "Senior",
     "spec": null,
     "stack": [],
     "seen": "2026-08-25",
@@ -15914,42 +16166,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-coinbase-8070574",
-    "title": "Software Engineer, Frontend (Coinbase Advisor - Agentic Trading)",
-    "company": "Coinbase",
-    "locations": [
-      "United States"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": "$ 152 405 – 197 230",
-    "posted": "2026-08-19",
-    "url": "https://www.coinbase.com/careers/positions/8070574?gh_jid=8070574",
-    "site": "coinbase.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "Фронтенд",
-    "stack": [
-      "TypeScript"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Ready to do the most impactful work of your career? At Coinbase, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase. Software Engineer, Frontend (Coinbase Advisor - Agentic Trading) We're hiring a Senior Software…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-coinbase-8056065",
+    "id": "gh-coinbase-8096720",
     "title": "Solutions Architect",
     "company": "Coinbase",
     "locations": [
-      "New York, United States"
+      "London, United Kingdom"
     ],
     "remote": false,
     "rkind": "hybrid",
-    "salary": "$ 170 000 – 170 000",
+    "salary": "£ 111 800 – 111 800",
     "posted": "2026-08-19",
-    "url": "https://www.coinbase.com/careers/positions/8056065?gh_jid=8056065",
+    "url": "https://www.coinbase.com/careers/positions/8096720?gh_jid=8096720",
     "site": "coinbase.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -15992,17 +16219,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ripple-8142058",
+    "id": "gh-ripple-8142069",
     "title": "Client Support Analyst",
     "company": "Ripple",
     "locations": [
-      "Toronto, Canada"
+      "Chicago, United States"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 88 000 – 105 000",
+    "salary": "$ 92 000 – 110 000",
     "posted": "2026-08-19",
-    "url": "https://ripple.com/careers/all-jobs/job/8142058?gh_jid=8142058",
+    "url": "https://ripple.com/careers/all-jobs/job/8142069?gh_jid=8142069",
     "site": "ripple.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -16038,32 +16265,6 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-08-25",
     "descShort": "At Ripple, we’re building a world where value moves like information does today. It’s big, it’s bold, and we’re already doing it. Through our crypto solutions for financial institutions, businesses, governments and developers, we are improving the global financial system and creating greater economic fairness and opportunity for more people, in more places around the world. And we get to do the best work of our career and grow our skills surrounded by colleagues who have our backs. If you’re ready to see your impact and unlock incredible career growth opportunities, join us, and build real world value. The mission, should you choose to accept it, is to pioneer and scale Ripple Treasury's…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-ripple-8069849",
-    "title": "Senior Software Engineer",
-    "company": "Ripple",
-    "locations": [
-      "Sydney, Australia"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-19",
-    "url": "https://ripple.com/careers/all-jobs/job/8069849?gh_jid=8069849",
-    "site": "ripple.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "C#",
-      "SQL"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "At Ripple, we’re building a world where value moves like information does today. It’s big, it’s bold, and we’re already doing it. Through our crypto solutions for financial institutions, businesses, governments and developers, we are improving the global financial system and creating greater economic fairness and opportunity for more people, in more places around the world. And we get to do the best work of our career and grow our skills surrounded by colleagues who have our backs. If you’re ready to see your impact and unlock incredible career growth opportunities, join us, and build real world value. The mission, should you choose to accept it, is to pioneer and scale Ripple Treasury’s…",
     "hasDesc": true
   },
   {
@@ -16198,17 +16399,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7777044003",
+    "id": "gh-okx-7777043003",
     "title": "Software Engineer, Mobile, Web3",
     "company": "OKX",
     "locations": [
-      "Hong Kong, Hong Kong SAR"
+      "Singapore"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-19",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7777044003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7777043003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -16224,7 +16425,7 @@ window.JOBS_FINTECH = [
       "Lua"
     ],
     "seen": "2026-08-25",
-    "descShort": "OKX will be prioritising applicants who have a current right to work in Hong Kong, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
+    "descShort": "OKX will be prioritising applicants who have a current right to work in Singapore, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
     "hasDesc": true
   },
   {
@@ -16507,17 +16708,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-stripe-7737526",
+    "id": "gh-stripe-8142649",
     "title": "Staff Product Manager, Local Payment Methods Growth",
     "company": "Stripe",
     "locations": [
-      "Dublin"
+      "London"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-19",
-    "url": "https://stripe.com/jobs/search?gh_jid=7737526",
+    "url": "https://stripe.com/jobs/search?gh_jid=8142649",
     "site": "stripe.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -16553,17 +16754,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8606885002",
+    "id": "gh-brex-8606890002",
     "title": "AI Engineer, Ecosystem",
     "company": "Brex",
     "locations": [
-      "Seattle, United States"
+      "San Francisco, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 171 000 – 240 000",
     "posted": "2026-08-19",
-    "url": "https://www.brex.com/careers/8606885002?gh_jid=8606885002",
+    "url": "https://www.brex.com/careers/8606890002?gh_jid=8606890002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -16591,29 +16792,6 @@ window.JOBS_FINTECH = [
     "source": "greenhouse",
     "industry": "fintech",
     "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and finance teams to accelerate operations, gain real-time visibility, and control spend effortlessly. Brex’s AI-native automation and world-class service eliminate manual expense and accounting tasks for customers so they can focus on what matters most. Tens of thousands of the world's best companies run on Brex, including DoorDash, Coinbase, Robinhood, Zoom, Plaid, Reddit, and SeatGeek. Working at Brex allows you to push…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-brex-8544757002",
-    "title": "Compliance Manager, Marketing",
-    "company": "Brex",
-    "locations": [
-      "San Francisco, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": "$ 159 000 – 198 000",
-    "posted": "2026-08-19",
-    "url": "https://www.brex.com/careers/8544757002?gh_jid=8544757002",
-    "site": "brex.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Комплаенс",
     "grade": null,
     "spec": null,
     "stack": [],
@@ -16907,34 +17085,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7820448003",
-    "title": "Senior Software Engineer, Backend (Card)",
-    "company": "Affirm",
-    "locations": [
-      "Poland"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": null,
-    "posted": "2026-08-19",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7820448003",
-    "site": "affirm.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "Платежи",
-    "stack": [
-      "Python",
-      "Kotlin",
-      "AWS",
-      "Kubernetes"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. We are reinventing credit cards in the most transparent way possible. We are working directly with card issuers to change how credit is used throughout the world, creating new types of cards that work for both their everyday lives and large purchases with extremely straightforward, flexible terms. You'll work across stacks and across the company, working both in just-in-time transaction processing that has to take place in milliseconds, along with our ledgering and reconciliation systems in post-transaction processing.…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-affirm-7806685003",
     "title": "Senior Software Engineer, Back-end, (Repayment Scheduling)",
     "company": "Affirm",
@@ -16963,23 +17113,24 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-6922638003",
+    "id": "gh-affirm-6922636003",
     "title": "Senior Software engineer (Furnishing Platform)",
     "company": "Affirm",
     "locations": [
-      "Poland"
+      "Spain"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": null,
+    "salary": "€ 000 – 122 000",
     "posted": "2026-08-19",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/6922638003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/6922636003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
     "role": "Программирование",
     "grade": "Senior",
     "spec": null,
+    "permit": true,
     "stack": [
       "Python",
       "Kotlin",
@@ -17015,6 +17166,32 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-08-25",
     "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. We are looking for a highly motivated Software Engineer in our Furnishing Platform team to build scalable systems and data pipelines to power our consumer credit reporting. You will partner closely with our Product, Compliance, Servicing, and Credit teams to design robust reporting systems. The systems you will work on are vital for delivering accurate and timely data from Affirm’s financial product portfolio to Consumer Reporting Agencies. Affirm is growing fast and we want you to enable us to scale our products to 10x…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-affirm-7822286003",
+    "title": "Underwriting/Credit Model Risk Senior Manager - Machine Learning",
+    "company": "Affirm",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "$ 255 000 – 315 000",
+    "posted": "2026-08-19",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7822286003",
+    "site": "affirm.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Данные и ML",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About Enterprise Risk & Internal Audit The Enterprise Risk & Internal Audit department protects Affirm’s operations and long-term success. We identify, assess, and monitor risk across the business. Our work includes internal audits, regulatory assurance, fraud prevention, and crisis planning. The team maintains strong controls, tracks key risk indicators, and ensures readiness for external reviews. We uphold accountability, transparency, and resilience to support responsible growth. About the Team We're looking for a…",
     "hasDesc": true
   },
   {
@@ -17260,17 +17437,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-toast-7977158",
+    "id": "gh-toast-8094855",
     "title": "Senior Director of Engineering, Developer and Agent Experience",
     "company": "Toast",
     "locations": [
-      "United States"
+      "Dublin, IRE"
     ],
-    "remote": true,
-    "rkind": "zone",
+    "remote": false,
+    "rkind": null,
     "salary": null,
     "posted": "2026-08-19",
-    "url": "https://careers.toasttab.com/jobs?gh_jid=7977158",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=8094855",
     "site": "toasttab.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -17611,17 +17788,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-tide-7765740003",
+    "id": "gh-tide-7848597003",
     "title": "Director of Mobile Frontend Engineering",
     "company": "Tide",
     "locations": [
-      "Bulgaria"
+      "United Kingdom"
     ],
     "remote": false,
     "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-18",
-    "url": "https://job-boards.greenhouse.io/tide/jobs/7765740003",
+    "url": "https://job-boards.greenhouse.io/tide/jobs/7848597003",
     "site": "tide.co",
     "source": "greenhouse",
     "industry": "fintech",
@@ -17660,6 +17837,32 @@ window.JOBS_FINTECH = [
       "AWS",
       "Docker",
       "Kubernetes"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "ABOUT TIDE At Tide, we help SMEs save time and money in the running of their businesses by not only offering business accounts and related banking services, but also a comprehensive set of highly usable and connected administrative solutions, from invoicing to accounting. Tide is transforming the small business banking market and now supports over 2 million members globally across the UK, India, Germany and France. Using advanced technology, all solutions are designed with SMEs in mind. With quick onboarding, low fees and innovative features, we thrive on making data driven decisions to serve our mission: to help SMEs save time and money so they can get back to doing what they love. Tide…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-tide-7655326003",
+    "title": "Manager, Analytics, Fraud, UK",
+    "company": "Tide",
+    "locations": [
+      "India, Hyderabad"
+    ],
+    "remote": false,
+    "rkind": "worldwide",
+    "salary": null,
+    "posted": "2026-08-18",
+    "url": "https://job-boards.greenhouse.io/tide/jobs/7655326003",
+    "site": "tide.co",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Антифрод",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
     ],
     "seen": "2026-08-25",
     "descShort": "ABOUT TIDE At Tide, we help SMEs save time and money in the running of their businesses by not only offering business accounts and related banking services, but also a comprehensive set of highly usable and connected administrative solutions, from invoicing to accounting. Tide is transforming the small business banking market and now supports over 2 million members globally across the UK, India, Germany and France. Using advanced technology, all solutions are designed with SMEs in mind. With quick onboarding, low fees and innovative features, we thrive on making data driven decisions to serve our mission: to help SMEs save time and money so they can get back to doing what they love. Tide…",
@@ -17936,17 +18139,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4955327101",
+    "id": "gh-ebury-4955328101",
     "title": "Senior FX Product Manager - Hedging Conversion",
     "company": "Ebury",
     "locations": [
-      "London"
+      "Madrid"
     ],
     "remote": false,
     "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-18",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4955327101",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4955328101",
     "site": "ebury.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -17955,32 +18158,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-08-25",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. FX Senior Product Manager - Hedging conversion Ebury London Office - Hybrid: 4 days in the office, 1 day working from home per week As Ebury scales globally, we are evolving from a delivery-led organisation into a…",
-    "hasDesc": true
-  },
-  {
-    "id": "ab-zilch-c6adf66a-ce6c-4a4c-80a1-8cf0f4fe8144",
-    "title": "Sales Data Analyst",
-    "company": "Zilch",
-    "locations": [
-      "Zilch United Kingdom"
-    ],
-    "remote": true,
-    "rkind": "worldwide",
-    "salary": null,
-    "posted": "2026-08-18",
-    "url": "https://jobs.ashbyhq.com/zilch/c6adf66a-ce6c-4a4c-80a1-8cf0f4fe8144",
-    "source": "ashby",
-    "site": "payzilch.com",
-    "industry": "fintech",
-    "role": "Данные и ML",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "SQL"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Who we are: We're one of Europe's fastest-growing fintech companies – on a mission to create the world's most empowering way to pay. We launched the product in 2020 and achieved double unicorn status, valued at $2 billion, and since then have taken on more than 6 million customers. Our mission is to become the best way to pay for anything, anywhere and say goodbye to credit costs for everyone. This is huge. Want to join us? About the role. The Sales Analyst, Intelligent Commerce will support Zilch’s Intelligent Commerce sales team with the reporting, insights, and campaign analysis needed to win, grow, and retain merchant partners. Working closely with Sales, Commercial, Product, and…",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. FX Senior Product Manager - Hedging conversion Ebury Madrid Office - Hybrid: 4 days in the office, 1 day working from home per week As Ebury scales globally, we are evolving from a delivery-led organisation into a…",
     "hasDesc": true
   },
   {
@@ -18405,17 +18583,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-stripe-7369543",
+    "id": "gh-stripe-6176758",
     "title": "Backend/API Engineer, Money as a Service",
     "company": "Stripe",
     "locations": [
-      "United Kingdom"
+      "United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-18",
-    "url": "https://stripe.com/jobs/search?gh_jid=7369543",
+    "url": "https://stripe.com/jobs/search?gh_jid=6176758",
     "site": "stripe.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -18428,7 +18606,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-08-25",
-    "descShort": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. About the Organization Money as a Service (MaaS) oversees a diverse portfolio of Stripe's core platforms and services. Our Stripe Treasury suite helps users manage and move…",
+    "descShort": "Note: if you are an intern, new grad, staff, front-end, or full-stack applicant, please do not apply using this link and visit our jobs page for those specific postings. Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. About the…",
     "hasDesc": true
   },
   {
@@ -18716,17 +18894,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8698276002",
+    "id": "gh-brex-8698277002",
     "title": "Fraud Operations Associate",
     "company": "Brex",
     "locations": [
-      "San Francisco, United States"
+      "Seattle, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 86 784 – 108 480",
     "posted": "2026-08-18",
-    "url": "https://www.brex.com/careers/8698276002?gh_jid=8698276002",
+    "url": "https://www.brex.com/careers/8698277002?gh_jid=8698277002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -18767,17 +18945,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7871460003",
+    "id": "gh-affirm-7871462003",
     "title": "Revenue Operations Analyst II",
     "company": "Affirm",
     "locations": [
-      "United States"
+      "Canada"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 100 000 – 150 000",
+    "salary": "$ 77 000 – 127 000",
     "posted": "2026-08-18",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7871460003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7871462003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -18787,6 +18965,61 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-08-25",
     "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About the Team: We're looking for a curious, driven analyst to join our Revenue Operations team. Revenue Operations serves as the backbone of the Revenue organization at Affirm. We follow a data-driven approach that combines elements of strategy, systems, process, and analytics to align go-to-market motions across the organization. About the Role: As a Revenue Operations Analyst II, you will be a key partner to our Marketing, Business Development, and early Sales teams - focused on making the top of the funnel…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-affirm-7832333003",
+    "title": "Security Risk Management Specialist II",
+    "company": "Affirm",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "$ 130 000 – 180 000",
+    "posted": "2026-08-18",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7832333003",
+    "site": "affirm.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Риски",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "Python",
+      "AWS"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About the Team Affirm values security as being critical to the company's continued success. The Security Risk Management team is evolving beyond traditional governance, risk, and compliance; we are building an engineering driven program that designs, automates, and scales the controls, workflows, and tooling that protect Affirm and our customers. About the Role The ideal candidate will evaluate, build, and refine solutions to third-party risk and security governance challenges across the Security Third Party Program and…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-affirm-7801371003",
+    "title": "Senior Software Engineer, Backend (Identity International)",
+    "company": "Affirm",
+    "locations": [
+      "Poland"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-08-18",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7801371003",
+    "site": "affirm.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Бэкенд",
+    "stack": [
+      "Python",
+      "Kotlin",
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Affirm’s Identity team is mission-critical to the customer checkout experience. When a customer chooses Affirm, one of the first steps is an identity check, and our ability to make the right decision directly impacts conversion, revenue, fraud exposure, and regulatory compliance. Our team owns Identity for all markets outside North America, playing a key role in Affirm’s international expansion. We are responsible for KYC, user lifecycle management, and identity decisioning across multiple regulatory environments. This…",
     "hasDesc": true
   },
   {
@@ -18848,34 +19081,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7118737003",
-    "title": "Senior Software Engineer, Fullstack (Servicing International)",
-    "company": "Affirm",
-    "locations": [
-      "Poland"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": null,
-    "posted": "2026-08-18",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7118737003",
-    "site": "affirm.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "Python",
-      "Kotlin",
-      "AWS",
-      "Kubernetes"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Join the pioneering Servicing International team at the forefront of Affirm's global expansion, building the foundational platform to launch our products into a new generation of international markets. This role will focus specifically on purchase protection, including disputes and refunds—a critical part of the user journey and an area of significant investment—to ensure trust and satisfaction for our newest customers. Success requires deep collaboration, and you will partner closely with European engineering…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-affirm-7799933003",
     "title": "Senior Software Engineer, Mobile (Repayment UX)",
     "company": "Affirm",
@@ -18902,52 +19107,29 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7801694003",
-    "title": "Staff Software Engineer, Backend (Lake Analytics Platform)",
+    "id": "gh-affirm-7809761003",
+    "title": "Software Engineer I, Fullstack (Servicing International)",
     "company": "Affirm",
     "locations": [
-      "United States"
+      "Poland"
     ],
     "remote": true,
     "rkind": "zone",
     "salary": null,
     "posted": "2026-08-18",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7801694003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7809761003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
     "role": "Программирование",
-    "grade": null,
-    "spec": "Бэкенд",
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Affirm’s engineering team is building a large-scale, highly available, and global infrastructure that is shared across multiple financial products. Ensuring that our infrastructure is accessible to all engineers is critical to the success of the business. We pride ourselves on our culture across engineering of engaging in thorough technical design review, operational excellence, and capable incident response and analysis. The Data and Storage Services team is responsible for Affirm’s data infrastructure across OLTP and…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-affirm-7822288003",
-    "title": "Underwriting/Credit Model Risk Senior Manager - Machine Learning",
-    "company": "Affirm",
-    "locations": [
-      "Canada"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": "$ 201 000 – 261 000",
-    "posted": "2026-08-18",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7822288003",
-    "site": "affirm.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Данные и ML",
-    "grade": "Senior",
+    "grade": "Junior",
     "spec": null,
     "stack": [
       "Python",
-      "SQL"
+      "Kotlin"
     ],
     "seen": "2026-08-25",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About Enterprise Risk & Internal Audit The Enterprise Risk & Internal Audit department protects Affirm’s operations and long-term success. We identify, assess, and monitor risk across the business. Our work includes internal audits, regulatory assurance, fraud prevention, and crisis planning. The team maintains strong controls, tracks key risk indicators, and ensures readiness for external reviews. We uphold accountability, transparency, and resilience to support responsible growth. About the Team We're looking for a…",
+    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Engineering team builds systems that power Affirm’s mission. We take pride in our craft, building reliable, performant, and scalable solutions that touch every part of the business. Whether we’re enabling new ways to pay, ensuring our platforms can scale to the most demanding levels in the industry, or developing seamless servicing experiences, our focus is on solving complex problems through exceptional engineering. Join the pioneering Servicing International team at the forefront of Affirm's global expansion…",
     "hasDesc": true
   },
   {
@@ -19146,55 +19328,6 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-08-25",
     "descShort": "Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. Toast is a rapidly growing company that's revolutionizing how the restaurant industry does business by pairing technology with an extraordinary commitment to customer success. We help restaurants streamline operations, increase revenue, and deliver amazing guest experiences through our platform that combines restaurant point of sale, team management, guest-facing technology, and award-winning customer support. As a Toaster, you will be challenged to take on meaningful projects to help craft the company's…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-block-5225220008",
-    "title": "Compliance Technology Program Lead",
-    "company": "Block",
-    "locations": [
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-18",
-    "url": "http://block.xyz/careers/jobs/5225220008?gh_jid=5225220008",
-    "site": "block.xyz",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Комплаенс",
-    "grade": "Lead",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture new initiatives, and more. Every challenge creates possibilities, and we need different perspectives to see them all. Bring yours to Block. The Role Block is seeking a Compliance Technology Program…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-block-5195926008",
-    "title": "Legal Systems Engineer",
-    "company": "Block",
-    "locations": [
-      "San Francisco, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-18",
-    "url": "http://block.xyz/careers/jobs/5195926008?gh_jid=5195926008",
-    "site": "block.xyz",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Python",
-      "JavaScript"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture new initiatives, and more. Every challenge creates possibilities, and we need different perspectives to see them all. Bring yours to Block. The Role As a Legal Systems Engineer, you will lead the…",
     "hasDesc": true
   },
   {
@@ -20420,7 +20553,7 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-payoneer-8043207",
+    "id": "gh-payoneer-7768075",
     "title": "Principal Mobile Engineer",
     "company": "Payoneer",
     "locations": [
@@ -20430,7 +20563,7 @@ window.JOBS_FINTECH = [
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://www.payoneer.com/careers/position/8043207/?gh_jid=8043207",
+    "url": "https://www.payoneer.com/careers/position/7768075/?gh_jid=7768075",
     "site": "payoneer.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -20442,7 +20575,7 @@ window.JOBS_FINTECH = [
       "Swift"
     ],
     "seen": "2026-08-25",
-    "descShort": "About Payoneer Founded in 2005, Payoneer is the global financial platform that removes friction from doing business across borders, with a mission to connect the world’s underserved businesses to a rising global economy. We’re a community with over 2,500 colleagues all over the world, working to serve customers, and partners in over 190 countries and territories. By taking the complexity out of the financial workflows–including everything from global payments and compliance to multi-currency and workforce management, to providing working capital and business intelligence–we give businesses the tools they need to work efficiently worldwide and grow with confidence. Principal Mobile Engineer…",
+    "descShort": "About Payoneer Founded in 2005, Payoneer is the global financial platform that removes friction from doing business across borders, with a mission to connect the world’s underserved businesses to a rising global economy. We’re a community with over 2,500 colleagues all over the world, working to serve customers, and partners in over 190 countries and territories. By taking the complexity out of the financial workflows–including everything from global payments and compliance to multi-currency and workforce management, to providing working capital and business intelligence–we give businesses the tools they need to work efficiently worldwide and grow with confidence. 🚀 Principal Mobile…",
     "hasDesc": true
   },
   {
@@ -20619,7 +20752,7 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-payoneer-7431120",
+    "id": "gh-payoneer-7431091",
     "title": "Senior Backend Engineer",
     "company": "Payoneer",
     "locations": [
@@ -20629,7 +20762,7 @@ window.JOBS_FINTECH = [
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://www.payoneer.com/careers/position/7431120/?gh_jid=7431120",
+    "url": "https://www.payoneer.com/careers/position/7431091/?gh_jid=7431091",
     "site": "payoneer.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -20639,10 +20772,11 @@ window.JOBS_FINTECH = [
     "stack": [
       "C#",
       "Java",
-      "SQL"
+      "SQL",
+      "AWS"
     ],
     "seen": "2026-08-25",
-    "descShort": "About Payoneer Founded in 2005, Payoneer is the global financial platform that removes friction from doing business across borders, with a mission to connect the world’s underserved businesses to a rising global economy. We’re a community with over 2,500 colleagues all over the world, working to serve customers, and partners in over 190 countries and territories. By taking the complexity out of the financial workflows–including everything from global payments and compliance to multi-currency and workforce management, to providing working capital and business intelligence–we give businesses the tools they need to work efficiently worldwide and grow with confidence. About the Role: Lead the…",
+    "descShort": "About Payoneer Founded in 2005, Payoneer is the global financial platform that removes friction from doing business across borders, with a mission to connect the world’s underserved businesses to a rising global economy. We’re a community with over 2,500 colleagues all over the world, working to serve customers, and partners in over 190 countries and territories. By taking the complexity out of the financial workflows–including everything from global payments and compliance to multi-currency and workforce management, to providing working capital and business intelligence–we give businesses the tools they need to work efficiently worldwide and grow with confidence. Location: Gurugram - India…",
     "hasDesc": true
   },
   {
@@ -20669,17 +20803,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-payoneer-8121085",
+    "id": "gh-payoneer-8108385",
     "title": "Senior Content Marketing Strategist",
     "company": "Payoneer",
     "locations": [
-      "Bangalore, India"
+      "Gurugram, India"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://www.payoneer.com/careers/position/8121085/?gh_jid=8121085",
+    "url": "https://www.payoneer.com/careers/position/8108385/?gh_jid=8108385",
     "site": "payoneer.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -21245,6 +21379,29 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-ebury-4953601101",
+    "title": "Onboarding Analyst - Institutional",
+    "company": "Ebury",
+    "locations": [
+      "Nicosia"
+    ],
+    "remote": false,
+    "rkind": "hybrid",
+    "salary": null,
+    "posted": "2026-08-17",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4953601101",
+    "site": "ebury.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. KYC Onboarding Analyst - Ebury Institutional Solutions (EIS) vertical Nicosia Office (4 days in office / 1 day from home) In this pivotal role, you will be responsible for conducting comprehensive Customer Due Diligence (CDD)…",
+    "hasDesc": true
+  },
+  {
     "id": "ab-griffin-83cfc4d4-547f-4aec-ae8e-3cc7f46d8253",
     "title": "Marketing Associate",
     "company": "Griffin",
@@ -21420,17 +21577,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8641661002",
+    "id": "gh-brex-8641732002",
     "title": "Systems Analyst II",
     "company": "Brex",
     "locations": [
-      "San Francisco, United States"
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://www.brex.com/careers/8641661002?gh_jid=8641661002",
+    "url": "https://www.brex.com/careers/8641732002?gh_jid=8641732002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -21444,56 +21601,6 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-08-25",
     "descShort": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and finance teams to accelerate operations, gain real-time visibility, and control spend effortlessly. Brex’s AI-native automation and world-class service eliminate manual expense and accounting tasks for customers so they can focus on what matters most. Tens of thousands of the world's best companies run on Brex, including DoorDash, Coinbase, Robinhood, Zoom, Plaid, Reddit, and SeatGeek. Working at Brex allows you to push…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-chime-8609159002",
-    "title": "Engineering Manager, Deals and Offers",
-    "company": "Chime",
-    "locations": [
-      "San Francisco, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-17",
-    "url": "https://boards.greenhouse.io/chime/jobs/8609159002?gh_jid=8609159002",
-    "site": "chime.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "AWS"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "About the role Chime's Deals & Offers team helps members get more value out of everyday spend. We build the member-facing deals, cashback, and merchant-offer experiences, plus the offers platform underneath them: the deals catalog, personalization and discovery surfaces, attribution and measurement, and partner integrations that power it all. Our work turns everyday transactions into real savings and gives members a reason to reach for Chime first. The team also owns Chime Wireless, a 0-to-1 vertical product. This is a rare chance to build a new business from the ground up inside a company with millions of members, shaping the product, the systems, and the roadmap from scratch. We’re hiring…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-chime-8535340002",
-    "title": "Engineering Manager, Spending, Savings, & Investing",
-    "company": "Chime",
-    "locations": [
-      "San Francisco, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-17",
-    "url": "https://boards.greenhouse.io/chime/jobs/8535340002?gh_jid=8535340002",
-    "site": "chime.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "AWS"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "About the role Chime is looking for an engineering leader to help manage and guide one of the Spending, Saving & Investing (SSI) engineering teams. Chime’s SSI org is on a mission to make Chime the top choice for everyday spending by building innovative, reliable, and member-first financial tools. We focus on driving active spend and usage, increasing reliability and availability, and delivering seamless, trusted experiences across cards, credit, money movement, saving and investing, deals, and transaction intelligence. Our work empowers members to manage their money with confidence, spend smarter, and improve their long-term financial health. We're hiring Tech Lead Managers (TLM) for…",
     "hasDesc": true
   },
   {
@@ -21640,6 +21747,33 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-08-25",
     "descShort": "Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. Over 180,000 restaurant businesses run on Toast. About the team We are hiring a Senior Software Engineer to join our OLAP Platform team in Dublin. OLAP is the analytical data layer that powers real-time reporting, search and agentic data access for AI-driven products across Toast. We ingest events from across the business, index them into OpenSearch, and expose them to consumer teams through a federated GraphQL layer. One platform, many tenants, restaurant-critical latency and freshness. The team is in a…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-toast-7747181",
+    "title": "Staff Software Engineer, Tech Lead",
+    "company": "Toast",
+    "locations": [
+      "Canada"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "$ 142 000 – 227 000",
+    "posted": "2026-08-17",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=7747181",
+    "site": "toasttab.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Java",
+      "Kotlin",
+      "TypeScript"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "About Toast: Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. Bready* to make a change? Toast is a rapidly growing company that's revolutionizing how the restaurant industry does business by pairing technology with an extraordinary commitment to customer success. We help restaurants streamline operations, increase revenue, and deliver amazing guest experiences through our platform that combines restaurant point of sale, team management, guest-facing technology, and award-winning customer support. As a Toaster, you will be challenged to take on meaningful…",
     "hasDesc": true
   },
   {
@@ -21796,8 +21930,8 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ripple-8030786",
-    "title": "Staff Software Engineer, Data Engineering",
+    "id": "gh-ripple-7872447",
+    "title": "Senior Software Engineer, Data Engineering",
     "company": "Ripple",
     "locations": [
       "London, United Kingdom"
@@ -21806,12 +21940,12 @@ window.JOBS_FINTECH = [
     "rkind": null,
     "salary": null,
     "posted": "2026-08-16",
-    "url": "https://ripple.com/careers/all-jobs/job/8030786?gh_jid=8030786",
+    "url": "https://ripple.com/careers/all-jobs/job/7872447?gh_jid=7872447",
     "site": "ripple.com",
     "source": "greenhouse",
     "industry": "fintech",
     "role": "Программирование",
-    "grade": null,
+    "grade": "Senior",
     "spec": "Данные",
     "stack": [
       "Unity",
@@ -22462,17 +22596,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ripple-7585978",
+    "id": "gh-ripple-7585966",
     "title": "Director, Ecosystem Growth",
     "company": "Ripple",
     "locations": [
-      "New York, United States"
+      "San Francisco, United States"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 220 000 – 250 000",
+    "salary": "$ 225 000 – 270 000",
     "posted": "2026-08-14",
-    "url": "https://ripple.com/careers/all-jobs/job/7585978?gh_jid=7585978",
+    "url": "https://ripple.com/careers/all-jobs/job/7585966?gh_jid=7585966",
     "site": "ripple.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -22589,17 +22723,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8430182002",
+    "id": "gh-brex-8430197002",
     "title": "Staff Software Engineer, Product Data Platform",
     "company": "Brex",
     "locations": [
-      "San Francisco, United States"
+      "Seattle, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 240 000 – 300 000",
     "posted": "2026-08-14",
-    "url": "https://www.brex.com/careers/8430182002?gh_jid=8430182002",
+    "url": "https://www.brex.com/careers/8430197002?gh_jid=8430197002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -22715,17 +22849,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7829429003",
+    "id": "gh-affirm-7829427003",
     "title": "Staff Software Engineer, Mobile (App Infrastructure)",
     "company": "Affirm",
     "locations": [
-      "Canada"
+      "United States"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 181 000 – 241 000",
+    "salary": "$ 230 000 – 290 000",
     "posted": "2026-08-14",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7829429003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7829427003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -22871,32 +23005,6 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-08-25",
     "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. Staff Engineer - Intelligent Customer Experiences As a Staff…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-tide-7834726003",
-    "title": "Manager, Analytics, Fraud, UK",
-    "company": "Tide",
-    "locations": [
-      "Bulgaria"
-    ],
-    "remote": false,
-    "rkind": "worldwide",
-    "salary": null,
-    "posted": "2026-08-13",
-    "url": "https://job-boards.greenhouse.io/tide/jobs/7834726003",
-    "site": "tide.co",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Антифрод",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Python",
-      "SQL"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "ABOUT TIDE At Tide, we help SMEs save time and money in the running of their businesses by not only offering business accounts and related banking services, but also a comprehensive set of highly usable and connected administrative solutions, from invoicing to accounting. Tide is transforming the small business banking market and now supports over 2 million members globally across the UK, India, Germany and France. Using advanced technology, all solutions are designed with SMEs in mind. With quick onboarding, low fees and innovative features, we thrive on making data driven decisions to serve our mission: to help SMEs save time and money so they can get back to doing what they love. Tide…",
     "hasDesc": true
   },
   {
@@ -23083,17 +23191,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-sumup-8682251002",
+    "id": "gh-sumup-8682243002",
     "title": "Backend Engineer - Transfers Gateway",
     "company": "SumUp",
     "locations": [
-      "Berlin, Germany"
+      "Vilnius, Lithuania"
     ],
     "remote": false,
     "rkind": null,
     "salary": "3 493 – 4 657",
     "posted": "2026-08-13",
-    "url": "https://sumup.com/careers/positions/8682251002?gh_jid=8682251002",
+    "url": "https://sumup.com/careers/positions/8682243002?gh_jid=8682243002",
     "site": "sumup.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -24587,17 +24695,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4918365101",
+    "id": "gh-ebury-4952379101",
     "title": "Data Analyst - Fincrime Reporting",
     "company": "Ebury",
     "locations": [
-      "Málaga"
+      "Madrid"
     ],
     "remote": false,
-    "rkind": "worldwide",
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-13",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4918365101",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4952379101",
     "site": "ebury.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -24636,32 +24744,6 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-08-25",
     "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Senior Data Analyst - Regulatory Reporting Location: Madrid (Spain) - Hybrid: 4 days in the office, 1 day working from home per week Ebury’s strategic growth plan would not be possible without our Data Analytics & Regulatory…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-ebury-4952385101",
-    "title": "Data Analyst II - Treasury",
-    "company": "Ebury",
-    "locations": [
-      "Málaga"
-    ],
-    "remote": false,
-    "rkind": "hybrid",
-    "salary": null,
-    "posted": "2026-08-13",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4952385101",
-    "site": "ebury.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Данные и ML",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Python",
-      "SQL"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Data Analyst - Treasury Location: Málaga or Madrid (Spain) - Hybrid: 4 days in the office, 1 day working from home per week Ebury’s strategic growth plan would not be possible without our Data Analytics & Reporting team and…",
     "hasDesc": true
   },
   {
@@ -24713,17 +24795,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4952133101",
+    "id": "gh-ebury-4952132101",
     "title": "FX Solution Product Manager - Maritime",
     "company": "Ebury",
     "locations": [
-      "Dubai"
+      "London"
     ],
     "remote": false,
-    "rkind": "worldwide",
+    "rkind": null,
     "salary": null,
     "posted": "2026-08-13",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4952133101",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4952132101",
     "site": "ebury.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -24732,7 +24814,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-08-25",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Client Solution & Product Manager - Maritime FX Ebury Dubai - Office based We’re looking for a Client Solution & Product Manager to fuel the growth of our Maritime Partnerships business. This role is a unique opportunity to…",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Client Solution & Product Manager - Maritime FX Ebury London - Office based We’re looking for a Client Solution & Product Manager to fuel the growth of our Maritime Partnerships business. This role is a unique opportunity to…",
     "hasDesc": true
   },
   {
@@ -25689,17 +25771,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ripple-8126238",
+    "id": "gh-ripple-8126240",
     "title": "Staff Security Engineer",
     "company": "Ripple",
     "locations": [
-      "Dublin, Ireland"
+      "London, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-12",
-    "url": "https://ripple.com/careers/all-jobs/job/8126238?gh_jid=8126238",
+    "url": "https://ripple.com/careers/all-jobs/job/8126240?gh_jid=8126240",
     "site": "ripple.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -25919,17 +26001,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7793242003",
+    "id": "gh-affirm-7793244003",
     "title": "Analytics Lead, Full Stack",
     "company": "Affirm",
     "locations": [
-      "United States"
+      "Canada"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 185 000 – 245 000",
+    "salary": "$ 145 000 – 205 000",
     "posted": "2026-08-12",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7793242003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7793244003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -26018,17 +26100,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7719653003",
+    "id": "gh-affirm-7719651003",
     "title": "Machine Learning Engineer II (Servicing ML)",
     "company": "Affirm",
     "locations": [
-      "Canada"
+      "United States"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 123 000 – 183 000",
+    "salary": "$ 165 000 – 225 000",
     "posted": "2026-08-12",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7719653003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7719651003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -26068,17 +26150,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7710180003",
+    "id": "gh-affirm-7710178003",
     "title": "Manager, Machine Learning Engineering (Fraud)",
     "company": "Affirm",
     "locations": [
-      "Canada"
+      "United States"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 181 000 – 241 000",
+    "salary": "$ 230 000 – 290 000",
     "posted": "2026-08-12",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7710180003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7710178003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -26190,17 +26272,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7701909003",
+    "id": "gh-affirm-7701911003",
     "title": "Manager, Software Engineering (Resilience Engineering)",
     "company": "Affirm",
     "locations": [
-      "United States"
+      "Canada"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "230 000 – 290 000",
+    "salary": "181 000 – 241 000",
     "posted": "2026-08-12",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7701909003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7701911003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -26266,6 +26348,34 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-08-25",
     "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. As a Product Marketing Manager, you’ll play a strategic and hands-on role in shaping how merchants experience Affirm’s products. You'll help define our product strategy, lead high-impact go-to-market initiatives, and develop compelling narratives that drive business outcomes. This is a highly cross-functional role that requires strong product intuition, strategic thinking, and a bias for action. You’ll bring deep customer and competitive insights to everything you do, and operate as a true partner to Product, Revenue…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-affirm-7796536003",
+    "title": "Product Security Engineer II",
+    "company": "Affirm",
+    "locations": [
+      "Canada"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-08-12",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7796536003",
+    "site": "affirm.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Безопасность",
+    "stack": [
+      "Python",
+      "Kotlin",
+      "TypeScript",
+      "JavaScript"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About the InfoSec & IT Team The Application Security team helps Affirm build and launch products that earn customer trust, meet compliance obligations, and reduce business risk. We partner closely with product, engineering, infrastructure, risk, compliance, and other teams to identify security risks early, recommend pragmatic mitigations, and help teams find safe paths to launch. We are looking for an early-career Application Security Engineer who is curious, collaborative, and comfortable working with code. You will…",
     "hasDesc": true
   },
   {
@@ -26546,17 +26656,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7785814003",
+    "id": "gh-affirm-7785812003",
     "title": "Senior Software Engineer, Backend (Batch Infrastructure)",
     "company": "Affirm",
     "locations": [
-      "Canada"
+      "United States"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 153 000 – 213 000",
+    "salary": "$ 195 000 – 255 000",
     "posted": "2026-08-12",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7785814003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7785812003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -26571,6 +26681,35 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-08-25",
     "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The vision for the Batch Infra team @ Affirm team is to provide reliable, scalable, self-serve and Affirm-optimized compute solution to enable ML, Product, and Financial Engineering success. Our team is responsible for building and maintaining compute platform that serves as a backbone for processing various Business critical batch workloads at Affirm through a wide suite of scheduled and on-demand compute solutions built on the cloud. Affirm is growing rapidly and so is the need for reliable and high availability…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-affirm-7820446003",
+    "title": "Senior Software Engineer, Backend (Card)",
+    "company": "Affirm",
+    "locations": [
+      "Spain"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "€ 86 000 – 122 000",
+    "posted": "2026-08-12",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7820446003",
+    "site": "affirm.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Платежи",
+    "permit": true,
+    "stack": [
+      "Python",
+      "Kotlin",
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. We are reinventing credit cards in the most transparent way possible. We are working directly with card issuers to change how credit is used throughout the world, creating new types of cards that work for both their everyday lives and large purchases with extremely straightforward, flexible terms. You'll work across stacks and across the company, working both in just-in-time transaction processing that has to take place in milliseconds, along with our ledgering and reconciliation systems in post-transaction processing.…",
     "hasDesc": true
   },
   {
@@ -26629,35 +26768,6 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-08-25",
     "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Fraud Engineering organization builds the foundational and tactical software that enables Affirm to respond strategically to fraud - both in real time and after the transaction. Our mission is to support business growth while protecting Affirm, our buyers, and our merchants. We evaluate risk at critical decision points in the user journey, rapidly adapt to evolving fraud patterns, and equip operations teams with the tools needed to investigate and mitigate fraud at scale. We’re looking for a Senior Software Engineer…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-affirm-7801373003",
-    "title": "Senior Software Engineer, Backend (Identity International)",
-    "company": "Affirm",
-    "locations": [
-      "Spain"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": "€ 86 000 – 122 000",
-    "posted": "2026-08-12",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7801373003",
-    "site": "affirm.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "Бэкенд",
-    "permit": true,
-    "stack": [
-      "Python",
-      "Kotlin",
-      "AWS",
-      "Kubernetes"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Affirm’s Identity team is mission-critical to the customer checkout experience. When a customer chooses Affirm, one of the first steps is an identity check, and our ability to make the right decision directly impacts conversion, revenue, fraud exposure, and regulatory compliance. Our team owns Identity for all markets outside North America, playing a key role in Affirm’s international expansion. We are responsible for KYC, user lifecycle management, and identity decisioning across multiple regulatory environments. This…",
     "hasDesc": true
   },
   {
@@ -26772,17 +26882,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7820308003",
+    "id": "gh-affirm-7820306003",
     "title": "Senior Software Engineer, Backend (Reliability Platform)",
     "company": "Affirm",
     "locations": [
-      "Canada"
+      "United States"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 153 000 – 213 000",
+    "salary": "$ 195 000 – 255 000",
     "posted": "2026-08-12",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7820308003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7820306003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -26888,6 +26998,35 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-affirm-7118739003",
+    "title": "Senior Software Engineer, Fullstack (Servicing International)",
+    "company": "Affirm",
+    "locations": [
+      "Spain"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "€ 86 000 – 122 000",
+    "posted": "2026-08-12",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7118739003",
+    "site": "affirm.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "Python",
+      "Kotlin",
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Join the pioneering Servicing International team at the forefront of Affirm's global expansion, building the foundational platform to launch our products into a new generation of international markets. This role will focus specifically on purchase protection, including disputes and refunds—a critical part of the user journey and an area of significant investment—to ensure trust and satisfaction for our newest customers. Success requires deep collaboration, and you will partner closely with European engineering…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-affirm-7710978003",
     "title": "Senior Staff Software Engineer, Frontend (Web Infra)",
     "company": "Affirm",
@@ -26910,33 +27049,6 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-08-25",
     "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Affirm is looking for a Senior Staff Software Engineer to take on a critical role in defining and leading web platform and infrastructure across all web engineering. You'll shape best practices, lead architectural choices, and drive the successful delivery of critical initiatives. This role requires a high level of technical ability and leadership, and experience with advancing and improving design systems, application architecture, CI/CD, observability, performance, and AI tooling for complex, mission critical web…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-affirm-7809763003",
-    "title": "Software Engineer I, Fullstack (Servicing International)",
-    "company": "Affirm",
-    "locations": [
-      "Spain"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": "EUR 57 000 – 87 000",
-    "posted": "2026-08-12",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7809763003",
-    "site": "affirm.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Junior",
-    "spec": null,
-    "permit": true,
-    "stack": [
-      "Python",
-      "Kotlin"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Engineering team builds systems that power Affirm’s mission. We take pride in our craft, building reliable, performant, and scalable solutions that touch every part of the business. Whether we’re enabling new ways to pay, ensuring our platforms can scale to the most demanding levels in the industry, or developing seamless servicing experiences, our focus is on solving complex problems through exceptional engineering. Join the pioneering Servicing International team at the forefront of Affirm's global expansion…",
     "hasDesc": true
   },
   {
@@ -26995,24 +27107,23 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7813157003",
+    "id": "gh-affirm-7813159003",
     "title": "Software Engineer II, Backend (Collections)",
     "company": "Affirm",
     "locations": [
-      "Spain"
+      "Poland"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "EUR 73 000 – 109 000",
+    "salary": "259 000 – 379 000",
     "posted": "2026-08-12",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7813157003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7813159003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
     "role": "Программирование",
     "grade": null,
     "spec": "Бэкенд",
-    "permit": true,
     "stack": [
       "Python",
       "Kotlin",
@@ -27052,17 +27163,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7727320003",
+    "id": "gh-affirm-7727322003",
     "title": "Software Engineer II, Backend (Test Infra)",
     "company": "Affirm",
     "locations": [
-      "United States"
+      "Canada"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "165 000 – 225 000",
+    "salary": "$ 133 000 – 183 000",
     "posted": "2026-08-12",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7727320003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7727322003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -27126,17 +27237,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7694940003",
+    "id": "gh-affirm-7694938003",
     "title": "Staff Product Manager, Affirm Bank",
     "company": "Affirm",
     "locations": [
-      "Canada"
+      "United States"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 181 000 – 241 000",
+    "salary": "$ 230 000 – 290 000",
     "posted": "2026-08-12",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7694940003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7694938003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -27251,24 +27362,23 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7820451003",
+    "id": "gh-affirm-7820453003",
     "title": "Staff Software Engineer, Backend (Card)",
     "company": "Affirm",
     "locations": [
-      "Spain"
+      "Poland"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "€ 103 000 – 139 000",
+    "salary": null,
     "posted": "2026-08-12",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7820451003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7820453003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
     "role": "Программирование",
     "grade": null,
     "spec": "Платежи",
-    "permit": true,
     "stack": [
       "Python",
       "Kotlin",
@@ -27308,6 +27418,29 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-affirm-7801696003",
+    "title": "Staff Software Engineer, Backend (Lake Analytics Platform)",
+    "company": "Affirm",
+    "locations": [
+      "Canada"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-08-12",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7801696003",
+    "site": "affirm.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Бэкенд",
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Affirm’s engineering team is building a large-scale, highly available, and global infrastructure that is shared across multiple financial products. Ensuring that our infrastructure is accessible to all engineers is critical to the success of the business. We pride ourselves on our culture across engineering of engaging in thorough technical design review, operational excellence, and capable incident response and analysis. The Data and Storage Services team is responsible for Affirm’s data infrastructure across OLTP and…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-affirm-7800319003",
     "title": "Staff Software Engineer, Backend (Ledger Engineering)",
     "company": "Affirm",
@@ -27336,17 +27469,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7833952003",
+    "id": "gh-affirm-7833950003",
     "title": "Staff Software Engineer, Backend (Online Storage)",
     "company": "Affirm",
     "locations": [
-      "Canada"
+      "United States"
     ],
     "remote": true,
     "rkind": "zone",
     "salary": null,
     "posted": "2026-08-12",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7833952003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7833950003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -27393,17 +27526,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7749582003",
+    "id": "gh-affirm-7749580003",
     "title": "Staff Software Engineer (Continuous Integration)",
     "company": "Affirm",
     "locations": [
-      "Canada"
+      "United States"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 181 000 – 241 000",
+    "salary": "$ 230 000 – 290 000",
     "posted": "2026-08-12",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7749582003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7749580003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -27422,17 +27555,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7728589003",
+    "id": "gh-affirm-7728591003",
     "title": "Staff Technical Program Manager",
     "company": "Affirm",
     "locations": [
-      "United States"
+      "Canada"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 195 000 – 255 000",
+    "salary": "$ 153 000 – 213 000",
     "posted": "2026-08-12",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7728589003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7728591003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -27442,36 +27575,6 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-08-25",
     "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. We're looking for an experienced, motivated Staff Technical Program Manager to oversee high visibility programs for our team and streamline our processes for building great customer and merchant products. As our products scale in complexity to meet our accelerating business and expanding product lines, our program management practices need to scale with it. You will help our Product and Engineering teams develop processes and frameworks for building quality software, while evaluating new technology developments to drive…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-chime-8569366002",
-    "title": "Senior AI/ML Engineer",
-    "company": "Chime",
-    "locations": [
-      "Chicago, United States",
-      "New York, United States",
-      "San Francisco, United States",
-      "Seattle, United States"
-    ],
-    "remote": false,
-    "rkind": "hybrid",
-    "salary": null,
-    "posted": "2026-08-12",
-    "url": "https://boards.greenhouse.io/chime/jobs/8569366002?gh_jid=8569366002",
-    "site": "chime.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "Python",
-      "SQL",
-      "AWS"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "About the role We’re hiring for a Senior AI/ML Engineer, Growth & Marketing AI to help us build the next generation of AI-powered growth and marketing capabilities at Chime. In this role, you’ll develop foundational transformer models that convert behavioral and financial data into highly personalized experiences, recommendations, and communications for millions of members. You’ll work closely with the Growth & Marketing team, as well as the Product and Engineering teams to deploy scalable AI systems that improve member engagement and drive company growth. This is a highly applied role where you’ll have the opportunity to work with rich datasets, solve challenging real-world problems, and…",
     "hasDesc": true
   },
   {
@@ -27545,29 +27648,6 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-08-25",
     "descShort": "About Betterment Betterment is a leading, technology-driven financial services company that offers investing, savings and retirement solutions for retail investors and investment advisors as well as financial wellness solutions, including a 401(k) for small and medium-sized businesses. Our team is passionate about our mission, to empower people to build wealth with confidence and ease. We’re headquartered in NYC and offer hybrid NY-based positions (four days/ week in-office, with no required office days during the summer and winter holidays). About the Role The Business Systems & Tooling (BS&T) team builds and operates the internal systems that power Betterment's B2B businesses — from…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-block-5381239008",
-    "title": "Payments Partnership Manager, Australia",
-    "company": "Block",
-    "locations": [
-      "Melbourne, Australia"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-12",
-    "url": "http://block.xyz/careers/jobs/5381239008?gh_jid=5381239008",
-    "site": "block.xyz",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Платежи",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Since we opened our doors in 2009, the world of commerce has evolved immensely, and so has Square. After enabling anyone to take payments and never miss a sale, we saw sellers stymied by disparate, outmoded products and tools that wouldn’t work together. So we expanded into software and started building integrated, omnichannel solutions – to help sellers sell online, manage inventory, offer buy now, pay later functionality, book appointments, engage loyal buyers, and hire and pay staff. Across it all, we’ve embedded financial services tools at the point of sale, so merchants can access a business loan and manage their cash flow in one place. Afterpay furthers our goal to provide omnichannel…",
     "hasDesc": true
   },
   {
@@ -27649,29 +27729,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-adyen-8047684",
-    "title": "Senior Regulatory Counsel",
-    "company": "Adyen",
-    "locations": [
-      "Mumbai"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-11",
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/8047684",
-    "site": "adyen.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Комплаенс",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "This is Adyen Adyen is the payments platform of choice for the world's top companies, delivering frictionless payments across online, mobile, and in-store channels. Our team members are motivated individuals that help each other do remarkable things every day. We face unique challenges and we solve those as a team. And together, we deliver innovative and ethical solutions that transform the way the world pays. Senior Regulatory Counsel Adyen is looking for a Senior Regulatory Counsel with extensive experience in banking, financial services, payments, or card networks. As a senior member of the team, you will deeply influence the importance of regulatory compliance in India and act as a…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-adyen-8003083",
     "title": "Staff Java Engineer - Merchant Fraud Prevention",
     "company": "Adyen",
@@ -27720,17 +27777,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-tide-7570167003",
+    "id": "gh-tide-7570173003",
     "title": "Engineering Manager",
     "company": "Tide",
     "locations": [
-      "Serbia"
+      "Lithuania"
     ],
     "remote": false,
     "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-11",
-    "url": "https://job-boards.greenhouse.io/tide/jobs/7570167003",
+    "url": "https://job-boards.greenhouse.io/tide/jobs/7570173003",
     "site": "tide.co",
     "source": "greenhouse",
     "industry": "fintech",
@@ -27738,12 +27795,12 @@ window.JOBS_FINTECH = [
     "grade": null,
     "spec": null,
     "stack": [
-      "C#",
       "Python",
       "Java",
       "Kotlin",
       "Swift",
-      "AWS"
+      "AWS",
+      "Docker"
     ],
     "seen": "2026-08-25",
     "descShort": "ABOUT TIDE At Tide, we help SMEs save time and money in the running of their businesses by not only offering business accounts and related banking services, but also a comprehensive set of highly usable and connected administrative solutions, from invoicing to accounting. Tide is transforming the small business banking market and now supports over 2 million members globally across the UK, India, Germany and France. Using advanced technology, all solutions are designed with SMEs in mind. With quick onboarding, low fees and innovative features, we thrive on making data driven decisions to serve our mission: to help SMEs save time and money so they can get back to doing what they love. Tide…",
@@ -27946,40 +28003,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-tide-7775820003",
-    "title": "Senior Product Manager, Ongoing Monitoring",
-    "company": "Tide",
-    "locations": [
-      "India, Hyderabad"
-    ],
-    "remote": false,
-    "rkind": "worldwide",
-    "salary": null,
-    "posted": "2026-08-11",
-    "url": "https://job-boards.greenhouse.io/tide/jobs/7775820003",
-    "site": "tide.co",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Продакт",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "ABOUT TIDE At Tide, we help SMEs save time and money in the running of their businesses by not only offering business accounts and related banking services, but also a comprehensive set of highly usable and connected administrative solutions, from invoicing to accounting. Tide is transforming the small business banking market and now supports over 2 million members globally across the UK, India, Germany and France. Using advanced technology, all solutions are designed with SMEs in mind. With quick onboarding, low fees and innovative features, we thrive on making data driven decisions to serve our mission: to help SMEs save time and money so they can get back to doing what they love. Tide…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-tide-7702555003",
+    "id": "gh-tide-7702553003",
     "title": "Senior Staff Software Engineer, Agentic Platform",
     "company": "Tide",
     "locations": [
-      "Lithuania"
+      "Bulgaria"
     ],
     "remote": false,
     "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-11",
-    "url": "https://job-boards.greenhouse.io/tide/jobs/7702555003",
+    "url": "https://job-boards.greenhouse.io/tide/jobs/7702553003",
     "site": "tide.co",
     "source": "greenhouse",
     "industry": "fintech",
@@ -28022,17 +28056,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-tide-7701767003",
+    "id": "gh-tide-7701777003",
     "title": "Staff Software Engineer, Agentic Platform",
     "company": "Tide",
     "locations": [
-      "United Kingdom"
+      "Lithuania"
     ],
     "remote": false,
     "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-11",
-    "url": "https://job-boards.greenhouse.io/tide/jobs/7701767003",
+    "url": "https://job-boards.greenhouse.io/tide/jobs/7701777003",
     "site": "tide.co",
     "source": "greenhouse",
     "industry": "fintech",
@@ -28148,17 +28182,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-raisin-4933599101",
+    "id": "gh-raisin-4936082101",
     "title": "Senior Software Engineer - US Payments and Partner Operations (m/f/d)",
     "company": "Raisin",
     "locations": [
-      "Madrid"
+      "Berlin, Germany"
     ],
     "remote": false,
     "rkind": "zone",
     "salary": null,
     "posted": "2026-08-11",
-    "url": "https://job-boards.eu.greenhouse.io/raisin/jobs/4933599101",
+    "url": "https://job-boards.eu.greenhouse.io/raisin/jobs/4936082101",
     "site": "raisin.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -28178,7 +28212,7 @@ window.JOBS_FINTECH = [
   },
   {
     "id": "lv-nium-38e9f791-863d-46bb-9eb5-c97e37a3b61f",
-    "title": "Senior Financial Analyst",
+    "title": "Senior Finance Analyst",
     "company": "Nium",
     "locations": [
       "Mumbai"
@@ -28446,29 +28480,6 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-08-25",
     "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. About the Role The majority of Fireblocks customers consume our APIs to build products on top of the platform, and that share has grown substantially over the past years and continues to grow steadily. Developers are the most…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-fireblocks-4698009006",
-    "title": "Sales Engineer",
-    "company": "Fireblocks",
-    "locations": [
-      "New York"
-    ],
-    "remote": false,
-    "rkind": "worldwide",
-    "salary": null,
-    "posted": "2026-08-11",
-    "url": "https://www.fireblocks.com/careers/position?gh_jid=4698009006",
-    "site": "fireblocks.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. About the Role: As a Sales Engineer at Fireblocks in the US, you will take full ownership and responsibility for your designated projects and clients, from the product sales demonstration up to the preparation of client onboarding. You…",
     "hasDesc": true
   },
   {
@@ -29035,32 +29046,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-monzo-6180814",
-    "title": "Senior Data Scientist",
-    "company": "Monzo",
-    "locations": [
-      "Cardiff, London or"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": null,
-    "posted": "2026-08-10",
-    "url": "https://job-boards.greenhouse.io/monzo/jobs/6180814",
-    "site": "monzo.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Данные и ML",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "Python",
-      "SQL"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "🚀 We’re on a mission to make money work for everyone. We’re waving goodbye to the complicated and confusing ways of traditional banking. After starting as a prepaid card, our product offering has grown a lot in the last 10 years in the UK. As well as personal and business bank accounts, we offer joint accounts, accounts for 16-17 year olds, a free kids account and credit cards in the UK, with more exciting things to come beyond. Our UK customers can also save, invest and combine their pensions with us. With our hot coral cards and get-paid-early feature, combined with financial education on social media and our award winning customer service, we have a long history of creating magical…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-adyen-8099367",
     "title": "Senior Financial Risk Analyst",
     "company": "Adyen",
@@ -29259,17 +29244,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4945505101",
+    "id": "gh-ebury-4947780101",
     "title": "Associate Product Manager - Service",
     "company": "Ebury",
     "locations": [
-      "Madrid"
+      "Málaga"
     ],
     "remote": false,
     "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-10",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4945505101",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4947780101",
     "site": "ebury.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -29278,21 +29263,21 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-08-25",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Associate Product Manager — Service (Client Operations) Ebury Madrid Office - Hybrid: 4 days in the office, 1 day working from home per week Do you want to own a product at the centre of how Ebury serves its clients - and…",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Associate Product Manager — Service (Client Operations) Ebury Malaga Office - Hybrid: 4 days in the office, 1 day working from home per week Do you want to own a product at the centre of how Ebury serves its clients - and…",
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4939721101",
+    "id": "gh-ebury-4934098101",
     "title": "Business Developer",
     "company": "Ebury",
     "locations": [
-      "Amsterdam"
+      "Porto Alegre"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-10",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4939721101",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4934098101",
     "site": "ebury.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -29301,21 +29286,21 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-08-25",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Business Developer Ebury Amsterdam - 4 days in the office, 1 day home office Launch Your FinTech Career as a Graduate Business Developer at Ebury in our dynamic Amsterdam team. Kickstart a meaningful sales career in the world…",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Business Developer / FX Sales Associate Ebury Porto Alegre - Office based Launch Your FinTech Career as a Graduate Business Developer / FX Sales Associate at Ebury in our dynamic team. Kickstart a meaningful sales career in…",
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4920903101",
+    "id": "gh-ebury-4944658101",
     "title": "Business Developer - FX Financial Solutions",
     "company": "Ebury",
     "locations": [
-      "Budapest"
+      "Zurich"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-10",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4920903101",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4944658101",
     "site": "ebury.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -29324,7 +29309,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-08-25",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Business Developer - FX Financial Solutions Ebury Budapest - Office based Launch Your FinTech Career as a Business Developer at Ebury in our dynamic Budapest team. Kickstart a meaningful sales career in the world of…",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Business Developer - FX Financial Solutions Ebury Zurich - Office based Launch Your FinTech Career as a Graduate Business Developer at Ebury in our dynamic Zurich team. Kickstart a meaningful sales career in the world of…",
     "hasDesc": true
   },
   {
@@ -29440,6 +29425,32 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-08-25",
     "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Customer Relations Executive (FX Dealing Desk) Ebury Prague - Office Based We are offering an exciting opportunity to join our Czech team. You will be a point of contact for some of our corporate clients, providing daily…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-ebury-4934339101",
+    "title": "Data Analyst II - Treasury",
+    "company": "Ebury",
+    "locations": [
+      "Madrid"
+    ],
+    "remote": false,
+    "rkind": "worldwide",
+    "salary": null,
+    "posted": "2026-08-10",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4934339101",
+    "site": "ebury.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Данные и ML",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Data Analyst - Treasury Location: Málaga or Madrid (Spain) - Hybrid: 4 days in the office, 1 day working from home per week Ebury’s strategic growth plan would not be possible without our Data Analytics & Reporting team and…",
     "hasDesc": true
   },
   {
@@ -29566,17 +29577,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4914694101",
+    "id": "gh-ebury-4920294101",
     "title": "Group Head of Sanctions and Exports Controls",
     "company": "Ebury",
     "locations": [
-      "London"
+      "Madrid"
     ],
     "remote": false,
     "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-10",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4914694101",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4920294101",
     "site": "ebury.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -29748,17 +29759,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4942713101",
+    "id": "gh-ebury-4942714101",
     "title": "Senior Commercial Product Manager",
     "company": "Ebury",
     "locations": [
-      "London"
+      "Madrid"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-10",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4942713101",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4942714101",
     "site": "ebury.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -29767,7 +29778,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-08-25",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Senior Commercial Product Manager Ebury London - Office based We’re looking for a Senior Commercial Product Manager to fuel the growth of our Institutional Solutions business. This role is a unique opportunity to have an…",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Senior Commercial Product Manager Ebury Madrid - Office based We’re looking for a Senior Commercial Product Manager to fuel the growth of our Institutional Solutions business. This role is a unique opportunity to have an…",
     "hasDesc": true
   },
   {
@@ -30060,17 +30071,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4947568101",
+    "id": "gh-ebury-4947822101",
     "title": "Senior Software Engineer (Payments)",
     "company": "Ebury",
     "locations": [
-      "Madrid"
+      "London"
     ],
     "remote": false,
     "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-10",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4947568101",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4947822101",
     "site": "ebury.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -30083,7 +30094,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-08-25",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Senior Software Engineer (Money Flows) Ebury Madrid Office - Hybrid: 4 days in the office, 1 day working from home About the Role The Engineering team at Ebury is looking for a Senior Software Engineer to play a pivotal role…",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Senior Software Engineer (Money Flows) Ebury London Office - Hybrid: 4 days in the office, 1 day working from home About the Role The Engineering team at Ebury is looking for a Senior Software Engineer to play a pivotal role…",
     "hasDesc": true
   },
   {
@@ -30164,17 +30175,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4947341101",
+    "id": "gh-ebury-4944557101",
     "title": "Staff Product Manager - API Connectivity",
     "company": "Ebury",
     "locations": [
-      "London"
+      "Málaga"
     ],
     "remote": false,
-    "rkind": "hybrid",
+    "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-10",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4947341101",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4944557101",
     "site": "ebury.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -30183,7 +30194,7 @@ window.JOBS_FINTECH = [
     "spec": "Бэкенд",
     "stack": [],
     "seen": "2026-08-25",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Staff Product Manager - API Connectivity Product Ebury London Office - Hybrid: 4 days in the office, 1 day working from home per week We are looking for an experienced Product Manager to own API Connectivity with ERP and…",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Staff Product Manager - API Connectivity Product Ebury Malaga Office - Hybrid: 4 days in the office, 1 day working from home per week We are looking for an experienced Product Manager to own API Connectivity with ERP and…",
     "hasDesc": true
   },
   {
@@ -30775,17 +30786,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-gocardless-7526075",
+    "id": "gh-gocardless-7526078",
     "title": "Senior Data Scientist, Payment Intelligence",
     "company": "GoCardless",
     "locations": [
-      "Lisbon, Portugal"
+      "Riga, Latvia"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "€ 55 200 – 82 800",
+    "salary": "€ 64 000 – 96 000",
     "posted": "2026-08-07",
-    "url": "https://job-boards.greenhouse.io/gocardless/jobs/7526075",
+    "url": "https://job-boards.greenhouse.io/gocardless/jobs/7526078",
     "site": "gocardless.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -31174,28 +31185,26 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ripple-7913402",
-    "title": "Senior Director, Security Engineering",
-    "company": "Ripple",
+    "id": "gh-fireblocks-4703408006",
+    "title": "Solutions Architect, AMER",
+    "company": "Fireblocks",
     "locations": [
-      "Chicago, United States"
+      "United States"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-07",
-    "url": "https://ripple.com/careers/all-jobs/job/7913402?gh_jid=7913402",
-    "site": "ripple.com",
+    "url": "https://www.fireblocks.com/careers/position?gh_jid=4703408006",
+    "site": "fireblocks.com",
     "source": "greenhouse",
     "industry": "fintech",
     "role": "Программирование",
-    "grade": "Lead",
-    "spec": "Безопасность",
-    "stack": [
-      "AWS"
-    ],
+    "grade": null,
+    "spec": null,
+    "stack": [],
     "seen": "2026-08-25",
-    "descShort": "At Ripple, we’re building a world where value moves like information does today. It’s big, it’s bold, and we’re already doing it. Through our crypto solutions for financial institutions, businesses, governments and developers, we are improving the global financial system and creating greater economic fairness and opportunity for more people, in more places around the world. And we get to do the best work of our career and grow our skills surrounded by colleagues who have our backs. If you’re ready to see your impact and unlock incredible career growth opportunities, join us, and build real world value. THE WORK: As the Senior Director of Security Engineering, you will be responsible for…",
+    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. Here’s the bit about the opportunity: As a Solution Architect in our AMER Professional Services team, you own the technical delivery of Fireblocks implementations for the region’s largest Banks and Financial Institutions. From deal close…",
     "hasDesc": true
   },
   {
@@ -31732,17 +31741,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7778748003",
+    "id": "gh-okx-7778747003",
     "title": "Engineering Director, Mobile, Web3",
     "company": "OKX",
     "locations": [
-      "Hong Kong, Hong Kong SAR"
+      "Singapore"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-07",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7778748003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7778747003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -31752,7 +31761,7 @@ window.JOBS_FINTECH = [
     "permit": true,
     "stack": [],
     "seen": "2026-08-25",
-    "descShort": "OKX will be prioritising applicants who have a current right to work in Hong Kong, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
+    "descShort": "OKX will be prioritising applicants who have a current right to work in Singapore, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
     "hasDesc": true
   },
   {
@@ -31896,17 +31905,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7821266003",
+    "id": "gh-okx-7821265003",
     "title": "Growth Product Manager, Listing Campaign",
     "company": "OKX",
     "locations": [
-      "Hong Kong, Hong Kong SAR"
+      "Singapore"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-07",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7821266003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7821265003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -31916,7 +31925,7 @@ window.JOBS_FINTECH = [
     "permit": true,
     "stack": [],
     "seen": "2026-08-25",
-    "descShort": "OKX will be prioritising applicants who have a current right to work in Hong Kong, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
+    "descShort": "OKX will be prioritising applicants who have a current right to work in Singapore, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
     "hasDesc": true
   },
   {
@@ -31945,17 +31954,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7741363003",
+    "id": "gh-okx-7741364003",
     "title": "Head of Communications and PR, APAC",
     "company": "OKX",
     "locations": [
-      "Singapore"
+      "Hong Kong, Hong Kong SAR"
     ],
     "remote": false,
     "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-07",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7741363003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7741364003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -32044,53 +32053,49 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-6690158003",
+    "id": "gh-okx-7671555003",
     "title": "Principal AI Engineer, AI Agent Development",
     "company": "OKX",
     "locations": [
-      "Hong Kong, Hong Kong SAR",
-      "Singapore"
+      "APAC"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-07",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/6690158003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7671555003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
     "role": "Программирование",
     "grade": "Lead",
     "spec": null,
-    "permit": true,
     "stack": [],
     "seen": "2026-08-25",
-    "descShort": "OKX will be prioritising applicants who have a current right to work in Singapore, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
+    "descShort": "Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things Done. These shared values drive our culture, shape our processes, and foster a friendly, rewarding, and diverse environment for every…",
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7648781003",
+    "id": "gh-okx-7650506003",
     "title": "Principal AI Engineer, Chatbot Development",
     "company": "OKX",
     "locations": [
-      "Hong Kong, Hong Kong SAR",
-      "Singapore"
+      "San Jose, United States"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-07",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7648781003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7650506003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
     "role": "Программирование",
     "grade": "Lead",
     "spec": null,
-    "permit": true,
     "stack": [],
     "seen": "2026-08-25",
-    "descShort": "OKX will be prioritising applicants who have a current right to work in Singapore, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
+    "descShort": "Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things Done. These shared values drive our culture, shape our processes, and foster a friendly, rewarding, and diverse environment for every…",
     "hasDesc": true
   },
   {
@@ -32237,17 +32242,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7531921003",
+    "id": "gh-okx-7531920003",
     "title": "Principal/Senior Product Manager, AI and Agent",
     "company": "OKX",
     "locations": [
-      "Singapore"
+      "Hong Kong, Hong Kong SAR"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-07",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7531921003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7531920003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -32257,7 +32262,7 @@ window.JOBS_FINTECH = [
     "permit": true,
     "stack": [],
     "seen": "2026-08-25",
-    "descShort": "OKX will be prioritising applicants who have a current right to work in Singapore, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
+    "descShort": "OKX will be prioritising applicants who have a current right to work in Hong Kong, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
     "hasDesc": true
   },
   {
@@ -32311,17 +32316,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-6584031003",
+    "id": "gh-okx-6584033003",
     "title": "Principal / Senior Product Manager, Institution Onboarding Experience (KYB)",
     "company": "OKX",
     "locations": [
-      "Hong Kong, Hong Kong SAR"
+      "Singapore"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-07",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/6584031003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/6584033003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -32334,17 +32339,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7525131003",
+    "id": "gh-okx-6194768003",
     "title": "Principal / Senior Product Manager, Payment",
     "company": "OKX",
     "locations": [
-      "Singapore"
+      "Hong Kong, Hong Kong SAR"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-07",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7525131003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/6194768003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -32380,17 +32385,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7768122003",
+    "id": "gh-okx-7768121003",
     "title": "Principal/Senior Software Engineer, Mobile, CEX",
     "company": "OKX",
     "locations": [
-      "Hong Kong, Hong Kong SAR"
+      "Singapore"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-07",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7768122003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7768121003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -32400,7 +32405,7 @@ window.JOBS_FINTECH = [
     "permit": true,
     "stack": [],
     "seen": "2026-08-25",
-    "descShort": "OKX will be prioritising applicants who have a current right to work in Hong Kong, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
+    "descShort": "OKX will be prioritising applicants who have a current right to work in Singapore, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
     "hasDesc": true
   },
   {
@@ -32499,17 +32504,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7782668003",
+    "id": "gh-okx-7782667003",
     "title": "Product Manager / Director, Financial Products",
     "company": "OKX",
     "locations": [
-      "Hong Kong, Hong Kong SAR"
+      "Singapore"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-07",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7782668003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7782667003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -32519,21 +32524,21 @@ window.JOBS_FINTECH = [
     "permit": true,
     "stack": [],
     "seen": "2026-08-25",
-    "descShort": "OKX will be prioritising applicants who have a current right to work in Hong Kong, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
+    "descShort": "OKX will be prioritising applicants who have a current right to work in Singapore, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7738698003",
+    "id": "gh-okx-7738699003",
     "title": "Product Manager / Director, Institutional Growth",
     "company": "OKX",
     "locations": [
-      "Singapore"
+      "Hong Kong, Hong Kong SAR"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-07",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7738698003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7738699003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -32543,21 +32548,21 @@ window.JOBS_FINTECH = [
     "permit": true,
     "stack": [],
     "seen": "2026-08-25",
-    "descShort": "OKX will be prioritising applicants who have a current right to work in Singapore, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
+    "descShort": "OKX will be prioritising applicants who have a current right to work in Hong Kong, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7747640003",
+    "id": "gh-okx-7747641003",
     "title": "Product Manager / Director, Institutional Product",
     "company": "OKX",
     "locations": [
-      "Singapore"
+      "Hong Kong, Hong Kong SAR"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-07",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7747640003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7747641003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -32567,21 +32572,21 @@ window.JOBS_FINTECH = [
     "permit": true,
     "stack": [],
     "seen": "2026-08-25",
-    "descShort": "OKX will be prioritising applicants who have a current right to work in Singapore, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
+    "descShort": "OKX will be prioritising applicants who have a current right to work in Hong Kong, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7792230003",
+    "id": "gh-okx-7792229003",
     "title": "Product Manager / Director, Structured Products",
     "company": "OKX",
     "locations": [
-      "Hong Kong, Hong Kong SAR"
+      "Singapore"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-07",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7792230003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7792229003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -32591,36 +32596,12 @@ window.JOBS_FINTECH = [
     "permit": true,
     "stack": [],
     "seen": "2026-08-25",
-    "descShort": "OKX will be prioritising applicants who have a current right to work in Hong Kong, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
+    "descShort": "OKX will be prioritising applicants who have a current right to work in Singapore, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7739031003",
+    "id": "gh-okx-7739030003",
     "title": "Product Manager / Director, Trading Infrastructure",
-    "company": "OKX",
-    "locations": [
-      "Hong Kong, Hong Kong SAR"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-07",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7739031003",
-    "site": "okx.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Трейдинг",
-    "grade": "Lead",
-    "spec": null,
-    "permit": true,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "OKX will be prioritising applicants who have a current right to work in Hong Kong, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-okx-7712844003",
-    "title": "Product Manager / Director, Trading Products",
     "company": "OKX",
     "locations": [
       "Singapore"
@@ -32629,7 +32610,7 @@ window.JOBS_FINTECH = [
     "rkind": null,
     "salary": null,
     "posted": "2026-08-07",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7712844003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7739030003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -32640,6 +32621,30 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-08-25",
     "descShort": "OKX will be prioritising applicants who have a current right to work in Singapore, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-okx-7712845003",
+    "title": "Product Manager / Director, Trading Products",
+    "company": "OKX",
+    "locations": [
+      "Hong Kong, Hong Kong SAR"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-07",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7712845003",
+    "site": "okx.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Трейдинг",
+    "grade": "Lead",
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "OKX will be prioritising applicants who have a current right to work in Hong Kong, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
     "hasDesc": true
   },
   {
@@ -32667,17 +32672,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7766851003",
+    "id": "gh-okx-7766850003",
     "title": "Product Manager / Director, VIP Growth & Operations",
     "company": "OKX",
     "locations": [
-      "Hong Kong, Hong Kong SAR"
+      "Singapore"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-07",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7766851003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7766850003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -32687,7 +32692,7 @@ window.JOBS_FINTECH = [
     "permit": true,
     "stack": [],
     "seen": "2026-08-25",
-    "descShort": "OKX will be prioritising applicants who have a current right to work in Hong Kong, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
+    "descShort": "OKX will be prioritising applicants who have a current right to work in Singapore, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
     "hasDesc": true
   },
   {
@@ -32992,6 +32997,29 @@ window.JOBS_FINTECH = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-08-25",
+    "descShort": "🚀 We’re on a mission to make money work for everyone. We’re waving goodbye to the complicated and confusing ways of traditional banking. After starting as a prepaid card, our product offering has grown a lot in the last 10 years in the UK. As well as personal and business bank accounts, we offer joint accounts, accounts for 16-17 year olds, a free kids account and credit cards in the UK, with more exciting things to come beyond. Our UK customers can also save, invest and combine their pensions with us. With our hot coral cards and get-paid-early feature, combined with financial education on social media and our award winning customer service, we have a long history of creating magical…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-monzo-8096406",
+    "title": "Risk Assurance Manager",
+    "company": "Monzo",
+    "locations": [
+      "Barcelona"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-06",
+    "url": "https://job-boards.greenhouse.io/monzo/jobs/8096406",
+    "site": "monzo.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Риски",
+    "grade": null,
+    "spec": null,
+    "stack": [],
     "seen": "2026-08-25",
     "descShort": "🚀 We’re on a mission to make money work for everyone. We’re waving goodbye to the complicated and confusing ways of traditional banking. After starting as a prepaid card, our product offering has grown a lot in the last 10 years in the UK. As well as personal and business bank accounts, we offer joint accounts, accounts for 16-17 year olds, a free kids account and credit cards in the UK, with more exciting things to come beyond. Our UK customers can also save, invest and combine their pensions with us. With our hot coral cards and get-paid-early feature, combined with financial education on social media and our award winning customer service, we have a long history of creating magical…",
     "hasDesc": true
@@ -33386,6 +33414,30 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-08-25",
     "descShort": "Please note that we are unable to consider applications from candidates based in France, Italy, or Germany for this role. Consensys is the leading blockchain and web3 software company. Founded by Joe Lubin, CEO of Consensys and Co-Founder of Ethereum in 2014, Consensys has been at the forefront of innovation, pioneering technological developments within the web3 ecosystem. The financial system is being rebuilt on open, programmable infrastructure, and Consensys is helping power that transition. From MetaMask, the platform trusted by tens of millions of users worldwide, to Linea, the only 100% proven zkEVM rollup and an emerging home for institutional ETH capital, Consensys builds products…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-ripple-7767541",
+    "title": "Treasury Manager, Global Treasury Operations",
+    "company": "Ripple",
+    "locations": [
+      "Toronto, Canada"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 136 000 – 170 000",
+    "posted": "2026-08-06",
+    "url": "https://ripple.com/careers/all-jobs/job/7767541?gh_jid=7767541",
+    "site": "ripple.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Платежи",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "At Ripple, we’re building a world where value moves like information does today. It’s big, it’s bold, and we’re already doing it. Through our crypto solutions for financial institutions, businesses, governments and developers, we are improving the global financial system and creating greater economic fairness and opportunity for more people, in more places around the world. And we get to do the best work of our career and grow our skills surrounded by colleagues who have our backs. If you’re ready to see your impact and unlock incredible career growth opportunities, join us, and build real world value. The WORK: As our Treasury team grows worldwide, we are hiring a versatile, operational…",
     "hasDesc": true
   },
   {
@@ -34905,27 +34957,31 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ripple-8009464",
-    "title": "Treasury Implementation Consultant (German-Speaking)",
+    "id": "gh-ripple-8106886",
+    "title": "Senior Software Engineer",
     "company": "Ripple",
     "locations": [
-      "Luxembourg"
+      "Chicago, United States"
     ],
     "remote": false,
     "rkind": null,
-    "salary": null,
+    "salary": "$ 164 000 – 205 000",
     "posted": "2026-08-05",
-    "url": "https://ripple.com/careers/all-jobs/job/8009464?gh_jid=8009464",
+    "url": "https://ripple.com/careers/all-jobs/job/8106886?gh_jid=8106886",
     "site": "ripple.com",
     "source": "greenhouse",
     "industry": "fintech",
-    "role": "Платежи",
-    "grade": null,
+    "role": "Программирование",
+    "grade": "Senior",
     "spec": null,
     "permit": true,
-    "stack": [],
+    "stack": [
+      "C#",
+      "JavaScript",
+      "SQL"
+    ],
     "seen": "2026-08-25",
-    "descShort": "At Ripple, we’re building a world where value moves like information does today. It’s big, it’s bold, and we’re already doing it. Through our crypto solutions for financial institutions, businesses, governments and developers, we are improving the global financial system and creating greater economic fairness and opportunity for more people, in more places around the world. And we get to do the best work of our career and grow our skills surrounded by colleagues who have our backs. If you’re ready to see your impact and unlock incredible career growth opportunities, join us, and build real world value. THE WORK: At Ripple, we empower organizations on their path to strategic treasury through…",
+    "descShort": "At Ripple, we’re building a world where value moves like information does today. It’s big, it’s bold, and we’re already doing it. Through our crypto solutions for financial institutions, businesses, governments and developers, we are improving the global financial system and creating greater economic fairness and opportunity for more people, in more places around the world. And we get to do the best work of our career and grow our skills surrounded by colleagues who have our backs. If you’re ready to see your impact and unlock incredible career growth opportunities, join us, and build real world value. THE WORK: As a Senior Software Developer, you will build and own the platform powering…",
     "hasDesc": true
   },
   {
@@ -34975,29 +35031,6 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-08-25",
     "descShort": "Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. As a Territory Sales Account Executive, you will be part of a team that is transforming the way restaurants operate. Using a consultative approach, you will prospect, build relationships, and sign up new restaurateurs in your local area. By understanding their unique needs, you will develop a customized solution that helps their business thrive. We need your passion and expertise to help us build the Toast brand in your geographic territory. This is a field sales opportunity based out of a personal home…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-monzo-7686358",
-    "title": "Risk Assurance Manager",
-    "company": "Monzo",
-    "locations": [
-      "Dublin"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-04",
-    "url": "https://job-boards.greenhouse.io/monzo/jobs/7686358",
-    "site": "monzo.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Риски",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "🚀 We’re on a mission to make money work for everyone. We’re waving goodbye to the complicated and confusing ways of traditional banking. After starting as a prepaid card, our product offering has grown a lot in the last 10 years in the UK. As well as personal and business bank accounts, we offer joint accounts, accounts for 16-17 year olds, a free kids account and credit cards in the UK, with more exciting things to come beyond. Our UK customers can also save, invest and combine their pensions with us. With our hot coral cards and get-paid-early feature, combined with financial education on social media and our award winning customer service, we have a long history of creating magical…",
     "hasDesc": true
   },
   {
@@ -35304,31 +35337,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-coinbase-8024880",
-    "title": "Senior Analytics Engineer, GFCO Analytics",
-    "company": "Coinbase",
-    "locations": [
-      "United States"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": "$ 152 405 – 179 300",
-    "posted": "2026-08-04",
-    "url": "https://www.coinbase.com/careers/positions/8024880?gh_jid=8024880",
-    "site": "coinbase.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "SQL"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Ready to do the most impactful work of your career? At Coinbase, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase. We're hiring an Analytics Engineer to join the GFCO Analytics Engineering team and build the data…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-gemini-8099895",
     "title": "Senior Data Platform Engineer",
     "company": "Gemini",
@@ -35353,17 +35361,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-fireblocks-4700949006",
+    "id": "gh-fireblocks-4701943006",
     "title": "Business Solutions Director, Payments",
     "company": "Fireblocks",
     "locations": [
-      "London"
+      "Singapore"
     ],
     "remote": false,
     "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-04",
-    "url": "https://www.fireblocks.com/careers/position?gh_jid=4700949006",
+    "url": "https://www.fireblocks.com/careers/position?gh_jid=4701943006",
     "site": "fireblocks.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -35582,17 +35590,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-fireblocks-4698016006",
+    "id": "gh-fireblocks-4688817006",
     "title": "Sales Director, Payments",
     "company": "Fireblocks",
     "locations": [
-      "New York"
+      "Seattle, United States"
     ],
     "remote": false,
     "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-04",
-    "url": "https://www.fireblocks.com/careers/position?gh_jid=4698016006",
+    "url": "https://www.fireblocks.com/careers/position?gh_jid=4688817006",
     "site": "fireblocks.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -35602,6 +35610,29 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-08-25",
     "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. Welcome to Fireblocks, the industry-leading digital asset infrastructure technology company responsible for 15% of all crypto transactions! Here’s the bit about us: Fireblocks is the world’s most trusted digital asset infrastructure…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-fireblocks-4606870006",
+    "title": "Sales Engineer",
+    "company": "Fireblocks",
+    "locations": [
+      "Hong Kong"
+    ],
+    "remote": false,
+    "rkind": "worldwide",
+    "salary": null,
+    "posted": "2026-08-04",
+    "url": "https://www.fireblocks.com/careers/position?gh_jid=4606870006",
+    "site": "fireblocks.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. Here’s the bit about us: Fireblocks is an enterprise-grade platform delivering a secure infrastructure for moving, storing, and issuing digital assets like cryptocurrencies and NFTs. At Fireblocks, we enable financial institutions to…",
     "hasDesc": true
   },
   {
@@ -35801,29 +35832,6 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-08-25",
     "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. About the Role The way most marketing teams build on the web hasn't changed much in over a decade. We think there's a better way, and we're ready to find it. We're hiring a Senior Web Engineer to help us rethink web production from the…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-fireblocks-4699994006",
-    "title": "Solutions Architect, AMER",
-    "company": "Fireblocks",
-    "locations": [
-      "New York"
-    ],
-    "remote": false,
-    "rkind": "worldwide",
-    "salary": null,
-    "posted": "2026-08-04",
-    "url": "https://www.fireblocks.com/careers/position?gh_jid=4699994006",
-    "site": "fireblocks.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. Here’s the bit about the opportunity: As a Solution Architect in our AMER Professional Services team, you own the technical delivery of Fireblocks implementations for the region’s largest Banks and Financial Institutions. From deal close…",
     "hasDesc": true
   },
   {
@@ -36258,17 +36266,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ripple-7904761",
+    "id": "gh-ripple-7904773",
     "title": "Principal Technical Program Manager",
     "company": "Ripple",
     "locations": [
-      "San Francisco, United States"
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 240 000 – 290 000",
+    "salary": "$ 228 000 – 280 000",
     "posted": "2026-08-03",
-    "url": "https://ripple.com/careers/all-jobs/job/7904761?gh_jid=7904761",
+    "url": "https://ripple.com/careers/all-jobs/job/7904773?gh_jid=7904773",
     "site": "ripple.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -36281,22 +36289,22 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ripple-7872439",
-    "title": "Senior Software Engineer, Data Engineering",
+    "id": "gh-ripple-8030778",
+    "title": "Staff Software Engineer, Data Engineering",
     "company": "Ripple",
     "locations": [
       "San Francisco, United States"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 172 000 – 215 000",
+    "salary": "$ 212 000 – 265 000",
     "posted": "2026-08-03",
-    "url": "https://ripple.com/careers/all-jobs/job/7872439?gh_jid=7872439",
+    "url": "https://ripple.com/careers/all-jobs/job/8030778?gh_jid=8030778",
     "site": "ripple.com",
     "source": "greenhouse",
     "industry": "fintech",
     "role": "Программирование",
-    "grade": "Senior",
+    "grade": null,
     "spec": "Данные",
     "stack": [
       "Unity",
@@ -36309,17 +36317,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ripple-7997801",
+    "id": "gh-ripple-7997789",
     "title": "Staff Technical Program Manager",
     "company": "Ripple",
     "locations": [
-      "New York, United States"
+      "San Francisco, United States"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 172 000 – 215 000",
+    "salary": "$ 188 000 – 235 000",
     "posted": "2026-08-03",
-    "url": "https://ripple.com/careers/all-jobs/job/7997801?gh_jid=7997801",
+    "url": "https://ripple.com/careers/all-jobs/job/7997789?gh_jid=7997789",
     "site": "ripple.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -36329,6 +36337,30 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-08-25",
     "descShort": "At Ripple, we’re building a world where value moves like information does today. It’s big, it’s bold, and we’re already doing it. Through our crypto solutions for financial institutions, businesses, governments and developers, we are improving the global financial system and creating greater economic fairness and opportunity for more people, in more places around the world. And we get to do the best work of our career and grow our skills surrounded by colleagues who have our backs. If you’re ready to see your impact and unlock incredible career growth opportunities, join us, and build real world value. The work: We're seeking a dedicated, passionate, and eager Staff Technical Program…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-ripple-8009442",
+    "title": "Treasury Implementation Consultant (German-Speaking)",
+    "company": "Ripple",
+    "locations": [
+      "London, United Kingdom"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-03",
+    "url": "https://ripple.com/careers/all-jobs/job/8009442?gh_jid=8009442",
+    "site": "ripple.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Платежи",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "At Ripple, we’re building a world where value moves like information does today. It’s big, it’s bold, and we’re already doing it. Through our crypto solutions for financial institutions, businesses, governments and developers, we are improving the global financial system and creating greater economic fairness and opportunity for more people, in more places around the world. And we get to do the best work of our career and grow our skills surrounded by colleagues who have our backs. If you’re ready to see your impact and unlock incredible career growth opportunities, join us, and build real world value. THE WORK: At Ripple, we empower organizations on their path to strategic treasury through…",
     "hasDesc": true
   },
   {
@@ -36950,32 +36982,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-block-4989505008",
-    "title": "Senior Software Engineer, Data Enablement",
-    "company": "Block",
-    "locations": [
-      "Bay Area, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-03",
-    "url": "http://block.xyz/careers/jobs/4989505008?gh_jid=4989505008",
-    "site": "block.xyz",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "Kotlin",
-      "AWS"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture new initiatives, and more. Every challenge creates possibilities, and we need different perspectives to see them all. Bring yours to Block. The Role The Data Enablement team builds the platforms and…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-block-5281196008",
     "title": "Senior Software Engineer, Ledgering",
     "company": "Block",
@@ -37033,17 +37039,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-block-5238423008",
+    "id": "gh-block-4884159008",
     "title": "Staff Android Software Engineer, Cash App Consumer Platform",
     "company": "Block",
     "locations": [
-      "New York, United States"
+      "Bay Area, United States"
     ],
     "remote": false,
     "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-03",
-    "url": "http://block.xyz/careers/jobs/5238423008?gh_jid=5238423008",
+    "url": "http://block.xyz/careers/jobs/4884159008?gh_jid=4884159008",
     "site": "block.xyz",
     "source": "greenhouse",
     "industry": "fintech",
@@ -37058,17 +37064,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-block-5114793008",
+    "id": "gh-block-5098519008",
     "title": "Staff Data Analyst, Block Compliance",
     "company": "Block",
     "locations": [
-      "Denver, United States"
+      "Bay Area, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-03",
-    "url": "http://block.xyz/careers/jobs/5114793008?gh_jid=5114793008",
+    "url": "http://block.xyz/careers/jobs/5098519008?gh_jid=5098519008",
     "site": "block.xyz",
     "source": "greenhouse",
     "industry": "fintech",
@@ -37084,17 +37090,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-block-5216800008",
+    "id": "gh-block-5216603008",
     "title": "Staff Machine Learning Engineer, Credit Products (Square Financial Services)",
     "company": "Block",
     "locations": [
-      "Seattle, United States"
+      "Bay Area, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-03",
-    "url": "http://block.xyz/careers/jobs/5216800008?gh_jid=5216800008",
+    "url": "http://block.xyz/careers/jobs/5216603008?gh_jid=5216603008",
     "site": "block.xyz",
     "source": "greenhouse",
     "industry": "fintech",
@@ -37159,17 +37165,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-block-5196196008",
+    "id": "gh-block-5207148008",
     "title": "Staff Software Engineer, Cash App Banking",
     "company": "Block",
     "locations": [
-      "Toronto, Canada"
+      "New York, United States"
     ],
     "remote": false,
     "rkind": "worldwide",
     "salary": null,
     "posted": "2026-08-03",
-    "url": "http://block.xyz/careers/jobs/5196196008?gh_jid=5196196008",
+    "url": "http://block.xyz/careers/jobs/5207148008?gh_jid=5207148008",
     "site": "block.xyz",
     "source": "greenhouse",
     "industry": "fintech",
@@ -37334,17 +37340,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-monzo-8098655",
+    "id": "gh-monzo-8098915",
     "title": "Senior Risk & Compliance Officer",
     "company": "Monzo",
     "locations": [
-      "Barcelona"
+      "Madrid"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-07-31",
-    "url": "https://job-boards.greenhouse.io/monzo/jobs/8098655",
+    "url": "https://job-boards.greenhouse.io/monzo/jobs/8098915",
     "site": "monzo.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -37354,52 +37360,6 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-08-25",
     "descShort": "🚀 We’re on a mission to make money work for everyone. We’re waving goodbye to the complicated and confusing ways of traditional banking. After starting as a prepaid card, our product offering has grown a lot in the last 10 years in the UK. As well as personal and business bank accounts, we offer joint accounts, accounts for 16-17 year olds, a free kids account and credit cards in the UK, with more exciting things to come beyond. Our UK customers can also save, invest and combine their pensions with us. With our hot coral cards and get-paid-early feature, combined with financial education on social media and our award winning customer service, we have a long history of creating magical…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-adyen-8042142",
-    "title": "Payments Performance Analyst (Data & Analytics)",
-    "company": "Adyen",
-    "locations": [
-      "São Paulo"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-07-31",
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/8042142",
-    "site": "adyen.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Платежи",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. Payments Performance Analyst (Data & Analytics) We are looking…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-adyen-8098690",
-    "title": "Payments Performance Analyst (Data & Analytics) - Affirmative Action for Women",
-    "company": "Adyen",
-    "locations": [
-      "São Paulo"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-07-31",
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/8098690",
-    "site": "adyen.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Платежи",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. Payments Performance Analyst (Data & Analytics) - Affirmative…",
     "hasDesc": true
   },
   {
@@ -38793,17 +38753,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8659250002",
+    "id": "gh-brex-8659249002",
     "title": "Senior Product Manager, Travel",
     "company": "Brex",
     "locations": [
-      "Seattle, United States"
+      "San Francisco, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 184 000 – 230 000",
     "posted": "2026-07-30",
-    "url": "https://www.brex.com/careers/8659250002?gh_jid=8659250002",
+    "url": "https://www.brex.com/careers/8659249002?gh_jid=8659249002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -38839,17 +38799,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8659237002",
+    "id": "gh-brex-8659221002",
     "title": "Staff Product Manager, Card",
     "company": "Brex",
     "locations": [
-      "New York, United States"
+      "Seattle, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 240 000 – 300 000",
     "posted": "2026-07-30",
-    "url": "https://www.brex.com/careers/8659237002?gh_jid=8659237002",
+    "url": "https://www.brex.com/careers/8659221002?gh_jid=8659221002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -38908,17 +38868,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8659242002",
+    "id": "gh-brex-8659239002",
     "title": "Staff Product Manager, Expenses",
     "company": "Brex",
     "locations": [
-      "New York, United States"
+      "San Francisco, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 240 000 – 300 000",
     "posted": "2026-07-30",
-    "url": "https://www.brex.com/careers/8659242002?gh_jid=8659242002",
+    "url": "https://www.brex.com/careers/8659239002?gh_jid=8659239002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -39323,29 +39283,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-coinbase-8054055",
-    "title": "Senior IT Automation Engineer",
-    "company": "Coinbase",
-    "locations": [
-      "India"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": null,
-    "posted": "2026-07-29",
-    "url": "https://www.coinbase.com/careers/positions/8054055?gh_jid=8054055",
-    "site": "coinbase.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "QA",
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Ready to do the most impactful work of your career? At Coinbase, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase. The IT Tooling team sits within IT Support & Services (ITSS) and builds the automations that power…",
-    "hasDesc": true
-  },
-  {
     "id": "ab-plaid-72b12284-00b6-4557-a4fb-38eb0b771779",
     "title": "Senior Product Manager, Credit",
     "company": "Plaid",
@@ -39442,17 +39379,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8402259002",
+    "id": "gh-brex-8079278002",
     "title": "Product Marketing Lead",
     "company": "Brex",
     "locations": [
-      "San Francisco, United States"
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 231 365 – 257 075",
     "posted": "2026-07-29",
-    "url": "https://www.brex.com/careers/8402259002?gh_jid=8402259002",
+    "url": "https://www.brex.com/careers/8079278002?gh_jid=8079278002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -39644,17 +39581,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-adyen-8068182",
+    "id": "gh-adyen-8084480",
     "title": "Regulatory Product Specialist",
     "company": "Adyen",
     "locations": [
-      "New York"
+      "Chicago"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 135 000 – 175 000",
     "posted": "2026-07-28",
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/8068182",
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/8084480",
     "site": "adyen.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -40254,29 +40191,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ripple-7742944",
-    "title": "Senior Ecosystem Growth Manager",
-    "company": "Ripple",
-    "locations": [
-      "London, United Kingdom"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-07-26",
-    "url": "https://ripple.com/careers/all-jobs/job/7742944?gh_jid=7742944",
-    "site": "ripple.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Маркетинг",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "At Ripple, we’re building a world where value moves like information does today. It’s big, it’s bold, and we’re already doing it. Through our crypto solutions for financial institutions, businesses, governments and developers, we are improving the global financial system and creating greater economic fairness and opportunity for more people, in more places around the world. And we get to do the best work of our career and grow our skills surrounded by colleagues who have our backs. If you’re ready to see your impact and unlock incredible career growth opportunities, join us, and build real world value. THE WORK: We’re hiring a Senior Ecosystem Growth Manager to grow the ecosystem building…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-monzo-8083280",
     "title": "Senior Technical Program Manager",
     "company": "Monzo",
@@ -40370,6 +40284,31 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-08-25",
     "descShort": "ABOUT AIRWALLEX Airwallex is the only unified payments and financial platform for global businesses. Powered by our unique combination of proprietary infrastructure and software, we empower over 250,000 businesses worldwide – including Brex, Navan, Qantas, SHEIN and many more – with fully integrated solutions to manage everything from business accounts, payments, spend management and treasury, to embedded finance at a global scale. Proudly founded in Melbourne, we have a team of over 2,300 of the brightest and most innovative people in tech across 27 offices around the globe. Valued at US$11 billion and backed by world-leading investors including T. Rowe Price, Visa, Mastercard, Robinhood…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-ripple-7646353",
+    "title": "Senior Ecosystem Growth Manager",
+    "company": "Ripple",
+    "locations": [
+      "Miami, United States",
+      "New York, United States",
+      "São Paulo, Brazil"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-24",
+    "url": "https://ripple.com/careers/all-jobs/job/7646353?gh_jid=7646353",
+    "site": "ripple.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Маркетинг",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "At Ripple, we’re building a world where value moves like information does today. It’s big, it’s bold, and we’re already doing it. Through our crypto solutions for financial institutions, businesses, governments and developers, we are improving the global financial system and creating greater economic fairness and opportunity for more people, in more places around the world. And we get to do the best work of our career and grow our skills surrounded by colleagues who have our backs. If you’re ready to see your impact and unlock incredible career growth opportunities, join us, and build real world value. What you’ll be part of: At Ripple, we’re building a world where value moves like…",
     "hasDesc": true
   },
   {
@@ -41152,17 +41091,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8645961002",
+    "id": "gh-brex-8645769002",
     "title": "Event Marketing Manager",
     "company": "Brex",
     "locations": [
-      "New York, United States"
+      "Seattle, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 103 960 – 129 950",
     "posted": "2026-07-23",
-    "url": "https://www.brex.com/careers/8645961002?gh_jid=8645961002",
+    "url": "https://www.brex.com/careers/8645769002?gh_jid=8645769002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -41196,29 +41135,6 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-08-25",
     "descShort": "Job Overview: The Lead Salesforce Developer within the BTT (Business Technology and Transformation) team will collaborate with other developers, architects, admins, QA and release and Engineering managers to deliver new innovative solutions on the Salesforce platform. Toast has ambitious plans for the future, and this role will assist in making them happen. About this roll* (Responsibilities) • Spends majority of their time working on Salesforce related solution, design development tasks, requiring a high degree of technical expertise, like: • Salesforce platform - Security, Sharing, Visibility, Data Model, Flows etc • APEX- Triggers, Platform Event handlers, batch processes, Async…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-toast-7791610",
-    "title": "Senior Principal Software Engineer, GTM",
-    "company": "Toast",
-    "locations": [
-      "United States"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": null,
-    "posted": "2026-07-23",
-    "url": "https://careers.toasttab.com/jobs?gh_jid=7791610",
-    "site": "toasttab.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Lead",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. GTM Experiences defines how Toast engages with, supports, and grows customers across their entire lifecycle. This organization brings together Onboarding, Support, and Product-Led Growth (PLG) into a unified group responsible for designing and delivering a cohesive, end-to-end customer experience powered by intelligent systems and agents. This team builds the platforms and experiences that shape how customers discover value, get started, receive help, and expand their use of Toast. We operate at the…",
     "hasDesc": true
   },
   {
@@ -41542,6 +41458,32 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-coinbase-8056068",
+    "title": "Senior Staff Software Engineer, Payments",
+    "company": "Coinbase",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "$ 253 895 – 298 700",
+    "posted": "2026-07-22",
+    "url": "https://www.coinbase.com/careers/positions/8056068?gh_jid=8056068",
+    "site": "coinbase.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Платежи",
+    "stack": [
+      "Python",
+      "Java"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "Ready to do the most impactful work of your career? At Coinbase, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase. As a Senior Staff Software Engineer on the Platform Payments team, you'll define the engineering…",
+    "hasDesc": true
+  },
+  {
     "id": "ab-plaid-453966dc-6854-421d-8cac-0eee80cf2048",
     "title": "Strategic Finance Lead, Product & Engineering",
     "company": "Plaid",
@@ -41566,17 +41508,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8618076002",
+    "id": "gh-brex-8612473002",
     "title": "Staff Software Engineer, Banking",
     "company": "Brex",
     "locations": [
-      "Seattle, United States"
+      "San Francisco, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-07-22",
-    "url": "https://www.brex.com/careers/8618076002?gh_jid=8618076002",
+    "url": "https://www.brex.com/careers/8612473002?gh_jid=8612473002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -41708,6 +41650,32 @@ window.JOBS_FINTECH = [
     "spec": "Бэкенд",
     "stack": [
       "Java"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "🚀 We’re on a mission to make money work for everyone. We’re waving goodbye to the complicated and confusing ways of traditional banking. After starting as a prepaid card, our product offering has grown a lot in the last 10 years in the UK. As well as personal and business bank accounts, we offer joint accounts, accounts for 16-17 year olds, a free kids account and credit cards in the UK, with more exciting things to come beyond. Our UK customers can also save, invest and combine their pensions with us. With our hot coral cards and get-paid-early feature, combined with financial education on social media and our award winning customer service, we have a long history of creating magical…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-monzo-8064099",
+    "title": "Senior Data Scientist",
+    "company": "Monzo",
+    "locations": [
+      "Barcelona"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-21",
+    "url": "https://job-boards.greenhouse.io/monzo/jobs/8064099",
+    "site": "monzo.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Данные и ML",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
     ],
     "seen": "2026-08-25",
     "descShort": "🚀 We’re on a mission to make money work for everyone. We’re waving goodbye to the complicated and confusing ways of traditional banking. After starting as a prepaid card, our product offering has grown a lot in the last 10 years in the UK. As well as personal and business bank accounts, we offer joint accounts, accounts for 16-17 year olds, a free kids account and credit cards in the UK, with more exciting things to come beyond. Our UK customers can also save, invest and combine their pensions with us. With our hot coral cards and get-paid-early feature, combined with financial education on social media and our award winning customer service, we have a long history of creating magical…",
@@ -42193,6 +42161,27 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-toast-8029612",
+    "title": "Senior Manager, GTM Sales Engineer & AI solutions",
+    "company": "Toast",
+    "locations": [],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-21",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=8029612",
+    "site": "toasttab.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. Retail is Toast's biggest bet and we are growing rapidly. The opportunity is massive, and the category is ours to define. You'll have the backing of Toast's scale, brand, and resources but you'll be on the team architecting how we operate, scale, and win. The decisions you make in this role will shape how Toast competes in retail for years to come. Toast is prioritizing AI integration across the enterprise to redefine GTM velocity. As part of this strategy, multiple business units are pursuing specialized…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-toast-7587088",
     "title": "Senior Software Engineer, Enterprise",
     "company": "Toast",
@@ -42350,33 +42339,6 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-08-25",
     "descShort": "Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. We help restaurants streamline operations, increase revenue, and deliver amazing guest experiences through our platform that combines restaurant point of sale, team management, guest-facing technology, and award-winning customer support. As a Toaster, you will be challenged to take on meaningful projects to help craft the company's future. Join us as we empower the restaurant community to delight guests, do what they love, and thrive. We're looking for a Staff Software Engineer to join in building AI agents…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-toast-8038159",
-    "title": "Staff Software Engineer, Tech Lead",
-    "company": "Toast",
-    "locations": [
-      "United States"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": null,
-    "posted": "2026-07-21",
-    "url": "https://careers.toasttab.com/jobs?gh_jid=8038159",
-    "site": "toasttab.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Lead",
-    "spec": null,
-    "stack": [
-      "Java",
-      "Kotlin",
-      "AWS"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "At Toast, we are committed to empowering our customers by providing the technology, resources, and community they need to thrive. While our roots are in food service, we are rapidly expanding into adjacent markets and international territories. Our mission is to build a world-class publishing and configuration platform that supports the diverse needs of all Toast customers, regardless of their industry or location. As a member of the Config Platform team, you will be at the heart of Toast’s most critical infrastructure. We are the high-concurrency engine powering live system updates across the entire Toast ecosystem. Whether it’s a menu change in Ireland or a pricing update for a 100…",
     "hasDesc": true
   },
   {
@@ -42543,17 +42505,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ripple-8011287",
+    "id": "gh-ripple-8011308",
     "title": "Professional Services Consultant, Risk",
     "company": "Ripple",
     "locations": [
-      "New York, United States"
+      "Chicago, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-07-20",
-    "url": "https://ripple.com/careers/all-jobs/job/8011287?gh_jid=8011287",
+    "url": "https://ripple.com/careers/all-jobs/job/8011308?gh_jid=8011308",
     "site": "ripple.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -42563,6 +42525,31 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-08-25",
     "descShort": "At Ripple, we’re building a world where value moves like information does today. It’s big, it’s bold, and we’re already doing it. Through our crypto solutions for financial institutions, businesses, governments and developers, we are improving the global financial system and creating greater economic fairness and opportunity for more people, in more places around the world. And we get to do the best work of our career and grow our skills surrounded by colleagues who have our backs. If you’re ready to see your impact and unlock incredible career growth opportunities, join us, and build real world value. THE WORK: We believe solving complex financial challenges demands more than cutting-edge…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-ripple-7913369",
+    "title": "Senior Director, Security Engineering",
+    "company": "Ripple",
+    "locations": [
+      "San Francisco, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 308 000 – 385 000",
+    "posted": "2026-07-20",
+    "url": "https://ripple.com/careers/all-jobs/job/7913369?gh_jid=7913369",
+    "site": "ripple.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": "Безопасность",
+    "stack": [
+      "AWS"
+    ],
+    "seen": "2026-08-25",
+    "descShort": "At Ripple, we’re building a world where value moves like information does today. It’s big, it’s bold, and we’re already doing it. Through our crypto solutions for financial institutions, businesses, governments and developers, we are improving the global financial system and creating greater economic fairness and opportunity for more people, in more places around the world. And we get to do the best work of our career and grow our skills surrounded by colleagues who have our backs. If you’re ready to see your impact and unlock incredible career growth opportunities, join us, and build real world value. THE WORK: As the Senior Director of Security Engineering, you will be responsible for…",
     "hasDesc": true
   },
   {
@@ -42899,17 +42886,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8438580002",
+    "id": "gh-brex-8438584002",
     "title": "Group Product Manager",
     "company": "Brex",
     "locations": [
-      "San Francisco, United States"
+      "Vancouver, Canada"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 280 000 – 350 000",
     "posted": "2026-07-20",
-    "url": "https://www.brex.com/careers/8438580002?gh_jid=8438580002",
+    "url": "https://www.brex.com/careers/8438584002?gh_jid=8438584002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -42947,17 +42934,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8432702002",
+    "id": "gh-brex-8432698002",
     "title": "Staff Product Manager",
     "company": "Brex",
     "locations": [
-      "New York, United States"
+      "San Francisco, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 240 000 – 300 000",
     "posted": "2026-07-20",
-    "url": "https://www.brex.com/careers/8432702002?gh_jid=8432702002",
+    "url": "https://www.brex.com/careers/8432698002?gh_jid=8432698002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -42972,17 +42959,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8436528002",
+    "id": "gh-brex-8436527002",
     "title": "Staff Product Manager, Growth",
     "company": "Brex",
     "locations": [
-      "New York, United States"
+      "San Francisco, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 240 000 – 300 000",
     "posted": "2026-07-20",
-    "url": "https://www.brex.com/careers/8436528002?gh_jid=8436528002",
+    "url": "https://www.brex.com/careers/8436527002?gh_jid=8436527002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -42997,17 +42984,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8635331002",
+    "id": "gh-brex-8635342002",
     "title": "Staff Software Engineer, Travel & Expense",
     "company": "Brex",
     "locations": [
-      "Seattle, United States"
+      "Vancouver, Canada"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 240 000 – 285 000",
     "posted": "2026-07-20",
-    "url": "https://www.brex.com/careers/8635331002?gh_jid=8635331002",
+    "url": "https://www.brex.com/careers/8635342002?gh_jid=8635342002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -43293,7 +43280,7 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-chime-8616359002",
+    "id": "gh-chime-8573625002",
     "title": "Software Engineer, Infrastructure",
     "company": "Chime",
     "locations": [
@@ -43305,7 +43292,7 @@ window.JOBS_FINTECH = [
     "rkind": null,
     "salary": null,
     "posted": "2026-07-17",
-    "url": "https://boards.greenhouse.io/chime/jobs/8616359002?gh_jid=8616359002",
+    "url": "https://boards.greenhouse.io/chime/jobs/8573625002?gh_jid=8573625002",
     "site": "chime.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -43313,12 +43300,12 @@ window.JOBS_FINTECH = [
     "grade": null,
     "spec": "DevOps",
     "stack": [
-      "SQL",
+      "Python",
       "AWS",
       "Kubernetes"
     ],
     "seen": "2026-08-25",
-    "descShort": "About the role The Infrastructure Engineering organization comprises three sub-teams: Core Infrastructure (which manages the infrastructure systems that power Chime, including AWS, Networking, Kubernetes, Terraform, and Observability), Infra Platform, and Data Infra (which provides infrastructure support for the Data Engineering organization). This role is on the Core Infrastructure team, where we manage the Infrastructure components that power Chime and make sure our members are able to use Chime products reliably. This includes our Cloud operations, Observability layer and Compute layer. The base salary offered for this role and level of experience will begin at $164,000 and up to…",
+    "descShort": "About the role You'd be joining the Data Infra team — a small, high-leverage team within Chime's Infrastructure Engineering org. We build and operate the foundational platform that Data Engineering relies on to run their workflows reliably at scale: from deploying Airflow and Flink environments to owning the DynamoDB and RDS infrastructure that powers Chime's data platform. This is a generalist role where you'll touch both pillars — the data engineering deployment layer and the storage layer — so you'll never be bored. If you get energy from building durable foundations that other engineers build on top of, this team is for you. The base salary offered for this role and level of experience…",
     "hasDesc": true
   },
   {
@@ -43941,17 +43928,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8426273002",
+    "id": "gh-brex-8590025002",
     "title": "Senior Application Security Engineer (Remote)",
     "company": "Brex",
     "locations": [
-      "Canada"
+      "United States"
     ],
     "remote": true,
     "rkind": null,
     "salary": "$ 192 000 – 240 000",
     "posted": "2026-07-16",
-    "url": "https://www.brex.com/careers/8426273002?gh_jid=8426273002",
+    "url": "https://www.brex.com/careers/8590025002?gh_jid=8590025002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -43969,17 +43956,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8339287002",
+    "id": "gh-brex-8339252002",
     "title": "Senior Security Operations Engineer",
     "company": "Brex",
     "locations": [
-      "Vancouver, Canada"
+      "San Francisco, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-07-16",
-    "url": "https://www.brex.com/careers/8339287002?gh_jid=8339287002",
+    "url": "https://www.brex.com/careers/8339252002?gh_jid=8339252002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -44816,35 +44803,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "ab-airwallex-0d05eec4-1115-4bae-933e-5eae7939ba99",
-    "title": "Senior Software Engineer, Infrastructure (Infra Platform)",
-    "company": "Airwallex",
-    "locations": [
-      "Singapore"
-    ],
-    "remote": false,
-    "rkind": "zone",
-    "salary": null,
-    "posted": "2026-07-13",
-    "url": "https://jobs.ashbyhq.com/airwallex/0d05eec4-1115-4bae-933e-5eae7939ba99",
-    "source": "ashby",
-    "site": "airwallex.com",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "DevOps",
-    "permit": true,
-    "stack": [
-      "Python",
-      "Go",
-      "AWS",
-      "Kubernetes"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "ABOUT AIRWALLEX Airwallex is the only unified payments and financial platform for global businesses. Powered by our unique combination of proprietary infrastructure and software, we empower over 250,000 businesses worldwide – including Brex, Navan, Qantas, SHEIN and many more – with fully integrated solutions to manage everything from business accounts, payments, spend management and treasury, to embedded finance at a global scale. Proudly founded in Melbourne, we have a team of over 2,300 of the brightest and most innovative people in tech across 27 offices around the globe. Valued at US$11 billion and backed by world-leading investors including T. Rowe Price, Visa, Mastercard, Robinhood…",
-    "hasDesc": true
-  },
-  {
     "id": "ab-satispay-c864aa48-9482-466e-8ca8-b26e07efe24d",
     "title": "Software Engineer II, Backend - Consumer Growth Domain",
     "company": "Satispay",
@@ -44916,32 +44874,6 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-08-25",
     "descShort": "Ready to do the most impactful work of your career? At Coinbase, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase. As an Analyst, Business Controller on the Business Controllers team within Coinbase's Accounting…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-coinbase-8060842",
-    "title": "Senior Staff Software Engineer, Payments",
-    "company": "Coinbase",
-    "locations": [
-      "Canada"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": "$ 253 895 – 298 700",
-    "posted": "2026-07-13",
-    "url": "https://www.coinbase.com/careers/positions/8060842?gh_jid=8060842",
-    "site": "coinbase.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "Платежи",
-    "stack": [
-      "Python",
-      "Java"
-    ],
-    "seen": "2026-08-25",
-    "descShort": "Ready to do the most impactful work of your career? At Coinbase, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase. Payments Platform is at the front door of Coinbase’s financial ecosystem. Our mission is to move old…",
     "hasDesc": true
   },
   {
@@ -45693,17 +45625,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8627269002",
+    "id": "gh-brex-8627262002",
     "title": "Director, Credit Risk",
     "company": "Brex",
     "locations": [
-      "Seattle, United States"
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-07-09",
-    "url": "https://www.brex.com/careers/8627269002?gh_jid=8627269002",
+    "url": "https://www.brex.com/careers/8627262002?gh_jid=8627262002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -46680,29 +46612,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "ab-column-fb0709e4-de47-4181-8da2-4f1675833a05",
-    "title": "Growth, Credit & Lending Partnerships",
-    "company": "Column",
-    "locations": [
-      "San Francisco, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": "$ 140 000 – 250 000",
-    "posted": "2026-07-02",
-    "url": "https://jobs.ashbyhq.com/column/fb0709e4-de47-4181-8da2-4f1675833a05",
-    "source": "ashby",
-    "site": "column.com",
-    "industry": "fintech",
-    "role": "Маркетинг",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "ABOUT COLUMN For companies building financial technology and transforming the financial services space, the biggest bottleneck to their growth and innovation is often the underlying banks and infrastructure stack they rely on. We have spent our careers founding and scaling companies like Plaid, Square, Meta, Blend, and Affirm, and have seen this problem firsthand — builders and developers needing to partner with traditional banks, and creating API and abstraction layers over the patchwork that is the bank, its core, and many other vendors. All of this results in a complex (and often expensive) banking supply chain involving a user, fintech, BaaS middleware provider, bank, core and the…",
-    "hasDesc": true
-  },
-  {
     "id": "ab-moss-2d6ae20b-2fd9-4fde-89c2-847df1a86ede",
     "title": "Senior Data Scientist (f/m/d)",
     "company": "Moss",
@@ -46902,6 +46811,29 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-08-25",
     "descShort": "At Ripple, we’re building a world where value moves like information does today. It’s big, it’s bold, and we’re already doing it. Through our crypto solutions for financial institutions, businesses, governments and developers, we are improving the global financial system and creating greater economic fairness and opportunity for more people, in more places around the world. And we get to do the best work of our career and grow our skills surrounded by colleagues who have our backs. If you’re ready to see your impact and unlock incredible career growth opportunities, join us, and build real world value. THE WORK: The Developer Operations (DevOps) at Ripple manages communication…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-ripple-8013623",
+    "title": "Senior Staff Partner Engineer",
+    "company": "Ripple",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 208 000 – 260 000",
+    "posted": "2026-07-01",
+    "url": "https://ripple.com/careers/all-jobs/job/8013623?gh_jid=8013623",
+    "site": "ripple.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-25",
+    "descShort": "At Ripple, we’re building a world where value moves like information does today. It’s big, it’s bold, and we’re already doing it. Through our crypto solutions for financial institutions, businesses, governments and developers, we are improving the global financial system and creating greater economic fairness and opportunity for more people, in more places around the world. And we get to do the best work of our career and grow our skills surrounded by colleagues who have our backs. If you’re ready to see your impact and unlock incredible career growth opportunities, join us, and build real world value. THE WORK: Are you ready to be at the forefront of revolutionizing global payments and…",
     "hasDesc": true
   },
   {
@@ -47871,29 +47803,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-coinbase-7684298",
-    "title": "Staff Software Engineer, Solana Staking Protocol",
-    "company": "Coinbase",
-    "locations": [
-      "United States"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": "$ 218 025 – 256 500",
-    "posted": "2026-06-26",
-    "url": "https://www.coinbase.com/careers/positions/7684298?gh_jid=7684298",
-    "site": "coinbase.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "Ready to do the most impactful work of your career? At Coinbase, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase. As a Staff Software Engineer on the Staking Platform team within the Platform group, you'll serve as…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-brex-8393510002",
     "title": "Senior Brand Designer",
     "company": "Brex",
@@ -48251,17 +48160,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ripple-8010164",
+    "id": "gh-ripple-8010162",
     "title": "Senior Content Marketing Specialist",
     "company": "Ripple",
     "locations": [
-      "New York, United States"
+      "Miami, United States"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 112 000 – 135 000",
+    "salary": null,
     "posted": "2026-06-23",
-    "url": "https://ripple.com/careers/all-jobs/job/8010164?gh_jid=8010164",
+    "url": "https://ripple.com/careers/all-jobs/job/8010162?gh_jid=8010162",
     "site": "ripple.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -48911,30 +48820,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ripple-7767531",
-    "title": "Treasury Manager, Global Treasury Operations",
-    "company": "Ripple",
-    "locations": [
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": "$ 144 000 – 180 000",
-    "posted": "2026-06-13",
-    "url": "https://ripple.com/careers/all-jobs/job/7767531?gh_jid=7767531",
-    "site": "ripple.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "role": "Платежи",
-    "grade": null,
-    "spec": null,
-    "permit": true,
-    "stack": [],
-    "seen": "2026-08-25",
-    "descShort": "At Ripple, we’re building a world where value moves like information does today. It’s big, it’s bold, and we’re already doing it. Through our crypto solutions for financial institutions, businesses, governments and developers, we are improving the global financial system and creating greater economic fairness and opportunity for more people, in more places around the world. And we get to do the best work of our career and grow our skills surrounded by colleagues who have our backs. If you’re ready to see your impact and unlock incredible career growth opportunities, join us, and build real world value. The WORK: As our Treasury team grows worldwide, we are hiring a versatile, operational…",
-    "hasDesc": true
-  },
-  {
     "id": "ab-pennylane-8b166d76-d222-4a6b-977d-8654ba4af825",
     "title": "Senior Engineering Manager",
     "company": "Pennylane",
@@ -49128,17 +49013,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8463696002",
+    "id": "gh-brex-8463702002",
     "title": "Data Analyst II",
     "company": "Brex",
     "locations": [
-      "San Francisco, United States"
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 93 600 – 117 000",
     "posted": "2026-06-10",
-    "url": "https://www.brex.com/careers/8463696002?gh_jid=8463696002",
+    "url": "https://www.brex.com/careers/8463702002?gh_jid=8463702002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -49203,17 +49088,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8534633002",
+    "id": "gh-brex-8534621002",
     "title": "Engineering Manager, Cloud Infrastructure",
     "company": "Brex",
     "locations": [
-      "San Francisco, United States"
+      "Seattle, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 240 000 – 300 000",
     "posted": "2026-06-10",
-    "url": "https://www.brex.com/careers/8534633002?gh_jid=8534633002",
+    "url": "https://www.brex.com/careers/8534621002?gh_jid=8534621002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -49254,17 +49139,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8461597002",
+    "id": "gh-brex-8461599002",
     "title": "Engineering Manager, Onboarding",
     "company": "Brex",
     "locations": [
-      "Vancouver, Canada"
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
-    "salary": null,
+    "salary": "$ 240 000 – 300 000",
     "posted": "2026-06-10",
-    "url": "https://www.brex.com/careers/8461597002?gh_jid=8461597002",
+    "url": "https://www.brex.com/careers/8461599002?gh_jid=8461599002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -49300,17 +49185,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8578103002",
+    "id": "gh-brex-8578102002",
     "title": "Senior Partner Marketing Manager",
     "company": "Brex",
     "locations": [
-      "Seattle, United States"
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 131 080 – 163 850",
     "posted": "2026-06-10",
-    "url": "https://www.brex.com/careers/8578103002?gh_jid=8578103002",
+    "url": "https://www.brex.com/careers/8578102002?gh_jid=8578102002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -49323,17 +49208,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8523203002",
+    "id": "gh-brex-8523435002",
     "title": "Software Engineer, Forward Deployed Agent Builder",
     "company": "Brex",
     "locations": [
-      "San Francisco, United States"
+      "São Paulo, Brazil"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 152 000 – 240 000",
+    "salary": null,
     "posted": "2026-06-10",
-    "url": "https://www.brex.com/careers/8523203002?gh_jid=8523203002",
+    "url": "https://www.brex.com/careers/8523435002?gh_jid=8523435002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -49827,17 +49712,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-monzo-7982132",
+    "id": "gh-monzo-7982261",
     "title": "Enterprise Risk Manager",
     "company": "Monzo",
     "locations": [
-      "Dublin"
+      "Barcelona",
+      "Madrid"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "€ 68 000 – 83 000",
+    "salary": "€ 53 000 – 65 000",
     "posted": "2026-06-04",
-    "url": "https://job-boards.greenhouse.io/monzo/jobs/7982132",
+    "url": "https://job-boards.greenhouse.io/monzo/jobs/7982261",
     "site": "monzo.com",
     "source": "greenhouse",
     "industry": "fintech",
