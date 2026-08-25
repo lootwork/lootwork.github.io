@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data Engineer - Onboarding — Sardine | LOOTWORK</title>
+<meta name="description" content="Who we are:
+
+Sardine is the leading agentic risk platform for fighting financial crime. Our integrated solution unifies data across risk teams to help organizations…">
+<link rel="canonical" href="https://lootwork.github.io/job/ab-sardine-527bac62-7445-4942-b2df-575fcb93e182/">
+<meta property="og:title" content="Data Engineer - Onboarding — Sardine | LOOTWORK">
+<meta property="og:description" content="Who we are:
+
+Sardine is the leading agentic risk platform for fighting financial crime. Our integrated solution unifies data across risk teams to help organizations…">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://lootwork.github.io/job/ab-sardine-527bac62-7445-4942-b2df-575fcb93e182/">
+<meta property="og:image" content="https://lootwork.github.io/og.png">
+<meta name="theme-color" content="#0c0a1a">
+<script>
+  // Ставим тему до отрисовки, иначе страница мигнёт тёмным и станет светлой.
+  // Фигурные скобки удвоены: этот кусок лежит внутри f-строки Python.
+  try {
+    var t = localStorage.getItem("theme");
+    if (!t) t = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+    document.documentElement.dataset.theme = t;
+    if (t === "light") {
+      document.querySelector('meta[name="theme-color"]').setAttribute("content", "#f6f5fb");
+    }
+  } catch (e) {}
+</script>
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@700&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../page.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "JobPosting", "title": "Data Engineer - Onboarding", "description": "Who we are:\n\nSardine is the leading agentic risk platform for fighting financial crime. Our integrated solution unifies data across risk teams to help organizations stop fraud in real time, prevent AI-driven attacks, and automate fraud and AML operations. Sardine’s platform is strengthened by one of the fastest-growing fraud consortiums in the market, spanning more than 6 billion profiled devices, 800 million consumers, and 3 million businesses worldwide. Leading companies including FIS, GoDaddy, Intuit, Edward Jones, ZoomInfo, and Checkout.com rely on Sardine to secure and grow trust in their products.\n\nOur culture:\n\n- We have hubs in the Bay Area, NYC, Austin, Toronto, and São Paulo. However, we maintain a remote-first work culture. #WorkFromAnywhere\n\n- We hire talented, self-motivated individuals with extreme ownership and high growth orientation.\n\n- We value performance and not hours worked. We believe you shouldn't have to miss your family dinner, your kid's school play, friends get-together, or doctor's appointments for the sake of adhering to an arbitrary work schedule.\n\nLocation:\n\n- Remote - United States or Canada\n\n- From Home / Beach / Mountain / Cafe / Anywhere!\n\n- We are a remote-first company with a globally distributed team. You can find your productive zone and work from there.\n\nAbout the role\n\nWe are looking for a Senior Data/ML Engineer to own the data and machine learning foundation that Sardine's compliance decisions run on. Every onboarding decision we make — a payment approved, an account blocked, a KYC case escalated — is the output of a pipeline someone built. This role owns those pipelines end to end: how data arrives, how it becomes a feature, how that feature becomes a model, and how that model stays correct in production.\n\nThis is a high-impact, highly technical IC role sitting at the intersection of data engineering and ML engineering. We need someone at the senior level to set technical direction for the next order of magnitude: new feature generation, build specific models around KYC onboarding, in house entity matcher for the sanctions and more\n\nYou will write production code, make architectural calls that outlive your tenure, and raise the bar for how a small team ships fraud ML. You will work directly with data scientists, backend engineers, and the fraud analysts who use what you build.\n\nWhat you'll be doing\n\n- Own the data ingestion layer that brings device telemetry, transaction events, KYC/identity signals, and third-party enrichment into the platform — designing streaming pipelines (Pub/Sub, Apache Beam on Dataflow, Flink) and batch pipelines (Python, Airflow on Cloud Composer, Spark on Dataproc) that are correct, observable, and cheap to extend.\n\n- Build and evolve our feature platform, where the same Chronon feature definitions are computed by Flink for streaming and Spark for batch, with aggregation windows from one hour to 300 days, served to the rules engine and to models under a sub-second budget.\n\n- Establish feature correctness as an engineering discipline: streaming-versus-batch reconciliation, recomputation tests against the warehouse, train/serve parity checks, and drift monitoring that catches a broken feature before an analyst does.\n\n- Productionize fraud and identity ML models — training pipelines on Vertex AI and Kubeflow, gradient-boosted and tree-based models (XGBoost, LightGBM, CatBoost, scikit-learn), hyperparameter search, SHAP-based explanations, and score normalization — and build the automated retraining, champion/challenger promotion, and rollback machinery we don't yet have.\n\n- Engineer KYC, AML, and identity risk signals: document verification and doc-KYC outcomes, sanctions/PEP/adverse-media screening results, email and phone risk, synthetic identity indicators, bank and account verification, and periodic customer due diligence — turning noisy, multi-vendor, multi-jurisdiction data into features a model can actually learn from.\n\n- Integrate and harden new data sources, including 30+ third-party enrichment providers called in parallel on the request path, plus our cross-client consortium network — owning failover behavior, timeout budgets, graceful degradation, caching, and cost.\n\n- Own the warehouse and modeling layer in BigQuery — partitioning strategy, the staging-to-mart layer cake, training datasets, and the in-flight migration off dbt onto scheduled SQL and Python pipelines.\n\n- Design the entity resolution and graph data that link customers, devices, emails, phones, cards, bank accounts, and crypto addresses across clients, including large-scale connected-components work.\n\n- Make the platform safe by construction: field-level encryption for sensitive identifiers, regional data residency enforced in the pipeline definitions, PII handling and deletion paths, and feature-level gating so a bad signal can be turned off without a deploy.\n\n- Set technical direction and raise the team's ceiling — write the design docs, run the reviews, mentor eng", "identifier": {"@type": "PropertyValue", "name": "Sardine", "value": "ab-sardine-527bac62-7445-4942-b2df-575fcb93e182"}, "hiringOrganization": {"@type": "Organization", "name": "Sardine"}, "directApply": false, "url": "https://lootwork.github.io/job/ab-sardine-527bac62-7445-4942-b2df-575fcb93e182/", "datePosted": "2026-07-30", "jobLocation": [{"@type": "Place", "address": {"@type": "PostalAddress", "addressLocality": "North America"}}], "jobLocationType": "TELECOMMUTE"}</script>
+</head>
+<body>
+<div class="wrap">
+<header><a class="logo" href="../../">LOOT<b>WORK</b></a></header>
+<div class="crumbs"><a href="../../">Вакансии</a> ·
+  <a href="../../company/sardine/">Sardine</a></div>
+<h1>Data Engineer - Onboarding</h1>
+<div class="sub">Sardine · North America · опубликовано 30 июля</div>
+<div class="tags"><span class="tag remote">Удалёнка по миру</span><span class="tag">Программирование</span><span class="tag">Данные</span><span class="tag">Python</span><span class="tag">SQL</span><span class="tag">AWS</span><span class="tag">Docker</span><span class="tag">Kubernetes</span></div>
+<a class="apply" href="https://jobs.ashbyhq.com/sardine/527bac62-7445-4942-b2df-575fcb93e182" target="_blank" rel="nofollow noopener">Откликнуться на сайте студии</a>
+<div class="desc"><h2>Кто мы</h2>
+<p>Sardine is the leading agentic risk platform for fighting financial crime. Our integrated solution unifies data across risk teams to help organizations stop fraud in real time, prevent AI-driven attacks, and automate fraud and AML operations. Sardine’s platform is strengthened by one of the fastest-growing fraud consortiums in the market, spanning more than 6 billion profiled devices, 800 million consumers, and 3 million businesses worldwide. Leading companies including FIS, GoDaddy, Intuit, Edward Jones, ZoomInfo, and Checkout.com rely on Sardine to secure and grow trust in their products.</p>
+<h2>Our culture</h2>
+<p>- We have hubs in the Bay Area, NYC, Austin, Toronto, and São Paulo. However, we maintain a remote-first work culture. #WorkFromAnywhere</p>
+<p>- We hire talented, self-motivated individuals with extreme ownership and high growth orientation.</p>
+<p>- We value performance and not hours worked. We believe you shouldn't have to miss your family dinner, your kid's school play, friends get-together, or doctor's appointments for the sake of adhering to an arbitrary work schedule.</p>
+<h2>Локация</h2>
+<p>- Remote - United States or Canada</p>
+<p>- From Home / Beach / Mountain / Cafe / Anywhere!</p>
+<p>- We are a remote-first company with a globally distributed team. You can find your productive zone and work from there.</p>
+<h2>О роли</h2>
+<p>We are looking for a Senior Data/ML Engineer to own the data and machine learning foundation that Sardine's compliance decisions run on. Every onboarding decision we make — a payment approved, an account blocked, a KYC case escalated — is the output of a pipeline someone built. This role owns those pipelines end to end: how data arrives, how it becomes a feature, how that feature becomes a model, and how that model stays correct in production.</p>
+<p>This is a high-impact, highly technical IC role sitting at the intersection of data engineering and ML engineering. We need someone at the senior level to set technical direction for the next order of magnitude: new feature generation, build specific models around KYC onboarding, in house entity matcher for the sanctions and more</p>
+<p>You will write production code, make architectural calls that outlive your tenure, and raise the bar for how a small team ships fraud ML. You will work directly with data scientists, backend engineers, and the fraud analysts who use what you build.</p>
+<h2>Что предстоит делать</h2>
+<p>- Own the data ingestion layer that brings device telemetry, transaction events, KYC/identity signals, and third-party enrichment into the platform — designing streaming pipelines (Pub/Sub, Apache Beam on Dataflow, Flink) and batch pipelines (Python, Airflow on Cloud Composer, Spark on Dataproc) that are correct, observable, and cheap to extend.</p>
+<p>- Build and evolve our feature platform, where the same Chronon feature definitions are computed by Flink for streaming and Spark for batch, with aggregation windows from one hour to 300 days, served to the rules engine and to models under a sub-second budget.</p>
+<p>- Establish feature correctness as an engineering discipline: streaming-versus-batch reconciliation, recomputation tests against the warehouse, train/serve parity checks, and drift monitoring that catches a broken feature before an analyst does.</p>
+<p>- Productionize fraud and identity ML models — training pipelines on Vertex AI and Kubeflow, gradient-boosted and tree-based models (XGBoost, LightGBM, CatBoost, scikit-learn), hyperparameter search, SHAP-based explanations, and score normalization — and build the automated retraining, champion/challenger promotion, and rollback machinery we don't yet have.</p>
+<p>- Engineer KYC, AML, and identity risk signals: document verification and doc-KYC outcomes, sanctions/PEP/adverse-media screening results, email and phone risk, synthetic identity indicators, bank and account verification, and periodic customer due diligence — turning noisy, multi-vendor, multi-jurisdiction data into features a model can actually learn from.</p>
+<p>- Integrate and harden new data sources, including 30+ third-party enrichment providers called in parallel on the request path, plus our cross-client consortium network — owning failover behavior, timeout budgets, graceful degradation, caching, and cost.</p>
+<p>- Own the warehouse and modeling layer in BigQuery — partitioning strategy, the staging-to-mart layer cake, training datasets, and the in-flight migration off dbt onto scheduled SQL and Python pipelines.</p>
+<p>- Design the entity resolution and graph data that link customers, devices, emails, phones, cards, bank accounts, and crypto addresses across clients, including large-scale connected-components work.</p>
+<p>- Make the platform safe by construction: field-level encryption for sensitive identifiers, regional data residency enforced in the pipeline definitions, PII handling and deletion paths, and feature-level gating so a bad signal can be turned off without a deploy.</p>
+<p>- Set technical direction and raise the team's ceiling — write the design docs, run the reviews, mentor engineers and data scientists, and decide what we build versus buy.</p>
+<h2>What you'll need</h2>
+<p>- 8+ years building production data and ML systems, with real ownership of both the pipeline side and the model side. You have shipped models that made consequential automated decisions, not just dashboards.</p>
+<p>- Deep Python and strong SQL. You are fluent in a distributed processing framework (Spark, Beam, or Flink) and comfortable reasoning about streaming semantics — windowing, watermarks, late data, exactly-once versus at-least-once, and where correctness actually breaks.</p>
+<p>- Hands-on experience with a modern cloud data stack: GCP strongly preferred (BigQuery, Dataflow, Dataproc, Pub/Sub, Bigtable, Composer, Vertex AI) or the AWS equivalents, plus Docker, Kubernetes, Terraform, and CI/CD.…</p>
+<p>Текст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.</p></div>
+
+
+
+<div class="note">Отклик принимает студия на своём сайте. LOOTWORK только показывает вакансию.</div>
+<h2>Ещё в Sardine</h2><a class="card" href="../ab-sardine-8b6f21a2-71f3-4242-afdd-927fb9041dda/"><div>Enterprise Sales Engineer - UK / Europe</div><div class="cmp">Британия, Германия, Болгария</div></a><a class="card" href="../ab-sardine-c7769226-945f-40bf-bcdd-3758aaa67cc8/"><div>Solutions Architect Lead - US/CAN, West Coast</div><div class="cmp">США, Канада</div></a><a class="card" href="../ab-sardine-5c619e9b-3d11-45a4-be7d-574f4265cafe/"><div>Solutions Architect, Integrations (AUS)</div><div class="cmp">Австралия</div></a><a class="card" href="../ab-sardine-ae34ab7e-5729-44dd-826f-7ebb55b64e9b/"><div>Senior Manager, Quality Engineering</div><div class="cmp">США</div></a><a class="card" href="../ab-sardine-2374df99-7e7e-453f-a3d0-5455812a4d15/"><div>Enterprise Sales Engineer</div><div class="cmp">Япония</div></a><a class="card" href="../ab-sardine-b9119961-806c-40d9-a38f-b9df69ecf684/"><div>Support Engineering Lead</div><div class="cmp">США, Канада</div></a>
+
+<footer>
+  Вакансии собираются автоматически с карьерных страниц игровых студий.
+  Мы не работодатель и не принимаем отклики — откликаться нужно на сайте студии.<br>
+  <a href="../../">Все вакансии на LOOTWORK</a>
+</footer>
+</div>
+</body>
+</html>
