@@ -471,6 +471,42 @@
   .to-top:hover{border-color:var(--cyan);transform:translateY(-2px)}
   .to-top[hidden]{display:none}
 
+  /* Всплывающее приглашение в канал. Появляется не сразу и только один раз:
+     показывать его на входе — значит мешать человеку до того, как он понял,
+     зачем сюда пришёл. */
+  .tg-card{position:fixed;right:18px;bottom:18px;z-index:58;width:330px;max-width:calc(100vw - 36px);
+    background:var(--panel);border:1px solid var(--line);border-radius:16px;
+    padding:16px 16px 14px;box-shadow:0 18px 44px var(--shadow);
+    display:grid;grid-template-columns:auto 1fr;gap:12px 12px;
+    animation:tgIn .34s cubic-bezier(.2,.7,.3,1) both}
+  .tg-card[hidden]{display:none}
+  .tg-card.leaving{animation:tgOut .22s ease forwards}
+  .tg-ico{width:44px;height:44px;border-radius:12px;display:flex;align-items:center;
+    justify-content:center;color:#fff;background:linear-gradient(140deg,#2aabee,#229ed9)}
+  .tg-title{font-weight:700;font-size:14.5px;margin-bottom:3px}
+  .tg-sub{font-size:12.5px;color:var(--muted);line-height:1.5}
+  .tg-go{grid-column:1 / -1;text-align:center;text-decoration:none;padding:11px}
+  .tg-close{position:absolute;top:8px;right:10px;background:none;border:none;
+    color:var(--muted);font-size:19px;line-height:1;cursor:pointer;padding:4px}
+  .tg-close:hover{color:var(--text)}
+
+  @keyframes tgIn{ from{opacity:0;transform:translateY(18px) scale(.97)} to{opacity:1;transform:none} }
+  @keyframes tgOut{ to{opacity:0;transform:translateY(10px) scale(.98)} }
+  @keyframes tgPulse{ 0%,100%{box-shadow:0 8px 26px var(--shadow)}
+    50%{box-shadow:0 8px 26px var(--shadow),0 0 0 7px rgba(42,171,238,.14)} }
+
+  /* Отказался от окна — остаётся заметная кнопка, но уже не поперёк дороги */
+  .tg-fab{right:18px;bottom:74px;display:flex;align-items:center;gap:9px;
+    text-decoration:none;border-color:#1c5e80;color:#5ec6ee;
+    animation:tgPulse 2.8s ease-in-out 3}
+  .tg-fab:hover{border-color:#2aabee;color:#7fd6f5}
+  .tg-fab[hidden]{display:none}
+
+  @media (max-width:640px){
+    .tg-card{left:12px;right:12px;width:auto;bottom:12px}
+    .tg-fab{bottom:68px}
+  }
+
   .fab{position:fixed;right:18px;bottom:18px;z-index:40;background:var(--panel);
     border:1px solid var(--line);color:var(--text);font-family:var(--body);font-weight:600;
     font-size:13.5px;padding:13px 19px;border-radius:999px;cursor:pointer;
@@ -656,7 +692,27 @@
 </div>
 
 <button class="to-top" id="toTop" title="Наверх" hidden>↑</button>
+<a class="fab tg-fab" id="tgFab" href="#" target="_blank" rel="noopener" hidden>
+  <svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true">
+    <path fill="currentColor" d="M21.9 4.3 18.9 19c-.2 1-.8 1.2-1.7.8l-4.6-3.4-2.2 2.1c-.2.2-.5.5-1 .5l.3-4.7 8.6-7.8c.4-.3-.1-.5-.6-.2L6.9 12.9l-4.6-1.4c-1-.3-1-1 .2-1.5l18-6.9c.8-.3 1.6.2 1.4 1.2z"/>
+  </svg>
+  <span id="tgFabText">Канал в Telegram</span>
+</a>
 <button class="fab" id="fbBtn">Написать нам</button>
+
+<div class="tg-card" id="tgCard" hidden>
+  <button class="tg-close" id="tgClose" aria-label="Закрыть">×</button>
+  <div class="tg-ico">
+    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
+      <path fill="currentColor" d="M21.9 4.3 18.9 19c-.2 1-.8 1.2-1.7.8l-4.6-3.4-2.2 2.1c-.2.2-.5.5-1 .5l.3-4.7 8.6-7.8c.4-.3-.1-.5-.6-.2L6.9 12.9l-4.6-1.4c-1-.3-1-1 .2-1.5l18-6.9c.8-.3 1.6.2 1.4 1.2z"/>
+    </svg>
+  </div>
+  <div class="tg-body">
+    <div class="tg-title" id="tgTitle">Новые вакансии — в Telegram</div>
+    <div class="tg-sub" id="tgSub">Каждый день публикуем свежие вакансии студий. Без спама.</div>
+  </div>
+  <a class="btn primary tg-go" id="tgGo" href="#" target="_blank" rel="noopener">Подписаться</a>
+</div>
 
 <!-- подтверждение закрытия окна -->
 <div class="overlay" id="closeOverlay" hidden style="z-index:60">
@@ -1319,6 +1375,9 @@
       searchLabel:"Поиск вакансий",
       jobWord:"Вакансия", jobPage:"Отдельная страница этой вакансии →",
       allJobs:"Все вакансии", remoteJobs:"Удалённая работа", tgChannel:"Канал в Telegram",
+      tgTitle:"Новые вакансии — в Telegram",
+      tgSub:"Каждый день публикуем свежие вакансии студий. Без спама и агентств.",
+      tgGo:"Подписаться",
       aboutPage:"Покрытие базы", privacyPage:"Приватность", termsPage:"Условия",
       consentText:"Считаем посещения через Яндекс.Метрику, чтобы понимать, какие части сайта полезны. Резюме и отклики LOOTWORK не собирает.",
       consentYes:"Разрешить аналитику", consentNo:"Без аналитики",
@@ -1401,6 +1460,9 @@
       searchLabel:"Search jobs",
       jobWord:"Job", jobPage:"Open this job on its own page →",
       allJobs:"All jobs", remoteJobs:"Remote work", tgChannel:"Telegram channel",
+      tgTitle:"New jobs in Telegram",
+      tgSub:"We post fresh studio jobs every day. No spam, no agencies.",
+      tgGo:"Subscribe",
       aboutPage:"Coverage", privacyPage:"Privacy", termsPage:"Terms",
       consentText:"We use Yandex.Metrica to count visits and see which parts of the site are useful. LOOTWORK never collects CVs or applications.",
       consentYes:"Allow analytics", consentNo:"No analytics",
@@ -1501,6 +1563,12 @@
     $("footAbout").textContent = t("aboutPage");
     $("footPrivacyLink").textContent = t("privacyPage");
     $("footTerms").textContent = t("termsPage");
+    if ($("tgFabText")) $("tgFabText").textContent = t("tgChannel");
+    if ($("tgTitle")){
+      $("tgTitle").textContent = t("tgTitle");
+      $("tgSub").textContent = t("tgSub");
+      $("tgGo").textContent = t("tgGo");
+    }
     $("footStats").textContent = t("statsSettings");
     document.querySelectorAll(".close").forEach(b => b.setAttribute("aria-label", t("closeWord")));
     if ($("fbContactTitle")) $("fbContactTitle").textContent = t("fbContact");
@@ -3644,6 +3712,60 @@
     $("consentYes").addEventListener("click", () => answer("yes"));
     $("consentNo").addEventListener("click", () => answer("no"));
   }
+  // ------------------------------------------------------- приглашение в канал
+  // Сайт человек закроет и забудет. Подписка — единственный способ вернуть его
+  // завтра, поэтому зовём в канал. Но не на входе: сначала пусть посмотрит
+  // вакансии, иначе окно закроют не читая.
+  function tgSetup(){
+    const card = $("tgCard"), fab = $("tgFab");
+    if (!CFG.telegram){ return; }
+
+    fab.href = CFG.telegram;
+    $("tgGo").href = CFG.telegram;
+
+    let state = null;
+    try { state = store.getItem("tg"); } catch(e){}
+
+    const showFab = () => {
+      fab.hidden = false;
+      $("tgFabText").textContent = t("tgChannel");
+    };
+    const remember = v => { try { store.setItem("tg", v); } catch(e){} };
+
+    if (state === "gone" || state === "joined"){ showFab(); return; }
+
+    const showCard = () => {
+      if (!card.hidden || state) return;
+      $("tgTitle").textContent = t("tgTitle");
+      $("tgSub").textContent = t("tgSub");
+      $("tgGo").textContent = t("tgGo");
+      card.hidden = false;
+    };
+
+    const hideCard = (why) => {
+      card.classList.add("leaving");
+      setTimeout(() => {
+        card.hidden = true;
+        card.classList.remove("leaving");
+        showFab();
+      }, 220);
+      state = why;
+      remember(why);
+    };
+
+    $("tgClose").addEventListener("click", () => hideCard("gone"));
+    $("tgGo").addEventListener("click", () => hideCard("joined"));
+
+    // Показываем, когда человек уже полистал ленту или побыл на сайте:
+    // к этому моменту понятно, интересно ему тут или нет.
+    setTimeout(showCard, 25000);
+    let deep = false;
+    window.addEventListener("scroll", () => {
+      if (!deep && window.scrollY > 1400){ deep = true; showCard(); }
+    }, { passive: true });
+  }
+  tgSetup();
+
   // Не спрашиваем на пороге. Человек сначала смотрит вакансии, и только
   // если задержался — показываем плашку. Тому, кто ушёл через пять секунд,
   // вопрос про счётчик не нужен вовсе.
