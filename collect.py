@@ -1042,10 +1042,21 @@ def probe(companies):
 GONE_CODES = (404, 410)
 
 
+# Доски на скриптах (Ashby и подобные) отдают роботу пустой каркас с кодом 200
+# и для живой вакансии, и для закрытой: «You need to enable JavaScript».
+# Отличить их можно по мета-заголовку: у живой он есть, у закрытой нет.
+SPA_BOARDS = ("jobs.ashbyhq.com",)
+
+
 def check_alive(url: str) -> bool:
     """Хороним ссылку, только если сервер прямо сказал, что страницы нет."""
     try:
         r = http_get(url, tries=2, allow_redirects=True)
+        if any(host in url for host in SPA_BOARDS) and r.status_code < 400:
+            html = r.text[:60_000]
+            has_title = re.search(r'<meta[^>]+property=["\']og:title["\']', html, re.I)
+            if not has_title:
+                return False
         if r.status_code in GONE_CODES:
             return False
         if r.status_code >= 400:
@@ -1140,6 +1151,22 @@ def write_translation_files(jobs):
     print(f"Файлов с переводами: {n}")
 
 
+MAX_STALE_DAYS = 3
+
+
+def stale(job) -> bool:
+    """Вакансия, которую студия не показывает уже несколько дней, мертва —
+    даже если её страница ещё открывается."""
+    seen = job.get("seen")
+    if not seen:
+        return False
+    try:
+        age = (date.fromisoformat(today_iso()) - date.fromisoformat(seen)).days
+    except Exception:
+        return False
+    return age > MAX_STALE_DAYS
+
+
 def read_previous():
     """Достаём вакансии из прошлой выгрузки — они пригодятся, если студия
     сегодня не ответила. Лучше показать вчерашнее, чем потерять полсотни строк."""
@@ -1161,6 +1188,10 @@ def read_previous():
 RUN = {"failed": [], "reused": [], "empty": [], "dead": 0, "before": 0}
 
 
+def today_iso():
+    return datetime.now(timezone.utc).date().isoformat()
+
+
 def collect(companies, verify_links: bool):
     previous = read_previous()
     RUN["before"] = sum(len(v) for v in previous.values())
@@ -1176,7 +1207,7 @@ def collect(companies, verify_links: bool):
                 RUN["empty"].append(c["name"])
             print(f"  {c['name']:<28} +{len(got)}")
         except Exception as e:
-            old = previous.get(c["name"], [])
+            old = [o for o in previous.get(c["name"], []) if not stale(o)]
             if old:
                 raw.extend(old)
                 RUN["reused"].append(c["name"])
@@ -1226,6 +1257,12 @@ def collect(companies, verify_links: bool):
             j["lang"] = lang
         j["stack"] = classify_stack(j["title"], j.get("desc"))
         jobs.append(j)
+
+    # Раньше исчезнувшую из выдачи студии вакансию мы могли вернуть из вчерашних
+    # данных и держать вечно. Теперь помним, когда её видели в последний раз.
+    seen_now = {j["id"] for j in jobs}
+    for j in jobs:
+        j["seen"] = today_iso()
 
     if verify_links:
         print(f"\nПроверяю живость {len(jobs)} ссылок…")
