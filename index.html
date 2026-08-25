@@ -1912,8 +1912,9 @@
     return j._hayMain;
   }
   function hayDesc(j){
-    if (!j._hayDesc) j._hayDesc = ((j.desc || "") + " " + (j.descRu || "")).toLowerCase();
-    return j._hayDesc;
+    // Пока полное описание не загружено, ищем по выжимке — этого хватает,
+    // чтобы «perforce» и «houdini» находились.
+    return ((j.desc || j.descShort || "") + " " + (j.descRu || "")).toLowerCase();
   }
 
   // Perforce, Houdini, Wwise и прочие инструменты студии почти никогда не пишут
@@ -3223,6 +3224,22 @@
   // ---------------------------------------------------------------- окно вакансии
 
   // Один перевод — один маленький файл. Скачали, запомнили, второй раз не просим.
+  // Полное описание лежит отдельным файлом: в общем списке оно занимало
+  // девять десятых веса, а открывают его у одной вакансии из полусотни.
+  function loadDesc(j){
+    if (j._descLoading || j.desc) return;
+    j._descLoading = true;
+    fetch("/desc/" + encodeURIComponent(j.id) + ".json")
+      .then(r => r.ok ? r.json() : null)
+      .then(data => {
+        if (!data || !data.d) return;
+        j.desc = data.d;
+        if (openJob && openJob.id === j.id && !(lang === "ru" && j.descRu))
+          $("jobDesc").innerHTML = descHtml(j.desc);
+      })
+      .catch(() => { j._descLoading = false; });
+  }
+
   function loadTranslation(j){
     if (j._trLoading) return;
     j._trLoading = true;
@@ -3277,8 +3294,9 @@
     // держать тысячу переводов в общих данных — это лишние пять мегабайт
     // каждому, кто просто зашёл посмотреть список.
     if (lang === "ru" && j.hasRu && !j.descRu) loadTranslation(j);
+    if (j.hasDesc && !j.desc) loadDesc(j);
     const useRu = lang === "ru" && j.descRu;
-    const body = useRu ? j.descRu : j.desc;
+    const body = useRu ? j.descRu : (j.desc || j.descShort);
     if (body){
       d.className = "job-desc";
       d.innerHTML = (useRu ? '<div class="tr-note">'+t("manualTr")+'</div>' : "") + descHtml(body);

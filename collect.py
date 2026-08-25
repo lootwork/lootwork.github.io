@@ -258,6 +258,10 @@ FIN_SPEC_RULES = [
 ]
 
 
+FIN_SKIP_ROLES = {"Продажи", "Финансы", "Юристы", "Люди", "Поддержка"}
+MAX_PER_COMPANY = 100        # одна корпорация не должна забивать всю доску
+
+
 def classify_fin_role(title: str):
     for name, pattern in FIN_ROLE_RULES:
         if re.search(pattern, title or "", re.I):
@@ -1310,6 +1314,8 @@ def collect(companies, verify_links: bool):
         industry = j.get("industry") or "gamedev"
         if industry == "fintech":
             role = classify_fin_role(j["title"])
+            if role in FIN_SKIP_ROLES:
+                continue                  # продажи и кадры — не наша доска
         else:
             role = classify_role(j["title"])
         if not role:
@@ -1358,14 +1364,59 @@ def collect(companies, verify_links: bool):
 
     apply_translations(jobs)
     jobs.sort(key=lambda j: (j.get("posted") or ""), reverse=True)
-    return jobs
+
+    # Stripe с шестью сотнями вакансий вытеснил бы с доски всех остальных.
+    # Оставляем у каждой компании только свежие.
+    kept, per = [], {}
+    for j in jobs:
+        c = j.get("company") or ""
+        per[c] = per.get(c, 0) + 1
+        if per[c] <= MAX_PER_COMPANY:
+            kept.append(j)
+    dropped = len(jobs) - len(kept)
+    if dropped:
+        print(f"Обрезано по лимиту на компанию: {dropped}")
+    return kept
+
+
+DESC_PREVIEW = 700
+
+
+def write_desc_files(jobs):
+    """Полные описания — отдельными файлами. В общем списке они занимали
+    девять десятых веса, а читают их у одной вакансии из полусотни."""
+    d = HERE / "desc"
+    shutil.rmtree(d, ignore_errors=True)
+    d.mkdir(parents=True, exist_ok=True)
+    n = 0
+    for j in jobs:
+        if not j.get("desc"):
+            continue
+        (d / f"{j['id']}.json").write_text(
+            json.dumps({"d": j["desc"]}, ensure_ascii=False), encoding="utf-8")
+        n += 1
+    print(f"Файлов с описаниями: {n}")
+
+
+def short_desc(text: str) -> str:
+    t = re.sub(r"\s+", " ", str(text or "")).strip()
+    if len(t) <= DESC_PREVIEW:
+        return t
+    cut = t.rfind(" ", 0, DESC_PREVIEW)
+    return t[:cut if cut > DESC_PREVIEW * 0.6 else DESC_PREVIEW].rstrip(" ,;:") + "…"
 
 
 def write_industry_js(jobs, industry, path):
     """Данные каждой отрасли — отдельным файлом. Иначе человек, зашедший
     за вакансиями в геймдеве, качал бы ещё и весь финтех."""
     today = datetime.now(timezone.utc).date().isoformat()
-    light = [{k: v for k, v in j.items() if k != "_ru"} for j in jobs]
+    light = []
+    for j in jobs:
+        row = {k: v for k, v in j.items() if k not in ("_ru", "desc")}
+        if j.get("desc"):
+            row["descShort"] = short_desc(j["desc"])
+            row["hasDesc"] = True
+        light.append(row)
     body = json.dumps(light, ensure_ascii=False, indent=2)
     studios = len({j.get("company") for j in jobs if j.get("company")})
     var = "JOBS" if industry == "gamedev" else "JOBS_FINTECH"
@@ -1387,6 +1438,7 @@ def write_industry_js(jobs, industry, path):
 def write_js(jobs):
     today = datetime.now(timezone.utc).date().isoformat()
     write_translation_files(jobs)
+    write_desc_files(jobs)
 
     games = [j for j in jobs if (j.get("industry") or "gamedev") == "gamedev"]
     fin = [j for j in jobs if j.get("industry") == "fintech"]

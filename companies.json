@@ -601,5 +601,637 @@
     "site": "monzo.com",
     "enabled": true,
     "industry": "fintech"
+  },
+  {
+    "name": "Wise",
+    "ats": "greenhouse",
+    "token": "wise",
+    "site": "wise.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Starling Bank",
+    "ats": "workable",
+    "token": "starling-bank",
+    "site": "starlingbank.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "N26",
+    "ats": "greenhouse",
+    "token": "n26",
+    "site": "n26.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Adyen",
+    "ats": "greenhouse",
+    "token": "adyen",
+    "site": "adyen.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Mollie",
+    "ats": "ashby",
+    "token": "mollie",
+    "site": "mollie.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "GoCardless",
+    "ats": "greenhouse",
+    "token": "gocardless",
+    "site": "gocardless.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Tide",
+    "ats": "greenhouse",
+    "token": "tide",
+    "site": "tide.co",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Zopa",
+    "ats": "lever",
+    "token": "zopa",
+    "site": "zopa.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Marshmallow",
+    "ats": "ashby",
+    "token": "marshmallow",
+    "site": "marshmallow.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "ClearBank",
+    "ats": "greenhouse",
+    "token": "clear",
+    "site": "clear.bank",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Thought Machine",
+    "ats": "ashby",
+    "token": "thought-machine",
+    "site": "thoughtmachine.net",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Form3",
+    "ats": "greenhouse",
+    "token": "form3",
+    "site": "form3.tech",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Modulr",
+    "ats": "greenhouse",
+    "token": "modulrfinance",
+    "site": "modulrfinance.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Freetrade",
+    "ats": "ashby",
+    "token": "freetrade",
+    "site": "freetrade.io",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Trading 212",
+    "ats": "ashby",
+    "token": "trading212",
+    "site": "trading212.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Plum",
+    "ats": "workable",
+    "token": "withplum",
+    "site": "withplum.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Payoneer",
+    "ats": "greenhouse",
+    "token": "payoneer",
+    "site": "payoneer.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "SumUp",
+    "ats": "greenhouse",
+    "token": "sumup",
+    "site": "sumup.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Qonto",
+    "ats": "lever",
+    "token": "qonto",
+    "site": "qonto.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Pennylane",
+    "ats": "ashby",
+    "token": "pennylane",
+    "site": "pennylane.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Swile",
+    "ats": "lever",
+    "token": "swile",
+    "site": "swile.co",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Alan",
+    "ats": "ashby",
+    "token": "alan",
+    "site": "alan.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Younited",
+    "ats": "lever",
+    "token": "younited",
+    "site": "younited-credit.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Trade Republic",
+    "ats": "greenhouse",
+    "token": "traderepublic",
+    "site": "traderepublic.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Raisin",
+    "ats": "greenhouse",
+    "token": "raisin",
+    "site": "raisin.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Bitpanda",
+    "ats": "greenhouse",
+    "token": "bitpanda",
+    "site": "bitpanda.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Bunq",
+    "ats": "recruitee",
+    "token": "bunq",
+    "site": "bunq.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Nium",
+    "ats": "lever",
+    "token": "nium",
+    "site": "nium.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Airwallex",
+    "ats": "ashby",
+    "token": "airwallex",
+    "site": "airwallex.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Thunes",
+    "ats": "greenhouse",
+    "token": "thunes",
+    "site": "thunes.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Paddle",
+    "ats": "ashby",
+    "token": "paddle",
+    "site": "paddle.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Primer",
+    "ats": "ashby",
+    "token": "primer",
+    "site": "primer.io",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Ebury",
+    "ats": "greenhouse",
+    "token": "ebury",
+    "site": "ebury.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Zilch",
+    "ats": "ashby",
+    "token": "zilch",
+    "site": "payzilch.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "TrueLayer",
+    "ats": "greenhouse",
+    "token": "truelayer",
+    "site": "truelayer.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Griffin",
+    "ats": "ashby",
+    "token": "griffin",
+    "site": "griffin.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Satispay",
+    "ats": "ashby",
+    "token": "satispay",
+    "site": "satispay.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Vivid Money",
+    "ats": "ashby",
+    "token": "vivid",
+    "site": "vivid.money",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Melio",
+    "ats": "greenhouse",
+    "token": "melio",
+    "site": "meliopayments.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "XTB",
+    "ats": "lever",
+    "token": "xtb",
+    "site": "xtb.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "FxPro",
+    "ats": "greenhouse",
+    "token": "fxpro",
+    "site": "fxpro.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Binance",
+    "ats": "greenhouse",
+    "token": "binance",
+    "site": "binance.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Coinbase",
+    "ats": "greenhouse",
+    "token": "coinbase",
+    "site": "coinbase.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Gemini",
+    "ats": "greenhouse",
+    "token": "gemini",
+    "site": "gemini.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Ledger",
+    "ats": "lever",
+    "token": "ledger",
+    "site": "ledger.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Fireblocks",
+    "ats": "greenhouse",
+    "token": "fireblocks",
+    "site": "fireblocks.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "ConsenSys",
+    "ats": "greenhouse",
+    "token": "consensys",
+    "site": "consensys.io",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Circle",
+    "ats": "ashby",
+    "token": "circle",
+    "site": "circle.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Ripple",
+    "ats": "greenhouse",
+    "token": "ripple",
+    "site": "ripple.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "BitGo",
+    "ats": "greenhouse",
+    "token": "bitgo",
+    "site": "bitgo.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Blockchain.com",
+    "ats": "greenhouse",
+    "token": "blockchain",
+    "site": "blockchain.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "CoinGecko",
+    "ats": "lever",
+    "token": "coingecko",
+    "site": "coingecko.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Bybit",
+    "ats": "greenhouse",
+    "token": "bybit",
+    "site": "bybit.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "OKX",
+    "ats": "greenhouse",
+    "token": "okx",
+    "site": "okx.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Stripe",
+    "ats": "greenhouse",
+    "token": "stripe",
+    "site": "stripe.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Plaid",
+    "ats": "ashby",
+    "token": "plaid",
+    "site": "plaid.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Brex",
+    "ats": "greenhouse",
+    "token": "brex",
+    "site": "brex.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Ramp",
+    "ats": "ashby",
+    "token": "ramp",
+    "site": "ramp.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Mercury",
+    "ats": "greenhouse",
+    "token": "mercury",
+    "site": "mercury.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Affirm",
+    "ats": "greenhouse",
+    "token": "affirm",
+    "site": "affirm.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Chime",
+    "ats": "greenhouse",
+    "token": "chime",
+    "site": "chime.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Marqeta",
+    "ats": "greenhouse",
+    "token": "marqeta",
+    "site": "marqeta.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Carta",
+    "ats": "greenhouse",
+    "token": "carta",
+    "site": "carta.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Robinhood",
+    "ats": "greenhouse",
+    "token": "robinhood",
+    "site": "robinhood.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Wealthfront",
+    "ats": "lever",
+    "token": "wealthfront",
+    "site": "wealthfront.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Betterment",
+    "ats": "greenhouse",
+    "token": "betterment",
+    "site": "betterment.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "SoFi",
+    "ats": "greenhouse",
+    "token": "sofi",
+    "site": "sofi.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Toast",
+    "ats": "greenhouse",
+    "token": "toast",
+    "site": "toasttab.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Block",
+    "ats": "greenhouse",
+    "token": "block",
+    "site": "block.xyz",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Alloy",
+    "ats": "greenhouse",
+    "token": "alloy",
+    "site": "alloy.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Unit",
+    "ats": "ashby",
+    "token": "unit",
+    "site": "unit.co",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Lithic",
+    "ats": "greenhouse",
+    "token": "lithic",
+    "site": "lithic.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Column",
+    "ats": "ashby",
+    "token": "column",
+    "site": "column.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Modern Treasury",
+    "ats": "ashby",
+    "token": "moderntreasury",
+    "site": "moderntreasury.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Sardine",
+    "ats": "ashby",
+    "token": "sardine",
+    "site": "sardine.ai",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Persona",
+    "ats": "ashby",
+    "token": "persona",
+    "site": "withpersona.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Middesk",
+    "ats": "ashby",
+    "token": "middesk",
+    "site": "middesk.com",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Pleo",
+    "ats": "ashby",
+    "token": "pleo",
+    "site": "pleo.io",
+    "enabled": true,
+    "industry": "fintech"
+  },
+  {
+    "name": "Moss",
+    "ats": "ashby",
+    "token": "moss",
+    "site": "getmoss.com",
+    "enabled": true,
+    "industry": "fintech"
   }
 ]
