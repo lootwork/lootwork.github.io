@@ -1302,6 +1302,8 @@ def collect(companies, verify_links: bool):
             got = fetcher(c)
             for g in got:
                 g["industry"] = c.get("industry", "gamedev")
+                if c.get("kind"):
+                    g["kind"] = c["kind"]
             raw.extend(got)
             if not got:
                 RUN["empty"].append(c["name"])

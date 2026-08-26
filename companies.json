@@ -600,7 +600,8 @@
     "token": "monzo",
     "site": "monzo.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Банки"
   },
   {
     "name": "Wise",
@@ -608,7 +609,8 @@
     "token": "wise",
     "site": "wise.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "Starling Bank",
@@ -616,7 +618,8 @@
     "token": "starling-bank",
     "site": "starlingbank.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Банки"
   },
   {
     "name": "N26",
@@ -624,7 +627,8 @@
     "token": "n26",
     "site": "n26.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Банки"
   },
   {
     "name": "Adyen",
@@ -632,7 +636,8 @@
     "token": "adyen",
     "site": "adyen.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "Mollie",
@@ -640,7 +645,8 @@
     "token": "mollie",
     "site": "mollie.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "GoCardless",
@@ -648,7 +654,8 @@
     "token": "gocardless",
     "site": "gocardless.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "Tide",
@@ -656,7 +663,8 @@
     "token": "tide",
     "site": "tide.co",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Банки"
   },
   {
     "name": "Zopa",
@@ -664,7 +672,8 @@
     "token": "zopa",
     "site": "zopa.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Банки"
   },
   {
     "name": "Marshmallow",
@@ -672,7 +681,8 @@
     "token": "marshmallow",
     "site": "marshmallow.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Банки"
   },
   {
     "name": "ClearBank",
@@ -680,7 +690,8 @@
     "token": "clear",
     "site": "clear.bank",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Банки"
   },
   {
     "name": "Thought Machine",
@@ -688,7 +699,8 @@
     "token": "thought-machine",
     "site": "thoughtmachine.net",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Банки"
   },
   {
     "name": "Form3",
@@ -696,7 +708,8 @@
     "token": "form3",
     "site": "form3.tech",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "Modulr",
@@ -704,7 +717,8 @@
     "token": "modulrfinance",
     "site": "modulrfinance.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "Freetrade",
@@ -712,7 +726,8 @@
     "token": "freetrade",
     "site": "freetrade.io",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Банки"
   },
   {
     "name": "Trading 212",
@@ -720,7 +735,8 @@
     "token": "trading212",
     "site": "trading212.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Банки"
   },
   {
     "name": "Plum",
@@ -728,7 +744,8 @@
     "token": "withplum",
     "site": "withplum.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Банки"
   },
   {
     "name": "Payoneer",
@@ -736,7 +753,8 @@
     "token": "payoneer",
     "site": "payoneer.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "SumUp",
@@ -744,7 +762,8 @@
     "token": "sumup",
     "site": "sumup.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "Qonto",
@@ -752,7 +771,8 @@
     "token": "qonto",
     "site": "qonto.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Банки"
   },
   {
     "name": "Pennylane",
@@ -760,7 +780,8 @@
     "token": "pennylane",
     "site": "pennylane.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "Swile",
@@ -768,7 +789,8 @@
     "token": "swile",
     "site": "swile.co",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "Alan",
@@ -776,7 +798,8 @@
     "token": "alan",
     "site": "alan.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Банки"
   },
   {
     "name": "Younited",
@@ -784,7 +807,8 @@
     "token": "younited",
     "site": "younited-credit.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Банки"
   },
   {
     "name": "Trade Republic",
@@ -792,7 +816,8 @@
     "token": "traderepublic",
     "site": "traderepublic.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Банки"
   },
   {
     "name": "Raisin",
@@ -800,7 +825,8 @@
     "token": "raisin",
     "site": "raisin.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Банки"
   },
   {
     "name": "Bitpanda",
@@ -808,7 +834,8 @@
     "token": "bitpanda",
     "site": "bitpanda.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Крипта"
   },
   {
     "name": "Bunq",
@@ -816,7 +843,8 @@
     "token": "bunq",
     "site": "bunq.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Банки"
   },
   {
     "name": "Nium",
@@ -824,7 +852,8 @@
     "token": "nium",
     "site": "nium.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "Airwallex",
@@ -832,7 +861,8 @@
     "token": "airwallex",
     "site": "airwallex.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "Thunes",
@@ -840,7 +870,8 @@
     "token": "thunes",
     "site": "thunes.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "Paddle",
@@ -848,7 +879,8 @@
     "token": "paddle",
     "site": "paddle.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "Primer",
@@ -856,7 +888,8 @@
     "token": "primer",
     "site": "primer.io",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "Ebury",
@@ -864,7 +897,8 @@
     "token": "ebury",
     "site": "ebury.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "Zilch",
@@ -872,7 +906,8 @@
     "token": "zilch",
     "site": "payzilch.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "TrueLayer",
@@ -880,7 +915,8 @@
     "token": "truelayer",
     "site": "truelayer.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "Griffin",
@@ -888,7 +924,8 @@
     "token": "griffin",
     "site": "griffin.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "Satispay",
@@ -896,7 +933,8 @@
     "token": "satispay",
     "site": "satispay.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "Vivid Money",
@@ -904,7 +942,8 @@
     "token": "vivid",
     "site": "vivid.money",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Банки"
   },
   {
     "name": "Melio",
@@ -912,7 +951,8 @@
     "token": "melio",
     "site": "meliopayments.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "XTB",
@@ -920,7 +960,8 @@
     "token": "xtb",
     "site": "xtb.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Банки"
   },
   {
     "name": "FxPro",
@@ -928,7 +969,8 @@
     "token": "fxpro",
     "site": "fxpro.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Банки"
   },
   {
     "name": "Binance",
@@ -936,7 +978,8 @@
     "token": "binance",
     "site": "binance.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Крипта"
   },
   {
     "name": "Coinbase",
@@ -944,7 +987,8 @@
     "token": "coinbase",
     "site": "coinbase.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Крипта"
   },
   {
     "name": "Gemini",
@@ -952,7 +996,8 @@
     "token": "gemini",
     "site": "gemini.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Крипта"
   },
   {
     "name": "Ledger",
@@ -960,7 +1005,8 @@
     "token": "ledger",
     "site": "ledger.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Крипта"
   },
   {
     "name": "Fireblocks",
@@ -968,7 +1014,8 @@
     "token": "fireblocks",
     "site": "fireblocks.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Крипта"
   },
   {
     "name": "ConsenSys",
@@ -976,7 +1023,8 @@
     "token": "consensys",
     "site": "consensys.io",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Крипта"
   },
   {
     "name": "Circle",
@@ -984,7 +1032,8 @@
     "token": "circle",
     "site": "circle.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Крипта"
   },
   {
     "name": "Ripple",
@@ -992,7 +1041,8 @@
     "token": "ripple",
     "site": "ripple.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Крипта"
   },
   {
     "name": "BitGo",
@@ -1000,7 +1050,8 @@
     "token": "bitgo",
     "site": "bitgo.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Крипта"
   },
   {
     "name": "Blockchain.com",
@@ -1008,7 +1059,8 @@
     "token": "blockchain",
     "site": "blockchain.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Крипта"
   },
   {
     "name": "CoinGecko",
@@ -1016,7 +1068,8 @@
     "token": "coingecko",
     "site": "coingecko.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Крипта"
   },
   {
     "name": "Bybit",
@@ -1024,7 +1077,8 @@
     "token": "bybit",
     "site": "bybit.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Крипта"
   },
   {
     "name": "OKX",
@@ -1032,7 +1086,8 @@
     "token": "okx",
     "site": "okx.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Крипта"
   },
   {
     "name": "Stripe",
@@ -1040,7 +1095,8 @@
     "token": "stripe",
     "site": "stripe.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "Plaid",
@@ -1048,7 +1104,8 @@
     "token": "plaid",
     "site": "plaid.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "Brex",
@@ -1056,7 +1113,8 @@
     "token": "brex",
     "site": "brex.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Банки"
   },
   {
     "name": "Ramp",
@@ -1064,7 +1122,8 @@
     "token": "ramp",
     "site": "ramp.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "Mercury",
@@ -1072,7 +1131,8 @@
     "token": "mercury",
     "site": "mercury.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Банки"
   },
   {
     "name": "Affirm",
@@ -1080,7 +1140,8 @@
     "token": "affirm",
     "site": "affirm.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Банки"
   },
   {
     "name": "Chime",
@@ -1088,7 +1149,8 @@
     "token": "chime",
     "site": "chime.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Банки"
   },
   {
     "name": "Marqeta",
@@ -1096,7 +1158,8 @@
     "token": "marqeta",
     "site": "marqeta.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "Carta",
@@ -1104,7 +1167,8 @@
     "token": "carta",
     "site": "carta.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Банки"
   },
   {
     "name": "Robinhood",
@@ -1112,7 +1176,8 @@
     "token": "robinhood",
     "site": "robinhood.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Банки"
   },
   {
     "name": "Wealthfront",
@@ -1120,7 +1185,8 @@
     "token": "wealthfront",
     "site": "wealthfront.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Банки"
   },
   {
     "name": "Betterment",
@@ -1128,7 +1194,8 @@
     "token": "betterment",
     "site": "betterment.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Банки"
   },
   {
     "name": "SoFi",
@@ -1136,7 +1203,8 @@
     "token": "sofi",
     "site": "sofi.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Банки"
   },
   {
     "name": "Toast",
@@ -1144,7 +1212,8 @@
     "token": "toast",
     "site": "toasttab.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "Block",
@@ -1152,7 +1221,8 @@
     "token": "block",
     "site": "block.xyz",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "Alloy",
@@ -1160,7 +1230,8 @@
     "token": "alloy",
     "site": "alloy.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "Unit",
@@ -1168,7 +1239,8 @@
     "token": "unit",
     "site": "unit.co",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "Lithic",
@@ -1176,7 +1248,8 @@
     "token": "lithic",
     "site": "lithic.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "Column",
@@ -1184,7 +1257,8 @@
     "token": "column",
     "site": "column.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "Modern Treasury",
@@ -1192,7 +1266,8 @@
     "token": "moderntreasury",
     "site": "moderntreasury.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "Sardine",
@@ -1200,7 +1275,8 @@
     "token": "sardine",
     "site": "sardine.ai",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "Persona",
@@ -1208,7 +1284,8 @@
     "token": "persona",
     "site": "withpersona.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "Middesk",
@@ -1216,7 +1293,8 @@
     "token": "middesk",
     "site": "middesk.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "Pleo",
@@ -1224,7 +1302,8 @@
     "token": "pleo",
     "site": "pleo.io",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   },
   {
     "name": "Moss",
@@ -1232,6 +1311,7 @@
     "token": "moss",
     "site": "getmoss.com",
     "enabled": true,
-    "industry": "fintech"
+    "industry": "fintech",
+    "kind": "Платежи"
   }
 ]

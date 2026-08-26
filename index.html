@@ -191,7 +191,13 @@
   @media(min-width:1120px){
     .wrap{max-width:1240px}
     .layout{display:grid;grid-template-columns:290px 1fr;gap:22px;align-items:start}
-    .side{display:block;position:sticky;top:18px;max-height:calc(100vh - 36px)}
+    /* Панель едет за прокруткой с лёгким запаздыванием: так глаз успевает
+       за движением, и она не выглядит приклеенной намертво. */
+    .side{display:block;position:sticky;top:18px;max-height:calc(100vh - 36px);
+      will-change:transform}
+    .side.pinned{position:static;max-height:none}
+    .side.pinned .sheet{max-height:none}
+    #pinBtn{display:inline-flex}
     .side .sheet{max-width:none;border-radius:14px;max-height:calc(100vh - 36px)}
     .side .sheet-foot{padding:12px 16px}
     .side .sheet-head{padding:14px 16px}
@@ -296,6 +302,8 @@
   .qchip:hover{border-color:var(--line);color:var(--text)}
   .qchip.on{background:var(--cyan-deep);border-color:var(--cyan);color:var(--cyan);font-weight:600}
   /* Тип условия видно по цвету, а не только по тексту. */
+  .qchip.q-cis{color:#6ee7a8;border-color:#1e4a35;font-weight:600}
+  .qchip.q-cis.on{background:rgba(60,190,130,.16);border-color:#3fbe82;color:#8ff0bd}
   .qchip.q-cond{color:var(--cond);border-color:var(--cond-line)}
   .qchip.q-cond.on{background:var(--amber-deep);border-color:var(--amber);color:var(--amber)}
   .qchip.q-role{color:var(--cyan);border-color:var(--cyan-deep)}
@@ -307,7 +315,8 @@
   .fav-chip.on{background:var(--amber-deep);border-color:var(--amber);color:var(--amber)}
   .fav-chip:hover{border-color:var(--amber);color:var(--amber)}
   select.sort{background:var(--panel);border:1px solid var(--line);color:var(--text);
-    font-family:var(--body);font-size:13px;border-radius:999px;padding:8px 12px;cursor:pointer}
+    font-family:var(--body);font-size:13px;border-radius:999px;
+    padding:8px 30px 8px 14px;cursor:pointer}
   select.sort:hover{border-color:var(--cyan)}
 
   .meta-line{display:flex;justify-content:space-between;align-items:center;gap:10px;
@@ -375,6 +384,8 @@
   .tag.remote{color:var(--cyan);border-color:var(--cyan-deep);background:var(--cyan-deep)}
   .tag.src{color:var(--ok);border-color:var(--ok-line);font-family:var(--mono);font-size:11px}
   .tag.tr{color:var(--cyan);border-color:var(--cyan-deep)}
+  .tag.cis{color:#6ee7a8;border-color:#1e4a35;background:rgba(60,190,130,.08);
+    font-weight:600;cursor:help}
   .tag.permit{color:#e8b06a;border-color:#4a3a1c;cursor:help}
   .tag.lang{color:#d8a3ff;border-color:#3d2a55}
   .tag.pool{color:var(--muted);border-style:dashed}
@@ -441,6 +452,12 @@
     max-height:88vh;display:flex;flex-direction:column;border-radius:18px 18px 0 0}
   @media(min-width:700px){.sheet{border-radius:18px}}
 
+  .head-tools{display:flex;align-items:center;gap:4px}
+  .pin{display:none;background:none;border:none;font-size:15px;line-height:1;
+    cursor:pointer;opacity:.4;padding:4px 6px;border-radius:8px;
+    transition:opacity .15s,background .15s}
+  .pin:hover{opacity:.8;background:var(--panel-2)}
+  .pin.on{opacity:1}
   .sheet-head{display:flex;justify-content:space-between;align-items:center;
     padding:17px 19px;border-bottom:1px solid var(--line-soft);flex:none}
   .sheet-head h2{font-family:var(--display);font-weight:600;font-size:17px;letter-spacing:-.01em}
@@ -563,13 +580,17 @@
 
   @keyframes tgIn{ from{opacity:0;transform:translateY(18px) scale(.97)} to{opacity:1;transform:none} }
   @keyframes tgOut{ to{opacity:0;transform:translateY(10px) scale(.98)} }
-  @keyframes tgPulse{ 0%,100%{box-shadow:0 8px 26px var(--shadow)}
-    50%{box-shadow:0 8px 26px var(--shadow),0 0 0 7px rgba(42,171,238,.14)} }
+  /* Раз в полминуты кнопка едва заметно «дышит»: напомнить о себе,
+     но не мельтешить перед глазами. */
+  @keyframes tgPulse{
+    0%,90%,100%{box-shadow:0 8px 26px var(--shadow)}
+    94%{box-shadow:0 8px 26px var(--shadow),0 0 0 8px rgba(42,171,238,.13)}
+    97%{box-shadow:0 8px 26px var(--shadow),0 0 0 12px rgba(42,171,238,0)} }
 
   /* Отказался от окна — остаётся заметная кнопка, но уже не поперёк дороги */
   .tg-fab{display:flex;align-items:center;gap:9px;
     text-decoration:none;border-color:#1c5e80;color:#5ec6ee;
-    animation:tgPulse 2.8s ease-in-out 3}
+    animation:tgPulse 28s ease-in-out infinite}
   .tg-fab:hover{border-color:#2aabee;color:#7fd6f5}
   .tg-fab[hidden]{display:none}
 
@@ -746,9 +767,13 @@
   <div class="sheet">
     <div class="sheet-head">
       <h2 id="filtersTitle">Фильтры</h2>
-      <button class="close" id="filterSheetClose" aria-label="Закрыть" data-close="filterOverlay">×</button>
+      <div class="head-tools">
+        <button class="pin" id="pinBtn" title="Закрепить панель" aria-pressed="false">📌</button>
+        <button class="close" id="filterSheetClose" aria-label="Закрыть" data-close="filterOverlay">×</button>
+      </div>
     </div>
     <div class="sheet-body">
+      <div class="group" id="kindGroup" hidden><div class="group-title" id="gtKind">Тип компании</div><div class="chips" id="fKind"></div></div>
       <div class="group"><div class="group-title" id="gtRole">Роль</div><div class="chips" id="fRole"></div></div>
       <div class="group" id="specGroup"><div class="group-title" id="gtSpec">Специализация</div><div class="chips" id="fSpec"></div></div>
       <div class="group"><div class="group-title" id="gtGrade">Грейд</div><div class="chips" id="fGrade"></div></div>
@@ -870,7 +895,7 @@
       </div>
       <div class="group">
         <div class="group-title" id="fbContactTitle">Контакт для ответа</div>
-        <input class="search" id="fbContact" style="font-size:14px"
+        <input class="search" id="fbContact" style="font-size:14px;width:100%"
                placeholder="почта или телеграм — необязательно">
         <div class="hint" id="fbContactHint" style="margin-top:6px">Без контакта ответить не смогу.</div>
       </div>
@@ -1061,9 +1086,9 @@
   function saveFavs(){ try { store.setItem("favs", JSON.stringify([...favs])); } catch(e){} }
 
   const state = {
-    role:new Set(), spec:new Set(), stack:new Set(), rkind:new Set(),
+    role:new Set(), spec:new Set(), stack:new Set(), rkind:new Set(), kind:new Set(),
     grade:new Set(), company:new Set(), location:new Set(),
-    age:null, remote:false, salary:false, noPermit:false,
+    age:null, remote:false, salary:false, noPermit:false, cis:false,
     onlyFav:false, onlyHidden:false, query:""
   };
   let sortMode = "new";
@@ -1355,7 +1380,7 @@
     // человек должен видеть, сколько останется, если он добавит условие.
     const base = { ...cloneState(state) };
     base[field] = (field === "grade" || field === "role" || field === "spec"
-                   || field === "stack" || field === "rkind"
+                   || field === "stack" || field === "rkind" || field === "kind"
                    || field === "company" || field === "location")
                   ? new Set() : base[field];
     const toks = state.query ? tokens(state.query) : [];
@@ -1464,10 +1489,15 @@
       hidden:"Скрытые", restore:"Вернуть в список", hide:"Скрыть вакансию", more2:"Ещё",
       pool:"резерв", dropWord:"Убрать", shownWord:"Показано",
       langOn:"на", translateIt:"Открыть перевод вакансии, она на",
-      noPermit:"Без разрешения на работу", noPermitShort:"без разрешения",
-      permitTag:"нужно разрешение",
-      permitHint:"Студия требует право работать в своей стране: гражданство, вид на жительство или рабочую визу. Даже если написано «удалённо», кандидата из другой страны обычно не рассматривают.",
-      permitNote:"В этой вакансии студия требует право работать в своей стране — гражданство, вид на жительство или рабочую визу. Проверьте условия в оригинале перед откликом.",
+      noPermit:"Без местного статуса", noPermitShort:"без местного статуса",
+      permitTag:"нужен местный статус",
+      permitHint:"Компания требует право работать именно в её стране: гражданство, вид на жительство или рабочую визу. Даже если написано «удалённо», кандидата из другой страны обычно не рассматривают.",
+      permitNote:"Компания требует право работать в своей стране — гражданство, вид на жительство или рабочую визу. Если у вас его нет, отклик почти наверняка не рассмотрят. Проверьте условия в оригинале.",
+      cisChip:"Можно из СНГ", cisShort:"можно из СНГ", cisTag:"можно из СНГ",
+      pinOn:"Закрепить панель на месте", pinOff:"Пусть следует за прокруткой",
+      gtKind:"Тип компании", gtDirection:"Направление",
+      cisHint:"Удалённая работа из любой точки мира, и компания не требует местного гражданства, ВНЖ или рабочей визы. Такие вакансии открыты для России, Беларуси, Армении, Грузии и остальных стран СНГ.",
+      cisNote:"Работа удалённая по всему миру, и компания не требует местного гражданства, ВНЖ или визы — отклик из России, Беларуси, Армении или Грузии здесь имеет смысл.",
       translated:"перевод", manualTr:"Описание переведено вручную. Оригинал — по кнопке «Откликнуться на сайте студии».",
       officialHint:"Вакансия взята с карьерной страницы студии",
       sourceWord:"источник", checkedWord:"проверено",
@@ -1555,10 +1585,15 @@
       hidden:"Hidden", restore:"Bring back", hide:"Hide this job", more2:"More",
       pool:"talent pool", dropWord:"Remove", shownWord:"Showing",
       langOn:"in", translateIt:"Open a translation, this one is in",
-      noPermit:"No work permit needed", noPermitShort:"no permit needed",
-      permitTag:"work permit needed",
-      permitHint:"The studio requires the right to work in its country: citizenship, residency or a work visa. Even when the job says remote, candidates from other countries are usually not considered.",
-      permitNote:"This job requires the right to work in the studio country — citizenship, residency or a work visa. Check the original posting before applying.",
+      noPermit:"No local status needed", noPermitShort:"no local status",
+      permitTag:"local status needed",
+      permitHint:"The company requires the right to work in its country: citizenship, residency or a work visa. Even when the job says remote, candidates from other countries are usually not considered.",
+      permitNote:"This job requires the right to work in the company country — citizenship, residency or a work visa. Check the original posting before applying.",
+      cisChip:"Open worldwide", cisShort:"open worldwide", cisTag:"open worldwide",
+      pinOn:"Pin the panel", pinOff:"Let it follow scrolling",
+      gtKind:"Company type", gtDirection:"Focus area",
+      cisHint:"Remote from anywhere, and the company does not require local citizenship, residency or a visa.",
+      cisNote:"Remote worldwide, and no local citizenship, residency or visa required.",
       translated:"translated", manualTr:"This description was translated by hand.",
       officialHint:"Taken from the studio career page",
       sourceWord:"source", checkedWord:"checked",
@@ -1722,9 +1757,12 @@
     $("fbSend").textContent = t("send");
     $("sendReport").textContent = t("send");
     $("filtersTitle").textContent = t("filtersTitle");
-    ["gtRole","gtSpec","gtStack","gtGrade","gtPosted","gtTerms","gtFormat","gtCompany","gtLocation"].forEach(id => {
+    ["gtRole","gtSpec","gtStack","gtGrade","gtPosted","gtTerms","gtFormat","gtCompany",
+     "gtLocation","gtKind"].forEach(id => {
       const el = $(id);
-      if (el) el.textContent = t(id);
+      if (!el) return;
+      // В финтехе «Специализация» звучит чуждо: там это направление работы.
+      el.textContent = (id === "gtSpec" && mode === "fintech") ? t("gtDirection") : t(id);
     });
     $("clearFilters").textContent = t("clear");
     $("moreBtn").textContent = t("more");
@@ -1804,6 +1842,14 @@
   function translateUrl(url){
     return "https://translate.google.com/translate?sl=auto&tl=" +
            (lang === "en" ? "en" : "ru") + "&u=" + encodeURIComponent(url);
+  }
+
+  // Ради этого сайт и делался: человеку из России, Беларуси, Армении или
+  // Грузии важно не «есть ли удалёнка», а возьмут ли его вообще. Возьмут,
+  // если работа удалённая по всему миру и компания не требует местного
+  // гражданства, вида на жительство или рабочей визы.
+  function openToCis(j){
+    return j.rkind === "worldwide" && !j.permit;
   }
 
   function roleColor(v){
@@ -1996,6 +2042,8 @@
     if (st.stack && st.stack.size && !(j.stack||[]).some(v => st.stack.has(v))) return false;
     if (st.rkind && st.rkind.size && !st.rkind.has(j.rkind)) return false;
     if (st.noPermit && j.permit) return false;
+    if (st.cis && !openToCis(j)) return false;
+    if (st.kind && st.kind.size && !st.kind.has(j.kind)) return false;
     if (st.grade.size && !(st.grade.has(j.grade) || (!j.grade && st.grade.has(NO_GRADE))))
       return false;
     if (st.company.size && !st.company.has(j.company)) return false;
@@ -2158,7 +2206,7 @@
     return state.role.size + state.spec.size + state.stack.size + state.rkind.size
          + state.grade.size + state.company.size + state.location.size
          + (state.age ? 1 : 0) + (state.remote ? 1 : 0) + (state.salary ? 1 : 0)
-         + (state.noPermit ? 1 : 0)
+         + (state.noPermit ? 1 : 0) + (state.cis ? 1 : 0) + state.kind.size
          + (state.onlyFav ? 1 : 0);
   }
 
@@ -2327,7 +2375,9 @@
     if (j.remote || j.rkind)
       tags.push('<span class="tag remote">'+esc(j.rkind ? rkindLabel(j.rkind) : t("remote"))+'</span>');
     if (j.pool) tags.push('<span class="tag pool">'+t("pool")+'</span>');
-    if (j.permit)
+    if (openToCis(j))
+      tags.push('<span class="tag cis" title="'+esc(t("cisHint"))+'">'+t("cisTag")+'</span>');
+    else if (j.permit)
       tags.push('<span class="tag permit" title="'+esc(t("permitHint"))+'">'+t("permitTag")+'</span>');
     if (j.lang && j.lang !== "ru" && !(j.descRu || j.hasRu))
       tags.push('<span class="tag lang">'+t("langOn")+' '+esc(langLabel(j.lang))+'</span>');
@@ -2489,7 +2539,13 @@
       if (hint) b.title = hint;
       markPressed(b, isOn());
       b.textContent = label;
-      b.addEventListener("click", () => { toggle(); shownCount = PAGE; renderList(); });
+      b.addEventListener("click", () => {
+        toggle();
+        shownCount = PAGE;
+        renderList();
+        // Раньше цифры в общих фильтрах обновлялись только после их открытия
+        buildFilterUi();
+      });
       box.appendChild(b);
     };
 
@@ -2502,6 +2558,11 @@
     chip(t("week"), () => state.age === 7, () => state.age = state.age === 7 ? null : 7, "cond");
     // Для человека из СНГ «удалёнка» в вакансии из США часто означает
     // «удалённо, но с правом работать в США». Даём это отфильтровать.
+    // Самый нужный фильтр для нашей аудитории — ставим первым среди условий.
+    const forCis = JOBS.filter(openToCis).length;
+    if (forCis)
+      chip(t("cisChip") + " " + forCis, () => state.cis,
+           () => state.cis = !state.cis, "cis", t("cisHint"));
     const withPermit = JOBS.filter(j => j.permit).length;
     if (withPermit)
       chip(t("noPermit"), () => state.noPermit, () => state.noPermit = !state.noPermit,
@@ -2925,6 +2986,7 @@
     if (state.remote) add(t("remote"), () => state.remote = false);
     if (state.salary) add(t("withSalary"), () => state.salary = false);
     if (state.noPermit) add(t("noPermitShort"), () => state.noPermit = false);
+    if (state.cis) add(t("cisShort"), () => state.cis = false);
     if (state.onlyFav) add(t("favs"), () => state.onlyFav = false);
     if (state.onlyHidden) add(t("hidden"), () => state.onlyHidden = false);
   }
@@ -2935,8 +2997,9 @@
     return { role:new Set(s.role), spec:new Set(s.spec), stack:new Set(s.stack),
              rkind:new Set(s.rkind),
              grade:new Set(s.grade), company:new Set(s.company),
-             location:new Set(s.location), age:s.age, remote:s.remote, salary:s.salary,
-             noPermit:s.noPermit, query:s.query };
+             kind:new Set(s.kind), location:new Set(s.location),
+             age:s.age, remote:s.remote, salary:s.salary,
+             noPermit:s.noPermit, cis:s.cis, query:s.query };
   }
 
   function markPressed(btn, on){ btn.setAttribute("aria-pressed", on ? "true" : "false"); }
@@ -3130,6 +3193,10 @@
 
   function buildFilterUi(){
     if (!draft) return;      // окно фильтров ещё не открывали — рисовать нечего
+    // Тип компании нужен только в финтехе: в геймдеве все и так студии.
+    const kinds = counts("kind");
+    $("kindGroup").hidden = !(mode === "fintech" && kinds.length);
+    if (!$("kindGroup").hidden) chipRow($("fKind"), kinds, draft.kind, v => v);
     chipRow($("fRole"), counts("role"), draft.role, roleLabel);
 
     const specVals = counts("spec");
@@ -3545,7 +3612,8 @@
     if (wide.matches){ doReset(); buildFilterUi(); return; }
     draft = { role:new Set(), spec:new Set(), stack:new Set(), rkind:new Set(),
               grade:new Set(), company:new Set(), location:new Set(),
-              age:null, remote:false, salary:false, noPermit:false, query:state.query };
+              age:null, remote:false, salary:false, noPermit:false, cis:false,
+              query:state.query };
     buildFilterUi();
   });
   $("companySearch").addEventListener("input", buildFilterUi);
@@ -3553,6 +3621,17 @@
   $("sendReport").addEventListener("click", sendReport);
   searchEl.addEventListener("focus", renderSuggest);
   searchEl.addEventListener("blur", () => setTimeout(hideSuggest, 120));
+  // На телефоне «Enter»/«Искать» должен убирать клавиатуру и подсказки:
+  // раньше нажатие просто ничего не делало, и это выглядело как поломка.
+  searchEl.addEventListener("keydown", e => {
+    if (e.key === "Enter" && sugIndex < 0){
+      e.preventDefault();
+      hideSuggest();
+      searchEl.blur();
+      return;
+    }
+  });
+
   searchEl.addEventListener("keydown", e => {
     const box = $("suggest");
     if (box.hidden) return;
@@ -3743,8 +3822,10 @@
 
   function doReset(){
     state.role.clear(); state.spec.clear(); state.stack.clear(); state.rkind.clear();
+    state.kind.clear();
     state.grade.clear(); state.company.clear(); state.location.clear();
-    state.age = null; state.remote = false; state.salary = false; state.noPermit = false; state.onlyFav = false;
+    state.age = null; state.remote = false; state.salary = false;
+    state.noPermit = false; state.cis = false; state.onlyFav = false;
     state.query = ""; sortMode = "new";
     searchEl.value = ""; shownCount = PAGE;
     renderList();
@@ -3931,6 +4012,51 @@
     if (e.metaKey || e.ctrlKey || e.altKey) return;
     swapTo(mode === "fintech" ? "gamedev" : "fintech");
   });
+
+  // ---------------------------------------------- панель фильтров и прокрутка
+  // Панель следует за экраном, но с инерцией: при прокрутке она чуть
+  // отстаёт и мягко догоняет. Кнопка-булавка выключает это поведение
+  // для тех, кому движение мешает.
+  function sideMotion(){
+    const side = $("filterHost");
+    const pin = $("pinBtn");
+    if (!side || !pin) return;
+
+    let pinned = false;
+    try { pinned = store.getItem("pinFilters") === "1"; } catch(e){}
+
+    const applyPin = () => {
+      side.classList.toggle("pinned", pinned);
+      pin.classList.toggle("on", pinned);
+      pin.setAttribute("aria-pressed", pinned ? "true" : "false");
+      pin.title = pinned ? t("pinOff") : t("pinOn");
+      if (pinned) side.style.transform = "";
+    };
+    pin.addEventListener("click", () => {
+      pinned = !pinned;
+      try { store.setItem("pinFilters", pinned ? "1" : "0"); } catch(e){}
+      applyPin();
+    });
+    applyPin();
+
+    if (calmMotion()) return;
+
+    let last = window.scrollY, shift = 0, raf = null;
+    const tick = () => {
+      shift *= 0.86;                       // затухание: панель догоняет экран
+      if (Math.abs(shift) < 0.4){ shift = 0; side.style.transform = ""; raf = null; return; }
+      side.style.transform = "translateY(" + shift.toFixed(1) + "px)";
+      raf = requestAnimationFrame(tick);
+    };
+    window.addEventListener("scroll", () => {
+      if (pinned || window.innerWidth < 1120) return;
+      const d = window.scrollY - last;
+      last = window.scrollY;
+      shift = Math.max(-46, Math.min(46, shift + d * 0.34));
+      if (!raf) raf = requestAnimationFrame(tick);
+    }, { passive: true });
+  }
+  sideMotion();
 
   function tgSetup(){
     const card = $("tgCard"), fab = $("tgFab");
