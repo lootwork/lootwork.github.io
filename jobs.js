@@ -1,11 +1,113 @@
 // jobs.js — сгенерировано collect.py, руками не править.
-// Отрасль: gamedev. Обновлено: 2026-08-26. Вакансий: 1031.
+// Отрасль: gamedev. Обновлено: 2026-08-26. Вакансий: 1029.
 
 window.JOBS_DEMO = false;
 window.JOBS_UPDATED = "2026-08-26";
 window.JOBS_STUDIOS = 62;
 
 window.JOBS = [
+  {
+    "id": "gh-wargaming-7955999",
+    "title": "Data Analyst",
+    "company": "Wargaming",
+    "locations": [
+      "Nicosia"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-26",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7955999",
+    "site": "wargaming.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-08-26",
+    "descShort": "Job Overview We are seeking a data analytics professional to join our Data & Marketing Tech Team, to help improve measurement, analysis, and decision-making across complex data environments. This role combines data analysis, data research, and applied AI automation to work with multiple data sources, investigate business questions, and support reliable, scalable analytical workflows. Reports to • Team Lead of Data & Marketing Technology What will you do? • Analyze data to answer business questions, identify patterns, and generate actionable insights • Research data across complex systems with multiple internal and external sources, understanding data flows, dependencies, and limitations •…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-wargaming-7841726",
+    "title": "Senior Community Manager EN (World of Tanks, PC)",
+    "company": "Wargaming",
+    "locations": [
+      "Prague"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-26",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7841726",
+    "site": "wargaming.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Поддержка",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-26",
+    "hasRu": true,
+    "descShort": "Job Overview We are looking for an experienced Senior Community Manager to help shape the future of Community Management for World of Tanks PC. This role is for someone with significant experience in PC gaming, live-service publishing, or established gaming communities who can bring strong judgement, publishing expertise, and new ideas to how we engage with players. You will act as an experienced anchor within the Community team, working closely with Community leadership to develop strategy, improve workflows, support complex decisions, and strengthen how we understand and engage our players. You will remain connected to the game and community while understanding how players, creators…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-wargaming-8041225",
+    "title": "Server Developer (World of Tanks Console)",
+    "company": "Wargaming",
+    "locations": [
+      "Belgrade"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-26",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8041225",
+    "site": "wargaming.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Бэкенд",
+    "stack": [
+      "C++",
+      "Python"
+    ],
+    "seen": "2026-08-26",
+    "descShort": "Job Overview Wargaming is inviting talented Server developers who are ready to learn a lot, take responsibility for the result of their work and meet the expectations of our players together with us. In our team you will have to solve interesting tasks related to the development of World of Tanks on the whole technological stack. Reports to Solution Architect What will you do? • Develop high-performance (in terms of memory and execution time) in-game components • Improve and develop the existing technology stack • Work with dozens of additional services and applications that make up the large-scale infrastructure of our project (payment systems, authorization systems, analytical data…",
+    "hasDesc": true
+  },
+  {
+    "id": "lv-xsolla-6d28bd24-fbf5-4334-b844-d988b5a28f8f",
+    "title": "Site Reliability Engineer",
+    "company": "Xsolla",
+    "locations": [
+      "Russia"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-26",
+    "url": "https://jobs.lever.co/xsolla/6d28bd24-fbf5-4334-b844-d988b5a28f8f",
+    "source": "lever",
+    "site": "xsolla.com",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "DevOps",
+    "lang": "ru",
+    "stack": [
+      "Kubernetes"
+    ],
+    "seen": "2026-08-26",
+    "descShort": "Об Xsolla Xsolla — глобальный лидер в сфере видеоигровой коммерции, предоставляющий разработчикам все возможности для запуска, развития и монетизации игр. Компания поддерживает студии любого масштаба — от инди до AAA — с помощью решений в области Direct-to-Consumer коммерции, интеллектуальных платежей, IP из медиаиндустрии и инструментов вовлечения игроков. Xsolla помогает разработчикам финансировать, распространять, продвигать и монетизировать игры в глобальном масштабе. Нам доверяют более 70 процентов из топ-100 самых кассовых игр. Xsolla выступает в роли merchant of record в 200+ регионах мира с доступом к более чем 1000 локальных платёжных методов. Xsolla глубоко верит в будущее игровой…",
+    "hasDesc": true
+  },
   {
     "id": "lv-amanotes-5f6502dd-c3c5-47ce-abde-77d9fdd3c63d",
     "title": "[LiveOps Team] Senior Product Data Analyst (Based in HCM)",
@@ -33,6 +135,241 @@ window.JOBS = [
     "hasDesc": true
   },
   {
+    "id": "gh-2k-games-7651061003",
+    "title": "Manager, Social Marketing",
+    "company": "2K Games",
+    "locations": [
+      "Novato, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-26",
+    "url": "https://job-boards.greenhouse.io/2k/jobs/7651061003",
+    "site": "2k.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-26",
+    "hasRu": true,
+    "descShort": "Who We Are: Founded in 2005, 2K Games is a global video game company, publishing titles developed by some of the most influential game development studios in the world. Our studios responsible for developing 2K’s portfolio of world-class games across multiple platforms, include Visual Concepts, Gearbox, Firaxis, Hangar 13, Cat Daddy, Cloud Chamber, 31st Union and HB Studios. Our portfolio of titles and platforms is expanding due to our global strategic plan, building, and acquiring exciting studios whose content continues to inspire all of us! 2K publishes titles in today’s most popular gaming genres, including sports, shooters, action, role-playing, strategy, casual, and family…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-riot-games-8124193",
+    "title": "Senior Narrative Designer - Unpublished R&D Product",
+    "company": "Riot Games",
+    "locations": [
+      "Shanghai, China"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-26",
+    "url": "https://www.riotgames.com/en/work-with-us/job/8124193?gh_jid=8124193",
+    "site": "riotgames.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Нарратив",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-26",
+    "descShort": "Riot Games was established in 2006 by entrepreneurial gamers who believe that player-focused game development can result in great games. In 2009, Riot released its debut title League of Legends to critical and player acclaim. As the most played video game in the world, over 100 million play every month. Players form the foundation of our community and it’s for them that we continue to evolve and improve the League of Legends experience. We’re looking for humble but ambitious, razor-sharp professionals who can teach us a thing or two. We promise to return the favor. Like us, you take play seriously; you’re passionate about games. We embrace those who see things differently, aren’t afraid to…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-scopely-5372414008",
+    "title": "AI Artist (Generalist)",
+    "company": "Scopely",
+    "locations": [
+      "Bangalore, India"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-26",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5372414008?gh_jid=5372414008",
+    "site": "scopely.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Арт",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Blender",
+      "ZBrush",
+      "Photoshop"
+    ],
+    "seen": "2026-08-26",
+    "hasRu": true,
+    "descShort": "Scopely is looking for an AI Artist (Generalist) to join our Bingo Bash team in Bangalore on a Hybrid basis! At Scopely, we care deeply about what we do and want to inspire play, every day - whether in our work environments alongside our talented colleagues, or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily. The Bingo Bash team is home to bingo, cards, slots and more! Here you will work on a top-grossing F2P game with significant and growing daily revenues, and help create fresh content for our players. What You’ll…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-scopely-5256167008",
+    "title": "Intern - Game Design (Slot)",
+    "company": "Scopely",
+    "locations": [
+      "Bangalore, India"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-26",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5256167008?gh_jid=5256167008",
+    "site": "scopely.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Геймдизайн",
+    "grade": "Junior",
+    "spec": null,
+    "stack": [
+      "Unity"
+    ],
+    "seen": "2026-08-26",
+    "hasRu": true,
+    "descShort": "Scopely is looking for a Game Design (Intern) to join our Royal Lounge Casino team in Bangalore on a hybrid basis! At Scopely, we care deeply about what we do and want to inspire play, every day - whether in our work environments alongside our talented colleagues, or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily. With 30M+ downloads, Grand Casino is home to slots, bingo, cards, and more! Team members are distributed across the globe with hubs in Bengaluru, Tel Aviv, Barcelona, among others What You Will Do •…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-scopely-5371149008",
+    "title": "Lead QA Engineer",
+    "company": "Scopely",
+    "locations": [
+      "Bangalore, India"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-26",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5371149008?gh_jid=5371149008",
+    "site": "scopely.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "QA",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-26",
+    "hasRu": true,
+    "descShort": "Scopely is looking for a smart, technically strong, and process-adaptive QA Lead to join our Royal Lounge Casino team in Bangalore on a hybrid basis. At Scopely, we care deeply about what we do and want to inspire play, every day - whether in our work environments alongside our talented colleagues, or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily. With 30M+ downloads, Grand Casino is home to slots, bingo, cards, and more! Team members are distributed across the globe with hubs in Bengaluru, Tel Aviv, Barcelona…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-scopely-5396799008",
+    "title": "Lead UI Artist - MONOPOLY GO!",
+    "company": "Scopely",
+    "locations": [
+      "Barcelona, Spain"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-26",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5396799008?gh_jid=5396799008",
+    "site": "scopely.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Арт",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Photoshop",
+      "Figma"
+    ],
+    "seen": "2026-08-26",
+    "descShort": "Scopely is looking for a Lead UI Artist to join our MONOPOLY GO! team in Barcelona (Spain) on a hybrid basis! At Scopely, we care deeply about what we do and want to inspire play, every day - whether in our work environments alongside our talented colleagues, or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily. MONOPOLY GO! is a global phenomenon and the biggest mobile game launch in history, captivating millions of players worldwide. The team is based in Europe and the US and works daily to create captivating new…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-scopely-5271917008",
+    "title": "Principal Game Designer (Feature + Systems)",
+    "company": "Scopely",
+    "locations": [
+      "Bangalore, India"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-26",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5271917008?gh_jid=5271917008",
+    "site": "scopely.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Геймдизайн",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Figma"
+    ],
+    "seen": "2026-08-26",
+    "hasRu": true,
+    "descShort": "We are seeking a Principal Game Designer (Feature + Systems) to join our Bingo Bash team in Bangalore! At Scopely, we care deeply about what we do and want to inspire play, every day - whether in our work environments alongside our talented colleagues or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing, and innovating the mobile games industry, connecting millions of people around the world daily. Bingo Bash is a highly international team working on the biggest video game from India to date (measured by revenue). Here you will work on a top-grossing F2P game with significant and growing daily revenues, and help…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-scopely-5372408008",
+    "title": "Senior Software Engineer (Gaming Full Stack) - WWE Champions",
+    "company": "Scopely",
+    "locations": [
+      "United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 145 000 – 220 000",
+    "posted": "2026-08-26",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5372408008?gh_jid=5372408008",
+    "site": "scopely.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Фронтенд",
+    "stack": [
+      "Unity",
+      "C#",
+      "Python",
+      "AWS"
+    ],
+    "seen": "2026-08-26",
+    "descShort": "Scopely is looking for a Senior Software Engineer (Gaming Full Stack) to join our WWE Champions team in the United States or Canada on a remote basis or Mexico City on a hybrid basis. At Scopely, we care deeply about what we do and want to inspire play every day - whether in our work environments alongside our talented colleagues or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily. WWE Champions is our ultimate and unique RPG puzzle match game featuring WWE superstars and legends across mobile and PC platforms. WWE…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-scopely-5360707008",
+    "title": "Senior Software Engineer (Unity)",
+    "company": "Scopely",
+    "locations": [
+      "Bangalore, India"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-26",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5360707008?gh_jid=5360707008",
+    "site": "scopely.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Unity",
+    "stack": [
+      "Unity",
+      "C++",
+      "C#",
+      "Java",
+      "Swift"
+    ],
+    "seen": "2026-08-26",
+    "hasRu": true,
+    "descShort": "Scopely is looking for a Senior Software Engineer (Unity) to join our Royal Lounge Casino team in Bangalore on a hybrid basis! At Scopely, we care deeply about what we do and want to inspire play, every day - whether in our work environments alongside our talented colleagues, or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily. With 30M+ downloads, Royal Lounge Casino is home to slots, bingo, cards, and more! Team members are distributed across the globe with hubs in Bengaluru, Tel Aviv, Barcelona, among others Role…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-scopely-5395475008",
     "title": "Software Engineer - Data Infrastructure",
     "company": "Scopely",
@@ -57,6 +394,133 @@ window.JOBS = [
     ],
     "seen": "2026-08-26",
     "descShort": "Summary Scopely Explore (formerly known as Niantic) seeks a Software Engineer to design and build the data infrastructure and experimentation platforms that power our mobile games. You will develop systems that help game, product, analytics, and engineering teams run trustworthy experiments, understand player behavior, and make better decisions at scale. This is a hands-on technical leadership role. You will write production code, make foundational architectural decisions, and operate critical distributed systems while guiding the technical direction of the platform. Beyond individual technical contribution, you will help lead and grow the Data Infrastructure organization by aligning…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-scopely-5360705008",
+    "title": "Software Engineer (Unity)",
+    "company": "Scopely",
+    "locations": [
+      "Bangalore, India"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-26",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5360705008?gh_jid=5360705008",
+    "site": "scopely.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Unity",
+    "stack": [
+      "Unity",
+      "C++",
+      "C#",
+      "Java"
+    ],
+    "seen": "2026-08-26",
+    "hasRu": true,
+    "descShort": "Scopely is looking for a Software Engineer to join the Royal Lounge Casino team in Bangalore on a hybrid basis! At Scopely, we care deeply about what we do and want to inspire play, every day - whether in our work environments alongside our talented colleagues, or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily. With 30M+ downloads, Royal Lounge Casino is home to slots, bingo, cards, and more! Team members are distributed across the globe with hubs in Bengaluru, Tel Aviv, Barcelona, among others What You’ll Do As a…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-scopely-5396801008",
+    "title": "UI Artist - MONOPOLY GO!",
+    "company": "Scopely",
+    "locations": [
+      "Barcelona, Spain"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-26",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5396801008?gh_jid=5396801008",
+    "site": "scopely.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Арт",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unity",
+      "Photoshop",
+      "Figma"
+    ],
+    "seen": "2026-08-26",
+    "descShort": "Scopely is looking for a UI Artist to join our MONOPOLY GO! team in Barcelona (Spain) on a hybrid basis! At Scopely, we care deeply about what we do and want to inspire play, every day - whether in our work environments alongside our talented colleagues, or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily. MONOPOLY GO! is a global phenomenon and the biggest mobile game launch in history, captivating millions of players worldwide. The team is based in Europe and the US and works daily to create captivating new…",
+    "hasDesc": true
+  },
+  {
+    "id": "sr-gameloft-744000145696430",
+    "title": "Senior Product Manager - Asphalt Legends",
+    "company": "Gameloft",
+    "locations": [
+      "Barcelona, Spain"
+    ],
+    "remote": false,
+    "rkind": "worldwide",
+    "salary": null,
+    "posted": "2026-08-26",
+    "url": "https://jobs.smartrecruiters.com/Gameloft/744000145696430",
+    "source": "smartrecruiters",
+    "site": "gameloft.com",
+    "industry": "gamedev",
+    "role": "Продакт",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-26",
+    "descShort": "Company Description About Gameloft As a leader in the development and publishing of multiplatform games, Gameloft® has established itself as one of the top innovators in its field since 2000. Gameloft creates games for all digital platforms, two of which are featured in the “Top 10 Games by All-Time Worldwide Downloads” from App Annie. Gameloft operates its own established franchises such as Asphalt®, Order & Chaos, Modern Combat and Dungeon Hunter and also partners with major rights holders including Universal, Illumination Entertainment, Disney®, Marvel®, Hasbro®, Fox Digital Entertainment, Mattel® and Ferrari®. Gameloft distributes its games in over 100 countries and employs 4,600 people…",
+    "hasDesc": true
+  },
+  {
+    "id": "wk-homa-games-AA9BC37C4A",
+    "title": "Junior UA/Growth Associate - Mobile Games",
+    "company": "Homa Games",
+    "locations": [
+      "Paris, France"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-26",
+    "url": "https://apply.workable.com/j/AA9BC37C4A",
+    "source": "workable",
+    "site": "homagames.com",
+    "industry": "gamedev",
+    "role": "Маркетинг",
+    "grade": "Junior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-26",
+    "hasRu": true,
+    "descShort": "Homa is a global mobile game developer and publisher creating games people love. We partner with studios and internally develop games, having launched over 80 titles, reached over 2 billion downloads, and seen our game All in Hole break into the global top-50 grossing charts. These are milestones, not the finish line. With deep expertise in product and technology, we built Homa Lab, our proprietary platform that gives developers the market intelligence, data tools, and game tech, with AI built-in, to find product–market fit fast and scale mass-market games into lasting experiences players enjoy for years. This is our flywheel: Homa Lab helps studios spot the right ideas early, turn them…",
+    "hasDesc": true
+  },
+  {
+    "id": "wk-homa-games-8FDD4C25D9",
+    "title": "Strategic Project Manager",
+    "company": "Homa Games",
+    "locations": [
+      "Paris, France"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-26",
+    "url": "https://apply.workable.com/j/8FDD4C25D9",
+    "source": "workable",
+    "site": "homagames.com",
+    "industry": "gamedev",
+    "role": "Продюсирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-26",
+    "hasRu": true,
+    "descShort": "Homa is a global mobile game developer and publisher creating games people love. We partner with studios and internally develop games, having launched over 80 titles, reached over 2 billion downloads, and seen our game All in Hole break into the global top-50 grossing charts. These are milestones, not the finish line. With deep expertise in product and technology, we built Homa Lab, our proprietary platform that gives developers the market intelligence, data tools, and game tech, with AI built-in, to find product–market fit fast and scale mass-market games into lasting experiences players enjoy for years. This is our flywheel: Homa Lab helps studios spot the right ideas early, turn them…",
     "hasDesc": true
   },
   {
@@ -136,17 +600,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-wargaming-8124661",
+    "id": "gh-wargaming-8124666",
     "title": "Sr Performance Automation QA Engineer (World of Warships, PC)",
     "company": "Wargaming",
     "locations": [
-      "Belgrade"
+      "Nicosia"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-25",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8124661",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8124666",
     "site": "wargaming.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -160,7 +624,6 @@ window.JOBS = [
       "Docker"
     ],
     "seen": "2026-08-26",
-    "hasRu": true,
     "descShort": "Job Overview We are looking for a Senior Performance QA Engineer with experience in GameDev to join our World of Warships PC team. This position is open in our Belgrade or Nicosia office. In this role, you’ll focus on performance testing and automation, helping us identify performance bottlenecks and ensure a smooth and stable experience for our players. You’ll work closely with QA and development teams to investigate, analyze, and improve game performance. If you’re enjoy sharing your expertise and learning from others, and want to contribute to the quality of a large-scale PC game, we’d love to hear from you. Reports to Lead Automation QA Engineer What will you do? • Develop and maintain…",
     "hasDesc": true
   },
@@ -237,6 +700,27 @@ window.JOBS = [
       "SQL",
       "AWS"
     ],
+    "seen": "2026-08-26",
+    "descShort": "Who are we? Tripledot Studios is one of the largest independent mobile games companies in the world. We are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios. Our expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users. Tripledot’s guiding principle is that when people love what they do, what they do will be loved by others. We’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games. Our ambition is to be the most successful games company in the world, and…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-tripledot-belka-4960068101",
+    "title": "Senior Ad Monetisation Analyst",
+    "company": "Tripledot / Belka",
+    "locations": [],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4960068101",
+    "site": "tripledotstudios.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Аналитика",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
     "seen": "2026-08-26",
     "descShort": "Who are we? Tripledot Studios is one of the largest independent mobile games companies in the world. We are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios. Our expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users. Tripledot’s guiding principle is that when people love what they do, what they do will be loved by others. We’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games. Our ambition is to be the most successful games company in the world, and…",
     "hasDesc": true
@@ -605,29 +1089,6 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-riot-games-8124193",
-    "title": "Senior Game Designer - Unpublished R&D Product",
-    "company": "Riot Games",
-    "locations": [
-      "Shanghai, China"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-25",
-    "url": "https://www.riotgames.com/en/work-with-us/job/8124193?gh_jid=8124193",
-    "site": "riotgames.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Геймдизайн",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-26",
-    "descShort": "Riot Games was established in 2006 by entrepreneurial gamers who believe that player-focused game development can result in great games. In 2009, Riot released its debut title League of Legends to critical and player acclaim. As the most played video game in the world, over 100 million play every month. Players form the foundation of our community and it’s for them that we continue to evolve and improve the League of Legends experience. We’re looking for humble but ambitious, razor-sharp professionals who can teach us a thing or two. We promise to return the favor. Like us, you take play seriously; you’re passionate about games. We embrace those who see things differently, aren’t afraid to…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-riot-games-8138239",
     "title": "Senior Illustration Artist - Riftbound",
     "company": "Riot Games",
@@ -988,17 +1449,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-scopely-5210078008",
+    "id": "gh-scopely-5398792008",
     "title": "Senior Product Manager - WWE Champions",
     "company": "Scopely",
     "locations": [
-      "United States"
+      "Canada"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 145 000 – 220 000",
+    "salary": null,
     "posted": "2026-08-25",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5210078008?gh_jid=5210078008",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5398792008?gh_jid=5398792008",
     "site": "scopely.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -1007,7 +1468,6 @@ window.JOBS = [
     "spec": null,
     "stack": [],
     "seen": "2026-08-26",
-    "hasRu": true,
     "descShort": "Scopely is looking for a Senior Product Manager to join our WWE Champions team in the US or Canada on a remote basis or based in our Culver City studio hub. At Scopely, we care deeply about what we do and want to inspire play every day - whether in our work environments alongside our talented colleagues or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily. WWE Champions is our ultimate and unique RPG puzzle match game featuring WWE superstars and legends across mobile and PC platforms. WWE Champions is the most…",
     "hasDesc": true
   },
@@ -1137,29 +1597,6 @@ window.JOBS = [
     "stack": [],
     "seen": "2026-08-26",
     "descShort": "Description de l'entreprise Chez Gameloft nous créons des moments de joie pour nos joueurs autour du monde à travers des expériences de jeux excitantes. C'est notre mission, et cela l'a été depuis plus de 25 ans. Nous sommes les fiers créateurs d'Asphalt, Dungeon Hunter, Modern Combat et plus de 200 autres super jeux. Il y a un jeu pour tous, et nous nous élargissons maintenant avec des jeux multi-plateforme sur PC et consoles, avec des jeux tels Disney Speedstorm et Disney Dreamlight Valley, pour offrir à nos joueurs de nouvelles aventures incroyables. Avec près de 3,000 Gamelofteurs passionnés à travers le monde, nous sommes très fiers de nos différences et nous nous appuyons sur…",
-    "hasDesc": true
-  },
-  {
-    "id": "sr-gameloft-744000145526134",
-    "title": "Senior Product Manager - Asphalt Legends",
-    "company": "Gameloft",
-    "locations": [
-      "Barcelona, Spain"
-    ],
-    "remote": false,
-    "rkind": "worldwide",
-    "salary": null,
-    "posted": "2026-08-25",
-    "url": "https://jobs.smartrecruiters.com/Gameloft/744000145526134",
-    "source": "smartrecruiters",
-    "site": "gameloft.com",
-    "industry": "gamedev",
-    "role": "Продакт",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-26",
-    "descShort": "Company Description About Gameloft As a leader in the development and publishing of multiplatform games, Gameloft® has established itself as one of the top innovators in its field since 2000. Gameloft creates games for all digital platforms, two of which are featured in the “Top 10 Games by All-Time Worldwide Downloads” from App Annie. Gameloft operates its own established franchises such as Asphalt®, Order & Chaos, Modern Combat and Dungeon Hunter and also partners with major rights holders including Universal, Illumination Entertainment, Disney®, Marvel®, Hasbro®, Fox Digital Entertainment, Mattel® and Ferrari®. Gameloft distributes its games in over 100 countries and employs 4,600 people…",
     "hasDesc": true
   },
   {
@@ -1988,34 +2425,6 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-scopely-5372414008",
-    "title": "AI Artist (Generalist)",
-    "company": "Scopely",
-    "locations": [
-      "Bangalore, India"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-24",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5372414008?gh_jid=5372414008",
-    "site": "scopely.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Арт",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Blender",
-      "ZBrush",
-      "Photoshop"
-    ],
-    "seen": "2026-08-26",
-    "hasRu": true,
-    "descShort": "Scopely is looking for an AI Artist (Generalist) to join our Bingo Bash team in Bangalore on a Hybrid basis! At Scopely, we care deeply about what we do and want to inspire play, every day - whether in our work environments alongside our talented colleagues, or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily. The Bingo Bash team is home to bingo, cards, slots and more! Here you will work on a top-grossing F2P game with significant and growing daily revenues, and help create fresh content for our players. What You’ll…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-scopely-5141567008",
     "title": "APAC Marketing Operations Manager",
     "company": "Scopely",
@@ -2141,32 +2550,6 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-scopely-5256167008",
-    "title": "Intern - Game Design (Slot)",
-    "company": "Scopely",
-    "locations": [
-      "Bangalore, India"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-24",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5256167008?gh_jid=5256167008",
-    "site": "scopely.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Геймдизайн",
-    "grade": "Junior",
-    "spec": null,
-    "stack": [
-      "Unity"
-    ],
-    "seen": "2026-08-26",
-    "hasRu": true,
-    "descShort": "Scopely is looking for a Game Design (Intern) to join our Royal Lounge Casino team in Bangalore on a hybrid basis! At Scopely, we care deeply about what we do and want to inspire play, every day - whether in our work environments alongside our talented colleagues, or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily. With 30M+ downloads, Grand Casino is home to slots, bingo, cards, and more! Team members are distributed across the globe with hubs in Bengaluru, Tel Aviv, Barcelona, among others What You Will Do •…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-scopely-5191999008",
     "title": "Lead Product Manager - Star Trek Fleet Command",
     "company": "Scopely",
@@ -2188,56 +2571,6 @@ window.JOBS = [
     "seen": "2026-08-26",
     "hasRu": true,
     "descShort": "Scopely is looking for a Lead Product Manager to join our Star Trek Fleet Command team in Bangalore, India on a hybrid basis. At Scopely, we care deeply about what we do and want to inspire play every day—whether in our work environments alongside our talented colleagues or through our deep connections with our communities of players. We are a global team of game lovers developing, publishing, and innovating in the mobile games industry, connecting millions of people around the world daily. Star Trek™ Fleet Command is a top-grossing MMO 4X strategy game that has captivated players for over five years. As we continue to expand and evolve the game, we are seeking a highly driven and…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-scopely-5371149008",
-    "title": "Lead QA Engineer",
-    "company": "Scopely",
-    "locations": [
-      "Bangalore, India"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-24",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5371149008?gh_jid=5371149008",
-    "site": "scopely.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "QA",
-    "grade": "Lead",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-26",
-    "hasRu": true,
-    "descShort": "Scopely is looking for a smart, technically strong, and process-adaptive QA Lead to join our Royal Lounge Casino team in Bangalore on a hybrid basis. At Scopely, we care deeply about what we do and want to inspire play, every day - whether in our work environments alongside our talented colleagues, or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily. With 30M+ downloads, Grand Casino is home to slots, bingo, cards, and more! Team members are distributed across the globe with hubs in Bengaluru, Tel Aviv, Barcelona…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-scopely-5271917008",
-    "title": "Principal Game Designer (Feature + Systems)",
-    "company": "Scopely",
-    "locations": [
-      "Bangalore, India"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-24",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5271917008?gh_jid=5271917008",
-    "site": "scopely.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Геймдизайн",
-    "grade": "Lead",
-    "spec": null,
-    "stack": [
-      "Figma"
-    ],
-    "seen": "2026-08-26",
-    "hasRu": true,
-    "descShort": "We are seeking a Principal Game Designer (Feature + Systems) to join our Bingo Bash team in Bangalore! At Scopely, we care deeply about what we do and want to inspire play, every day - whether in our work environments alongside our talented colleagues or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing, and innovating the mobile games industry, connecting millions of people around the world daily. Bingo Bash is a highly international team working on the biggest video game from India to date (measured by revenue). Here you will work on a top-grossing F2P game with significant and growing daily revenues, and help…",
     "hasDesc": true
   },
   {
@@ -2443,36 +2776,6 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-scopely-5360707008",
-    "title": "Senior Software Engineer (Unity)",
-    "company": "Scopely",
-    "locations": [
-      "Bangalore, India"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-24",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5360707008?gh_jid=5360707008",
-    "site": "scopely.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "Unity",
-    "stack": [
-      "Unity",
-      "C++",
-      "C#",
-      "Java",
-      "Swift"
-    ],
-    "seen": "2026-08-26",
-    "hasRu": true,
-    "descShort": "Scopely is looking for a Senior Software Engineer (Unity) to join our Royal Lounge Casino team in Bangalore on a hybrid basis! At Scopely, we care deeply about what we do and want to inspire play, every day - whether in our work environments alongside our talented colleagues, or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily. With 30M+ downloads, Royal Lounge Casino is home to slots, bingo, cards, and more! Team members are distributed across the globe with hubs in Bengaluru, Tel Aviv, Barcelona, among others Role…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-scopely-5298507008",
     "title": "Senior Software Engineer- Unity",
     "company": "Scopely",
@@ -2497,35 +2800,6 @@ window.JOBS = [
     "seen": "2026-08-26",
     "hasRu": true,
     "descShort": "Scopely is looking for a Senior Software Engineer (Unity) to join our WWE Champions team in Bangalore on a hybrid basis! At Scopely, we care deeply about what we do and want to inspire play, every day - whether in our work environments alongside our talented colleagues, or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily. WWE Champions is our ultimate and unique RPG puzzle match game featuring WWE superstars and legends across mobile and PC platforms. WWE Champions is the most downloaded WWE game to date, with a highly…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-scopely-5360705008",
-    "title": "Software Engineer (Unity)",
-    "company": "Scopely",
-    "locations": [
-      "Bangalore, India"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-24",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5360705008?gh_jid=5360705008",
-    "site": "scopely.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "Unity",
-    "stack": [
-      "Unity",
-      "C++",
-      "C#",
-      "Java"
-    ],
-    "seen": "2026-08-26",
-    "hasRu": true,
-    "descShort": "Scopely is looking for a Software Engineer to join the Royal Lounge Casino team in Bangalore on a hybrid basis! At Scopely, we care deeply about what we do and want to inspire play, every day - whether in our work environments alongside our talented colleagues, or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily. With 30M+ downloads, Royal Lounge Casino is home to slots, bingo, cards, and more! Team members are distributed across the globe with hubs in Bengaluru, Tel Aviv, Barcelona, among others What You’ll Do As a…",
     "hasDesc": true
   },
   {
@@ -3601,30 +3875,6 @@ window.JOBS = [
     "seen": "2026-08-26",
     "hasRu": true,
     "descShort": "Who We Are At 2K, we create some of the most iconic and culture-shaping video games in entertainment, including NBA® 2K, one of the top-selling franchises in the world, and legendary titles like BioShock®, Borderlands®, Mafia, Sid Meier’s Civilization®, and XCOM®, as well as fan favorites WWE® 2K, TopSpin®, and PGA TOUR® 2K. We build unforgettable experiences by pushing the boundaries of creativity, authenticity and innovation across every genre. Our portfolio is brought to life by some of the most influential game development studios in the world. Visual Concepts, Firaxis Games, Hangar 13, Cat Daddy Games, 31st Union, Cloud Chamber, Gearbox, HB Studios, and 2K SportsLab create world-class…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-2k-games-7651061003",
-    "title": "Manager, Social Marketing",
-    "company": "2K Games",
-    "locations": [
-      "Novato, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/2k/jobs/7651061003",
-    "site": "2k.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Маркетинг",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-26",
-    "hasRu": true,
-    "descShort": "Who We Are: Founded in 2005, 2K Games is a global video game company, publishing titles developed by some of the most influential game development studios in the world. Our studios responsible for developing 2K’s portfolio of world-class games across multiple platforms, include Visual Concepts, Gearbox, Firaxis, Hangar 13, Cat Daddy, Cloud Chamber, 31st Union and HB Studios. Our portfolio of titles and platforms is expanding due to our global strategic plan, building, and acquiring exciting studios whose content continues to inspire all of us! 2K publishes titles in today’s most popular gaming genres, including sports, shooters, action, role-playing, strategy, casual, and family…",
     "hasDesc": true
   },
   {
@@ -5433,17 +5683,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-scopely-5397634008",
+    "id": "gh-scopely-5397639008",
     "title": "Full Stack Engineer - (Gaming Fullstack) - WWE Champions",
     "company": "Scopely",
     "locations": [
-      "Canada"
+      "Mexico City, Mexico"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5397634008?gh_jid=5397634008",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5397639008?gh_jid=5397639008",
     "site": "scopely.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -5457,32 +5707,8 @@ window.JOBS = [
       "AWS"
     ],
     "seen": "2026-08-26",
+    "hasRu": true,
     "descShort": "Scopely is looking for a Software Engineer (Gaming Fullstack) to join our WWE Champions team in the United States or Canada on a remote basis or Mexico City on hybrid basis. At Scopely, we care deeply about what we do and want to inspire play every day - whether in our work environments alongside our talented colleagues or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily. WWE Champions is our ultimate and unique RPG puzzle match game featuring WWE superstars and legends across mobile and PC platforms. WWE Champions is…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-scopely-5196257008",
-    "title": "Game Design Director - Star Trek Fleet Command",
-    "company": "Scopely",
-    "locations": [
-      "London, United Kingdom"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5196257008?gh_jid=5196257008",
-    "site": "scopely.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Геймдизайн",
-    "grade": "Lead",
-    "spec": null,
-    "stack": [
-      "SQL"
-    ],
-    "seen": "2026-08-26",
-    "descShort": "Scopely is looking for a superstar Game Design Director to join our Star Trek Fleet Command team in the UK, working remotely. At Scopely, we care deeply about what we do and want to inspire play, every day – whether in our work environments alongside talented colleagues or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing, and innovating in the mobile games industry, connecting millions of players around the world daily. Star Trek Fleet Command is a standout success in the gaming industry. Launched in 2018, our in-house developed 4X MMO has continually evolved, earning its place as one of the top-grossing games…",
     "hasDesc": true
   },
   {
@@ -5662,34 +5888,6 @@ window.JOBS = [
     "stack": [],
     "seen": "2026-08-26",
     "descShort": "Scopely is looking for a Senior Producer to join our WWE Champions team in the US or Canada on a remote basis. At Scopely, we care deeply about what we do and want to inspire play every day - whether in our work environments alongside our talented colleagues or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily. WWE Champions is our ultimate and unique RPG puzzle match game featuring WWE superstars and legends across mobile and PC platforms. WWE Champions is the most downloaded WWE game to date, with a highly engaged and…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-scopely-5398786008",
-    "title": "Senior Software Engineer (Gaming Backend) - WWE Champions",
-    "company": "Scopely",
-    "locations": [
-      "Canada"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5398786008?gh_jid=5398786008",
-    "site": "scopely.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "Бэкенд",
-    "stack": [
-      "Unity",
-      "C#",
-      "AWS"
-    ],
-    "seen": "2026-08-26",
-    "hasRu": true,
-    "descShort": "Scopely is looking for a Senior Software Engineer (Gaming Backend) to join our WWE Champions team in the United States or Canada on a remote basis or Mexico City on a hybrid basis. At Scopely, we care deeply about what we do and want to inspire play every day - whether in our work environments alongside our talented colleagues or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily. WWE Champions is our ultimate and unique RPG puzzle match game featuring WWE superstars and legends across mobile and PC platforms. WWE…",
     "hasDesc": true
   },
   {
@@ -5908,33 +6106,6 @@ window.JOBS = [
     "seen": "2026-08-26",
     "hasRu": true,
     "descShort": "Who are we? Tripledot Studios is one of the largest independent mobile games companies in the world. We are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios. Our expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users. Tripledot’s guiding principle is that when people love what they do, what they do will be loved by others. We’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games. Our ambition is to be the most successful games company in the world, and…",
-    "hasDesc": true
-  },
-  {
-    "id": "lv-xsolla-e4a4a1a0-1411-44a2-9457-0460348a89dd",
-    "title": "Site Reliability Engineer",
-    "company": "Xsolla",
-    "locations": [
-      "Baku"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-20",
-    "url": "https://jobs.lever.co/xsolla/e4a4a1a0-1411-44a2-9457-0460348a89dd",
-    "source": "lever",
-    "site": "xsolla.com",
-    "industry": "gamedev",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "DevOps",
-    "stack": [
-      "Python",
-      "Kubernetes"
-    ],
-    "seen": "2026-08-26",
-    "hasRu": true,
-    "descShort": "ABOUT YOU We are looking for a Site Reliability Engineer who is pragmatic, product-minded, and equally comfortable writing code and running production systems to join our Infrastructure department's SRE team. The best candidate will be someone who thrives in a fast-paced, highly collaborative, and exceptionally dynamic setting and is excited to own the application-level infrastructure and reliability of a high-traffic commerce domain end to end - from deploy pipelines and Kubernetes manifests to SLOs, capacity planning, and production readiness. Strong Kubernetes, observability, and software engineering skills are essential, along with experience in operating production services in a cloud…",
     "hasDesc": true
   },
   {
@@ -6457,17 +6628,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-tripledot-belka-4951036101",
+    "id": "gh-tripledot-belka-4952612101",
     "title": "Principal Technical Artist",
     "company": "Tripledot / Belka",
     "locations": [
-      "Toronto"
+      "Dallas"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-19",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4951036101",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4952612101",
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -6480,21 +6651,22 @@ window.JOBS = [
       "Python"
     ],
     "seen": "2026-08-26",
+    "hasRu": true,
     "descShort": "Who are we? Tripledot Studios is one of the largest independent mobile games companies in the world. We are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios. Our expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users. Tripledot’s guiding principle is that when people love what they do, what they do will be loved by others. We’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games. Our ambition is to be the most successful games company in the world, and…",
     "hasDesc": true
   },
   {
-    "id": "gh-tripledot-belka-4948638101",
+    "id": "gh-tripledot-belka-4948636101",
     "title": "Senior Animator (Unity)",
     "company": "Tripledot / Belka",
     "locations": [
-      "Limassol"
+      "Minsk"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-19",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4948638101",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4948636101",
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -6506,7 +6678,6 @@ window.JOBS = [
       "Spine"
     ],
     "seen": "2026-08-26",
-    "hasRu": true,
     "descShort": "Who are we? Tripledot Studios is one of the largest independent mobile games companies in the world. We are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios. Our expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users. Tripledot’s guiding principle is that when people love what they do, what they do will be loved by others. We’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games. Our ambition is to be the most successful games company in the world, and…",
     "hasDesc": true
   },
@@ -6902,7 +7073,7 @@ window.JOBS = [
   },
   {
     "id": "wk-hutch-games-29EC17AACA",
-    "title": "QA Embedded Tester (12 months)",
+    "title": "QA Embedded Tester (6 months)",
     "company": "Hutch Games",
     "locations": [
       "London, United Kingdom"
@@ -6921,7 +7092,7 @@ window.JOBS = [
     "stack": [],
     "seen": "2026-08-26",
     "hasRu": true,
-    "descShort": "QA Embedded Tester | QA | London | Permanent We’re Hutch, a mobile games developer & publisher with studios in central London, Dundee and Canada. Our mission is to build the most diverse and engaged automotive gaming community on mobile. Our games have been played by over 300 million people, with new titles in development. We believe in putting our people first. Here you can make games without sacrificing quality time with family and friends. We strive to ensure our people are happy and healthy. Our teams are small and empowered, they have the independence to take on creative and technical challenges together, to work collaboratively, to make great games and have fun along the way. We…",
+    "descShort": "QA Embedded Tester | QA | London | (6 months) We’re Hutch, a mobile games developer & publisher with studios in central London, Dundee and Canada. Our mission is to build the most diverse and engaged automotive gaming community on mobile. Our games have been played by over 300 million people, with new titles in development. We believe in putting our people first. Here you can make games without sacrificing quality time with family and friends. We strive to ensure our people are happy and healthy. Our teams are small and empowered, they have the independence to take on creative and technical challenges together, to work collaboratively, to make great games and have fun along the way. We…",
     "hasDesc": true
   },
   {
@@ -6968,54 +7139,6 @@ window.JOBS = [
     "industry": "gamedev",
     "role": "Аналитика",
     "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-26",
-    "hasRu": true,
-    "descShort": "Who are we? Tripledot Studios is one of the largest independent mobile games companies in the world. We are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios. Our expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users. Tripledot’s guiding principle is that when people love what they do, what they do will be loved by others. We’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games. Our ambition is to be the most successful games company in the world, and…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-tripledot-belka-4820995101",
-    "title": "Product Manager",
-    "company": "Tripledot / Belka",
-    "locations": [
-      "Melbourne"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-18",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4820995101",
-    "site": "tripledotstudios.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Продакт",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-26",
-    "hasRu": true,
-    "descShort": "Who are we? Tripledot Studios is one of the largest independent mobile games companies in the world. We are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios. Our expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users. Tripledot’s guiding principle is that when people love what they do, what they do will be loved by others. We’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games. Our ambition is to be the most successful games company in the world, and…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-tripledot-belka-4953783101",
-    "title": "Senior Ad Monetisation Analyst",
-    "company": "Tripledot / Belka",
-    "locations": [
-      "Berlin"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-18",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4953783101",
-    "site": "tripledotstudios.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Аналитика",
-    "grade": "Senior",
     "spec": null,
     "stack": [],
     "seen": "2026-08-26",
@@ -8007,17 +8130,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-wargaming-8030714",
+    "id": "gh-wargaming-8030704",
     "title": "Art Director (World of Tanks Console)",
     "company": "Wargaming",
     "locations": [
-      "Vilnius"
+      "Belgrade"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8030714",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8030704",
     "site": "wargaming.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -8026,6 +8149,7 @@ window.JOBS = [
     "spec": null,
     "stack": [],
     "seen": "2026-08-26",
+    "hasRu": true,
     "descShort": "Job Overview We are looking for an Art Director to join Wargaming and be a part of the product team working on World of Tanks Console. The Art Director's role combines high-level creative vision with strategic leadership. You will drive a team of highly professional artists, define the visual identity of the game, and ensure that every feature on console platforms reflects a cohesive and premium look and feel. As a subject matter expert, you will work in close collaboration with game teams to identify, prototype, and implement visual solutions that elevate player experience. Reports to Studio Development Director What will you do? • Provide artistic leadership: Drive the overall vision of…",
     "hasDesc": true
   },
@@ -8056,56 +8180,6 @@ window.JOBS = [
     "seen": "2026-08-26",
     "hasRu": true,
     "descShort": "Job Overview Bring your passion for creating precise hard-surface models and realistic vehicles into the world of AAA games. Wargaming Kyiv is looking for a skilled 3D Artist to help bring iconic armored vehicles to life in some of our most well-known titles. If you have a sharp eye for detail, strong modeling expertise, and a solid understanding of vehicle design, we’d love to hear from you. What will you do? • Create photorealistic and game-ready 3D models of vehicles, props, and other hard surface assets. • Handle the full production cycle, from high-poly sculpting to in-engine export and setup. • Utilize cutting-edge CG technology to push the quality bar even higher. • Continuously grow…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-wargaming-7841726",
-    "title": "Community Manager EN (World of Tanks, PC)",
-    "company": "Wargaming",
-    "locations": [
-      "Prague"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7841726",
-    "site": "wargaming.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Поддержка",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-26",
-    "hasRu": true,
-    "descShort": "Job Overview This role is responsible for owning and representing the English-speaking World of Tanks community at a professional level. You will act as a key bridge between players and the product, combining strong game knowledge, analytical capability, and clear communication to support both community health and business decisions. The role requires someone who can confidently engage with players, interpret sentiment, and communicate effectively across a range of situations, from day-to-day interactions to high-visibility and live-audience settings. Therefore, the role is best suited for someone with prior experience. You will work closely with publishing, social media, competitive…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-wargaming-7955999",
-    "title": "Data Analyst",
-    "company": "Wargaming",
-    "locations": [
-      "Nicosia"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7955999",
-    "site": "wargaming.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Аналитика",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Python",
-      "SQL"
-    ],
-    "seen": "2026-08-26",
-    "descShort": "Job Overview We are seeking a data analytics professional to join our Data & Marketing Tech Team, to help improve measurement, analysis, and decision-making across complex data environments. This role combines data analysis, data research, and applied AI automation to work with multiple data sources, investigate business questions, and support reliable, scalable analytical workflows. Reports to • Team Lead of Data & Marketing Technology What will you do? • Analyze data to answer business questions, identify patterns, and generate actionable insights • Research data across complex systems with multiple internal and external sources, understanding data flows, dependencies, and limitations •…",
     "hasDesc": true
   },
   {
@@ -8185,17 +8259,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-wargaming-8064276",
+    "id": "gh-wargaming-8064281",
     "title": "Lead Art Owner/Art Producer (World of Tanks PC)",
     "company": "Wargaming",
     "locations": [
-      "Belgrade"
+      "Nicosia"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8064276",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8064281",
     "site": "wargaming.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -8204,6 +8278,7 @@ window.JOBS = [
     "spec": null,
     "stack": [],
     "seen": "2026-08-26",
+    "hasRu": true,
     "descShort": "Job Overview We are looking for a Lead Art Owner/Art Producer to manage a team of Art Owners supporting World of Tanks game production. This role combines people management, resource planning, production coordination, and process improvement to ensure the AO team operates effectively and the art pipeline runs smoothly. Lead Art Owner/Art Producer will work closely with cross-functional stakeholders - Art Direction, Art Management, Production, Project Management, and Design. Lead Art Owner/Art Producer will oversee workload, balance scope against capacity, support delivery planning, grow team capability, and drive cross-functional alignment. This role requires a strong understanding of art…",
     "hasDesc": true
   },
@@ -8258,17 +8333,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-wargaming-7694777",
+    "id": "gh-wargaming-7694782",
     "title": "Senior Concept Artist Generalist (World of Tanks: HEAT)",
     "company": "Wargaming",
     "locations": [
-      "Belgrade"
+      "Nicosia"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7694777",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7694782",
     "site": "wargaming.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -8281,7 +8356,6 @@ window.JOBS = [
       "Photoshop"
     ],
     "seen": "2026-08-26",
-    "hasRu": true,
     "descShort": "Job Overview We’re excited to launch a groundbreaking AAA game project - World of Tanks: HEAT and are looking for passionate, creative Senior Concept Artist Generalist to join our talented team. Our studio fosters a collaborative environment where your ideas are valued and your contributions will have a direct impact on the game’s success. Our team is a mix of industry veterans and fresh talent, dedicated to pushing the boundaries of what games can be. If you thrive in a dynamic atmosphere and are eager to shape an exciting AAA title from the ground up, we want to hear from you! Join us in creating something truly special in the gaming world. Your next big opportunity awaits! Reports to Art…",
     "hasDesc": true
   },
@@ -8315,17 +8389,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-wargaming-7837365",
+    "id": "gh-wargaming-7837370",
     "title": "Senior Concept Artist – Vehicles / Props (World of Tanks)",
     "company": "Wargaming",
     "locations": [
-      "Belgrade"
+      "Nicosia"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7837365",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7837370",
     "site": "wargaming.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -8338,7 +8412,6 @@ window.JOBS = [
       "Photoshop"
     ],
     "seen": "2026-08-26",
-    "hasRu": true,
     "descShort": "Job Overview World of Tanks is looking for a passionate, creative Senior Concept Artist to join our talented team. Our studio fosters a collaborative environment where your ideas are valued, and your contributions will have a direct impact on the game’s success. Our team is a mix of industry veterans and fresh talent, dedicated to pushing the boundaries of what games can be. If you thrive in a dynamic atmosphere and are eager to shape an exciting AAA title from the ground up, we want to hear from you! Join us in creating something truly special in the gaming world. Your next big opportunity awaits! What will you do? • Concept Development: Create innovative and functional designs…",
     "hasDesc": true
   },
@@ -8371,17 +8444,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-tripledot-belka-4954014101",
+    "id": "gh-tripledot-belka-4953969101",
     "title": "Producer",
     "company": "Tripledot / Belka",
     "locations": [
-      "London"
+      "Barcelona"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4954014101",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4953969101",
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -8390,6 +8463,7 @@ window.JOBS = [
     "spec": null,
     "stack": [],
     "seen": "2026-08-26",
+    "hasRu": true,
     "descShort": "Who are we? Tripledot Studios is one of the largest independent mobile games companies in the world. We are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios. Our expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users. Tripledot’s guiding principle is that when people love what they do, what they do will be loved by others. We’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games. Our ambition is to be the most successful games company in the world, and…",
     "hasDesc": true
   },
@@ -8526,17 +8600,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-scopely-5386596008",
+    "id": "gh-scopely-5393200008",
     "title": "Lead Finance Analyst",
     "company": "Scopely",
     "locations": [
-      "Barcelona, Spain"
+      "London, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5386596008?gh_jid=5386596008",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5393200008?gh_jid=5393200008",
     "site": "scopely.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -8547,7 +8621,8 @@ window.JOBS = [
       "SQL"
     ],
     "seen": "2026-08-26",
-    "descShort": "Scopely is seeking an experienced a Lead Finance Analyst/Manager to join Product Finance in support of our LIVE Games Portfolio — a group of live-operated, top-grossing mobile games generating meaningful revenue for Scopely. This is a senior, high-visibility role for someone ready to operate as a true finance business partner: owning financial models end-to-end, driving KPI and performance reporting, and initiating the projects that shape how the portfolio is managed. Based out of our Barcelona office, you will partner directly with General Managers and cross-functional stakeholders across game studios, User Acquisition, Data Science and Finance leadership, Accounting, and central teams.…",
+    "hasRu": true,
+    "descShort": "Scopely is seeking an experienced Lead Analyst / Finance Manager to join Product Finance in support of our LIVE Games Portfolio — a group of live-operated, top-grossing mobile games generating meaningful revenue for Scopely. This is a senior, high-visibility role for someone ready to operate as a true finance business partner: owning financial models end-to-end, driving KPI and performance reporting, and initiating the projects that shape how the portfolio is managed. You will partner directly with General Managers and cross-functional stakeholders across game studios, User Acquisition, Data Science and Finance leadership, Accounting, and central teams. You will be a key voice in…",
     "hasDesc": true
   },
   {
@@ -8788,31 +8863,6 @@ window.JOBS = [
     "seen": "2026-08-26",
     "hasRu": true,
     "descShort": "ABOUT THE JOB Launch and scale new music games profitably through organic and non-organic channels across the globe (US, China, Japan, etc.) WHAT YOU WILL DO • Manage and run multiple user acquisition campaigns across platforms (Google, Facebook, Applovin, Mintegral, etc.) • Analyze data through (1) market and competitor performance (2) various ad campaign metrics (installs, CPI, CTR, IR, ROI/ROAS), (3) A/B testing creatives, and cross-check (4) revenue and product metrics in order to understand user behaviors, define and execute UA strategy for new games to enter and win the target markets • Work closely with Creative teams to provide UA insights to improve product marketability • Work…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-tripledot-belka-4953254101",
-    "title": "Data Scientist",
-    "company": "Tripledot / Belka",
-    "locations": [
-      "London"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-14",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4953254101",
-    "site": "tripledotstudios.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Аналитика",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Python"
-    ],
-    "seen": "2026-08-26",
-    "descShort": "Who are we? Tripledot Studios is one of the largest independent mobile games companies in the world. We are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios. Our expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users. Tripledot’s guiding principle is that when people love what they do, what they do will be loved by others. We’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games. Our ambition is to be the most successful games company in the world, and…",
     "hasDesc": true
   },
   {
@@ -10214,6 +10264,33 @@ window.JOBS = [
     "hasDesc": true
   },
   {
+    "id": "gh-scopely-5390693008",
+    "title": "Game Design Director - Star Trek Fleet Command",
+    "company": "Scopely",
+    "locations": [
+      "Barcelona, Spain"
+    ],
+    "remote": false,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-08-14",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5390693008?gh_jid=5390693008",
+    "site": "scopely.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Геймдизайн",
+    "grade": "Lead",
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "SQL"
+    ],
+    "seen": "2026-08-26",
+    "hasRu": true,
+    "descShort": "Scopely is looking for a superstar Game Design Director to join our Star Trek Fleet Command team in Barcelona, on a hybrid basis. We can support with visa sponsorship and relocation assistance from any location. At Scopely, we care deeply about what we do and want to inspire play, every day – whether in our work environments alongside talented colleagues or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing, and innovating in the mobile games industry, connecting millions of players around the world daily. Star Trek Fleet Command is a standout success in the gaming industry. Launched in 2018, our in-house…",
+    "hasDesc": true
+  },
+  {
     "id": "wk-hutch-games-33AB3175D9",
     "title": "Marketing Artist",
     "company": "Hutch Games",
@@ -11029,30 +11106,6 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-scopely-5389044008",
-    "title": "Product Marketing Manager - Star Trek",
-    "company": "Scopely",
-    "locations": [
-      "Barcelona, Spain"
-    ],
-    "remote": false,
-    "rkind": "worldwide",
-    "salary": null,
-    "posted": "2026-08-13",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5389044008?gh_jid=5389044008",
-    "site": "scopely.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Маркетинг",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-08-26",
-    "hasRu": true,
-    "descShort": "Scopely is looking for a Product Marketing Manager to join our Star Trek™ Fleet Command team, helping shape how one of mobile gaming's deepest, most enduring, and most community-driven live-service experiences is understood, experienced, and adopted by millions of players worldwide. This role sits at the intersection of Product, Live Operations, Marketing, Community, Campaigns, and Player Experience. You will partner closely with Product teams to translate complex systems, features, and roadmap initiatives into compelling player value, ensuring every launch delivers a clear narrative, coordinated execution, and an exceptional player experience. Product Marketing serves as the connective…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-scopely-5368795008",
     "title": "Senior Engineer, Graphics - Unannounced Project",
     "company": "Scopely",
@@ -11365,17 +11418,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-tripledot-belka-4861471101",
+    "id": "gh-tripledot-belka-4860683101",
     "title": "Playable Ads Developer",
     "company": "Tripledot / Belka",
     "locations": [
-      "Barcelona"
+      "Minsk"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-12",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4861471101",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4860683101",
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -11386,7 +11439,6 @@ window.JOBS = [
       "JavaScript"
     ],
     "seen": "2026-08-26",
-    "hasRu": true,
     "descShort": "Who are we? Tripledot Studios is one of the largest independent mobile games companies in the world. We are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios. Our expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users. Tripledot’s guiding principle is that when people love what they do, what they do will be loved by others. We’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games. Our ambition is to be the most successful games company in the world, and…",
     "hasDesc": true
   },
@@ -11647,6 +11699,29 @@ window.JOBS = [
     "seen": "2026-08-26",
     "hasRu": true,
     "descShort": "Scopely is looking for a highly motivated Director of Performance Marketing for a new, unannounced casual mobile game to join our Performance Marketing Team in Barcelona on a Hybrid basis! At Scopely, we care deeply about what we do and want to inspire play every day - whether in our work environments alongside our talented colleagues or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people worldwide daily. The Performance Marketing team is focused on driving player growth and efficiency across various digital marketing channels. The teams are…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-scopely-5380598008",
+    "title": "Product Marketing Manager - Star Trek",
+    "company": "Scopely",
+    "locations": [
+      "United States"
+    ],
+    "remote": false,
+    "rkind": "worldwide",
+    "salary": null,
+    "posted": "2026-08-12",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5380598008?gh_jid=5380598008",
+    "site": "scopely.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-08-26",
+    "descShort": "Scopely is looking for a Product Marketing Manager to join our Star Trek™ Fleet Command team, helping shape how one of mobile gaming's deepest, most enduring, and most community-driven live-service experiences is understood, experienced, and adopted by millions of players worldwide. This role sits at the intersection of Product, Live Operations, Marketing, Community, Campaigns, and Player Experience. You will partner closely with Product teams to translate complex systems, features, and roadmap initiatives into compelling player value, ensuring every launch delivers a clear narrative, coordinated execution, and an exceptional player experience. Product Marketing serves as the connective…",
     "hasDesc": true
   },
   {
@@ -11988,17 +12063,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-rockstar-games-7618407003",
+    "id": "gh-rockstar-games-7632962003",
     "title": "Animation Tools Programmer (All Levels)",
     "company": "Rockstar Games",
     "locations": [
-      "Edinburgh, United Kingdom"
+      "Oakville, Canada"
     ],
     "remote": false,
     "rkind": null,
-    "salary": null,
+    "salary": "$ 85 000 – 120 000",
     "posted": "2026-08-11",
-    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7618407003",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7632962003",
     "site": "rockstargames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -12011,6 +12086,7 @@ window.JOBS = [
       "Maya"
     ],
     "seen": "2026-08-26",
+    "hasRu": true,
     "descShort": "At Rockstar Games, we create world-class entertainment experiences. Become part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry. Rockstar is on the lookout for a passionate Animation Tools Programmer. This is an exciting opportunity to work closely with our game development teams, across all animation disciplines, and help drive our animation tools technology forward to support the creation of all of Rockstar Games projects. The Animation Tools Programmer role will involve…",
     "hasDesc": true
   },
@@ -12367,17 +12443,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-rockstar-games-7794203003",
+    "id": "gh-rockstar-games-7793838003",
     "title": "Senior Data Design Analyst",
     "company": "Rockstar Games",
     "locations": [
-      "Leeds, United Kingdom"
+      "London, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-11",
-    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7794203003",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7793838003",
     "site": "rockstargames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -12388,7 +12464,8 @@ window.JOBS = [
       "SQL"
     ],
     "seen": "2026-08-26",
-    "descShort": "At Rockstar Games, we create world-class entertainment experiences. Become part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry. Rockstar is on the lookout for a skilled Data Design Analyst who is passionate about video games and data design. This is a full-time, permanent and in-office position based in Rockstar’s unique game development studio in the heart of Leeds, England. WHAT WE DO • The Rockstar Games Analytics team provides insights and actionable results to a wide…",
+    "hasRu": true,
+    "descShort": "At Rockstar Games, we create world-class entertainment experiences. Become part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry. Rockstar is on the lookout for a skilled Data Design Analyst who is passionate about video games and data design. This is a full-time, permanent and in-office position based in Rockstar’s unique game development studio in the heart of London. WHAT WE DO • The Rockstar Games Analytics team provides insights and actionable results to a wide variety of…",
     "hasDesc": true
   },
   {
@@ -12473,17 +12550,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-rockstar-games-7575962003",
+    "id": "gh-rockstar-games-7578722003",
     "title": "Senior Software Engineer, Data Engineering",
     "company": "Rockstar Games",
     "locations": [
-      "Manhattan, United States"
+      "Andover, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-11",
-    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7575962003",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7578722003",
     "site": "rockstargames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -12581,17 +12658,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-rockstar-games-6620891003",
+    "id": "gh-rockstar-games-6589243003",
     "title": "Senior Web Engineer",
     "company": "Rockstar Games",
     "locations": [
-      "Andover, United States"
+      "Manhattan, United States"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 130 000 – 150 000",
+    "salary": "$ 121 400 – 161 800",
     "posted": "2026-08-11",
-    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/6620891003",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/6589243003",
     "site": "rockstargames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -12602,7 +12679,6 @@ window.JOBS = [
       "C#"
     ],
     "seen": "2026-08-26",
-    "hasRu": true,
     "descShort": "At Rockstar Games, we create world-class entertainment experiences. Become part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly motivated environment where you can learn and collaborate with some of the most talented people in the industry. Rockstar Games is seeking a passionate and experienced Senior Web Engineer with a focus on the “back of the frontend” to join our online development team. This role will involve a deep understanding of how high-profile frontends are delivered, secured and integrated via services and APIs with less focus on the presentation. The successful candidate…",
     "hasDesc": true
   },
@@ -13528,17 +13604,43 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-tripledot-belka-4944287101",
+    "id": "gh-tripledot-belka-4939207101",
+    "title": "Data Scientist",
+    "company": "Tripledot / Belka",
+    "locations": [
+      "Jakarta"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-06",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4939207101",
+    "site": "tripledotstudios.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python"
+    ],
+    "seen": "2026-08-26",
+    "hasRu": true,
+    "descShort": "Who are we? Tripledot Studios is one of the largest independent mobile games companies in the world. We are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios. Our expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users. Tripledot’s guiding principle is that when people love what they do, what they do will be loved by others. We’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games. Our ambition is to be the most successful games company in the world, and…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-tripledot-belka-4944288101",
     "title": "Game Designer (Hybrid Casual)",
     "company": "Tripledot / Belka",
     "locations": [
-      "Minsk"
+      "Tblisi"
     ],
     "remote": false,
     "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-06",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4944287101",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4944288101",
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -13547,21 +13649,22 @@ window.JOBS = [
     "spec": null,
     "stack": [],
     "seen": "2026-08-26",
+    "hasRu": true,
     "descShort": "Who are we? Tripledot Studios is one of the largest independent mobile games companies in the world. We are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios. Our expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users. Tripledot’s guiding principle is that when people love what they do, what they do will be loved by others. We’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games. Our ambition is to be the most successful games company in the world, and…",
     "hasDesc": true
   },
   {
-    "id": "gh-tripledot-belka-4909939101",
+    "id": "gh-tripledot-belka-4909944101",
     "title": "Product Director (Casual)",
     "company": "Tripledot / Belka",
     "locations": [
-      "Limassol"
+      "Serbia"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-06",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4909939101",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4909944101",
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -13570,7 +13673,6 @@ window.JOBS = [
     "spec": null,
     "stack": [],
     "seen": "2026-08-26",
-    "hasRu": true,
     "descShort": "Who are we? Tripledot Studios is one of the largest independent mobile games companies in the world. We are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios. Our expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users. Tripledot’s guiding principle is that when people love what they do, what they do will be loved by others. We’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games. Our ambition is to be the most successful games company in the world, and…",
     "hasDesc": true
   },
@@ -17296,32 +17398,6 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "sr-cd-projekt-red-744000139077819",
-    "title": "Senior Video & Streaming Engineer",
-    "company": "CD Projekt Red",
-    "locations": [
-      "Warsaw, Poland"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": "14 800 – 20 400 PLN",
-    "posted": "2026-07-22",
-    "url": "https://jobs.smartrecruiters.com/CDPROJEKTRED/744000139077819",
-    "source": "smartrecruiters",
-    "site": "cdprojektred.com",
-    "industry": "gamedev",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "Unreal"
-    ],
-    "seen": "2026-08-26",
-    "hasRu": true,
-    "descShort": "Company Description To create revolutionary, story-driven RPGs which go straight to the hearts of gamers — this is our mission. Want to dive deeper into our company’s culture? Explore our social media and check out our YouTube channel and Beyond the Game Blog where we share behind-the-scenes insights and stories direct from our team members! Job Description We’re looking for a Senior Video & Streaming Engineer to join CD PROJEKT RED’s Live Video team in Warsaw. In this role, you will support the creation of high-quality video content promoting our games, the studio, teams, events, and representatives. You will be involved in studio operations, live streaming, virtual production, green…",
-    "hasDesc": true
-  },
-  {
     "id": "wk-jagex-946BAE18D3",
     "title": "Senior Product Manager - Runescape",
     "company": "Jagex",
@@ -18053,35 +18129,6 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "sr-gameloft-744000138286629",
-    "title": "C++ Software Engineer - Asphalt Legends",
-    "company": "Gameloft",
-    "locations": [
-      "Barcelona, Spain"
-    ],
-    "remote": false,
-    "rkind": "worldwide",
-    "salary": null,
-    "posted": "2026-07-17",
-    "url": "https://jobs.smartrecruiters.com/Gameloft/744000138286629",
-    "source": "smartrecruiters",
-    "site": "gameloft.com",
-    "industry": "gamedev",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "C++",
-    "stack": [
-      "C++",
-      "Python",
-      "Swift",
-      "Lua"
-    ],
-    "seen": "2026-08-26",
-    "hasRu": true,
-    "descShort": "Company Description Are You Looking for a Great Place to Work? #Jointhegame Leader in the development and publishing of multiplatform games, Gameloft® has established itself as one of the top innovators in its field since 2000. Gameloft creates games for all digital platforms, two of which are featured in the “Top 10 Games by All-Time Worldwide Downloads” from App Annie. Gameloft operates its own established franchises such as Asphalt®, Order & Chaos, Modern Combat and Dungeon Hunter and also partners with major rights holders including Universal, Illumination Entertainment, Disney®, Marvel®, Hasbro®, Fox Digital Entertainment, Mattel® and Ferrari®. Gameloft distributes its games in over…",
-    "hasDesc": true
-  },
-  {
     "id": "lv-jam-city-2434afe6-2113-4cc3-8712-f99b161ca2ef",
     "title": "Lead Product Manager",
     "company": "Jam City",
@@ -18660,37 +18707,6 @@ window.JOBS = [
     "seen": "2026-08-26",
     "hasRu": true,
     "descShort": "OBJECTIVES Evolve and maximize the business value of Amanotes' core backend platforms and portals, bridging the gap between music licensing, game studio operations, and engineering delivery. You will own the roadmap and execution for our core platform products: Music Catalog & Licensing management, Game Level Design, Product Management. WHAT YOU WILL DO • Backlog Management: Translate complex requirements from Music Licensing, Game Studios, and AdOps into clear, prioritised product specifications and backlogs • ACM Ownership: Own the lifecycle of ACM (Amanotes Content Management), ensuring high metadata reliability and a seamless track/artist ingestion pipeline • Licensing Digitization…",
-    "hasDesc": true
-  },
-  {
-    "id": "ab-voodoo-acc651b7-70cd-4f14-ad90-d6ea98b1e25e",
-    "title": "VFX Artist - Freelance",
-    "company": "Voodoo",
-    "locations": [
-      "Paris"
-    ],
-    "remote": true,
-    "rkind": "worldwide",
-    "salary": null,
-    "posted": "2026-07-09",
-    "url": "https://jobs.ashbyhq.com/voodoo/acc651b7-70cd-4f14-ad90-d6ea98b1e25e",
-    "source": "ashby",
-    "site": "voodoo.io",
-    "industry": "gamedev",
-    "role": "VFX",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Unity",
-      "Maya",
-      "Blender",
-      "Houdini",
-      "ZBrush",
-      "Substance"
-    ],
-    "seen": "2026-08-26",
-    "hasRu": true,
-    "descShort": "ABOUT VOODOO Founded in 2013, Voodoo is a tech company that creates mobile games and apps with a mission to entertain the world. Gathering 800 employees, 7 billion downloads, and over 200 million active users, Voodoo is the #3 mobile publisher worldwide in terms of downloads after Google and Meta. Our portfolio includes chart-topping games like Mob Control and Block Jam, alongside popular apps such as BeReal and Wizz. TEAM Our Gaming team is made up of hybrid-casual, casual and mid-core experts. Our 'Core' games team supports internal and external studios worldwide in creating, developing and launching new hit games, whilst our 'Live' games team focuses on delivering higher engagement on…",
     "hasDesc": true
   },
   {
@@ -23058,33 +23074,6 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "wk-rebellion-61FF9282A8",
-    "title": "Experienced/Senior Gameplay Programmer",
-    "company": "Rebellion",
-    "locations": [
-      "Oxford, United Kingdom"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-03-26",
-    "url": "https://apply.workable.com/j/61FF9282A8",
-    "source": "workable",
-    "site": "rebellion.com",
-    "industry": "gamedev",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "Геймплей",
-    "permit": true,
-    "stack": [
-      "C++"
-    ],
-    "seen": "2026-08-26",
-    "hasRu": true,
-    "descShort": "We want you to #JOINTHEREBELLION! For 30 years we’ve been independently developing and publishing incredible video games at our multiple studios founded by Jason & Chris Kingsley, but Rebellion is more than just games. We have our own film and mo-cap studio, we create board games, publish books, and through 2000AD, publish comics and graphic novels such as the amazing Judge Dredd. We are on the lookout for an experienced or more senior Gameplay Programmer to join our passionate code team to help work on multiple exciting, unannounced projects: join one of our new large-scale projects developed by the members of the original Sniper Elite 5 team. As an experienced or senior Gameplay…",
-    "hasDesc": true
-  },
-  {
     "id": "wk-homa-games-515240B841",
     "title": "Unity Team Lead",
     "company": "Homa Games",
@@ -23109,64 +23098,6 @@ window.JOBS = [
     "seen": "2026-08-26",
     "hasRu": true,
     "descShort": "Homa is a global mobile game developer and publisher creating games people love. We partner with studios and internally develop games, having launched over 80 titles, reached over 2 billion downloads, and seen our game All in Hole break into the global top-50 grossing charts. These are milestones, not the finish line. With deep expertise in product and technology, we built Homa Lab, our proprietary platform that gives developers the market intelligence, data tools, and game tech, with AI built-in, to find product–market fit fast and scale mass-market games into lasting experiences players enjoy for years. This is our flywheel: Homa Lab helps studios spot the right ideas early, turn them…",
-    "hasDesc": true
-  },
-  {
-    "id": "wk-rebellion-EC9066B2A2",
-    "title": "Experienced/Senior DevOps Engineer (AWS/Azure) - Tech Team",
-    "company": "Rebellion",
-    "locations": [
-      "Oxford, United Kingdom"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-03-25",
-    "url": "https://apply.workable.com/j/EC9066B2A2",
-    "source": "workable",
-    "site": "rebellion.com",
-    "industry": "gamedev",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "DevOps",
-    "stack": [
-      "AWS",
-      "Docker",
-      "Kubernetes",
-      "Perforce"
-    ],
-    "seen": "2026-08-26",
-    "hasRu": true,
-    "descShort": "We want you to #JOINTHEREBELLION! For 30 years we’ve been independently developing and publishing incredible video games at our multiple studios founded by Jason & Chris Kingsley, but Rebellion is more than just games. We have our own film studio, we create board games, publish books, and through 2000AD, publish comics and graphic novels such as the amazing Judge Dredd. We are seeking an experienced or more senior DevOps Engineer to join our code department, playing a key role within a growing team! As a DevOps Engineer, you will contribute to designing and maintaining our infrastructure, implementing automation frameworks, establishing robust CI/CD pipelines, and optimizing performance and…",
-    "hasDesc": true
-  },
-  {
-    "id": "wk-rebellion-A109731EA7",
-    "title": "Experienced/Senior Online Developer - Tech Team",
-    "company": "Rebellion",
-    "locations": [
-      "Oxford, United Kingdom"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-03-25",
-    "url": "https://apply.workable.com/j/A109731EA7",
-    "source": "workable",
-    "site": "rebellion.com",
-    "industry": "gamedev",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "TypeScript",
-      "JavaScript",
-      "AWS",
-      "Perforce"
-    ],
-    "seen": "2026-08-26",
-    "hasRu": true,
-    "descShort": "We want you to #JOINTHEREBELLION! For 30 years we’ve been independently developing and publishing incredible video games at our multiple studios founded by Jason & Chris Kingsley, but Rebellion is more than just games. We have our own film studio, we create board games, publish books, and through 2000AD, publish comics and graphic novels such as the amazing Judge Dredd. We are seeking an experienced or more senior back-end Online Developer to join our tech team, helping to build and support internal and external web APIs for our game engine team. The successful candidate will join a growing team and use their JavaScript expertise to contribute across the full software development lifecycle…",
     "hasDesc": true
   },
   {
@@ -23881,34 +23812,6 @@ window.JOBS = [
     "seen": "2026-08-26",
     "hasRu": true,
     "descShort": "ABOUT YOU We are looking for a Backend Engineer who is curious, collaborative, and eager to grow in a fast-paced, highly collaborative, and exceptionally dynamic setting. The best candidate will be someone who is excited to develop and maintain scalable backend services that power innovative products used by game developers and players worldwide. Strong programming skills in PHP and/or Golang are essential, along with a solid understanding of algorithms, database design, and software engineering principles. The ability to write clean, testable code while contributing to a team-oriented development environment will be key to your success in this role. If you're passionate about building…",
-    "hasDesc": true
-  },
-  {
-    "id": "sr-people-can-fly-744000106807696",
-    "title": "Artiste Technique Senior / Senior Technical Artist",
-    "company": "People Can Fly",
-    "locations": [
-      "Montréal, Canada"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": null,
-    "posted": "2026-02-02",
-    "url": "https://jobs.smartrecruiters.com/PeopleCanFly/744000106807696",
-    "source": "smartrecruiters",
-    "site": "peoplecanfly.com",
-    "industry": "gamedev",
-    "role": "Технический художник",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "Unreal",
-      "Python",
-      "Maya"
-    ],
-    "seen": "2026-08-26",
-    "hasRu": true,
-    "descShort": "Company Description People Can Fly est l'un des principaux studios indépendants de développement de jeux AAA. Notre équipe internationale est composée de centaines de personnes talentueuses qui travaillent dans nos bureaux en Pologne, au Royaume-Uni, en Irlande, aux États-Unis et au Canada, ainsi qu'à distance dans le monde entier. Fondée en 2002, notre société s'est imposée dans le genre des jeux de tir avec des titres tels que Painkiller, Bulletstorm, Gears of War: Judgement and Outriders. En tant que l'un des studios les plus chevronnés dans l'utilisation du moteur Unreal Engine, nous continuons à développer notre expertise et à dépasser les limites du possible dans le domaine du…",
     "hasDesc": true
   },
   {
@@ -24941,6 +24844,33 @@ window.JOBS = [
     "hasDesc": true
   },
   {
+    "id": "lv-xsolla-e05085e1-df4d-4bf2-bcf9-96402d21ac07",
+    "title": "Backend Developer",
+    "company": "Xsolla",
+    "locations": [
+      "Baku"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2025-11-17",
+    "url": "https://jobs.lever.co/xsolla/e05085e1-df4d-4bf2-bcf9-96402d21ac07",
+    "source": "lever",
+    "site": "xsolla.com",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Бэкенд",
+    "stack": [
+      "SQL",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-08-26",
+    "descShort": "RESPONSIBILITIES • Design, develop, and maintain scalable backend services for key components of the Xsolla platform. • Architect and evolve microservices-based systems to support large-scale, high-performance operations. • Implement and optimize database structures and queries for maximum efficiency and reliability. • Ensure high availability, performance, and fault tolerance across distributed services. • Lead efforts to improve CI/CD pipelines, deployment processes, and system observability. • Conduct code reviews, mentor team members, and foster a culture of engineering excellence. • Collaborate closely with product, frontend, and DevOps teams to deliver reliable and innovative…",
+    "hasDesc": true
+  },
+  {
     "id": "lv-xsolla-3aff5760-0e40-4896-944a-980a2369608f",
     "title": "Front-End Developer (Web & Mobile)",
     "company": "Xsolla",
@@ -25389,6 +25319,33 @@ window.JOBS = [
     "hasDesc": true
   },
   {
+    "id": "sr-people-can-fly-744000082413749",
+    "title": "Artiste Technique Senior / Senior Technical Artist",
+    "company": "People Can Fly",
+    "locations": [
+      "Montréal, Canada"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2025-09-17",
+    "url": "https://jobs.smartrecruiters.com/PeopleCanFly/744000082413749",
+    "source": "smartrecruiters",
+    "site": "peoplecanfly.com",
+    "industry": "gamedev",
+    "role": "Технический художник",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unreal",
+      "Python",
+      "Maya"
+    ],
+    "seen": "2026-08-26",
+    "descShort": "Company Description People Can Fly est l'un des principaux studios indépendants de développement de jeux AAA. Notre équipe internationale est composée de centaines de personnes talentueuses qui travaillent dans nos bureaux en Pologne, au Royaume-Uni, en Irlande, aux États-Unis et au Canada, ainsi qu'à distance dans le monde entier. Fondée en 2002, notre société s'est imposée dans le genre des jeux de tir avec des titres tels que Painkiller, Bulletstorm, Gears of War: Judgement and Outriders. En tant que l'un des studios les plus chevronnés dans l'utilisation du moteur Unreal Engine, nous continuons à développer notre expertise et à dépasser les limites du possible dans le domaine du…",
+    "hasDesc": true
+  },
+  {
     "id": "lv-xsolla-22a159a5-88df-49ad-958d-2c3ad66dc06c",
     "title": "Customer Support Representative",
     "company": "Xsolla",
@@ -25511,34 +25468,6 @@ window.JOBS = [
     "seen": "2026-08-26",
     "hasRu": true,
     "descShort": "ABOUT YOU We are looking for a Developer Evangelist – Integrations to be a hands-on technical advocate who empowers game developers to successfully integrate Xsolla’s products and features into their games. This role blends deep technical expertise, solution-building skills, and community presence to help developers create smooth, scalable, and high-quality implementations. You will work directly with partners, lead technical workshops, create integration-focused resources, and contribute to lighthouse cases—benchmark integrations that inspire both the industry and internal teams. ABOUT US Xsolla is a global commerce company with robust tools and services to help developers solve the…",
-    "hasDesc": true
-  },
-  {
-    "id": "lv-xsolla-598164cd-61a6-477a-a0cc-debbd3f5d18a",
-    "title": "Platform Engineer",
-    "company": "Xsolla",
-    "locations": [
-      "Montreal"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": "100 000 CA$ – 160 000 CA$",
-    "posted": "2025-07-30",
-    "url": "https://jobs.lever.co/xsolla/598164cd-61a6-477a-a0cc-debbd3f5d18a",
-    "source": "lever",
-    "site": "xsolla.com",
-    "industry": "gamedev",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "Бэкенд",
-    "stack": [
-      "Python",
-      "AWS",
-      "Kubernetes"
-    ],
-    "seen": "2026-08-26",
-    "hasRu": true,
-    "descShort": "ABOUT US Xsolla is a global commerce company with robust tools and services to help developers solve the inherent challenges of the video game industry. From indie to AAA, companies partner with Xsolla to help them fund, distribute, market, and monetize their games. Grounded in the belief in the future of video games, Xsolla is resolute in the mission to bring opportunities together, and continually make new resources available to creators. Headquartered and incorporated in Los Angeles, California, Xsolla operates as the merchant of record and has helped over 1,500+ game developers to reach more players and grow their businesses around the world. With more paths to profits and ways to win…",
     "hasDesc": true
   },
   {
