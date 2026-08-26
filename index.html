@@ -97,37 +97,37 @@
      ради перекраски: зелёный и глубокий синий читаются как деньги и банк,
      а не как игры. */
   :root[data-mode="fintech"]{
-    --void:#07120f;
-    --panel:#0e1c19;
-    --panel-2:#132723;
-    --line:#1f3d36;
-    --line-soft:#183029;
-    --text:#e8f5ef;
-    --muted:#7ea79a;
-    --amber:#4ade9b;
-    --amber-deep:#0f2d22;
-    --apply-text:#04231a;
-    --cyan:#6fc9ff;
-    --cyan-deep:#0d2839;
-    --pink:#ff7d7d;
-    --glow:rgba(16,140,110,.16);
+    --void:#0a1014;
+    --panel:#141c22;
+    --panel-2:#1b252c;
+    --line:#2b3a44;
+    --line-soft:#222e36;
+    --text:#e6edf3;
+    --muted:#8b9aa6;
+    --amber:#3fae86;          /* спокойная зелень вместо кислотной */
+    --amber-deep:#16302a;
+    --apply-text:#ffffff;
+    --cyan:#5aa9d6;
+    --cyan-deep:#16303e;
+    --pink:#e07a7a;
+    --glow:rgba(30,90,110,.16);
     --grid:rgba(255,255,255,.012);
   }
   :root[data-mode="fintech"][data-theme="light"]{
-    --void:#f2f8f5;
+    --void:#f4f7f9;
     --panel:#ffffff;
-    --panel-2:#e9f4ef;
-    --line:#c9e0d6;
-    --line-soft:#dcece5;
-    --text:#0d251d;
-    --muted:#4f7768;
-    --amber:#128a5c;
-    --amber-deep:#dff3e9;
+    --panel-2:#eef3f6;
+    --line:#d3dee5;
+    --line-soft:#e3eaef;
+    --text:#16232b;
+    --muted:#5b6f7c;
+    --amber:#1c8a68;
+    --amber-deep:#e2f2ec;
     --apply-text:#ffffff;
-    --cyan:#1173b0;
-    --cyan-deep:#e0f0fa;
-    --glow:rgba(16,140,110,.12);
-    --grid:rgba(10,60,40,.035);
+    --cyan:#20699b;
+    --cyan-deep:#e4eff6;
+    --glow:rgba(30,90,110,.10);
+    --grid:rgba(20,45,60,.035);
   }
 
   .modes{display:flex;gap:2px;background:var(--panel-2);border:1px solid var(--line-soft);
@@ -200,7 +200,7 @@
 
   /* Правило простое: если человек первым замечает фон — фон слишком активный.
      Поэтому никаких силуэтов, только плоскость и еле живая техническая сетка. */
-  header{border-bottom:1px solid var(--line-soft);padding:26px 0 18px;margin-bottom:18px;
+  header{border-bottom:1px solid var(--line-soft);padding:30px 0 30px;margin-bottom:22px;
     position:relative;z-index:1}
   .brandline{display:flex;align-items:center;justify-content:space-between;gap:14px}
   .brand{font-family:var(--display);font-weight:700;font-size:clamp(23px,4.6vw,31px);
@@ -211,7 +211,7 @@
   #logo{cursor:pointer;color:inherit;text-decoration:none}
   #logo:hover{opacity:.85}
   .vertical{font-family:var(--mono);font-size:11.5px;letter-spacing:.34em;
-    text-transform:uppercase;color:var(--cyan);margin-top:7px}
+    text-transform:uppercase;color:var(--cyan);margin-top:18px}
   .head-controls{display:flex;align-items:center;gap:8px;flex-wrap:wrap;
     justify-content:flex-end}
   .theme-btn{background:var(--panel);border:1px solid var(--line);border-radius:999px;
@@ -227,19 +227,19 @@
   .lang-btn.on{background:var(--cyan-deep);color:var(--cyan)}
   .lang-btn:hover{color:var(--cyan)}
   .pitch{font-family:var(--display);font-size:clamp(22px,3.4vw,30px);color:var(--text);
-    margin-top:14px;font-weight:700;line-height:1.22;letter-spacing:-.01em}
+    margin-top:20px;font-weight:700;line-height:1.28;letter-spacing:-.01em}
   .pitch em{font-style:normal;color:var(--cyan)}
   .pitch strong{color:var(--amber);font-weight:700}
   /* Моноширинные подписи-маркеры: технический слой поверх обычного текста. */
   .mono-mark{font-family:var(--mono);font-size:10px;letter-spacing:.18em;
     text-transform:uppercase;color:var(--muted);opacity:.75}
   .mono-mark::before{content:"// "}
-  .stats{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+  .stats{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
   .stat{background:var(--panel);border:1px solid var(--line-soft);border-radius:10px;
     padding:8px 14px;display:flex;flex-direction:column;gap:1px;min-width:92px}
   .stat b{font-family:var(--mono);font-size:18px;font-weight:600;color:var(--cyan);line-height:1.1}
   .stat span{font-size:11px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
-  .sub{color:var(--muted);font-size:13.5px;margin-top:8px;max-width:640px;line-height:1.6}
+  .sub{color:var(--muted);font-size:13.5px;margin-top:20px;max-width:640px;line-height:1.65}
   .how-cards{display:grid;gap:10px}
   .how-card{background:var(--panel-2);border:1px solid var(--line-soft);border-radius:12px;
     padding:14px 15px}
@@ -777,13 +777,13 @@
 
 <div class="dock" id="dock">
 <button class="to-top" id="toTop" title="Наверх" hidden>↑</button>
+<button class="fab" id="fbBtn">Написать нам</button>
 <a class="fab tg-fab" id="tgFab" href="#" target="_blank" rel="noopener" hidden>
   <svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true">
     <path fill="currentColor" d="M21.9 4.3 18.9 19c-.2 1-.8 1.2-1.7.8l-4.6-3.4-2.2 2.1c-.2.2-.5.5-1 .5l.3-4.7 8.6-7.8c.4-.3-.1-.5-.6-.2L6.9 12.9l-4.6-1.4c-1-.3-1-1 .2-1.5l18-6.9c.8-.3 1.6.2 1.4 1.2z"/>
   </svg>
   <span id="tgFabText">Канал в Telegram</span>
 </a>
-<button class="fab" id="fbBtn">Написать нам</button>
 </div>
 
 <div class="swap" id="swap" hidden aria-hidden="true"><span id="swapWord"></span></div>
@@ -1525,6 +1525,7 @@
       modeGame:"Геймдев", modeFin:"Финтех",
       pitchFinHtml:'Вакансии в <em>финтехе</em><br><strong>напрямую</strong> от компаний',
       verticalFin:"Прямо от компаний · Живые ссылки · Без агентств",
+      subFin:"Без агентств, дублей и ручных перепостов. Банки, платежи, крипта и трейдинг — берём с карьерных страниц самих компаний.",
       hasSalary:"Есть зарплата", reasonTitle:"Причина", whenTitle:"Когда столкнулся",
       reportTitle:"Что не так с вакансией?", reportHint:"Ответы помогают чистить базу. Займёт секунд десять.",
       writeTitle:"Написать", fbHint:"Мы читаем каждое сообщение. Оставь контакт — ответим.",
@@ -1615,6 +1616,7 @@
       modeGame:"Games", modeFin:"Fintech",
       pitchFinHtml:'Fintech jobs,<br><strong>straight</strong> from the <em>companies</em>',
       verticalFin:"Straight from companies · Live links · No agencies",
+      subFin:"No agencies, no duplicates, no manual reposts. Banks, payments, crypto and trading — taken from company career pages.",
       hasSalary:"Salary listed", reasonTitle:"Reason", whenTitle:"When did you notice",
       reportTitle:"What is wrong with this job?", reportHint:"Your answer helps keep the list clean. Takes ten seconds.",
       writeTitle:"Contact us", fbHint:"We read every message. Leave a contact and we will reply.",
@@ -1701,7 +1703,7 @@
     $("pitch").innerHTML = mode === "fintech" ? t("pitchFinHtml") : t("pitchHtml");
     $("modeGame").textContent = t("modeGame");
     $("modeFin").textContent = t("modeFin");
-    $("subtext").textContent = t("subtext");
+    $("subtext").textContent = mode === "fintech" ? t("subFin") : t("subtext");
     $("howBtn").textContent = t("how");
     $("howTitle").textContent = t("howTitle");
     $("howOk").textContent = t("ok");
