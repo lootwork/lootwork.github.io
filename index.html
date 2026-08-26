@@ -191,11 +191,13 @@
   @media(min-width:1120px){
     .wrap{max-width:1240px}
     .layout{display:grid;grid-template-columns:290px 1fr;gap:22px;align-items:start}
-    /* Панель едет за прокруткой с лёгким запаздыванием: так глаз успевает
-       за движением, и она не выглядит приклеенной намертво. */
+    /* Панель догоняет экран с лёгким запаздыванием. Залипание тут не годится:
+       вместе со сдвигом оно дёргалось, поэтому позицию считаем сами. */
     .side{display:block;position:sticky;top:18px;max-height:calc(100vh - 36px)}
+    .side.drift{position:relative;top:0;max-height:none;align-self:start}
+    .side.drift .sheet{max-height:calc(100vh - 36px);will-change:transform}
     .side.pinned{position:static;max-height:none}
-    .side.pinned .sheet{max-height:none}
+    .side.pinned .sheet{max-height:none;transform:none !important}
     #pinBtn{display:inline-flex}
     .side .sheet{max-width:none;border-radius:14px;max-height:calc(100vh - 36px)}
     .side .sheet-foot{padding:12px 16px}
@@ -1499,7 +1501,7 @@
       permitHint:"Компания требует право работать именно в её стране: гражданство, вид на жительство или рабочую визу. Даже если написано «удалённо», кандидата из другой страны обычно не рассматривают.",
       permitNote:"Компания требует право работать в своей стране — гражданство, вид на жительство или рабочую визу. Если у вас его нет, отклик почти наверняка не рассмотрят. Проверьте условия в оригинале.",
       cisChip:"Можно из СНГ", cisShort:"можно из СНГ", cisTag:"можно из СНГ",
-      pinOn:"Закрепить панель на месте", pinOff:"Пусть следует за прокруткой",
+      pinOn:"Закрепить фильтры", pinOff:"Открепить фильтры",
       gtKind:"Тип компании", gtDirection:"Направление",
       cisHint:"Удалённая работа из любой точки мира, и компания не требует местного гражданства, ВНЖ или рабочей визы. Такие вакансии открыты для России, Беларуси, Армении, Грузии и остальных стран СНГ.",
       cisNote:"Работа удалённая по всему миру, и компания не требует местного гражданства, ВНЖ или визы — отклик из России, Беларуси, Армении или Грузии здесь имеет смысл.",
@@ -1595,7 +1597,7 @@
       permitHint:"The company requires the right to work in its country: citizenship, residency or a work visa. Even when the job says remote, candidates from other countries are usually not considered.",
       permitNote:"This job requires the right to work in the company country — citizenship, residency or a work visa. Check the original posting before applying.",
       cisChip:"Open worldwide", cisShort:"open worldwide", cisTag:"open worldwide",
-      pinOn:"Pin the panel", pinOff:"Let it follow scrolling",
+      pinOn:"Pin filters", pinOff:"Unpin filters",
       gtKind:"Company type", gtDirection:"Focus area",
       cisHint:"Remote from anywhere, and the company does not require local citizenship, residency or a visa.",
       cisNote:"Remote worldwide, and no local citizenship, residency or visa required.",
@@ -4036,6 +4038,9 @@
       pin.setAttribute("aria-pressed", pinned ? "true" : "false");
       pin.title = pinned ? t("pinOff") : t("pinOn");
       side.style.transform = "";
+      const sheet = side.querySelector(".sheet");
+      if (sheet) sheet.style.transform = "";
+      if (pinned) side.classList.remove("drift");
     };
     pin.addEventListener("click", () => {
       pinned = !pinned;
@@ -4044,9 +4049,57 @@
     });
     applyPin();
 
-    // Инерцию убрал: сдвиг через transform дёргал залипшую панель на каждом
-    // движении колеса. Ровное залипание читается лучше, чем «живое», но
-    // прыгающее.
+    if (calmMotion()) return;
+
+    // Считаем положение панели сами: залипание и сдвиг мешали друг другу,
+    // а так панель плавно догоняет экран и мягко тормозит.
+    let cur = 0, target = 0, raf = null, hostTop = 0, maxShift = 0;
+
+    const measure = () => {
+      const sheet = side.querySelector(".sheet");
+      if (!sheet) return;
+      if (!side.classList.contains("drift")){
+        side.classList.add("drift");
+        hostTop = side.getBoundingClientRect().top + window.scrollY - cur;
+      }
+      // Высоты меняются при фильтрации, поэтому запас пересчитываем каждый раз,
+      // иначе панель уедет ниже списка вакансий.
+      const layout = document.querySelector(".layout");
+      maxShift = Math.max(0, (layout ? layout.offsetHeight : side.offsetHeight)
+                             - sheet.offsetHeight - 18);
+    };
+
+    const step = () => {
+      // Каждый кадр проходим седьмую часть оставшегося пути: быстрый старт
+      // и мягкая остановка без единой строчки таймингов.
+      cur += (target - cur) * 0.14;
+      if (Math.abs(target - cur) < 0.5) cur = target;
+      const sheet = side.querySelector(".sheet");
+      if (sheet) sheet.style.transform = "translateY(" + cur.toFixed(1) + "px)";
+      raf = (cur === target) ? null : requestAnimationFrame(step);
+    };
+
+    const onScroll = () => {
+      if (pinned || window.innerWidth < 1120){
+        const sheet = side.querySelector(".sheet");
+        if (sheet) sheet.style.transform = "";
+        side.classList.remove("drift");
+        return;
+      }
+      measure();
+      target = Math.max(0, Math.min(maxShift, window.scrollY + 18 - hostTop));
+      if (!raf) raf = requestAnimationFrame(step);
+    };
+
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", () => {
+      cur = target = 0;
+      const sheet = side.querySelector(".sheet");
+      if (sheet) sheet.style.transform = "";
+      side.classList.remove("drift");
+      onScroll();
+    });
+    onScroll();
   }
   sideMotion();
 
