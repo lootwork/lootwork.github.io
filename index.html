@@ -156,7 +156,7 @@
     100%{opacity:0;transform:scale(1.08);filter:blur(7px)} }
 
   *{box-sizing:border-box;margin:0;padding:0}
-  html,body{overflow-x:hidden;max-width:100%}
+  html,body{overflow-x:clip;max-width:100%}
 
   body{
     background:
@@ -193,8 +193,7 @@
     .layout{display:grid;grid-template-columns:290px 1fr;gap:22px;align-items:start}
     /* Панель едет за прокруткой с лёгким запаздыванием: так глаз успевает
        за движением, и она не выглядит приклеенной намертво. */
-    .side{display:block;position:sticky;top:18px;max-height:calc(100vh - 36px);
-      will-change:transform}
+    .side{display:block;position:sticky;top:18px;max-height:calc(100vh - 36px)}
     .side.pinned{position:static;max-height:none}
     .side.pinned .sheet{max-height:none}
     #pinBtn{display:inline-flex}
@@ -316,7 +315,13 @@
   .fav-chip:hover{border-color:var(--amber);color:var(--amber)}
   select.sort{background:var(--panel);border:1px solid var(--line);color:var(--text);
     font-family:var(--body);font-size:13px;border-radius:999px;
-    padding:8px 30px 8px 14px;cursor:pointer}
+    padding:8px 34px 8px 15px;cursor:pointer;
+    appearance:none;-webkit-appearance:none;-moz-appearance:none;
+    background-image:linear-gradient(45deg,transparent 50%,currentColor 50%),
+                     linear-gradient(135deg,currentColor 50%,transparent 50%);
+    background-position:calc(100% - 18px) 52%, calc(100% - 13px) 52%;
+    background-size:5px 5px, 5px 5px;
+    background-repeat:no-repeat}
   select.sort:hover{border-color:var(--cyan)}
 
   .meta-line{display:flex;justify-content:space-between;align-items:center;gap:10px;
@@ -4030,7 +4035,7 @@
       pin.classList.toggle("on", pinned);
       pin.setAttribute("aria-pressed", pinned ? "true" : "false");
       pin.title = pinned ? t("pinOff") : t("pinOn");
-      if (pinned) side.style.transform = "";
+      side.style.transform = "";
     };
     pin.addEventListener("click", () => {
       pinned = !pinned;
@@ -4039,22 +4044,9 @@
     });
     applyPin();
 
-    if (calmMotion()) return;
-
-    let last = window.scrollY, shift = 0, raf = null;
-    const tick = () => {
-      shift *= 0.86;                       // затухание: панель догоняет экран
-      if (Math.abs(shift) < 0.4){ shift = 0; side.style.transform = ""; raf = null; return; }
-      side.style.transform = "translateY(" + shift.toFixed(1) + "px)";
-      raf = requestAnimationFrame(tick);
-    };
-    window.addEventListener("scroll", () => {
-      if (pinned || window.innerWidth < 1120) return;
-      const d = window.scrollY - last;
-      last = window.scrollY;
-      shift = Math.max(-46, Math.min(46, shift + d * 0.34));
-      if (!raf) raf = requestAnimationFrame(tick);
-    }, { passive: true });
+    // Инерцию убрал: сдвиг через transform дёргал залипшую панель на каждом
+    // движении колеса. Ровное залипание читается лучше, чем «живое», но
+    // прыгающее.
   }
   sideMotion();
 
