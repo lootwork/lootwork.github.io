@@ -736,13 +736,13 @@
       &nbsp;·&nbsp;
       <a href="/jobs/" id="footAll">Все вакансии</a>
       &nbsp;·&nbsp;
-      <a href="/role/programmirovanie/">Программирование</a>
+      <a href="/role/programmirovanie/" id="footL1">Программирование</a>
       &nbsp;·&nbsp;
-      <a href="/role/art/">Арт</a>
+      <a href="/role/art/" id="footL2">Арт</a>
       &nbsp;·&nbsp;
-      <a href="/spec/unity/">Unity</a>
+      <a href="/fin-role/programmirovanie/" id="footL3">Финтех: разработка</a>
       &nbsp;·&nbsp;
-      <a href="/spec/unreal/">Unreal</a>
+      <a href="/fin-role/komplaens/" id="footL4">Комплаенс</a>
       &nbsp;·&nbsp;
       <a href="/remote/" id="footRemote">Удалённая работа</a>
       &nbsp;·&nbsp;
@@ -1505,7 +1505,7 @@
       gtKind:"Тип компании", gtDirection:"Направление",
       cisHint:"Удалённая работа из любой точки мира, и компания не требует местного гражданства, ВНЖ или рабочей визы. Такие вакансии открыты для России, Беларуси, Армении, Грузии и остальных стран СНГ.",
       cisNote:"Работа удалённая по всему миру, и компания не требует местного гражданства, ВНЖ или визы — отклик из России, Беларуси, Армении или Грузии здесь имеет смысл.",
-      translated:"перевод", manualTr:"Описание переведено вручную. Оригинал — по кнопке «Откликнуться на сайте студии».",
+      translated:"перевод", manualTr:"Перевод LOOTWORK. Оригинал — по кнопке «Откликнуться на сайте студии».",
       officialHint:"Вакансия взята с карьерной страницы студии",
       sourceWord:"источник", checkedWord:"проверено",
       fbContact:"Контакт для ответа", fbContactHint:"Без контакта ответить не смогу.",
@@ -1522,8 +1522,8 @@
       tgSub:"Каждый день публикуем свежие вакансии студий. Без спама и агентств.",
       tgGo:"Подписаться",
       aboutPage:"Покрытие базы", privacyPage:"Приватность", termsPage:"Условия",
-      consentText:"Считаем посещения через Яндекс.Метрику, чтобы понимать, какие части сайта полезны. Резюме и отклики LOOTWORK не собирает.",
-      consentYes:"Разрешить аналитику", consentNo:"Без аналитики",
+      consentText:"Помогите сделать LOOTWORK удобнее. Мы смотрим на обезличенную статистику: какие фильтры используют, где поиск не находит вакансий и что стоит улучшить. Резюме и отклики не собираем.",
+      consentYes:"Разрешить", consentNo:"Без аналитики",
       consentMore:"Подробнее о приватности", statsSettings:"Настройки аналитики",
       company:"Компания", location:"Локация", any:"Любые", month:"За месяц",
       findCompany:"Найти компанию…", findLoc:"Страна или город",
@@ -1601,7 +1601,7 @@
       gtKind:"Company type", gtDirection:"Focus area",
       cisHint:"Remote from anywhere, and the company does not require local citizenship, residency or a visa.",
       cisNote:"Remote worldwide, and no local citizenship, residency or visa required.",
-      translated:"translated", manualTr:"This description was translated by hand.",
+      translated:"translated", manualTr:"Translated by LOOTWORK. The original is on the studio site.",
       officialHint:"Taken from the studio career page",
       sourceWord:"source", checkedWord:"checked",
       fbContact:"Contact for a reply", fbContactHint:"Without a contact I cannot reply.",
@@ -1618,8 +1618,8 @@
       tgSub:"We post fresh studio jobs every day. No spam, no agencies.",
       tgGo:"Subscribe",
       aboutPage:"Coverage", privacyPage:"Privacy", termsPage:"Terms",
-      consentText:"We use Yandex.Metrica to count visits and see which parts of the site are useful. LOOTWORK never collects CVs or applications.",
-      consentYes:"Allow analytics", consentNo:"No analytics",
+      consentText:"Help make LOOTWORK better. We look at anonymous stats: which filters people use, where search finds nothing and what to improve. We never collect CVs or applications.",
+      consentYes:"Allow", consentNo:"No analytics",
       consentMore:"More about privacy", statsSettings:"Analytics settings",
       company:"Company", location:"Location", any:"Any", month:"This month",
       findCompany:"Find a company…", findLoc:"Country or city",
@@ -1709,6 +1709,10 @@
     $("shareLabel").textContent = t("share");
     $("jobApply").textContent = t("applyOn");
     if (openJob) $("jobPage").textContent = t("jobPage");   // окно может быть открыто
+    // Подвал ведёт в раздел той отрасли, которую человек сейчас смотрит
+    const pre = mode === "fintech" ? "/fin-" : "/";
+    $("footAll").href = pre + "jobs/";
+    $("footRemote").href = pre + "remote/";
     $("footAll").textContent = t("allJobs");
     const tg = $("footTg");
     tg.hidden = !CFG.telegram;

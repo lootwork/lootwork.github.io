@@ -553,9 +553,17 @@ NOISE = re.compile(
 
 # Одной метки «Удалёнка» мало: «работайте откуда угодно» и «удалённо, но
 # только из Канады» — это совсем разные предложения. Разбираем на три вида.
+# «globally» и «fully remote» отсюда убраны: первое обычно про клиентов
+# компании, второе про формат внутри одной страны. Из-за них вакансия
+# в Сан-Франциско получала метку «удалёнка по миру».
 WORLDWIDE_RE = re.compile(
-    r"\b(anywhere|worldwide|work from anywhere|fully remote|globally|"
-    r"any (country|location)|из любой точки)\b", re.I)
+    r"\b(anywhere|worldwide|any (country|location))\b|из любой точки", re.I)
+
+# В тексте вакансии верим только недвусмысленным формулировкам
+WORLDWIDE_STRONG = re.compile(
+    r"work from anywhere|remote from anywhere|anywhere in the world|"
+    r"fully remote,? anywhere|globally distributed team|"
+    r"из любой точки мира", re.I)
 HYBRID_RE = re.compile(r"\bhybrid\b|гибрид", re.I)
 ZONE_RE = re.compile(
     r"\bwithin\b|\bremote\b[^.]{0,20}\b(in|from|within|only)\b|"
@@ -585,17 +593,27 @@ def remote_kind(raw_location, title, desc):
 
     if HYBRID_RE.search(loc) or HYBRID_RE.search(title or ""):
         return "hybrid"
-    if WORLDWIDE_RE.search(head):
+
+    # Есть ли в локации конкретное место помимо слова «remote»
+    rest_loc = REMOTE_WORDS.sub(" ", loc)
+    rest_loc = re.sub(r"[^\w\s]", " ", rest_loc)
+    rest_loc = re.sub(r"\s+", " ", rest_loc).strip()
+    has_place = len(rest_loc) >= 2
+
+    # «По миру» ставим, только когда это сказано прямо и вакансия не привязана
+    # к городу. Ложное обещание удалёнки по миру бьёт по доверию сильнее,
+    # чем пропущенная вакансия.
+    if not has_place and (WORLDWIDE_RE.search(loc + " " + (title or ""))
+                          or WORLDWIDE_STRONG.search(full[:2000])):
         return "worldwide"
+    if WORLDWIDE_RE.search(loc) and not has_place:
+        return "worldwide"
+
     if ZONE_RE.search(loc) or ZONE_RE.search(title or ""):
         return "zone"
     # «Remote (Canada)», «Remote, US» — удалёнка, но привязанная к месту.
-    # Если рядом со словом «remote» осталось ещё что-то осмысленное — это регион.
-    rest = REMOTE_WORDS.sub(" ", loc)
-    rest = re.sub(r"[^\w\s]", " ", rest)
-    rest = re.sub(r"\s+", " ", rest).strip()
-    if REMOTE_WORDS.search(loc) and len(rest) >= 2:
-        return "zone"
+    if REMOTE_WORDS.search(loc):
+        return "zone" if has_place else "worldwide"
     return None
 
 
@@ -650,6 +668,41 @@ US_STATES = {
 CANADA_CITIES = {"toronto", "vancouver", "montreal", "montréal", "calgary",
                  "ottawa", "quebec", "québec", "burnaby", "edmonton", "winnipeg"}
 
+# Коды, которые означают и штат США, и страну: ID — Айдахо и Индонезия,
+# IN — Индиана и Индия, DE — Делавэр и Германия. Угадывать тут нельзя:
+# так Джокьякарта уехала в США. Разбираем только по знакомым городам,
+# в остальных случаях код просто отбрасываем.
+AMBIGUOUS = {"id", "in", "de", "la", "ma", "pa", "va", "ne", "co", "md",
+             "mt", "sc", "sd", "ms", "ga", "al", "ar", "ca", "mo", "or",
+             "me", "ok", "ri", "nc", "no", "tn", "ky", "mn", "mi"}
+
+# Города США, которые часто приходят со спорным кодом штата
+US_CITY = {
+    "menlo park", "san francisco", "palo alto", "mountain view", "san jose",
+    "los angeles", "san diego", "sacramento", "oakland", "santa monica",
+    "irvine", "culver city", "burbank", "pasadena", "san mateo", "sunnyvale",
+    "boston", "cambridge", "somerville", "seattle", "bellevue", "redmond",
+    "portland", "denver", "boulder", "austin", "dallas", "houston", "chicago",
+    "atlanta", "miami", "orlando", "boise", "detroit", "minneapolis",
+    "nashville", "raleigh", "charlotte", "phoenix", "las vegas", "novato",
+    "cary", "frisco", "plano", "columbus", "kansas city", "st. louis",
+}
+
+# Крупные города за пределами США — если код спорный, верим городу
+FOREIGN_CITY = {
+    "yogyakarta": "Indonesia", "jakarta": "Indonesia", "bandung": "Indonesia",
+    "bangalore": "India", "bengaluru": "India", "hyderabad": "India",
+    "mumbai": "India", "pune": "India", "delhi": "India", "chennai": "India",
+    "berlin": "Germany", "munich": "Germany", "hamburg": "Germany",
+    "cologne": "Germany", "frankfurt": "Germany", "düsseldorf": "Germany",
+    "milan": "Italy", "rome": "Italy", "turin": "Italy",
+    "casablanca": "Morocco", "rabat": "Morocco",
+    "panama city": "Panama", "vientiane": "Laos",
+    "chisinau": "Moldova", "valletta": "Malta", "bogota": "Colombia",
+    "bogotá": "Colombia", "medellin": "Colombia", "khartoum": "Sudan",
+    "oslo": "Norway", "bergen": "Norway",
+}
+
 
 def normalize_place(part: str) -> str:
     """«London, UK» → «London, United Kingdom», «Singapore-Guoco Midtown» → «Singapore»."""
@@ -667,7 +720,18 @@ def normalize_place(part: str) -> str:
     m = re.match(r"^(.*),\s*([A-Za-z]{2})$", p)
     if m:
         city, code = m.group(1).strip(), m.group(2).lower()
-        if code in US_STATES and city.lower() not in CANADA_CITIES:
+        low = city.lower()
+        if low in CANADA_CITIES:
+            p = f"{city}, Canada"
+        elif low in FOREIGN_CITY:
+            p = f"{city}, {FOREIGN_CITY[low]}"
+        elif low in US_CITY:
+            p = f"{city}, United States"
+        elif code in AMBIGUOUS:
+            # Не знаем город и код спорный — лучше показать голый город,
+            # чем уверенно отправить человека не в ту страну.
+            p = city
+        elif code in US_STATES:
             p = f"{city}, United States"
         elif code in ISO2:
             p = f"{city}, {ISO2[code]}"
@@ -2400,7 +2464,9 @@ def write_sitemap(today: str, urls=None):
 
 SITE = "https://lootwork.github.io"
 PAGE_DIRS = ["job", "company", "role", "spec", "jobs", "remote", "privacy", "about",
-             "where", "terms"]
+             "where", "terms",
+             # финтех живёт в своих разделах, чтобы не смешиваться с геймдевом
+             "fin-role", "fin-spec", "fin-jobs", "fin-remote", "fin-where"]
 
 TRANSLIT = {
     "а":"a","б":"b","в":"v","г":"g","д":"d","е":"e","ё":"e","ж":"zh","з":"z","и":"i",
@@ -2785,8 +2851,8 @@ def page_shell(title, description, canonical, body, ld=None, depth=1):
 <header><a class="logo" href="{up}">LOOT<b>WORK</b></a></header>
 {body}
 <footer>
-  Вакансии собираются автоматически с карьерных страниц игровых студий.
-  Мы не работодатель и не принимаем отклики — откликаться нужно на сайте студии.<br>
+  Вакансии собираются автоматически с карьерных страниц компаний.
+  Мы не работодатель и не принимаем отклики — откликаться нужно на сайте компании.<br>
   <a href="{up}">Все вакансии на LOOTWORK</a>
 </footer>
 </div>
@@ -2827,7 +2893,7 @@ def job_ld(j):
 def translated_note(j) -> str:
     if not j.get("_ru"):
         return ""
-    return ('<p class="note">Описание переведено вручную. '
+    return ('<p class="note">Перевод LOOTWORK. '
             f'<a href="{esc(j.get("url") or SITE)}" target="_blank" rel="nofollow noopener">'
             'Оригинал на сайте студии →</a></p>')
 
@@ -2842,8 +2908,11 @@ def permit_block(j) -> str:
 
 
 def translate_block(j) -> str:
-    """Сами мы описание не переводим, но одну кнопку дать можем:
-    она открывает страницу студии в переводчике Google."""
+    """Кнопка чужого переводчика нужна только там, где своего перевода нет:
+    предлагать Google поверх собственного текста — значит намекать,
+    что своему верить не стоит."""
+    if j.get("_ru"):
+        return ""
     if not j.get("lang") or j["lang"] == "ru" or not j.get("url"):
         return ""
     where = LANG_NAMES.get(j["lang"], j["lang"])
@@ -2953,7 +3022,7 @@ def write_terms():
 
 <h2>Что такое LOOTWORK</h2>
 <p>Это витрина открытых вакансий, которые автоматически собираются с публичных
-карьерных страниц игровых студий. Мы не работодатель, не кадровое агентство
+карьерных страниц компаний. Мы не работодатель, не кадровое агентство
 и не посредник. Отклик отправляется на сайте студии, напрямую ей.</p>
 
 <h2>За что мы не отвечаем</h2>
@@ -3100,14 +3169,37 @@ def write_about(jobs, by_company):
         f"{SITE}/about/", body, None, 1), encoding="utf-8")
 
 
-def write_pages(jobs, today):
-    """Раскладываем страницы заново. Старые удаляем целиком: вакансии умирают,
-    и оставлять их адреса нельзя — поисковик накажет за мёртвые страницы."""
-    for name in PAGE_DIRS:
-        shutil.rmtree(HERE / name, ignore_errors=True)
+# Отрасли живут в разных разделах сайта. Иначе на одной странице
+# «Программирование» оказываются Unity-разработчик из Larian и бэкендер
+# из Stripe — поисковик не понимает, о чём страница, и не показывает её.
+INDUSTRY_PAGES = {
+    "gamedev": {
+        "prefix": "",
+        "where": "в геймдеве",
+        "from": "от игровых студий",
+        "fromPage": "с карьерной страницы студии",
+        "orgs": "студий",
+        "all": "Все вакансии в геймдеве",
+        "remoteTitle": "Удалённая работа в геймдеве",
+        "placeTitle": "Работа в геймдеве",
+    },
+    "fintech": {
+        "prefix": "fin-",
+        "where": "в финтехе",
+        "from": "от финтех-компаний",
+        "fromPage": "с карьерной страницы компании",
+        "orgs": "компаний",
+        "all": "Все вакансии в финтехе",
+        "remoteTitle": "Удалённая работа в финтехе",
+        "placeTitle": "Работа в финтехе",
+    },
+}
 
-    (HERE / "page.css").write_text(PAGE_CSS, encoding="utf-8")
 
+def write_industry_pages(jobs, w, urls):
+    """Раскладываем страницы одной отрасли: компании, роли, направления,
+    города и связки «роль + удалёнка»."""
+    pre = w["prefix"]
     by_company, by_role, by_spec = {}, {}, {}
     for j in jobs:
         by_company.setdefault(j.get("company"), []).append(j)
@@ -3115,8 +3207,6 @@ def write_pages(jobs, today):
             by_role.setdefault(j["role"], []).append(j)
         if j.get("spec"):
             by_spec.setdefault(j["spec"], []).append(j)
-
-    urls = [f"{SITE}/"]
 
     for j in jobs:
         others = [o for o in by_company.get(j.get("company"), []) if o["id"] != j["id"]]
@@ -3133,59 +3223,50 @@ def write_pages(jobs, today):
         d.mkdir(parents=True, exist_ok=True)
         (d / "index.html").write_text(list_page(
             f"Вакансии {company}",
-            f"{jobs_word(len(items))} в {company} — напрямую с карьерной страницы студии.",
+            f"{jobs_word(len(items))} в {company} — напрямую {w['fromPage']}.",
             items, f"{SITE}/company/{slug}/", 2), encoding="utf-8")
         urls.append(f"{SITE}/company/{slug}/")
 
     for role, items in by_role.items():
         slug = slugify(role)
-        d = HERE / "role" / slug
+        d = HERE / f"{pre}role" / slug
         d.mkdir(parents=True, exist_ok=True)
         (d / "index.html").write_text(list_page(
-            f"{role} — вакансии в геймдеве",
-            f"{jobs_word(len(items))} по направлению «{role}» напрямую от игровых студий.",
-            items, f"{SITE}/role/{slug}/", 2), encoding="utf-8")
-        urls.append(f"{SITE}/role/{slug}/")
+            f"{role} — вакансии {w['where']}",
+            f"{jobs_word(len(items))} по направлению «{role}» напрямую {w['from']}.",
+            items, f"{SITE}/{pre}role/{slug}/", 2), encoding="utf-8")
+        urls.append(f"{SITE}/{pre}role/{slug}/")
+
+        rem = [x for x in items if x.get("remote") or x.get("rkind")]
+        if len(rem) >= 3:
+            dd = HERE / f"{pre}role" / slug / "remote"
+            dd.mkdir(parents=True, exist_ok=True)
+            (dd / "index.html").write_text(list_page(
+                f"{role} удалённо — вакансии {w['where']}",
+                f"{jobs_word(len(rem))} по направлению «{role}» с удалённой работой, "
+                f"напрямую {w['from']}.",
+                rem, f"{SITE}/{pre}role/{slug}/remote/", 3), encoding="utf-8")
+            urls.append(f"{SITE}/{pre}role/{slug}/remote/")
 
     for spec, items in by_spec.items():
         slug = slugify(spec)
-        d = HERE / "spec" / slug
+        d = HERE / f"{pre}spec" / slug
         d.mkdir(parents=True, exist_ok=True)
         (d / "index.html").write_text(list_page(
-            f"{spec} — вакансии в геймдеве",
-            f"{jobs_word(len(items))}: {spec}. Напрямую от игровых студий.",
-            items, f"{SITE}/spec/{slug}/", 2), encoding="utf-8")
-        urls.append(f"{SITE}/spec/{slug}/")
+            f"{spec} — вакансии {w['where']}",
+            f"{jobs_word(len(items))}: {spec}. Напрямую {w['from']}.",
+            items, f"{SITE}/{pre}spec/{slug}/", 2), encoding="utf-8")
+        urls.append(f"{SITE}/{pre}spec/{slug}/")
 
-    # «unity разработчик удалённо» и «работа в геймдеве варшава» — запросы,
-    # где конкуренция в разы слабее, чем у общего «вакансии геймдев».
-    # Под каждый такой запрос нужна своя страница, иначе показывать нечего.
-    for role, items in by_role.items():
-        rem = [j for j in items if j.get("remote") or j.get("rkind")]
-        if len(rem) < 3:
-            continue
-        slug = slugify(role)
-        d = HERE / "role" / slug / "remote"
-        d.mkdir(parents=True, exist_ok=True)
-        (d / "index.html").write_text(list_page(
-            f"{role} удалённо — вакансии в геймдеве",
-            f"{jobs_word(len(rem))} по направлению «{role}» с удалённой работой. "
-            f"Напрямую с карьерных страниц игровых студий.",
-            rem, f"{SITE}/role/{slug}/remote/", 3), encoding="utf-8")
-        urls.append(f"{SITE}/role/{slug}/remote/")
-
-    for spec, items in by_spec.items():
-        rem = [j for j in items if j.get("remote") or j.get("rkind")]
-        if len(rem) < 3:
-            continue
-        slug = slugify(spec)
-        d = HERE / "spec" / slug / "remote"
-        d.mkdir(parents=True, exist_ok=True)
-        (d / "index.html").write_text(list_page(
-            f"{spec} удалённо — вакансии в геймдеве",
-            f"{jobs_word(len(rem))}: {spec}, удалённая работа. От игровых студий напрямую.",
-            rem, f"{SITE}/spec/{slug}/remote/", 3), encoding="utf-8")
-        urls.append(f"{SITE}/spec/{slug}/remote/")
+        rem = [x for x in items if x.get("remote") or x.get("rkind")]
+        if len(rem) >= 3:
+            dd = HERE / f"{pre}spec" / slug / "remote"
+            dd.mkdir(parents=True, exist_ok=True)
+            (dd / "index.html").write_text(list_page(
+                f"{spec} удалённо — вакансии {w['where']}",
+                f"{jobs_word(len(rem))}: {spec}, удалённая работа. Напрямую {w['from']}.",
+                rem, f"{SITE}/{pre}spec/{slug}/remote/", 3), encoding="utf-8")
+            urls.append(f"{SITE}/{pre}spec/{slug}/remote/")
 
     by_place = {}
     for j in jobs:
@@ -3195,39 +3276,57 @@ def write_pages(jobs, today):
         if len(items) < 4:
             continue
         slug = slugify(place)
-        d = HERE / "where" / slug
+        d = HERE / f"{pre}where" / slug
         d.mkdir(parents=True, exist_ok=True)
         (d / "index.html").write_text(list_page(
-            f"Работа в геймдеве: {place}",
-            f"{jobs_word(len(items))} в игровых студиях, {place}. "
-            f"Собрано с карьерных страниц студий, обновляется каждый день.",
-            items, f"{SITE}/where/{slug}/", 2), encoding="utf-8")
-        urls.append(f"{SITE}/where/{slug}/")
+            f"{w['placeTitle']}: {place}",
+            f"{jobs_word(len(items))}, {place}. Собрано с карьерных страниц, "
+            f"обновляется каждый день.",
+            items, f"{SITE}/{pre}where/{slug}/", 2), encoding="utf-8")
+        urls.append(f"{SITE}/{pre}where/{slug}/")
 
     remote = [j for j in jobs if j.get("remote") or j.get("rkind")]
     if remote:
-        d = HERE / "remote"
+        d = HERE / f"{pre}remote"
         d.mkdir(parents=True, exist_ok=True)
         (d / "index.html").write_text(list_page(
-            "Удалённая работа в геймдеве",
-            f"{jobs_word(len(remote))} с удалёнкой от игровых студий.",
-            remote, f"{SITE}/remote/", 1), encoding="utf-8")
-        urls.append(f"{SITE}/remote/")
+            w["remoteTitle"],
+            f"{jobs_word(len(remote))} с удалёнкой {w['from']}.",
+            remote, f"{SITE}/{pre}remote/", 1), encoding="utf-8")
+        urls.append(f"{SITE}/{pre}remote/")
+
+    d = HERE / f"{pre}jobs"
+    d.mkdir(parents=True, exist_ok=True)
+    (d / "index.html").write_text(list_page(
+        w["all"],
+        f"{jobs_word(len(jobs))} от {len(by_company)} {w['orgs']}. Обновляется каждый день.",
+        jobs, f"{SITE}/{pre}jobs/", 1), encoding="utf-8")
+    urls.append(f"{SITE}/{pre}jobs/")
+
+    return by_company
+
+
+def write_pages(jobs, today):
+    """Раскладываем страницы заново. Старые удаляем целиком: вакансии умирают,
+    и оставлять их адреса нельзя — поисковик накажет за мёртвые страницы."""
+    for name in PAGE_DIRS:
+        shutil.rmtree(HERE / name, ignore_errors=True)
+
+    (HERE / "page.css").write_text(PAGE_CSS, encoding="utf-8")
+
+    urls = [f"{SITE}/"]
+    all_companies = {}
+
+    for industry, w in INDUSTRY_PAGES.items():
+        part = [j for j in jobs if (j.get("industry") or "gamedev") == industry]
+        if not part:
+            continue
+        all_companies.update(write_industry_pages(part, w, urls))
 
     write_privacy()
     write_terms()
-    urls.append(f"{SITE}/terms/")
-    write_about(jobs, by_company)
-    urls.append(f"{SITE}/privacy/")
-    urls.append(f"{SITE}/about/")
-
-    d = HERE / "jobs"
-    d.mkdir(parents=True, exist_ok=True)
-    (d / "index.html").write_text(list_page(
-        "Все вакансии в геймдеве",
-        f"{jobs_word(len(jobs))} от {len(by_company)} студий. Обновляется каждый день.",
-        jobs, f"{SITE}/jobs/", 1), encoding="utf-8")
-    urls.append(f"{SITE}/jobs/")
+    write_about(jobs, all_companies)
+    urls += [f"{SITE}/privacy/", f"{SITE}/terms/", f"{SITE}/about/"]
 
     print(f"Страниц разложено: {len(urls)}")
     return urls
