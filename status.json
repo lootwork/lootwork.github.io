@@ -1,11 +1,11 @@
 {
-  "date": "2026-09-01",
-  "jobs": 3232,
+  "date": "2026-09-02",
+  "jobs": 3256,
   "studios": 61,
-  "withSalary": 791,
-  "remote": 949,
-  "dropped": 73,
-  "failedSources": 2,
+  "withSalary": 788,
+  "remote": 952,
+  "dropped": 72,
+  "failedSources": 1,
   "reusedSources": 0,
   "emptySources": 3,
   "sources": [
