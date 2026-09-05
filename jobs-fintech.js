@@ -1,8 +1,8 @@
 // jobs-fintech.js — сгенерировано collect.py, руками не править.
-// Отрасль: fintech. Обновлено: 2026-09-05. Вакансий: 2238.
+// Отрасль: fintech. Обновлено: 2026-09-05. Вакансий: 2608.
 
 window.JOBS_FINTECH_UPDATED = "2026-09-05";
-window.JOBS_FINTECH_STUDIOS = 73;
+window.JOBS_FINTECH_STUDIOS = 98;
 
 window.JOBS_FINTECH = [
   {
@@ -27,6 +27,30 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-05",
     "descShort": "About Payoneer Founded in 2005, Payoneer is the global financial platform that removes friction from doing business across borders, with a mission to connect the world’s underserved businesses to a rising global economy. We’re a community with over 2,500 colleagues all over the world, working to serve customers, and partners in over 190 countries and territories. By taking the complexity out of the financial workflows–including everything from global payments and compliance to multi-currency and workforce management, to providing working capital and business intelligence–we give businesses the tools they need to work efficiently worldwide and grow with confidence. Outsourcing Senior Analyst…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-ebury-4969347101",
+    "title": "Senior Manager – Financial Consolidation & FX Risk",
+    "company": "Ebury",
+    "locations": [
+      "London"
+    ],
+    "remote": false,
+    "rkind": "hybrid",
+    "salary": null,
+    "posted": "2026-09-05",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4969347101",
+    "site": "ebury.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Риски",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Senior Manager – Financial Consolidation & FX Risk (CTA & Treasury Expert) Treasury Ebury London Office - Hybrid: 4 days in the office, 1 day working from home per week About the Role We are seeking an experienced Senior…",
     "hasDesc": true
   },
   {
@@ -56,6 +80,30 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-stripe-8175629",
+    "title": "Program Manager, Executive Experiences",
+    "company": "Stripe",
+    "locations": [
+      "San Francisco, in the United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-09-05",
+    "url": "https://stripe.com/jobs/search?gh_jid=8175629",
+    "site": "stripe.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Продюсирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. About the team The Executive Content & Experiences team builds trusted relationships with leaders shaping the global economy. We design high-impact programs—including…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-chime-8606649002",
     "title": "Full-Stack Engineer, Human Agent Tooling",
     "company": "Chime",
@@ -77,6 +125,32 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-05",
     "descShort": "About the role The Human Agent Tooling team builds the software Chime's support agents use every day to help members. When a member has a problem a bot can't solve, a human agent picks it up — and the tools we build are what let that agent understand the member's situation, take the right action, and resolve the issue quickly and safely. That includes the agent workspace, case management, the systems that surface member context in real time, and the controls that govern what actions agents can take. Our mission is to make every human support interaction faster, safer, and more effective. When our tools work well, agents resolve issues in fewer clicks and members get better answers — and we…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-trust-wallet-56363170-01d5-4838-9854-3e77c56a6ccc",
+    "title": "Senior Platform Engineer",
+    "company": "Trust Wallet",
+    "locations": [],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-09-05",
+    "url": "https://jobs.ashbyhq.com/trust-wallet/56363170-01d5-4838-9854-3e77c56a6ccc",
+    "source": "ashby",
+    "site": "trustwallet.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "DevOps",
+    "permit": true,
+    "stack": [
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About the company Trust Wallet is the leading non-custodial cryptocurrency wallet, trusted by over 200 million people worldwide to securely manage and grow their digital assets. Our vision is to give individuals the freedom to own their assets, confidently participate in the future economy, and access opportunities that enhance their lives. Our mission is to be a trusted personal companion — helping users safely navigate Web3, the on-chain economy, and the emerging AI-powered future. With support for over 10 million assets across 100+ blockchains, Trust Wallet offers a seamless, multi-chain experience backed by industry-leading self-custody technology, a vibrant community, and a growing…",
     "hasDesc": true
   },
   {
@@ -1083,6 +1157,54 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-ebury-4934098101",
+    "title": "Business Developer",
+    "company": "Ebury",
+    "locations": [
+      "Porto Alegre"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4934098101",
+    "site": "ebury.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Business Developer / FX Sales Associate Ebury Porto Alegre - Office based Launch Your FinTech Career as a Graduate Business Developer / FX Sales Associate at Ebury in our dynamic team. Kickstart a meaningful sales career in…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-ebury-4968843101",
+    "title": "Business Developer / FX Sales Associate",
+    "company": "Ebury",
+    "locations": [
+      "Sydney"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4968843101",
+    "site": "ebury.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Business Developer / FX Sales Associate Ebury - Sydney Launch Your FinTech Career as a Business Developer / FX Sales Associate at Ebury in our dynamic Sydney team. Kickstart a meaningful sales career in the world of…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-ebury-4968909101",
     "title": "Business Developer (FX Sales Associate)",
     "company": "Ebury",
@@ -1905,17 +2027,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-stripe-7369543",
+    "id": "gh-stripe-6176758",
     "title": "Backend/API Engineer, Money as a Service",
     "company": "Stripe",
     "locations": [
-      "United Kingdom"
+      "United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-04",
-    "url": "https://stripe.com/jobs/search?gh_jid=7369543",
+    "url": "https://stripe.com/jobs/search?gh_jid=6176758",
     "site": "stripe.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -1929,7 +2051,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-05",
-    "descShort": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. About the Organization Money as a Service (MaaS) oversees a diverse portfolio of Stripe's core platforms and services. Our Stripe Treasury suite helps users manage and move…",
+    "descShort": "Note: if you are an intern, new grad, staff, front-end, or full-stack applicant, please do not apply using this link and visit our jobs page for those specific postings. Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. About the…",
     "hasDesc": true
   },
   {
@@ -2038,17 +2160,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-stripe-7557899",
+    "id": "gh-stripe-7476555",
     "title": "Backend Engineer, Developer & End-user Experience Platform",
     "company": "Stripe",
     "locations": [
-      "Toronto, Canada"
+      "SEA, Toronto"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-04",
-    "url": "https://stripe.com/jobs/search?gh_jid=7557899",
+    "url": "https://stripe.com/jobs/search?gh_jid=7476555",
     "site": "stripe.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -2057,10 +2179,12 @@ window.JOBS_FINTECH = [
     "grade": null,
     "spec": "Бэкенд",
     "stack": [
-      "Go"
+      "AWS",
+      "Docker",
+      "Kubernetes"
     ],
     "seen": "2026-09-05",
-    "descShort": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. About the team Our team owns open-source SDKs that reflect the Stripe API in seven different programming languages. A vast majority of server-side Stripe integrations are built…",
+    "descShort": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. About the team Stripe's Developer & End-user Experience Platform (DEEP) organization empowers all of Stripe's products with a shared product platform that helps with rapidly…",
     "hasDesc": true
   },
   {
@@ -2577,17 +2701,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-stripe-7978488",
+    "id": "gh-stripe-5416444",
     "title": "Data Analyst",
     "company": "Stripe",
     "locations": [
-      "Mexico City"
+      "Canada"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-04",
-    "url": "https://stripe.com/jobs/search?gh_jid=7978488",
+    "url": "https://stripe.com/jobs/search?gh_jid=5416444",
     "site": "stripe.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -2600,7 +2724,7 @@ window.JOBS_FINTECH = [
       "SQL"
     ],
     "seen": "2026-09-05",
-    "descShort": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. About the team As Stripe’s user base and global footprint grow dramatically, we have distinctly unique support problems resulting from both our type of scale and the type of…",
+    "descShort": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. About the team Data Science at Stripe is a vibrant community where data analysts and data scientists learn and grow together. You'll work with some of the most fundamental data at…",
     "hasDesc": true
   },
   {
@@ -3020,7 +3144,7 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-stripe-8165515",
+    "id": "gh-stripe-8172601",
     "title": "Engineering Manager, Billing Configuration",
     "company": "Stripe",
     "locations": [],
@@ -3028,7 +3152,7 @@ window.JOBS_FINTECH = [
     "rkind": null,
     "salary": null,
     "posted": "2026-09-04",
-    "url": "https://stripe.com/jobs/search?gh_jid=8165515",
+    "url": "https://stripe.com/jobs/search?gh_jid=8172601",
     "site": "stripe.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -3674,17 +3798,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-stripe-7685460",
+    "id": "gh-stripe-8063857",
     "title": "Fraud Operations Team Lead",
     "company": "Stripe",
     "locations": [
-      "Mexico City"
+      "Bengaluru"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-04",
-    "url": "https://stripe.com/jobs/search?gh_jid=7685460",
+    "url": "https://stripe.com/jobs/search?gh_jid=8063857",
     "site": "stripe.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -3694,7 +3818,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-05",
-    "descShort": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. About the team At Stripe, our Mexico City office is a vibrant hub at the forefront of our mission to reshape the financial landscape for businesses worldwide. Our team prioritizes…",
+    "descShort": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. About the team As a leading player in the internet economy, Stripe has a responsibility to protect itself, our users, end customers, and the broader financial ecosystem from…",
     "hasDesc": true
   },
   {
@@ -4165,32 +4289,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-stripe-8145119",
-    "title": "GTM Strategy & Operations Analyst",
-    "company": "Stripe",
-    "locations": [
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": "$ 800.00 – 233 600",
-    "posted": "2026-09-04",
-    "url": "https://stripe.com/jobs/search?gh_jid=8145119",
-    "site": "stripe.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Аналитика",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "SQL"
-    ],
-    "seen": "2026-09-05",
-    "descShort": "Who we are About Stripe Stripe, LLC. is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. What you’ll do Responsibilities • Support the Regional sales leaders with intelligence and insight to accelerate growth; • Support the Sales Strategy and Operations…",
-    "hasDesc": true
-  },
-  {
     "id": "ab-plaid-ce3b3add-47d9-402d-a31d-16ffd1d0adb4",
     "title": "Senior Data Engineer - Data Engineering",
     "company": "Plaid",
@@ -4246,17 +4344,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8782294002",
+    "id": "gh-brex-8784432002",
     "title": "Growth Marketing Lead, Programmatic & Video",
     "company": "Brex",
     "locations": [
-      "San Francisco, United States"
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-04",
-    "url": "https://www.brex.com/careers/8782294002?gh_jid=8782294002",
+    "url": "https://www.brex.com/careers/8784432002?gh_jid=8784432002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -4270,17 +4368,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8784416002",
+    "id": "gh-brex-8784418002",
     "title": "Senior Growth Marketing Manager, Paid Social",
     "company": "Brex",
     "locations": [
-      "New York, United States"
+      "Seattle, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-04",
-    "url": "https://www.brex.com/careers/8784416002?gh_jid=8784416002",
+    "url": "https://www.brex.com/careers/8784418002?gh_jid=8784418002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -4723,35 +4821,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-toast-8110866",
-    "title": "Manager II, Software Engineering",
-    "company": "Toast",
-    "locations": [
-      "Bangalore, India"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-09-04",
-    "url": "https://careers.toasttab.com/jobs?gh_jid=8110866",
-    "site": "toasttab.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Java",
-      "Kotlin",
-      "JavaScript",
-      "AWS"
-    ],
-    "seen": "2026-09-05",
-    "descShort": "Now, more than ever, the Toast team is committed to our customers. We’re taking steps to help restaurants navigate these unprecedented times with technology, resources, and community. Our focus is on building the restaurant platform that helps restaurants adapt, take control, and get back to what they do best: building the businesses they love. And because our technology is purpose-built for restaurants, by restaurant people, restaurants can trust that we’ll deliver on their needs for today while investing in experiences that will power their restaurant of the future. Are you bready* for a change? Toast is scaling rapidly, bringing an exciting opportunity to join our FinTech organization’s…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-block-5406194008",
     "title": "Software Engineer, Justice Engineering",
     "company": "Block",
@@ -4859,15 +4928,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-lithic-5737189004",
+    "id": "gh-lithic-5848267004",
     "title": "Software Engineer, Treasury",
     "company": "Lithic",
-    "locations": [],
-    "remote": true,
-    "rkind": "zone",
-    "salary": "$ 160 000 – 200 000",
+    "locations": [
+      "Ontario, Canada"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
     "posted": "2026-09-04",
-    "url": "https://job-boards.greenhouse.io/lithic/jobs/5737189004",
+    "url": "https://job-boards.greenhouse.io/lithic/jobs/5848267004",
     "site": "lithic.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -4877,8 +4948,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "permit": true,
     "stack": [
-      "Python",
-      "AWS"
+      "Python"
     ],
     "seen": "2026-09-05",
     "descShort": "Lithic is the modern card issuing and processing platform empowering ambitious financial companies to build the future of payments. Our infrastructure powers card programs for 100+ innovative clients, from fintechs reimagining credit and digital banking to platforms transforming disbursements and spend management. Companies like Mercury, Flex, and Novo rely on Lithic's developer-friendly APIs, direct network connections, and flawless reconciliation to launch and scale card programs in weeks, not years. We're building a future where access to better financial products materially improves people's lives, free from the constraints of 30-year-old mainframes and legacy processors. We're proud to…",
@@ -4955,6 +5025,501 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-05",
     "descShort": "ABOUT PLEO Messy spend management is tricky business. And tedious processes are a lose-lose situation for all involved, not just finance. At Pleo, we're changing that. We build spend solutions that make managing money seamless, empowering, and surprisingly effective for finance teams and employees alike - with a vision to help all businesses ‘go beyond’. The word ‘Pleo’ actually means ‘more than you’d expect’, and living by that mantra has been the secret to our success over the last 10 years. Now, we’re at a pivotal moment in our journey; every move we make has a direct impact on our 40,000+ customers, our business, and our collective success. We need people who take pride in uncovering…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-rain-29cd156b-43bc-4c1e-bd51-71a9d4353893",
+    "title": "Director of Business Development & Strategy, Branded Payments",
+    "company": "Rain",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": "$210K – $250K • Offers Equity • Offers Bonus",
+    "posted": "2026-09-04",
+    "url": "https://jobs.ashbyhq.com/rain/29cd156b-43bc-4c1e-bd51-71a9d4353893",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Платежи",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "About the Company Rain makes the next generation of payments possible across the globe. We’re a lean and mighty team of passionate builders and veteran founders. Our infrastructure makes stablecoins usable in the real-world by powering card transactions, cross-border payments, B2B purchases, remittances, and more. We partner with fintechs, neobanks, and institutions to help them launch solutions that are global, inclusive, and efficient. You will have the opportunity to deliver massive impact at a hypergrowth company that is funded by some of the top investors in fintech, crypto, and SaaS, including ICONIQ, Sapphire Ventures, Norwest, Galaxy Ventures, Lightspeed, Khosla, and several more.…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-elliptic-6f9f8612-ce3b-4eb6-a340-d85277a3ecbf",
+    "title": "Agent Engineer",
+    "company": "Elliptic",
+    "locations": [
+      "London, United Kingdom"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://jobs.ashbyhq.com/elliptic/6f9f8612-ce3b-4eb6-a340-d85277a3ecbf",
+    "source": "ashby",
+    "site": "elliptic.co",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL",
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Elliptic is building AI-powered tools that enable the business to scale faster and with greater confidence. Our operations team is at the centre of that work — designing the backend systems and AI integrations behind Elliptic's agentic transformation. This transformation is all about rethinking existing business processes – from workflows to ticket queues to decisions – and enabling our workforce to take the next great leap forward in productivity. We're looking for a full-stack Agent Engineer to help us design and build agent fleets, AI integrations, APIs, workflows, UIs and services that make this possible. The impact you will have: As Agent Engineer on the Operations team, you will help…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-complyadvantage-8769640002",
+    "title": "International Affairs Research Analyst",
+    "company": "ComplyAdvantage",
+    "locations": [
+      "Cluj"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "86 000 – 96 000",
+    "posted": "2026-09-04",
+    "url": "https://complyadvantage.com/careers/jobs/8769640002?gh_jid=8769640002",
+    "site": "complyadvantage.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Аналитика",
+    "grade": "Junior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "What you will be doing We are looking for an International Affairs Research Analyst with knowledge in political sciences to help us build our SaaS-based anti-money laundering solutions, which help organisations fight financial crime! You’ll get involved in measuring and building out our data coverage related to anti-money laundering (AML), mainly focused on sanctions and watchlists (targeted financial sanctions, sanctioned vessels, warning lists). As an International Affairs Research Analyst for Sanctions and Watchlists, you will: • Execute research assignments on the scope of sanctions or warning lists • Assess the accuracy and quality of existing data • Support the team in identifying…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-feedzai-7808156",
+    "title": "Senior Program Manager, Chief of Staff Office",
+    "company": "Feedzai",
+    "locations": [
+      "Portugal"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://careers.feedzai.com/job_description?gh_jid=7808156",
+    "site": "feedzai.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Продюсирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "At Feedzai, we're building a world of safer money. A world where financial institutions move faster than criminals. Where the payments that fund real lives through salaries, savings, and businesses are protected in real time. We use trusted AI to detect and prevent financial crime, fraud, and money laundering at scale: the world's top banks, payment networks, and acquirers trust our technology to safeguard more than one billion consumers and $9 trillion in payment volume every year. Feedzai is a Series D company and has raised $282M to date. With a valuation of $2 billion, our technology protects 1 billion consumers and 90 billion transactions each year. The Operations team at Feedzai is…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-shift-technology-7987030003",
+    "title": "Applied Data Scientist / Engineer  (Toronto-Hybrid)",
+    "company": "Shift Technology",
+    "locations": [
+      "Canada - Toronto"
+    ],
+    "remote": false,
+    "rkind": "hybrid",
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://job-boards.greenhouse.io/shifttechnology/jobs/7987030003",
+    "site": "shift-technology.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "C#",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Shift delivers AI agents that transform insurers' most critical work. By combining deep industry expertise and unmatched data resources, Shift provides proven results that have earned the trust of hundreds of the world's leading insurers. Our insurance-grade AI is accurate, explainable, and secure—empowering human experts to move with unmatched speed, total confidence, and a renewed focus on the people they serve. Your browser does not support the video tag. Our culture is built on innovation, trust, and a drive to transform the insurance industry through our SaaS platform. We come from more than 50 different countries and cultures and together we are creating the future of insurance. Learn…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-solaris-8545092002",
+    "title": "Credit Risk Manager (f/m/d)",
+    "company": "Solaris",
+    "locations": [
+      "Frankfurt"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "€ 58 000 – 85 000",
+    "posted": "2026-09-04",
+    "url": "https://job-boards.greenhouse.io/solarisbank/jobs/8545092002",
+    "site": "solarisbank.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Риски",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "Python"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Solaris is Europe's leading embedded finance platform. Solaris’ full German banking license and proprietary modular B2B tech stack empowers its partners – from SMEs to large, multinational, non-financial companies – to offer compliant, customer-centric banking services, providing seamless experiences to customers across all industries. Founded in 2016, Solaris pioneered the Banking-as-a-Service market with an unparalleled combination of tech and banking. Solaris is headquartered in Berlin and employs 300 people in Europe. Your Role Manual Underwriting Operations • Define and refine the structure of complex credit transactions. • Assess and approve credit transactions, ensuring full…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-solaris-8596685002",
+    "title": "Cyber Security Engineer (Vulnerability Management & SecOperations)",
+    "company": "Solaris",
+    "locations": [
+      "Berlin"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "€ 60 000 – 80 000",
+    "posted": "2026-09-04",
+    "url": "https://job-boards.greenhouse.io/solarisbank/jobs/8596685002",
+    "site": "solarisbank.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Безопасность",
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Solaris is Europe's leading embedded finance platform. Solaris’ full German banking license and proprietary modular B2B tech stack empowers its partners – from SMEs to large, multinational, non-financial companies – to offer compliant, customer-centric banking services, providing seamless experiences to customers across all industries. Founded in 2016, Solaris pioneered the Banking-as-a-Service market with an unparalleled combination of tech and banking. Solaris is headquartered in Berlin and employs 300 people in Europe. Your Role • Conduct regular security assessments, penetration testing, and vulnerability management to identify vulnerabilities and potential threats. • Develop and…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-solaris-8596522002",
+    "title": "Cyber Security Staff Engineer - Application Security",
+    "company": "Solaris",
+    "locations": [
+      "Berlin"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://job-boards.greenhouse.io/solarisbank/jobs/8596522002",
+    "site": "solarisbank.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Безопасность",
+    "permit": true,
+    "stack": [
+      "Python",
+      "Java",
+      "TypeScript",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Solaris is Europe's leading embedded finance platform. Solaris’ full German banking license and proprietary modular B2B tech stack empowers its partners – from SMEs to large, multinational, non-financial companies – to offer compliant, customer-centric banking services, providing seamless experiences to customers across all industries. Founded in 2016, Solaris pioneered the Banking-as-a-Service market with an unparalleled combination of tech and banking. Solaris is headquartered in Berlin and employs 300 people in Europe. Your Role • Integrate security seamlessly into the Software Development Lifecycle (SDLC) and DevSecOps pipelines by automating security gates (SAST, DAST, SCA, and…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-solaris-8554454002",
+    "title": "Head of Process Architecture & Policy Management (f/m/d)",
+    "company": "Solaris",
+    "locations": [
+      "Frankfurt",
+      "Berlin"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://job-boards.greenhouse.io/solarisbank/jobs/8554454002",
+    "site": "solarisbank.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Solaris is Europe's leading embedded finance platform. Solaris’ full German banking license and proprietary modular B2B tech stack empowers its partners – from SMEs to large, multinational, non-financial companies – to offer compliant, customer-centric banking services, providing seamless experiences to customers across all industries. Founded in 2016, Solaris pioneered the Banking-as-a-Service market with an unparalleled combination of tech and banking. Solaris is headquartered in Berlin and employs 300 people in Europe. We are seeking an experienced and strategically minded Head of Process Architecture & Policy Management to lead our organizational and procedural governance. In this…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-solaris-8689553002",
+    "title": "Head of Product & Engineering",
+    "company": "Solaris",
+    "locations": [
+      "Berlin"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://job-boards.greenhouse.io/solarisbank/jobs/8689553002",
+    "site": "solarisbank.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Solaris is Europe’s leading embedded finance platform, pioneering Banking-as-a-Service to bridge the gap between financial technology and licensed banking. Founded in 2016 and headquartered in Berlin, Solaris enables fintechs, digital ecosystems, and multinationals to embed accounts, cards, lending, and payments directly into their own products, creating seamless financial experiences for their users. As a fully licensed German bank, Solaris combines the highest standards of IT security and regulatory resilience with a modular, highly scalable infrastructure. Today, Solaris is driving the next evolution of financial services by transitioning into an AI-native banking platform, ensuring…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-solaris-8514915002",
+    "title": "KYC Operations Working Student (f/m/d)",
+    "company": "Solaris",
+    "locations": [
+      "Berlin"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://job-boards.greenhouse.io/solarisbank/jobs/8514915002",
+    "site": "solarisbank.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Solaris is Europe's leading embedded finance platform. Solaris’ full German banking license and proprietary modular B2B tech stack empowers its partners – from SMEs to large, multinational, non-financial companies – to offer compliant, customer-centric banking services, providing seamless experiences to customers across all industries. Founded in 2016, Solaris pioneered the Banking-as-a-Service market with an unparalleled combination of tech and banking. Solaris is headquartered in Berlin and employs 300 people in Europe. Your Role • Supporting Know Your Customer (KYC) process by conducting initial due diligence on new clients, verifying their identities and assessing potential risks. •…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-solaris-8591968002",
+    "title": "Principal Engineer",
+    "company": "Solaris",
+    "locations": [
+      "Berlin"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "€ 100 000 – 125 000",
+    "posted": "2026-09-04",
+    "url": "https://job-boards.greenhouse.io/solarisbank/jobs/8591968002",
+    "site": "solarisbank.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "Java"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Solaris is Europe's leading embedded finance platform. Solaris’ full German banking license and proprietary modular B2B tech stack empowers its partners – from SMEs to large, multinational, non-financial companies – to offer compliant, customer-centric banking services, providing seamless experiences to customers across all industries. Founded in 2016, Solaris pioneered the Banking-as-a-Service market with an unparalleled combination of tech and banking. Solaris is headquartered in Berlin and employs 300 people in Europe. Your Role • Lead the design of complex, distributed micro-services and platforms, focusing on scalability, resilience, and maintainability. • Ensure architecturally…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-solaris-8647514002",
+    "title": "Risk Management Working Student",
+    "company": "Solaris",
+    "locations": [
+      "Frankfurt"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://job-boards.greenhouse.io/solarisbank/jobs/8647514002",
+    "site": "solarisbank.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Риски",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Solaris is Europe's leading embedded finance platform. Solaris’ full German banking license and proprietary modular B2B tech stack empowers its partners – from SMEs to large, multinational, non-financial companies – to offer compliant, customer-centric banking services, providing seamless experiences to customers across all industries. Founded in 2016, Solaris pioneered the Banking-as-a-Service market with an unparalleled combination of tech and banking. Solaris is headquartered in Berlin and employs 300 people in Europe. Your Role • Support Risk Controlling in the implementation and compliance of requirements (internal and external regulatory requirements) for the bank. • Assisting in the…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-solaris-8771976002",
+    "title": "Senior Operational Risk Manager",
+    "company": "Solaris",
+    "locations": [
+      "Frankfurt"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://job-boards.greenhouse.io/solarisbank/jobs/8771976002",
+    "site": "solarisbank.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Риски",
+    "grade": "Senior",
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Solaris is Europe’s leading embedded finance platform, pioneering Banking-as-a-Service to bridge the gap between financial technology and licensed banking. Founded in 2016 and headquartered in Berlin, Solaris enables fintechs, digital ecosystems, and multinationals to embed accounts, cards, lending, and payments directly into their own products, creating seamless financial experiences for their users. As a fully licensed German bank, Solaris combines the highest standards of IT security and regulatory resilience with a modular, highly scalable infrastructure. Today, Solaris is driving the next evolution of financial services by transitioning into an AI-native banking platform, ensuring…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-solaris-8615448002",
+    "title": "Senior Regulatory Affairs Manager",
+    "company": "Solaris",
+    "locations": [
+      "Frankfurt",
+      "Berlin"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://job-boards.greenhouse.io/solarisbank/jobs/8615448002",
+    "site": "solarisbank.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Комплаенс",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Solaris is Europe’s leading embedded finance platform, pioneering Banking-as-a-Service to bridge the gap between financial technology and licensed banking. Founded in 2016 and headquartered in Berlin, Solaris enables fintechs, digital ecosystems, and multinationals to embed accounts, cards, lending, and payments directly into their own products, creating seamless financial experiences for their users. As a fully licensed German bank, Solaris combines the highest standards of IT security and regulatory resilience with a modular, highly scalable infrastructure. Today, Solaris is driving the next evolution of financial services by transitioning into an AI-native banking platform, ensuring…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-solaris-8585238002",
+    "title": "Senior Site Reliability Engineer",
+    "company": "Solaris",
+    "locations": [
+      "Berlin"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "€ 75 000 – 95 000",
+    "posted": "2026-09-04",
+    "url": "https://job-boards.greenhouse.io/solarisbank/jobs/8585238002",
+    "site": "solarisbank.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "Python",
+      "Java"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Solaris is Europe's leading embedded finance platform. Solaris’ full German banking license and proprietary modular B2B tech stack empowers its partners – from SMEs to large, multinational, non-financial companies – to offer compliant, customer-centric banking services, providing seamless experiences to customers across all industries. Founded in 2016, Solaris pioneered the Banking-as-a-Service market with an unparalleled combination of tech and banking. Solaris is headquartered in Berlin and employs 300 people in Europe. Your Role • Responsible for the design of monitoring and alerting standards. • Create frameworks that implement key concepts like SLIs, SLOs, and SLAs. • Champion…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-solaris-8596423002",
+    "title": "Staff Cloud Security Engineer (AWS)",
+    "company": "Solaris",
+    "locations": [
+      "Berlin"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "€ 85 000 – 110 000",
+    "posted": "2026-09-04",
+    "url": "https://job-boards.greenhouse.io/solarisbank/jobs/8596423002",
+    "site": "solarisbank.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Безопасность",
+    "permit": true,
+    "stack": [
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Solaris is Europe's leading embedded finance platform. Solaris’ full German banking license and proprietary modular B2B tech stack empowers its partners – from SMEs to large, multinational, non-financial companies – to offer compliant, customer-centric banking services, providing seamless experiences to customers across all industries. Founded in 2016, Solaris pioneered the Banking-as-a-Service market with an unparalleled combination of tech and banking. Solaris is headquartered in Berlin and employs 300 people in Europe. Your Role • Partner closely with the existing Cloud Architecture and Engineering teams to audit the current AWS environment, identify security technical debt, and plan the…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-b7ef5feb-4139-46cb-b1ae-7cbb30ffb7e0",
+    "title": "Lead Software Engineer (Cloud Network)",
+    "company": "Nubank",
+    "locations": [
+      "São Paulo"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://jobs.ashbyhq.com/nubank/b7ef5feb-4139-46cb-b1ae-7cbb30ffb7e0",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": "DevOps",
+    "stack": [
+      "Python",
+      "Java",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-42ba2066-292e-420a-91d6-c2bebca553cd",
+    "title": "Operational Risk Senior Specialist",
+    "company": "Nubank",
+    "locations": [
+      "Ciudad de México"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://jobs.ashbyhq.com/nubank/42ba2066-292e-420a-91d6-c2bebca553cd",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Риски",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -5718,17 +6283,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4943582101",
+    "id": "gh-ebury-4943581101",
     "title": "Senior Software Engineer (FinCore)",
     "company": "Ebury",
     "locations": [
-      "Málaga"
+      "Madrid"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-03",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4943582101",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4943581101",
     "site": "ebury.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -5742,7 +6307,7 @@ window.JOBS_FINTECH = [
       "Java"
     ],
     "seen": "2026-09-05",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Senior Software Engineer – FinCore Engineering Location: Malaga, Spain (Hybrid: 4 days in-office, 1 day remote) Power the Engine of Global Foreign Exchange Ebury’s FinCore Engineering team builds the financial backbone of our…",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Senior Software Engineer – FinCore Engineering Location: Madrid, Spain (Hybrid: 4 days in-office, 1 day remote) Power the Engine of Global Foreign Exchange Ebury’s FinCore Engineering team builds the financial backbone of our…",
     "hasDesc": true
   },
   {
@@ -6261,17 +6826,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8782450002",
+    "id": "gh-brex-8782440002",
     "title": "Senior Brand Designer",
     "company": "Brex",
     "locations": [
-      "San Francisco, United States"
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 147 000 – 187 000",
     "posted": "2026-09-03",
-    "url": "https://www.brex.com/careers/8782450002?gh_jid=8782450002",
+    "url": "https://www.brex.com/careers/8782440002?gh_jid=8782440002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -6311,17 +6876,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8782405002",
+    "id": "gh-brex-8782403002",
     "title": "Staff Brand Designer",
     "company": "Brex",
     "locations": [
-      "New York, United States"
+      "San Francisco, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 187 000 – 234 000",
     "posted": "2026-09-03",
-    "url": "https://www.brex.com/careers/8782405002?gh_jid=8782405002",
+    "url": "https://www.brex.com/careers/8782403002?gh_jid=8782403002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -7215,6 +7780,414 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "ab-rain-6393bceb-88cf-4806-a51c-401be580c59e",
+    "title": "Software Engineer - Wallets",
+    "company": "Rain",
+    "locations": [],
+    "remote": true,
+    "rkind": "worldwide",
+    "salary": "$220K – $270K • Offers Equity • Offers Bonus",
+    "posted": "2026-09-03",
+    "url": "https://jobs.ashbyhq.com/rain/6393bceb-88cf-4806-a51c-401be580c59e",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT THE COMPANY Rain is the global stablecoin payments platform for enterprises, neobanks, platforms, developers, and AI agents. Our technology allows partners to move, store, and use stablecoins instantly and compliantly through global payment cards, rewards, on/offramps, wallets, and cross-border rails. As both a Visa and Mastercard Principal Member, Rain issues cards that work at more than 175 million merchant locations in over 220 countries and territories. Built natively for stablecoins and trusted by more than 100 organizations worldwide, Rain delivers secure, scalable infrastructure that makes money move freely and instantly around the world. You will have the opportunity to…",
+    "hasDesc": true
+  },
+  {
+    "id": "rc-tether-2733408",
+    "title": "DevOps Engineer (100% remote)",
+    "company": "Tether",
+    "locations": [
+      "Bucharest"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-03",
+    "url": "https://careers.tether.io/o/devops-engineer-100-remote-17",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "DevOps",
+    "stack": [
+      "C++",
+      "TypeScript",
+      "JavaScript",
+      "Docker"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
+    "hasDesc": true
+  },
+  {
+    "id": "rc-tether-2733184",
+    "title": "Senior Business Analyst Mining (100% remote)",
+    "company": "Tether",
+    "locations": [
+      "Paris"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-03",
+    "url": "https://careers.tether.io/o/senior-business-analyst-mining-100-remote-11",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Аналитика",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-paxos-bb9e53d1-341f-41a8-ab47-04d1c89425bf",
+    "title": "Senior Product Manager, Compliance & Platform Experience",
+    "company": "Paxos",
+    "locations": [
+      "New York - Hybrid"
+    ],
+    "remote": true,
+    "rkind": "hybrid",
+    "salary": "$203,000 – $233,025 • Offers Equity • Offers Bonus • 15% Annual Salary",
+    "posted": "2026-09-03",
+    "url": "https://jobs.ashbyhq.com/paxos/bb9e53d1-341f-41a8-ab47-04d1c89425bf",
+    "source": "ashby",
+    "site": "paxos.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Комплаенс",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Applying to Paxos? Our only careers site is paxos.com/careers http://paxos.com/careers, and we only recruit via @paxos.com http://paxos.com email. Details below. ___ ABOUT PAXOS Today’s financial infrastructure is archaic, expensive, inefficient and risky — supporting a system that leaves out more people than it lets in. So we’re rebuilding it. We’re on a mission to open the world’s financial system to everyone by enabling the instant movement of any asset, any time, in a trustworthy way. For over a decade, we’ve built blockchain infrastructure that tokenizes, custodies, trades and settles assets for the world’s leading financial institutions, like Mastercard, Visa, Robinhood, and PayPal.…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-elliptic-f5913c4a-7afd-41ea-bd77-06b692ef6e5f",
+    "title": "Campaigns & Memberships Marketing Manager",
+    "company": "Elliptic",
+    "locations": [
+      "London, United Kingdom"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-03",
+    "url": "https://jobs.ashbyhq.com/elliptic/f5913c4a-7afd-41ea-bd77-06b692ef6e5f",
+    "source": "ashby",
+    "site": "elliptic.co",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "CAMPAIGNS & MEMBERSHIPS MARKETING MANAGER COMPANY DESCRIPTION: Elliptic is the leader in digital asset decisioning, we have built the most comprehensive platform for efficiently extracting crypto data and intelligence across blockchains with the greatest accuracy. Our platform’s unrivalled uptime, scalability, depth and breadth of our data and intelligence means exacting organisations choose Elliptic for their compliance, risk management, intelligence operations and blockchain infrastructure needs. Founded in 2013, Elliptic is headquartered in London with offices in New York, Washington D.C., Miami, San Francisco, UAE, Singapore, Hong Kong and Tokyo. To learn more, visit www.elliptic.co…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-complyadvantage-8782207002",
+    "title": "Product Marketing Lead - Risk Applications",
+    "company": "ComplyAdvantage",
+    "locations": [
+      "London, United Kingdom"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-03",
+    "url": "https://complyadvantage.com/careers/jobs/8782207002?gh_jid=8782207002",
+    "site": "complyadvantage.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Риски",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "The Role We are hiring a Product Marketing Lead to own product marketing for our Risk Applications and Enabling Services portfolio, the products our customers depend on for AML screening, transaction monitoring, payment screening, fraud detection, case management, and regulatory reporting. This is the largest and most active half of our product portfolio, with new products and features shipping continuously. You'll take ownership of each product wherever it is in its lifecycle. You will report to the VP of Product Marketing and be one of two Product Marketing Leads building out a newly-forming function. This is a foundational hire, with real latitude to shape how product marketing operates…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-seon-4f39db67-1780-42d6-ab4c-1eb0e9493cc2",
+    "title": "Senior Software Engineer (Customer Platform Team)",
+    "company": "SEON",
+    "locations": [
+      "Budapest"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": "HUF 18,168,682 – HUF 28,759,841 • Offers Equity",
+    "posted": "2026-09-03",
+    "url": "https://jobs.ashbyhq.com/seon/4f39db67-1780-42d6-ab4c-1eb0e9493cc2",
+    "source": "ashby",
+    "site": "seon.io",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "TypeScript",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "SEON is the command center for fraud prevention and AML compliance, helping thousands of companies worldwide stop fraud, reduce risk and protect revenue. Powered by 900+ real-time, first-party data signals, SEON enriches customer profiles, flags suspicious behavior and streamlines compliance workflows - all from one place. SEON provides richer data, more flexible and transparent analysis, and faster time to value than any other provider on the market. We’ve helped companies reduce fraud by 95% and achieve 32x ROI, and we’re growing fast, thanks to our partnerships with some of the world’s most ambitious digital brands like Revolut, Wise, and Bilt. A Senior Software Engineer in our…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-seon-967f8224-0378-46d8-a728-b99844d98837",
+    "title": "Test Engineer",
+    "company": "SEON",
+    "locations": [
+      "Budapest"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": "HUF 15,204,157 – HUF 21,923,135",
+    "posted": "2026-09-03",
+    "url": "https://jobs.ashbyhq.com/seon/967f8224-0378-46d8-a728-b99844d98837",
+    "source": "ashby",
+    "site": "seon.io",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "QA",
+    "stack": [
+      "Java",
+      "TypeScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "SEON is the command center for fraud prevention and AML compliance, helping thousands of companies worldwide stop fraud, reduce risk and protect revenue. Powered by 900+ real-time, first-party data signals, SEON enriches customer profiles, flags suspicious behavior and streamlines compliance workflows - all from one place. SEON provides richer data, more flexible and transparent analysis, and faster time to value than any other provider on the market. We’ve helped companies reduce fraud by 95% and achieve 32x ROI, and we’re growing fast, thanks to our partnerships with some of the world’s most ambitious digital brands like Revolut, Wise, and Bilt. About the role and the team We are looking…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-bitvavo-7defb45a-ce56-4c24-a18e-2b733256c83d",
+    "title": "Senior Regulatory Compliance Officer",
+    "company": "Bitvavo",
+    "locations": [
+      "Headquarters"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-03",
+    "url": "https://jobs.ashbyhq.com/bitvavo/7defb45a-ce56-4c24-a18e-2b733256c83d",
+    "source": "ashby",
+    "site": "bitvavo.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Комплаенс",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "In 2018, Bitvavo launched the first version of its digital assets trading platform, to bridge the gap between traditional currencies and digital assets. By offering transparent fees, a wide range of assets and an easy to use platform, Bitvavo is making the currency of the future accessible for everyone. In two years' time, Bitvavo has established itself as the market leader in the Netherlands and one of the largest in Europe, with over one million users exchanging tens of billions of digital assets a year. Our team, located in Amsterdam, is looking for self-driven, talented people who can help make digital assets available for everyone. ABOUT THE ROLE The role will be an integral part of…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-moonfare-7791204003",
+    "title": "Engineering Manager (f/m/d)",
+    "company": "Moonfare",
+    "locations": [
+      "Berlin, Germany"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-03",
+    "url": "https://www.moonfare.com/open-position/?gh_jid=7791204003",
+    "site": "moonfare.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "TypeScript",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Join the team rewriting the rules in private markets. Moonfare delivers what few others can: the highly sought-after funds and hidden-gem investments that go beyond what most private banks offer. Every opportunity is subjected to a ruthless vetting process; the bar is unforgivingly high. The result? Institutional-quality portfolios for investors who demand more. Our team combines finance veterans with talent from tech, consulting, law and industries you’d never expect. Headquartered in Berlin, we operate from eight offices across Europe, the US and Asia. If you're ready to build what's next in private markets, let's talk. Engineering Manager (m/f/d) We're looking for an Engineering Manager…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-8404db4f-1369-4f50-8524-bae385369c28",
+    "title": "Senior Security Engineer (AI Security)",
+    "company": "Nubank",
+    "locations": [
+      "São Paulo"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-03",
+    "url": "https://jobs.ashbyhq.com/nubank/8404db4f-1369-4f50-8524-bae385369c28",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Безопасность",
+    "stack": [
+      "Python",
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-14b01f75-fee0-400a-a4cb-34cade3cffe5",
+    "title": "IT Engineer (Network)",
+    "company": "Nubank",
+    "locations": [
+      "Ciudad de México"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-03",
+    "url": "https://jobs.ashbyhq.com/nubank/14b01f75-fee0-400a-a4cb-34cade3cffe5",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-232ca5c4-af20-4b6b-9618-50b6de94024a",
+    "title": "AML/CFT Ops Analyst",
+    "company": "Nubank",
+    "locations": [
+      "Bogota"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-03",
+    "url": "https://jobs.ashbyhq.com/nubank/232ca5c4-af20-4b6b-9618-50b6de94024a",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-3057b53b-6df1-4d4c-8f2b-d54dadf961b5",
+    "title": "Senior IT Engineer (Data Center)",
+    "company": "Nubank",
+    "locations": [
+      "São Paulo"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-03",
+    "url": "https://jobs.ashbyhq.com/nubank/3057b53b-6df1-4d4c-8f2b-d54dadf961b5",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-cf8d3122-c4ee-45b1-a4e0-b033f80f6dc3",
+    "title": "Lead Data Center Engineer - Global Office IT Physical Infra",
+    "company": "Nubank",
+    "locations": [
+      "Miami"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-03",
+    "url": "https://jobs.ashbyhq.com/nubank/cf8d3122-c4ee-45b1-a4e0-b033f80f6dc3",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-91f1f976-ec71-4b97-acc1-19df45640871",
+    "title": "Lead Infrastructure Engineer — Global Office IT Physical Infra",
+    "company": "Nubank",
+    "locations": [
+      "Ciudad de México"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-03",
+    "url": "https://jobs.ashbyhq.com/nubank/91f1f976-ec71-4b97-acc1-19df45640871",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": "DevOps",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-monzo-8071017",
     "title": "Senior Financial Reporting Analyst",
     "company": "Monzo",
@@ -7798,35 +8771,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-adyen-8050022",
-    "title": "Technical Support Engineer",
-    "company": "Adyen",
-    "locations": [
-      "Tokyo"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-09-02",
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/8050022",
-    "site": "adyen.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Python",
-      "Java",
-      "JavaScript",
-      "SQL"
-    ],
-    "seen": "2026-09-05",
-    "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. Technical Support Engineer As a Technical Support Engineer…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-tide-7984277003",
     "title": "Engineering Manager - Manage Money",
     "company": "Tide",
@@ -8055,34 +8999,6 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-05",
     "descShort": "SumUp builds simple, affordable financial tools that help over 4 million small businesses across 37 markets get paid, manage their money, and grow. Beyond card payments, we offer a full suite of financial products - business banking, lending, invoicing, and money transfers - giving merchants everything they need in one place. We're a global fintech with over 3,000 people across 20+ offices, and Sofia has been one of our most important engineering hubs since the very beginning. Our Transfers Excellence squad sits within SumUp's Global Bank, and owns the core services that power how merchants and consumers move money. E.g. IBAN-based transfers, money in and out, and peer-to-peer payments via…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-sumup-8682243002",
-    "title": "Backend Engineer - Transfers Gateway",
-    "company": "SumUp",
-    "locations": [
-      "Vilnius, Lithuania"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": "3 493 – 4 657",
-    "posted": "2026-09-02",
-    "url": "https://sumup.com/careers/positions/8682243002?gh_jid=8682243002",
-    "site": "sumup.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "Бэкенд",
-    "stack": [
-      "Go",
-      "AWS",
-      "Kubernetes"
-    ],
-    "seen": "2026-09-05",
-    "descShort": "At SumUp, the Global Bank tribe builds the core infrastructure and services that give merchants a digital business account, helping small businesses manage their banking needs easily and reliably. The Transfers Gateway squad connects SumUp’s internal systems to external financial networks across the EU and the UK. We build and run the services that move money through payment schemes every day. The team owns end‑to‑end scheme integrations and operates production services that process real money at scale. You’ll help modernise existing systems while balancing reliability, correctness, and change, making architectural decisions that directly affect uptime and merchant experience across…",
     "hasDesc": true
   },
   {
@@ -9246,17 +10162,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8777938002",
+    "id": "gh-brex-8777953002",
     "title": "Staff Product Designer",
     "company": "Brex",
     "locations": [
-      "New York, United States"
+      "Seattle, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 240 000 – 300 000",
     "posted": "2026-09-02",
-    "url": "https://www.brex.com/careers/8777938002?gh_jid=8777938002",
+    "url": "https://www.brex.com/careers/8777953002?gh_jid=8777953002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -9398,33 +10314,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7872398003",
-    "title": "Analytics Lead, Full Stack",
-    "company": "Affirm",
-    "locations": [
-      "United States"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": "$ 185 000 – 245 000",
-    "posted": "2026-09-02",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7872398003",
-    "site": "affirm.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Банки",
-    "role": "Аналитика",
-    "grade": "Lead",
-    "spec": null,
-    "stack": [
-      "Python",
-      "SQL"
-    ],
-    "seen": "2026-09-05",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Risk & Analytics team makes crucial decisions that direct Affirm’s business strategy. Our team designs and runs experiments to decide which product features to launch and which marketing campaigns to fund. We analyze performance not just to report on it, but to determine where to invest resources for maximum impact through building tools and analytical frameworks. We take ownership of the entire analytical lifecycle, from initial question to final business decision, ensuring Affirm grows efficiently and…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-affirm-7871458003",
     "title": "Analytics Lead, Full Stack (Strategic Revenue Insights)",
     "company": "Affirm",
@@ -9452,17 +10341,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7832312003",
+    "id": "gh-affirm-7832310003",
     "title": "Senior Technical Program Manager",
     "company": "Affirm",
     "locations": [
-      "Canada"
+      "United States"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 128 000 – 188 000",
+    "salary": "$ 165 000 – 225 000",
     "posted": "2026-09-02",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7832312003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7832310003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -9476,17 +10365,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7854608003",
+    "id": "gh-affirm-7854606003",
     "title": "Software Engineer II, Backend (Recoveries)",
     "company": "Affirm",
     "locations": [
-      "Poland"
+      "Spain"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "259 000 – 379 000",
+    "salary": "EUR 73 000 – 109 000",
     "posted": "2026-09-02",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7854608003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7854606003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -9494,6 +10383,7 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": null,
     "spec": "Бэкенд",
+    "permit": true,
     "stack": [
       "Python",
       "AWS",
@@ -9655,17 +10545,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-robinhood-8080181",
+    "id": "gh-robinhood-8080182",
     "title": "Senior Growth Engagement Manager, International",
     "company": "Robinhood",
     "locations": [
-      "Ljubljana, Slovenia"
+      "Luxembourg"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-02",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8080181?t=gh_src=&gh_jid=8080181",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8080182?t=gh_src=&gh_jid=8080182",
     "site": "robinhood.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -9730,6 +10620,39 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-robinhood-7460167",
+    "title": "Staff Offensive Security Engineer",
+    "company": "Robinhood",
+    "locations": [
+      "Bellevue, United States",
+      "Denver, United States",
+      "Menlo Park, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7460167?t=gh_src=&gh_jid=7460167",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Безопасность",
+    "stack": [
+      "Python",
+      "JavaScript",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for thoughtful problem-solvers and builders who want to make a meaningful contribution. Robinhood is a place where people take ownership of their work and help improve financial access for all. We operate with high…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-toast-8038744",
     "title": "Android Software Engineer",
     "company": "Toast",
@@ -9781,17 +10704,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-toast-8067675",
+    "id": "gh-toast-8147377",
     "title": "Customer Growth Sales Account Executive",
     "company": "Toast",
     "locations": [
-      "Columbus, United States"
+      "Delaware, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-02",
-    "url": "https://careers.toasttab.com/jobs?gh_jid=8067675",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=8147377",
     "site": "toasttab.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -9989,17 +10912,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-toast-8121665",
+    "id": "gh-toast-7795649",
     "title": "Lead Salesforce Developer",
     "company": "Toast",
     "locations": [
-      "United States"
+      "Bangalore, India"
     ],
-    "remote": true,
-    "rkind": "zone",
+    "remote": false,
+    "rkind": null,
     "salary": null,
     "posted": "2026-09-02",
-    "url": "https://careers.toasttab.com/jobs?gh_jid=8121665",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=7795649",
     "site": "toasttab.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -10009,7 +10932,31 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-05",
-    "descShort": "Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. As a Lead Salesforce Developer within the Business Technology and Transformation (BTT) team, you will be a technical cornerstone in delivering innovative solutions on the Salesforce platform. You won’t just write code; you will collaborate with architects, admins, and engineering managers to scale an ecosystem that supports Toast’s ambitious global growth. We are looking for a \"bar-raiser\" who thrives on technical excellence and mentorship. A day in the life (Responsibilities) • Technical Leadership: Drive…",
+    "descShort": "Job Overview: The Lead Salesforce Developer within the BTT (Business Technology and Transformation) team will collaborate with other developers, architects, admins, QA and release and Engineering managers to deliver new innovative solutions on the Salesforce platform. Toast has ambitious plans for the future, and this role will assist in making them happen. About this roll* (Responsibilities) • Spends majority of their time working on Salesforce related solution, design development tasks, requiring a high degree of technical expertise, like: • Salesforce platform - Security, Sharing, Visibility, Data Model, Flows etc • APEX- Triggers, Platform Event handlers, batch processes, Async…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-toast-8059342",
+    "title": "Manager II, Software Engineering",
+    "company": "Toast",
+    "locations": [
+      "Bengaluru, India"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=8059342",
+    "site": "toasttab.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Toast is building the restaurant platform that helps restaurants adapt, take control, and get back to what they do best: running the businesses they love. We’ve grown into a leading hospitality software company in the U.S., and are now entering our next phase of growth—one defined by scale, complexity, and a new class of enterprise customers. As our customers grow, so do the demands on our platform. Operators who once managed a handful of locations are rapidly expanding, while new enterprise brands are adopting Toast to power increasingly complex operations. Supporting this evolution requires more robust, enterprise-grade capabilities. Within this space, we’re looking for a Software…",
     "hasDesc": true
   },
   {
@@ -10061,17 +11008,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-toast-8141220",
+    "id": "gh-toast-8127661",
     "title": "Principal Product Manager, International Mid-Market",
     "company": "Toast",
     "locations": [
-      "London, United Kingdom"
+      "Dublin, Ireland"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-02",
-    "url": "https://careers.toasttab.com/jobs?gh_jid=8141220",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=8127661",
     "site": "toasttab.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -10085,17 +11032,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-toast-8159140",
+    "id": "gh-toast-7845688",
     "title": "Principal Software Engineer",
     "company": "Toast",
     "locations": [
-      "United States"
+      "Bengaluru, India"
     ],
-    "remote": true,
-    "rkind": "zone",
+    "remote": false,
+    "rkind": null,
     "salary": null,
     "posted": "2026-09-02",
-    "url": "https://careers.toasttab.com/jobs?gh_jid=8159140",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=7845688",
     "site": "toasttab.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -10108,7 +11055,7 @@ window.JOBS_FINTECH = [
       "Kotlin"
     ],
     "seen": "2026-09-05",
-    "descShort": "Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. We help restaurants streamline operations, increase revenue, and deliver amazing guest experiences through our platform that combines restaurant point of sale, team management, guest-facing technology, and award-winning customer support. As a Toaster, you will be challenged to take on meaningful projects to help craft the company's future. Join us as we empower the restaurant community to delight guests, do what they love, and thrive. Your mission is to lead the architectural design, technical execution…",
+    "descShort": "Toast is building the restaurant platform that helps restaurants adapt, take control, and get back to what they do best: running the businesses they love. We’ve grown into a leading hospitality software company in the U.S., and are now entering our next phase of growth—one defined by scale, complexity, and a new class of enterprise customers. Every restaurant is unique, and a restaurant’s menu expresses its individual brand and product offerings. Inside a Toast restaurant, the definition of the menu becomes the common language between guests, servers, and the kitchen. In our digital ordering products, a great menu serves as both a billboard and a roadmap to an excellent dining experience.…",
     "hasDesc": true
   },
   {
@@ -10247,17 +11194,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-toast-7977158",
+    "id": "gh-toast-8094855",
     "title": "Senior Director of Engineering, Developer and Agent Experience",
     "company": "Toast",
     "locations": [
-      "United States"
+      "Dublin, IRE"
     ],
-    "remote": true,
-    "rkind": "zone",
+    "remote": false,
+    "rkind": null,
     "salary": null,
     "posted": "2026-09-02",
-    "url": "https://careers.toasttab.com/jobs?gh_jid=7977158",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=8094855",
     "site": "toasttab.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -11055,6 +12002,107 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "ab-trust-wallet-8d418184-705f-44be-8e1f-17100bc9834e",
+    "title": "Content Strategist (Social Media)",
+    "company": "Trust Wallet",
+    "locations": [],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://jobs.ashbyhq.com/trust-wallet/8d418184-705f-44be-8e1f-17100bc9834e",
+    "source": "ashby",
+    "site": "trustwallet.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "About the company Trust Wallet is the leading non-custodial cryptocurrency wallet, trusted by over 200 million people worldwide to securely manage and grow their digital assets. Our vision is to give individuals the freedom to own their assets, confidently participate in the future economy, and access opportunities that enhance their lives. Our mission is to be a trusted personal companion — helping users safely navigate Web3, the on-chain economy, and the emerging AI-powered future. With support for over 10 million assets across 100+ blockchains, Trust Wallet offers a seamless, multi-chain experience backed by industry-leading self-custody technology, a vibrant community, and a growing…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-belvo-94f3c1a6-e826-4151-a815-ea0269143731",
+    "title": "Senior Product Manager",
+    "company": "Belvo",
+    "locations": [
+      "🇲🇽 Mexico City"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://jobs.ashbyhq.com/belvo/94f3c1a6-e826-4151-a815-ea0269143731",
+    "source": "ashby",
+    "site": "belvo.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Продакт",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "A little bit about us: We are Belvo, an open finance API platform with the bold vision of democratizing access to financial services in Latin America. We enable any financial innovator to access and interpret financial data, as well as initiate payments from their end-users accounts. We’re turning the messy complexities of the Latin American financial ecosystem into a modern set of tools to access and interpret data and move money in a seamless and secure way. We’re a highly-technical, passionate, and driven team. We are more than 90 people and our team currently represents 20 nationalities. We have offices in São Paulo and Mexico City – while a large portion of us work remotely. We are…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-693fd9ab-4d48-49c5-8cf8-22acd92d6e1b",
+    "title": "Senior Business Analyst",
+    "company": "Nubank",
+    "locations": [
+      "Ciudad de México"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://jobs.ashbyhq.com/nubank/693fd9ab-4d48-49c5-8cf8-22acd92d6e1b",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Аналитика",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-b0d1a834-01ba-4f4e-8eef-5909cc1c7340",
+    "title": "Staff Software Engineer - BI Intelligence",
+    "company": "Nubank",
+    "locations": [
+      "São Paulo",
+      "Campinas",
+      "Belo Horizonte",
+      "Rio de Janeiro"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://jobs.ashbyhq.com/nubank/b0d1a834-01ba-4f4e-8eef-5909cc1c7340",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-monzo-8168952",
     "title": "Senior Financial Risk and Controls Manager",
     "company": "Monzo",
@@ -11433,17 +12481,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-tide-7569898003",
+    "id": "gh-tide-7570167003",
     "title": "Engineering Manager",
     "company": "Tide",
     "locations": [
-      "Bulgaria"
+      "Serbia"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "€ 68 400 – 101 250",
+    "salary": null,
     "posted": "2026-09-01",
-    "url": "https://job-boards.greenhouse.io/tide/jobs/7569898003",
+    "url": "https://job-boards.greenhouse.io/tide/jobs/7570167003",
     "site": "tide.co",
     "source": "greenhouse",
     "industry": "fintech",
@@ -11488,17 +12536,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-tide-7737389003",
+    "id": "gh-tide-7783194003",
     "title": "Lead Product Manager - Banking Payments",
     "company": "Tide",
     "locations": [
-      "Bulgaria"
+      "Serbia"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-01",
-    "url": "https://job-boards.greenhouse.io/tide/jobs/7737389003",
+    "url": "https://job-boards.greenhouse.io/tide/jobs/7783194003",
     "site": "tide.co",
     "source": "greenhouse",
     "industry": "fintech",
@@ -11972,7 +13020,7 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-payoneer-8043207",
+    "id": "gh-payoneer-7768075",
     "title": "Principal Mobile Engineer",
     "company": "Payoneer",
     "locations": [
@@ -11982,7 +13030,7 @@ window.JOBS_FINTECH = [
     "rkind": null,
     "salary": null,
     "posted": "2026-09-01",
-    "url": "https://www.payoneer.com/careers/position/8043207/?gh_jid=8043207",
+    "url": "https://www.payoneer.com/careers/position/7768075/?gh_jid=7768075",
     "site": "payoneer.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -11995,7 +13043,7 @@ window.JOBS_FINTECH = [
       "Swift"
     ],
     "seen": "2026-09-05",
-    "descShort": "About Payoneer Founded in 2005, Payoneer is the global financial platform that removes friction from doing business across borders, with a mission to connect the world’s underserved businesses to a rising global economy. We’re a community with over 2,500 colleagues all over the world, working to serve customers, and partners in over 190 countries and territories. By taking the complexity out of the financial workflows–including everything from global payments and compliance to multi-currency and workforce management, to providing working capital and business intelligence–we give businesses the tools they need to work efficiently worldwide and grow with confidence. Principal Mobile Engineer…",
+    "descShort": "About Payoneer Founded in 2005, Payoneer is the global financial platform that removes friction from doing business across borders, with a mission to connect the world’s underserved businesses to a rising global economy. We’re a community with over 2,500 colleagues all over the world, working to serve customers, and partners in over 190 countries and territories. By taking the complexity out of the financial workflows–including everything from global payments and compliance to multi-currency and workforce management, to providing working capital and business intelligence–we give businesses the tools they need to work efficiently worldwide and grow with confidence. 🚀 Principal Mobile…",
     "hasDesc": true
   },
   {
@@ -12208,7 +13256,7 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-payoneer-7431120",
+    "id": "gh-payoneer-7431091",
     "title": "Senior Backend Engineer",
     "company": "Payoneer",
     "locations": [
@@ -12218,7 +13266,7 @@ window.JOBS_FINTECH = [
     "rkind": null,
     "salary": null,
     "posted": "2026-09-01",
-    "url": "https://www.payoneer.com/careers/position/7431120/?gh_jid=7431120",
+    "url": "https://www.payoneer.com/careers/position/7431091/?gh_jid=7431091",
     "site": "payoneer.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -12229,10 +13277,11 @@ window.JOBS_FINTECH = [
     "stack": [
       "C#",
       "Java",
-      "SQL"
+      "SQL",
+      "AWS"
     ],
     "seen": "2026-09-05",
-    "descShort": "About Payoneer Founded in 2005, Payoneer is the global financial platform that removes friction from doing business across borders, with a mission to connect the world’s underserved businesses to a rising global economy. We’re a community with over 2,500 colleagues all over the world, working to serve customers, and partners in over 190 countries and territories. By taking the complexity out of the financial workflows–including everything from global payments and compliance to multi-currency and workforce management, to providing working capital and business intelligence–we give businesses the tools they need to work efficiently worldwide and grow with confidence. About the Role: Lead the…",
+    "descShort": "About Payoneer Founded in 2005, Payoneer is the global financial platform that removes friction from doing business across borders, with a mission to connect the world’s underserved businesses to a rising global economy. We’re a community with over 2,500 colleagues all over the world, working to serve customers, and partners in over 190 countries and territories. By taking the complexity out of the financial workflows–including everything from global payments and compliance to multi-currency and workforce management, to providing working capital and business intelligence–we give businesses the tools they need to work efficiently worldwide and grow with confidence. Location: Gurugram - India…",
     "hasDesc": true
   },
   {
@@ -13503,17 +14552,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ripple-8142058",
+    "id": "gh-ripple-8142069",
     "title": "Client Support Analyst",
     "company": "Ripple",
     "locations": [
-      "Toronto, Canada"
+      "Chicago, United States"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 88 000 – 105 000",
+    "salary": "$ 92 000 – 110 000",
     "posted": "2026-09-01",
-    "url": "https://ripple.com/careers/all-jobs/job/8142058?gh_jid=8142058",
+    "url": "https://ripple.com/careers/all-jobs/job/8142069?gh_jid=8142069",
     "site": "ripple.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -13650,17 +14699,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8770659002",
+    "id": "gh-brex-8770656002",
     "title": "Underwriting Senior Analyst",
     "company": "Brex",
     "locations": [
-      "Vancouver, Canada"
+      "Seattle, United States"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 63 896 – 79 870",
+    "salary": "$ 74 128 – 92 660",
     "posted": "2026-09-01",
-    "url": "https://www.brex.com/careers/8770659002?gh_jid=8770659002",
+    "url": "https://www.brex.com/careers/8770656002?gh_jid=8770656002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -14131,6 +15180,185 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-veriff-8696103002",
+    "title": "Senior Software Engineer (Trust)",
+    "company": "Veriff",
+    "locations": [
+      "Tallinn, Spain"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-09-01",
+    "url": "https://www.veriff.com/careers/position/8696103002?gh_jid=8696103002",
+    "site": "veriff.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Beneath a simple yet elegant user interface lies a complex system of functionalities. Our AI-powered product uses advanced image recognition, facial verification, face recognition, facial anti-spoofing (liveness detection), and behavior analysis to make identity decisions. We help our partners build onboarding processes that ensure good people get things done and bad folks get stopped. But knowing who someone is only gets you halfway. The next question is whether they can be trusted — and answering it means checking a person's identity data against the authoritative sources that hold the truth. Every country does this differently: a different registry, a different database, a different set…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-riskified-8499857002",
+    "title": "Data Scientist",
+    "company": "Riskified",
+    "locations": [
+      "Lisbon"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-01",
+    "url": "https://www.riskified.com/careers/job-description/?gh_jid=8499857002",
+    "site": "riskified.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Данные и ML",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Us Riskified empowers businesses to unleash ecommerce growth by taking risk off the table. Many of the world’s biggest brands and publicly traded companies selling online rely on Riskified for guaranteed protection against chargebacks, to fight fraud and policy abuse at scale, and to improve customer retention. Developed and managed by the largest team of ecommerce risk analysts, data scientists and researchers, Riskified’s AI-powered fraud and risk intelligence platform analyzes the individual behind each interaction to provide real-time decisions and robust identity-based insights. Riskified is proud to work with incredible companies in virtually all industries including Acer…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-forter-8534195002",
+    "title": "Senior Full Stack Engineer II - CX Offering",
+    "company": "Forter",
+    "locations": [
+      "Israel - Tel Aviv"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-01",
+    "url": "https://job-boards.greenhouse.io/forter/jobs/8534195002",
+    "site": "forter.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "TypeScript",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About the Role Forter seeks a highly skilled, motivated Senior Full-Stack Engineer II to join the Customer Experience Offerings (CXO) team. This team delivers and scales Forter's core offerings and agentic experiences, creating smart automation for customers to confidently understand, configure, and optimize their journey. Part of the Customer Experience group, this high-impact, hands-on role involves working across the full application stack - backend (Node.js, TypeScript), frontend (React, Next.js) and data pipelines. The ideal candidate has deep expertise in fullstack development, large-scale data stores, data models, and high-throughput infrastructure. As a Senior II, you will be a…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-shift-technology-7980628003",
+    "title": "Analyst - Financial Planning and Analysis",
+    "company": "Shift Technology",
+    "locations": [
+      "Boston"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-01",
+    "url": "https://job-boards.greenhouse.io/shifttechnology/jobs/7980628003",
+    "site": "shift-technology.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Shift delivers AI agents that transform insurers' most critical work. By combining deep industry expertise and unmatched data resources, Shift provides proven results that have earned the trust of hundreds of the world's leading insurers. Our insurance-grade AI is accurate, explainable, and secure—empowering human experts to move with unmatched speed, total confidence, and a renewed focus on the people they serve. Your browser does not support the video tag. Our culture is built on innovation, trust, and a drive to transform the insurance industry through our SaaS platform. We come from more than 50 different countries and cultures and together we are creating the future of insurance. Learn…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-ebef6cae-6a8d-418b-a64b-d012f1ec8e73",
+    "title": "Communications Sr Specialist",
+    "company": "Nubank",
+    "locations": [
+      "Ciudad de México"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-01",
+    "url": "https://jobs.ashbyhq.com/nubank/ebef6cae-6a8d-418b-a64b-d012f1ec8e73",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Маркетинг",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-da97e8be-fc9d-4a44-9319-bf3f8d3f3dd2",
+    "title": "Marketing Specialist  (Marketing Manager)",
+    "company": "Nubank",
+    "locations": [
+      "São Paulo"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-01",
+    "url": "https://jobs.ashbyhq.com/nubank/da97e8be-fc9d-4a44-9319-bf3f8d3f3dd2",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-60efcae1-c49c-4605-bb77-af3f261eb068",
+    "title": "Compliance Analyst",
+    "company": "Nubank",
+    "locations": [
+      "São Paulo"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-01",
+    "url": "https://jobs.ashbyhq.com/nubank/60efcae1-c49c-4605-bb77-af3f261eb068",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
     "id": "wk-starling-bank-582C64B37F",
     "title": "Project Manager - Corporate Operations - Engine by Starling",
     "company": "Starling Bank",
@@ -14262,17 +15490,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-tide-6621953003",
+    "id": "gh-tide-6614190003",
     "title": "Senior Engineer, Flutter",
     "company": "Tide",
     "locations": [
-      "Lithuania"
+      "Bulgaria"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-31",
-    "url": "https://job-boards.greenhouse.io/tide/jobs/6621953003",
+    "url": "https://job-boards.greenhouse.io/tide/jobs/6614190003",
     "site": "tide.co",
     "source": "greenhouse",
     "industry": "fintech",
@@ -14695,17 +15923,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-thunes-6574804003",
+    "id": "gh-thunes-6400109003",
     "title": "Golang Software Engineer",
     "company": "Thunes",
     "locations": [
-      "Paris, France"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-31",
-    "url": "https://www.thunes.com/jobs/6574804003?gh_jid=6574804003",
+    "url": "https://www.thunes.com/jobs/6400109003?gh_jid=6400109003",
     "site": "thunes.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -14821,17 +16049,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-thunes-7793435003",
+    "id": "gh-thunes-7791527003",
     "title": "Pre-Sales Engineer",
     "company": "Thunes",
     "locations": [
-      "Barcelona, Spain"
+      "London, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-31",
-    "url": "https://www.thunes.com/jobs/7793435003?gh_jid=7793435003",
+    "url": "https://www.thunes.com/jobs/7791527003?gh_jid=7791527003",
     "site": "thunes.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -14869,17 +16097,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-thunes-7825866003",
+    "id": "gh-thunes-7797425003",
     "title": "Product Manager (Global Accounts)",
     "company": "Thunes",
     "locations": [
-      "London, United Kingdom"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-31",
-    "url": "https://www.thunes.com/jobs/7825866003?gh_jid=7825866003",
+    "url": "https://www.thunes.com/jobs/7797425003?gh_jid=7797425003",
     "site": "thunes.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -15332,34 +16560,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-coinbase-8021647",
-    "title": "Senior Software Engineer",
-    "company": "Coinbase",
-    "locations": [
-      "United States"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": "$ 186 065 – 218 900",
-    "posted": "2026-08-31",
-    "url": "https://www.coinbase.com/careers/positions/8021647?gh_jid=8021647",
-    "site": "coinbase.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Крипта",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "C++",
-      "Go",
-      "Java"
-    ],
-    "seen": "2026-09-05",
-    "descShort": "Ready to do the most impactful work of your career? At Coinbase, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase. As a Senior Software Engineer within the Security Platform Engineering group, you'll serve as the…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-coinbase-8154856",
     "title": "Sr. Systems Analyst, Finance, Enterprise Apps",
     "company": "Coinbase",
@@ -15579,17 +16779,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-bitgo-8523889002",
+    "id": "gh-bitgo-8523894002",
     "title": "Product Marketing Manager",
     "company": "BitGo",
     "locations": [
-      "New York, United States"
+      "Palo Alto, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-31",
-    "url": "https://job-boards.greenhouse.io/bitgo/jobs/8523889002",
+    "url": "https://job-boards.greenhouse.io/bitgo/jobs/8523894002",
     "site": "bitgo.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -16100,7 +17300,7 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-bybit-4908935101",
+    "id": "gh-bybit-4855359101",
     "title": "Lead Backend Development Engineer",
     "company": "Bybit",
     "locations": [
@@ -16110,7 +17310,7 @@ window.JOBS_FINTECH = [
     "rkind": null,
     "salary": null,
     "posted": "2026-08-31",
-    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4908935101",
+    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4855359101",
     "site": "bybit.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -16119,9 +17319,9 @@ window.JOBS_FINTECH = [
     "grade": "Lead",
     "spec": "Бэкенд",
     "stack": [
+      "Python",
       "Go",
-      "Docker",
-      "Kubernetes"
+      "Lua"
     ],
     "seen": "2026-09-05",
     "descShort": "About Us Established in 2018, Bybit is one of the world’s leading cryptocurrency exchanges and digital financial platforms, serving over 80 million users across more than 200 countries and regions. Powered by world-class technology and a user-first mindset, Bybit delivers a seamless ecosystem across trading, payments, wealth management, custody, institutional services, and Web3 — connecting users to the future of digital finance. Our core values define how we build. We listen, care and improve to create products and experiences that put users first. Backed by a global team of ambitious builders, problem-solvers, and innovators, we foster a high-performance and fast-moving environment where…",
@@ -16202,7 +17402,7 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-bybit-4904748101",
+    "id": "gh-bybit-4882378101",
     "title": "MLRO & Compliance Officer, UAE (ADGM) - Broker Dealer Entity",
     "company": "Bybit",
     "locations": [
@@ -16212,7 +17412,7 @@ window.JOBS_FINTECH = [
     "rkind": null,
     "salary": null,
     "posted": "2026-08-31",
-    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4904748101",
+    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4882378101",
     "site": "bybit.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -16226,7 +17426,7 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-bybit-4932856101",
+    "id": "gh-bybit-4932857101",
     "title": "MLRO & Compliance Officer, UAE (ADGM) - RIE & RCH",
     "company": "Bybit",
     "locations": [
@@ -16236,7 +17436,7 @@ window.JOBS_FINTECH = [
     "rkind": null,
     "salary": null,
     "posted": "2026-08-31",
-    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4932856101",
+    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4932857101",
     "site": "bybit.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -17102,7 +18302,7 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-bybit-4855357101",
+    "id": "gh-bybit-4950522101",
     "title": "Senior Principal Backend Development Engineer",
     "company": "Bybit",
     "locations": [
@@ -17112,7 +18312,7 @@ window.JOBS_FINTECH = [
     "rkind": null,
     "salary": null,
     "posted": "2026-08-31",
-    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4855357101",
+    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4950522101",
     "site": "bybit.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -17339,17 +18539,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8698248002",
+    "id": "gh-brex-8750674002",
     "title": "Fraud Operations Associate",
     "company": "Brex",
     "locations": [
-      "New York, United States"
+      "Vancouver, Canada"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 86 784 – 108 480",
+    "salary": "$ 76 800 – 96 000",
     "posted": "2026-08-31",
-    "url": "https://www.brex.com/careers/8698248002?gh_jid=8698248002",
+    "url": "https://www.brex.com/careers/8750674002?gh_jid=8750674002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -17815,6 +19015,317 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "ab-rain-121e35fd-ad20-4d95-91e9-7ad2da64c2d5",
+    "title": "VP of Engineering",
+    "company": "Rain",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": "$320K – $450K • Offers Equity • Offers Bonus",
+    "posted": "2026-08-31",
+    "url": "https://jobs.ashbyhq.com/rain/121e35fd-ad20-4d95-91e9-7ad2da64c2d5",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT THE COMPANY Rain is the global stablecoin payments platform for enterprises, neobanks, platforms, developers, and AI agents. Our technology allows partners to move, store, and use stablecoins instantly and compliantly through global payment cards, rewards, on/offramps, wallets, and cross-border rails. As both a Visa and Mastercard Principal Member, Rain issues cards that work at more than 175 million merchant locations in over 220 countries and territories. Built natively for stablecoins and trusted by more than 100 organizations worldwide, Rain delivers secure, scalable infrastructure that makes money move freely and instantly around the world. You will have the opportunity to…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-rain-031a1169-8af5-4e1f-ae92-56a7fcce3ac7",
+    "title": "Head of Engineering",
+    "company": "Rain",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": "$300K – $400K • Offers Equity • Offers Bonus",
+    "posted": "2026-08-31",
+    "url": "https://jobs.ashbyhq.com/rain/031a1169-8af5-4e1f-ae92-56a7fcce3ac7",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT THE COMPANY Rain is the global stablecoin payments platform for enterprises, neobanks, platforms, developers, and AI agents. Our technology allows partners to move, store, and use stablecoins instantly and compliantly through global payment cards, rewards, on/offramps, wallets, and cross-border rails. As both a Visa and Mastercard Principal Member, Rain issues cards that work at more than 175 million merchant locations in over 220 countries and territories. Built natively for stablecoins and trusted by more than 100 organizations worldwide, Rain delivers secure, scalable infrastructure that makes money move freely and instantly around the world. You will have the opportunity to…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-rain-136f32ee-195c-4f14-b4a1-d53564b30b23",
+    "title": "Engineering Manager",
+    "company": "Rain",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "$300K – $400K • Offers Equity • Offers Bonus",
+    "posted": "2026-08-31",
+    "url": "https://jobs.ashbyhq.com/rain/136f32ee-195c-4f14-b4a1-d53564b30b23",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT THE COMPANY Rain is the global stablecoin payments platform for enterprises, neobanks, platforms, developers, and AI agents. Our technology allows partners to move, store, and use stablecoins instantly and compliantly through global payment cards, rewards, on/offramps, wallets, and cross-border rails. As both a Visa and Mastercard Principal Member, Rain issues cards that work at more than 175 million merchant locations in over 220 countries and territories. Built natively for stablecoins and trusted by more than 100 organizations worldwide, Rain delivers secure, scalable infrastructure that makes money move freely and instantly around the world. You will have the opportunity to…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-veriff-8653259002",
+    "title": "Lead Product Manager, Customer Portal",
+    "company": "Veriff",
+    "locations": [
+      "Tallinn, Spain"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-08-31",
+    "url": "https://www.veriff.com/careers/position/8653259002?gh_jid=8653259002",
+    "site": "veriff.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Продакт",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "About Customer Portal Customer Portal exists to make Veriff's product sell itself. The Portal serves two purposes. It allows our customers to operate Veriff products — setting up and configuring products, consulting verification session details, reporting issues. And it is a privileged surface for customers to discover, try, buy and expand through a seamless self-serve experience, connecting product usage, onboarding and growth in one place. It unites forces with GTM to automate acquisition, upsell, cross-sell and retention, with end-to-end ownership of the customer persona. The area is evolving fast. What began as a self-serve growth surface (Station) is becoming the customer-facing window…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-veriff-8578293002",
+    "title": "Senior Technical Product Manager (Biometric Authentication)",
+    "company": "Veriff",
+    "locations": [
+      "USA, Spain"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-08-31",
+    "url": "https://www.veriff.com/careers/position/8578293002?gh_jid=8578293002",
+    "site": "veriff.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Продакт",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Veriff is building the foundational trust layer of the internet, empowering people to safely and privately prove they are who they say they are. Our identity verification platform powers onboarding and authentication for some of the world's largest marketplaces, fintechs, and platforms. Biometric Authentication is our second-largest product, and it's how we move customers from one-time identity checks to continuous, lifecycle-long trust. THE OPPORTUNITY Biometric Authentication turns every verified user into an ongoing, secure relationship: silent re-verification, step-up authentication, and fraud prevention at the moments that matter. The product runs in production at enterprise scale…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-seon-0516f334-0d09-4932-af59-8df1a7e7e0fc",
+    "title": "Software Engineer (ID Verification - Machine Learning team)",
+    "company": "SEON",
+    "locations": [
+      "Budapest"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": "HUF 18,168,682 – HUF 24,581,015 • Offers Equity",
+    "posted": "2026-08-31",
+    "url": "https://jobs.ashbyhq.com/seon/0516f334-0d09-4932-af59-8df1a7e7e0fc",
+    "source": "ashby",
+    "site": "seon.io",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "TypeScript",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "SEON is the command center for fraud prevention and AML compliance, helping thousands of companies worldwide stop fraud, reduce risk and protect revenue. Powered by 900+ real-time, first-party data signals, SEON enriches customer profiles, flags suspicious behavior and streamlines compliance workflows - all from one place. SEON provides richer data, more flexible and transparent analysis, and faster time to value than any other provider on the market. We’ve helped companies reduce fraud by 95% and achieve 32x ROI, and we’re growing fast, thanks to our partnerships with some of the world’s most ambitious digital brands like Revolut, Wise, and Bilt. As a Software Engineer embedded in our IDV…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-riskified-8766360002",
+    "title": "Data Integration Analyst",
+    "company": "Riskified",
+    "locations": [
+      "New York"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 125 000 – 139 000",
+    "posted": "2026-08-31",
+    "url": "https://www.riskified.com/careers/job-description/?gh_jid=8766360002",
+    "site": "riskified.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Us Riskified empowers businesses to unleash ecommerce growth by taking risk off the table. Many of the world’s biggest brands and publicly traded companies selling online rely on Riskified for guaranteed protection against chargebacks, to fight fraud and policy abuse at scale, and to improve customer retention. Developed and managed by the largest team of ecommerce risk analysts, data scientists and researchers, Riskified’s AI-powered fraud and risk intelligence platform analyzes the individual behind each interaction to provide real-time decisions and robust identity-based insights. Riskified is proud to work with incredible companies in virtually all industries including Acer…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-riskified-8603418002",
+    "title": "Data Integration Engineer",
+    "company": "Riskified",
+    "locations": [
+      "New York"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 125 000 – 139 000",
+    "posted": "2026-08-31",
+    "url": "https://www.riskified.com/careers/job-description/?gh_jid=8603418002",
+    "site": "riskified.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Us Riskified empowers businesses to unleash ecommerce growth by taking risk off the table. Many of the world’s biggest brands and publicly traded companies selling online rely on Riskified for guaranteed protection against chargebacks, to fight fraud and policy abuse at scale, and to improve customer retention. Developed and managed by the largest team of ecommerce risk analysts, data scientists and researchers, Riskified’s AI-powered fraud and risk intelligence platform analyzes the individual behind each interaction to provide real-time decisions and robust identity-based insights. Riskified is proud to work with incredible companies in virtually all industries including Acer…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-forter-8747638002",
+    "title": "Senior Analytics Consultant",
+    "company": "Forter",
+    "locations": [
+      "United Kingdom - London"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-31",
+    "url": "https://job-boards.greenhouse.io/forter/jobs/8747638002",
+    "site": "forter.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Аналитика",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About the role: We are hiring a Senior Analytics Consultant to sit within our dynamic Analytics Services team. The Analytics Services team specializes in fraud prevention and securing trust in the e-commerce space. Reporting to the Manager, Global Analytics Services, this role will be pivotal in bridging analytical expertise with real-world applications to the business field in the EMEA region. Please apply if you have strong analytical skills and have demonstrated the ability to influence internal and external stakeholders. What you’ll be doing: • Collaborate with some of the largest global retailers to support their unique challenges and provide tailored analytical solutions. • Conduct…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-490c9e25-1277-4544-8ba6-bfcb62ae7e79",
+    "title": "Finance Data Analyst",
+    "company": "Nubank",
+    "locations": [
+      "São Paulo"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-31",
+    "url": "https://jobs.ashbyhq.com/nubank/490c9e25-1277-4544-8ba6-bfcb62ae7e79",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Данные и ML",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-20ba8e2e-4781-43d2-837b-de3f1f966148",
+    "title": "Lead Software Engineer - Buenos Aires, Argentina (Hybrid)",
+    "company": "Nubank",
+    "locations": [
+      "Buenos Aires"
+    ],
+    "remote": false,
+    "rkind": "hybrid",
+    "salary": null,
+    "posted": "2026-08-31",
+    "url": "https://jobs.ashbyhq.com/nubank/20ba8e2e-4781-43d2-837b-de3f1f966148",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-6b9aabca-5d57-49c1-bb5a-58466d2a4538",
+    "title": "Lead Product Designer - Lending",
+    "company": "Nubank",
+    "locations": [
+      "São Paulo",
+      "Campinas",
+      "Rio de Janeiro"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-31",
+    "url": "https://jobs.ashbyhq.com/nubank/6b9aabca-5d57-49c1-bb5a-58466d2a4538",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Дизайн",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-adyen-8124369",
     "title": "Compliance Officer, Growth Programs",
     "company": "Adyen",
@@ -17894,17 +19405,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-fireblocks-4687002006",
+    "id": "gh-fireblocks-4687004006",
     "title": "Software Engineer - Stellar #3",
     "company": "Fireblocks",
     "locations": [
-      "Tel Aviv"
+      "Praha, Czech Republic"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-30",
-    "url": "https://www.fireblocks.com/careers/position?gh_jid=4687002006",
+    "url": "https://www.fireblocks.com/careers/position?gh_jid=4687004006",
     "site": "fireblocks.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -17970,36 +19481,6 @@ window.JOBS_FINTECH = [
     "stack": [
       "Java",
       "Kotlin"
-    ],
-    "seen": "2026-09-05",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-7460169",
-    "title": "Staff Offensive Security Engineer",
-    "company": "Robinhood",
-    "locations": [
-      "Toronto, Canada"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-30",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/7460169?t=gh_src=&gh_jid=7460169",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Банки",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "Безопасность",
-    "stack": [
-      "Python",
-      "JavaScript",
-      "AWS",
-      "Docker",
-      "Kubernetes"
     ],
     "seen": "2026-09-05",
     "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
@@ -18110,6 +19591,280 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-05",
     "descShort": "Vous cherchez un environnement professionnel stimulant basé sur l'autonomie et la confiance ? Pennylane vous offre l'opportunité de grandir au sein d'une entreprise en pleine croissance. Ici, votre expertise contribuera directement à aider les entrepreneurs à reprendre le contrôle de leurs finances. Découvrez un lieu où vos compétences seront valorisées et où vous pourrez façonner l'avenir de la gestion financière. Notre vision Notre ambition est de devenir le logiciel de pilotage financier préféré des PMEs européennes. Nous aidons les entrepreneurs à se débarrasser des tâches chronophages liées à la comptabilité et à la finance, tout en leur donnant accès à des informations financières…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-forter-8730021002",
+    "title": "Implementation Engineer",
+    "company": "Forter",
+    "locations": [
+      "Australia - Sydney"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-29",
+    "url": "https://job-boards.greenhouse.io/forter/jobs/8730021002",
+    "site": "forter.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "JavaScript",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About the role: We're looking for an Implementation Engineer to own the successful delivery of Forter integrations for newly signed and expanding customers. This is a project management-led role: you are the delivery owner for your portfolio, responsible for driving each integration from kickoff to go-live on time, with strong stakeholder alignment and a clear line of sight to business value for the customer. You'll bring the organisational rigor and proactive ownership that turns a complex, multi-stakeholder go-live into a predictable, repeatable process. What you'll be doing: • Own the end-to-end delivery of integration projects for your portfolio, acting as project lead and primary point…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-forter-8415897002",
+    "title": "Senior AI Software Engineer",
+    "company": "Forter",
+    "locations": [
+      "United Kingdom - London"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-29",
+    "url": "https://job-boards.greenhouse.io/forter/jobs/8415897002",
+    "site": "forter.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About the role: Forter is looking for a Senior Software Engineer to join a strong and dynamic AI Engineering team. We are the focal point for AI initiatives in Forter, striving to constantly bring innovation and leverage AI capabilities across all company teams and products. Today, AI is central to how Forter operates, across the entire organization. It allows us to move fast and release features at a rapid pace, empowers non-technical Forterians to utilize AI tools for increased efficiency, and provides the backdrop for much of the innovation currently occurring in the company. If this kind of working environment sounds exciting to you, if you understand that Engineering is about building…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-forter-8729463002",
+    "title": "Senior Applied AI Engineer",
+    "company": "Forter",
+    "locations": [
+      "Israel - Tel Aviv"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-29",
+    "url": "https://job-boards.greenhouse.io/forter/jobs/8729463002",
+    "site": "forter.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "About the role: Forter is looking for a Senior Software Engineer to join the AI Engineering team in a role focused on embedding directly with business teams to drive AI transformation. Be at the forefront of Applied AI. This role is outward-facing: you will engage with GTM and G&A functions — Sales, Marketing, Finance, HR, Legal, Customer Success — and fundamentally alter how these teams operate with AI. Departments outside of R&D are still early in their AI journeys, and they need technically strong partners who can understand their workflows, identify the highest-leverage opportunities, and build the solutions that actually change how work gets done. If you see the value in sitting with a…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-forter-8682352002",
+    "title": "Senior Engineer II, Data Products",
+    "company": "Forter",
+    "locations": [
+      "Israel - Tel Aviv"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-29",
+    "url": "https://job-boards.greenhouse.io/forter/jobs/8682352002",
+    "site": "forter.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Java",
+      "Kotlin"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About the role: Forter is looking for a Senior Engineer II to join our Data Products team. The team owns the data platform layer underneath Forter's core operations. It builds and operates the real-time data processing systems, quality pipelines, schema infrastructure, and knowledge base tooling that make agent-driven work trustworthy at scale. At peak, the streaming systems the team works on handle ~350,000 events per second while sustaining thousands of transactions per second through Flink-based pipelines. We're looking for a Senior Engineer II to join the team as a technical anchor: a team player with the range to drive architecture and the willingness to be hands-on in execution. Why…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-forter-8651195002",
+    "title": "Senior Engineering Manager, Decision Engineering",
+    "company": "Forter",
+    "locations": [
+      "Israel - Tel Aviv"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-29",
+    "url": "https://job-boards.greenhouse.io/forter/jobs/8651195002",
+    "site": "forter.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "About the role: Forter is some of the internet's biggest eCommerce merchants' trust platform. We help them sell more by lowering the friction that fraud and abuse add to the buying experience, and that means making a lot of decisions for them. We process over 10M daily decisions for an annual GMV of over $500B. The Decision Engineering team owns the core of this business value proposition: Forter's decision engine. The engine is committed to maintaining a strict latency SLA (p99 • The team lives in a highly technical backend domain, where the roadmap is composed of product-led and engineering-led initiatives in roughly equal parts. • Along with the engine itself, the team owns the API entry…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-forter-8591137002",
+    "title": "Senior Software Engineer II, Payments",
+    "company": "Forter",
+    "locations": [
+      "Israel - Tel Aviv"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-29",
+    "url": "https://job-boards.greenhouse.io/forter/jobs/8591137002",
+    "site": "forter.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Платежи",
+    "stack": [
+      "JavaScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About the role: We’re on a mission to build the first holistic smart payment solution-one that maximizes authorization rates for our merchants by intelligently determining and executing the optimal strategy for every transaction. Our Payments team is designing and running highly critical, production-grade infrastructure, and we’re looking for a deeply technical engineer to help shape it from the ground up. In this role, you’ll lead the design and development of payment products, build resilient infrastructure, dive deep into technical complexity to solve production challenges, and work closely with teammates, stakeholders, and customers to understand their needs. You’ll have end-to-end…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-forter-8578429002",
+    "title": "Senior Software Engineer ll, Core Engineering",
+    "company": "Forter",
+    "locations": [
+      "Israel - Tel Aviv"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-29",
+    "url": "https://job-boards.greenhouse.io/forter/jobs/8578429002",
+    "site": "forter.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "Java",
+      "Kotlin",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About the role: Forter is looking for a Senior Software Engineer to join our Core Engineering group. The group is responsible for the real-time, low-latency infrastructure that powers Forter’s fraud decisions and external APIs. Our systems process billions of requests every day, ensuring high availability, security, and performance at global scale. In this role, you’ll work on core backend components such as our decision engine, ingestion and enrichment pipelines, schema management systems, and self-serve API platform. The software you build will power critical business decisions and directly serve some of the world’s largest merchants. This is a high-impact, high-ownership position for an…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-forter-8289641002",
+    "title": "Senior Software Engineer ll, Customer Experience",
+    "company": "Forter",
+    "locations": [
+      "Israel - Tel Aviv"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-29",
+    "url": "https://job-boards.greenhouse.io/forter/jobs/8289641002",
+    "site": "forter.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "TypeScript",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About the role: Forter is looking for a Senior II Software Engineer to join the CX Platform team, the foundational engineering team powering Forter's entire Customer Experience group. This is a high-impact, hands-on role at the intersection of backend engineering, AI infrastructure, and customer-facing product. You'll work across the full platform stack (backend services, data pipelines, security, cost, and scale) with a meaningful and growing focus on AI infrastructure. We own the agentic platform for the entire Product Offering group: from building the LLM infrastructure and agentic workflows to ensuring they're reliable, observable, and safe in production. Why should you join us? AI at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-forter-8670848002",
+    "title": "Staff Engineer, Core Engineering",
+    "company": "Forter",
+    "locations": [
+      "Israel - Tel Aviv"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-29",
+    "url": "https://job-boards.greenhouse.io/forter/jobs/8670848002",
+    "site": "forter.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "Java",
+      "Kotlin",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About the role: Forter is looking for a Staff Engineer to join our Core Engineering group. The group is responsible for the real-time, low-latency infrastructure that powers Forter’s fraud decisions and external APIs. Our systems process billions of requests every day, ensuring high availability, security, and performance at global scale. In this role, you’ll work on core backend components such as our decision engine, ingestion and enrichment pipelines, schema management systems, and self-serve API platform. The software you build will power critical business decisions and directly serve some of the world’s largest merchants. This is a high-impact, high-ownership position for an engineer…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-forter-8572319002",
+    "title": "Staff Engineer, Data Products",
+    "company": "Forter",
+    "locations": [
+      "Israel - Tel Aviv"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-29",
+    "url": "https://job-boards.greenhouse.io/forter/jobs/8572319002",
+    "site": "forter.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Java",
+      "Kotlin"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About the role: Forter is looking for a Staff engineer to join our Data Products team. The team owns the data platform layer underneath Forter's core operations. It builds and operates the real-time data processing systems, quality pipelines, schema infrastructure, and knowledge base tooling that make agent-driven work trustworthy at scale. At peak, the streaming systems the team works on handle ~350,000 events per second while sustaining thousands of transactions per second through Flink-based pipelines. We're looking for a Staff Engineer to join the team as a technical anchor: a team player with the range to drive architecture and the willingness to be hands-on in execution. Why should…",
     "hasDesc": true
   },
   {
@@ -18598,7 +20353,7 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-tide-7652032003",
+    "id": "gh-tide-7630894003",
     "title": "Senior Commercial Finance Broker",
     "company": "Tide",
     "locations": [
@@ -18608,7 +20363,7 @@ window.JOBS_FINTECH = [
     "rkind": null,
     "salary": null,
     "posted": "2026-08-28",
-    "url": "https://job-boards.greenhouse.io/tide/jobs/7652032003",
+    "url": "https://job-boards.greenhouse.io/tide/jobs/7630894003",
     "site": "tide.co",
     "source": "greenhouse",
     "industry": "fintech",
@@ -18646,17 +20401,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-tide-7766790003",
+    "id": "gh-tide-7815729003",
     "title": "Senior Software Engineer, Flutter",
     "company": "Tide",
     "locations": [
-      "India, Hyderabad"
+      "India, Delhi NCR"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-28",
-    "url": "https://job-boards.greenhouse.io/tide/jobs/7766790003",
+    "url": "https://job-boards.greenhouse.io/tide/jobs/7815729003",
     "site": "tide.co",
     "source": "greenhouse",
     "industry": "fintech",
@@ -18670,17 +20425,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-tide-7702554003",
+    "id": "gh-tide-7702555003",
     "title": "Senior Staff Software Engineer, Agentic Platform",
     "company": "Tide",
     "locations": [
-      "Serbia"
+      "Lithuania"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-28",
-    "url": "https://job-boards.greenhouse.io/tide/jobs/7702554003",
+    "url": "https://job-boards.greenhouse.io/tide/jobs/7702555003",
     "site": "tide.co",
     "source": "greenhouse",
     "industry": "fintech",
@@ -18699,24 +20454,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-tide-7703991003",
+    "id": "gh-tide-7701777003",
     "title": "Staff Software Engineer, Agentic Platform",
     "company": "Tide",
     "locations": [
-      "Berlin, Germany",
-      "Bulgaria",
-      "India, Bengaluru",
-      "India, Delhi NCR",
-      "India, Hyderabad",
-      "Lithuania",
-      "Serbia",
-      "United Kingdom"
+      "Lithuania"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-28",
-    "url": "https://job-boards.greenhouse.io/tide/jobs/7703991003",
+    "url": "https://job-boards.greenhouse.io/tide/jobs/7701777003",
     "site": "tide.co",
     "source": "greenhouse",
     "industry": "fintech",
@@ -19482,17 +21230,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ripple-7997801",
+    "id": "gh-ripple-7997789",
     "title": "Staff Technical Program Manager",
     "company": "Ripple",
     "locations": [
-      "New York, United States"
+      "San Francisco, United States"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 172 000 – 215 000",
+    "salary": "$ 188 000 – 235 000",
     "posted": "2026-08-28",
-    "url": "https://ripple.com/careers/all-jobs/job/7997801?gh_jid=7997801",
+    "url": "https://ripple.com/careers/all-jobs/job/7997789?gh_jid=7997789",
     "site": "ripple.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -19618,17 +21366,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8522876002",
+    "id": "gh-brex-8522918002",
     "title": "Director, Organic Growth & Discoverability",
     "company": "Brex",
     "locations": [
-      "San Francisco, United States"
+      "Seattle, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-28",
-    "url": "https://www.brex.com/careers/8522876002?gh_jid=8522876002",
+    "url": "https://www.brex.com/careers/8522918002?gh_jid=8522918002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -19638,6 +21386,32 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [
       "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and finance teams to accelerate operations, gain real-time visibility, and control spend effortlessly. Brex’s AI-native automation and world-class service eliminate manual expense and accounting tasks for customers so they can focus on what matters most. Tens of thousands of the world's best companies run on Brex, including DoorDash, Coinbase, Robinhood, Zoom, Plaid, Reddit, and SeatGeek. Working at Brex allows you to push…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-brex-8536763002",
+    "title": "Senior Software Engineer, Frontend",
+    "company": "Brex",
+    "locations": [
+      "Vancouver, Canada"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 192 000 – 240 000",
+    "posted": "2026-08-28",
+    "url": "https://www.brex.com/careers/8536763002?gh_jid=8536763002",
+    "site": "brex.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Фронтенд",
+    "stack": [
+      "TypeScript"
     ],
     "seen": "2026-09-05",
     "descShort": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and finance teams to accelerate operations, gain real-time visibility, and control spend effortlessly. Brex’s AI-native automation and world-class service eliminate manual expense and accounting tasks for customers so they can focus on what matters most. Tens of thousands of the world's best companies run on Brex, including DoorDash, Coinbase, Robinhood, Zoom, Plaid, Reddit, and SeatGeek. Working at Brex allows you to push…",
@@ -19669,33 +21443,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7821078003",
-    "title": "Manager, Fraud Operations",
-    "company": "Affirm",
-    "locations": [
-      "Canada"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": "$ 101 000 – 151 000",
-    "posted": "2026-08-28",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7821078003",
-    "site": "affirm.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Банки",
-    "role": "Антифрод",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Python",
-      "SQL"
-    ],
-    "seen": "2026-09-05",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About the Operations team The Operations team delivers seamless customer experiences and enables new product capabilities while ensuring operational excellence. The team owns strategy, planning, technical execution, customer service, fraud operations, process design, quality, training, and program management. We drive efficiency, resolve issues quickly, and scale operations as the business grows. Our goal is to deliver seamless support while maintaining high standards and reducing risk. About the role As a Fraud…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-affirm-7815952003",
     "title": "Quantitative Analyst II (Capital Structuring & Analytics)",
     "company": "Affirm",
@@ -19723,17 +21470,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7799935003",
+    "id": "gh-affirm-7799933003",
     "title": "Senior Software Engineer, Mobile (Repayment UX)",
     "company": "Affirm",
     "locations": [
-      "Spain"
+      "Poland"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "€ 86 000 – 122 000",
+    "salary": null,
     "posted": "2026-08-28",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7799935003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7799933003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -19750,17 +21497,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7931496003",
+    "id": "gh-affirm-7931494003",
     "title": "Staff Software Engineer, Backend (Identity International)",
     "company": "Affirm",
     "locations": [
-      "Poland"
+      "Spain"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": null,
+    "salary": "€ 103 000 – 139 000",
     "posted": "2026-08-28",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7931496003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7931494003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -19768,6 +21515,7 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": "Junior",
     "spec": "Бэкенд",
+    "permit": true,
     "stack": [
       "Python",
       "Kotlin",
@@ -20398,6 +22146,84 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "ab-rain-5c998ab3-7e82-4087-b62a-53320e6a87bc",
+    "title": "Senior IT Operations Engineer",
+    "company": "Rain",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$160K – $180K • Offers Equity • Offers Bonus",
+    "posted": "2026-08-28",
+    "url": "https://jobs.ashbyhq.com/rain/5c998ab3-7e82-4087-b62a-53320e6a87bc",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "JavaScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT THE COMPANY Rain is the global stablecoin payments platform for enterprises, neobanks, platforms, developers, and AI agents. Our technology allows partners to move, store, and use stablecoins instantly and compliantly through global payment cards, rewards, on/offramps, wallets, and cross-border rails. As both a Visa and Mastercard Principal Member, Rain issues cards that work at more than 175 million merchant locations in over 220 countries and territories. Built natively for stablecoins and trusted by more than 100 organizations worldwide, Rain delivers secure, scalable infrastructure that makes money move freely and instantly around the world. You will have the opportunity to…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-seon-00ebd184-020d-44e4-b4fd-e82839f171b9",
+    "title": "Instructional Designer",
+    "company": "SEON",
+    "locations": [
+      "United States",
+      "Austin"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-08-28",
+    "url": "https://jobs.ashbyhq.com/seon/00ebd184-020d-44e4-b4fd-e82839f171b9",
+    "source": "ashby",
+    "site": "seon.io",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Дизайн",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "SEON is the command center for fraud prevention and AML compliance, helping thousands of companies worldwide stop fraud, reduce risk and protect revenue. Powered by 900+ real-time, first-party data signals, SEON enriches customer profiles, flags suspicious behavior and streamlines compliance workflows - all from one place. SEON provides richer data, more flexible and transparent analysis, and faster time to value than any other provider on the market. We’ve helped companies reduce fraud by 95% and achieve 32x ROI, and we’re growing fast, thanks to our partnerships with some of the world’s most ambitious digital brands like Revolut, Wise, and Bilt. About the role: As an Instructional…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-3b5d93e3-09bc-4abb-8bc0-b87721371f15",
+    "title": "Senior Motion Designer",
+    "company": "Nubank",
+    "locations": [
+      "São Paulo"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-28",
+    "url": "https://jobs.ashbyhq.com/nubank/3b5d93e3-09bc-4abb-8bc0-b87721371f15",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Дизайн",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Figma"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-monzo-8156063",
     "title": "FP&A Data & Analytics Manager",
     "company": "Monzo",
@@ -20600,6 +22426,34 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-05",
     "descShort": "Our Story Hello there. We’re Zopa. We started our journey back in 2005, building the first ever peer-to-peer lending company. Fast forward to 2020 and we launched Zopa Bank. A bank that listens to what our customers don’t like about finance and does the opposite. We’re redefining what it feels like to work in finance. Our vision for a new era of banking puts people front and centre — we’ve built a business that empowers everyone to aim high, every day, to move finance forward. Find out more about our fantastic offerings at Zopa.com! We’re incredibly proud of our achievements and none of it would be possible without the amazing team here. It’s not just industry awards we’re winning, we’ve…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-sumup-8682251002",
+    "title": "Backend Engineer - Transfers Gateway",
+    "company": "SumUp",
+    "locations": [
+      "Berlin, Germany"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-27",
+    "url": "https://sumup.com/careers/positions/8682251002?gh_jid=8682251002",
+    "site": "sumup.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Бэкенд",
+    "stack": [
+      "Go",
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "At SumUp, the Global Bank tribe builds the core infrastructure and services that give merchants a digital business account, helping small businesses manage their banking needs easily and reliably. The Transfers Gateway squad connects SumUp’s internal systems to external financial networks across the EU and the UK. We build and run the services that move money through payment schemes every day. The team owns end‑to‑end scheme integrations and operates production services that process real money at scale. You’ll help modernise existing systems while balancing reliability, correctness, and change, making architectural decisions that directly affect uptime and merchant experience across…",
     "hasDesc": true
   },
   {
@@ -21152,32 +23006,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8501025002",
-    "title": "Senior Software Engineer, Frontend",
-    "company": "Brex",
-    "locations": [
-      "Seattle, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": "$ 192 000 – 240 000",
-    "posted": "2026-08-27",
-    "url": "https://www.brex.com/careers/8501025002?gh_jid=8501025002",
-    "site": "brex.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Банки",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "Фронтенд",
-    "stack": [
-      "TypeScript"
-    ],
-    "seen": "2026-09-05",
-    "descShort": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and finance teams to accelerate operations, gain real-time visibility, and control spend effortlessly. Brex’s AI-native automation and world-class service eliminate manual expense and accounting tasks for customers so they can focus on what matters most. Tens of thousands of the world's best companies run on Brex, including DoorDash, Coinbase, Robinhood, Zoom, Plaid, Reddit, and SeatGeek. Working at Brex allows you to push…",
-    "hasDesc": true
-  },
-  {
     "id": "ab-ramp-8efd3a0a-fc66-46e2-9415-bffba10e2919",
     "title": "AI Solutions Engineer",
     "company": "Ramp",
@@ -21199,6 +23027,33 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-05",
     "descShort": "ABOUT RAMP Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books. The problems are high-stakes, data-dense, and unforgiving. We hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome. The median Ramp customer saves 5% and grows revenue 16% in their…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-affirm-7821076003",
+    "title": "Manager, Fraud Operations",
+    "company": "Affirm",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "$ 130 000 – 180 000",
+    "posted": "2026-08-27",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7821076003",
+    "site": "affirm.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Антифрод",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About the Operations team The Operations team delivers seamless customer experiences and enables new product capabilities while ensuring operational excellence. The team owns strategy, planning, technical execution, customer service, fraud operations, process design, quality, training, and program management. We drive efficiency, resolve issues quickly, and scale operations as the business grows. Our goal is to deliver seamless support while maintaining high standards and reducing risk. About the role As a Fraud…",
     "hasDesc": true
   },
   {
@@ -21228,17 +23083,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7118739003",
+    "id": "gh-affirm-7118737003",
     "title": "Senior Software Engineer, Backend (Servicing International)",
     "company": "Affirm",
     "locations": [
-      "Spain"
+      "Poland"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "€ 86 000 – 122 000",
+    "salary": null,
     "posted": "2026-08-27",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7118739003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7118737003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -21246,7 +23101,6 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": "Senior",
     "spec": "Бэкенд",
-    "permit": true,
     "stack": [
       "Python",
       "Kotlin",
@@ -21335,17 +23189,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-robinhood-8074057",
+    "id": "gh-robinhood-8067556",
     "title": "Product Marketing Manager, International",
     "company": "Robinhood",
     "locations": [
-      "Ljubljana, Slovenia"
+      "London, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-27",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8074057?t=gh_src=&gh_jid=8074057",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8067556?t=gh_src=&gh_jid=8067556",
     "site": "robinhood.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -21380,6 +23234,137 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-05",
     "descShort": "Since we opened our doors in 2009, the world of commerce has evolved immensely, and so has Square. After enabling anyone to take payments and never miss a sale, we saw sellers stymied by disparate, outmoded products and tools that wouldn't work together. So we expanded into software and started building integrated, omnichannel solutions – to help sellers sell online, manage inventory, offer buy now, pay later functionality, book appointments, engage loyal buyers, and hire and pay staff. Across it all, we've embedded financial services tools at the point of sale, so merchants can access a business loan and manage their cash flow in one place. Afterpay furthers our goal to provide omnichannel…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-trust-wallet-362af2bc-a01c-4399-acaf-c9e1eac80c01",
+    "title": "Product Marketing Manager",
+    "company": "Trust Wallet",
+    "locations": [],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-08-27",
+    "url": "https://jobs.ashbyhq.com/trust-wallet/362af2bc-a01c-4399-acaf-c9e1eac80c01",
+    "source": "ashby",
+    "site": "trustwallet.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "About the company Trust Wallet is the leading non-custodial cryptocurrency wallet, trusted by over 200 million people worldwide to securely manage and grow their digital assets. Our vision is to give individuals the freedom to own their assets, confidently participate in the future economy, and access opportunities that enhance their lives. Our mission is to be a trusted personal companion — helping users safely navigate Web3, the on-chain economy, and the emerging AI-powered future. With support for over 10 million assets across 100+ blockchains, Trust Wallet offers a seamless, multi-chain experience backed by industry-leading self-custody technology, a vibrant community, and a growing…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-seon-6b145b7d-1d7d-4550-bf4a-959085b62cf5",
+    "title": "Senior Software Engineer (ID Verification Team)",
+    "company": "SEON",
+    "locations": [
+      "Budapest"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": "HUF 21,257,275 – HUF 28,759,841 • Offers Equity",
+    "posted": "2026-08-27",
+    "url": "https://jobs.ashbyhq.com/seon/6b145b7d-1d7d-4550-bf4a-959085b62cf5",
+    "source": "ashby",
+    "site": "seon.io",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "TypeScript",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "SEON is the command center for fraud prevention and AML compliance, helping thousands of companies worldwide stop fraud, reduce risk and protect revenue. Powered by 900+ real-time, first-party data signals, SEON enriches customer profiles, flags suspicious behavior and streamlines compliance workflows - all from one place. SEON provides richer data, more flexible and transparent analysis, and faster time to value than any other provider on the market. We’ve helped companies reduce fraud by 95% and achieve 32x ROI, and we’re growing fast, thanks to our partnerships with some of the world’s most ambitious digital brands like Revolut, Wise, and Bilt. A Senior Software Engineer in our…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-feedzai-7727706",
+    "title": "Site Reliability Engineer",
+    "company": "Feedzai",
+    "locations": [
+      "Portugal"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-27",
+    "url": "https://careers.feedzai.com/job_description?gh_jid=7727706",
+    "site": "feedzai.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "At Feedzai, we're building a world of safer money. A world where financial institutions move faster than criminals. Where the payments that fund real lives through salaries, savings, and businesses are protected in real time. We use trusted AI to detect and prevent financial crime, fraud, and money laundering at scale: the world's top banks, payment networks, and acquirers trust our technology to safeguard more than one billion consumers and $9 trillion in payment volume every year. Feedzai is a Series D company and has raised $282M to date. With a valuation of $2 billion, our technology protects 1 billion consumers and 90 billion transactions each year. With Cloud at its core, the Platform…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-691d4bd9-7b3c-4488-b33b-e8a7dda0fe0c",
+    "title": "Senior Staff Product Designer, Digital Assets",
+    "company": "Nubank",
+    "locations": [
+      "Palo Alto"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-27",
+    "url": "https://jobs.ashbyhq.com/nubank/691d4bd9-7b3c-4488-b33b-e8a7dda0fe0c",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Дизайн",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-6eb06a07-0f7a-4656-9864-e459efa6e41e",
+    "title": "Staff Software Engineer - Lending Foundations (Policy & Data Platform)",
+    "company": "Nubank",
+    "locations": [
+      "São Paulo",
+      "Campinas",
+      "Belo Horizonte",
+      "Rio de Janeiro"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-27",
+    "url": "https://jobs.ashbyhq.com/nubank/6eb06a07-0f7a-4656-9864-e459efa6e41e",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Данные",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -21592,17 +23577,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-adyen-6897762",
+    "id": "gh-adyen-7585595",
     "title": "Staff Engineer - Financial Products",
     "company": "Adyen",
     "locations": [
-      "Chicago"
+      "San Francisco"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 235k – 317k",
+    "salary": "$ 258 – 367k",
     "posted": "2026-08-26",
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/6897762",
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/7585595",
     "site": "adyen.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -22469,41 +24454,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4961104101",
-    "title": "Business Developer",
-    "company": "Ebury",
-    "locations": [
-      "Athens"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-26",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4961104101",
-    "site": "ebury.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-05",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Business Developer / FX Sales Associate Ebury Greece - Office based Launch Your FinTech Career as a Graduate Business Developer / FX Sales Associate at Ebury in our dynamic team. Kickstart a meaningful sales career in the…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-ebury-4961086101",
+    "id": "gh-ebury-4961099101",
     "title": "Senior Commercial Product Manager",
     "company": "Ebury",
     "locations": [
-      "London"
+      "Amsterdam"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-26",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4961086101",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4961099101",
     "site": "ebury.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -22513,7 +24474,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-05",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Senior Commercial Product Manager Ebury London - Office based We’re looking for a Senior Commercial Product Manager to fuel the growth of our Institutional Solutions business. This role is a unique opportunity to have an…",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Senior Commercial Product Manager Ebury Amsterdam - Office based We’re looking for a Senior Commercial Product Manager to fuel the growth of our Institutional Solutions business. This role is a unique opportunity to have an…",
     "hasDesc": true
   },
   {
@@ -22547,17 +24508,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4960760101",
+    "id": "gh-ebury-4960759101",
     "title": "(Senior) Product Manager - Client Platform",
     "company": "Ebury",
     "locations": [
-      "Madrid"
+      "Valencia"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-26",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4960760101",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4960759101",
     "site": "ebury.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -22567,7 +24528,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-05",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. (Senior) Product Manager - Client Platform Product Ebury Madrid Office - Hybrid: 4 days in the office, 1 day working from home per week Do you want to own the products that make sure every message we send a client - lands…",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. (Senior) Product Manager - Client Platform Product Ebury Valencia Office - Hybrid: 4 days in the office, 1 day working from home per week Do you want to own the products that make sure every message we send a client - lands…",
     "hasDesc": true
   },
   {
@@ -22757,31 +24718,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ripple-7767552",
-    "title": "Treasury Manager, Global Treasury Operations",
-    "company": "Ripple",
-    "locations": [
-      "Chicago, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": "$ 144 000 – 180 000",
-    "posted": "2026-08-26",
-    "url": "https://ripple.com/careers/all-jobs/job/7767552?gh_jid=7767552",
-    "site": "ripple.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Крипта",
-    "role": "Платежи",
-    "grade": null,
-    "spec": null,
-    "permit": true,
-    "stack": [],
-    "seen": "2026-09-05",
-    "descShort": "At Ripple, we’re building a world where value moves like information does today. It’s big, it’s bold, and we’re already doing it. Through our crypto solutions for financial institutions, businesses, governments and developers, we are improving the global financial system and creating greater economic fairness and opportunity for more people, in more places around the world. And we get to do the best work of our career and grow our skills surrounded by colleagues who have our backs. If you’re ready to see your impact and unlock incredible career growth opportunities, join us, and build real world value. The WORK: As our Treasury team grows worldwide, we are hiring a versatile, operational…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-bitgo-7307107002",
     "title": "Engineering Manager  - Ecosystem",
     "company": "BitGo",
@@ -22884,17 +24820,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7977916003",
+    "id": "gh-okx-7977917003",
     "title": "Product Manager / Director, Trading Risk Engine",
     "company": "OKX",
     "locations": [
-      "Singapore"
+      "Hong Kong, Hong Kong SAR"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-26",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7977916003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7977917003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -22908,21 +24844,21 @@ window.JOBS_FINTECH = [
       "SQL"
     ],
     "seen": "2026-09-05",
-    "descShort": "OKX will be prioritising applicants who have a current right to work in Singapore, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
+    "descShort": "OKX will be prioritising applicants who have a current right to work in Hong Kong, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7977904003",
+    "id": "gh-okx-7977905003",
     "title": "Product Manager / Director, Trading Risk (Parameter Management & Price Protection)",
     "company": "OKX",
     "locations": [
-      "Singapore"
+      "Hong Kong, Hong Kong SAR"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-26",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7977904003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7977905003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -22933,7 +24869,7 @@ window.JOBS_FINTECH = [
     "permit": true,
     "stack": [],
     "seen": "2026-09-05",
-    "descShort": "OKX will be prioritising applicants who have a current right to work in Singapore, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
+    "descShort": "OKX will be prioritising applicants who have a current right to work in Hong Kong, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
     "hasDesc": true
   },
   {
@@ -23106,17 +25042,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7929525003",
+    "id": "gh-affirm-7929523003",
     "title": "Senior Product Manager, Checkout",
     "company": "Affirm",
     "locations": [
-      "Canada"
+      "United States"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 153 000 – 213 000",
+    "salary": "$ 195 000 – 255 000",
     "posted": "2026-08-26",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7929525003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7929523003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -23359,43 +25295,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-block-4884159008",
-    "title": "Staff Android Software Engineer, Cash App Consumer Platform",
-    "company": "Block",
-    "locations": [
-      "Bay Area, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-26",
-    "url": "http://block.xyz/careers/jobs/4884159008?gh_jid=4884159008",
-    "site": "block.xyz",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "Мобильная",
-    "stack": [
-      "Kotlin"
-    ],
-    "seen": "2026-09-05",
-    "descShort": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible. Today, Cash App has thousands of employees working globally across office and remote locations, with a culture geared toward innovation, collaboration and impact. We've been a distributed team…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-block-5114793008",
+    "id": "gh-block-5114747008",
     "title": "Staff Data Analyst, Block Compliance",
     "company": "Block",
     "locations": [
-      "Denver, United States"
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-26",
-    "url": "http://block.xyz/careers/jobs/5114793008?gh_jid=5114793008",
+    "url": "http://block.xyz/careers/jobs/5114747008?gh_jid=5114747008",
     "site": "block.xyz",
     "source": "greenhouse",
     "industry": "fintech",
@@ -23433,6 +25343,214 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-05",
     "descShort": "At Moss, we give finance professionals the power to automate their day-to-day and make forward-thinking decisions. Our team and culture make us unique — we’re driven by impact and growth, where every one of us strives to learn and excel. Recognised by Sifted’s Rising 100 https://sifted.eu/rankings/b2b-saas-rising-100-2024 and LinkedIn's Top Startups https://www.linkedin.com/pulse/linkedin-top-startups-2024-20-aufstrebende-unternehmen-bjd0c/, we’re here to help propel your career and together, make Moss a lasting success. We're hiring an IT Program Manager who will be at the centre of how Moss buys, manages and eventually retires technology. You'll own the vendor and contract landscape…",
+    "hasDesc": true
+  },
+  {
+    "id": "rc-tether-2714626",
+    "title": "Frontend Software Engineer (100% Remote)",
+    "company": "Tether",
+    "locations": [
+      "Bucharest"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-26",
+    "url": "https://careers.tether.io/o/frontend-software-engineer-100-remote-17",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Фронтенд",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-trust-wallet-5e721760-46c6-47d6-ae8a-92f91fa1c4a1",
+    "title": "Senior Data Engineer",
+    "company": "Trust Wallet",
+    "locations": [],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-08-26",
+    "url": "https://jobs.ashbyhq.com/trust-wallet/5e721760-46c6-47d6-ae8a-92f91fa1c4a1",
+    "source": "ashby",
+    "site": "trustwallet.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Данные",
+    "permit": true,
+    "stack": [
+      "Python",
+      "SQL",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About the company Trust Wallet is the leading non-custodial cryptocurrency wallet, trusted by over 200 million people worldwide to securely manage and grow their digital assets. Our vision is to give individuals the freedom to own their assets, confidently participate in the future economy, and access opportunities that enhance their lives. Our mission is to be a trusted personal companion — helping users safely navigate Web3, the on-chain economy, and the emerging AI-powered future. With support for over 10 million assets across 100+ blockchains, Trust Wallet offers a seamless, multi-chain experience backed by industry-leading self-custody technology, a vibrant community, and a growing…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-paxos-870d0c76-5755-422a-834b-b8fe22278c75",
+    "title": "Compliance Investigations Manager",
+    "company": "Paxos",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "$156,000 – $178,425 • Offers Equity • Offers Bonus • 15% Annual Salary",
+    "posted": "2026-08-26",
+    "url": "https://jobs.ashbyhq.com/paxos/870d0c76-5755-422a-834b-b8fe22278c75",
+    "source": "ashby",
+    "site": "paxos.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Applying to Paxos? Our only careers site is paxos.com/careers http://paxos.com/careers, and we only recruit via @paxos.com http://paxos.com email. Details below. ___ ABOUT PAXOS Today’s financial infrastructure is archaic, expensive, inefficient and risky — supporting a system that leaves out more people than it lets in. So we’re rebuilding it. We’re on a mission to open the world’s financial system to everyone by enabling the instant movement of any asset, any time, in a trustworthy way. For over a decade, we’ve built blockchain infrastructure that tokenizes, custodies, trades and settles assets for the world’s leading financial institutions, like Mastercard, Visa, Robinhood, and PayPal.…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-complyadvantage-8743285002",
+    "title": "Sr. Director, Global Revenue Marketing",
+    "company": "ComplyAdvantage",
+    "locations": [
+      "Austin, United States",
+      "California, United States",
+      "Chicago, United States",
+      "Dallas, United States",
+      "Denver, United States",
+      "New York, United States",
+      "North Carolina, United States",
+      "Washington, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-26",
+    "url": "https://complyadvantage.com/careers/jobs/8743285002?gh_jid=8743285002",
+    "site": "complyadvantage.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Маркетинг",
+    "grade": "Lead",
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Build the growth engine behind ComplyAdvantage's next stage of global scale. Growth isn't driven by channels.It's created by bringing strategy, creativity, technology and execution together around one goal: generating predictable, scalable revenue. We're looking for a Senior Director, Global Revenue Marketing to define and lead the global demand generation strategy for one of the fastest-growing B2B SaaS businesses in the market. This is an opportunity to build a truly integrated global revenue marketing organization—connecting demand generation, ABM, digital, web, lifecycle, partner marketing and growth strategy into one high-performing team with a single commercial mission. You'll own the…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-feedzai-8158971",
+    "title": "Marketing Operations Intern (12-month Internship)",
+    "company": "Feedzai",
+    "locations": [
+      "Portugal"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-26",
+    "url": "https://careers.feedzai.com/job_description?gh_jid=8158971",
+    "site": "feedzai.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Маркетинг",
+    "grade": "Junior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "At Feedzai, we're building a world of safer money. A world where financial institutions move faster than criminals. Where the payments that fund real lives through salaries, savings, and businesses are protected in real time. We use trusted AI to detect and prevent financial crime, fraud, and money laundering at scale: the world's top banks, payment networks, and acquirers trust our technology to safeguard more than one billion consumers and $9 trillion in payment volume every year. Feedzai is a Series D company and has raised $282M to date. With a valuation of $2 billion, our technology protects 1 billion consumers and 90 billion transactions each year. The Marketing Team is empowered to…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-riskified-8725597002",
+    "title": "Application Security Architect",
+    "company": "Riskified",
+    "locations": [
+      "Lisbon"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-26",
+    "url": "https://www.riskified.com/careers/job-description/?gh_jid=8725597002",
+    "site": "riskified.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Безопасность",
+    "stack": [
+      "Python",
+      "JavaScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Us Riskified empowers businesses to unleash ecommerce growth by taking risk off the table. Many of the world’s biggest brands and publicly traded companies selling online rely on Riskified for guaranteed protection against chargebacks, to fight fraud and policy abuse at scale, and to improve customer retention. Developed and managed by the largest team of ecommerce risk analysts, data scientists and researchers, Riskified’s AI-powered fraud and risk intelligence platform analyzes the individual behind each interaction to provide real-time decisions and robust identity-based insights. Riskified is proud to work with incredible companies in virtually all industries including Acer…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-moonfare-7820165003",
+    "title": "Investment Content & Communications Manager",
+    "company": "Moonfare",
+    "locations": [
+      "London, United Kingdom"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-26",
+    "url": "https://www.moonfare.com/open-position/?gh_jid=7820165003",
+    "site": "moonfare.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join the team rewriting the rules in private markets. Moonfare delivers what few others can: the highly sought-after funds and hidden-gem investments that go beyond what most private banks offer. Every opportunity is subjected to a ruthless vetting process; the bar is unforgivingly high. The result? Institutional-quality portfolios for investors who demand more. Our team combines finance veterans with talent from tech, consulting, law and industries you’d never expect. Headquartered in Berlin, we operate from eight offices across Europe, the US and Asia. If you're ready to build what's next in private markets, let's talk. Investment Content & Communications Manager Moonfare’s audience…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-9d600645-ed53-4c6e-a3ab-3492f9bfa219",
+    "title": "Staff Mobile Software Engineer (AI Private Banker, SV) - US - IC7 - 2026",
+    "company": "Nubank",
+    "locations": [
+      "Palo Alto"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-26",
+    "url": "https://jobs.ashbyhq.com/nubank/9d600645-ed53-4c6e-a3ab-3492f9bfa219",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -23906,30 +26024,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4959953101",
-    "title": "Business Developer / FX Sales Associate",
-    "company": "Ebury",
-    "locations": [
-      "Cluj"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-25",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4959953101",
-    "site": "ebury.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-05",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Business Developer / FX Sales Associate Ebury (Cluj) - Office based Launch Your FinTech Career as a Business Developer / FX Sales Associate at Ebury in our dynamic Cluj team. Kickstart a meaningful sales career in the world…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-ebury-4959958101",
     "title": "Business Developer / FX Sales Associate - Dutch Speaking",
     "company": "Ebury",
@@ -24357,17 +26451,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-bitgo-8575180002",
+    "id": "gh-bitgo-8637553002",
     "title": "Solutions Engineer",
     "company": "BitGo",
     "locations": [
-      "New York, United States"
+      "Singapore"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-25",
-    "url": "https://job-boards.greenhouse.io/bitgo/jobs/8575180002",
+    "url": "https://job-boards.greenhouse.io/bitgo/jobs/8637553002",
     "site": "bitgo.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -24433,17 +26527,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-blockchain-com-8045355",
+    "id": "gh-blockchain-com-8045360",
     "title": "Business Analyst",
     "company": "Blockchain.com",
     "locations": [
-      "London"
+      "Malta"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-25",
-    "url": "https://job-boards.greenhouse.io/blockchain/jobs/8045355",
+    "url": "https://job-boards.greenhouse.io/blockchain/jobs/8045360",
     "site": "blockchain.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -24718,30 +26812,6 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-05",
     "descShort": "OKX will be prioritising applicants who have a current right to work in Singapore, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-brex-8742343002",
-    "title": "Compliance Manager, Marketing",
-    "company": "Brex",
-    "locations": [
-      "United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": "$ 153 000 – 170 000",
-    "posted": "2026-08-25",
-    "url": "https://www.brex.com/careers/8742343002?gh_jid=8742343002",
-    "site": "brex.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Банки",
-    "role": "Комплаенс",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-05",
-    "descShort": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and finance teams to accelerate operations, gain real-time visibility, and control spend effortlessly. Brex’s AI-native automation and world-class service eliminate manual expense and accounting tasks for customers so they can focus on what matters most. Tens of thousands of the world's best companies run on Brex, including DoorDash, Coinbase, Robinhood, Zoom, Plaid, Reddit, and SeatGeek. Working at Brex allows you to push…",
     "hasDesc": true
   },
   {
@@ -25566,17 +27636,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-robinhood-7648454",
+    "id": "gh-robinhood-7648452",
     "title": "Senior Software Engineer, Custody Services",
     "company": "Robinhood",
     "locations": [
-      "Ljubljana, Slovenia"
+      "London, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-25",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/7648454?t=gh_src=&gh_jid=7648454",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7648452?t=gh_src=&gh_jid=7648452",
     "site": "robinhood.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -26293,17 +28363,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-robinhood-7489952",
+    "id": "gh-robinhood-7489950",
     "title": "Staff Software Engineer, Web3",
     "company": "Robinhood",
     "locations": [
-      "Toronto, Canada"
+      "Menlo Park, United States",
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-25",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/7489952?t=gh_src=&gh_jid=7489952",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7489950?t=gh_src=&gh_jid=7489950",
     "site": "robinhood.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -26397,6 +28468,109 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-05",
     "descShort": "Who we are: Sardine is the leading agentic risk platform for fighting financial crime. Our integrated solution unifies data across risk teams to help organizations stop fraud in real time, prevent AI-driven attacks, and automate fraud and AML operations. Sardine’s platform is strengthened by one of the fastest-growing fraud consortiums in the market, spanning more than 6 billion profiled devices, 800 million consumers, and 3 million businesses worldwide. Leading companies including FIS, GoDaddy, Intuit, Edward Jones, ZoomInfo, and Checkout.com rely on Sardine to secure and grow trust in their products. Our culture: - We have hubs in the Bay Area, NYC, Austin, Toronto, and São Paulo.…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-complyadvantage-8745789002",
+    "title": "Regional Marketing Manager - EMEA",
+    "company": "ComplyAdvantage",
+    "locations": [
+      "London, United Kingdom"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://complyadvantage.com/careers/jobs/8745789002?gh_jid=8745789002",
+    "site": "complyadvantage.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "The Regional Marketing Manager, EMEA, serves as the voice of marketing in the EMEA region. You will partner closely with regional sales teams, execute localized activation plans and events, tailor content for regional relevance and feed key market and competitive insights back into the business. While our global marketing team builds campaigns, content, branding and paid programs, this role is all about accountability, orchestration, regional execution and local impact. You will own the regional marketing budget, track performance, optimize local programs and build strong alignment with the EMEA sales organization. What you’ll do: • Translate global marketing campaigns into regionally…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-veriff-8725220002",
+    "title": "Senior Product Manager (Document Verification)",
+    "company": "Veriff",
+    "locations": [
+      "Tallinn, Spain"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://www.veriff.com/careers/position/8725220002?gh_jid=8725220002",
+    "site": "veriff.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Продакт",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Physical document IDV is Veriff's flagship product: how millions of people prove who they are to fintechs, marketplaces, mobility platforms, and government agencies. It's fundamentally a machine learning system: document classification, data extraction, fraud and spoofing detection, coverage across thousands of document types and alphabets. Some versions also keep a human in the loop, so decision quality depends as much on operations as on models. We are looking for a Senior Product Manager to own this core domain. You will sit directly between two demanding groups: machine learning engineers building models, and enterprise customers asking hard questions about accuracy, latency, and…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-shift-technology-7681765003",
+    "title": "AI & Service Architect",
+    "company": "Shift Technology",
+    "locations": [
+      "France - Paris"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://job-boards.greenhouse.io/shifttechnology/jobs/7681765003",
+    "site": "shift-technology.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "C#",
+      "Python",
+      "SQL",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Shift delivers AI agents that transform insurers' most critical work. By combining deep industry expertise and unmatched data resources, Shift provides proven results that have earned the trust of hundreds of the world's leading insurers. Our insurance-grade AI is accurate, explainable, and secure—empowering human experts to move with unmatched speed, total confidence, and a renewed focus on the people they serve. Your browser does not support the video tag. Our culture is built on innovation, trust, and a drive to transform the insurance industry through our SaaS platform. We come from more than 50 different countries and cultures and together we are creating the future of insurance. Learn…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-ae82b25f-c815-41bb-8c77-b47069c90908",
+    "title": "Community-Led Growth Senior Specialist",
+    "company": "Nubank",
+    "locations": [
+      "Miami"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://jobs.ashbyhq.com/nubank/ae82b25f-c815-41bb-8c77-b47069c90908",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Маркетинг",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -26613,6 +28787,32 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-05",
     "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. About the Role Data is Adyen's key differentiator, but to…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-adyen-7180929",
+    "title": "Technical Support Engineer",
+    "company": "Adyen",
+    "locations": [
+      "Amsterdam"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-24",
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/7180929",
+    "site": "adyen.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "JavaScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. Technical Support Engineer You will operate as a first…",
     "hasDesc": true
   },
   {
@@ -27155,17 +29355,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-blockchain-com-8147215",
+    "id": "gh-blockchain-com-7792540",
     "title": "Infrastructure Security Engineer",
     "company": "Blockchain.com",
     "locations": [
-      "Paris"
+      "London"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-24",
-    "url": "https://job-boards.greenhouse.io/blockchain/jobs/8147215",
+    "url": "https://job-boards.greenhouse.io/blockchain/jobs/7792540",
     "site": "blockchain.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -27236,17 +29436,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-blockchain-com-8147277",
+    "id": "gh-blockchain-com-8147304",
     "title": "Performance Marketing Specialist, Mobile",
     "company": "Blockchain.com",
     "locations": [
-      "Paris"
+      "Singapore"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-24",
-    "url": "https://job-boards.greenhouse.io/blockchain/jobs/8147277",
+    "url": "https://job-boards.greenhouse.io/blockchain/jobs/8147304",
     "site": "blockchain.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -27262,17 +29462,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-blockchain-com-7904343",
+    "id": "gh-blockchain-com-8147195",
     "title": "Security Engineer, Institutional Trading",
     "company": "Blockchain.com",
     "locations": [
-      "London"
+      "Paris"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-24",
-    "url": "https://job-boards.greenhouse.io/blockchain/jobs/7904343",
+    "url": "https://job-boards.greenhouse.io/blockchain/jobs/8147195",
     "site": "blockchain.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -27459,17 +29659,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7883615003",
+    "id": "gh-okx-7960057003",
     "title": "Growth Lead, Northeast Asia",
     "company": "OKX",
     "locations": [
-      "Hong Kong, Hong Kong SAR"
+      "Northeast Asia"
     ],
-    "remote": false,
-    "rkind": null,
+    "remote": true,
+    "rkind": "zone",
     "salary": null,
     "posted": "2026-08-24",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7883615003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7960057003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -27477,10 +29677,9 @@ window.JOBS_FINTECH = [
     "role": "Маркетинг",
     "grade": "Lead",
     "spec": null,
-    "permit": true,
     "stack": [],
     "seen": "2026-09-05",
-    "descShort": "OKX will be prioritising applicants who have a current right to work in Hong Kong, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
+    "descShort": "Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things Done. These shared values drive our culture, shape our processes, and foster a friendly, rewarding, and diverse environment for every…",
     "hasDesc": true
   },
   {
@@ -27683,6 +29882,81 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "ab-nubank-1417de01-f9ae-438e-9386-496cd2fdad39",
+    "title": "Procurement Analyst",
+    "company": "Nubank",
+    "locations": [
+      "São Paulo"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-24",
+    "url": "https://jobs.ashbyhq.com/nubank/1417de01-f9ae-438e-9386-496cd2fdad39",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-0a9a3238-cdb9-40f4-b07f-1b108147103b",
+    "title": "AI Risk Management Senior Specialist",
+    "company": "Nubank",
+    "locations": [
+      "São Paulo"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-24",
+    "url": "https://jobs.ashbyhq.com/nubank/0a9a3238-cdb9-40f4-b07f-1b108147103b",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Риски",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-26bd868d-1afc-4477-9a44-07fb3b87124f",
+    "title": "AML & OFAC Specialist",
+    "company": "Nubank",
+    "locations": [
+      "Miami"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-24",
+    "url": "https://jobs.ashbyhq.com/nubank/26bd868d-1afc-4477-9a44-07fb3b87124f",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-okx-7941620003",
     "title": "Lead / Expert, RWA Ecosystem Growth",
     "company": "OKX",
@@ -27729,6 +30003,78 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-05",
     "descShort": "We believe that the way people interact with their finances will drastically improve in the next few years. We’re dedicated to empowering this transformation by building the tools and experiences that thousands of developers use to create their own products. Plaid powers the tools millions of people rely on to live a healthier financial life. We work with thousands of companies like Venmo, SoFi, several of the Fortune 500, and many of the largest banks to make it easy for people to connect their financial accounts to the apps and services they want to use. Plaid’s network covers 12,000 financial institutions across the US, Canada, UK and Europe. Founded in 2013, the company is headquartered…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-857cd146-2988-4c87-907d-558aa7001a72",
+    "title": "Staff Software Engineer (Crypto, SV) - US - IC7 - 2026",
+    "company": "Nubank",
+    "locations": [
+      "Palo Alto"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-22",
+    "url": "https://jobs.ashbyhq.com/nubank/857cd146-2988-4c87-907d-558aa7001a72",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Блокчейн",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-d9d8a861-675c-4f43-819e-ccaf58bf23af",
+    "title": "Senior Staff Software Engineer (Crypto, SV) - IC8+ - US - 2026",
+    "company": "Nubank",
+    "locations": [
+      "Palo Alto"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-22",
+    "url": "https://jobs.ashbyhq.com/nubank/d9d8a861-675c-4f43-819e-ccaf58bf23af",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Блокчейн",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-f54964e0-80b5-46c1-8b30-5a92d2b47126",
+    "title": "Lead Mobile Engineer",
+    "company": "Nubank",
+    "locations": [
+      "Palo Alto"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-22",
+    "url": "https://jobs.ashbyhq.com/nubank/f54964e0-80b5-46c1-8b30-5a92d2b47126",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": "Мобильная",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -28266,17 +30612,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ripple-7997246",
+    "id": "gh-ripple-7997267",
     "title": "Senior Staff Security Engineer, Ripple Treasury",
     "company": "Ripple",
     "locations": [
-      "New York, United States"
+      "Chicago, United States"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 224 000 – 300 000",
+    "salary": "$ 220 000 – 300 000",
     "posted": "2026-08-21",
-    "url": "https://ripple.com/careers/all-jobs/job/7997246?gh_jid=7997246",
+    "url": "https://ripple.com/careers/all-jobs/job/7997267?gh_jid=7997267",
     "site": "ripple.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -28347,17 +30693,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8580566002",
+    "id": "gh-brex-8687493002",
     "title": "Manager, Back Office & Payment Operations",
     "company": "Brex",
     "locations": [
-      "São Paulo, Brazil"
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-21",
-    "url": "https://www.brex.com/careers/8580566002?gh_jid=8580566002",
+    "url": "https://www.brex.com/careers/8687493002?gh_jid=8687493002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -29220,6 +31566,450 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-05",
     "descShort": "OVERVIEW Modern Treasury is hiring a Head of Risk to build our risk function from the ground up. Money moves through Modern Treasury for some of the largest and fastest-growing companies in the economy. How well we manage the risk in that movement directly shapes the product — who we can onboard, how fast they can transact, and how much friction they feel along the way. This is a foundational, hands-on role. You will decide how customers are underwritten, how limits and reserves are set, how transactions are authorized, and how we detect fraud — and you will build those systems early, before scale forces the decisions for you. This role reports to our General Counsel, who leads Legal…",
+    "hasDesc": true
+  },
+  {
+    "id": "rc-tether-2719128",
+    "title": "Senior Product Designer (Wallets) - 100% Remote Worldwide",
+    "company": "Tether",
+    "locations": [
+      "United Kindom"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-21",
+    "url": "https://careers.tether.io/o/senior-product-designer-wallets-100-remote-worldwide",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Дизайн",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-shift-technology-7746706003",
+    "title": "BI & Data Engineer - data visualization skills",
+    "company": "Shift Technology",
+    "locations": [
+      "France - Paris"
+    ],
+    "remote": false,
+    "rkind": "hybrid",
+    "salary": null,
+    "posted": "2026-08-21",
+    "url": "https://job-boards.greenhouse.io/shifttechnology/jobs/7746706003",
+    "site": "shift-technology.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Данные",
+    "stack": [
+      "C#",
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Shift delivers AI agents that transform insurers' most critical work. By combining deep industry expertise and unmatched data resources, Shift provides proven results that have earned the trust of hundreds of the world's leading insurers. Our insurance-grade AI is accurate, explainable, and secure—empowering human experts to move with unmatched speed, total confidence, and a renewed focus on the people they serve. Your browser does not support the video tag. Our culture is built on innovation, trust, and a drive to transform the insurance industry through our SaaS platform. We come from more than 50 different countries and cultures and together we are creating the future of insurance. Learn…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-shift-technology-7673330003",
+    "title": "Data Science Internship",
+    "company": "Shift Technology",
+    "locations": [
+      "Singapore - Singapore"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-21",
+    "url": "https://job-boards.greenhouse.io/shifttechnology/jobs/7673330003",
+    "site": "shift-technology.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Данные и ML",
+    "grade": "Junior",
+    "spec": null,
+    "stack": [
+      "C#"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Shift delivers AI agents that transform insurers' most critical work. By combining deep industry expertise and unmatched data resources, Shift provides proven results that have earned the trust of hundreds of the world's leading insurers. Our insurance-grade AI is accurate, explainable, and secure—empowering human experts to move with unmatched speed, total confidence, and a renewed focus on the people they serve. Your browser does not support the video tag. Our culture is built on innovation, trust, and a drive to transform the insurance industry through our SaaS platform. We come from more than 50 different countries and cultures and together we are creating the future of insurance. Learn…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-shift-technology-7676940003",
+    "title": "Data Science internship - Spanish speaker (6months)",
+    "company": "Shift Technology",
+    "locations": [
+      "France"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-08-21",
+    "url": "https://job-boards.greenhouse.io/shifttechnology/jobs/7676940003",
+    "site": "shift-technology.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Данные и ML",
+    "grade": "Junior",
+    "spec": null,
+    "stack": [
+      "C#"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Shift delivers AI agents that transform insurers' most critical work. By combining deep industry expertise and unmatched data resources, Shift provides proven results that have earned the trust of hundreds of the world's leading insurers. Our insurance-grade AI is accurate, explainable, and secure—empowering human experts to move with unmatched speed, total confidence, and a renewed focus on the people they serve. Your browser does not support the video tag. Our culture is built on innovation, trust, and a drive to transform the insurance industry through our SaaS platform. We come from more than 50 different countries and cultures and together we are creating the future of insurance. Learn…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-shift-technology-4517976003",
+    "title": "Data Scientist / Deployment Engineer",
+    "company": "Shift Technology",
+    "locations": [
+      "Brazil - Sao Paulo"
+    ],
+    "remote": false,
+    "rkind": "hybrid",
+    "salary": null,
+    "posted": "2026-08-21",
+    "url": "https://job-boards.greenhouse.io/shifttechnology/jobs/4517976003",
+    "site": "shift-technology.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "C++",
+      "C#",
+      "Java",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Shift delivers AI agents that transform insurers' most critical work. By combining deep industry expertise and unmatched data resources, Shift provides proven results that have earned the trust of hundreds of the world's leading insurers. Our insurance-grade AI is accurate, explainable, and secure—empowering human experts to move with unmatched speed, total confidence, and a renewed focus on the people they serve. Your browser does not support the video tag. Our culture is built on innovation, trust, and a drive to transform the insurance industry through our SaaS platform. We come from more than 50 different countries and cultures and together we are creating the future of insurance. Learn…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-shift-technology-5843676003",
+    "title": "Data Scientist / Engineer (Healthcare Payment Integrity)",
+    "company": "Shift Technology",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "hybrid",
+    "salary": "$ 120 000 – 130 000",
+    "posted": "2026-08-21",
+    "url": "https://job-boards.greenhouse.io/shifttechnology/jobs/5843676003",
+    "site": "shift-technology.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Платежи",
+    "stack": [
+      "Unity"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Shift delivers AI agents that transform insurers' most critical work. By combining deep industry expertise and unmatched data resources, Shift provides proven results that have earned the trust of hundreds of the world's leading insurers. Our insurance-grade AI is accurate, explainable, and secure—empowering human experts to move with unmatched speed, total confidence, and a renewed focus on the people they serve. Your browser does not support the video tag. Our culture is built on innovation, trust, and a drive to transform the insurance industry through our SaaS platform. We come from more than 50 different countries and cultures and together we are creating the future of insurance. Learn…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-shift-technology-6141907003",
+    "title": "Data Scientist: France",
+    "company": "Shift Technology",
+    "locations": [
+      "France - Paris"
+    ],
+    "remote": false,
+    "rkind": "hybrid",
+    "salary": null,
+    "posted": "2026-08-21",
+    "url": "https://job-boards.greenhouse.io/shifttechnology/jobs/6141907003",
+    "site": "shift-technology.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Данные и ML",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "C#",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Shift delivers AI agents that transform insurers' most critical work. By combining deep industry expertise and unmatched data resources, Shift provides proven results that have earned the trust of hundreds of the world's leading insurers. Our insurance-grade AI is accurate, explainable, and secure—empowering human experts to move with unmatched speed, total confidence, and a renewed focus on the people they serve. Your browser does not support the video tag. Our culture is built on innovation, trust, and a drive to transform the insurance industry through our SaaS platform. We come from more than 50 different countries and cultures and together we are creating the future of insurance. Learn…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-shift-technology-7652429003",
+    "title": "Data Scientist Intern (English Speaker)",
+    "company": "Shift Technology",
+    "locations": [
+      "Mexico - Mexico City"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-21",
+    "url": "https://job-boards.greenhouse.io/shifttechnology/jobs/7652429003",
+    "site": "shift-technology.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Данные и ML",
+    "grade": "Junior",
+    "spec": null,
+    "stack": [
+      "C#",
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Shift delivers AI agents that transform insurers' most critical work. By combining deep industry expertise and unmatched data resources, Shift provides proven results that have earned the trust of hundreds of the world's leading insurers. Our insurance-grade AI is accurate, explainable, and secure—empowering human experts to move with unmatched speed, total confidence, and a renewed focus on the people they serve. Your browser does not support the video tag. Our culture is built on innovation, trust, and a drive to transform the insurance industry through our SaaS platform. We come from more than 50 different countries and cultures and together we are creating the future of insurance. Learn…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-shift-technology-7797624003",
+    "title": "Fullstack Developer with solid C# and Javascript skills",
+    "company": "Shift Technology",
+    "locations": [
+      "France - Paris"
+    ],
+    "remote": false,
+    "rkind": "hybrid",
+    "salary": null,
+    "posted": "2026-08-21",
+    "url": "https://job-boards.greenhouse.io/shifttechnology/jobs/7797624003",
+    "site": "shift-technology.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Фронтенд",
+    "stack": [
+      "C#",
+      "JavaScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Shift delivers AI agents that transform insurers' most critical work. By combining deep industry expertise and unmatched data resources, Shift provides proven results that have earned the trust of hundreds of the world's leading insurers. Our insurance-grade AI is accurate, explainable, and secure—empowering human experts to move with unmatched speed, total confidence, and a renewed focus on the people they serve. Your browser does not support the video tag. Our culture is built on innovation, trust, and a drive to transform the insurance industry through our SaaS platform. We come from more than 50 different countries and cultures and together we are creating the future of insurance. Learn…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-shift-technology-5910904003",
+    "title": "Graduate Data Scientist",
+    "company": "Shift Technology",
+    "locations": [
+      "United Kingdom - London"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-21",
+    "url": "https://job-boards.greenhouse.io/shifttechnology/jobs/5910904003",
+    "site": "shift-technology.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Данные и ML",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "C#",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Shift delivers AI agents that transform insurers' most critical work. By combining deep industry expertise and unmatched data resources, Shift provides proven results that have earned the trust of hundreds of the world's leading insurers. Our insurance-grade AI is accurate, explainable, and secure—empowering human experts to move with unmatched speed, total confidence, and a renewed focus on the people they serve. Your browser does not support the video tag. Our culture is built on innovation, trust, and a drive to transform the insurance industry through our SaaS platform. We come from more than 50 different countries and cultures and together we are creating the future of insurance. Learn…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-shift-technology-7806205003",
+    "title": "Head of US Healthcare Data Science (AI SaaS Healthcare Products)",
+    "company": "Shift Technology",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "$ 160 000 – 200 000",
+    "posted": "2026-08-21",
+    "url": "https://job-boards.greenhouse.io/shifttechnology/jobs/7806205003",
+    "site": "shift-technology.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Данные и ML",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Unity"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Shift delivers AI agents that transform insurers' most critical work. By combining deep industry expertise and unmatched data resources, Shift provides proven results that have earned the trust of hundreds of the world's leading insurers. Our insurance-grade AI is accurate, explainable, and secure—empowering human experts to move with unmatched speed, total confidence, and a renewed focus on the people they serve. Your browser does not support the video tag. Our culture is built on innovation, trust, and a drive to transform the insurance industry through our SaaS platform. We come from more than 50 different countries and cultures and together we are creating the future of insurance. Learn…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-shift-technology-7787067003",
+    "title": "Marketing Technology, Automation, and Operations Specialist",
+    "company": "Shift Technology",
+    "locations": [
+      "Boston"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-21",
+    "url": "https://job-boards.greenhouse.io/shifttechnology/jobs/7787067003",
+    "site": "shift-technology.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Shift delivers AI agents that transform insurers' most critical work. By combining deep industry expertise and unmatched data resources, Shift provides proven results that have earned the trust of hundreds of the world's leading insurers. Our insurance-grade AI is accurate, explainable, and secure—empowering human experts to move with unmatched speed, total confidence, and a renewed focus on the people they serve. Your browser does not support the video tag. Our culture is built on innovation, trust, and a drive to transform the insurance industry through our SaaS platform. We come from more than 50 different countries and cultures and together we are creating the future of insurance. Learn…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-shift-technology-7827407003",
+    "title": "Project Manager",
+    "company": "Shift Technology",
+    "locations": [
+      "United Kingdom - London"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "£ 55 – 60k",
+    "posted": "2026-08-21",
+    "url": "https://job-boards.greenhouse.io/shifttechnology/jobs/7827407003",
+    "site": "shift-technology.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Продюсирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Shift delivers AI agents that transform insurers' most critical work. By combining deep industry expertise and unmatched data resources, Shift provides proven results that have earned the trust of hundreds of the world's leading insurers. Our insurance-grade AI is accurate, explainable, and secure—empowering human experts to move with unmatched speed, total confidence, and a renewed focus on the people they serve. Your browser does not support the video tag. Our culture is built on innovation, trust, and a drive to transform the insurance industry through our SaaS platform. We come from more than 50 different countries and cultures and together we are creating the future of insurance. Learn…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-shift-technology-7670746003",
+    "title": "Senior Data Engineer with Terraform skills",
+    "company": "Shift Technology",
+    "locations": [
+      "France - Paris"
+    ],
+    "remote": false,
+    "rkind": "hybrid",
+    "salary": null,
+    "posted": "2026-08-21",
+    "url": "https://job-boards.greenhouse.io/shifttechnology/jobs/7670746003",
+    "site": "shift-technology.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Данные",
+    "stack": [
+      "C#",
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Shift delivers AI agents that transform insurers' most critical work. By combining deep industry expertise and unmatched data resources, Shift provides proven results that have earned the trust of hundreds of the world's leading insurers. Our insurance-grade AI is accurate, explainable, and secure—empowering human experts to move with unmatched speed, total confidence, and a renewed focus on the people they serve. Your browser does not support the video tag. Our culture is built on innovation, trust, and a drive to transform the insurance industry through our SaaS platform. We come from more than 50 different countries and cultures and together we are creating the future of insurance. Learn…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-shift-technology-4766257003",
+    "title": "Sr. Account Executive (Payment Integrity)",
+    "company": "Shift Technology",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "$ 130 000 – 180 000",
+    "posted": "2026-08-21",
+    "url": "https://job-boards.greenhouse.io/shifttechnology/jobs/4766257003",
+    "site": "shift-technology.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Платежи",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Shift delivers AI agents that transform insurers' most critical work. By combining deep industry expertise and unmatched data resources, Shift provides proven results that have earned the trust of hundreds of the world's leading insurers. Our insurance-grade AI is accurate, explainable, and secure—empowering human experts to move with unmatched speed, total confidence, and a renewed focus on the people they serve. Your browser does not support the video tag. Our culture is built on innovation, trust, and a drive to transform the insurance industry through our SaaS platform. We come from more than 50 different countries and cultures and together we are creating the future of insurance. Learn…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-belvo-d9156c58-6c5e-4852-b9d9-00b8133d1b2d",
+    "title": "Staff Solutions Engineer",
+    "company": "Belvo",
+    "locations": [
+      "🇲🇽 Mexico City"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-08-21",
+    "url": "https://jobs.ashbyhq.com/belvo/d9156c58-6c5e-4852-b9d9-00b8133d1b2d",
+    "source": "ashby",
+    "site": "belvo.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "A little bit about us: We are Belvo, an open finance API platform with the bold vision of democratizing access to financial services in Latin America. We enable any financial innovator to access and interpret financial data, as well as initiate payments from their end-users accounts. We’re turning the messy complexities of the Latin American financial ecosystem into a modern set of tools to access and interpret data and move money in a seamless and secure way. We’re a highly-technical, passionate, and driven team. We are more than 90 people and our team currently represents 20 nationalities. We have offices in São Paulo and Mexico City – while a large portion of us work remotely. We are…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-40710e00-7e4a-4622-a2fd-6d43ce114a2e",
+    "title": "IT Risk Management Specialist",
+    "company": "Nubank",
+    "locations": [
+      "São Paulo"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-21",
+    "url": "https://jobs.ashbyhq.com/nubank/40710e00-7e4a-4622-a2fd-6d43ce114a2e",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Риски",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -30539,6 +33329,78 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-feedzai-8111748",
+    "title": "Analyst Relations Manager",
+    "company": "Feedzai",
+    "locations": [
+      "Portugal"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-20",
+    "url": "https://careers.feedzai.com/job_description?gh_jid=8111748",
+    "site": "feedzai.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "At Feedzai, we're building a world of safer money. A world where financial institutions move faster than criminals. Where the payments that fund real lives through salaries, savings, and businesses are protected in real time. We use trusted AI to detect and prevent financial crime, fraud, and money laundering at scale: the world's top banks, payment networks, and acquirers trust our technology to safeguard more than one billion consumers and $9 trillion in payment volume every year. Feedzai is a Series D company and has raised $282M to date. With a valuation of $2 billion, our technology protects 1 billion consumers and 90 billion transactions each year. The Marketing Team is empowered to…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-0aec9742-47be-4de8-bcf1-b4e77784a2a3",
+    "title": "Treasury Senior Specialist",
+    "company": "Nubank",
+    "locations": [
+      "Ciudad de México"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-20",
+    "url": "https://jobs.ashbyhq.com/nubank/0aec9742-47be-4de8-bcf1-b4e77784a2a3",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Платежи",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-44354acb-76dc-4979-b88e-567a34fc65fc",
+    "title": "Compliance Expert",
+    "company": "Nubank",
+    "locations": [
+      "Ciudad de México"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-20",
+    "url": "https://jobs.ashbyhq.com/nubank/44354acb-76dc-4979-b88e-567a34fc65fc",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-n26-7981889",
     "title": "Business Risk Manager – Growth",
     "company": "N26",
@@ -31165,6 +34027,30 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-brex-8544757002",
+    "title": "Compliance Manager, Marketing",
+    "company": "Brex",
+    "locations": [
+      "San Francisco, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 159 000 – 198 000",
+    "posted": "2026-08-19",
+    "url": "https://www.brex.com/careers/8544757002?gh_jid=8544757002",
+    "site": "brex.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and finance teams to accelerate operations, gain real-time visibility, and control spend effortlessly. Brex’s AI-native automation and world-class service eliminate manual expense and accounting tasks for customers so they can focus on what matters most. Tens of thousands of the world's best companies run on Brex, including DoorDash, Coinbase, Robinhood, Zoom, Plaid, Reddit, and SeatGeek. Working at Brex allows you to push…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-brex-8706917002",
     "title": "Senior Software Engineer, Accounting Engineering",
     "company": "Brex",
@@ -31222,17 +34108,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8536424002",
+    "id": "gh-brex-8603327002",
     "title": "Software Engineer II, Backend",
     "company": "Brex",
     "locations": [
-      "New York, United States"
+      "Vancouver, Canada"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 152 000 – 190 000",
     "posted": "2026-08-19",
-    "url": "https://www.brex.com/careers/8536424002?gh_jid=8536424002",
+    "url": "https://www.brex.com/careers/8603327002?gh_jid=8603327002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -31328,17 +34214,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7872406003",
+    "id": "gh-affirm-7872408003",
     "title": "Brand Marketing Manager",
     "company": "Affirm",
     "locations": [
-      "United States"
+      "Canada"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 165 000 – 225 000",
+    "salary": "$ 133 000 – 183 000",
     "posted": "2026-08-19",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7872406003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7872408003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -31346,7 +34232,6 @@ window.JOBS_FINTECH = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
-    "permit": true,
     "stack": [],
     "seen": "2026-09-05",
     "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About the Brand & Communications team Brand and Communications shapes how the world sees Affirm, and how Affirm chooses to be seen. That means showing up where perception takes shape: in culture and press, across Affirm's owned and paid channels, and within the company. We hold a high standard for craft and clarity, and we work to make Affirm a brand people understand, trust, and are proud to choose. About the Role We're looking for a Brand Manager to turn business priorities and consumer insight into campaigns that…",
@@ -31462,17 +34347,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-6922638003",
+    "id": "gh-affirm-6922636003",
     "title": "Senior Software engineer (Furnishing Platform)",
     "company": "Affirm",
     "locations": [
-      "Poland"
+      "Spain"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": null,
+    "salary": "€ 000 – 122 000",
     "posted": "2026-08-19",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/6922638003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/6922636003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -31480,6 +34365,7 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": "Senior",
     "spec": null,
+    "permit": true,
     "stack": [
       "Python",
       "Kotlin",
@@ -31703,6 +34589,82 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-05",
     "descShort": "ABOUT PLEO Messy spend management is tricky business. And tedious processes are a lose-lose situation for all involved, not just finance. At Pleo, we're changing that. We build spend solutions that make managing money seamless, empowering, and surprisingly effective for finance teams and employees alike - with a vision to help all businesses ‘go beyond’. The word ‘Pleo’ actually means ‘more than you’d expect’, and living by that mantra has been the secret to our success over the last 10 years. Now, we’re at a pivotal moment in our journey; every move we make has a direct impact on our 40,000+ customers, our business, and our collective success. We need people who take pride in uncovering…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-veriff-8626079002",
+    "title": "Head of Product Marketing",
+    "company": "Veriff",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "$ 220 000 – 250 000",
+    "posted": "2026-08-19",
+    "url": "https://www.veriff.com/careers/position/8626079002?gh_jid=8626079002",
+    "site": "veriff.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Продакт",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Veriff is the trust infrastructure platform for the world’s most innovative companies, and we need the market to understand exactly why that matters and why it matters with us rather than anyone else. The Head of Product Marketing will own that answer. This is a high-impact role at a pivotal moment: a vertical go-to-market motion is being built, and the company is sharpening its focus on segment-driven growth. Product Marketing sits at the center of it all and owns positioning, enabling Sales, shaping vertical strategy, and driving how our products go to market. This is a build-and-elevate role. You will bring structure, clarity, and commercial impact to a function that is critical to…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-veriff-8609896002",
+    "title": "Senior Software Engineer - Verification Platform",
+    "company": "Veriff",
+    "locations": [
+      "Tallinn, Spain"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-08-19",
+    "url": "https://www.veriff.com/careers/position/8609896002?gh_jid=8609896002",
+    "site": "veriff.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Beneath a simple yet elegant user interface lies a complex system of functionalities. Our AI-powered product uses advanced image recognition, facial verification, face recognition, facial anti-spoofing (liveness detection), and behavior analysis to make identity decisions. We help our partners build onboarding processes that ensure good people get things done and bad folks get stopped. To take our platform to the next level, we're looking for a Senior Software Engineer to join the Verification Platform team. This team owns the workflow orchestration engine and the automated verification decisioning pipeline that powers Veriff's core product — and that other product teams across Identity…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-eea63274-c018-4687-96a8-8d89b37533d2",
+    "title": "Partnerships Marketing",
+    "company": "Nubank",
+    "locations": [
+      "Ciudad de México"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-19",
+    "url": "https://jobs.ashbyhq.com/nubank/eea63274-c018-4687-96a8-8d89b37533d2",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -32193,17 +35155,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7871460003",
+    "id": "gh-affirm-7871462003",
     "title": "Revenue Operations Analyst II",
     "company": "Affirm",
     "locations": [
-      "United States"
+      "Canada"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 100 000 – 150 000",
+    "salary": "$ 77 000 – 127 000",
     "posted": "2026-08-18",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7871460003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7871462003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -32217,46 +35179,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7822385003",
-    "title": "Senior Software Engineer, Backend (Card Acquisition)",
-    "company": "Affirm",
-    "locations": [
-      "Poland"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": null,
-    "posted": "2026-08-18",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7822385003",
-    "site": "affirm.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Банки",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "Платежи",
-    "stack": [
-      "Python",
-      "Kotlin",
-      "AWS",
-      "Kubernetes"
-    ],
-    "seen": "2026-09-05",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Affirm is seeking a Senior Software Engineer to join the Card Acquisition team within the Consumer org. The team plays a critical role in shaping the first experience customers have with Affirm—building trust, clarity, and value from the very first interaction. As a Senior Engineer, you will be responsible for defining long-term technical strategy, mentoring senior engineers, and acting as a force multiplier through your technical depth, operational excellence, and ability to navigate ambiguity. You'll work at the…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-affirm-7636416003",
+    "id": "gh-affirm-7636414003",
     "title": "Senior Software Engineer, Backend (Merchant & Partner Lifecycle)",
     "company": "Affirm",
     "locations": [
-      "Canada"
+      "United States"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "153 000 – 213 000",
+    "salary": "195 000 – 255 000",
     "posted": "2026-08-18",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7636416003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7636414003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -32382,6 +35315,193 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-05",
     "descShort": "ABOUT PLEO Messy spend management is tricky business. And tedious processes are a lose-lose situation for all involved, not just finance. At Pleo, we're changing that. We build spend solutions that make managing money seamless, empowering, and surprisingly effective for finance teams and employees alike - with a vision to help all businesses ‘go beyond’. The word ‘Pleo’ actually means ‘more than you’d expect’, and living by that mantra has been the secret to our success over the last 10 years. Now, we’re at a pivotal moment in our journey; every move we make has a direct impact on our 40,000+ customers, our business, and our collective success. We need people who take pride in uncovering…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-elliptic-b8bf44e1-db4a-43af-9afe-a3d32171d8a0",
+    "title": "Senior Software Engineer - Data",
+    "company": "Elliptic",
+    "locations": [
+      "London, United Kingdom"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-18",
+    "url": "https://jobs.ashbyhq.com/elliptic/b8bf44e1-db4a-43af-9afe-a3d32171d8a0",
+    "source": "ashby",
+    "site": "elliptic.co",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "Java",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Do you want to help define the future of finance? Are you a strong software engineer who's passionate about data, distributed systems, and delivering impact at scale? Are you looking for a values-driven company that invests in its people and gives you the autonomy to shape critical systems, while staying close to the code? We're looking for a Senior Software Engineer to join Elliptic's Product-Engineering organisation, focusing on data engineering solutions that power our blockchain analytics and intelligence products. This is a hands-on engineering role: as a senior member of the team, you will spend the majority of your time designing, building, and shipping the data platform yourself…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-feedzai-7745616",
+    "title": "Engineering Manager - Performance & Reliability",
+    "company": "Feedzai",
+    "locations": [
+      "Portugal"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-18",
+    "url": "https://careers.feedzai.com/job_description?gh_jid=7745616",
+    "site": "feedzai.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "At Feedzai, we're building a world of safer money. A world where financial institutions move faster than criminals. Where the payments that fund real lives through salaries, savings, and businesses are protected in real time. We use trusted AI to detect and prevent financial crime, fraud, and money laundering at scale: the world's top banks, payment networks, and acquirers trust our technology to safeguard more than one billion consumers and $9 trillion in payment volume every year. Feedzai is a Series D company and has raised $282M to date. With a valuation of $2 billion, our technology protects 1 billion consumers and 90 billion transactions each year. The Engineering (Tech) Team is…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-moonfare-7742650003",
+    "title": "GTM AI Engineer (m/f/d)",
+    "company": "Moonfare",
+    "locations": [
+      "Berlin, Germany"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-18",
+    "url": "https://www.moonfare.com/open-position/?gh_jid=7742650003",
+    "site": "moonfare.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join the team rewriting the rules in private markets. Moonfare delivers what few others can: the highly sought-after funds and hidden-gem investments that go beyond what most private banks offer. Every opportunity is subjected to a ruthless vetting process; the bar is unforgivingly high. The result? Institutional-quality portfolios for investors who demand more. Our team combines finance veterans with talent from tech, consulting, law and industries you’d never expect. Headquartered in Berlin, we operate from eight offices across Europe, the US and Asia. If you're ready to build what's next in private markets, let's talk. GTM AI Engineer (m/f/d) This newly created role will join Moonfare’s…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-moonfare-7848066003",
+    "title": "GTM Business Intelligence Manager (f/m/d)",
+    "company": "Moonfare",
+    "locations": [
+      "Berlin, Germany"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-18",
+    "url": "https://www.moonfare.com/open-position/?gh_jid=7848066003",
+    "site": "moonfare.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Join the team rewriting the rules in private markets. Moonfare delivers what few others can: the highly sought-after funds and hidden-gem investments that go beyond what most private banks offer. Every opportunity is subjected to a ruthless vetting process; the bar is unforgivingly high. The result? Institutional-quality portfolios for investors who demand more. Our team combines finance veterans with talent from tech, consulting, law and industries you’d never expect. Headquartered in Berlin, we operate from eight offices across Europe, the US and Asia. If you're ready to build what's next in private markets, let's talk. GTM Business Intelligence Manager (m/f/d) We are looking for a highly…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-moonfare-7835642003",
+    "title": "(Senior) Brand Designer",
+    "company": "Moonfare",
+    "locations": [
+      "London, United Kingdom"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-18",
+    "url": "https://www.moonfare.com/open-position/?gh_jid=7835642003",
+    "site": "moonfare.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Дизайн",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Figma"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Moonfare delivers what few others can: the highly sought-after funds and hidden-gem investments that go beyond what most private banks offer. Every opportunity is subjected to a ruthless vetting process; the bar is unforgivingly high. The result? Institutional-quality portfolios for investors who demand more. Our team combines finance veterans with talent from tech, consulting, law and industries you'd never expect. Headquartered in Berlin, we operate from eight offices across Europe, the US and Asia. If you're ready to build what's next in private markets, let's talk. (Senior) Brand Designer Moonfare is at an inflection point. We are 10 years in the making, with almost €4 billion in AUM…",
+    "hasDesc": true
+  },
+  {
+    "id": "lv-dlocal-9990577d-904e-4bdb-9190-41347645f79b",
+    "title": "Data Specialist for Compliance — Transaction Monitoring & Financial Crime",
+    "company": "dLocal",
+    "locations": [
+      "Madrid"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-18",
+    "url": "https://jobs.lever.co/dlocal/9990577d-904e-4bdb-9190-41347645f79b",
+    "source": "lever",
+    "site": "dlocal.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Why Join dLocal? dLocal is the financial infrastructure powering global commerce in the world's fastest-growing markets. The biggest companies in the world trust us to unlock growth in 60+ countries across emerging markets—moving money where others see complexity. We don't just process payments; we are architects of payment ecosystems and partners in our customers' expansion. You'll work alongside 1,300+ teammates from 40+ nationalities and tackle global challenges from day one. What's the opportunity? We're looking for a seasoned Data Specialist with at least 5 years of experience to join our Compliance team, focused on Anti-Money Laundering (AML) and Countering the Financing of Terrorism…",
+    "hasDesc": true
+  },
+  {
+    "id": "lv-dlocal-f3e9b742-9530-4f0c-b70c-83bf24cc602a",
+    "title": "Staff Engineer - Java",
+    "company": "dLocal",
+    "locations": [
+      "Barcelona"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-18",
+    "url": "https://jobs.lever.co/dlocal/f3e9b742-9530-4f0c-b70c-83bf24cc602a",
+    "source": "lever",
+    "site": "dlocal.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Бэкенд",
+    "stack": [
+      "Java",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Why Join dLocal? dLocal is the financial infrastructure powering global commerce in the world's fastest-growing markets. The biggest companies in the world trust us to unlock growth in 60+ countries across emerging markets—moving money where others see complexity. We don't just process payments; we are architects of payment ecosystems and partners in our customers' expansion. You'll work alongside 1,300+ teammates from 40+ nationalities and tackle global challenges from day one. We are looking for a highly skilled Staff Engineer to join our Payments Performance team. This team is focused on optimizing payment performance across multiple dimensions: improving conversion rates, maximizing…",
     "hasDesc": true
   },
   {
@@ -32826,17 +35946,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-clearbank-8067982",
+    "id": "gh-clearbank-8043856",
     "title": "Senior Software Engineer, Java",
     "company": "ClearBank",
     "locations": [
-      "New York, United States"
+      "Austin, United States"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 225 000 – 300 000",
+    "salary": "$ 210 000 – 280 000",
     "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/clear/jobs/8067982",
+    "url": "https://job-boards.greenhouse.io/clear/jobs/8043856",
     "site": "clear.bank",
     "source": "greenhouse",
     "industry": "fintech",
@@ -33433,17 +36553,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8641833002",
+    "id": "gh-brex-8641732002",
     "title": "Systems Analyst II",
     "company": "Brex",
     "locations": [
-      "Vancouver, Canada"
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://www.brex.com/careers/8641833002?gh_jid=8641833002",
+    "url": "https://www.brex.com/careers/8641732002?gh_jid=8641732002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -33568,32 +36688,114 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ripple-8030786",
-    "title": "Staff Software Engineer, Data Engineering",
-    "company": "Ripple",
+    "id": "ab-rain-e034d6d6-8ece-486b-b447-ee258f5434b7",
+    "title": "Product Manager, Blockchain",
+    "company": "Rain",
     "locations": [
-      "London, United Kingdom"
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
+    "salary": "$175K – $225K • Offers Equity • Offers Bonus",
+    "posted": "2026-08-17",
+    "url": "https://jobs.ashbyhq.com/rain/e034d6d6-8ece-486b-b447-ee258f5434b7",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Продакт",
+    "grade": null,
+    "spec": "Блокчейн",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "About the Company Rain is the global stablecoin payments platform for enterprises, neobanks, platforms, developers, and AI agents. Our technology allows partners to move, store, and use stablecoins instantly and compliantly through global payment cards, rewards, on/offramps, wallets, and cross-border rails. As both a Visa and Mastercard Principal Member, Rain issues cards that work at more than 175 million merchant locations in over 220 countries and territories. Built natively for stablecoins and trusted by more than 100 organizations worldwide, Rain delivers secure, scalable infrastructure that makes money move freely and instantly around the world. You will have the opportunity to…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-elliptic-fb3723ef-f971-4d57-9acd-94659dec4a1c",
+    "title": "Fullstack Engineer",
+    "company": "Elliptic",
+    "locations": [
+      "Washington, D.C."
+    ],
+    "remote": true,
+    "rkind": null,
     "salary": null,
-    "posted": "2026-08-16",
-    "url": "https://ripple.com/careers/all-jobs/job/8030786?gh_jid=8030786",
-    "site": "ripple.com",
-    "source": "greenhouse",
+    "posted": "2026-08-17",
+    "url": "https://jobs.ashbyhq.com/elliptic/fb3723ef-f971-4d57-9acd-94659dec4a1c",
+    "source": "ashby",
+    "site": "elliptic.co",
     "industry": "fintech",
     "kind": "Крипта",
     "role": "Программирование",
     "grade": null,
-    "spec": "Данные",
+    "spec": null,
     "stack": [
-      "Unity",
-      "Python",
-      "SQL",
-      "AWS"
+      "TypeScript",
+      "AWS",
+      "Kubernetes"
     ],
     "seen": "2026-09-05",
-    "descShort": "At Ripple, we’re building a world where value moves like information does today. It’s big, it’s bold, and we’re already doing it. Through our crypto solutions for financial institutions, businesses, governments and developers, we are improving the global financial system and creating greater economic fairness and opportunity for more people, in more places around the world. And we get to do the best work of our career and grow our skills surrounded by colleagues who have our backs. If you’re ready to see your impact and unlock incredible career growth opportunities, join us, and build real world value. Role Overview At Ripple, we're building a world where value moves like information does…",
+    "descShort": "Company description: Elliptic is the leader in digital asset decisioning, we have built the most comprehensive platform for efficiently extracting crypto data and intelligence across blockchains with the greatest accuracy. Our platform’s unrivalled uptime, scalability, depth and breadth of our data and intelligence means exacting organizations choose Elliptic for their compliance, risk management, intelligence operations and blockchain infrastructure needs. Founded in 2013, Elliptic is headquartered in London with offices in New York, Washington D.C., Miami, San Francisco, UAE, Singapore, Hong Kong and Tokyo. To learn more, visit www.elliptic.co http://www.elliptic.co and follow us on…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-c5d9d4bf-ed51-4fdc-b658-58056b3fec19",
+    "title": "Staff Software Engineer - Digital Experience Platform",
+    "company": "Nubank",
+    "locations": [
+      "São Paulo",
+      "Campinas",
+      "Palo Alto",
+      "Toronto",
+      "Belo Horizonte",
+      "Miami",
+      "Rio de Janeiro"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-17",
+    "url": "https://jobs.ashbyhq.com/nubank/c5d9d4bf-ed51-4fdc-b658-58056b3fec19",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Figma"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-4fddc7b7-7881-4d95-aaf7-fbdd1b4b85be",
+    "title": "Model Risk Senior Specialist",
+    "company": "Nubank",
+    "locations": [
+      "São Paulo"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-17",
+    "url": "https://jobs.ashbyhq.com/nubank/4fddc7b7-7881-4d95-aaf7-fbdd1b4b85be",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Риски",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -34188,17 +37390,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8430182002",
+    "id": "gh-brex-8430197002",
     "title": "Staff Software Engineer, Product Data Platform",
     "company": "Brex",
     "locations": [
-      "San Francisco, United States"
+      "Seattle, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 240 000 – 300 000",
     "posted": "2026-08-14",
-    "url": "https://www.brex.com/careers/8430182002?gh_jid=8430182002",
+    "url": "https://www.brex.com/careers/8430197002?gh_jid=8430197002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -34319,17 +37521,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7829427003",
+    "id": "gh-affirm-7829429003",
     "title": "Staff Software Engineer, Mobile (App Infrastructure)",
     "company": "Affirm",
     "locations": [
-      "United States"
+      "Canada"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 230 000 – 290 000",
+    "salary": "$ 181 000 – 241 000",
     "posted": "2026-08-14",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7829427003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7829429003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -34343,6 +37545,205 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-05",
     "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. App Infrastructure is the team behind Affirm's shared mobile app infrastructure — the platform every other mobile feature team builds on. We own the app’s shared components: design system, networking, observability, experimentation, CI/CD, app releases, developer tooling, availability/stability, and more. We care about ownership: shipping tools and runbooks other teams actually adopt, writing specs before building, and being the go to experts for the mobile tech stack . We're small, technical, and highly collaborative.…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-rain-f2b4722b-7c9c-4053-9fdd-f04e2cba1ff7",
+    "title": "Senior Product Manager - Blockchain",
+    "company": "Rain",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$215K – $250K • Offers Equity • Offers Bonus",
+    "posted": "2026-08-14",
+    "url": "https://jobs.ashbyhq.com/rain/f2b4722b-7c9c-4053-9fdd-f04e2cba1ff7",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Продакт",
+    "grade": "Senior",
+    "spec": "Блокчейн",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "About the Company Rain is the global stablecoin payments platform for enterprises, neobanks, platforms, developers, and AI agents. Our technology allows partners to move, store, and use stablecoins instantly and compliantly through global payment cards, rewards, on/offramps, wallets, and cross-border rails. As both a Visa and Mastercard Principal Member, Rain issues cards that work at more than 175 million merchant locations in over 220 countries and territories. Built natively for stablecoins and trusted by more than 100 organizations worldwide, Rain delivers secure, scalable infrastructure that makes money move freely and instantly around the world. You will have the opportunity to…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-rain-e804ea07-b279-4c88-a838-174ff52fe0db",
+    "title": "Product Marketing Manager - Cards",
+    "company": "Rain",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$140K – $175K • Offers Equity • Offers Bonus",
+    "posted": "2026-08-14",
+    "url": "https://jobs.ashbyhq.com/rain/e804ea07-b279-4c88-a838-174ff52fe0db",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "About the Company Rain is the global stablecoin payments platform for enterprises, neobanks, platforms, developers, and AI agents. Our technology allows partners to move, store, and use stablecoins instantly and compliantly through global payment cards, rewards, on/offramps, wallets, and cross-border rails. As both a Visa and Mastercard Principal Member, Rain issues cards that work at more than 175 million merchant locations in over 220 countries and territories. Built natively for stablecoins and trusted by more than 100 organizations worldwide, Rain delivers secure, scalable infrastructure that makes money move freely and instantly around the world. You will have the opportunity to…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-rain-6aa4cf9f-58bd-45a5-bce0-e0da60ee7a8a",
+    "title": "Product Marketing Manager - Money Movement",
+    "company": "Rain",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$140K – $175K • Offers Equity • Offers Bonus",
+    "posted": "2026-08-14",
+    "url": "https://jobs.ashbyhq.com/rain/6aa4cf9f-58bd-45a5-bce0-e0da60ee7a8a",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Swift"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About the Company Rain is the global stablecoin payments platform for enterprises, neobanks, platforms, developers, and AI agents. Our technology allows partners to move, store, and use stablecoins instantly and compliantly through global payment cards, rewards, on/offramps, wallets, and cross-border rails. As both a Visa and Mastercard Principal Member, Rain issues cards that work at more than 175 million merchant locations in over 220 countries and territories. Built natively for stablecoins and trusted by more than 100 organizations worldwide, Rain delivers secure, scalable infrastructure that makes money move freely and instantly around the world. You will have the opportunity to…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-paxos-c042ef9c-efb9-45d3-a0e3-b55ddf491f15",
+    "title": "Product Compliance Manager",
+    "company": "Paxos",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "$116K – $132.6K • Offers Equity • Offers Bonus • 10% Annual Salary",
+    "posted": "2026-08-14",
+    "url": "https://jobs.ashbyhq.com/paxos/c042ef9c-efb9-45d3-a0e3-b55ddf491f15",
+    "source": "ashby",
+    "site": "paxos.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Applying to Paxos? Our only careers site is paxos.com/careers http://paxos.com/careers, and we only recruit via @paxos.com http://paxos.com email. Details below. ___ ABOUT PAXOS Today’s financial infrastructure is archaic, expensive, inefficient and risky — supporting a system that leaves out more people than it lets in. So we’re rebuilding it. We’re on a mission to open the world’s financial system to everyone by enabling the instant movement of any asset, any time, in a trustworthy way. For over a decade, we’ve built blockchain infrastructure that tokenizes, custodies, trades and settles assets for the world’s leading financial institutions, like Mastercard, Visa, Robinhood, and PayPal.…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-f2168974-d84b-4167-8991-af808ff74b59",
+    "title": "Senior Product Designer",
+    "company": "Nubank",
+    "locations": [
+      "Miami",
+      "Palo Alto"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-14",
+    "url": "https://jobs.ashbyhq.com/nubank/f2168974-d84b-4167-8991-af808ff74b59",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Дизайн",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Figma"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-ec39aa8f-cf17-4034-a56b-1edc05624313",
+    "title": "Staff Product Manager",
+    "company": "Nubank",
+    "locations": [
+      "Bogota"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-14",
+    "url": "https://jobs.ashbyhq.com/nubank/ec39aa8f-cf17-4034-a56b-1edc05624313",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Продакт",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-ce062357-135c-41b2-aa30-0e3d12da09a0",
+    "title": "Controllership Specialist - Regulatory",
+    "company": "Nubank",
+    "locations": [
+      "São Paulo"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-14",
+    "url": "https://jobs.ashbyhq.com/nubank/ce062357-135c-41b2-aa30-0e3d12da09a0",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-ce2fa4ff-c690-484b-a563-cabb860ceac5",
+    "title": "Tech Lead Software Engineer - Reliability",
+    "company": "Nubank",
+    "locations": [
+      "São Paulo"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-14",
+    "url": "https://jobs.ashbyhq.com/nubank/ce2fa4ff-c690-484b-a563-cabb860ceac5",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -34774,17 +38175,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-sumup-8634773002",
+    "id": "gh-sumup-8693566002",
     "title": "Growth Associate - Bank & Lending",
     "company": "SumUp",
     "locations": [
-      "Berlin, Germany"
+      "Paris, France"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-13",
-    "url": "https://sumup.com/careers/positions/8634773002?gh_jid=8634773002",
+    "url": "https://sumup.com/careers/positions/8693566002?gh_jid=8693566002",
     "site": "sumup.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -35601,44 +39002,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4952387101",
-    "title": "Data Analyst - Financial Crime",
-    "company": "Ebury",
-    "locations": [
-      "Madrid"
-    ],
-    "remote": false,
-    "rkind": "hybrid",
-    "salary": null,
-    "posted": "2026-08-13",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4952387101",
-    "site": "ebury.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Данные и ML",
-    "grade": null,
-    "spec": "Комплаенс",
-    "stack": [
-      "Python",
-      "SQL"
-    ],
-    "seen": "2026-09-05",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Data Analyst - Financial Crime Location: Málaga or Madrid (Spain) - Hybrid: 4 days in the office, 1 day working from home per week Ebury’s strategic growth plan would not be possible without our Data Analytics & Anti-Money…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-ebury-4952379101",
+    "id": "gh-ebury-4918365101",
     "title": "Data Analyst - Fincrime Reporting",
     "company": "Ebury",
     "locations": [
-      "Madrid"
+      "Málaga"
     ],
     "remote": false,
-    "rkind": "hybrid",
+    "rkind": null,
     "salary": null,
     "posted": "2026-08-13",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4952379101",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4918365101",
     "site": "ebury.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -35652,33 +39026,6 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-05",
     "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Data Analyst - FCC Reporting Location: Málaga or Madrid (Spain) - Hybrid: 4 days in the office, 1 day working from home per week Ebury’s strategic growth plan would not be possible without our Data Analytics & Compliance team…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-ebury-4952385101",
-    "title": "Data Analyst II - Treasury",
-    "company": "Ebury",
-    "locations": [
-      "Málaga"
-    ],
-    "remote": false,
-    "rkind": "hybrid",
-    "salary": null,
-    "posted": "2026-08-13",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4952385101",
-    "site": "ebury.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Данные и ML",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Python",
-      "SQL"
-    ],
-    "seen": "2026-09-05",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Data Analyst - Treasury Location: Málaga or Madrid (Spain) - Hybrid: 4 days in the office, 1 day working from home per week Ebury’s strategic growth plan would not be possible without our Data Analytics & Reporting team and…",
     "hasDesc": true
   },
   {
@@ -35732,17 +39079,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4952134101",
+    "id": "gh-ebury-4952133101",
     "title": "FX Solution Product Manager - Maritime",
     "company": "Ebury",
     "locations": [
-      "Hamburg"
+      "Dubai"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-13",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4952134101",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4952133101",
     "site": "ebury.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -35752,7 +39099,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-05",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Client Solution & Product Manager - Maritime FX Ebury Hamburg - Office based We’re looking for a Client Solution & Product Manager to fuel the growth of our Maritime Partnerships business. This role is a unique opportunity to…",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Client Solution & Product Manager - Maritime FX Ebury Dubai - Office based We’re looking for a Client Solution & Product Manager to fuel the growth of our Maritime Partnerships business. This role is a unique opportunity to…",
     "hasDesc": true
   },
   {
@@ -35806,17 +39153,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4952144101",
+    "id": "gh-ebury-4952145101",
     "title": "Senior Quantitative Treasury & ALM Risk",
     "company": "Ebury",
     "locations": [
-      "Madrid"
+      "Málaga"
     ],
     "remote": false,
-    "rkind": "hybrid",
+    "rkind": null,
     "salary": null,
     "posted": "2026-08-13",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4952144101",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4952145101",
     "site": "ebury.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -35829,7 +39176,7 @@ window.JOBS_FINTECH = [
       "SQL"
     ],
     "seen": "2026-09-05",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Senior Quantitative Treasury/ALM Risk Modelling & Analytics Treasury Ebury Madrid Office - Hybrid: 4 days in the office, 1 day working from home per week Ebury is a dynamic fintech company at the forefront of financial…",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Quantitative Treasury/ALM Risk Modelling & Analytics Treasury Ebury Malaga Office - Hybrid: 4 days in the office, 1 day working from home per week Ebury is a dynamic fintech company at the forefront of financial innovation.…",
     "hasDesc": true
   },
   {
@@ -36060,6 +39407,63 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-05",
     "descShort": "ABOUT MIDDESK: Middesk is building the data and intelligence infrastructure that helps businesses work together with confidence. We started by creating a comprehensive platform for understanding businesses, bringing together authoritative and proprietary data to help customers verify business identities, onboard customers faster, and manage risk throughout the customer lifecycle. Today, Middesk is used by more than 700 banks and fintechs, and in 2025 we verified more than 7 million companies. We've also expanded beyond business verification to help companies form, register, manage, and maintain their businesses, supporting more than 50,000 companies in setting up over 100,000 accounts…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-complyadvantage-8695862002",
+    "title": "Software Engineer",
+    "company": "ComplyAdvantage",
+    "locations": [
+      "Lisbon, Portugal"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "EUR 48 000 – 60 000",
+    "posted": "2026-08-13",
+    "url": "https://complyadvantage.com/careers/jobs/8695862002?gh_jid=8695862002",
+    "site": "complyadvantage.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "Java",
+      "Kotlin",
+      "TypeScript",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "What you will be doing: We are looking for driven, talented Software Engineers to join our Transaction Services team within the Platform Tribe. You will help build and maintain backend platform components that power our SaaS-based transaction monitoring solutions and enable new client product offerings. As a Software Engineer, you will: • Write new features that enable orchestration of complex workflows in our platform as well as large scale data migrations • Join one of our scrum teams and help us make the right technical and architectural decisions as we evolve and scale our systems. As a team member, we will look to you to sometimes take a lead in these discussions and bring your own…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-riskified-8545289002",
+    "title": "Senior AI Engineer",
+    "company": "Riskified",
+    "locations": [
+      "Lisbon"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-13",
+    "url": "https://www.riskified.com/careers/job-description/?gh_jid=8545289002",
+    "site": "riskified.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Us Riskified empowers businesses to unleash ecommerce growth by taking risk off the table. Many of the world’s biggest brands and publicly traded companies selling online rely on Riskified for guaranteed protection against chargebacks, to fight fraud and policy abuse at scale, and to improve customer retention. Developed and managed by the largest team of ecommerce risk analysts, data scientists and researchers, Riskified’s AI-powered fraud and risk intelligence platform analyzes the individual behind each interaction to provide real-time decisions and robust identity-based insights. Riskified is proud to work with incredible companies in virtually all industries including Acer…",
     "hasDesc": true
   },
   {
@@ -36463,17 +39867,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ripple-8126240",
+    "id": "gh-ripple-8126238",
     "title": "Staff Security Engineer",
     "company": "Ripple",
     "locations": [
-      "London, United Kingdom"
+      "Dublin, Ireland"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-12",
-    "url": "https://ripple.com/careers/all-jobs/job/8126240?gh_jid=8126240",
+    "url": "https://ripple.com/careers/all-jobs/job/8126238?gh_jid=8126238",
     "site": "ripple.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -36672,6 +40076,33 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-affirm-7793244003",
+    "title": "Analytics Lead, Full Stack",
+    "company": "Affirm",
+    "locations": [
+      "Canada"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "$ 145 000 – 205 000",
+    "posted": "2026-08-12",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7793244003",
+    "site": "affirm.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Аналитика",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About the Finance team The Finance team ensures Affirm remains financially sound and strategically positioned for growth. Our team manages financial planning, accounting, pricing, vendor management, tax, investor relations, and corporate development. We deliver timely insights, accurate reporting, and careful analysis to support decision-making. From day-to-day financial operations to major investments, we enable sustainable, informed growth by maintaining strong fiscal discipline. About the team The Merchant Pricing…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-affirm-7814576003",
     "title": "Analytics Lead, Strategic Insights (Compliance)",
     "company": "Affirm",
@@ -36748,17 +40179,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7822389003",
+    "id": "gh-affirm-7822387003",
     "title": "Machine Learning Engineer II (Underwriting ML)",
     "company": "Affirm",
     "locations": [
-      "Canada"
+      "United States"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 133 000 – 183 000",
+    "salary": "$ 165 000 – 225 000",
     "posted": "2026-08-12",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7822389003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7822387003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -36770,7 +40201,7 @@ window.JOBS_FINTECH = [
       "Python"
     ],
     "seen": "2026-09-05",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. On the Underwriting ML team, you’ll build and improve machine learning systems that make real-time transaction decisions, assessing the repayment risk and expected value of every Affirm checkout. You’ll work closely with experienced ML engineers, platform partners, and cross-functional stakeholders to take models from idea to prototype to production…",
+    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. On the Underwriting ML team, you’ll build and improve machine learning systems that make real-time transaction decisions, assessing the repayment risk and expected value of every Affirm checkout. You’ll work closely with experienced ML engineers, platform partners, and cross-functional stakeholders to take models from idea to prototype to production, and to keep them healthy with strong measurement and monitoring as user behavior and macroeconomic conditions evolve. What you’ll do - You will develop and iterate on…",
     "hasDesc": true
   },
   {
@@ -36883,17 +40314,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7775353003",
+    "id": "gh-affirm-7775355003",
     "title": "Model Risk Management Lead, Machine Learning",
     "company": "Affirm",
     "locations": [
-      "United States"
+      "Canada"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 185 000 – 245 000",
+    "salary": "$ 145 000 – 205 000",
     "posted": "2026-08-12",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7775353003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7775355003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -36967,17 +40398,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7671390003",
+    "id": "gh-affirm-7671388003",
     "title": "Senior CIAM Software Engineer",
     "company": "Affirm",
     "locations": [
-      "Canada"
+      "United States"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 153 000 – 213 000",
+    "salary": "$ 195 000 – 255 000",
     "posted": "2026-08-12",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7671390003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7671388003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -37020,17 +40451,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7818070003",
+    "id": "gh-affirm-7818068003",
     "title": "Senior Product Manager, 1: Many Merchant Growth",
     "company": "Affirm",
     "locations": [
-      "Canada"
+      "United States"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 153 000 – 213 000",
+    "salary": "$ 195 000 – 255 000",
     "posted": "2026-08-12",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7818070003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7818068003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -37070,17 +40501,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7773693003",
+    "id": "gh-affirm-7773691003",
     "title": "Senior Product Manager, Credit & Pricing",
     "company": "Affirm",
     "locations": [
-      "Canada"
+      "United States"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 153 000 – 213 000",
+    "salary": "$ 195 000 – 255 000",
     "posted": "2026-08-12",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7773693003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7773691003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -37124,17 +40555,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7785812003",
+    "id": "gh-affirm-7785814003",
     "title": "Senior Software Engineer, Backend (Batch Infrastructure)",
     "company": "Affirm",
     "locations": [
-      "United States"
+      "Canada"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 195 000 – 255 000",
+    "salary": "$ 153 000 – 213 000",
     "posted": "2026-08-12",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7785812003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7785814003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -37183,6 +40614,36 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-affirm-7822383003",
+    "title": "Senior Software Engineer, Backend (Card Acquisition)",
+    "company": "Affirm",
+    "locations": [
+      "Spain"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "€ 86 000 – 122 000",
+    "posted": "2026-08-12",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7822383003",
+    "site": "affirm.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Платежи",
+    "permit": true,
+    "stack": [
+      "Python",
+      "Kotlin",
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Affirm is seeking a Senior Software Engineer to join the Card Acquisition team within the Consumer org. The team plays a critical role in shaping the first experience customers have with Affirm—building trust, clarity, and value from the very first interaction. As a Senior Engineer, you will be responsible for defining long-term technical strategy, mentoring senior engineers, and acting as a force multiplier through your technical depth, operational excellence, and ability to navigate ambiguity. You'll work at the…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-affirm-7801373003",
     "title": "Senior Software Engineer, Backend (Identity International)",
     "company": "Affirm",
@@ -37213,17 +40674,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7708923003",
+    "id": "gh-affirm-7708921003",
     "title": "Senior Software Engineer, Backend (Infrastructure)",
     "company": "Affirm",
     "locations": [
-      "Canada"
+      "United States"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 153 000 – 213 000",
+    "salary": "$ 195 000 – 255 000",
     "posted": "2026-08-12",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7708923003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7708921003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -37242,17 +40703,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7799633003",
+    "id": "gh-affirm-7799631003",
     "title": "Senior Software Engineer, Backend (Lake Analytics Platform)",
     "company": "Affirm",
     "locations": [
-      "Canada"
+      "United States"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 153 000 – 213 000",
+    "salary": null,
     "posted": "2026-08-12",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7799633003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7799631003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -37299,17 +40760,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7808384003",
+    "id": "gh-affirm-7808386003",
     "title": "Senior Software Engineer, Backend (PBA - Growth)",
     "company": "Affirm",
     "locations": [
-      "United States"
+      "Canada"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 195 000 – 255 000",
+    "salary": "$ 153 000 – 213 000",
     "posted": "2026-08-12",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7808384003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7808386003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -37328,17 +40789,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7820308003",
+    "id": "gh-affirm-7820306003",
     "title": "Senior Software Engineer, Backend (Reliability Platform)",
     "company": "Affirm",
     "locations": [
-      "Canada"
+      "United States"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 153 000 – 213 000",
+    "salary": "$ 195 000 – 255 000",
     "posted": "2026-08-12",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7820308003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7820306003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -37473,17 +40934,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7766277003",
+    "id": "gh-affirm-7777094003",
     "title": "Software Engineer II, Back-end (Card Mgmt & Transaction Processing)",
     "company": "Affirm",
     "locations": [
-      "United States"
+      "Canada"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "165 000 – 225 000",
+    "salary": "133 000 – 183 000",
     "posted": "2026-08-12",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7766277003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7777094003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -37502,17 +40963,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7813157003",
+    "id": "gh-affirm-7813159003",
     "title": "Software Engineer II, Backend (Collections)",
     "company": "Affirm",
     "locations": [
-      "Spain"
+      "Poland"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "EUR 73 000 – 109 000",
+    "salary": "259 000 – 379 000",
     "posted": "2026-08-12",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7813157003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7813159003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -37520,7 +40981,6 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": null,
     "spec": "Бэкенд",
-    "permit": true,
     "stack": [
       "Python",
       "Kotlin",
@@ -37561,17 +41021,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7727320003",
+    "id": "gh-affirm-7727322003",
     "title": "Software Engineer II, Backend (Test Infra)",
     "company": "Affirm",
     "locations": [
-      "United States"
+      "Canada"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "165 000 – 225 000",
+    "salary": "$ 133 000 – 183 000",
     "posted": "2026-08-12",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7727320003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7727322003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -37638,17 +41098,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7694938003",
+    "id": "gh-affirm-7694940003",
     "title": "Staff Product Manager, Affirm Bank",
     "company": "Affirm",
     "locations": [
-      "United States"
+      "Canada"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 230 000 – 290 000",
+    "salary": "$ 181 000 – 241 000",
     "posted": "2026-08-12",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7694938003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7694940003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -37686,17 +41146,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7609696003",
+    "id": "gh-affirm-7609694003",
     "title": "Staff Software Engineer",
     "company": "Affirm",
     "locations": [
-      "Poland"
+      "Spain"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "365 000 – 485 000 PLN",
+    "salary": "€ 103 000 – 139 000",
     "posted": "2026-08-12",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7609696003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7609694003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -37704,6 +41164,7 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": null,
     "spec": null,
+    "permit": true,
     "stack": [
       "Python",
       "Kotlin",
@@ -37768,6 +41229,166 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-05",
     "descShort": "Who we are: Sardine is the leading agentic risk platform for fighting financial crime. Our integrated solution unifies data across risk teams to help organizations stop fraud in real time, prevent AI-driven attacks, and automate fraud and AML operations. Sardine’s platform is strengthened by one of the fastest-growing fraud consortiums in the market, spanning more than 6 billion profiled devices, 800 million consumers, and 3 million businesses worldwide. Leading companies including FIS, GoDaddy, Intuit, Edward Jones, ZoomInfo, and Checkout.com rely on Sardine to secure and grow trust in their products. Our culture: - We have hubs in the Bay Area, NYC, Austin, Toronto, and São Paulo.…",
+    "hasDesc": true
+  },
+  {
+    "id": "rc-tether-2708329",
+    "title": "Senior Node.js Software Engineer - Holepunch (100% Remote, Worldwide)",
+    "company": "Tether",
+    "locations": [
+      "Phnom Penh"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-12",
+    "url": "https://careers.tether.io/o/senior-nodejs-software-engineer-holepunch-100-remote-worldwide",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
+    "hasDesc": true
+  },
+  {
+    "id": "lv-anchorage-efe55693-ae11-48cb-ac7f-77b52bdd608b",
+    "title": "Member of Legal, Brokerage and Trading Solutions",
+    "company": "Anchorage",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-08-12",
+    "url": "https://jobs.lever.co/anchorage/efe55693-ae11-48cb-ac7f-77b52bdd608b",
+    "source": "lever",
+    "site": "anchorage.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Трейдинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "At Anchorage Digital, we are building the world’s most advanced digital asset platform for institutions to participate in crypto. Anchorage Digital is a crypto platform that enables institutions to participate in digital assets through custody, staking, trading, governance, settlement, and the industry's leading security infrastructure. Home to Anchorage Digital Bank N.A., the first federally chartered crypto bank in the U.S., Anchorage Digital also serves institutions through Anchorage Digital Singapore, Porto by Anchorage Digital, and other offerings. The company is funded by leading institutions including Andreessen Horowitz, GIC, Goldman Sachs, KKR, and Visa, with its Series D valuation…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-feedzai-8037802",
+    "title": "Field Marketing Associate",
+    "company": "Feedzai",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-08-12",
+    "url": "https://careers.feedzai.com/job_description?gh_jid=8037802",
+    "site": "feedzai.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "At Feedzai, we're building a world of safer money. A world where financial institutions move faster than criminals. Where the payments that fund real lives through salaries, savings, and businesses are protected in real time. We use trusted AI to detect and prevent financial crime, fraud, and money laundering at scale: the world's top banks, payment networks, and acquirers trust our technology to safeguard more than one billion consumers and $9 trillion in payment volume every year. Feedzai is a Series D company and has raised $282M to date. With a valuation of $2 billion, our technology protects 1 billion consumers and 90 billion transactions each year. The Marketing Team is a strategic…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-71df5ee4-57b1-4e96-84e0-8bb67226554c",
+    "title": "Senior Systems Engineer - Cloud Network - BR - 2026",
+    "company": "Nubank",
+    "locations": [
+      "São Paulo",
+      "Campinas",
+      "Belo Horizonte",
+      "Rio de Janeiro"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-12",
+    "url": "https://jobs.ashbyhq.com/nubank/71df5ee4-57b1-4e96-84e0-8bb67226554c",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "DevOps",
+    "stack": [
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-f760df5f-3ee5-4729-bc75-1bc243294313",
+    "title": "Senior Systems Engineer - Computing Squad - CA - 2026",
+    "company": "Nubank",
+    "locations": [
+      "Toronto"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 184 000 – 222 000",
+    "posted": "2026-08-12",
+    "url": "https://jobs.ashbyhq.com/nubank/f760df5f-3ee5-4729-bc75-1bc243294313",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Go",
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-f5199850-837d-4e43-8531-2e5740bd6278",
+    "title": "Senior Security Engineer (Application Security)",
+    "company": "Nubank",
+    "locations": [
+      "São Paulo",
+      "Campinas",
+      "Belo Horizonte",
+      "Rio de Janeiro"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-12",
+    "url": "https://jobs.ashbyhq.com/nubank/f5199850-837d-4e43-8531-2e5740bd6278",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Безопасность",
+    "stack": [
+      "Python",
+      "Kotlin",
+      "Swift"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -37849,17 +41470,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-raisin-4936082101",
+    "id": "gh-raisin-4933599101",
     "title": "Senior Software Engineer - US Payments and Partner Operations (m/f/d)",
     "company": "Raisin",
     "locations": [
-      "Berlin, Germany"
+      "Madrid"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-11",
-    "url": "https://job-boards.eu.greenhouse.io/raisin/jobs/4936082101",
+    "url": "https://job-boards.eu.greenhouse.io/raisin/jobs/4933599101",
     "site": "raisin.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -38412,6 +42033,169 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-feedzai-8121243",
+    "title": "Advanced Software Engineer - Customer Success",
+    "company": "Feedzai",
+    "locations": [
+      "Brazil"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-08-11",
+    "url": "https://careers.feedzai.com/job_description?gh_jid=8121243",
+    "site": "feedzai.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Java",
+      "SQL",
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "At Feedzai, we're building a world of safer money. A world where financial institutions move faster than criminals. Where the payments that fund real lives through salaries, savings, and businesses are protected in real time. We use trusted AI to detect and prevent financial crime, fraud, and money laundering at scale: the world's top banks, payment networks, and acquirers trust our technology to safeguard more than one billion consumers and $9 trillion in payment volume every year. Feedzai is a Series D company and has raised $282M to date. With a valuation of $2 billion, our technology protects 1 billion consumers and 90 billion transactions each year. The Customer Success Engineering…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-feedzai-7681706",
+    "title": "Software Engineer - AML",
+    "company": "Feedzai",
+    "locations": [
+      "Portugal"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-11",
+    "url": "https://careers.feedzai.com/job_description?gh_jid=7681706",
+    "site": "feedzai.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Комплаенс",
+    "stack": [
+      "Java"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "At Feedzai, we're building a world of safer money. A world where financial institutions move faster than criminals. Where the payments that fund real lives through salaries, savings, and businesses are protected in real time. We use trusted AI to detect and prevent financial crime, fraud, and money laundering at scale: the world's top banks, payment networks, and acquirers trust our technology to safeguard more than one billion consumers and $9 trillion in payment volume every year. Feedzai is a Series D company and has raised $282M to date. With a valuation of $2 billion, our technology protects 1 billion consumers and 90 billion transactions each year. The Engineering (Tech) Team is…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-riskified-8587299002",
+    "title": "DevSecOps Engineer",
+    "company": "Riskified",
+    "locations": [
+      "Lisbon"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-11",
+    "url": "https://www.riskified.com/careers/job-description/?gh_jid=8587299002",
+    "site": "riskified.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "Go",
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Us Riskified empowers businesses to unleash ecommerce growth by taking risk off the table. Many of the world’s biggest brands and publicly traded companies selling online rely on Riskified for guaranteed protection against chargebacks, to fight fraud and policy abuse at scale, and to improve customer retention. Developed and managed by the largest team of ecommerce risk analysts, data scientists and researchers, Riskified’s AI-powered fraud and risk intelligence platform analyzes the individual behind each interaction to provide real-time decisions and robust identity-based insights. Riskified is proud to work with incredible companies in virtually all industries including Acer…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-riskified-8591838002",
+    "title": "Payment Fraud Product Manager",
+    "company": "Riskified",
+    "locations": [
+      "Tel Aviv"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-11",
+    "url": "https://www.riskified.com/careers/job-description/?gh_jid=8591838002",
+    "site": "riskified.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Антифрод",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "About Us Riskified is the AI platform powering the eCommerce revolution. We use cutting-edge technology, machine-learning algorithms, and behavioral analytics to identify legitimate customers and keep them moving toward checkout. Merchants use Riskified to increase revenue, prevent fraud, and eliminate customer friction. Riskified has reviewed hundreds of millions of transactions and approved billions of dollars of revenue for merchants across virtually all industries, including a number of Fortune 500 companies. About the Role Our Product Management Team plays a pivotal role in our company, driving product success by working collaboratively with Riskified’s engineering, data science…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-riskified-8613837002",
+    "title": "Software Engineering Team Lead",
+    "company": "Riskified",
+    "locations": [
+      "Lisbon"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-11",
+    "url": "https://www.riskified.com/careers/job-description/?gh_jid=8613837002",
+    "site": "riskified.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Java",
+      "JavaScript",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Us Riskified empowers businesses to unleash ecommerce growth by taking risk off the table. Many of the world’s biggest brands and publicly traded companies selling online rely on Riskified for guaranteed protection against chargebacks, to fight fraud and policy abuse at scale, and to improve customer retention. Developed and managed by the largest team of ecommerce risk analysts, data scientists and researchers, Riskified’s AI-powered fraud and risk intelligence platform analyzes the individual behind each interaction to provide real-time decisions and robust identity-based insights. Riskified is proud to work with incredible companies in virtually all industries including Acer…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-bf401757-0e3c-48f2-bd14-4aaf3f6f0dc6",
+    "title": "Staff Software Engineer - Insurance",
+    "company": "Nubank",
+    "locations": [
+      "São Paulo",
+      "Buenos Aires"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-11",
+    "url": "https://jobs.ashbyhq.com/nubank/bf401757-0e3c-48f2-bd14-4aaf3f6f0dc6",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-monzo-6369658",
     "title": "Lead Data Scientist",
     "company": "Monzo",
@@ -38431,33 +42215,6 @@ window.JOBS_FINTECH = [
     "grade": "Lead",
     "spec": null,
     "stack": [],
-    "seen": "2026-09-05",
-    "descShort": "🚀 We’re on a mission to make money work for everyone. We’re waving goodbye to the complicated and confusing ways of traditional banking. After starting as a prepaid card, our product offering has grown a lot in the last 10 years in the UK. As well as personal and business bank accounts, we offer joint accounts, accounts for 16-17 year olds, a free kids account and credit cards in the UK, with more exciting things to come beyond. Our UK customers can also save, invest and combine their pensions with us. With our hot coral cards and get-paid-early feature, combined with financial education on social media and our award winning customer service, we have a long history of creating magical…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-monzo-6180814",
-    "title": "Senior Data Scientist",
-    "company": "Monzo",
-    "locations": [
-      "Cardiff, London or"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": null,
-    "posted": "2026-08-10",
-    "url": "https://job-boards.greenhouse.io/monzo/jobs/6180814",
-    "site": "monzo.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Банки",
-    "role": "Данные и ML",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "Python",
-      "SQL"
-    ],
     "seen": "2026-09-05",
     "descShort": "🚀 We’re on a mission to make money work for everyone. We’re waving goodbye to the complicated and confusing ways of traditional banking. After starting as a prepaid card, our product offering has grown a lot in the last 10 years in the UK. As well as personal and business bank accounts, we offer joint accounts, accounts for 16-17 year olds, a free kids account and credit cards in the UK, with more exciting things to come beyond. Our UK customers can also save, invest and combine their pensions with us. With our hot coral cards and get-paid-early feature, combined with financial education on social media and our award winning customer service, we have a long history of creating magical…",
     "hasDesc": true
@@ -38591,17 +42348,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4947780101",
+    "id": "gh-ebury-4947779101",
     "title": "Associate Product Manager - Service",
     "company": "Ebury",
     "locations": [
-      "Málaga"
+      "Valencia"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-10",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4947780101",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4947779101",
     "site": "ebury.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -38611,7 +42368,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-05",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Associate Product Manager — Service (Client Operations) Ebury Malaga Office - Hybrid: 4 days in the office, 1 day working from home per week Do you want to own a product at the centre of how Ebury serves its clients - and…",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Associate Product Manager — Service (Client Operations) Ebury Valencia Office - Hybrid: 4 days in the office, 1 day working from home per week Do you want to own a product at the centre of how Ebury serves its clients - and…",
     "hasDesc": true
   },
   {
@@ -38759,6 +42516,60 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-ebury-4922731101",
+    "title": "Data Analyst - Financial Crime",
+    "company": "Ebury",
+    "locations": [
+      "Málaga"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-10",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4922731101",
+    "site": "ebury.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Данные и ML",
+    "grade": null,
+    "spec": "Комплаенс",
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Data Analyst - Financial Crime Location: Málaga or Madrid (Spain) - Hybrid: 4 days in the office, 1 day working from home per week Ebury’s strategic growth plan would not be possible without our Data Analytics & Anti-Money…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-ebury-4934339101",
+    "title": "Data Analyst II - Treasury",
+    "company": "Ebury",
+    "locations": [
+      "Madrid"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-10",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4934339101",
+    "site": "ebury.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Данные и ML",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Data Analyst - Treasury Location: Málaga or Madrid (Spain) - Hybrid: 4 days in the office, 1 day working from home per week Ebury’s strategic growth plan would not be possible without our Data Analytics & Reporting team and…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-ebury-4935600101",
     "title": "Engineering Manager (Ebury Web Platform)",
     "company": "Ebury",
@@ -38887,17 +42698,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4920294101",
+    "id": "gh-ebury-4914694101",
     "title": "Group Head of Sanctions and Exports Controls",
     "company": "Ebury",
     "locations": [
-      "Madrid"
+      "London"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-10",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4920294101",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4914694101",
     "site": "ebury.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -39315,17 +43126,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4947568101",
+    "id": "gh-ebury-4947822101",
     "title": "Senior Software Engineer (Payments)",
     "company": "Ebury",
     "locations": [
-      "Madrid"
+      "London"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-10",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4947568101",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4947822101",
     "site": "ebury.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -39339,7 +43150,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-05",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Senior Software Engineer (Money Flows) Ebury Madrid Office - Hybrid: 4 days in the office, 1 day working from home About the Role The Engineering team at Ebury is looking for a Senior Software Engineer to play a pivotal role…",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Senior Software Engineer (Money Flows) Ebury London Office - Hybrid: 4 days in the office, 1 day working from home About the Role The Engineering team at Ebury is looking for a Senior Software Engineer to play a pivotal role…",
     "hasDesc": true
   },
   {
@@ -39679,6 +43490,108 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "rc-tether-2705806",
+    "title": "AI Research Engineer (Pre-training - LLM & Multi-Modal) - 100% Remote Worldwide",
+    "company": "Tether",
+    "locations": [
+      "United Kindom"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-10",
+    "url": "https://careers.tether.io/o/ai-research-engineer-pre-training-llm-multi-modal-100-remote-worldwide",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-wayflyer-0f539d8d-c5ef-4334-b979-2e20275d4f7c",
+    "title": "Broker Account Manager",
+    "company": "Wayflyer",
+    "locations": [
+      "Charlotte, North Carolina"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-10",
+    "url": "https://jobs.ashbyhq.com/wayflyer/0f539d8d-c5ef-4334-b979-2e20275d4f7c",
+    "source": "ashby",
+    "site": "wayflyer.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Трейдинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "About Wayflyer Today's small businesses need a capital provider that keeps pace with their growth ambitions. Traditional financing options are slow, cumbersome and often out of reach. That's why we built Wayflyer. Our technology allows us to assess businesses in minutes, generate financing offers that reflect their growth potential and send funds in as little as 24 hours. To date, we've deployed over $6bn to thousands of businesses worldwide, backed by Tier 1 banks like J.P. Morgan. You'll be collaborating with ambitious colleagues from around the world. We have offices in Dublin, London, New York, Charlotte, Berlin and Sydney. The challenge Thousands of businesses we've already funded are…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-1c1bb8d8-bb15-4f79-aa39-10f10104e22c",
+    "title": "Conduct Risk Specialist",
+    "company": "Nubank",
+    "locations": [
+      "São Paulo"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-10",
+    "url": "https://jobs.ashbyhq.com/nubank/1c1bb8d8-bb15-4f79-aa39-10f10104e22c",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Риски",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "lv-dlocal-69656039-9233-4406-94de-1dd729eaf8cc",
+    "title": "Platform Architect",
+    "company": "dLocal",
+    "locations": [
+      "Madrid"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-10",
+    "url": "https://jobs.lever.co/dlocal/69656039-9233-4406-94de-1dd729eaf8cc",
+    "source": "lever",
+    "site": "dlocal.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "TypeScript",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Why Join dLocal? dLocal is the financial infrastructure powering global commerce in the world's fastest-growing markets. The biggest companies in the world trust us to unlock growth in 60+ countries across emerging markets—moving money where others see complexity. We don't just process payments; we are architects of payment ecosystems and partners in our customers' expansion. You'll work alongside 1,300+ teammates from 40+ nationalities and tackle global challenges from day one. What’s the opportunity? As a Platform Engineering Technical Referent at dLocal, you will be a senior technical reference for how we design, build and evolve our internal developer platform, our CI/CD automation, and…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-melio-7820154003",
     "title": "Engineering Manager, AP",
     "company": "Melio",
@@ -39707,18 +43620,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7736920003",
+    "id": "gh-okx-7736921003",
     "title": "Principal / Staff Engineer - Compliance",
     "company": "OKX",
     "locations": [
-      "Hong Kong, Hong Kong SAR",
-      "Singapore"
+      "Hong Kong, Hong Kong SAR"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-09",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7736920003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7736921003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -39726,11 +43638,10 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": "Lead",
     "spec": "Комплаенс",
-    "stack": [
-      "Java"
-    ],
+    "permit": true,
+    "stack": [],
     "seen": "2026-09-05",
-    "descShort": "Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things Done. These shared values drive our culture, shape our processes, and foster a friendly, rewarding, and diverse environment for every…",
+    "descShort": "Utilize the link below to copy and paste your new JD from: [Make a Copy] OKX Job Description OR Use the Template Below: OKX will be prioritising applicants who have a current right to work in Hong Kong, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across…",
     "hasDesc": true
   },
   {
@@ -40120,17 +44031,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ripple-7913381",
+    "id": "gh-ripple-7913402",
     "title": "Senior Director, Security Engineering",
     "company": "Ripple",
     "locations": [
-      "New York, United States"
+      "Chicago, United States"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 292 000 – 365 000",
+    "salary": null,
     "posted": "2026-08-07",
-    "url": "https://ripple.com/careers/all-jobs/job/7913381?gh_jid=7913381",
+    "url": "https://ripple.com/careers/all-jobs/job/7913402?gh_jid=7913402",
     "site": "ripple.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -40650,17 +44561,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7778748003",
+    "id": "gh-okx-7778747003",
     "title": "Engineering Director, Mobile, Web3",
     "company": "OKX",
     "locations": [
-      "Hong Kong, Hong Kong SAR"
+      "Singapore"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-07",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7778748003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7778747003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -40671,7 +44582,7 @@ window.JOBS_FINTECH = [
     "permit": true,
     "stack": [],
     "seen": "2026-09-05",
-    "descShort": "OKX will be prioritising applicants who have a current right to work in Hong Kong, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
+    "descShort": "OKX will be prioritising applicants who have a current right to work in Singapore, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
     "hasDesc": true
   },
   {
@@ -40821,18 +44732,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7741411003",
+    "id": "gh-okx-7741363003",
     "title": "Head of Communications and PR, APAC",
     "company": "OKX",
     "locations": [
-      "Australia",
-      "Sydney, Australia"
+      "Singapore"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-07",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7741411003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7741363003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -40925,17 +44835,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7650500003",
+    "id": "gh-okx-7671555003",
     "title": "Principal AI Engineer, AI Agent Development",
     "company": "OKX",
     "locations": [
-      "San Jose, United States"
+      "APAC"
     ],
     "remote": false,
-    "rkind": "hybrid",
+    "rkind": null,
     "salary": null,
     "posted": "2026-08-07",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7650500003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7671555003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -40949,17 +44859,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7650506003",
+    "id": "gh-okx-7648781003",
     "title": "Principal AI Engineer, Chatbot Development",
     "company": "OKX",
     "locations": [
-      "San Jose, United States"
+      "Hong Kong, Hong Kong SAR",
+      "Singapore"
     ],
     "remote": false,
-    "rkind": "hybrid",
+    "rkind": null,
     "salary": null,
     "posted": "2026-08-07",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7650506003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7648781003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -40967,9 +44878,10 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": "Lead",
     "spec": null,
+    "permit": true,
     "stack": [],
     "seen": "2026-09-05",
-    "descShort": "Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things Done. These shared values drive our culture, shape our processes, and foster a friendly, rewarding, and diverse environment for every…",
+    "descShort": "OKX will be prioritising applicants who have a current right to work in Singapore, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
     "hasDesc": true
   },
   {
@@ -40997,17 +44909,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7671576003",
+    "id": "gh-okx-7648794003",
     "title": "Principal Engineer, Agent Infrastructure & Memory Architecture",
     "company": "OKX",
     "locations": [
-      "APAC"
+      "Hong Kong, Hong Kong SAR",
+      "Singapore"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-07",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7671576003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7648794003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -41015,9 +44928,10 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": "Lead",
     "spec": "DevOps",
+    "permit": true,
     "stack": [],
     "seen": "2026-09-05",
-    "descShort": "Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things Done. These shared values drive our culture, shape our processes, and foster a friendly, rewarding, and diverse environment for every…",
+    "descShort": "OKX will be prioritising applicants who have a current right to work in Singapore, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
     "hasDesc": true
   },
   {
@@ -41144,17 +45058,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-6584033003",
+    "id": "gh-okx-6584031003",
     "title": "Principal / Senior Product Manager, Institution Onboarding Experience (KYB)",
     "company": "OKX",
     "locations": [
-      "Singapore"
+      "Hong Kong, Hong Kong SAR"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-07",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/6584033003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/6584031003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -41168,17 +45082,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-6194768003",
+    "id": "gh-okx-7525131003",
     "title": "Principal / Senior Product Manager, Payment",
     "company": "OKX",
     "locations": [
-      "Hong Kong, Hong Kong SAR"
+      "Singapore"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-07",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/6194768003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7525131003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -41295,6 +45209,158 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "ab-paxos-8ce958f4-ddf4-4e48-95f4-7fe790381733",
+    "title": "GRC Analyst",
+    "company": "Paxos",
+    "locations": [
+      "India"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-08-07",
+    "url": "https://jobs.ashbyhq.com/paxos/8ce958f4-ddf4-4e48-95f4-7fe790381733",
+    "source": "ashby",
+    "site": "paxos.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Applying to Paxos? Our only careers site is paxos.com/careers http://paxos.com/careers, and we only recruit via @paxos.com http://paxos.com email. Details below. ___ About Paxos Today’s financial infrastructure is archaic, expensive, inefficient and risky — supporting a system that leaves out more people than it lets in. So we’re rebuilding it. We’re on a mission to open the world’s financial system to everyone by enabling the instant movement of any asset, any time, in a trustworthy way. For over a decade, we’ve built blockchain infrastructure that tokenizes, custodies, trades and settles assets for the world’s leading financial institutions, like Mastercard, Visa, Robinhood, and PayPal.…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-elliptic-59d5880d-2b79-4a60-8499-79c30a9a9b89",
+    "title": "Software Engineering Lead",
+    "company": "Elliptic",
+    "locations": [
+      "London, United Kingdom"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-07",
+    "url": "https://jobs.ashbyhq.com/elliptic/59d5880d-2b79-4a60-8499-79c30a9a9b89",
+    "source": "ashby",
+    "site": "elliptic.co",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "TypeScript",
+      "SQL",
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Do you enjoy building scalable products that empower compliance teams to track fund flows and uncover deeper insights in financial data? Are you excited to solve complex engineering challenges that improve speed, precision, and usability across investigative workflows? Elliptic is seeking a Software Engineering Lead to join our Investigations team https://www.elliptic.co/solutions/investigations. This is a unique opportunity to make a tangible impact at the intersection of cutting-edge technology and financial crime prevention. You’ll lead a team of talented product and data engineers dedicated to building powerful tools that help investigators worldwide uncover and stop illicit activity in…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-elliptic-6984e7dd-e733-4836-9596-5b2fa077698b",
+    "title": "Cryptocurrency Intelligence Analyst",
+    "company": "Elliptic",
+    "locations": [
+      "Washington, D.C."
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": "$85K – $105K",
+    "posted": "2026-08-07",
+    "url": "https://jobs.ashbyhq.com/elliptic/6984e7dd-e733-4836-9596-5b2fa077698b",
+    "source": "ashby",
+    "site": "elliptic.co",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": "Блокчейн",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Elliptic is the leader in digital asset decisioning, we have built the most comprehensive platform for efficiently extracting crypto data and intelligence across blockchains with the greatest accuracy. Our platform’s unrivalled uptime, scalability, depth and breadth of our data and intelligence means exacting organizations choose Elliptic for their compliance, risk management, intelligence operations and blockchain infrastructure needs. Founded in 2013, Elliptic is headquartered in London with offices in New York, Washington D.C., Miami, San Francisco, UAE, Singapore, Hong Kong and Tokyo. To learn more, visit www.elliptic.co http://www.elliptic.co and follow us on LinkedIn…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-elliptic-245d45fd-1a63-45dd-a854-85d94e9789fe",
+    "title": "Senior Crypto Threat Analyst - Sanctions",
+    "company": "Elliptic",
+    "locations": [
+      "London, United Kingdom"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-07",
+    "url": "https://jobs.ashbyhq.com/elliptic/245d45fd-1a63-45dd-a854-85d94e9789fe",
+    "source": "ashby",
+    "site": "elliptic.co",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Комплаенс",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Do you want to be at the forefront of combating crypto-enabled sanctions evasion? Are you excited about leading the intelligence research that helps financial institutions and governments disrupt illicit financial networks? Are you looking for a values-led company that trusts you to own your domain and make a real impact? The impact you will have: Join Elliptic's Intelligence team as the go-to subject matter expert (SME) on cryptoasset sanctions. Sitting at Senior level, you will own Elliptic's end-to-end coverage of sanctioned entities, jurisdictions, and evasion typologies, and translate that expertise into high-quality analytical outputs, scalable monitoring processes, and clear internal…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-elliptic-795d49f2-8eff-414f-bf30-2a0fd9996f0e",
+    "title": "Senior Crypto Threat Analyst - Terrorism",
+    "company": "Elliptic",
+    "locations": [
+      "London, United Kingdom"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-07",
+    "url": "https://jobs.ashbyhq.com/elliptic/795d49f2-8eff-414f-bf30-2a0fd9996f0e",
+    "source": "ashby",
+    "site": "elliptic.co",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Аналитика",
+    "grade": "Senior",
+    "spec": "Блокчейн",
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Do you want to be at the forefront of combating crypto-enabled terrorism financing? Are you excited about leading the intelligence research that helps financial institutions and governments disrupt illicit financial networks? Are you looking for a values-led company that trusts you to own your domain and make a real impact? The impact you will have: As a key contributor to our global intelligence team, you will act as a CTF Subject Matter Expert, leading complex, in-depth investigations into the use of cryptoassets by terrorist actors and facilitation networks. You will validate exposure and attribution confidence, improve workflows, and translate findings into actionable intelligence…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-upvest-c23b82d6-aa88-4458-a60e-ee5260e9f3e9",
+    "title": "AI Platform Engineer (f/m/d)",
+    "company": "Upvest",
+    "locations": [
+      "Berlin"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-07",
+    "url": "https://jobs.ashbyhq.com/upvest/c23b82d6-aa88-4458-a60e-ee5260e9f3e9",
+    "source": "ashby",
+    "site": "upvest.co",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "DevOps",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "At Upvest, we are on a mission to make investing as easy as spending money. Upvest empowers businesses to offer a wide range of investment products and the best experience in the field of capital market investment and retirement planning. Upvest’s Investment API is easy to integrate so that fintechs and financial institutions can save resources and fully focus on their core business. We are proud to partner with Europe’s leading Fintechs and financial institutions such as DKB, Revolut, N26 and Raisin. Founded in 2017 by Martin Kassing, Upvest now brings together over 270 talented professionals from more than 70 nationalities. Upvest is backed by €280M in total funding from world-class…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-monzo-8103509",
     "title": "Lead Machine Learning Scientist, Customer Operations",
     "company": "Monzo",
@@ -41371,6 +45437,30 @@ window.JOBS_FINTECH = [
       "Python",
       "SQL"
     ],
+    "seen": "2026-09-05",
+    "descShort": "🚀 We’re on a mission to make money work for everyone. We’re waving goodbye to the complicated and confusing ways of traditional banking. After starting as a prepaid card, our product offering has grown a lot in the last 10 years in the UK. As well as personal and business bank accounts, we offer joint accounts, accounts for 16-17 year olds, a free kids account and credit cards in the UK, with more exciting things to come beyond. Our UK customers can also save, invest and combine their pensions with us. With our hot coral cards and get-paid-early feature, combined with financial education on social media and our award winning customer service, we have a long history of creating magical…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-monzo-8096406",
+    "title": "Risk Assurance Manager",
+    "company": "Monzo",
+    "locations": [
+      "Barcelona"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-06",
+    "url": "https://job-boards.greenhouse.io/monzo/jobs/8096406",
+    "site": "monzo.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Риски",
+    "grade": null,
+    "spec": null,
+    "stack": [],
     "seen": "2026-09-05",
     "descShort": "🚀 We’re on a mission to make money work for everyone. We’re waving goodbye to the complicated and confusing ways of traditional banking. After starting as a prepaid card, our product offering has grown a lot in the last 10 years in the UK. As well as personal and business bank accounts, we offer joint accounts, accounts for 16-17 year olds, a free kids account and credit cards in the UK, with more exciting things to come beyond. Our UK customers can also save, invest and combine their pensions with us. With our hot coral cards and get-paid-early feature, combined with financial education on social media and our award winning customer service, we have a long history of creating magical…",
     "hasDesc": true
@@ -41891,6 +45981,186 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "ab-elliptic-2785c937-6cbd-45f4-b210-48c6a650b249",
+    "title": "Senior Product Manager",
+    "company": "Elliptic",
+    "locations": [
+      "London, United Kingdom"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-06",
+    "url": "https://jobs.ashbyhq.com/elliptic/2785c937-6cbd-45f4-b210-48c6a650b249",
+    "source": "ashby",
+    "site": "elliptic.co",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Продакт",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "The impact you will have Are you an analytical thinker who thrives in dynamic environments? Do you possess commercial acumen and a passion for crypto and technology? Join our team as a Senior Product Manager and play a pivotal role in shaping Elliptic’s future. In this role, you will own, drive and evolve the vision for our Real-time Risk solutions, building capabilities that detect financial crime risks instantly and empower customers to act on emerging threats as they unfold. You will deeply immerse yourself in our technology, the blockchain analytics and forensics ecosystem, and collaborate closely with our customers, who include some of the most remarkable and influential names in the…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-feedzai-7882365",
+    "title": "Platform Engineer - Compute",
+    "company": "Feedzai",
+    "locations": [
+      "Portugal"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-06",
+    "url": "https://careers.feedzai.com/job_description?gh_jid=7882365",
+    "site": "feedzai.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "DevOps",
+    "stack": [
+      "Java",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "At Feedzai, we're building a world of safer money. A world where financial institutions move faster than criminals. Where the payments that fund real lives through salaries, savings, and businesses are protected in real time. We use trusted AI to detect and prevent financial crime, fraud, and money laundering at scale: the world's top banks, payment networks, and acquirers trust our technology to safeguard more than one billion consumers and $9 trillion in payment volume every year. Feedzai is a Series D company and has raised $282M to date. With a valuation of $2 billion, our technology protects 1 billion consumers and 90 billion transactions each year. With Cloud at its core, the…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-feedzai-8112100",
+    "title": "Product Manager - Fraud Solutions",
+    "company": "Feedzai",
+    "locations": [
+      "Portugal"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-06",
+    "url": "https://careers.feedzai.com/job_description?gh_jid=8112100",
+    "site": "feedzai.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Антифрод",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "At Feedzai, we're building a world of safer money. A world where financial institutions move faster than criminals. Where the payments that fund real lives through salaries, savings, and businesses are protected in real time. We use trusted AI to detect and prevent financial crime, fraud, and money laundering at scale: the world's top banks, payment networks, and acquirers trust our technology to safeguard more than one billion consumers and $9 trillion in payment volume every year. Feedzai is a Series D company and has raised $282M to date. With a valuation of $2 billion, our technology protects 1 billion consumers and 90 billion transactions each year. About the Role: As a highly…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-bitvavo-ab5a5006-72af-4998-9ce0-9da147605fe1",
+    "title": "Senior Platform Engineer",
+    "company": "Bitvavo",
+    "locations": [
+      "Headquarters"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-06",
+    "url": "https://jobs.ashbyhq.com/bitvavo/ab5a5006-72af-4998-9ce0-9da147605fe1",
+    "source": "ashby",
+    "site": "bitvavo.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "DevOps",
+    "stack": [
+      "Python",
+      "Kotlin",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "In 2018, Bitvavo launched the first version of its digital assets trading platform, to bridge the gap between traditional currencies and digital assets. By offering transparent fees, a wide range of assets and an easy to use platform, Bitvavo is making the currency of the future accessible for everyone. In two years' time, Bitvavo has established itself as the market leader in the Netherlands and one of the largest in Europe, with over one million users exchanging tens of billions of digital assets a year. Our team, located in Amsterdam, is looking for self-driven, talented people who can help make digital assets available for everyone. ABOUT THE OPPORTUNITY We are an exchange. System…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-4b4247b9-144f-4d03-9a87-18759244cdbf",
+    "title": "Fraud Operations Manager",
+    "company": "Nubank",
+    "locations": [
+      "Ciudad de México"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-06",
+    "url": "https://jobs.ashbyhq.com/nubank/4b4247b9-144f-4d03-9a87-18759244cdbf",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Антифрод",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-9f47e824-95da-4a23-913c-81abbef86ca2",
+    "title": "Credit Risk Specialist",
+    "company": "Nubank",
+    "locations": [
+      "São Paulo"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-06",
+    "url": "https://jobs.ashbyhq.com/nubank/9f47e824-95da-4a23-913c-81abbef86ca2",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Риски",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "lv-dlocal-c961cedd-8dd1-4e42-8ae8-bac12088a331",
+    "title": "Ethics & Compliance Officer",
+    "company": "dLocal",
+    "locations": [
+      "Montevideo"
+    ],
+    "remote": false,
+    "rkind": "hybrid",
+    "salary": null,
+    "posted": "2026-08-06",
+    "url": "https://jobs.lever.co/dlocal/c961cedd-8dd1-4e42-8ae8-bac12088a331",
+    "source": "lever",
+    "site": "dlocal.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Why Join dLocal? dLocal is the financial infrastructure powering global commerce in the world's fastest-growing markets. The biggest companies in the world trust us to unlock growth in 60+ countries across emerging markets—moving money where others see complexity. We don't just process payments; we are architects of payment ecosystems and partners in our customers' expansion. You'll work alongside 1,300+ teammates from 40+ nationalities and tackle global challenges from day one. What’s the opportunity? We are looking for an Ethics & Integrity Compliance Officer who will serve as the operational owner of the Ethics & Integrity Compliance program. This role is the first point of contact for…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-monzo-6076740",
     "title": "Senior Analytics Engineer",
     "company": "Monzo",
@@ -42229,17 +46499,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-gocardless-8010061",
+    "id": "gh-gocardless-8010060",
     "title": "Senior Global Performance Marketing Manager",
     "company": "GoCardless",
     "locations": [
-      "Leeds, United Kingdom"
+      "London, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "£ 60 000 – 90 000",
+    "salary": "£ 80 000 – 120 000",
     "posted": "2026-08-05",
-    "url": "https://job-boards.greenhouse.io/gocardless/jobs/8010061",
+    "url": "https://job-boards.greenhouse.io/gocardless/jobs/8010060",
     "site": "gocardless.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -42873,27 +47143,238 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-monzo-7686358",
-    "title": "Risk Assurance Manager",
-    "company": "Monzo",
+    "id": "gh-ripple-8009464",
+    "title": "Treasury Implementation Consultant (German-Speaking)",
+    "company": "Ripple",
     "locations": [
-      "Dublin"
+      "Luxembourg"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
-    "posted": "2026-08-04",
-    "url": "https://job-boards.greenhouse.io/monzo/jobs/7686358",
-    "site": "monzo.com",
+    "posted": "2026-08-05",
+    "url": "https://ripple.com/careers/all-jobs/job/8009464?gh_jid=8009464",
+    "site": "ripple.com",
     "source": "greenhouse",
     "industry": "fintech",
-    "kind": "Банки",
-    "role": "Риски",
+    "kind": "Крипта",
+    "role": "Платежи",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "At Ripple, we’re building a world where value moves like information does today. It’s big, it’s bold, and we’re already doing it. Through our crypto solutions for financial institutions, businesses, governments and developers, we are improving the global financial system and creating greater economic fairness and opportunity for more people, in more places around the world. And we get to do the best work of our career and grow our skills surrounded by colleagues who have our backs. If you’re ready to see your impact and unlock incredible career growth opportunities, join us, and build real world value. THE WORK: At Ripple, we empower organizations on their path to strategic treasury through…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-elliptic-3986b0ab-73de-4ef8-9567-0f6c96d5c3a6",
+    "title": "Lead DevOps Engineer",
+    "company": "Elliptic",
+    "locations": [
+      "London, United Kingdom"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-05",
+    "url": "https://jobs.ashbyhq.com/elliptic/3986b0ab-73de-4ef8-9567-0f6c96d5c3a6",
+    "source": "ashby",
+    "site": "elliptic.co",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": "DevOps",
+    "stack": [
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Elliptic has helped trace and disrupt over $21.8 billion in illicit crypto laundered across blockchains, from sanctioned nation states to organized crime networks hiding funds through token swaps and unregulated exchanges. It’s how compliance and investigations teams fight back, tracking and screening transactions with 99% market coverage. The infrastructure behind all of this needs to be as resilient and sharp as the intelligence it delivers. We're looking for a Lead DevOps Engineer to own and evolve our DevOps practices. This is a role for someone who combines deep technical ability with a genuine passion for growing the team. You'll lead a team of DevOps engineers while staying close to…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-fourthline-4635432101",
+    "title": "Backend Software Engineer",
+    "company": "Fourthline",
+    "locations": [
+      "Barcelona, Spain"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-05",
+    "url": "https://job-boards.eu.greenhouse.io/fourthline/jobs/4635432101",
+    "site": "fourthline.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Бэкенд",
+    "stack": [
+      "C#",
+      "AWS",
+      "Docker"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "At Fourthline, our mission is to fight financial crime. We help protect the global financial system by verifying millions of identities for banks, neobanks, online brokers, crypto exchanges, and insurers like N26, Trade Republic, flatexDEGIRO, Nationale Nederlanden, Qonto, Shine, Solarisbank, and more. Having started our journey in January 2018, we're incredibly proud to count around 250 employees between our Amsterdam and Barcelona offices with over 50 nationalities. Prevent financial crime by building best-in-class SaaS solutions with our talented Anti-Money Laundering (AML) and Bank Account Verification (BAV) + Qualified Electronic Signatures (QES) teams in Barcelona—we’re looking for a…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-fourthline-4790055101",
+    "title": "Director of Solutions Engineering & Delivery",
+    "company": "Fourthline",
+    "locations": [
+      "Barcelona, Spain"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-05",
+    "url": "https://job-boards.eu.greenhouse.io/fourthline/jobs/4790055101",
+    "site": "fourthline.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "At Fourthline, our mission is to fight financial crime. We help protect the global financial system by verifying millions of identities for banks, neobanks, online brokers, crypto exchanges, and insurers like N26, Trade Republic, flatexDEGIRO, Nationale Nederlanden, Qonto, Shine, Solarisbank, and more. Having started our journey in January 2018, we're incredibly proud to count around 250 employees between our Amsterdam and Barcelona offices with over 50 nationalities. We’re looking for a Director of Solutions Engineering & Delivery: a relentlessly driven leader who wakes up ready to move mountains, builds high-performing teams, and makes customer outcomes inevitable. You will own the…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-fourthline-4822011101",
+    "title": "Product Manager - Biometric",
+    "company": "Fourthline",
+    "locations": [
+      "Amsterdam, Netherlands"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-05",
+    "url": "https://job-boards.eu.greenhouse.io/fourthline/jobs/4822011101",
+    "site": "fourthline.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Продакт",
     "grade": null,
     "spec": null,
     "stack": [],
     "seen": "2026-09-05",
-    "descShort": "🚀 We’re on a mission to make money work for everyone. We’re waving goodbye to the complicated and confusing ways of traditional banking. After starting as a prepaid card, our product offering has grown a lot in the last 10 years in the UK. As well as personal and business bank accounts, we offer joint accounts, accounts for 16-17 year olds, a free kids account and credit cards in the UK, with more exciting things to come beyond. Our UK customers can also save, invest and combine their pensions with us. With our hot coral cards and get-paid-early feature, combined with financial education on social media and our award winning customer service, we have a long history of creating magical…",
+    "descShort": "At Fourthline, our mission is to fight financial crime. We help protect the global financial system by verifying millions of identities for banks, neobanks, online brokers, crypto exchanges, and insurers like N26, Trade Republic, flatexDEGIRO, Nationale Nederlanden, Qonto, Shine, Solarisbank, and more. Having started our journey in January 2018, we're incredibly proud to count around 250 employees between our Amsterdam and Barcelona offices with over 50 nationalities. We are looking for a passionate Product Manager to lead and grow our Biometrics product suite — one of the most technically sophisticated areas of Fourthline's Identity Verification platform. You'll work at the intersection of…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-fourthline-4780520101",
+    "title": "Senior Backend Software Engineer",
+    "company": "Fourthline",
+    "locations": [
+      "Barcelona, Spain"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-05",
+    "url": "https://job-boards.eu.greenhouse.io/fourthline/jobs/4780520101",
+    "site": "fourthline.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Бэкенд",
+    "stack": [
+      "C#",
+      "AWS",
+      "Docker"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "At Fourthline, our mission is to fight financial crime. We help protect the global financial system by verifying millions of identities for banks, neobanks, online brokers, crypto exchanges, and insurers like N26, Trade Republic, flatexDEGIRO, Nationale Nederlanden, Qonto, Shine, Solarisbank, and more. Having started our journey in January 2018, we're incredibly proud to count around 250 employees between our Amsterdam and Barcelona offices with over 50 nationalities. Prevent financial crime by building best-in-class SaaS solutions with our talented Anti-Money Laundering (AML) and Bank Account Verification (BAV) + Qualified Electronic Signatures (QES) teams in Barcelona—we’re looking for a…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-bitso-7699282003",
+    "title": "Event/Growth Marketing Specialist (B2B)",
+    "company": "Bitso",
+    "locations": [
+      "México"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-05",
+    "url": "https://bitso.com/jobs/7699282003?gh_jid=7699282003",
+    "site": "bitso.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Working At Bitso We are a diverse team that takes pride in understanding the perspectives of others. We fully embrace working remotely and we are eager to act, improve and accelerate progress inside and outside of our organization. To drive revolutionary changes in society and make crypto useful, we delight our customers with world-class products, deep care, and intentional empathy. Your Purpose We're looking for a resourceful, analytical, and execution-obsessed B2B Growth Marketing Specialist to become the operational backbone of our marketing team. This is a hybrid role that spans demand generation, event operations, campaign execution, and marketing ops, all with a relentless focus on…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-94aa5314-0cf6-427c-b3be-a736becbc6b7",
+    "title": "Senior IT Engineer (Regulatory Reliability) - MX - 2026",
+    "company": "Nubank",
+    "locations": [
+      "Ciudad de México"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-05",
+    "url": "https://jobs.ashbyhq.com/nubank/94aa5314-0cf6-427c-b3be-a736becbc6b7",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "lv-dlocal-2b55b780-a206-44df-9196-6b63dbbcf3c0",
+    "title": "Fraud Prevention Analyst II",
+    "company": "dLocal",
+    "locations": [
+      "Montevideo"
+    ],
+    "remote": false,
+    "rkind": "hybrid",
+    "salary": null,
+    "posted": "2026-08-05",
+    "url": "https://jobs.lever.co/dlocal/2b55b780-a206-44df-9196-6b63dbbcf3c0",
+    "source": "lever",
+    "site": "dlocal.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Антифрод",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "SQL",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Why Join dLocal? dLocal is the financial infrastructure powering global commerce in the world's fastest-growing markets. The biggest companies in the world trust us to unlock growth in 60+ countries across emerging markets—moving money where others see complexity. We don't just process payments; we are architects of payment ecosystems and partners in our customers' expansion. You'll work alongside 1,300+ teammates from 40+ nationalities and tackle global challenges from day one. What’s the opportunity? As our Fraud Prevention Analyst II, you will help us shape fraud strategy across industries, balancing loss reduction with conversion and top-tier user experience. You’ll decide when to…",
     "hasDesc": true
   },
   {
@@ -43162,17 +47643,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-fireblocks-4700949006",
+    "id": "gh-fireblocks-4701943006",
     "title": "Business Solutions Director, Payments",
     "company": "Fireblocks",
     "locations": [
-      "London"
+      "Singapore"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-04",
-    "url": "https://www.fireblocks.com/careers/position?gh_jid=4700949006",
+    "url": "https://www.fireblocks.com/careers/position?gh_jid=4701943006",
     "site": "fireblocks.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -43662,6 +48143,137 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "rc-tether-2700079",
+    "title": "Investment & Trading Operations associate ( Multi-asset exposure)",
+    "company": "Tether",
+    "locations": [
+      "Dublin"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-04",
+    "url": "https://careers.tether.io/o/investment-trading-operations-associate-multi-asset-exposure-1",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Трейдинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-riskified-8487227002",
+    "title": "Data Science Team Lead",
+    "company": "Riskified",
+    "locations": [
+      "Tel Aviv"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-04",
+    "url": "https://www.riskified.com/careers/job-description/?gh_jid=8487227002",
+    "site": "riskified.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Данные и ML",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "About Us Riskified empowers businesses to unleash ecommerce growth by taking risk off the table. Many of the world’s biggest brands and publicly traded companies selling online rely on Riskified for guaranteed protection against chargebacks, to fight fraud and policy abuse at scale, and to improve customer retention. Developed and managed by the largest team of ecommerce risk analysts, data scientists and researchers, Riskified’s AI-powered fraud and risk intelligence platform analyzes the individual behind each interaction to provide real-time decisions and robust identity-based insights. Riskified is proud to work with incredible companies in virtually all industries including…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-riskified-8653602002",
+    "title": "Integrations Engineer",
+    "company": "Riskified",
+    "locations": [
+      "New York"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 165 000 – 175 000",
+    "posted": "2026-08-04",
+    "url": "https://www.riskified.com/careers/job-description/?gh_jid=8653602002",
+    "site": "riskified.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Us Riskified empowers businesses to unleash ecommerce growth by taking risk off the table. Many of the world’s biggest brands and publicly traded companies selling online rely on Riskified for guaranteed protection against chargebacks, to fight fraud and policy abuse at scale, and to improve customer retention. Developed and managed by the largest team of ecommerce risk analysts, data scientists and researchers, Riskified’s AI-powered fraud and risk intelligence platform analyzes the individual behind each interaction to provide real-time decisions and robust identity-based insights. Riskified is proud to work with incredible companies in virtually all industries including Acer…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-a1fe348c-9863-4539-93b5-6031566ec8a3",
+    "title": "Senior Data Center Engineer",
+    "company": "Nubank",
+    "locations": [
+      "Ciudad de México"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-04",
+    "url": "https://jobs.ashbyhq.com/nubank/a1fe348c-9863-4539-93b5-6031566ec8a3",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-cce0d503-c999-48fb-948b-ff3851b2f0a9",
+    "title": "Staff Software Engineer, Product Workflow Reinvention",
+    "company": "Nubank",
+    "locations": [
+      "Palo Alto",
+      "Campinas",
+      "Ciudad de México",
+      "São Paulo",
+      "Belo Horizonte",
+      "Bogota",
+      "Virginia",
+      "Miami",
+      "Rio de Janeiro"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-04",
+    "url": "https://jobs.ashbyhq.com/nubank/cce0d503-c999-48fb-948b-ff3851b2f0a9",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-monzo-7343996",
     "title": "Android Engineer",
     "company": "Monzo",
@@ -43952,28 +48564,32 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ripple-8009463",
-    "title": "Treasury Implementation Consultant (German-Speaking)",
+    "id": "gh-ripple-8030778",
+    "title": "Staff Software Engineer, Data Engineering",
     "company": "Ripple",
     "locations": [
-      "Geneva, Switzerland"
+      "San Francisco, United States"
     ],
     "remote": false,
     "rkind": null,
-    "salary": null,
+    "salary": "$ 212 000 – 265 000",
     "posted": "2026-08-03",
-    "url": "https://ripple.com/careers/all-jobs/job/8009463?gh_jid=8009463",
+    "url": "https://ripple.com/careers/all-jobs/job/8030778?gh_jid=8030778",
     "site": "ripple.com",
     "source": "greenhouse",
     "industry": "fintech",
     "kind": "Крипта",
-    "role": "Платежи",
+    "role": "Программирование",
     "grade": null,
-    "spec": null,
-    "permit": true,
-    "stack": [],
+    "spec": "Данные",
+    "stack": [
+      "Unity",
+      "Python",
+      "SQL",
+      "AWS"
+    ],
     "seen": "2026-09-05",
-    "descShort": "At Ripple, we’re building a world where value moves like information does today. It’s big, it’s bold, and we’re already doing it. Through our crypto solutions for financial institutions, businesses, governments and developers, we are improving the global financial system and creating greater economic fairness and opportunity for more people, in more places around the world. And we get to do the best work of our career and grow our skills surrounded by colleagues who have our backs. If you’re ready to see your impact and unlock incredible career growth opportunities, join us, and build real world value. THE WORK: At Ripple, we empower organizations on their path to strategic treasury through…",
+    "descShort": "At Ripple, we’re building a world where value moves like information does today. It’s big, it’s bold, and we’re already doing it. Through our crypto solutions for financial institutions, businesses, governments and developers, we are improving the global financial system and creating greater economic fairness and opportunity for more people, in more places around the world. And we get to do the best work of our career and grow our skills surrounded by colleagues who have our backs. If you’re ready to see your impact and unlock incredible career growth opportunities, join us, and build real world value. Role Overview At Ripple, we're building a world where value moves like information does…",
     "hasDesc": true
   },
   {
@@ -44413,17 +49029,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-block-5196187008",
+    "id": "gh-block-5207134008",
     "title": "Senior Software Engineer, Cash App Taxes",
     "company": "Block",
     "locations": [
-      "Bay Area, United States"
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-03",
-    "url": "http://block.xyz/careers/jobs/5196187008?gh_jid=5196187008",
+    "url": "http://block.xyz/careers/jobs/5207134008?gh_jid=5207134008",
     "site": "block.xyz",
     "source": "greenhouse",
     "industry": "fintech",
@@ -44436,6 +49052,32 @@ window.JOBS_FINTECH = [
       "Kotlin",
       "SQL",
       "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible. Today, Cash App has thousands of employees working globally across office and remote locations, with a culture geared toward innovation, collaboration and impact. We've been a distributed team…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-block-5238423008",
+    "title": "Staff Android Software Engineer, Cash App Consumer Platform",
+    "company": "Block",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-03",
+    "url": "http://block.xyz/careers/jobs/5238423008?gh_jid=5238423008",
+    "site": "block.xyz",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Мобильная",
+    "stack": [
+      "Kotlin"
     ],
     "seen": "2026-09-05",
     "descShort": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible. Today, Cash App has thousands of employees working globally across office and remote locations, with a culture geared toward innovation, collaboration and impact. We've been a distributed team…",
@@ -44572,6 +49214,167 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "ab-rain-35a01b49-ee00-4652-8de9-532f4008e0d3",
+    "title": "Fraud Risk Support Analyst",
+    "company": "Rain",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$100K – $130K • Offers Equity • Offers Bonus",
+    "posted": "2026-08-03",
+    "url": "https://jobs.ashbyhq.com/rain/35a01b49-ee00-4652-8de9-532f4008e0d3",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Антифрод",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About the Company Rain is the global stablecoin payments platform for enterprises, neobanks, platforms, developers, and AI agents. Our technology allows partners to move, store, and use stablecoins instantly and compliantly through global payment cards, rewards, on/offramps, wallets, and cross-border rails. As both a Visa and Mastercard Principal Member, Rain issues cards that work at more than 175 million merchant locations in over 220 countries and territories. Built natively for stablecoins and trusted by more than 100 organizations worldwide, Rain delivers secure, scalable infrastructure that makes money move freely and instantly around the world. You will have the opportunity to…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-riskified-8598939002",
+    "title": "Full-Stack Engineer - Cortex Team",
+    "company": "Riskified",
+    "locations": [
+      "Lisbon"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-03",
+    "url": "https://www.riskified.com/careers/job-description/?gh_jid=8598939002",
+    "site": "riskified.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Us Riskified empowers businesses to unleash ecommerce growth by taking risk off the table. Many of the world’s biggest brands and publicly traded companies selling online rely on Riskified for guaranteed protection against chargebacks, to fight fraud and policy abuse at scale, and to improve customer retention. Developed and managed by the largest team of ecommerce risk analysts, data scientists and researchers, Riskified’s AI-powered fraud and risk intelligence platform analyzes the individual behind each interaction to provide real-time decisions and robust identity-based insights. Riskified is proud to work with incredible companies in virtually all industries including Acer…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-riskified-8671372002",
+    "title": "Senior Full-Stack Engineer - App Infra Team",
+    "company": "Riskified",
+    "locations": [
+      "Lisbon"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-03",
+    "url": "https://www.riskified.com/careers/job-description/?gh_jid=8671372002",
+    "site": "riskified.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Us Riskified empowers businesses to unleash ecommerce growth by taking risk off the table. Many of the world’s biggest brands and publicly traded companies selling online rely on Riskified for guaranteed protection against chargebacks, to fight fraud and policy abuse at scale, and to improve customer retention. Developed and managed by the largest team of ecommerce risk analysts, data scientists and researchers, Riskified’s AI-powered fraud and risk intelligence platform analyzes the individual behind each interaction to provide real-time decisions and robust identity-based insights. Riskified is proud to work with incredible companies in virtually all industries including Acer…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-riskified-8598496002",
+    "title": "Senior Full-Stack Engineer - Cortex Team",
+    "company": "Riskified",
+    "locations": [
+      "Lisbon"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-03",
+    "url": "https://www.riskified.com/careers/job-description/?gh_jid=8598496002",
+    "site": "riskified.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Us Riskified empowers businesses to unleash ecommerce growth by taking risk off the table. Many of the world’s biggest brands and publicly traded companies selling online rely on Riskified for guaranteed protection against chargebacks, to fight fraud and policy abuse at scale, and to improve customer retention. Developed and managed by the largest team of ecommerce risk analysts, data scientists and researchers, Riskified’s AI-powered fraud and risk intelligence platform analyzes the individual behind each interaction to provide real-time decisions and robust identity-based insights. Riskified is proud to work with incredible companies in virtually all industries including Acer…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-bitso-7799066003",
+    "title": "Senior Mobile Software Engineer (React Native)",
+    "company": "Bitso",
+    "locations": [
+      "Latin America"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-03",
+    "url": "https://bitso.com/jobs/7799066003?gh_jid=7799066003",
+    "site": "bitso.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Фронтенд",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Working At Bitso We are a diverse team that takes pride in understanding the perspectives of others. We fully embrace working remotely and we are eager to act, improve and accelerate progress inside and outside of our organization. To drive revolutionary changes in society and make crypto useful, we delight our customers with world-class products, deep care, and intentional empathy. Your Purpose At Bitso, the Senior Mobile Software Engineer on the Registration Squad owns the identity verification and onboarding experience across iOS and React Native, the entry point for every user who joins Bitso. You will design and deliver reliable, high-quality mobile flows that connect users to KYC…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-da518919-9017-488b-9c05-9b50f8df8401",
+    "title": "Staff Machine Learning Engineer, Recommendation Systems",
+    "company": "Nubank",
+    "locations": [
+      "Palo Alto"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": "$ 230k – 345k",
+    "posted": "2026-08-03",
+    "url": "https://jobs.ashbyhq.com/nubank/da518919-9017-488b-9c05-9b50f8df8401",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
     "id": "ab-airwallex-334eece7-d1a9-4931-af3e-873c89c23954",
     "title": "Compliance Manager & MLRO, South Korea",
     "company": "Airwallex",
@@ -44647,17 +49450,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-monzo-8098655",
+    "id": "gh-monzo-8098915",
     "title": "Senior Risk & Compliance Officer",
     "company": "Monzo",
     "locations": [
-      "Barcelona"
+      "Madrid"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-07-31",
-    "url": "https://job-boards.greenhouse.io/monzo/jobs/8098655",
+    "url": "https://job-boards.greenhouse.io/monzo/jobs/8098915",
     "site": "monzo.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -44794,6 +49597,139 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-05",
     "descShort": "About the Company Gemini is a global crypto and Web3 platform founded by Cameron and Tyler Winklevoss in 2014, offering a wide range of simple, reliable, and secure crypto products and services to individuals and institutions in over 70 countries. Our mission is to unlock the next era of financial, creative, and personal freedom by providing trusted access to the decentralized future. We envision a world where crypto reshapes the global financial system, internet, and money to create greater choice, independence, and opportunity for all — bridging traditional finance with the emerging cryptoeconomy in a way that is more open, fair, and secure. As a publicly traded company, Gemini is poised…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-rain-c8375f07-f082-43e3-b12c-e2f1a1328f0c",
+    "title": "Technical Support Analyst",
+    "company": "Rain",
+    "locations": [
+      "New York, United States",
+      "Spain"
+    ],
+    "remote": false,
+    "rkind": "zone",
+    "salary": "$100K – $130K • Offers Equity • Offers Bonus",
+    "posted": "2026-07-31",
+    "url": "https://jobs.ashbyhq.com/rain/c8375f07-f082-43e3-b12c-e2f1a1328f0c",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About the Company Rain is the global stablecoin payments platform for enterprises, neobanks, platforms, developers, and AI agents. Our technology allows partners to move, store, and use stablecoins instantly and compliantly through global payment cards, rewards, on/offramps, wallets, and cross-border rails. As both a Visa and Mastercard Principal Member, Rain issues cards that work at more than 175 million merchant locations in over 220 countries and territories. Built natively for stablecoins and trusted by more than 100 organizations worldwide, Rain delivers secure, scalable infrastructure that makes money move freely and instantly around the world. You will have the opportunity to…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-rain-d801cb1d-0500-487f-8732-39a4afe3c741",
+    "title": "Data Scientist - Fraud Risk",
+    "company": "Rain",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "$190K – $230K • Offers Equity • Offers Bonus",
+    "posted": "2026-07-31",
+    "url": "https://jobs.ashbyhq.com/rain/d801cb1d-0500-487f-8732-39a4afe3c741",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Данные и ML",
+    "grade": null,
+    "spec": "Антифрод",
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT THE COMPANY Rain makes the next generation of payments possible across the globe. We’re a lean and mighty team of passionate builders and veteran founders. Our infrastructure makes stablecoins usable in the real-world by powering card transactions, cross-border payments, B2B purchases, remittances, and more. We partner with fintechs, neobanks, and institutions to help them launch solutions that are global, inclusive, and efficient. You will have the opportunity to deliver massive impact at a hypergrowth company that is funded by some of the top investors in fintech, crypto, and SaaS, including Sapphire Ventures, Norwest, Galaxy Ventures, Lightspeed, Khosla, and several more. If you’re…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-c5f55a22-d0be-40ef-bc17-3d6f8901fe2a",
+    "title": "IT Risk  Senior Specialist",
+    "company": "Nubank",
+    "locations": [
+      "Ciudad de México"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-31",
+    "url": "https://jobs.ashbyhq.com/nubank/c5f55a22-d0be-40ef-bc17-3d6f8901fe2a",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Риски",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-30994369-f227-4404-a0d2-1f49152f9779",
+    "title": "Regulatory Solutions Analyst (Judicial Orders) - México",
+    "company": "Nubank",
+    "locations": [
+      "Ciudad de México"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-31",
+    "url": "https://jobs.ashbyhq.com/nubank/30994369-f227-4404-a0d2-1f49152f9779",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "lv-dlocal-49dc9d7c-b1ae-4d08-b66f-41022570c878",
+    "title": "Cloud  Network & Edge Security Engineer",
+    "company": "dLocal",
+    "locations": [
+      "Madrid"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-31",
+    "url": "https://jobs.lever.co/dlocal/49dc9d7c-b1ae-4d08-b66f-41022570c878",
+    "source": "lever",
+    "site": "dlocal.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Безопасность",
+    "stack": [
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Why Join dLocal? dLocal is the financial infrastructure powering global commerce in the world's fastest-growing markets. The biggest companies in the world trust us to unlock growth in 60+ countries across emerging markets—moving money where others see complexity. We don't just process payments; we are architects of payment ecosystems and partners in our customers' expansion. You'll work alongside 1,300+ teammates from 40+ nationalities and tackle global challenges from day one. What’s the opportunity? We are looking for a Senior Network & Edge Security Engineer to help design, operate, and evolve dLocal’s global cloud and hybrid network perimeter. This role combines deep cloud networking…",
     "hasDesc": true
   },
   {
@@ -45746,17 +50682,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8659250002",
+    "id": "gh-brex-8659249002",
     "title": "Senior Product Manager, Travel",
     "company": "Brex",
     "locations": [
-      "Seattle, United States"
+      "San Francisco, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 184 000 – 230 000",
     "posted": "2026-07-30",
-    "url": "https://www.brex.com/careers/8659250002?gh_jid=8659250002",
+    "url": "https://www.brex.com/careers/8659249002?gh_jid=8659249002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -45770,17 +50706,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8659221002",
+    "id": "gh-brex-8659237002",
     "title": "Staff Product Manager, Card",
     "company": "Brex",
     "locations": [
-      "Seattle, United States"
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 240 000 – 300 000",
     "posted": "2026-07-30",
-    "url": "https://www.brex.com/careers/8659221002?gh_jid=8659221002",
+    "url": "https://www.brex.com/careers/8659237002?gh_jid=8659237002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -45842,17 +50778,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8659239002",
+    "id": "gh-brex-8659241002",
     "title": "Staff Product Manager, Expenses",
     "company": "Brex",
     "locations": [
-      "San Francisco, United States"
+      "Seattle, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 240 000 – 300 000",
     "posted": "2026-07-30",
-    "url": "https://www.brex.com/careers/8659239002?gh_jid=8659239002",
+    "url": "https://www.brex.com/careers/8659241002?gh_jid=8659241002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -45943,6 +50879,61 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-05",
     "descShort": "Who we are: Sardine is the leading agentic risk platform for fighting financial crime. Our integrated solution unifies data across risk teams to help organizations stop fraud in real time, prevent AI-driven attacks, and automate fraud and AML operations. Sardine’s platform is strengthened by one of the fastest-growing fraud consortiums in the market, spanning more than 6 billion profiled devices, 800 million consumers, and 3 million businesses worldwide. Leading companies including FIS, GoDaddy, Intuit, Edward Jones, ZoomInfo, and Checkout.com rely on Sardine to secure and grow trust in their products. Our culture: - We have hubs in the Bay Area, NYC, Austin, Toronto, and São Paulo.…",
+    "hasDesc": true
+  },
+  {
+    "id": "rc-tether-2695747",
+    "title": "P2P Node.js Engineer - Holepunch (100% Remote, Worldwide)",
+    "company": "Tether",
+    "locations": [
+      "Lugano"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-30",
+    "url": "https://careers.tether.io/o/p2p-nodejs-engineer-holepunch-100-remote-worldwide",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-riskified-8635191002",
+    "title": "Full Stack Engineer - Connect Team",
+    "company": "Riskified",
+    "locations": [
+      "Lisbon"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-30",
+    "url": "https://www.riskified.com/careers/job-description/?gh_jid=8635191002",
+    "site": "riskified.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "C#",
+      "Java",
+      "Kotlin",
+      "TypeScript",
+      "SQL",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Us Riskified empowers businesses to unleash ecommerce growth by taking risk off the table. Many of the world’s biggest brands and publicly traded companies selling online rely on Riskified for guaranteed protection against chargebacks, to fight fraud and policy abuse at scale, and to improve customer retention. Developed and managed by the largest team of ecommerce risk analysts, data scientists and researchers, Riskified’s AI-powered fraud and risk intelligence platform analyzes the individual behind each interaction to provide real-time decisions and robust identity-based insights. Riskified is proud to work with incredible companies in virtually all industries including Acer…",
     "hasDesc": true
   },
   {
@@ -46248,17 +51239,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8617113002",
+    "id": "gh-brex-8617115002",
     "title": "Senior Software Engineer, Release Infra",
     "company": "Brex",
     "locations": [
-      "San Francisco, United States"
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 192 000 – 240 000",
     "posted": "2026-07-29",
-    "url": "https://www.brex.com/careers/8617113002?gh_jid=8617113002",
+    "url": "https://www.brex.com/careers/8617115002?gh_jid=8617115002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -46325,6 +51316,79 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-05",
     "descShort": "About Betterment Betterment is a leading, technology-driven financial services company that offers investing, savings and retirement solutions for retail investors and investment advisors as well as financial wellness solutions, including a 401(k) for small and medium-sized businesses. Our team is passionate about our mission, to empower people to build wealth with confidence and ease. We’re headquartered in NYC and offer hybrid NY-based positions (four days/ week in-office, with no required office days during the summer and winter holidays). About the Role As an Engineering Manager in Broker Dealer, you’ll lead a team building and evolving the backend systems that power Betterment’s…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-rain-610fac50-ebb8-49a8-9ce5-1070d46d928f",
+    "title": "Payments Counsel",
+    "company": "Rain",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$175K – $225K • Offers Equity • Offers Bonus",
+    "posted": "2026-07-29",
+    "url": "https://jobs.ashbyhq.com/rain/610fac50-ebb8-49a8-9ce5-1070d46d928f",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Платежи",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "About the Company Rain is the global stablecoin payments platform for enterprises, neobanks, platforms, developers, and AI agents. Our technology allows partners to move, store, and use stablecoins instantly and compliantly through global payment cards, rewards, on/offramps, wallets, and cross-border rails. As both a Visa and Mastercard Principal Member, Rain issues cards that work at more than 175 million merchant locations in over 220 countries and territories. Built natively for stablecoins and trusted by more than 100 organizations worldwide, Rain delivers secure, scalable infrastructure that makes money move freely and instantly around the world. You will have the opportunity to…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-trust-wallet-72c2f324-d2d7-4037-b3a8-d9afb25dbe18",
+    "title": "Design Engineer",
+    "company": "Trust Wallet",
+    "locations": [],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-07-29",
+    "url": "https://jobs.ashbyhq.com/trust-wallet/72c2f324-d2d7-4037-b3a8-d9afb25dbe18",
+    "source": "ashby",
+    "site": "trustwallet.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "Figma"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About the company Trust Wallet is the leading non-custodial cryptocurrency wallet, trusted by over 200 million people worldwide to securely manage and grow their digital assets. Our vision is to give individuals the freedom to own their assets, confidently participate in the future economy, and access opportunities that enhance their lives. Our mission is to be a trusted personal companion — helping users safely navigate Web3, the on-chain economy, and the emerging AI-powered future. With support for over 10 million assets across 100+ blockchains, Trust Wallet offers a seamless, multi-chain experience backed by industry-leading self-custody technology, a vibrant community, and a growing…",
+    "hasDesc": true
+  },
+  {
+    "id": "lv-anchorage-fc156cf0-cd5d-4085-acb4-8a7f69e3f4f0",
+    "title": "Member of Legal, Trading & Licensing",
+    "company": "Anchorage",
+    "locations": [
+      "United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-29",
+    "url": "https://jobs.lever.co/anchorage/fc156cf0-cd5d-4085-acb4-8a7f69e3f4f0",
+    "source": "lever",
+    "site": "anchorage.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Трейдинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "At Anchorage Digital, we are building the world’s most advanced digital asset platform for institutions to participate in crypto. Anchorage Digital is a crypto platform that enables institutions to participate in digital assets through custody, staking, trading, governance, settlement, and the industry's leading security infrastructure. Home to Anchorage Digital Bank N.A., the first federally chartered crypto bank in the U.S., Anchorage Digital also serves institutions through Anchorage Digital Singapore, Porto by Anchorage Digital, and other offerings. The company is funded by leading institutions including Andreessen Horowitz, GIC, Goldman Sachs, KKR, and Visa, with its Series D valuation…",
     "hasDesc": true
   },
   {
@@ -46491,6 +51555,215 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "ab-trust-wallet-b9b6b77a-cd08-4063-9a72-bae133875a44",
+    "title": "Senior Mobile Engineer (React Native)",
+    "company": "Trust Wallet",
+    "locations": [],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-07-28",
+    "url": "https://jobs.ashbyhq.com/trust-wallet/b9b6b77a-cd08-4063-9a72-bae133875a44",
+    "source": "ashby",
+    "site": "trustwallet.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Фронтенд",
+    "permit": true,
+    "stack": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About the company Trust Wallet is the leading non-custodial cryptocurrency wallet, trusted by over 200 million people worldwide to securely manage and grow their digital assets. Our vision is to give individuals the freedom to own their assets, confidently participate in the future economy, and access opportunities that enhance their lives. Our mission is to be a trusted personal companion — helping users safely navigate Web3, the on-chain economy, and the emerging AI-powered future. With support for over 10 million assets across 100+ blockchains, Trust Wallet offers a seamless, multi-chain experience backed by industry-leading self-custody technology, a vibrant community, and a growing…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-paxos-7642ced7-423e-4502-b4af-49208fa37397",
+    "title": "Technical Support Engineer",
+    "company": "Paxos",
+    "locations": [
+      "Singapore - Hybrid"
+    ],
+    "remote": true,
+    "rkind": "hybrid",
+    "salary": null,
+    "posted": "2026-07-28",
+    "url": "https://jobs.ashbyhq.com/paxos/7642ced7-423e-4502-b4af-49208fa37397",
+    "source": "ashby",
+    "site": "paxos.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Applying to Paxos? Our only careers site is paxos.com/careers http://paxos.com/careers, and we only recruit via @paxos.com http://paxos.com email. Details below. ___ About Paxos Today’s financial infrastructure is archaic, expensive, inefficient and risky — supporting a system that leaves out more people than it lets in. So we’re rebuilding it. We’re on a mission to open the world’s financial system to everyone by enabling the instant movement of any asset, any time, in a trustworthy way. For over a decade, we’ve built blockchain infrastructure that tokenizes, custodies, trades and settles assets for the world’s leading financial institutions, like PayPal, Venmo, Mastercard and Interactive…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-feedzai-8076020",
+    "title": "Senior Fraud Risk Consultant",
+    "company": "Feedzai",
+    "locations": [
+      "Portugal"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-28",
+    "url": "https://careers.feedzai.com/job_description?gh_jid=8076020",
+    "site": "feedzai.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Антифрод",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "At Feedzai, we're building a world of safer money. A world where financial institutions move faster than criminals. Where the payments that fund real lives through salaries, savings, and businesses are protected in real time. We use trusted AI to detect and prevent financial crime, fraud, and money laundering at scale: the world's top banks, payment networks, and acquirers trust our technology to safeguard more than one billion consumers and $9 trillion in payment volume every year. Feedzai is a Series D company and has raised $282M to date. With a valuation of $2 billion, our technology protects 1 billion consumers and 90 billion transactions each year. The Risk & AI team within Customer…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-riskified-8626051002",
+    "title": "Data Analyst",
+    "company": "Riskified",
+    "locations": [
+      "Lisbon"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-28",
+    "url": "https://www.riskified.com/careers/job-description/?gh_jid=8626051002",
+    "site": "riskified.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Данные и ML",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Us Riskified empowers businesses to unleash ecommerce growth by taking risk off the table. Many of the world’s biggest brands and publicly traded companies selling online rely on Riskified for guaranteed protection against chargebacks, to fight fraud and policy abuse at scale, and to improve customer retention. Developed and managed by the largest team of ecommerce risk analysts, data scientists and researchers, Riskified’s AI-powered fraud and risk intelligence platform analyzes the individual behind each interaction to provide real-time decisions and robust identity-based insights. Riskified is proud to work with incredible companies in virtually all industries including Acer…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-riskified-8599239002",
+    "title": "Merchant Platform Product Manager",
+    "company": "Riskified",
+    "locations": [
+      "Lisbon"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-28",
+    "url": "https://www.riskified.com/careers/job-description/?gh_jid=8599239002",
+    "site": "riskified.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Платежи",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "About Us Riskified empowers businesses to unleash ecommerce growth by taking risk off the table. Many of the world’s biggest brands and publicly traded companies selling online rely on Riskified for guaranteed protection against chargebacks, to fight fraud and policy abuse at scale, and to improve customer retention. Developed and managed by the largest team of ecommerce risk analysts, data scientists and researchers, Riskified’s AI-powered fraud and risk intelligence platform analyzes the individual behind each interaction to provide real-time decisions and robust identity-based insights. Riskified is proud to work with incredible companies in virtually all industries including Acer…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-riskified-8443767002",
+    "title": "Senior Backend Engineer",
+    "company": "Riskified",
+    "locations": [
+      "Lisbon"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-28",
+    "url": "https://www.riskified.com/careers/job-description/?gh_jid=8443767002",
+    "site": "riskified.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Бэкенд",
+    "stack": [
+      "Java",
+      "SQL",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Us Riskified empowers businesses to unleash ecommerce growth by taking risk off the table. Many of the world’s biggest brands and publicly traded companies selling online rely on Riskified for guaranteed protection against chargebacks, to fight fraud and policy abuse at scale, and to improve customer retention. Developed and managed by the largest team of ecommerce risk analysts, data scientists and researchers, Riskified’s AI-powered fraud and risk intelligence platform analyzes the individual behind each interaction to provide real-time decisions and robust identity-based insights. Riskified is proud to work with incredible companies in virtually all industries including Acer…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-337d4f8b-ae2a-40e7-988d-bfee874b56ca",
+    "title": "Senior Software Engineer - Buenos Aires, Argentina (Hybrid)",
+    "company": "Nubank",
+    "locations": [
+      "Buenos Aires"
+    ],
+    "remote": true,
+    "rkind": "hybrid",
+    "salary": null,
+    "posted": "2026-07-28",
+    "url": "https://jobs.ashbyhq.com/nubank/337d4f8b-ae2a-40e7-988d-bfee874b56ca",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-22c2f868-129a-4b50-902a-7ece0545128b",
+    "title": "Conduct Risk Expert",
+    "company": "Nubank",
+    "locations": [
+      "São Paulo"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-28",
+    "url": "https://jobs.ashbyhq.com/nubank/22c2f868-129a-4b50-902a-7ece0545128b",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Риски",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
     "id": "lv-younited-f495ea24-b326-460f-9c16-1e4befba10b7",
     "title": "Alternance - Data Analyst Credit Risk (F/H)",
     "company": "Younited",
@@ -46592,6 +51865,30 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-05",
     "descShort": "Wealthfront is looking for a Talent Intelligence Analyst to support hiring across Wealthfront, with a specific focus on our engineering organization. You'll work closely with executive partners across the company. At Wealthfront we ask a lot from hiring managers, who often own the candidate engagement, starting with outreach and continuing throughout the hiring process. This role will help to build a strong conviction in the companies, teams, profiles and individuals the hiring teams are offering their time to. The right hire will be focused on efficiency, not volume. A successful hire on this team will be comfortable forming a view before they have complete information, and equally…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-feedzai-8088067",
+    "title": "Senior Analyst Engineer - Intelligence Management",
+    "company": "Feedzai",
+    "locations": [
+      "Portugal"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-27",
+    "url": "https://careers.feedzai.com/job_description?gh_jid=8088067",
+    "site": "feedzai.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "At Feedzai, we're building a world of safer money. A world where financial institutions move faster than criminals. Where the payments that fund real lives through salaries, savings, and businesses are protected in real time. We use trusted AI to detect and prevent financial crime, fraud, and money laundering at scale: the world's top banks, payment networks, and acquirers trust our technology to safeguard more than one billion consumers and $9 trillion in payment volume every year. Feedzai is a Series D company and has raised $282M to date. With a valuation of $2 billion, our technology protects 1 billion consumers and 90 billion transactions each year. The Product Operations team exists…",
     "hasDesc": true
   },
   {
@@ -47011,6 +52308,33 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "ab-paxos-f8cbcedf-5b3a-463c-82d1-0d80b9c34e42",
+    "title": "Data Platform Engineer",
+    "company": "Paxos",
+    "locations": [
+      "India"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-07-23",
+    "url": "https://jobs.ashbyhq.com/paxos/f8cbcedf-5b3a-463c-82d1-0d80b9c34e42",
+    "source": "ashby",
+    "site": "paxos.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Данные",
+    "stack": [
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Applying to Paxos? Our only careers site is paxos.com/careers http://paxos.com/careers, and we only recruit via @paxos.com http://paxos.com email. Details below. ___ About Paxos Today’s financial infrastructure is archaic, expensive, inefficient and risky — supporting a system that leaves out more people than it lets in. So we’re rebuilding it. We’re on a mission to open the world’s financial system to everyone by enabling the instant movement of any asset, any time, in a trustworthy way. For over a decade, we’ve built blockchain infrastructure that tokenizes, custodies, trades and settles assets for the world’s leading financial institutions, like PayPal, Venmo, Mastercard and Interactive…",
+    "hasDesc": true
+  },
+  {
     "id": "ab-mollie-1bb9f4e2-bc29-4050-afe2-c16796971ef5",
     "title": "Analytics Engineering Manager - RevOps",
     "company": "Mollie",
@@ -47240,6 +52564,30 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "lv-dlocal-927a5f7c-4dd3-418f-9914-bed5afa9da0a",
+    "title": "Principal Security Engineer – Identity & Access",
+    "company": "dLocal",
+    "locations": [
+      "Madrid"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-22",
+    "url": "https://jobs.lever.co/dlocal/927a5f7c-4dd3-418f-9914-bed5afa9da0a",
+    "source": "lever",
+    "site": "dlocal.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": "Безопасность",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Why Join dLocal? dLocal is the financial infrastructure powering global commerce in the world's fastest-growing markets. The biggest companies in the world trust us to unlock growth in 60+ countries across emerging markets—moving money where others see complexity. We don't just process payments; we are architects of payment ecosystems and partners in our customers' expansion. You'll work alongside 1,300+ teammates from 40+ nationalities and tackle global challenges from day one. ABOUT US & THE ROLE We are not building a traditional, bureaucratic identity and access management function. We are building a modern, highly automated identity security program—and we need a sharp, relentless…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-monzo-6635595",
     "title": "Backend Engineer III",
     "company": "Monzo",
@@ -47289,6 +52637,33 @@ window.JOBS_FINTECH = [
     "spec": "Бэкенд",
     "stack": [
       "Java"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "🚀 We’re on a mission to make money work for everyone. We’re waving goodbye to the complicated and confusing ways of traditional banking. After starting as a prepaid card, our product offering has grown a lot in the last 10 years in the UK. As well as personal and business bank accounts, we offer joint accounts, accounts for 16-17 year olds, a free kids account and credit cards in the UK, with more exciting things to come beyond. Our UK customers can also save, invest and combine their pensions with us. With our hot coral cards and get-paid-early feature, combined with financial education on social media and our award winning customer service, we have a long history of creating magical…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-monzo-8064099",
+    "title": "Senior Data Scientist",
+    "company": "Monzo",
+    "locations": [
+      "Barcelona"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-21",
+    "url": "https://job-boards.greenhouse.io/monzo/jobs/8064099",
+    "site": "monzo.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Данные и ML",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
     ],
     "seen": "2026-09-05",
     "descShort": "🚀 We’re on a mission to make money work for everyone. We’re waving goodbye to the complicated and confusing ways of traditional banking. After starting as a prepaid card, our product offering has grown a lot in the last 10 years in the UK. As well as personal and business bank accounts, we offer joint accounts, accounts for 16-17 year olds, a free kids account and credit cards in the UK, with more exciting things to come beyond. Our UK customers can also save, invest and combine their pensions with us. With our hot coral cards and get-paid-early feature, combined with financial education on social media and our award winning customer service, we have a long history of creating magical…",
@@ -47484,17 +52859,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8472635002",
+    "id": "gh-brex-8472632002",
     "title": "Senior Software Engineer, Full Stack",
     "company": "Brex",
     "locations": [
-      "San Francisco, United States"
+      "Vancouver, Canada"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 192 000 – 240 000",
     "posted": "2026-07-21",
-    "url": "https://www.brex.com/careers/8472635002?gh_jid=8472635002",
+    "url": "https://www.brex.com/careers/8472632002?gh_jid=8472632002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -47581,6 +52956,81 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-05",
     "descShort": "ABOUT MIDDESK: Middesk is building the data and intelligence infrastructure that helps businesses work together with confidence. We started by creating a comprehensive platform for understanding businesses, bringing together authoritative and proprietary data to help customers verify business identities, onboard customers faster, and manage risk throughout the customer lifecycle. Today, Middesk is used by more than 700 banks and fintechs, and in 2025 we verified more than 7 million companies. We've also expanded beyond business verification to help companies form, register, manage, and maintain their businesses, supporting more than 50,000 companies in setting up over 100,000 accounts…",
+    "hasDesc": true
+  },
+  {
+    "id": "lv-anchorage-32d0a6da-114f-4b83-aa8b-0fd9c9dc9144",
+    "title": "Member of Client Operations, Settlements",
+    "company": "Anchorage",
+    "locations": [
+      "Singapore"
+    ],
+    "remote": false,
+    "rkind": "hybrid",
+    "salary": null,
+    "posted": "2026-07-21",
+    "url": "https://jobs.lever.co/anchorage/32d0a6da-114f-4b83-aa8b-0fd9c9dc9144",
+    "source": "lever",
+    "site": "anchorage.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Платежи",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "At Anchorage Digital, we are building the world’s most advanced digital asset platform for institutions to participate in crypto. Anchorage Digital is a crypto platform that enables institutions to participate in digital assets through custody, staking, trading, governance, settlement, and the industry's leading security infrastructure. Home to Anchorage Digital Bank N.A., the first federally chartered crypto bank in the U.S., Anchorage Digital also serves institutions through Anchorage Digital Singapore, Porto by Anchorage Digital, and other offerings. The company is funded by leading institutions including Andreessen Horowitz, GIC, Goldman Sachs, KKR, and Visa, with its Series D valuation…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-wayflyer-59f3c28d-c365-4343-a11e-001cef58ce90",
+    "title": "Full Stack Software Engineer",
+    "company": "Wayflyer",
+    "locations": [],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-07-21",
+    "url": "https://jobs.ashbyhq.com/wayflyer/59f3c28d-c365-4343-a11e-001cef58ce90",
+    "source": "ashby",
+    "site": "wayflyer.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "TypeScript",
+      "SQL",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Wayflyer Today's small businesses need a capital provider that keeps pace with their growth ambitions. Traditional financing options are slow, cumbersome and often out of reach. That's why we built Wayflyer. Our technology allows us to assess businesses in minutes, generate financing offers that reflect their growth potential and send funds in as little as 24 hours. To date, we've deployed over $6bn to thousands of businesses worldwide, backed by Tier 1 banks like J.P. Morgan. You'll be collaborating with ambitious colleagues from around the world. We have offices in Dublin, London, New York, Charlotte, Berlin and Sydney. The challenge When a founder applies for funding, one flow…",
+    "hasDesc": true
+  },
+  {
+    "id": "lv-dlocal-e98dbb97-58e2-4335-8454-fd4c72a2fc19",
+    "title": "DevOps Engineer CI/CD",
+    "company": "dLocal",
+    "locations": [
+      "Barcelona"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-21",
+    "url": "https://jobs.lever.co/dlocal/e98dbb97-58e2-4335-8454-fd4c72a2fc19",
+    "source": "lever",
+    "site": "dlocal.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "DevOps",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Why Join dLocal? dLocal is the financial infrastructure powering global commerce in the world's fastest-growing markets. The biggest companies in the world trust us to unlock growth in 60+ countries across emerging markets—moving money where others see complexity. We don't just process payments; we are architects of payment ecosystems and partners in our customers' expansion. You'll work alongside 1,300+ teammates from 40+ nationalities and tackle global challenges from day one. What's the opportunity? We are looking for a DevOps Engineer, Technical Referent to join our team! You will be the technical reference of a talented team that works on mission-critical applications for big customers…",
     "hasDesc": true
   },
   {
@@ -47898,17 +53348,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8433461002",
+    "id": "gh-brex-8432707002",
     "title": "Director of Product, Growth/AI",
     "company": "Brex",
     "locations": [
-      "New York, United States"
+      "San Francisco, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 340 000 – 425 000",
     "posted": "2026-07-20",
-    "url": "https://www.brex.com/careers/8433461002?gh_jid=8433461002",
+    "url": "https://www.brex.com/careers/8432707002?gh_jid=8432707002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -47924,17 +53374,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8641189002",
+    "id": "gh-brex-8641195002",
     "title": "Engineering Manager, Travel",
     "company": "Brex",
     "locations": [
-      "New York, United States"
+      "Vancouver, Canada"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-07-20",
-    "url": "https://www.brex.com/careers/8641189002?gh_jid=8641189002",
+    "url": "https://www.brex.com/careers/8641195002?gh_jid=8641195002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -47972,17 +53422,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8432698002",
+    "id": "gh-brex-8432703002",
     "title": "Staff Product Manager",
     "company": "Brex",
     "locations": [
-      "San Francisco, United States"
+      "Seattle, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 240 000 – 300 000",
     "posted": "2026-07-20",
-    "url": "https://www.brex.com/careers/8432698002?gh_jid=8432698002",
+    "url": "https://www.brex.com/careers/8432703002?gh_jid=8432703002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -48024,17 +53474,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8635342002",
+    "id": "gh-brex-8635331002",
     "title": "Staff Software Engineer, Travel & Expense",
     "company": "Brex",
     "locations": [
-      "Vancouver, Canada"
+      "Seattle, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 240 000 – 285 000",
     "posted": "2026-07-20",
-    "url": "https://www.brex.com/careers/8635342002?gh_jid=8635342002",
+    "url": "https://www.brex.com/careers/8635331002?gh_jid=8635331002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -48045,6 +53495,1198 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-05",
     "descShort": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and finance teams to accelerate operations, gain real-time visibility, and control spend effortlessly. Brex’s AI-native automation and world-class service eliminate manual expense and accounting tasks for customers so they can focus on what matters most. Tens of thousands of the world's best companies run on Brex, including DoorDash, Coinbase, Robinhood, Zoom, Plaid, Reddit, and SeatGeek. Working at Brex allows you to push…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-rain-4ebd8c9d-e68c-4df1-ac82-cb666a1911f3",
+    "title": "Compliance Associate",
+    "company": "Rain",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$65K – $100K • Offers Equity • Offers Bonus",
+    "posted": "2026-07-20",
+    "url": "https://jobs.ashbyhq.com/rain/4ebd8c9d-e68c-4df1-ac82-cb666a1911f3",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT THE COMPANY Rain makes the next generation of payments possible across the globe. We’re a lean and mighty team of passionate builders and veteran founders. Our infrastructure makes stablecoins usable in the real-world by powering card transactions, cross-border payments, B2B purchases, remittances, and more. We partner with fintechs, neobanks, and institutions to help them launch solutions that are global, inclusive, and efficient. You will have the opportunity to deliver massive impact at a hypergrowth company that is funded by some of the top investors in fintech, crypto, and SaaS, including ICONIQ, Sapphire Ventures, Norwest, Galaxy Ventures, Lightspeed, Khosla, and several more.…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-rain-6ac11993-0fb8-4121-85f6-e53d1ecc9d6e",
+    "title": "Compliance Analyst",
+    "company": "Rain",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$75K – $115K • Offers Equity • Offers Bonus",
+    "posted": "2026-07-20",
+    "url": "https://jobs.ashbyhq.com/rain/6ac11993-0fb8-4121-85f6-e53d1ecc9d6e",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "About the Company Rain is the global stablecoin payments platform for enterprises, neobanks, platforms, developers, and AI agents. Our technology allows partners to move, store, and use stablecoins instantly and compliantly through global payment cards, rewards, on/offramps, wallets, and cross-border rails. As both a Visa and Mastercard Principal Member, Rain issues cards that work at more than 175 million merchant locations in over 220 countries and territories. Built natively for stablecoins and trusted by more than 100 organizations worldwide, Rain delivers secure, scalable infrastructure that makes money move freely and instantly around the world. You will have the opportunity to…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-rain-f055197c-7db9-47f4-8978-7ff564ada7ae",
+    "title": "Compliance Engineer",
+    "company": "Rain",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$175K – $200K • Offers Equity • Offers Bonus",
+    "posted": "2026-07-20",
+    "url": "https://jobs.ashbyhq.com/rain/f055197c-7db9-47f4-8978-7ff564ada7ae",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Комплаенс",
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT THE COMPANY Rain is the global stablecoin payments platform for enterprises, neobanks, platforms, developers, and AI agents. Our technology allows partners to move, store, and use stablecoins instantly and compliantly through global payment cards, rewards, on/offramps, wallets, and cross-border rails. As both a Visa and Mastercard Principal Member, Rain issues cards that work at more than 175 million merchant locations in over 220 countries and territories. Built natively for stablecoins and trusted by more than 100 organizations worldwide, Rain delivers secure, scalable infrastructure that makes money move freely and instantly around the world. You will have the opportunity to…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-26140397-e042-4d2e-9c84-9ee400de6da9",
+    "title": "Lead Software Engineer - Reliability",
+    "company": "Nubank",
+    "locations": [
+      "Miami"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-20",
+    "url": "https://jobs.ashbyhq.com/nubank/26140397-e042-4d2e-9c84-9ee400de6da9",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-d0d6f43c-247f-42d2-8eaf-756253fe0fe9",
+    "title": "Lead Systems Engineer",
+    "company": "Nubank",
+    "locations": [
+      "Ciudad de México"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-20",
+    "url": "https://jobs.ashbyhq.com/nubank/d0d6f43c-247f-42d2-8eaf-756253fe0fe9",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Go",
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-d7b4ae35-0c73-4226-86c8-041b597825bc",
+    "title": "Senior Software Engineer - SRE",
+    "company": "Nubank",
+    "locations": [
+      "Miami"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-20",
+    "url": "https://jobs.ashbyhq.com/nubank/d7b4ae35-0c73-4226-86c8-041b597825bc",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "DevOps",
+    "stack": [
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-126ab0a6-3bec-4ad6-a189-19d4127f79d8",
+    "title": "Staff Software Engineer - Mexico",
+    "company": "Nubank",
+    "locations": [
+      "Ciudad de México"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-20",
+    "url": "https://jobs.ashbyhq.com/nubank/126ab0a6-3bec-4ad6-a189-19d4127f79d8",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-268e385a-35a4-442b-8078-2bd36d5491ab",
+    "title": "Engineering Director, AI Developer Experience (AIDE)",
+    "company": "Nubank",
+    "locations": [
+      "Palo Alto"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-20",
+    "url": "https://jobs.ashbyhq.com/nubank/268e385a-35a4-442b-8078-2bd36d5491ab",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-0e0a0850-ac28-4dec-9ff3-8b9cb9273802",
+    "title": "Tech Lead Software Engineer",
+    "company": "Nubank",
+    "locations": [
+      "Toronto"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": "$ 168 000 – 210 000",
+    "posted": "2026-07-20",
+    "url": "https://jobs.ashbyhq.com/nubank/0e0a0850-ac28-4dec-9ff3-8b9cb9273802",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-ac003ba3-087b-4649-b5ee-c44109b29cc5",
+    "title": "Staff Machine Learning Engineer",
+    "company": "Nubank",
+    "locations": [
+      "Palo Alto"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": "$ 230k – 345k",
+    "posted": "2026-07-20",
+    "url": "https://jobs.ashbyhq.com/nubank/ac003ba3-087b-4649-b5ee-c44109b29cc5",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-78629547-5b83-4cd3-a52a-9d1000426aac",
+    "title": "Lead Software Engineer – Bogotá, Colombia (Hybrid)",
+    "company": "Nubank",
+    "locations": [
+      "Bogota"
+    ],
+    "remote": true,
+    "rkind": "hybrid",
+    "salary": null,
+    "posted": "2026-07-20",
+    "url": "https://jobs.ashbyhq.com/nubank/78629547-5b83-4cd3-a52a-9d1000426aac",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-fd2e7ff7-2d68-4064-a229-3e131cf30bb4",
+    "title": "Customer Excellence Senior Analyst - Bogotá (Bilingual Experience)",
+    "company": "Nubank",
+    "locations": [
+      "Bogota"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-20",
+    "url": "https://jobs.ashbyhq.com/nubank/fd2e7ff7-2d68-4064-a229-3e131cf30bb4",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Аналитика",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-14012e76-5a1f-4fa7-baa2-898812774514",
+    "title": "AI and Agentic AI Risk Management Senior Specialist",
+    "company": "Nubank",
+    "locations": [
+      "Palo Alto",
+      "Virginia",
+      "Miami"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-20",
+    "url": "https://jobs.ashbyhq.com/nubank/14012e76-5a1f-4fa7-baa2-898812774514",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Риски",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-8902fe4e-6379-400a-98f5-e8f4b5f63659",
+    "title": "AI Research Manager - Machine Learning",
+    "company": "Nubank",
+    "locations": [
+      "Palo Alto"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-20",
+    "url": "https://jobs.ashbyhq.com/nubank/8902fe4e-6379-400a-98f5-e8f4b5f63659",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Данные и ML",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-412f91c7-dfda-42d5-8a5b-2c848b013636",
+    "title": "Model Risk Specialist",
+    "company": "Nubank",
+    "locations": [
+      "São Paulo"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-20",
+    "url": "https://jobs.ashbyhq.com/nubank/412f91c7-dfda-42d5-8a5b-2c848b013636",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Риски",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-d01c1dbc-8802-47b1-9fc5-ee59a280729d",
+    "title": "Staff Software Engineer (Marketing Platforms)",
+    "company": "Nubank",
+    "locations": [
+      "São Paulo",
+      "Campinas",
+      "Belo Horizonte",
+      "Rio de Janeiro"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-20",
+    "url": "https://jobs.ashbyhq.com/nubank/d01c1dbc-8802-47b1-9fc5-ee59a280729d",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-3b43d8cc-494e-4e74-9426-fb869796de10",
+    "title": "Staff Security Engineer (IAM) - BR - 2026",
+    "company": "Nubank",
+    "locations": [
+      "São Paulo",
+      "Campinas",
+      "Belo Horizonte",
+      "Rio de Janeiro"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-20",
+    "url": "https://jobs.ashbyhq.com/nubank/3b43d8cc-494e-4e74-9426-fb869796de10",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Безопасность",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-de1206d5-5b21-416b-a7fb-d0b9cc6511b9",
+    "title": "Staff Software Engineer - Payments Gateway",
+    "company": "Nubank",
+    "locations": [
+      "Belo Horizonte",
+      "São Paulo"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-20",
+    "url": "https://jobs.ashbyhq.com/nubank/de1206d5-5b21-416b-a7fb-d0b9cc6511b9",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Платежи",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-5c9c06a2-def9-4e11-88bd-5a8a5e570cd4",
+    "title": "Lead Systems Engineer (Kafka)",
+    "company": "Nubank",
+    "locations": [
+      "Toronto"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": "$ 210 000 – 252 000",
+    "posted": "2026-07-20",
+    "url": "https://jobs.ashbyhq.com/nubank/5c9c06a2-def9-4e11-88bd-5a8a5e570cd4",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-11aaa29d-70df-47af-8d7a-249961a50d9f",
+    "title": "AML Senior Expert",
+    "company": "Nubank",
+    "locations": [
+      "Ciudad de México"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-20",
+    "url": "https://jobs.ashbyhq.com/nubank/11aaa29d-70df-47af-8d7a-249961a50d9f",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Комплаенс",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-c07aae79-a3e9-4ff8-975a-06a7243e4017",
+    "title": "Third Party Risk Management Expert",
+    "company": "Nubank",
+    "locations": [
+      "São Paulo"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-20",
+    "url": "https://jobs.ashbyhq.com/nubank/c07aae79-a3e9-4ff8-975a-06a7243e4017",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Риски",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-694c05a8-dfc1-4e85-9dcf-245dfcabde5a",
+    "title": "Staff IT Engineer - Service Management",
+    "company": "Nubank",
+    "locations": [
+      "Miami",
+      "Virginia"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": "$ 178 560 – 267 840",
+    "posted": "2026-07-20",
+    "url": "https://jobs.ashbyhq.com/nubank/694c05a8-dfc1-4e85-9dcf-245dfcabde5a",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-d9322108-eb40-434c-a4da-e717e0d54735",
+    "title": "Consumer Compliance and CRA Analyst",
+    "company": "Nubank",
+    "locations": [
+      "Virginia"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-20",
+    "url": "https://jobs.ashbyhq.com/nubank/d9322108-eb40-434c-a4da-e717e0d54735",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-a010560d-b6b7-402b-987a-3b8164b44780",
+    "title": "Senior Analytics - Regulatory Solutions",
+    "company": "Nubank",
+    "locations": [
+      "Ciudad de México"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-20",
+    "url": "https://jobs.ashbyhq.com/nubank/a010560d-b6b7-402b-987a-3b8164b44780",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Комплаенс",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-d9014042-6093-47f5-8d27-5becfda27b23",
+    "title": "Data Analyst, AML & Regulatory Compliance",
+    "company": "Nubank",
+    "locations": [
+      "Ciudad de México"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-20",
+    "url": "https://jobs.ashbyhq.com/nubank/d9014042-6093-47f5-8d27-5becfda27b23",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Данные и ML",
+    "grade": null,
+    "spec": "Комплаенс",
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-19292f80-0133-496b-be93-0a2dc807ccf8",
+    "title": "Technical Lead Product Designer - AI Private Banker",
+    "company": "Nubank",
+    "locations": [
+      "Miami"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-20",
+    "url": "https://jobs.ashbyhq.com/nubank/19292f80-0133-496b-be93-0a2dc807ccf8",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Дизайн",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-fe83ac3b-40d1-416c-ad78-867a49ef3d41",
+    "title": "Senior Staff Systems Engineer - Performance Engineer",
+    "company": "Nubank",
+    "locations": [
+      "Miami",
+      "Durham"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-20",
+    "url": "https://jobs.ashbyhq.com/nubank/fe83ac3b-40d1-416c-ad78-867a49ef3d41",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Java",
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-e510c54d-e08f-4c21-ba53-be5795fe1c8e",
+    "title": "Senior Systems Engineer (Service Provisioning)",
+    "company": "Nubank",
+    "locations": [
+      "Buenos Aires"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-20",
+    "url": "https://jobs.ashbyhq.com/nubank/e510c54d-e08f-4c21-ba53-be5795fe1c8e",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "Go",
+      "Java",
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-4e0373cd-d0d5-44f0-a57f-616aae821059",
+    "title": "Lead Software Engineer",
+    "company": "Nubank",
+    "locations": [
+      "Palo Alto"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": "$ 230 000 – 276 000",
+    "posted": "2026-07-20",
+    "url": "https://jobs.ashbyhq.com/nubank/4e0373cd-d0d5-44f0-a57f-616aae821059",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-6dc46322-289e-4ce0-b772-2a0a553b46df",
+    "title": "Business Analyst Manager",
+    "company": "Nubank",
+    "locations": [
+      "Bogota"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-20",
+    "url": "https://jobs.ashbyhq.com/nubank/6dc46322-289e-4ce0-b772-2a0a553b46df",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-b281f2a6-65ce-4635-bbf2-51978c9c108f",
+    "title": "Staff Software Engineer, Data",
+    "company": "Nubank",
+    "locations": [
+      "Palo Alto"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-20",
+    "url": "https://jobs.ashbyhq.com/nubank/b281f2a6-65ce-4635-bbf2-51978c9c108f",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-9d20253b-e946-4554-afab-f115c5a7b8db",
+    "title": "Lead Software Engineer - Mexico",
+    "company": "Nubank",
+    "locations": [
+      "Ciudad de México"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-19",
+    "url": "https://jobs.ashbyhq.com/nubank/9d20253b-e946-4554-afab-f115c5a7b8db",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-4c43a07a-5afa-4d47-b075-5781bd738ea2",
+    "title": "Staff Software Engineer",
+    "company": "Nubank",
+    "locations": [
+      "São Paulo",
+      "Campinas",
+      "Rio de Janeiro"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-19",
+    "url": "https://jobs.ashbyhq.com/nubank/4c43a07a-5afa-4d47-b075-5781bd738ea2",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-903bba47-c9c3-4589-a068-0d2d49caabf0",
+    "title": "Staff Product Designer",
+    "company": "Nubank",
+    "locations": [
+      "Palo Alto",
+      "Virginia",
+      "Miami",
+      "Durham"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-19",
+    "url": "https://jobs.ashbyhq.com/nubank/903bba47-c9c3-4589-a068-0d2d49caabf0",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Дизайн",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-20ae8a5c-6692-41f1-8567-a0446a3a5983",
+    "title": "Senior Software Engineer",
+    "company": "Nubank",
+    "locations": [
+      "São Paulo",
+      "Campinas",
+      "Belo Horizonte",
+      "Rio de Janeiro"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-19",
+    "url": "https://jobs.ashbyhq.com/nubank/20ae8a5c-6692-41f1-8567-a0446a3a5983",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-048e4138-07ad-477f-8a03-32c6b051123d",
+    "title": "Senior Software Engineer – Bogotá, Colombia (Hybrid)",
+    "company": "Nubank",
+    "locations": [
+      "Bogota"
+    ],
+    "remote": true,
+    "rkind": "hybrid",
+    "salary": null,
+    "posted": "2026-07-19",
+    "url": "https://jobs.ashbyhq.com/nubank/048e4138-07ad-477f-8a03-32c6b051123d",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-2c76d5fa-683a-4ac7-ae9d-598dd8589e66",
+    "title": "Senior Software Engineer – Mexico City, Mexico (Hybrid)",
+    "company": "Nubank",
+    "locations": [
+      "Ciudad de México"
+    ],
+    "remote": true,
+    "rkind": "hybrid",
+    "salary": null,
+    "posted": "2026-07-19",
+    "url": "https://jobs.ashbyhq.com/nubank/2c76d5fa-683a-4ac7-ae9d-598dd8589e66",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-fdca5cfd-894e-4691-b03f-507593eb995d",
+    "title": "Lead Business Analyst",
+    "company": "Nubank",
+    "locations": [
+      "São Paulo"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-19",
+    "url": "https://jobs.ashbyhq.com/nubank/fdca5cfd-894e-4691-b03f-507593eb995d",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Аналитика",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-619bfe47-7d60-40b3-9ce9-cc0a4d9d7816",
+    "title": "Senior Staff Engineer, AI Core",
+    "company": "Nubank",
+    "locations": [
+      "Palo Alto"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-19",
+    "url": "https://jobs.ashbyhq.com/nubank/619bfe47-7d60-40b3-9ce9-cc0a4d9d7816",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "Java",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-905d91da-d7d7-4ddf-b5a8-76d7e57ed003",
+    "title": "Principal Product Designer",
+    "company": "Nubank",
+    "locations": [
+      "Palo Alto"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-19",
+    "url": "https://jobs.ashbyhq.com/nubank/905d91da-d7d7-4ddf-b5a8-76d7e57ed003",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Дизайн",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Swift"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-f5dd7afe-8d06-4111-9099-c52095ac1936",
+    "title": "Lead Software Engineer (Crypto, SV) - US - IC6 - 2026",
+    "company": "Nubank",
+    "locations": [
+      "Palo Alto"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-19",
+    "url": "https://jobs.ashbyhq.com/nubank/f5dd7afe-8d06-4111-9099-c52095ac1936",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": "Блокчейн",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-466b97d2-def5-48b4-b65d-e6d360d52162",
+    "title": "Lead Systems Engineer - Traffic Management",
+    "company": "Nubank",
+    "locations": [
+      "Miami",
+      "Palo Alto",
+      "Virginia",
+      "Durham"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": "$ 15 360 – 23 040",
+    "posted": "2026-07-19",
+    "url": "https://jobs.ashbyhq.com/nubank/466b97d2-def5-48b4-b65d-e6d360d52162",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-86215673-3990-4287-8bea-1b332ca1d739",
+    "title": "Regulatory Solutions Reports & Demands",
+    "company": "Nubank",
+    "locations": [
+      "Ciudad de México"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-19",
+    "url": "https://jobs.ashbyhq.com/nubank/86215673-3990-4287-8bea-1b332ca1d739",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-2857aa32-9cd0-4769-b031-84ab0fdd8bee",
+    "title": "Senior IT Engineer - Endpoint Engineering",
+    "company": "Nubank",
+    "locations": [
+      "Ciudad de México"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-19",
+    "url": "https://jobs.ashbyhq.com/nubank/2857aa32-9cd0-4769-b031-84ab0fdd8bee",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "Python",
+      "Java",
+      "SQL",
+      "AWS",
+      "Docker"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-e8fe49b1-7d76-4995-b4b5-5a3fdaa641db",
+    "title": "Staff Software Engineer - Lending Foundations",
+    "company": "Nubank",
+    "locations": [
+      "São Paulo",
+      "Campinas",
+      "Toronto",
+      "Belo Horizonte",
+      "Rio de Janeiro"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-19",
+    "url": "https://jobs.ashbyhq.com/nubank/e8fe49b1-7d76-4995-b4b5-5a3fdaa641db",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -48482,6 +55124,171 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-feedzai-7978882",
+    "title": "Advanced Product Manager - Digital Trust",
+    "company": "Feedzai",
+    "locations": [
+      "Portugal"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-17",
+    "url": "https://careers.feedzai.com/job_description?gh_jid=7978882",
+    "site": "feedzai.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Продакт",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "At Feedzai, we're building a world of safer money. A world where financial institutions move faster than criminals. Where the payments that fund real lives through salaries, savings, and businesses are protected in real time. We use trusted AI to detect and prevent financial crime, fraud, and money laundering at scale: the world's top banks, payment networks, and acquirers trust our technology to safeguard more than one billion consumers and $9 trillion in payment volume every year. Feedzai is a Series D company and has raised $282M to date. With a valuation of $2 billion, our technology protects 1 billion consumers and 90 billion transactions each year. The Product Team builds products to…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-feedzai-7572097",
+    "title": "Engineering Manager - Digital Trust",
+    "company": "Feedzai",
+    "locations": [
+      "Portugal"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-17",
+    "url": "https://careers.feedzai.com/job_description?gh_jid=7572097",
+    "site": "feedzai.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "At Feedzai, we're building a world of safer money. A world where financial institutions move faster than criminals. Where the payments that fund real lives through salaries, savings, and businesses are protected in real time. We use trusted AI to detect and prevent financial crime, fraud, and money laundering at scale: the world's top banks, payment networks, and acquirers trust our technology to safeguard more than one billion consumers and $9 trillion in payment volume every year. Feedzai is a Series D company and has raised $282M to date. With a valuation of $2 billion, our technology protects 1 billion consumers and 90 billion transactions each year. The Engineering (Tech) Team is…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-feedzai-7412900",
+    "title": "Senior Software Engineer - Customer Success",
+    "company": "Feedzai",
+    "locations": [
+      "Portugal"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-17",
+    "url": "https://careers.feedzai.com/job_description?gh_jid=7412900",
+    "site": "feedzai.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Java",
+      "SQL",
+      "AWS",
+      "Docker"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "At Feedzai, we're building a world of safer money. A world where financial institutions move faster than criminals. Where the payments that fund real lives through salaries, savings, and businesses are protected in real time. We use trusted AI to detect and prevent financial crime, fraud, and money laundering at scale: the world's top banks, payment networks, and acquirers trust our technology to safeguard more than one billion consumers and $9 trillion in payment volume every year. Feedzai is a Series D company and has raised $282M to date. With a valuation of $2 billion, our technology protects 1 billion consumers and 90 billion transactions each year. The Customer Success Engineering…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-feedzai-7412897",
+    "title": "Software Engineer - Customer Success",
+    "company": "Feedzai",
+    "locations": [
+      "Portugal"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-17",
+    "url": "https://careers.feedzai.com/job_description?gh_jid=7412897",
+    "site": "feedzai.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Java",
+      "SQL",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "At Feedzai, we're building a world of safer money. A world where financial institutions move faster than criminals. Where the payments that fund real lives through salaries, savings, and businesses are protected in real time. We use trusted AI to detect and prevent financial crime, fraud, and money laundering at scale: the world's top banks, payment networks, and acquirers trust our technology to safeguard more than one billion consumers and $9 trillion in payment volume every year. Feedzai is a Series D company and has raised $282M to date. With a valuation of $2 billion, our technology protects 1 billion consumers and 90 billion transactions each year. The Customer Success Engineering…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-feedzai-7960085",
+    "title": "Software Engineer - Digital Trust",
+    "company": "Feedzai",
+    "locations": [
+      "Lisbon, Portugal"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-17",
+    "url": "https://careers.feedzai.com/job_description?gh_jid=7960085",
+    "site": "feedzai.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Java",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "At Feedzai, we're building a world of safer money. A world where financial institutions move faster than criminals. Where the payments that fund real lives through salaries, savings, and businesses are protected in real time. We use trusted AI to detect and prevent financial crime, fraud, and money laundering at scale: the world's top banks, payment networks, and acquirers trust our technology to safeguard more than one billion consumers and $9 trillion in payment volume every year. Feedzai is a Series D company and has raised $282M to date. With a valuation of $2 billion, our technology protects 1 billion consumers and 90 billion transactions each year. The Engineering (Tech) Team is…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-nubank-affdd54e-b0ab-4857-8401-36bb45c6d6f1",
+    "title": "Senior Security Engineer (Blockchain Security)",
+    "company": "Nubank",
+    "locations": [
+      "São Paulo",
+      "Campinas",
+      "Belo Horizonte",
+      "Rio de Janeiro"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-17",
+    "url": "https://jobs.ashbyhq.com/nubank/affdd54e-b0ab-4857-8401-36bb45c6d6f1",
+    "source": "ashby",
+    "site": "nubank.com.br",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Блокчейн",
+    "stack": [
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
     "id": "wk-starling-bank-C8027DE000",
     "title": "Senior Solution Architect - Engine by Starling",
     "company": "Starling Bank",
@@ -48666,6 +55473,32 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-coinbase-7286062",
+    "title": "Manager of Compliance Testing and Assurance",
+    "company": "Coinbase",
+    "locations": [
+      "Luxembourg"
+    ],
+    "remote": false,
+    "rkind": "hybrid",
+    "salary": "€ 124 128 – 124 128",
+    "posted": "2026-07-16",
+    "url": "https://www.coinbase.com/careers/positions/7286062?gh_jid=7286062",
+    "site": "coinbase.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Ready to do the most impactful work of your career? At Coinbase, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase. As a Manager of Compliance Testing and Assurance on the Compliance Testing and Assurance team, you'll…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-ripple-7624480",
     "title": "Vice President of Engineering, Fiat Infrastructure",
     "company": "Ripple",
@@ -48722,17 +55555,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8590025002",
+    "id": "gh-brex-8426273002",
     "title": "Senior Application Security Engineer (Remote)",
     "company": "Brex",
     "locations": [
-      "United States"
+      "Canada"
     ],
     "remote": true,
     "rkind": null,
     "salary": "$ 192 000 – 240 000",
     "posted": "2026-07-16",
-    "url": "https://www.brex.com/careers/8590025002?gh_jid=8590025002",
+    "url": "https://www.brex.com/careers/8426273002?gh_jid=8426273002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -48751,17 +55584,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8339252002",
+    "id": "gh-brex-8339287002",
     "title": "Senior Security Operations Engineer",
     "company": "Brex",
     "locations": [
-      "San Francisco, United States"
+      "Vancouver, Canada"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-07-16",
-    "url": "https://www.brex.com/careers/8339252002?gh_jid=8339252002",
+    "url": "https://www.brex.com/careers/8339287002?gh_jid=8339287002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -49060,6 +55893,85 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-05",
     "descShort": "At Moss, we give finance professionals the power to automate their day-to-day and make forward-thinking decisions. Our team and culture make us unique — we’re driven by impact and growth, where every one of us strives to learn and excel. Recognised by Sifted’s Rising 100 https://sifted.eu/rankings/b2b-saas-rising-100-2024 and LinkedIn's Top Startups https://www.linkedin.com/pulse/linkedin-top-startups-2024-20-aufstrebende-unternehmen-bjd0c/, we’re here to help propel your career and together, make Moss a lasting success. Our KYC Operations team is looking for an KYC Intern (f/m/d) in Berlin. This internship will provide hands-on experience in Moss’s efforts to combat crime and fraud while…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-paxos-5a8cdbba-8898-4882-b04b-cfe6f26c407c",
+    "title": "Senior Security Operations Engineer",
+    "company": "Paxos",
+    "locations": [
+      "Tel Aviv - Hybrid"
+    ],
+    "remote": true,
+    "rkind": "hybrid",
+    "salary": null,
+    "posted": "2026-07-15",
+    "url": "https://jobs.ashbyhq.com/paxos/5a8cdbba-8898-4882-b04b-cfe6f26c407c",
+    "source": "ashby",
+    "site": "paxos.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Безопасность",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Applying to Paxos? Our only careers site is paxos.com/careers http://paxos.com/careers, and we only recruit via @paxos.com http://paxos.com email. Details below. ___ ABOUT PAXOS Today’s financial infrastructure is archaic, expensive, inefficient and risky — supporting a system that leaves out more people than it lets in. So we’re rebuilding it. We’re on a mission to open the world’s financial system to everyone by enabling the instant movement of any asset, any time, in a trustworthy way. For over a decade, we’ve built blockchain infrastructure that tokenizes, custodies, trades and settles assets for the world’s leading financial institutions, like Mastercard, Visa, Robinhood, and PayPal.…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-complyadvantage-8632946002",
+    "title": "Principal Data Engineer",
+    "company": "ComplyAdvantage",
+    "locations": [
+      "Lisbon, Portugal"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-15",
+    "url": "https://complyadvantage.com/careers/jobs/8632946002?gh_jid=8632946002",
+    "site": "complyadvantage.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": "Данные",
+    "stack": [
+      "Python",
+      "Kotlin",
+      "TypeScript",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "What you will be doing We are looking for an experienced Principal Data Engineer to lead the design and evolution of the data platform that powers our AML/KYC and Fraud products. Our platform depends on ingesting, transforming and serving billions of signals every day: sanctions and watchlist data, adverse media, corporate registries, transaction events and customer records, all flowing into a real-time financial crime intelligence knowledge graph used by thousands of customers across the world. As a Principal Data Engineer you will set the medium to long term technical direction for our data infrastructure. You will partner with Engineering, Data Science, Product and SRE leadership on…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-upvest-4234d4fc-01ed-4f4c-8f1a-73dc0e7f555f",
+    "title": "Head of Product - Clients (f/m/d)",
+    "company": "Upvest",
+    "locations": [
+      "Berlin"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-15",
+    "url": "https://jobs.ashbyhq.com/upvest/4234d4fc-01ed-4f4c-8f1a-73dc0e7f555f",
+    "source": "ashby",
+    "site": "upvest.co",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Продакт",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Figma"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "At Upvest, we are on a mission to make investing as easy as spending money. Upvest empowers businesses to offer a wide range of investment products and the best experience in the field of capital market investment and retirement planning. Upvest’s Investment API is easy to integrate so that fintechs and financial institutions can save resources and fully focus on their core business. We are proud to partner with Europe’s leading Fintechs and financial institutions such as DKB, Revolut, N26 and Raisin. Founded in 2017 by Martin Kassing, Upvest now brings together over 270 talented professionals from more than 70 nationalities. Upvest is backed by €280M in total funding from world-class…",
     "hasDesc": true
   },
   {
@@ -49395,6 +56307,30 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-05",
     "descShort": "At Moss, we give finance professionals the power to automate their day-to-day and make forward-thinking decisions. Our team and culture make us unique — we’re driven by impact and growth, where every one of us strives to learn and excel. Recognised by Sifted’s Rising 100 https://sifted.eu/rankings/b2b-saas-rising-100-2024 and LinkedIn's Top Startups https://www.linkedin.com/pulse/linkedin-top-startups-2024-20-aufstrebende-unternehmen-bjd0c/, we’re here to help propel your career and together, make Moss a lasting success. Our Engineering teams are seeking Senior Backend Engineers (f/m/d) for a variety teams in Warsaw. Collaborating closely with designers, product managers and frontend…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-paxos-f0eece71-5927-4f49-bed2-9932af8edd9f",
+    "title": "Security Operations Engineer",
+    "company": "Paxos",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "$169,000 – $194,025 • Offers Equity",
+    "posted": "2026-07-13",
+    "url": "https://jobs.ashbyhq.com/paxos/f0eece71-5927-4f49-bed2-9932af8edd9f",
+    "source": "ashby",
+    "site": "paxos.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Безопасность",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Applying to Paxos? Our only careers site is paxos.com/careers http://paxos.com/careers, and we only recruit via @paxos.com http://paxos.com email. Details below. ___ ABOUT PAXOS Today’s financial infrastructure is archaic, expensive, inefficient and risky — supporting a system that leaves out more people than it lets in. So we’re rebuilding it. We’re on a mission to open the world’s financial system to everyone by enabling the instant movement of any asset, any time, in a trustworthy way. For over a decade, we’ve built blockchain infrastructure that tokenizes, custodies, trades and settles assets for the world’s leading financial institutions, like Mastercard, Visa, Robinhood, and PayPal.…",
     "hasDesc": true
   },
   {
@@ -50200,6 +57136,30 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "rc-tether-2671398",
+    "title": "Software Engineer P2P - Search Team (100% Remote, Worldwide)",
+    "company": "Tether",
+    "locations": [
+      "Boston"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-08",
+    "url": "https://careers.tether.io/o/software-engineer-p2p-search-team-100-remote-worldwide",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
+    "hasDesc": true
+  },
+  {
     "id": "ab-mollie-c8e6f489-f1b5-4127-8d1f-28668e94fa99",
     "title": "UI Engineer II",
     "company": "Mollie",
@@ -50427,6 +57387,54 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-05",
     "descShort": "About Betterment Betterment is a leading, technology-driven financial services company that offers investing, savings and retirement solutions for retail investors and investment advisors as well as financial wellness solutions, including a 401(k) for small and medium-sized businesses. Our team is passionate about our mission, to empower people to build wealth with confidence and ease. We’re headquartered in NYC and offer hybrid NY-based positions (four days/ week in-office, with no required office days during the summer and winter holidays). About the Role This role sits on our Risk Management team — a small second line-of-defense (2LOD) function responsible for enterprise risk management…",
+    "hasDesc": true
+  },
+  {
+    "id": "rc-tether-2668902",
+    "title": "Regulatory Affairs and Licensing- Francophone Africa Lead",
+    "company": "Tether",
+    "locations": [
+      "Yamoussoukro"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-07",
+    "url": "https://careers.tether.io/o/regulatory-affairs-and-licensing-francophone-africa-lead",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Комплаенс",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-upvest-52c072ef-b1b7-43f8-9da8-2ae2c3054ccb",
+    "title": "Head of Engineering, Platform (f/m/d)",
+    "company": "Upvest",
+    "locations": [
+      "Berlin"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-07-07",
+    "url": "https://jobs.ashbyhq.com/upvest/52c072ef-b1b7-43f8-9da8-2ae2c3054ccb",
+    "source": "ashby",
+    "site": "upvest.co",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "At Upvest, we are on a mission to make investing as easy as spending money. Upvest empowers businesses to offer a wide range of investment products and the best experience in the field of capital market investment and retirement planning. Upvest’s Investment API is easy to integrate so that fintechs and financial institutions can save resources and fully focus on their core business. We are proud to partner with Europe’s leading Fintechs and financial institutions such as DKB, Revolut, N26 and Raisin. Founded in 2017 by Martin Kassing, Upvest now brings together over 270 talented professionals from more than 70 nationalities. Upvest is backed by €280M in total funding from world-class…",
     "hasDesc": true
   },
   {
@@ -50771,6 +57779,142 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "ab-lunar-be9f7da5-f66b-454b-a9eb-9447f099d896",
+    "title": "Staff Frontend Engineer",
+    "company": "Lunar",
+    "locations": [
+      "San Francisco"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$190K – $250K • Offers Equity",
+    "posted": "2026-07-02",
+    "url": "https://jobs.ashbyhq.com/lunar/be9f7da5-f66b-454b-a9eb-9447f099d896",
+    "source": "ashby",
+    "site": "lunar.app",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Фронтенд",
+    "stack": [
+      "TypeScript",
+      "JavaScript",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Us: Lunar is a stealth technology company building a new type of software platform for health systems. We are on a mission to revolutionize healthcare with cutting-edge, AI-powered software designed to help every hospital deliver world-class care for their patients. Our platform is already the core backbone of health systems today, transforming clinical and operational workflows at scale with the world’s first AI-native hospital information system. This next-generation platform is a fundamental rebuild of the information infrastructure that runs health systems. All of it – from doctors, nurses, pharmacists, lab technicians, coders, billers, supply chain, and even patients – Lunar’s…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-lunar-4b738edd-8fb8-4c78-be83-b13f5976c6fa",
+    "title": "Senior Software Engineer, Platform",
+    "company": "Lunar",
+    "locations": [
+      "San Francisco"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$170K – $210K • Offers Equity",
+    "posted": "2026-07-02",
+    "url": "https://jobs.ashbyhq.com/lunar/4b738edd-8fb8-4c78-be83-b13f5976c6fa",
+    "source": "ashby",
+    "site": "lunar.app",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "JavaScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Us: Lunar is a stealth technology company building a new type of software platform for health systems. We are on a mission to revolutionize healthcare with cutting-edge, AI-powered software designed to help every hospital deliver world-class care for their patients. Our platform is already the core backbone of health systems today, transforming clinical and operational workflows at scale with the world’s first AI-native hospital information system. This next-generation platform is a fundamental rebuild of the information infrastructure that runs health systems. All of it – from doctors, nurses, pharmacists, lab technicians, coders, billers, supply chain, and even patients – Lunar’s…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-lunar-f090de2b-9a04-474d-8f7e-2cfc1b2cebdb",
+    "title": "Staff Software Engineer, Platform",
+    "company": "Lunar",
+    "locations": [
+      "San Francisco"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$190K – $250K • Offers Equity",
+    "posted": "2026-07-02",
+    "url": "https://jobs.ashbyhq.com/lunar/f090de2b-9a04-474d-8f7e-2cfc1b2cebdb",
+    "source": "ashby",
+    "site": "lunar.app",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "JavaScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Us: Lunar is a stealth technology company building a new type of software platform for health systems. We are on a mission to revolutionize healthcare with cutting-edge, AI-powered software designed to help every hospital deliver world-class care for their patients. Our platform is already the core backbone of health systems today, transforming clinical and operational workflows at scale with the world’s first AI-native hospital information system. This next-generation platform is a fundamental rebuild of the information infrastructure that runs health systems. All of it – from doctors, nurses, pharmacists, lab technicians, coders, billers, supply chain, and even patients – Lunar’s…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-lunar-c200a78b-9918-41ae-a45e-2610dc3ae706",
+    "title": "Senior Software Engineer, Product",
+    "company": "Lunar",
+    "locations": [
+      "San Francisco"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$190K – $250K • Offers Equity",
+    "posted": "2026-07-02",
+    "url": "https://jobs.ashbyhq.com/lunar/c200a78b-9918-41ae-a45e-2610dc3ae706",
+    "source": "ashby",
+    "site": "lunar.app",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "JavaScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Us: Lunar is a stealth technology company building a new type of software platform for health systems. We are on a mission to revolutionize healthcare with cutting-edge, AI-powered software designed to help every hospital deliver world-class care for their patients. Our platform is already the core backbone of health systems today, transforming clinical and operational workflows at scale with the world’s first AI-native hospital information system. This next-generation platform is a fundamental rebuild of the information infrastructure that runs health systems. All of it – from doctors, nurses, pharmacists, lab technicians, coders, billers, supply chain, and even patients – Lunar’s…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-lunar-8dc5f0e9-c1e0-473d-8a99-4fb2521dad38",
+    "title": "Staff Software Engineer, Product",
+    "company": "Lunar",
+    "locations": [
+      "San Francisco"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$190K – $250K • Offers Equity",
+    "posted": "2026-07-02",
+    "url": "https://jobs.ashbyhq.com/lunar/8dc5f0e9-c1e0-473d-8a99-4fb2521dad38",
+    "source": "ashby",
+    "site": "lunar.app",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "JavaScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Us: Lunar is a stealth technology company building a new type of software platform for health systems. We are on a mission to revolutionize healthcare with cutting-edge, AI-powered software designed to help every hospital deliver world-class care for their patients. Our platform is already the core backbone of health systems today, transforming clinical and operational workflows at scale with the world’s first AI-native hospital information system. This next-generation platform is a fundamental rebuild of the information infrastructure that runs health systems. All of it – from doctors, nurses, pharmacists, lab technicians, coders, billers, supply chain, and even patients – Lunar’s…",
+    "hasDesc": true
+  },
+  {
     "id": "ab-mollie-8b6673cc-ec0c-4af5-97a4-dc546d4ca81e",
     "title": "Lead Solution Engineer",
     "company": "Mollie",
@@ -50896,17 +58040,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ripple-8002049",
+    "id": "gh-ripple-8002028",
     "title": "Senior Staff DevOps Engineer",
     "company": "Ripple",
     "locations": [
-      "Chicago, United States"
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 220 000 – 260 000",
     "posted": "2026-07-01",
-    "url": "https://ripple.com/careers/all-jobs/job/8002049?gh_jid=8002049",
+    "url": "https://ripple.com/careers/all-jobs/job/8002028?gh_jid=8002028",
     "site": "ripple.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -51191,6 +58335,33 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "ab-seon-a17ab095-3770-4cb5-9091-fa3e16f4ab3e",
+    "title": "Senior Motion Designer",
+    "company": "SEON",
+    "locations": [
+      "Budapest"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "HUF 14M – HUF 19M • Offers Equity",
+    "posted": "2026-07-01",
+    "url": "https://jobs.ashbyhq.com/seon/a17ab095-3770-4cb5-9091-fa3e16f4ab3e",
+    "source": "ashby",
+    "site": "seon.io",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Дизайн",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Photoshop",
+      "Figma"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "SEON is the command center for fraud prevention and AML compliance, helping thousands of companies worldwide stop fraud, reduce risk and protect revenue. Powered by 900+ real-time, first-party data signals, SEON enriches customer profiles, flags suspicious behavior and streamlines compliance workflows - all from one place. SEON provides richer data, more flexible and transparent analysis, and faster time to value than any other provider on the market. We’ve helped companies reduce fraud by 95% and achieve 32x ROI, and we’re growing fast, thanks to our partnerships with some of the world’s most ambitious digital brands like Revolut, Wise, and Bilt. Job purpose We're looking for a Senior…",
+    "hasDesc": true
+  },
+  {
     "id": "ab-mollie-ff439d94-cfb5-4523-8e99-a19edcb56ed6",
     "title": "Machine Learning Platform Engineer I",
     "company": "Mollie",
@@ -51289,6 +58460,30 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-05",
     "descShort": "ABOUT RAMP Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books. The problems are high-stakes, data-dense, and unforgiving. We hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome. The median Ramp customer saves 5% and grows revenue 16% in their…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-trust-wallet-2d265735-8142-42d6-8dcb-7fb508b1eaa5",
+    "title": "Brand Video Creator & KOL Partner (视频创作)",
+    "company": "Trust Wallet",
+    "locations": [],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-06-30",
+    "url": "https://jobs.ashbyhq.com/trust-wallet/2d265735-8142-42d6-8dcb-7fb508b1eaa5",
+    "source": "ashby",
+    "site": "trustwallet.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "lang": "zh",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "About the company Trust Wallet is the leading non-custodial cryptocurrency wallet, trusted by over 200 million people worldwide to securely manage and grow their digital assets. Our vision is to give individuals the freedom to own their assets, confidently participate in the future economy, and access opportunities that enhance their lives. Our mission is to be a trusted personal companion — helping users safely navigate Web3, the on-chain economy, and the emerging AI-powered future. With support for over 10 million assets across 100+ blockchains, Trust Wallet offers a seamless, multi-chain experience backed by industry-leading self-custody technology, a vibrant community, and a growing…",
     "hasDesc": true
   },
   {
@@ -51726,6 +58921,89 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "ab-trust-wallet-a0ad19ba-c92d-46c4-81ee-bd6faba464db",
+    "title": "Join Our Engineering Talent Network",
+    "company": "Trust Wallet",
+    "locations": [],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-06-24",
+    "url": "https://jobs.ashbyhq.com/trust-wallet/a0ad19ba-c92d-46c4-81ee-bd6faba464db",
+    "source": "ashby",
+    "site": "trustwallet.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "Go"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About the company Trust Wallet is the leading non-custodial cryptocurrency wallet, trusted by over 200 million people worldwide to securely manage and grow their digital assets. Our vision is to give individuals the freedom to own their assets, confidently participate in the future economy, and access opportunities that enhance their lives. Our mission is to be a trusted personal companion — helping users safely navigate Web3, the on-chain economy, and the emerging AI-powered future. With support for over 10 million assets across 100+ blockchains, Trust Wallet offers a seamless, multi-chain experience backed by industry-leading self-custody technology, a vibrant community, and a growing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-complyadvantage-8516412002",
+    "title": "Junior Software Engineer",
+    "company": "ComplyAdvantage",
+    "locations": [
+      "Prague, Czech Republic"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-06-24",
+    "url": "https://complyadvantage.com/careers/jobs/8516412002?gh_jid=8516412002",
+    "site": "complyadvantage.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Junior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "Java",
+      "Kotlin",
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Writing software is your hobby. You want to team up with great people because that’s the best way to grow and learn. You want your work to make a positive impact in the world. You love the idea that your code can help combat global crime. Is this you? Then you will fit well in our team. We are building cutting-edge solutions to create a safer world and stop money from ending up in the hands of criminals. Your work will allow our clients to identify and understand criminal, financial, and political risks, updating dynamically as new data becomes available from various sources (sanctions, watchlists, corporate registries, media, …). As a Junior Software Engineer, you will: • Collaborate on…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-bitso-7781633003",
+    "title": "Platform Engineer - (Site Reliability Engineering)",
+    "company": "Bitso",
+    "locations": [
+      "Latin America"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-06-24",
+    "url": "https://bitso.com/jobs/7781633003?gh_jid=7781633003",
+    "site": "bitso.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "DevOps",
+    "stack": [
+      "Python",
+      "Java",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Working At Bitso We are a diverse team that takes pride in understanding the perspectives of others. We fully embrace working remotely and we are eager to act, improve and accelerate progress inside and outside of our organization. To drive revolutionary changes in society and make crypto useful, we delight our customers with world-class products, deep care, and intentional empathy. Your Purpose At Bitso, reliability isn’t an afterthought — it’s a competitive advantage. As a Platform Engineer 2 focused on Incident Management, you’ll own the full incident lifecycle: from active response during live incidents, to driving postmortems, building automation, and eliminating the root causes that…",
+    "hasDesc": true
+  },
+  {
     "id": "ab-paddle-39358ffd-7b34-4336-8e49-54ac703e0323",
     "title": "Site Reliability Engineer",
     "company": "Paddle",
@@ -51827,6 +59105,59 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-05",
     "descShort": "At Ripple, we’re building a world where value moves like information does today. It’s big, it’s bold, and we’re already doing it. Through our crypto solutions for financial institutions, businesses, governments and developers, we are improving the global financial system and creating greater economic fairness and opportunity for more people, in more places around the world. And we get to do the best work of our career and grow our skills surrounded by colleagues who have our backs. If you’re ready to see your impact and unlock incredible career growth opportunities, join us, and build real world value. THE WORK: Our enterprise fintech solutions team is growing, and we’re looking for a…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-elliptic-b2894201-7298-4277-bbae-6b0cf14c6c55",
+    "title": "Senior AI Product Engineer",
+    "company": "Elliptic",
+    "locations": [
+      "London, United Kingdom"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-06-23",
+    "url": "https://jobs.ashbyhq.com/elliptic/b2894201-7298-4277-bbae-6b0cf14c6c55",
+    "source": "ashby",
+    "site": "elliptic.co",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "TypeScript",
+      "SQL",
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Do you want to build the AI systems that compliance teams rely on to investigate real financial crime? Are you excited about taking agentic workflows from prototype to production at scale? Do you want your work to directly help catch bad actors moving money across blockchains? Elliptic is hiring a Senior AI Engineer to join our AI team. It is the team behind Elliptic's copilot, the AI product that helps compliance investigators trace fund flows, surface patterns, and respond to risk in real time. This role sits at the centre of that work, designing the agentic systems, LLM integrations, and backend services that turn complex blockchain data into useful answers. You'll join a focused team…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-upvest-f2d8a8bf-b300-47dd-89e2-a23b97468a63",
+    "title": "Lead IT Risk Manager (f/m/d)",
+    "company": "Upvest",
+    "locations": [
+      "Berlin"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-06-23",
+    "url": "https://jobs.ashbyhq.com/upvest/f2d8a8bf-b300-47dd-89e2-a23b97468a63",
+    "source": "ashby",
+    "site": "upvest.co",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Риски",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "At Upvest, we are on a mission to make investing as easy as spending money. Upvest empowers businesses to offer a wide range of investment products and the best experience in the field of capital market investment and retirement planning. Upvest’s Investment API is easy to integrate so that fintechs and financial institutions can save resources and fully focus on their core business. We are proud to partner with Europe’s leading Fintechs and financial institutions such as DKB, Revolut, N26 and Raisin. Founded in 2017 by Martin Kassing, Upvest now brings together over 270 talented professionals from more than 70 nationalities. Upvest is backed by €280M in total funding from world-class…",
     "hasDesc": true
   },
   {
@@ -52065,6 +59396,61 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "rc-tether-2635817",
+    "title": "Bare Developer (100% Remote - Worldwide) - C / JavaScript",
+    "company": "Tether",
+    "locations": [
+      "Wien"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-06-18",
+    "url": "https://careers.tether.io/o/bare-developer-100-remote-worldwide-c-javascript-4",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Фронтенд",
+    "stack": [
+      "JavaScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-bitso-7777583003",
+    "title": "Software Engineer - Latam or Europe",
+    "company": "Bitso",
+    "locations": [
+      "Latin America"
+    ],
+    "remote": false,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-06-18",
+    "url": "https://bitso.com/jobs/7777583003?gh_jid=7777583003",
+    "site": "bitso.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Java",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Working At Bitso We are a diverse team that takes pride in understanding the perspectives of others. We fully embrace working remotely and we are eager to act, improve and accelerate progress inside and outside of our organization. To drive revolutionary changes in society and make crypto useful, we delight our customers with world-class products, deep care, and intentional empathy. Your Purpose At Bitso, the Software Engineer on the Nexus Squad owns the reliability, scalability, and evolution of our mission-critical pay-in and pay-out systems — the financial backbone that moves billions of dollars worldwide. You will design and deliver event-driven, high-throughput solutions that ensure…",
+    "hasDesc": true
+  },
+  {
     "id": "lv-qonto-53f5103c-e7eb-4b7f-baa4-777968faf405",
     "title": "Staff Product Manager [Accounting expertise] - German speaking 🇩🇪",
     "company": "Qonto",
@@ -52299,6 +59685,80 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "rc-tether-2643385",
+    "title": "AI Research Engineer (Multi-Modal & Vision)",
+    "company": "Tether",
+    "locations": [
+      "Bangalore"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-06-16",
+    "url": "https://careers.tether.io/o/ai-research-engineer-multi-modal-vision-6",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
+    "hasDesc": true
+  },
+  {
+    "id": "rc-tether-2643277",
+    "title": "Program Manager Mining (100% remote)",
+    "company": "Tether",
+    "locations": [
+      "Brasilia"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-06-16",
+    "url": "https://careers.tether.io/o/program-manager-mining-100-remote-11",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Продюсирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
+    "hasDesc": true
+  },
+  {
+    "id": "lv-anchorage-84fab38a-ef1a-48ee-b487-e16b4ff9ee74",
+    "title": "Credit Trader - Prime Finance",
+    "company": "Anchorage",
+    "locations": [
+      "Cayman Islands"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-06-16",
+    "url": "https://jobs.lever.co/anchorage/84fab38a-ef1a-48ee-b487-e16b4ff9ee74",
+    "source": "lever",
+    "site": "anchorage.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Трейдинг",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "At Anchorage Digital, we are building the world’s most advanced digital asset platform for institutions to participate in crypto. Anchorage Digital is a crypto platform that enables institutions to participate in digital assets through custody, staking, trading, governance, settlement, and the industry's leading security infrastructure. Home to Anchorage Digital Bank N.A., the first federally chartered crypto bank in the U.S., Anchorage Digital also serves institutions through Anchorage Digital Singapore, Porto by Anchorage Digital, and other offerings. The company is funded by leading institutions including Andreessen Horowitz, GIC, Goldman Sachs, KKR, and Visa, with its Series D valuation…",
+    "hasDesc": true
+  },
+  {
     "id": "lv-zopa-f37c57aa-9b3c-4bb0-80e5-6cd1be81459b",
     "title": "Head of Marketing Analytics",
     "company": "Zopa",
@@ -52372,6 +59832,31 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "ab-elliptic-b8d9dab4-3af9-453d-bd87-29e1ab710e2b",
+    "title": "Head of Policy and Regulatory Affairs – US",
+    "company": "Elliptic",
+    "locations": [
+      "New York, United States",
+      "Washington, D.C."
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": "$155K – $290K",
+    "posted": "2026-06-15",
+    "url": "https://jobs.ashbyhq.com/elliptic/b8d9dab4-3af9-453d-bd87-29e1ab710e2b",
+    "source": "ashby",
+    "site": "elliptic.co",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Комплаенс",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "At Elliptic, we believe cryptocurrency will play a huge role in the future of value transfer, and we care deeply about helping to build this future. In order for cryptocurrency to flourish, it’s important to prevent criminal abuse of the technology. Elliptic is the global leader in detecting, preventing, and pursuing criminal activity in cryptocurrencies. Our clients include the world’s leading cryptocurrency exchanges, financial institutions and government agencies. Our unique platform gives us an unparalleled understanding of cryptocurrency capital flows, using a combination of network science and machine learning to aggregate and interpret vast quantities of transaction data. We provide…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-ripple-7660019",
     "title": "Content Marketing Manager",
     "company": "Ripple",
@@ -52397,6 +59882,31 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-ripple-7767531",
+    "title": "Treasury Manager, Global Treasury Operations",
+    "company": "Ripple",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 144 000 – 180 000",
+    "posted": "2026-06-13",
+    "url": "https://ripple.com/careers/all-jobs/job/7767531?gh_jid=7767531",
+    "site": "ripple.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Платежи",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "At Ripple, we’re building a world where value moves like information does today. It’s big, it’s bold, and we’re already doing it. Through our crypto solutions for financial institutions, businesses, governments and developers, we are improving the global financial system and creating greater economic fairness and opportunity for more people, in more places around the world. And we get to do the best work of our career and grow our skills surrounded by colleagues who have our backs. If you’re ready to see your impact and unlock incredible career growth opportunities, join us, and build real world value. The WORK: As our Treasury team grows worldwide, we are hiring a versatile, operational…",
+    "hasDesc": true
+  },
+  {
     "id": "ab-pennylane-8b166d76-d222-4a6b-977d-8654ba4af825",
     "title": "Senior Engineering Manager",
     "company": "Pennylane",
@@ -52418,6 +59928,63 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-05",
     "descShort": "Are you looking to have an impact on the daily life of millions of entrepreneurs in France and Europe? Do you thrive in a trustful, fast-paced environment? Do you feel like our Engineering principles https://medium.com/pennylane-engineering/our-engineering-principles-ab0613a0574d are aligned with your vision ? Then Pennylane might be the right place for you — and you, might be the perfect fit for this role 🙂 Our vision We aim to become the most beloved financial Operating System of European SMEs. We help business owners get rid of the time consuming hassle of handling accounting and finance, while giving them access to key information that they can use to make better decisions. Meanwhile…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-bitvavo-1a61b34f-6813-403b-b711-abb630a266a2",
+    "title": "Senior Data Platform Engineer",
+    "company": "Bitvavo",
+    "locations": [
+      "Headquarters"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-06-12",
+    "url": "https://jobs.ashbyhq.com/bitvavo/1a61b34f-6813-403b-b711-abb630a266a2",
+    "source": "ashby",
+    "site": "bitvavo.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Данные",
+    "stack": [
+      "Python",
+      "Java",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "In 2018, Bitvavo launched the first version of its digital assets trading platform, to bridge the gap between traditional currencies and digital assets. By offering transparent fees, a wide range of assets and an easy to use platform, Bitvavo is making the currency of the future accessible for everyone. In two years' time, Bitvavo has established itself as the market leader in the Netherlands and one of the largest in Europe, with over one million users exchanging tens of billions of digital assets a year. Our team, located in Amsterdam, is looking for self-driven, talented people who can help make digital assets available for everyone. ABOUT THE OPPORTUNITY We are looking for a talented…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-belvo-daf0758c-5ca4-4255-9ef4-79e7a03249c0",
+    "title": "Senior Engineering Manager Payments",
+    "company": "Belvo",
+    "locations": [
+      "🇧🇷 São Paulo",
+      "🇲🇽 Mexico City"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-06-12",
+    "url": "https://jobs.ashbyhq.com/belvo/daf0758c-5ca4-4255-9ef4-79e7a03249c0",
+    "source": "ashby",
+    "site": "belvo.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Платежи",
+    "stack": [
+      "Python",
+      "JavaScript",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "A little bit about us: We are Belvo, an open finance API platform with the bold vision of democratizing access to financial services in Latin America. We enable any financial innovator to access and interpret financial data, as well as initiate payments from their end-users accounts. We’re turning the messy complexities of the Latin American financial ecosystem into a modern set of tools to access and interpret data and move money in a seamless and secure way. We’re a highly-technical, passionate, and driven team. We are more than 90 people and our team currently represents 20 nationalities. We have offices in São Paulo and Mexico City – while a large portion of us work remotely. We are…",
     "hasDesc": true
   },
   {
@@ -52473,6 +60040,78 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-05",
     "descShort": "Who we are: Sardine is the leading agentic risk platform for fighting financial crime. Our integrated solution unifies data across risk teams to help organizations stop fraud in real time, prevent AI-driven attacks, and automate fraud and AML operations. Sardine’s platform is strengthened by one of the fastest-growing fraud consortiums in the market, spanning more than 6 billion profiled devices, 800 million consumers, and 3 million businesses worldwide. Leading companies including FIS, GoDaddy, Intuit, Edward Jones, ZoomInfo, and Checkout.com rely on Sardine to secure and grow trust in their products. Our culture: - We have hubs in the Bay Area, NYC, Austin, Toronto, and São Paulo.…",
+    "hasDesc": true
+  },
+  {
+    "id": "rc-tether-2637661",
+    "title": "AI Research Engineer (Pre-training - LLM & Multi-Modal)",
+    "company": "Tether",
+    "locations": [
+      "Bangalore"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-06-11",
+    "url": "https://careers.tether.io/o/ai-research-engineer-pre-training-llm-multi-modal-8",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
+    "hasDesc": true
+  },
+  {
+    "id": "lv-anchorage-d6cce695-8d91-4063-b731-43401b0eab5f",
+    "title": "Member of Technical Staff, Agentic Banking (Product Engineer)",
+    "company": "Anchorage",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-06-11",
+    "url": "https://jobs.lever.co/anchorage/d6cce695-8d91-4063-b731-43401b0eab5f",
+    "source": "lever",
+    "site": "anchorage.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "At Anchorage Digital, we are building the world’s most advanced digital asset platform for institutions to participate in crypto. Anchorage Digital is a crypto platform that enables institutions to participate in digital assets through custody, staking, trading, governance, settlement, and the industry's leading security infrastructure. Home to Anchorage Digital Bank N.A., the first federally chartered crypto bank in the U.S., Anchorage Digital also serves institutions through Anchorage Digital Singapore, Porto by Anchorage Digital, and other offerings. The company is funded by leading institutions including Andreessen Horowitz, GIC, Goldman Sachs, KKR, and Visa, with its Series D valuation…",
+    "hasDesc": true
+  },
+  {
+    "id": "lv-dlocal-de60c99a-0d30-4029-81ee-be6f0d7a78aa",
+    "title": "Compliance Officer / MLRO - Cameroon",
+    "company": "dLocal",
+    "locations": [
+      "Yaoundé"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-06-11",
+    "url": "https://jobs.lever.co/dlocal/de60c99a-0d30-4029-81ee-be6f0d7a78aa",
+    "source": "lever",
+    "site": "dlocal.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Why Join dLocal? dLocal is the financial infrastructure powering global commerce in the world's fastest-growing markets. The biggest companies in the world trust us to unlock growth in 60+ countries across emerging markets—moving money where others see complexity. We don't just process payments; we are architects of payment ecosystems and partners in our customers' expansion. You'll work alongside 1,300+ teammates from 40+ nationalities and tackle global challenges from day one. We are looking for a Compliance Officer in Cameroon to join our global team. This role will play a crucial role in banking relationships as well as with internal reports. WHAT I WILL BE DOING ? • KYC Onboarding: •…",
     "hasDesc": true
   },
   {
@@ -52576,17 +60215,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8446669002",
+    "id": "gh-brex-8447171002",
     "title": "Director, Product Marketing",
     "company": "Brex",
     "locations": [
-      "San Francisco, United States"
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 248 600 – 310 750",
     "posted": "2026-06-10",
-    "url": "https://www.brex.com/careers/8446669002?gh_jid=8446669002",
+    "url": "https://www.brex.com/careers/8447171002?gh_jid=8447171002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -52701,17 +60340,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8578102002",
+    "id": "gh-brex-8578103002",
     "title": "Senior Partner Marketing Manager",
     "company": "Brex",
     "locations": [
-      "New York, United States"
+      "Seattle, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 131 080 – 163 850",
     "posted": "2026-06-10",
-    "url": "https://www.brex.com/careers/8578102002?gh_jid=8578102002",
+    "url": "https://www.brex.com/careers/8578103002?gh_jid=8578103002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -52725,17 +60364,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8523430002",
+    "id": "gh-brex-8523177002",
     "title": "Software Engineer, Forward Deployed Agent Builder",
     "company": "Brex",
     "locations": [
-      "Vancouver, Canada"
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 152 000 – 240 000",
     "posted": "2026-06-10",
-    "url": "https://www.brex.com/careers/8523430002?gh_jid=8523430002",
+    "url": "https://www.brex.com/careers/8523177002?gh_jid=8523177002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -52748,6 +60387,30 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-05",
     "descShort": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and finance teams to accelerate operations, gain real-time visibility, and control spend effortlessly. Brex’s AI-native automation and world-class service eliminate manual expense and accounting tasks for customers so they can focus on what matters most. Tens of thousands of the world's best companies run on Brex, including DoorDash, Coinbase, Robinhood, Zoom, Plaid, Reddit, and SeatGeek. Working at Brex allows you to push…",
+    "hasDesc": true
+  },
+  {
+    "id": "rc-tether-2635810",
+    "title": "Senior Software Architect (100% Remote - Worldwide)",
+    "company": "Tether",
+    "locations": [
+      "Yamoussoukro"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-06-10",
+    "url": "https://careers.tether.io/o/senior-software-architect-100-remote-worldwide-10",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
     "hasDesc": true
   },
   {
@@ -52881,6 +60544,33 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "lv-dlocal-55717892-d6af-49ea-b224-d3dfbb640f81",
+    "title": "Staff Engineer - Payments Performance",
+    "company": "dLocal",
+    "locations": [
+      "Barcelona"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-06-09",
+    "url": "https://jobs.lever.co/dlocal/55717892-d6af-49ea-b224-d3dfbb640f81",
+    "source": "lever",
+    "site": "dlocal.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Платежи",
+    "stack": [
+      "Java",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Why Join dLocal? dLocal is the financial infrastructure powering global commerce in the world's fastest-growing markets. The biggest companies in the world trust us to unlock growth in 60+ countries across emerging markets—moving money where others see complexity. We don't just process payments; we are architects of payment ecosystems and partners in our customers' expansion. You'll work alongside 1,300+ teammates from 40+ nationalities and tackle global challenges from day one. We are looking for a highly skilled Staff Engineer to join our Payments Performance team. This team is focused on optimizing payment performance across multiple dimensions: improving conversion rates, maximizing…",
+    "hasDesc": true
+  },
+  {
     "id": "ab-trading-212-50a1901e-9097-4981-992f-63686e4a83a4",
     "title": "Risk Manager",
     "company": "Trading 212",
@@ -52929,6 +60619,54 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-05",
     "descShort": "ABOUT RAMP Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books. The problems are high-stakes, data-dense, and unforgiving. We hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome. The median Ramp customer saves 5% and grows revenue 16% in their…",
+    "hasDesc": true
+  },
+  {
+    "id": "rc-tether-2631788",
+    "title": "Brands Event Coordinator",
+    "company": "Tether",
+    "locations": [
+      "Dubai"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-06-08",
+    "url": "https://careers.tether.io/o/brands-event-coordinator-7",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
+    "hasDesc": true
+  },
+  {
+    "id": "lv-dlocal-89142c08-de82-4305-810b-711190e0fdf8",
+    "title": "Compliance Officer / MLRO- Saudi Arabia",
+    "company": "dLocal",
+    "locations": [
+      "Riyadh"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-06-08",
+    "url": "https://jobs.lever.co/dlocal/89142c08-de82-4305-810b-711190e0fdf8",
+    "source": "lever",
+    "site": "dlocal.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Why Join dLocal? dLocal is the financial infrastructure powering global commerce in the world's fastest-growing markets. The biggest companies in the world trust us to unlock growth in 60+ countries across emerging markets—moving money where others see complexity. We don't just process payments; we are architects of payment ecosystems and partners in our customers' expansion. You'll work alongside 1,300+ teammates from 40+ nationalities and tackle global challenges from day one. We are looking for a Compliance Officer in Saudi Arabia to join our global team. This role will play a crucial role in banking relationships as well as with internal reports. WHAT I WILL BE DOING ? • KYC Onboarding…",
     "hasDesc": true
   },
   {
@@ -53170,18 +60908,41 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-monzo-7982261",
+    "id": "rc-tether-2630036",
+    "title": "Program Manager Mining (100% remote Worldwide)",
+    "company": "Tether",
+    "locations": [
+      "Barcelona"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-06-05",
+    "url": "https://careers.tether.io/o/program-manager-mining-100-remote-worldwide",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Продюсирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-monzo-7982132",
     "title": "Enterprise Risk Manager",
     "company": "Monzo",
     "locations": [
-      "Barcelona",
-      "Madrid"
+      "Dublin"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "€ 53 000 – 65 000",
+    "salary": "€ 68 000 – 83 000",
     "posted": "2026-06-04",
-    "url": "https://job-boards.greenhouse.io/monzo/jobs/7982261",
+    "url": "https://job-boards.greenhouse.io/monzo/jobs/7982132",
     "site": "monzo.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -53192,6 +60953,30 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-05",
     "descShort": "🚀 We’re on a mission to make money work for everyone. We’re waving goodbye to the complicated and confusing ways of traditional banking. After starting as a prepaid card, our product offering has grown a lot in the last 10 years in the UK. As well as personal and business bank accounts, we offer joint accounts, accounts for 16-17 year olds, a free kids account and credit cards in the UK, with more exciting things to come beyond. Our UK customers can also save, invest and combine their pensions with us. With our hot coral cards and get-paid-early feature, combined with financial education on social media and our award winning customer service, we have a long history of creating magical…",
+    "hasDesc": true
+  },
+  {
+    "id": "rc-tether-2628755",
+    "title": "Senior UX Researcher (100% Remote Worldwide)",
+    "company": "Tether",
+    "locations": [
+      "United Kindom"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-06-04",
+    "url": "https://careers.tether.io/o/senior-ux-researcher-100-remote-worldwide",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Дизайн",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
     "hasDesc": true
   },
   {
@@ -53269,6 +61054,30 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-05",
     "descShort": "ABOUT COLUMN For companies building financial technology and transforming the financial services space, the biggest bottleneck to their growth and innovation is often the underlying banks and infrastructure stack they rely on. We have spent our careers founding and scaling companies like Plaid, Square, Meta, Blend, and Affirm, and have seen this problem firsthand — builders and developers needing to partner with traditional banks, and creating API and abstraction layers over the patchwork that is the bank, its core, and many other vendors. All of this results in a complex (and often expensive) banking supply chain involving a user, fintech, BaaS middleware provider, bank, core and the…",
+    "hasDesc": true
+  },
+  {
+    "id": "lv-dlocal-29ff5d78-971d-4dc7-83a2-49ae6aee4de3",
+    "title": "Regulatory & Licensing Officer – Middle East and North Africa (Payments/ Fintech)",
+    "company": "dLocal",
+    "locations": [
+      "Cairo"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-06-03",
+    "url": "https://jobs.lever.co/dlocal/29ff5d78-971d-4dc7-83a2-49ae6aee4de3",
+    "source": "lever",
+    "site": "dlocal.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Комплаенс",
+    "grade": "Middle",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Why Join dLocal? dLocal is the financial infrastructure powering global commerce in the world's fastest-growing markets. The biggest companies in the world trust us to unlock growth in 60+ countries across emerging markets—moving money where others see complexity. We don't just process payments; we are architects of payment ecosystems and partners in our customers' expansion. You'll work alongside 1,300+ teammates from 40+ nationalities and tackle global challenges from day one. WHAT WILL I BE DOING? • Support license and registration applications across Middle East and North Africa jurisdictions (strategy, documentation, regulatory interactions) through to approval. • Maintain and update…",
     "hasDesc": true
   },
   {
@@ -53561,6 +61370,30 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "ab-lunar-00f7b709-f173-42d1-bcdd-155dcb6bd279",
+    "title": "Hospital Operations Analyst",
+    "company": "Lunar",
+    "locations": [
+      "San Francisco"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": "$80K – $120K • Offers Equity",
+    "posted": "2026-05-28",
+    "url": "https://jobs.ashbyhq.com/lunar/00f7b709-f173-42d1-bcdd-155dcb6bd279",
+    "source": "ashby",
+    "site": "lunar.app",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "About Us: Lunar is a stealth technology company building a new type of software platform for health systems. We are on a mission to revolutionize healthcare with cutting-edge, AI-powered software designed to help every hospital deliver world-class care for their patients. Our platform is already the core backbone of health systems today, transforming clinical and operational workflows at scale with the world’s first AI-native hospital information system. This next-generation platform is a fundamental rebuild of the information infrastructure that runs health systems. All of it – from doctors, nurses, pharmacists, lab technicians, coders, billers, supply chain, and even patients – Lunar’s…",
+    "hasDesc": true
+  },
+  {
     "id": "ab-sardine-8940dcd3-1cb1-4c45-b162-34630ddb63a5",
     "title": "Solutions Architect, Integrations (UK/EU)",
     "company": "Sardine",
@@ -53651,6 +61484,54 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "rc-tether-2617148",
+    "title": "Trading Operations associate ( hedge-fund exposure)",
+    "company": "Tether",
+    "locations": [
+      "London"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-05-27",
+    "url": "https://careers.tether.io/o/trading-operations-associate-hedge-fund-exposure",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Трейдинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-seon-26afcbf3-4b4a-491e-bd6b-317e2b838721",
+    "title": "Lead Product Marketing Manager, Device Intelligence",
+    "company": "SEON",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-05-27",
+    "url": "https://jobs.ashbyhq.com/seon/26afcbf3-4b4a-491e-bd6b-317e2b838721",
+    "source": "ashby",
+    "site": "seon.io",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Маркетинг",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "SEON is the command center for fraud prevention and AML compliance, helping thousands of companies worldwide stop fraud, reduce risk and protect revenue. Powered by 900+ real-time, first-party data signals, SEON enriches customer profiles, flags suspicious behavior and streamlines compliance workflows - all from one place. SEON provides richer data, more flexible and transparent analysis, and faster time to value than any other provider on the market. We’ve helped companies reduce fraud by 95% and achieve 32x ROI, and we’re growing fast, thanks to our partnerships with some of the world’s most ambitious digital brands like Revolut, Wise, and Bilt. Device Intelligence is at the center of our…",
+    "hasDesc": true
+  },
+  {
     "id": "ab-plaid-dab31ae8-1e25-4b63-8008-d6930ff72369",
     "title": "Staff Machine Learning Engineer (Research Scientist) - DFAI",
     "company": "Plaid",
@@ -53676,6 +61557,34 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-05",
     "descShort": "We believe that the way people interact with their finances will drastically improve in the next few years. We’re dedicated to empowering this transformation by building the tools and experiences that thousands of developers use to create their own products. Plaid powers the tools millions of people rely on to live a healthier financial life. We work with thousands of companies like Venmo, SoFi, several of the Fortune 500, and many of the largest banks to make it easy for people to connect their financial accounts to the apps and services they want to use. Plaid’s network covers 12,000 financial institutions across the US, Canada, UK and Europe. Founded in 2013, the company is headquartered…",
+    "hasDesc": true
+  },
+  {
+    "id": "lv-1inch-827649c3-2dab-4911-bb2f-97b84dc93126",
+    "title": "Talent Pool - Software Engineer, Backend (Typescript / Golang)",
+    "company": "1inch",
+    "locations": [
+      "UAE"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-05-26",
+    "url": "https://jobs.lever.co/1inch/827649c3-2dab-4911-bb2f-97b84dc93126",
+    "source": "lever",
+    "site": "1inch.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "pool": true,
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Бэкенд",
+    "stack": [
+      "Go",
+      "TypeScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "1inch is the DeFi ecosystem building financial freedom for everyone. 1inch products help users and builders trade, hold and track digital assets - with the self-custody, comprehensive security and the intuitive user experience they need to unlock the potential of true crypto ownership. 1inch protocols and APIs provide core infrastructure across the DeFi industry and beyond. So if you're someone who thinks big, moves fast and wants to make an impact right from day one, then get ready to join our industry-changing team. YOUR MISSION This is not an active vacancy. Instead, we're building a network of exceptional backend engineers with a focus on Typescript or Golang and solid Web3 experience…",
     "hasDesc": true
   },
   {
@@ -53811,6 +61720,30 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "lv-dlocal-654d7765-86e4-4144-8966-de28ba256de4",
+    "title": "MLRO - UK",
+    "company": "dLocal",
+    "locations": [
+      "London"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-05-22",
+    "url": "https://jobs.lever.co/dlocal/654d7765-86e4-4144-8966-de28ba256de4",
+    "source": "lever",
+    "site": "dlocal.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Why Join dLocal? dLocal is the financial infrastructure powering global commerce in the world's fastest-growing markets. The biggest companies in the world trust us to unlock growth in 60+ countries across emerging markets—moving money where others see complexity. We don't just process payments; we are architects of payment ecosystems and partners in our customers' expansion. You'll work alongside 1,300+ teammates from 40+ nationalities and tackle global challenges from day one. WHAT’S THE OPPORTUNITY? We are looking for a Head of Compliance (SMF16/17) to lead the Compliance and AML/CFT function for our regulated entity, ensuring the business operates in line with applicable regulatory…",
+    "hasDesc": true
+  },
+  {
     "id": "ab-alan-4cfa1d2f-c930-4ae5-90c6-96eb1c8ada7f",
     "title": "Product Designer",
     "company": "Alan",
@@ -53885,6 +61818,56 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-05",
     "descShort": "About us Traditional banking has never really given you control over your financial life. Satispay exists to change that: to empower people through finance. That means making financial services easy and accessible for over 6.5M users. We started with payments, then benefits, investing, cards... and we’re not done. Not even close. We follow the same logic every time: find a real problem, solve it properly, then look for the next one. The destination? To build the most loved financial platform in the world. If you own outcomes rather than tasks, stay close to what users need, and refuse to wait for someone else to fix what's broken — you'll find people here who work exactly in the same way.…",
+    "hasDesc": true
+  },
+  {
+    "id": "lv-dlocal-21726fe4-10f0-4420-8eee-e99d60f3ec13",
+    "title": "Compliance Talent Pool",
+    "company": "dLocal",
+    "locations": [
+      "Montevideo"
+    ],
+    "remote": false,
+    "rkind": "hybrid",
+    "salary": null,
+    "posted": "2026-05-20",
+    "url": "https://jobs.lever.co/dlocal/21726fe4-10f0-4420-8eee-e99d60f3ec13",
+    "source": "lever",
+    "site": "dlocal.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "pool": true,
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Why Join dLocal? dLocal is the financial infrastructure powering global commerce in the world's fastest-growing markets. The biggest companies in the world trust us to unlock growth in 60+ countries across emerging markets—moving money where others see complexity. We don't just process payments; we are architects of payment ecosystems and partners in our customers' expansion. You'll work alongside 1,300+ teammates from 40+ nationalities and tackle global challenges from day one. What's the Opportunity? As part of our Compliance team, you'll help ensure that dLocal operates to the highest standards across every market we serve. This is a great opportunity to work at the intersection of…",
+    "hasDesc": true
+  },
+  {
+    "id": "lv-dlocal-930c26d1-34bd-4d11-8a4e-69a83613cbd3",
+    "title": "Regulatory Affairs Talent Pool",
+    "company": "dLocal",
+    "locations": [
+      "Montevideo"
+    ],
+    "remote": false,
+    "rkind": "hybrid",
+    "salary": null,
+    "posted": "2026-05-20",
+    "url": "https://jobs.lever.co/dlocal/930c26d1-34bd-4d11-8a4e-69a83613cbd3",
+    "source": "lever",
+    "site": "dlocal.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "pool": true,
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Why Join dLocal? dLocal is the financial infrastructure powering global commerce in the world's fastest-growing markets. The biggest companies in the world trust us to unlock growth in 60+ countries across emerging markets—moving money where others see complexity. We don't just process payments; we are architects of payment ecosystems and partners in our customers' expansion. You'll work alongside 1,300+ teammates from 40+ nationalities and tackle global challenges from day one. What's the Opportunity? As part of our Regulatory Affairs team, you'll be instrumental in securing and maintaining the licences and relationships that allow dLocal to operate across emerging markets. This is a great…",
     "hasDesc": true
   },
   {
@@ -53968,6 +61951,150 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-05",
     "descShort": "HEALTH CAN’T WAIT. Not for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t. Alan exists to end the wait. Health is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way. So we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and…",
+    "hasDesc": true
+  },
+  {
+    "id": "rc-tether-2609046",
+    "title": "AI Research Engineer (Model Compression & Quantization) - 100% Remote Worldwide",
+    "company": "Tether",
+    "locations": [
+      "United Kindom"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-05-19",
+    "url": "https://careers.tether.io/o/ai-research-engineer-model-compression-quantization-100-remote-worldwide",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
+    "hasDesc": true
+  },
+  {
+    "id": "rc-tether-2609045",
+    "title": "AI Research Engineer (Model Compression & Quantization)",
+    "company": "Tether",
+    "locations": [
+      "Bangalore"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-05-19",
+    "url": "https://careers.tether.io/o/ai-research-engineer-model-compression-quantization-16",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
+    "hasDesc": true
+  },
+  {
+    "id": "rc-tether-2608460",
+    "title": "AI Research Engineer (Multi-Modal & Vision) - 100% Remote Worldwide",
+    "company": "Tether",
+    "locations": [
+      "United Kindom"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-05-19",
+    "url": "https://careers.tether.io/o/ai-research-engineer-multi-modal-vision-100-remote-worldwide",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
+    "hasDesc": true
+  },
+  {
+    "id": "rc-tether-2608385",
+    "title": "AI Research Engineer (Multi-Modal Reinforcement Learning) - 100% Remote Worldwide",
+    "company": "Tether",
+    "locations": [
+      "United Kindom"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-05-19",
+    "url": "https://careers.tether.io/o/ai-research-engineer-multi-modal-reinforcement-learning-100-remote-worldwide",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
+    "hasDesc": true
+  },
+  {
+    "id": "rc-tether-2608300",
+    "title": "AI Research Engineer (Agentic Post-training) - 100% Remote Worldwide",
+    "company": "Tether",
+    "locations": [
+      "United Kindom"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-05-19",
+    "url": "https://careers.tether.io/o/ai-research-engineer-agentic-post-training-100-remote-worldwide",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
+    "hasDesc": true
+  },
+  {
+    "id": "rc-tether-2607980",
+    "title": "Finance Analyst",
+    "company": "Tether",
+    "locations": [
+      "London"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-05-19",
+    "url": "https://careers.tether.io/o/finance-analyst",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
     "hasDesc": true
   },
   {
@@ -54264,6 +62391,32 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "ab-wayflyer-f907ed95-7d42-45da-ba6c-983d7e0d31aa",
+    "title": "Frontend Software Engineer",
+    "company": "Wayflyer",
+    "locations": [],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-05-13",
+    "url": "https://jobs.ashbyhq.com/wayflyer/f907ed95-7d42-45da-ba6c-983d7e0d31aa",
+    "source": "ashby",
+    "site": "wayflyer.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Фронтенд",
+    "stack": [
+      "Python",
+      "TypeScript",
+      "JavaScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Wayflyer Today's small businesses need a capital provider that keeps pace with their growth ambitions. Traditional financing options are slow, cumbersome and often out of reach. That's why we built Wayflyer. Our technology allows us to assess businesses in minutes, generate financing offers that reflect their growth potential and send funds in as little as 24 hours. To date, we've deployed over $6bn to thousands of businesses worldwide, backed by Tier 1 banks like J.P. Morgan. You'll be collaborating with ambitious colleagues from around the world. We have offices in Dublin, London, New York, Charlotte, Berlin and Sydney. The challenge When a founder logs into Wayflyer, what they see…",
+    "hasDesc": true
+  },
+  {
     "id": "ab-marshmallow-27e7e5ca-6cf7-4c91-b922-a1cb792917e0",
     "title": "Pricing Data Scientist",
     "company": "Marshmallow",
@@ -54534,6 +62687,33 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "ab-upvest-17a5757d-759a-4787-bb8a-a02ee8ae18ff",
+    "title": "Security Engineering Lead (m/f/d)",
+    "company": "Upvest",
+    "locations": [
+      "Berlin"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-05-07",
+    "url": "https://jobs.ashbyhq.com/upvest/17a5757d-759a-4787-bb8a-a02ee8ae18ff",
+    "source": "ashby",
+    "site": "upvest.co",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": "Безопасность",
+    "stack": [
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "At Upvest, we are on a mission to make investing as easy as spending money. Upvest empowers businesses to offer a wide range of investment products and the best experience in the field of capital market investment and retirement planning. Upvest’s Investment API is easy to integrate so that fintechs and financial institutions can save resources and fully focus on their core business. We are proud to partner with Europe’s leading Fintechs and financial institutions such as DKB, Revolut, N26 and Raisin. Founded in 2017 by Martin Kassing, Upvest now brings together over 270 talented professionals from more than 70 nationalities. Upvest is backed by €280M in total funding from world-class…",
+    "hasDesc": true
+  },
+  {
     "id": "ab-satispay-8b74b5c9-3798-40ff-9fa7-9db74e54c2aa",
     "title": "Senior Backend Software Engineer - Core Domain",
     "company": "Satispay",
@@ -54610,6 +62790,30 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-05",
     "descShort": "ABOUT MIDDESK: Middesk is building the data and intelligence infrastructure that helps businesses work together with confidence. We started by creating a comprehensive platform for understanding businesses, bringing together authoritative and proprietary data to help customers verify business identities, onboard customers faster, and manage risk throughout the customer lifecycle. Today, Middesk is used by more than 700 banks and fintechs, and in 2025 we verified more than 7 million companies. We've also expanded beyond business verification to help companies form, register, manage, and maintain their businesses, supporting more than 50,000 companies in setting up over 100,000 accounts…",
+    "hasDesc": true
+  },
+  {
+    "id": "rc-tether-2594606",
+    "title": "Regulatory Affairs and Licensing Lead - Mexico and Colombia",
+    "company": "Tether",
+    "locations": [
+      "Mexico City"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-05-06",
+    "url": "https://careers.tether.io/o/regulatory-affairs-and-licensing-lead-mexico-and-colombia-3",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Комплаенс",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
     "hasDesc": true
   },
   {
@@ -54768,6 +62972,30 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "ab-paxos-7cd00d67-dcc9-4da8-8f0c-6faf335b86cd",
+    "title": "Head of Communications",
+    "company": "Paxos",
+    "locations": [
+      "New York - Hybrid"
+    ],
+    "remote": true,
+    "rkind": "hybrid",
+    "salary": "$202,000 – $232,050 • Offers Equity • Offers Bonus • 25% Annual Salary",
+    "posted": "2026-04-30",
+    "url": "https://jobs.ashbyhq.com/paxos/7cd00d67-dcc9-4da8-8f0c-6faf335b86cd",
+    "source": "ashby",
+    "site": "paxos.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Маркетинг",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Applying to Paxos? Our only careers site is paxos.com/careers http://paxos.com/careers, and we only recruit via @paxos.com http://paxos.com email. Details below. ___ About Paxos Today’s financial infrastructure is archaic, expensive, inefficient and risky — supporting a system that leaves out more people than it lets in. So we’re rebuilding it. We’re on a mission to open the world’s financial system to everyone by enabling the instant movement of any asset, any time, in a trustworthy way. For over a decade, we’ve built blockchain infrastructure that tokenizes, custodies, trades and settles assets for the world’s leading financial institutions, like PayPal, Venmo, Mastercard and Interactive…",
+    "hasDesc": true
+  },
+  {
     "id": "ab-thought-machine-60a7f624-de24-430f-a06b-4058d581a716",
     "title": "IT Support Engineer",
     "company": "Thought Machine",
@@ -54823,6 +63051,57 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-05",
     "descShort": "Thought Machine's mission is bold – to properly and permanently rid the world's banks of legacy technology. To achieve this, we have developed the foundations of modern banking through core and payments technology which run natively in the cloud. What we are attempting is hard and means we need great people working together to build great technology. We have grown rapidly in the past few years – growing our team to more than 550 individuals across offices in London, New York, Singapore, Sydney and our newly established Engineering Hub in Lisbon. We have raised more than £500m in funding and our investors include Molten Ventures, Eurazeo, Intesa Sanpaolo, Temasek, Nyca Partners, JPMorgan…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-rain-95ae1a01-a3a7-4059-847d-e842fa7e13cb",
+    "title": "Product Manager, Cards",
+    "company": "Rain",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$180K – $225K • Offers Equity • Offers Bonus",
+    "posted": "2026-04-29",
+    "url": "https://jobs.ashbyhq.com/rain/95ae1a01-a3a7-4059-847d-e842fa7e13cb",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Продакт",
+    "grade": null,
+    "spec": "Платежи",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT THE COMPANY Rain is the global stablecoin payments platform for enterprises, neobanks, platforms, developers, and AI agents. Our technology allows partners to move, store, and use stablecoins instantly and compliantly through global payment cards, rewards, on/offramps, wallets, and cross-border rails. As both a Visa and Mastercard Principal Member, Rain issues cards that work at more than 175 million merchant locations in over 220 countries and territories. Built natively for stablecoins and trusted by more than 100 organizations worldwide, Rain delivers secure, scalable infrastructure that makes money move freely and instantly around the world. You will have the opportunity to…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-rain-8bd71e0a-0bb1-4b30-baa0-fa7a814b224a",
+    "title": "Senior Product Data Analyst",
+    "company": "Rain",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$165K – $195K • Offers Equity • Offers Bonus",
+    "posted": "2026-04-29",
+    "url": "https://jobs.ashbyhq.com/rain/8bd71e0a-0bb1-4b30-baa0-fa7a814b224a",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Данные и ML",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT THE COMPANY Rain is the global stablecoin payments platform for enterprises, neobanks, platforms, developers, and AI agents. Our technology allows partners to move, store, and use stablecoins instantly and compliantly through global payment cards, rewards, on/offramps, wallets, and cross-border rails. As both a Visa and Mastercard Principal Member, Rain issues cards that work at more than 175 million merchant locations in over 220 countries and territories. Built natively for stablecoins and trusted by more than 100 organizations worldwide, Rain delivers secure, scalable infrastructure that makes money move freely and instantly around the world. You will have the opportunity to…",
     "hasDesc": true
   },
   {
@@ -55110,6 +63389,59 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "lv-anchorage-9f6d4223-389c-44e3-99b1-50f46c4855da",
+    "title": "Derivatives Trader",
+    "company": "Anchorage",
+    "locations": [
+      "Cayman Islands"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-04-27",
+    "url": "https://jobs.lever.co/anchorage/9f6d4223-389c-44e3-99b1-50f46c4855da",
+    "source": "lever",
+    "site": "anchorage.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Трейдинг",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "Python"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "At Anchorage Digital, we are building the world’s most advanced digital asset platform for institutions to participate in crypto. Anchorage Digital is a crypto platform that enables institutions to participate in digital assets through custody, staking, trading, governance, settlement, and the industry's leading security infrastructure. Home to Anchorage Digital Bank N.A., the first federally chartered crypto bank in the U.S., Anchorage Digital also serves institutions through Anchorage Digital Singapore, Porto by Anchorage Digital, and other offerings. The company is funded by leading institutions including Andreessen Horowitz, GIC, Goldman Sachs, KKR, and Visa, with its Series D valuation…",
+    "hasDesc": true
+  },
+  {
+    "id": "lv-anchorage-4a3c6769-7b61-4237-a601-2abe0b5c8234",
+    "title": "OTC Trader",
+    "company": "Anchorage",
+    "locations": [
+      "Singapore"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-04-27",
+    "url": "https://jobs.lever.co/anchorage/4a3c6769-7b61-4237-a601-2abe0b5c8234",
+    "source": "lever",
+    "site": "anchorage.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Трейдинг",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "At Anchorage Digital, we are building the world’s most advanced digital asset platform for institutions to participate in crypto. Anchorage Digital is a crypto platform that enables institutions to participate in digital assets through custody, staking, trading, governance, settlement, and the industry's leading security infrastructure. Home to Anchorage Digital Bank N.A., the first federally chartered crypto bank in the U.S., Anchorage Digital also serves institutions through Anchorage Digital Singapore, Porto by Anchorage Digital, and other offerings. The company is funded by leading institutions including Andreessen Horowitz, GIC, Goldman Sachs, KKR, and Visa, with its Series D valuation…",
+    "hasDesc": true
+  },
+  {
     "id": "lv-qonto-21bf0ae1-b5b1-428a-b1e6-2cdb9476987e",
     "title": "Full-Stack Engineer - People Products (Freelance)",
     "company": "Qonto",
@@ -55185,6 +63517,30 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "lv-dlocal-c54bca0c-2493-4b14-acf6-5009b99e9faf",
+    "title": "Head of Platform Engineering",
+    "company": "dLocal",
+    "locations": [
+      "Spain"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-04-24",
+    "url": "https://jobs.lever.co/dlocal/c54bca0c-2493-4b14-acf6-5009b99e9faf",
+    "source": "lever",
+    "site": "dlocal.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": "DevOps",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Why Join dLocal? dLocal is the financial infrastructure powering global commerce in the world's fastest-growing markets. The biggest companies in the world trust us to unlock growth in 60+ countries across emerging markets—moving money where others see complexity. We don't just process payments; we are architects of payment ecosystems and partners in our customers' expansion. You'll work alongside 1,300+ teammates from 40+ nationalities and tackle global challenges from day one. What's the opportunity? dLocal (NASDAQ: DLO) is the payments platform connecting global merchants with billions of emerging-market consumers. We run mission-critical infrastructure across LatAm, Africa, and Asia, at…",
+    "hasDesc": true
+  },
+  {
     "id": "wk-starling-bank-953817614A",
     "title": "Senior Java Software Engineer - Intelligent Operations",
     "company": "Starling Bank",
@@ -55210,6 +63566,29 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-05",
     "descShort": "Starling is the UK’s first and leading digital bank on a mission to fix banking! We built a new kind of bank because we knew technology had the power to help people save, spend and manage their money in a new and transformative way. We’re a fully licensed UK bank with the culture and spirit of a fast-moving, disruptive tech company. We’re a bank, but better: fairer, easier to use and designed to demystify money for everyone. We employ more than 3,000 people across our London, Southampton, Cardiff and Manchester offices. Our technologists are at the very heart of Starling and enjoy working in a fast-paced environment that is all about building things, creating new stuff, and disruptive…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-trust-wallet-ddbeb186-0d04-4a01-8472-7d0c892399d6",
+    "title": "Senior Engineering Manager",
+    "company": "Trust Wallet",
+    "locations": [],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-04-22",
+    "url": "https://jobs.ashbyhq.com/trust-wallet/ddbeb186-0d04-4a01-8472-7d0c892399d6",
+    "source": "ashby",
+    "site": "trustwallet.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "About the company Trust Wallet is the leading non-custodial cryptocurrency wallet, trusted by over 200 million people worldwide to securely manage and grow their digital assets. Our vision is to give individuals the freedom to own their assets, confidently participate in the future economy, and access opportunities that enhance their lives. Our mission is to be a trusted personal companion — helping users safely navigate Web3, the on-chain economy, and the emerging AI-powered future. With support for over 10 million assets across 100+ blockchains, Trust Wallet offers a seamless, multi-chain experience backed by industry-leading self-custody technology, a vibrant community, and a growing…",
     "hasDesc": true
   },
   {
@@ -55436,6 +63815,30 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-05",
     "descShort": "Nium provides global infrastructure for real-time cross-border payments. We were founded on the mission to deliver the global payments infrastructure of tomorrow, today. Our platform enables banks, fintechs, and global businesses to move money instantly, everywhere. Co-headquartered in San Francisco and Singapore with offices in 14 markets worldwide, we are entering one of the most exciting chapters in our journey. In March 2026, we delivered the largest month in our 11-year history with record revenue, record volumes, and EBITDA profitability. Today, Nium moves nearly $60B in payments annually, almost entirely for enterprises, while continuing to strengthen an already healthy balance…",
+    "hasDesc": true
+  },
+  {
+    "id": "lv-dlocal-d6cacc92-dc5c-4d76-b064-4502d352fdf6",
+    "title": "Compliance Officer / MLRO- Senegal",
+    "company": "dLocal",
+    "locations": [
+      "Dakar"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-04-14",
+    "url": "https://jobs.lever.co/dlocal/d6cacc92-dc5c-4d76-b064-4502d352fdf6",
+    "source": "lever",
+    "site": "dlocal.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Why Join dLocal? dLocal is the financial infrastructure powering global commerce in the world's fastest-growing markets. The biggest companies in the world trust us to unlock growth in 60+ countries across emerging markets—moving money where others see complexity. We don't just process payments; we are architects of payment ecosystems and partners in our customers' expansion. You'll work alongside 1,300+ teammates from 40+ nationalities and tackle global challenges from day one. What's the Opportunity? We are looking for a Compliance Officer based in Senegal to join our global team. This role is open to the whole of Senegal and plays a crucial part in our banking relationships, local…",
     "hasDesc": true
   },
   {
@@ -55680,6 +64083,30 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "rc-tether-2551214",
+    "title": "Head of Regulatory Affairs - Japan",
+    "company": "Tether",
+    "locations": [
+      "Osaka"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-04-01",
+    "url": "https://careers.tether.io/o/head-of-regulatory-affairs-japan-1",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Комплаенс",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
+    "hasDesc": true
+  },
+  {
     "id": "lv-nium-8226b581-8dfc-4648-8683-84b33e5fc75b",
     "title": "VP, Global Commercial Compliance",
     "company": "Nium",
@@ -55810,6 +64237,54 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "ab-rain-9d2ee27c-8b19-48ac-b595-a01860eda697",
+    "title": "Customer Engineering Lead",
+    "company": "Rain",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$200K – $280K • Offers Equity • Offers Bonus",
+    "posted": "2026-03-25",
+    "url": "https://jobs.ashbyhq.com/rain/9d2ee27c-8b19-48ac-b595-a01860eda697",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT THE COMPANY Rain is the global stablecoin payments platform for enterprises, neobanks, platforms, developers, and AI agents. Our technology allows partners to move, store, and use stablecoins instantly and compliantly through global payment cards, rewards, on/offramps, wallets, and cross-border rails. As both a Visa and Mastercard Principal Member, Rain issues cards that work at more than 175 million merchant locations in over 220 countries and territories. Built natively for stablecoins and trusted by more than 100 organizations worldwide, Rain delivers secure, scalable infrastructure that makes money move freely and instantly around the world. You will have the opportunity to…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-rain-7b63374b-f45b-4bcb-8006-a37a2a971f12",
+    "title": "Software Engineer - Compliance",
+    "company": "Rain",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$170K – $240K • Offers Equity • Offers Bonus",
+    "posted": "2026-03-25",
+    "url": "https://jobs.ashbyhq.com/rain/7b63374b-f45b-4bcb-8006-a37a2a971f12",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Комплаенс",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT THE COMPANY Rain is the global stablecoin payments platform for enterprises, neobanks, platforms, developers, and AI agents. Our technology allows partners to move, store, and use stablecoins instantly and compliantly through global payment cards, rewards, on/offramps, wallets, and cross-border rails. As both a Visa and Mastercard Principal Member, Rain issues cards that work at more than 175 million merchant locations in over 220 countries and territories. Built natively for stablecoins and trusted by more than 100 organizations worldwide, Rain delivers secure, scalable infrastructure that makes money move freely and instantly around the world. You will have the opportunity to…",
+    "hasDesc": true
+  },
+  {
     "id": "ab-plaid-9245bee1-0902-417f-968f-a174bf4bdf2c",
     "title": "Head of Product Marketing",
     "company": "Plaid",
@@ -55832,6 +64307,56 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-05",
     "descShort": "We believe that the way people interact with their finances will drastically improve in the next few years. We’re dedicated to empowering this transformation by building the tools and experiences that thousands of developers use to create their own products. Plaid powers the tools millions of people rely on to live a healthier financial life. We work with thousands of companies like Venmo, SoFi, several of the Fortune 500, and many of the largest banks to make it easy for people to connect their financial accounts to the apps and services they want to use. Plaid’s network covers 12,000 financial institutions across the US, Canada, UK and Europe. Founded in 2013, the company is headquartered…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-rain-58462619-2bbd-46d8-9ab3-92b2ba2b61d2",
+    "title": "iOS Engineer",
+    "company": "Rain",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$170K – $240K • Offers Equity • Offers Bonus",
+    "posted": "2026-03-24",
+    "url": "https://jobs.ashbyhq.com/rain/58462619-2bbd-46d8-9ab3-92b2ba2b61d2",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Мобильная",
+    "stack": [
+      "Swift"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About the Company Rain is the global stablecoin payments platform for enterprises, neobanks, platforms, developers, and AI agents. Our technology allows partners to move, store, and use stablecoins instantly and compliantly through global payment cards, rewards, on/offramps, wallets, and cross-border rails. As both a Visa and Mastercard Principal Member, Rain issues cards that work at more than 175 million merchant locations in over 220 countries and territories. Built natively for stablecoins and trusted by more than 100 organizations worldwide, Rain delivers secure, scalable infrastructure that makes money move freely and instantly around the world. You will have the opportunity to…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-rain-2cef52c3-cd7a-42f2-9d86-3f13185ef205",
+    "title": "Backend Engineer, AI",
+    "company": "Rain",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$165K – $200K • Offers Equity • Offers Bonus",
+    "posted": "2026-03-24",
+    "url": "https://jobs.ashbyhq.com/rain/2cef52c3-cd7a-42f2-9d86-3f13185ef205",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Бэкенд",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT THE COMPANY Rain is the global stablecoin payments platform for enterprises, neobanks, platforms, developers, and AI agents. Our technology allows partners to move, store, and use stablecoins instantly and compliantly through global payment cards, rewards, on/offramps, wallets, and cross-border rails. As both a Visa and Mastercard Principal Member, Rain issues cards that work at more than 175 million merchant locations in over 220 countries and territories. Built natively for stablecoins and trusted by more than 100 organizations worldwide, Rain delivers secure, scalable infrastructure that makes money move freely and instantly around the world. You will have the opportunity to…",
     "hasDesc": true
   },
   {
@@ -55913,6 +64438,33 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "ab-wayflyer-384acf8f-8762-4351-aa31-d957e92ce71e",
+    "title": "Senior Credit Risk Data Scientist",
+    "company": "Wayflyer",
+    "locations": [
+      "London"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-03-13",
+    "url": "https://jobs.ashbyhq.com/wayflyer/384acf8f-8762-4351-aa31-d957e92ce71e",
+    "source": "ashby",
+    "site": "wayflyer.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Данные и ML",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Wayflyer Today's small businesses need a capital provider that keeps pace with their growth ambitions. Traditional financing options are slow, cumbersome and often out of reach. That's why we built Wayflyer. Our technology allows us to assess businesses in minutes, generate financing offers that reflect their growth potential and send funds in as little as 24 hours. To date, we've deployed over $6bn to thousands of businesses worldwide, backed by Tier 1 banks like J.P. Morgan. You'll be collaborating with ambitious colleagues from around the world. We have offices in Dublin, London, New York, Charlotte, Berlin and Sydney. The challenge Wayflyer has deployed over $6bn in funding and…",
+    "hasDesc": true
+  },
+  {
     "id": "lv-nium-a7dd24a3-4fbd-4451-ab00-b4b25a4e6950",
     "title": "Data Engineer II",
     "company": "Nium",
@@ -55969,6 +64521,32 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "rc-tether-2521521",
+    "title": "AI Inference Engineer QVAC (100% remote Worldwide)",
+    "company": "Tether",
+    "locations": [
+      "Bogotá"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-03-11",
+    "url": "https://careers.tether.io/o/ai-inference-engineer-qvac-100-remote-worldwide",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "C++"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
+    "hasDesc": true
+  },
+  {
     "id": "ab-thought-machine-f42784b4-3b76-4ee8-91b7-b674ca90c437",
     "title": "Senior Technical Product Manager - Vault Core",
     "company": "Thought Machine",
@@ -55996,6 +64574,30 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "rc-tether-2520784",
+    "title": "Regulatory Affairs and Licensing -  Southern Africa Lead (100% remote)",
+    "company": "Tether",
+    "locations": [
+      "Johannesburg"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-03-10",
+    "url": "https://careers.tether.io/o/regulatory-affairs-and-licensing-southern-africa-lead-100-remote",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Комплаенс",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
+    "hasDesc": true
+  },
+  {
     "id": "ab-pennylane-88b4a6e4-85cd-4179-ad4e-5ca2445adc18",
     "title": "Senior Data Engineer - Analytics",
     "company": "Pennylane",
@@ -56017,6 +64619,31 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-05",
     "descShort": "Are you looking to have an impact on the daily life of millions of entrepreneurs in France (and tomorrow in Europe)? Are you looking for a work environment that values trust, proactivity, and autonomy? Are our Engineering principles https://medium.com/pennylane-engineering/our-engineering-principles-ab0613a0574d aligned with your vision? Then Pennylane is the right place for you ! Our vision We aim to become the most beloved financial Operating System of French SMEs and Accounting Firms (and soon, European ones). We help entrepreneurs rid themselves of time-consuming tasks related to accounting and finance while providing them with access to key financial information to assist in making the…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-rain-acfe80ba-5983-4d35-9375-870b1f906acf",
+    "title": "Financial Crimes & Risk Data Analyst",
+    "company": "Rain",
+    "locations": [],
+    "remote": false,
+    "rkind": null,
+    "salary": "$165K – $180K • Offers Equity • Offers Bonus",
+    "posted": "2026-03-05",
+    "url": "https://jobs.ashbyhq.com/rain/acfe80ba-5983-4d35-9375-870b1f906acf",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Данные и ML",
+    "grade": null,
+    "spec": "Комплаенс",
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About the Company Rain is the global stablecoin payments platform for enterprises, neobanks, platforms, developers, and AI agents. Our technology allows partners to move, store, and use stablecoins instantly and compliantly through global payment cards, rewards, on/offramps, wallets, and cross-border rails. As both a Visa and Mastercard Principal Member, Rain issues cards that work at more than 175 million merchant locations in over 220 countries and territories. Built natively for stablecoins and trusted by more than 100 organizations worldwide, Rain delivers secure, scalable infrastructure that makes money move freely and instantly around the world. You will have the opportunity to…",
     "hasDesc": true
   },
   {
@@ -56105,6 +64732,30 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "lv-anchorage-b3c332bc-ffc5-4a2f-ab3e-de136d326408",
+    "title": "Trading Operations Team Lead",
+    "company": "Anchorage",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-03-02",
+    "url": "https://jobs.lever.co/anchorage/b3c332bc-ffc5-4a2f-ab3e-de136d326408",
+    "source": "lever",
+    "site": "anchorage.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Трейдинг",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "At Anchorage Digital, we are building the world’s most advanced digital asset platform for institutions to participate in crypto. Anchorage Digital is a crypto platform that enables institutions to participate in digital assets through custody, staking, trading, governance, settlement, and the industry's leading security infrastructure. Home to Anchorage Digital Bank N.A., the first federally chartered crypto bank in the U.S., Anchorage Digital also serves institutions through Anchorage Digital Singapore, Porto by Anchorage Digital, and other offerings. The company is funded by leading institutions including Andreessen Horowitz, GIC, Goldman Sachs, KKR, and Visa, with its Series D valuation…",
+    "hasDesc": true
+  },
+  {
     "id": "ab-ramp-1540a41f-d88f-4c89-9b08-5b9fade1ee81",
     "title": "Software Engineer, Frontend, Ramp Revenue",
     "company": "Ramp",
@@ -56128,6 +64779,133 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-05",
     "descShort": "ABOUT RAMP Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books. The problems are high-stakes, data-dense, and unforgiving. We hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome. The median Ramp customer saves 5% and grows revenue 16% in their…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-rain-71212e62-8e54-43db-b2ba-a02b9a91b607",
+    "title": "Software Engineer - Solana",
+    "company": "Rain",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "$170K – $240K • Offers Equity • Offers Bonus",
+    "posted": "2026-02-25",
+    "url": "https://jobs.ashbyhq.com/rain/71212e62-8e54-43db-b2ba-a02b9a91b607",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT THE COMPANY Rain makes the next generation of payments possible across the globe. We’re a lean and mighty team of passionate builders and veteran founders. Our infrastructure makes stablecoins usable in the real-world by powering card transactions, cross-border payments, B2B purchases, remittances, and more. We partner with fintechs, neobanks, and institutions to help them launch solutions that are global, inclusive, and efficient. You will have the opportunity to deliver massive impact at a hypergrowth company that is funded by some of the top investors in fintech, crypto, and SaaS, including Sapphire Ventures, Norwest, Galaxy Ventures, Lightspeed, Khosla, and several more. If you’re…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-rain-3245e266-c1d2-40b2-bc25-588368d833bd",
+    "title": "Software Engineer - Stellar",
+    "company": "Rain",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "$170K – $240K • Offers Equity • Offers Bonus",
+    "posted": "2026-02-25",
+    "url": "https://jobs.ashbyhq.com/rain/3245e266-c1d2-40b2-bc25-588368d833bd",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT THE COMPANY Rain is the global stablecoin payments platform for enterprises, neobanks, platforms, developers, and AI agents. Our technology allows partners to move, store, and use stablecoins instantly and compliantly through global payment cards, rewards, on/offramps, wallets, and cross-border rails. As both a Visa and Mastercard Principal Member, Rain issues cards that work at more than 175 million merchant locations in over 220 countries and territories. Built natively for stablecoins and trusted by more than 100 organizations worldwide, Rain delivers secure, scalable infrastructure that makes money move freely and instantly around the world. You will have the opportunity to…",
+    "hasDesc": true
+  },
+  {
+    "id": "rc-tether-2505535",
+    "title": "Regulatory Affairs and Licensing Lead - Argentina",
+    "company": "Tether",
+    "locations": [
+      "Buenos Aires"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-02-25",
+    "url": "https://careers.tether.io/o/regulatory-affairs-and-licensing-lead-argentina",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Комплаенс",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-wayflyer-8b4052a5-9e11-4acd-babc-963e5f5111ba",
+    "title": "Backend Software Engineer",
+    "company": "Wayflyer",
+    "locations": [],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-02-25",
+    "url": "https://jobs.ashbyhq.com/wayflyer/8b4052a5-9e11-4acd-babc-963e5f5111ba",
+    "source": "ashby",
+    "site": "wayflyer.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Бэкенд",
+    "stack": [
+      "Python",
+      "SQL",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Wayflyer Today's small businesses need a capital provider that keeps pace with their growth ambitions. Traditional financing options are slow, cumbersome and often out of reach. That's why we built Wayflyer. Our technology allows us to assess businesses in minutes, generate financing offers that reflect their growth potential and send funds in as little as 24 hours. To date, we've deployed over $6bn to thousands of businesses worldwide, backed by Tier 1 banks like J.P. Morgan. You'll be collaborating with ambitious colleagues from around the world. We have offices in Dublin, London, New York, Charlotte, Berlin and Sydney. The challenge We assess businesses in minutes and send funds in…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-upvest-ae836a7b-2b1a-47f6-94a8-1f17530922f0",
+    "title": "Senior Software Engineer (f/m/d)",
+    "company": "Upvest",
+    "locations": [
+      "Berlin",
+      "London",
+      "Tallinn"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-02-24",
+    "url": "https://jobs.ashbyhq.com/upvest/ae836a7b-2b1a-47f6-94a8-1f17530922f0",
+    "source": "ashby",
+    "site": "upvest.co",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "At Upvest, we are on a mission to make investing as easy as spending money. Upvest empowers businesses to offer a wide range of investment products and the best experience in the field of capital market investment and retirement planning. Upvest’s Investment API is easy to integrate so that fintechs and financial institutions can save resources and fully focus on their core business. We are proud to partner with Europe’s leading Fintechs and financial institutions such as DKB, Revolut, N26 and Raisin. Founded in 2017 by Martin Kassing, Upvest now brings together over 270 talented professionals from more than 70 nationalities. Upvest is backed by €280M in total funding from world-class…",
     "hasDesc": true
   },
   {
@@ -56190,6 +64968,129 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "rc-tether-2500686",
+    "title": "Head of Regulatory Affairs - AI and P2P (100% remote)",
+    "company": "Tether",
+    "locations": [
+      "London"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-02-22",
+    "url": "https://careers.tether.io/o/head-of-regulatory-affairs-ai-and-p2p-100-remote-3",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Комплаенс",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
+    "hasDesc": true
+  },
+  {
+    "id": "rc-tether-2500683",
+    "title": "Head of Licensing and Regulatory Authorisations",
+    "company": "Tether",
+    "locations": [
+      "Abu Dhabi"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-02-22",
+    "url": "https://careers.tether.io/o/head-of-licensing-and-regulatory-authorisations-8",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Комплаенс",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
+    "hasDesc": true
+  },
+  {
+    "id": "rc-tether-2500372",
+    "title": "Head of Regulatory Affairs and Licensing - Middle East",
+    "company": "Tether",
+    "locations": [
+      "Riyadh"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-02-20",
+    "url": "https://careers.tether.io/o/head-of-regulatory-affairs-and-licensing-middle-east-4",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Комплаенс",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-bitso-7582505003",
+    "title": "Senior Engineering Manager",
+    "company": "Bitso",
+    "locations": [
+      "Latin America"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-02-20",
+    "url": "https://bitso.com/jobs/7582505003?gh_jid=7582505003",
+    "site": "bitso.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Working At Bitso We are a diverse team that takes pride in understanding the perspectives of others. We fully embrace working remotely and we are eager to act, improve and accelerate progress inside and outside of our organization. To drive revolutionary changes in society and make crypto useful, we delight our customers with world-class products, deep care, and intentional empathy. Your Purpose We are looking for an experienced technical lead to join the Crypto Revolution. In this crucial role, you will manage engineers and other leads, helping them grow while we build scalable, secure, and high-quality products with our users as the center. You will work closely with product, design, and…",
+    "hasDesc": true
+  },
+  {
+    "id": "lv-anchorage-7a3e7cce-a01b-419a-a3f1-753466ae8bf3",
+    "title": "Member of Compliance, Analytics",
+    "company": "Anchorage",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-02-19",
+    "url": "https://jobs.lever.co/anchorage/7a3e7cce-a01b-419a-a3f1-753466ae8bf3",
+    "source": "lever",
+    "site": "anchorage.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "At Anchorage Digital, we are building the world’s most advanced digital asset platform for institutions to participate in crypto. Anchorage Digital is a crypto platform that enables institutions to participate in digital assets through custody, staking, trading, governance, settlement, and the industry's leading security infrastructure. Home to Anchorage Digital Bank N.A., the first federally chartered crypto bank in the U.S., Anchorage Digital also serves institutions through Anchorage Digital Singapore, Porto by Anchorage Digital, and other offerings. The company is funded by leading institutions including Andreessen Horowitz, GIC, Goldman Sachs, KKR, and Visa, with its Series D valuation…",
+    "hasDesc": true
+  },
+  {
     "id": "lv-zopa-d29493d5-149d-4353-a199-1733b9818026",
     "title": "Senior C# Software Engineer – London",
     "company": "Zopa",
@@ -56218,6 +65119,29 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-05",
     "descShort": "Our Story Hello there. We’re Zopa. We started our journey back in 2005, building the first ever peer-to-peer lending company. Fast forward to 2020 and we launched Zopa Bank. A bank that listens to what our customers don’t like about finance and does the opposite. We’re redefining what it feels like to work in finance. Our vision for a new era of banking puts people front and centre — we’ve built a business that empowers everyone to aim high, every day, to move finance forward. Find out more about our fantastic offerings at Zopa.com! We’re incredibly proud of our achievements and none of it would be possible without the amazing team here. It’s not just industry awards we’re winning, we’ve…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-trust-wallet-e7a289e0-73a4-4f4c-bb50-dc0bd8eb5c0d",
+    "title": "Senior Product Manager",
+    "company": "Trust Wallet",
+    "locations": [],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-02-16",
+    "url": "https://jobs.ashbyhq.com/trust-wallet/e7a289e0-73a4-4f4c-bb50-dc0bd8eb5c0d",
+    "source": "ashby",
+    "site": "trustwallet.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Продакт",
+    "grade": "Senior",
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "About the company Trust Wallet is the leading non-custodial cryptocurrency wallet, trusted by over 200 million people worldwide to securely manage and grow their digital assets. Our vision is to give individuals the freedom to own their assets, confidently participate in the future economy, and access opportunities that enhance their lives. Our mission is to be a trusted personal companion — helping users safely navigate Web3, the on-chain economy, and the emerging AI-powered future. With support for over 10 million assets across 100+ blockchains, Trust Wallet offers a seamless, multi-chain experience backed by industry-leading self-custody technology, a vibrant community, and a growing…",
     "hasDesc": true
   },
   {
@@ -56271,6 +65195,56 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "lv-anchorage-026fb354-1d5f-49dc-9ea8-1602e6ace52e",
+    "title": "Member of Product Marketing, Stablecoins",
+    "company": "Anchorage",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-02-12",
+    "url": "https://jobs.lever.co/anchorage/026fb354-1d5f-49dc-9ea8-1602e6ace52e",
+    "source": "lever",
+    "site": "anchorage.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "At Anchorage Digital, we are building the world’s most advanced digital asset platform for institutions to participate in crypto. Anchorage Digital is a crypto platform that enables institutions to participate in digital assets through custody, staking, trading, governance, settlement, and the industry's leading security infrastructure. Home to Anchorage Digital Bank N.A., the first federally chartered crypto bank in the U.S., Anchorage Digital also serves institutions through Anchorage Digital Singapore, Porto by Anchorage Digital, and other offerings. The company is funded by leading institutions including Andreessen Horowitz, GIC, Goldman Sachs, KKR, and Visa, with its Series D valuation…",
+    "hasDesc": true
+  },
+  {
+    "id": "lv-1inch-7bf88a06-2c35-4373-91c3-78fb4bb22bb7",
+    "title": "Head of DevOps",
+    "company": "1inch",
+    "locations": [
+      "United Kingdom"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-02-11",
+    "url": "https://jobs.lever.co/1inch/7bf88a06-2c35-4373-91c3-78fb4bb22bb7",
+    "source": "lever",
+    "site": "1inch.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": "DevOps",
+    "stack": [
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "1inch is the DeFi ecosystem building financial freedom for everyone. 1inch products help users and builders trade, hold and track digital assets - with the self-custody, comprehensive security and the intuitive user experience they need to unlock the potential of true crypto ownership. 1inch protocols and APIs provide core infrastructure across the DeFi industry and beyond. So if you're someone who thinks big, moves fast and wants to make an impact right from day one, then get ready to join our industry-changing team. YOUR MISSION Lead our infrastructure and platform engineering function and evolve it towards AI-driven, progressively autonomous operations. You’ll lead the team responsible…",
+    "hasDesc": true
+  },
+  {
     "id": "lv-qonto-05723cc9-e819-4a5c-aea1-15e9a771ffad",
     "title": "Product Marketing Manager Intern",
     "company": "Qonto",
@@ -56320,6 +65294,32 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-05",
     "descShort": "ABOUT RAMP Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books. The problems are high-stakes, data-dense, and unforgiving. We hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome. The median Ramp customer saves 5% and grows revenue 16% in their…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-upvest-029dc97e-632a-406b-819b-8e67ae0ee194",
+    "title": "Senior Product Manager - Expansion (f/m/d)",
+    "company": "Upvest",
+    "locations": [
+      "Berlin"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-02-09",
+    "url": "https://jobs.ashbyhq.com/upvest/029dc97e-632a-406b-819b-8e67ae0ee194",
+    "source": "ashby",
+    "site": "upvest.co",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Продакт",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Figma"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "At Upvest, we are on a mission to make investing as easy as spending money. Upvest empowers businesses to offer a wide range of investment products and the best experience in the field of capital market investment and retirement planning. Upvest's Investment API is easy to integrate so that fintechs and financial institutions can save resources and fully focus on their core business. We are proud to partner with Europe's leading fintechs and financial institutions such as DKB, Revolut, N26 and Raisin. Founded in 2017 by Martin Kassing, Upvest now brings together over 270 talented professionals from more than 70 nationalities. We're backed by world-class investors such as Hedosophia…",
     "hasDesc": true
   },
   {
@@ -56527,6 +65527,30 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "lv-anchorage-b5dfd585-f708-41c9-b9bf-94adde925067",
+    "title": "Engineering Lead, Security",
+    "company": "Anchorage",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-01-23",
+    "url": "https://jobs.lever.co/anchorage/b5dfd585-f708-41c9-b9bf-94adde925067",
+    "source": "lever",
+    "site": "anchorage.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": "Безопасность",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "At Anchorage Digital, we are building the world’s most advanced digital asset platform for institutions to participate in crypto. Anchorage Digital is a crypto platform that enables institutions to participate in digital assets through custody, staking, trading, governance, settlement, and the industry's leading security infrastructure. Home to Anchorage Digital Bank N.A., the first federally chartered crypto bank in the U.S., Anchorage Digital also serves institutions through Anchorage Digital Singapore, Porto by Anchorage Digital, and other offerings. The company is funded by leading institutions including Andreessen Horowitz, GIC, Goldman Sachs, KKR, and Visa, with its Series D valuation…",
+    "hasDesc": true
+  },
+  {
     "id": "ab-mollie-f62986be-80fb-4878-8c33-138ca4c87634",
     "title": "Senior Application Engineer",
     "company": "Mollie",
@@ -56689,6 +65713,206 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "lv-1inch-44232662-92ee-4e78-a00a-7204e1c64da1",
+    "title": "Talent Pool - Software Engineer, Blockchain (Smart Contracts)",
+    "company": "1inch",
+    "locations": [
+      "UAE"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-01-19",
+    "url": "https://jobs.lever.co/1inch/44232662-92ee-4e78-a00a-7204e1c64da1",
+    "source": "lever",
+    "site": "1inch.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "pool": true,
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Блокчейн",
+    "stack": [
+      "Go",
+      "TypeScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "1inch is the DeFi ecosystem building financial freedom for everyone. 1inch products help users and builders trade, hold and track digital assets - with the self-custody, comprehensive security and the intuitive user experience they need to unlock the potential of true crypto ownership. 1inch protocols and APIs provide core infrastructure across the DeFi industry and beyond. So if you're someone who thinks big, moves fast and wants to make an impact right from day one, then get ready to join our industry-changing team. YOUR MISSION This is not an active vacancy. Instead, we're building a network of exceptional Blockchain Engineers (Smart Contracts) who have successfully completed our…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-rain-482b165f-2ef9-41ff-8b88-87e7e6714dc8",
+    "title": "Backend Engineer",
+    "company": "Rain",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$170K – $240K • Offers Equity • Offers Bonus",
+    "posted": "2026-01-15",
+    "url": "https://jobs.ashbyhq.com/rain/482b165f-2ef9-41ff-8b88-87e7e6714dc8",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Бэкенд",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT THE COMPANY Rain is the global stablecoin payments platform for enterprises, neobanks, platforms, developers, and AI agents. Our technology allows partners to move, store, and use stablecoins instantly and compliantly through global payment cards, rewards, on/offramps, wallets, and cross-border rails. As both a Visa and Mastercard Principal Member, Rain issues cards that work at more than 175 million merchant locations in over 220 countries and territories. Built natively for stablecoins and trusted by more than 100 organizations worldwide, Rain delivers secure, scalable infrastructure that makes money move freely and instantly around the world. You will have the opportunity to…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-rain-c058e0d1-b1a0-4cf2-bad4-f4f6dae455a5",
+    "title": "Forward Deployed Engineer",
+    "company": "Rain",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$165K – $200K • Offers Equity • Offers Bonus",
+    "posted": "2026-01-15",
+    "url": "https://jobs.ashbyhq.com/rain/c058e0d1-b1a0-4cf2-bad4-f4f6dae455a5",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT THE COMPANY Rain is the global stablecoin payments platform for enterprises, neobanks, platforms, developers, and AI agents. Our technology allows partners to move, store, and use stablecoins instantly and compliantly through global payment cards, rewards, on/offramps, wallets, and cross-border rails. As both a Visa and Mastercard Principal Member, Rain issues cards that work at more than 175 million merchant locations in over 220 countries and territories. Built natively for stablecoins and trusted by more than 100 organizations worldwide, Rain delivers secure, scalable infrastructure that makes money move freely and instantly around the world. You will have the opportunity to…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-rain-a2c15a82-971e-4b96-88ce-36ce468cd18a",
+    "title": "Regulatory & Security Compliance Manager",
+    "company": "Rain",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$150K – $180K • Offers Equity • Offers Bonus",
+    "posted": "2026-01-15",
+    "url": "https://jobs.ashbyhq.com/rain/a2c15a82-971e-4b96-88ce-36ce468cd18a",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT THE COMPANY Rain is the global stablecoin payments platform for enterprises, neobanks, platforms, developers, and AI agents. Our technology allows partners to move, store, and use stablecoins instantly and compliantly through global payment cards, rewards, on/offramps, wallets, and cross-border rails. As both a Visa and Mastercard Principal Member, Rain issues cards that work at more than 175 million merchant locations in over 220 countries and territories. Built natively for stablecoins and trusted by more than 100 organizations worldwide, Rain delivers secure, scalable infrastructure that makes money move freely and instantly around the world. You will have the opportunity to…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-rain-72a6f4e7-d40d-4c0f-9d83-7f5fc1856e49",
+    "title": "Solutions Engineer",
+    "company": "Rain",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$170K – $210K • Offers Equity • Offers Bonus",
+    "posted": "2026-01-15",
+    "url": "https://jobs.ashbyhq.com/rain/72a6f4e7-d40d-4c0f-9d83-7f5fc1856e49",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "TypeScript",
+      "JavaScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT THE COMPANY Rain is the global stablecoin payments platform for enterprises, neobanks, platforms, developers, and AI agents. Our technology allows partners to move, store, and use stablecoins instantly and compliantly through global payment cards, rewards, on/offramps, wallets, and cross-border rails. As both a Visa and Mastercard Principal Member, Rain issues cards that work at more than 175 million merchant locations in over 220 countries and territories. Built natively for stablecoins and trusted by more than 100 organizations worldwide, Rain delivers secure, scalable infrastructure that makes money move freely and instantly around the world. You will have the opportunity to…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-rain-2e5bcf13-fadd-4b4f-a079-1535b9615aa5",
+    "title": "Software Engineer - EVM",
+    "company": "Rain",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "$200K – $280K • Offers Equity • Offers Bonus",
+    "posted": "2026-01-15",
+    "url": "https://jobs.ashbyhq.com/rain/2e5bcf13-fadd-4b4f-a079-1535b9615aa5",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT THE COMPANY Rain is the global stablecoin payments platform for enterprises, neobanks, platforms, developers, and AI agents. Our technology allows partners to move, store, and use stablecoins instantly and compliantly through global payment cards, rewards, on/offramps, wallets, and cross-border rails. As both a Visa and Mastercard Principal Member, Rain issues cards that work at more than 175 million merchant locations in over 220 countries and territories. Built natively for stablecoins and trusted by more than 100 organizations worldwide, Rain delivers secure, scalable infrastructure that makes money move freely and instantly around the world. You will have the opportunity to…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-rain-209bc01f-ff2d-4390-9f78-47bb5a08cc6c",
+    "title": "Marketing Manager LATAM",
+    "company": "Rain",
+    "locations": [
+      "Latin America"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$45K – $75K • Offers Equity • Offers Bonus",
+    "posted": "2026-01-15",
+    "url": "https://jobs.ashbyhq.com/rain/209bc01f-ff2d-4390-9f78-47bb5a08cc6c",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT THE COMPANY Rain is the global stablecoin payments platform for enterprises, neobanks, platforms, developers, and AI agents. Our technology allows partners to move, store, and use stablecoins instantly and compliantly through global payment cards, rewards, on/offramps, wallets, and cross-border rails. As both a Visa and Mastercard Principal Member, Rain issues cards that work at more than 175 million merchant locations in over 220 countries and territories. Built natively for stablecoins and trusted by more than 100 organizations worldwide, Rain delivers secure, scalable infrastructure that makes money move freely and instantly around the world. You will have the opportunity to…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-rain-9044a08f-f19b-47fe-a2cd-791f0675434d",
+    "title": "Security Engineer",
+    "company": "Rain",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$170K – $270K • Offers Equity • Offers Bonus",
+    "posted": "2026-01-15",
+    "url": "https://jobs.ashbyhq.com/rain/9044a08f-f19b-47fe-a2cd-791f0675434d",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Безопасность",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT THE COMPANY Rain is the global stablecoin payments platform for enterprises, neobanks, platforms, developers, and AI agents. Our technology allows partners to move, store, and use stablecoins instantly and compliantly through global payment cards, rewards, on/offramps, wallets, and cross-border rails. As both a Visa and Mastercard Principal Member, Rain issues cards that work at more than 175 million merchant locations in over 220 countries and territories. Built natively for stablecoins and trusted by more than 100 organizations worldwide, Rain delivers secure, scalable infrastructure that makes money move freely and instantly around the world. You will have the opportunity to…",
+    "hasDesc": true
+  },
+  {
     "id": "ab-ramp-d204e136-2749-42de-82b4-88a0dd352090",
     "title": "Applied AI Engineer",
     "company": "Ramp",
@@ -56711,6 +65935,56 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-05",
     "descShort": "ABOUT RAMP Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books. The problems are high-stakes, data-dense, and unforgiving. We hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome. The median Ramp customer saves 5% and grows revenue 16% in their…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-rain-21bbb841-fe8c-41e3-abde-da66086e08f0",
+    "title": "Machine Learning Engineer - Fraud Risk",
+    "company": "Rain",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$170K – $240K • Offers Equity • Offers Bonus",
+    "posted": "2026-01-09",
+    "url": "https://jobs.ashbyhq.com/rain/21bbb841-fe8c-41e3-abde-da66086e08f0",
+    "source": "ashby",
+    "site": "rain.bh",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Антифрод",
+    "stack": [
+      "Python"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT THE COMPANY Rain is the global stablecoin payments platform for enterprises, neobanks, platforms, developers, and AI agents. Our technology allows partners to move, store, and use stablecoins instantly and compliantly through global payment cards, rewards, on/offramps, wallets, and cross-border rails. As both a Visa and Mastercard Principal Member, Rain issues cards that work at more than 175 million merchant locations in over 220 countries and territories. Built natively for stablecoins and trusted by more than 100 organizations worldwide, Rain delivers secure, scalable infrastructure that makes money move freely and instantly around the world. You will have the opportunity to…",
+    "hasDesc": true
+  },
+  {
+    "id": "rc-tether-2408617",
+    "title": "Marketing Project Manager (100% remote)",
+    "company": "Tether",
+    "locations": [
+      "Lisbon"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-01-09",
+    "url": "https://careers.tether.io/o/marketing-project-manager-100-remote-3",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
     "hasDesc": true
   },
   {
@@ -56877,6 +66151,34 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "ab-trust-wallet-f368ed72-a108-47dd-9599-916e20f603d4",
+    "title": "Senior Backend Engineer (Go)",
+    "company": "Trust Wallet",
+    "locations": [],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2025-12-09",
+    "url": "https://jobs.ashbyhq.com/trust-wallet/f368ed72-a108-47dd-9599-916e20f603d4",
+    "source": "ashby",
+    "site": "trustwallet.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Бэкенд",
+    "permit": true,
+    "stack": [
+      "SQL",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About the company Trust Wallet is the leading non-custodial cryptocurrency wallet, trusted by over 200 million people worldwide to securely manage and grow their digital assets. Our vision is to give individuals the freedom to own their assets, confidently participate in the future economy, and access opportunities that enhance their lives. Our mission is to be a trusted personal companion — helping users safely navigate Web3, the on-chain economy, and the emerging AI-powered future. With support for over 10 million assets across 100+ blockchains, Trust Wallet offers a seamless, multi-chain experience backed by industry-leading self-custody technology, a vibrant community, and a growing…",
+    "hasDesc": true
+  },
+  {
     "id": "ab-modern-treasury-f2ff4c9c-0c2f-4bb8-b446-77cab281126a",
     "title": "Software Engineer",
     "company": "Modern Treasury",
@@ -56902,6 +66204,54 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-05",
     "descShort": "OVERVIEW This position can be based out of San Francisco, New York, or remote (we accept candidates from the following states: AZ, CA, CO, CT, FL, GA, HI, IL, MA, MI, MN, MT, NC, NJ, NV, NY, OH, OK, OR, PA, TN, TX, UT, WA, WI). We're looking for Full-Stack Software Engineers who want to help businesses of any size move money worldwide. You will contribute to APIs, banking infrastructure and financial workflows that ensure our customers can adopt and scale with Modern Treasury. Whereas most SaaS companies move data, we move money. Our systems must scale to high volumes, with high accuracy and high reliability. Engineers at Modern Treasury design thoughtful design APIs, implement resilient…",
+    "hasDesc": true
+  },
+  {
+    "id": "rc-tether-2363669",
+    "title": "Research Engineer Intern (Multimodal LLM)",
+    "company": "Tether",
+    "locations": [
+      "United Kindom"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2025-11-27",
+    "url": "https://careers.tether.io/o/research-engineer-intern-videomultimodal-llm-remote",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": "Junior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
+    "hasDesc": true
+  },
+  {
+    "id": "lv-dlocal-f474cd97-9e36-4f8f-a227-ce85dac1ac1d",
+    "title": "Regulatory Licensing Officer - APAC",
+    "company": "dLocal",
+    "locations": [
+      "Singapore"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2025-11-27",
+    "url": "https://jobs.lever.co/dlocal/f474cd97-9e36-4f8f-a227-ce85dac1ac1d",
+    "source": "lever",
+    "site": "dlocal.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Why Join dLocal? dLocal is the financial infrastructure powering global commerce in the world's fastest-growing markets. The biggest companies in the world trust us to unlock growth in 60+ countries across emerging markets—moving money where others see complexity. We don't just process payments; we are architects of payment ecosystems and partners in our customers' expansion. You'll work alongside 1,300+ teammates from 40+ nationalities and tackle global challenges from day one. As our Regulatory Licensing Officer, APAC, you will play a key role in advancing dLocal’s licensing agenda across the Asia-Pacific region. This role is primarily focused on licensing strategy and execution…",
     "hasDesc": true
   },
   {
@@ -57380,6 +66730,30 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "lv-anchorage-0f13c760-a28f-4750-8b6f-2b6d5e5b10cf",
+    "title": "Member of Trading Operations",
+    "company": "Anchorage",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2025-07-28",
+    "url": "https://jobs.lever.co/anchorage/0f13c760-a28f-4750-8b6f-2b6d5e5b10cf",
+    "source": "lever",
+    "site": "anchorage.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Трейдинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "At Anchorage Digital, we are building the world’s most advanced digital asset platform for institutions to participate in crypto. Anchorage Digital is a crypto platform that enables institutions to participate in digital assets through custody, staking, trading, governance, settlement, and the industry's leading security infrastructure. Home to Anchorage Digital Bank N.A., the first federally chartered crypto bank in the U.S., Anchorage Digital also serves institutions through Anchorage Digital Singapore, Porto by Anchorage Digital, and other offerings. The company is funded by leading institutions including Andreessen Horowitz, GIC, Goldman Sachs, KKR, and Visa, with its Series D valuation…",
+    "hasDesc": true
+  },
+  {
     "id": "lv-zopa-fd815001-859f-447f-96e1-6f38026636e5",
     "title": "Java/Kotlin Software Engineer - Manchester",
     "company": "Zopa",
@@ -57577,6 +66951,110 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "lv-anchorage-c2b42959-0a4b-4e85-9901-8a875d586902",
+    "title": "Senior Derivatives Trader",
+    "company": "Anchorage",
+    "locations": [
+      "Cayman Islands"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2025-05-15",
+    "url": "https://jobs.lever.co/anchorage/c2b42959-0a4b-4e85-9901-8a875d586902",
+    "source": "lever",
+    "site": "anchorage.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Трейдинг",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "Swift"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "At Anchorage Digital, we are building the world’s most advanced digital asset platform for institutions to participate in crypto. Anchorage Digital is a crypto platform that enables institutions to participate in digital assets through custody, staking, trading, governance, settlement, and the industry's leading security infrastructure. Home to Anchorage Digital Bank N.A., the first federally chartered crypto bank in the U.S., Anchorage Digital also serves institutions through Anchorage Digital Singapore, Porto by Anchorage Digital, and other offerings. The company is funded by leading institutions including Andreessen Horowitz, GIC, Goldman Sachs, KKR, and Visa, with its Series D valuation…",
+    "hasDesc": true
+  },
+  {
+    "id": "lv-anchorage-556cd741-9fb6-439e-8bc4-8de36b0eae27",
+    "title": "Member of Product, Trading",
+    "company": "Anchorage",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2025-05-14",
+    "url": "https://jobs.lever.co/anchorage/556cd741-9fb6-439e-8bc4-8de36b0eae27",
+    "source": "lever",
+    "site": "anchorage.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Трейдинг",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Swift"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "At Anchorage Digital, we are building the world’s most advanced digital asset platform for institutions to participate in crypto. Anchorage Digital is a crypto platform that enables institutions to participate in digital assets through custody, staking, trading, governance, settlement, and the industry's leading security infrastructure. Home to Anchorage Digital Bank N.A., the first federally chartered crypto bank in the U.S., Anchorage Digital also serves institutions through Anchorage Digital Singapore, Porto by Anchorage Digital, and other offerings. The company is funded by leading institutions including Andreessen Horowitz, GIC, Goldman Sachs, KKR, and Visa, with its Series D valuation…",
+    "hasDesc": true
+  },
+  {
+    "id": "lv-1inch-b43b5dfa-95ff-4a30-9a42-6fb7860ff0ec",
+    "title": "Senior Software Engineer, Blockchain (Smart Contracts)",
+    "company": "1inch",
+    "locations": [
+      "UAE"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2025-05-01",
+    "url": "https://jobs.lever.co/1inch/b43b5dfa-95ff-4a30-9a42-6fb7860ff0ec",
+    "source": "lever",
+    "site": "1inch.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Блокчейн",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "1inch is the DeFi ecosystem building financial freedom for everyone. 1inch products help users and builders trade, hold and track digital assets - with the self-custody, comprehensive security and the intuitive user experience they need to unlock the potential of true crypto ownership. 1inch protocols and APIs provide core infrastructure across the DeFi industry and beyond. So if you're someone who thinks big, moves fast and wants to make an impact right from day one, then get ready to join our industry-changing team. YOUR MISSION At 1inch, our engineering needs evolve rapidly. We are constantly seeking exceptional smart contract engineers to join our mission. We look for engineers with a…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-lunar-8fc4a7af-5bb5-4018-b2dc-b1b0628a7570",
+    "title": "Staff Software Engineer",
+    "company": "Lunar",
+    "locations": [
+      "Newcastle"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2025-04-30",
+    "url": "https://jobs.ashbyhq.com/lunar/8fc4a7af-5bb5-4018-b2dc-b1b0628a7570",
+    "source": "ashby",
+    "site": "lunar.app",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "JavaScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Us: Lunar is a stealth technology company building a new type of software platform for health systems. We are on a mission to revolutionize healthcare with cutting-edge, AI-powered software designed to help every hospital deliver world-class care for their patients. Our platform is already the core backbone of health systems today, transforming clinical and operational workflows at scale with the world’s first AI-native hospital information system. This next-generation platform is a fundamental rebuild of the information infrastructure that runs health systems. All of it – from doctors, nurses, pharmacists, lab technicians, coders, billers, supply chain, and even patients – Lunar’s…",
+    "hasDesc": true
+  },
+  {
     "id": "ab-trading-212-862dbc1d-d6f1-4845-853f-a8d234e0a7d7",
     "title": "Senior DevOps Engineer",
     "company": "Trading 212",
@@ -57707,6 +67185,32 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-05",
     "descShort": "At Engine by Starling, we are on a mission to find and work with leading banks all around the world who have the ambition to build rapid growth businesses, on our technology. Engine is Starling's software-as-a-service (SaaS) business, the technology that was built to power Starling, and two years ago we split out as a separate business. Starling has seen exceptional growth and success, and a large part of that is down to the fact that we have built our own modern technology from the ground up. This SaaS technology platform is now available to banks and financial institutions all around the world, enabling them to benefit from the innovative digital features, and efficient back-office…",
+    "hasDesc": true
+  },
+  {
+    "id": "lv-anchorage-e5d0f1ac-3126-481e-857f-db6ae8eb67e9",
+    "title": "Member of Technical Staff, Security Engineering",
+    "company": "Anchorage",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2025-01-17",
+    "url": "https://jobs.lever.co/anchorage/e5d0f1ac-3126-481e-857f-db6ae8eb67e9",
+    "source": "lever",
+    "site": "anchorage.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Безопасность",
+    "stack": [
+      "C++"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "At Anchorage Digital, we are building the world’s most advanced digital asset platform for institutions to participate in crypto. Anchorage Digital is a crypto platform that enables institutions to participate in digital assets through custody, staking, trading, governance, settlement, and the industry's leading security infrastructure. Home to Anchorage Digital Bank N.A., the first federally chartered crypto bank in the U.S., Anchorage Digital also serves institutions through Anchorage Digital Singapore, Porto by Anchorage Digital, and other offerings. The company is funded by leading institutions including Andreessen Horowitz, GIC, Goldman Sachs, KKR, and Visa, with its Series D valuation…",
     "hasDesc": true
   },
   {
@@ -57961,6 +67465,30 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "lv-dlocal-8812e2ca-62c2-447b-8c7a-28eb58dc2337",
+    "title": "Compliance Specialist & MLRO – Indonesia",
+    "company": "dLocal",
+    "locations": [
+      "Indonesia"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2023-11-18",
+    "url": "https://jobs.lever.co/dlocal/8812e2ca-62c2-447b-8c7a-28eb58dc2337",
+    "source": "lever",
+    "site": "dlocal.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Why Join dLocal? dLocal is the financial infrastructure powering global commerce in the world's fastest-growing markets. The biggest companies in the world trust us to unlock growth in 60+ countries across emerging markets—moving money where others see complexity. We don't just process payments; we are architects of payment ecosystems and partners in our customers' expansion. You'll work alongside 1,300+ teammates from 40+ nationalities and tackle global challenges from day one. What's the opportunity? As part of our global expansion, we are seeking a Compliance Specialist & MLRO to lead AML/CFT, regulatory compliance, and risk management in Indonesia & Asia. This role will ensure full…",
+    "hasDesc": true
+  },
+  {
     "id": "lv-wealthfront-78d6f6d5-1f08-4d5d-87be-c4250567bfb5",
     "title": "Android Engineer",
     "company": "Wealthfront",
@@ -58093,6 +67621,35 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-05",
     "descShort": "ABOUT RAMP Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books. The problems are high-stakes, data-dense, and unforgiving. We hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome. The median Ramp customer saves 5% and grows revenue 16% in their…",
+    "hasDesc": true
+  },
+  {
+    "id": "lv-dlocal-1244cc72-c553-40ce-ac1a-afc2a5bb4dc3",
+    "title": "Cloud Architect",
+    "company": "dLocal",
+    "locations": [
+      "Buenos Aires"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2022-12-05",
+    "url": "https://jobs.lever.co/dlocal/1244cc72-c553-40ce-ac1a-afc2a5bb4dc3",
+    "source": "lever",
+    "site": "dlocal.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "DevOps",
+    "stack": [
+      "Python",
+      "TypeScript",
+      "JavaScript",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Why Join dLocal? dLocal is the financial infrastructure powering global commerce in the world's fastest-growing markets. The biggest companies in the world trust us to unlock growth in 60+ countries across emerging markets—moving money where others see complexity. We don't just process payments; we are architects of payment ecosystems and partners in our customers' expansion. You'll work alongside 1,300+ teammates from 40+ nationalities and tackle global challenges from day one. What’s the opportunity? We are looking for a Cloud Architect focused on NoSQL and the AWS ecosystem to expand our team’s capabilities beyond MySQL/Aurora and accelerate our platform evolution at scale. You will own…",
     "hasDesc": true
   },
   {

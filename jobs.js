@@ -1,9 +1,9 @@
 // jobs.js — сгенерировано collect.py, руками не править.
-// Отрасль: gamedev. Обновлено: 2026-09-05. Вакансий: 1036.
+// Отрасль: gamedev. Обновлено: 2026-09-05. Вакансий: 1202.
 
 window.JOBS_DEMO = false;
 window.JOBS_UPDATED = "2026-09-05";
-window.JOBS_STUDIOS = 61;
+window.JOBS_STUDIOS = 66;
 
 window.JOBS = [
   {
@@ -2535,17 +2535,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-riot-games-7271179",
+    "id": "gh-riot-games-7449571",
     "title": "Software Engineer, Gameplay - Unpublished R&D Product (Contract)",
     "company": "Riot Games",
     "locations": [
-      "Shanghai, China"
+      "Guangzhou, China"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-04",
-    "url": "https://www.riotgames.com/en/work-with-us/job/7271179?gh_jid=7271179",
+    "url": "https://www.riotgames.com/en/work-with-us/job/7449571?gh_jid=7449571",
     "site": "riotgames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -2554,12 +2554,11 @@ window.JOBS = [
     "spec": "Геймплей",
     "lang": "zh",
     "stack": [
-      "C++",
-      "C#"
+      "Unreal",
+      "C++"
     ],
     "seen": "2026-09-05",
-    "hasRu": true,
-    "descShort": "拳头游戏的工程师不仅在特定技术领域具备深厚的专业知识，也同样重视在更广泛、多样化的领域中工作的机会。作为一名软件工程师，您还将深入参与旨在增强团队凝聚力、实现跨团队目标的项目。您将主导游戏玩法功能的开发，并为其他工程师清晰地展示何为卓越的工程实践。 作为研发部门的一名Software Engineer, Gameplay，您将运用自身在游戏玩法技术领域的精深知识，为拳头游戏激动人心的新作注入生命力。您将与产品负责人、设计师、艺术家及其他工程师在团队中紧密合作，共同探索产品的根本性问题，并打造出能将玩家的梦想变为现实的卓越体验。理想的候选人应充满热情、积极主动，并有志于引领该游戏领域的技术愿景。 职责： • 与策划团队合作，沟通理解产品需求，主导并参与相关系统的需求分析、技术设计及最终实现游戏功能 • 理解策划、美术团队的开发流程，与专业领域的负责人协作识别开发中的瓶颈，规划并交付相关的工具，提高团队开发效率 • 不断迭代和优化解决方案，以确保其稳健性、可扩展性和高性能 • 协助团队确立技术方向与开发标准 必备条件： • 在游戏行业中有4年以上作为软件工程师的开发经验 • 精通C++或C# • 参与过至少一个已发布的游戏项目 • 对常见的游戏和软件设计模式有深入理解 • 出色的调试技能 • 在技术决策中具备产品意识、务实态度和玩家同理心 优先条件： • 拥有2年以上的游戏玩法开发经验 • 具有使用商业引擎（如Unreal或Unity）的经验 • 具备与中型工程团队合作的经验 • 参与过游戏开发的原型设计和前期制作阶段 • 具备敏捷开发经验 用工性质：与专业人事服务公司FESCO…",
+    "descShort": "关于我们 我们以玩家体验为核心，致力于用创新技术为全球玩家带来卓越的游戏体验。作为Riot中国在研项目组的一员，你将和多元化团队一同探索前沿引擎技术，不断学习与成长，共同打造高品质、充满想象力的游戏产品。我们鼓励开放合作、不断挑战自我，诚邀热爱研发和创新的你加入！ 岗位职责 • 负责基于Unreal Engine 5（UE5）引擎的游戏客户端功能开发与维护； • 实现和优化客户端各类核心功能，保障高性能和稳定性，为玩家呈现流畅的游戏体验； • 参与客户端功能模块的技术实现与维护，推动功能高质量落地； • 与策划、美术及服务器等多团队协作，确保功能需求精准实现和体验优化； • 针对新需求和玩家反馈，持续进行性能分析、问题定位与优化迭代； • 跟踪引擎和行业新技术，将高效工具、流程和最佳实践应用到项目中。 任职要求 • 本科及以上学历，2年以上游戏客户端开发经验，有较强的C++编程功底； • 至少1年以上Unreal Engine 5（UE5）项目开发经验 或 2年以上Unity项目开发经验，熟悉引擎开发流程； • 能够独立负责细分功能模块的开发、优化与维护； • 具备良好的性能优化能力，能够定位并解决客户端的性能问题与兼容性问题； • 能与策划、美术、服务端等岗位高效沟通协作，共同推动需求开发与落地； • 具备严谨的编码规范与问题分析能力，乐于分享与持续学习新技术。 加分项 • 有大型多人在线游戏、沙盒、MOBA或高复杂度项目的UE5客户端开发经验； • 熟悉UE5渲染、UI、动画、网络同步等相关模块开发； • 有Unreal Engine工具或插件开发经验； •…",
     "hasDesc": true
   },
   {
@@ -3116,6 +3115,29 @@ window.JOBS = [
     "hasDesc": true
   },
   {
+    "id": "gh-scopely-5411631008",
+    "title": "Producer - MONOPOLY GO!",
+    "company": "Scopely",
+    "locations": [
+      "United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 91 300 – 140 000",
+    "posted": "2026-09-04",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5411631008?gh_jid=5411631008",
+    "site": "scopely.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Продюсирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Scopely is looking for a Producer to join our Monopoly GO! team in our Culver City studio hub on a hybrid basis, or remotely within the US or Canada. At Scopely, we care deeply about what we do and want to inspire play, every day - whether in our work environments alongside our talented colleagues, or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily. MONOPOLY GO! is a global phenomenon and the biggest mobile game launch in history, captivating millions of players worldwide. What You Will Do You will be embedded in one…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-scopely-5347401008",
     "title": "Senior/Lead 3D Character Artist",
     "company": "Scopely",
@@ -3217,6 +3239,2627 @@ window.JOBS = [
     ],
     "seen": "2026-09-05",
     "descShort": "Company Description Join The Game! Leader in the development and publishing of games, Gameloft® has established itself as a pioneer in the industry, creating innovative gaming experiences for over 20 years. Gameloft creates games for all digital platforms, from mobile to cross-platform titles for PC and consoles. Gameloft operates its own established franchises such as Asphalt®, Dragon Mania Legends, Modern Combat and Dungeon Hunter and also partners with major rights holders including LEGO®, Universal, Illumination Entertainment, Hasbro®, Fox Digital Entertainment, Mattel®, Lamborghini®, and Ferrari®. Gameloft distributes its games in over 100 countries and employs 3,000 people worldwide.…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8143976",
+    "title": "[2027] Associate Product Manager, Early Career",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 143 000 – 143 000",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8143976?gh_jid=8143976",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Продакт",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8072244",
+    "title": "[2027] Software Engineer, Early Career",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 153 000 – 153 000",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8072244?gh_jid=8072244",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "C++",
+      "C#",
+      "Python",
+      "Java",
+      "Swift",
+      "Lua"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7856888",
+    "title": "Data Analyst, Operations (IP & Legal Compliance)",
+    "company": "Roblox",
+    "locations": [
+      "Gurugram, India"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7856888?gh_jid=7856888",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7826363",
+    "title": "Design Engineer",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 163 830 – 202 550",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7826363?gh_jid=7826363",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "Lua",
+      "Figma"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7911884",
+    "title": "Developer Relations Manager -  EU region",
+    "company": "Roblox",
+    "locations": [
+      "Amsterdam, Netherlands"
+    ],
+    "remote": false,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7911884?gh_jid=7911884",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "Unity",
+      "Unreal"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8029414",
+    "title": "Director, Engineering — Engineering Acceleration",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 399 420 – 457 970",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8029414?gh_jid=8029414",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "C#",
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7719455",
+    "title": "Director of Engineering – Studio Systems",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 399 420 – 457 970",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7719455?gh_jid=7719455",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "C++"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7913665",
+    "title": "Director, Product Management, Consumer Frontend",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 383 120 – 439 280",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7913665?gh_jid=7913665",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": "Фронтенд",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7332473",
+    "title": "Distinguished Engineer, Machine Learning Systems – Economy",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 397 460 – 455 720",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7332473?gh_jid=7332473",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Данные и ML",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7931911",
+    "title": "Distinguished Machine Learning Engineer - Safety",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 399 420 – 457 970",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7931911?gh_jid=7931911",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Данные и ML",
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7940279",
+    "title": "Engineering Manager - Account Security",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 295 250 – 345 040",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7940279?gh_jid=7940279",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7887896",
+    "title": "Engineering Manager, Application Security",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 295 250 – 345 040",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7887896?gh_jid=7887896",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8052237",
+    "title": "Engineering Manager, Data Tooling",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 295 250 – 345 040",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8052237?gh_jid=8052237",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Инструменты",
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7905464",
+    "title": "Engineering Manager, Home Infrastructure (Recommendation Systems)",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 295 250 – 345 040",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7905464?gh_jid=7905464",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "DevOps",
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8090079",
+    "title": "Engineering Manager, Machine Learning Infrastructure, Ads",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 295 250 – 345 040",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8090079?gh_jid=8090079",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Данные и ML",
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7901793",
+    "title": "Engineering Manager, Observability Infrastructure",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 295 250 – 345 040",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7901793?gh_jid=7901793",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "DevOps",
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8099956",
+    "title": "Engineering Manager - Subscriptions",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 295 250 – 345 040",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8099956?gh_jid=8099956",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8077671",
+    "title": "Growth Marketing Manager Lead",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8077671?gh_jid=8077671",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Маркетинг",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8171128",
+    "title": "IT Support Technician",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8171128?gh_jid=8171128",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Поддержка",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8070037",
+    "title": "Lead, Support Operations Excellence",
+    "company": "Roblox",
+    "locations": [
+      "Gurugram, India"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8070037?gh_jid=8070037",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Поддержка",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7965517",
+    "title": "Marketing Manager, Europe",
+    "company": "Roblox",
+    "locations": [
+      "Amsterdam, Netherlands"
+    ],
+    "remote": false,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7965517?gh_jid=7965517",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7921673",
+    "title": "Marketing Manager, India",
+    "company": "Roblox",
+    "locations": [
+      "Gurugram, India"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7921673?gh_jid=7921673",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7629489",
+    "title": "Principal Data Engineer - Economy",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 295 250 – 354 040",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7629489?gh_jid=7629489",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": "Данные и ML",
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7834163",
+    "title": "Principal Engineer, Studio Builder Tools",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 345 040 – 399 420",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7834163?gh_jid=7834163",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": "Инструменты",
+    "permit": true,
+    "stack": [
+      "C++"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8036430",
+    "title": "Principal Enterprise Security Engineer",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 293 800 – 343 340",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8036430?gh_jid=8036430",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8025477",
+    "title": "Principal Frontend Software Engineer, Connections",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 295 250 – 345 040",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8025477?gh_jid=8025477",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": "Фронтенд",
+    "permit": true,
+    "stack": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8052466",
+    "title": "Principal Frontend Software Engineer - Discovery UX",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 295 250 – 345 040",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8052466?gh_jid=8052466",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": "Фронтенд",
+    "permit": true,
+    "stack": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8073283",
+    "title": "Principal Machine Learning Engineer, Content Safety",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 295 250 – 345 040",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8073283?gh_jid=8073283",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": "Данные и ML",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7629843",
+    "title": "Principal Machine Learning Engineer, Embodied AI and Smart NPCs",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 345 040 – 399 420",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7629843?gh_jid=7629843",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": "Данные и ML",
+    "permit": true,
+    "stack": [
+      "C++",
+      "C#",
+      "Python"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7351202",
+    "title": "Principal Machine Learning Infrastructure Engineer, Ads & Discovery",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 295 250 – 345 040",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7351202?gh_jid=7351202",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": "Данные и ML",
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7872401",
+    "title": "Principal Model Optimization Engineer",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 295 250 – 345 040",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7872401?gh_jid=7872401",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7645403",
+    "title": "Principal Network Engineer",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 295 250 – 345 040",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7645403?gh_jid=7645403",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "C++",
+      "Python"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8036287",
+    "title": "Principal Rendering Engineer",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 295 250 – 345 040",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8036287?gh_jid=8036287",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": "Движок",
+    "permit": true,
+    "stack": [
+      "C++"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7789332",
+    "title": "Principal Security Software Engineer, Application Security",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 326 060 – 385 050",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7789332?gh_jid=7789332",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "C#",
+      "Python",
+      "Go"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7983905",
+    "title": "Principal Security Software Engineer, Enterprise IAM",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 385 050 – 443 200",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7983905?gh_jid=7983905",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "Python"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8099958",
+    "title": "Principal Security Software Engineer, IAM",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 326 060 – 385 050",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8099958?gh_jid=8099958",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "C++",
+      "C#",
+      "Python",
+      "Java"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8017415",
+    "title": "Principal Software Engineer",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 295 250 – 345 040",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8017415?gh_jid=8017415",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8013437",
+    "title": "Principal Software Engineer, Backend - Sharing",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 295 250 – 345 040",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8013437?gh_jid=8013437",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": "Бэкенд",
+    "permit": true,
+    "stack": [
+      "C++",
+      "C#",
+      "Java"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8047821",
+    "title": "Principal Software Engineer, CI and CD Foundation",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 345 040 – 399 420",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8047821?gh_jid=8047821",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "C++",
+      "Python",
+      "Lua",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7983990",
+    "title": "Principal Software Engineer, Compute Fleet Management",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 345 040 – 399 420",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7983990?gh_jid=7983990",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "SQL",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8024627",
+    "title": "Principal Software Engineer - Compute (Kubernetes)",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 345 040 – 399 420",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8024627?gh_jid=8024627",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": "DevOps",
+    "permit": true,
+    "stack": [
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7650307",
+    "title": "Principal Software Engineer - Content Lifecycle",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 295 250 – 345 040",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7650307?gh_jid=7650307",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "C++"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7769510",
+    "title": "Principal Software Engineer - Creator Collaboration",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 295 250 – 345 040",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7769510?gh_jid=7769510",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "C++"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7740153",
+    "title": "Principal Software Engineer - Creator Distributed Systems & Storage",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7740153?gh_jid=7740153",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": "Бэкенд",
+    "stack": [
+      "C++",
+      "C#",
+      "Lua",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8029695",
+    "title": "Principal Software Engineer, Data Infrastructure",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 295 250 – 345 040",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8029695?gh_jid=8029695",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": "DevOps",
+    "stack": [
+      "Java",
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7991993",
+    "title": "Principal Software Engineer, Engineering Acceleration",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 295 250 – 345 040",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7991993?gh_jid=7991993",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "C#",
+      "Python",
+      "Java",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8036223",
+    "title": "Principal Software Engineer, Engine Systems",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 295 250 – 345 040",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8036223?gh_jid=8036223",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "C++"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8031166",
+    "title": "Principal Software Engineer, Game Safety",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 295 250 – 345 040",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8031166?gh_jid=8031166",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7978492",
+    "title": "Principal Software Engineer, GPU Compute",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 345 040 – 399 420",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7978492?gh_jid=7978492",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8084445",
+    "title": "Principal Software Engineer, Physics",
+    "company": "Roblox",
+    "locations": [
+      "Vancouver, Canada"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 279 120 – 332 440",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8084445?gh_jid=8084445",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": "Движок",
+    "permit": true,
+    "stack": [
+      "C++"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7545955",
+    "title": "Principal Software Engineer - Roblox Economy Platform",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 293 800 – 343 340",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7545955?gh_jid=7545955",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8036680",
+    "title": "Principal Software Engineer, WebRTC",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 295 250 – 345 040",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8036680?gh_jid=8036680",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "C++"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7951971",
+    "title": "Product Marketing Manager, Ads",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 217 130 – 263 710",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7951971?gh_jid=7951971",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8139492",
+    "title": "Product Marketing Manager, Marketplace",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 217 130 – 263 710",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8139492?gh_jid=8139492",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8070027",
+    "title": "Product Support Specialist",
+    "company": "Roblox",
+    "locations": [
+      "Gurugram, India"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8070027?gh_jid=8070027",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Поддержка",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8070025",
+    "title": "Quality Analyst",
+    "company": "Roblox",
+    "locations": [
+      "Gurugram, India"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8070025?gh_jid=8070025",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7957849",
+    "title": "Senior Analyst, Safety Operations Tooling",
+    "company": "Roblox",
+    "locations": [
+      "Gurugram, India"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7957849?gh_jid=7957849",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Аналитика",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7997039",
+    "title": "Senior Cloud Security Engineer",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 251 090 – 326 060",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7997039?gh_jid=7997039",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "DevOps",
+    "permit": true,
+    "stack": [
+      "C#",
+      "Python",
+      "Go",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8172297",
+    "title": "Senior Data Engineer, Economy",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 243 290 – 295 250",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8172297?gh_jid=8172297",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Данные и ML",
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8127054",
+    "title": "Senior Data Scientist, Consumer Apps",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8127054?gh_jid=8127054",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Аналитика",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7977682",
+    "title": "Senior Data Scientist - Consumer Frontend",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7977682?gh_jid=7977682",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Аналитика",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8037082",
+    "title": "Senior Data Scientist - Discovery",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 193 170 – 263 670",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8037082?gh_jid=8037082",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Аналитика",
+    "grade": "Senior",
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8070890",
+    "title": "Senior Detection and Response Engineer",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 196 750 – 243 290",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8070890?gh_jid=8070890",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "Python",
+      "Go",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8131695",
+    "title": "Senior Director of Engineering, Generative AI",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 525 510 – 573 690",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8131695?gh_jid=8131695",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8055512",
+    "title": "Senior Engineering Manager, AI Roblox Studio",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 345 040 – 399 420",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8055512?gh_jid=8055512",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8030839",
+    "title": "Senior Engineering Manager, AI Safety Platform",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 345 040 – 399 420",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8030839?gh_jid=8030839",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8077261",
+    "title": "Senior Engineering Manager, Communications",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 345 040 – 399 420",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8077261?gh_jid=8077261",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8042523",
+    "title": "Senior Enterprise Security Engineer",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 243 290 – 295 250",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8042523?gh_jid=8042523",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8011015",
+    "title": "Senior Frontend Engineer, Voice Communication",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 243 290 – 295 250",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8011015?gh_jid=8011015",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Фронтенд",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7760129",
+    "title": "Senior Frontend/Fullstack Software Engineer, Social Graph",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 196 750 – 243 290",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7760129?gh_jid=7760129",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Фронтенд",
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7396342",
+    "title": "Senior Frontend Software Engineer, Ads Experience",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 242 100 – 293 800",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7396342?gh_jid=7396342",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Фронтенд",
+    "permit": true,
+    "stack": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8140565",
+    "title": "Senior Fullstack Software Engineer, Profiles",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 243 290 – 295 250",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8140565?gh_jid=8140565",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Фронтенд",
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8055450",
+    "title": "Senior Growth Data Engineer",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 243 290 – 295 250",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8055450?gh_jid=8055450",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Данные и ML",
+    "permit": true,
+    "stack": [
+      "SQL",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7463674",
+    "title": "Senior Hardware Engineer - GPU & AI Infrastructure",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 243 290 – 295 250",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7463674?gh_jid=7463674",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "DevOps",
+    "permit": true,
+    "stack": [
+      "C++",
+      "Python"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7947153",
+    "title": "Senior Hardware Engineer - Infrastructure",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 243 290 – 295 250",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7947153?gh_jid=7947153",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "DevOps",
+    "permit": true,
+    "stack": [
+      "Python"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7351220",
+    "title": "Senior Machine Learning Engineer, Ads",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 259 030 – 311 430",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7351220?gh_jid=7351220",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Данные и ML",
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8047877",
+    "title": "Senior Machine Learning Engineering Manager, Safety AI Systems",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 295 250 – 345 040",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8047877?gh_jid=8047877",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Данные и ML",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8103714",
+    "title": "Senior Machine Learning Engineering Manager, Text Safety",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8103714?gh_jid=8103714",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Данные и ML",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7528070",
+    "title": "Senior Mobile Systems Engineer, Audio Team (Android & C++)",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 242 100 – 293 800",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7528070?gh_jid=7528070",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Звук",
+    "grade": "Senior",
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "C++"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8070888",
+    "title": "Senior Offensive Security Engineer",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 196 750 – 243 290",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8070888?gh_jid=8070888",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8121895",
+    "title": "Senior/Principal Data Scientist, AVC ( Audio/Video/Communications)",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 307 430 – 373 680",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8121895?gh_jid=8121895",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Звук",
+    "grade": "Lead",
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8027755",
+    "title": "Senior / Principal Infrastructure Engineer - ML Platform",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 278 530 – 345 040",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8027755?gh_jid=8027755",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": "DevOps",
+    "permit": true,
+    "stack": [
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8079846",
+    "title": "Senior/Principal Product Manager, Engine Systems Foundations",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 280 540 – 330 950",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8079846?gh_jid=8079846",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Продакт",
+    "grade": "Lead",
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "C++"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8094717",
+    "title": "Senior Privacy Engineer",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 180 570 – 224 310",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8094717?gh_jid=8094717",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8022674",
+    "title": "Senior Privacy Software Engineer",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 216 680 – 269 170",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8022674?gh_jid=8022674",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "Python",
+      "Go"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8035873",
+    "title": "Senior Product Manager, AI Content Safety",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 280 540 – 330 950",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8035873?gh_jid=8035873",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Продакт",
+    "grade": "Senior",
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7839534",
+    "title": "Senior Product Manager, App Performance & Architecture",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 280 540 – 330 950",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7839534?gh_jid=7839534",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Продакт",
+    "grade": "Senior",
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7994532",
+    "title": "Senior Product Manager, Compute Platform",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 280 540 – 330 950",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7994532?gh_jid=7994532",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Продакт",
+    "grade": "Senior",
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8127058",
+    "title": "Senior Product Manager, Content Sharing",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 229 010 – 280 540",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8127058?gh_jid=8127058",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Продакт",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7701911",
+    "title": "Senior Product Manager, Engineering Acceleration",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 280 540 – 330 950",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7701911?gh_jid=7701911",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Продакт",
+    "grade": "Senior",
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7997195",
+    "title": "Senior Product Manager, Inference Platform",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 280 540 – 330 950",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7997195?gh_jid=7997195",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Продакт",
+    "grade": "Senior",
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8111889",
+    "title": "Senior Product Support Specialist",
+    "company": "Roblox",
+    "locations": [
+      "Gurugram, India"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8111889?gh_jid=8111889",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Поддержка",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7441754",
+    "title": "Senior Rendering Engineer Manager",
+    "company": "Roblox",
+    "locations": [
+      "Vancouver, Canada"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 330 810 – 394 000",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7441754?gh_jid=7441754",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Движок",
+    "stack": [
+      "C++"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8037805",
+    "title": "Senior Security Engineer, Detection and Response",
+    "company": "Roblox",
+    "locations": [
+      "London, United Kingdom"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8037805?gh_jid=8037805",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8056346",
+    "title": "Senior Security GRC Analyst",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 209 250 – 271 710",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8056346?gh_jid=8056346",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Аналитика",
+    "grade": "Senior",
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7896293",
+    "title": "Senior Security Software Engineer, Application Security",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 269 170 – 326 060",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7896293?gh_jid=7896293",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "C++",
+      "C#",
+      "Python",
+      "JavaScript",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8016408",
+    "title": "Senior Security Software Engineer, IAM",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 251 090 – 306 730",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8016408?gh_jid=8016408",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "C++",
+      "C#",
+      "Python",
+      "Java"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7896061",
+    "title": "Senior Security Software Engineer, Infrastructure Security",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 233 570 – 269 170",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7896061?gh_jid=7896061",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "DevOps",
+    "permit": true,
+    "stack": [
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-7922649",
+    "title": "Senior Security Software Engineer, Vulnerability Management",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 216 680 – 269 170",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/7922649?gh_jid=7922649",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "C#",
+      "Python",
+      "Java"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-roblox-8042554",
+    "title": "Senior Site Reliability Engineer, Compute",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 243 290 – 295 250",
+    "posted": "2026-09-04",
+    "url": "https://careers.roblox.com/jobs/8042554?gh_jid=8042554",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "DevOps",
+    "permit": true,
+    "stack": [
+      "C#",
+      "Java",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8649856002",
+    "title": "Engineering Manager, Platform Security",
+    "company": "Discord",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8649856002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "TypeScript",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. More broadly, Discord is about empowering people to find belonging in all kinds of communities, and those people trust us to keep their communications safe. Our Platform Security Engineering team protects the systems we use to create Discord, making the “secure way” the “easy way.” We’re looking for an Engineering Manager to…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8642085002",
+    "title": "Senior Full-Stack Software Engineer, Growth",
+    "company": "Discord",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8642085002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Фронтенд",
+    "stack": [
+      "Python",
+      "TypeScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. We're looking for a Senior Software Engineer to join the Growth team at Discord. Our team owns how new users discover, understand, and get started with Discord — from the first moment someone encounters us on the web through the onboarding experience that turns them into engaged members. You'll work across the stack to build…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8642087002",
+    "title": "Senior Software Engineer, Growth",
+    "company": "Discord",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8642087002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "TypeScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. We're looking for a Senior Software Engineer to join the Growth team at Discord. Our team owns how new users discover, understand, and get started with Discord — from the first moment someone encounters us on the web through the onboarding experience that turns them into engaged members. You'll work across the stack to build…",
     "hasDesc": true
   },
   {
@@ -3364,6 +6007,34 @@ window.JOBS = [
     "stack": [],
     "seen": "2026-09-05",
     "descShort": "WE ARE GAME MAKERS Who We Are: We are a diverse team of developers driven by a passion for our art, united by our core values and inspired by a culture of inclusivity to build amazing games that thrill players everywhere. We pursue growth and innovation in an environment of safety and trust. Our culture is built on the belief that the more varied voices in our collective will strengthen our team and our games. We are looking for our next teammate who will raise our bar and make us better. What We Need: We are seeking a driven addition to the production team who will act as a Producer, partnering with the UI tech team to plan, update, and execute regular deliveries while owning full dept…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-2k-games-7807539003",
+    "title": "Staff Platform Engineer",
+    "company": "2K Games",
+    "locations": [
+      "Austin, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-03",
+    "url": "https://job-boards.greenhouse.io/2k/jobs/7807539003",
+    "site": "2k.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Бэкенд",
+    "stack": [
+      "Python",
+      "Java",
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Who We Are At 2K, we create some of the most iconic and culture-shaping video games in entertainment, including NBA® 2K, one of the top-selling franchises in the world, and legendary titles like BioShock®, Borderlands®, Mafia, Sid Meier’s Civilization®, and XCOM®, as well as fan favorites WWE® 2K, TopSpin®, and PGA TOUR® 2K. We build unforgettable experiences by pushing the boundaries of creativity, authenticity and innovation across every genre. Our portfolio is brought to life by some of the most influential game development studios in the world. Visual Concepts, Firaxis Games, Hangar 13, Cat Daddy Games, 31st Union, Cloud Chamber, Gearbox, HB Studios, and 2K SportsLab create world-class…",
     "hasDesc": true
   },
   {
@@ -3776,6 +6447,79 @@ window.JOBS = [
     "hasDesc": true
   },
   {
+    "id": "ab-gismart-8f2e1556-09e7-46ce-84f7-f72aa47c17b1",
+    "title": "User Acquisition Manager",
+    "company": "Gismart",
+    "locations": [
+      "Kyiv"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-03",
+    "url": "https://jobs.ashbyhq.com/gismart/8f2e1556-09e7-46ce-84f7-f72aa47c17b1",
+    "source": "ashby",
+    "site": "gismart.com",
+    "industry": "gamedev",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT US: Gismart is a value-driven mobile app developer with a strong presence in the Health & Wellness, Utilities, and Music app markets. We have achieved a significant milestone of over 1 billion downloads worldwide, taking a step toward our mission of cultivating the well-being of people worldwide. With headquarters in London, UK, Gismart is a dynamic global company with a reach extending across Europe and far beyond. Our determined team comprises over 350 individuals who bring diversity, creativity, innovation, and relentless drive to the company. Gismart unites professionals from diverse backgrounds in entertainment, music, and tech, allowing us to play to each other’s strengths and…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8771059002",
+    "title": "Payments & Fraud Analyst",
+    "company": "Discord",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-03",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8771059002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. Discord's Payments, Fraud & Risk team enables revenue growth and protects Discord's financial health by managing payments optimization and fraud risk as a strategic function. We operate across three core areas: identifying and mitigating large-scale fraud to enable clean revenue, optimizing the cost of payments through…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-remedy-8527060002",
+    "title": "Senior Software Engineer - Elixir",
+    "company": "Remedy",
+    "locations": [
+      "Summit, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 152 000 – 209 000",
+    "posted": "2026-09-03",
+    "url": "https://job-boards.greenhouse.io/remedy/jobs/8527060002",
+    "site": "remedygames.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Thirty Madison is now part of Remedy! You can read more about the acquisition here. We are excited to join forces and continue to revolutionize healthcare accessibility! As a Senior Software Engineer, you will be working alongside a team of dedicated engineers building the future of Remedy Meds. You will work cross-functionally with Product and Design teams and other internal and external stakeholders. Comp | Perks | Benefits • The base pay range for this position is $152,000 – $209,000 per year* • Medical, Dental, and Vision plan options • Flexible time off policy Base pay offered may vary depending on job-related knowledge, skills, and experience. An annual incentive plan and stock…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-wargaming-8139010",
     "title": "Senior QA Engineer (World of Tanks)",
     "company": "Wargaming",
@@ -3803,30 +6547,25 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-tripledot-belka-4952612101",
-    "title": "Principal Technical Artist",
+    "id": "gh-tripledot-belka-4965778101",
+    "title": "Game Designer - Lion Studios",
     "company": "Tripledot / Belka",
-    "locations": [
-      "Dallas"
-    ],
-    "remote": false,
-    "rkind": null,
+    "locations": [],
+    "remote": true,
+    "rkind": "zone",
     "salary": null,
     "posted": "2026-09-02",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4952612101",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4965778101",
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "industry": "gamedev",
-    "role": "Технический художник",
-    "grade": "Lead",
+    "role": "Геймдизайн",
+    "grade": null,
     "spec": null,
     "stack": [
-      "Unity",
-      "C#",
-      "Python"
+      "Figma"
     ],
     "seen": "2026-09-05",
-    "hasRu": true,
     "descShort": "Who are we? Tripledot Studios is one of the largest independent mobile games companies in the world. We are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios. Our expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users. Tripledot’s guiding principle is that when people love what they do, what they do will be loved by others. We’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games. Our ambition is to be the most successful games company in the world, and…",
     "hasDesc": true
   },
@@ -3998,17 +6737,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-epic-games-6019216004",
+    "id": "gh-epic-games-6026829004",
     "title": "Principal Technical VFX Artist",
     "company": "Epic Games",
     "locations": [
-      "Porto Alegre, Brazil"
+      "Montreal, Canada"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-02",
-    "url": "https://epicgames.com/careers/jobs/6019216004?gh_jid=6019216004",
+    "url": "https://epicgames.com/careers/jobs/6026829004?gh_jid=6026829004",
     "site": "epicgames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -4021,7 +6760,6 @@ window.JOBS = [
       "Houdini"
     ],
     "seen": "2026-09-05",
-    "hasRu": true,
     "descShort": "WHAT MAKES US EPIC? At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating. Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development. ART What We Do Push your artistic talent to the limit on a team of world-class environment, character and concept artists who strive to innovate and inspire. What You'll Do Epic is…",
     "hasDesc": true
   },
@@ -4186,31 +6924,863 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-wargaming-8030714",
-    "title": "Art Director (World of Tanks Console)",
-    "company": "Wargaming",
+    "id": "gh-discord-8571766002",
+    "title": "Director of Engineering, Safety",
+    "company": "Discord",
     "locations": [
-      "Vilnius"
+      "San Francisco Bay Area"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
-    "posted": "2026-09-01",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8030714",
-    "site": "wargaming.com",
+    "posted": "2026-09-02",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8571766002",
+    "site": "discord.com",
     "source": "greenhouse",
     "industry": "gamedev",
-    "role": "Арт",
+    "role": "Программирование",
     "grade": "Lead",
     "spec": null,
+    "permit": true,
     "stack": [],
     "seen": "2026-09-05",
-    "descShort": "Job Overview We are looking for an Art Director to join Wargaming and be a part of the product team working on World of Tanks Console. The Art Director's role combines high-level creative vision with strategic leadership. You will drive a team of highly professional artists, define the visual identity of the game, and ensure that every feature on console platforms reflects a cohesive and premium look and feel. As a subject matter expert, you will work in close collaboration with game teams to identify, prototype, and implement visual solutions that elevate player experience. Reports to Studio Development Director What will you do? • Provide artistic leadership: Drive the overall vision of…",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. Discord only works at our scale if people feel safe showing up — and building the systems that make that possible is exactly what our Safety engineering org does. We classify content, route reports, make and audit enforcement decisions, and build the tools our operations partners use to handle everything automation doesn't. The…",
     "hasDesc": true
   },
   {
-    "id": "gh-wargaming-8064276",
-    "title": "Art Manager/Lead Art Owner (World of Tanks, PC)",
+    "id": "gh-discord-8722538002",
+    "title": "Engineering Manager, Machine Learning (Safety)",
+    "company": "Discord",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8722538002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Данные и ML",
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. Discord's Safety ML team builds the machine learning systems that protect 200M+ users. The team's mission is to make Discord a place where people can build genuine friendships without exposure to harm, at a scale where manual review alone can never keep up. We're looking for a highly technical, hands-on, and mission-driven…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8537955002",
+    "title": "Engineering Manager, Notifications",
+    "company": "Discord",
+    "locations": [],
+    "remote": true,
+    "rkind": "worldwide",
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8537955002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. We're looking for a technical, hands-on, and infrastructure-minded Engineering Manager to lead our Notifications team within the Growth organization. Notifications is a full-stack team owning the platform and infrastructure that powers every notification Discord sends, the orchestration layer that optimizes notifications…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8502342002",
+    "title": "Engineering Manager, Revenue",
+    "company": "Discord",
+    "locations": [],
+    "remote": true,
+    "rkind": "worldwide",
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8502342002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. We’re looking for a highly technical, hands-on, and empathetic Engineering Manager to lead one of our full stack squads in our Revenue organization. This is a high-impact role where you’ll be directly responsible for one of Discord’s major business lines, delivering premium experiences that create real value for users while…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8637688002",
+    "title": "Engineering Manager, Safety",
+    "company": "Discord",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8637688002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. This team is where reports and signals become decisions. We build the LLM pipelines that review reported content, the systems that carry enforcement out, the appeals path users take when we get it wrong, and the tooling our investigators and content reviewers work in every day. Most safety reviews are now decided by automation…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8627166002",
+    "title": "Oracle ERP Fusion Functional Analyst",
+    "company": "Discord",
+    "locations": [
+      "San Francisco Bay Area or"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8627166002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. We are seeking an experienced Oracle ERP Fusion Functional Analyst to join Discord's Business Systems team. In this role, you will own incident resolution, functional support, and enhancement and system changes delivery across our Oracle Fusion ERP environment. You will serve to Finance stakeholders and a key liaison on…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8627078002",
+    "title": "Oracle ERP Fusion Technical Developer",
+    "company": "Discord",
+    "locations": [
+      "San Francisco Bay Area or"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8627078002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. We are seeking an experienced Oracle ERP Fusion Technical Developer to join Discord’s Business Systems team. In this role, you will own technical incident resolution, report development, integrations, system enhancements, and technical delivery across our Oracle Fusion ERP environment. You will partner closely with Finance…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8703614002",
+    "title": "QA/DevOps Engineer",
+    "company": "Discord",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8703614002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "QA",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "Python",
+      "Docker"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. We are seeking a QA/DevOps Engineer to join Discord’s Business Systems team. In this role, you will own automated test suite development and maintenance across Oracle ERP Cloud (Fusion) and Salesforce, with a focus on Tosca-based regression and progression testing. You will embed automated testing into CI/CD pipelines and…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8730666002",
+    "title": "Senior Data Scientist, Causal Inference + Experimentation",
+    "company": "Discord",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8730666002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Аналитика",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. Discord is looking for an experienced, proactive, and self-driven Senior Data Scientist to join our Experimentation Platform team. The Experimentation Platform puts data at the heart of the company’s decision-making and growth by enabling rapid and accurate product experimentation. Discord runs hundreds of experiments on any…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8659978002",
+    "title": "Senior Full-Stack Software Engineer, Ads",
+    "company": "Discord",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8659978002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Фронтенд",
+    "permit": true,
+    "stack": [
+      "Python",
+      "TypeScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. We are looking for a highly technical, creative, hands-on, and impact-focused Software Engineer to join our growing Ads team. Our team is revolutionizing the way users interact with our platform through innovative ads formats (including Quests). We are driven by a passion for delivering exceptional user experiences while…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8597656002",
+    "title": "Senior Full-Stack Software Engineer, Game Records",
+    "company": "Discord",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8597656002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Фронтенд",
+    "stack": [
+      "Python",
+      "Java",
+      "Kotlin",
+      "Swift"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. Discord is used by over 200 million people every month for many different reasons, but there’s one thing that nearly everyone does on our platform: play video games. Over 90% of our users play games, spending a combined 1.5 billion hours playing thousands of unique titles on Discord each month. Discord plays a uniquely…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8604768002",
+    "title": "Senior Full-Stack Software Engineer, Social Commerce",
+    "company": "Discord",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8604768002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Фронтенд",
+    "stack": [
+      "Python",
+      "TypeScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. Discord launched its Social Commerce team in August 2025 and by the end of the year, we shipped an MVP which was extremely successful. In 2026 we’ve been scaling to more games, adding more features, and extending capabilities. Discord Social Commerce lets players find, buy, and gift in-game digital goods from chat, friends'…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8595014002",
+    "title": "Senior Product Designer, Developer Success",
+    "company": "Discord",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8595014002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Figma"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. Our mission on the Developer Platform Team is to help game studios succeed by creating meaningful experiences for players. As a B2B2C team, we serve two key audiences. For game studios, we build smart integrations and intuitive tools that make it easy for developers and community managers to connect with players and bring the…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8581126002",
+    "title": "Senior Product Manager, Safety",
+    "company": "Discord",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8581126002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Продакт",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. At the heart of Discord's communities is Safety. The Safety team at Discord is responsible for ensuring users find belonging by minimizing exposure to abuse on the platform. We're looking for a Product Manager to lead our work on scaled abuse — fake accounts, account takeovers, scraping — and help keep Discord a safe and…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8697883002",
+    "title": "Senior Software Engineer, Ads",
+    "company": "Discord",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8697883002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "TypeScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. We are looking for a highly technical, creative, hands-on, and impact-focused Senior Software Engineer to join our growing Ads team. Our team is revolutionizing the way users interact with our platform through innovative ad formats (including Quests). We are driven by a passion for delivering exceptional user experiences while…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8656854002",
+    "title": "Senior Software Engineer, Application Security",
+    "company": "Discord",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8656854002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "C++",
+      "Python",
+      "Java"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. Discord empowers people to create spaces where they can find a sense of belonging in their lives. Millions of people trust Discord to keep their communications secure, private, and out of the hands of evildoers, so security and privacy are necessary to Discord's success. We are looking for a Senior Software Engineer to join our…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8460791002",
+    "title": "Senior Software Engineer, Consumer Revenue",
+    "company": "Discord",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8460791002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "Python",
+      "Kotlin",
+      "Swift",
+      "TypeScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. We're looking for talented Senior Software Engineers to join our Consumer Revenue squads, the teams at the heart of premium experiences at Discord. You’ll be building out a premium Discord for millions of subscribers, focusing on surfaces such as Nitro, shop, boosting, user identity, and more. Your work will be vital in…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8694476002",
+    "title": "Senior Software Engineer, Data Platform",
+    "company": "Discord",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8694476002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Данные и ML",
+    "permit": true,
+    "stack": [
+      "Python",
+      "Java"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. Every day, millions of gamers gather on Discord to hang out, strategize their next raid, celebrate tournament victories, and build communities around the games they love. Behind every voice channel, every streamer Go Live, every Quest completed, there's data, petabytes of it, telling the story of how people connect through…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8675277002",
+    "title": "Senior Software Engineer, Enterprise Platform",
+    "company": "Discord",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8675277002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "TypeScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. Discord's Enterprise Technology org is building a software engineering discipline from the ground up, and this is one of its first engineering hires. The Enterprise Platform team is brand new. You will not be inheriting a mature system or a long backlog: you will own core domains of the platform that turns the internal systems…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8644780002",
+    "title": "Senior Software Engineer, Machine Learning (Ads)",
+    "company": "Discord",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8644780002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Данные и ML",
+    "stack": [
+      "Python"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. We are looking for a Senior Software Engineer specializing in Machine Learning to join our Revenue ML team at Discord. This team partners with our revenue product groups, focusing on both consumer revenue and our emerging Ads initiative. This role will specifically contribute to our Ads ML efforts, helping to build and scale ML…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8545675002",
+    "title": "Senior Software Engineer, Safety Backend",
+    "company": "Discord",
+    "locations": [
+      "San Francisco Bay Area or Los Angeles Area"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8545675002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Бэкенд",
+    "stack": [
+      "Python",
+      "TypeScript",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. Keeping our platform safe requires infrastructure that is accurate, scalable, and fair and the engineering challenges that come with that are genuinely hard. Our Safety Engineering teams build and operate the systems that power content moderation, enforcement, and safety signal processing at scale. Our team developed Osprey…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8396927002",
+    "title": "Software Engineer, Data Platform",
+    "company": "Discord",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8396927002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Данные и ML",
+    "permit": true,
+    "stack": [
+      "Python",
+      "Java",
+      "SQL",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. Every day, hundreds of millions of gamers gather on Discord to hang out, strategize their next raid, celebrate tournament victories, and build communities around the games they love. Behind every voice channel, every streamer Go Live, every Quest completed, there's data, petabytes of it, telling the story of how people connect…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8609250002",
+    "title": "Software Engineer, Developer Success",
+    "company": "Discord",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8609250002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unity",
+      "Unreal",
+      "C++",
+      "C#",
+      "TypeScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. People come to Discord before, during, and after gaming, and we want to make that experience even better. The Developer Success team is building the tools for game developers to make that happen by harnessing the power of Discord from right within their games. We believe that gaming is better when playing with your friends and…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8545663002",
+    "title": "Software Engineer, Distributed Systems",
+    "company": "Discord",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8545663002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Бэкенд",
+    "permit": true,
+    "stack": [
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. The Realtime Infrastructure team is responsible for building and maintaining some of Discord’s highest scale and most critical services. Those systems are at the core of our text chat infrastructure and facilitate the dispatching of every update to our users sessions. This role will have a significant impact on Discord’s…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8691572002",
+    "title": "Staff Data Engineer - Data Infrastructure",
+    "company": "Discord",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8691572002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Данные и ML",
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. Discord is looking for a seasoned technical leader to join our Data team as a Staff Data Engineer. You will drive technical vision and strategy for our analytical data infrastructure which facilitates the transformation and semantic layer that powers clean, tested, well-documented datasets that the company can trust and…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8652853002",
+    "title": "Staff Data Scientist, Causal Inference & Experimentation",
+    "company": "Discord",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8652853002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. Discord's Experimentation Platform puts data at the heart of the company's decision-making and growth - we run hundreds of experiments at any given time, and those results turn directly into business decisions across Discord. As a Staff Data Scientist on this team, you will ensure that the statistical underpinnings of our…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8641295002",
+    "title": "Staff Product Marketing Manager, Developer and Publishers",
+    "company": "Discord",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8641295002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. We're seeking a strategic Staff Product Marketing Manager to build and lead the go-to-market strategy for Discord's Unified Developer Platform, focused on helping game developers and publishers build richer social experiences, grow their communities, and deepen player engagement through Discord's platform. You'll drive product…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8464570002",
+    "title": "Staff Software Engineer - Consumer Revenue",
+    "company": "Discord",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8464570002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "Kotlin",
+      "Swift",
+      "TypeScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. The Consumer Revenue org sits at the center of how we build a sustainable business around that community. We're looking for a talented Staff Engineer to join teams working across premium experiences and core user identity, shaping the technical strategy that ties it all together. You'll work across surfaces like Nitro, Shop…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8498984002",
+    "title": "Staff Software Engineer, Data Platform",
+    "company": "Discord",
+    "locations": [
+      "San Francisco, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8498984002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Данные и ML",
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. We're looking for someone who gets excited about building data infrastructure at massive scale and cares deeply about the gaming communities we serve. Someone with passion for building lovable products for Discord users and Discord engineers. We're building the next generation Data Platform that powers decisions for one of the…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8675185002",
+    "title": "Staff Software Engineer, Enterprise Platform",
+    "company": "Discord",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8675185002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "TypeScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. Discord's Enterprise Technology org is building a software engineering discipline from the ground up, and this is the founding engineering hire. There is no Enterprise Platform team yet. You will not be maintaining a status quo or joining an existing backlog: you will define the discipline, set the technical foundation, and…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8700605002",
+    "title": "Staff Software Engineer, Experimentation Platform",
+    "company": "Discord",
+    "locations": [],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8700605002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "TypeScript",
+      "SQL",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. At Discord, we believe everyone can find a place where they belong. Our mission is to help make it easy for everyone to find and join meaningful conversations and to make every part of our product feel smart and delightful. Discord is a rapidly scaling company that puts Data at the heart of its decision-making and future…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8727410002",
+    "title": "Staff Software Engineer, Safety Experience",
+    "company": "Discord",
+    "locations": [
+      "San Francisco Bay Area"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8727410002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "Swift",
+      "TypeScript",
+      "JavaScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. As a Staff Engineer on the Safety Experience team, you'll be a technical leader who autonomously delivers real business impact on large, ambiguous projects. You'll design and build product features and systems that prevent harmful activities at scale while ensuring regulatory compliance. This role requires both deep technical…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-discord-8214127002",
+    "title": "Staff Software Engineer, Safety Processing",
+    "company": "Discord",
+    "locations": [
+      "San Francisco Bay Area or Los Angeles Area"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.greenhouse.io/discord/jobs/8214127002",
+    "site": "discord.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "TypeScript",
+      "JavaScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. We’re looking for a Staff Software Engineer to join our Safety Processing team. This team plays a crucial role in ensuring trust and safety across Discord, processing signals from user reports and automated systems to identify and remove harmful or illegal content from our platform. You’ll lead backend projects, provide…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-wargaming-8030704",
+    "title": "Art Director (World of Tanks Console)",
     "company": "Wargaming",
     "locations": [
       "Belgrade"
@@ -4219,7 +7789,7 @@ window.JOBS = [
     "rkind": null,
     "salary": null,
     "posted": "2026-09-01",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8064276",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8030704",
     "site": "wargaming.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -4228,6 +7798,31 @@ window.JOBS = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-05",
+    "hasRu": true,
+    "descShort": "Job Overview We are looking for an Art Director to join Wargaming and be a part of the product team working on World of Tanks Console. The Art Director's role combines high-level creative vision with strategic leadership. You will drive a team of highly professional artists, define the visual identity of the game, and ensure that every feature on console platforms reflects a cohesive and premium look and feel. As a subject matter expert, you will work in close collaboration with game teams to identify, prototype, and implement visual solutions that elevate player experience. Reports to Studio Development Director What will you do? • Provide artistic leadership: Drive the overall vision of…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-wargaming-8064281",
+    "title": "Art Manager/Lead Art Owner (World of Tanks, PC)",
+    "company": "Wargaming",
+    "locations": [
+      "Nicosia"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-01",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8064281",
+    "site": "wargaming.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Арт",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "hasRu": true,
     "descShort": "Job Overview We are looking for a Art Manager/Lead Art Owner to manage a team of 14 Art Owners supporting World of Tanks game production. This role combines people management, resource planning, production coordination, and process improvement to ensure the Art Owner's team operates effectively and the art pipeline runs smoothly. Art Manager/Lead Art Owner will work closely with cross-functional stakeholders - Art Direction, Art Management, Production, Project Management, and Design. Art Manager/Lead Art Owner will oversee workload, balance scope against capacity, support delivery planning, grow team capability, and drive cross-functional alignment. This role requires a strong understanding…",
     "hasDesc": true
   },
@@ -4470,17 +8065,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-tripledot-belka-4963495101",
+    "id": "gh-tripledot-belka-4944287101",
     "title": "Game Designer (Hybrid Casual)",
     "company": "Tripledot / Belka",
     "locations": [
-      "Warsaw"
+      "Minsk"
     ],
     "remote": false,
     "rkind": "hybrid",
     "salary": null,
     "posted": "2026-09-01",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4963495101",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4944287101",
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -4489,32 +8084,6 @@ window.JOBS = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-05",
-    "descShort": "Who are we? Tripledot Studios is one of the largest independent mobile games companies in the world. We are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios. Our expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users. Tripledot’s guiding principle is that when people love what they do, what they do will be loved by others. We’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games. Our ambition is to be the most successful games company in the world, and…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-tripledot-belka-4955732101",
-    "title": "Game Designer - Lion Studios",
-    "company": "Tripledot / Belka",
-    "locations": [
-      "Berlin"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-09-01",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4955732101",
-    "site": "tripledotstudios.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Геймдизайн",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Figma"
-    ],
-    "seen": "2026-09-05",
-    "hasRu": true,
     "descShort": "Who are we? Tripledot Studios is one of the largest independent mobile games companies in the world. We are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios. Our expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users. Tripledot’s guiding principle is that when people love what they do, what they do will be loved by others. We’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games. Our ambition is to be the most successful games company in the world, and…",
     "hasDesc": true
   },
@@ -4595,17 +8164,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-tripledot-belka-4963621101",
+    "id": "gh-tripledot-belka-4962411101",
     "title": "Lead Product Manager",
     "company": "Tripledot / Belka",
     "locations": [
-      "Toronto"
+      "Dallas"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-01",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4963621101",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4962411101",
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -4647,17 +8216,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-tripledot-belka-4963853101",
+    "id": "gh-tripledot-belka-4963850101",
     "title": "Marketing Creatives Producer",
     "company": "Tripledot / Belka",
     "locations": [
-      "Serbia"
+      "Tblisi"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-01",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4963853101",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4963850101",
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -4720,6 +8289,33 @@ window.JOBS = [
     "hasDesc": true
   },
   {
+    "id": "gh-tripledot-belka-4951036101",
+    "title": "Principal Technical Artist",
+    "company": "Tripledot / Belka",
+    "locations": [
+      "Toronto"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-01",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4951036101",
+    "site": "tripledotstudios.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Технический художник",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Unity",
+      "C#",
+      "Python"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "Who are we? Tripledot Studios is one of the largest independent mobile games companies in the world. We are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios. Our expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users. Tripledot’s guiding principle is that when people love what they do, what they do will be loved by others. We’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games. Our ambition is to be the most successful games company in the world, and…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-tripledot-belka-4954014101",
     "title": "Producer",
     "company": "Tripledot / Belka",
@@ -4743,17 +8339,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-tripledot-belka-4939386101",
+    "id": "gh-tripledot-belka-4939385101",
     "title": "Product Director (Hybrid Casual)",
     "company": "Tripledot / Belka",
     "locations": [
-      "Warsaw"
+      "Limassol"
     ],
     "remote": false,
     "rkind": "hybrid",
     "salary": null,
     "posted": "2026-09-01",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4939386101",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4939385101",
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -4762,20 +8358,21 @@ window.JOBS = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-05",
-    "hasRu": true,
     "descShort": "Who are we? Tripledot Studios is one of the largest independent mobile games companies in the world. We are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios. Our expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users. Tripledot’s guiding principle is that when people love what they do, what they do will be loved by others. We’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games. Our ambition is to be the most successful games company in the world, and…",
     "hasDesc": true
   },
   {
-    "id": "gh-tripledot-belka-4962282101",
+    "id": "gh-tripledot-belka-4962290101",
     "title": "Product Manager - Engineering",
     "company": "Tripledot / Belka",
-    "locations": [],
-    "remote": true,
-    "rkind": "zone",
+    "locations": [
+      "London"
+    ],
+    "remote": false,
+    "rkind": null,
     "salary": null,
     "posted": "2026-09-01",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4962282101",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4962290101",
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -5272,29 +8869,6 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-scopely-5413351008",
-    "title": "Producer - MONOPOLY GO!",
-    "company": "Scopely",
-    "locations": [
-      "Culver City, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": "$ 91 300 – 140 000",
-    "posted": "2026-09-01",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5413351008?gh_jid=5413351008",
-    "site": "scopely.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Продюсирование",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-05",
-    "descShort": "Scopely is looking for a Producer to join our Monopoly GO! team in our Culver City studio hub on a hybrid basis, or remotely within the US or Canada. At Scopely, we care deeply about what we do and want to inspire play, every day - whether in our work environments alongside our talented colleagues, or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily. MONOPOLY GO! is a global phenomenon and the biggest mobile game launch in history, captivating millions of players worldwide. What You Will Do You will be embedded in one…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-scopely-5250466008",
     "title": "Senior Security Engineer, Software",
     "company": "Scopely",
@@ -5551,6 +9125,326 @@ window.JOBS = [
     "hasDesc": true
   },
   {
+    "id": "gh-twitch-8625665002",
+    "title": "Data Scientist",
+    "company": "Twitch",
+    "locations": [
+      "New York City"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-01",
+    "url": "https://job-boards.greenhouse.io/twitch/jobs/8625665002",
+    "site": "twitch.tv",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Us Twitch is the world’s biggest live streaming service, with global communities built around gaming, entertainment, music, sports, cooking, and more. It is where thousands of communities come together for whatever, every day. We’re about community, inside and out. You’ll find coworkers who are eager to team up, collaborate, and smash (or elegantly solve) problems together. We’re on a quest to empower live communities, so if this sounds good to you, see what we’re up to on LinkedIn and X, and discover the projects we’re solving on our Blog. Be sure to explore our Interviewing Guide to learn how to ace our interview process. About the Role Join the Monetization team at Twitch, where we…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-twitch-8536452002",
+    "title": "Product Marketing Manager: Trust & Safety, Community",
+    "company": "Twitch",
+    "locations": [
+      "Irvine, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-01",
+    "url": "https://job-boards.greenhouse.io/twitch/jobs/8536452002",
+    "site": "twitch.tv",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "About Us Twitch is the world’s biggest live streaming service, with global communities built around gaming, entertainment, music, sports, cooking, and more. It is where thousands of communities come together for whatever, every day. We’re about community, inside and out. You’ll find coworkers who are eager to team up, collaborate, and smash (or elegantly solve) problems together. We’re on a quest to empower live communities, so if this sounds good to you, see what we’re up to on LinkedIn and X, and discover the projects we’re solving on our Blog. Be sure to explore our Interviewing Guide to learn how to ace our interview process. About the Role We're looking for a Product Marketing Manager…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-twitch-8592666002",
+    "title": "Senior iOS Engineer",
+    "company": "Twitch",
+    "locations": [
+      "Irvine, United States",
+      "New York City",
+      "San Francisco, United States",
+      "Seattle, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-01",
+    "url": "https://job-boards.greenhouse.io/twitch/jobs/8592666002",
+    "site": "twitch.tv",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Мобильная",
+    "stack": [
+      "Swift",
+      "JavaScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Us Twitch is the world’s biggest live streaming service, with global communities built around gaming, entertainment, music, sports, cooking, and more. It is where thousands of communities come together for whatever, every day. We’re about community, inside and out. You’ll find coworkers who are eager to team up, collaborate, and smash (or elegantly solve) problems together. We’re on a quest to empower live communities, so if this sounds good to you, see what we’re up to on LinkedIn and X, and discover the projects we’re solving on our Blog. Be sure to explore our Interviewing Guide to learn how to ace our interview process. About the Role The Mobile Core team develops frameworks and…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-twitch-8647255002",
+    "title": "Senior Product Manager, Platform Core Engineering",
+    "company": "Twitch",
+    "locations": [
+      "San Francisco, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-01",
+    "url": "https://job-boards.greenhouse.io/twitch/jobs/8647255002",
+    "site": "twitch.tv",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Продакт",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Us Twitch is the world’s biggest live streaming service, with global communities built around gaming, entertainment, music, sports, cooking, and more. It is where thousands of communities come together for whatever, every day. We’re about community, inside and out. You’ll find coworkers who are eager to team up, collaborate, and smash (or elegantly solve) problems together. We’re on a quest to empower live communities, so if this sounds good to you, see what we’re up to on LinkedIn and X, and discover the projects we’re solving on our Blog. Be sure to explore our Interviewing Guide to learn how to ace our interview process. About the Role Platform Core Engineering (PCE) builds the…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-twitch-8687968002",
+    "title": "Senior Tax Analyst - Tax Operations",
+    "company": "Twitch",
+    "locations": [
+      "San Francisco, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-01",
+    "url": "https://job-boards.greenhouse.io/twitch/jobs/8687968002",
+    "site": "twitch.tv",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Аналитика",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "About Us Twitch is the world’s biggest live streaming service, with global communities built around gaming, entertainment, music, sports, cooking, and more. It is where thousands of communities come together for whatever, every day. We’re about community, inside and out. You’ll find coworkers who are eager to team up, collaborate, and smash (or elegantly solve) problems together. We’re on a quest to empower live communities, so if this sounds good to you, see what we’re up to on LinkedIn and X, and discover the projects we’re solving on our Blog. Be sure to explore our Interviewing Guide to learn how to ace our interview process. About the Role Twitch Tax is looking for an experienced…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-twitch-8739185002",
+    "title": "Software Development Engineer, Security Platform",
+    "company": "Twitch",
+    "locations": [
+      "Seattle, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-01",
+    "url": "https://job-boards.greenhouse.io/twitch/jobs/8739185002",
+    "site": "twitch.tv",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "Java",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Us Twitch is the world’s biggest live streaming service, with global communities built around gaming, entertainment, music, sports, cooking, and more. It is where thousands of communities come together for whatever, every day. We’re about community, inside and out. You’ll find coworkers who are eager to team up, collaborate, and smash (or elegantly solve) problems together. We’re on a quest to empower live communities, so if this sounds good to you, see what we’re up to on LinkedIn and X, and discover the projects we’re solving on our Blog. Be sure to explore our Interviewing Guide to learn how to ace our interview process. About the Team Twitch Security Platform builds and operates…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-twitch-8459320002",
+    "title": "Software Engineer I, Commerce Engineering",
+    "company": "Twitch",
+    "locations": [
+      "Seattle, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-01",
+    "url": "https://job-boards.greenhouse.io/twitch/jobs/8459320002",
+    "site": "twitch.tv",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Go",
+      "TypeScript",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Us Twitch is the world’s biggest live streaming service, with global communities built around gaming, entertainment, music, sports, cooking, and more. It is where thousands of communities come together for whatever, every day. We’re about community, inside and out. You’ll find coworkers who are eager to team up, collaborate, and smash (or elegantly solve) problems together. We’re on a quest to empower live communities, so if this sounds good to you, see what we’re up to on LinkedIn and X, and discover the projects we’re solving on our Blog. Be sure to explore our Interviewing Guide to learn how to ace our interview process. About the Team Twitch is all about community, and our…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-twitch-8623578002",
+    "title": "Software Engineer I, Discovery",
+    "company": "Twitch",
+    "locations": [
+      "San Francisco, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-01",
+    "url": "https://job-boards.greenhouse.io/twitch/jobs/8623578002",
+    "site": "twitch.tv",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Go",
+      "Kotlin",
+      "Swift",
+      "TypeScript",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Us Twitch is the world’s biggest live streaming service, with global communities built around gaming, entertainment, music, sports, cooking, and more. It is where thousands of communities come together for whatever, every day. We’re about community, inside and out. You’ll find coworkers who are eager to team up, collaborate, and smash (or elegantly solve) problems together. We’re on a quest to empower live communities, so if this sounds good to you, see what we’re up to on LinkedIn and X, and discover the projects we’re solving on our Blog. Be sure to explore our Interviewing Guide to learn how to ace our interview process. About the Role The Discovery Team in App Experiences manages…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-twitch-8747649002",
+    "title": "Software Engineer II, Fintech",
+    "company": "Twitch",
+    "locations": [
+      "Seattle, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-01",
+    "url": "https://job-boards.greenhouse.io/twitch/jobs/8747649002",
+    "site": "twitch.tv",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "Java",
+      "TypeScript",
+      "JavaScript",
+      "SQL",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Us Twitch is the world’s biggest live streaming service, with global communities built around gaming, entertainment, music, sports, cooking, and more. It is where thousands of communities come together for whatever, every day. We’re about community, inside and out. You’ll find coworkers who are eager to team up, collaborate, and smash (or elegantly solve) problems together. We’re on a quest to empower live communities, so if this sounds good to you, see what we’re up to on LinkedIn and X, and discover the projects we’re solving on our Blog. Be sure to explore our Interviewing Guide to learn how to ace our interview process. About the Team Twitch's Enterprise Platform & Technology…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-twitch-8748320002",
+    "title": "Software Engineer I, Memberships",
+    "company": "Twitch",
+    "locations": [
+      "San Francisco, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-01",
+    "url": "https://job-boards.greenhouse.io/twitch/jobs/8748320002",
+    "site": "twitch.tv",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "Go",
+      "Java",
+      "TypeScript",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Us Twitch is the world’s biggest live streaming service, with global communities built around gaming, entertainment, music, sports, cooking, and more. It is where thousands of communities come together for whatever, every day. We’re about community, inside and out. You’ll find coworkers who are eager to team up, collaborate, and smash (or elegantly solve) problems together. We’re on a quest to empower live communities, so if this sounds good to you, see what we’re up to on LinkedIn and X, and discover the projects we’re solving on our Blog. Be sure to explore our Interviewing Guide to learn how to ace our interview process. About the Role Join Twitch’s Memberships team within the…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-twitch-8700578002",
+    "title": "Software Engineer I, Payments",
+    "company": "Twitch",
+    "locations": [
+      "San Francisco, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-01",
+    "url": "https://job-boards.greenhouse.io/twitch/jobs/8700578002",
+    "site": "twitch.tv",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "C++",
+      "Java",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Us Twitch is the world’s biggest live streaming service, with global communities built around gaming, entertainment, music, sports, cooking, and more. It is where thousands of communities come together for whatever, every day. We’re about community, inside and out. You’ll find coworkers who are eager to team up, collaborate, and smash (or elegantly solve) problems together. We’re on a quest to empower live communities, so if this sounds good to you, see what we’re up to on LinkedIn and X, and discover the projects we’re solving on our Blog. Be sure to explore our Interviewing Guide to learn how to ace our interview process. About the Role For many of our creators, streaming on Twitch…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-twitch-8686796002",
+    "title": "Sr. Product Manager, Commerce",
+    "company": "Twitch",
+    "locations": [
+      "San Francisco, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-01",
+    "url": "https://job-boards.greenhouse.io/twitch/jobs/8686796002",
+    "site": "twitch.tv",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Продакт",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About Us Twitch is the world’s biggest live streaming service, with global communities built around gaming, entertainment, music, sports, cooking, and more. It is where thousands of communities come together for whatever, every day. We’re about community, inside and out. You’ll find coworkers who are eager to team up, collaborate, and smash (or elegantly solve) problems together. We’re on a quest to empower live communities, so if this sounds good to you, see what we’re up to on LinkedIn and X, and discover the projects we’re solving on our Blog. Be sure to explore our Interviewing Guide to learn how to ace our interview process. About the Role Twitch's Commerce organization drives over…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-wargaming-8161671",
     "title": "3D Character Artist (World of Tanks:HEAT)",
     "company": "Wargaming",
@@ -5792,15 +9686,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-epic-games-6001591004",
+    "id": "gh-epic-games-6001589004",
     "title": "Senior Level Designer",
     "company": "Epic Games",
-    "locations": [],
+    "locations": [
+      "Cary, United States"
+    ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 144 535 – 240 891",
+    "salary": null,
     "posted": "2026-08-31",
-    "url": "https://epicgames.com/careers/jobs/6001591004?gh_jid=6001591004",
+    "url": "https://epicgames.com/careers/jobs/6001589004?gh_jid=6001589004",
     "site": "epicgames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -5811,6 +9707,7 @@ window.JOBS = [
       "Unreal"
     ],
     "seen": "2026-09-05",
+    "hasRu": true,
     "descShort": "WHAT MAKES US EPIC? At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating. Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development. DESIGN What We Do Put your design skills to work at a cutting-edge company that challenges the norm. From character and level design to competitive gameplay and system design, help…",
     "hasDesc": true
   },
@@ -5864,6 +9761,50 @@ window.JOBS = [
     ],
     "seen": "2026-09-05",
     "descShort": "Company Description To create revolutionary, story-driven RPGs which go straight to the hearts of gamers — this is our mission. Want to dive deeper into our company’s culture? Explore our social media and check out our YouTube channel where we share behind-the-scenes insights and stories direct from our team members! Job Description We are seeking a highly skilled and experienced Expert IT Network Engineer to take technical ownership of our corporate network infrastructure. In this role, you will define network architecture and standards, drive automation and cloud networking initiatives, and provide technical leadership for complex infrastructure projects across Global IT. Daily…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-gismart-324aaf7b-554b-40a4-aee7-b02719751531",
+    "title": "AI Automation Engineer (FitMe)",
+    "company": "Gismart",
+    "locations": [],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-08-31",
+    "url": "https://jobs.ashbyhq.com/gismart/324aaf7b-554b-40a4-aee7-b02719751531",
+    "source": "ashby",
+    "site": "gismart.com",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "JavaScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About us: Gismart is a value-driven mobile app developer with a strong presence in the Health & Wellness, Utilities, and Music app markets. We have recently achieved a significant milestone of over 1 billion downloads worldwide, taking a step toward our mission of cultivating the well-being of people worldwide. With headquarters in London, UK, Gismart is a dynamic global company with a reach extending across Europe and far beyond. Our determined team consists of 250 individuals who bring diversity, creativity, innovation, and relentless drive to the company. Gismart unites professionals from diverse backgrounds in entertainment, music, and tech, allowing us to play to each other’s strengths…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-gismart-c5c3b42f-61be-43a6-9657-89528fab2421",
+    "title": "Email Marketing Manager (FitMe)",
+    "company": "Gismart",
+    "locations": [],
+    "remote": true,
+    "rkind": "worldwide",
+    "salary": null,
+    "posted": "2026-08-31",
+    "url": "https://jobs.ashbyhq.com/gismart/c5c3b42f-61be-43a6-9657-89528fab2421",
+    "source": "ashby",
+    "site": "gismart.com",
+    "industry": "gamedev",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "About us: Gismart is a value-driven mobile app developer with a strong presence in the Health & Wellness, Utilities, and Music app markets. We have recently achieved a significant milestone of over 1 billion downloads worldwide, taking a step toward our mission of cultivating the well-being of people worldwide. With headquarters in London, UK, Gismart is a dynamic global company with a reach extending across Europe and far beyond. Our determined team consists of 250 individuals who bring diversity, creativity, innovation, and relentless drive to the company. Gismart unites professionals from diverse backgrounds in entertainment, music, and tech, allowing us to play to each other’s strengths…",
     "hasDesc": true
   },
   {
@@ -6484,33 +10425,6 @@ window.JOBS = [
     "seen": "2026-09-05",
     "hasRu": true,
     "descShort": "ABOUT VOODOO Founded in 2013, Voodoo is a tech company that creates mobile games and apps with a mission to entertain the world. Gathering 800 employees, 7 billion downloads, and over 200 million active users, Voodoo is the #3 mobile publisher worldwide in terms of downloads after Google and Meta. Our portfolio includes chart-topping games like Mob Control and Block Jam, alongside popular apps such as BeReal and Wizz. TEAM Blitz is a leading real-money mobile gaming platform where players compete in skill-based games for cash prizes. Our ecosystem includes flagship titles like Blitz Win Cash, alongside Rush Arena and Bingo Win Cash. Every day, hundreds of thousands of players compete on…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-epic-games-6000102004",
-    "title": "UI Artist",
-    "company": "Epic Games",
-    "locations": [
-      "Porto Alegre, Brazil"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-28",
-    "url": "https://epicgames.com/careers/jobs/6000102004?gh_jid=6000102004",
-    "site": "epicgames.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Арт",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Unreal",
-      "Photoshop",
-      "Figma"
-    ],
-    "seen": "2026-09-05",
-    "descShort": "WHAT MAKES US EPIC? At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating. Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development. ART What We Do Push your artistic talent to the limit on a team of world-class environment, character and concept artists who strive to innovate and inspire. What You'll Do As a UI…",
     "hasDesc": true
   },
   {
@@ -7517,17 +11431,15 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-epic-games-6122983004",
+    "id": "gh-epic-games-6122985004",
     "title": "Senior Desktop Applications Engineer",
     "company": "Epic Games",
-    "locations": [
-      "Cary, United States"
-    ],
+    "locations": [],
     "remote": false,
     "rkind": null,
-    "salary": null,
+    "salary": "$ 165 686 – 243 007",
     "posted": "2026-08-27",
-    "url": "https://epicgames.com/careers/jobs/6122983004?gh_jid=6122983004",
+    "url": "https://epicgames.com/careers/jobs/6122985004?gh_jid=6122985004",
     "site": "epicgames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -7538,34 +11450,6 @@ window.JOBS = [
       "Unreal"
     ],
     "seen": "2026-09-05",
-    "hasRu": true,
-    "descShort": "WHAT MAKES US EPIC? At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating. Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development. ENGINEERING - EPIC GAMES SERVICES What We Do Driving the plug-in power behind Unreal Engine 5. We bridge connections for licensees and our own internal game teams to online…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-epic-games-6019148004",
-    "title": "Senior Game Security Engineer",
-    "company": "Epic Games",
-    "locations": [
-      "Cary, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-27",
-    "url": "https://epicgames.com/careers/jobs/6019148004?gh_jid=6019148004",
-    "site": "epicgames.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "Unreal",
-      "C++"
-    ],
-    "seen": "2026-09-05",
-    "hasRu": true,
     "descShort": "WHAT MAKES US EPIC? At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating. Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development. ENGINEERING - EPIC GAMES SERVICES What We Do Driving the plug-in power behind Unreal Engine 5. We bridge connections for licensees and our own internal game teams to online…",
     "hasDesc": true
   },
@@ -7801,17 +11685,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-wargaming-7955999",
+    "id": "gh-wargaming-7955997",
     "title": "Data Analyst",
     "company": "Wargaming",
     "locations": [
-      "Nicosia"
+      "Belgrade"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-26",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7955999",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7955997",
     "site": "wargaming.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -7823,6 +11707,7 @@ window.JOBS = [
       "SQL"
     ],
     "seen": "2026-09-05",
+    "hasRu": true,
     "descShort": "Job Overview We are seeking a data analytics professional to join our Data & Marketing Tech Team, to help improve measurement, analysis, and decision-making across complex data environments. This role combines data analysis, data research, and applied AI automation to work with multiple data sources, investigate business questions, and support reliable, scalable analytical workflows. Reports to • Team Lead of Data & Marketing Technology What will you do? • Analyze data to answer business questions, identify patterns, and generate actionable insights • Research data across complex systems with multiple internal and external sources, understanding data flows, dependencies, and limitations •…",
     "hasDesc": true
   },
@@ -8107,17 +11992,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-scopely-5398786008",
+    "id": "gh-scopely-5372408008",
     "title": "Senior Software Engineer (Gaming Full Stack) - WWE Champions",
     "company": "Scopely",
     "locations": [
-      "Canada"
+      "United States"
     ],
     "remote": false,
     "rkind": null,
-    "salary": null,
+    "salary": "$ 145 000 – 220 000",
     "posted": "2026-08-26",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5398786008?gh_jid=5398786008",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5372408008?gh_jid=5372408008",
     "site": "scopely.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -8131,7 +12016,6 @@ window.JOBS = [
       "AWS"
     ],
     "seen": "2026-09-05",
-    "hasRu": true,
     "descShort": "Scopely is looking for a Senior Software Engineer (Gaming Full Stack) to join our WWE Champions team in the United States or Canada on a remote basis or Mexico City on a hybrid basis. At Scopely, we care deeply about what we do and want to inspire play every day - whether in our work environments alongside our talented colleagues or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily. WWE Champions is our ultimate and unique RPG puzzle match game featuring WWE superstars and legends across mobile and PC platforms. WWE…",
     "hasDesc": true
   },
@@ -8588,17 +12472,15 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-epic-games-5996485004",
+    "id": "gh-epic-games-5996487004",
     "title": "Principal Engineer, AI Platform",
     "company": "Epic Games",
-    "locations": [
-      "Cary, United States"
-    ],
+    "locations": [],
     "remote": false,
     "rkind": null,
-    "salary": null,
+    "salary": "$ 223 199 – 327 358",
     "posted": "2026-08-25",
-    "url": "https://epicgames.com/careers/jobs/5996485004?gh_jid=5996485004",
+    "url": "https://epicgames.com/careers/jobs/5996487004?gh_jid=5996487004",
     "site": "epicgames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -8610,34 +12492,8 @@ window.JOBS = [
       "Kubernetes"
     ],
     "seen": "2026-09-05",
+    "hasRu": true,
     "descShort": "WHAT MAKES US EPIC? At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating. Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development. ONLINE INFRASTRUCTURE What We Do We enable Epic’s online services teams to build, deploy, and manage services that are used by more than half a billion players around the world. Our…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-epic-games-6161655004",
-    "title": "Technical Designer in Animation",
-    "company": "Epic Games",
-    "locations": [
-      "Montreal, Canada"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-25",
-    "url": "https://epicgames.com/careers/jobs/6161655004?gh_jid=6161655004",
-    "site": "epicgames.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Анимация",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Unreal",
-      "C++",
-      "Maya"
-    ],
-    "seen": "2026-09-05",
-    "descShort": "WHAT MAKES US EPIC? At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating. Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development. ART What We Do Push your artistic talent to the limit on a team of world-class environment, character and concept artists who strive to innovate and inspire. What You'll Do Epic…",
     "hasDesc": true
   },
   {
@@ -9247,6 +13103,27 @@ window.JOBS = [
     "seen": "2026-09-05",
     "hasRu": true,
     "descShort": "About us We were founded in 2017 with the motivation to reach people globally by giving them unique and unforgettable experiences with disruptive products. Our games have reached over 3.5 billion people. This could only be done by gathering exceptional talent and creating a culture to enhance team spirit and creativity. We are looking for passionate teammates to join our team! What you'll be doing • Designing user-friendly assets like buttons, icons, and widgets. • Developing typography, palette, illustration, and iconography systems • Keeping up with current UI trends and technologies • Collaborating with art and product teams Desired skills and experiences • At least 1 year of experience…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-gismart-b3c2e551-0426-42a0-987e-612426ed8ca0",
+    "title": "Growth Marketing Manager (Spilio)",
+    "company": "Gismart",
+    "locations": [],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://jobs.ashbyhq.com/gismart/b3c2e551-0426-42a0-987e-612426ed8ca0",
+    "source": "ashby",
+    "site": "gismart.com",
+    "industry": "gamedev",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "About us: Gismart is a value-driven mobile app developer with a strong presence in the Health & Wellness, Utilities, and Music app markets. We have achieved a significant milestone of over 1 billion downloads worldwide, taking a step toward our mission of cultivating the well-being of people worldwide. With headquarters in London, UK, Gismart is a dynamic global company with a reach extending across Europe and far beyond. Our determined team comprises over 350 individuals who bring diversity, creativity, innovation, and relentless drive to the company. Gismart unites professionals from diverse backgrounds in entertainment, music, and tech, allowing us to play to each other’s strengths and…",
     "hasDesc": true
   },
   {
@@ -10297,17 +14174,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-2k-games-7655939003",
+    "id": "gh-2k-games-7655940003",
     "title": "Gameplay Engineer",
     "company": "2K Games",
     "locations": [
-      "Montréal, Canada"
+      "Novato, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/2k/jobs/7655939003",
+    "url": "https://job-boards.greenhouse.io/2k/jobs/7655940003",
     "site": "2k.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -10319,6 +14196,7 @@ window.JOBS = [
       "C++"
     ],
     "seen": "2026-09-05",
+    "hasRu": true,
     "descShort": "As a Gameplay Engineer at Cloud Chamber you will bridge the gap between technical execution and creative vision, ensuring that our player-centric gameplay feels as impactful as it looks. You will work in close collaboration with a talented development team, report to our Associate Technical Director, and be responsible for helping the team craft compelling and immersive gameplay systems that support our creative ambitions, ultimately bringing the world of BioShock to life. What You’ll Do: • Work closely and constructively with design and art teams to realize creative ambitions. • Architect and coordinate the implementation of new Gameplay systems and features for player verbs, camera…",
     "hasDesc": true
   },
@@ -10374,17 +14252,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-2k-games-7888174003",
+    "id": "gh-2k-games-7888173003",
     "title": "Lead Character Artist",
     "company": "2K Games",
     "locations": [
-      "Novato, United States"
+      "Montréal, Canada"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/2k/jobs/7888174003",
+    "url": "https://job-boards.greenhouse.io/2k/jobs/7888173003",
     "site": "2k.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -10399,7 +14277,6 @@ window.JOBS = [
       "Photoshop"
     ],
     "seen": "2026-09-05",
-    "hasRu": true,
     "descShort": "As a Lead Character Artist at Cloud Chamber, under the supervision of the Art Director, you will play a key role in establishing the overall visual quality bar and guidelines for character development on the project. In this role, you’ll lead a team of artists to achieve their full potential, collaborate with a passionate group of game developers to craft compelling stylized character assets that support our aesthetic, meet technical requirements, and gameplay needs, ultimately bringing the richly imagined world of BioShock to life. What You’ll Do: • Manage, coach, and mentor a team of character artists to support their career growth, development, and artistic output. • Set artistic…",
     "hasDesc": true
   },
@@ -10435,17 +14312,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-2k-games-7812709003",
+    "id": "gh-2k-games-7812710003",
     "title": "Lead Level Artist",
     "company": "2K Games",
     "locations": [
-      "Montréal, Canada"
+      "Novato, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/2k/jobs/7812709003",
+    "url": "https://job-boards.greenhouse.io/2k/jobs/7812710003",
     "site": "2k.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -10461,22 +14338,21 @@ window.JOBS = [
       "Photoshop"
     ],
     "seen": "2026-09-05",
-    "hasRu": true,
     "descShort": "As a Lead Level Artist at Cloud Chamber you will join our talented group of developers and lead a team of artists responsible for creating compelling, stylized, high-quality level art and immersive world-building under the guidance of the Art Director and Associate Art Director. As a leader, your role is to build and foster a collaborative process, and share your vast knowledge of tools and best practices with your team. As an artist, your years of experience in the games industry have given you a solid understanding of form and composition as well as the ability to skillfully work within constraints and harmoniously collaborate with other departments. You will be asked to use all the tools…",
     "hasDesc": true
   },
   {
-    "id": "gh-2k-games-7856225003",
+    "id": "gh-2k-games-7856226003",
     "title": "Lead Lighting Artist",
     "company": "2K Games",
     "locations": [
-      "Montréal, Canada"
+      "Novato, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/2k/jobs/7856225003",
+    "url": "https://job-boards.greenhouse.io/2k/jobs/7856226003",
     "site": "2k.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -10487,21 +14363,22 @@ window.JOBS = [
       "Unreal"
     ],
     "seen": "2026-09-05",
+    "hasRu": true,
     "descShort": "As a Lead Lighting Artist at Cloud Chamber, you will join our talented development team to help shape our visual narrative and atmosphere. In this role, you’ll collaborate with a passionate group of game developers to craft visually stunning, dynamic lighting that supports world-class real-time environments and cinematics—bringing the richly imagined world of BioShock to life. What You’ll Do: As a Lead Lighting Artist, you are a primary driver of your direct reports' success. You will set clear expectations, provide coaching, and manage the health, career growth, and output of a high-performing art team while establishing best practices across lighting pipelines. • Lead a team of lighting…",
     "hasDesc": true
   },
   {
-    "id": "gh-2k-games-7533143003",
+    "id": "gh-2k-games-7533148003",
     "title": "Lead Technical Artist  - Shaders",
     "company": "2K Games",
     "locations": [
-      "Brno, Czechia"
+      "Brighton, United Kingdom"
     ],
     "remote": false,
     "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/2k/jobs/7533143003",
+    "url": "https://job-boards.greenhouse.io/2k/jobs/7533148003",
     "site": "2k.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -10514,6 +14391,7 @@ window.JOBS = [
       "Substance"
     ],
     "seen": "2026-09-05",
+    "hasRu": true,
     "descShort": "Job Title Lead Technical Artist - (Shader / Material) Department Art Location(s) Brighton / Brno Reports To Technical Art Director Job Type Permanent Who We Are Hangar 13 is an internal 2K development studio that crafts unforgettable AAA gaming experiences across all major platforms . With studios in Brighton (UK), Brno, and Prague (CZ), we work as one team to bring to life narrative-rich games that keep players immersed. Each of our locations provides the opportunity to work with some of the most talented developers in the industry, on creatively challenging and exciting projects, in a diverse and welcoming environment. Job Summary We are seeking a highly skilled Lead Shader / Material…",
     "hasDesc": true
   },
@@ -10929,17 +14807,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-2k-games-7731297003",
+    "id": "gh-2k-games-7731298003",
     "title": "Senior Level Artist",
     "company": "2K Games",
     "locations": [
-      "Montréal, Canada"
+      "Novato, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/2k/jobs/7731297003",
+    "url": "https://job-boards.greenhouse.io/2k/jobs/7731298003",
     "site": "2k.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -10950,7 +14828,6 @@ window.JOBS = [
       "Unreal"
     ],
     "seen": "2026-09-05",
-    "hasRu": true,
     "descShort": "As a Senior Level Artist at Cloud Chamber, you will join our talented development team to shape the next installment of the BioShock franchise. In this role, you’ll collaborate with a passionate group of game developers to construct visually stunning and gameplay-enhancing game worlds, create and maintain modular kits to optimally build believable and detailed spaces, and propel the narrative through environmental storytelling, bringing the richly imagined world of BioShock to life. What You’ll Do: • Collaborate closely with the Level Design, Modeling, Narrative, Concept, Combat, and Cinematic teams. • Create believable, functional, and visually strong environments from scratch. • Gather…",
     "hasDesc": true
   },
@@ -11063,17 +14940,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-2k-games-7856209003",
+    "id": "gh-2k-games-7829588003",
     "title": "Senior Site Reliability Engineer",
     "company": "2K Games",
     "locations": [
-      "Burnaby, Canada"
+      "Bangalore, India"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/2k/jobs/7856209003",
+    "url": "https://job-boards.greenhouse.io/2k/jobs/7829588003",
     "site": "2k.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -11087,21 +14964,22 @@ window.JOBS = [
       "Kubernetes"
     ],
     "seen": "2026-09-05",
-    "descShort": "At 2K, we create some of the most iconic and culture-shaping video games in entertainment, including NBA® 2K, one of the top-selling franchises in the world, and legendary titles like BioShock®, Borderlands®, Mafia, Sid Meier’s Civilization®, and XCOM®, as well as fan favorites WWE® 2K, TopSpin®, and PGA TOUR® 2K. We build unforgettable experiences by pushing the boundaries of creativity, authenticity and innovation across every genre. Our portfolio is brought to life by some of the most influential game development studios in the world. Visual Concepts, Firaxis Games, Hangar 13, Cat Daddy Games, 31st Union, Cloud Chamber, Gearbox, HB Studios, and 2K SportsLab create world-class experiences…",
+    "hasRu": true,
+    "descShort": "Who We Are 2K is headquartered in Novato, California and is a wholly owned label of Take-Two Interactive Software, Inc. (NASDAQ: TTWO). Founded in 2005, 2K Games is a global video game company, publishing titles developed by some of the most influential game development studios in the world. Our studios responsible for developing 2K’s portfolio of world-class games across multiple platforms, include Visual Concepts, Firaxis, Hangar 13, CatDaddy, Cloud Chamber, 31st Union, HB Studios, and 2K SportsLab. Our portfolio of titles is expanding due to our global strategic plan, building and acquiring exciting studios whose content continues to inspire all of us! 2K publishes titles in today’s most…",
     "hasDesc": true
   },
   {
-    "id": "gh-2k-games-7767183003",
+    "id": "gh-2k-games-7780664003",
     "title": "Senior Systems Engineer",
     "company": "2K Games",
     "locations": [
-      "Novato, United States"
+      "Austin, United States"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/2k/jobs/7767183003",
+    "url": "https://job-boards.greenhouse.io/2k/jobs/7780664003",
     "site": "2k.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -11113,7 +14991,8 @@ window.JOBS = [
       "Perforce"
     ],
     "seen": "2026-09-05",
-    "descShort": "Who We Are At 2K, we create some of the most iconic and culture-shaping video games in entertainment, including NBA® 2K , one of the top-selling franchises in the world, and legendary titles like BioShock® , Borderlands® , Mafia , Sid Meier’s Civilization ® , and XCOM® , as well as fan favorites WWE® 2K , TopSpin® , and PGA TOUR® 2K . We build unforgettable experiences by pushing the boundaries of creativity, authenticity and innovation across every genre. Our portfolio is brought to life by some of the most influential game development studios in the world. Visual Concepts, Firaxis Games, Hangar 13, Cat Daddy Games, 31st Union, Cloud Chamber, Gearbox, HB Studios, and 2K SportsLab create…",
+    "hasRu": true,
+    "descShort": "Who We Are At 2K, we create some of the most iconic and culture-shaping video games in entertainment, including NBA® 2K , one of the top-selling franchises in the world, and legendary titles like BioShock® , Borderlands® , Mafia , Sid Meier’s Civilization ® , and XCOM® , as well as fan favorites WWE® 2K , TopSpin® , and PGA TOUR® 2K. We build unforgettable experiences by pushing the boundaries of creativity, authenticity and innovation across every genre. Our portfolio is brought to life by some of the most influential game development studios in the world. Visual Concepts, Firaxis Games, Hangar 13, Cat Daddy Games, 31st Union, Cloud Chamber, Gearbox, HB Studios, and 2K SportsLab create…",
     "hasDesc": true
   },
   {
@@ -11171,35 +15050,6 @@ window.JOBS = [
     "seen": "2026-09-05",
     "hasRu": true,
     "descShort": "Gestionnaire en ingénierie - Services d'ingénierie Qui nous sommes Fondée en 2005, 2K Games est une entreprise mondiale de jeux vidéo à rayonnement international, éditant des titres développés par certains des studios les plus influents de l'industrie. Parmi eux figurent Visual Concepts, Firaxis, Hangar 13, CatDaddy, Cloud Chamber, 31st Union, HB Studios, Gearbox et 2K SportsLab. Notre catalogue s'enrichit continuellement grâce à une stratégie ambitieuse de développement à l'échelle mondiale, combinant la création de nouveaux studios et l'intégration de talents variés, avec pour objectif de proposer des contenus toujours plus innovants, immersifs et inspirants. 2K publie des jeux parmi les…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-2k-games-7829580003",
-    "title": "Staff Platform Engineer",
-    "company": "2K Games",
-    "locations": [
-      "Austin, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/2k/jobs/7829580003",
-    "site": "2k.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "Бэкенд",
-    "stack": [
-      "Python",
-      "Java",
-      "AWS",
-      "Kubernetes"
-    ],
-    "seen": "2026-09-05",
-    "hasRu": true,
-    "descShort": "Who We Are At 2K, we create some of the most iconic and culture-shaping video games in entertainment, including NBA® 2K, one of the top-selling franchises in the world, and legendary titles like BioShock®, Borderlands®, Mafia, Sid Meier’s Civilization®, and XCOM®, as well as fan favorites WWE® 2K, TopSpin®, and PGA TOUR® 2K. We build unforgettable experiences by pushing the boundaries of creativity, authenticity and innovation across every genre. Our portfolio is brought to life by some of the most influential game development studios in the world. Visual Concepts, Firaxis Games, Hangar 13, Cat Daddy Games, 31st Union, Cloud Chamber, Gearbox, HB Studios, and 2K SportsLab create world-class…",
     "hasDesc": true
   },
   {
@@ -11588,17 +15438,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-cloud-chamber-7812708003",
+    "id": "gh-cloud-chamber-7812706003",
     "title": "Lead Level Artist",
     "company": "Cloud Chamber",
     "locations": [
-      "Novato, United States"
+      "Montréal, Canada"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/cloudchamberen/jobs/7812708003",
+    "url": "https://job-boards.greenhouse.io/cloudchamberen/jobs/7812706003",
     "site": "cloudchambergames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -11614,7 +15464,6 @@ window.JOBS = [
       "Photoshop"
     ],
     "seen": "2026-09-05",
-    "hasRu": true,
     "descShort": "As a Lead Level Artist at Cloud Chamber you will join our talented group of developers and lead a team of artists responsible for creating compelling, stylized, high-quality level art and immersive world-building under the guidance of the Art Director and Associate Art Director. As a leader, your role is to build and foster a collaborative process, and share your vast knowledge of tools and best practices with your team. As an artist, your years of experience in the games industry have given you a solid understanding of form and composition as well as the ability to skillfully work within constraints and harmoniously collaborate with other departments. You will be asked to use all the tools…",
     "hasDesc": true
   },
@@ -11645,17 +15494,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-cloud-chamber-7731294003",
+    "id": "gh-cloud-chamber-7731296003",
     "title": "Senior Level Artist",
     "company": "Cloud Chamber",
     "locations": [
-      "Montréal, Canada"
+      "Novato, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/cloudchamberen/jobs/7731294003",
+    "url": "https://job-boards.greenhouse.io/cloudchamberen/jobs/7731296003",
     "site": "cloudchambergames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -11666,22 +15515,21 @@ window.JOBS = [
       "Unreal"
     ],
     "seen": "2026-09-05",
-    "hasRu": true,
     "descShort": "As a Senior Level Artist at Cloud Chamber, you will join our talented development team to shape the next installment of the BioShock franchise. In this role, you’ll collaborate with a passionate group of game developers to construct visually stunning and gameplay-enhancing game worlds, create and maintain modular kits to optimally build believable and detailed spaces, and propel the narrative through environmental storytelling, bringing the richly imagined world of BioShock to life. What You’ll Do: • Collaborate closely with the Level Design, Modeling, Narrative, Concept, Combat, and Cinematic teams. • Create believable, functional, and visually strong environments from scratch. • Gather…",
     "hasDesc": true
   },
   {
-    "id": "gh-cloud-chamber-7793260003",
+    "id": "gh-cloud-chamber-7793258003",
     "title": "Senior Level Designer",
     "company": "Cloud Chamber",
     "locations": [
-      "Novato, United States"
+      "Montréal, Canada"
     ],
     "remote": false,
     "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/cloudchamberen/jobs/7793260003",
+    "url": "https://job-boards.greenhouse.io/cloudchamberen/jobs/7793258003",
     "site": "cloudchambergames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -11692,7 +15540,6 @@ window.JOBS = [
       "Unreal"
     ],
     "seen": "2026-09-05",
-    "hasRu": true,
     "descShort": "As a Senior Level Designer at Cloud Chamber, you will be responsible for blocking out the world and crafting the player experience within the stunning narrative experience and systems-driven world of BioShock. At your core you are collaborative, compassionate, and authentic; a dedicated designer with a passion for creating memorable, immersive player experiences. You will be an integral part of a design team that is breathing life into a new and fantastical world. What You’ll Do: • Use Blueprint scripting to create gameplay content. • Design and block out world geometry. • Collaborate closely with world architects on layout, and other teams as needed, to implement the creative vision of the…",
     "hasDesc": true
   },
@@ -11805,17 +15652,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-scopely-5390702008",
+    "id": "gh-scopely-5390699008",
     "title": "Senior Producer - Star Trek Fleet Command",
     "company": "Scopely",
     "locations": [
-      "Barcelona, Spain"
+      "Dublin, Ireland"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5390702008?gh_jid=5390702008",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5390699008?gh_jid=5390699008",
     "site": "scopely.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -11824,8 +15671,7 @@ window.JOBS = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-05",
-    "hasRu": true,
-    "descShort": "Scopely is looking for a Senior Producer to join our Star Trek Fleet Command team based in Barcelona on a hybrid basis. At Scopely, we care deeply about what we do and want to inspire play every day - whether in our work environments alongside our talented colleagues or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily. Star Trek Fleet Command's ongoing success goes from strength to strength. Our in-house developed multi-platform 4X MMO was launched in 2018 and continues to evolve, being consistently one of the top 10…",
+    "descShort": "Scopely is looking for a Senior Producer to join our Star Trek Fleet Command team based in Dublin on a hybrid basis. At Scopely, we care deeply about what we do and want to inspire play every day - whether in our work environments alongside our talented colleagues or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily. Star Trek Fleet Command's ongoing success goes from strength to strength. Our in-house developed multi-platform 4X MMO was launched in 2018 and continues to evolve, being consistently one of the top 10…",
     "hasDesc": true
   },
   {
@@ -12047,17 +15893,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-epic-games-6134271004",
+    "id": "gh-epic-games-6142418004",
     "title": "Machine Learning Engineer, Memory",
     "company": "Epic Games",
     "locations": [
-      "Cary, United States"
+      "Porto Alegre, Brazil"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-20",
-    "url": "https://epicgames.com/careers/jobs/6134271004?gh_jid=6134271004",
+    "url": "https://epicgames.com/careers/jobs/6142418004?gh_jid=6142418004",
     "site": "epicgames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -12069,7 +15915,6 @@ window.JOBS = [
       "Python"
     ],
     "seen": "2026-09-05",
-    "hasRu": true,
     "descShort": "WHAT MAKES US EPIC? At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating. Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development. ENGINEERING - GAMES What We Do Unreal projects have been leading the pack of real-time entertainment with our constantly growing team of engineering experts. We’re always improving…",
     "hasDesc": true
   },
@@ -12486,17 +16331,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-rockstar-games-7806700003",
+    "id": "gh-rockstar-games-7776241003",
     "title": "Senior Software Engineer, FiveM",
     "company": "Rockstar Games",
     "locations": [
-      "London, United Kingdom"
+      "Leeds, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-19",
-    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7806700003",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7776241003",
     "site": "rockstargames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -12507,7 +16352,6 @@ window.JOBS = [
       "C++"
     ],
     "seen": "2026-09-05",
-    "hasRu": true,
     "descShort": "At Rockstar Games, we create world-class entertainment experiences. Become part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry. Rockstar is on the lookout for a talented Software Engineer who possesses a strong interest in all the low-level technology that makes a modern video game tick to support the Cfx.re creator platforms, including FiveM and RedM. As a member of our team, you will need a critical and creative eye capable of putting forth innovative solutions to complex…",
     "hasDesc": true
   },
@@ -13411,6 +17255,56 @@ window.JOBS = [
     "hasDesc": true
   },
   {
+    "id": "ab-gismart-8ce1d739-2213-4bcf-9076-099a75ce6699",
+    "title": "Frontend Developer",
+    "company": "Gismart",
+    "locations": [
+      "Kyiv"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-08-18",
+    "url": "https://jobs.ashbyhq.com/gismart/8ce1d739-2213-4bcf-9076-099a75ce6699",
+    "source": "ashby",
+    "site": "gismart.com",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Фронтенд",
+    "stack": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About us: Gismart is a value-driven mobile app developer with a strong presence in the Health & Wellness, Utilities, and Music app markets. We have recently achieved a significant milestone of over 1 billion downloads worldwide, taking a step toward our mission of cultivating the well-being of people worldwide. With headquarters in London, UK, Gismart is a dynamic global company with a reach extending across Europe and far beyond. Our determined team comprises over 400 individuals who bring diversity, creativity, innovation, and relentless drive to the company. Gismart unites professionals from diverse backgrounds in entertainment, music, and tech, allowing us to play to each other’s…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-gismart-836970cf-9bc7-4f1b-bbea-0765e778944d",
+    "title": "Marketing Analyst (FitMe)",
+    "company": "Gismart",
+    "locations": [],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-08-18",
+    "url": "https://jobs.ashbyhq.com/gismart/836970cf-9bc7-4f1b-bbea-0765e778944d",
+    "source": "ashby",
+    "site": "gismart.com",
+    "industry": "gamedev",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About us: Gismart is a value-driven mobile app developer with a strong presence in the Health & Wellness, Utilities, and Music app markets. We have recently achieved a significant milestone of over 1 billion downloads worldwide, taking a step toward our mission of cultivating the well-being of people worldwide. With headquarters in London, UK, Gismart is a dynamic global company with a reach extending across Europe and far beyond. Our determined team consists of 250 individuals who bring diversity, creativity, innovation, and relentless drive to the company. Gismart unites professionals from diverse backgrounds in entertainment, music, and tech, allowing us to play to each other’s strengths…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-wargaming-8066793",
     "title": "2D Artist (World of Warships Franchise)",
     "company": "Wargaming",
@@ -13439,17 +17333,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-wargaming-8129695",
+    "id": "gh-wargaming-8129700",
     "title": "Game Designer (World of Tanks PC)",
     "company": "Wargaming",
     "locations": [
-      "Nicosia"
+      "Vilnius"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8129695",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8129700",
     "site": "wargaming.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -13458,6 +17352,7 @@ window.JOBS = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-05",
+    "hasRu": true,
     "descShort": "Job Overview Wargaming is looking for a Game Designer to work on the legendary World of Tanks action MMO game with 160 million registered users worldwide. Reports to Lead Game Designer What will you do? • Feature owning in a separate team on the project. Controlling the game design direction and final quality of the features. • Working with core gameplay and meta. Focus here may differ depending on the current team’s priorities and backlog. • Participation in brainstorms & playtests. • Being responsible for translating the high-level game vision and design direction into tangible gameplay elements that work in concert with each other and with the other core disciplines (LD, narrative…",
     "hasDesc": true
   },
@@ -13512,17 +17407,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-wargaming-7694782",
+    "id": "gh-wargaming-7694777",
     "title": "Senior Concept Artist Generalist (World of Tanks: HEAT)",
     "company": "Wargaming",
     "locations": [
-      "Nicosia"
+      "Belgrade"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7694782",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7694777",
     "site": "wargaming.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -13535,6 +17430,7 @@ window.JOBS = [
       "Photoshop"
     ],
     "seen": "2026-09-05",
+    "hasRu": true,
     "descShort": "Job Overview We’re excited to launch a groundbreaking AAA game project - World of Tanks: HEAT and are looking for passionate, creative Senior Concept Artist Generalist to join our talented team. Our studio fosters a collaborative environment where your ideas are valued and your contributions will have a direct impact on the game’s success. Our team is a mix of industry veterans and fresh talent, dedicated to pushing the boundaries of what games can be. If you thrive in a dynamic atmosphere and are eager to shape an exciting AAA title from the ground up, we want to hear from you! Join us in creating something truly special in the gaming world. Your next big opportunity awaits! Reports to Art…",
     "hasDesc": true
   },
@@ -13568,17 +17464,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-wargaming-7837370",
+    "id": "gh-wargaming-7837375",
     "title": "Senior Concept Artist – Vehicles / Props (World of Tanks)",
     "company": "Wargaming",
     "locations": [
-      "Nicosia"
+      "Vilnius"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7837370",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7837375",
     "site": "wargaming.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -13673,15 +17569,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-epic-games-6001733004",
+    "id": "gh-epic-games-6001731004",
     "title": "Senior Environment Artist",
     "company": "Epic Games",
-    "locations": [],
+    "locations": [
+      "Cary, United States"
+    ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 176 262 – 293 770",
+    "salary": null,
     "posted": "2026-08-17",
-    "url": "https://epicgames.com/careers/jobs/6001733004?gh_jid=6001733004",
+    "url": "https://epicgames.com/careers/jobs/6001731004?gh_jid=6001731004",
     "site": "epicgames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -13696,6 +17594,7 @@ window.JOBS = [
       "Substance"
     ],
     "seen": "2026-09-05",
+    "hasRu": true,
     "descShort": "WHAT MAKES US EPIC? At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating. Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development. ART What We Do Push your artistic talent to the limit on a team of world-class environment, character and concept artists who strive to innovate and inspire. What You'll Do Epic…",
     "hasDesc": true
   },
@@ -13941,17 +17840,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-epic-games-6144655004",
+    "id": "gh-epic-games-6144437004",
     "title": "Senior Engine Programmer, Unreal Cloud Services",
     "company": "Epic Games",
     "locations": [
-      "Montreal, Canada"
+      "London, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-14",
-    "url": "https://epicgames.com/careers/jobs/6144655004?gh_jid=6144655004",
+    "url": "https://epicgames.com/careers/jobs/6144437004?gh_jid=6144437004",
     "site": "epicgames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -13963,20 +17862,21 @@ window.JOBS = [
       "C++"
     ],
     "seen": "2026-09-05",
-    "hasRu": true,
-    "descShort": "WHAT MAKES US EPIC? At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating. Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development. PROGRAMMING - UNREAL ENGINE What We Do Unreal-powered projects have been on the bleeding edge of real-time entertainment for over 20 years. Our team of programming experts are…",
+    "descShort": "WHAT MAKES US EPIC? At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating. Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development. ENGINEERING - UNREAL ENGINE What We Do Unreal-powered projects have been on the bleeding edge of real-time entertainment for over 20 years. Our team of engineering experts are…",
     "hasDesc": true
   },
   {
-    "id": "gh-epic-games-6144080004",
+    "id": "gh-epic-games-6144329004",
     "title": "Senior Technical Artist, World and Content Creation",
     "company": "Epic Games",
-    "locations": [],
+    "locations": [
+      "Vancouver, Canada"
+    ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 151 585 – 222 324",
+    "salary": "$ 145 844 – 213 905",
     "posted": "2026-08-14",
-    "url": "https://epicgames.com/careers/jobs/6144080004?gh_jid=6144080004",
+    "url": "https://epicgames.com/careers/jobs/6144329004?gh_jid=6144329004",
     "site": "epicgames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -14156,17 +18056,15 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-epic-games-5763801004",
+    "id": "gh-epic-games-5763803004",
     "title": "Character Animation Lead",
     "company": "Epic Games",
-    "locations": [
-      "Cary, United States"
-    ],
+    "locations": [],
     "remote": false,
     "rkind": null,
-    "salary": null,
+    "salary": "$ 210 445 – 308 652",
     "posted": "2026-08-13",
-    "url": "https://epicgames.com/careers/jobs/5763801004?gh_jid=5763801004",
+    "url": "https://epicgames.com/careers/jobs/5763803004?gh_jid=5763803004",
     "site": "epicgames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -14177,7 +18075,6 @@ window.JOBS = [
       "Unreal"
     ],
     "seen": "2026-09-05",
-    "hasRu": true,
     "descShort": "WHAT MAKES US EPIC? At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating. Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development. ART What We Do Push your artistic talent to the limit on a team of world-class environment, character, and concept artists who strive to innovate and inspire. What You'll Do Epic…",
     "hasDesc": true
   },
@@ -14255,15 +18152,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-epic-games-6006487004",
+    "id": "gh-epic-games-6006489004",
     "title": "Lead Gameplay Designer",
     "company": "Epic Games",
-    "locations": [],
+    "locations": [
+      "Vancouver, Canada"
+    ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 144 535 – 211 984",
+    "salary": "$ 139 061 – 203 957",
     "posted": "2026-08-13",
-    "url": "https://epicgames.com/careers/jobs/6006487004?gh_jid=6006487004",
+    "url": "https://epicgames.com/careers/jobs/6006489004?gh_jid=6006489004",
     "site": "epicgames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -14415,6 +18314,34 @@ window.JOBS = [
     "hasDesc": true
   },
   {
+    "id": "gh-epic-games-5986042004",
+    "title": "Senior Game Security Engineer",
+    "company": "Epic Games",
+    "locations": [
+      "Cary, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-13",
+    "url": "https://epicgames.com/careers/jobs/5986042004?gh_jid=5986042004",
+    "site": "epicgames.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unreal",
+      "C++",
+      "C#",
+      "Java"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "WHAT MAKES US EPIC? At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating. Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development. ECOSEC What We Do Our ECOSEC team provides a safer experience for Epic's users. We work across multiple products and services to improve technology and craft transparent policies so…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-epic-games-6117647004",
     "title": "Senior Machine Learning Engineer",
     "company": "Epic Games",
@@ -14467,17 +18394,15 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-epic-games-6126865004",
+    "id": "gh-epic-games-6121333004",
     "title": "Senior Producer",
     "company": "Epic Games",
-    "locations": [
-      "Montreal, Canada"
-    ],
+    "locations": [],
     "remote": false,
     "rkind": null,
-    "salary": null,
+    "salary": "$ 139 737 – 204 948",
     "posted": "2026-08-13",
-    "url": "https://epicgames.com/careers/jobs/6126865004?gh_jid=6126865004",
+    "url": "https://epicgames.com/careers/jobs/6121333004?gh_jid=6121333004",
     "site": "epicgames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -14541,17 +18466,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-epic-games-6098902004",
+    "id": "gh-epic-games-6099879004",
     "title": "Senior Technical Artist",
     "company": "Epic Games",
     "locations": [
-      "Cary, United States"
+      "Porto Alegre, Brazil"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-13",
-    "url": "https://epicgames.com/careers/jobs/6098902004?gh_jid=6098902004",
+    "url": "https://epicgames.com/careers/jobs/6099879004?gh_jid=6099879004",
     "site": "epicgames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -14595,17 +18520,72 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-scopely-5389041008",
-    "title": "Product Marketing Manager - Star Trek",
-    "company": "Scopely",
+    "id": "gh-epic-games-6001973004",
+    "title": "Technical Designer in Animation",
+    "company": "Epic Games",
     "locations": [
-      "London, United Kingdom"
+      "Cary, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-13",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5389041008?gh_jid=5389041008",
+    "url": "https://epicgames.com/careers/jobs/6001973004?gh_jid=6001973004",
+    "site": "epicgames.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Анимация",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unreal",
+      "C++",
+      "Maya"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "WHAT MAKES US EPIC? At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating. Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development. ART What We Do Push your artistic talent to the limit on a team of world-class environment, character and concept artists who strive to innovate and inspire. What You'll Do Epic…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-epic-games-5723660004",
+    "title": "UI Artist",
+    "company": "Epic Games",
+    "locations": [
+      "Porto Alegre, Brazil"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-13",
+    "url": "https://epicgames.com/careers/jobs/5723660004?gh_jid=5723660004",
+    "site": "epicgames.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Арт",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unreal",
+      "Photoshop",
+      "Figma"
+    ],
+    "seen": "2026-09-05",
+    "hasRu": true,
+    "descShort": "WHAT MAKES US EPIC? At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating. Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development. ART What We Do Push your artistic talent to the limit on a team of world-class environment, character and concept artists who strive to innovate and inspire. What You'll Do As a UI…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-scopely-5389045008",
+    "title": "Product Marketing Manager - Star Trek",
+    "company": "Scopely",
+    "locations": [
+      "Dublin, Ireland"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-13",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5389045008?gh_jid=5389045008",
     "site": "scopely.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -15163,6 +19143,32 @@ window.JOBS = [
     "hasDesc": true
   },
   {
+    "id": "ab-gismart-5399068d-b995-4771-936e-be65c35b30fb",
+    "title": "Marketing Motion Designer (Spilio)",
+    "company": "Gismart",
+    "locations": [
+      "Kyiv"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-12",
+    "url": "https://jobs.ashbyhq.com/gismart/5399068d-b995-4771-936e-be65c35b30fb",
+    "source": "ashby",
+    "site": "gismart.com",
+    "industry": "gamedev",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Photoshop",
+      "Figma"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About us: Gismart is a value-driven mobile app developer with a strong presence in the Health & Wellness, Utilities, and Music app markets. We have achieved a significant milestone of over 1 billion downloads worldwide, taking a step toward our mission of cultivating the well-being of people worldwide. With headquarters in London, UK, Gismart is a dynamic global company with a reach extending across Europe and far beyond. Our determined team comprises over 350 individuals who bring diversity, creativity, innovation, and relentless drive to the company. Gismart unites professionals from diverse backgrounds in entertainment, music, and tech, allowing us to play to each other’s strengths and…",
+    "hasDesc": true
+  },
+  {
     "id": "ab-voodoo-8b7c1ea9-ed73-4ec7-bd1e-a687552f6ef6",
     "title": "Product Manager - Puzzle Games",
     "company": "Voodoo",
@@ -15242,17 +19248,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-scopely-5384536008",
+    "id": "gh-scopely-5384531008",
     "title": "Senior Product Analyst - Stumble Guys!",
     "company": "Scopely",
     "locations": [
-      "Dundee, United Kingdom"
+      "Tel Aviv, Israel"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-11",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5384536008?gh_jid=5384536008",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5384531008?gh_jid=5384531008",
     "site": "scopely.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -15297,17 +19303,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-rockstar-games-7632962003",
+    "id": "gh-rockstar-games-7618407003",
     "title": "Animation Tools Programmer (All Levels)",
     "company": "Rockstar Games",
     "locations": [
-      "Oakville, Canada"
+      "Edinburgh, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 85 000 – 120 000",
+    "salary": null,
     "posted": "2026-08-11",
-    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7632962003",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7618407003",
     "site": "rockstargames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -15320,7 +19326,6 @@ window.JOBS = [
       "Maya"
     ],
     "seen": "2026-09-05",
-    "hasRu": true,
     "descShort": "At Rockstar Games, we create world-class entertainment experiences. Become part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry. Rockstar is on the lookout for a passionate Animation Tools Programmer. This is an exciting opportunity to work closely with our game development teams, across all animation disciplines, and help drive our animation tools technology forward to support the creation of all of Rockstar Games projects. The Animation Tools Programmer role will involve…",
     "hasDesc": true
   },
@@ -15627,17 +19632,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-rockstar-games-7793838003",
+    "id": "gh-rockstar-games-7794203003",
     "title": "Senior Data Design Analyst",
     "company": "Rockstar Games",
     "locations": [
-      "London, United Kingdom"
+      "Leeds, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-11",
-    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7793838003",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7794203003",
     "site": "rockstargames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -15648,8 +19653,7 @@ window.JOBS = [
       "SQL"
     ],
     "seen": "2026-09-05",
-    "hasRu": true,
-    "descShort": "At Rockstar Games, we create world-class entertainment experiences. Become part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry. Rockstar is on the lookout for a skilled Data Design Analyst who is passionate about video games and data design. This is a full-time, permanent and in-office position based in Rockstar’s unique game development studio in the heart of London. WHAT WE DO • The Rockstar Games Analytics team provides insights and actionable results to a wide variety of…",
+    "descShort": "At Rockstar Games, we create world-class entertainment experiences. Become part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry. Rockstar is on the lookout for a skilled Data Design Analyst who is passionate about video games and data design. This is a full-time, permanent and in-office position based in Rockstar’s unique game development studio in the heart of Leeds, England. WHAT WE DO • The Rockstar Games Analytics team provides insights and actionable results to a wide…",
     "hasDesc": true
   },
   {
@@ -15734,17 +19738,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-rockstar-games-7578722003",
+    "id": "gh-rockstar-games-7575962003",
     "title": "Senior Software Engineer, Data Engineering",
     "company": "Rockstar Games",
     "locations": [
-      "Andover, United States"
+      "Manhattan, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-11",
-    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7578722003",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7575962003",
     "site": "rockstargames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -15815,17 +19819,17 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-rockstar-games-7739156003",
+    "id": "gh-rockstar-games-7741310003",
     "title": "Senior Web Developer - Tools",
     "company": "Rockstar Games",
     "locations": [
-      "Edinburgh, United Kingdom"
+      "Dundee, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-11",
-    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7739156003",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7741310003",
     "site": "rockstargames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -15836,22 +19840,21 @@ window.JOBS = [
       "C#"
     ],
     "seen": "2026-09-05",
-    "hasRu": true,
     "descShort": "At Rockstar Games, we create world-class entertainment experiences. Become part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry. Rockstar is on the lookout for a passionate Web Developer with strong experience in React and .NET to help build modern, scalable applications that help power our complex productions. This role works closely with designers, back-end engineers and stakeholders across the organisation to deliver high quality user experiences. This is a full-time…",
     "hasDesc": true
   },
   {
-    "id": "gh-rockstar-games-6620891003",
+    "id": "gh-rockstar-games-6589243003",
     "title": "Senior Web Engineer",
     "company": "Rockstar Games",
     "locations": [
-      "Andover, United States"
+      "Manhattan, United States"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 130 000 – 150 000",
+    "salary": "$ 121 400 – 161 800",
     "posted": "2026-08-11",
-    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/6620891003",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/6589243003",
     "site": "rockstargames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -15862,22 +19865,21 @@ window.JOBS = [
       "C#"
     ],
     "seen": "2026-09-05",
-    "hasRu": true,
     "descShort": "At Rockstar Games, we create world-class entertainment experiences. Become part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly motivated environment where you can learn and collaborate with some of the most talented people in the industry. Rockstar Games is seeking a passionate and experienced Senior Web Engineer with a focus on the “back of the frontend” to join our online development team. This role will involve a deep understanding of how high-profile frontends are delivered, secured and integrated via services and APIs with less focus on the presentation. The successful candidate…",
     "hasDesc": true
   },
   {
-    "id": "gh-rockstar-games-7734679003",
+    "id": "gh-rockstar-games-7711702003",
     "title": "Software Engineer (C#/.NET)",
     "company": "Rockstar Games",
     "locations": [
-      "Carlsbad, United States"
+      "Manhattan, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 101 100 – 134 300",
     "posted": "2026-08-11",
-    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7734679003",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7711702003",
     "site": "rockstargames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -15891,7 +19893,8 @@ window.JOBS = [
       "Perforce"
     ],
     "seen": "2026-09-05",
-    "descShort": "At Rockstar Games, we create world-class entertainment experiences. Become part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry. Rockstar is on the lookout for a passionate Software Engineer who considers software development to be a craft, and possess a passion for solving complex problems at scale. This is a full-time, in-office position based out of Rockstar’s new state-of-the-art game development studio in Carlsbad, CA. WHAT WE DO • The Rockstar Games Online Services team…",
+    "hasRu": true,
+    "descShort": "At Rockstar Games, we create world-class entertainment experiences. Become part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry. Rockstar is on the lookout for a passionate Software Engineer who considers software development to be a craft, and possess a passion for solving complex problems at scale. This is a full-time, in-office position based out of Rockstar’s NYC headquarters in Downtown Manhattan. WHAT WE DO • The Rockstar Games Online Services team creates connected…",
     "hasDesc": true
   },
   {
@@ -16416,6 +20419,27 @@ window.JOBS = [
     "hasDesc": true
   },
   {
+    "id": "ab-gismart-a4d88269-f2e0-494b-9f9d-80804a29be59",
+    "title": "Creative Marketing Lead",
+    "company": "Gismart",
+    "locations": [],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-08-07",
+    "url": "https://jobs.ashbyhq.com/gismart/a4d88269-f2e0-494b-9f9d-80804a29be59",
+    "source": "ashby",
+    "site": "gismart.com",
+    "industry": "gamedev",
+    "role": "Маркетинг",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "About us: Gismart is a value-driven mobile app developer with a strong presence in the Health & Wellness, Utilities, and Music app markets. We have achieved a significant milestone of over 1 billion downloads worldwide, taking a step toward our mission of cultivating the well-being of people worldwide. With headquarters in London, UK, Gismart is a dynamic global company with a reach extending across Europe and far beyond. Our determined team comprises over 300 individuals who bring diversity, creativity, innovation, and relentless drive to the company. Gismart unites professionals from diverse backgrounds in entertainment, music, and tech, allowing us to play to each other’s strengths and…",
+    "hasDesc": true
+  },
+  {
     "id": "lv-xsolla-8c0f5e96-f19f-4d7b-a2a2-a2531e925f02",
     "title": "Developer Evangelist - Community (CIS)",
     "company": "Xsolla",
@@ -16747,6 +20771,29 @@ window.JOBS = [
     "seen": "2026-09-05",
     "hasRu": true,
     "descShort": "At Kabam, we’re constantly raising the bar of excellence in free-to-play gaming. We hire for passion and diversity so that we can triumph in our collective skill. Our teams are made up of a fusion of personalities and interests bound together by a collaborative nature, fun-loving culture, and a drive to do what it takes to make great games. And this is where you come in… The Data Analyst utilizes their quantitative analytical skills and scientific thought process to interpret and analyze large sets of complex data, while extracting meaningful insights for Kabam. This role works closely with our internal gaming team to optimize every facet of player retention and monetization to ensure the…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-gismart-64d1049b-2414-4d9a-9881-ce2fa6e5505d",
+    "title": "User Acquisition Manager (Radiotech)",
+    "company": "Gismart",
+    "locations": [],
+    "remote": true,
+    "rkind": "worldwide",
+    "salary": null,
+    "posted": "2026-08-06",
+    "url": "https://jobs.ashbyhq.com/gismart/64d1049b-2414-4d9a-9881-ce2fa6e5505d",
+    "source": "ashby",
+    "site": "gismart.com",
+    "industry": "gamedev",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT US Gismart is a value-driven mobile app developer with a strong presence in the Health & Wellness, Utilities, and Music app markets. We have recently reached an important milestone of 1B+ downloads worldwide, moving closer to our mission of supporting people on their self-improvement journeys. Headquartered in London, Gismart is a global company with a team of 400+ people across Europe and beyond. We bring together professionals from entertainment, music, and tech backgrounds, combining creativity, product thinking, and strong execution to build apps used by millions of people worldwide. Our mission is to become a stepping stone on our customers’ journeys of self-improvement. OUR…",
     "hasDesc": true
   },
   {
@@ -17337,6 +21384,52 @@ window.JOBS = [
     "hasDesc": true
   },
   {
+    "id": "ab-gismart-70300851-4f86-4cf3-877f-195dd1ee5664",
+    "title": "Creative Marketing Manager (FitMe)",
+    "company": "Gismart",
+    "locations": [],
+    "remote": true,
+    "rkind": "worldwide",
+    "salary": null,
+    "posted": "2026-08-05",
+    "url": "https://jobs.ashbyhq.com/gismart/70300851-4f86-4cf3-877f-195dd1ee5664",
+    "source": "ashby",
+    "site": "gismart.com",
+    "industry": "gamedev",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT US: Gismart is a value-driven mobile app developer with a strong presence in the Health & Wellness, Utilities, and Music app markets. We have achieved a significant milestone of over 1 billion downloads worldwide, taking a step toward our mission of cultivating the well-being of people worldwide. With headquarters in London, UK, Gismart is a dynamic global company with a reach extending across Europe and far beyond. Our determined team comprises over 350 individuals who bring diversity, creativity, innovation, and relentless drive to the company. Gismart unites professionals from diverse backgrounds in entertainment, music, and tech, allowing us to play to each other’s strengths and…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-gismart-f921fd91-d129-47ee-af46-50a700292c14",
+    "title": "Data Engineer",
+    "company": "Gismart",
+    "locations": [],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-08-05",
+    "url": "https://jobs.ashbyhq.com/gismart/f921fd91-d129-47ee-af46-50a700292c14",
+    "source": "ashby",
+    "site": "gismart.com",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Данные и ML",
+    "stack": [
+      "Python",
+      "SQL",
+      "AWS"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About us: Gismart is a value-driven mobile app developer with a strong presence in the Health & Wellness, Utilities, and Music app markets. We have recently achieved a significant milestone of over 1 billion downloads worldwide, taking a step toward our mission of cultivating the well-being of people worldwide. With headquarters in London, UK, Gismart is a dynamic global company with a reach extending across Europe and far beyond. Our determined team consists of 250 individuals who bring diversity, creativity, innovation, and relentless drive to the company. Gismart unites professionals from diverse backgrounds in entertainment, music, and tech, allowing us to play to each other’s strengths…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-nordeus-8104961",
     "title": "Junior Data Scientist",
     "company": "Nordeus",
@@ -17506,6 +21599,27 @@ window.JOBS = [
     "hasDesc": true
   },
   {
+    "id": "ab-gismart-0e566c52-44b6-415e-833d-1f4138be4a02",
+    "title": "Product Marketing Manager (Testora)",
+    "company": "Gismart",
+    "locations": [],
+    "remote": true,
+    "rkind": "worldwide",
+    "salary": null,
+    "posted": "2026-08-04",
+    "url": "https://jobs.ashbyhq.com/gismart/0e566c52-44b6-415e-833d-1f4138be4a02",
+    "source": "ashby",
+    "site": "gismart.com",
+    "industry": "gamedev",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "About us: Gismart is a value-driven mobile app developer with a strong presence in the Health & Wellness, Utilities, and Music app markets. We have achieved a significant milestone of over 1 billion downloads worldwide, taking a step toward our mission of cultivating the well-being of people worldwide. With headquarters in London, UK, Gismart is a dynamic global company with a reach extending across Europe and far beyond. Our determined team comprises over 400 individuals who bring diversity, creativity, innovation, and relentless drive to the company. Gismart unites professionals from diverse backgrounds in entertainment, music, and tech, allowing us to play to each other’s strengths and…",
+    "hasDesc": true
+  },
+  {
     "id": "ab-voodoo-699db8ca-ce3f-42d0-9eb0-c414aa8090cf",
     "title": "Strategic Project Manager - Growth",
     "company": "Voodoo",
@@ -17587,6 +21701,30 @@ window.JOBS = [
     "seen": "2026-09-05",
     "hasRu": true,
     "descShort": "Moon Active is a company driven by the mission to become a global leader in mobile gaming. Founded in 2011, our passion for creativity, cutting-edge technology, and delivering exceptional player experiences has resulted in games enjoyed by millions worldwide. We're looking for a Site Reliability Engineer to join our talented community of professionals in our Warsaw office and contribute to the ongoing success of our leading mobile gaming products. The Site Reliability department focuses on ensuring the continuous smooth operation of live production systems that serve millions of players globally. You will support production activities by troubleshooting, developing, maintaining, and…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-gismart-e6906260-4e22-440c-a48e-16153f0ad71e",
+    "title": "Product & Marketing Analyst (Famio)",
+    "company": "Gismart",
+    "locations": [],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-08-03",
+    "url": "https://jobs.ashbyhq.com/gismart/e6906260-4e22-440c-a48e-16153f0ad71e",
+    "source": "ashby",
+    "site": "gismart.com",
+    "industry": "gamedev",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-05",
+    "descShort": "About us: Gismart is a value-driven mobile app developer with a strong presence in the Health & Wellness, Utilities, and Music app markets. We have achieved a significant milestone of over 1 billion downloads worldwide, taking a step toward our mission of cultivating the well-being of people worldwide. With headquarters in London, UK, Gismart is a dynamic global company with a reach extending across Europe and far beyond. Our determined team comprises over 350 individuals who bring diversity, creativity, innovation, and relentless drive to the company. Gismart unites professionals from diverse backgrounds in entertainment, music, and tech, allowing us to play to each other’s strengths and…",
     "hasDesc": true
   },
   {
@@ -18266,6 +22404,69 @@ window.JOBS = [
     "seen": "2026-09-05",
     "hasRu": true,
     "descShort": "Interested? Let's talk about what we're hiring for: SkyBox Labs is looking for a Security Analyst I to join our Security team as a hands-on first line of defense in protecting our studio's and our partners' IP. You'll help operate and maintain the tooling that keeps our workforce and partner integrations secure. In this role, you'll be a first responder to security events and a go-to advisor for project teams who need security guidance. You'll join a tight-knit team where everyone jumps in to help each other, works with top-tier enterprise security tooling, and is genuinely excited to keep learning. If you like variety, want to work somewhere your work directly protects some of the…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-gismart-5031a3a0-4bf7-4ed6-9c04-3894463356c2",
+    "title": "Creative Producer (Radiotech)",
+    "company": "Gismart",
+    "locations": [],
+    "remote": true,
+    "rkind": "worldwide",
+    "salary": null,
+    "posted": "2026-07-29",
+    "url": "https://jobs.ashbyhq.com/gismart/5031a3a0-4bf7-4ed6-9c04-3894463356c2",
+    "source": "ashby",
+    "site": "gismart.com",
+    "industry": "gamedev",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "About us: Gismart is a value-driven mobile app developer with a strong presence in the Health & Wellness, Utilities, and Music app markets. We have recently achieved a significant milestone of over 1 billion downloads worldwide, taking a step toward our mission of cultivating the well-being of people worldwide. With headquarters in London, UK, Gismart is a dynamic global company with a reach extending across Europe and far beyond. Our determined team comprises over 250 individuals who bring diversity, creativity, innovation, and relentless drive to the company. Gismart unites professionals from diverse backgrounds in entertainment, music, and tech, allowing us to play to each other’s…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-gismart-4fc824d3-4c39-4dc6-b408-d3643621d6c9",
+    "title": "Product Manager (Radiotech)",
+    "company": "Gismart",
+    "locations": [],
+    "remote": true,
+    "rkind": "worldwide",
+    "salary": null,
+    "posted": "2026-07-29",
+    "url": "https://jobs.ashbyhq.com/gismart/4fc824d3-4c39-4dc6-b408-d3643621d6c9",
+    "source": "ashby",
+    "site": "gismart.com",
+    "industry": "gamedev",
+    "role": "Продакт",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT US Gismart is a value-driven mobile app developer with a strong presence in the Health & Wellness, Utilities, and Music app markets. We have recently reached an important milestone of 1B+ downloads worldwide, moving closer to our mission of supporting people on their self-improvement journeys. Headquartered in London, Gismart is a global company with a team of 400+ people across Europe and beyond. We bring together professionals from entertainment, music, and tech backgrounds, combining creativity, product thinking, and strong execution to build apps used by millions of people worldwide. Our mission is to become a stepping stone on our customers’ journeys of self-improvement. OUR…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-gismart-55e18b19-856d-45b7-858a-5496fe3b3cc9",
+    "title": "Product Marketing Manager (Radiotech)",
+    "company": "Gismart",
+    "locations": [],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-07-29",
+    "url": "https://jobs.ashbyhq.com/gismart/55e18b19-856d-45b7-858a-5496fe3b3cc9",
+    "source": "ashby",
+    "site": "gismart.com",
+    "industry": "gamedev",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-05",
+    "descShort": "ABOUT US Gismart is a value-driven mobile app developer with a strong presence in the Health & Wellness, Utilities, and Music app markets. We have recently reached an important milestone of 1B+ downloads worldwide, moving closer to our mission of supporting people on their self-improvement journeys. Headquartered in London, Gismart is a global company with a team of 400+ people across Europe and beyond. We bring together professionals from entertainment, music, and tech backgrounds, combining creativity, product thinking, and strong execution to build apps used by millions of people worldwide. Our mission is to become a stepping stone on our customers’ journeys of self-improvement. OUR…",
     "hasDesc": true
   },
   {
