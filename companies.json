@@ -1313,5 +1313,288 @@
     "enabled": true,
     "industry": "fintech",
     "kind": "Платежи"
+  },
+  {
+    "name": "Gismart",
+    "ats": "ashby",
+    "token": "gismart",
+    "site": "gismart.com",
+    "enabled": true,
+    "industry": "gamedev"
+  },
+  {
+    "name": "Roblox",
+    "ats": "greenhouse",
+    "token": "roblox",
+    "site": "roblox.com",
+    "enabled": true,
+    "industry": "gamedev"
+  },
+  {
+    "name": "Discord",
+    "ats": "greenhouse",
+    "token": "discord",
+    "site": "discord.com",
+    "enabled": true,
+    "industry": "gamedev"
+  },
+  {
+    "name": "Twitch",
+    "ats": "greenhouse",
+    "token": "twitch",
+    "site": "twitch.tv",
+    "enabled": true,
+    "industry": "gamedev"
+  },
+  {
+    "name": "Remedy",
+    "ats": "greenhouse",
+    "token": "remedy",
+    "site": "remedygames.com",
+    "enabled": true,
+    "industry": "gamedev"
+  },
+  {
+    "name": "Rain",
+    "ats": "ashby",
+    "token": "rain",
+    "site": "rain.bh",
+    "enabled": true,
+    "industry": "fintech",
+    "kind": "Крипта"
+  },
+  {
+    "name": "Tether",
+    "ats": "recruitee",
+    "token": "tether",
+    "site": "tether.io",
+    "enabled": true,
+    "industry": "fintech",
+    "kind": "Крипта"
+  },
+  {
+    "name": "Trust Wallet",
+    "ats": "ashby",
+    "token": "trust-wallet",
+    "site": "trustwallet.com",
+    "enabled": true,
+    "industry": "fintech",
+    "kind": "Крипта"
+  },
+  {
+    "name": "1inch",
+    "ats": "lever",
+    "token": "1inch",
+    "site": "1inch.io",
+    "enabled": true,
+    "industry": "fintech",
+    "kind": "Крипта"
+  },
+  {
+    "name": "Paxos",
+    "ats": "ashby",
+    "token": "paxos",
+    "site": "paxos.com",
+    "enabled": true,
+    "industry": "fintech",
+    "kind": "Крипта"
+  },
+  {
+    "name": "Anchorage",
+    "ats": "lever",
+    "token": "anchorage",
+    "site": "anchorage.com",
+    "enabled": true,
+    "industry": "fintech",
+    "kind": "Крипта"
+  },
+  {
+    "name": "Elliptic",
+    "ats": "ashby",
+    "token": "elliptic",
+    "site": "elliptic.co",
+    "enabled": true,
+    "industry": "fintech",
+    "kind": "Крипта"
+  },
+  {
+    "name": "ComplyAdvantage",
+    "ats": "greenhouse",
+    "token": "complyadvantage",
+    "site": "complyadvantage.com",
+    "enabled": true,
+    "industry": "fintech",
+    "kind": "Платежи"
+  },
+  {
+    "name": "Veriff",
+    "ats": "greenhouse",
+    "token": "veriff",
+    "site": "veriff.com",
+    "enabled": true,
+    "industry": "fintech",
+    "kind": "Платежи"
+  },
+  {
+    "name": "Fourthline",
+    "ats": "greenhouse",
+    "token": "fourthline",
+    "site": "fourthline.com",
+    "enabled": true,
+    "industry": "fintech",
+    "kind": "Платежи"
+  },
+  {
+    "name": "SEON",
+    "ats": "ashby",
+    "token": "seon",
+    "site": "seon.io",
+    "enabled": true,
+    "industry": "fintech",
+    "kind": "Платежи"
+  },
+  {
+    "name": "Feedzai",
+    "ats": "greenhouse",
+    "token": "feedzai",
+    "site": "feedzai.com",
+    "enabled": true,
+    "industry": "fintech",
+    "kind": "Платежи"
+  },
+  {
+    "name": "Riskified",
+    "ats": "greenhouse",
+    "token": "riskified",
+    "site": "riskified.com",
+    "enabled": true,
+    "industry": "fintech",
+    "kind": "Платежи"
+  },
+  {
+    "name": "Forter",
+    "ats": "greenhouse",
+    "token": "forter",
+    "site": "forter.com",
+    "enabled": true,
+    "industry": "fintech",
+    "kind": "Платежи"
+  },
+  {
+    "name": "Lunar",
+    "ats": "ashby",
+    "token": "lunar",
+    "site": "lunar.app",
+    "enabled": true,
+    "industry": "fintech",
+    "kind": "Банки"
+  },
+  {
+    "name": "Fineco",
+    "ats": "recruitee",
+    "token": "fineco",
+    "site": "finecobank.com",
+    "enabled": true,
+    "industry": "fintech",
+    "kind": "Банки"
+  },
+  {
+    "name": "Shift Technology",
+    "ats": "greenhouse",
+    "token": "shifttechnology",
+    "site": "shift-technology.com",
+    "enabled": true,
+    "industry": "fintech",
+    "kind": "Платежи"
+  },
+  {
+    "name": "Memo Bank",
+    "ats": "recruitee",
+    "token": "memo",
+    "site": "memo.bank",
+    "enabled": true,
+    "industry": "fintech",
+    "kind": "Банки"
+  },
+  {
+    "name": "Bitvavo",
+    "ats": "ashby",
+    "token": "bitvavo",
+    "site": "bitvavo.com",
+    "enabled": true,
+    "industry": "fintech",
+    "kind": "Крипта"
+  },
+  {
+    "name": "Solaris",
+    "ats": "greenhouse",
+    "token": "solarisbank",
+    "site": "solarisbank.com",
+    "enabled": true,
+    "industry": "fintech",
+    "kind": "Банки"
+  },
+  {
+    "name": "Moonfare",
+    "ats": "greenhouse",
+    "token": "moonfare",
+    "site": "moonfare.com",
+    "enabled": true,
+    "industry": "fintech",
+    "kind": "Банки"
+  },
+  {
+    "name": "Upvest",
+    "ats": "ashby",
+    "token": "upvest",
+    "site": "upvest.co",
+    "enabled": true,
+    "industry": "fintech",
+    "kind": "Банки"
+  },
+  {
+    "name": "Wayflyer",
+    "ats": "ashby",
+    "token": "wayflyer",
+    "site": "wayflyer.com",
+    "enabled": true,
+    "industry": "fintech",
+    "kind": "Платежи"
+  },
+  {
+    "name": "Bitso",
+    "ats": "greenhouse",
+    "token": "bitso",
+    "site": "bitso.com",
+    "enabled": true,
+    "industry": "fintech",
+    "kind": "Платежи"
+  },
+  {
+    "name": "Belvo",
+    "ats": "ashby",
+    "token": "belvo",
+    "site": "belvo.com",
+    "enabled": true,
+    "industry": "fintech",
+    "kind": "Платежи"
+  },
+  {
+    "name": "Nubank",
+    "ats": "ashby",
+    "token": "nubank",
+    "site": "nubank.com.br",
+    "enabled": true,
+    "industry": "fintech",
+    "kind": "Банки"
+  },
+  {
+    "name": "dLocal",
+    "ats": "lever",
+    "token": "dlocal",
+    "site": "dlocal.com",
+    "enabled": true,
+    "industry": "fintech",
+    "kind": "Платежи"
   }
 ]

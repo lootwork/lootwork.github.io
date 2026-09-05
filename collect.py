@@ -3359,9 +3359,9 @@ CAREER_PATHS = ["/careers", "/careers/", "/jobs", "/jobs/", "/career", "/company
 
 
 def token_guesses(name: str, site: str):
-    """Многие студии рисуют страницу карьеры скриптом, и ссылки на доску
-    в исходнике не видно. Но адрес доски почти всегда собран из имени студии,
-    поэтому проще постучаться напрямую и посмотреть, кто ответит."""
+    """Адрес доски почти всегда собран из имени компании. Вариантов держим
+    немного: на непопавшую компанию иначе уходит по тридцать запросов,
+    а это и есть та самая долгая часть перебора."""
     base = re.sub(r"^https?://(www\.)?", "", site).split("/")[0].split(".")[0]
     words = re.sub(r"[^a-zA-Z0-9 ]", " ", name).split()
     plain = "".join(w.lower() for w in words)
@@ -3369,52 +3369,103 @@ def token_guesses(name: str, site: str):
     pascal = "".join(w.capitalize() for w in words)
 
     out = []
-    for c in [base, plain, hyphen, pascal, base.capitalize(), plain + "careers", base + "jobs"]:
+    for c in [base, plain, hyphen, pascal]:
         if c and c not in out:
             out.append(c)
-    return out[:6]
+    return out[:4]
+
+
+GUESS_LOG = HERE / "guess-progress.json"
+
+
+def read_progress():
+    """Кого уже проверяли. Нужно, чтобы прерванный перебор можно было
+    продолжить с места обрыва, а не гонять всё заново."""
+    try:
+        return json.loads(GUESS_LOG.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
 
 
 def guess_many(source: str):
-    """Перебор: для каждой студии пробуем несколько вариантов адреса
-    в каждой системе найма. Долго, но находит тех, кого не видно со страницы."""
+    """Перебор: для каждой компании пробуем несколько вариантов адреса
+    в каждой системе найма."""
     from pathlib import Path as _P
     f = _P(source)
     lines = f.read_text(encoding="utf-8").splitlines() if f.exists() else [source]
 
-    found = []
-    for line in lines:
-        line = line.strip()
-        if not line or line.startswith("#"):
-            continue
-        name, _, site = line.rpartition("|")
-        site = (site or line).strip()
-        name = name.strip() or site.split(".")[0].title()
+    done = read_progress()
+    found, checked, offline = [], 0, 0
 
-        hit = None
-        for token in token_guesses(name, site):
-            for ats in ("greenhouse", "lever", "ashby", "workable", "recruitee"):
-                try:
-                    jobs = FETCHERS[ats]({"name": "проверка", "token": token, "site": ""})
-                except Exception:
-                    continue
-                if jobs:
-                    hit = {"name": name, "ats": ats, "token": token,
-                           "site": site, "enabled": True}
-                    print(f"  OK   {name:<26} {ats}/{token} — вакансий: {len(jobs)}")
+    def save():
+        try:
+            GUESS_LOG.write_text(json.dumps(done, ensure_ascii=False), encoding="utf-8")
+        except Exception:
+            pass
+
+    try:
+        for line in lines:
+            line = line.strip()
+            if not line or line.startswith("#"):
+                continue
+            name, _, site = line.rpartition("|")
+            site = (site or line).strip()
+            name = name.strip() or site.split(".")[0].title()
+
+            was = done.get(name)
+            if was and was.get("state") in ("ok", "none"):
+                continue                      # уже проверяли — пропускаем
+
+            hit, network_fail = None, 0
+            for token in token_guesses(name, site):
+                for ats in ("greenhouse", "lever", "ashby", "workable", "recruitee"):
+                    try:
+                        jobs = FETCHERS[ats]({"name": "проверка", "token": token, "site": ""})
+                    except Exception as e:
+                        # Обрыв связи — это не «доски нет». Такую компанию
+                        # пометим отдельно и проверим при следующем запуске.
+                        if "Name or service" in str(e) or "onnection" in str(e) \
+                           or "imed out" in str(e) or "Max retries" in str(e):
+                            network_fail += 1
+                        continue
+                    if jobs:
+                        hit = {"name": name, "ats": ats, "token": token,
+                               "site": site, "enabled": True}
+                        print(f"  OK   {name:<26} {ats}/{token} — вакансий: {len(jobs)}")
+                        break
+                if hit:
                     break
+
+            checked += 1
             if hit:
-                break
-        if not hit:
-            print(f"  нет  {name}")
-        else:
-            found.append(hit)
-        time.sleep(PAUSE / 3)
+                done[name] = {"state": "ok", **hit}
+                found.append(hit)
+            elif network_fail > 6:
+                done[name] = {"state": "offline"}     # проверим ещё раз потом
+                offline += 1
+                print(f"  сеть {name}")
+            else:
+                done[name] = {"state": "none"}
+                print(f"  нет  {name}")
+
+            if checked % 10 == 0:
+                save()
+            time.sleep(PAUSE / 3)
+    except KeyboardInterrupt:
+        print("\nОстановлено. Проверенные компании запомнены — "
+              "запусти ту же команду ещё раз, продолжит с этого места.")
+    finally:
+        save()
 
     print("\n" + "=" * 60)
-    print(f"Угадано студий: {len(found)}. Строки для companies.json:\n")
-    for row in found:
-        print("  " + json.dumps(row, ensure_ascii=False) + ",")
+    print(f"Проверено за этот запуск: {checked}. Найдено: {len(found)}."
+          + (f" Не ответила сеть: {offline} — их перепроверю при следующем запуске."
+             if offline else ""))
+    already = [v for v in done.values() if v.get("state") == "ok"]
+    print(f"Всего найдено за всё время: {len(already)}. Строки для companies.json:\n")
+    for row in already:
+        clean = {k: v for k, v in row.items() if k != "state"}
+        print("  " + json.dumps(clean, ensure_ascii=False) + ",")
 
 
 def detect_many(source: str):
