@@ -435,6 +435,75 @@ PAY_RANGE = re.compile(
 PER_HOUR = re.compile(r"\bhourly\b|\bper hour\b|\bв час\b", re.I)
 
 
+# Курсы для приведения к одной валюте. Точность тут не нужна: фильтр
+# по диапазону, а не бухгалтерия. Раз в год стоит поправить.
+TO_USD = {
+    "$": 1.0, "USD": 1.0, "CA$": 0.73, "CAD": 0.73, "A$": 0.66, "AUD": 0.66,
+    "€": 1.08, "EUR": 1.08, "£": 1.27, "GBP": 1.27, "PLN": 0.25, "zł": 0.25,
+    "SEK": 0.095, "CZK": 0.043, "₽": 0.011, "RUB": 0.011, "₴": 0.024,
+    "UAH": 0.024, "₸": 0.002, "KZT": 0.002, "CHF": 1.13, "NOK": 0.092,
+    "DKK": 0.145, "SGD": 0.74, "₪": 0.27, "ILS": 0.27, "TRY": 0.029,
+    "₺": 0.029, "BRL": 0.18, "MXN": 0.05, "INR": 0.012, "₹": 0.012,
+    "¥": 0.0067, "JPY": 0.0067, "KRW": 0.00073, "₩": 0.00073,
+}
+
+PER_MONTH = re.compile(r"в месяц|per month|/month|monthly|/мес", re.I)
+PER_HOUR_PAY = re.compile(r"в час|per hour|/hour|hourly", re.I)
+
+# В этих валютах вилку почти всегда называют за месяц, даже не подписывая:
+# «23 700 – 37 000 PLN» — это месячная зарплата, а не годовая.
+MONTHLY_CUR = {"PLN", "zł", "₽", "RUB", "₴", "UAH", "₸", "KZT", "CZK",
+               "TRY", "₺", "INR", "₹"}
+
+
+def pay_range(salary: str):
+    """Вытаскиваем из строки зарплаты числа и приводим к годовым долларам.
+    Нужно, чтобы человек мог отфильтровать вакансии по диапазону, а не
+    только по наличию вилки."""
+    if not salary:
+        return None
+    txt = str(salary)
+    cur, cur_mark = 1.0, "$"
+    for mark, rate in sorted(TO_USD.items(), key=lambda kv: -len(kv[0])):
+        if mark in txt:
+            cur, cur_mark = rate, mark
+            break
+
+    nums = []
+    for raw in re.findall(r"\d[\d\s\u00a0.,]*[KkКк]?", txt):
+        token = raw.strip()
+        mult = 1000 if token[-1] in "KkКк" else 1
+        digits = re.sub(r"[^\d.]", "", token.rstrip("KkКк"))
+        if not digits:
+            continue
+        try:
+            val = float(digits)
+        except ValueError:
+            continue
+        nums.append(val * mult)
+
+    hourly = bool(PER_HOUR_PAY.search(txt))
+    if not hourly:
+        nums = [n for n in nums if n >= 100]   # проценты и «401(k)» отсекаем
+    if not nums:
+        return None
+
+    lo, hi = min(nums), max(nums)
+    if hourly:
+        lo, hi = lo * 2000, hi * 2000
+    elif PER_MONTH.search(txt):
+        lo, hi = lo * 12, hi * 12
+    elif cur_mark in MONTHLY_CUR and hi * cur < 40_000:
+        # Период не указан, но для этой валюты сумма слишком мала для года
+        lo, hi = lo * 12, hi * 12
+
+    lo, hi = int(lo * cur), int(hi * cur)
+    # Явная чушь: годовая вилка ниже пяти тысяч или выше двух миллионов
+    if hi < 5000 or lo > 2_000_000:
+        return None
+    return lo, hi
+
+
 def salary_from_text(desc):
     if not desc:
         return None
@@ -1422,6 +1491,9 @@ def collect(companies, verify_links: bool):
         j["grade"] = classify_grade(j["title"])
         j["spec"] = (classify_fin_spec(j["title"], role) if industry == "fintech"
                      else classify_spec(j["title"], role))
+        pay = pay_range(j.get("salary"))
+        if pay:
+            j["payMin"], j["payMax"] = pay
         if needs_permit(j):
             j["permit"] = True
             # «Удалёнка по миру» и «нужно право работать в стране» вместе
@@ -1965,6 +2037,10 @@ def tg_summary(j):
     Человек в ленте должен понять, о чём вакансия, не открывая ссылку."""
     text = j.get("_ru") or j.get("desc") or ""
     if not text:
+        return "", []
+    # Если перевода нет, а описание на корейском или китайском — в посте от него
+    # никакого толку. Лучше короткий пост с фактами, чем стена иероглифов.
+    if not j.get("_ru") and j.get("lang") not in (None, "ru", "en"):
         return "", []
 
     sections = tg_sections(text)
