@@ -13,6 +13,12 @@ on:
 permissions:
   contents: write
 
+# Два сбора одновременно записывают одни и те же файлы и роняют друг друга.
+# Новый запуск ждёт, пока закончится текущий.
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
 jobs:
   collect:
     runs-on: ubuntu-latest
@@ -49,8 +55,14 @@ jobs:
             # Тогда обычная отправка отклоняется — сначала забираем чужие
             # изменения, свои кладём поверх, и только потом отправляем.
             for i in 1 2 3; do
-              git pull --rebase --autostash origin main && git push && exit 0
-              echo "Попытка $i не прошла, пробую ещё раз"
+              git push && exit 0
+              echo "Попытка $i: в репозитории есть чужие изменения, переношу свои поверх"
+              # Файлы результата всегда наши целиком, поэтому не сливаем их
+              # построчно, а просто переставляем свой коммит на свежую вершину.
+              git fetch origin main
+              git reset --soft origin/main
+              git add -A
+              git commit -m "Вакансии: обновление $(date +%F)" || true
               sleep 5
             done
             echo "Не удалось отправить результат"
