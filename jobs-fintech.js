@@ -1,10 +1,89 @@
 // jobs-fintech.js — сгенерировано collect.py, руками не править.
-// Отрасль: fintech. Обновлено: 2026-09-10. Вакансий: 2586.
+// Отрасль: fintech. Обновлено: 2026-09-10. Вакансий: 2633.
 
 window.JOBS_FINTECH_UPDATED = "2026-09-10";
-window.JOBS_FINTECH_STUDIOS = 96;
+window.JOBS_FINTECH_STUDIOS = 98;
 
 window.JOBS_FINTECH = [
+  {
+    "id": "wk-starling-bank-E599713230",
+    "title": "Senior Card Payments Specialist",
+    "company": "Starling Bank",
+    "locations": [
+      "London, United Kingdom"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://apply.workable.com/j/E599713230",
+    "source": "workable",
+    "site": "starlingbank.com",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Платежи",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Starling is the UK’s first and leading digital bank on a mission to fix banking! We built a new kind of bank because we knew technology had the power to help people save, spend and manage their money in a new and transformative way. We’re a fully licensed UK bank with the culture and spirit of a fast-moving, disruptive tech company. We’re a bank, but better: fairer, easier to use and designed to demystify money for everyone. We employ more than 3,000 people across our London, Southampton, Cardiff and Manchester offices. Our technologists are at the very heart of Starling and enjoy working in a fast-paced environment that is all about building things, creating new stuff, and disruptive…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-n26-8163939",
+    "title": "Junior iOS Engineer - Payments",
+    "company": "N26",
+    "locations": [
+      "Berlin"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://n26.com/en-eu/careers/positions/8163939?gh_jid=8163939",
+    "site": "n26.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Junior",
+    "spec": "Платежи",
+    "stack": [
+      "Swift"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "About the Opportunity You will work in the Everyday Banking domain, within the Payments Team. This is where all payment and card transactions are being managed and processed by modern & high-volume systems that power the best customer experience possible. These teams make banking easy, reliable, seamless and secure - everyday for every customer. This is a hybrid role from Barcelona or Berlin. Our cross-functional teams are passionate about collaboration and sharing knowledge, as well as working with a high degree of autonomy. As an iOS Engineer at N26, you will be encouraged to embrace the latest technological updates and given a platform to work on complex, interesting problems on a daily…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-adyen-7255277",
+    "title": "Engineering Manager, Capital",
+    "company": "Adyen",
+    "locations": [
+      "San Francisco"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 250 000 – 293 000",
+    "posted": "2026-09-10",
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/7255277",
+    "site": "adyen.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "payMin": 250000,
+    "payMax": 293000,
+    "permit": true,
+    "stack": [
+      "Java"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. Engineering Manager, Capital We’re looking for an Engineering…",
+    "hasDesc": true
+  },
   {
     "id": "gh-adyen-8147288",
     "title": "Senior Product Manager, Banking",
@@ -87,27 +166,29 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-gocardless-8059763",
-    "title": "Fraud Investigator (12-month FTC)",
+    "id": "gh-gocardless-8190692",
+    "title": "Junior Data Analyst",
     "company": "GoCardless",
     "locations": [
       "Riga, Latvia"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "€ 1 600 – 2 400",
+    "salary": null,
     "posted": "2026-09-10",
-    "url": "https://job-boards.greenhouse.io/gocardless/jobs/8059763",
+    "url": "https://job-boards.greenhouse.io/gocardless/jobs/8190692",
     "site": "gocardless.com",
     "source": "greenhouse",
     "industry": "fintech",
     "kind": "Платежи",
-    "role": "Антифрод",
-    "grade": null,
+    "role": "Данные и ML",
+    "grade": "Junior",
     "spec": null,
-    "stack": [],
+    "stack": [
+      "SQL"
+    ],
     "seen": "2026-09-10",
-    "descShort": "About us GoCardless is a global bank payment company. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send bank payments through Direct Debit, real-time payments and open banking. With US$130bn+ processed annually across 30+ countries, we handle recurring and one-off payments without the chasing, stress, or expensive fees. Our end-to-end payment platform also features AI-powered solutions to improve payment success and reduce fraud, alongside connections to over 350 platforms businesses use everyday. We are headquartered in the UK, with teams and operations spanning North America, Europe and Asia-Pacific. The role The Fraud Risk Management…",
+    "descShort": "About us GoCardless is a global bank payment company. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send bank payments through Direct Debit, real-time payments and open banking. With US$130bn+ processed annually across 30+ countries, we handle recurring and one-off payments without the chasing, stress, or expensive fees. Our end-to-end payment platform also features AI-powered solutions to improve payment success and reduce fraud, alongside connections to over 350 platforms businesses use everyday. We are headquartered in the UK, with teams and operations spanning North America, Europe and Asia-Pacific. The Role We are looking for a Junior…",
     "hasDesc": true
   },
   {
@@ -245,6 +326,33 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-10",
     "descShort": "About us GoCardless is a global bank payment company. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send bank payments through Direct Debit, real-time payments and open banking. With US$130bn+ processed annually across 30+ countries, we handle recurring and one-off payments without the chasing, stress, or expensive fees. Our end-to-end payment platform also features AI-powered solutions to improve payment success and reduce fraud, alongside connections to over 350 platforms businesses use everyday. We are headquartered in the UK, with teams and operations spanning North America, Europe and Asia-Pacific. The role Our mission is to make…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-gocardless-8190764",
+    "title": "Salesforce Developer",
+    "company": "GoCardless",
+    "locations": [
+      "Riga, Latvia"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "€ 2 600 – 3 900",
+    "posted": "2026-09-10",
+    "url": "https://job-boards.greenhouse.io/gocardless/jobs/8190764",
+    "site": "gocardless.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Java",
+      "JavaScript"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "About us GoCardless is a global bank payment company. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send bank payments through Direct Debit, real-time payments and open banking. With US$130bn+ processed annually across 30+ countries, we handle recurring and one-off payments without the chasing, stress, or expensive fees. Our end-to-end payment platform also features AI-powered solutions to improve payment success and reduce fraud, alongside connections to over 350 platforms businesses use everyday. We are headquartered in the UK, with teams and operations spanning North America, Europe and Asia-Pacific. The role As a GoCardless Salesforce…",
     "hasDesc": true
   },
   {
@@ -467,6 +575,34 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "lv-zopa-2780e3ac-4dad-4cb5-a1af-fb868913e8cc",
+    "title": "iOS Engineer - Swift",
+    "company": "Zopa",
+    "locations": [
+      "London"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://jobs.lever.co/zopa/2780e3ac-4dad-4cb5-a1af-fb868913e8cc",
+    "source": "lever",
+    "site": "zopa.com",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Мобильная",
+    "permit": true,
+    "stack": [
+      "Kotlin",
+      "Swift"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Our Story Hello there. We’re Zopa. We started our journey back in 2005, building the first ever peer-to-peer lending company. Fast forward to 2020 and we launched Zopa Bank. A bank that listens to what our customers don’t like about finance and does the opposite. We’re redefining what it feels like to work in finance. Our vision for a new era of banking puts people front and centre — we’ve built a business that empowers everyone to aim high, every day, to move finance forward. Find out more about our fantastic offerings at Zopa.com! We’re incredibly proud of our achievements and none of it would be possible without the amazing team here. It’s not just industry awards we’re winning, we’ve…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-payoneer-8185359",
     "title": "Platform Enablement & Automation Engineer",
     "company": "Payoneer",
@@ -523,6 +659,80 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-sumup-8794667002",
+    "title": "Brand Marketing Designer - (Fixed Contract 12 months)",
+    "company": "SumUp",
+    "locations": [
+      "London, United Kingdom"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://sumup.com/careers/positions/8794667002?gh_jid=8794667002",
+    "site": "sumup.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Дизайн",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Figma"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Office setup: Office-first 12 months Fixed Contract About the team The Central Marketing Creative Team sits at the heart of how SumUp shows up in the world, shaping the visual identity of a brand trusted by over 4 million small businesses across 37 markets. Within the team, the Brand pillar owns everything from campaign creative and social content to event design and brand governance, ensuring SumUp looks and feels consistent wherever it appears. We're a collaborative, craft-focused group that moves fast, holds high standards, and genuinely cares about the quality of what we put out, and this role sits right at the centre of that. This is an opportunity to join a high-output creative team…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-sumup-8700250002",
+    "title": "People Operations Analyst",
+    "company": "SumUp",
+    "locations": [
+      "São Paulo, Brazil"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://sumup.com/careers/positions/8700250002?gh_jid=8700250002",
+    "site": "sumup.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Team description Our People Operations team keeps the essentials of the employee experience running smoothly across Brazil and Chile, from a new hire's first day through to the benefits that support them every day. The São Paulo team is going through an exciting shift, replacing manual, fragmented work with smarter, automated processes, so there's real room here to build better systems rather than just maintain old ones. As the person owning onboarding and benefits for Brazil, the work shapes how every new SumUpper starts their journey and how existing employees experience their day to day wellbeing, with the chance to also support the Chile team as shared processes come online. What you'll…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-sumup-8727427002",
+    "title": "Performance Marketing Working Student – Talent Acquisition",
+    "company": "SumUp",
+    "locations": [
+      "Berlin, Germany"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://sumup.com/careers/positions/8727427002?gh_jid=8727427002",
+    "site": "sumup.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Performance Marketing Working Student – Talent Acquisition Location: Berlin Employment type: Working student, 20 hours/week Take a look at where you'll be based: watch the Berlin office tour Team description Talent Acquisition's Performance Marketing function helps attract the right candidates efficiently across different markets and roles. As we continue to strengthen our in-house capabilities, you'll support day-to-day campaign operations, reporting and continuous improvement. You'll work closely with teams across Talent Acquisition and Employer branding, gaining hands-on experience in how data, digital marketing and operational processes support hiring at scale. What you'll do • Support…",
+    "hasDesc": true
+  },
+  {
     "id": "ab-airwallex-4546739b-1b74-4811-8048-c5b55a690391",
     "title": "Inbound Sales Representative, SME & Growth (Mandarin speaking)",
     "company": "Airwallex",
@@ -542,6 +752,156 @@ window.JOBS_FINTECH = [
     "grade": null,
     "spec": null,
     "permit": true,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "ABOUT AIRWALLEX Airwallex is the only unified payments and financial platform for global businesses. Powered by our unique combination of proprietary infrastructure and software, we empower over 250,000 businesses worldwide – including Brex, Navan, Qantas, SHEIN and many more – with fully integrated solutions to manage everything from business accounts, payments, spend management and treasury, to embedded finance at a global scale. Proudly founded in Melbourne, we have a team of over 2,300 of the brightest and most innovative people in tech across 27 offices around the globe. Valued at US$11 billion and backed by world-leading investors including T. Rowe Price, Visa, Mastercard, Robinhood…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-airwallex-741af157-0000-4097-b13c-1e4677a7db49",
+    "title": "Director, Channel Partnerships, SME & Growth, Americas",
+    "company": "Airwallex",
+    "locations": [
+      "Mexico City"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://jobs.ashbyhq.com/airwallex/741af157-0000-4097-b13c-1e4677a7db49",
+    "source": "ashby",
+    "site": "airwallex.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Маркетинг",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "ABOUT AIRWALLEX Airwallex is the only unified payments and financial platform for global businesses. Powered by our unique combination of proprietary infrastructure and software, we empower over 250,000 businesses worldwide – including Brex, Navan, Qantas, SHEIN and many more – with fully integrated solutions to manage everything from business accounts, payments, spend management and treasury, to embedded finance at a global scale. Proudly founded in Melbourne, we have a team of over 2,300 of the brightest and most innovative people in tech across 27 offices around the globe. Valued at US$11 billion and backed by world-leading investors including T. Rowe Price, Visa, Mastercard, Robinhood…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-airwallex-0de376ae-87e3-4876-852f-65f88c67002d",
+    "title": "Account Executive, Enterprise (Payments)",
+    "company": "Airwallex",
+    "locations": [
+      "London"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://jobs.ashbyhq.com/airwallex/0de376ae-87e3-4876-852f-65f88c67002d",
+    "source": "ashby",
+    "site": "airwallex.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Платежи",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "ABOUT AIRWALLEX Airwallex is the only unified payments and financial platform for global businesses. Powered by our unique combination of proprietary infrastructure and software, we empower over 250,000 businesses worldwide – including Brex, Navan, Qantas, SHEIN and many more – with fully integrated solutions to manage everything from business accounts, payments, spend management and treasury, to embedded finance at a global scale. Proudly founded in Melbourne, we have a team of over 2,300 of the brightest and most innovative people in tech across 27 offices around the globe. Valued at US$11 billion and backed by world-leading investors including T. Rowe Price, Visa, Mastercard, Robinhood…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-airwallex-d493514c-e36a-47e3-b123-0e9abad91fe5",
+    "title": "Sales Development Representative, SME & Growth, BENELUX",
+    "company": "Airwallex",
+    "locations": [
+      "Amsterdam"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://jobs.ashbyhq.com/airwallex/d493514c-e36a-47e3-b123-0e9abad91fe5",
+    "source": "ashby",
+    "site": "airwallex.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "ABOUT AIRWALLEX Airwallex is the only unified payments and financial platform for global businesses. Powered by our unique combination of proprietary infrastructure and software, we empower over 250,000 businesses worldwide – including Brex, Navan, Qantas, SHEIN and many more – with fully integrated solutions to manage everything from business accounts, payments, spend management and treasury, to embedded finance at a global scale. Proudly founded in Melbourne, we have a team of over 2,300 of the brightest and most innovative people in tech across 27 offices around the globe. Valued at US$11 billion and backed by world-leading investors including T. Rowe Price, Visa, Mastercard, Robinhood…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-airwallex-0d3d080f-b08b-44a2-8904-2df1c7f6d7c7",
+    "title": "Account Executive, SME & Growth (Pacific Time Zone)",
+    "company": "Airwallex",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "$146K – $182K • Offers Equity • Offers Commission",
+    "posted": "2026-09-10",
+    "url": "https://jobs.ashbyhq.com/airwallex/0d3d080f-b08b-44a2-8904-2df1c7f6d7c7",
+    "source": "ashby",
+    "site": "airwallex.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "payMin": 146000,
+    "payMax": 182000,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "ABOUT AIRWALLEX Airwallex is the only unified payments and financial platform for global businesses. Powered by our unique combination of proprietary infrastructure and software, we empower over 250,000 businesses worldwide – including Brex, Navan, Qantas, SHEIN and many more – with fully integrated solutions to manage everything from business accounts, payments, spend management and treasury, to embedded finance at a global scale. Proudly founded in Melbourne, we have a team of over 2,300 of the brightest and most innovative people in tech across 27 offices around the globe. Valued at US$11 billion and backed by world-leading investors including T. Rowe Price, Visa, Mastercard, Robinhood…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-airwallex-4138a538-a314-4c13-aab3-1d1b65dbc8bc",
+    "title": "Account Executive, SME & Growth (Mountain / Central Time Zone)",
+    "company": "Airwallex",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "$146K – $182K • Offers Equity • Offers Commission",
+    "posted": "2026-09-10",
+    "url": "https://jobs.ashbyhq.com/airwallex/4138a538-a314-4c13-aab3-1d1b65dbc8bc",
+    "source": "ashby",
+    "site": "airwallex.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "payMin": 146000,
+    "payMax": 182000,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "ABOUT AIRWALLEX Airwallex is the only unified payments and financial platform for global businesses. Powered by our unique combination of proprietary infrastructure and software, we empower over 250,000 businesses worldwide – including Brex, Navan, Qantas, SHEIN and many more – with fully integrated solutions to manage everything from business accounts, payments, spend management and treasury, to embedded finance at a global scale. Proudly founded in Melbourne, we have a team of over 2,300 of the brightest and most innovative people in tech across 27 offices around the globe. Valued at US$11 billion and backed by world-leading investors including T. Rowe Price, Visa, Mastercard, Robinhood…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-airwallex-a3ff2b4b-4f17-4c82-adaf-f411a6c3d8e1",
+    "title": "Account Executive, SME & Growth (Eastern Time Zone)",
+    "company": "Airwallex",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "$146K – $182K • Offers Equity • Offers Commission",
+    "posted": "2026-09-10",
+    "url": "https://jobs.ashbyhq.com/airwallex/a3ff2b4b-4f17-4c82-adaf-f411a6c3d8e1",
+    "source": "ashby",
+    "site": "airwallex.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "payMin": 146000,
+    "payMax": 182000,
     "stack": [],
     "seen": "2026-09-10",
     "descShort": "ABOUT AIRWALLEX Airwallex is the only unified payments and financial platform for global businesses. Powered by our unique combination of proprietary infrastructure and software, we empower over 250,000 businesses worldwide – including Brex, Navan, Qantas, SHEIN and many more – with fully integrated solutions to manage everything from business accounts, payments, spend management and treasury, to embedded finance at a global scale. Proudly founded in Melbourne, we have a team of over 2,300 of the brightest and most innovative people in tech across 27 offices around the globe. Valued at US$11 billion and backed by world-leading investors including T. Rowe Price, Visa, Mastercard, Robinhood…",
@@ -572,6 +932,30 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-ebury-4970097101",
+    "title": "Credit Risk Manager - Chile",
+    "company": "Ebury",
+    "locations": [
+      "Santiago"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4970097101",
+    "site": "ebury.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Риски",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Credit Risk Manager Credit Risk Ebury Santiago Office - Hybrid: 4 days in the office, 1 day working from home per week This is a new and key senior role within the Credit Risk function and member of the local leadership team…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-ebury-4966858101",
     "title": "Developer Experience - Engineering Manager",
     "company": "Ebury",
@@ -597,6 +981,78 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-10",
     "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Engineering Manager, Developer Experience (Platform & AI) • Location: Madrid • Work Model: Hybrid (4 days in-office / 1 day WFH) About the Team The Developer Experience (DevExp) team builds and operates the foundational…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-coinbase-6873377",
+    "title": "Complaints Analyst II",
+    "company": "Coinbase",
+    "locations": [
+      "Manila, Philippines"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://www.coinbase.com/careers/positions/6873377?gh_jid=6873377",
+    "site": "coinbase.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Ready to do the most impactful work of your career? At Coinbase, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase. Job Description As a Complaints Analyst II within Customer Experience Team, you'll own the full…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-fireblocks-4678060006",
+    "title": "Senior Director, Marketing Operations",
+    "company": "Fireblocks",
+    "locations": [
+      "United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://www.fireblocks.com/careers/position?gh_jid=4678060006",
+    "site": "fireblocks.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Маркетинг",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. The Opportunity: We are looking for an innovative and hands-on leader to evolve and expand our marketing operations strategy supporting our global go-to-market motions. As team…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-bybit-4973185101",
+    "title": "Transaction Monitoring Analyst Intern",
+    "company": "Bybit",
+    "locations": [
+      "Kuala Lumpur, Malaysia"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4973185101",
+    "site": "bybit.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Аналитика",
+    "grade": "Junior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "About Us Established in 2018, Bybit is one of the world’s leading cryptocurrency exchanges and digital financial platforms, serving over 80 million users across more than 200 countries and regions. Powered by world-class technology and a user-first mindset, Bybit delivers a seamless ecosystem across trading, payments, wealth management, custody, institutional services, and Web3 — connecting users to the future of digital finance. Our core values define how we build. We listen, care and improve to create products and experiences that put users first. Backed by a global team of ambitious builders, problem-solvers, and innovators, we foster a high-performance and fast-moving environment where…",
     "hasDesc": true
   },
   {
@@ -683,6 +1139,155 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-okx-7823860003",
+    "title": "Specialist, Customer Due Diligence Operations (KYB)",
+    "company": "OKX",
+    "locations": [
+      "Dubai, United Arab Emirates"
+    ],
+    "remote": false,
+    "rkind": "hybrid",
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7823860003",
+    "site": "okx.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things Done. These shared values drive our culture, shape our processes, and foster a friendly, rewarding, and diverse environment for every…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-stripe-7913698",
+    "title": "Product Manager, Sail Core",
+    "company": "Stripe",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://stripe.com/jobs/search?gh_jid=7913698",
+    "site": "stripe.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Продакт",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. About the team Sail Core builds Stripe's frontend platform—the data layer, navigation, observability, and developer tooling that 50+ product teams use to ship web applications…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-stripe-8042309",
+    "title": "Program Manager, GTM Strategic Programs",
+    "company": "Stripe",
+    "locations": [
+      "Chicago"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://stripe.com/jobs/search?gh_jid=8042309",
+    "site": "stripe.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Продюсирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "SQL"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. About the team The Go-to-Market (GTM) Strategic Programs team supports Stripe's mission (to \"Increase the GDP of the internet\") by building GTM strategy, bringing it to life…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-stripe-7208537",
+    "title": "Software Engineer, Money Movement",
+    "company": "Stripe",
+    "locations": [
+      "London"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://stripe.com/jobs/search?gh_jid=7208537",
+    "site": "stripe.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world's largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. About the team Exact team matching for one of the subteams within the following orgs will begin during final stages. If you have a strong preference for a specific org, please…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-stripe-6717520",
+    "title": "Software Engineer, Payments and Risk",
+    "company": "Stripe",
+    "locations": [
+      "Dublin, Ireland"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://stripe.com/jobs/search?gh_jid=6717520",
+    "site": "stripe.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Платежи",
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. About the team The Payments organization focuses on developing products and platforms that enable users to accept payments from customers efficiently. This includes building APIs…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-stripe-8035723",
+    "title": "Staff Backend Engineer, Datalake Platform",
+    "company": "Stripe",
+    "locations": [
+      "Dublin"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://stripe.com/jobs/search?gh_jid=8035723",
+    "site": "stripe.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Бэкенд",
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Who We Are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies — from the world's largest enterprises to the most ambitious startups — use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. About the Team The Datalake team builds and maintains Stripe's foundational data access and governance infrastructure — the paved path for safe, fast, and compliant access to…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-affirm-7854608003",
     "title": "Software Engineer II, Backend (Recoveries)",
     "company": "Affirm",
@@ -709,7 +1314,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Recoveries team, as a part of the Repayments area, is on a mission to build a robust platform that will maximize the recovery of charged-off loans while monitoring, detecting and ensuring to minimize the discrepancies between us and our business partners systems. Collaborating closely with our product managers and backbook risk teams, you will effectively manage loans throughout the final phase of their lifecycle and develop and implement recovery strategies. What You'll Do · You will be responsible for owning and…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. The Recoveries team, as a part of the Repayments area, is on a mission to build a robust platform that will maximize the recovery of charged-off loans while monitoring, detecting and ensuring to minimize the discrepancies between us and our business partners systems. Collaborating closely with our product managers and backbook risk teams, you will effectively manage loans throughout the final phase of their lifecycle and develop and implement recovery strategies. What You'll Do · You will be responsible for owning…",
     "hasDesc": true
   },
   {
@@ -737,6 +1342,269 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-robinhood-8175213",
+    "title": "Engineering Manager, International",
+    "company": "Robinhood",
+    "locations": [
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8175213?t=gh_src=&gh_jid=8175213",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Junior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-7456663",
+    "title": "Finance & Strategy Senior Analyst",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7456663?t=gh_src=&gh_jid=7456663",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Аналитика",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8084381",
+    "title": "Senior Android Engineer, Wallet",
+    "company": "Robinhood",
+    "locations": [
+      "Toronto, Canada"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8084381?t=gh_src=&gh_jid=8084381",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Мобильная",
+    "stack": [
+      "Java",
+      "Kotlin"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8060703",
+    "title": "Senior Compensation Analyst",
+    "company": "Robinhood",
+    "locations": [
+      "Chicago, United States",
+      "Menlo Park, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8060703?t=gh_src=&gh_jid=8060703",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Аналитика",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-7747728",
+    "title": "Senior Product Manager, Money Movement",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/7747728?t=gh_src=&gh_jid=7747728",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Продакт",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8189059",
+    "title": "Senior Software Engineer, Tokenization",
+    "company": "Robinhood",
+    "locations": [
+      "Toronto, Canada"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8189059?t=gh_src=&gh_jid=8189059",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "Java",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8048650",
+    "title": "Senior Tax Operations Analyst",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8048650?t=gh_src=&gh_jid=8048650",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Аналитика",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "SQL"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8072892",
+    "title": "Senior Treasury Analyst",
+    "company": "Robinhood",
+    "locations": [
+      "Chicago, United States",
+      "Menlo Park, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8072892?t=gh_src=&gh_jid=8072892",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Платежи",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8189005",
+    "title": "Software Engineer, Tokenization",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8189005?t=gh_src=&gh_jid=8189005",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "Java"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8072766",
+    "title": "Staff Data Scientist, ML (People Analytics & Insights)",
+    "company": "Robinhood",
+    "locations": [
+      "Chicago, United States",
+      "Menlo Park, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8072766?t=gh_src=&gh_jid=8072766",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Данные и ML",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-robinhood-8080377",
     "title": "Staff Data Scientist (Quantitative Researcher)",
     "company": "Robinhood",
@@ -761,6 +1629,112 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-10",
     "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-robinhood-8079744",
+    "title": "Staff Product Manager, Platform Operations",
+    "company": "Robinhood",
+    "locations": [
+      "Menlo Park, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8079744?t=gh_src=&gh_jid=8079744",
+    "site": "robinhood.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Продакт",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-toast-8176247",
+    "title": "Principal Software Engineer, IQ Grow",
+    "company": "Toast",
+    "locations": [
+      "Dublin, Ireland"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=8176247",
+    "site": "toasttab.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Java",
+      "Kotlin"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. At Toast, the IQ Grow team is on a mission to scale new, high-impact go-to-market initiatives. By combining the cutting-edge innovation of AI agentic solutions with human-in-the-loop workflows and touchpoints, we are redefining how restaurants connect with their guests. Our goal is to deliver a truly personalized marketing experience that empowers Toast customers to build lasting relationships, drive engagement and grow their businesses. If you're excited about pioneering at the intersection of advanced AI…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-toast-8190711",
+    "title": "Senior Software Engineer",
+    "company": "Toast",
+    "locations": [
+      "Dublin, Ireland"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=8190711",
+    "site": "toasttab.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Java",
+      "Kotlin"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Toast is a rapidly growing company that's revolutionizing how the restaurant industry does business by pairing technology with an extraordinary commitment to customer success. We help restaurants streamline operations, increase revenue, and deliver amazing guest experiences through our platform that combines restaurant point of sale, team management, guest-facing technology, and award-winning customer support. Join us as we empower the restaurant community to delight guests, do what they love, and thrive. We’re looking for an engineer to help build and scale Toast’s labor cost and timekeeping platforms - systems that directly influence labor spend for more than 166,000 restaurant locations.…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-toast-8154719",
+    "title": "Senior Software Engineer, Retail",
+    "company": "Toast",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=8154719",
+    "site": "toasttab.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Java",
+      "Kotlin"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Location(s): US (remote), Boston (hybrid), or New York (hybrid) - EST preferred Bready* to make a change? Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. The Retail organization at Toast is focused on building foundational technology to support a rapidly expanding vertical. We emphasize early learnings and remain closely aligned with our customers, engaging in frequent conversations with our initial retail partners to understand their needs, pain points, and feature requests. This direct feedback loop allows us to rapidly iterate and ensures we are…",
     "hasDesc": true
   },
   {
@@ -843,6 +1817,30 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-10",
     "descShort": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture new initiatives, and more. Every challenge creates possibilities, and we need different perspectives to see them all. Bring yours to Block. The Role The Cash App Engagement Marketing team builds…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-block-5183671008",
+    "title": "Onboarding Project Manager",
+    "company": "Block",
+    "locations": [
+      "Melbourne, Australia"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "http://block.xyz/careers/jobs/5183671008?gh_jid=5183671008",
+    "site": "block.xyz",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Продюсирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Since we opened our doors in 2009, the world of commerce has evolved immensely, and so has Square. After enabling anyone to take payments and never miss a sale, we saw sellers stymied by disparate, outmoded products and tools that wouldn’t work together. So we expanded into software and started building integrated, omnichannel solutions – to help sellers sell online, manage inventory, offer buy now, pay later functionality, book appointments, engage loyal buyers, and hire and pay staff. Across it all, we’ve embedded financial services tools at the point of sale, so merchants can access a business loan and manage their cash flow in one place. Afterpay furthers our goal to provide omnichannel…",
     "hasDesc": true
   },
   {
@@ -930,6 +1928,34 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-block-5196196008",
+    "title": "Staff Software Engineer, Cash App Banking",
+    "company": "Block",
+    "locations": [
+      "Toronto, Canada"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "http://block.xyz/careers/jobs/5196196008?gh_jid=5196196008",
+    "site": "block.xyz",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Java",
+      "Kotlin",
+      "AWS"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible. Today, Cash App has thousands of employees working globally across office and remote locations, with a culture geared toward innovation, collaboration and impact. We've been a distributed team…",
+    "hasDesc": true
+  },
+  {
     "id": "ab-pleo-6fe0fc7c-8fd8-4e35-ac7f-63f769d4dcee",
     "title": "Risk & Control Officer",
     "company": "Pleo",
@@ -951,6 +1977,232 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-10",
     "descShort": "ABOUT PLEO Messy spend management is tricky business. And tedious processes are a lose-lose situation for all involved, not just finance. At Pleo, we're changing that. We build spend solutions that make managing money seamless, empowering, and surprisingly effective for finance teams and employees alike - with a vision to help all businesses ‘go beyond’. The word ‘Pleo’ actually means ‘more than you’d expect’, and living by that mantra has been the secret to our success over the last 10 years. Now, we’re at a pivotal moment in our journey; every move we make has a direct impact on our 40,000+ customers, our business, and our collective success. We need people who take pride in uncovering…",
+    "hasDesc": true
+  },
+  {
+    "id": "rc-tether-2592775",
+    "title": "Backend Engineer - Wallets (100% Remote)",
+    "company": "Tether",
+    "locations": [
+      "London"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://careers.tether.io/o/backend-engineer-wallets-100-remote-31",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Бэкенд",
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
+    "hasDesc": true
+  },
+  {
+    "id": "rc-tether-2557397",
+    "title": "Backend Engineer - Wallets (100% Remote Worldwide)",
+    "company": "Tether",
+    "locations": [
+      "Dubai"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://careers.tether.io/o/backend-engineer-wallets-100-remote-hn",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Бэкенд",
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-paxos-ff0b2d69-4ecf-4b9b-80eb-6616ac11e82f",
+    "title": "Senior Solutions Engineer",
+    "company": "Paxos",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "$181,000 – $207,675 • Offers Equity • Offers Bonus • 10% Annual Bonus",
+    "posted": "2026-09-10",
+    "url": "https://jobs.ashbyhq.com/paxos/ff0b2d69-4ecf-4b9b-80eb-6616ac11e82f",
+    "source": "ashby",
+    "site": "paxos.com",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "payMin": 181000,
+    "payMax": 207675,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Applying to Paxos? Our only careers site is paxos.com/careers http://paxos.com/careers, and we only recruit via @paxos.com http://paxos.com email. Details below. ___ About Paxos Today’s financial infrastructure is archaic, expensive, inefficient and risky — supporting a system that leaves out more people than it lets in. So we’re rebuilding it. We’re on a mission to open the world’s financial system to everyone by enabling the instant movement of any asset, any time, in a trustworthy way. For over a decade, we’ve built blockchain infrastructure that tokenizes, custodies, trades and settles assets for the world’s leading financial institutions, like PayPal, Venmo, Mastercard and Interactive…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-veriff-8626079002",
+    "title": "Head of Product Marketing",
+    "company": "Veriff",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "$ 220 000 – 250 000",
+    "posted": "2026-09-10",
+    "url": "https://www.veriff.com/careers/position/8626079002?gh_jid=8626079002",
+    "site": "veriff.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Продакт",
+    "grade": "Lead",
+    "spec": null,
+    "payMin": 220000,
+    "payMax": 250000,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Veriff is the trust infrastructure platform for the world’s most innovative companies, and we need the market to understand exactly why that matters and why it matters with us rather than anyone else. The Head of Product Marketing will own that answer. This is a high-impact role at a pivotal moment: a vertical go-to-market motion is being built, and the company is sharpening its focus on segment-driven growth. Product Marketing sits at the center of it all and owns positioning, enabling Sales, shaping vertical strategy, and driving how our products go to market. This is a build-and-elevate role. You will bring structure, clarity, and commercial impact to a function that is critical to…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-veriff-8653259002",
+    "title": "Lead Product Manager, Customer Portal",
+    "company": "Veriff",
+    "locations": [
+      "Tallinn, Spain"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://www.veriff.com/careers/position/8653259002?gh_jid=8653259002",
+    "site": "veriff.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Продакт",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "About Customer Portal Customer Portal exists to make Veriff's product sell itself. The Portal serves two purposes. It allows our customers to operate Veriff products — setting up and configuring products, consulting verification session details, reporting issues. And it is a privileged surface for customers to discover, try, buy and expand through a seamless self-serve experience, connecting product usage, onboarding and growth in one place. It unites forces with GTM to automate acquisition, upsell, cross-sell and retention, with end-to-end ownership of the customer persona. The area is evolving fast. What began as a self-serve growth surface (Station) is becoming the customer-facing window…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-veriff-8725220002",
+    "title": "Senior Product Manager (Document Verification)",
+    "company": "Veriff",
+    "locations": [
+      "Tallinn, Spain"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://www.veriff.com/careers/position/8725220002?gh_jid=8725220002",
+    "site": "veriff.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Продакт",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Physical document IDV is Veriff's flagship product: how millions of people prove who they are to fintechs, marketplaces, mobility platforms, and government agencies. It's fundamentally a machine learning system: document classification, data extraction, fraud and spoofing detection, coverage across thousands of document types and alphabets. Some versions also keep a human in the loop, so decision quality depends as much on operations as on models. We are looking for a Senior Product Manager to own this core domain. You will sit directly between two demanding groups: machine learning engineers building models, and enterprise customers asking hard questions about accuracy, latency, and…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-veriff-8696103002",
+    "title": "Senior Software Engineer (Trust)",
+    "company": "Veriff",
+    "locations": [
+      "Tallinn, Spain"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://www.veriff.com/careers/position/8696103002?gh_jid=8696103002",
+    "site": "veriff.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Beneath a simple yet elegant user interface lies a complex system of functionalities. Our AI-powered product uses advanced image recognition, facial verification, face recognition, facial anti-spoofing (liveness detection), and behavior analysis to make identity decisions. We help our partners build onboarding processes that ensure good people get things done and bad folks get stopped. But knowing who someone is only gets you halfway. The next question is whether they can be trusted — and answering it means checking a person's identity data against the authoritative sources that hold the truth. Every country does this differently: a different registry, a different database, a different set…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-veriff-8609896002",
+    "title": "Senior Software Engineer - Verification Platform",
+    "company": "Veriff",
+    "locations": [
+      "Tallinn, Spain"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://www.veriff.com/careers/position/8609896002?gh_jid=8609896002",
+    "site": "veriff.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Beneath a simple yet elegant user interface lies a complex system of functionalities. Our AI-powered product uses advanced image recognition, facial verification, face recognition, facial anti-spoofing (liveness detection), and behavior analysis to make identity decisions. We help our partners build onboarding processes that ensure good people get things done and bad folks get stopped. To take our platform to the next level, we're looking for a Senior Software Engineer to join the Verification Platform team. This team owns the workflow orchestration engine and the automated verification decisioning pipeline that powers Veriff's core product — and that other product teams across Identity…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-veriff-8578293002",
+    "title": "Senior Technical Product Manager (Biometric Authentication)",
+    "company": "Veriff",
+    "locations": [
+      "USA, Spain"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://www.veriff.com/careers/position/8578293002?gh_jid=8578293002",
+    "site": "veriff.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Продакт",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Veriff is building the foundational trust layer of the internet, empowering people to safely and privately prove they are who they say they are. Our identity verification platform powers onboarding and authentication for some of the world's largest marketplaces, fintechs, and platforms. Biometric Authentication is our second-largest product, and it's how we move customers from one-time identity checks to continuous, lifecycle-long trust. THE OPPORTUNITY Biometric Authentication turns every verified user into an ongoing, secure relationship: silent re-verification, step-up authentication, and fraud prevention at the moments that matter. The product runs in production at enterprise scale…",
     "hasDesc": true
   },
   {
@@ -1004,6 +2256,56 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-10",
     "descShort": "Shift delivers AI agents that transform insurers' most critical work. By combining deep industry expertise and unmatched data resources, Shift provides proven results that have earned the trust of hundreds of the world's leading insurers. Our insurance-grade AI is accurate, explainable, and secure—empowering human experts to move with unmatched speed, total confidence, and a renewed focus on the people they serve. Your browser does not support the video tag. Our culture is built on innovation, trust, and a drive to transform the insurance industry through our SaaS platform. We come from more than 50 different countries and cultures and together we are creating the future of insurance. Learn…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-wayflyer-f0052cb0-541c-4dd4-8717-1877fa4b4e35",
+    "title": "Broker Account Manager",
+    "company": "Wayflyer",
+    "locations": [
+      "London"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://jobs.ashbyhq.com/wayflyer/f0052cb0-541c-4dd4-8717-1877fa4b4e35",
+    "source": "ashby",
+    "site": "wayflyer.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Трейдинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "ABOUT WAYFLYER Today's small businesses need a capital provider that keeps pace with their growth ambitions. Traditional financing options are slow, cumbersome and often out of reach. That's why we built Wayflyer. Our technology allows us to assess businesses in minutes, generate financing offers that reflect their growth potential and send funds in as little as 24 hours. To date, we've deployed over $6bn to thousands of businesses worldwide, backed by Tier 1 banks like J.P. Morgan. You'll be collaborating with ambitious colleagues from around the world. We have offices in Dublin, London, New York, Charlotte, Berlin and Sydney. The challenge The Broker Channel is Wayflyer's fastest-growing…",
+    "hasDesc": true
+  },
+  {
+    "id": "lv-dlocal-e6c41d1a-c41b-4845-a40f-c75340874372",
+    "title": "Staff AI Engineer - AI Labs",
+    "company": "dLocal",
+    "locations": [
+      "Madrid"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-10",
+    "url": "https://jobs.lever.co/dlocal/e6c41d1a-c41b-4845-a40f-c75340874372",
+    "source": "lever",
+    "site": "dlocal.com",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "AWS"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Why Join dLocal? dLocal is the financial infrastructure powering global commerce in the world's fastest-growing markets. The biggest companies in the world trust us to unlock growth in 60+ countries across emerging markets—moving money where others see complexity. We don't just process payments; we are architects of payment ecosystems and partners in our customers' expansion. You'll work alongside 1,300+ teammates from 40+ nationalities and tackle global challenges from day one. What's the Opportunity? You will join the AI Lab, a team whose mission is to validate high-value emerging AI and automation technologies and de-risk their adoption across dLocal. This is a rare opportunity to work…",
     "hasDesc": true
   },
   {
@@ -1411,34 +2713,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-adyen-7255277",
-    "title": "Engineering Manager, Capital",
-    "company": "Adyen",
-    "locations": [
-      "San Francisco"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": "$ 250 000 – 293 000",
-    "posted": "2026-09-09",
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/7255277",
-    "site": "adyen.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "payMin": 250000,
-    "payMax": 293000,
-    "stack": [
-      "Java"
-    ],
-    "seen": "2026-09-10",
-    "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. Engineering Manager, Capital The Opportunity We’re looking for…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-adyen-8162460",
     "title": "Financial Support Analyst",
     "company": "Adyen",
@@ -1657,47 +2931,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-adyen-8140008",
-    "title": "Software Engineer II (Java) - Banking Accounts",
-    "company": "Adyen",
-    "locations": [
-      "Chicago"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": "$ 154 000 – 200 000",
-    "posted": "2026-09-09",
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/8140008",
-    "site": "adyen.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "Бэкенд",
-    "payMin": 154000,
-    "payMax": 200000,
-    "permit": true,
-    "stack": [
-      "Java",
-      "SQL"
-    ],
-    "seen": "2026-09-10",
-    "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. Software Engineer II - Bank Accounts Team We’re looking for a…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-adyen-7696699",
+    "id": "gh-adyen-7703237",
     "title": "Strategic Growth Manager - Agentic Commerce",
     "company": "Adyen",
     "locations": [
-      "New York"
+      "San Francisco"
     ],
     "remote": false,
     "rkind": null,
-    "salary": null,
+    "salary": "$ 190 000 – 240 000",
     "posted": "2026-09-09",
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/7696699",
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/7703237",
     "site": "adyen.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -1705,33 +2949,11 @@ window.JOBS_FINTECH = [
     "role": "Маркетинг",
     "grade": null,
     "spec": null,
+    "payMin": 190000,
+    "payMax": 240000,
     "stack": [],
     "seen": "2026-09-10",
     "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. About the role Agentic Commerce is the most significant shift…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-adyen-8147414",
-    "title": "Technical Project Manager - Software Release",
-    "company": "Adyen",
-    "locations": [
-      "Amsterdam"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-09-09",
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/8147414",
-    "site": "adyen.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Продюсирование",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. Technical Project Manager – In-person Payments Software Release…",
     "hasDesc": true
   },
   {
@@ -3253,30 +4475,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-sumup-8742320002",
-    "title": "Payment Operations Specialist",
-    "company": "SumUp",
-    "locations": [
-      "Sofia, Bulgaria"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-09-09",
-    "url": "https://sumup.com/careers/positions/8742320002?gh_jid=8742320002",
-    "site": "sumup.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Платежи",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "Team description: EU Payment Operations keeps the money moving for millions of small businesses, handling the daily transactions, reconciliations and bank recalls that sit right at the heart of SumUp's e‑money business. This role joins a close‑knit team of specialists, working across banking portals, internal back‑office systems and SAP Fiori to keep payment flows accurate, compliant and on time. It's a chance to build a genuinely deep understanding of how a regulated e‑money product works end to end, learning directly from experienced specialists while taking on real ownership from day one. What you'll do: • Process daily payment transactions accurately and within strict cut-off times. •…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-sumup-8729773002",
     "title": "​​Senior Financial Analyst – Revenue Streams",
     "company": "SumUp",
@@ -3563,17 +4761,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4959267101",
+    "id": "gh-ebury-4971533101",
     "title": "Business Developer / Junior FX Sales (m/w/d)",
     "company": "Ebury",
     "locations": [
-      "Hamburg"
+      "Frankfurt"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-09",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4959267101",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4971533101",
     "site": "ebury.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -3584,7 +4782,7 @@ window.JOBS_FINTECH = [
     "lang": "de",
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Business Developer / Junior FX Sales (m/w/d) Ebury Hamburg – Präsenzstelle (100% In-Office) Starte deine FinTech-Karriere als Business Developer / Junior FX Sales bei Ebury in unserem dynamischen Team in Hamburg! Bist du…",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Business Developer / Junior FX Sales (m/w/d) Ebury Frankfurt – Präsenzstelle (100% In-Office) Starte deine FinTech-Karriere als Business Developer / Junior FX Sales bei Ebury in unserem dynamischen Team in Frankfurt! Bist du…",
     "hasDesc": true
   },
   {
@@ -3660,17 +4858,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4967740101",
+    "id": "gh-ebury-4972090101",
     "title": "Product Graduate - Payments",
     "company": "Ebury",
     "locations": [
-      "London"
+      "Madrid"
     ],
     "remote": false,
-    "rkind": "hybrid",
+    "rkind": null,
     "salary": null,
     "posted": "2026-09-09",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4967740101",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4972090101",
     "site": "ebury.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -3680,7 +4878,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Associate Product Manager - Payments Product Ebury London Office - Hybrid: 4 days in the office, 1 day working from home per week Do you want to solve the hardest problem when it comes to moving money globally supporting SMEs…",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Associate Product Manager - Payments Product Ebury Madrid Office - Hybrid: 4 days in the office, 1 day working from home per week Do you want to solve the hardest problem when it comes to moving money globally supporting SMEs…",
     "hasDesc": true
   },
   {
@@ -3710,17 +4908,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4972246101",
+    "id": "gh-ebury-4972243101",
     "title": "Product Manager - Payment Infrastructure",
     "company": "Ebury",
     "locations": [
-      "Porto"
+      "Madrid"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-09-09",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4972246101",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4972243101",
     "site": "ebury.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -3732,7 +4930,7 @@ window.JOBS_FINTECH = [
       "Swift"
     ],
     "seen": "2026-09-10",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Product Manager - Payment Infrastructure Product Ebury Porto Office - Hybrid: 4 days in the office, 1 day working from home per week Role Summary Do you want to solve the hardest problem when it comes to moving money globally…",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Product Manager - Payment Infrastructure Product Ebury Madrid Office - Hybrid: 4 days in the office, 1 day working from home per week Role Summary Do you want to solve the hardest problem when it comes to moving money…",
     "hasDesc": true
   },
   {
@@ -4067,7 +5265,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. About the Role: As a Sales Engineer at Fireblocks in the US, you will take full ownership and responsibility for your designated projects and clients, from the product sales demonstration up to the preparation of client onboarding. You…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. About the Role: As a Sales Engineer at Fireblocks in the US, you will take full ownership and responsibility for your designated projects and clients, from the product sales…",
     "hasDesc": true
   },
   {
@@ -4175,18 +5373,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-bybit-4971608101",
+    "id": "gh-bybit-4971542101",
     "title": "[Intern] Test Development Engineer Intern",
     "company": "Bybit",
     "locations": [
-      "Hong Kong SAR",
-      "Kuala Lumpur, Malaysia"
+      "Hong Kong SAR"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-09",
-    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4971608101",
+    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4971542101",
     "site": "bybit.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -4195,7 +5392,6 @@ window.JOBS_FINTECH = [
     "grade": "Junior",
     "spec": null,
     "stack": [
-      "Python",
       "SQL"
     ],
     "seen": "2026-09-10",
@@ -4578,30 +5774,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-stripe-8178563",
-    "title": "Risk Partnerships Manager, Banks & Treasury",
-    "company": "Stripe",
-    "locations": [
-      "London, Dublin"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-09-09",
-    "url": "https://stripe.com/jobs/search?gh_jid=8178563",
-    "site": "stripe.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Риски",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. About the team The Risk Partnerships team is an essential part of Stripe’s Global Partnerships organization. Our team is responsible for building and maintaining relationships…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-stripe-8174965",
     "title": "Security Engineer",
     "company": "Stripe",
@@ -4810,7 +5982,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About the Legal, Compliance, and Public Affairs team The Legal, Compliance, and Public Affairs team is a group of dedicated professionals committed to helping Affirm scale, innovate, and provide outstanding products for consumers, merchants, and key partners. We combine legal, compliance, and policy expertise to guide growth, shape products, and build trust across our ecosystem. Our work spans multiple professional disciplines and provides the foundation for Affirm’s mission to deliver honest financial products. About…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. About the Legal, Compliance, and Public Affairs team The Legal, Compliance, and Public Affairs team is a group of dedicated professionals committed to helping Affirm scale, innovate, and provide outstanding products for consumers, merchants, and key partners. We combine legal, compliance, and policy expertise to guide growth, shape products, and build trust across our ecosystem. Our work spans multiple professional disciplines and provides the foundation for Affirm’s mission to deliver honest financial products.…",
     "hasDesc": true
   },
   {
@@ -4835,7 +6007,7 @@ window.JOBS_FINTECH = [
     "permit": true,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. As a Senior Sales Engineer, you’ll combine your technical aptitude, exceptional communication skills, and creative problem solving to help enterprise merchants design and implement scalable, reliable solutions on the Affirm platform. You’ll support pre-sale activities by leading technical discovery, analyzing requirements, and identifying well-architected solutions, while playing a key role in winning deals and driving the business forward. Staff Sales Engineers are part of the Merchant Engineering team and work closely…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. As a Senior Sales Engineer, you’ll combine your technical aptitude, exceptional communication skills, and creative problem solving to help enterprise merchants design and implement scalable, reliable solutions on the Affirm platform. You’ll support pre-sale activities by leading technical discovery, analyzing requirements, and identifying well-architected solutions, while playing a key role in winning deals and driving the business forward. Staff Sales Engineers are part of the Merchant Engineering team and work…",
     "hasDesc": true
   },
   {
@@ -4866,7 +6038,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Partner Merchant Interfaces - Integration team within Decisions Foundations is growing and we are looking for a Software Engineer. You will be part of a fast paced team which is responsible for the APIs that Partners and Merchants use to integrate with Affirm, and also power some of our top partners like Amazon and Stripe. What You'll Do · With the support of your team, you will work on tasks that contribute to the team's projects and goals. · You will work collaboratively and proactively with your team and…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. The Partner Merchant Interfaces - Integration team within Decisions Foundations is growing and we are looking for a Software Engineer. You will be part of a fast paced team which is responsible for the APIs that Partners and Merchants use to integrate with Affirm, and also power some of our top partners like Amazon and Stripe. What You'll Do · With the support of your team, you will work on tasks that contribute to the team's projects and goals. · You will work collaboratively and proactively with your team and…",
     "hasDesc": true
   },
   {
@@ -6303,17 +7475,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-robinhood-8074011",
+    "id": "gh-robinhood-8074057",
     "title": "Product Marketing Manager, International",
     "company": "Robinhood",
     "locations": [
-      "Luxembourg"
+      "Ljubljana, Slovenia"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-09",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8074011?t=gh_src=&gh_jid=8074011",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8074057?t=gh_src=&gh_jid=8074057",
     "site": "robinhood.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -6841,6 +8013,84 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-sofi-7820964003",
+    "title": "Pricing Analyst, Lending",
+    "company": "SoFi",
+    "locations": [
+      "San Francisco",
+      "Seattle",
+      "Cottonwood Heights"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-09",
+    "url": "https://sofi.com/careers/job/7820964003?gh_jid=7820964003",
+    "site": "sofi.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Employee Applicant Privacy Notice Who we are: Shape a brighter financial future with us. Together with our members, we’re changing the way people think about and interact with personal finance. We’re a next-generation financial services company and national bank using innovative, mobile-first technology to help our millions of members reach their goals. The industry is going through an unprecedented transformation, and we’re at the forefront. We’re proud to come to work every day knowing that what we do has a direct impact on people’s lives, with our core values guiding us every step of the way. Join us to invest in yourself, your career, and the financial world. The Role We are seeking a…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-sofi-7798999003",
+    "title": "Senior Operations & Supplier Testing Analyst",
+    "company": "SoFi",
+    "locations": [
+      "Cottonwood Heights",
+      "Jacksonville"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-09",
+    "url": "https://sofi.com/careers/job/7798999003?gh_jid=7798999003",
+    "site": "sofi.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Аналитика",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Employee Applicant Privacy Notice Who we are: Shape a brighter financial future with us. Together with our members, we’re changing the way people think about and interact with personal finance. We’re a next-generation financial services company and national bank using innovative, mobile-first technology to help our millions of members reach their goals. The industry is going through an unprecedented transformation, and we’re at the forefront. We’re proud to come to work every day knowing that what we do has a direct impact on people’s lives, with our core values guiding us every step of the way. Join us to invest in yourself, your career, and the financial world. The Role: The Senior…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-sofi-7856286003",
+    "title": "Staff Software Engineer",
+    "company": "SoFi",
+    "locations": [
+      "Frisco"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-09",
+    "url": "https://sofi.com/careers/job/7856286003?gh_jid=7856286003",
+    "site": "sofi.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Employee Applicant Privacy Notice Who we are: Shape a brighter financial future with us. Together with our members, we’re changing the way people think about and interact with personal finance. We’re a next-generation financial services company and national bank using innovative, mobile-first technology to help our millions of members reach their goals. The industry is going through an unprecedented transformation, and we’re at the forefront. We’re proud to come to work every day knowing that what we do has a direct impact on people’s lives, with our core values guiding us every step of the way. Join us to invest in yourself, your career, and the financial world. The role: We are looking…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-toast-8038744",
     "title": "Android Software Engineer",
     "company": "Toast",
@@ -6943,17 +8193,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-toast-8147379",
+    "id": "gh-toast-8147377",
     "title": "Customer Growth Sales Account Executive",
     "company": "Toast",
     "locations": [
-      "Dublin, United States"
+      "Delaware, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-09",
-    "url": "https://careers.toasttab.com/jobs?gh_jid=8147379",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=8147377",
     "site": "toasttab.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -6967,17 +8217,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-toast-7984730",
+    "id": "gh-toast-8052241",
     "title": "Data Scientist II",
     "company": "Toast",
     "locations": [
-      "United States"
+      "Canada"
     ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": null,
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 110 000 – 136 000",
     "posted": "2026-09-09",
-    "url": "https://careers.toasttab.com/jobs?gh_jid=7984730",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=8052241",
     "site": "toasttab.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -6985,13 +8235,15 @@ window.JOBS_FINTECH = [
     "role": "Данные и ML",
     "grade": null,
     "spec": null,
+    "payMin": 110000,
+    "payMax": 136000,
     "stack": [
       "Python",
       "SQL",
       "AWS"
     ],
     "seen": "2026-09-10",
-    "descShort": "Toast is driven by building the restaurant platform that helps restaurants adapt, take control, and get back to what they do best: building the businesses they love. Toast is revolutionizing the way the restaurant industry does business by pairing technology with an extraordinary commitment to customer success. We help restaurants streamline operations, increase revenue, and deliver amazing guest experiences through our platform that combines restaurant point of sale, guest-facing technology, and award-winning customer support. Join us as we empower the restaurant community to delight guests, do what they love, and thrive. Bready* to make a change? The Toast AI Engineering team is seeking a…",
+    "descShort": "Toast is driven by building the restaurant platform that helps restaurants adapt, take control, and get back to what they do best: building the businesses they love. Toast is revolutionizing the way the restaurant industry does business by pairing technology with an extraordinary commitment to customer success. We help restaurants streamline operations, increase revenue, and deliver amazing guest experiences through our platform that combines restaurant point of sale, guest-facing technology, and award-winning customer support. Join us as we empower the restaurant community to delight guests, do what they love, and thrive. This role is for a current vacancy. Bready* to make a change? The…",
     "hasDesc": true
   },
   {
@@ -7147,7 +8399,7 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-toast-8079399",
+    "id": "gh-toast-7795649",
     "title": "Lead Salesforce Developer",
     "company": "Toast",
     "locations": [
@@ -7157,7 +8409,7 @@ window.JOBS_FINTECH = [
     "rkind": null,
     "salary": null,
     "posted": "2026-09-09",
-    "url": "https://careers.toasttab.com/jobs?gh_jid=8079399",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=7795649",
     "site": "toasttab.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -7167,7 +8419,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "We are seeking a highly skilled and innovative Lead Salesforce Developer to join our dynamic team. The ideal candidate will possess deep expertise in Salesforce development, Integration, architecture, and a proven track record of implementing intelligent, self-optimizing systems. This is a unique opportunity to shape the future of our customer engagement and operational efficiency using cutting-edge technology. As a key member of the Business Technology and Transformation (BTT) team, this Lead Salesforce Developer will partner with Product Managers, architects, and engineering leadership to architect and deploy cross-engineering solutions. You will play a foundational role in executing…",
+    "descShort": "Job Overview: The Lead Salesforce Developer within the BTT (Business Technology and Transformation) team will collaborate with other developers, architects, admins, QA and release and Engineering managers to deliver new innovative solutions on the Salesforce platform. Toast has ambitious plans for the future, and this role will assist in making them happen. About this roll* (Responsibilities) • Spends majority of their time working on Salesforce related solution, design development tasks, requiring a high degree of technical expertise, like: • Salesforce platform - Security, Sharing, Visibility, Data Model, Flows etc • APEX- Triggers, Platform Event handlers, batch processes, Async…",
     "hasDesc": true
   },
   {
@@ -7243,17 +8495,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-toast-8127661",
+    "id": "gh-toast-8141220",
     "title": "Principal Product Manager, International Mid-Market",
     "company": "Toast",
     "locations": [
-      "Dublin, Ireland"
+      "London, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-09",
-    "url": "https://careers.toasttab.com/jobs?gh_jid=8127661",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=8141220",
     "site": "toasttab.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -7267,17 +8519,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-toast-7845688",
+    "id": "gh-toast-8079612",
     "title": "Principal Software Engineer",
     "company": "Toast",
     "locations": [
-      "Bengaluru, India"
+      "Dublin, Ireland"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-09",
-    "url": "https://careers.toasttab.com/jobs?gh_jid=7845688",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=8079612",
     "site": "toasttab.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -7286,11 +8538,10 @@ window.JOBS_FINTECH = [
     "grade": "Lead",
     "spec": null,
     "stack": [
-      "Java",
-      "Kotlin"
+      "AWS"
     ],
     "seen": "2026-09-10",
-    "descShort": "Toast is building the restaurant platform that helps restaurants adapt, take control, and get back to what they do best: running the businesses they love. We’ve grown into a leading hospitality software company in the U.S., and are now entering our next phase of growth—one defined by scale, complexity, and a new class of enterprise customers. Every restaurant is unique, and a restaurant’s menu expresses its individual brand and product offerings. Inside a Toast restaurant, the definition of the menu becomes the common language between guests, servers, and the kitchen. In our digital ordering products, a great menu serves as both a billboard and a roadmap to an excellent dining experience.…",
+    "descShort": "Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. Your mission is to lead the architectural design, technical execution, and implementation of AI agents and infrastructure for Toast's Team area within our FinTech line of business. The Team area is a mission-critical space on which our restaurants rely to manage their staff and optimize their labor. As a Principal Engineer, you will serve as a key technical leader in the group, driving modern architectural patterns—including spec-driven development and agentic workflows—to deliver high-impact software. A…",
     "hasDesc": true
   },
   {
@@ -7633,33 +8884,6 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-10",
     "descShort": "Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. Toast Now is one of the most successful and fast-growing products at Toast. User acquisition, engagement, and demand for new features are at an all-time high, creating new opportunities to build scalable solutions that help restaurant managers run their businesses on the go. We’re looking for a Senior Product Manager who can drive product innovation and own a strategic domain within Toast Now. You’ll work closely with a high-caliber team of engineers, designers, and researchers to shape the future of Toast…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-toast-7870945",
-    "title": "Senior Software Engineer",
-    "company": "Toast",
-    "locations": [
-      "United States"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": null,
-    "posted": "2026-09-09",
-    "url": "https://careers.toasttab.com/jobs?gh_jid=7870945",
-    "site": "toasttab.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "Java",
-      "Kotlin"
-    ],
-    "seen": "2026-09-10",
-    "descShort": "Title: Senior Software Engineer, Consumer Location: Remote, USA #remoteLI Who We Are Toast is driven by building the restaurant platform that helps restaurants adapt, take control, and get back to what they do best: building the businesses they love. Are you bready* for a change? (Team Info) Toast Tables is a fast-growing, fully integrated waitlist and reservations platform that allows restaurants to generate and manage demand. It ties in with many of Toast’s other systems so that restaurants can bring a magical, fully digital, end-to-end experience to guests. The Toast Tables team at Toast is all about creating exceptional reservations experiences for restaurants and their guests. We’re…",
     "hasDesc": true
   },
   {
@@ -8217,17 +9441,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-toast-8029049",
+    "id": "gh-toast-8052293",
     "title": "Staff Data Scientist",
     "company": "Toast",
     "locations": [
-      "United States"
+      "Canada"
     ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": null,
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 127 000 – 203 000",
     "posted": "2026-09-09",
-    "url": "https://careers.toasttab.com/jobs?gh_jid=8029049",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=8052293",
     "site": "toasttab.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -8235,13 +9459,15 @@ window.JOBS_FINTECH = [
     "role": "Данные и ML",
     "grade": null,
     "spec": null,
+    "payMin": 127000,
+    "payMax": 203000,
     "stack": [
       "Python",
       "SQL",
       "AWS"
     ],
     "seen": "2026-09-10",
-    "descShort": "Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. As a Staff Data Scientist, you’ll lead the design and development of scalable ML systems for use cases such as menu recommendation, demand forecasting, offer targeting, and guest personalization. You will serve as a technical thought partner across teams, set best practices, and influence the roadmap for ML-driven products that support key business outcomes. Your work will directly shape strategic decisions and enhance customer experience at scale. A day in the life (Responsibilities) • Own the full machine…",
+    "descShort": "Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. As a Staff Data Scientist, you’ll lead the design and development of scalable ML systems for use cases such as menu recommendation, demand forecasting, offer targeting, and guest personalization. You will serve as a technical thought partner across teams, set best practices, and influence the roadmap for ML-driven products that support key business outcomes. Your work will directly shape strategic decisions and enhance customer experience at scale. This role is for a current vacancy. A day in the life…",
     "hasDesc": true
   },
   {
@@ -8410,17 +9636,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-toast-8038159",
+    "id": "gh-toast-7747181",
     "title": "Staff Software Engineer, Tech Lead",
     "company": "Toast",
     "locations": [
-      "United States"
+      "Canada"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": null,
+    "salary": "$ 142 000 – 227 000",
     "posted": "2026-09-09",
-    "url": "https://careers.toasttab.com/jobs?gh_jid=8038159",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=7747181",
     "site": "toasttab.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -8428,13 +9654,15 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": "Lead",
     "spec": null,
+    "payMin": 142000,
+    "payMax": 227000,
     "stack": [
       "Java",
       "Kotlin",
-      "AWS"
+      "TypeScript"
     ],
     "seen": "2026-09-10",
-    "descShort": "At Toast, we are committed to empowering our customers by providing the technology, resources, and community they need to thrive. While our roots are in food service, we are rapidly expanding into adjacent markets and international territories. Our mission is to build a world-class publishing and configuration platform that supports the diverse needs of all Toast customers, regardless of their industry or location. As a member of the Config Platform team, you will be at the heart of Toast’s most critical infrastructure. We are the high-concurrency engine powering live system updates across the entire Toast ecosystem. Whether it’s a menu change in Ireland or a pricing update for a 100…",
+    "descShort": "About Toast: Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. Bready* to make a change? Toast is a rapidly growing company that's revolutionizing how the restaurant industry does business by pairing technology with an extraordinary commitment to customer success. We help restaurants streamline operations, increase revenue, and deliver amazing guest experiences through our platform that combines restaurant point of sale, team management, guest-facing technology, and award-winning customer support. As a Toaster, you will be challenged to take on meaningful…",
     "hasDesc": true
   },
   {
@@ -8466,17 +9694,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-block-5418716008",
+    "id": "gh-block-5412922008",
     "title": "Senior Data Scientist, Risk and Support",
     "company": "Block",
     "locations": [
-      "Seattle, United States"
+      "Bay Area, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-09",
-    "url": "http://block.xyz/careers/jobs/5418716008?gh_jid=5418716008",
+    "url": "http://block.xyz/careers/jobs/5412922008?gh_jid=5412922008",
     "site": "block.xyz",
     "source": "greenhouse",
     "industry": "fintech",
@@ -8755,7 +9983,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -8782,7 +10010,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -10051,58 +11279,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-adyen-8142106",
-    "title": "Implementation Engineer",
-    "company": "Adyen",
-    "locations": [
-      "Chicago"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": "$ 130 000 – 175 000",
-    "posted": "2026-09-08",
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/8142106",
-    "site": "adyen.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "payMin": 130000,
-    "payMax": 175000,
-    "permit": true,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. Implementation Engineer As an Implementation Engineer at Adyen…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-adyen-7908806",
-    "title": "Senior AI Research Engineer",
-    "company": "Adyen",
-    "locations": [
-      "Amsterdam"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-09-08",
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/7908806",
-    "site": "adyen.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "permit": true,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. The Opportunity Adyen is building a top-tier AI engineering…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-adyen-7895373",
     "title": "Senior B2B Content Marketing Manager, Global",
     "company": "Adyen",
@@ -10234,30 +11410,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-adyen-8101509",
-    "title": "Strategy & Program Manager, Scaled Account Management",
-    "company": "Adyen",
-    "locations": [
-      "Amsterdam"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-09-08",
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/8101509",
-    "site": "adyen.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Продюсирование",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. Strategy & Program Manager, Scaled Account Management We are…",
-    "hasDesc": true
-  },
-  {
     "id": "lv-zopa-33ed6dc4-4578-4737-8409-d843e7847aad",
     "title": "Senior Platform Engineer",
     "company": "Zopa",
@@ -10336,36 +11488,6 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-10",
     "descShort": "Our mission is to enable everyone to build wealth. We reinvent how trading and investing work by creating exceptional products people love. Fostering a culture of excellence and high velocity is the key to our success. Over the past few years, our client base has grown 20 times to over 4 million, and client assets have grown over 50 times to over €5 billion. Role Overview The Senior Risk Manager will play a crucial role in supporting the business to embed the Risk Management Framework and manage and mitigate risks across the organisation. You will be responsible for liaising with the first line of defence to support them in identifying and understanding their risk profile, assessing the…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-sumup-8785611002",
-    "title": "Backend Engineer (Golang) - Bank Balance",
-    "company": "SumUp",
-    "locations": [
-      "Vilnius, Lithuania"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-09-08",
-    "url": "https://sumup.com/careers/positions/8785611002?gh_jid=8785611002",
-    "site": "sumup.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "Бэкенд",
-    "stack": [
-      "Go",
-      "Kotlin",
-      "AWS",
-      "Docker",
-      "Kubernetes"
-    ],
-    "seen": "2026-09-10",
-    "descShort": "At SumUp, the Global Bank team builds the core infrastructure and services that give merchants a digital bank account, helping small businesses manage their money easily and reliably. The Balance Management Squad sits at the core of the Global Bank Platform. Right now, our team is completing a major milestone: consolidating and modernizing our balance management system in Europe. The next big step is creating a global transaction history service; a single, shared platform used by all regions to give merchants consistent and transparent views of their financial activity. As a Backend Engineer, you’ll help modernize existing systems while balancing innovation with stability, collaborate with…",
     "hasDesc": true
   },
   {
@@ -10787,17 +11909,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-raisin-4933599101",
+    "id": "gh-raisin-4936082101",
     "title": "Senior Software Engineer - US Payments and Partner Operations (m/f/d)",
     "company": "Raisin",
     "locations": [
-      "Madrid"
+      "Berlin, Germany"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-08",
-    "url": "https://job-boards.eu.greenhouse.io/raisin/jobs/4933599101",
+    "url": "https://job-boards.eu.greenhouse.io/raisin/jobs/4936082101",
     "site": "raisin.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -11094,30 +12216,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4970097101",
-    "title": "Credit Risk Manager - Chile",
-    "company": "Ebury",
-    "locations": [
-      "Santiago"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-09-08",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4970097101",
-    "site": "ebury.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Риски",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Credit Risk Manager Credit Risk Ebury Santiago Office - Hybrid: 4 days in the office, 1 day working from home per week This is a new and key senior role within the Credit Risk function and member of the local leadership team…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-ebury-4970454101",
     "title": "Data Scientist - Fintech",
     "company": "Ebury",
@@ -11142,30 +12240,6 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-10",
     "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Data Scientist - Growth Location: Madrid (Hybrid: 4 days office / 1 day WFH) Stack: Python, SQL, GCP (BigQuery, AI Platform, Cloud Functions), ML Libraries, CRM (Salesforce), LLMs. Why This Role Exists Ebury is executing an…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-ebury-4969347101",
-    "title": "Senior Manager – Financial Consolidation & FX Risk",
-    "company": "Ebury",
-    "locations": [
-      "London"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-09-08",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4969347101",
-    "site": "ebury.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Риски",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Senior Manager – Financial Consolidation & FX Risk (CTA & Treasury Expert) Treasury Ebury London Office - Hybrid: 4 days in the office, 1 day working from home per week About the Role We are seeking an experienced Senior…",
     "hasDesc": true
   },
   {
@@ -11524,7 +12598,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. Welcome to Fireblocks, the industry-leading digital asset infrastructure technology company responsible for 15% of all crypto transactions! Here’s the bit about us: Fireblocks is an enterprise-grade platform delivering a secure…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. Welcome to Fireblocks, the industry-leading digital asset infrastructure technology company responsible for 15% of all crypto transactions! Here’s the bit about us: Fireblocks…",
     "hasDesc": true
   },
   {
@@ -11551,7 +12625,7 @@ window.JOBS_FINTECH = [
       "SQL"
     ],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. About the Team Join our global Data team, which partners closely with Product, Engineering, and GTM stakeholders to power data-driven decision making and AI-driven products across Fireblocks. The team has evolved from providing deep…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. About the Team Join our global Data team, which partners closely with Product, Engineering, and GTM stakeholders to power data-driven decision making and AI-driven products…",
     "hasDesc": true
   },
   {
@@ -11578,7 +12652,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. About The Team At Fireblocks, the DevOps group is responsible for the core infrastructure and enablement for developers. The group consists of 15 engineers, working together to provide standards, abilities and support to RND. The group…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. About The Team At Fireblocks, the DevOps group is responsible for the core infrastructure and enablement for developers. The group consists of 15 engineers, working together to…",
     "hasDesc": true
   },
   {
@@ -11607,7 +12681,7 @@ window.JOBS_FINTECH = [
       "AWS"
     ],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. This is an opportunity to lead the core technology that is onboarding millions to the future of finance. As part of Fireblocks, the leading platform for securing digital assets, dynamic.xyz is positioned at the intersection of enterprise…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. This is an opportunity to lead the core technology that is onboarding millions to the future of finance. As part of Fireblocks, the leading platform for securing digital assets…",
     "hasDesc": true
   },
   {
@@ -11633,7 +12707,7 @@ window.JOBS_FINTECH = [
       "Substance"
     ],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. Role Overview Fireblocks Liechtenstein Ltd. is a payment institution being established to provide Account Information Services (AIS) and Payment Initiation Services (PIS) to institutional clients across the European Economic Area, under…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. Role Overview Fireblocks Liechtenstein Ltd. is a payment institution being established to provide Account Information Services (AIS) and Payment Initiation Services (PIS) to…",
     "hasDesc": true
   },
   {
@@ -11660,7 +12734,7 @@ window.JOBS_FINTECH = [
       "JavaScript"
     ],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. What You’ll Do Join our mission to deliver unparalleled customer support in the dynamic world of cryptocurrency and DeFi. As a Customer Frontline Support Engineer, you will act as the first point of contact for our customers, resolving…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. What You’ll Do Join our mission to deliver unparalleled customer support in the dynamic world of cryptocurrency and DeFi. As a Customer Frontline Support Engineer, you will act…",
     "hasDesc": true
   },
   {
@@ -11686,7 +12760,7 @@ window.JOBS_FINTECH = [
       "TypeScript"
     ],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. About Fireblocks Fireblocks is on a mission to enable every business to easily and securely access digital assets and cryptocurrencies. As a leading provider in the digital asset space, we are committed to fostering a diverse and…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. About Fireblocks Fireblocks is on a mission to enable every business to easily and securely access digital assets and cryptocurrencies. As a leading provider in the digital…",
     "hasDesc": true
   },
   {
@@ -11713,7 +12787,7 @@ window.JOBS_FINTECH = [
       "Swift"
     ],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. As part of Fireblocks, Dynamic represents the next evolution of non-custodial wallet infrastructure. Dynamic is Fireblocks’ embedded wallet platform, purpose-built for developers who want to bring crypto and stablecoin experiences into…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. As part of Fireblocks, Dynamic represents the next evolution of non-custodial wallet infrastructure. Dynamic is Fireblocks’ embedded wallet platform, purpose-built for…",
     "hasDesc": true
   },
   {
@@ -11739,7 +12813,7 @@ window.JOBS_FINTECH = [
       "Python"
     ],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. The world of digital assets is accelerating in speed, scale, and complexity, opening new ways to leverage blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets, and…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. The world of digital assets is accelerating in speed, scale, and complexity, opening new ways to leverage blockchain. Fireblocks’ platform and network provide the simplest and…",
     "hasDesc": true
   },
   {
@@ -11766,7 +12840,7 @@ window.JOBS_FINTECH = [
       "Swift"
     ],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. As part of Fireblocks, Dynamic represents the next evolution of non-custodial wallet infrastructure. Dynamic is Fireblocks’ embedded wallet platform, purpose-built for developers who want to bring crypto and stablecoin experiences into…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. As part of Fireblocks, Dynamic represents the next evolution of non-custodial wallet infrastructure. Dynamic is Fireblocks’ embedded wallet platform, purpose-built for…",
     "hasDesc": true
   },
   {
@@ -11797,7 +12871,7 @@ window.JOBS_FINTECH = [
       "Swift"
     ],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. As part of Fireblocks, Dynamic represents the next evolution of non-custodial wallet infrastructure. Dynamic is Fireblocks’ embedded wallet platform, purpose-built for developers who want to bring crypto and stablecoin experiences into…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. As part of Fireblocks, Dynamic represents the next evolution of non-custodial wallet infrastructure. Dynamic is Fireblocks’ embedded wallet platform, purpose-built for…",
     "hasDesc": true
   },
   {
@@ -11821,7 +12895,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. About the role Fireblocks' mobile app is a critical component in the day-to-day financial operations of the world's leading financial institutions. As the Mobile PM, you'll own the full product domain: driving the roadmap, collaborating…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. About the role Fireblocks' mobile app is a critical component in the day-to-day financial operations of the world's leading financial institutions. As the Mobile PM, you'll own…",
     "hasDesc": true
   },
   {
@@ -11845,7 +12919,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. About the team Our Professional Services team is the delivery engine behind every successful customer implementation. We are seeking an experienced Project Manager to lead complex projects in the digital assets and blockchain space across…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. About the team Our Professional Services team is the delivery engine behind every successful customer implementation. We are seeking an experienced Project Manager to lead…",
     "hasDesc": true
   },
   {
@@ -11869,7 +12943,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. The position in Japan (Tokyo) is hybrid — 3 days onsite per week. Here’s the bit about us: Fireblocks is an enterprise-grade platform delivering a secure infrastructure for moving, storing, and issuing digital assets & cryptocurrencies.…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. The position in Japan (Tokyo) is hybrid — 3 days onsite per week. Here’s the bit about us: Fireblocks is an enterprise-grade platform delivering a secure infrastructure for…",
     "hasDesc": true
   },
   {
@@ -11893,7 +12967,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. Welcome to Fireblocks, the industry-leading digital asset infrastructure technology company responsible for 15% of all crypto transactions! Here’s the bit about us: Fireblocks is the world’s most trusted digital asset infrastructure…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. Welcome to Fireblocks, the industry-leading digital asset infrastructure technology company responsible for 15% of all crypto transactions! Here’s the bit about us: Fireblocks…",
     "hasDesc": true
   },
   {
@@ -11917,7 +12991,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. Welcome to Fireblocks, the industry-leading digital asset infrastructure technology company responsible for 15% of all crypto transactions! Here’s the bit about us: Fireblocks is an enterprise-grade platform delivering a secure…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. Welcome to Fireblocks, the industry-leading digital asset infrastructure technology company responsible for 15% of all crypto transactions! Here’s the bit about us: Fireblocks…",
     "hasDesc": true
   },
   {
@@ -11945,7 +13019,7 @@ window.JOBS_FINTECH = [
       "Swift"
     ],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. About the Role The Sales Engineer, Banking is a technically credible, commercially aware member of the EMEA SE team, responsible for the full technical sales cycle across banking opportunities in Western and Central Europe. This is not a…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. About the Role The Sales Engineer, Banking is a technically credible, commercially aware member of the EMEA SE team, responsible for the full technical sales cycle across…",
     "hasDesc": true
   },
   {
@@ -11969,7 +13043,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. About the Job The digital assets industry is evolving rapidly, unlocking new opportunities across financial services, Web3, and enterprise use cases. Fireblocks’ platform and network offer a secure and seamless infrastructure trusted by…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. About the Job The digital assets industry is evolving rapidly, unlocking new opportunities across financial services, Web3, and enterprise use cases. Fireblocks’ platform and…",
     "hasDesc": true
   },
   {
@@ -11997,31 +13071,7 @@ window.JOBS_FINTECH = [
       "AWS"
     ],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. Founded in 2018 and already valued at over $8 billion, Fireblocks is a SaaS platform that helps companies to create innovative products on the blockchain and manage day-to-day crypto operations. Fireblocks is trusted by some of the…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-fireblocks-4678060006",
-    "title": "Senior Director, Marketing Operations",
-    "company": "Fireblocks",
-    "locations": [
-      "United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-09-08",
-    "url": "https://www.fireblocks.com/careers/position?gh_jid=4678060006",
-    "site": "fireblocks.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Крипта",
-    "role": "Маркетинг",
-    "grade": "Lead",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. The Opportunity: We are looking for an innovative and hands-on leader to evolve and expand our marketing operations strategy supporting our global go-to-market motions. As team leader you will be responsible for performance accountability…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. Founded in 2018 and already valued at over $8 billion, Fireblocks is a SaaS platform that helps companies to create innovative products on the blockchain and manage day-to-day…",
     "hasDesc": true
   },
   {
@@ -12046,7 +13096,7 @@ window.JOBS_FINTECH = [
     "permit": true,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. About the Team Fireblocks is looking for a talented Senior Marketing Manager, North America to manage integrated marketing strategies across events, content marketing, social media, and paid digital campaigns within the region. Your main…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. About the Team Fireblocks is looking for a talented Senior Marketing Manager, North America to manage integrated marketing strategies across events, content marketing, social…",
     "hasDesc": true
   },
   {
@@ -12070,7 +13120,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. Welcome to Fireblocks, the industry-leading digital asset infrastructure technology company responsible for 15% of all crypto transactions! Here’s the bit about us: Fireblocks is an enterprise-grade platform delivering a secure…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. Welcome to Fireblocks, the industry-leading digital asset infrastructure technology company responsible for 15% of all crypto transactions! Here’s the bit about us: Fireblocks…",
     "hasDesc": true
   },
   {
@@ -12094,7 +13144,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. Founded in 2018, Fireblocks is a SaaS platform that helps companies to create innovative products on the blockchain and manage day-to-day crypto operations. Fireblocks is trusted by some of the largest financial institutions, banks…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. Founded in 2018, Fireblocks is a SaaS platform that helps companies to create innovative products on the blockchain and manage day-to-day crypto operations. Fireblocks is…",
     "hasDesc": true
   },
   {
@@ -12125,7 +13175,7 @@ window.JOBS_FINTECH = [
       "TypeScript"
     ],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. About Fireblocks Fireblocks is the institutional standard for digital asset security and settlement. We enable banks, fintechs, and exchanges—like BNY Mellon, Revolut, and ANZ—to securely navigate the blockchain economy. Our platform and…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. About Fireblocks Fireblocks is the institutional standard for digital asset security and settlement. We enable banks, fintechs, and exchanges—like BNY Mellon, Revolut, and…",
     "hasDesc": true
   },
   {
@@ -12151,7 +13201,7 @@ window.JOBS_FINTECH = [
       "JavaScript"
     ],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. About the Role The way most marketing teams build on the web hasn't changed much in over a decade. We think there's a better way, and we're ready to find it. We're hiring a Senior Web Engineer to help us rethink web production from the…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. About the Role The way most marketing teams build on the web hasn't changed much in over a decade. We think there's a better way, and we're ready to find it. We're hiring a…",
     "hasDesc": true
   },
   {
@@ -12177,7 +13227,7 @@ window.JOBS_FINTECH = [
       "TypeScript"
     ],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. About Fireblocks Fireblocks is on a mission to enable every business to easily and securely access digital assets and cryptocurrencies. As a leading provider in the digital asset space, we are committed to fostering a diverse and…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. About Fireblocks Fireblocks is on a mission to enable every business to easily and securely access digital assets and cryptocurrencies. As a leading provider in the digital…",
     "hasDesc": true
   },
   {
@@ -12201,7 +13251,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. Solution Architect, APAC Welcome to Fireblocks, the industry-leading digital asset infrastructure technology company responsible for 15% of all crypto transactions! Here’s the bit about us: Fireblocks is an enterprise-grade platform for…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. Solution Architect, APAC Welcome to Fireblocks, the industry-leading digital asset infrastructure technology company responsible for 15% of all crypto transactions! Here’s the…",
     "hasDesc": true
   },
   {
@@ -12225,7 +13275,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. Solution Architect, UAE Welcome to Fireblocks, the industry-leading digital asset infrastructure technology company responsible for 15% of all crypto transactions! Here’s the bit about us: Fireblocks is an enterprise-grade platform for…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. Solution Architect, UAE Welcome to Fireblocks, the industry-leading digital asset infrastructure technology company responsible for 15% of all crypto transactions! Here’s the…",
     "hasDesc": true
   },
   {
@@ -12249,7 +13299,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. Here’s the bit about the opportunity: As a Solution Architect in our AMER Professional Services team, you own the technical delivery of Fireblocks implementations for the region’s largest Banks and Financial Institutions. From deal close…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. Here’s the bit about the opportunity: As a Solution Architect in our AMER Professional Services team, you own the technical delivery of Fireblocks implementations for the…",
     "hasDesc": true
   },
   {
@@ -12273,7 +13323,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. Solution Architect, EMEA Welcome to Fireblocks, the industry-leading digital asset infrastructure technology company responsible for 15% of all crypto transactions! Here’s the bit about us: Fireblocks is an enterprise-grade platform for…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. Solution Architect, EMEA Welcome to Fireblocks, the industry-leading digital asset infrastructure technology company responsible for 15% of all crypto transactions! Here’s the…",
     "hasDesc": true
   },
   {
@@ -12299,7 +13349,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. Staff Engineer, AI Platform The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways of leveraging the blockchain. Fireblocks' platform and network provide the simplest and most secure…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. Staff Engineer, AI Platform The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways of leveraging the blockchain.…",
     "hasDesc": true
   },
   {
@@ -12326,7 +13376,7 @@ window.JOBS_FINTECH = [
       "JavaScript"
     ],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. What you’ll do Ready to join the fast-paced world of navigating the shifting landscape of regulations for cryptocurrency and DeFi? We’re looking for an experienced Technical Support Engineer to join a newly formed APAC Support team. As a…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. What you’ll do Ready to join the fast-paced world of navigating the shifting landscape of regulations for cryptocurrency and DeFi? We’re looking for an experienced Technical…",
     "hasDesc": true
   },
   {
@@ -12353,7 +13403,7 @@ window.JOBS_FINTECH = [
       "JavaScript"
     ],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. What You’ll Do Join our mission to deliver unparalleled customer support in the dynamic world of cryptocurrency and DeFi. As a Customer Frontline Support Engineer, you will act as the first point of contact for our customers, resolving…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. What You’ll Do Join our mission to deliver unparalleled customer support in the dynamic world of cryptocurrency and DeFi. As a Customer Frontline Support Engineer, you will act…",
     "hasDesc": true
   },
   {
@@ -12377,7 +13427,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "The world of digital assets is accelerating in speed, magnitude, and complexity, opening the door to new ways for leveraging the blockchain. Fireblocks’ platform and network provide the simplest and most secure way for companies to work with digital assets and it trusted by some of the largest financial institutions, banks, globally-recognized brands, and Web3 companies in the world, including BNY Mellon, BNP Paribas, ANZ Bank, Revolut, and thousands more. At Fireblocks, we're not just developing innovative products for the world onchain finance - we're redefining how businesses grow & operate in this new, quickly evolving economy. As a leader in our field, we understand that our solutions…",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. At Fireblocks, we're not just developing innovative products for the world onchain finance - we're redefining how businesses grow & operate in this new, quickly evolving…",
     "hasDesc": true
   },
   {
@@ -12691,6 +13741,32 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-stripe-8175832",
+    "title": "Fraud Operations Manager",
+    "company": "Stripe",
+    "locations": [
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-09-08",
+    "url": "https://stripe.com/jobs/search?gh_jid=8175832",
+    "site": "stripe.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Антифрод",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "SQL"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. About the team What you’ll do As the Manager of Fraud Operations, you will lead a team of high-performing fraud analysts and set an inspirational vision for the broader Fraud…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-stripe-8178459",
     "title": "PMM, Executive Content & Experiences",
     "company": "Stripe",
@@ -12763,33 +13839,6 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-10",
     "descShort": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. About the team IAM is the nerve center of Stripe. We control how millions of businesses grant access to their account, including employees, AI agents, apps, and API integrations…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-stripe-7913698",
-    "title": "Product Manager, Sail Core",
-    "company": "Stripe",
-    "locations": [
-      "New York, Toronto"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": null,
-    "posted": "2026-09-08",
-    "url": "https://stripe.com/jobs/search?gh_jid=7913698",
-    "site": "stripe.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Продакт",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "TypeScript",
-      "JavaScript"
-    ],
-    "seen": "2026-09-10",
-    "descShort": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. About the team Sail Core builds Stripe's frontend platform—the data layer, navigation, observability, and developer tooling that 50+ product teams use to ship web applications…",
     "hasDesc": true
   },
   {
@@ -13174,7 +14223,7 @@ window.JOBS_FINTECH = [
       "AWS"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About the Role Affirm is building its own bank — and this role sits in the engineering team that runs it. We're looking for a Senior Software Engineer to join a deliberately small, AI-native team that owns the systems behind Affirm's bank: vendor-integrated banking infrastructure, durable workflows, data platform, and the operational tooling that holds it all together. You'll work alongside other senior engineers, with direct exposure to senior bank and Affirm leadership, to launch the bank's deposit product, drive loan…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. About the Role Affirm is building its own bank — and this role sits in the engineering team that runs it. We're looking for a Senior Software Engineer to join a deliberately small, AI-native team that owns the systems behind Affirm's bank: vendor-integrated banking infrastructure, durable workflows, data platform, and the operational tooling that holds it all together. You'll work alongside other senior engineers, with direct exposure to senior bank and Affirm leadership, to launch the bank's deposit product, drive…",
     "hasDesc": true
   },
   {
@@ -13201,7 +14250,7 @@ window.JOBS_FINTECH = [
       "Kotlin"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Engineering team builds systems that power Affirm’s mission. We take pride in our craft, building reliable, performant, and scalable solutions that touch every part of the business. Whether we’re enabling new ways to pay, ensuring our platforms can scale to the most demanding levels in the industry, or developing seamless servicing experiences, our focus is on solving complex problems through exceptional engineering. Join the pioneering Servicing International team at the forefront of Affirm's global expansion…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. The Engineering team builds systems that power Affirm’s mission. We take pride in our craft, building reliable, performant, and scalable solutions that touch every part of the business. Whether we’re enabling new ways to pay, ensuring our platforms can scale to the most demanding levels in the industry, or developing seamless servicing experiences, our focus is on solving complex problems through exceptional engineering. Join the pioneering Servicing International team at the forefront of Affirm's global expansion…",
     "hasDesc": true
   },
   {
@@ -13229,6 +14278,60 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-10",
     "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-sofi-7893878003",
+    "title": "Principal Program Manager, Performance Management",
+    "company": "SoFi",
+    "locations": [
+      "San Francisco, United States",
+      "Seattle, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-08",
+    "url": "https://sofi.com/careers/job/7893878003?gh_jid=7893878003",
+    "site": "sofi.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Продюсирование",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Employee Applicant Privacy Notice Who we are: Shape a brighter financial future with us. Together with our members, we’re changing the way people think about and interact with personal finance. We’re a next-generation financial services company and national bank using innovative, mobile-first technology to help our millions of members reach their goals. The industry is going through an unprecedented transformation, and we’re at the forefront. We’re proud to come to work every day knowing that what we do has a direct impact on people’s lives, with our core values guiding us every step of the way. Join us to invest in yourself, your career, and the financial world. The role Performance…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-sofi-7986999003",
+    "title": "Senior Vulnerability Management Engineer",
+    "company": "SoFi",
+    "locations": [
+      "Seattle",
+      "San Francisco"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-08",
+    "url": "https://sofi.com/careers/job/7986999003?gh_jid=7986999003",
+    "site": "sofi.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "Java",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Employee Applicant Privacy Notice Who we are: Shape a brighter financial future with us. Together with our members, we’re changing the way people think about and interact with personal finance. We’re a next-generation financial services company and national bank using innovative, mobile-first technology to help our millions of members reach their goals. The industry is going through an unprecedented transformation, and we’re at the forefront. We’re proud to come to work every day knowing that what we do has a direct impact on people’s lives, with our core values guiding us every step of the way. Join us to invest in yourself, your career, and the financial world. About the role As a Senior…",
     "hasDesc": true
   },
   {
@@ -13875,7 +14978,7 @@ window.JOBS_FINTECH = [
       "Python"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -14033,32 +15136,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-n26-8163939",
-    "title": "Junior iOS Engineer - Payments",
-    "company": "N26",
-    "locations": [
-      "Berlin"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-09-07",
-    "url": "https://n26.com/en-eu/careers/positions/8163939?gh_jid=8163939",
-    "site": "n26.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Банки",
-    "role": "Программирование",
-    "grade": "Junior",
-    "spec": "Платежи",
-    "stack": [
-      "Swift"
-    ],
-    "seen": "2026-09-10",
-    "descShort": "About the Opportunity You will work in the Everyday Banking domain, within the Payments Team. This is where all payment and card transactions are being managed and processed by modern & high-volume systems that power the best customer experience possible. These teams make banking easy, reliable, seamless and secure - everyday for every customer. This is a hybrid role from Barcelona or Berlin. Our cross-functional teams are passionate about collaboration and sharing knowledge, as well as working with a high degree of autonomy. As an iOS Engineer at N26, you will be encouraged to embrace the latest technological updates and given a platform to work on complex, interesting problems on a daily…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-n26-8159268",
     "title": "Product Designer",
     "company": "N26",
@@ -14152,30 +15229,6 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-10",
     "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. Compliance Officer, Growth Programs We are looking for a highly…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-adyen-7790229",
-    "title": "Internal Control Officer- Financial risk",
-    "company": "Adyen",
-    "locations": [
-      "Amsterdam"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-09-07",
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/7790229",
-    "site": "adyen.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Риски",
-    "grade": "Junior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. Internal Control Officer - Financial Risk Adyen is looking for…",
     "hasDesc": true
   },
   {
@@ -14310,17 +15363,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-tide-7820211003",
+    "id": "gh-tide-7812620003",
     "title": "Security Engineer 3 - Vulnerability Management",
     "company": "Tide",
     "locations": [
-      "India, Bengaluru"
+      "India, Hyderabad"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-07",
-    "url": "https://job-boards.greenhouse.io/tide/jobs/7820211003",
+    "url": "https://job-boards.greenhouse.io/tide/jobs/7812620003",
     "site": "tide.co",
     "source": "greenhouse",
     "industry": "fintech",
@@ -14358,6 +15411,36 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-sumup-8785333002",
+    "title": "Backend Engineer (Golang) - Bank Balance",
+    "company": "SumUp",
+    "locations": [
+      "Berlin, Germany"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-07",
+    "url": "https://sumup.com/careers/positions/8785333002?gh_jid=8785333002",
+    "site": "sumup.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Бэкенд",
+    "stack": [
+      "Go",
+      "Kotlin",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "At SumUp, the Global Bank team builds the core infrastructure and services that give merchants a digital bank account, helping small businesses manage their money easily and reliably. The Balance Management Squad sits at the core of the Global Bank Platform. Right now, our team is completing a major milestone: consolidating and modernizing our balance management system in Europe. The next big step is creating a global transaction history service; a single, shared platform used by all regions to give merchants consistent and transparent views of their financial activity. As a Backend Engineer, you’ll help modernize existing systems while balancing innovation with stability, collaborate with…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-sumup-7789384002",
     "title": "Business Development Manager – Payments & POS",
     "company": "SumUp",
@@ -14379,6 +15462,38 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-10",
     "descShort": "Full-Time | 1-Year Fixed Term Contract Salary: £42,180 + Car Allowance £6,000 + Incidentals £2,160 (OTE £70,360) High performers can exceed £100K +++ Role overview SumUp is looking for an experienced, field-based new business hunter to drive net new revenue through the sale of payments and full POS solutions into UK SMBs, with a strong focus on hospitality. This role suits someone who can confidently prospect, uncover customer needs, deliver high-quality demos, and build a clear value case, all within a short sales cycle. You’ll own your territory end-to-end, including self-generation, pipeline management, pricing, and closing. This is a role for someone with a strong sense of ownership and…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-sumup-8773682002",
+    "title": "Senior Backend Engineer",
+    "company": "SumUp",
+    "locations": [
+      "London, United Kingdom"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-07",
+    "url": "https://sumup.com/careers/positions/8773682002?gh_jid=8773682002",
+    "site": "sumup.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Бэкенд",
+    "permit": true,
+    "stack": [
+      "Python",
+      "Kotlin",
+      "SQL",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "About the team At SumUp, we're on a mission to bring merchants and consumers closer together and help local communities thrive. Within the Consumer Mission, we're building a rewarding banking experience that connects people to the small businesses they love while tackling some of the most technically demanding challenges in fintech: critical infrastructure migrations, smooth, uninterrupted payment experiences, seamless open banking integrations, and high‑availability banking systems that can’t afford to fail – all while enabling free transactions for our merchants. This role sits at the heart of that work — you’ll take real ownership of backend services that are close to our consumers…",
     "hasDesc": true
   },
   {
@@ -14934,30 +16049,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-coinbase-8147669",
-    "title": "Screening Analyst II",
-    "company": "Coinbase",
-    "locations": [
-      "Hyderabad, India"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-09-07",
-    "url": "https://www.coinbase.com/careers/positions/8147669?gh_jid=8147669",
-    "site": "coinbase.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Крипта",
-    "role": "Аналитика",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "Ready to do the most impactful work of your career? At Coinbase, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase. As a Screening Compliance Analyst II on the CX Compliance team within Customer Experience, you'll…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-bybit-4969645101",
     "title": "Client Service Analyst - Livechat (Seychelles, French&Creole required)",
     "company": "Bybit",
@@ -15245,33 +16336,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-stripe-8130883",
-    "title": "Software Engineer, Intern",
-    "company": "Stripe",
-    "locations": [
-      "Singapore"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-09-07",
-    "url": "https://stripe.com/jobs/search?gh_jid=8130883",
-    "site": "stripe.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": "Junior",
-    "spec": null,
-    "stack": [
-      "Java",
-      "JavaScript"
-    ],
-    "seen": "2026-09-10",
-    "descShort": "Who we are About Stripe Stripe is a technology company focused on improving the conditions for economic growth and prosperity. We build programmable financial infrastructure, rethinking from first principles how financial services should work, to make it easier and cheaper for any business to start and scale. More than 10 million businesses build on Stripe, spanning the economic frontier—from solo founders to established enterprises—united by a practical focus on growth. The most ambitious companies in the world use Stripe as core infrastructure to grow faster. They process trillions of dollars a year on Stripe, equivalent to around 1.6% of global GDP. While economic growth makes everyone…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-stripe-7737248",
     "title": "Technical Support Engineer (EMEA), Metronome",
     "company": "Stripe",
@@ -15322,7 +16386,7 @@ window.JOBS_FINTECH = [
     "payMax": 96520,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. As a Merchant Risk Analyst, you will assess financial risk related to credit, fraud and identity associated with the merchants. You will also coordinate with cross-functional partners to assess non-financial risk – brand, reputational, legal and compliance risk. The ideal candidate will have knowledge or experience in e-commerce underwriting and/or commercial lending. They will also have a solid understanding of evaluating merchant financial risk based on 3rd party data, credit reports, and other merchant attributes.…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. As a Merchant Risk Analyst, you will assess financial risk related to credit, fraud and identity associated with the merchants. You will also coordinate with cross-functional partners to assess non-financial risk – brand, reputational, legal and compliance risk. The ideal candidate will have knowledge or experience in e-commerce underwriting and/or commercial lending. They will also have a solid understanding of evaluating merchant financial risk based on 3rd party data, credit reports, and other merchant…",
     "hasDesc": true
   },
   {
@@ -15428,6 +16492,30 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-10",
     "descShort": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. About the team Abuse Operations is the front-line incident response and remediation function handling active product abuse and fraud impacting Stripe and its merchants. This…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-ebury-4969346101",
+    "title": "Senior Manager – Financial Consolidation & FX Risk",
+    "company": "Ebury",
+    "locations": [
+      "Madrid"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-05",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4969346101",
+    "site": "ebury.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Риски",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Senior Manager – Financial Consolidation & FX Risk (CTA & Treasury Expert) Treasury Ebury Madrid Office - Hybrid: 4 days in the office, 1 day working from home per week About the Role We are seeking an experienced Senior…",
     "hasDesc": true
   },
   {
@@ -16164,6 +17252,30 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-10",
     "descShort": "ABOUT PRIMER Primer is a growing network of K–8 schools restoring the timeless foundations of American education. Inspired by the original teaching primers that shaped a nation of readers, thinkers, and builders, our schools begin with what has always worked, and build for what lies ahead. Close-knit learning environments. Skilled educators. A culture that takes kids seriously as learners and leaders. Primers shaped the first 200 years of American children. Primer will ready them for the next. ROLE OVERVIEW We're hiring Full Stack Software Engineering Interns. The internship begins in January, May, or June, with a preferred commitment of 4 to 8 months. You'll build PrimerOS, the operating…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-ebury-4969227101",
+    "title": "Business Developer",
+    "company": "Ebury",
+    "locations": [
+      "Madrid"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4969227101",
+    "site": "ebury.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Business Developer / FX Sales Associate Ebury Madrid - Office based Launch Your FinTech Career as a Graduate Business Developer / FX Sales Associate at Ebury in our dynamic team. Kickstart a meaningful sales career in the…",
     "hasDesc": true
   },
   {
@@ -17073,17 +18185,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-stripe-7557899",
+    "id": "gh-stripe-7476555",
     "title": "Backend Engineer, Developer & End-user Experience Platform",
     "company": "Stripe",
     "locations": [
-      "Toronto, Canada"
+      "SEA, Toronto"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-04",
-    "url": "https://stripe.com/jobs/search?gh_jid=7557899",
+    "url": "https://stripe.com/jobs/search?gh_jid=7476555",
     "site": "stripe.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -17092,10 +18204,12 @@ window.JOBS_FINTECH = [
     "grade": null,
     "spec": "Бэкенд",
     "stack": [
-      "Go"
+      "AWS",
+      "Docker",
+      "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. About the team Our team owns open-source SDKs that reflect the Stripe API in seven different programming languages. A vast majority of server-side Stripe integrations are built…",
+    "descShort": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. About the team Stripe's Developer & End-user Experience Platform (DEEP) organization empowers all of Stripe's products with a shared product platform that helps with rapidly…",
     "hasDesc": true
   },
   {
@@ -18174,81 +19288,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-stripe-7634113",
-    "title": "Field Marketing Manager, SMB and Mid-Market - EMEA",
-    "company": "Stripe",
-    "locations": [
-      "Dublin"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-09-04",
-    "url": "https://stripe.com/jobs/search?gh_jid=7634113",
-    "site": "stripe.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Маркетинг",
-    "grade": "Middle",
-    "spec": null,
-    "permit": true,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. About the team The Stripe EMEA Marketing team is a dynamic and rapidly growing group dedicated to transforming customers into enthusiastic advocates for Stripe. Collaborating…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-stripe-7979885",
-    "title": "Finance & Strategy Partner, Central Engineering",
-    "company": "Stripe",
-    "locations": [
-      "US, CHI"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": null,
-    "posted": "2026-09-04",
-    "url": "https://stripe.com/jobs/search?gh_jid=7979885",
-    "site": "stripe.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "SQL"
-    ],
-    "seen": "2026-09-10",
-    "descShort": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. About the team The Infrastructure Finance and Strategy team is an integral thought partner to Stripe's engineering leadership. We bring understanding and predictability to…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-stripe-8066264",
-    "title": "Financial Analyst, Business F&S",
-    "company": "Stripe",
-    "locations": [
-      "Bengaluru"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-09-04",
-    "url": "https://stripe.com/jobs/search?gh_jid=8066264",
-    "site": "stripe.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Аналитика",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies from the world's largest enterprises to the most ambitious startups use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. About the Team The Finance & Strategy (F&S) team serves as the strategic engine and financial steward of Stripe's businesses, connecting financial rigour with business judgment to drive…",
-    "hasDesc": true
-  },
-  {
     "id": "ab-plaid-ce3b3add-47d9-402d-a31d-16ffd1d0adb4",
     "title": "Senior Data Engineer - Data Engineering",
     "company": "Plaid",
@@ -18468,7 +19507,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Affirm Card is one of the company's fastest-growing products and an increasingly significant contributor to overall platform GMV. Our team owns everything that happens after a card transaction settles. We build and operate the systems that keep customer accounts accurate and resolve issues when something goes wrong after a transaction, working…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Affirm Card is one of the company's fastest-growing products and an increasingly significant contributor to overall platform GMV. Our team owns everything that happens after a card transaction settles. We build and operate the systems that keep customer accounts accurate and resolve issues when something goes wrong after a transaction…",
     "hasDesc": true
   },
   {
@@ -18499,7 +19538,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Affirm Card is one of the company's fastest-growing products and an increasingly significant contributor to overall platform GMV. Our team owns everything that happens after a card transaction settles. We build and operate the systems that keep customer accounts accurate and resolve issues when something goes wrong after a transaction, working…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Affirm Card is one of the company's fastest-growing products and an increasingly significant contributor to overall platform GMV. Our team owns everything that happens after a card transaction settles. We build and operate the systems that keep customer accounts accurate and resolve issues when something goes wrong after a transaction…",
     "hasDesc": true
   },
   {
@@ -18607,6 +19646,34 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-10",
     "descShort": "The Company You’ll Join Carta is the connected platform and AI-native ecosystem for private capital. Built to replace fragmented tools with a single system of record, Carta brings together the software, services, and legal infrastructure that founders use to manage equity, fund managers use to run administration and reporting, and legal teams use to close transactions. Trusted by 55,000 companies and 1.8M+ equity holders in 160+ countries, and 10,000 funds and SPVs representing $250B+ in assets under management, Carta is transforming how private capital operates. Recognized by Fortune, Forbes, Fast Company, Inc. and Great Places to Work. For more information about our offices and culture…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-sofi-7987003003",
+    "title": "Vulnerability Management Engineer",
+    "company": "SoFi",
+    "locations": [
+      "San Francisco"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-04",
+    "url": "https://sofi.com/careers/job/7987003003?gh_jid=7987003003",
+    "site": "sofi.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "Java",
+      "AWS"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Employee Applicant Privacy Notice Who we are: Shape a brighter financial future with us. Together with our members, we’re changing the way people think about and interact with personal finance. We’re a next-generation financial services company and national bank using innovative, mobile-first technology to help our millions of members reach their goals. The industry is going through an unprecedented transformation, and we’re at the forefront. We’re proud to come to work every day knowing that what we do has a direct impact on people’s lives, with our core values guiding us every step of the way. Join us to invest in yourself, your career, and the financial world. About The role As a…",
     "hasDesc": true
   },
   {
@@ -19149,7 +20216,7 @@ window.JOBS_FINTECH = [
       "AWS"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -19173,7 +20240,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -19355,30 +20422,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-adyen-8147372",
-    "title": "Payment Terminal Certification Expert (L2)",
-    "company": "Adyen",
-    "locations": [
-      "Amsterdam"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-09-03",
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/8147372",
-    "site": "adyen.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Платежи",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. Terminal (POS) Certification Expert The IPP Security &…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-adyen-8068182",
     "title": "Regulatory Product Specialist",
     "company": "Adyen",
@@ -19402,33 +20445,6 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-10",
     "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. Regulatory Product Specialist Our fast-paced North America…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-adyen-8041307",
-    "title": "Senior Backend Engineer (Java)",
-    "company": "Adyen",
-    "locations": [
-      "Bengaluru"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-09-03",
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/8041307",
-    "site": "adyen.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "Бэкенд",
-    "stack": [
-      "Java",
-      "SQL"
-    ],
-    "seen": "2026-09-10",
-    "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. About the Team The Payment Gateways team (used to be known as…",
     "hasDesc": true
   },
   {
@@ -20031,30 +21047,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7985087003",
-    "title": "Senior Product Designer, Wallets",
-    "company": "OKX",
-    "locations": [
-      "Hong Kong, Hong Kong SAR"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-09-03",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7985087003",
-    "site": "okx.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Крипта",
-    "role": "Дизайн",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things Done. These shared values drive our culture, shape our processes, and foster a friendly, rewarding, and diverse environment for every…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-okx-7985107003",
     "title": "Senior Product Manager, Asset (Fund Movement, Deposit & Withdrawal)",
     "company": "OKX",
@@ -20409,7 +21401,7 @@ window.JOBS_FINTECH = [
     "permit": true,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. As a Lead Product Marketing Manager, you’ll play a strategic and hands-on role in shaping how merchants experience Affirm’s products. You'll help define our product strategy, lead high-impact go-to-market initiatives, and develop compelling narratives that drive business outcomes. This is a highly cross-functional role that requires strong product intuition, strategic thinking, and a bias for action. You’ll bring deep customer and competitive insights to everything you do, and operate as a true partner to Product…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. As a Lead Product Marketing Manager, you’ll play a strategic and hands-on role in shaping how merchants experience Affirm’s products. You'll help define our product strategy, lead high-impact go-to-market initiatives, and develop compelling narratives that drive business outcomes. This is a highly cross-functional role that requires strong product intuition, strategic thinking, and a bias for action. You’ll bring deep customer and competitive insights to everything you do, and operate as a true partner to Product…",
     "hasDesc": true
   },
   {
@@ -20439,7 +21431,7 @@ window.JOBS_FINTECH = [
       "Figma"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Marketplace and App Experience domain is the main pillar of our core consumer strategy, driving the user journey across all of our frontend surfaces: iOS, Android, and Web. The teams span across multiple products and areas to engage and provide value to our customers, starting with the Home hub in the app or website, which expands into the various product offers and journeys a user can embark on with Affirm. This role will be at the forefront of our front end technical strategy, working closely with other experts…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. The Marketplace and App Experience domain is the main pillar of our core consumer strategy, driving the user journey across all of our frontend surfaces: iOS, Android, and Web. The teams span across multiple products and areas to engage and provide value to our customers, starting with the Home hub in the app or website, which expands into the various product offers and journeys a user can embark on with Affirm. This role will be at the forefront of our front end technical strategy, working closely with other…",
     "hasDesc": true
   },
   {
@@ -20465,7 +21457,7 @@ window.JOBS_FINTECH = [
     "payMax": 213000,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Trust & Safety Experience owns the customer journeys during authentication, verification, and fraud journeys. You will work as a full stack engineer, contributing to backend, web, and mobile interfaces. In this role, you will need to gain a deep understanding of the business, product and engineering context, and utilize that context to own and deliver…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Trust & Safety Experience owns the customer journeys during authentication, verification, and fraud journeys. You will work as a full stack engineer, contributing to backend, web, and mobile interfaces. In this role, you will need to gain a deep understanding of the business, product and engineering context, and utilize that context to own and…",
     "hasDesc": true
   },
   {
@@ -20494,7 +21486,7 @@ window.JOBS_FINTECH = [
       "JavaScript"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Affirm is looking for a Senior Staff Software Engineer to take on a critical role in defining and leading technical excellence across core consumer experiences at Affirm, starting with Marketplace and Search. You’ll collaborate with engineering leaders, create and implement technical strategy across full-stack teams, and coordinate closely with stakeholders to build scalable, reliable, and high-performing solutions. You'll help shape best practices, guide architectural choices, and drive the successful delivery of…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. Affirm is looking for a Senior Staff Software Engineer to take on a critical role in defining and leading technical excellence across core consumer experiences at Affirm, starting with Marketplace and Search. You’ll collaborate with engineering leaders, create and implement technical strategy across full-stack teams, and coordinate closely with stakeholders to build scalable, reliable, and high-performing solutions. You'll help shape best practices, guide architectural choices, and drive the successful delivery of…",
     "hasDesc": true
   },
   {
@@ -20519,30 +21511,6 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-10",
     "descShort": "The Company You’ll Join Carta is the connected platform and AI-native ecosystem for private capital. Built to replace fragmented tools with a single system of record, Carta brings together the software, services, and legal infrastructure that founders use to manage equity, fund managers use to run administration and reporting, and legal teams use to close transactions. Trusted by 55,000 companies and 1.8M+ equity holders in 160+ countries, and 10,000 funds and SPVs representing $250B+ in assets under management, Carta is transforming how private capital operates. Recognized by Fortune, Forbes, Fast Company, Inc. and Great Places to Work. For more information about our offices and culture…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-7456663",
-    "title": "Finance & Strategy Senior Analyst",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-09-03",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/7456663?t=gh_src=&gh_jid=7456663",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Банки",
-    "role": "Аналитика",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
     "hasDesc": true
   },
   {
@@ -20653,6 +21621,30 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "rc-tether-2733184",
+    "title": "Senior Business Analyst Mining (100% remote)",
+    "company": "Tether",
+    "locations": [
+      "Paris"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-03",
+    "url": "https://careers.tether.io/o/senior-business-analyst-mining-100-remote-11",
+    "source": "recruitee",
+    "site": "tether.io",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Аналитика",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
+    "hasDesc": true
+  },
+  {
     "id": "rc-tether-2733408",
     "title": "DevOps Engineer (100% remote)",
     "company": "Tether",
@@ -20677,30 +21669,6 @@ window.JOBS_FINTECH = [
       "JavaScript",
       "Docker"
     ],
-    "seen": "2026-09-10",
-    "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
-    "hasDesc": true
-  },
-  {
-    "id": "rc-tether-2733184",
-    "title": "Senior Business Analyst Mining (100% remote)",
-    "company": "Tether",
-    "locations": [
-      "Paris"
-    ],
-    "remote": true,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-09-03",
-    "url": "https://careers.tether.io/o/senior-business-analyst-mining-100-remote-11",
-    "source": "recruitee",
-    "site": "tether.io",
-    "industry": "fintech",
-    "kind": "Крипта",
-    "role": "Аналитика",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
     "seen": "2026-09-10",
     "descShort": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT…",
     "hasDesc": true
@@ -20911,7 +21879,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -20938,7 +21906,7 @@ window.JOBS_FINTECH = [
       "AWS"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -20965,7 +21933,7 @@ window.JOBS_FINTECH = [
       "SQL"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -20989,7 +21957,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -21013,7 +21981,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -21037,7 +22005,7 @@ window.JOBS_FINTECH = [
     "spec": "DevOps",
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -21122,17 +22090,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-n26-8110812",
+    "id": "gh-n26-8113987",
     "title": "Senior Product Security Engineer",
     "company": "N26",
     "locations": [
-      "Berlin"
+      "Barcelona"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-02",
-    "url": "https://n26.com/en-eu/careers/positions/8110812?gh_jid=8110812",
+    "url": "https://n26.com/en-eu/careers/positions/8113987?gh_jid=8113987",
     "site": "n26.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -21562,6 +22530,30 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-form3-8660486002",
+    "title": "Senior Product Manager - Global Sponsor Bank Enablement",
+    "company": "Form3",
+    "locations": [
+      "100%"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://www.form3.tech/careers/vacancies/8660486002?gh_jid=8660486002",
+    "site": "form3.tech",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Продакт",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "THE ROLE 📝 At Form3, we're transforming the way financial institutions move money globally. Our cloud-native payments platform enables banks, FinTechs and regulated financial institutions to connect to payment schemes securely, reliably and at scale. We're looking for a Senior Product Manager – Global Sponsor Bank Enablement to play a pivotal role in expanding our global payments platform. Working within our Product organisation and reporting to the Chief Product Officer, you'll help define the strategy and roadmap for sponsor-bank-enabled capabilities that support entry into new markets. You'll work closely with Engineering and cross-functional teams, while partnering with leading…",
+    "hasDesc": true
+  },
+  {
     "id": "ab-freetrade-fa22d097-d659-4afa-a3bd-afd41e269349",
     "title": "Senior Backend Software Engineer",
     "company": "Freetrade",
@@ -21853,84 +22845,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "ab-airwallex-0d3d080f-b08b-44a2-8904-2df1c7f6d7c7",
-    "title": "Account Executive, SME & Growth (Pacific Time Zone)",
-    "company": "Airwallex",
-    "locations": [
-      "United States"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": "$146K – $182K • Offers Equity • Offers Commission",
-    "posted": "2026-09-02",
-    "url": "https://jobs.ashbyhq.com/airwallex/0d3d080f-b08b-44a2-8904-2df1c7f6d7c7",
-    "source": "ashby",
-    "site": "airwallex.com",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Маркетинг",
-    "grade": null,
-    "spec": null,
-    "payMin": 146000,
-    "payMax": 182000,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "ABOUT AIRWALLEX Airwallex is the only unified payments and financial platform for global businesses. Powered by our unique combination of proprietary infrastructure and software, we empower over 250,000 businesses worldwide – including Brex, Navan, Qantas, SHEIN and many more – with fully integrated solutions to manage everything from business accounts, payments, spend management and treasury, to embedded finance at a global scale. Proudly founded in Melbourne, we have a team of over 2,300 of the brightest and most innovative people in tech across 27 offices around the globe. Valued at US$11 billion and backed by world-leading investors including T. Rowe Price, Visa, Mastercard, Robinhood…",
-    "hasDesc": true
-  },
-  {
-    "id": "ab-airwallex-4138a538-a314-4c13-aab3-1d1b65dbc8bc",
-    "title": "Account Executive, SME & Growth (Mountain / Central Time Zone)",
-    "company": "Airwallex",
-    "locations": [
-      "United States"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": "$146K – $182K • Offers Equity • Offers Commission",
-    "posted": "2026-09-02",
-    "url": "https://jobs.ashbyhq.com/airwallex/4138a538-a314-4c13-aab3-1d1b65dbc8bc",
-    "source": "ashby",
-    "site": "airwallex.com",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Маркетинг",
-    "grade": null,
-    "spec": null,
-    "payMin": 146000,
-    "payMax": 182000,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "ABOUT AIRWALLEX Airwallex is the only unified payments and financial platform for global businesses. Powered by our unique combination of proprietary infrastructure and software, we empower over 250,000 businesses worldwide – including Brex, Navan, Qantas, SHEIN and many more – with fully integrated solutions to manage everything from business accounts, payments, spend management and treasury, to embedded finance at a global scale. Proudly founded in Melbourne, we have a team of over 2,300 of the brightest and most innovative people in tech across 27 offices around the globe. Valued at US$11 billion and backed by world-leading investors including T. Rowe Price, Visa, Mastercard, Robinhood…",
-    "hasDesc": true
-  },
-  {
-    "id": "ab-airwallex-a3ff2b4b-4f17-4c82-adaf-f411a6c3d8e1",
-    "title": "Account Executive, SME & Growth (Eastern Time Zone)",
-    "company": "Airwallex",
-    "locations": [
-      "United States"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": "$146K – $182K • Offers Equity • Offers Commission",
-    "posted": "2026-09-02",
-    "url": "https://jobs.ashbyhq.com/airwallex/a3ff2b4b-4f17-4c82-adaf-f411a6c3d8e1",
-    "source": "ashby",
-    "site": "airwallex.com",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Маркетинг",
-    "grade": null,
-    "spec": null,
-    "payMin": 146000,
-    "payMax": 182000,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "ABOUT AIRWALLEX Airwallex is the only unified payments and financial platform for global businesses. Powered by our unique combination of proprietary infrastructure and software, we empower over 250,000 businesses worldwide – including Brex, Navan, Qantas, SHEIN and many more – with fully integrated solutions to manage everything from business accounts, payments, spend management and treasury, to embedded finance at a global scale. Proudly founded in Melbourne, we have a team of over 2,300 of the brightest and most innovative people in tech across 27 offices around the globe. Valued at US$11 billion and backed by world-leading investors including T. Rowe Price, Visa, Mastercard, Robinhood…",
-    "hasDesc": true
-  },
-  {
     "id": "ab-airwallex-9e31a887-9ba6-4a56-b083-adcd8b8e2cee",
     "title": "Manager, Growth Strategy & Operations (Experiments/Campaigns)",
     "company": "Airwallex",
@@ -21954,6 +22868,30 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-10",
     "descShort": "ABOUT AIRWALLEX Airwallex is the only unified payments and financial platform for global businesses. Powered by our unique combination of proprietary infrastructure and software, we empower over 250,000 businesses worldwide – including Brex, Navan, Qantas, SHEIN and many more – with fully integrated solutions to manage everything from business accounts, payments, spend management and treasury, to embedded finance at a global scale. Proudly founded in Melbourne, we have a team of over 2,300 of the brightest and most innovative people in tech across 27 offices around the globe. Valued at US$11 billion and backed by world-leading investors including T. Rowe Price, Visa, Mastercard, Robinhood…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-ebury-4961879101",
+    "title": "Business Developer - FX Financial Solutions",
+    "company": "Ebury",
+    "locations": [
+      "Budapest"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4961879101",
+    "site": "ebury.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Business Developer - FX Financial Solutions Ebury Budapest - Office based Launch Your FinTech Career as a Business Developer at Ebury in our dynamic Budapest team. Kickstart a meaningful sales career in the world of…",
     "hasDesc": true
   },
   {
@@ -22382,34 +23320,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-bybit-4942186101",
-    "title": "Lead Backend Development Engineer",
-    "company": "Bybit",
-    "locations": [
-      "Hong Kong SAR",
-      "Kuala Lumpur, Malaysia"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-09-02",
-    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4942186101",
-    "site": "bybit.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Крипта",
-    "role": "Программирование",
-    "grade": "Lead",
-    "spec": "Бэкенд",
-    "stack": [
-      "Java",
-      "SQL"
-    ],
-    "seen": "2026-09-10",
-    "descShort": "About Us Established in 2018, Bybit is one of the world’s leading cryptocurrency exchanges and digital financial platforms, serving over 80 million users across more than 200 countries and regions. Powered by world-class technology and a user-first mindset, Bybit delivers a seamless ecosystem across trading, payments, wealth management, custody, institutional services, and Web3 — connecting users to the future of digital finance. Our core values define how we build. We listen, care and improve to create products and experiences that put users first. Backed by a global team of ambitious builders, problem-solvers, and innovators, we foster a high-performance and fast-moving environment where…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-bybit-4941293101",
     "title": "Lead TechOps Engineer",
     "company": "Bybit",
@@ -22822,7 +23732,7 @@ window.JOBS_FINTECH = [
       "SQL"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About the Revenue team The Revenue team drives Affirm’s top-line growth through strategic partnerships, pricing, and go-to-market execution. We acquire, retain, and expand merchant relationships across eCommerce, in-store, telesales, and the Affirm app. The team leads onboarding, relationship management, and performance optimization to help partners succeed. We deliver value-added solutions, drive adoption, and support long-term business growth by connecting merchants and consumers through Affirm’s products. About the…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. About the Revenue team The Revenue team drives Affirm’s top-line growth through strategic partnerships, pricing, and go-to-market execution. We acquire, retain, and expand merchant relationships across eCommerce, in-store, telesales, and the Affirm app. The team leads onboarding, relationship management, and performance optimization to help partners succeed. We deliver value-added solutions, drive adoption, and support long-term business growth by connecting merchants and consumers through Affirm’s products. About…",
     "hasDesc": true
   },
   {
@@ -22848,7 +23758,7 @@ window.JOBS_FINTECH = [
     "payMax": 225000,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About the Technical Program Management team The Technical Program Management team at Affirm operates at the intersection of strategy, product, and engineering execution. We are versatile operators and trusted strategic partners who drive complex initiatives, design our planning engines, and architect operational frameworks that power the technology behind Affirm's business. Guided by our commitment to putting the customer first and pushing the envelope, we elevate how teams collaborate, resolve critical tradeoffs, and…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. About the Technical Program Management team The Technical Program Management team at Affirm operates at the intersection of strategy, product, and engineering execution. We are versatile operators and trusted strategic partners who drive complex initiatives, design our planning engines, and architect operational frameworks that power the technology behind Affirm's business. Guided by our commitment to putting the customer first and pushing the envelope, we elevate how teams collaborate, resolve critical tradeoffs…",
     "hasDesc": true
   },
   {
@@ -22880,7 +23790,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. We are seeking a seasoned Staff Engineer to help drive our Continuous Integration (CI) team. This role is critical in ensuring the reliability, scalability, and efficiency of our development pipelines, enabling engineers across the company to ship high-quality software quickly and confidently. The Staff Engineer will help drive the design, implementation, and optimization of systems that support automated testing, build orchestration, and deployment. What you’ll do • Systems & Operations • Own the design, scalability…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. We are seeking a seasoned Staff Engineer to help drive our Continuous Integration (CI) team. This role is critical in ensuring the reliability, scalability, and efficiency of our development pipelines, enabling engineers across the company to ship high-quality software quickly and confidently. The Staff Engineer will help drive the design, implementation, and optimization of systems that support automated testing, build orchestration, and deployment. What you’ll do • Systems & Operations • Own the design…",
     "hasDesc": true
   },
   {
@@ -23036,7 +23946,7 @@ window.JOBS_FINTECH = [
       "SQL"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -23063,7 +23973,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -23163,17 +24073,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-n26-7563017",
+    "id": "gh-n26-7552415",
     "title": "Senior Liquidity Risk Manager (ILAAP)",
     "company": "N26",
     "locations": [
-      "Madrid"
+      "Berlin"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-01",
-    "url": "https://n26.com/en-eu/careers/positions/7563017?gh_jid=7563017",
+    "url": "https://n26.com/en-eu/careers/positions/7552415?gh_jid=7552415",
     "site": "n26.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -23316,37 +24226,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-tide-7570167003",
-    "title": "Engineering Manager",
-    "company": "Tide",
-    "locations": [
-      "Serbia"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-09-01",
-    "url": "https://job-boards.greenhouse.io/tide/jobs/7570167003",
-    "site": "tide.co",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Банки",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "C#",
-      "Python",
-      "Java",
-      "Kotlin",
-      "Swift",
-      "AWS"
-    ],
-    "seen": "2026-09-10",
-    "descShort": "ABOUT TIDE At Tide, we help SMEs save time and money in the running of their businesses by not only offering business accounts and related banking services, but also a comprehensive set of highly usable and connected administrative solutions, from invoicing to accounting. Tide is transforming the small business banking market and now supports over 2 million members globally across the UK, India, Germany and France. Using advanced technology, all solutions are designed with SMEs in mind. With quick onboarding, low fees and innovative features, we thrive on making data driven decisions to serve our mission: to help SMEs save time and money so they can get back to doing what they love. Tide…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-tide-7780974003",
     "title": "Engineering Manager - Accounts Platform",
     "company": "Tide",
@@ -23371,17 +24250,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-tide-7737389003",
+    "id": "gh-tide-7783194003",
     "title": "Lead Product Manager - Banking Payments",
     "company": "Tide",
     "locations": [
-      "Bulgaria"
+      "Serbia"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-01",
-    "url": "https://job-boards.greenhouse.io/tide/jobs/7737389003",
+    "url": "https://job-boards.greenhouse.io/tide/jobs/7783194003",
     "site": "tide.co",
     "source": "greenhouse",
     "industry": "fintech",
@@ -24320,7 +25199,7 @@ window.JOBS_FINTECH = [
     "payMax": 245000,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About the Brand and Communications team Brand & Communications shapes how the world understands Affirm and how Affirm shows up in it. We meet people where perception forms: in culture, in the press, across our owned and paid channels, and inside the company. We aim to make our work compound over time, moving at the speed of culture while holding a high bar for craft and clarity. Our job across comms, brand, creative, and social is to make Affirm a brand people trust and are proud to choose. About the Role Affirm has…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. About the Brand and Communications team Brand & Communications shapes how the world understands Affirm and how Affirm shows up in it. We meet people where perception forms: in culture, in the press, across our owned and paid channels, and inside the company. We aim to make our work compound over time, moving at the speed of culture while holding a high bar for craft and clarity. Our job across comms, brand, creative, and social is to make Affirm a brand people trust and are proud to choose. About the Role Affirm…",
     "hasDesc": true
   },
   {
@@ -24351,7 +25230,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Money Movement & Card Ledger team is looking for a passionate Software Engineer to help build the tools and systems that we use to manage money movement, bank data integration & merchant data. Affirm Card is Affirm’s newest financial product that marries the functionality of a debit card with access to Affirm's buy now pay later financing options. Our ability to move money effectively is critical to our ability to reach new customers and improve financial lives. We work closely with experience, data science, product…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. The Money Movement & Card Ledger team is looking for a passionate Software Engineer to help build the tools and systems that we use to manage money movement, bank data integration & merchant data. Affirm Card is Affirm’s newest financial product that marries the functionality of a debit card with access to Affirm's buy now pay later financing options. Our ability to move money effectively is critical to our ability to reach new customers and improve financial lives. We work closely with experience, data science…",
     "hasDesc": true
   },
   {
@@ -24380,6 +25259,108 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-10",
     "descShort": "The Company You’ll Join Carta is the connected platform and AI-native ecosystem for private capital. Built to replace fragmented tools with a single system of record, Carta brings together the software, services, and legal infrastructure that founders use to manage equity, fund managers use to run administration and reporting, and legal teams use to close transactions. Trusted by 55,000 companies and 1.8M+ equity holders in 160+ countries, and 10,000 funds and SPVs representing $250B+ in assets under management, Carta is transforming how private capital operates. Recognized by Fortune, Forbes, Fast Company, Inc. and Great Places to Work. For more information about our offices and culture…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-sofi-7982603003",
+    "title": "Home Equity Underwriter",
+    "company": "SoFi",
+    "locations": [
+      "Frisco, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-01",
+    "url": "https://sofi.com/careers/job/7982603003?gh_jid=7982603003",
+    "site": "sofi.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Риски",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Employee Applicant Privacy Notice Who we are: Shape a brighter financial future with us. Together with our members, we’re changing the way people think about and interact with personal finance. We’re a next-generation financial services company and national bank using innovative, mobile-first technology to help our millions of members reach their goals. The industry is going through an unprecedented transformation, and we’re at the forefront. We’re proud to come to work every day knowing that what we do has a direct impact on people’s lives, with our core values guiding us every step of the way. Join us to invest in yourself, your career, and the financial world. The role: SoFi is hiring an…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-sofi-7819817003",
+    "title": "Principal Product Manager, Core Banking",
+    "company": "SoFi",
+    "locations": [
+      "New York City"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-01",
+    "url": "https://sofi.com/careers/job/7819817003?gh_jid=7819817003",
+    "site": "sofi.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Продакт",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Employee Applicant Privacy Notice Who we are: Shape a brighter financial future with us. Together with our members, we’re changing the way people think about and interact with personal finance. We’re a next-generation financial services company and national bank using innovative, mobile-first technology to help our millions of members reach their goals. The industry is going through an unprecedented transformation, and we’re at the forefront. We’re proud to come to work every day knowing that what we do has a direct impact on people’s lives, with our core values guiding us every step of the way. Join us to invest in yourself, your career, and the financial world. The Role We are looking for…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-sofi-7920073003",
+    "title": "Risk Strategy Execution Analyst",
+    "company": "SoFi",
+    "locations": [
+      "Cottonwood Heights, FL - Jacksonville"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-01",
+    "url": "https://sofi.com/careers/job/7920073003?gh_jid=7920073003",
+    "site": "sofi.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Риски",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "SQL"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Employee Applicant Privacy Notice Who we are: Shape a brighter financial future with us. Together with our members, we’re changing the way people think about and interact with personal finance. We’re a next-generation financial services company and national bank using innovative, mobile-first technology to help our millions of members reach their goals. The industry is going through an unprecedented transformation, and we’re at the forefront. We’re proud to come to work every day knowing that what we do has a direct impact on people’s lives, with our core values guiding us every step of the way. Join us to invest in yourself, your career, and the financial world. The role: The Risk Strategy…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-sofi-7820959003",
+    "title": "Senior Manager, Data Science",
+    "company": "SoFi",
+    "locations": [
+      "San Francisco",
+      "New York City"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-01",
+    "url": "https://sofi.com/careers/job/7820959003?gh_jid=7820959003",
+    "site": "sofi.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Данные и ML",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Employee Applicant Privacy Notice Who we are: Shape a brighter financial future with us. Together with our members, we’re changing the way people think about and interact with personal finance. We’re a next-generation financial services company and national bank using innovative, mobile-first technology to help our millions of members reach their goals. The industry is going through an unprecedented transformation, and we’re at the forefront. We’re proud to come to work every day knowing that what we do has a direct impact on people’s lives, with our core values guiding us every step of the way. Join us to invest in yourself, your career, and the financial world. The role The Data Science…",
     "hasDesc": true
   },
   {
@@ -24524,33 +25505,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-veriff-8696103002",
-    "title": "Senior Software Engineer (Trust)",
-    "company": "Veriff",
-    "locations": [
-      "Tallinn, Spain"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": null,
-    "posted": "2026-09-01",
-    "url": "https://www.veriff.com/careers/position/8696103002?gh_jid=8696103002",
-    "site": "veriff.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "Python",
-      "Kubernetes"
-    ],
-    "seen": "2026-09-10",
-    "descShort": "Beneath a simple yet elegant user interface lies a complex system of functionalities. Our AI-powered product uses advanced image recognition, facial verification, face recognition, facial anti-spoofing (liveness detection), and behavior analysis to make identity decisions. We help our partners build onboarding processes that ensure good people get things done and bad folks get stopped. But knowing who someone is only gets you halfway. The next question is whether they can be trusted — and answering it means checking a person's identity data against the authoritative sources that hold the truth. Every country does this differently: a different registry, a different database, a different set…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-riskified-8499857002",
     "title": "Data Scientist",
     "company": "Riskified",
@@ -24651,7 +25605,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -24675,7 +25629,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -24731,17 +25685,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-tide-6614190003",
+    "id": "gh-tide-6621953003",
     "title": "Senior Engineer, Flutter",
     "company": "Tide",
     "locations": [
-      "Bulgaria"
+      "Lithuania"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-31",
-    "url": "https://job-boards.greenhouse.io/tide/jobs/6614190003",
+    "url": "https://job-boards.greenhouse.io/tide/jobs/6621953003",
     "site": "tide.co",
     "source": "greenhouse",
     "industry": "fintech",
@@ -25140,17 +26094,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-thunes-7785515003",
+    "id": "gh-thunes-7583665003",
     "title": "GO Senior Software Engineer",
     "company": "Thunes",
     "locations": [
-      "London, United Kingdom"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-31",
-    "url": "https://www.thunes.com/jobs/7785515003?gh_jid=7785515003",
+    "url": "https://www.thunes.com/jobs/7583665003?gh_jid=7583665003",
     "site": "thunes.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -25191,7 +26145,7 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-thunes-7581841003",
+    "id": "gh-thunes-7784657003",
     "title": "KYC Officer",
     "company": "Thunes",
     "locations": [
@@ -25201,7 +26155,7 @@ window.JOBS_FINTECH = [
     "rkind": null,
     "salary": null,
     "posted": "2026-08-31",
-    "url": "https://www.thunes.com/jobs/7581841003?gh_jid=7581841003",
+    "url": "https://www.thunes.com/jobs/7784657003?gh_jid=7784657003",
     "site": "thunes.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -25239,17 +26193,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-thunes-7791527003",
+    "id": "gh-thunes-7793435003",
     "title": "Pre-Sales Engineer",
     "company": "Thunes",
     "locations": [
-      "London, United Kingdom"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-31",
-    "url": "https://www.thunes.com/jobs/7791527003?gh_jid=7791527003",
+    "url": "https://www.thunes.com/jobs/7793435003?gh_jid=7793435003",
     "site": "thunes.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -25287,17 +26241,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-thunes-7825866003",
+    "id": "gh-thunes-7797425003",
     "title": "Product Manager (Global Accounts)",
     "company": "Thunes",
     "locations": [
-      "London, United Kingdom"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-31",
-    "url": "https://www.thunes.com/jobs/7825866003?gh_jid=7825866003",
+    "url": "https://www.thunes.com/jobs/7797425003?gh_jid=7797425003",
     "site": "thunes.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -25440,17 +26394,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-thunes-7800904003",
+    "id": "gh-thunes-7806963003",
     "title": "Senior Product Marketing Manager (9 months temporary contract)",
     "company": "Thunes",
     "locations": [
-      "Barcelona, Spain"
+      "London, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-31",
-    "url": "https://www.thunes.com/jobs/7800904003?gh_jid=7800904003",
+    "url": "https://www.thunes.com/jobs/7806963003?gh_jid=7806963003",
     "site": "thunes.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -26318,6 +27272,34 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-bybit-4908935101",
+    "title": "Lead Backend Development Engineer",
+    "company": "Bybit",
+    "locations": [
+      "Kuala Lumpur, Malaysia"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-31",
+    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4908935101",
+    "site": "bybit.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": "Бэкенд",
+    "stack": [
+      "Go",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "About Us Established in 2018, Bybit is one of the world’s leading cryptocurrency exchanges and digital financial platforms, serving over 80 million users across more than 200 countries and regions. Powered by world-class technology and a user-first mindset, Bybit delivers a seamless ecosystem across trading, payments, wealth management, custody, institutional services, and Web3 — connecting users to the future of digital finance. Our core values define how we build. We listen, care and improve to create products and experiences that put users first. Backed by a global team of ambitious builders, problem-solvers, and innovators, we foster a high-performance and fast-moving environment where…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-bybit-4947347101",
     "title": "Lead Blockchain Development Engineer (Java)",
     "company": "Bybit",
@@ -26392,7 +27374,7 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-bybit-4882378101",
+    "id": "gh-bybit-4904748101",
     "title": "MLRO & Compliance Officer, UAE (ADGM) - Broker Dealer Entity",
     "company": "Bybit",
     "locations": [
@@ -26402,7 +27384,7 @@ window.JOBS_FINTECH = [
     "rkind": null,
     "salary": null,
     "posted": "2026-08-31",
-    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4882378101",
+    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4904748101",
     "site": "bybit.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -27023,35 +28005,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-bybit-4941257101",
-    "title": "Senior Application Security Engineer",
-    "company": "Bybit",
-    "locations": [
-      "Abu Dhabi, UAE",
-      "Kuala Lumpur, Malaysia"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-31",
-    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4941257101",
-    "site": "bybit.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Крипта",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "Безопасность",
-    "stack": [
-      "C++",
-      "Go",
-      "Java"
-    ],
-    "seen": "2026-09-10",
-    "descShort": "About Us Established in 2018, Bybit is one of the world’s leading cryptocurrency exchanges and digital financial platforms, serving over 80 million users across more than 200 countries and regions. Powered by world-class technology and a user-first mindset, Bybit delivers a seamless ecosystem across trading, payments, wealth management, custody, institutional services, and Web3 — connecting users to the future of digital finance. Our core values define how we build. We listen, care and improve to create products and experiences that put users first. Backed by a global team of ambitious builders, problem-solvers, and innovators, we foster a high-performance and fast-moving environment where…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-bybit-4873154101",
     "title": "Senior Data Analyst",
     "company": "Bybit",
@@ -27259,33 +28212,6 @@ window.JOBS_FINTECH = [
     "spec": "Бэкенд",
     "stack": [
       "Java"
-    ],
-    "seen": "2026-09-10",
-    "descShort": "About Us Established in 2018, Bybit is one of the world’s leading cryptocurrency exchanges and digital financial platforms, serving over 80 million users across more than 200 countries and regions. Powered by world-class technology and a user-first mindset, Bybit delivers a seamless ecosystem across trading, payments, wealth management, custody, institutional services, and Web3 — connecting users to the future of digital finance. Our core values define how we build. We listen, care and improve to create products and experiences that put users first. Backed by a global team of ambitious builders, problem-solvers, and innovators, we foster a high-performance and fast-moving environment where…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-bybit-4954850101",
-    "title": "Senior Principal Flutter Engineer",
-    "company": "Bybit",
-    "locations": [
-      "Kuala Lumpur, Malaysia"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-31",
-    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4954850101",
-    "site": "bybit.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Крипта",
-    "role": "Программирование",
-    "grade": "Lead",
-    "spec": "Мобильная",
-    "stack": [
-      "Kotlin",
-      "Swift"
     ],
     "seen": "2026-09-10",
     "descShort": "About Us Established in 2018, Bybit is one of the world’s leading cryptocurrency exchanges and digital financial platforms, serving over 80 million users across more than 200 countries and regions. Powered by world-class technology and a user-first mindset, Bybit delivers a seamless ecosystem across trading, payments, wealth management, custody, institutional services, and Web3 — connecting users to the future of digital finance. Our core values define how we build. We listen, care and improve to create products and experiences that put users first. Backed by a global team of ambitious builders, problem-solvers, and innovators, we foster a high-performance and fast-moving environment where…",
@@ -27524,7 +28450,7 @@ window.JOBS_FINTECH = [
       "JavaScript"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About the InfoSec & IT Team The Application Security team helps Affirm build and launch products that earn customer trust, meet compliance obligations, and reduce business risk. We partner closely with product, engineering, infrastructure, risk, compliance, and other teams to identify security risks early, recommend pragmatic mitigations, and help teams find safe paths to launch. We are looking for an early-career Application Security Engineer who is curious, collaborative, and comfortable working with code. You will…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. About the InfoSec & IT Team The Application Security team helps Affirm build and launch products that earn customer trust, meet compliance obligations, and reduce business risk. We partner closely with product, engineering, infrastructure, risk, compliance, and other teams to identify security risks early, recommend pragmatic mitigations, and help teams find safe paths to launch. We are looking for an early-career Application Security Engineer who is curious, collaborative, and comfortable working with code. You…",
     "hasDesc": true
   },
   {
@@ -27610,6 +28536,59 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-sofi-7826869003",
+    "title": "Fraud Model Analyst",
+    "company": "SoFi",
+    "locations": [
+      "Frisco, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-31",
+    "url": "https://sofi.com/careers/job/7826869003?gh_jid=7826869003",
+    "site": "sofi.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Антифрод",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Employee Applicant Privacy Notice Who we are: Shape a brighter financial future with us. Together with our members, we’re changing the way people think about and interact with personal finance. We’re a next-generation financial services company and national bank using innovative, mobile-first technology to help our millions of members reach their goals. The industry is going through an unprecedented transformation, and we’re at the forefront. We’re proud to come to work every day knowing that what we do has a direct impact on people’s lives, with our core values guiding us every step of the way. Join us to invest in yourself, your career, and the financial world. The role: We are looking…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-sofi-7920050003",
+    "title": "Senior Dialer Analyst",
+    "company": "SoFi",
+    "locations": [
+      "Cottonwood Heights"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-31",
+    "url": "https://sofi.com/careers/job/7920050003?gh_jid=7920050003",
+    "site": "sofi.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Аналитика",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "SQL"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Employee Applicant Privacy Notice Who we are: Shape a brighter financial future with us. Together with our members, we’re changing the way people think about and interact with personal finance. We’re a next-generation financial services company and national bank using innovative, mobile-first technology to help our millions of members reach their goals. The industry is going through an unprecedented transformation, and we’re at the forefront. We’re proud to come to work every day knowing that what we do has a direct impact on people’s lives, with our core values guiding us every step of the way. Join us to invest in yourself, your career, and the financial world. The Role: This Senior…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-block-5369959008",
     "title": "Business Intelligence Analyst",
     "company": "Block",
@@ -27633,30 +28612,6 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-10",
     "descShort": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world’s relationship with money to make it more relatable, instantly available, and universally accessible. Today, Cash App has thousands of employees working globally across office and remote locations, with a culture geared toward innovation, collaboration and impact. We’ve been a distributed team…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-block-5183671008",
-    "title": "Onboarding Project Manager",
-    "company": "Block",
-    "locations": [
-      "Melbourne, Australia"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-31",
-    "url": "http://block.xyz/careers/jobs/5183671008?gh_jid=5183671008",
-    "site": "block.xyz",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Продюсирование",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "Since we opened our doors in 2009, the world of commerce has evolved immensely, and so has Square. After enabling anyone to take payments and never miss a sale, we saw sellers stymied by disparate, outmoded products and tools that wouldn’t work together. So we expanded into software and started building integrated, omnichannel solutions – to help sellers sell online, manage inventory, offer buy now, pay later functionality, book appointments, engage loyal buyers, and hire and pay staff. Across it all, we’ve embedded financial services tools at the point of sale, so merchants can access a business loan and manage their cash flow in one place. Afterpay furthers our goal to provide omnichannel…",
     "hasDesc": true
   },
   {
@@ -27795,34 +28750,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-block-5207148008",
-    "title": "Staff Software Engineer, Cash App Banking",
-    "company": "Block",
-    "locations": [
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-31",
-    "url": "http://block.xyz/careers/jobs/5207148008?gh_jid=5207148008",
-    "site": "block.xyz",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Java",
-      "Kotlin",
-      "AWS"
-    ],
-    "seen": "2026-09-10",
-    "descShort": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible. Today, Cash App has thousands of employees working globally across office and remote locations, with a culture geared toward innovation, collaboration and impact. We've been a distributed team…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-block-5411025008",
     "title": "Staff Software Engineer, Go-to-Market Systems & AI",
     "company": "Block",
@@ -27922,54 +28849,6 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-10",
     "descShort": "ABOUT THE COMPANY Rain is the global stablecoin payments platform for enterprises, neobanks, platforms, developers, and AI agents. Our technology allows partners to move, store, and use stablecoins instantly and compliantly through global payment cards, rewards, on/offramps, wallets, and cross-border rails. As both a Visa and Mastercard Principal Member, Rain issues cards that work at more than 175 million merchant locations in over 220 countries and territories. Built natively for stablecoins and trusted by more than 100 organizations worldwide, Rain delivers secure, scalable infrastructure that makes money move freely and instantly around the world. You will have the opportunity to…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-veriff-8653259002",
-    "title": "Lead Product Manager, Customer Portal",
-    "company": "Veriff",
-    "locations": [
-      "Tallinn, Spain"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": null,
-    "posted": "2026-08-31",
-    "url": "https://www.veriff.com/careers/position/8653259002?gh_jid=8653259002",
-    "site": "veriff.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Продакт",
-    "grade": "Lead",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "About Customer Portal Customer Portal exists to make Veriff's product sell itself. The Portal serves two purposes. It allows our customers to operate Veriff products — setting up and configuring products, consulting verification session details, reporting issues. And it is a privileged surface for customers to discover, try, buy and expand through a seamless self-serve experience, connecting product usage, onboarding and growth in one place. It unites forces with GTM to automate acquisition, upsell, cross-sell and retention, with end-to-end ownership of the customer persona. The area is evolving fast. What began as a self-serve growth surface (Station) is becoming the customer-facing window…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-veriff-8578293002",
-    "title": "Senior Technical Product Manager (Biometric Authentication)",
-    "company": "Veriff",
-    "locations": [
-      "USA, Spain"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": null,
-    "posted": "2026-08-31",
-    "url": "https://www.veriff.com/careers/position/8578293002?gh_jid=8578293002",
-    "site": "veriff.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Продакт",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "Veriff is building the foundational trust layer of the internet, empowering people to safely and privately prove they are who they say they are. Our identity verification platform powers onboarding and authentication for some of the world's largest marketplaces, fintechs, and platforms. Biometric Authentication is our second-largest product, and it's how we move customers from one-time identity checks to continuous, lifecycle-long trust. THE OPPORTUNITY Biometric Authentication turns every verified user into an ongoing, secure relationship: silent re-verification, step-up authentication, and fraud prevention at the moments that matter. The product runs in production at enterprise scale…",
     "hasDesc": true
   },
   {
@@ -28084,7 +28963,7 @@ window.JOBS_FINTECH = [
     "permit": true,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -28110,7 +28989,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -28600,6 +29479,37 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-tide-7570173003",
+    "title": "Engineering Manager",
+    "company": "Tide",
+    "locations": [
+      "Lithuania"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-28",
+    "url": "https://job-boards.greenhouse.io/tide/jobs/7570173003",
+    "site": "tide.co",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "Java",
+      "Kotlin",
+      "Swift",
+      "AWS",
+      "Docker"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "ABOUT TIDE At Tide, we help SMEs save time and money in the running of their businesses by not only offering business accounts and related banking services, but also a comprehensive set of highly usable and connected administrative solutions, from invoicing to accounting. Tide is transforming the small business banking market and now supports over 2 million members globally across the UK, India, Germany and France. Using advanced technology, all solutions are designed with SMEs in mind. With quick onboarding, low fees and innovative features, we thrive on making data driven decisions to serve our mission: to help SMEs save time and money so they can get back to doing what they love. Tide…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-tide-6643197003",
     "title": "Engineering Manager, Member Accession Marketing",
     "company": "Tide",
@@ -28811,17 +29721,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-tide-7834726003",
+    "id": "gh-tide-7655326003",
     "title": "Manager, Analytics, Fraud, UK",
     "company": "Tide",
     "locations": [
-      "Bulgaria"
+      "India, Hyderabad"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-28",
-    "url": "https://job-boards.greenhouse.io/tide/jobs/7834726003",
+    "url": "https://job-boards.greenhouse.io/tide/jobs/7655326003",
     "site": "tide.co",
     "source": "greenhouse",
     "industry": "fintech",
@@ -28886,7 +29796,7 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-tide-7652032003",
+    "id": "gh-tide-7630894003",
     "title": "Senior Commercial Finance Broker",
     "company": "Tide",
     "locations": [
@@ -28896,7 +29806,7 @@ window.JOBS_FINTECH = [
     "rkind": null,
     "salary": null,
     "posted": "2026-08-28",
-    "url": "https://job-boards.greenhouse.io/tide/jobs/7652032003",
+    "url": "https://job-boards.greenhouse.io/tide/jobs/7630894003",
     "site": "tide.co",
     "source": "greenhouse",
     "industry": "fintech",
@@ -28958,17 +29868,24 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-tide-7702555003",
+    "id": "gh-tide-7703992003",
     "title": "Senior Staff Software Engineer, Agentic Platform",
     "company": "Tide",
     "locations": [
-      "Lithuania"
+      "Berlin, Germany",
+      "Bulgaria",
+      "India, Bengaluru",
+      "India, Delhi NCR",
+      "India, Hyderabad",
+      "Lithuania",
+      "Serbia",
+      "United Kingdom"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-28",
-    "url": "https://job-boards.greenhouse.io/tide/jobs/7702555003",
+    "url": "https://job-boards.greenhouse.io/tide/jobs/7703992003",
     "site": "tide.co",
     "source": "greenhouse",
     "industry": "fintech",
@@ -28987,17 +29904,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-tide-7701777003",
+    "id": "gh-tide-7701778003",
     "title": "Staff Software Engineer, Agentic Platform",
     "company": "Tide",
     "locations": [
-      "Lithuania"
+      "Serbia"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-28",
-    "url": "https://job-boards.greenhouse.io/tide/jobs/7701777003",
+    "url": "https://job-boards.greenhouse.io/tide/jobs/7701778003",
     "site": "tide.co",
     "source": "greenhouse",
     "industry": "fintech",
@@ -29274,6 +30191,31 @@ window.JOBS_FINTECH = [
     "role": "Комплаенс",
     "grade": null,
     "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "HEALTH CAN’T WAIT. Not for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t. Alan exists to end the wait. Health is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way. So we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and…",
+    "hasDesc": true
+  },
+  {
+    "id": "ab-alan-61881e0e-6149-4e0a-9a24-5ac1a315d411",
+    "title": "Risk & Internal Control",
+    "company": "Alan",
+    "locations": [
+      "Paris, France"
+    ],
+    "remote": true,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-28",
+    "url": "https://jobs.ashbyhq.com/alan/61881e0e-6149-4e0a-9a24-5ac1a315d411",
+    "source": "ashby",
+    "site": "alan.com",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Риски",
+    "grade": "Junior",
+    "spec": null,
+    "permit": true,
     "stack": [],
     "seen": "2026-09-10",
     "descShort": "HEALTH CAN’T WAIT. Not for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t. Alan exists to end the wait. Health is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way. So we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and…",
@@ -29770,36 +30712,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7795765003",
-    "title": "Staff Software Engineer, Mobile Security",
-    "company": "OKX",
-    "locations": [
-      "Singapore"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-28",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7795765003",
-    "site": "okx.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Крипта",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "Безопасность",
-    "permit": true,
-    "stack": [
-      "Kotlin",
-      "Swift",
-      "TypeScript",
-      "JavaScript"
-    ],
-    "seen": "2026-09-10",
-    "descShort": "OKX will be prioritising applicants who have a current right to work in Singapore, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
-    "hasDesc": true
-  },
-  {
     "id": "ab-plaid-172bb8e8-7dc8-4fdc-ae20-525456989ff4",
     "title": "Senior Data Scientist - Network Value (Credit)",
     "company": "Plaid",
@@ -29968,7 +30880,7 @@ window.JOBS_FINTECH = [
       "SQL"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About the Operations team The Operations team delivers seamless customer experiences and enables new product capabilities while ensuring operational excellence. The team owns strategy, planning, technical execution, customer service, fraud operations, process design, quality, training, and program management. We drive efficiency, resolve issues quickly, and scale operations as the business grows. Our goal is to deliver seamless support while maintaining high standards and reducing risk. About the role As a Fraud…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. About the Operations team The Operations team delivers seamless customer experiences and enables new product capabilities while ensuring operational excellence. The team owns strategy, planning, technical execution, customer service, fraud operations, process design, quality, training, and program management. We drive efficiency, resolve issues quickly, and scale operations as the business grows. Our goal is to deliver seamless support while maintaining high standards and reducing risk. About the role As a Fraud…",
     "hasDesc": true
   },
   {
@@ -29997,7 +30909,7 @@ window.JOBS_FINTECH = [
       "SQL"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About the Capital Team The Capital team manages the financial foundation that supports Affirm’s lending and innovation. We lead the funding, liquidity, and risk management strategy across capital markets, treasury, deal structuring, analytics, and bank partnerships. The team secures efficient funding while supporting sustainable business growth. We balance cost, flexibility, and risk to ensure Affirm’s financial resilience through all economic cycles. By optimizing capital structure and managing liquidity, we help build…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. About the Capital Team The Capital team manages the financial foundation that supports Affirm’s lending and innovation. We lead the funding, liquidity, and risk management strategy across capital markets, treasury, deal structuring, analytics, and bank partnerships. The team secures efficient funding while supporting sustainable business growth. We balance cost, flexibility, and risk to ensure Affirm’s financial resilience through all economic cycles. By optimizing capital structure and managing liquidity, we help…",
     "hasDesc": true
   },
   {
@@ -30024,7 +30936,7 @@ window.JOBS_FINTECH = [
       "JavaScript"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Repayment UX Engineering team is growing, and we're looking for a Senior Software Engineer specializing in React Native development. We're a full-stack team located entirely in Europe within the same time zone, but culturally rooted in Silicon Valley. We directly improve the financial lives of over 20 million people. We build and own user journeys that enable them to pay back loans worth collectively over $40B each year. Our team exists to make these moments the most reliable and transparent in world-class consumer…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. The Repayment UX Engineering team is growing, and we're looking for a Senior Software Engineer specializing in React Native development. We're a full-stack team located entirely in Europe within the same time zone, but culturally rooted in Silicon Valley. We directly improve the financial lives of over 20 million people. We build and own user journeys that enable them to pay back loans worth collectively over $40B each year. Our team exists to make these moments the most reliable and transparent in world-class…",
     "hasDesc": true
   },
   {
@@ -30056,7 +30968,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Identity at Affirm is mission-critical; it is the very first step of the customer journey and the foundation of global expansion. The International Expansion Unit (IEU) owns Identity for every market outside North America, placing our team at the center of Affirm’s global strategy. We are responsible for ensuring Affirm can enter and scale in new markets while operating compliantly across diverse regulatory environments. Our scope includes building and expanding Identity Data Management, KYC Verification, and Decisioning…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. Identity at Affirm is mission-critical; it is the very first step of the customer journey and the foundation of global expansion. The International Expansion Unit (IEU) owns Identity for every market outside North America, placing our team at the center of Affirm’s global strategy. We are responsible for ensuring Affirm can enter and scale in new markets while operating compliantly across diverse regulatory environments. Our scope includes building and expanding Identity Data Management, KYC Verification, and…",
     "hasDesc": true
   },
   {
@@ -30163,7 +31075,7 @@ window.JOBS_FINTECH = [
       "Figma"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -30398,30 +31310,6 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-10",
     "descShort": "About the team SumUp’s Point-of-Sale (POS) solution empowers cafes, shops, bars, hair salons, and other businesses to operate efficiently and grow. It offers a wide range of features, including product catalogs, inventory management, business analytics, compliance support, and loyalty tools. Our POS solution integrates seamlessly into the SumUp SuperApp, which supports both our proprietary register hardware and mobile devices like tablets and phones. As a Senior Android Developer, you’ll collaborate with a dynamic, cross-functional team of Product Managers, Product Designers, Engineering Managers, and fellow engineers. About the role We’re evolving toward a Kotlin Multiplatform (KMP)…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-sumup-8754667002",
-    "title": "Senior Backend Engineer - Commercial Systems and Intelligence",
-    "company": "SumUp",
-    "locations": [
-      "Cologne, Germany"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-27",
-    "url": "https://sumup.com/careers/positions/8754667002?gh_jid=8754667002",
-    "site": "sumup.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "Бэкенд",
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "About the team: The Commercial Systems and Intelligence squad is a newly formed team within SumUp's Acquisition Mission under the Run & Grow tribe. We sit at the intersection of data, backend engineering, and sales operations, building the infrastructure that powers how SumUp attributes merchant acquisition, calculates commissions, and understands the full lifecycle of every merchant. Today, these processes are largely manual. We're here to change that, automating what's opaque, and building systems that sales representatives, leadership, and analysts can actually trust. You'll join at the very beginning, helping to shape how the squad works, the architecture it builds on, and the standards…",
     "hasDesc": true
   },
   {
@@ -30831,7 +31719,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Join the pioneering Servicing International team at the forefront of Affirm's global expansion, building the foundational platform to launch our products into a new generation of international markets. This role will focus specifically on purchase protection, including disputes and refunds—a critical part of the user journey and an area of significant investment—to ensure trust and satisfaction for our newest customers. Success requires deep collaboration, and you will partner closely with European engineering…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. Join the pioneering Servicing International team at the forefront of Affirm's global expansion, building the foundational platform to launch our products into a new generation of international markets. This role will focus specifically on purchase protection, including disputes and refunds—a critical part of the user journey and an area of significant investment—to ensure trust and satisfaction for our newest customers. Success requires deep collaboration, and you will partner closely with European engineering…",
     "hasDesc": true
   },
   {
@@ -30855,7 +31743,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About the Role Affirm is building its own bank — and this role is one of the most senior individual-contributor seats on the engineering team that runs it. We're looking for a Staff Software Engineer to be a technical anchor for a deliberately small, AI-native team that owns the systems behind Affirm's bank: vendor-integrated banking infrastructure, the data platform, and the operational tooling that holds it all together. You'll set technical direction across that surface area, own the hardest problems on the team —…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. About the Role Affirm is building its own bank — and this role is one of the most senior individual-contributor seats on the engineering team that runs it. We're looking for a Staff Software Engineer to be a technical anchor for a deliberately small, AI-native team that owns the systems behind Affirm's bank: vendor-integrated banking infrastructure, the data platform, and the operational tooling that holds it all together. You'll set technical direction across that surface area, own the hardest problems on the team…",
     "hasDesc": true
   },
   {
@@ -30884,7 +31772,31 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. We are reinventing credit cards entirely. We are working directly with card issuers to change how credit is used throughout the world, creating new types of cards that work for both their everyday lives and large purchases with extremely straightforward, flexible terms. You will be the lead engineer for our EU teams. You will be responsible for architecture across cards and relationships with our EU counterparts. You'll work across stacks and across the company, working both in just-in-time transaction processing that…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. We are reinventing credit cards entirely. We are working directly with card issuers to change how credit is used throughout the world, creating new types of cards that work for both their everyday lives and large purchases with extremely straightforward, flexible terms. You will be the lead engineer for our EU teams. You will be responsible for architecture across cards and relationships with our EU counterparts. You'll work across stacks and across the company, working both in just-in-time transaction processing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-sofi-7698678003",
+    "title": "Staff Credit Policy Analyst",
+    "company": "SoFi",
+    "locations": [
+      "United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-27",
+    "url": "https://sofi.com/careers/job/7698678003?gh_jid=7698678003",
+    "site": "sofi.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Employee Applicant Privacy Notice Who we are: Shape a brighter financial future with us. Together with our members, we’re changing the way people think about and interact with personal finance. We’re a next-generation financial services company and national bank using innovative, mobile-first technology to help our millions of members reach their goals. The industry is going through an unprecedented transformation, and we’re at the forefront. We’re proud to come to work every day knowing that what we do has a direct impact on people’s lives, with our core values guiding us every step of the way. Join us to invest in yourself, your career, and the financial world. The Role As a Staff Credit…",
     "hasDesc": true
   },
   {
@@ -30984,7 +31896,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -31011,7 +31923,7 @@ window.JOBS_FINTECH = [
     "spec": "Данные",
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -31233,6 +32145,58 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-10",
     "descShort": "Thought Machine's mission is bold – to properly and permanently rid the world's banks of legacy technology. To achieve this, we have developed the foundations of modern banking through core and payments technology which run natively in the cloud. What we are attempting is hard and means we need great people working together to build great technology. We have grown rapidly in the past few years – growing our team to more than 550 individuals across offices in London, New York, Singapore, Sydney and our newly established Engineering Hub in Lisbon. We have raised more than £500m in funding and our investors include Molten Ventures, Eurazeo, Intesa Sanpaolo, Temasek, Nyca Partners, JPMorgan…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-form3-8729802002",
+    "title": "Business Analyst - Canadian Payments",
+    "company": "Form3",
+    "locations": [
+      "100%"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-08-26",
+    "url": "https://www.form3.tech/careers/vacancies/8729802002?gh_jid=8729802002",
+    "site": "form3.tech",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Платежи",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "THE ROLE 📝 We’re looking for a Business Analyst with strong payments experience to join Form3’s Product team and play an important role in building out our new Canadian Real-Time Rail (RTR) payment gateway. Working closely with the Product Manager, you’ll be involved from an early stage in the build, helping to understand payment scheme and business requirements and turn them into clear, actionable requirements that support the development and delivery of the product. What you’ll be doing: • Work closely with the Product Manager to support the end-to-end build and delivery of Form3’s Canadian RTR payment gateway. • Understand and analyse payment scheme, product and business requirements…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-form3-8675825002",
+    "title": "Senior Software Developer (Go) - US Payments (Contract)",
+    "company": "Form3",
+    "locations": [
+      "100%"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-08-26",
+    "url": "https://www.form3.tech/careers/vacancies/8675825002?gh_jid=8675825002",
+    "site": "form3.tech",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Платежи",
+    "stack": [
+      "Java",
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "THE PROJECT 📝 Form3 is looking for several Senior Software Developer contractors to work alongside our US Software Engineering team to deliver new products within our US Payments proposition. This is an opportunity to work on critical payments infrastructure in a highly technical environment, contributing to the design, build, testing and launch of new Zelle and Fedwire capabilities. You’ll be working in Go on Form3’s cloud-native platform, applying proven engineering patterns from our existing payments services while solving the specific challenges that come with high-volume, resilient, regulated payment systems. • Design and implement new US payments gateway functionality in Go, aligned…",
     "hasDesc": true
   },
   {
@@ -31820,17 +32784,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4961086101",
+    "id": "gh-ebury-4961089101",
     "title": "Senior Commercial Product Manager",
     "company": "Ebury",
     "locations": [
-      "London"
+      "Madrid"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-26",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4961086101",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4961089101",
     "site": "ebury.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -31840,7 +32804,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Senior Commercial Product Manager Ebury London - Office based We’re looking for a Senior Commercial Product Manager to fuel the growth of our Institutional Solutions business. This role is a unique opportunity to have an…",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Senior Commercial Product Manager Ebury Madrid - Office based We’re looking for a Senior Commercial Product Manager to fuel the growth of our Institutional Solutions business. This role is a unique opportunity to have an…",
     "hasDesc": true
   },
   {
@@ -32201,17 +33165,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7977916003",
+    "id": "gh-okx-7977917003",
     "title": "Product Manager / Director, Trading Risk Engine",
     "company": "OKX",
     "locations": [
-      "Singapore"
+      "Hong Kong, Hong Kong SAR"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-26",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7977916003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7977917003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -32225,7 +33189,7 @@ window.JOBS_FINTECH = [
       "SQL"
     ],
     "seen": "2026-09-10",
-    "descShort": "OKX will be prioritising applicants who have a current right to work in Singapore, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
+    "descShort": "OKX will be prioritising applicants who have a current right to work in Hong Kong, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
     "hasDesc": true
   },
   {
@@ -32280,17 +33244,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7777044003",
+    "id": "gh-okx-7777043003",
     "title": "Software Engineer, Mobile, Web3",
     "company": "OKX",
     "locations": [
-      "Hong Kong, Hong Kong SAR"
+      "Singapore"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-26",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7777044003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7777043003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -32307,7 +33271,7 @@ window.JOBS_FINTECH = [
       "Lua"
     ],
     "seen": "2026-09-10",
-    "descShort": "OKX will be prioritising applicants who have a current right to work in Hong Kong, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
+    "descShort": "OKX will be prioritising applicants who have a current right to work in Singapore, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
     "hasDesc": true
   },
   {
@@ -32447,7 +33411,7 @@ window.JOBS_FINTECH = [
     "payMax": 213000,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About the Product team The Product team listens to our customers’ needs and translates those insights into a clear product vision. The team works closely with design, engineering, and analytics to build scalable financial products that empower people to manage their money with confidence. We rely on empathy, curiosity, and business sense to prioritize features and improve experiences. Our role is to lead with clarity, support cross-functional execution, and champion the user in every decision. About the role The…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. About the Product team The Product team listens to our customers’ needs and translates those insights into a clear product vision. The team works closely with design, engineering, and analytics to build scalable financial products that empower people to manage their money with confidence. We rely on empathy, curiosity, and business sense to prioritize features and improve experiences. Our role is to lead with clarity, support cross-functional execution, and champion the user in every decision. About the role The…",
     "hasDesc": true
   },
   {
@@ -32478,7 +33442,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Auth Experience owns the customer journeys during authentication, verification, and fraud journeys. You'll work to build the backend orchestration layers that drive our Web and Mobile surfaces. In this role, you will need to gain a deep understanding of the business, product and engineering context, and utilize that context to own and deliver high-availability and low-latency systems that Affirm customers use every day. What You'll Do · You will be responsible for owning and delivering quarterly goals for your team…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. Auth Experience owns the customer journeys during authentication, verification, and fraud journeys. You'll work to build the backend orchestration layers that drive our Web and Mobile surfaces. In this role, you will need to gain a deep understanding of the business, product and engineering context, and utilize that context to own and deliver high-availability and low-latency systems that Affirm customers use every day. What You'll Do · You will be responsible for owning and delivering quarterly goals for your…",
     "hasDesc": true
   },
   {
@@ -32507,7 +33471,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Deal Reporting team is responsible for building our critical capital partner integrations, as well as services to automate funding processes safely and reliably. We partner with Product and Capitals Markets teams to understand and implement complex financial structures, integrations and reporting. We are looking for a highly motivated Staff Software Engineer to help empower Deal Reporting's first international team, and build integrations, services, and testing infrastructure to power the funding of every Affirm…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. The Deal Reporting team is responsible for building our critical capital partner integrations, as well as services to automate funding processes safely and reliably. We partner with Product and Capitals Markets teams to understand and implement complex financial structures, integrations and reporting. We are looking for a highly motivated Staff Software Engineer to help empower Deal Reporting's first international team, and build integrations, services, and testing infrastructure to power the funding of every…",
     "hasDesc": true
   },
   {
@@ -32563,6 +33527,68 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-sofi-7805247003",
+    "title": "Senior Data Scientist",
+    "company": "SoFi",
+    "locations": [
+      "United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-26",
+    "url": "https://sofi.com/careers/job/7805247003?gh_jid=7805247003",
+    "site": "sofi.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Данные и ML",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Employee Applicant Privacy Notice Who we are: Shape a brighter financial future with us. Together with our members, we’re changing the way people think about and interact with personal finance. We’re a next-generation financial services company and national bank using innovative, mobile-first technology to help our millions of members reach their goals. The industry is going through an unprecedented transformation, and we’re at the forefront. We’re proud to come to work every day knowing that what we do has a direct impact on people’s lives, with our core values guiding us every step of the way. Join us to invest in yourself, your career, and the financial world. The role: The Compliance…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-sofi-7978419003",
+    "title": "Senior Software Engineer",
+    "company": "SoFi",
+    "locations": [
+      "Add ALL locations here"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 187.00 – 243 305",
+    "posted": "2026-08-26",
+    "url": "https://sofi.com/careers/job/7978419003?gh_jid=7978419003",
+    "site": "sofi.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "payMin": 187,
+    "payMax": 243305,
+    "stack": [
+      "Python",
+      "Java",
+      "Kotlin",
+      "JavaScript",
+      "SQL",
+      "AWS"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Employee Applicant Privacy Notice Who we are: Shape a brighter financial future with us. Together with our members, we’re changing the way people think about and interact with personal finance. We’re a next-generation financial services company and national bank using innovative, mobile-first technology to help our millions of members reach their goals. The industry is going through an unprecedented transformation, and we’re at the forefront. We’re proud to come to work every day knowing that what we do has a direct impact on people’s lives, with our core values guiding us every step of the way. Join us to invest in yourself, your career, and the financial world. Social Finance, LLC seeks…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-block-5125397008",
     "title": "Compliance Operations Specialist, JP",
     "company": "Block",
@@ -32608,32 +33634,6 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-10",
     "descShort": "Since we opened our doors in 2009, the world of commerce has evolved immensely, and so has Square. After enabling anyone to take payments and never miss a sale, we saw sellers stymied by disparate, outmoded products and tools that wouldn’t work together. So we expanded into software and started building integrated, omnichannel solutions – to help sellers sell online, manage inventory, offer buy now, pay later functionality, book appointments and engage loyal buyers. Across it all, we’ve embedded financial services tools at the point of sale, so merchants can access a business loan and manage their cash flow in one place. Clearpay furthers our goal to provide omnichannel tools that unlock…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-block-4884159008",
-    "title": "Staff Android Software Engineer, Cash App Consumer Platform",
-    "company": "Block",
-    "locations": [
-      "Bay Area, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-26",
-    "url": "http://block.xyz/careers/jobs/4884159008?gh_jid=4884159008",
-    "site": "block.xyz",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "Мобильная",
-    "stack": [
-      "Kotlin"
-    ],
-    "seen": "2026-09-10",
-    "descShort": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible. Today, Cash App has thousands of employees working globally across office and remote locations, with a culture geared toward innovation, collaboration and impact. We've been a distributed team…",
     "hasDesc": true
   },
   {
@@ -32843,7 +33843,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -33092,41 +34092,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-sumup-8700250002",
-    "title": "People Operations Analyst II",
-    "company": "SumUp",
-    "locations": [
-      "São Paulo, Brazil"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-25",
-    "url": "https://sumup.com/careers/positions/8700250002?gh_jid=8700250002",
-    "site": "sumup.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Аналитика",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "Team description Our People Operations team keeps the essentials of the employee experience running smoothly across Brazil and Chile, from a new hire's first day through to the benefits that support them every day. The São Paulo team is going through an exciting shift, replacing manual, fragmented work with smarter, automated processes, so there's real room here to build better systems rather than just maintain old ones. As the person owning onboarding and benefits for Brazil, the work shapes how every new SumUpper starts their journey and how existing employees experience their day to day wellbeing, with the chance to also support the Chile team as shared processes come online. What you'll…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-sumup-8745286002",
+    "id": "gh-sumup-8645259002",
     "title": "(Senior) Backend Engineer - Golang",
     "company": "SumUp",
     "locations": [
-      "Vilnius, Lithuania"
+      "Sofia, Bulgaria"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-25",
-    "url": "https://sumup.com/careers/positions/8745286002?gh_jid=8745286002",
+    "url": "https://sumup.com/careers/positions/8645259002?gh_jid=8645259002",
     "site": "sumup.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -33171,17 +34147,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4959954101",
+    "id": "gh-ebury-4959953101",
     "title": "Business Developer / FX Sales Associate",
     "company": "Ebury",
     "locations": [
-      "Bucharest"
+      "Cluj"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-25",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4959954101",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4959953101",
     "site": "ebury.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -33191,7 +34167,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Business Developer / FX Sales Associate Ebury (Bucharest) - Office based Launch Your FinTech Career as a Graduate Business Developer / FX Sales Associate at Ebury in our dynamic Bucharest team. Kickstart a meaningful sales…",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Business Developer / FX Sales Associate Ebury (Cluj) - Office based Launch Your FinTech Career as a Business Developer / FX Sales Associate at Ebury in our dynamic Cluj team. Kickstart a meaningful sales career in the world…",
     "hasDesc": true
   },
   {
@@ -33896,7 +34872,7 @@ window.JOBS_FINTECH = [
       "SQL"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. We’re looking for a curious, driven professional to join our Revenue Analytics team. This builds and owns the data products, reporting infrastructure, semantic foundations, and analytical systems that power Affirm’s Revenue organization. As a Analyst at Revenue Analytics, you’ll build scalable data products that power day-to-day decision-making - owning end-to-end work across data modeling, metric definitions, dashboards, automation, and enablement. You’ll also help strengthen our semantic layer and data governance…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. We’re looking for a curious, driven professional to join our Revenue Analytics team. This builds and owns the data products, reporting infrastructure, semantic foundations, and analytical systems that power Affirm’s Revenue organization. As a Analyst at Revenue Analytics, you’ll build scalable data products that power day-to-day decision-making - owning end-to-end work across data modeling, metric definitions, dashboards, automation, and enablement. You’ll also help strengthen our semantic layer and data…",
     "hasDesc": true
   },
   {
@@ -34229,32 +35205,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-robinhood-8060703",
-    "title": "Senior Compensation Analyst",
-    "company": "Robinhood",
-    "locations": [
-      "Chicago, United States",
-      "Menlo Park, United States",
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-25",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8060703?t=gh_src=&gh_jid=8060703",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Банки",
-    "role": "Аналитика",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-robinhood-7847485",
     "title": "Senior Corporate Security Engineer",
     "company": "Robinhood",
@@ -34456,30 +35406,6 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-10",
     "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role Robinhood set out to open the financial system to the many, not the few. We've done it for tens of millions of people in the US—now we're taking it global. This is one of the most ambitious initiatives for the company, and you'd be sitting at the center of it. We're building an elite team that applies frontier technology to the…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-7747728",
-    "title": "Senior Product Manager, Money Movement",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-25",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/7747728?t=gh_src=&gh_jid=7747728",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Банки",
-    "role": "Продакт",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
     "hasDesc": true
   },
   {
@@ -34720,59 +35646,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-robinhood-8048650",
-    "title": "Senior Tax Operations Analyst",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States",
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-25",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8048650?t=gh_src=&gh_jid=8048650",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Банки",
-    "role": "Аналитика",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "SQL"
-    ],
-    "seen": "2026-09-10",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8072892",
-    "title": "Senior Treasury Analyst",
-    "company": "Robinhood",
-    "locations": [
-      "Chicago, United States",
-      "Menlo Park, United States",
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-25",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8072892?t=gh_src=&gh_jid=8072892",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Банки",
-    "role": "Платежи",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-robinhood-7979657",
     "title": "Senior Underwriting Associate",
     "company": "Robinhood",
@@ -34916,35 +35789,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-robinhood-8072766",
-    "title": "Staff Data Scientist, ML (People Analytics & Insights)",
-    "company": "Robinhood",
-    "locations": [
-      "Chicago, United States",
-      "Menlo Park, United States",
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-25",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8072766?t=gh_src=&gh_jid=8072766",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Банки",
-    "role": "Данные и ML",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Python",
-      "SQL"
-    ],
-    "seen": "2026-09-10",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-robinhood-8082579",
     "title": "Staff Machine Learning Engineer, AI R&D",
     "company": "Robinhood",
@@ -35071,31 +35915,6 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-10",
     "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the Team We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-robinhood-8079744",
-    "title": "Staff Product Manager, Platform Operations",
-    "company": "Robinhood",
-    "locations": [
-      "Menlo Park, United States",
-      "New York, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-25",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8079744?t=gh_src=&gh_jid=8079744",
-    "site": "robinhood.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Банки",
-    "role": "Продакт",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "Join us in building the future of finance. Our mission is to democratize finance for all. An estimated $124 trillion of assets will be inherited by younger generations in the next two decades. The largest transfer of wealth in human history. If you’re ready to be at the epicenter of this historic cultural and financial shift, keep reading. About the team + role We are building an elite team, applying frontier technologies to the world’s biggest financial problems. We’re looking for bold thinkers. Sharp problem-solvers. Builders who are wired to make an impact. Robinhood isn’t a place for complacency, it’s where ambitious people do the best work of their careers. We’re a high-performing…",
     "hasDesc": true
   },
   {
@@ -35238,6 +36057,32 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-sofi-7976546003",
+    "title": "Strategic Finance Analyst, Operations",
+    "company": "SoFi",
+    "locations": [
+      "United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-25",
+    "url": "https://sofi.com/careers/job/7976546003?gh_jid=7976546003",
+    "site": "sofi.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "SQL"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Employee Applicant Privacy Notice Who we are: Shape a brighter financial future with us. Together with our members, we’re changing the way people think about and interact with personal finance. We’re a next-generation financial services company and national bank using innovative, mobile-first technology to help our millions of members reach their goals. The industry is going through an unprecedented transformation, and we’re at the forefront. We’re proud to come to work every day knowing that what we do has a direct impact on people’s lives, with our core values guiding us every step of the way. Join us to invest in yourself, your career, and the financial world. The role: Strategic Finance…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-block-5381210008",
     "title": "Enterprise People Platform Engineer",
     "company": "Block",
@@ -35317,30 +36162,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-veriff-8725220002",
-    "title": "Senior Product Manager (Document Verification)",
-    "company": "Veriff",
-    "locations": [
-      "Tallinn, Spain"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": null,
-    "posted": "2026-08-25",
-    "url": "https://www.veriff.com/careers/position/8725220002?gh_jid=8725220002",
-    "site": "veriff.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Продакт",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "Physical document IDV is Veriff's flagship product: how millions of people prove who they are to fintechs, marketplaces, mobility platforms, and government agencies. It's fundamentally a machine learning system: document classification, data extraction, fraud and spoofing detection, coverage across thousands of document types and alphabets. Some versions also keep a human in the loop, so decision quality depends as much on operations as on models. We are looking for a Senior Product Manager to own this core domain. You will sit directly between two demanding groups: machine learning engineers building models, and enterprise customers asking hard questions about accuracy, latency, and…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-shift-technology-7681765003",
     "title": "AI & Service Architect",
     "company": "Shift Technology",
@@ -35391,7 +36212,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -36309,17 +37130,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7883615003",
+    "id": "gh-okx-7883614003",
     "title": "Growth Lead, Northeast Asia",
     "company": "OKX",
     "locations": [
-      "Hong Kong, Hong Kong SAR"
+      "Singapore"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-24",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7883615003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7883614003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -36330,7 +37151,7 @@ window.JOBS_FINTECH = [
     "permit": true,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "OKX will be prioritising applicants who have a current right to work in Hong Kong, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
+    "descShort": "OKX will be prioritising applicants who have a current right to work in Singapore, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
     "hasDesc": true
   },
   {
@@ -36465,7 +37286,7 @@ window.JOBS_FINTECH = [
       "SQL"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About the Team: We’re looking for an experienced, highly independent analytics engineer to join our Revenue Analytics team. This team owns the data products, reporting infrastructure, semantic foundations, and analytical systems that support Affirm’s Revenue organization. About the Role: In this role, you will lead the development of scalable, trusted data products for Affirm’s revenue teams. You turn ambiguous business and technical problems into scalable solutions across data modeling, metrics, dashboards, automation…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. About the Team: We’re looking for an experienced, highly independent analytics engineer to join our Revenue Analytics team. This team owns the data products, reporting infrastructure, semantic foundations, and analytical systems that support Affirm’s Revenue organization. About the Role: In this role, you will lead the development of scalable, trusted data products for Affirm’s revenue teams. You turn ambiguous business and technical problems into scalable solutions across data modeling, metrics, dashboards…",
     "hasDesc": true
   },
   {
@@ -36492,6 +37313,60 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-10",
     "descShort": "About Betterment Betterment is a leading, technology-driven financial services company that offers investing, savings and retirement solutions for retail investors and investment advisors as well as financial wellness solutions, including a 401(k) for small and medium-sized businesses. Our team is passionate about our mission, to empower people to build wealth with confidence and ease. About the Role Are you a process-driven problem solver who loves checking items off your to-do list? Do you thrive on turning inefficiencies into seamless processes? Does making complex tasks efficient and intuitive energize you? Do you seek to help scale solutions that aim to delight and empower clients? Do…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-sofi-7963969003",
+    "title": "Senior Engineering Manager-People Analytics",
+    "company": "SoFi",
+    "locations": [
+      "United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-24",
+    "url": "https://sofi.com/careers/job/7963969003?gh_jid=7963969003",
+    "site": "sofi.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Employee Applicant Privacy Notice Who we are: Shape a brighter financial future with us. Together with our members, we’re changing the way people think about and interact with personal finance. We’re a next-generation financial services company and national bank using innovative, mobile-first technology to help our millions of members reach their goals. The industry is going through an unprecedented transformation, and we’re at the forefront. We’re proud to come to work every day knowing that what we do has a direct impact on people’s lives, with our core values guiding us every step of the way. Join us to invest in yourself, your career, and the financial world. Role Summary: This role…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-sofi-7805063003",
+    "title": "Senior Staff Technical Program Manager,  Data Governance & Privacy",
+    "company": "SoFi",
+    "locations": [
+      "San Francisco, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-24",
+    "url": "https://sofi.com/careers/job/7805063003?gh_jid=7805063003",
+    "site": "sofi.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Продюсирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Employee Applicant Privacy Notice Who we are: Shape a brighter financial future with us. Together with our members, we’re changing the way people think about and interact with personal finance. We’re a next-generation financial services company and national bank using innovative, mobile-first technology to help our millions of members reach their goals. The industry is going through an unprecedented transformation, and we’re at the forefront. We’re proud to come to work every day knowing that what we do has a direct impact on people’s lives, with our core values guiding us every step of the way. Join us to invest in yourself, your career, and the financial world. The Role: As a Technical…",
     "hasDesc": true
   },
   {
@@ -36563,7 +37438,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -36587,7 +37462,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -36614,7 +37489,7 @@ window.JOBS_FINTECH = [
       "SQL"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -36689,7 +37564,7 @@ window.JOBS_FINTECH = [
     "spec": "Блокчейн",
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -36713,7 +37588,7 @@ window.JOBS_FINTECH = [
     "spec": "Блокчейн",
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -36737,7 +37612,7 @@ window.JOBS_FINTECH = [
     "spec": "Мобильная",
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -37970,7 +38845,7 @@ window.JOBS_FINTECH = [
     "permit": true,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About the Legal, Compliance, and Public Affairs team The Legal, Compliance, and Public Affairs team is a group of dedicated professionals committed to helping Affirm scale, innovate, and provide outstanding products for consumers, merchants, and key partners. We combine legal, compliance, and policy expertise to guide growth, shape products, and build trust across our ecosystem. Our work spans multiple professional disciplines and provides the foundation for Affirm’s mission to deliver honest financial products. About…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. About the Legal, Compliance, and Public Affairs team The Legal, Compliance, and Public Affairs team is a group of dedicated professionals committed to helping Affirm scale, innovate, and provide outstanding products for consumers, merchants, and key partners. We combine legal, compliance, and policy expertise to guide growth, shape products, and build trust across our ecosystem. Our work spans multiple professional disciplines and provides the foundation for Affirm’s mission to deliver honest financial products.…",
     "hasDesc": true
   },
   {
@@ -37996,7 +38871,7 @@ window.JOBS_FINTECH = [
     "payMax": 290000,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Engineering team builds systems that power Affirm’s mission. We take pride in our craft, building reliable, performant, and scalable solutions that touch every part of the business. Whether we’re enabling new ways to pay, ensuring our platforms can scale to the most demanding levels in the industry, or developing seamless servicing experiences, our focus is on solving complex problems through exceptional engineering. The Marketplace and App Experiences domain is the main pillar of our core consumer strategy, driving…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. The Engineering team builds systems that power Affirm’s mission. We take pride in our craft, building reliable, performant, and scalable solutions that touch every part of the business. Whether we’re enabling new ways to pay, ensuring our platforms can scale to the most demanding levels in the industry, or developing seamless servicing experiences, our focus is on solving complex problems through exceptional engineering. The Marketplace and App Experiences domain is the main pillar of our core consumer strategy…",
     "hasDesc": true
   },
   {
@@ -38026,7 +38901,7 @@ window.JOBS_FINTECH = [
       "AWS"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Affirm's engineering team is building a large-scale, highly available, and global infrastructure that is shared across multiple financial products. Ensuring that our infrastructure is accessible to all engineers is critical to the success of the business. We pride ourselves on our culture across engineering of engaging in thorough technical design review, operational excellence, and capable incident response and analysis. The Infra Foundations team owns the foundational layer that every other infrastructure team builds…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. Affirm's engineering team is building a large-scale, highly available, and global infrastructure that is shared across multiple financial products. Ensuring that our infrastructure is accessible to all engineers is critical to the success of the business. We pride ourselves on our culture across engineering of engaging in thorough technical design review, operational excellence, and capable incident response and analysis. The Infra Foundations team owns the foundational layer that every other infrastructure team…",
     "hasDesc": true
   },
   {
@@ -38055,7 +38930,7 @@ window.JOBS_FINTECH = [
       "Kotlin"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Marketplace and App Experience domain is the main pillar of our core consumer strategy, driving the user journey across all of our frontend surfaces: Mobile and Web. The teams span across multiple products and areas to engage and provide value to our customers, starting with the Home hub in the app or website, which expands into the various product offers and journeys a user can embark on with Affirm. This role will be at the forefront of our front-end facing cross-team projects, working closely with other teams and…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. The Marketplace and App Experience domain is the main pillar of our core consumer strategy, driving the user journey across all of our frontend surfaces: Mobile and Web. The teams span across multiple products and areas to engage and provide value to our customers, starting with the Home hub in the app or website, which expands into the various product offers and journeys a user can embark on with Affirm. This role will be at the forefront of our front-end facing cross-team projects, working closely with other…",
     "hasDesc": true
   },
   {
@@ -38536,7 +39411,7 @@ window.JOBS_FINTECH = [
       "AWS"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -38979,17 +39854,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4956759101",
+    "id": "gh-ebury-4956760101",
     "title": "Staff Engineer (Client Ops)",
     "company": "Ebury",
     "locations": [
-      "Málaga"
+      "Madrid"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-20",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4956759101",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4956760101",
     "site": "ebury.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -39310,7 +40185,7 @@ window.JOBS_FINTECH = [
       "Kotlin"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. We are seeking a seasoned Engineering Manager to lead our Reliability Platform Engineering team. This role is critical in ensuring the safety and reliability of our production systems through building products and capabilities that drive reliability practices at scale. You will lead the development of systems and practices that allow engineers to understand, prioritize, and reduce systemic reliability risks across Affirm’s production environment. This team is responsible for building foundational operational intelligence…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. We are seeking a seasoned Engineering Manager to lead our Reliability Platform Engineering team. This role is critical in ensuring the safety and reliability of our production systems through building products and capabilities that drive reliability practices at scale. You will lead the development of systems and practices that allow engineers to understand, prioritize, and reduce systemic reliability risks across Affirm’s production environment. This team is responsible for building foundational operational…",
     "hasDesc": true
   },
   {
@@ -39339,7 +40214,7 @@ window.JOBS_FINTECH = [
       "AWS"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About the Team Affirm values security as being critical to the company's continued success. The Security Risk Management team is evolving beyond traditional governance, risk, and compliance; we are building an engineering driven program that designs, automates, and scales the controls, workflows, and tooling that protect Affirm and our customers. About the Role The ideal candidate will evaluate, build, and refine solutions to third-party risk and security governance challenges across the Security Third Party Program and…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. About the Team Affirm values security as being critical to the company's continued success. The Security Risk Management team is evolving beyond traditional governance, risk, and compliance; we are building an engineering driven program that designs, automates, and scales the controls, workflows, and tooling that protect Affirm and our customers. About the Role The ideal candidate will evaluate, build, and refine solutions to third-party risk and security governance challenges across the Security Third Party…",
     "hasDesc": true
   },
   {
@@ -39367,7 +40242,7 @@ window.JOBS_FINTECH = [
       "Python"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. On the ML Fraud team, you’ll build and improve machine learning systems that make real-time transaction decisions, protecting consumers and merchants while balancing fraud loss, customer experience, and conversion. You’ll work closely with experienced ML engineers, platform partners, and cross-functional stakeholders to take models from idea to prototype to production, and to keep them healthy with strong measurement and monitoring as fraud patterns evolve. What you’ll do - You will lead development of new fraud…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. On the ML Fraud team, you’ll build and improve machine learning systems that make real-time transaction decisions, protecting consumers and merchants while balancing fraud loss, customer experience, and conversion. You’ll work closely with experienced ML engineers, platform partners, and cross-functional stakeholders to take models from idea to prototype to production, and to keep them healthy with strong measurement and monitoring as fraud patterns evolve. What you’ll do - You will lead development of new fraud…",
     "hasDesc": true
   },
   {
@@ -39397,7 +40272,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Fraud Engineering organization builds the foundational and tactical software that enables Affirm to respond strategically to fraud - both in real time and after the transaction. Our mission is to support business growth while protecting Affirm, our buyers, and our merchants. We evaluate risk at critical decision points in the user journey, rapidly adapt to evolving fraud patterns, and equip operations teams with the tools needed to investigate and mitigate fraud at scale. We’re looking for a Senior Software Engineer…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. The Fraud Engineering organization builds the foundational and tactical software that enables Affirm to respond strategically to fraud - both in real time and after the transaction. Our mission is to support business growth while protecting Affirm, our buyers, and our merchants. We evaluate risk at critical decision points in the user journey, rapidly adapt to evolving fraud patterns, and equip operations teams with the tools needed to investigate and mitigate fraud at scale. We’re looking for a Senior Software…",
     "hasDesc": true
   },
   {
@@ -39428,7 +40303,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. ML Feature Platform is one of the two teams that compose the ML Platform at Affirm, the other team being ML Training & Serving Platform. The two platform teams work closely together to create the ML + Data flywheel that empowers Affirm. ML Feature Platform’s mission is to: Grow Affirm’s business by building a delightful, self-serve platform for developing and serving data for machine learning and decisioning. As the feature platform team, we own multiple artifacts that in aggregate own the end-to-end flows for features.…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. ML Feature Platform is one of the two teams that compose the ML Platform at Affirm, the other team being ML Training & Serving Platform. The two platform teams work closely together to create the ML + Data flywheel that empowers Affirm. ML Feature Platform’s mission is to: Grow Affirm’s business by building a delightful, self-serve platform for developing and serving data for machine learning and decisioning. As the feature platform team, we own multiple artifacts that in aggregate own the end-to-end flows for…",
     "hasDesc": true
   },
   {
@@ -39460,7 +40335,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Collections team, as part of the Repayments area, is on a mission to build a robust platform that will maximize the recovery of delinquent users by sending the right message to the right people at the right time, while monitoring and detecting problems and ensuring high reliability of the engineering systems. Collaborating closely with our product managers, backbook risk teams and other engineering teams , you will effectively manage loans throughout the delinquency phase of their lifecycle and develop and implement…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. The Collections team, as part of the Repayments area, is on a mission to build a robust platform that will maximize the recovery of delinquent users by sending the right message to the right people at the right time, while monitoring and detecting problems and ensuring high reliability of the engineering systems. Collaborating closely with our product managers, backbook risk teams and other engineering teams , you will effectively manage loans throughout the delinquency phase of their lifecycle and develop and…",
     "hasDesc": true
   },
   {
@@ -39491,7 +40366,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Money Movement & Card Ledger team is looking for a passionate Software Engineer to help build the tools and systems that we use to manage money movement, bank data integration & merchant data. Affirm Card is Affirm’s newest financial product that marries the functionality of a debit card with access to Affirm's buy now pay later financing options. Our ability to move money effectively is critical to our ability to reach new customers and improve financial lives. We work closely with experience, data science, product…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. The Money Movement & Card Ledger team is looking for a passionate Software Engineer to help build the tools and systems that we use to manage money movement, bank data integration & merchant data. Affirm Card is Affirm’s newest financial product that marries the functionality of a debit card with access to Affirm's buy now pay later financing options. Our ability to move money effectively is critical to our ability to reach new customers and improve financial lives. We work closely with experience, data science…",
     "hasDesc": true
   },
   {
@@ -39523,7 +40398,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Engineering owns cost visibility and optimization across Affirm's cloud and AI infrastructure. We're the team that tells the business what it's spending, why it's changing, and what to do about it — from AWS resource waste and tagging strategy to the newer frontier of AI/LLM spend across the company's growing set of AI tools. We treat cost anomalies with the same rigor as production incidents: we've built a severity framework (mirroring Affirm's SEV0–3 incident model but mapped to dollar impact) with defined detection…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. Engineering owns cost visibility and optimization across Affirm's cloud and AI infrastructure. We're the team that tells the business what it's spending, why it's changing, and what to do about it — from AWS resource waste and tagging strategy to the newer frontier of AI/LLM spend across the company's growing set of AI tools. We treat cost anomalies with the same rigor as production incidents: we've built a severity framework (mirroring Affirm's SEV0–3 incident model but mapped to dollar impact) with defined…",
     "hasDesc": true
   },
   {
@@ -39553,7 +40428,7 @@ window.JOBS_FINTECH = [
       "Figma"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Marketplace and App Experience domain is the main pillar of our core consumer strategy, driving the user journey across all of our frontend surfaces: iOS, Android, and Web. The teams span across multiple products and areas to engage and provide value to our customers, starting with the Home hub in the app or website, which expands into the various product offers and journeys a user can embark on with Affirm. This role will be at the forefront of our front end technical strategy, working closely with other experts…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. The Marketplace and App Experience domain is the main pillar of our core consumer strategy, driving the user journey across all of our frontend surfaces: iOS, Android, and Web. The teams span across multiple products and areas to engage and provide value to our customers, starting with the Home hub in the app or website, which expands into the various product offers and journeys a user can embark on with Affirm. This role will be at the forefront of our front end technical strategy, working closely with other…",
     "hasDesc": true
   },
   {
@@ -39627,7 +40502,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -39651,7 +40526,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -39965,17 +40840,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-coinbase-8096720",
+    "id": "gh-coinbase-8056065",
     "title": "Solutions Architect",
     "company": "Coinbase",
     "locations": [
-      "London, United Kingdom"
+      "New York, United States"
     ],
     "remote": false,
     "rkind": "hybrid",
-    "salary": "£ 111 800 – 111 800",
+    "salary": "$ 170 000 – 170 000",
     "posted": "2026-08-19",
-    "url": "https://www.coinbase.com/careers/positions/8096720?gh_jid=8096720",
+    "url": "https://www.coinbase.com/careers/positions/8056065?gh_jid=8056065",
     "site": "coinbase.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -39983,8 +40858,8 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": null,
     "spec": null,
-    "payMin": 141986,
-    "payMax": 141986,
+    "payMin": 170000,
+    "payMax": 170000,
     "stack": [
       "Go"
     ],
@@ -40184,32 +41059,6 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-10",
     "descShort": "Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things Done. These shared values drive our culture, shape our processes, and foster a friendly, rewarding, and diverse environment for every…",
-    "hasDesc": true
-  },
-  {
-    "id": "ab-plaid-ee0f35b6-22ee-4fd9-b734-fc8e99426563",
-    "title": "Staff Software Engineer - Credit Insights",
-    "company": "Plaid",
-    "locations": [
-      "New York City"
-    ],
-    "remote": true,
-    "rkind": null,
-    "salary": "$207.6K – $273.6K",
-    "posted": "2026-08-19",
-    "url": "https://jobs.ashbyhq.com/plaid/ee0f35b6-22ee-4fd9-b734-fc8e99426563",
-    "source": "ashby",
-    "site": "plaid.com",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "payMin": 207600,
-    "payMax": 273600,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "We believe that the way people interact with their finances will drastically improve in the next few years. We’re dedicated to empowering this transformation by building the tools and experiences that thousands of developers use to create their own products. Plaid powers the tools millions of people rely on to live a healthier financial life. We work with thousands of companies like Venmo, SoFi, several of the Fortune 500, and many of the largest banks to make it easy for people to connect their financial accounts to the apps and services they want to use. Plaid’s network covers 12,000 financial institutions across the US, Canada, UK and Europe. Founded in 2013, the company is headquartered…",
     "hasDesc": true
   },
   {
@@ -40453,7 +41302,7 @@ window.JOBS_FINTECH = [
     "permit": true,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About the Brand & Communications team Brand and Communications shapes how the world sees Affirm, and how Affirm chooses to be seen. That means showing up where perception takes shape: in culture and press, across Affirm's owned and paid channels, and within the company. We hold a high standard for craft and clarity, and we work to make Affirm a brand people understand, trust, and are proud to choose. About the Role We're looking for a Brand Manager to turn business priorities and consumer insight into campaigns that…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. About the Brand & Communications team Brand and Communications shapes how the world sees Affirm, and how Affirm chooses to be seen. That means showing up where perception takes shape: in culture and press, across Affirm's owned and paid channels, and within the company. We hold a high standard for craft and clarity, and we work to make Affirm a brand people understand, trust, and are proud to choose. About the Role We're looking for a Brand Manager to turn business priorities and consumer insight into campaigns…",
     "hasDesc": true
   },
   {
@@ -40482,7 +41331,7 @@ window.JOBS_FINTECH = [
       "SQL"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About Enterprise Risk & Internal Audit The Enterprise Risk & Internal Audit department protects Affirm’s operations and long-term success. We identify, assess, and monitor risk across the business. Our work includes internal audits, regulatory assurance, fraud prevention, and crisis planning. The team maintains strong controls, tracks key risk indicators, and ensures readiness for external reviews. We uphold accountability, transparency, and resilience to support responsible growth. About the Team We're looking for an…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. About Enterprise Risk & Internal Audit The Enterprise Risk & Internal Audit department protects Affirm’s operations and long-term success. We identify, assess, and monitor risk across the business. Our work includes internal audits, regulatory assurance, fraud prevention, and crisis planning. The team maintains strong controls, tracks key risk indicators, and ensures readiness for external reviews. We uphold accountability, transparency, and resilience to support responsible growth. About the Team We're looking for…",
     "hasDesc": true
   },
   {
@@ -40506,7 +41355,7 @@ window.JOBS_FINTECH = [
     "spec": "Платежи",
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Repayment UX team owns one of the most high-trust surfaces across Affirm’s products: the moment a customer pays us back. We’re a full-stack team based entirely in Europe within the same time zone, but culturally rooted in Silicon Valley. The user journeys we build and own reach more than 20 million people who together repay over $40B in loans each year. We are full-stack owners of the Manage tab within our mobile and web apps, where customers stay on top of their payment plans and make the payments. We are looking…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. The Repayment UX team owns one of the most high-trust surfaces across Affirm’s products: the moment a customer pays us back. We’re a full-stack team based entirely in Europe within the same time zone, but culturally rooted in Silicon Valley. The user journeys we build and own reach more than 20 million people who together repay over $40B in loans each year. We are full-stack owners of the Manage tab within our mobile and web apps, where customers stay on top of their payment plans and make the payments. We are…",
     "hasDesc": true
   },
   {
@@ -40535,7 +41384,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Site Reliability Engineering at Affirm is a small, yet crucial, team that helps our Engineering partners to “Operate What They Own” with excellence to protect their customers’ experience. SRE accomplishes this through defining frameworks and best practices for operating applications, building tooling, and providing training and consulting. Some of the many SRE responsibilities are: • Providing data and visibility to teams and leadership on application performance • Guiding the development of SLOs • Driving the Incident…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. Site Reliability Engineering at Affirm is a small, yet crucial, team that helps our Engineering partners to “Operate What They Own” with excellence to protect their customers’ experience. SRE accomplishes this through defining frameworks and best practices for operating applications, building tooling, and providing training and consulting. Some of the many SRE responsibilities are: • Providing data and visibility to teams and leadership on application performance • Guiding the development of SLOs • Driving the…",
     "hasDesc": true
   },
   {
@@ -40564,7 +41413,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. We are reinventing credit cards in the most transparent way possible. We are working directly with card issuers to change how credit is used throughout the world, creating new types of cards that work for both their everyday lives and large purchases with extremely straightforward, flexible terms. You'll work across stacks and across the company, working both in just-in-time transaction processing that has to take place in milliseconds, along with our ledgering and reconciliation systems in post-transaction processing.…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. We are reinventing credit cards in the most transparent way possible. We are working directly with card issuers to change how credit is used throughout the world, creating new types of cards that work for both their everyday lives and large purchases with extremely straightforward, flexible terms. You'll work across stacks and across the company, working both in just-in-time transaction processing that has to take place in milliseconds, along with our ledgering and reconciliation systems in post-transaction…",
     "hasDesc": true
   },
   {
@@ -40593,7 +41442,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Repayment Scheduling engineering team is growing rapidly, and we're looking for a Senior Software Engineer specializing in Backend development. We're a Backend team located entirely in Europe within the same time zone, but culturally rooted in Silicon Valley. We build and own the system that enables our users to automate their payments, at a scale of up to $40B each year. We directly own the configuration and orchestration of those payments. We directly improve the financial lives of over 20 million people, giving…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. The Repayment Scheduling engineering team is growing rapidly, and we're looking for a Senior Software Engineer specializing in Backend development. We're a Backend team located entirely in Europe within the same time zone, but culturally rooted in Silicon Valley. We build and own the system that enables our users to automate their payments, at a scale of up to $40B each year. We directly own the configuration and orchestration of those payments. We directly improve the financial lives of over 20 million people…",
     "hasDesc": true
   },
   {
@@ -40621,7 +41470,7 @@ window.JOBS_FINTECH = [
       "AWS"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. We are looking for a highly motivated Software Engineer in our Furnishing Platform team to build scalable systems and data pipelines to power our consumer credit reporting. You will partner closely with our Product, Compliance, Servicing, and Credit teams to design robust reporting systems. The systems you will work on are vital for delivering accurate and timely data from Affirm’s financial product portfolio to Consumer Reporting Agencies. Affirm is growing fast and we want you to enable us to scale our products to 10x…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. We are looking for a highly motivated Software Engineer in our Furnishing Platform team to build scalable systems and data pipelines to power our consumer credit reporting. You will partner closely with our Product, Compliance, Servicing, and Credit teams to design robust reporting systems. The systems you will work on are vital for delivering accurate and timely data from Affirm’s financial product portfolio to Consumer Reporting Agencies. Affirm is growing fast and we want you to enable us to scale our products…",
     "hasDesc": true
   },
   {
@@ -40650,7 +41499,7 @@ window.JOBS_FINTECH = [
       "SQL"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About Enterprise Risk & Internal Audit The Enterprise Risk & Internal Audit department protects Affirm’s operations and long-term success. We identify, assess, and monitor risk across the business. Our work includes internal audits, regulatory assurance, fraud prevention, and crisis planning. The team maintains strong controls, tracks key risk indicators, and ensures readiness for external reviews. We uphold accountability, transparency, and resilience to support responsible growth. About the Team We're looking for a…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. About Enterprise Risk & Internal Audit The Enterprise Risk & Internal Audit department protects Affirm’s operations and long-term success. We identify, assess, and monitor risk across the business. Our work includes internal audits, regulatory assurance, fraud prevention, and crisis planning. The team maintains strong controls, tracks key risk indicators, and ensures readiness for external reviews. We uphold accountability, transparency, and resilience to support responsible growth. About the Team We're looking for…",
     "hasDesc": true
   },
   {
@@ -40766,56 +41615,109 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-veriff-8626079002",
-    "title": "Head of Product Marketing",
-    "company": "Veriff",
+    "id": "gh-adyen-8113895",
+    "title": "Associate Fraud Analyst",
+    "company": "Adyen",
     "locations": [
-      "United States"
+      "Chicago"
     ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": "$ 220 000 – 250 000",
-    "posted": "2026-08-19",
-    "url": "https://www.veriff.com/careers/position/8626079002?gh_jid=8626079002",
-    "site": "veriff.com",
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 36 – 47",
+    "posted": "2026-08-18",
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/8113895",
+    "site": "adyen.com",
     "source": "greenhouse",
     "industry": "fintech",
     "kind": "Платежи",
-    "role": "Продакт",
-    "grade": "Lead",
+    "role": "Антифрод",
+    "grade": null,
     "spec": null,
-    "payMin": 220000,
-    "payMax": 250000,
+    "permit": true,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Veriff is the trust infrastructure platform for the world’s most innovative companies, and we need the market to understand exactly why that matters and why it matters with us rather than anyone else. The Head of Product Marketing will own that answer. This is a high-impact role at a pivotal moment: a vertical go-to-market motion is being built, and the company is sharpening its focus on segment-driven growth. Product Marketing sits at the center of it all and owns positioning, enabling Sales, shaping vertical strategy, and driving how our products go to market. This is a build-and-elevate role. You will bring structure, clarity, and commercial impact to a function that is critical to…",
+    "descShort": "This Is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. Associate Fraud Analyst We are looking for an ambitious analyst…",
     "hasDesc": true
   },
   {
-    "id": "gh-veriff-8609896002",
-    "title": "Senior Software Engineer - Verification Platform",
-    "company": "Veriff",
+    "id": "gh-adyen-8090506",
+    "title": "Brand Enablement Manager",
+    "company": "Adyen",
     "locations": [
-      "Tallinn, Spain"
+      "Amsterdam"
     ],
-    "remote": true,
-    "rkind": "zone",
+    "remote": false,
+    "rkind": null,
     "salary": null,
-    "posted": "2026-08-19",
-    "url": "https://www.veriff.com/careers/position/8609896002?gh_jid=8609896002",
-    "site": "veriff.com",
+    "posted": "2026-08-18",
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/8090506",
+    "site": "adyen.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. Role Overview We are looking for a strategic, process-driven…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-adyen-8129143",
+    "title": "Optimization Data Analyst",
+    "company": "Adyen",
+    "locations": [
+      "San Francisco"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 132 000 – 178 000",
+    "posted": "2026-08-18",
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/8129143",
+    "site": "adyen.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Данные и ML",
+    "grade": null,
+    "spec": null,
+    "payMin": 132000,
+    "payMax": 178000,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. The Role We are seeking an experienced Optimization Data…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-adyen-7989158",
+    "title": "Staff Engineer - Observability",
+    "company": "Adyen",
+    "locations": [
+      "Amsterdam"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-18",
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/7989158",
+    "site": "adyen.com",
     "source": "greenhouse",
     "industry": "fintech",
     "kind": "Платежи",
     "role": "Программирование",
-    "grade": "Senior",
+    "grade": null,
     "spec": null,
     "stack": [
       "Python",
+      "Java",
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Beneath a simple yet elegant user interface lies a complex system of functionalities. Our AI-powered product uses advanced image recognition, facial verification, face recognition, facial anti-spoofing (liveness detection), and behavior analysis to make identity decisions. We help our partners build onboarding processes that ensure good people get things done and bad folks get stopped. To take our platform to the next level, we're looking for a Senior Software Engineer to join the Verification Platform team. This team owns the workflow orchestration engine and the automated verification decisioning pipeline that powers Veriff's core product — and that other product teams across Identity…",
+    "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. Staff Engineer - Observability As a Staff Engineer in the…",
     "hasDesc": true
   },
   {
@@ -40952,17 +41854,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4955328101",
+    "id": "gh-ebury-4955327101",
     "title": "Senior FX Product Manager - Hedging Conversion",
     "company": "Ebury",
     "locations": [
-      "Madrid"
+      "London"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-18",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4955328101",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4955327101",
     "site": "ebury.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -40972,7 +41874,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. FX Senior Product Manager - Hedging conversion Ebury Madrid Office - Hybrid: 4 days in the office, 1 day working from home per week As Ebury scales globally, we are evolving from a delivery-led organisation into a…",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. FX Senior Product Manager - Hedging conversion Ebury London Office - Hybrid: 4 days in the office, 1 day working from home per week As Ebury scales globally, we are evolving from a delivery-led organisation into a…",
     "hasDesc": true
   },
   {
@@ -41189,7 +42091,7 @@ window.JOBS_FINTECH = [
       "SQL"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Financial Systems owns the data and reporting foundation for Accounting, and the operational reliability of the pipelines that power reporting, reconciliations, and automation. We are building a single source of truth for financial information using dbt and Snowflake to enable scalable BI and process automation across the org. We are hiring an Analytics Engineer focused on maintaining and optimizing our finance data platform, improving reliability, efficiency, and performance of our pipelines and core datasets. This role…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. Financial Systems owns the data and reporting foundation for Accounting, and the operational reliability of the pipelines that power reporting, reconciliations, and automation. We are building a single source of truth for financial information using dbt and Snowflake to enable scalable BI and process automation across the org. We are hiring an Analytics Engineer focused on maintaining and optimizing our finance data platform, improving reliability, efficiency, and performance of our pipelines and core datasets.…",
     "hasDesc": true
   },
   {
@@ -41215,7 +42117,7 @@ window.JOBS_FINTECH = [
     "payMax": 150000,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About the Team: We're looking for a curious, driven analyst to join our Revenue Operations team. Revenue Operations serves as the backbone of the Revenue organization at Affirm. We follow a data-driven approach that combines elements of strategy, systems, process, and analytics to align go-to-market motions across the organization. About the Role: As a Revenue Operations Analyst II, you will be a key partner to our Marketing, Business Development, and early Sales teams - focused on making the top of the funnel…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. About the Team: We're looking for a curious, driven analyst to join our Revenue Operations team. Revenue Operations serves as the backbone of the Revenue organization at Affirm. We follow a data-driven approach that combines elements of strategy, systems, process, and analytics to align go-to-market motions across the organization. About the Role: As a Revenue Operations Analyst II, you will be a key partner to our Marketing, Business Development, and early Sales teams - focused on making the top of the funnel…",
     "hasDesc": true
   },
   {
@@ -41244,7 +42146,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Affirm’s Identity team is mission-critical to the customer checkout experience. When a customer chooses Affirm, one of the first steps is an identity check, and our ability to make the right decision directly impacts conversion, revenue, fraud exposure, and regulatory compliance. Our team owns Identity for all markets outside North America, playing a key role in Affirm’s international expansion. We are responsible for KYC, user lifecycle management, and identity decisioning across multiple regulatory environments. This…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. Affirm’s Identity team is mission-critical to the customer checkout experience. When a customer chooses Affirm, one of the first steps is an identity check, and our ability to make the right decision directly impacts conversion, revenue, fraud exposure, and regulatory compliance. Our team owns Identity for all markets outside North America, playing a key role in Affirm’s international expansion. We are responsible for KYC, user lifecycle management, and identity decisioning across multiple regulatory environments.…",
     "hasDesc": true
   },
   {
@@ -41276,7 +42178,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Merchant & Partner Lifecycle (M&PL) team is at the forefront of Affirm’s architectural transformation. We are addressing critical architectural risks by consolidating merchant lifecycle orchestration into a newly cohesive domain. You will act as a technical leader responsible for building out the brand new lifecycle-orchestrator service that’s at the heart of multiple connected systems. Your work will deliver immediate availability improvements through system simplification and isolation, and modernize older parts of…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. The Merchant & Partner Lifecycle (M&PL) team is at the forefront of Affirm’s architectural transformation. We are addressing critical architectural risks by consolidating merchant lifecycle orchestration into a newly cohesive domain. You will act as a technical leader responsible for building out the brand new lifecycle-orchestrator service that’s at the heart of multiple connected systems. Your work will deliver immediate availability improvements through system simplification and isolation, and modernize older…",
     "hasDesc": true
   },
   {
@@ -41306,6 +42208,282 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-10",
     "descShort": "The Company You’ll Join Carta is the connected platform and AI-native ecosystem for private capital. Built to replace fragmented tools with a single system of record, Carta brings together the software, services, and legal infrastructure that founders use to manage equity, fund managers use to run administration and reporting, and legal teams use to close transactions. Trusted by 55,000 companies and 1.8M+ equity holders in 160+ countries, and 10,000 funds and SPVs representing $250B+ in assets under management, Carta is transforming how private capital operates. Recognized by Fortune, Forbes, Fast Company, Inc. and Great Places to Work. For more information about our offices and culture…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-sofi-7865460003",
+    "title": "Crypto AML & Sanctions Advisor",
+    "company": "SoFi",
+    "locations": [
+      "United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-18",
+    "url": "https://sofi.com/careers/job/7865460003?gh_jid=7865460003",
+    "site": "sofi.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Employee Applicant Privacy Notice Who we are: Shape a brighter financial future with us. Together with our members, we’re changing the way people think about and interact with personal finance. We’re a next-generation financial services company and national bank using innovative, mobile-first technology to help our millions of members reach their goals. The industry is going through an unprecedented transformation, and we’re at the forefront. We’re proud to come to work every day knowing that what we do has a direct impact on people’s lives, with our core values guiding us every step of the way. Join us to invest in yourself, your career, and the financial world. The role: The Crypto AML &…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-sofi-7805243003",
+    "title": "Independent Risk Management Director, Investment Products",
+    "company": "SoFi",
+    "locations": [
+      "Frisco"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-18",
+    "url": "https://sofi.com/careers/job/7805243003?gh_jid=7805243003",
+    "site": "sofi.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Риски",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Employee Applicant Privacy Notice Who we are: Shape a brighter financial future with us. Together with our members, we’re changing the way people think about and interact with personal finance. We’re a next-generation financial services company and national bank using innovative, mobile-first technology to help our millions of members reach their goals. The industry is going through an unprecedented transformation, and we’re at the forefront. We’re proud to come to work every day knowing that what we do has a direct impact on people’s lives, with our core values guiding us every step of the way. Join us to invest in yourself, your career, and the financial world. The role: SoFi is seeking…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-sofi-7607580003",
+    "title": "Senior Director, International Risk Oversight",
+    "company": "SoFi",
+    "locations": [
+      "Cottonwood Heights",
+      "San Francisco",
+      "New York City"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-18",
+    "url": "https://sofi.com/careers/job/7607580003?gh_jid=7607580003",
+    "site": "sofi.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Риски",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Employee Applicant Privacy Notice Who we are: Shape a brighter financial future with us. Together with our members, we’re changing the way people think about and interact with personal finance. We’re a next-generation financial services company and national bank using innovative, mobile-first technology to help our millions of members reach their goals. The industry is going through an unprecedented transformation, and we’re at the forefront. We’re proud to come to work every day knowing that what we do has a direct impact on people’s lives, with our core values guiding us every step of the way. Join us to invest in yourself, your career, and the financial world. The role: This role sits…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-sofi-7822112003",
+    "title": "Senior Marketing Project Manager, Direct Mail",
+    "company": "SoFi",
+    "locations": [
+      "San Francisco, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-18",
+    "url": "https://sofi.com/careers/job/7822112003?gh_jid=7822112003",
+    "site": "sofi.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Маркетинг",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Employee Applicant Privacy Notice Who we are: Shape a brighter financial future with us. Together with our members, we’re changing the way people think about and interact with personal finance. We’re a next-generation financial services company and national bank using innovative, mobile-first technology to help our millions of members reach their goals. The industry is going through an unprecedented transformation, and we’re at the forefront. We’re proud to come to work every day knowing that what we do has a direct impact on people’s lives, with our core values guiding us every step of the way. Join us to invest in yourself, your career, and the financial world. The role: SoFi is seeking a…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-sofi-7887209003",
+    "title": "Senior Software Engineering Manager",
+    "company": "SoFi",
+    "locations": [
+      "Add ALL locations here"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 182.00 – 318 100",
+    "posted": "2026-08-18",
+    "url": "https://sofi.com/careers/job/7887209003?gh_jid=7887209003",
+    "site": "sofi.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "payMin": 182,
+    "payMax": 318100,
+    "stack": [
+      "Java",
+      "Kotlin",
+      "Swift",
+      "JavaScript"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Employee Applicant Privacy Notice Who we are: Shape a brighter financial future with us. Together with our members, we’re changing the way people think about and interact with personal finance. We’re a next-generation financial services company and national bank using innovative, mobile-first technology to help our millions of members reach their goals. The industry is going through an unprecedented transformation, and we’re at the forefront. We’re proud to come to work every day knowing that what we do has a direct impact on people’s lives, with our core values guiding us every step of the way. Join us to invest in yourself, your career, and the financial world. Social Finance, LLC seeks…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-sofi-7819801003",
+    "title": "Staff Backend Engineer, Custody Core (Crypto Security)",
+    "company": "SoFi",
+    "locations": [
+      "San Francisco",
+      "Seattle",
+      "New York City",
+      "Frisco",
+      "Cottonwood Heights",
+      "Helena",
+      "Jacksonville"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-18",
+    "url": "https://sofi.com/careers/job/7819801003?gh_jid=7819801003",
+    "site": "sofi.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Блокчейн",
+    "stack": [
+      "AWS"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Employee Applicant Privacy Notice Who we are: Shape a brighter financial future with us. Together with our members, we’re changing the way people think about and interact with personal finance. We’re a next-generation financial services company and national bank using innovative, mobile-first technology to help our millions of members reach their goals. The industry is going through an unprecedented transformation, and we’re at the forefront. We’re proud to come to work every day knowing that what we do has a direct impact on people’s lives, with our core values guiding us every step of the way. Join us to invest in yourself, your career, and the financial world. The role We are looking for…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-sofi-7887211003",
+    "title": "Staff Data Scientist",
+    "company": "SoFi",
+    "locations": [
+      "Add ALL locations here"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 560.00 – 245 916",
+    "posted": "2026-08-18",
+    "url": "https://sofi.com/careers/job/7887211003?gh_jid=7887211003",
+    "site": "sofi.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Данные и ML",
+    "grade": null,
+    "spec": null,
+    "payMin": 560,
+    "payMax": 245916,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Employee Applicant Privacy Notice Who we are: Shape a brighter financial future with us. Together with our members, we’re changing the way people think about and interact with personal finance. We’re a next-generation financial services company and national bank using innovative, mobile-first technology to help our millions of members reach their goals. The industry is going through an unprecedented transformation, and we’re at the forefront. We’re proud to come to work every day knowing that what we do has a direct impact on people’s lives, with our core values guiding us every step of the way. Join us to invest in yourself, your career, and the financial world. SoFi Bank N.A. seeks Staff…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-sofi-7698656003",
+    "title": "Staff Fraud Analyst",
+    "company": "SoFi",
+    "locations": [
+      "New York"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-18",
+    "url": "https://sofi.com/careers/job/7698656003?gh_jid=7698656003",
+    "site": "sofi.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Антифрод",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Employee Applicant Privacy Notice Who we are: Shape a brighter financial future with us. Together with our members, we’re changing the way people think about and interact with personal finance. We’re a next-generation financial services company and national bank using innovative, mobile-first technology to help our millions of members reach their goals. The industry is going through an unprecedented transformation, and we’re at the forefront. We’re proud to come to work every day knowing that what we do has a direct impact on people’s lives, with our core values guiding us every step of the way. Join us to invest in yourself, your career, and the financial world. The role We are searching…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-sofi-7818418003",
+    "title": "Staff Security Detection Engineer, Machine Learning",
+    "company": "SoFi",
+    "locations": [
+      "Seattle",
+      "San Francisco"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-18",
+    "url": "https://sofi.com/careers/job/7818418003?gh_jid=7818418003",
+    "site": "sofi.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Безопасность",
+    "stack": [
+      "Python",
+      "SQL",
+      "AWS"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Employee Applicant Privacy Notice Who we are: Shape a brighter financial future with us. Together with our members, we’re changing the way people think about and interact with personal finance. We’re a next-generation financial services company and national bank using innovative, mobile-first technology to help our millions of members reach their goals. The industry is going through an unprecedented transformation, and we’re at the forefront. We’re proud to come to work every day knowing that what we do has a direct impact on people’s lives, with our core values guiding us every step of the way. Join us to invest in yourself, your career, and the financial world. The role: We’re seeking a…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-sofi-7818426003",
+    "title": "Staff Vulnerability Management Engineer",
+    "company": "SoFi",
+    "locations": [
+      "Seattle",
+      "San Francisco"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-18",
+    "url": "https://sofi.com/careers/job/7818426003?gh_jid=7818426003",
+    "site": "sofi.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "TypeScript",
+      "JavaScript",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Employee Applicant Privacy Notice Who we are: Shape a brighter financial future with us. Together with our members, we’re changing the way people think about and interact with personal finance. We’re a next-generation financial services company and national bank using innovative, mobile-first technology to help our millions of members reach their goals. The industry is going through an unprecedented transformation, and we’re at the forefront. We’re proud to come to work every day knowing that what we do has a direct impact on people’s lives, with our core values guiding us every step of the way. Join us to invest in yourself, your career, and the financial world. The role We are seeking a…",
     "hasDesc": true
   },
   {
@@ -41553,6 +42731,80 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-10",
     "descShort": "Why Join dLocal? dLocal is the financial infrastructure powering global commerce in the world's fastest-growing markets. The biggest companies in the world trust us to unlock growth in 60+ countries across emerging markets—moving money where others see complexity. We don't just process payments; we are architects of payment ecosystems and partners in our customers' expansion. You'll work alongside 1,300+ teammates from 40+ nationalities and tackle global challenges from day one. We are looking for a highly skilled Staff Engineer to join our Payments Performance team. This team is focused on optimizing payment performance across multiple dimensions: improving conversion rates, maximizing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-adyen-8009551",
+    "title": "Demand Generation Marketing Manager",
+    "company": "Adyen",
+    "locations": [
+      "Stockholm"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-17",
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/8009551",
+    "site": "adyen.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. Adyen is looking for a data-driven, proactive, and…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-adyen-8107420",
+    "title": "Staff Engineer - Banking Products",
+    "company": "Adyen",
+    "locations": [
+      "Amsterdam"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-17",
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/8107420",
+    "site": "adyen.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. The Opportunity As a Staff Engineer in Banking, you’ll…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-adyen-7124398",
+    "title": "Staff Software Engineer - Money Movement",
+    "company": "Adyen",
+    "locations": [
+      "Amsterdam"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-17",
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/7124398",
+    "site": "adyen.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Java"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. Staff Engineer - Money Movement In this role, you will be a…",
     "hasDesc": true
   },
   {
@@ -42047,6 +43299,30 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-10",
     "descShort": "CLEAR is building THE secure identity company of the future. Our mission is to make experiences safer and easier—physically and digitally. With more than 43 million Members and a growing network of partners across the world, CLEAR's secure identity platform is transforming the way people live, work, and travel. Whether it’s at the airport, stadium, or throughout your everyday life, CLEAR unlocks the magic of frictionless experiences. We're looking for Staff Software Engineers to help build the next generation of CLEAR's identity platform. Beyond verifying identity, we're creating a secure, networked digital identity that enables seamless experiences across travel, enterprise, healthcare…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-form3-8613954002",
+    "title": "Senior Product Manager - US Payments",
+    "company": "Form3",
+    "locations": [
+      "100%"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-08-17",
+    "url": "https://www.form3.tech/careers/vacancies/8613954002?gh_jid=8613954002",
+    "site": "form3.tech",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Платежи",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "THE ROLE 📝 This is an exciting opportunity to join Form3's growing US Product team as a Senior Product Manager, helping shape our US Account-to-Account (A2A) payments proposition. You'll own products across the full lifecycle, from discovery and strategy through to delivery, launch, and commercialisation. While you'll contribute across our US A2A portfolio, your initial focus will be on building and scaling new payment capabilities, particularly Wire and ACH and supporting existing capability like RTP and FedNow. Key Responsibilities: • Define and execute the product strategy and roadmap for your US payment products, delivering measurable customer and commercial outcomes. • Bring new…",
     "hasDesc": true
   },
   {
@@ -42579,7 +43855,7 @@ window.JOBS_FINTECH = [
       "Figma"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -42606,7 +43882,7 @@ window.JOBS_FINTECH = [
       "SQL"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -42663,6 +43939,37 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-10",
     "descShort": "About the opportunity You will work in the Financial Empowerment domain. Our goal is to empower everyone to achieve financial freedom and unlock their potential for a better life by providing N26 users with access to the money they need to achieve their life objectives, whether today (deposits or borrowing) or tomorrow (saving and investing). In this role, you will: • Do discovery, design, develop, test, deploy and maintain software in a thriving environment. • Manage individual project priorities and deliverables whilst working in a team who enjoy knowledge sharing sessions. • Stay up to date with the latest trends in technology. • Propose new findings during our Get Stuff Done Days…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-adyen-7684222",
+    "title": "Senior CI/CD Engineer",
+    "company": "Adyen",
+    "locations": [
+      "Chicago"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 180 000 – 243 000",
+    "posted": "2026-08-14",
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/7684222",
+    "site": "adyen.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "payMin": 180000,
+    "payMax": 243000,
+    "stack": [
+      "Python",
+      "Kotlin",
+      "Swift",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. Senior CI/CD Engineer Adyen is looking for an Infrastructure…",
     "hasDesc": true
   },
   {
@@ -43024,7 +44331,7 @@ window.JOBS_FINTECH = [
       "SQL"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About the Risk & Analytics Team The Risk & Analytics (R&A) team makes crucial decisions that direct Affirm’s business strategy. We partner with Machine Learning, Product, Engineering, Capital Markets, and Commercial teams to grow Affirm responsibly by optimizing approval, conversion, losses, and profitability. Operating across the entire customer and merchant lifecycle, we tackle a diverse array of challenges, from optimizing checkout conversion and mitigating fraud risk to building scalable data foundations and enabling…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. About the Risk & Analytics Team The Risk & Analytics (R&A) team makes crucial decisions that direct Affirm’s business strategy. We partner with Machine Learning, Product, Engineering, Capital Markets, and Commercial teams to grow Affirm responsibly by optimizing approval, conversion, losses, and profitability. Operating across the entire customer and merchant lifecycle, we tackle a diverse array of challenges, from optimizing checkout conversion and mitigating fraud risk to building scalable data foundations and…",
     "hasDesc": true
   },
   {
@@ -43050,7 +44357,7 @@ window.JOBS_FINTECH = [
     "payMax": 225000,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. In this role you will lead a team of our world class Technical Account Managers (TAMs), representing and supporting our SMB merchants. As the manager, you will oversee a talented team of TAMs who are responsible for the technical success of our SMB merchants post-sale. You will support and guide your team towards best practice solutions as they advise merchant developers, product teams, and key business partners throughout the entire lifecycle, from initial product integration through expansion and scale. This team is…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. In this role you will lead a team of our world class Technical Account Managers (TAMs), representing and supporting our SMB merchants. As the manager, you will oversee a talented team of TAMs who are responsible for the technical success of our SMB merchants post-sale. You will support and guide your team towards best practice solutions as they advise merchant developers, product teams, and key business partners throughout the entire lifecycle, from initial product integration through expansion and scale. This team…",
     "hasDesc": true
   },
   {
@@ -43074,7 +44381,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About the Risk & Analytics Team The Risk & Analytics (R&A) team makes crucial decisions that direct Affirm’s business strategy. We partner with Machine Learning, Product, Engineering, Capital Markets, and Commercial teams to grow Affirm responsibly by optimizing approval, conversion, losses, and profitability. Operating across the entire customer and merchant lifecycle, we tackle a diverse array of challenges, from optimizing checkout conversion and mitigating fraud risk to building scalable data foundations and enabling…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. About the Risk & Analytics Team The Risk & Analytics (R&A) team makes crucial decisions that direct Affirm’s business strategy. We partner with Machine Learning, Product, Engineering, Capital Markets, and Commercial teams to grow Affirm responsibly by optimizing approval, conversion, losses, and profitability. Operating across the entire customer and merchant lifecycle, we tackle a diverse array of challenges, from optimizing checkout conversion and mitigating fraud risk to building scalable data foundations and…",
     "hasDesc": true
   },
   {
@@ -43105,7 +44412,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Affirm is building the next generation of customer identity and authentication. This role is a hands-on engineering position inside Information Security, focused on designing and shipping core CIAM capabilities that protect customers and support growth. You will build and operate backend services that power registration, login, authorization, and account lifecycle flows across B2C and B2B experiences. You will work closely with partner engineering teams and ensure identity features are delivered with strong security…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. Affirm is building the next generation of customer identity and authentication. This role is a hands-on engineering position inside Information Security, focused on designing and shipping core CIAM capabilities that protect customers and support growth. You will build and operate backend services that power registration, login, authorization, and account lifecycle flows across B2C and B2B experiences. You will work closely with partner engineering teams and ensure identity features are delivered with strong…",
     "hasDesc": true
   },
   {
@@ -43134,7 +44441,7 @@ window.JOBS_FINTECH = [
       "JavaScript"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. App Infrastructure is the team behind Affirm's shared mobile app infrastructure — the platform every other mobile feature team builds on. We own the app’s shared components: design system, networking, observability, experimentation, CI/CD, app releases, developer tooling, availability/stability, and more. We care about ownership: shipping tools and runbooks other teams actually adopt, writing specs before building, and being the go to experts for the mobile tech stack . We're small, technical, and highly collaborative.…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. App Infrastructure is the team behind Affirm's shared mobile app infrastructure — the platform every other mobile feature team builds on. We own the app’s shared components: design system, networking, observability, experimentation, CI/CD, app releases, developer tooling, availability/stability, and more. We care about ownership: shipping tools and runbooks other teams actually adopt, writing specs before building, and being the go to experts for the mobile tech stack . We're small, technical, and highly…",
     "hasDesc": true
   },
   {
@@ -43267,31 +44574,7 @@ window.JOBS_FINTECH = [
       "Figma"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
-    "hasDesc": true
-  },
-  {
-    "id": "ab-nubank-ec39aa8f-cf17-4034-a56b-1edc05624313",
-    "title": "Staff Product Manager",
-    "company": "Nubank",
-    "locations": [
-      "Bogota"
-    ],
-    "remote": true,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-14",
-    "url": "https://jobs.ashbyhq.com/nubank/ec39aa8f-cf17-4034-a56b-1edc05624313",
-    "source": "ashby",
-    "site": "nubank.com.br",
-    "industry": "fintech",
-    "kind": "Банки",
-    "role": "Продакт",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -43315,7 +44598,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -43341,7 +44624,7 @@ window.JOBS_FINTECH = [
       "AWS"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -43614,17 +44897,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-sumup-8507674002",
+    "id": "gh-sumup-8448680002",
     "title": "Engineering Manager - Verification",
     "company": "SumUp",
     "locations": [
-      "Sofia, Bulgaria"
+      "Berlin, Germany"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-13",
-    "url": "https://sumup.com/careers/positions/8507674002?gh_jid=8507674002",
+    "url": "https://sumup.com/careers/positions/8448680002?gh_jid=8448680002",
     "site": "sumup.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -43638,17 +44921,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-sumup-8693566002",
+    "id": "gh-sumup-8634773002",
     "title": "Growth Associate - Bank & Lending",
     "company": "SumUp",
     "locations": [
-      "Paris, France"
+      "Berlin, Germany"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-13",
-    "url": "https://sumup.com/careers/positions/8693566002?gh_jid=8693566002",
+    "url": "https://sumup.com/careers/positions/8634773002?gh_jid=8634773002",
     "site": "sumup.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -43989,17 +45272,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-sumup-8586092002",
-    "title": "Senior Backend Engineer",
+    "id": "gh-sumup-8637377002",
+    "title": "Senior Backend Engineer - Commercial Systems and Intelligence",
     "company": "SumUp",
     "locations": [
-      "Florianópolis, Brazil"
+      "Berlin, Germany"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-13",
-    "url": "https://sumup.com/careers/positions/8586092002?gh_jid=8586092002",
+    "url": "https://sumup.com/careers/positions/8637377002?gh_jid=8637377002",
     "site": "sumup.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -44007,13 +45290,9 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": "Senior",
     "spec": "Бэкенд",
-    "stack": [
-      "Java",
-      "Kotlin",
-      "AWS"
-    ],
+    "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Senior Backend Engineer – Global Bank tribe 📍 Florianópolis, Brazil At SumUp, we believe small merchants are the heartbeat of our communities. By joining the Global Bank tribe, you'll help shape the card infrastructure that directly powers how millions of merchants access, manage, and grow their finances in Brazil and beyond. As a Senior Backend Engineer, you will play a central role in evolving our card domain — from credit card launches and digital wallet integrations to regulatory compliance and cross-market scalability. This is a role for engineers who want their work to matter and who thrive at the intersection of technical excellence and real-world impact. What you'll do • Shape the…",
+    "descShort": "About the team: The Commercial Systems and Intelligence squad is a newly formed team within SumUp's Acquisition Mission under the Run & Grow tribe. We sit at the intersection of data, backend engineering, and sales operations, building the infrastructure that powers how SumUp attributes merchant acquisition, calculates commissions, and understands the full lifecycle of every merchant. Today, these processes are largely manual. We're here to change that, automating what's opaque, and building systems that sales representatives, leadership, and analysts can actually trust. You'll join at the very beginning, helping to shape how the squad works, the architecture it builds on, and the standards…",
     "hasDesc": true
   },
   {
@@ -44366,6 +45645,33 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-ebury-4952385101",
+    "title": "Data Analyst II - Treasury",
+    "company": "Ebury",
+    "locations": [
+      "Málaga"
+    ],
+    "remote": false,
+    "rkind": "hybrid",
+    "salary": null,
+    "posted": "2026-08-13",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4952385101",
+    "site": "ebury.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Данные и ML",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Data Analyst - Treasury Location: Málaga or Madrid (Spain) - Hybrid: 4 days in the office, 1 day working from home per week Ebury’s strategic growth plan would not be possible without our Data Analytics & Reporting team and…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-ebury-4952390101",
     "title": "Engineer - AI Platform",
     "company": "Ebury",
@@ -44392,17 +45698,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4952145101",
+    "id": "gh-ebury-4952144101",
     "title": "Senior Quantitative Treasury & ALM Risk",
     "company": "Ebury",
     "locations": [
-      "Málaga"
+      "Madrid"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-13",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4952145101",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4952144101",
     "site": "ebury.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -44415,7 +45721,7 @@ window.JOBS_FINTECH = [
       "SQL"
     ],
     "seen": "2026-09-10",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Quantitative Treasury/ALM Risk Modelling & Analytics Treasury Ebury Malaga Office - Hybrid: 4 days in the office, 1 day working from home per week Ebury is a dynamic fintech company at the forefront of financial innovation.…",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Senior Quantitative Treasury/ALM Risk Modelling & Analytics Treasury Ebury Madrid Office - Hybrid: 4 days in the office, 1 day working from home per week Ebury is a dynamic fintech company at the forefront of financial…",
     "hasDesc": true
   },
   {
@@ -44524,7 +45830,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The International Accelerator Engineering team is growing, and we're looking for a Senior Software Engineer to join us! We're a full-stack team located entirely in Europe within the same time zone, but culturally rooted in Silicon Valley. We directly improve the financial lives of over 20 million people shaping how Affirm builds Direct-to-Consumer products for Canada, the UK, and future international markets. We build and own various products used by our consumers, like the Affirm App and other Direct to Consumer…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. The International Accelerator Engineering team is growing, and we're looking for a Senior Software Engineer to join us! We're a full-stack team located entirely in Europe within the same time zone, but culturally rooted in Silicon Valley. We directly improve the financial lives of over 20 million people shaping how Affirm builds Direct-to-Consumer products for Canada, the UK, and future international markets. We build and own various products used by our consumers, like the Affirm App and other Direct to Consumer…",
     "hasDesc": true
   },
   {
@@ -44553,7 +45859,7 @@ window.JOBS_FINTECH = [
       "Kotlin"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The International Accelerator Engineering team is growing, and we're looking for a Software Engineer to join us! We're a full-stack team located entirely in Europe within the same time zone, but culturally rooted in Silicon Valley. We directly improve the financial lives of over 20 million people shaping how Affirm builds Direct-to-Consumer products for Canada, the UK, and future international markets. We build and own various products used by our consumers, like the Affirm App and other Direct to Consumer products…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. The International Accelerator Engineering team is growing, and we're looking for a Software Engineer to join us! We're a full-stack team located entirely in Europe within the same time zone, but culturally rooted in Silicon Valley. We directly improve the financial lives of over 20 million people shaping how Affirm builds Direct-to-Consumer products for Canada, the UK, and future international markets. We build and own various products used by our consumers, like the Affirm App and other Direct to Consumer products…",
     "hasDesc": true
   },
   {
@@ -44584,7 +45890,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. As we build Affirm's advertising platform and evolve Marketplace into a best in class shopping destination, the ability to route and discover is one of the greatest levers for consumer experiences. Search is one of the highest impact surfaces, and we are building a new team that will own not just the recommendations and search experiences, but also explore opportunities to improve customer experience, monetization, and merchant value. This team will help make Affirm the definitive destination consumers turn to for…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. As we build Affirm's advertising platform and evolve Marketplace into a best in class shopping destination, the ability to route and discover is one of the greatest levers for consumer experiences. Search is one of the highest impact surfaces, and we are building a new team that will own not just the recommendations and search experiences, but also explore opportunities to improve customer experience, monetization, and merchant value. This team will help make Affirm the definitive destination consumers turn to for…",
     "hasDesc": true
   },
   {
@@ -45148,7 +46454,7 @@ window.JOBS_FINTECH = [
       "SQL"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. We are seeking a highly motivated and analytical individual to join our Growth Analytics International team. This team plays a crucial role in conducting research, monitoring performance, and running experiments to develop exceptional products for both consumers and merchants while driving long-term growth for the business. As Affirm continues expanding into new international markets, this role will be instrumental in establishing the operational analytics framework for new launches, beginning with Australia and…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. We are seeking a highly motivated and analytical individual to join our Growth Analytics International team. This team plays a crucial role in conducting research, monitoring performance, and running experiments to develop exceptional products for both consumers and merchants while driving long-term growth for the business. As Affirm continues expanding into new international markets, this role will be instrumental in establishing the operational analytics framework for new launches, beginning with Australia and…",
     "hasDesc": true
   },
   {
@@ -45172,7 +46478,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About the Legal, Compliance, and Public Affairs team The Legal, Compliance, and Public Affairs team is a group of dedicated professionals committed to helping Affirm scale, innovate, and provide outstanding products for consumers, merchants, and key partners. We combine legal, compliance, and policy expertise to guide growth, shape products, and build trust across our ecosystem. Our work spans multiple professional disciplines and provides the foundation for Affirm’s mission to deliver honest financial products. About…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. About the Legal, Compliance, and Public Affairs team The Legal, Compliance, and Public Affairs team is a group of dedicated professionals committed to helping Affirm scale, innovate, and provide outstanding products for consumers, merchants, and key partners. We combine legal, compliance, and policy expertise to guide growth, shape products, and build trust across our ecosystem. Our work spans multiple professional disciplines and provides the foundation for Affirm’s mission to deliver honest financial products.…",
     "hasDesc": true
   },
   {
@@ -45202,7 +46508,7 @@ window.JOBS_FINTECH = [
       "SQL"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Bank Compliance Technology Analyst supports the technical operation and continued development of the Affirm Bank Compliance and BSA/AML programs. This role translates regulatory, policy, and operational requirements into effective systems, rules, workflows, reporting, and automated controls. The analyst will partner closely with Bank Compliance, Financial Crimes Operations, Product, Engineering, Data, and other stakeholders to ensure Affirm Bank’s compliance technology remains reliable, scalable, well-controlled, and…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. The Bank Compliance Technology Analyst supports the technical operation and continued development of the Affirm Bank Compliance and BSA/AML programs. This role translates regulatory, policy, and operational requirements into effective systems, rules, workflows, reporting, and automated controls. The analyst will partner closely with Bank Compliance, Financial Crimes Operations, Product, Engineering, Data, and other stakeholders to ensure Affirm Bank’s compliance technology remains reliable, scalable…",
     "hasDesc": true
   },
   {
@@ -45228,7 +46534,7 @@ window.JOBS_FINTECH = [
     "payMax": 205000,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Affirm’s International Compliance team designs and implements compliance programs that proactively address regulatory requirements while identifying and mitigating compliance risks. As a second line of defence function, Compliance partners closely with the business to support new products, markets, and strategic initiatives while strengthening controls and delivering strong consumer outcomes. As Regulatory Compliance Manager, Australia, you will lead the Australian regulatory compliance program. You will translate global…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. Affirm’s International Compliance team designs and implements compliance programs that proactively address regulatory requirements while identifying and mitigating compliance risks. As a second line of defence function, Compliance partners closely with the business to support new products, markets, and strategic initiatives while strengthening controls and delivering strong consumer outcomes. As Regulatory Compliance Manager, Australia, you will lead the Australian regulatory compliance program. You will translate…",
     "hasDesc": true
   },
   {
@@ -45256,7 +46562,7 @@ window.JOBS_FINTECH = [
       "Python"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. On the Underwriting ML team, you’ll build and improve machine learning systems that make real-time transaction decisions, assessing the repayment risk and expected value of every Affirm checkout. You’ll work closely with experienced ML engineers, platform partners, and cross-functional stakeholders to take models from idea to prototype to production, and to keep them healthy with strong measurement and monitoring as user behavior and macroeconomic conditions evolve. What you’ll do - You will develop and iterate on…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. On the Underwriting ML team, you’ll build and improve machine learning systems that make real-time transaction decisions, assessing the repayment risk and expected value of every Affirm checkout. You’ll work closely with experienced ML engineers, platform partners, and cross-functional stakeholders to take models from idea to prototype to production, and to keep them healthy with strong measurement and monitoring as user behavior and macroeconomic conditions evolve. What you’ll do - You will develop and iterate on…",
     "hasDesc": true
   },
   {
@@ -45283,7 +46589,7 @@ window.JOBS_FINTECH = [
     "permit": true,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Repayment UX team owns one of the most high-trust surfaces across Affirm’s products: the moment a customer pays us back. We’re a full-stack team based entirely in Europe within the same time zone, but culturally rooted in Silicon Valley. The user journeys we build and own reach more than 20 million people who together repay over $40B in loans each year. We are full-stack owners of the Manage tab within our mobile and web apps, where customers stay on top of their payment plans and make the payments. We are looking…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. The Repayment UX team owns one of the most high-trust surfaces across Affirm’s products: the moment a customer pays us back. We’re a full-stack team based entirely in Europe within the same time zone, but culturally rooted in Silicon Valley. The user journeys we build and own reach more than 20 million people who together repay over $40B in loans each year. We are full-stack owners of the Manage tab within our mobile and web apps, where customers stay on top of their payment plans and make the payments. We are…",
     "hasDesc": true
   },
   {
@@ -45309,7 +46615,7 @@ window.JOBS_FINTECH = [
     "payMax": 241300,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Engineering team builds systems that power Affirm’s mission. We take pride in our craft, building reliable, performant, and scalable solutions that touch every part of the business. Whether we’re enabling new ways to pay, ensuring our platforms can scale to the most demanding levels in the industry, or developing seamless servicing experiences, our focus is on solving complex problems through exceptional engineering. The International Accelerator Engineering team is growing, and we're looking for an Engineering…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. The Engineering team builds systems that power Affirm’s mission. We take pride in our craft, building reliable, performant, and scalable solutions that touch every part of the business. Whether we’re enabling new ways to pay, ensuring our platforms can scale to the most demanding levels in the industry, or developing seamless servicing experiences, our focus is on solving complex problems through exceptional engineering. The International Accelerator Engineering team is growing, and we're looking for an Engineering…",
     "hasDesc": true
   },
   {
@@ -45341,7 +46647,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. We are seeking a seasoned Engineering Manager to lead our Resilience Engineering team. This role is critical in ensuring the safety and reliability of our production systems through proactive validation techniques, including production load testing and chaos engineering. You will lead the development of systems and practices that allow engineers to safely test system behavior under stress and failure conditions in production, ensuring issues are discovered and mitigated before they impact real users. What you’ll do…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. We are seeking a seasoned Engineering Manager to lead our Resilience Engineering team. This role is critical in ensuring the safety and reliability of our production systems through proactive validation techniques, including production load testing and chaos engineering. You will lead the development of systems and practices that allow engineers to safely test system behavior under stress and failure conditions in production, ensuring issues are discovered and mitigated before they impact real users. What you’ll do…",
     "hasDesc": true
   },
   {
@@ -45370,7 +46676,7 @@ window.JOBS_FINTECH = [
       "SQL"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About Enterprise Risk & Internal Audit The Enterprise Risk & Internal Audit department protects Affirm’s operations and long-term success. We identify, assess, and monitor risk across the business. Our work includes internal audits, regulatory assurance, fraud prevention, and crisis planning. The team maintains strong controls, tracks key risk indicators, and ensures readiness for external reviews. We uphold accountability, transparency, and resilience to support responsible growth. About the Team We’re looking for an…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. About Enterprise Risk & Internal Audit The Enterprise Risk & Internal Audit department protects Affirm’s operations and long-term success. We identify, assess, and monitor risk across the business. Our work includes internal audits, regulatory assurance, fraud prevention, and crisis planning. The team maintains strong controls, tracks key risk indicators, and ensures readiness for external reviews. We uphold accountability, transparency, and resilience to support responsible growth. About the Team We’re looking for…",
     "hasDesc": true
   },
   {
@@ -45400,7 +46706,7 @@ window.JOBS_FINTECH = [
       "SQL"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. We’re looking for an intelligent, driven professional to join our Bank Model Risk Management (MRM) team. This team seeks to establish, maintain and oversee an effective MRM framework to identify, quantify, monitor, mitigate and report on model risk. You will have an outstanding opportunity to work cross-functionally to develop a profound understanding of models that drive critical business decisions, and add value to the Bank by mitigating risks due to ineffective model design or model misuse. What You'll Do • Full-Stack…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. We’re looking for an intelligent, driven professional to join our Bank Model Risk Management (MRM) team. This team seeks to establish, maintain and oversee an effective MRM framework to identify, quantify, monitor, mitigate and report on model risk. You will have an outstanding opportunity to work cross-functionally to develop a profound understanding of models that drive critical business decisions, and add value to the Bank by mitigating risks due to ineffective model design or model misuse. What You'll Do •…",
     "hasDesc": true
   },
   {
@@ -45431,7 +46737,7 @@ window.JOBS_FINTECH = [
       "AWS"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Affirm values security as being critical to the company’s continued success. Our mission is to cultivate a culture of security at Affirm, enabling the company to succeed in building honest financial products. The Security Risk Management team is evolving beyond traditional governance, risk, and compliance; we are building an engineering driven program that designs, automates, and scales the controls, workflows, and tooling that protect Affirm and our customers. The ideal candidate will design, develop, configure, and…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. Affirm values security as being critical to the company’s continued success. Our mission is to cultivate a culture of security at Affirm, enabling the company to succeed in building honest financial products. The Security Risk Management team is evolving beyond traditional governance, risk, and compliance; we are building an engineering driven program that designs, automates, and scales the controls, workflows, and tooling that protect Affirm and our customers. The ideal candidate will design, develop, configure…",
     "hasDesc": true
   },
   {
@@ -45461,7 +46767,7 @@ window.JOBS_FINTECH = [
       "AWS"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Affirm is building the next generation of customer identity and authentication. This role is a hands-on engineering position inside Information Security, focused on designing and shipping core CIAM capabilities that protect customers and support growth. You will build and operate backend services that power registration, login, authorization, and account lifecycle flows across B2C and B2B experiences. You will work closely with partner engineering teams and ensure identity features are delivered with strong security…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. Affirm is building the next generation of customer identity and authentication. This role is a hands-on engineering position inside Information Security, focused on designing and shipping core CIAM capabilities that protect customers and support growth. You will build and operate backend services that power registration, login, authorization, and account lifecycle flows across B2C and B2B experiences. You will work closely with partner engineering teams and ensure identity features are delivered with strong…",
     "hasDesc": true
   },
   {
@@ -45488,7 +46794,7 @@ window.JOBS_FINTECH = [
     "permit": true,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Enterprise Risk at Affirm looks different than it does at many financial institutions. The Enterprise Risk team helps the company understand and manage its most important risks. That includes core Enterprise Risk capabilities, as well as partnering with senior leaders to make thoughtful decisions about the risks we take in pursuit of our strategy. As our Senior Director, Enterprise Risk Strategy, you'll partner closely with leaders including across Product, Engineering, Finance, Legal, Compliance, Operations, and Credit…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. Enterprise Risk at Affirm looks different than it does at many financial institutions. The Enterprise Risk team helps the company understand and manage its most important risks. That includes core Enterprise Risk capabilities, as well as partnering with senior leaders to make thoughtful decisions about the risks we take in pursuit of our strategy. As our Senior Director, Enterprise Risk Strategy, you'll partner closely with leaders including across Product, Engineering, Finance, Legal, Compliance, Operations, and…",
     "hasDesc": true
   },
   {
@@ -45516,7 +46822,7 @@ window.JOBS_FINTECH = [
       "Figma"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Consumers across the globe need safe, transparent financing while merchants want to provide users with their preferred way to pay and convert more buyers. To help achieve this vision, we are hiring a Senior Product Manager for our 1:Many Growth team. Affirm's Distribution Partnerships program - internally called \"1:Many\" - is one of the highest-leverage growth levers at the company. Instead of integrating merchant by merchant, we integrate once into a platform merchants already use, and every merchant on that platform…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. Consumers across the globe need safe, transparent financing while merchants want to provide users with their preferred way to pay and convert more buyers. To help achieve this vision, we are hiring a Senior Product Manager for our 1:Many Growth team. Affirm's Distribution Partnerships program - internally called \"1:Many\" - is one of the highest-leverage growth levers at the company. Instead of integrating merchant by merchant, we integrate once into a platform merchants already use, and every merchant on that…",
     "hasDesc": true
   },
   {
@@ -45542,7 +46848,7 @@ window.JOBS_FINTECH = [
     "payMax": 255000,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Consumer Servicing team owns the ways customers get help at Affirm — including chat, phone, self-service flows, and the internal tools our agents rely on to deliver fast, empathetic, and effective support. We sit at the intersection of customer experience, operational excellence, and AI-driven transformation. We’re looking for a Senior Product Manager to join our Agent Enablement pod: the team responsible for the tools, workflows, and AI-powered capabilities that help our agents support millions of customers with…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. The Consumer Servicing team owns the ways customers get help at Affirm — including chat, phone, self-service flows, and the internal tools our agents rely on to deliver fast, empathetic, and effective support. We sit at the intersection of customer experience, operational excellence, and AI-driven transformation. We’re looking for a Senior Product Manager to join our Agent Enablement pod: the team responsible for the tools, workflows, and AI-powered capabilities that help our agents support millions of customers…",
     "hasDesc": true
   },
   {
@@ -45568,7 +46874,7 @@ window.JOBS_FINTECH = [
     "payMax": 213000,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About the Product team The Product team listens to our customers’ needs and translates those insights into a clear product vision. The team works closely with design, engineering, and analytics to build scalable financial products that empower people to manage their money with confidence. We rely on empathy, curiosity, and business sense to prioritize features and improve experiences. Our role is to lead with clarity, support cross-functional execution, and champion the user in every decision. About the role We’re…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. About the Product team The Product team listens to our customers’ needs and translates those insights into a clear product vision. The team works closely with design, engineering, and analytics to build scalable financial products that empower people to manage their money with confidence. We rely on empathy, curiosity, and business sense to prioritize features and improve experiences. Our role is to lead with clarity, support cross-functional execution, and champion the user in every decision. About the role We’re…",
     "hasDesc": true
   },
   {
@@ -45600,7 +46906,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Site Reliability Engineering at Affirm is a small, yet crucial, team that helps our Engineering partners to “Operate What They Own” with excellence to protect their customers’ experience. SRE accomplishes this through defining frameworks and best practices for operating applications, building tooling, and providing training and consulting. Some of the many SRE responsibilities are: • Providing data and visibility to teams and leadership on application performance • Guiding the development of SLOs • Driving the Incident…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. Site Reliability Engineering at Affirm is a small, yet crucial, team that helps our Engineering partners to “Operate What They Own” with excellence to protect their customers’ experience. SRE accomplishes this through defining frameworks and best practices for operating applications, building tooling, and providing training and consulting. Some of the many SRE responsibilities are: • Providing data and visibility to teams and leadership on application performance • Guiding the development of SLOs • Driving the…",
     "hasDesc": true
   },
   {
@@ -45631,7 +46937,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The vision for the Batch Infra team @ Affirm team is to provide reliable, scalable, self-serve and Affirm-optimized compute solution to enable ML, Product, and Financial Engineering success. Our team is responsible for building and maintaining compute platform that serves as a backbone for processing various Business critical batch workloads at Affirm through a wide suite of scheduled and on-demand compute solutions built on the cloud. Affirm is growing rapidly and so is the need for reliable and high availability…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. The vision for the Batch Infra team @ Affirm team is to provide reliable, scalable, self-serve and Affirm-optimized compute solution to enable ML, Product, and Financial Engineering success. Our team is responsible for building and maintaining compute platform that serves as a backbone for processing various Business critical batch workloads at Affirm through a wide suite of scheduled and on-demand compute solutions built on the cloud. Affirm is growing rapidly and so is the need for reliable and high availability…",
     "hasDesc": true
   },
   {
@@ -45663,7 +46969,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Affirm is seeking a Senior Software Engineer to join the Card Acquisition team within the Consumer org. The team plays a critical role in shaping the first experience customers have with Affirm—building trust, clarity, and value from the very first interaction. As a Senior Engineer, you will be responsible for defining long-term technical strategy, mentoring senior engineers, and acting as a force multiplier through your technical depth, operational excellence, and ability to navigate ambiguity. You'll work at the…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. Affirm is seeking a Senior Software Engineer to join the Card Acquisition team within the Consumer org. The team plays a critical role in shaping the first experience customers have with Affirm—building trust, clarity, and value from the very first interaction. As a Senior Engineer, you will be responsible for defining long-term technical strategy, mentoring senior engineers, and acting as a force multiplier through your technical depth, operational excellence, and ability to navigate ambiguity. You'll work at the…",
     "hasDesc": true
   },
   {
@@ -45694,7 +47000,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Engineering team builds systems that power Affirm’s mission. We take pride in our craft, building reliable, performant, and scalable solutions that touch every part of the business. Whether we’re enabling new ways to pay, ensuring our platforms can scale to the most demanding levels in the industry, or developing seamless servicing experiences, our focus is on solving complex problems through exceptional engineering. The Trust Infra team elevates the security posture of our infrastructure and services by embedding…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. The Engineering team builds systems that power Affirm’s mission. We take pride in our craft, building reliable, performant, and scalable solutions that touch every part of the business. Whether we’re enabling new ways to pay, ensuring our platforms can scale to the most demanding levels in the industry, or developing seamless servicing experiences, our focus is on solving complex problems through exceptional engineering. The Trust Infra team elevates the security posture of our infrastructure and services by…",
     "hasDesc": true
   },
   {
@@ -45724,7 +47030,7 @@ window.JOBS_FINTECH = [
       "Docker"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Data and Storage Services team is responsible for Affirm's data infrastructure across OLTP and OLAP systems, spanning critical online checkout databases, batch orchestration, streaming infrastructure, event-driven frameworks, BI, analytics tooling, large-scale data platforms, and agentic data tools such as semantic layers and internal platform data applications. Our mission is to provide trustworthy, intuitive, and cost-efficient solutions for Affirmers to secure, store, analyze, and transform data at exceptional…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. The Data and Storage Services team is responsible for Affirm's data infrastructure across OLTP and OLAP systems, spanning critical online checkout databases, batch orchestration, streaming infrastructure, event-driven frameworks, BI, analytics tooling, large-scale data platforms, and agentic data tools such as semantic layers and internal platform data applications. Our mission is to provide trustworthy, intuitive, and cost-efficient solutions for Affirmers to secure, store, analyze, and transform data at…",
     "hasDesc": true
   },
   {
@@ -45755,7 +47061,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About the Engineering team The Engineering team builds systems that power Affirm’s mission. We take pride in our craft, building reliable, performant, and scalable solutions that touch every part of the business. Whether we’re enabling new ways to pay, ensuring our platforms can scale to the most demanding levels in the industry, or developing seamless servicing experiences, our focus is on solving complex problems through exceptional engineering. About the team As part of the Consumer Payments team at Affirm, you'll be…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. About the Engineering team The Engineering team builds systems that power Affirm’s mission. We take pride in our craft, building reliable, performant, and scalable solutions that touch every part of the business. Whether we’re enabling new ways to pay, ensuring our platforms can scale to the most demanding levels in the industry, or developing seamless servicing experiences, our focus is on solving complex problems through exceptional engineering. About the team As part of the Consumer Payments team at Affirm…",
     "hasDesc": true
   },
   {
@@ -45786,7 +47092,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Engineering team builds systems that power Affirm’s mission. We take pride in our craft, building reliable, performant, and scalable solutions that touch every part of the business. Whether we’re enabling new ways to pay, ensuring our platforms can scale to the most demanding levels in the industry, or developing seamless servicing experiences, our focus is on solving complex problems through exceptional engineering. The Powered by Affirm (PBA) team builds the APIs and solutions that power all of Affirm’s…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. The Engineering team builds systems that power Affirm’s mission. We take pride in our craft, building reliable, performant, and scalable solutions that touch every part of the business. Whether we’re enabling new ways to pay, ensuring our platforms can scale to the most demanding levels in the industry, or developing seamless servicing experiences, our focus is on solving complex problems through exceptional engineering. The Powered by Affirm (PBA) team builds the APIs and solutions that power all of Affirm’s…",
     "hasDesc": true
   },
   {
@@ -45817,7 +47123,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. We’re looking for a Software Engineer to design and build a next-generation reliability platform for Affirm’s production systems. You’ll blend traditional distributed systems engineering with AI-assisted development to give teams a single place to understand, debug, and improve the health of their services. This is a highly creative, hands-on role for…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. We’re looking for a Software Engineer to design and build a next-generation reliability platform for Affirm’s production systems. You’ll blend traditional distributed systems engineering with AI-assisted development to give teams a single place to understand, debug, and improve the health of their services. This is a highly creative, hands-on…",
     "hasDesc": true
   },
   {
@@ -45848,7 +47154,7 @@ window.JOBS_FINTECH = [
       "AWS"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Affirm is seeking a Senior Full Stack Software Engineer to join the Acquisition & Onboarding team within the Consumer org. This is a high-impact leadership role for an engineer who can set technical direction, drive architectural decisions, and elevate the quality and velocity of full stack development across mobile, web, and backend systems. The team…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Affirm is seeking a Senior Full Stack Software Engineer to join the Acquisition & Onboarding team within the Consumer org. This is a high-impact leadership role for an engineer who can set technical direction, drive architectural decisions, and elevate the quality and velocity of full stack development across mobile, web, and backend systems.…",
     "hasDesc": true
   },
   {
@@ -45881,7 +47187,7 @@ window.JOBS_FINTECH = [
       "AWS"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Consumer Growth Experience Engineering (CGX) builds the platforms and end-to-end experiences that power Affirm’s consumer growth across push, email, app, and web. We own the core engagement surfaces and systems that help customers discover value, onboard seamlessly, and take confident next steps by using personalization, segmentation, and experimentation to deliver the right experience at the right moment. Our work sits at the intersection of product, analytics, design, platform, and growth. We focus on building…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. Consumer Growth Experience Engineering (CGX) builds the platforms and end-to-end experiences that power Affirm’s consumer growth across push, email, app, and web. We own the core engagement surfaces and systems that help customers discover value, onboard seamlessly, and take confident next steps by using personalization, segmentation, and experimentation to deliver the right experience at the right moment. Our work sits at the intersection of product, analytics, design, platform, and growth. We focus on building…",
     "hasDesc": true
   },
   {
@@ -45909,7 +47215,7 @@ window.JOBS_FINTECH = [
       "TypeScript"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Affirm is looking for a Senior Staff Software Engineer to take on a critical role in defining and leading web platform and infrastructure across all web engineering. You'll shape best practices, lead architectural choices, and drive the successful delivery of critical initiatives. This role requires a high level of technical ability and leadership, and experience with advancing and improving design systems, application architecture, CI/CD, observability, performance, and AI tooling for complex, mission critical web…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. Affirm is looking for a Senior Staff Software Engineer to take on a critical role in defining and leading web platform and infrastructure across all web engineering. You'll shape best practices, lead architectural choices, and drive the successful delivery of critical initiatives. This role requires a high level of technical ability and leadership, and experience with advancing and improving design systems, application architecture, CI/CD, observability, performance, and AI tooling for complex, mission critical web…",
     "hasDesc": true
   },
   {
@@ -45940,7 +47246,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Affirm Card is one of the company’s fastest-growing products and an increasingly significant contributor to overall platform GMV. Our team builds and operates the systems behind every card issued at Affirm and every transaction processed across Affirm’s card products, including the Affirm Card and one-time virtual cards. We own the core issuing and processing infrastructure powering authorization, transaction processing, account and card lifecycle management, tokenization, and platform security. As Affirm continues…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. The Affirm Card is one of the company’s fastest-growing products and an increasingly significant contributor to overall platform GMV. Our team builds and operates the systems behind every card issued at Affirm and every transaction processed across Affirm’s card products, including the Affirm Card and one-time virtual cards. We own the core issuing and processing infrastructure powering authorization, transaction processing, account and card lifecycle management, tokenization, and platform security. As Affirm…",
     "hasDesc": true
   },
   {
@@ -45971,7 +47277,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Collections team, as part of the Repayments area, is on a mission to build a robust platform that will maximize the recovery of delinquent users by sending the right message to the right people at the right time, while monitoring and detecting problems and ensuring high reliability of the engineering systems. Collaborating closely with our product managers, backbook risk teams and other engineering teams , you will effectively manage loans throughout the delinquency phase of their lifecycle and develop and implement…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. The Collections team, as part of the Repayments area, is on a mission to build a robust platform that will maximize the recovery of delinquent users by sending the right message to the right people at the right time, while monitoring and detecting problems and ensuring high reliability of the engineering systems. Collaborating closely with our product managers, backbook risk teams and other engineering teams , you will effectively manage loans throughout the delinquency phase of their lifecycle and develop and…",
     "hasDesc": true
   },
   {
@@ -46002,7 +47308,7 @@ window.JOBS_FINTECH = [
       "AWS"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. We are looking for a highly motivated Software Engineer in our Furnishing Platform team to build scalable systems and data pipelines to power our consumer credit reporting. You will partner closely with our Product, Compliance, Servicing, and Credit teams to design robust reporting systems. The systems you will work on are vital for delivering accurate and timely data from Affirm’s financial product portfolio to Consumer Reporting Agencies. Affirm is growing fast and we want you to enable us to scale our products to 10x…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. We are looking for a highly motivated Software Engineer in our Furnishing Platform team to build scalable systems and data pipelines to power our consumer credit reporting. You will partner closely with our Product, Compliance, Servicing, and Credit teams to design robust reporting systems. The systems you will work on are vital for delivering accurate and timely data from Affirm’s financial product portfolio to Consumer Reporting Agencies. Affirm is growing fast and we want you to enable us to scale our products…",
     "hasDesc": true
   },
   {
@@ -46033,7 +47339,7 @@ window.JOBS_FINTECH = [
       "Docker"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. We are seeking a highly motivated Software Engineer II with strong experience in test automation to contribute to Developer Productivity, with a focus on Test Platform Engineering. The Test Infra team empowers developers to efficiently write, run, analyze, and maintain automated tests. The team’s goals include expanding testing capabilities; building…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. We are seeking a highly motivated Software Engineer II with strong experience in test automation to contribute to Developer Productivity, with a focus on Test Platform Engineering. The Test Infra team empowers developers to efficiently write, run, analyze, and maintain automated tests. The team’s goals include expanding testing capabilities…",
     "hasDesc": true
   },
   {
@@ -46059,7 +47365,7 @@ window.JOBS_FINTECH = [
     "payMax": 255000,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. The Direct-to-Consumer (DTC) team plays a pivotal role in Affirm’s mission, building products that establish direct and lasting relationships with our customers. Our App and Card experiences empower people with transparent financing options wherever they need them, helping them make informed financial decisions with confidence. As a Staff Product Designer, you will have the opportunity to shape the future of consumer finance at a critical inflection point in Affirm’s journey. This is one of the most impactful product…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. The Direct-to-Consumer (DTC) team plays a pivotal role in Affirm’s mission, building products that establish direct and lasting relationships with our customers. Our App and Card experiences empower people with transparent financing options wherever they need them, helping them make informed financial decisions with confidence. As a Staff Product Designer, you will have the opportunity to shape the future of consumer finance at a critical inflection point in Affirm’s journey. This is one of the most impactful…",
     "hasDesc": true
   },
   {
@@ -46085,7 +47391,7 @@ window.JOBS_FINTECH = [
     "payMax": 255000,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About the team Product Design at Affirm drives business success by exceeding user expectations. We are a collaborative, agile team that continues to strive for greater solutions. We partner closely with Product, Engineering, and Analytics to translate complex user needs into simple, intuitive, and scalable product experiences. We rely on empathy, design craft, and systems thinking to champion the user in every decision, ensuring our products empower people to manage their money with confidence. About the role We are…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. About the team Product Design at Affirm drives business success by exceeding user expectations. We are a collaborative, agile team that continues to strive for greater solutions. We partner closely with Product, Engineering, and Analytics to translate complex user needs into simple, intuitive, and scalable product experiences. We rely on empathy, design craft, and systems thinking to champion the user in every decision, ensuring our products empower people to manage their money with confidence. About the role We…",
     "hasDesc": true
   },
   {
@@ -46111,7 +47417,7 @@ window.JOBS_FINTECH = [
     "payMax": 290000,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Affirm is building its own bank — and this role sits at the center of that ambition. We’re looking for a Staff Product Manager who has shipped a consumer-facing deposit or fintech product to market. You’ll own the end-to-end bank product: launching the deposit product to consumers, operationalizing a new bank charter within Affirm’s ecosystem, driving loan originations through the bank entity, and ensuring seamless integration across Affirm’s platform. This is a rare opportunity to build a foundational new business line…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. Affirm is building its own bank — and this role sits at the center of that ambition. We’re looking for a Staff Product Manager who has shipped a consumer-facing deposit or fintech product to market. You’ll own the end-to-end bank product: launching the deposit product to consumers, operationalizing a new bank charter within Affirm’s ecosystem, driving loan originations through the bank entity, and ensuring seamless integration across Affirm’s platform. This is a rare opportunity to build a foundational new business…",
     "hasDesc": true
   },
   {
@@ -46137,7 +47443,7 @@ window.JOBS_FINTECH = [
     "payMax": 290000,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. As a Staff Product Manager on our Consumer team, you’ll help define how millions of consumers experience Affirm across our mobile apps, web experiences, and future consumer surfaces. As the Staff Product Manager, App Platform & Experience, you will own the foundational systems, frameworks, and experiences that make Affirm intuitive, cohesive, and scalable. You will define the experience architecture that enables teams across the company to deliver consistent, high-quality consumer experiences while maintaining a clear…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. As a Staff Product Manager on our Consumer team, you’ll help define how millions of consumers experience Affirm across our mobile apps, web experiences, and future consumer surfaces. As the Staff Product Manager, App Platform & Experience, you will own the foundational systems, frameworks, and experiences that make Affirm intuitive, cohesive, and scalable. You will define the experience architecture that enables teams across the company to deliver consistent, high-quality consumer experiences while maintaining a…",
     "hasDesc": true
   },
   {
@@ -46168,7 +47474,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Affirm is seeking a Staff Full Stack Software Engineer to join the Acquisition & Onboarding team within the Consumer org. This is a high-impact leadership role for an engineer who can set technical direction, drive architectural decisions, and elevate the quality and velocity of full stack development across mobile, web, and backend systems. The team plays a critical role in shaping the first experience customers have with Affirm—building trust, clarity, and value from the very first interaction. As a Staff Engineer, you…",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. Affirm is seeking a Staff Full Stack Software Engineer to join the Acquisition & Onboarding team within the Consumer org. This is a high-impact leadership role for an engineer who can set technical direction, drive architectural decisions, and elevate the quality and velocity of full stack development across mobile, web, and backend systems. The team plays a critical role in shaping the first experience customers have with Affirm—building trust, clarity, and value from the very first interaction. As a Staff…",
     "hasDesc": true
   },
   {
@@ -46330,7 +47636,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -46361,7 +47667,7 @@ window.JOBS_FINTECH = [
       "Swift"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -46902,7 +48208,38 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-form3-8691081002",
+    "title": "Senior Software Engineer (Go)",
+    "company": "Form3",
+    "locations": [
+      "100%"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "€ 90 000 – 140 000",
+    "posted": "2026-08-10",
+    "url": "https://www.form3.tech/careers/vacancies/8691081002?gh_jid=8691081002",
+    "site": "form3.tech",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "payMin": 97200,
+    "payMax": 151200,
+    "stack": [
+      "Go",
+      "Java",
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "THE ROLE 📝 As a Senior Software Engineer at Form3, you’ll work on established, high-volume services that sit at the heart of Form3’s cloud-native payment platform. These are critical systems where reliability, resilience and operational excellence matter every single day. This is a role for engineers who enjoy evolving critical systems at scale. You’ll be working on mature, high-volume services where thoughtful design, careful testing, operational discipline and reliability are just as important as delivering new capability. You’ll solve complex engineering challenges across services that support real-time payment flows, high availability, fault tolerance, security and performance within a…",
     "hasDesc": true
   },
   {
@@ -47033,54 +48370,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4939721101",
-    "title": "Business Developer",
-    "company": "Ebury",
-    "locations": [
-      "Amsterdam"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-10",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4939721101",
-    "site": "ebury.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Business Developer Ebury Amsterdam - 4 days in the office, 1 day home office Launch Your FinTech Career as a Graduate Business Developer at Ebury in our dynamic Amsterdam team. Kickstart a meaningful sales career in the world…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-ebury-4944658101",
-    "title": "Business Developer - FX Financial Solutions",
-    "company": "Ebury",
-    "locations": [
-      "Zurich"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-10",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4944658101",
-    "site": "ebury.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Business Developer - FX Financial Solutions Ebury Zurich - Office based Launch Your FinTech Career as a Graduate Business Developer at Ebury in our dynamic Zurich team. Kickstart a meaningful sales career in the world of…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-ebury-4920900101",
     "title": "Business Developer (FX Financial Solutions)",
     "company": "Ebury",
@@ -47201,33 +48490,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4934339101",
-    "title": "Data Analyst II - Treasury",
-    "company": "Ebury",
-    "locations": [
-      "Madrid"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-10",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4934339101",
-    "site": "ebury.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Данные и ML",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Python",
-      "SQL"
-    ],
-    "seen": "2026-09-10",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Data Analyst - Treasury Location: Málaga or Madrid (Spain) - Hybrid: 4 days in the office, 1 day working from home per week Ebury’s strategic growth plan would not be possible without our Data Analytics & Reporting team and…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-ebury-4935600101",
     "title": "Engineering Manager (Ebury Web Platform)",
     "company": "Ebury",
@@ -47326,17 +48588,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4920294101",
+    "id": "gh-ebury-4914694101",
     "title": "Group Head of Sanctions and Exports Controls",
     "company": "Ebury",
     "locations": [
-      "Madrid"
+      "London"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-10",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4920294101",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4914694101",
     "site": "ebury.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -48127,7 +49389,7 @@ window.JOBS_FINTECH = [
   },
   {
     "id": "ab-wayflyer-0f539d8d-c5ef-4334-b979-2e20275d4f7c",
-    "title": "Broker Account Manager",
+    "title": "Broker Relationship Manager",
     "company": "Wayflyer",
     "locations": [
       "Charlotte, North Carolina"
@@ -48170,7 +49432,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -48232,17 +49494,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7736921003",
+    "id": "gh-okx-7736920003",
     "title": "Principal / Staff Engineer - Compliance",
     "company": "OKX",
     "locations": [
-      "Hong Kong, Hong Kong SAR"
+      "Hong Kong, Hong Kong SAR",
+      "Singapore"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-09",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7736921003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7736920003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -48250,10 +49513,11 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": "Lead",
     "spec": "Комплаенс",
-    "permit": true,
-    "stack": [],
+    "stack": [
+      "Java"
+    ],
     "seen": "2026-09-10",
-    "descShort": "Utilize the link below to copy and paste your new JD from: [Make a Copy] OKX Job Description OR Use the Template Below: OKX will be prioritising applicants who have a current right to work in Hong Kong, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across…",
+    "descShort": "Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things Done. These shared values drive our culture, shape our processes, and foster a friendly, rewarding, and diverse environment for every…",
     "hasDesc": true
   },
   {
@@ -49028,32 +50292,8 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7777138003",
+    "id": "gh-okx-7777137003",
     "title": "Engineering Director, Mobile (iOS/Android)",
-    "company": "OKX",
-    "locations": [
-      "Hong Kong, Hong Kong SAR"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-07",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7777138003",
-    "site": "okx.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Крипта",
-    "role": "Программирование",
-    "grade": "Lead",
-    "spec": "Мобильная",
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "Please note that Hong Kong is a group-level service hub, and OKX does not carry on a business of operating a virtual asset trading platform in Hong Kong. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-okx-7778747003",
-    "title": "Engineering Director, Mobile, Web3",
     "company": "OKX",
     "locations": [
       "Singapore"
@@ -49062,7 +50302,32 @@ window.JOBS_FINTECH = [
     "rkind": null,
     "salary": null,
     "posted": "2026-08-07",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7778747003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7777137003",
+    "site": "okx.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": "Мобильная",
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "OKX will be prioritising applicants who have a current right to work in Singapore, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-okx-7778748003",
+    "title": "Engineering Director, Mobile, Web3",
+    "company": "OKX",
+    "locations": [
+      "Hong Kong, Hong Kong SAR"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-07",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7778748003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -49073,7 +50338,7 @@ window.JOBS_FINTECH = [
     "permit": true,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "OKX will be prioritising applicants who have a current right to work in Singapore, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
+    "descShort": "OKX will be prioritising applicants who have a current right to work in Hong Kong, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
     "hasDesc": true
   },
   {
@@ -49223,17 +50488,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7741364003",
+    "id": "gh-okx-7741363003",
     "title": "Head of Communications and PR, APAC",
     "company": "OKX",
     "locations": [
-      "Hong Kong, Hong Kong SAR"
+      "Singapore"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-07",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7741364003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7741363003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -49326,18 +50591,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-6690158003",
+    "id": "gh-okx-7671555003",
     "title": "Principal AI Engineer, AI Agent Development",
     "company": "OKX",
     "locations": [
-      "Hong Kong, Hong Kong SAR",
-      "Singapore"
+      "APAC"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-07",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/6690158003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7671555003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -49345,25 +50609,23 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": "Lead",
     "spec": null,
-    "permit": true,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "OKX will be prioritising applicants who have a current right to work in Singapore, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
+    "descShort": "Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things Done. These shared values drive our culture, shape our processes, and foster a friendly, rewarding, and diverse environment for every…",
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7648781003",
+    "id": "gh-okx-7650506003",
     "title": "Principal AI Engineer, Chatbot Development",
     "company": "OKX",
     "locations": [
-      "Hong Kong, Hong Kong SAR",
-      "Singapore"
+      "San Jose, United States"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-08-07",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7648781003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7650506003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -49371,10 +50633,9 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": "Lead",
     "spec": null,
-    "permit": true,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "OKX will be prioritising applicants who have a current right to work in Singapore, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
+    "descShort": "Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things Done. These shared values drive our culture, shape our processes, and foster a friendly, rewarding, and diverse environment for every…",
     "hasDesc": true
   },
   {
@@ -49398,6 +50659,30 @@ window.JOBS_FINTECH = [
     "spec": null,
     "payMin": 200355,
     "payMax": 300533,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things Done. These shared values drive our culture, shape our processes, and foster a friendly, rewarding, and diverse environment for every…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-okx-7671576003",
+    "title": "Principal Engineer, Agent Infrastructure & Memory Architecture",
+    "company": "OKX",
+    "locations": [
+      "APAC"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-07",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7671576003",
+    "site": "okx.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": "DevOps",
     "stack": [],
     "seen": "2026-09-10",
     "descShort": "Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things Done. These shared values drive our culture, shape our processes, and foster a friendly, rewarding, and diverse environment for every…",
@@ -49709,32 +50994,6 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-10",
     "descShort": "ABOUT AIRWALLEX Airwallex is the only unified payments and financial platform for global businesses. Powered by our unique combination of proprietary infrastructure and software, we empower over 250,000 businesses worldwide – including Brex, Navan, Qantas, SHEIN and many more – with fully integrated solutions to manage everything from business accounts, payments, spend management and treasury, to embedded finance at a global scale. Proudly founded in Melbourne, we have a team of over 2,300 of the brightest and most innovative people in tech across 27 offices around the globe. Valued at US$11 billion and backed by world-leading investors including T. Rowe Price, Visa, Mastercard, Robinhood…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-coinbase-8049976",
-    "title": "Risk & Monitoring Analyst IV",
-    "company": "Coinbase",
-    "locations": [
-      "United Kingdom"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": "£ 55 620 – 61 800",
-    "posted": "2026-08-06",
-    "url": "https://www.coinbase.com/careers/positions/8049976?gh_jid=8049976",
-    "site": "coinbase.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Крипта",
-    "role": "Риски",
-    "grade": null,
-    "spec": null,
-    "payMin": 70637,
-    "payMax": 78486,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "Ready to do the most impactful work of your career? At Coinbase, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase. As a Risk & Monitoring Analyst IV on the Operational Risk and Controls (ORC) team within Global…",
     "hasDesc": true
   },
   {
@@ -50136,7 +51395,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -50163,7 +51422,7 @@ window.JOBS_FINTECH = [
       "SQL"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -50350,17 +51609,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-n26-7996996",
+    "id": "gh-n26-7996650",
     "title": "Senior Product Manager - Operations Automation & Enablement (OAE)",
     "company": "N26",
     "locations": [
-      "Barcelona"
+      "Berlin"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-05",
-    "url": "https://n26.com/en-eu/careers/positions/7996996?gh_jid=7996996",
+    "url": "https://n26.com/en-eu/careers/positions/7996650?gh_jid=7996650",
     "site": "n26.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -50583,30 +51842,6 @@ window.JOBS_FINTECH = [
     "kind": "Платежи",
     "role": "Маркетинг",
     "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "ABOUT AIRWALLEX Airwallex is the only unified payments and financial platform for global businesses. Powered by our unique combination of proprietary infrastructure and software, we empower over 250,000 businesses worldwide – including Brex, Navan, Qantas, SHEIN and many more – with fully integrated solutions to manage everything from business accounts, payments, spend management and treasury, to embedded finance at a global scale. Proudly founded in Melbourne, we have a team of over 2,300 of the brightest and most innovative people in tech across 27 offices around the globe. Valued at US$11 billion and backed by world-leading investors including T. Rowe Price, Visa, Mastercard, Robinhood…",
-    "hasDesc": true
-  },
-  {
-    "id": "ab-airwallex-70d60f34-360a-46dc-b23a-1654d24a482a",
-    "title": "Senior Compliance Manager & MLRO, Japan",
-    "company": "Airwallex",
-    "locations": [
-      "Tokyo"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-05",
-    "url": "https://jobs.ashbyhq.com/airwallex/70d60f34-360a-46dc-b23a-1654d24a482a",
-    "source": "ashby",
-    "site": "airwallex.com",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Комплаенс",
-    "grade": "Senior",
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
@@ -50948,7 +52183,7 @@ window.JOBS_FINTECH = [
       "AWS"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -51031,58 +52266,6 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-10",
     "descShort": "London (Old Street) Full-time In office 4 days/week Why This Role • Modulr is becoming a genuinely AI-forward business. We want to be early adopters of the automation and tooling that make a focused team far more effective, and marketing operations is where much of that gets designed and built. • The function sits within marketing, so your attention stays on marketing’s systems and priorities, working closely with RevOps and our internal technology team rather than being spread thin across every part of the go-to-market org. • This is a hands-on build. You will be in the systems yourself, designing and shipping the infrastructure the whole team runs on. Who we are Modulr is the payments…",
-    "hasDesc": true
-  },
-  {
-    "id": "ab-airwallex-d93e16f2-fea9-458b-a842-6e10b2fa2bdd",
-    "title": "Solutions Architect - Payments",
-    "company": "Airwallex",
-    "locations": [
-      "Sydney"
-    ],
-    "remote": true,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-04",
-    "url": "https://jobs.ashbyhq.com/airwallex/d93e16f2-fea9-458b-a842-6e10b2fa2bdd",
-    "source": "ashby",
-    "site": "airwallex.com",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "Платежи",
-    "stack": [
-      "Python",
-      "Java",
-      "JavaScript"
-    ],
-    "seen": "2026-09-10",
-    "descShort": "ABOUT AIRWALLEX Airwallex is the only unified payments and financial platform for global businesses. Powered by our unique combination of proprietary infrastructure and software, we empower over 250,000 businesses worldwide – including Brex, Navan, Qantas, SHEIN and many more – with fully integrated solutions to manage everything from business accounts, payments, spend management and treasury, to embedded finance at a global scale. Proudly founded in Melbourne, we have a team of over 2,300 of the brightest and most innovative people in tech across 27 offices around the globe. Valued at US$11 billion and backed by world-leading investors including T. Rowe Price, Visa, Mastercard, Robinhood…",
-    "hasDesc": true
-  },
-  {
-    "id": "ab-airwallex-4e664854-06c6-41ef-a66b-7cbd7c67c534",
-    "title": "Senior Manager, Performance Marketing",
-    "company": "Airwallex",
-    "locations": [
-      "Singapore"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-04",
-    "url": "https://jobs.ashbyhq.com/airwallex/4e664854-06c6-41ef-a66b-7cbd7c67c534",
-    "source": "ashby",
-    "site": "airwallex.com",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Маркетинг",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-10",
-    "descShort": "ABOUT AIRWALLEX Airwallex is the only unified payments and financial platform for global businesses. Powered by our unique combination of proprietary infrastructure and software, we empower over 250,000 businesses worldwide – including Brex, Navan, Qantas, SHEIN and many more – with fully integrated solutions to manage everything from business accounts, payments, spend management and treasury, to embedded finance at a global scale. Proudly founded in Melbourne, we have a team of over 2,300 of the brightest and most innovative people in tech across 27 offices around the globe. Valued at US$11 billion and backed by world-leading investors including T. Rowe Price, Visa, Mastercard, Robinhood…",
     "hasDesc": true
   },
   {
@@ -51279,17 +52462,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-block-5366281008",
+    "id": "gh-block-5366284008",
     "title": "Staff Product Data Scientist, Lending",
     "company": "Block",
     "locations": [
-      "New York, United States"
+      "San Francisco, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-04",
-    "url": "http://block.xyz/careers/jobs/5366281008?gh_jid=5366281008",
+    "url": "http://block.xyz/careers/jobs/5366284008?gh_jid=5366284008",
     "site": "block.xyz",
     "source": "greenhouse",
     "industry": "fintech",
@@ -51455,7 +52638,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -51487,7 +52670,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -52152,17 +53335,17 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-block-5181749008",
+    "id": "gh-block-5182994008",
     "title": "Senior Site Reliability Engineer",
     "company": "Block",
     "locations": [
-      "Bay Area, United States"
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-03",
-    "url": "http://block.xyz/careers/jobs/5181749008?gh_jid=5181749008",
+    "url": "http://block.xyz/careers/jobs/5182994008?gh_jid=5182994008",
     "site": "block.xyz",
     "source": "greenhouse",
     "industry": "fintech",
@@ -52181,17 +53364,43 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-block-5216603008",
-    "title": "Staff Machine Learning Engineer, Credit Products (Square Financial Services)",
+    "id": "gh-block-5238423008",
+    "title": "Staff Android Software Engineer, Cash App Consumer Platform",
     "company": "Block",
     "locations": [
-      "Bay Area, United States"
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-03",
-    "url": "http://block.xyz/careers/jobs/5216603008?gh_jid=5216603008",
+    "url": "http://block.xyz/careers/jobs/5238423008?gh_jid=5238423008",
+    "site": "block.xyz",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Мобильная",
+    "stack": [
+      "Kotlin"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible. Today, Cash App has thousands of employees working globally across office and remote locations, with a culture geared toward innovation, collaboration and impact. We've been a distributed team…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-block-5216800008",
+    "title": "Staff Machine Learning Engineer, Credit Products (Square Financial Services)",
+    "company": "Block",
+    "locations": [
+      "Seattle, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-03",
+    "url": "http://block.xyz/careers/jobs/5216800008?gh_jid=5216800008",
     "site": "block.xyz",
     "source": "greenhouse",
     "industry": "fintech",
@@ -52476,7 +53685,7 @@ window.JOBS_FINTECH = [
       "Python"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -52612,7 +53821,7 @@ window.JOBS_FINTECH = [
       "AWS"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -52639,7 +53848,7 @@ window.JOBS_FINTECH = [
       "SQL"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -52769,6 +53978,32 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-10",
     "descShort": "Ready to do the most impactful work of your career? At Coinbase, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase. The CX Intelligence team is part of Coinbase’s Enterprise Applications and Architecture org and builds…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-coinbase-7774051",
+    "title": "Risk Manager - Country & Operational Risk",
+    "company": "Coinbase",
+    "locations": [
+      "United Kingdom"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "£ 95 490 – 106 100",
+    "posted": "2026-07-30",
+    "url": "https://www.coinbase.com/careers/positions/7774051?gh_jid=7774051",
+    "site": "coinbase.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Риски",
+    "grade": null,
+    "spec": null,
+    "payMin": 121272,
+    "payMax": 134747,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Ready to do the most impactful work of your career? At Coinbase, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase. CB Payments, Ltd (CBPL) is Coinbase’s UK‑incorporated electronic money institution, authorised and…",
     "hasDesc": true
   },
   {
@@ -54149,7 +55384,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -54173,7 +55408,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -55621,7 +56856,7 @@ window.JOBS_FINTECH = [
       "AWS"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -55647,7 +56882,7 @@ window.JOBS_FINTECH = [
       "AWS"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -55674,7 +56909,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -55699,7 +56934,7 @@ window.JOBS_FINTECH = [
     "permit": true,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -55728,7 +56963,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -55756,7 +56991,7 @@ window.JOBS_FINTECH = [
       "Python"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -55783,7 +57018,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -55807,7 +57042,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -55836,7 +57071,7 @@ window.JOBS_FINTECH = [
       "SQL"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -55860,7 +57095,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -55888,7 +57123,7 @@ window.JOBS_FINTECH = [
       "AWS"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -55915,12 +57150,12 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
     "id": "ab-nubank-3b43d8cc-494e-4e74-9426-fb869796de10",
-    "title": "Staff Security Engineer (IAM) - BR - 2026",
+    "title": "Staff Security Engineer (IAM)",
     "company": "Nubank",
     "locations": [
       "São Paulo",
@@ -55942,7 +57177,7 @@ window.JOBS_FINTECH = [
     "spec": "Безопасность",
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -55967,7 +57202,7 @@ window.JOBS_FINTECH = [
     "spec": "Платежи",
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -55996,7 +57231,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -56020,7 +57255,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -56044,7 +57279,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -56071,7 +57306,7 @@ window.JOBS_FINTECH = [
     "payMax": 267840,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -56095,7 +57330,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -56122,7 +57357,7 @@ window.JOBS_FINTECH = [
       "SQL"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -56146,7 +57381,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -56175,7 +57410,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -56205,7 +57440,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -56231,7 +57466,7 @@ window.JOBS_FINTECH = [
     "payMax": 276000,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -56258,7 +57493,7 @@ window.JOBS_FINTECH = [
       "SQL"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -56282,7 +57517,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -56309,7 +57544,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -56338,7 +57573,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -56365,7 +57600,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -56395,7 +57630,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -56422,7 +57657,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -56449,7 +57684,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -56476,7 +57711,7 @@ window.JOBS_FINTECH = [
       "SQL"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -56504,7 +57739,7 @@ window.JOBS_FINTECH = [
       "AWS"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -56530,7 +57765,7 @@ window.JOBS_FINTECH = [
       "Swift"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -56554,7 +57789,7 @@ window.JOBS_FINTECH = [
     "spec": "Блокчейн",
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -56586,7 +57821,7 @@ window.JOBS_FINTECH = [
       "Kubernetes"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -56610,7 +57845,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -56641,7 +57876,7 @@ window.JOBS_FINTECH = [
       "Docker"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -56669,7 +57904,7 @@ window.JOBS_FINTECH = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -56750,6 +57985,33 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-10",
     "descShort": "Hello, we’re Starling. We built a new kind of bank because we knew technology had the power to help people save, spend and manage their money in a new and transformative way. We’re a fully licensed UK bank with the culture and spirit of a fast-moving, disruptive tech company. We’re a bank, but better: fairer, easier to use and designed to demystify money for everyone. We employ more than 3,500 people across our London, Southampton, Cardiff and Manchester offices. Starling Bank’s Treasury manages the bank’s rapidly growing balance sheet. We are responsible for managing liquidity, funding, Interest Rate Risk in the Banking Book (IRRBB) and structural risks using cash, investment securities…",
+    "hasDesc": true
+  },
+  {
+    "id": "lv-zopa-1a920bdd-5b86-45f1-9830-e1f3bb529771",
+    "title": "IT Service Desk Support Engineer",
+    "company": "Zopa",
+    "locations": [
+      "London"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "30 000 £ – 40 000 £",
+    "posted": "2026-07-17",
+    "url": "https://jobs.lever.co/zopa/1a920bdd-5b86-45f1-9830-e1f3bb529771",
+    "source": "lever",
+    "site": "zopa.com",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "payMin": 38100,
+    "payMax": 50800,
+    "permit": true,
+    "stack": [],
+    "seen": "2026-09-10",
+    "descShort": "Our Story Hello there. We’re Zopa. We started our journey back in 2005, building the first ever peer-to-peer lending company. Fast forward to 2020 and we launched Zopa Bank. A bank that listens to what our customers don’t like about finance and does the opposite. We’re redefining what it feels like to work in finance. Our vision for a new era of banking puts people front and centre — we’ve built a business that empowers everyone to aim high, every day, to move finance forward. Find out more about our fantastic offerings at Zopa.com! We’re incredibly proud of our achievements and none of it would be possible without the amazing team here. It’s not just industry awards we’re winning, we’ve…",
     "hasDesc": true
   },
   {
@@ -57056,7 +58318,7 @@ window.JOBS_FINTECH = [
       "AWS"
     ],
     "seen": "2026-09-10",
-    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 135 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
+    "descShort": "ABOUT NU Nu is the leading digital bank in Latin America, serving 140 million customers across Brazil, Mexico, and Colombia. The company has been leading an industry transformation by leveraging data and proprietary technology to develop innovative products and services. Guided by its mission to fight complexity and empower people, Nu caters to customers’ complete financial journey, promoting financial access and advancement with responsible lending and transparency. The company is powered by an efficient and scalable business model that combines low cost to serve with growing returns. Nu’s impact has been recognized in multiple awards, including Time 100 Most Influential Companies, Fast…",
     "hasDesc": true
   },
   {
@@ -57711,6 +58973,33 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-09-10",
     "descShort": "Thought Machine's mission is bold – to properly and permanently rid the world's banks of legacy technology. To achieve this, we have developed the foundations of modern banking through core and payments technology which run natively in the cloud. What we are attempting is hard and means we need great people working together to build great technology. We have grown rapidly in the past few years – growing our team to more than 550 individuals across offices in London, New York, Singapore, Sydney and our newly established Engineering Hub in Lisbon. We have raised more than £500m in funding and our investors include Molten Ventures, Eurazeo, Intesa Sanpaolo, Temasek, Nyca Partners, JPMorgan…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-form3-8628358002",
+    "title": "Senior Cloud Security Engineer - AI Resilience & Security Enhancements (Contract)",
+    "company": "Form3",
+    "locations": [
+      "100%"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-07-14",
+    "url": "https://www.form3.tech/careers/vacancies/8628358002?gh_jid=8628358002",
+    "site": "form3.tech",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Безопасность",
+    "stack": [
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-09-10",
+    "descShort": "THE PROJECT 📝 We're looking for an experienced Senior Cloud Security Engineer to join Form3 on a contract basis to deliver a strategic programme of security enhancements across our cloud-native payments platform. Focusing on improving cloud security, operational resilience and governance across our engineering ecosystem, you will work closely with our Platform Engineering and Security teams to design and implement practical security improvements that enhance how we build, deploy and operate critical payment infrastructure. You'll play a key role in strengthening areas such as cloud platform security, software supply chain security, identity and access management, AI governance…",
     "hasDesc": true
   },
   {
@@ -64326,7 +65615,7 @@ window.JOBS_FINTECH = [
   },
   {
     "id": "ab-alan-de4c30ae-698f-43e9-84d1-f458955fd671",
-    "title": "Software Engineer Internship (6 months)",
+    "title": "Software Engineer Internship (6 months from feb/march 2027)",
     "company": "Alan",
     "locations": [
       "Paris"
@@ -65811,34 +67100,6 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-09-10",
     "descShort": "At Anchorage Digital, we are building the world’s most advanced digital asset platform for institutions to participate in crypto. Anchorage Digital is a crypto platform that enables institutions to participate in digital assets through custody, staking, trading, governance, settlement, and the industry's leading security infrastructure. Home to Anchorage Digital Bank N.A., the first federally chartered crypto bank in the U.S., Anchorage Digital also serves institutions through Anchorage Digital Singapore, Porto by Anchorage Digital, and other offerings. The company is funded by leading institutions including Andreessen Horowitz, GIC, Goldman Sachs, KKR, and Visa, with its Series D valuation…",
-    "hasDesc": true
-  },
-  {
-    "id": "ab-ramp-1540a41f-d88f-4c89-9b08-5b9fade1ee81",
-    "title": "Software Engineer, Frontend, Ramp Revenue",
-    "company": "Ramp",
-    "locations": [
-      "New York, United States"
-    ],
-    "remote": true,
-    "rkind": null,
-    "salary": "$200K – $310K • Offers Equity",
-    "posted": "2026-02-26",
-    "url": "https://jobs.ashbyhq.com/ramp/1540a41f-d88f-4c89-9b08-5b9fade1ee81",
-    "source": "ashby",
-    "site": "ramp.com",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "Фронтенд",
-    "payMin": 200000,
-    "payMax": 310000,
-    "stack": [
-      "TypeScript"
-    ],
-    "seen": "2026-09-10",
-    "descShort": "ABOUT RAMP Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books. The problems are high-stakes, data-dense, and unforgiving. We hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome. The median Ramp customer saves 5% and grows revenue 16% in their…",
     "hasDesc": true
   },
   {
