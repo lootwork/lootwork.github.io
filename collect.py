@@ -14,6 +14,7 @@ collect.py — сборщик вакансий для витрины.
 """
 
 import argparse
+import hashlib
 import html as html_lib
 import os
 import json
@@ -1383,6 +1384,7 @@ def write_translation_files(jobs):
 
 
 MAX_STALE_DAYS = 3
+ROTATE_DAYS = 5          # за столько дней проверяются все ссылки
 
 
 def stale(job) -> bool:
@@ -1513,18 +1515,49 @@ def collect(companies, verify_links: bool):
         j["seen"] = today_iso()
 
     if verify_links:
-        print(f"\nПроверяю живость {len(jobs)} ссылок…")
-        live = []
-        for i, j in enumerate(jobs, 1):
-            if check_alive(j["url"]):
-                live.append(j)
-            else:
+        # Проверять все четыре тысячи ссылок каждый день — три часа работы
+        # и лишняя нагрузка на чужие сайты. При этом вакансия, только что
+        # пришедшая из выдачи студии, живая по определению: её показывает
+        # сама система найма.
+        #
+        # Поэтому проверяем тех, кому верить нельзя:
+        #  — Ashby: их список отдаёт и снятые вакансии;
+        #  — всё, что старше недели: там ссылки и умирают;
+        #  — плюс небольшую сменную часть остальных, чтобы за неделю обойти всех.
+        today_d = date.fromisoformat(today_iso())
+        day_slot = today_d.toordinal() % ROTATE_DAYS
+
+        def fresh(j):
+            try:
+                return (today_d - date.fromisoformat(j.get("posted") or "")).days <= 2
+            except Exception:
+                return False
+
+        def needs_check(j):
+            if fresh(j):
+                return False              # вышла день-два назад, умереть не успела
+            if (j.get("source") or "") == "ashby":
+                return True               # их список отдаёт и снятые вакансии
+            # Остальных делим на равные части и обходим по одной в день,
+            # так за пять дней проверяются все.
+            return int(hashlib.md5(j["id"].encode()).hexdigest(), 16) \
+                   % ROTATE_DAYS == day_slot
+
+        queue = [j for j in jobs if needs_check(j)]
+        skip = len(jobs) - len(queue)
+        print(f"\nПроверяю живость {len(queue)} ссылок "
+              f"(пропускаю {skip} свежих, их только что отдала студия)…")
+
+        dead_ids = set()
+        for i, j in enumerate(queue, 1):
+            if not check_alive(j["url"]):
+                dead_ids.add(j["id"])
                 RUN["dead"] += 1
                 print(f"  мертво: {j['company']} — {j['title']}")
-            if i % 25 == 0:
-                print(f"  …{i}/{len(jobs)}")
-            time.sleep(PAUSE)
-        jobs = live
+            if i % 50 == 0:
+                print(f"  …{i}/{len(queue)}")
+            time.sleep(PAUSE / 3)
+        jobs = [j for j in jobs if j["id"] not in dead_ids]
 
     apply_translations(jobs)
     jobs.sort(key=lambda j: (j.get("posted") or ""), reverse=True)
@@ -2511,25 +2544,61 @@ def location_report(jobs, top=20):
     print("  " + " · ".join(f"{name} {n}" for name, n in rows))
 
 
-def write_sitemap(today: str, urls=None):
-    """Карта сайта со всеми страницами: по ней поисковик их и найдёт."""
-    urls = urls or ["https://lootwork.github.io/"]
+def sitemap_file(path, today, urls, prio_of):
     rows = []
     for u in urls:
-        prio = "1.0" if u.rstrip("/").endswith("github.io") else "0.7"
         rows.append("  <url>\n"
                     f"    <loc>{u}</loc>\n"
                     f"    <lastmod>{today}</lastmod>\n"
                     "    <changefreq>daily</changefreq>\n"
-                    f"    <priority>{prio}</priority>\n"
+                    f"    <priority>{prio_of(u)}</priority>\n"
                     "  </url>")
-    SITEMAP.write_text(
+    path.write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "\n".join(rows) + "\n</urlset>\n",
         encoding="utf-8",
     )
-    print(f"В карте сайта {len(urls)} адресов")
+
+
+def write_sitemap(today: str, urls=None):
+    """Две карты вместо одной большой.
+
+    Раньше в одном файле лежали и разделы, и четыре тысячи страниц отдельных
+    вакансий. Молодому сайту такую карту поисковик переваривает месяцами,
+    а ценность в разделах: «Программирование удалённо», «Работа в геймдеве:
+    Варшава». Вакансии живут неделю-две и всё равно умирают.
+
+    Теперь sitemap.xml — оглавление из двух карт: сначала разделы, потом
+    вакансии. Поисковик берёт их по очереди и до нужного доходит сразу.
+    """
+    urls = urls or [SITE + "/"]
+    hubs = [u for u in urls if "/job/" not in u]
+    jobs = [u for u in urls if "/job/" in u]
+
+    def prio(u):
+        if u.rstrip("/").endswith("github.io"):
+            return "1.0"
+        if "/job/" in u:
+            return "0.4"                      # умирают быстро, вес им не нужен
+        if u.count("/") <= 4:
+            return "0.9"                      # разделы верхнего уровня
+        return "0.7"
+
+    sitemap_file(HERE / "sitemap-hubs.xml", today, hubs, prio)
+    sitemap_file(HERE / "sitemap-jobs.xml", today, jobs, prio)
+
+    SITEMAP.write_text(
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        f"  <sitemap><loc>{SITE}/sitemap-hubs.xml</loc>"
+        f"<lastmod>{today}</lastmod></sitemap>\n"
+        f"  <sitemap><loc>{SITE}/sitemap-jobs.xml</loc>"
+        f"<lastmod>{today}</lastmod></sitemap>\n"
+        "</sitemapindex>\n",
+        encoding="utf-8",
+    )
+    print(f"В карте сайта {len(urls)} адресов: разделов {len(hubs)}, вакансий {len(jobs)}")
 
 
 # ---------------------------------------------------------------- страницы

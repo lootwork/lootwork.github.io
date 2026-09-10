@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
 
+# Оглавление и две карты по отдельности: разделы важнее отдельных вакансий,
+# поэтому пусть поисковик видит их как самостоятельный файл.
 Sitemap: https://lootwork.github.io/sitemap.xml
+Sitemap: https://lootwork.github.io/sitemap-hubs.xml
+Sitemap: https://lootwork.github.io/sitemap-jobs.xml
