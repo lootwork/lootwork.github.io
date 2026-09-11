@@ -356,6 +356,30 @@ PERMIT_RE = re.compile(
     r"гражданств|рабочая виза", re.I)
 
 
+# Помощь с переездом — для человека из СНГ это часто единственный реальный
+# путь: удалённо не берут, а с визой и жильём помогут.
+RELOC_RE = re.compile(
+    r"relocation (package|support|assistance|bonus|allowance|help)|"
+    r"we (help|assist|support) with relocation|relocation is (provided|offered)|"
+    r"visa (support|sponsorship|assistance) (is )?(provided|offered|available)|"
+    r"we sponsor visas|work permit support|"
+    r"помощь с переездом|помощь в переезде|релокац\w* (пакет|помощь|поддержка)|"
+    r"оплачиваем переезд|визовая поддержка", re.I)
+
+# Отдельно ловим прямые отказы, иначе «no relocation assistance» попадёт в плюс
+NO_RELOC_RE = re.compile(
+    r"no relocation|relocation is not (provided|offered|available)|"
+    r"without relocation|not offer relocation|"
+    r"без (помощи с )?переезд|релокация не предоставляется", re.I)
+
+
+def has_relocation(j) -> bool:
+    text = (j.get("desc") or "") + " " + (j.get("title") or "")
+    if NO_RELOC_RE.search(text):
+        return False
+    return bool(RELOC_RE.search(text))
+
+
 def needs_permit(j) -> bool:
     text = (j.get("desc") or "") + " " + (j.get("title") or "")
     return bool(PERMIT_RE.search(text))
@@ -1493,6 +1517,8 @@ def collect(companies, verify_links: bool):
         j["grade"] = classify_grade(j["title"])
         j["spec"] = (classify_fin_spec(j["title"], role) if industry == "fintech"
                      else classify_spec(j["title"], role))
+        if has_relocation(j):
+            j["reloc"] = True
         pay = pay_range(j.get("salary"))
         if pay:
             j["payMin"], j["payMax"] = pay

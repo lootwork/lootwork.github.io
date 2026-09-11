@@ -391,6 +391,7 @@
   .tag.remote{color:var(--cyan);border-color:var(--cyan-deep);background:var(--cyan-deep)}
   .tag.src{color:var(--ok);border-color:var(--ok-line);font-family:var(--mono);font-size:11px}
   .tag.tr{color:var(--cyan);border-color:var(--cyan-deep)}
+  .tag.reloc{color:#8fd0ff;border-color:#1d4260;cursor:help}
   .tag.cis{color:#6ee7a8;border-color:#1e4a35;background:rgba(60,190,130,.08);
     font-weight:600;cursor:help}
   .tag.permit{color:#e8b06a;border-color:#4a3a1c;cursor:help}
@@ -1110,7 +1111,7 @@
     role:new Set(), spec:new Set(), stack:new Set(), rkind:new Set(), kind:new Set(),
     grade:new Set(), company:new Set(), location:new Set(),
     age:null, remote:false, salary:false, noPermit:false, cis:false,
-    payFrom:0, payTo:400000,
+    payFrom:0, payTo:400000, reloc:false,
     onlyFav:false, onlyHidden:false, query:""
   };
   let sortMode = "new";
@@ -1516,6 +1517,8 @@
       permitHint:"Компания требует право работать именно в её стране: гражданство, вид на жительство или рабочую визу. Даже если написано «удалённо», кандидата из другой страны обычно не рассматривают.",
       permitNote:"Компания требует право работать в своей стране — гражданство, вид на жительство или рабочую визу. Если у вас его нет, отклик почти наверняка не рассмотрят. Проверьте условия в оригинале.",
       cisChip:"Можно из СНГ", cisShort:"можно из СНГ", cisTag:"можно из СНГ",
+      relocChip:"С релокацией", relocShort:"с релокацией", relocTag:"переезд оплачивают",
+      relocHint:"Компания прямо пишет, что помогает с переездом: оплачивает релокацию, делает визу или рабочее разрешение. Для тех, кого не берут удалённо, это второй реальный путь.",
       pinOn:"Закрепить фильтры", pinOff:"Открепить фильтры",
       gtKind:"Тип компании", gtDirection:"Направление",
       gtPay:"Зарплата в год", payAny:"любая", payFromCap:"от", payToCap:"до",
@@ -1614,6 +1617,8 @@
       permitHint:"The company requires the right to work in its country: citizenship, residency or a work visa. Even when the job says remote, candidates from other countries are usually not considered.",
       permitNote:"This job requires the right to work in the company country — citizenship, residency or a work visa. Check the original posting before applying.",
       cisChip:"Open worldwide", cisShort:"open worldwide", cisTag:"open worldwide",
+      relocChip:"Relocation help", relocShort:"relocation help", relocTag:"relocation covered",
+      relocHint:"The company states it helps with relocation: covers the move, arranges a visa or a work permit.",
       pinOn:"Pin filters", pinOff:"Unpin filters",
       gtKind:"Company type", gtDirection:"Focus area",
       gtPay:"Annual salary", payAny:"any", payFromCap:"from", payToCap:"to",
@@ -2090,6 +2095,7 @@
     if (st.rkind && st.rkind.size && !st.rkind.has(j.rkind)) return false;
     if (st.noPermit && j.permit) return false;
     if (st.cis && !openToCis(j)) return false;
+    if (st.reloc && !j.reloc) return false;
     if (st.kind && st.kind.size && !st.kind.has(j.kind)) return false;
     // Вакансия подходит, если её вилка пересекается с выбранным диапазоном.
     // Без вилки не показываем: иначе фильтр по деньгам теряет смысл.
@@ -2261,6 +2267,7 @@
          + (state.age ? 1 : 0) + (state.remote ? 1 : 0) + (state.salary ? 1 : 0)
          + (state.noPermit ? 1 : 0) + (state.cis ? 1 : 0) + state.kind.size
          + ((state.payFrom > 0 || state.payTo < PAY_MAX) ? 1 : 0)
+         + (state.reloc ? 1 : 0)
          + (state.onlyFav ? 1 : 0);
   }
 
@@ -2429,6 +2436,8 @@
     if (j.remote || j.rkind)
       tags.push('<span class="tag remote">'+esc(j.rkind ? rkindLabel(j.rkind) : t("remote"))+'</span>');
     if (j.pool) tags.push('<span class="tag pool">'+t("pool")+'</span>');
+    if (j.reloc)
+      tags.push('<span class="tag reloc" title="'+esc(t("relocHint"))+'">'+t("relocTag")+'</span>');
     if (openToCis(j))
       tags.push('<span class="tag cis" title="'+esc(t("cisHint"))+'">'+t("cisTag")+'</span>');
     else if (j.permit)
@@ -2617,6 +2626,10 @@
     if (forCis)
       chip(t("cisChip") + " " + forCis, () => state.cis,
            () => state.cis = !state.cis, "cis", t("cisHint"));
+    const withReloc = JOBS.filter(j => j.reloc).length;
+    if (withReloc)
+      chip(t("relocChip") + " " + withReloc, () => state.reloc,
+           () => state.reloc = !state.reloc, "cis", t("relocHint"));
     const withPermit = JOBS.filter(j => j.permit).length;
     if (withPermit)
       chip(t("noPermit"), () => state.noPermit, () => state.noPermit = !state.noPermit,
@@ -3041,6 +3054,7 @@
     if (state.salary) add(t("withSalary"), () => state.salary = false);
     if (state.noPermit) add(t("noPermitShort"), () => state.noPermit = false);
     if (state.cis) add(t("cisShort"), () => state.cis = false);
+    if (state.reloc) add(t("relocShort"), () => state.reloc = false);
     if (state.payFrom > 0 || state.payTo < PAY_MAX)
       add(money(state.payFrom) + "–" + money(state.payTo),
           () => { state.payFrom = 0; state.payTo = PAY_MAX; });
@@ -3057,7 +3071,7 @@
              kind:new Set(s.kind), location:new Set(s.location),
              age:s.age, remote:s.remote, salary:s.salary,
              noPermit:s.noPermit, cis:s.cis,
-             payFrom:s.payFrom, payTo:s.payTo, query:s.query };
+             payFrom:s.payFrom, payTo:s.payTo, reloc:s.reloc, query:s.query };
   }
 
   function markPressed(btn, on){ btn.setAttribute("aria-pressed", on ? "true" : "false"); }
@@ -3691,7 +3705,7 @@
     draft = { role:new Set(), spec:new Set(), stack:new Set(), rkind:new Set(),
               grade:new Set(), company:new Set(), location:new Set(),
               age:null, remote:false, salary:false, noPermit:false, cis:false,
-              payFrom:0, payTo:PAY_MAX, query:state.query };
+              payFrom:0, payTo:PAY_MAX, reloc:false, query:state.query };
     buildFilterUi();
   });
   $("companySearch").addEventListener("input", buildFilterUi);
@@ -3924,7 +3938,7 @@
     state.grade.clear(); state.company.clear(); state.location.clear();
     state.age = null; state.remote = false; state.salary = false;
     state.noPermit = false; state.cis = false;
-    state.payFrom = 0; state.payTo = PAY_MAX; state.onlyFav = false;
+    state.payFrom = 0; state.payTo = PAY_MAX; state.reloc = false; state.onlyFav = false;
     state.query = ""; sortMode = "new";
     searchEl.value = ""; shownCount = PAGE;
     renderList();
