@@ -391,6 +391,7 @@
   .tag.remote{color:var(--cyan);border-color:var(--cyan-deep);background:var(--cyan-deep)}
   .tag.src{color:var(--ok);border-color:var(--ok-line);font-family:var(--mono);font-size:11px}
   .tag.tr{color:var(--cyan);border-color:var(--cyan-deep)}
+  .tag.old{color:#a79bb8;border-color:#3a3350;cursor:help}
   .tag.reloc{color:#8fd0ff;border-color:#1d4260;cursor:help}
   .tag.cis{color:#6ee7a8;border-color:#1e4a35;background:rgba(60,190,130,.08);
     font-weight:600;cursor:help}
@@ -1518,6 +1519,8 @@
       permitNote:"Компания требует право работать в своей стране — гражданство, вид на жительство или рабочую визу. Если у вас его нет, отклик почти наверняка не рассмотрят. Проверьте условия в оригинале.",
       cisChip:"Можно из СНГ", cisShort:"можно из СНГ", cisTag:"можно из СНГ",
       relocChip:"С релокацией", relocShort:"с релокацией", relocTag:"переезд оплачивают",
+      staleTag:"давно в поиске",
+      staleHint:"Вакансия открыта больше месяца. Бывает, что позицию закрыли, а объявление снять забыли, или студия ищет очень редкого специалиста.",
       relocHint:"Компания прямо пишет, что помогает с переездом: оплачивает релокацию, делает визу или рабочее разрешение. Для тех, кого не берут удалённо, это второй реальный путь.",
       pinOn:"Закрепить фильтры", pinOff:"Открепить фильтры",
       gtKind:"Тип компании", gtDirection:"Направление",
@@ -1618,6 +1621,8 @@
       permitNote:"This job requires the right to work in the company country — citizenship, residency or a work visa. Check the original posting before applying.",
       cisChip:"Open worldwide", cisShort:"open worldwide", cisTag:"open worldwide",
       relocChip:"Relocation help", relocShort:"relocation help", relocTag:"relocation covered",
+      staleTag:"open for a while",
+      staleHint:"This job has been open for over a month. Sometimes the role is already filled and the posting was left up.",
       relocHint:"The company states it helps with relocation: covers the move, arranges a visa or a work permit.",
       pinOn:"Pin filters", pinOff:"Unpin filters",
       gtKind:"Company type", gtDirection:"Focus area",
@@ -2187,8 +2192,24 @@
 
   // Русское слово редко приходит в словарной форме: «художника», «аниматором».
   // Поэтому ищем совпадение по началу слова, а не точное.
+  // Сокращения, которыми пишут в резюме и в чатах. Раньше «js» не находил
+  // JavaScript, а «к8s» вообще ничего.
+  const SHORT = {
+    "js":["javascript"], "ts":["typescript"], "py":["python"],
+    "cs":["c#","csharp"], "c#":["csharp","c#"], "csharp":["c#"],
+    "cpp":["c++"], "c++":["cpp","c++"],
+    "ue":["unreal"], "ue4":["unreal"], "ue5":["unreal"], "unreal":["ue"],
+    "u3d":["unity"], "k8s":["kubernetes"], "kuber":["kubernetes"],
+    "go":["golang"], "golang":["go"], "ml":["machine learning"],
+    "ai":["artificial intelligence"], "qa":["quality assurance"],
+    "pm":["product manager","project manager"], "ba":["business analyst"],
+    "sre":["site reliability"], "db":["database"], "gd":["game design"],
+    "vfx":["visual effects"], "ui":["user interface"], "ux":["user experience"],
+  };
+
   function expand(tok){
     const out = [tok];
+    if (SHORT[tok]) SHORT[tok].forEach(v => { if (!out.includes(v)) out.push(v); });
     if (!/[а-яё]/i.test(tok)) return out;
     const stem = tok.length > 5 ? tok.slice(0, tok.length - 2) : tok;
     Object.keys(RU_EN).forEach(key => {
@@ -2436,6 +2457,8 @@
     if (j.remote || j.rkind)
       tags.push('<span class="tag remote">'+esc(j.rkind ? rkindLabel(j.rkind) : t("remote"))+'</span>');
     if (j.pool) tags.push('<span class="tag pool">'+t("pool")+'</span>');
+    if (age !== null && age >= 30)
+      tags.push('<span class="tag old" title="'+esc(t("staleHint"))+'">'+t("staleTag")+'</span>');
     if (j.reloc)
       tags.push('<span class="tag reloc" title="'+esc(t("relocHint"))+'">'+t("relocTag")+'</span>');
     if (openToCis(j))

@@ -1482,7 +1482,7 @@ def collect(companies, verify_links: bool):
     if BLOCKLIST.exists():
         blocked = set(json.loads(BLOCKLIST.read_text(encoding="utf-8")))
 
-    jobs, seen = [], set()
+    jobs, seen = [], {}
     for j in raw:
         if not j["title"] or not j["url"]:
             continue
@@ -1508,10 +1508,23 @@ def collect(companies, verify_links: bool):
         if not role:
             continue                      # не смогли отнести к отрасли — пропускаем
 
+        # Одну вакансию студия часто публикует на несколько городов отдельными
+        # объявлениями. Раньше лишние просто выбрасывались вместе со своими
+        # городами, и человек не видел, что позиция есть и в его городе.
+        # Теперь склеиваем: города собираются в одну карточку.
         key = (j["company"].lower(), j["title"].lower())
         if key in seen:
+            kept = seen[key]
+            for loc in j.get("locations") or []:
+                if loc not in (kept.get("locations") or []):
+                    kept.setdefault("locations", []).append(loc)
+            # из двух описаний оставляем более полное
+            if len(j.get("desc") or "") > len(kept.get("desc") or ""):
+                kept["desc"] = j["desc"]
+            if not kept.get("salary") and j.get("salary"):
+                kept["salary"] = j["salary"]
             continue
-        seen.add(key)
+        seen[key] = j
 
         j["role"] = role
         j["grade"] = classify_grade(j["title"])
