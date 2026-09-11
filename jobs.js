@@ -1,5 +1,5 @@
 // jobs.js — сгенерировано collect.py, руками не править.
-// Отрасль: gamedev. Обновлено: 2026-09-11. Вакансий: 1196.
+// Отрасль: gamedev. Обновлено: 2026-09-11. Вакансий: 1193.
 
 window.JOBS_DEMO = false;
 window.JOBS_UPDATED = "2026-09-11";
@@ -51,6 +51,60 @@ window.JOBS = [
     "stack": [],
     "seen": "2026-09-11",
     "descShort": "Introduction: At Huuuge Games we make top-grossing mobile games that bring people together through fun and social experiences. Become part of an exciting adventure, bringing joy to millions of players around the world from one of our offices in Poland. We are an in-office-first company and operate in a hybrid model (3 days from the office). Join our exceptional Data Science team - a group of highly skilled, curious, and driven individuals who work with leading edge tools, shape best practices, and transform data into real business impact. As a Senior Data Scientist, you’ll enjoy significant autonomy, working on some of the most interesting challenges in mobile gaming - from player behavior…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-keen-software-house-4971571101",
+    "title": "Senior Marketing Artist (Space Engineers Franchise)",
+    "company": "Keen Software House",
+    "locations": [
+      "Prague, Czech Republic"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-09-11",
+    "url": "https://job-boards.eu.greenhouse.io/keensoftwarehouseas/jobs/4971571101",
+    "site": "keenswh.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Арт",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unity",
+      "Unreal",
+      "Blender",
+      "Photoshop",
+      "Figma"
+    ],
+    "seen": "2026-09-11",
+    "descShort": "At Keen Software House, we develop large-scale sandbox simulation games like Space Engineers 1 and Space Engineers 2, built around engineering, construction, destruction, physics, emergent gameplay, and player creativity, together with the proprietary technology that powers them. We are looking for a Senior Marketing Artist to join our international team working on Space Engineers and Space Engineers 2. We are looking for a strong visual artist who can take real ownership of how Space Engineers is presented across marketing channels. You will turn in-game content, screenshots, 3D assets, and ideas into high-quality promotional visuals, while also actively helping define what our marketing…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-keen-software-house-4971867101",
+    "title": "Senior UX Designer (Space Engineers Franchise)",
+    "company": "Keen Software House",
+    "locations": [
+      "Prague, Czech Republic"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-09-11",
+    "url": "https://job-boards.eu.greenhouse.io/keensoftwarehouseas/jobs/4971867101",
+    "site": "keenswh.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Figma"
+    ],
+    "seen": "2026-09-11",
+    "descShort": "At Keen Software House, we develop large-scale sandbox simulation games like Space Engineers 1 and Space Engineers 2, built around engineering, construction, destruction, physics, emergent gameplay, and player creativity, together with the proprietary technology that powers them. We are looking for a Senior UX Designer to join our international team working across Space Engineers and Space Engineers 2. Space Engineers is a complex sandbox game built around engineering, construction, exploration, survival, and player creativity. That complexity is part of what makes the game unique - but it also creates significant UX challenges. We are looking for someone who can take real ownership of how…",
     "hasDesc": true
   },
   {
@@ -2153,34 +2207,6 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-roblox-7998366",
-    "title": "Principal Software Engineer, Physics",
-    "company": "Roblox",
-    "locations": [
-      "San Mateo, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": "$ 295 250 – 345 040",
-    "posted": "2026-09-11",
-    "url": "https://careers.roblox.com/jobs/7998366?gh_jid=7998366",
-    "site": "roblox.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Программирование",
-    "grade": "Lead",
-    "spec": "Движок",
-    "payMin": 295250,
-    "payMax": 345040,
-    "permit": true,
-    "stack": [
-      "C++"
-    ],
-    "seen": "2026-09-11",
-    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-roblox-7545955",
     "title": "Principal Software Engineer - Roblox Economy Platform",
     "company": "Roblox",
@@ -2313,7 +2339,7 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-roblox-8070025",
+    "id": "gh-roblox-8069987",
     "title": "Quality Analyst",
     "company": "Roblox",
     "locations": [
@@ -2323,7 +2349,7 @@ window.JOBS = [
     "rkind": null,
     "salary": null,
     "posted": "2026-09-11",
-    "url": "https://careers.roblox.com/jobs/8070025?gh_jid=8070025",
+    "url": "https://careers.roblox.com/jobs/8069987?gh_jid=8069987",
     "site": "roblox.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -3386,7 +3412,7 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-roblox-8042554",
+    "id": "gh-roblox-8148679",
     "title": "Senior Site Reliability Engineer, Compute",
     "company": "Roblox",
     "locations": [
@@ -3394,17 +3420,17 @@ window.JOBS = [
     ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 243 290 – 295 250",
+    "salary": "$ 196 750 – 243 290",
     "posted": "2026-09-11",
-    "url": "https://careers.roblox.com/jobs/8042554?gh_jid=8042554",
+    "url": "https://careers.roblox.com/jobs/8148679?gh_jid=8148679",
     "site": "roblox.com",
     "source": "greenhouse",
     "industry": "gamedev",
     "role": "Программирование",
     "grade": "Senior",
     "spec": "DevOps",
-    "payMin": 243290,
-    "payMax": 295250,
+    "payMin": 196750,
+    "payMax": 243290,
     "permit": true,
     "stack": [
       "C#",
@@ -3473,6 +3499,34 @@ window.JOBS = [
     "hasDesc": true
   },
   {
+    "id": "gh-roblox-7655780",
+    "title": "Senior Software Engineer, Ads Experience (C++)",
+    "company": "Roblox",
+    "locations": [
+      "San Mateo, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 243 290 – 295 250",
+    "posted": "2026-09-11",
+    "url": "https://careers.roblox.com/jobs/7655780?gh_jid=7655780",
+    "site": "roblox.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "C++",
+    "payMin": 243290,
+    "payMax": 295250,
+    "permit": true,
+    "stack": [
+      "C++"
+    ],
+    "seen": "2026-09-11",
+    "descShort": "Every day, tens of millions of people come to Roblox to explore, create, play, learn, and connect with friends in 3D immersive digital experiences– all created by our global community of developers and creators. At Roblox, we’re building the tools and platform that empower our community to bring any experience that they can imagine to life. Our vision is to reimagine the way people come together, from anywhere in the world, and on any device. We’re on a mission to connect a billion people with optimism and civility, and looking for amazing talent to help us get there. A career at Roblox means you’ll be working to shape the future of human interaction, solving unique technical challenges at…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-wargaming-8161671",
     "title": "3D Character Artist (World of Tanks:HEAT)",
     "company": "Wargaming",
@@ -3502,17 +3556,18 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-wargaming-8185515",
+    "id": "gh-wargaming-8185520",
     "title": "Community Manager (World of Tanks Blitz)",
     "company": "Wargaming",
     "locations": [
+      "Vilnius",
       "Nicosia"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-10",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8185515",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8185520",
     "site": "wargaming.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -3549,17 +3604,20 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-tripledot-belka-4963853101",
+    "id": "gh-tripledot-belka-4963849101",
     "title": "Marketing Creatives Producer",
     "company": "Tripledot / Belka",
     "locations": [
+      "Limassol",
+      "Minsk",
+      "Tblisi",
       "Serbia"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-10",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4963853101",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4963849101",
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -4087,17 +4145,18 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-2k-games-7655939003",
+    "id": "gh-2k-games-7655940003",
     "title": "Gameplay Engineer",
     "company": "2K Games",
     "locations": [
+      "Novato, United States",
       "Montréal, Canada"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-10",
-    "url": "https://job-boards.greenhouse.io/2k/jobs/7655939003",
+    "url": "https://job-boards.greenhouse.io/2k/jobs/7655940003",
     "site": "2k.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -4109,6 +4168,7 @@ window.JOBS = [
       "C++"
     ],
     "seen": "2026-09-11",
+    "hasRu": true,
     "descShort": "As a Gameplay Engineer at Cloud Chamber you will bridge the gap between technical execution and creative vision, ensuring that our player-centric gameplay feels as impactful as it looks. You will work in close collaboration with a talented development team, report to our Associate Technical Director, and be responsible for helping the team craft compelling and immersive gameplay systems that support our creative ambitions, ultimately bringing the world of BioShock to life. What You’ll Do: • Work closely and constructively with design and art teams to realize creative ambitions. • Architect and coordinate the implementation of new Gameplay systems and features for player verbs, camera…",
     "hasDesc": true
   },
@@ -4195,7 +4255,8 @@ window.JOBS = [
     "title": "Lead Animator",
     "company": "2K Games",
     "locations": [
-      "Montréal, Canada"
+      "Montréal, Canada",
+      "Novato, United States"
     ],
     "remote": false,
     "rkind": null,
@@ -4216,17 +4277,18 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-2k-games-7888173003",
+    "id": "gh-2k-games-7888174003",
     "title": "Lead Character Artist",
     "company": "2K Games",
     "locations": [
+      "Novato, United States",
       "Montréal, Canada"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-10",
-    "url": "https://job-boards.greenhouse.io/2k/jobs/7888173003",
+    "url": "https://job-boards.greenhouse.io/2k/jobs/7888174003",
     "site": "2k.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -4241,6 +4303,7 @@ window.JOBS = [
       "Photoshop"
     ],
     "seen": "2026-09-11",
+    "hasRu": true,
     "descShort": "As a Lead Character Artist at Cloud Chamber, under the supervision of the Art Director, you will play a key role in establishing the overall visual quality bar and guidelines for character development on the project. In this role, you’ll lead a team of artists to achieve their full potential, collaborate with a passionate group of game developers to craft compelling stylized character assets that support our aesthetic, meet technical requirements, and gameplay needs, ultimately bringing the richly imagined world of BioShock to life. What You’ll Do: • Manage, coach, and mentor a team of character artists to support their career growth, development, and artistic output. • Set artistic…",
     "hasDesc": true
   },
@@ -4276,17 +4339,18 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-2k-games-7812710003",
+    "id": "gh-2k-games-7812709003",
     "title": "Lead Level Artist",
     "company": "2K Games",
     "locations": [
+      "Montréal, Canada",
       "Novato, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-10",
-    "url": "https://job-boards.greenhouse.io/2k/jobs/7812710003",
+    "url": "https://job-boards.greenhouse.io/2k/jobs/7812709003",
     "site": "2k.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -4302,21 +4366,23 @@ window.JOBS = [
       "Photoshop"
     ],
     "seen": "2026-09-11",
+    "hasRu": true,
     "descShort": "As a Lead Level Artist at Cloud Chamber you will join our talented group of developers and lead a team of artists responsible for creating compelling, stylized, high-quality level art and immersive world-building under the guidance of the Art Director and Associate Art Director. As a leader, your role is to build and foster a collaborative process, and share your vast knowledge of tools and best practices with your team. As an artist, your years of experience in the games industry have given you a solid understanding of form and composition as well as the ability to skillfully work within constraints and harmoniously collaborate with other departments. You will be asked to use all the tools…",
     "hasDesc": true
   },
   {
-    "id": "gh-2k-games-7856225003",
+    "id": "gh-2k-games-7856226003",
     "title": "Lead Lighting Artist",
     "company": "2K Games",
     "locations": [
+      "Novato, United States",
       "Montréal, Canada"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-10",
-    "url": "https://job-boards.greenhouse.io/2k/jobs/7856225003",
+    "url": "https://job-boards.greenhouse.io/2k/jobs/7856226003",
     "site": "2k.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -4327,6 +4393,7 @@ window.JOBS = [
       "Unreal"
     ],
     "seen": "2026-09-11",
+    "hasRu": true,
     "descShort": "As a Lead Lighting Artist at Cloud Chamber, you will join our talented development team to help shape our visual narrative and atmosphere. In this role, you’ll collaborate with a passionate group of game developers to craft visually stunning, dynamic lighting that supports world-class real-time environments and cinematics—bringing the richly imagined world of BioShock to life. What You’ll Do: As a Lead Lighting Artist, you are a primary driver of your direct reports' success. You will set clear expectations, provide coaching, and manage the health, career growth, and output of a high-performing art team while establishing best practices across lighting pipelines. • Lead a team of lighting…",
     "hasDesc": true
   },
@@ -4379,17 +4446,18 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-2k-games-7533143003",
+    "id": "gh-2k-games-7533148003",
     "title": "Lead Technical Artist  - Shaders",
     "company": "2K Games",
     "locations": [
+      "Brighton, United Kingdom",
       "Brno, Czechia"
     ],
     "remote": false,
     "rkind": "hybrid",
     "salary": null,
     "posted": "2026-09-10",
-    "url": "https://job-boards.greenhouse.io/2k/jobs/7533143003",
+    "url": "https://job-boards.greenhouse.io/2k/jobs/7533148003",
     "site": "2k.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -4402,6 +4470,7 @@ window.JOBS = [
       "Substance"
     ],
     "seen": "2026-09-11",
+    "hasRu": true,
     "descShort": "Job Title Lead Technical Artist - (Shader / Material) Department Art Location(s) Brighton / Brno Reports To Technical Art Director Job Type Permanent Who We Are Hangar 13 is an internal 2K development studio that crafts unforgettable AAA gaming experiences across all major platforms . With studios in Brighton (UK), Brno, and Prague (CZ), we work as one team to bring to life narrative-rich games that keep players immersed. Each of our locations provides the opportunity to work with some of the most talented developers in the industry, on creatively challenging and exciting projects, in a diverse and welcoming environment. Job Summary We are seeking a highly skilled Lead Shader / Material…",
     "hasDesc": true
   },
@@ -4680,17 +4749,18 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-2k-games-7985627003",
+    "id": "gh-2k-games-7807546003",
     "title": "Producer",
     "company": "2K Games",
     "locations": [
+      "Burnaby, Canada",
       "San Mateo, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-10",
-    "url": "https://job-boards.greenhouse.io/2k/jobs/7985627003",
+    "url": "https://job-boards.greenhouse.io/2k/jobs/7807546003",
     "site": "2k.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -4699,6 +4769,7 @@ window.JOBS = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-11",
+    "hasRu": true,
     "descShort": "WE ARE GAME MAKERS Who We Are: We are a diverse team of developers driven by a passion for our art, united by our core values and inspired by a culture of inclusivity to build amazing games that thrill players everywhere. We pursue growth and innovation in an environment of safety and trust. Our culture is built on the belief that the more varied voices in our collective will strengthen our team and our games. We are looking for our next teammate who will raise our bar and make us better. What We Need: We are seeking a driven addition to the production team who will act as a Producer, partnering with the UI tech team to plan, update, and execute regular deliveries while owning full dept…",
     "hasDesc": true
   },
@@ -5061,7 +5132,8 @@ window.JOBS = [
     "title": "Senior Level Artist",
     "company": "2K Games",
     "locations": [
-      "Montréal, Canada"
+      "Montréal, Canada",
+      "Novato, United States"
     ],
     "remote": false,
     "rkind": null,
@@ -5083,17 +5155,18 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-2k-games-7793261003",
+    "id": "gh-2k-games-7793262003",
     "title": "Senior Level Designer",
     "company": "2K Games",
     "locations": [
+      "Novato, United States",
       "Montréal, Canada"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-10",
-    "url": "https://job-boards.greenhouse.io/2k/jobs/7793261003",
+    "url": "https://job-boards.greenhouse.io/2k/jobs/7793262003",
     "site": "2k.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -5104,6 +5177,7 @@ window.JOBS = [
       "Unreal"
     ],
     "seen": "2026-09-11",
+    "hasRu": true,
     "descShort": "As a Senior Level Designer at Cloud Chamber, you will be responsible for blocking out the world and crafting the player experience within the stunning narrative experience and systems-driven world of BioShock. At your core you are collaborative, compassionate, and authentic; a dedicated designer with a passion for creating memorable, immersive player experiences. You will be an integral part of a design team that is breathing life into a new and fantastical world. What You’ll Do: • Use Blueprint scripting to create gameplay content. • Design and block out world geometry. • Collaborate closely with world architects on layout, and other teams as needed, to implement the creative vision of the…",
     "hasDesc": true
   },
@@ -5241,17 +5315,18 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-2k-games-7720905003",
+    "id": "gh-2k-games-7766934003",
     "title": "Senior Rendering Engineer",
     "company": "2K Games",
     "locations": [
+      "Brighton, United Kingdom",
       "Novato, United States"
     ],
     "remote": false,
-    "rkind": null,
+    "rkind": "hybrid",
     "salary": null,
     "posted": "2026-09-10",
-    "url": "https://job-boards.greenhouse.io/2k/jobs/7720905003",
+    "url": "https://job-boards.greenhouse.io/2k/jobs/7766934003",
     "site": "2k.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -5260,12 +5335,9 @@ window.JOBS = [
     "spec": "Движок",
     "stack": [
       "Unreal",
-      "C++",
-      "Houdini",
-      "Substance"
+      "C++"
     ],
     "seen": "2026-09-11",
-    "hasRu": true,
     "descShort": "As a Senior Rendering Engineer at Cloud Chamber you will join our talented development team to help push Unreal Engine 5 towards our combined vision. You’ll collaborate with a passionate group of game developers including our Lead Rendering Engineer, Technical Artists, and Art Direction. You will be responsible for modifying core shaders, developing new rendering technologies, working to integrate third party solutions, and making performance optimizations for rendering based challenges, all of which will ultimately help in bringing the richly imagined world of BioShock to life. What You’ll Do: • Execute creative technical solutions based on concept art and art direction. • Translate Art…",
     "hasDesc": true
   },
@@ -5300,7 +5372,8 @@ window.JOBS = [
     "title": "Senior Site Reliability Engineer",
     "company": "2K Games",
     "locations": [
-      "Burnaby, Canada"
+      "Burnaby, Canada",
+      "Bangalore, India"
     ],
     "remote": false,
     "rkind": null,
@@ -5324,17 +5397,18 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-2k-games-7780664003",
+    "id": "gh-2k-games-7767183003",
     "title": "Senior Systems Engineer",
     "company": "2K Games",
     "locations": [
+      "Novato, United States",
       "Austin, United States"
     ],
     "remote": false,
-    "rkind": "hybrid",
+    "rkind": null,
     "salary": null,
     "posted": "2026-09-10",
-    "url": "https://job-boards.greenhouse.io/2k/jobs/7780664003",
+    "url": "https://job-boards.greenhouse.io/2k/jobs/7767183003",
     "site": "2k.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -5346,8 +5420,7 @@ window.JOBS = [
       "Perforce"
     ],
     "seen": "2026-09-11",
-    "hasRu": true,
-    "descShort": "Who We Are At 2K, we create some of the most iconic and culture-shaping video games in entertainment, including NBA® 2K , one of the top-selling franchises in the world, and legendary titles like BioShock® , Borderlands® , Mafia , Sid Meier’s Civilization ® , and XCOM® , as well as fan favorites WWE® 2K , TopSpin® , and PGA TOUR® 2K. We build unforgettable experiences by pushing the boundaries of creativity, authenticity and innovation across every genre. Our portfolio is brought to life by some of the most influential game development studios in the world. Visual Concepts, Firaxis Games, Hangar 13, Cat Daddy Games, 31st Union, Cloud Chamber, Gearbox, HB Studios, and 2K SportsLab create…",
+    "descShort": "Who We Are At 2K, we create some of the most iconic and culture-shaping video games in entertainment, including NBA® 2K , one of the top-selling franchises in the world, and legendary titles like BioShock® , Borderlands® , Mafia , Sid Meier’s Civilization ® , and XCOM® , as well as fan favorites WWE® 2K , TopSpin® , and PGA TOUR® 2K . We build unforgettable experiences by pushing the boundaries of creativity, authenticity and innovation across every genre. Our portfolio is brought to life by some of the most influential game development studios in the world. Visual Concepts, Firaxis Games, Hangar 13, Cat Daddy Games, 31st Union, Cloud Chamber, Gearbox, HB Studios, and 2K SportsLab create…",
     "hasDesc": true
   },
   {
@@ -5463,7 +5536,7 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-2k-games-7807539003",
+    "id": "gh-2k-games-7829580003",
     "title": "Staff Platform Engineer",
     "company": "2K Games",
     "locations": [
@@ -5473,7 +5546,7 @@ window.JOBS = [
     "rkind": null,
     "salary": null,
     "posted": "2026-09-10",
-    "url": "https://job-boards.greenhouse.io/2k/jobs/7807539003",
+    "url": "https://job-boards.greenhouse.io/2k/jobs/7829580003",
     "site": "2k.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -5487,6 +5560,7 @@ window.JOBS = [
       "Kubernetes"
     ],
     "seen": "2026-09-11",
+    "hasRu": true,
     "descShort": "Who We Are At 2K, we create some of the most iconic and culture-shaping video games in entertainment, including NBA® 2K, one of the top-selling franchises in the world, and legendary titles like BioShock®, Borderlands®, Mafia, Sid Meier’s Civilization®, and XCOM®, as well as fan favorites WWE® 2K, TopSpin®, and PGA TOUR® 2K. We build unforgettable experiences by pushing the boundaries of creativity, authenticity and innovation across every genre. Our portfolio is brought to life by some of the most influential game development studios in the world. Visual Concepts, Firaxis Games, Hangar 13, Cat Daddy Games, 31st Union, Cloud Chamber, Gearbox, HB Studios, and 2K SportsLab create world-class…",
     "hasDesc": true
   },
@@ -5525,7 +5599,8 @@ window.JOBS = [
     "title": "Lead Technical Artist  - Shaders",
     "company": "Hangar 13",
     "locations": [
-      "Brno, Czechia"
+      "Brno, Czechia",
+      "Brighton, United Kingdom"
     ],
     "remote": false,
     "rkind": "hybrid",
@@ -6111,25 +6186,28 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-epic-games-5998666004",
+    "id": "gh-epic-games-5995635004",
     "title": "Influencer Marketing Director",
     "company": "Epic Games",
-    "locations": [],
+    "locations": [
+      "Cary, United States"
+    ],
     "remote": false,
     "rkind": null,
     "salary": "$ 178 214 – 261 381",
     "posted": "2026-09-10",
-    "url": "https://epicgames.com/careers/jobs/5998666004?gh_jid=5998666004",
+    "url": "https://epicgames.com/careers/jobs/5995635004?gh_jid=5995635004",
     "site": "epicgames.com",
     "source": "greenhouse",
     "industry": "gamedev",
     "role": "Маркетинг",
     "grade": "Lead",
     "spec": null,
-    "payMin": 178214,
-    "payMax": 261381,
-    "stack": [],
+    "stack": [
+      "Unreal"
+    ],
     "seen": "2026-09-11",
+    "hasRu": true,
     "descShort": "WHAT MAKES US EPIC? At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating. Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development. MARKETING What We Do We deliver the most innovative gaming experiences possible to players around the world. Whether through community outreach, world-class events, or partnership…",
     "hasDesc": true
   },
@@ -6243,7 +6321,8 @@ window.JOBS = [
     "title": "Gameplay Engineer",
     "company": "Cloud Chamber",
     "locations": [
-      "Montréal, Canada"
+      "Montréal, Canada",
+      "Novato, United States"
     ],
     "remote": false,
     "rkind": null,
@@ -6270,7 +6349,8 @@ window.JOBS = [
     "title": "Lead Animator",
     "company": "Cloud Chamber",
     "locations": [
-      "Novato, United States"
+      "Novato, United States",
+      "Montréal, Canada"
     ],
     "remote": false,
     "rkind": null,
@@ -6296,7 +6376,8 @@ window.JOBS = [
     "title": "Lead Character Artist",
     "company": "Cloud Chamber",
     "locations": [
-      "Novato, United States"
+      "Novato, United States",
+      "Montréal, Canada"
     ],
     "remote": false,
     "rkind": null,
@@ -6322,17 +6403,18 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-cloud-chamber-7812708003",
+    "id": "gh-cloud-chamber-7812706003",
     "title": "Lead Level Artist",
     "company": "Cloud Chamber",
     "locations": [
+      "Montréal, Canada",
       "Novato, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-10",
-    "url": "https://job-boards.greenhouse.io/cloudchamberen/jobs/7812708003",
+    "url": "https://job-boards.greenhouse.io/cloudchamberen/jobs/7812706003",
     "site": "cloudchambergames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -6348,7 +6430,6 @@ window.JOBS = [
       "Photoshop"
     ],
     "seen": "2026-09-11",
-    "hasRu": true,
     "descShort": "As a Lead Level Artist at Cloud Chamber you will join our talented group of developers and lead a team of artists responsible for creating compelling, stylized, high-quality level art and immersive world-building under the guidance of the Art Director and Associate Art Director. As a leader, your role is to build and foster a collaborative process, and share your vast knowledge of tools and best practices with your team. As an artist, your years of experience in the games industry have given you a solid understanding of form and composition as well as the ability to skillfully work within constraints and harmoniously collaborate with other departments. You will be asked to use all the tools…",
     "hasDesc": true
   },
@@ -6357,7 +6438,8 @@ window.JOBS = [
     "title": "Lead Lighting Artist",
     "company": "Cloud Chamber",
     "locations": [
-      "Montréal, Canada"
+      "Montréal, Canada",
+      "Novato, United States"
     ],
     "remote": false,
     "rkind": null,
@@ -6379,17 +6461,18 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-cloud-chamber-7731296003",
+    "id": "gh-cloud-chamber-7731294003",
     "title": "Senior Level Artist",
     "company": "Cloud Chamber",
     "locations": [
+      "Montréal, Canada",
       "Novato, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-10",
-    "url": "https://job-boards.greenhouse.io/cloudchamberen/jobs/7731296003",
+    "url": "https://job-boards.greenhouse.io/cloudchamberen/jobs/7731294003",
     "site": "cloudchambergames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -6400,21 +6483,23 @@ window.JOBS = [
       "Unreal"
     ],
     "seen": "2026-09-11",
+    "hasRu": true,
     "descShort": "As a Senior Level Artist at Cloud Chamber, you will join our talented development team to shape the next installment of the BioShock franchise. In this role, you’ll collaborate with a passionate group of game developers to construct visually stunning and gameplay-enhancing game worlds, create and maintain modular kits to optimally build believable and detailed spaces, and propel the narrative through environmental storytelling, bringing the richly imagined world of BioShock to life. What You’ll Do: • Collaborate closely with the Level Design, Modeling, Narrative, Concept, Combat, and Cinematic teams. • Create believable, functional, and visually strong environments from scratch. • Gather…",
     "hasDesc": true
   },
   {
-    "id": "gh-cloud-chamber-7793258003",
+    "id": "gh-cloud-chamber-7793260003",
     "title": "Senior Level Designer",
     "company": "Cloud Chamber",
     "locations": [
+      "Novato, United States",
       "Montréal, Canada"
     ],
     "remote": false,
     "rkind": "hybrid",
     "salary": null,
     "posted": "2026-09-10",
-    "url": "https://job-boards.greenhouse.io/cloudchamberen/jobs/7793258003",
+    "url": "https://job-boards.greenhouse.io/cloudchamberen/jobs/7793260003",
     "site": "cloudchambergames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -6425,6 +6510,7 @@ window.JOBS = [
       "Unreal"
     ],
     "seen": "2026-09-11",
+    "hasRu": true,
     "descShort": "As a Senior Level Designer at Cloud Chamber, you will be responsible for blocking out the world and crafting the player experience within the stunning narrative experience and systems-driven world of BioShock. At your core you are collaborative, compassionate, and authentic; a dedicated designer with a passion for creating memorable, immersive player experiences. You will be an integral part of a design team that is breathing life into a new and fantastical world. What You’ll Do: • Use Blueprint scripting to create gameplay content. • Design and block out world geometry. • Collaborate closely with world architects on layout, and other teams as needed, to implement the creative vision of the…",
     "hasDesc": true
   },
@@ -6515,11 +6601,12 @@ window.JOBS = [
     "title": "Animation Tools Programmer (All Levels)",
     "company": "Rockstar Games",
     "locations": [
-      "Edinburgh, United Kingdom"
+      "Edinburgh, United Kingdom",
+      "Oakville, Canada"
     ],
     "remote": false,
     "rkind": null,
-    "salary": null,
+    "salary": "$ 85 000 – 120 000",
     "posted": "2026-09-10",
     "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7618407003",
     "site": "rockstargames.com",
@@ -6538,17 +6625,21 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-rockstar-games-7787467003",
+    "id": "gh-rockstar-games-7771376003",
     "title": "Associate Principal Threat Intelligence Analyst",
     "company": "Rockstar Games",
     "locations": [
+      "Manhattan, United States",
+      "Andover, United States",
+      "Dundee, United Kingdom",
+      "Oakville, Canada",
       "Carlsbad, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 125 000 – 150 000",
     "posted": "2026-09-10",
-    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7787467003",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7771376003",
     "site": "rockstargames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -6562,6 +6653,7 @@ window.JOBS = [
       "SQL"
     ],
     "seen": "2026-09-11",
+    "hasRu": true,
     "descShort": "At Rockstar Games, we create world-class entertainment experiences. Become part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry. Rockstar is on the lookout for a passionate Associate Principal Threat Intelligence Analyst to join our growing Game Security team. This role will be responsible for identifying and analyzing potential threats to Rockstar’s Live Service titles as well as the organization at large. The successful candidate will have a strong understanding of…",
     "hasDesc": true
   },
@@ -6618,23 +6710,27 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-rockstar-games-7694184003",
+    "id": "gh-rockstar-games-7693094003",
     "title": "Senior Technical Artist: Procedural Art",
     "company": "Rockstar Games",
     "locations": [
+      "Oakville, Canada",
+      "Carlsbad, United States",
       "Leeds, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
-    "salary": null,
+    "salary": "$ 105 000 – 115 000",
     "posted": "2026-09-10",
-    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7694184003",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7693094003",
     "site": "rockstargames.com",
     "source": "greenhouse",
     "industry": "gamedev",
     "role": "Технический художник",
     "grade": "Senior",
     "spec": null,
+    "payMin": 105000,
+    "payMax": 115000,
     "stack": [
       "C++",
       "Python",
@@ -6642,8 +6738,7 @@ window.JOBS = [
       "ZBrush"
     ],
     "seen": "2026-09-11",
-    "hasRu": true,
-    "descShort": "At Rockstar Games, we create world-class entertainment experiences. Become part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry. Rockstar is on the lookout for a talented Technical Artist who possess a passion for technology and innovation. This is a full-time, permanent and in-office position based out of Rockstar’s unique game development studio in the heart of Leeds, England. WHAT WE DO • The Rockstar Games Technical Art team creates, maintains and enhances tools and…",
+    "descShort": "At Rockstar Games, we create world-class entertainment experiences. Become part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry. Rockstar is on the lookout for a talented Technical Artist who possess a passion for technology and innovation. This is a full-time, in-office position based out of Rockstar’s unique game development studio in Oakville, ON. WHAT WE DO • The Rockstar Games Technical Art team creates, maintains and enhances tools and workflows for artists across our…",
     "hasDesc": true
   },
   {
@@ -6651,7 +6746,8 @@ window.JOBS = [
     "title": "Senior Web Engineer",
     "company": "Rockstar Games",
     "locations": [
-      "Manhattan, United States"
+      "Manhattan, United States",
+      "Andover, United States"
     ],
     "remote": false,
     "rkind": null,
@@ -7143,7 +7239,9 @@ window.JOBS = [
     "title": "ActionScript UI Developer (World of Tanks Console)",
     "company": "Wargaming",
     "locations": [
-      "Vilnius"
+      "Vilnius",
+      "Nicosia",
+      "Belgrade"
     ],
     "remote": false,
     "rkind": null,
@@ -7166,40 +7264,21 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-tripledot-belka-4944287101",
-    "title": "Game Designer (Hybrid Casual)",
-    "company": "Tripledot / Belka",
-    "locations": [
-      "Minsk"
-    ],
-    "remote": false,
-    "rkind": "hybrid",
-    "salary": null,
-    "posted": "2026-09-09",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4944287101",
-    "site": "tripledotstudios.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Геймдизайн",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-11",
-    "descShort": "Who are we? Tripledot Studios is one of the largest independent mobile games companies in the world. We are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios. Our expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users. Tripledot’s guiding principle is that when people love what they do, what they do will be loved by others. We’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games. Our ambition is to be the most successful games company in the world, and…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-tripledot-belka-4971838101",
+    "id": "gh-tripledot-belka-4970870101",
     "title": "Game Producer (Hybrid Casual)",
     "company": "Tripledot / Belka",
     "locations": [
-      "Serbia"
+      "Minsk",
+      "Serbia",
+      "Limassol",
+      "Tblisi",
+      "Barcelona"
     ],
     "remote": false,
     "rkind": "hybrid",
     "salary": null,
     "posted": "2026-09-09",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4971838101",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4970870101",
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -7258,60 +7337,6 @@ window.JOBS = [
     "stack": [],
     "seen": "2026-09-11",
     "descShort": "ABOUT YOU We are looking for a Senior QA Engineer who is meticulous, technically sharp, and forward-thinking to join our engineering team. You thrive in fast-paced, agile environments and are passionate about ensuring quality at every stage of the development lifecycle. You are not only confident in manual testing but also eager to integrate AI driven testing tools and workflows to elevate productivity, test coverage, and defect detection. You bring deep expertise in exploratory and structured testing, contribute to team best practices, and are proactive in monitoring production behaviour and user experiences. You stay curious about emerging tools and technologies, especially AI, and know…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-keen-software-house-4971571101",
-    "title": "Senior Marketing Artist (Space Engineers Franchise)",
-    "company": "Keen Software House",
-    "locations": [
-      "Prague, Czech Republic"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": null,
-    "posted": "2026-09-09",
-    "url": "https://job-boards.eu.greenhouse.io/keensoftwarehouseas/jobs/4971571101",
-    "site": "keenswh.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Арт",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "Unity",
-      "Unreal",
-      "Blender",
-      "Photoshop",
-      "Figma"
-    ],
-    "seen": "2026-09-11",
-    "descShort": "At Keen Software House, we develop large-scale sandbox simulation games like Space Engineers 1 and Space Engineers 2, built around engineering, construction, destruction, physics, emergent gameplay, and player creativity, together with the proprietary technology that powers them. We are looking for a Senior Marketing Artist to join our international team working on Space Engineers and Space Engineers 2. We are looking for a strong visual artist who can take real ownership of how Space Engineers is presented across marketing channels. You will turn in-game content, screenshots, 3D assets, and ideas into high-quality promotional visuals, while also actively helping define what our marketing…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-keen-software-house-4971867101",
-    "title": "Senior UX Designer (Space Engineers Franchise)",
-    "company": "Keen Software House",
-    "locations": [
-      "Prague, Czech Republic"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": null,
-    "posted": "2026-09-09",
-    "url": "https://job-boards.eu.greenhouse.io/keensoftwarehouseas/jobs/4971867101",
-    "site": "keenswh.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "Figma"
-    ],
-    "seen": "2026-09-11",
-    "descShort": "At Keen Software House, we develop large-scale sandbox simulation games like Space Engineers 1 and Space Engineers 2, built around engineering, construction, destruction, physics, emergent gameplay, and player creativity, together with the proprietary technology that powers them. We are looking for a Senior UX Designer to join our international team working across Space Engineers and Space Engineers 2. Space Engineers is a complex sandbox game built around engineering, construction, exploration, survival, and player creativity. That complexity is part of what makes the game unique - but it also creates significant UX challenges. We are looking for someone who can take real ownership of how…",
     "hasDesc": true
   },
   {
@@ -8129,7 +8154,7 @@ window.JOBS = [
     ],
     "remote": false,
     "rkind": null,
-    "salary": null,
+    "salary": "$ 210 445 – 308 652",
     "posted": "2026-09-09",
     "url": "https://epicgames.com/careers/jobs/5763801004?gh_jid=5763801004",
     "site": "epicgames.com",
@@ -8542,17 +8567,19 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-rockstar-games-7575962003",
+    "id": "gh-rockstar-games-7578722003",
     "title": "Senior Software Engineer, Data Engineering",
     "company": "Rockstar Games",
     "locations": [
+      "Andover, United States",
+      "Carlsbad, United States",
       "Manhattan, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-09",
-    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7575962003",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7578722003",
     "site": "rockstargames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -8569,17 +8596,18 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-rockstar-games-7734679003",
+    "id": "gh-rockstar-games-7711702003",
     "title": "Software Engineer (C#/.NET)",
     "company": "Rockstar Games",
     "locations": [
+      "Manhattan, United States",
       "Carlsbad, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 101 100 – 134 300",
     "posted": "2026-09-09",
-    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7734679003",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7711702003",
     "site": "rockstargames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -8595,7 +8623,8 @@ window.JOBS = [
       "Perforce"
     ],
     "seen": "2026-09-11",
-    "descShort": "At Rockstar Games, we create world-class entertainment experiences. Become part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry. Rockstar is on the lookout for a passionate Software Engineer who considers software development to be a craft, and possess a passion for solving complex problems at scale. This is a full-time, in-office position based out of Rockstar’s new state-of-the-art game development studio in Carlsbad, CA. WHAT WE DO • The Rockstar Games Online Services team…",
+    "hasRu": true,
+    "descShort": "At Rockstar Games, we create world-class entertainment experiences. Become part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry. Rockstar is on the lookout for a passionate Software Engineer who considers software development to be a craft, and possess a passion for solving complex problems at scale. This is a full-time, in-office position based out of Rockstar’s NYC headquarters in Downtown Manhattan. WHAT WE DO • The Rockstar Games Online Services team creates connected…",
     "hasDesc": true
   },
   {
@@ -9607,17 +9636,18 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-wargaming-7956125",
+    "id": "gh-wargaming-7956130",
     "title": "Game Data Analyst (World of Warships, PC)",
     "company": "Wargaming",
     "locations": [
+      "Nicosia",
       "Belgrade"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-08",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7956125",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7956130",
     "site": "wargaming.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -9659,17 +9689,18 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-wargaming-8125555",
+    "id": "gh-wargaming-8125550",
     "title": "Manual QA Engineer (Global IT Products)",
     "company": "Wargaming",
     "locations": [
+      "Belgrade",
       "Nicosia"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-08",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8125555",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8125550",
     "site": "wargaming.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -9680,6 +9711,7 @@ window.JOBS = [
       "SQL"
     ],
     "seen": "2026-09-11",
+    "hasRu": true,
     "descShort": "Job Overview Wargaming is looking for a Manual QA Engineer to join the Global IT Products department and help ensure the quality of internal corporate systems and services. You will work with a variety of products, from web applications to complex microservices and integrations, applying testing approaches and techniques based on the specific needs of each product. The role offers an opportunity to work with complex business logic, large datasets, and different types of internal systems while taking ownership of the quality of products. We also value initiative: while the core tools and approaches are defined by each product's needs, we encourage QA Engineers to identify opportunities for…",
     "hasDesc": true
   },
@@ -10375,6 +10407,63 @@ window.JOBS = [
     "hasDesc": true
   },
   {
+    "id": "gh-epic-games-6099870004",
+    "title": "Senior Technical Artist",
+    "company": "Epic Games",
+    "locations": [
+      "Montreal, Canada",
+      "Cary, United States",
+      "Porto Alegre, Brazil"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 151 585 – 252 641",
+    "posted": "2026-09-08",
+    "url": "https://epicgames.com/careers/jobs/6099870004?gh_jid=6099870004",
+    "site": "epicgames.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Технический художник",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unreal",
+      "Python",
+      "Houdini",
+      "Substance"
+    ],
+    "seen": "2026-09-11",
+    "descShort": "WHAT MAKES US EPIC? At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating. Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development. ART What We Do Push your artistic talent to the limit on a team of world-class environment, character and concept artists who strive to innovate and inspire. What You'll Do Epic is…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-scopely-5417866008",
+    "title": "Creative Marketing Manager",
+    "company": "Scopely",
+    "locations": [
+      "Barcelona, Spain",
+      "London, United Kingdom",
+      "Shanghai, China"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-08",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5417866008?gh_jid=5417866008",
+    "site": "scopely.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Маркетинг",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Photoshop"
+    ],
+    "seen": "2026-09-11",
+    "descShort": "Scopely is looking for a Creative Marketing Manager to join an unannounced title. This role can be based remotely in the UK or from our Barcelona hub on a hybrid basis. At Scopely, we care deeply about what we do and want to inspire play, every day - whether in our work environments alongside our talented colleagues, or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily. We are in the development stages on one of our new unannounced projects. Looking for passionate game makers to collaborate, get in early and make their…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-scopely-5413578008",
     "title": "Executive Producer, Pikmin Bloom",
     "company": "Scopely",
@@ -10427,7 +10516,8 @@ window.JOBS = [
     "title": "Producer - MONOPOLY GO!",
     "company": "Scopely",
     "locations": [
-      "Culver City, United States"
+      "Culver City, United States",
+      "United States"
     ],
     "remote": false,
     "rkind": null,
@@ -10669,17 +10759,19 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-twitch-8784760002",
+    "id": "gh-twitch-8784759002",
     "title": "Sr. Engineering Manager, Android",
     "company": "Twitch",
     "locations": [
-      "New York City"
+      "Seattle, United States",
+      "New York City",
+      "San Francisco, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-08",
-    "url": "https://job-boards.greenhouse.io/twitch/jobs/8784760002",
+    "url": "https://job-boards.greenhouse.io/twitch/jobs/8784759002",
     "site": "twitch.tv",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -10692,17 +10784,18 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-wargaming-8124666",
+    "id": "gh-wargaming-8124661",
     "title": "Sr Performance Automation QA Engineer (World of Warships, PC)",
     "company": "Wargaming",
     "locations": [
+      "Belgrade",
       "Nicosia"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-07",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8124666",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8124661",
     "site": "wargaming.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -10716,6 +10809,7 @@ window.JOBS = [
       "Docker"
     ],
     "seen": "2026-09-11",
+    "hasRu": true,
     "descShort": "Job Overview We are looking for a Senior Performance QA Engineer with experience in GameDev to join our World of Warships PC team. This position is open in our Belgrade or Nicosia office. In this role, you’ll focus on performance testing and automation, helping us identify performance bottlenecks and ensure a smooth and stable experience for our players. You’ll work closely with QA and development teams to investigate, analyze, and improve game performance. If you’re enjoy sharing your expertise and learning from others, and want to contribute to the quality of a large-scale PC game, we’d love to hear from you. Reports to Lead Automation QA Engineer What will you do? • Develop and maintain…",
     "hasDesc": true
   },
@@ -12214,7 +12308,10 @@ window.JOBS = [
     "id": "gh-epic-games-6181223004",
     "title": "Senior Gameplay Programmer",
     "company": "Epic Games",
-    "locations": [],
+    "locations": [
+      "Cary, United States",
+      "Montreal, Canada"
+    ],
     "remote": false,
     "rkind": null,
     "salary": "$ 190 010 – 278 682",
@@ -12610,7 +12707,8 @@ window.JOBS = [
     "title": "Senior Marketing Analyst",
     "company": "Hutch Games",
     "locations": [
-      "Dundee, United Kingdom"
+      "Dundee, United Kingdom",
+      "London, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
@@ -12683,7 +12781,9 @@ window.JOBS = [
     "id": "gh-tripledot-belka-4965778101",
     "title": "Game Designer - Lion Studios",
     "company": "Tripledot / Belka",
-    "locations": [],
+    "locations": [
+      "Berlin"
+    ],
     "remote": true,
     "rkind": "zone",
     "salary": null,
@@ -12698,6 +12798,29 @@ window.JOBS = [
     "stack": [
       "Figma"
     ],
+    "seen": "2026-09-11",
+    "descShort": "Who are we? Tripledot Studios is one of the largest independent mobile games companies in the world. We are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios. Our expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users. Tripledot’s guiding principle is that when people love what they do, what they do will be loved by others. We’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games. Our ambition is to be the most successful games company in the world, and…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-tripledot-belka-4965757101",
+    "title": "Product Manager - Lion Studios",
+    "company": "Tripledot / Belka",
+    "locations": [
+      "Berlin"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": null,
+    "posted": "2026-09-02",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4965757101",
+    "site": "tripledotstudios.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Продакт",
+    "grade": null,
+    "spec": null,
+    "stack": [],
     "seen": "2026-09-11",
     "descShort": "Who are we? Tripledot Studios is one of the largest independent mobile games companies in the world. We are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios. Our expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users. Tripledot’s guiding principle is that when people love what they do, what they do will be loved by others. We’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games. Our ambition is to be the most successful games company in the world, and…",
     "hasDesc": true
@@ -12774,23 +12897,25 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-epic-games-6018016004",
+    "id": "gh-epic-games-6026829004",
     "title": "Principal Technical VFX Artist",
     "company": "Epic Games",
-    "locations": [],
+    "locations": [
+      "Montreal, Canada",
+      "Porto Alegre, Brazil",
+      "Cary, United States"
+    ],
     "remote": false,
     "rkind": null,
     "salary": "$ 200 423 – 293 954",
     "posted": "2026-09-02",
-    "url": "https://epicgames.com/careers/jobs/6018016004?gh_jid=6018016004",
+    "url": "https://epicgames.com/careers/jobs/6026829004?gh_jid=6026829004",
     "site": "epicgames.com",
     "source": "greenhouse",
     "industry": "gamedev",
     "role": "VFX",
     "grade": "Lead",
     "spec": null,
-    "payMin": 200423,
-    "payMax": 293954,
     "stack": [
       "Unreal",
       "Python",
@@ -12887,17 +13012,44 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-wargaming-8030704",
+    "id": "gh-wargaming-8030709",
     "title": "Art Director (World of Tanks Console)",
     "company": "Wargaming",
     "locations": [
+      "Nicosia",
+      "Vilnius",
       "Belgrade"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-01",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8030704",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8030709",
+    "site": "wargaming.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Арт",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-09-11",
+    "descShort": "Job Overview We are looking for an Art Director to join Wargaming and be a part of the product team working on World of Tanks Console. The Art Director's role combines high-level creative vision with strategic leadership. You will drive a team of highly professional artists, define the visual identity of the game, and ensure that every feature on console platforms reflects a cohesive and premium look and feel. As a subject matter expert, you will work in close collaboration with game teams to identify, prototype, and implement visual solutions that elevate player experience. Reports to Studio Development Director What will you do? • Provide artistic leadership: Drive the overall vision of…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-wargaming-8064281",
+    "title": "Art Manager/Lead Art Owner (World of Tanks, PC)",
+    "company": "Wargaming",
+    "locations": [
+      "Nicosia",
+      "Belgrade",
+      "Vilnius"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-01",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8064281",
     "site": "wargaming.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -12907,60 +13059,7 @@ window.JOBS = [
     "stack": [],
     "seen": "2026-09-11",
     "hasRu": true,
-    "descShort": "Job Overview We are looking for an Art Director to join Wargaming and be a part of the product team working on World of Tanks Console. The Art Director's role combines high-level creative vision with strategic leadership. You will drive a team of highly professional artists, define the visual identity of the game, and ensure that every feature on console platforms reflects a cohesive and premium look and feel. As a subject matter expert, you will work in close collaboration with game teams to identify, prototype, and implement visual solutions that elevate player experience. Reports to Studio Development Director What will you do? • Provide artistic leadership: Drive the overall vision of…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-wargaming-8064276",
-    "title": "Art Manager/Lead Art Owner (World of Tanks, PC)",
-    "company": "Wargaming",
-    "locations": [
-      "Belgrade"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-09-01",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8064276",
-    "site": "wargaming.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Арт",
-    "grade": "Lead",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-11",
     "descShort": "Job Overview We are looking for a Art Manager/Lead Art Owner to manage a team of 14 Art Owners supporting World of Tanks game production. This role combines people management, resource planning, production coordination, and process improvement to ensure the Art Owner's team operates effectively and the art pipeline runs smoothly. Art Manager/Lead Art Owner will work closely with cross-functional stakeholders - Art Direction, Art Management, Production, Project Management, and Design. Art Manager/Lead Art Owner will oversee workload, balance scope against capacity, support delivery planning, grow team capability, and drive cross-functional alignment. This role requires a strong understanding…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-wargaming-8169078",
-    "title": "CG Artist",
-    "company": "Wargaming",
-    "locations": [
-      "Kyiv"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-09-01",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8169078",
-    "site": "wargaming.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Арт",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Unity",
-      "Unreal",
-      "Maya",
-      "Blender",
-      "ZBrush",
-      "Substance"
-    ],
-    "seen": "2026-09-11",
-    "descShort": "Job Overview Bring your passion for creating precise hard-surface models and realistic vehicles into the world of AAA games. Wargaming Kyiv is looking for a skilled 3D Artist to help bring iconic armored vehicles to life in some of our most well-known titles. If you have a sharp eye for detail, strong modeling expertise, and a solid understanding of vehicle design, we’d love to hear from you. What will you do? • Create high-quality, game-ready 3D assets across a variety of categories, including weapons, vehicles, props, mechanical objects, and other 3D assets. • Work through the asset creation process from modeling and sculpting to texturing and preparing assets for use in the game. • Work…",
     "hasDesc": true
   },
   {
@@ -13075,7 +13174,8 @@ window.JOBS = [
     "title": "Data Engineer",
     "company": "Tripledot / Belka",
     "locations": [
-      "Barcelona"
+      "Barcelona",
+      "Warsaw"
     ],
     "remote": false,
     "rkind": null,
@@ -13098,17 +13198,18 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-tripledot-belka-4953254101",
+    "id": "gh-tripledot-belka-4939207101",
     "title": "Data Scientist",
     "company": "Tripledot / Belka",
     "locations": [
+      "Jakarta",
       "London"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-01",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4953254101",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4939207101",
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -13119,6 +13220,7 @@ window.JOBS = [
       "Python"
     ],
     "seen": "2026-09-11",
+    "hasRu": true,
     "descShort": "Who are we? Tripledot Studios is one of the largest independent mobile games companies in the world. We are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios. Our expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users. Tripledot’s guiding principle is that when people love what they do, what they do will be loved by others. We’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games. Our ambition is to be the most successful games company in the world, and…",
     "hasDesc": true
   },
@@ -13143,6 +13245,32 @@ window.JOBS = [
     "stack": [
       "AWS"
     ],
+    "seen": "2026-09-11",
+    "descShort": "Who are we? Tripledot Studios is one of the largest independent mobile games companies in the world. We are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios. Our expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users. Tripledot’s guiding principle is that when people love what they do, what they do will be loved by others. We’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games. Our ambition is to be the most successful games company in the world, and…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-tripledot-belka-4963495101",
+    "title": "Game Designer (Hybrid Casual)",
+    "company": "Tripledot / Belka",
+    "locations": [
+      "Warsaw",
+      "Limassol",
+      "Tblisi",
+      "Minsk"
+    ],
+    "remote": false,
+    "rkind": "hybrid",
+    "salary": null,
+    "posted": "2026-09-01",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4963495101",
+    "site": "tripledotstudios.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Геймдизайн",
+    "grade": null,
+    "spec": null,
+    "stack": [],
     "seen": "2026-09-11",
     "descShort": "Who are we? Tripledot Studios is one of the largest independent mobile games companies in the world. We are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios. Our expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users. Tripledot’s guiding principle is that when people love what they do, what they do will be loved by others. We’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games. Our ambition is to be the most successful games company in the world, and…",
     "hasDesc": true
@@ -13196,17 +13324,18 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-tripledot-belka-4963621101",
+    "id": "gh-tripledot-belka-4962411101",
     "title": "Lead Product Manager",
     "company": "Tripledot / Belka",
     "locations": [
+      "Dallas",
       "Toronto"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-01",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4963621101",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4962411101",
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -13272,17 +13401,19 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-tripledot-belka-4861471101",
+    "id": "gh-tripledot-belka-4861470101",
     "title": "Playable Ads Developer",
     "company": "Tripledot / Belka",
     "locations": [
-      "Barcelona"
+      "Warsaw",
+      "Barcelona",
+      "Minsk"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-01",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4861471101",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4861470101",
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -13293,22 +13424,22 @@ window.JOBS = [
       "JavaScript"
     ],
     "seen": "2026-09-11",
-    "hasRu": true,
     "descShort": "Who are we? Tripledot Studios is one of the largest independent mobile games companies in the world. We are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios. Our expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users. Tripledot’s guiding principle is that when people love what they do, what they do will be loved by others. We’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games. Our ambition is to be the most successful games company in the world, and…",
     "hasDesc": true
   },
   {
-    "id": "gh-tripledot-belka-4953969101",
+    "id": "gh-tripledot-belka-4954014101",
     "title": "Producer",
     "company": "Tripledot / Belka",
     "locations": [
+      "London",
       "Barcelona"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-01",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4953969101",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4954014101",
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -13317,7 +13448,6 @@ window.JOBS = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-11",
-    "hasRu": true,
     "descShort": "Who are we? Tripledot Studios is one of the largest independent mobile games companies in the world. We are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios. Our expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users. Tripledot’s guiding principle is that when people love what they do, what they do will be loved by others. We’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games. Our ambition is to be the most successful games company in the world, and…",
     "hasDesc": true
   },
@@ -13326,7 +13456,10 @@ window.JOBS = [
     "title": "Product Director (Hybrid Casual)",
     "company": "Tripledot / Belka",
     "locations": [
-      "Warsaw"
+      "Warsaw",
+      "Limassol",
+      "Barcelona",
+      "Minsk"
     ],
     "remote": false,
     "rkind": "hybrid",
@@ -13346,17 +13479,22 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-tripledot-belka-4962280101",
+    "id": "gh-tripledot-belka-4962290101",
     "title": "Product Manager - Engineering",
     "company": "Tripledot / Belka",
     "locations": [
-      "Limassol"
+      "London",
+      "Berlin",
+      "Limassol",
+      "Tblisi",
+      "Barcelona",
+      "Warsaw"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-01",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4962280101",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4962290101",
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -13374,35 +13512,15 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-tripledot-belka-4955754101",
-    "title": "Product Manager - Lion Studios",
-    "company": "Tripledot / Belka",
-    "locations": [
-      "Berlin"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-09-01",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4955754101",
-    "site": "tripledotstudios.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Продакт",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-11",
-    "hasRu": true,
-    "descShort": "Who are we? Tripledot Studios is one of the largest independent mobile games companies in the world. We are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios. Our expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users. Tripledot’s guiding principle is that when people love what they do, what they do will be loved by others. We’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games. Our ambition is to be the most successful games company in the world, and…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-tripledot-belka-4962300101",
     "title": "Senior Ad Monetisation Analyst",
     "company": "Tripledot / Belka",
     "locations": [
-      "Warsaw"
+      "Warsaw",
+      "Berlin",
+      "Barcelona",
+      "London",
+      "Limassol"
     ],
     "remote": false,
     "rkind": null,
@@ -13421,17 +13539,19 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-tripledot-belka-4948638101",
+    "id": "gh-tripledot-belka-4948636101",
     "title": "Senior Animator (Unity)",
     "company": "Tripledot / Belka",
     "locations": [
-      "Limassol"
+      "Minsk",
+      "Limassol",
+      "Tblisi"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-01",
-    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4948638101",
+    "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4948636101",
     "site": "tripledotstudios.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -13443,7 +13563,6 @@ window.JOBS = [
       "Spine"
     ],
     "seen": "2026-09-11",
-    "hasRu": true,
     "descShort": "Who are we? Tripledot Studios is one of the largest independent mobile games companies in the world. We are a multi-award-winning organisation, with a global 2,500+ strong team across 12 studios. Our expanded portfolio includes some of the biggest titles in mobile gaming, collectively reaching top chart positions around the world and engaging over 25 million daily active users. Tripledot’s guiding principle is that when people love what they do, what they do will be loved by others. We’re building a company we’re proud of. One filled with driven, incredibly smart and detail-orientated people, who LOVE making games. Our ambition is to be the most successful games company in the world, and…",
     "hasDesc": true
   },
@@ -13973,17 +14092,19 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-twitch-8625664002",
+    "id": "gh-twitch-8623477002",
     "title": "Data Scientist",
     "company": "Twitch",
     "locations": [
+      "San Francisco, United States",
+      "New York City",
       "Seattle, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-01",
-    "url": "https://job-boards.greenhouse.io/twitch/jobs/8625664002",
+    "url": "https://job-boards.greenhouse.io/twitch/jobs/8623477002",
     "site": "twitch.tv",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -13999,17 +14120,20 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-twitch-8536451002",
+    "id": "gh-twitch-8536449002",
     "title": "Product Marketing Manager: Trust & Safety, Community",
     "company": "Twitch",
     "locations": [
-      "San Francisco, United States"
+      "Seattle, United States",
+      "Irvine, United States",
+      "San Francisco, United States",
+      "New York City"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-01",
-    "url": "https://job-boards.greenhouse.io/twitch/jobs/8536451002",
+    "url": "https://job-boards.greenhouse.io/twitch/jobs/8536449002",
     "site": "twitch.tv",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -14051,17 +14175,20 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-twitch-8647255002",
+    "id": "gh-twitch-8648175002",
     "title": "Senior Product Manager, Platform Core Engineering",
     "company": "Twitch",
     "locations": [
-      "San Francisco, United States"
+      "New York City",
+      "San Francisco, United States",
+      "Seattle, United States",
+      "Irvine, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-01",
-    "url": "https://job-boards.greenhouse.io/twitch/jobs/8647255002",
+    "url": "https://job-boards.greenhouse.io/twitch/jobs/8648175002",
     "site": "twitch.tv",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -14080,7 +14207,8 @@ window.JOBS = [
     "title": "Senior Tax Analyst - Tax Operations",
     "company": "Twitch",
     "locations": [
-      "San Francisco, United States"
+      "San Francisco, United States",
+      "Seattle, United States"
     ],
     "remote": false,
     "rkind": null,
@@ -14099,17 +14227,19 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-twitch-8739185002",
+    "id": "gh-twitch-8739196002",
     "title": "Software Development Engineer, Security Platform",
     "company": "Twitch",
     "locations": [
+      "Irvine, United States",
+      "San Francisco, United States",
       "Seattle, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-01",
-    "url": "https://job-boards.greenhouse.io/twitch/jobs/8739185002",
+    "url": "https://job-boards.greenhouse.io/twitch/jobs/8739196002",
     "site": "twitch.tv",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -14155,17 +14285,18 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-twitch-8747652002",
+    "id": "gh-twitch-8747649002",
     "title": "Software Engineer II, Fintech",
     "company": "Twitch",
     "locations": [
+      "Seattle, United States",
       "New York City"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-01",
-    "url": "https://job-boards.greenhouse.io/twitch/jobs/8747652002",
+    "url": "https://job-boards.greenhouse.io/twitch/jobs/8747649002",
     "site": "twitch.tv",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -14189,7 +14320,8 @@ window.JOBS = [
     "title": "Software Engineer I, Memberships",
     "company": "Twitch",
     "locations": [
-      "San Francisco, United States"
+      "San Francisco, United States",
+      "Seattle, United States"
     ],
     "remote": false,
     "rkind": null,
@@ -14241,17 +14373,19 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-twitch-8686812002",
+    "id": "gh-twitch-8686796002",
     "title": "Sr. Product Manager, Commerce",
     "company": "Twitch",
     "locations": [
+      "San Francisco, United States",
+      "Seattle, United States",
       "Los Angeles, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-01",
-    "url": "https://job-boards.greenhouse.io/twitch/jobs/8686812002",
+    "url": "https://job-boards.greenhouse.io/twitch/jobs/8686796002",
     "site": "twitch.tv",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -14402,27 +14536,28 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-epic-games-6001591004",
+    "id": "gh-epic-games-6001589004",
     "title": "Senior Level Designer",
     "company": "Epic Games",
-    "locations": [],
+    "locations": [
+      "Cary, United States"
+    ],
     "remote": false,
     "rkind": null,
     "salary": "$ 144 535 – 240 891",
     "posted": "2026-08-31",
-    "url": "https://epicgames.com/careers/jobs/6001591004?gh_jid=6001591004",
+    "url": "https://epicgames.com/careers/jobs/6001589004?gh_jid=6001589004",
     "site": "epicgames.com",
     "source": "greenhouse",
     "industry": "gamedev",
     "role": "Геймдизайн",
     "grade": "Senior",
     "spec": null,
-    "payMin": 144535,
-    "payMax": 240891,
     "stack": [
       "Unreal"
     ],
     "seen": "2026-09-11",
+    "hasRu": true,
     "descShort": "WHAT MAKES US EPIC? At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating. Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development. DESIGN What We Do Put your design skills to work at a cutting-edge company that challenges the norm. From character and level design to competitive gameplay and system design, help…",
     "hasDesc": true
   },
@@ -14609,17 +14744,45 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-epic-games-6163851004",
+    "id": "gh-epic-games-6000102004",
+    "title": "UI Artist",
+    "company": "Epic Games",
+    "locations": [
+      "Porto Alegre, Brazil"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-28",
+    "url": "https://epicgames.com/careers/jobs/6000102004?gh_jid=6000102004",
+    "site": "epicgames.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Арт",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unreal",
+      "Photoshop",
+      "Figma"
+    ],
+    "seen": "2026-09-11",
+    "descShort": "WHAT MAKES US EPIC? At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating. Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development. ART What We Do Push your artistic talent to the limit on a team of world-class environment, character and concept artists who strive to innovate and inspire. What You'll Do As a UI…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-epic-games-6174265004",
     "title": "Web Engineer Intern",
     "company": "Epic Games",
     "locations": [
+      "Novi Sad, Serbia",
       "London, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-28",
-    "url": "https://epicgames.com/careers/jobs/6163851004?gh_jid=6163851004",
+    "url": "https://epicgames.com/careers/jobs/6174265004?gh_jid=6174265004",
     "site": "epicgames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -14643,7 +14806,8 @@ window.JOBS = [
     "title": "Senior Product Analyst - MONOPOLY GO!",
     "company": "Scopely",
     "locations": [
-      "Culver City, United States"
+      "Culver City, United States",
+      "United States"
     ],
     "remote": false,
     "rkind": null,
@@ -15379,7 +15543,9 @@ window.JOBS = [
     "title": "IT Support Engineer",
     "company": "Xsolla",
     "locations": [
-      "Berlin, Germany"
+      "Berlin, Germany",
+      "Baku",
+      "Perm"
     ],
     "remote": false,
     "rkind": null,
@@ -15398,28 +15564,56 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-epic-games-6122985004",
+    "id": "gh-epic-games-6122983004",
     "title": "Senior Desktop Applications Engineer",
     "company": "Epic Games",
-    "locations": [],
+    "locations": [
+      "Cary, United States"
+    ],
     "remote": false,
     "rkind": null,
     "salary": "$ 165 686 – 243 007",
     "posted": "2026-08-27",
-    "url": "https://epicgames.com/careers/jobs/6122985004?gh_jid=6122985004",
+    "url": "https://epicgames.com/careers/jobs/6122983004?gh_jid=6122983004",
     "site": "epicgames.com",
     "source": "greenhouse",
     "industry": "gamedev",
     "role": "Программирование",
     "grade": "Senior",
     "spec": null,
-    "payMin": 165686,
-    "payMax": 243007,
     "stack": [
       "Unreal"
     ],
     "seen": "2026-09-11",
+    "hasRu": true,
     "descShort": "WHAT MAKES US EPIC? At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating. Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development. ENGINEERING - EPIC GAMES SERVICES What We Do Driving the plug-in power behind Unreal Engine 5. We bridge connections for licensees and our own internal game teams to online…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-epic-games-6019148004",
+    "title": "Senior Game Security Engineer",
+    "company": "Epic Games",
+    "locations": [
+      "Cary, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-27",
+    "url": "https://epicgames.com/careers/jobs/6019148004?gh_jid=6019148004",
+    "site": "epicgames.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unreal",
+      "C++"
+    ],
+    "seen": "2026-09-11",
+    "hasRu": true,
+    "descShort": "WHAT MAKES US EPIC? At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating. Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development. ECOSEC What We Do Our ECOSEC team provides a safer experience for Epic's users. We work across multiple products and services to improve technology and craft transparent policies so…",
     "hasDesc": true
   },
   {
@@ -15684,7 +15878,8 @@ window.JOBS = [
     "title": "Site Reliability Engineer",
     "company": "Xsolla",
     "locations": [
-      "Russia"
+      "Russia",
+      "Baku"
     ],
     "remote": false,
     "rkind": null,
@@ -15813,7 +16008,9 @@ window.JOBS = [
     "title": "Senior Software Engineer (Gaming Full Stack) - WWE Champions",
     "company": "Scopely",
     "locations": [
-      "United States"
+      "United States",
+      "Mexico City, Mexico",
+      "Canada"
     ],
     "remote": false,
     "rkind": null,
@@ -15991,31 +16188,6 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-wargaming-8156228",
-    "title": "SSE Engineer (World of Tanks, PC & Console)",
-    "company": "Wargaming",
-    "locations": [
-      "Vilnius"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-25",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8156228",
-    "site": "wargaming.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Python"
-    ],
-    "seen": "2026-09-11",
-    "descShort": "Job Overview We are looking for an Server-Side Events Engineer to join the Server-Side Events team. As part of the Operations Management department (LiveOps division), the team’s main goal is to create and support in-game activities for World of Tanks in close cooperation with Development, Localization, Platform, and other teams. The candidate must be ready to work in a rapidly changing environment where concentration and attention to detail are prerequisites for timely and adequate reaction to daily challenges. What will you do? • Check monthly plans for battle missions, in-game events, and specials before their technical implementation • Implement battle missions, in-game events, and…",
-    "hasDesc": true
-  },
-  {
     "id": "lv-larian-studios-67a1c934-14d8-4925-bf10-08f5242fb5ce",
     "title": "Associate Lead Cinematic Animator",
     "company": "Larian Studios",
@@ -16101,7 +16273,7 @@ window.JOBS = [
     ],
     "remote": false,
     "rkind": null,
-    "salary": null,
+    "salary": "$ 223 199 – 327 358",
     "posted": "2026-08-25",
     "url": "https://epicgames.com/careers/jobs/5996485004?gh_jid=5996485004",
     "site": "epicgames.com",
@@ -16116,6 +16288,34 @@ window.JOBS = [
     ],
     "seen": "2026-09-11",
     "descShort": "WHAT MAKES US EPIC? At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating. Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development. ONLINE INFRASTRUCTURE What We Do We enable Epic’s online services teams to build, deploy, and manage services that are used by more than half a billion players around the world. Our…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-epic-games-6161655004",
+    "title": "Technical Designer in Animation",
+    "company": "Epic Games",
+    "locations": [
+      "Montreal, Canada",
+      "Cary, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 129 273 – 189 600",
+    "posted": "2026-08-25",
+    "url": "https://epicgames.com/careers/jobs/6161655004?gh_jid=6161655004",
+    "site": "epicgames.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Анимация",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Unreal",
+      "C++",
+      "Maya"
+    ],
+    "seen": "2026-09-11",
+    "descShort": "WHAT MAKES US EPIC? At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating. Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development. ART What We Do Push your artistic talent to the limit on a team of world-class environment, character and concept artists who strive to innovate and inspire. What You'll Do Epic…",
     "hasDesc": true
   },
   {
@@ -16706,33 +16906,6 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-epic-games-6148213004",
-    "title": "Technical Designer in Animation",
-    "company": "Epic Games",
-    "locations": [
-      "Cary, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-24",
-    "url": "https://epicgames.com/careers/jobs/6148213004?gh_jid=6148213004",
-    "site": "epicgames.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Анимация",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Unreal",
-      "C++",
-      "Maya"
-    ],
-    "seen": "2026-09-11",
-    "descShort": "WHAT MAKES US EPIC? At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating. Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development. ART What We Do Push your artistic talent to the limit on a team of world-class environment, character and concept artists who strive to innovate and inspire. What You'll Do Epic…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-scopely-5281535008",
     "title": "Director, Performance Marketing",
     "company": "Scopely",
@@ -17000,7 +17173,11 @@ window.JOBS = [
     "title": "Marketing Unity Developer (Freelance)",
     "company": "Homa Games",
     "locations": [
-      "Spain"
+      "Spain",
+      "Poland",
+      "Cyprus",
+      "Turkey",
+      "Ukraine"
     ],
     "remote": true,
     "rkind": null,
@@ -17237,7 +17414,9 @@ window.JOBS = [
     "id": "gh-epic-games-6149331004",
     "title": "Director, Player Marketing",
     "company": "Epic Games",
-    "locations": [],
+    "locations": [
+      "Cary, United States"
+    ],
     "remote": false,
     "rkind": null,
     "salary": "$ 209 344 – 307 038",
@@ -17264,11 +17443,12 @@ window.JOBS = [
     "title": "Data Analyst - MARVEL Strike Force",
     "company": "Scopely",
     "locations": [
-      "Canada"
+      "Canada",
+      "United States"
     ],
     "remote": false,
     "rkind": null,
-    "salary": null,
+    "salary": "$ 91 300 – 140 000",
     "posted": "2026-08-21",
     "url": "https://job-boards.greenhouse.io/scopely/jobs/5397611008?gh_jid=5397611008",
     "site": "scopely.com",
@@ -17343,7 +17523,9 @@ window.JOBS = [
     "title": "Senior Producer - Star Trek Fleet Command",
     "company": "Scopely",
     "locations": [
-      "London, United Kingdom"
+      "London, United Kingdom",
+      "Barcelona, Spain",
+      "Dublin, Ireland"
     ],
     "remote": false,
     "rkind": null,
@@ -17358,7 +17540,7 @@ window.JOBS = [
     "spec": null,
     "stack": [],
     "seen": "2026-09-11",
-    "descShort": "Scopely is looking for a Senior Producer to join our Star Trek Fleet Command team based in the UK on a remote basis. At Scopely, we care deeply about what we do and want to inspire play every day - whether in our work environments alongside our talented colleagues or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily. Star Trek Fleet Command's ongoing success goes from strength to strength. Our in-house developed multi-platform 4X MMO was launched in 2018 and continues to evolve, being consistently one of the top 10…",
+    "descShort": "Scopely is looking for a Senior Producer to join our Star Trek Fleet Command team based in Barcelona on a hybrid basis. At Scopely, we care deeply about what we do and want to inspire play every day - whether in our work environments alongside our talented colleagues or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily. Star Trek Fleet Command's ongoing success goes from strength to strength. Our in-house developed multi-platform 4X MMO was launched in 2018 and continues to evolve, being consistently one of the top 10…",
     "hasDesc": true
   },
   {
@@ -17366,7 +17548,8 @@ window.JOBS = [
     "title": "Senior Producer - WWE Champions",
     "company": "Scopely",
     "locations": [
-      "United States"
+      "United States",
+      "Canada"
     ],
     "remote": false,
     "rkind": null,
@@ -17565,7 +17748,9 @@ window.JOBS = [
     "title": "Machine Learning Engineer, Memory",
     "company": "Epic Games",
     "locations": [
-      "London, United Kingdom"
+      "London, United Kingdom",
+      "Porto Alegre, Brazil",
+      "Cary, United States"
     ],
     "remote": false,
     "rkind": null,
@@ -17846,7 +18031,12 @@ window.JOBS = [
     "title": "Lead Economy Designer - RPG",
     "company": "Homa Games",
     "locations": [
-      "Paris, France"
+      "Paris, France",
+      "United Kingdom",
+      "Spain",
+      "Serbia",
+      "Poland",
+      "Cyprus"
     ],
     "remote": true,
     "rkind": null,
@@ -17980,17 +18170,18 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-rockstar-games-7776241003",
+    "id": "gh-rockstar-games-7806700003",
     "title": "Senior Software Engineer, FiveM",
     "company": "Rockstar Games",
     "locations": [
+      "London, United Kingdom",
       "Leeds, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-19",
-    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7776241003",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7806700003",
     "site": "rockstargames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -18001,6 +18192,7 @@ window.JOBS = [
       "C++"
     ],
     "seen": "2026-09-11",
+    "hasRu": true,
     "descShort": "At Rockstar Games, we create world-class entertainment experiences. Become part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry. Rockstar is on the lookout for a talented Software Engineer who possesses a strong interest in all the low-level technology that makes a modern video game tick to support the Cfx.re creator platforms, including FiveM and RedM. As a member of our team, you will need a critical and creative eye capable of putting forth innovative solutions to complex…",
     "hasDesc": true
   },
@@ -18631,11 +18823,41 @@ window.JOBS = [
     "hasDesc": true
   },
   {
+    "id": "gh-wargaming-8108499",
+    "title": "CG Artist",
+    "company": "Wargaming",
+    "locations": [
+      "Kyiv"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-08-17",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8108499",
+    "site": "wargaming.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Арт",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Maya",
+      "ZBrush",
+      "Substance",
+      "Photoshop"
+    ],
+    "seen": "2026-09-11",
+    "hasRu": true,
+    "descShort": "Job Overview Bring your passion for creating precise hard-surface models and realistic vehicles into the world of AAA games. Wargaming Kyiv is looking for a skilled 3D Artist to help bring iconic armored vehicles to life in some of our most well-known titles. If you have a sharp eye for detail, strong modeling expertise, and a solid understanding of vehicle design, we’d love to hear from you. What will you do? • Create high-quality, game-ready 3D assets across a variety of categories, including weapons, vehicles, props, mechanical objects, and other 3D assets. • Work through the asset creation process from modeling and sculpting to texturing and preparing assets for use in the game. • Work…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-wargaming-8129695",
     "title": "Game Designer (World of Tanks PC)",
     "company": "Wargaming",
     "locations": [
-      "Nicosia"
+      "Nicosia",
+      "Vilnius"
     ],
     "remote": false,
     "rkind": null,
@@ -18678,17 +18900,18 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-wargaming-7938112",
+    "id": "gh-wargaming-7938117",
     "title": "Render Engineer (Unannounced Project)",
     "company": "Wargaming",
     "locations": [
+      "Nicosia",
       "Belgrade"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7938112",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7938117",
     "site": "wargaming.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -18699,7 +18922,6 @@ window.JOBS = [
       "C++"
     ],
     "seen": "2026-09-11",
-    "hasRu": true,
     "descShort": "Job Overview Wargaming is looking for a Render Developer to join our Game Engine Development team. This position includes working on development of a cross-platform game engine which is written in C++. What will you do? • Implement new and improve existing graphic features • Refactoring, code optimization, fix graphic bugs • Writing code according to code style • Creation of tech documentation What are we looking for? • 2+ year of experience in commercial C++ development • Experience in any graphics API (DirectX, Vulkan, OpenGL) • Experience in writing shaders (GSL, HLSL) • Basic knowledge of linear algebra (vectors, matrices, quaternions) • Experience in creation of own 3D demo…",
     "hasDesc": true
   },
@@ -18708,7 +18930,9 @@ window.JOBS = [
     "title": "Senior Concept Artist Generalist (World of Tanks: HEAT)",
     "company": "Wargaming",
     "locations": [
-      "Vilnius"
+      "Vilnius",
+      "Nicosia",
+      "Belgrade"
     ],
     "remote": false,
     "rkind": null,
@@ -18760,17 +18984,19 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-wargaming-7837365",
+    "id": "gh-wargaming-7837370",
     "title": "Senior Concept Artist – Vehicles / Props (World of Tanks)",
     "company": "Wargaming",
     "locations": [
+      "Nicosia",
+      "Vilnius",
       "Belgrade"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7837365",
+    "url": "https://job-boards.greenhouse.io/wargamingen/jobs/7837370",
     "site": "wargaming.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -18783,7 +19009,6 @@ window.JOBS = [
       "Photoshop"
     ],
     "seen": "2026-09-11",
-    "hasRu": true,
     "descShort": "Job Overview World of Tanks is looking for a passionate, creative Senior Concept Artist to join our talented team. Our studio fosters a collaborative environment where your ideas are valued, and your contributions will have a direct impact on the game’s success. Our team is a mix of industry veterans and fresh talent, dedicated to pushing the boundaries of what games can be. If you thrive in a dynamic atmosphere and are eager to shape an exciting AAA title from the ground up, we want to hear from you! Join us in creating something truly special in the gaming world. Your next big opportunity awaits! What will you do? • Concept Development: Create innovative and functional designs…",
     "hasDesc": true
   },
@@ -18842,31 +19067,7 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "rc-grid-esports-2709873",
-    "title": "Support Operator EMEA (m/f/x)",
-    "company": "GRID Esports",
-    "locations": [
-      "Wroclaw"
-    ],
-    "remote": true,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-17",
-    "url": "https://grid.recruitee.com/o/support-operator-emea",
-    "source": "recruitee",
-    "site": "grid.gg",
-    "industry": "gamedev",
-    "role": "Поддержка",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-09-11",
-    "hasRu": true,
-    "descShort": "• Do you enjoy helping customers with complex issues? • Are you a champion of customer-first processes? • Do you have an interest in competitive video gaming? If the answers to the above questions are yes, then this role could be ideal for you! In this role, you will join the Support Organization at GRID, a team of 10+ customer-facing Support Agents across the globe, where a professional client-first mentality is crucial to delivering customer service excellence. You will be involved in various activities before, during, and after esports tournaments, working with our partners (Tournament Organizers, Game Publishers) and customers (which include esports, media, and betting household names)…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-epic-games-6001731004",
+    "id": "gh-epic-games-6001733004",
     "title": "Senior Environment Artist",
     "company": "Epic Games",
     "locations": [
@@ -18874,15 +19075,17 @@ window.JOBS = [
     ],
     "remote": false,
     "rkind": null,
-    "salary": null,
+    "salary": "$ 176 262 – 293 770",
     "posted": "2026-08-17",
-    "url": "https://epicgames.com/careers/jobs/6001731004?gh_jid=6001731004",
+    "url": "https://epicgames.com/careers/jobs/6001733004?gh_jid=6001733004",
     "site": "epicgames.com",
     "source": "greenhouse",
     "industry": "gamedev",
     "role": "Арт",
     "grade": "Senior",
     "spec": null,
+    "payMin": 176262,
+    "payMax": 293770,
     "stack": [
       "Unreal",
       "Maya",
@@ -18891,7 +19094,6 @@ window.JOBS = [
       "Substance"
     ],
     "seen": "2026-09-11",
-    "hasRu": true,
     "descShort": "WHAT MAKES US EPIC? At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating. Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development. ART What We Do Push your artistic talent to the limit on a team of world-class environment, character and concept artists who strive to innovate and inspire. What You'll Do Epic…",
     "hasDesc": true
   },
@@ -18900,7 +19102,8 @@ window.JOBS = [
     "title": "Lead Finance Analyst",
     "company": "Scopely",
     "locations": [
-      "London, United Kingdom"
+      "London, United Kingdom",
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
@@ -18918,7 +19121,7 @@ window.JOBS = [
     ],
     "seen": "2026-09-11",
     "hasRu": true,
-    "descShort": "Scopely is seeking an experienced Lead Analyst / Finance Manager to join Product Finance in support of our LIVE Games Portfolio — a group of live-operated, top-grossing mobile games generating meaningful revenue for Scopely. This is a senior, high-visibility role for someone ready to operate as a true finance business partner: owning financial models end-to-end, driving KPI and performance reporting, and initiating the projects that shape how the portfolio is managed. You will partner directly with General Managers and cross-functional stakeholders across game studios, User Acquisition, Data Science and Finance leadership, Accounting, and central teams. You will be a key voice in…",
+    "descShort": "Scopely is seeking an experienced a Lead Finance Analyst/Manager to join Product Finance in support of our LIVE Games Portfolio — a group of live-operated, top-grossing mobile games generating meaningful revenue for Scopely. This is a senior, high-visibility role for someone ready to operate as a true finance business partner: owning financial models end-to-end, driving KPI and performance reporting, and initiating the projects that shape how the portfolio is managed. Based out of our Barcelona office, you will partner directly with General Managers and cross-functional stakeholders across game studios, User Acquisition, Data Science and Finance leadership, Accounting, and central teams.…",
     "hasDesc": true
   },
   {
@@ -19112,17 +19315,19 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-epic-games-6144437004",
+    "id": "gh-epic-games-6144655004",
     "title": "Senior Engine Programmer, Unreal Cloud Services",
     "company": "Epic Games",
     "locations": [
+      "Montreal, Canada",
+      "Cary, United States",
       "London, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-14",
-    "url": "https://epicgames.com/careers/jobs/6144437004?gh_jid=6144437004",
+    "url": "https://epicgames.com/careers/jobs/6144655004?gh_jid=6144655004",
     "site": "epicgames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -19134,27 +19339,30 @@ window.JOBS = [
       "C++"
     ],
     "seen": "2026-09-11",
+    "hasRu": true,
     "descShort": "WHAT MAKES US EPIC? At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating. Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development. ENGINEERING - UNREAL ENGINE What We Do Unreal-powered projects have been on the bleeding edge of real-time entertainment for over 20 years. Our team of engineering experts are…",
     "hasDesc": true
   },
   {
-    "id": "gh-epic-games-6144080004",
+    "id": "gh-epic-games-6144078004",
     "title": "Senior Technical Artist, World and Content Creation",
     "company": "Epic Games",
-    "locations": [],
+    "locations": [
+      "Cary, United States",
+      "Montreal, Canada",
+      "Vancouver, Canada"
+    ],
     "remote": false,
     "rkind": null,
     "salary": "$ 151 585 – 222 324",
     "posted": "2026-08-14",
-    "url": "https://epicgames.com/careers/jobs/6144080004?gh_jid=6144080004",
+    "url": "https://epicgames.com/careers/jobs/6144078004?gh_jid=6144078004",
     "site": "epicgames.com",
     "source": "greenhouse",
     "industry": "gamedev",
     "role": "Технический художник",
     "grade": "Senior",
     "spec": null,
-    "payMin": 151585,
-    "payMax": 222324,
     "stack": [
       "Unity",
       "Unreal",
@@ -19167,17 +19375,19 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-scopely-5390694008",
+    "id": "gh-scopely-5390693008",
     "title": "Game Design Director - Star Trek Fleet Command",
     "company": "Scopely",
     "locations": [
-      "Dublin, Ireland"
+      "Barcelona, Spain",
+      "Dublin, Ireland",
+      "London, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-14",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5390694008?gh_jid=5390694008",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5390693008?gh_jid=5390693008",
     "site": "scopely.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -19190,7 +19400,8 @@ window.JOBS = [
       "SQL"
     ],
     "seen": "2026-09-11",
-    "descShort": "Scopely is looking for a superstar Game Design Director to join our Star Trek Fleet Command team in Dublin, on a hybrid basis. We can support with visa sponsorship and relocation assistance from any location. At Scopely, we care deeply about what we do and want to inspire play, every day – whether in our work environments alongside talented colleagues or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing, and innovating in the mobile games industry, connecting millions of players around the world daily. Star Trek Fleet Command is a standout success in the gaming industry. Launched in 2018, our in-house developed…",
+    "hasRu": true,
+    "descShort": "Scopely is looking for a superstar Game Design Director to join our Star Trek Fleet Command team in the UK, working remotely. At Scopely, we care deeply about what we do and want to inspire play, every day – whether in our work environments alongside talented colleagues or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing, and innovating in the mobile games industry, connecting millions of players around the world daily. Star Trek Fleet Command is a standout success in the gaming industry. Launched in 2018, our in-house developed 4X MMO has continually evolved, earning its place as one of the top-grossing games…",
     "hasDesc": true
   },
   {
@@ -19416,7 +19627,8 @@ window.JOBS = [
     "title": "Lead Gameplay Designer",
     "company": "Epic Games",
     "locations": [
-      "Vancouver, Canada"
+      "Vancouver, Canada",
+      "Cary, United States"
     ],
     "remote": false,
     "rkind": null,
@@ -19466,23 +19678,23 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-epic-games-6130892004",
+    "id": "gh-epic-games-6121292004",
     "title": "Principal Environment Artist",
     "company": "Epic Games",
-    "locations": [],
+    "locations": [
+      "Cary, United States"
+    ],
     "remote": false,
     "rkind": null,
     "salary": "$ 176 262 – 293 770",
     "posted": "2026-08-13",
-    "url": "https://epicgames.com/careers/jobs/6130892004?gh_jid=6130892004",
+    "url": "https://epicgames.com/careers/jobs/6121292004?gh_jid=6121292004",
     "site": "epicgames.com",
     "source": "greenhouse",
     "industry": "gamedev",
     "role": "Арт",
     "grade": "Lead",
     "spec": null,
-    "payMin": 176262,
-    "payMax": 293770,
     "stack": [
       "Unreal",
       "Maya",
@@ -19491,35 +19703,33 @@ window.JOBS = [
       "Photoshop"
     ],
     "seen": "2026-09-11",
-    "hasRu": true,
     "descShort": "WHAT MAKES US EPIC? At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating. Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development. ART What We Do Push your artistic talent to the limit on a team of world-class environment, character and concept artists who strive to innovate and inspire. What You'll Do Epic…",
     "hasDesc": true
   },
   {
-    "id": "gh-epic-games-6118355004",
+    "id": "gh-epic-games-6117889004",
     "title": "Senior Data Scientist",
     "company": "Epic Games",
-    "locations": [],
+    "locations": [
+      "Cary, United States"
+    ],
     "remote": false,
     "rkind": null,
     "salary": "$ 181 477 – 266 166",
     "posted": "2026-08-13",
-    "url": "https://epicgames.com/careers/jobs/6118355004?gh_jid=6118355004",
+    "url": "https://epicgames.com/careers/jobs/6117889004?gh_jid=6117889004",
     "site": "epicgames.com",
     "source": "greenhouse",
     "industry": "gamedev",
     "role": "Аналитика",
     "grade": "Senior",
     "spec": null,
-    "payMin": 181477,
-    "payMax": 266166,
     "stack": [
       "Unreal",
       "Python",
       "SQL"
     ],
     "seen": "2026-09-11",
-    "hasRu": true,
     "descShort": "WHAT MAKES US EPIC? At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating. Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development. ANALYTICS What We Do Our Data & Analytics teams build powerful stories and visuals that inform the games we make, the technology we develop, and business decisions that drive Epic.…",
     "hasDesc": true
   },
@@ -19581,34 +19791,6 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-epic-games-5986042004",
-    "title": "Senior Game Security Engineer",
-    "company": "Epic Games",
-    "locations": [
-      "Cary, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-13",
-    "url": "https://epicgames.com/careers/jobs/5986042004?gh_jid=5986042004",
-    "site": "epicgames.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "Unreal",
-      "C++",
-      "C#",
-      "Java"
-    ],
-    "seen": "2026-09-11",
-    "descShort": "WHAT MAKES US EPIC? At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating. Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development. ECOSEC What We Do Our ECOSEC team provides a safer experience for Epic's users. We work across multiple products and services to improve technology and craft transparent policies so…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-epic-games-6117647004",
     "title": "Senior Machine Learning Engineer",
     "company": "Epic Games",
@@ -19636,7 +19818,7 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-epic-games-5972880004",
+    "id": "gh-epic-games-5973992004",
     "title": "Senior Machine Learning Engineer, Discovery Recommendations",
     "company": "Epic Games",
     "locations": [
@@ -19644,22 +19826,23 @@ window.JOBS = [
     ],
     "remote": false,
     "rkind": null,
-    "salary": null,
+    "salary": "$ 232 666 – 341 243",
     "posted": "2026-08-13",
-    "url": "https://epicgames.com/careers/jobs/5972880004?gh_jid=5972880004",
+    "url": "https://epicgames.com/careers/jobs/5973992004?gh_jid=5973992004",
     "site": "epicgames.com",
     "source": "greenhouse",
     "industry": "gamedev",
     "role": "Программирование",
     "grade": "Senior",
     "spec": "Данные и ML",
+    "payMin": 232666,
+    "payMax": 341243,
     "stack": [
       "Unreal",
       "Python",
       "AWS"
     ],
     "seen": "2026-09-11",
-    "hasRu": true,
     "descShort": "WHAT MAKES US EPIC? At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating. Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development. ANALYTICS What We Do Our Data & Analytics teams build powerful stories and visuals that inform the games we make, the technology we develop, and business decisions that drive Epic.…",
     "hasDesc": true
   },
@@ -19668,11 +19851,12 @@ window.JOBS = [
     "title": "Senior Producer",
     "company": "Epic Games",
     "locations": [
-      "Cary, United States"
+      "Cary, United States",
+      "Montreal, Canada"
     ],
     "remote": false,
     "rkind": null,
-    "salary": null,
+    "salary": "$ 139 737 – 204 948",
     "posted": "2026-08-13",
     "url": "https://epicgames.com/careers/jobs/6121331004?gh_jid=6121331004",
     "site": "epicgames.com",
@@ -19690,27 +19874,29 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-epic-games-6131367004",
+    "id": "gh-epic-games-6122085004",
     "title": "Senior Producer, Art",
     "company": "Epic Games",
-    "locations": [],
+    "locations": [
+      "Cary, United States",
+      "Montreal, Canada"
+    ],
     "remote": false,
     "rkind": null,
     "salary": "$ 139 737 – 204 948",
     "posted": "2026-08-13",
-    "url": "https://epicgames.com/careers/jobs/6131367004?gh_jid=6131367004",
+    "url": "https://epicgames.com/careers/jobs/6122085004?gh_jid=6122085004",
     "site": "epicgames.com",
     "source": "greenhouse",
     "industry": "gamedev",
     "role": "Арт",
     "grade": "Senior",
     "spec": null,
-    "payMin": 139737,
-    "payMax": 204948,
     "stack": [
       "Unreal"
     ],
     "seen": "2026-09-11",
+    "hasRu": true,
     "descShort": "WHAT MAKES US EPIC? At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating. Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development. PRODUCTION What We Do Whether it’s driving a vision from start to finish or collaborating with teams to inspire and deliver projects of Epic quality, Epic’s production teams take…",
     "hasDesc": true
   },
@@ -19741,33 +19927,6 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-epic-games-6143677004",
-    "title": "Senior Technical Artist",
-    "company": "Epic Games",
-    "locations": [],
-    "remote": false,
-    "rkind": null,
-    "salary": "$ 151 585 – 252 641",
-    "posted": "2026-08-13",
-    "url": "https://epicgames.com/careers/jobs/6143677004?gh_jid=6143677004",
-    "site": "epicgames.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Технический художник",
-    "grade": "Senior",
-    "spec": null,
-    "payMin": 151585,
-    "payMax": 252641,
-    "stack": [
-      "Unreal",
-      "Substance"
-    ],
-    "seen": "2026-09-11",
-    "hasRu": true,
-    "descShort": "WHAT MAKES US EPIC? At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating. Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development. ART What We Do Push your artistic talent to the limit on a team of world-class environment, character and concept artists who strive to innovate and inspire. What You'll Do Epic is…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-epic-games-6119874004",
     "title": "Senior Technical Designer in Animation",
     "company": "Epic Games",
@@ -19776,7 +19935,7 @@ window.JOBS = [
     ],
     "remote": false,
     "rkind": null,
-    "salary": null,
+    "salary": "$ 189 482 – 315 803",
     "posted": "2026-08-13",
     "url": "https://epicgames.com/careers/jobs/6119874004?gh_jid=6119874004",
     "site": "epicgames.com",
@@ -19795,39 +19954,13 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-epic-games-5723660004",
-    "title": "UI Artist",
-    "company": "Epic Games",
-    "locations": [
-      "Porto Alegre, Brazil"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-13",
-    "url": "https://epicgames.com/careers/jobs/5723660004?gh_jid=5723660004",
-    "site": "epicgames.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Арт",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Unreal",
-      "Photoshop",
-      "Figma"
-    ],
-    "seen": "2026-09-11",
-    "hasRu": true,
-    "descShort": "WHAT MAKES US EPIC? At the core of Epic’s success are talented, passionate people. Epic prides itself on creating a collaborative, welcoming, and creative environment. Whether it’s building award-winning games or crafting engine technology that enables others to make visually stunning interactive experiences, we’re always innovating. Being Epic means being a part of a team that continually strives to do right by our community and users. We’re constantly innovating to raise the bar of engine and game development. ART What We Do Push your artistic talent to the limit on a team of world-class environment, character and concept artists who strive to innovate and inspire. What You'll Do As a UI…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-scopely-5389045008",
     "title": "Product Marketing Manager - Star Trek",
     "company": "Scopely",
     "locations": [
-      "Dublin, Ireland"
+      "Dublin, Ireland",
+      "Barcelona, Spain",
+      "London, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
@@ -20486,7 +20619,9 @@ window.JOBS = [
     "title": "Senior Product Analyst - Stumble Guys!",
     "company": "Scopely",
     "locations": [
-      "Tel Aviv, Israel"
+      "Tel Aviv, Israel",
+      "Barcelona, Spain",
+      "Dundee, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
@@ -20588,17 +20723,18 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-rockstar-games-7804421003",
+    "id": "gh-rockstar-games-7792318003",
     "title": "Senior Cheat Software Engineer",
     "company": "Rockstar Games",
     "locations": [
+      "Edinburgh, United Kingdom",
       "Dundee, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-11",
-    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7804421003",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7792318003",
     "site": "rockstargames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -20611,6 +20747,7 @@ window.JOBS = [
       "Python"
     ],
     "seen": "2026-09-11",
+    "hasRu": true,
     "descShort": "At Rockstar Games, we create world-class entertainment experiences. Become part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry. Rockstar is on the lookout for a passionate Senior Cheat Software Engineer. As a Senior Cheat Software Engineer you’ll work closely with other engineering and product teams to research and implement solutions that mitigate threats to the player experience while staying ahead of evolving attack vectors. This is a full-time, permanent and in-office…",
     "hasDesc": true
   },
@@ -20648,7 +20785,8 @@ window.JOBS = [
     "title": "Senior Software Engineer, Java",
     "company": "Rockstar Games",
     "locations": [
-      "Dundee, United Kingdom"
+      "Dundee, United Kingdom",
+      "Leeds, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
@@ -20669,17 +20807,18 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-rockstar-games-7739156003",
+    "id": "gh-rockstar-games-7741310003",
     "title": "Senior Web Developer - Tools",
     "company": "Rockstar Games",
     "locations": [
+      "Dundee, United Kingdom",
       "Edinburgh, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-11",
-    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7739156003",
+    "url": "https://job-boards.greenhouse.io/rockstargames/jobs/7741310003",
     "site": "rockstargames.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -20690,7 +20829,6 @@ window.JOBS = [
       "C#"
     ],
     "seen": "2026-09-11",
-    "hasRu": true,
     "descShort": "At Rockstar Games, we create world-class entertainment experiences. Become part of a team working on some of the most rewarding, large-scale creative projects to be found in any entertainment medium - all within an inclusive, highly-motivated environment where you can learn and collaborate with some of the most talented people in the industry. Rockstar is on the lookout for a passionate Web Developer with strong experience in React and .NET to help build modern, scalable applications that help power our complex productions. This role works closely with designers, back-end engineers and stakeholders across the organisation to deliver high quality user experiences. This is a full-time…",
     "hasDesc": true
   },
@@ -21021,7 +21159,12 @@ window.JOBS = [
     "title": "Senior 3D Gameplay Artist (Generalist)",
     "company": "Homa Games",
     "locations": [
-      "Paris, France"
+      "Paris, France",
+      "United Kingdom",
+      "Finland",
+      "Spain",
+      "Poland",
+      "Germany"
     ],
     "remote": true,
     "rkind": null,
@@ -21711,7 +21854,8 @@ window.JOBS = [
     "title": "Client Engineer",
     "company": "Scopely",
     "locations": [
-      "Shanghai, China"
+      "Shanghai, China",
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
@@ -21734,32 +21878,6 @@ window.JOBS = [
     ],
     "seen": "2026-09-11",
     "descShort": "Scopely is looking for a Client Engineer to join an unannounced title based in our Shanghai office (5 days in the office). At Scopely, we care deeply about what we do and want to inspire play, every day - whether in our work environments alongside our talented colleagues, or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily. We are in the early stages of development on an ambitious mobile game in China, and we’re assembling a team of passionate game makers to craft unforgettable characters and immersive adventures that…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-scopely-5276789008",
-    "title": "Creative Marketing Manager",
-    "company": "Scopely",
-    "locations": [
-      "Shanghai, China"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-08-05",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5276789008?gh_jid=5276789008",
-    "site": "scopely.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Маркетинг",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Photoshop"
-    ],
-    "seen": "2026-09-11",
-    "hasRu": true,
-    "descShort": "Scopely is looking for a Creative Marketing Manager to join an unannounced title based in our Shanghai office. At Scopely, we care deeply about what we do and want to inspire play, every day - whether in our work environments alongside our talented colleagues, or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing and innovating the mobile games industry, connecting millions of people around the world daily. We are in the development stages on one of our new unannounced projects. Looking for passionate game makers to collaborate, get in early and make their mark on this exciting venture! What You Will Do You will…",
     "hasDesc": true
   },
   {
@@ -21893,7 +22011,8 @@ window.JOBS = [
     "title": "Senior Analytics Engineer",
     "company": "Scopely",
     "locations": [
-      "Mexico City, Mexico"
+      "Mexico City, Mexico",
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
@@ -22268,7 +22387,8 @@ window.JOBS = [
     "title": "Site Reliability Engineer",
     "company": "Moon Active",
     "locations": [
-      "Warsaw"
+      "Warsaw",
+      "Kyiv"
     ],
     "remote": true,
     "rkind": "hybrid",
@@ -22397,7 +22517,8 @@ window.JOBS = [
     "title": "Environment Artist",
     "company": "Larian Studios",
     "locations": [
-      "Kuala Lumpur"
+      "Kuala Lumpur",
+      "Quebec"
     ],
     "remote": false,
     "rkind": null,
@@ -22420,7 +22541,7 @@ window.JOBS = [
     ],
     "seen": "2026-09-11",
     "hasRu": true,
-    "descShort": "With multiple awards to our name, Larian Studios has proven that we’re dedicated to delivering high-quality role-playing games As we move on to new projects, the studio that brought you Baldur’s Gate 3 & Divinity: Original Sin 2 is looking for an Environment Artist to join the team and help us in crafting the high calibre games our fans have come to expect. RESPONSIBILITIES • Work together with people from a variety of teams such as concept artists, level designers, scripters, VFX artists and technical artists • Translate concept art into 3D assets with Art direction in mind • Ability to decorate levels delivered from level designers to shipping quality • Fundamental understanding of…",
+    "descShort": "(Version française ci-dessous) With multiple awards to our name, Larian Studios has proven that we’re dedicated to delivering high-quality role-playing games As we move on to new projects, the studio that brought you Baldur’s Gate 3 & Divinity: Original Sin 2 is looking for an Environmental Artist to join the team and help us in crafting the high calibre games our fans have come to expect. Responsibilities • Work together with people from a variety of teams such as concept artists, level designers, scripters, VFX artists and technical artists. • Translate concept art into 3D assets with Art direction in mind. • Ability to decorate levels delivered from level designers to shipping quality. •…",
     "hasDesc": true
   },
   {
@@ -22563,7 +22684,9 @@ window.JOBS = [
     "title": "Environment Artist",
     "company": "Rebellion",
     "locations": [
-      "Oxford, United Kingdom"
+      "Oxford, United Kingdom",
+      "Warwick, United Kingdom",
+      "Runcorn, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
@@ -22643,7 +22766,8 @@ window.JOBS = [
     "title": "Senior Level Designer",
     "company": "Gameloft",
     "locations": [
-      "Brisbane, Australia"
+      "Brisbane, Australia",
+      "Paris, France"
     ],
     "remote": false,
     "rkind": null,
@@ -22669,7 +22793,8 @@ window.JOBS = [
     "title": "DevOps Engineer",
     "company": "Moon Active",
     "locations": [
-      "Tel Aviv"
+      "Tel Aviv",
+      "Warsaw"
     ],
     "remote": false,
     "rkind": "hybrid",
@@ -22688,7 +22813,7 @@ window.JOBS = [
     ],
     "seen": "2026-09-11",
     "hasRu": true,
-    "descShort": "Moon Active is one of the world's fastest-growing mobile game companies, providing entertainment to millions of active users across the universe. The company is headquartered in the heart of Tel Aviv. We're looking for a talented DevOps Engineer to join our team. As a DevOps Engineer, you will architect and operate scalable, resilient cloud environments, using advanced automation and AI-based tools to improve system health, reduce manual intervention, and optimize infrastructure costs. Responsibilities - Own the full lifecycle of the Coin Master platform. Ensure high availability, performance, and cost-efficiency across our multi-region AWS environment. - Design and maintain robust…",
+    "descShort": "Moon Active is one of the world's top mobile game companies, our teams leverage cutting-edge technologies to craft fun and interactive games enjoyed by millions worldwide. We produce exciting and engaging entertainment for players across the globe and pride ourselves on developing top-quality casual games that invite and allow players to connect with one another. We're looking for a DevOps Engineer to join our team. As a DevOps Engineer, you will architect and operate scalable, resilient cloud environments, using advanced automation and AI-based tools to improve system health, reduce manual intervention, and optimize infrastructure costs. Responsibilities - Own the full lifecycle of the…",
     "hasDesc": true
   },
   {
@@ -22696,7 +22821,9 @@ window.JOBS = [
     "title": "Unity Developer",
     "company": "Moon Active",
     "locations": [
-      "Tel Aviv"
+      "Tel Aviv",
+      "Kyiv",
+      "Warsaw"
     ],
     "remote": false,
     "rkind": "hybrid",
@@ -22715,7 +22842,7 @@ window.JOBS = [
     ],
     "seen": "2026-09-11",
     "hasRu": true,
-    "descShort": "Moon Active is one of the worlds fastest-growing mobile game companies, providing entertainment to millions of active users across the universe. The company is headquartered in the heart of Tel Aviv. We are looking for an experienced Unity Developer with an AI-first mindset to build next-gen gaming features. You will join a team of engineers building high-scale, real-time game systems, leveraging LLMs for complex logic, automating workflows, and using AI agents to continuously improve how we build. Responsibilities - Manage features from system design and data handling to production deployment. - Design architectures and implement end-to-end client-side features, leveraging LLMs from…",
+    "descShort": "Moon Active is a global leader in mobile gaming, creating entertainment experiences enjoyed by millions of players worldwide. Our games operate at massive scale, processing billions of events daily, and our engineering teams tackle complex technical challenges that push the boundaries of mobile game development. As a Unity Developer you’ll be working on one of the mobile gaming industry’s most complex and successful products, a large-scale, highly-optimized Unity codebase that serves millions of concurrent users globally. This isn’t your typical mobile game project. It’s a sophisticated, ever-evolving system that demands exceptional architectural thinking, performance optimization…",
     "hasDesc": true
   },
   {
@@ -22929,7 +23056,8 @@ window.JOBS = [
     "title": "Game Designer - Playable Ads",
     "company": "Moon Active",
     "locations": [
-      "Tel Aviv"
+      "Tel Aviv",
+      "Kyiv"
     ],
     "remote": true,
     "rkind": null,
@@ -22945,7 +23073,7 @@ window.JOBS = [
     "stack": [],
     "seen": "2026-09-11",
     "hasRu": true,
-    "descShort": "Playable Ads are interactive mini-games that are used to engage and attract new users to download and play our games. As a Game designer you will be in charge of the Game design and polishing the game mechanics and game-flows of our playable ads as well as testing and gaining insights based on how the playable performed. Responsibilities - Design levels for top performing playable ads for leading games, to excite, engage, and bring new players to download our games. - Research and develop innovative game mechanics for playable ads. - Work closely with game developers and provide constructive feedback on playable ad mechanics and experience - Analyze performance data to optimize game…",
+    "descShort": "Playable Ads are interactive mini-games that are used to engage and attract new users to download and play our games. As a Game Designer you will be in charge of the Game design and polishing the game mechanics and game-flows of our playable ads as well as testing and gaining insights based on how the playable performed. Responsibilities: - Design levels for top performing playable ads for leading games, to excite, engage, and bring new players to download our games. - Research and develop innovative game mechanics for playable ads. - Work closely with game developers and provide constructive feedback on playable ad mechanics and experience. - Analyze performance data to optimize game…",
     "hasDesc": true
   },
   {
@@ -23304,7 +23432,8 @@ window.JOBS = [
     "title": "Animator",
     "company": "Rebellion",
     "locations": [
-      "Oxford, United Kingdom"
+      "Oxford, United Kingdom",
+      "Warwick, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
@@ -23328,39 +23457,12 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "wk-rebellion-14D001A0EB",
-    "title": "Junior Animator",
-    "company": "Rebellion",
-    "locations": [
-      "Oxford, United Kingdom"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-07-23",
-    "url": "https://apply.workable.com/j/14D001A0EB",
-    "source": "workable",
-    "site": "rebellion.com",
-    "industry": "gamedev",
-    "role": "Анимация",
-    "grade": "Junior",
-    "spec": null,
-    "reloc": true,
-    "permit": true,
-    "stack": [
-      "Maya"
-    ],
-    "seen": "2026-09-11",
-    "hasRu": true,
-    "descShort": "We want you to #JOINTHEREBELLION! For 30 years we’ve been independently developing and publishing incredible video games at our multiple studios founded by Jason & Chris Kingsley, but Rebellion is more than just games. We have our own film studio, we create board games, publish books, and through 2000AD, publish comics and graphic novels such as the amazing Judge Dredd. Join our passionate team as a Junior Animator and lend your talents to an exciting, yet-to-be-revealed project! This is a fantastic chance to play a pivotal role in a venture that builds upon Rebellion's legacy of success. In the role of Junior Animator, you'll craft captivating gameplay animations for our projects, ensuring…",
-    "hasDesc": true
-  },
-  {
     "id": "wk-rebellion-26BEC98565",
     "title": "Senior Animator",
     "company": "Rebellion",
     "locations": [
-      "Oxford, United Kingdom"
+      "Oxford, United Kingdom",
+      "Warwick, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
@@ -23388,11 +23490,12 @@ window.JOBS = [
     "title": "Senior Network/Infrastructure engineer",
     "company": "Xsolla",
     "locations": [
-      "Baku"
+      "Baku",
+      "Montreal"
     ],
     "remote": false,
     "rkind": null,
-    "salary": null,
+    "salary": "120 000 CA$ – 160 000 CA$",
     "posted": "2026-07-22",
     "url": "https://jobs.lever.co/xsolla/1c009f86-3295-4ac2-8257-b4833738f9ab",
     "source": "lever",
@@ -23836,7 +23939,8 @@ window.JOBS = [
     "title": "Level Designer - Puzzle Games",
     "company": "Voodoo",
     "locations": [
-      "Paris"
+      "Paris",
+      "Istanbul"
     ],
     "remote": true,
     "rkind": null,
@@ -24365,7 +24469,11 @@ window.JOBS = [
     "title": "AI-First Engineering Intern",
     "company": "Xsolla",
     "locations": [
-      "Los Angeles, United States"
+      "Los Angeles, United States",
+      "Raleigh, United States",
+      "Montreal",
+      "Moscow",
+      "Perm"
     ],
     "remote": false,
     "rkind": null,
@@ -24684,7 +24792,9 @@ window.JOBS = [
     "title": "Lead VFX Artist",
     "company": "Rebellion",
     "locations": [
-      "Oxford, United Kingdom"
+      "Oxford, United Kingdom",
+      "Warwick, United Kingdom",
+      "Runcorn, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
@@ -24714,7 +24824,8 @@ window.JOBS = [
     "title": "Senior Online Developer (JavaScript)",
     "company": "Rebellion",
     "locations": [
-      "Oxford, United Kingdom"
+      "Oxford, United Kingdom",
+      "Warwick, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
@@ -24745,7 +24856,9 @@ window.JOBS = [
     "title": "Senior VFX Artist",
     "company": "Rebellion",
     "locations": [
-      "Oxford, United Kingdom"
+      "Oxford, United Kingdom",
+      "Warwick, United Kingdom",
+      "Runcorn, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
@@ -25055,7 +25168,8 @@ window.JOBS = [
     "title": "Staff Software Engineer — Identity & Access Management",
     "company": "Xsolla",
     "locations": [
-      "Canada"
+      "Canada",
+      "Serbia"
     ],
     "remote": false,
     "rkind": null,
@@ -25169,7 +25283,8 @@ window.JOBS = [
     "title": "Animation Programmer (C++)",
     "company": "Rebellion",
     "locations": [
-      "Oxford, United Kingdom"
+      "Oxford, United Kingdom",
+      "Warwick, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
@@ -25196,7 +25311,10 @@ window.JOBS = [
     "title": "Open Art Application - Senior, Lead and Director",
     "company": "Rebellion",
     "locations": [
-      "Oxford, United Kingdom"
+      "Oxford, United Kingdom",
+      "Warwick, United Kingdom",
+      "Runcorn, United Kingdom",
+      "Wakefield, United Kingdom"
     ],
     "remote": false,
     "rkind": "hybrid",
@@ -25223,7 +25341,8 @@ window.JOBS = [
     "title": "Senior Animation Programmer",
     "company": "Rebellion",
     "locations": [
-      "Oxford, United Kingdom"
+      "Oxford, United Kingdom",
+      "Warwick, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
@@ -26463,7 +26582,8 @@ window.JOBS = [
     "title": "Level Designer",
     "company": "Larian Studios",
     "locations": [
-      "Guildford"
+      "Guildford",
+      "Quebec"
     ],
     "remote": false,
     "rkind": null,
@@ -26479,7 +26599,7 @@ window.JOBS = [
     "stack": [],
     "seen": "2026-09-11",
     "hasRu": true,
-    "descShort": "With multiple awards to our name, Larian Studios has proven that we’re dedicated to delivering high-quality role-playing games As we move on to new projects, the studio that brought you Baldur’s Gate 3 & Divinity: Original Sin 2 is looking for a Level Designer to join the team and help us in crafting the high calibre games our fans have come to expect. RESPONSIBILITIES • Build white box versions of areas after consulting with all relevant parties • Handoff areas to environment art, scripting, combat and cinematics while helping them elevate the experience • Finalize areas for shipping • Understand the role an area plays in the composition of the game experience, based on the narrative and…",
+    "descShort": "(Version française ci-dessous) Level Designer With multiple awards to our name, Larian Studios has proven that we’re dedicated to delivering high-quality role-playing games As we move on to new projects, the studio that brought you Baldur’s Gate 3 & Divinity: Original Sin 2 is looking for a Level Designer to join the team and help us in crafting the high calibre games our fans have come to expect. Responsibilities • Build white box versions of areas after consulting with all relevant parties. • Handoff areas to environment art, scripting, combat and cinematics while helping them elevate the experience. • Finalize areas for shipping. • Understand the role an area plays in the composition of…",
     "hasDesc": true
   },
   {
@@ -26916,7 +27036,8 @@ window.JOBS = [
     "title": "Senior Character Artist",
     "company": "Rebellion",
     "locations": [
-      "Oxford, United Kingdom"
+      "Oxford, United Kingdom",
+      "Warwick, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
@@ -27027,7 +27148,9 @@ window.JOBS = [
     "title": "Senior Product Owner – Xsolla Money Account",
     "company": "Xsolla",
     "locations": [
-      "Kuala Lumpur"
+      "Kuala Lumpur",
+      "Canada",
+      "Berlin, Germany"
     ],
     "remote": false,
     "rkind": null,
@@ -27051,7 +27174,8 @@ window.JOBS = [
     "title": "Game Developer - Puzzle Games",
     "company": "Voodoo",
     "locations": [
-      "Paris"
+      "Paris",
+      "Istanbul"
     ],
     "remote": true,
     "rkind": null,
@@ -27380,7 +27504,8 @@ window.JOBS = [
     "title": "FinOps engineer",
     "company": "Xsolla",
     "locations": [
-      "CIS"
+      "CIS",
+      "Kuala Lumpur"
     ],
     "remote": false,
     "rkind": null,
@@ -27860,7 +27985,9 @@ window.JOBS = [
     "title": "Gameplay programmer",
     "company": "Larian Studios",
     "locations": [
-      "Guildford"
+      "Guildford",
+      "Warsaw",
+      "Quebec"
     ],
     "remote": false,
     "rkind": null,
@@ -27878,7 +28005,7 @@ window.JOBS = [
     ],
     "seen": "2026-09-11",
     "hasRu": true,
-    "descShort": "With multiple awards to our name, Larian Studios has proven that we’re dedicated to delivering high-quality role-playing games. As we move on to new projects, the studio that brought you Baldur’s Gate 3 & Divinity: Original Sin 2 is looking for a Gameplay Programmer to join the team and help us in crafting the high calibre games our fans have come to expect. RESPONSIBILITIES • Work on all aspects of systems of the game: engine features, gameplay, UI, audio, animation, scripting, tools. • Work closely together with the other departments to implement the needed game components; • Work together with almost all content creators to deliver required features; • Write robust, maintainable…",
+    "descShort": "(Version française ci-dessous) Gameplay Programmer With multiple awards to our name, Larian Studios has proven that we’re dedicated to delivering high-quality role-playing games. As we move on to new projects, the studio that brought you Baldur’s Gate 3 & Divinity: Original Sin 2 is looking for a Gameplay Programmer to join the team and help us in crafting the high calibre games our fans have come to expect. Responsibilities • Work on all aspects of systems of the game: engine features, gameplay, UI, audio, animation, scripting, tools. • Work closely together with the other departments to implement the needed game components; • Work together with almost all content creators to deliver…",
     "hasDesc": true
   },
   {
@@ -28022,7 +28149,8 @@ window.JOBS = [
     "title": "Senior Software Engineer (Go)",
     "company": "Xsolla",
     "locations": [
-      "Serbia"
+      "Serbia",
+      "Baku"
     ],
     "remote": false,
     "rkind": null,
@@ -28561,7 +28689,9 @@ window.JOBS = [
     "title": "Lead Game Security Engineer",
     "company": "Rebellion",
     "locations": [
-      "Oxford, United Kingdom"
+      "Oxford, United Kingdom",
+      "Warwick, United Kingdom",
+      "Runcorn, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
@@ -28588,7 +28718,8 @@ window.JOBS = [
     "title": "Backend Engineer (PHP/Golang)",
     "company": "Xsolla",
     "locations": [
-      "Kuala Lumpur"
+      "Kuala Lumpur",
+      "Serbia"
     ],
     "remote": false,
     "rkind": null,
@@ -28696,7 +28827,8 @@ window.JOBS = [
     "title": "Tech Lead",
     "company": "Xsolla",
     "locations": [
-      "Montreal"
+      "Montreal",
+      "Baku"
     ],
     "remote": false,
     "rkind": null,
@@ -29029,7 +29161,8 @@ window.JOBS = [
     "title": "Tech lead - Frontend",
     "company": "Xsolla",
     "locations": [
-      "Shanghai"
+      "Shanghai",
+      "Beijing, China"
     ],
     "remote": false,
     "rkind": null,
@@ -29045,7 +29178,7 @@ window.JOBS = [
     "stack": [],
     "seen": "2026-09-11",
     "hasRu": true,
-    "descShort": "RESPONSIBILITIES • Development Management:Setting goals and planning the development process for the team • Estimating the time of the implementation of individual tasks • Organizing and facilitating team rituals • Creating product QA process • Participating in testing and delivery processes • Team Management:Creating a support team from a scratch (onboarding, retaining, etc.) • Supporting the professional growth of employees through the accumulation of knowledge and experience • Working with the strengths and weaknesses of team members • Building a culture of collective responsibility for commitments • Creating a culture of trust, creativity and mentorship in the team • Creating and…",
+    "descShort": "ABOUT YOU We’re seeking an ambitious Team Lead with strong communication skills, strong work ethic, and the ability and desire to work in an exciting and demanding environment. You will help us to adopt our products to the China market. ABOUT US Xsolla is a global commerce company with robust tools and services to help developers solve the inherent challenges of the video game industry. From indie to AAA, companies partner with Xsolla to help them fund, distribute, market, and monetize their games. Grounded in the belief in the future of video games, Xsolla is resolute in the mission to bring opportunities together, and continually make new resources available to creators. Headquartered and…",
     "hasDesc": true
   },
   {

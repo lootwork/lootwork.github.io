@@ -19,6 +19,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://lootwork.github.io/company/keen-software-house/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://lootwork.github.io/company/2k-games/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
@@ -170,12 +176,6 @@
   </url>
   <url>
     <loc>https://lootwork.github.io/company/xsolla/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://lootwork.github.io/company/keen-software-house/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -433,6 +433,30 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://lootwork.github.io/role/art/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/role/art/remote/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/role/programmirovanie/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/role/programmirovanie/remote/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://lootwork.github.io/role/prodyusirovanie/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
@@ -463,18 +487,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/role/programmirovanie/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://lootwork.github.io/role/programmirovanie/remote/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://lootwork.github.io/role/vfx/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
@@ -482,18 +494,6 @@
   </url>
   <url>
     <loc>https://lootwork.github.io/role/vfx/remote/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://lootwork.github.io/role/art/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://lootwork.github.io/role/art/remote/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -625,6 +625,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://lootwork.github.io/spec/dvizhok/remote/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://lootwork.github.io/spec/bekend/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
@@ -632,6 +638,12 @@
   </url>
   <url>
     <loc>https://lootwork.github.io/spec/bekend/remote/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/spec/c/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -649,12 +661,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/spec/c/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://lootwork.github.io/spec/mobilnaya/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
@@ -662,6 +668,12 @@
   </url>
   <url>
     <loc>https://lootwork.github.io/where/jakarta/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/where/prague-czech-republic/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -757,7 +769,31 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://lootwork.github.io/where/vilnius/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://lootwork.github.io/where/warsaw/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/where/limassol/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/where/minsk/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/where/tblisi/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -805,6 +841,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://lootwork.github.io/where/brighton-united-kingdom/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://lootwork.github.io/where/united-states/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
@@ -812,18 +854,6 @@
   </url>
   <url>
     <loc>https://lootwork.github.io/where/tokyo-japan/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://lootwork.github.io/where/brighton-united-kingdom/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://lootwork.github.io/where/prague-czech-republic/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -853,6 +883,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://lootwork.github.io/where/cary-united-states/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://lootwork.github.io/where/culver-city-united-states/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
@@ -865,13 +901,31 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/where/carlsbad-united-states/</loc>
+    <loc>https://lootwork.github.io/where/oakville-canada/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://lootwork.github.io/where/manhattan-united-states/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/where/andover-united-states/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/where/dundee-united-kingdom/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/where/carlsbad-united-states/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -895,6 +949,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://lootwork.github.io/where/belgrade/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://lootwork.github.io/where/helsinki/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
@@ -907,7 +967,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/where/cary-united-states/</loc>
+    <loc>https://lootwork.github.io/where/porto-alegre-brazil/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -926,12 +986,6 @@
   </url>
   <url>
     <loc>https://lootwork.github.io/where/seattle-united-states/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://lootwork.github.io/where/belgrade/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -1045,6 +1099,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://lootwork.github.io/where/new-york-city/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://lootwork.github.io/where/tel-aviv/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
@@ -1052,18 +1112,6 @@
   </url>
   <url>
     <loc>https://lootwork.github.io/where/baku/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://lootwork.github.io/where/wroclaw/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://lootwork.github.io/where/dundee-united-kingdom/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -1081,13 +1129,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/where/limassol/</loc>
+    <loc>https://lootwork.github.io/where/paris-france/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/where/paris-france/</loc>
+    <loc>https://lootwork.github.io/where/irvine-united-states/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -1153,7 +1201,25 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://lootwork.github.io/where/quebec/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://lootwork.github.io/where/oxford-united-kingdom/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/where/warwick-united-kingdom/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/where/runcorn-united-kingdom/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -1213,6 +1279,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://lootwork.github.io/company/pennylane/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://lootwork.github.io/company/younited/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
@@ -1220,6 +1292,12 @@
   </url>
   <url>
     <loc>https://lootwork.github.io/company/raisin/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/company/bitpanda/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -1250,6 +1328,12 @@
   </url>
   <url>
     <loc>https://lootwork.github.io/company/okx/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/company/stripe/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -1309,6 +1393,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://lootwork.github.io/company/qonto/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://lootwork.github.io/company/alan/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
@@ -1328,12 +1418,6 @@
   </url>
   <url>
     <loc>https://lootwork.github.io/company/consensys/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://lootwork.github.io/company/stripe/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -1465,12 +1549,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/company/pennylane/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://lootwork.github.io/company/bunq/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
@@ -1519,12 +1597,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/company/bitpanda/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://lootwork.github.io/company/ramp/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
@@ -1556,12 +1628,6 @@
   </url>
   <url>
     <loc>https://lootwork.github.io/company/moonfare/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://lootwork.github.io/company/qonto/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -1831,6 +1897,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://lootwork.github.io/fin-role/prodakt/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/fin-role/prodakt/remote/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://lootwork.github.io/fin-role/prodyusirovanie/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
@@ -1879,30 +1957,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/fin-role/komplaens/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://lootwork.github.io/fin-role/komplaens/remote/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://lootwork.github.io/fin-role/prodakt/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://lootwork.github.io/fin-role/prodakt/remote/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://lootwork.github.io/fin-role/treyding/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
@@ -1910,6 +1964,18 @@
   </url>
   <url>
     <loc>https://lootwork.github.io/fin-role/treyding/remote/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/fin-role/komplaens/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/fin-role/komplaens/remote/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -1951,13 +2017,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/fin-spec/komplaens/</loc>
+    <loc>https://lootwork.github.io/fin-spec/bekend/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/fin-spec/komplaens/remote/</loc>
+    <loc>https://lootwork.github.io/fin-spec/bekend/remote/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -1975,18 +2041,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/fin-spec/mobilnaya/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://lootwork.github.io/fin-spec/mobilnaya/remote/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://lootwork.github.io/fin-spec/bezopasnost/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
@@ -1999,13 +2053,25 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/fin-spec/bekend/</loc>
+    <loc>https://lootwork.github.io/fin-spec/komplaens/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/fin-spec/bekend/remote/</loc>
+    <loc>https://lootwork.github.io/fin-spec/komplaens/remote/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/fin-spec/mobilnaya/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/fin-spec/mobilnaya/remote/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -2059,13 +2125,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/fin-where/london/</loc>
+    <loc>https://lootwork.github.io/fin-where/cardiff-london-or/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/fin-where/cardiff-london-or/</loc>
+    <loc>https://lootwork.github.io/fin-where/london/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -2078,6 +2144,12 @@
   </url>
   <url>
     <loc>https://lootwork.github.io/fin-where/amsterdam/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/fin-where/mumbai/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -2107,6 +2179,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://lootwork.github.io/fin-where/berlin/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://lootwork.github.io/fin-where/paris/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
@@ -2119,6 +2197,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://lootwork.github.io/fin-where/vienna-austria/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/fin-where/barcelona-spain/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://lootwork.github.io/fin-where/madrid/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
@@ -2126,6 +2216,12 @@
   </url>
   <url>
     <loc>https://lootwork.github.io/fin-where/m-laga/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/fin-where/lisbon-portugal/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -2149,13 +2245,19 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/fin-where/munich/</loc>
+    <loc>https://lootwork.github.io/fin-where/menlo-park-united-states/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/fin-where/berlin/</loc>
+    <loc>https://lootwork.github.io/fin-where/new-york-united-states/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/fin-where/munich/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -2185,19 +2287,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/fin-where/lisbon-portugal/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://lootwork.github.io/fin-where/riga-latvia/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://lootwork.github.io/fin-where/new-york-united-states/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -2239,6 +2329,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://lootwork.github.io/fin-where/warsaw/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://lootwork.github.io/fin-where/manila-philippines/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
@@ -2246,6 +2342,12 @@
   </url>
   <url>
     <loc>https://lootwork.github.io/fin-where/tel-aviv/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/fin-where/new-york/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -2275,19 +2377,25 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://lootwork.github.io/fin-where/united-kingdom/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://lootwork.github.io/fin-where/canada/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/fin-where/dublin-ireland/</loc>
+    <loc>https://lootwork.github.io/fin-where/sao-paulo/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/fin-where/new-york/</loc>
+    <loc>https://lootwork.github.io/fin-where/dublin-ireland/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -2329,6 +2437,24 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://lootwork.github.io/fin-where/vancouver-canada/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/fin-where/san-francisco-united-states/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/fin-where/salt-lake-city-united-states/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://lootwork.github.io/fin-where/san-francisco-or-within-canada-or-united-states/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
@@ -2341,13 +2467,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/fin-where/san-francisco-united-states/</loc>
+    <loc>https://lootwork.github.io/fin-where/poland/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/fin-where/menlo-park-united-states/</loc>
+    <loc>https://lootwork.github.io/fin-where/sandy-united-states/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -2365,6 +2491,24 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://lootwork.github.io/fin-where/abu-dhabi/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/fin-where/barcelona/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/fin-where/rio-de-janeiro/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://lootwork.github.io/fin-where/dubai/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
@@ -2377,19 +2521,31 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://lootwork.github.io/fin-where/manchester-united-kingdom/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/fin-where/cardiff-united-kingdom/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://lootwork.github.io/fin-where/united-kingdom-london/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/fin-where/mumbai/</loc>
+    <loc>https://lootwork.github.io/fin-where/portugal-lisbon/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/fin-where/poland/</loc>
+    <loc>https://lootwork.github.io/fin-where/romania/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -2413,7 +2569,19 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://lootwork.github.io/fin-where/madrid-spain/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://lootwork.github.io/fin-where/shanghai-china/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/fin-where/vilnius-lithuania/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -2443,13 +2611,25 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/fin-where/barcelona-spain/</loc>
+    <loc>https://lootwork.github.io/fin-where/hamburg/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/fin-where/miami-united-states/</loc>
+    <loc>https://lootwork.github.io/fin-where/frankfurt/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/fin-where/porto/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/fin-where/netherlands/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -2468,12 +2648,6 @@
   </url>
   <url>
     <loc>https://lootwork.github.io/fin-where/emea/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://lootwork.github.io/fin-where/united-kingdom/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -2527,19 +2701,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/fin-where/barcelona/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://lootwork.github.io/fin-where/berlin-barcelona/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/fin-where/vienna-austria/</loc>
+    <loc>https://lootwork.github.io/fin-where/miami-united-states/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -2551,7 +2719,25 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://lootwork.github.io/fin-where/washington-d-c/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://lootwork.github.io/fin-where/lisbon/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/fin-where/india-hyderabad/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/fin-where/india-bengaluru/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -2569,6 +2755,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://lootwork.github.io/fin-where/valencia/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://lootwork.github.io/fin-where/milan-italy/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
@@ -2581,13 +2773,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/fin-where/vancouver-canada/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://lootwork.github.io/fin-where/frankfurt/</loc>
+    <loc>https://lootwork.github.io/fin-where/durham/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -2605,7 +2791,31 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://lootwork.github.io/fin-where/brussels/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/fin-where/buenos-aires/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/fin-where/united-kindom/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://lootwork.github.io/fin-where/bogota/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/fin-where/lithuania/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -2641,7 +2851,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/fin-where/rio-de-janeiro/</loc>
+    <loc>https://lootwork.github.io/fin-where/serbia/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/fin-where/melbourne/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -2665,19 +2881,31 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/fin-where/buenos-aires/</loc>
+    <loc>https://lootwork.github.io/fin-where/bordeaux-france/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/fin-where/india-hyderabad/</loc>
+    <loc>https://lootwork.github.io/fin-where/marseille-france/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/fin-where/lyon-france/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://lootwork.github.io/fin-where/zilch-united-kingdom/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/fin-where/montpellier-france/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -2701,31 +2929,25 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://lootwork.github.io/fin-where/southampton-united-kingdom/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://lootwork.github.io/fin-where/betterment-hq-new-york-city/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/fin-where/united-kindom/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://lootwork.github.io/fin-where/melbourne/</loc>
+    <loc>https://lootwork.github.io/fin-where/australia/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://lootwork.github.io/fin-where/ireland/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://lootwork.github.io/fin-where/valencia/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -2743,13 +2965,19 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lootwork.github.io/fin-where/portugal-lisbon/</loc>
+    <loc>https://lootwork.github.io/fin-where/nicosia-cyprus/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://lootwork.github.io/fin-where/brasil/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://lootwork.github.io/fin-where/cayman-islands/</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
