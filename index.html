@@ -2044,11 +2044,22 @@
   function norm(v){ return String(v||"").toLowerCase().replace(/ё/g,"е").trim(); }
 
   // К какой стране относится строка локации
+  // Короткое сокращение внутри длинного слова — не совпадение: «cis» живёт
+  // внутри «San Francisco», «uk» внутри «Fukuoka». Такие ищем целым словом,
+  // длинные названия по-прежнему куском строки, иначе «Warsaw, Poland»
+  // не найдётся по «poland».
+  function aliasHit(text, alias){
+    const a = norm(alias);
+    if (!a) return false;
+    if (a.length > 4) return text.includes(a);
+    return new RegExp("(^|[^a-zа-я0-9])" + a + "($|[^a-zа-я0-9])", "i").test(text);
+  }
+
   function geoKeys(location){
     const L = norm(location);
     const out = [];
     for (const key in GEO){
-      if (GEO[key].some(alias => L.includes(norm(alias)))) out.push(key);
+      if (GEO[key].some(alias => aliasHit(L, alias))) out.push(key);
     }
     return out;
   }
