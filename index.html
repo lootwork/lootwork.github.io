@@ -1112,7 +1112,7 @@
     role:new Set(), spec:new Set(), stack:new Set(), rkind:new Set(), kind:new Set(),
     grade:new Set(), company:new Set(), location:new Set(),
     age:null, remote:false, salary:false, noPermit:false, cis:false,
-    payFrom:0, payTo:400000, reloc:false,
+    payFrom:0, payTo:400000, reloc:false, hub:false,
     onlyFav:false, onlyHidden:false, query:""
   };
   let sortMode = "new";
@@ -1519,6 +1519,8 @@
       permitNote:"Компания требует право работать в своей стране — гражданство, вид на жительство или рабочую визу. Если у вас его нет, отклик почти наверняка не рассмотрят. Проверьте условия в оригинале.",
       cisChip:"Можно из СНГ", cisShort:"можно из СНГ", cisTag:"можно из СНГ",
       relocChip:"С релокацией", relocShort:"с релокацией", relocTag:"переезд оплачивают",
+      hubChip:"Куда переезжают из СНГ", hubShort:"страны переезда",
+      hubHint:"Кипр, Сербия, Грузия, Армения, Казахстан, Турция, Польша и сами страны СНГ. Туда переехали студии из региона, и оттуда чаще нанимают людей без местного паспорта.",
       staleTag:"давно в поиске",
       staleHint:"Вакансия открыта больше месяца. Бывает, что позицию закрыли, а объявление снять забыли, или студия ищет очень редкого специалиста.",
       relocHint:"Компания прямо пишет, что помогает с переездом: оплачивает релокацию, делает визу или рабочее разрешение. Для тех, кого не берут удалённо, это второй реальный путь.",
@@ -1621,6 +1623,8 @@
       permitNote:"This job requires the right to work in the company country — citizenship, residency or a work visa. Check the original posting before applying.",
       cisChip:"Open worldwide", cisShort:"open worldwide", cisTag:"open worldwide",
       relocChip:"Relocation help", relocShort:"relocation help", relocTag:"relocation covered",
+      hubChip:"Relocation hubs", hubShort:"relocation hubs",
+      hubHint:"Cyprus, Serbia, Georgia, Armenia, Kazakhstan, Turkey, Poland and the CIS itself: where studios from the region moved to.",
       staleTag:"open for a while",
       staleHint:"This job has been open for over a month. Sometimes the role is already filled and the posting was left up.",
       relocHint:"The company states it helps with relocation: covers the move, arranges a visa or a work permit.",
@@ -1894,6 +1898,18 @@
   // Грузии важно не «есть ли удалёнка», а возьмут ли его вообще. Возьмут,
   // если работа удалённая по всему миру и компания не требует местного
   // гражданства, вида на жительство или рабочей визы.
+  // Кипр, Сербия, Грузия, Армения, Казахстан и соседи: туда переехали студии
+  // из СНГ и туда же оттуда нанимают. По отдельности в каждой стране вакансий
+  // мало, вместе выходит заметная группа.
+  const RELOC_HUBS = ["cyprus", "serbia", "georgia", "armenia", "kazakhstan",
+                      "uzbekistan", "montenegro", "turkey", "poland",
+                      "belarus", "russia", "ukraine", "cis"];
+
+  function inRelocHub(j){
+    return (j.locations || []).some(loc =>
+      geoKeys(loc).some(k => RELOC_HUBS.includes(k)));
+  }
+
   function openToCis(j){
     return j.rkind === "worldwide" && !j.permit;
   }
@@ -2101,6 +2117,7 @@
     if (st.noPermit && j.permit) return false;
     if (st.cis && !openToCis(j)) return false;
     if (st.reloc && !j.reloc) return false;
+    if (st.hub && !inRelocHub(j)) return false;
     if (st.kind && st.kind.size && !st.kind.has(j.kind)) return false;
     // Вакансия подходит, если её вилка пересекается с выбранным диапазоном.
     // Без вилки не показываем: иначе фильтр по деньгам теряет смысл.
@@ -2288,7 +2305,7 @@
          + (state.age ? 1 : 0) + (state.remote ? 1 : 0) + (state.salary ? 1 : 0)
          + (state.noPermit ? 1 : 0) + (state.cis ? 1 : 0) + state.kind.size
          + ((state.payFrom > 0 || state.payTo < PAY_MAX) ? 1 : 0)
-         + (state.reloc ? 1 : 0)
+         + (state.reloc ? 1 : 0) + (state.hub ? 1 : 0)
          + (state.onlyFav ? 1 : 0);
   }
 
@@ -2649,6 +2666,10 @@
     if (forCis)
       chip(t("cisChip") + " " + forCis, () => state.cis,
            () => state.cis = !state.cis, "cis", t("cisHint"));
+    const inHubs = JOBS.filter(inRelocHub).length;
+    if (inHubs)
+      chip(t("hubChip") + " " + inHubs, () => state.hub,
+           () => state.hub = !state.hub, "cis", t("hubHint"));
     const withReloc = JOBS.filter(j => j.reloc).length;
     if (withReloc)
       chip(t("relocChip") + " " + withReloc, () => state.reloc,
@@ -3078,6 +3099,7 @@
     if (state.noPermit) add(t("noPermitShort"), () => state.noPermit = false);
     if (state.cis) add(t("cisShort"), () => state.cis = false);
     if (state.reloc) add(t("relocShort"), () => state.reloc = false);
+    if (state.hub) add(t("hubShort"), () => state.hub = false);
     if (state.payFrom > 0 || state.payTo < PAY_MAX)
       add(money(state.payFrom) + "–" + money(state.payTo),
           () => { state.payFrom = 0; state.payTo = PAY_MAX; });
@@ -3094,7 +3116,8 @@
              kind:new Set(s.kind), location:new Set(s.location),
              age:s.age, remote:s.remote, salary:s.salary,
              noPermit:s.noPermit, cis:s.cis,
-             payFrom:s.payFrom, payTo:s.payTo, reloc:s.reloc, query:s.query };
+             payFrom:s.payFrom, payTo:s.payTo, reloc:s.reloc, hub:s.hub,
+             query:s.query };
   }
 
   function markPressed(btn, on){ btn.setAttribute("aria-pressed", on ? "true" : "false"); }
@@ -3728,7 +3751,7 @@
     draft = { role:new Set(), spec:new Set(), stack:new Set(), rkind:new Set(),
               grade:new Set(), company:new Set(), location:new Set(),
               age:null, remote:false, salary:false, noPermit:false, cis:false,
-              payFrom:0, payTo:PAY_MAX, reloc:false, query:state.query };
+              payFrom:0, payTo:PAY_MAX, reloc:false, hub:false, query:state.query };
     buildFilterUi();
   });
   $("companySearch").addEventListener("input", buildFilterUi);
@@ -3961,7 +3984,7 @@
     state.grade.clear(); state.company.clear(); state.location.clear();
     state.age = null; state.remote = false; state.salary = false;
     state.noPermit = false; state.cis = false;
-    state.payFrom = 0; state.payTo = PAY_MAX; state.reloc = false; state.onlyFav = false;
+    state.payFrom = 0; state.payTo = PAY_MAX; state.reloc = false; state.hub = false; state.onlyFav = false;
     state.query = ""; sortMode = "new";
     searchEl.value = ""; shownCount = PAGE;
     renderList();
