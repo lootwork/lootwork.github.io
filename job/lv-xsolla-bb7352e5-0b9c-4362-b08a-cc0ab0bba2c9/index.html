@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Senior Fullstack Engineer — Xsolla | LOOTWORK</title>
+<meta name="description" content="ABOUT US
+
+Xsolla is a global commerce company with robust tools and services to help developers solve the inherent challenges of the video game industry. From indie…">
+<link rel="canonical" href="https://lootwork.github.io/job/lv-xsolla-bb7352e5-0b9c-4362-b08a-cc0ab0bba2c9/">
+<meta property="og:title" content="Senior Fullstack Engineer — Xsolla | LOOTWORK">
+<meta property="og:description" content="ABOUT US
+
+Xsolla is a global commerce company with robust tools and services to help developers solve the inherent challenges of the video game industry. From indie…">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://lootwork.github.io/job/lv-xsolla-bb7352e5-0b9c-4362-b08a-cc0ab0bba2c9/">
+<meta property="og:image" content="https://lootwork.github.io/og.png">
+<meta name="theme-color" content="#0c0a1a">
+<script>
+  // Ставим тему до отрисовки, иначе страница мигнёт тёмным и станет светлой.
+  // Фигурные скобки удвоены: этот кусок лежит внутри f-строки Python.
+  try {
+    var t = localStorage.getItem("theme");
+    if (!t) t = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+    document.documentElement.dataset.theme = t;
+    if (t === "light") {
+      document.querySelector('meta[name="theme-color"]').setAttribute("content", "#f6f5fb");
+    }
+  } catch (e) {}
+</script>
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@700&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../page.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "JobPosting", "title": "Senior Fullstack Engineer", "description": "ABOUT US\n\nXsolla is a global commerce company with robust tools and services to help developers solve the inherent challenges of the video game industry. From indie to AAA, companies partner with Xsolla to help them fund, distribute, market, and monetize their games. Grounded in the belief in the future of video games, Xsolla is resolute in the mission to bring opportunities together, and continually make new resources available to creators. Headquartered and incorporated in Los Angeles, California, Xsolla operates as the merchant of record and has helped over 1,500+ game developers to reach more players and grow their businesses around the world. With more paths to profits and ways to win, developers have all the things needed to enjoy the game.\n\nFor more information, visit xsolla.com.\n\nABOUT THE PROJECT\nXsolla ZK is building a cross-game infrastructure that empowers gamers to freely trade and use their digital assets without barriers. As a Fullstack Engineer, you'll work across the entire stack:\n\nProducts:\n\n• Xsolla Bazaar — NFT marketplace for trading digital assets\n• Web3 Backpack — Smart wallet with account abstraction\n• Web3 SDKs — Developer toolkits for blockchain integration\n• Admin Panels — Internal tools for managing Web3 operations\n\nTech Stack:\n\nBackend:\n\n• Language: Go (go-ethereum, ethkit)\n• Databases: MongoDB, PostgreSQL, Redis\n• API: REST, WebSocket, gRPC, OpenAPI (Swagger)\n• Message Queue: NATS, RabbitMQ, Kafka\n• Blockchain Infrastructure:\n• ZK Stack / ZKsync Era (EraVM, system contracts, native Account Abstraction)\n• Account Abstraction (ERC-4337): EntryPoint, UserOperation lifecycle, bundlers, paymasters\n• Ethereum L1 integration, abigen contract bindings\n\nFrontend:\n\n• Languages: JavaScript (ES6+), TypeScript\n• Frameworks: React, Next.js, React Native\n• State Management: RTK, Zustand\n• Styling: Tailwind CSS, Tamagui, CSS-in-JS\n• Web3 Libraries & Standards:\n• Wallet provider standards: EIP-1193, EIP-6963 (multi-wallet discovery), EIP-5792 (batched calls)\n• ethers.js, viem for Ethereum interactions\n• wagmi for React hooks\n• WalletConnect for multi-wallet support\n• Embedded/AA wallet SDK (e.g. Sequence, thirdweb, Privy, Dynamic, or equivalent) for social-login smart accounts\n\nInfrastructure:\n\n• DevOps: Docker, Kubernetes, GitLab CI/CD\n• Monitoring: Graylog, Prometheus\n\nKey Technical Challenges:\n\n• Full-Stack Web3 Features: Building end-to-end flows from smart contract events to real-time UI updates\n• Account Abstraction Integration: Implementing embedded/smart-account wallets with social auth, ERC-4337 UserOperation flows, and gasless transactions via paymasters\n• ZK Stack Backend: Working with EraVM differences, native Account Abstraction on zkSync-family chains, handling L1↔L2 bridging operations\n• Signature & Session Handling: Implementing EIP-712 signing, ERC-1271 verification, and session-key-scoped permissions for in-game transactions\n• Cross-Platform Consistency: Sharing business logic between web and mobile using React/React Native\n\nRESPONSIBILITIES\nBackend Development:\n\n• Develop backend services in Go using go-ethereum/ethkit for wallet operations and blockchain interactions\n• Implement and monitor the ERC-4337 UserOperation lifecycle (prepare→sign→submit→confirm) against bundlers and paymasters\n• Implement smart contract interaction layer with abigen-generated Go bindings\n• Build Account Abstraction support: paymaster gas-sponsorship logic, session-key issuance (ERC-7710 / ERC-7715) for gameplay transactions\n• Design BFF services orchestrating data from multiple blockchain sources, indexers, and wallet infrastructure providers\n\nFrontend Development:\n\n• Build responsive applications using React/Next.js integrated with an embedded/AA wallet SDK\n• Implement Embedded Wallet flows: social auth (Google, Apple), email login, passkey (WebAuthn/P-256) support\n• Create Web3-enabled UIs using wagmi hooks and viem for contract reads/writes, following EIP-1193/EIP-6963 provider standards\n• Implement transaction confirmation flows that clearly convey what the player is approving (EIP-712 typed-data signing)\n• Develop real-time features with WebSocket subscriptions for blockchain events\n• Build cross-platform components with Tamagui for web and React Native\n\nFull-Stack Integration:\n\n• Design and implement complete features from smart contract events to UI updates\n• Handle ZK Stack specifics: EraVM gas model differences, native Account Abstraction, L1↔L2 bridging UI flows\n• Implement transaction tracking: status polling, reorg handling, user notifications\n• Create admin panels for managing NFT drops, marketplace settings, and analytics\n• Write comprehensive tests for both backend (Go) and frontend (Jest, React Testing Library)\n• Document APIs using OpenAPI/Swagger and maintain technical documentation\n\nNICE TO HAVE\nRequired:\n\nBackend Skills:\n\n• 3+ years of commercial experience with Go\n• Strong knowledge of REST API design and implementation\n• Experience with MongoDB and/or PostgreSQL\n• Understandi", "identifier": {"@type": "PropertyValue", "name": "Xsolla", "value": "lv-xsolla-bb7352e5-0b9c-4362-b08a-cc0ab0bba2c9"}, "hiringOrganization": {"@type": "Organization", "name": "Xsolla"}, "directApply": false, "url": "https://lootwork.github.io/job/lv-xsolla-bb7352e5-0b9c-4362-b08a-cc0ab0bba2c9/", "datePosted": "2026-09-29", "jobLocation": [{"@type": "Place", "address": {"@type": "PostalAddress", "addressLocality": "Russia"}}]}</script>
+</head>
+<body>
+<div class="wrap">
+<header><a class="logo" href="../../">LOOT<b>WORK</b></a></header>
+<div class="crumbs"><a href="../../">Вакансии</a> ·
+  <a href="../../company/xsolla/">Xsolla</a></div>
+<h1>Senior Fullstack Engineer</h1>
+<div class="sub">Xsolla · Россия · опубликовано 29 сентября</div>
+<div class="tags"><span class="tag">нужно разрешение на работу</span><span class="tag">Senior</span><span class="tag">Программирование</span><span class="tag">Фронтенд</span><span class="tag">TypeScript</span><span class="tag">JavaScript</span><span class="tag">Docker</span><span class="tag">Kubernetes</span></div>
+<a class="apply" href="https://jobs.lever.co/xsolla/bb7352e5-0b9c-4362-b08a-cc0ab0bba2c9" target="_blank" rel="nofollow noopener">Откликнуться на сайте студии</a>
+<div class="desc"><h2>О нас</h2>
+<p>Xsolla is a global commerce company with robust tools and services to help developers solve the inherent challenges of the video game industry. From indie to AAA, companies partner with Xsolla to help them fund, distribute, market, and monetize their games. Grounded in the belief in the future of video games, Xsolla is resolute in the mission to bring opportunities together, and continually make new resources available to creators. Headquartered and incorporated in Los Angeles, California, Xsolla operates as the merchant of record and has helped over 1,500+ game developers to reach more players and grow their businesses around the world. With more paths to profits and ways to win, developers have all the things needed to enjoy the game.</p>
+<p>For more information, visit xsolla.com.</p>
+<h2>О проекте</h2>
+<p>Xsolla ZK is building a cross-game infrastructure that empowers gamers to freely trade and use their digital assets without barriers. As a Fullstack Engineer, you'll work across the entire stack:</p>
+<h2>Products</h2>
+<ul><li>Xsolla Bazaar — NFT marketplace for trading digital assets</li><li>Web3 Backpack — Smart wallet with account abstraction</li><li>Web3 SDKs — Developer toolkits for blockchain integration</li><li>Admin Panels — Internal tools for managing Web3 operations</li></ul>
+<h2>Tech Stack</h2>
+<h2>Backend</h2>
+<ul><li>Language: Go (go-ethereum, ethkit)</li><li>Databases: MongoDB, PostgreSQL, Redis</li><li>API: REST, WebSocket, gRPC, OpenAPI (Swagger)</li><li>Message Queue: NATS, RabbitMQ, Kafka</li><li>Blockchain Infrastructure:</li><li>ZK Stack / ZKsync Era (EraVM, system contracts, native Account Abstraction)</li><li>Account Abstraction (ERC-4337): EntryPoint, UserOperation lifecycle, bundlers, paymasters</li><li>Ethereum L1 integration, abigen contract bindings</li></ul>
+<h2>Frontend</h2>
+<ul><li>Languages: JavaScript (ES6+), TypeScript</li><li>Frameworks: React, Next.js, React Native</li><li>State Management: RTK, Zustand</li><li>Styling: Tailwind CSS, Tamagui, CSS-in-JS</li><li>Web3 Libraries &amp; Standards:</li><li>Wallet provider standards: EIP-1193, EIP-6963 (multi-wallet discovery), EIP-5792 (batched calls)</li><li>ethers.js, viem for Ethereum interactions</li><li>wagmi for React hooks</li><li>WalletConnect for multi-wallet support</li><li>Embedded/AA wallet SDK (e.g. Sequence, thirdweb, Privy, Dynamic, or equivalent) for social-login smart accounts</li></ul>
+<h2>Infrastructure</h2>
+<ul><li>DevOps: Docker, Kubernetes, GitLab CI/CD</li><li>Monitoring: Graylog, Prometheus</li></ul>
+<h2>Key Technical Challenges</h2>
+<ul><li>Full-Stack Web3 Features: Building end-to-end flows from smart contract events to real-time UI updates</li><li>Account Abstraction Integration: Implementing embedded/smart-account wallets with social auth, ERC-4337 UserOperation flows, and gasless transactions via paymasters</li><li>ZK Stack Backend: Working with EraVM differences, native Account Abstraction on zkSync-family chains, handling L1↔L2 bridging operations</li><li>Signature &amp; Session Handling: Implementing EIP-712 signing, ERC-1271 verification, and session-key-scoped permissions for in-game transactions</li><li>Cross-Platform Consistency: Sharing business logic between web and mobile using React/React Native</li></ul>
+<h2>Обязанности</h2>
+<h2>Backend Development</h2>
+<ul><li>Develop backend services in Go using go-ethereum/ethkit for wallet operations and blockchain interactions</li><li>Implement and monitor the ERC-4337 UserOperation lifecycle (prepare→sign→submit→confirm) against bundlers and paymasters</li><li>Implement smart contract interaction layer with abigen-generated Go bindings</li><li>Build Account Abstraction support: paymaster gas-sponsorship logic, session-key issuance (ERC-7710 / ERC-7715) for gameplay transactions</li><li>Design BFF services orchestrating data from multiple blockchain sources, indexers, and wallet infrastructure providers</li></ul>
+<h2>Frontend Development</h2>
+<ul><li>Build responsive applications using React/Next.js integrated with an embedded/AA wallet SDK</li><li>Implement Embedded Wallet flows: social auth (Google, Apple), email login, passkey (WebAuthn/P-256) support</li><li>Create Web3-enabled UIs using wagmi hooks and viem for contract reads/writes, following EIP-1193/EIP-6963 provider standards</li><li>Implement transaction confirmation flows that clearly convey what the player is approving (EIP-712 typed-data signing)</li><li>Develop real-time features with WebSocket subscriptions for blockchain events</li><li>Build cross-platform components with Tamagui for web and React Native</li></ul>
+<h2>Full-Stack Integration</h2>
+<ul><li>Design and implement complete features from smart contract events to UI updates</li><li>Handle ZK Stack specifics: EraVM gas model differences, native Account Abstraction, L1↔L2 bridging UI flows</li><li>Implement transaction tracking: status polling, reorg handling, user notifications</li><li>Create admin panels for managing NFT drops, marketplace settings, and analytics</li><li>Write comprehensive tests for both backend (Go) and frontend (Jest, React Testing Library)</li><li>Document APIs using OpenAPI/Swagger and maintain technical documentation</li></ul>
+<h2>Будет плюсом</h2>
+<h2>Обязательно</h2>
+<h2>Backend Skills</h2>
+<ul><li>3+ years of commercial experience with Go</li><li>Strong knowledge of REST API design and implementation</li><li>Experience with MongoDB and/or PostgreSQL</li><li>Understanding of microservices architecture</li></ul>
+<h2>Frontend Skills</h2>
+<ul><li>3+ years of experience with React and modern JavaScript/TypeScript</li><li>Proficiency in state management solutions (Redux, Zustand, etc.)</li><li>Experience with responsive design and CSS frameworks</li><li>Understanding of web performance optimization</li></ul>
+<h2>General</h2>
+<ul><li>Experience with Git and CI/CD pipelines</li><li>Familiarity with Docker and containerization</li><li>Strong problem-solving and communication skills</li></ul>
+<h2>Желательно</h2>
+<p>Web3 &amp; Blockchain…</p>
+<p>Текст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.</p></div>
+
+<p class="note">В этой вакансии студия требует право работать в своей стране — гражданство, вид на жительство или рабочую визу. Даже если указана удалённая работа, кандидата из другой страны обычно не рассматривают. Проверьте условия в оригинале перед откликом.</p>
+
+<div class="note">Отклик принимает студия на своём сайте. LOOTWORK только показывает вакансию.</div>
+<h2>Ещё в Xsolla</h2><a class="card" href="../lv-xsolla-4eb71eae-b475-45e2-899d-b6de4980721d/"><div>Product Owner, Xsolla Partner Network</div><div class="cmp">—</div></a><a class="card" href="../lv-xsolla-7b2bc041-2783-4922-b2b1-07cb5326102d/"><div>Staff Software Engineer Smart Wallet &amp; Account Abstraction</div><div class="cmp">Канада, Россия</div></a><a class="card" href="../lv-xsolla-4190ef3b-bac5-44db-8bfe-bec949708955/"><div>Backend Engineer (Go)</div><div class="cmp">Баку, Монреаль</div></a><a class="card" href="../lv-xsolla-6ade2134-e9cb-442d-9f59-8ffc4f897d12/"><div>Director of Marketing – Xsolla Advertising &amp; Rewards</div><div class="cmp">Лос-Анджелес, США</div></a><a class="card" href="../lv-xsolla-10f4a9d6-37b0-438a-822f-669aa3a9f9cc/"><div>Team Lead Backend Engineer</div><div class="cmp">Россия</div></a><a class="card" href="../lv-xsolla-8b692a01-186d-4bc0-8f75-de00b148b0c4/"><div>Investment Analyst</div><div class="cmp">Россия</div></a>
+
+<footer>
+  Вакансии собираются автоматически с карьерных страниц компаний.
+  Мы не работодатель и не принимаем отклики — откликаться нужно на сайте компании.<br>
+  <a href="../../">Все вакансии на LOOTWORK</a>
+</footer>
+</div>
+</body>
+</html>

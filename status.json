@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-02",
-  "jobs": 3798,
+  "date": "2026-10-03",
+  "jobs": 3788,
   "studios": 65,
-  "withSalary": 971,
-  "remote": 1242,
+  "withSalary": 976,
+  "remote": 1235,
   "dropped": 31,
   "failedSources": 4,
   "reusedSources": 0,
-  "emptySources": 6,
+  "emptySources": 7,
   "sources": [
     "ashby",
     "greenhouse",
