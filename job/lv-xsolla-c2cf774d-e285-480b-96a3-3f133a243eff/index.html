@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Software Engineer — Xsolla | LOOTWORK</title>
+<meta name="description" content="ABOUT XSOLLA
+
+Xsolla is a global video game commerce company headquartered in Los Angeles. It helps developers from indie to AAA fund, distribute, market and…">
+<link rel="canonical" href="https://lootwork.github.io/job/lv-xsolla-c2cf774d-e285-480b-96a3-3f133a243eff/">
+<meta property="og:title" content="Software Engineer — Xsolla | LOOTWORK">
+<meta property="og:description" content="ABOUT XSOLLA
+
+Xsolla is a global video game commerce company headquartered in Los Angeles. It helps developers from indie to AAA fund, distribute, market and…">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://lootwork.github.io/job/lv-xsolla-c2cf774d-e285-480b-96a3-3f133a243eff/">
+<meta property="og:image" content="https://lootwork.github.io/og.png">
+<meta name="theme-color" content="#0c0a1a">
+<script>
+  // Ставим тему до отрисовки, иначе страница мигнёт тёмным и станет светлой.
+  // Фигурные скобки удвоены: этот кусок лежит внутри f-строки Python.
+  try {
+    var t = localStorage.getItem("theme");
+    if (!t) t = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+    document.documentElement.dataset.theme = t;
+    if (t === "light") {
+      document.querySelector('meta[name="theme-color"]').setAttribute("content", "#f6f5fb");
+    }
+  } catch (e) {}
+</script>
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@700&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../page.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "JobPosting", "title": "Software Engineer", "description": "ABOUT XSOLLA\n\nXsolla is a global video game commerce company headquartered in Los Angeles. It helps developers from indie to AAA fund, distribute, market and monetize their games, and acts as merchant of record for 1,500+ developers worldwide. For more information, visit xsolla.com.\n\nTHE ROLE\nWe are hiring a Software Engineer, Web3 for Xsolla ZK, Xsolla's Web3 ecosystem on a zkSync-based L2. It includes:\n\n• smart wallets built on account abstraction;\n• SDKs that game studios and partners use to bring players on-chain;\n• infrastructure backend services for tokenizing in-game items and currencies;\n• ecosystem dApps: a DEX, an NFT marketplace and an auction.\n\nThis is a senior fullstack role: you work across backend, frontend and smart contracts.\n\nWHAT YOU WILL OWN\n\n• Features end to end: backend, frontend and production\n• The on-chain / off-chain architecture of your product: what lives in contracts, what lives in services, and how the two stay consistent. You make these decisions and justify them in writing\n• Security and correctness of what you ship: signing flows, interactions with contracts that hold user assets, keys and secrets\n• Production operation of your services, as part of the team's on-call rotation\n\nWHAT YOU WILL DO\n\n• Build backend services in Go and TypeScript: chain indexing, transaction relaying, event processing, APIs for dApps and SDKs\n• Build infrastructure backend services for tokenizing in-game items and currencies\n• Build dApp frontends in React: wallet connection, transaction signing, on-chain state in the UI\n• Integrate smart wallets into products: accounts, paymasters, bundlers\n• Develop SDKs used by game studios and partners\n• Monitor services and contracts in production and take part in on-call\n• Review code\n• Set up and maintain AI tooling in the repositories (Claude Code, Codex, Cursor: rules, context, harness) so the team uses it effectively\n\nREQUIRED\nExperience\n\n• 5+ years of commercial software development, with senior-level production experience across backend and frontend\n• dApps that you shipped to production and maintained\n\nWeb3 libraries and wallets\n\n• viem and wagmi in production: clients and transports, contract reads and writes with typed ABIs, event subscriptions, wagmi hooks and connectors, caching and invalidation of on-chain state\n• How wallet signers work: EOAs, browser and embedded wallets, smart accounts; personal_sign (EIP-191) and typed data (EIP-712); the EIP-1193 provider; network switching\n• Hands-on experience with smart wallets: UserOperations, gas sponsored via paymasters, signature validation for contract accounts (ERC-1271)\n\nBackend\n\n• Go and TypeScript (Node.js) for production services\n• Processing on-chain events: idempotency, reorg handling, retries\n• Asynchronous messaging and event-driven design (Kafka, RabbitMQ or NATS): delivery guarantees, ordering, reprocessing\n• Relational databases (PostgreSQL) and caching (Redis)\n• Designing REST and gRPC APIs: versioning, backward compatibility\n\nFrontend\n\n• React and TypeScript: rendering model, state management, performance\n• Web security fundamentals: XSS, CSRF, CSP, safe handling of signatures and keys in the browser\n\nSmart contracts\n\n• Reading and understanding Solidity contracts and the EVM (storage, gas, call semantics, proxy upgrade patterns, access control) well enough to integrate with them safely and review changes\n• Common contract vulnerability classes (reentrancy, front-running / MEV, oracle manipulation, signature replay) and how they affect the off-chain side\n\nOperations\n\n• Containers and orchestration (Docker, Kubernetes) at the level of deploying and debugging your own services\n• Observability (we use Datadog; experience with Prometheus, Grafana, ELK / Graylog or OpenTelemetry also counts): metrics, logs, tracing and alerting for services and contracts; diagnosing incidents in production\n\nEngineering practices\n\n• Testing: unit, integration, E2E\n• Git, CI/CD (GitLab CI or similar)\n\nAI-assisted engineering\n\n• Daily hands-on use of AI coding tools (Claude Code, Codex, Cursor) for development and review, including configuring them for a repository\n\nEnglish\n\n• Spoken English at B2 level or higher\n\nNICE TO HAVE\n• zkSync / ZK Stack and the specifics of the zk-rollup stack\n• Designing, writing and testing smart contracts in Solidity with Foundry; deploying and upgrading them safely\n• Building ERC-4337 infrastructure yourself (bundlers, paymasters); EIP-6963, EIP-5792\n• DeFi: DEX and AMM mechanics\n• NFTs and marketplaces: ERC-721, ERC-1155, auction mechanics\n• L2 infrastructure: running nodes, indexers, bridges\n• Designing SDKs for external developers\n• Gaming domain experience\nHOW WE WORK\n\n• Decisions in writing. Significant technical decisions are written up as an RFC or ADR that lays out the options and trade-offs. We discuss the document, not a blank whiteboard.\n• AI is part of everyday engineering. We use AI coding tools for development and review, and we treat configuring them for a codebase ", "identifier": {"@type": "PropertyValue", "name": "Xsolla", "value": "lv-xsolla-c2cf774d-e285-480b-96a3-3f133a243eff"}, "hiringOrganization": {"@type": "Organization", "name": "Xsolla"}, "directApply": false, "url": "https://lootwork.github.io/job/lv-xsolla-c2cf774d-e285-480b-96a3-3f133a243eff/", "datePosted": "2026-10-20", "jobLocation": [{"@type": "Place", "address": {"@type": "PostalAddress", "addressLocality": "United States"}}, {"@type": "Place", "address": {"@type": "PostalAddress", "addressLocality": "Russia"}}], "jobLocationType": "TELECOMMUTE"}</script>
+</head>
+<body>
+<div class="wrap">
+<header><a class="logo" href="../../">LOOT<b>WORK</b></a></header>
+<div class="crumbs"><a href="../../">Вакансии</a> ·
+  <a href="../../company/xsolla/">Xsolla</a></div>
+<h1>Software Engineer</h1>
+<div class="sub">Xsolla · США, Россия · опубликовано 20 октября</div>
+<div class="tags"><span class="tag remote">Удалёнка в регионе</span><span class="tag">Программирование</span><span class="tag">TypeScript</span><span class="tag">Docker</span><span class="tag">Kubernetes</span></div>
+<a class="apply" href="https://jobs.lever.co/xsolla/c2cf774d-e285-480b-96a3-3f133a243eff" target="_blank" rel="nofollow noopener">Откликнуться на сайте студии</a>
+<div class="desc"><h2>О XSOLLA</h2>
+<p>Xsolla is a global video game commerce company headquartered in Los Angeles. It helps developers from indie to AAA fund, distribute, market and monetize their games, and acts as merchant of record for 1,500+ developers worldwide. For more information, visit xsolla.com.</p>
+<h2>О роли</h2>
+<p>We are hiring a Software Engineer, Web3 for Xsolla ZK, Xsolla's Web3 ecosystem on a zkSync-based L2. It includes:</p>
+<ul><li>smart wallets built on account abstraction;</li><li>SDKs that game studios and partners use to bring players on-chain;</li><li>infrastructure backend services for tokenizing in-game items and currencies;</li><li>ecosystem dApps: a DEX, an NFT marketplace and an auction.</li></ul>
+<p>This is a senior fullstack role: you work across backend, frontend and smart contracts.</p>
+<h2>WHAT YOU WILL OWN</h2>
+<ul><li>Features end to end: backend, frontend and production</li><li>The on-chain / off-chain architecture of your product: what lives in contracts, what lives in services, and how the two stay consistent. You make these decisions and justify them in writing</li><li>Security and correctness of what you ship: signing flows, interactions with contracts that hold user assets, keys and secrets</li><li>Production operation of your services, as part of the team's on-call rotation</li></ul>
+<h2>Что предстоит делать</h2>
+<ul><li>Build backend services in Go and TypeScript: chain indexing, transaction relaying, event processing, APIs for dApps and SDKs</li><li>Build infrastructure backend services for tokenizing in-game items and currencies</li><li>Build dApp frontends in React: wallet connection, transaction signing, on-chain state in the UI</li><li>Integrate smart wallets into products: accounts, paymasters, bundlers</li><li>Develop SDKs used by game studios and partners</li><li>Monitor services and contracts in production and take part in on-call</li><li>Review code</li><li>Set up and maintain AI tooling in the repositories (Claude Code, Codex, Cursor: rules, context, harness) so the team uses it effectively</li></ul>
+<h2>Обязательно</h2>
+<h2>Experience</h2>
+<ul><li>5+ years of commercial software development, with senior-level production experience across backend and frontend</li><li>dApps that you shipped to production and maintained</li></ul>
+<h2>Web3 libraries and wallets</h2>
+<ul><li>viem and wagmi in production: clients and transports, contract reads and writes with typed ABIs, event subscriptions, wagmi hooks and connectors, caching and invalidation of on-chain state</li><li>How wallet signers work: EOAs, browser and embedded wallets, smart accounts; personal_sign (EIP-191) and typed data (EIP-712); the EIP-1193 provider; network switching</li><li>Hands-on experience with smart wallets: UserOperations, gas sponsored via paymasters, signature validation for contract accounts (ERC-1271)</li></ul>
+<h2>Backend</h2>
+<ul><li>Go and TypeScript (Node.js) for production services</li><li>Processing on-chain events: idempotency, reorg handling, retries</li><li>Asynchronous messaging and event-driven design (Kafka, RabbitMQ or NATS): delivery guarantees, ordering, reprocessing</li><li>Relational databases (PostgreSQL) and caching (Redis)</li><li>Designing REST and gRPC APIs: versioning, backward compatibility</li></ul>
+<h2>Frontend</h2>
+<ul><li>React and TypeScript: rendering model, state management, performance</li><li>Web security fundamentals: XSS, CSRF, CSP, safe handling of signatures and keys in the browser</li></ul>
+<h2>Smart contracts</h2>
+<ul><li>Reading and understanding Solidity contracts and the EVM (storage, gas, call semantics, proxy upgrade patterns, access control) well enough to integrate with them safely and review changes</li><li>Common contract vulnerability classes (reentrancy, front-running / MEV, oracle manipulation, signature replay) and how they affect the off-chain side</li></ul>
+<h2>Operations</h2>
+<ul><li>Containers and orchestration (Docker, Kubernetes) at the level of deploying and debugging your own services</li><li>Observability (we use Datadog; experience with Prometheus, Grafana, ELK / Graylog or OpenTelemetry also counts): metrics, logs, tracing and alerting for services and contracts; diagnosing incidents in production</li></ul>
+<h2>Engineering practices</h2>
+<ul><li>Testing: unit, integration, E2E</li><li>Git, CI/CD (GitLab CI or similar)</li></ul>
+<h2>AI-assisted engineering</h2>
+<ul><li>Daily hands-on use of AI coding tools (Claude Code, Codex, Cursor) for development and review, including configuring them for a repository</li></ul>
+<h2>English</h2>
+<ul><li>Spoken English at B2 level or higher</li></ul>
+<h2>Будет плюсом</h2>
+<ul><li>zkSync / ZK Stack and the specifics of the zk-rollup stack</li><li>Designing, writing and testing smart contracts in Solidity with Foundry; deploying and upgrading them safely</li><li>Building ERC-4337 infrastructure yourself (bundlers, paymasters); EIP-6963, EIP-5792</li><li>DeFi: DEX and AMM mechanics</li><li>NFTs and marketplaces: ERC-721, ERC-1155, auction mechanics</li><li>L2 infrastructure: running nodes, indexers, bridges</li><li>Designing SDKs for external developers</li><li>Gaming domain experience</li></ul>
+<h2>HOW WE WORK</h2>
+<ul><li>Decisions in writing. Significant technical decisions are written up as an RFC or ADR that lays out the options and trade-offs. We discuss the document, not a blank whiteboard.</li><li>AI is part of everyday engineering. We use AI coding tools for development and review, and we treat configuring them for a codebase as real engineering work.</li></ul>
+<h2>HOW WE HIRE</h2>
+<ul><li>Intro call. Your background, your motivation and the role.</li><li>Technical interview. Built directly on the What you will own and Required sections above. We won't ask about anything this posting doesn't promise.</li><li>Bar raiser. An engineer from outside the hiring team checks that you raise the overall engineering bar.</li></ul>
+<h2>Команда</h2>
+<p>You will work alongside product managers, designers, smart contract, backend and frontend engineers, QA and DevOps.</p>
+<h2>BENEFITS…</h2>
+<p>Текст вакансии длинный, здесь показана его часть. Полностью — на сайте студии.</p></div>
+
+
+
+<div class="note">Отклик принимает студия на своём сайте. LOOTWORK только показывает вакансию.</div>
+<h2>Ещё в Xsolla</h2><a class="card" href="../lv-xsolla-db1bd372-e92d-4c29-a4fc-f5be2a28c033/"><div>Junior/Middle Backend Engineer (Go)</div><div class="cmp">Баку</div></a><a class="card" href="../lv-xsolla-c04e5e37-4424-464c-a4b8-c09b50bdfa52/"><div>Middle/Senior Backend Engineer (Go)</div><div class="cmp">Баку</div></a><a class="card" href="../lv-xsolla-208b66cc-9bba-4d1a-af57-e1b55c114207/"><div>Senior Backend Engineer</div><div class="cmp">Россия, Монреаль</div></a><a class="card" href="../lv-xsolla-03e001dc-7fa9-4aa0-8a40-09cce0a323b8/"><div>Senior Backend Engineer (Go)</div><div class="cmp">Баку</div></a><a class="card" href="../lv-xsolla-d370a7d6-0923-441a-8af3-f5526d3d061c/"><div>Junior Developer (AI Engineering)</div><div class="cmp">Владивосток</div></a><a class="card" href="../lv-xsolla-3b46dd1c-9056-497f-a525-5d4656c87c7f/"><div>Dubai Events Community Manager, MENA</div><div class="cmp">Dubai, United Arab Emirates</div></a>
+
+<footer>
+  Вакансии собираются автоматически с карьерных страниц компаний.
+  Мы не работодатель и не принимаем отклики — откликаться нужно на сайте компании.<br>
+  <a href="../../">Все вакансии на LOOTWORK</a>
+</footer>
+</div>
+</body>
+</html>
