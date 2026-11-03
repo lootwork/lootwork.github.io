@@ -1407,9 +1407,7 @@
                    || field === "stack" || field === "rkind" || field === "kind"
                    || field === "company" || field === "location")
                   ? new Set() : base[field];
-    const toks = state.query ? tokens(state.query) : [];
-    const pool = JOBS.filter(j => passes(j, base) &&
-      (!toks.length || toks.every(tok => matchesToken(j, tok))));
+    const pool = queryPool(base);
 
     const m = new Map();
     pool.forEach(j => {
@@ -2251,8 +2249,10 @@
     return DESC_TERMS.has(tok) && hayDesc(j).includes(tok);
   }
 
-  function filtered(){
-    let out = JOBS.filter(j => passes(j, state));
+  // Вакансии, которые проходят фильтры st и текущий поиск. Этим же
+  // считаются все цифры у фильтров, поэтому они всегда совпадают со списком.
+  function queryPool(st){
+    let out = JOBS.filter(j => passes(j, st));
     if (state.query){
       const toks = tokens(state.query);
       // Каждое слово запроса должно где-то найтись: «unity junior remote»
@@ -2262,6 +2262,11 @@
         ? main
         : out.filter(j => toks.every(tok => matchesToken(j, tok) || hayDesc(j).includes(tok)));
     }
+    return out;
+  }
+
+  function filtered(){
+    let out = queryPool(state);
     const relOk = state.query || state.stack.size || state.spec.size;
     const mode = (sortMode === "rel" && !relOk) ? "new" : sortMode;
     const s = SORTS[mode] || SORTS.new;
@@ -2652,36 +2657,50 @@
       box.appendChild(b);
     };
 
-    chip(t("remote"), () => state.remote, () => state.remote = !state.remote, "cond");
-    const withPay = JOBS.filter(j => j.salary).length;
+    // Цифра у быстрого фильтра: сколько останется, если его включить,
+    // с учётом поиска и всех остальных условий. Раньше считали по всей базе,
+    // и при запросе «поддержка» чипы обещали сотни вакансий, которых нет.
+    const qcount = (key, off, test) => {
+      const st = cloneState(state);
+      st[key] = off;
+      return queryPool(st).filter(test).length;
+    };
+    // Пустой фильтр прячем, чтобы не вести в ноль. Включённый оставляем всегда,
+    // иначе его не выключить.
+    const qchip = (label, n, isOn, toggle, kind, hint) => {
+      if (!n && !isOn()) return;
+      chip(label + " " + n, isOn, toggle, kind, hint);
+    };
+
+    qchip(t("remote"), qcount("remote", false, j => j.remote),
+          () => state.remote, () => state.remote = !state.remote, "cond");
     // Если вилок в базе почти нет, фильтр только раздражает пустотой.
-    if (withPay >= JOBS.length * 0.05)
-        chip(t("hasSalary") + " " + withPay, () => state.salary,
-             () => state.salary = !state.salary, "cond");
-    chip(t("week"), () => state.age === 7, () => state.age = state.age === 7 ? null : 7, "cond");
+    if (JOBS.filter(j => j.salary).length >= JOBS.length * 0.05)
+      qchip(t("hasSalary"), qcount("salary", false, j => j.salary),
+            () => state.salary, () => state.salary = !state.salary, "cond");
+    qchip(t("week"), qcount("age", null, j => { const d = daysAgo(j.posted); return d !== null && d <= 7; }),
+          () => state.age === 7, () => state.age = state.age === 7 ? null : 7, "cond");
     // Для человека из СНГ «удалёнка» в вакансии из США часто означает
     // «удалённо, но с правом работать в США». Даём это отфильтровать.
-    // Самый нужный фильтр для нашей аудитории — ставим первым среди условий.
-    const forCis = JOBS.filter(openToCis).length;
-    if (forCis)
-      chip(t("cisChip") + " " + forCis, () => state.cis,
-           () => state.cis = !state.cis, "cis", t("cisHint"));
-    const inHubs = JOBS.filter(inRelocHub).length;
-    if (inHubs)
-      chip(t("hubChip") + " " + inHubs, () => state.hub,
-           () => state.hub = !state.hub, "cis", t("hubHint"));
-    const withReloc = JOBS.filter(j => j.reloc).length;
-    if (withReloc)
-      chip(t("relocChip") + " " + withReloc, () => state.reloc,
-           () => state.reloc = !state.reloc, "cis", t("relocHint"));
-    const withPermit = JOBS.filter(j => j.permit).length;
-    if (withPermit)
-      chip(t("noPermit"), () => state.noPermit, () => state.noPermit = !state.noPermit,
-           "cond", t("permitHint"));
+    qchip(t("cisChip"), qcount("cis", false, openToCis),
+          () => state.cis, () => state.cis = !state.cis, "cis", t("cisHint"));
+    qchip(t("hubChip"), qcount("hub", false, inRelocHub),
+          () => state.hub, () => state.hub = !state.hub, "cis", t("hubHint"));
+    qchip(t("relocChip"), qcount("reloc", false, j => j.reloc),
+          () => state.reloc, () => state.reloc = !state.reloc, "cis", t("relocHint"));
+    // Фильтр «без местного статуса» нужен, только если такие требования вообще есть
+    if (JOBS.some(j => j.permit))
+      qchip(t("noPermit"), qcount("noPermit", false, j => !j.permit),
+            () => state.noPermit, () => state.noPermit = !state.noPermit, "cond", t("permitHint"));
 
-    // четыре самые многочисленные роли — они закрывают большинство запросов
-    counts("role").slice(0, 4).forEach(([role]) => {
-      chip(roleLabel(role), () => state.role.has(role),
+    // Четыре самые многочисленные роли под текущий запрос, плюс уже выбранные,
+    // чтобы выбранную роль можно было снять тут же.
+    const roleRows = counts("role");
+    const shownRoles = roleRows.slice(0, 4);
+    roleRows.slice(4).forEach(r => { if (state.role.has(r[0])) shownRoles.push(r); });
+    state.role.forEach(r => { if (!roleRows.some(x => x[0] === r)) shownRoles.push([r, 0]); });
+    shownRoles.forEach(([role, n]) => {
+      chip(roleLabel(role) + " " + n, () => state.role.has(role),
         () => state.role.has(role) ? state.role.delete(role) : state.role.add(role), "role");
     });
 
