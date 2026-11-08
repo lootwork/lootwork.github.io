@@ -7,6 +7,35 @@ window.JOBS_STUDIOS = 63;
 
 window.JOBS = [
   {
+    "id": "gh-scopely-5475452008",
+    "title": "Senior Client Engineer - Stumble Guys!",
+    "company": "Scopely",
+    "locations": [
+      "Barcelona, Spain",
+      "Dundee, United Kingdom"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-11-08",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5475452008?gh_jid=5475452008",
+    "site": "scopely.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [
+      "Unity",
+      "Unreal",
+      "C++",
+      "C#"
+    ],
+    "seen": "2026-11-08",
+    "descShort": "Scopely is looking for a Senior Client Engineer to join our Stumble Guys Team. At Scopely, we care deeply about what we do and want to inspire play, every day — both through our work environment and through the strong connections we build with our player communities. We are a global team of game lovers developing, publishing, and innovating in the mobile games industry, connecting millions of players worldwide daily. Stumble Guys is one of our most recent hits, with millions of fans joining the party every day and keeping the game at the top of the charts in more than 50 countries. Our ambition is to build a beloved franchise that players enjoy for many years to come. What You Will Do •…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-roblox-8143976",
     "title": "[2027] Associate Product Manager, Early Career",
     "company": "Roblox",
@@ -3657,34 +3686,6 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-scopely-5467931008",
-    "title": "Senior Client Engineer - Stumble Guys!",
-    "company": "Scopely",
-    "locations": [
-      "Dundee, United Kingdom"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-11-06",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5467931008?gh_jid=5467931008",
-    "site": "scopely.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "Unity",
-      "Unreal",
-      "C++",
-      "C#"
-    ],
-    "seen": "2026-11-08",
-    "descShort": "Scopely is looking for a Senior Client Engineer to join our Stumble Guys Team in a hybrid set up at our Dundee office. At Scopely, we care deeply about what we do and want to inspire play, every day — both through our work environment and through the strong connections we build with our player communities. We are a global team of game lovers developing, publishing, and innovating in the mobile games industry, connecting millions of players worldwide daily. Stumble Guys is one of our most recent hits, with millions of fans joining the party every day and keeping the game at the top of the charts in more than 50 countries. Our ambition is to build a beloved franchise that players enjoy for…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-scopely-5430380008",
     "title": "Senior Producer",
     "company": "Scopely",
@@ -6132,9 +6133,9 @@ window.JOBS = [
     "company": "Scopely",
     "locations": [
       "Dublin, Ireland",
-      "London, United Kingdom",
       "Spain",
-      "Barcelona, Spain"
+      "Barcelona, Spain",
+      "London, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
@@ -6981,26 +6982,24 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-scopely-5453173008",
+    "id": "gh-scopely-5460296008",
     "title": "Associate Art Director",
     "company": "Scopely",
     "locations": [
-      "United States",
-      "Canada"
+      "Canada",
+      "United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 146 200 – 215 000",
     "posted": "2026-11-02",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5453173008?gh_jid=5453173008",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5460296008?gh_jid=5460296008",
     "site": "scopely.com",
     "source": "greenhouse",
     "industry": "gamedev",
     "role": "Арт",
     "grade": "Lead",
     "spec": null,
-    "payMin": 146200,
-    "payMax": 215000,
     "stack": [
       "Unity"
     ],
@@ -7009,18 +7008,18 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-scopely-5413351008",
+    "id": "gh-scopely-5411631008",
     "title": "Producer - MONOPOLY GO!",
     "company": "Scopely",
     "locations": [
-      "Culver City, United States",
-      "United States"
+      "United States",
+      "Culver City, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 91 300 – 140 000",
     "posted": "2026-11-02",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5413351008?gh_jid=5413351008",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5411631008?gh_jid=5411631008",
     "site": "scopely.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -10298,31 +10297,6 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-scopely-5222025008",
-    "title": "Analytics Engineer",
-    "company": "Scopely",
-    "locations": [
-      "Barcelona, Spain"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-10-30",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5222025008?gh_jid=5222025008",
-    "site": "scopely.com",
-    "source": "greenhouse",
-    "industry": "gamedev",
-    "role": "Аналитика",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "SQL"
-    ],
-    "seen": "2026-11-08",
-    "descShort": "Scopely is seeking an Analytics Engineer to join our Marketing Analytics team in Barcelona, Spain, on a hybrid basis. At Scopely, we care deeply about what we do and want to inspire play every day - whether in our work environments alongside our talented colleagues or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing, and innovating the mobile games industry, connecting millions of people worldwide daily. Scopely is building the best SaaS gaming platform ever! The Marketing data team strives to create the world’s best products for UA, Ads, ASO, and Player Experience verticals. Powering many award-winning…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-scopely-5407171008",
     "title": "Art Director",
     "company": "Scopely",
@@ -11207,18 +11181,18 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-scopely-5436403008",
+    "id": "gh-scopely-5437823008",
     "title": "Senior Product Manager, CRM - MONOPOLY GO!",
     "company": "Scopely",
     "locations": [
-      "Barcelona, Spain",
-      "United Kingdom"
+      "United Kingdom",
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-10-30",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5436403008?gh_jid=5436403008",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5437823008?gh_jid=5437823008",
     "site": "scopely.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -11231,19 +11205,19 @@ window.JOBS = [
     "hasDesc": true
   },
   {
-    "id": "gh-scopely-5428783008",
+    "id": "gh-scopely-5435833008",
     "title": "Senior Product Manager (Roadmap) - Star Trek Fleet Command",
     "company": "Scopely",
     "locations": [
-      "London, United Kingdom",
       "Dublin, Ireland",
+      "London, United Kingdom",
       "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-10-30",
-    "url": "https://job-boards.greenhouse.io/scopely/jobs/5428783008?gh_jid=5428783008",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/5435833008?gh_jid=5435833008",
     "site": "scopely.com",
     "source": "greenhouse",
     "industry": "gamedev",
@@ -18368,6 +18342,32 @@ window.JOBS = [
     "stack": [],
     "seen": "2026-11-08",
     "descShort": "ABOUT VOODOO Founded in 2013, Voodoo is a tech company that creates mobile games and apps with a mission to entertain the world. Gathering 800 employees, 7 billion downloads, and over 200 million active users, Voodoo is the #3 mobile publisher worldwide in terms of downloads after Google and Meta. Our portfolio includes chart-topping games like Mob Control and Block Jam, alongside popular apps such as BeReal and Wizz. TEAM The Engineering & Data team builds innovative tech products and platforms to support the impressive growth of their gaming and consumer apps which allow Voodoo to stay at the forefront of the mobile gaming industry. As a Senior Data Product Manager, you will be joining…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-scopely-4626426008",
+    "title": "Analytics Engineer",
+    "company": "Scopely",
+    "locations": [
+      "Barcelona, Spain"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-10-08",
+    "url": "https://job-boards.greenhouse.io/scopely/jobs/4626426008?gh_jid=4626426008",
+    "site": "scopely.com",
+    "source": "greenhouse",
+    "industry": "gamedev",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "SQL"
+    ],
+    "seen": "2026-11-08",
+    "hasRu": true,
+    "descShort": "Scopely is seeking an Analytics Engineer to join our Marketing Analytics team in Barcelona, Spain, on a hybrid basis. At Scopely, we care deeply about what we do and want to inspire play every day - whether in our work environments alongside our talented colleagues or through our deep connections with our communities of players. We are a global team of game lovers who are developing, publishing, and innovating the mobile games industry, connecting millions of people worldwide daily. Scopely is building the best SaaS gaming platform ever! The Marketing data team strives to create the world’s best products for UA, Ads, ASO, and Player Experience verticals. Powering many award-winning…",
     "hasDesc": true
   },
   {

@@ -8912,6 +8912,33 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-toast-8267686",
+    "title": "Senior Software Engineer - Infrastructure",
+    "company": "Toast",
+    "locations": [
+      "Dublin, Ireland"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-11-05",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=8267686",
+    "site": "toasttab.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "DevOps",
+    "stack": [
+      "Kotlin",
+      "AWS"
+    ],
+    "seen": "2026-11-08",
+    "descShort": "Toast is a rapidly growing company that's revolutionizing how the restaurant industry does business by pairing technology with an extraordinary commitment to customer success. We help restaurants streamline operations, increase revenue, and deliver amazing guest experiences through our platform that combines restaurant point of sale, team management, guest-facing technology, and award-winning customer support. Join us as we empower the restaurant community to delight guests, do what they love, and thrive. We're looking for a Senior Software Engineer with strong experience building and operating distributed systems to join the team that connects Toast's customers, services, and…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-block-5417985008",
     "title": "Product Compliance Manager, Square",
     "company": "Block",
@@ -32587,6 +32614,34 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-toast-8161283",
+    "title": "Manager II, Software Engineering",
+    "company": "Toast",
+    "locations": [
+      "Bengaluru, India",
+      "Bangalore, india"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-10-30",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=8161283",
+    "site": "toasttab.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Java",
+      "Kotlin"
+    ],
+    "seen": "2026-11-08",
+    "descShort": "Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. One of the top challenges facing Toast customers today is getting new guests. Toast Advertising is a restaurant advertising tool that lets Toast customers launch and manage Google and Meta campaigns from within the Toast platform. It is built for US restaurants that want to reach new guests, drive traffic to owned channels like online ordering, catering and events, and Toast Tables, and track return on ad spend without using separate ad tools or spreadsheets. Within Toast’s suite, it connects marketing…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-toast-8311088",
     "title": "Manager, Software Engineering",
     "company": "Toast",
@@ -32666,32 +32721,6 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-11-08",
     "descShort": "Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. The Care Automation team builds the systems and automations that power how Toast supports its customers. Our work connects the platforms, workflows, and integrations that our Customer Care Agents rely on every day to resolve issues quickly and deliver a great customer experience. We are looking for a Senior Software Engineer to join this team and help shape the future of how these teams operate. You will contribute to building a strong technical foundation that will carry Toast through the next decade and…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-toast-8081766",
-    "title": "Senior Software Engineer - Infrastructure",
-    "company": "Toast",
-    "locations": [
-      "Dublin, Ireland"
-    ],
-    "remote": false,
-    "rkind": "hybrid",
-    "salary": null,
-    "posted": "2026-10-30",
-    "url": "https://careers.toasttab.com/jobs?gh_jid=8081766",
-    "site": "toasttab.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "DevOps",
-    "stack": [
-      "AWS"
-    ],
-    "seen": "2026-11-08",
-    "descShort": "Toast is a rapidly growing company that's revolutionizing how the restaurant industry does business by pairing technology with an extraordinary commitment to customer success. We help restaurants streamline operations, increase revenue, and deliver amazing guest experiences through our platform that combines restaurant point of sale, team management, guest-facing technology, and award-winning customer support. Join us as we empower the restaurant community to delight guests, do what they love, and thrive. We're looking for a Senior Software Engineer with strong experience building and operating distributed systems to join the team that connects Toast's customers, services, and…",
     "hasDesc": true
   },
   {
@@ -35656,33 +35685,6 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-11-08",
     "descShort": "About Betterment Betterment is a leading, technology-driven financial services company that offers investing, savings, and retirement solutions for retail investors and investment advisors, as well as financial wellness solutions, including a 401(k) for small and medium-sized businesses. Our team is passionate about our mission, to empower people to build wealth with confidence and ease. We're headquartered in NYC and offer hybrid NY-based positions (four days/week in-office, with no required office days during the summer and winter holidays). About the Role Betterment is entering its next phase of growth, and we’re looking for a Director of Brand Design to raise the ambition and craft of…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-toast-8333416",
-    "title": "Android Software Engineer",
-    "company": "Toast",
-    "locations": [
-      "Dublin, Ireland"
-    ],
-    "remote": false,
-    "rkind": "hybrid",
-    "salary": null,
-    "posted": "2026-10-29",
-    "url": "https://careers.toasttab.com/jobs?gh_jid=8333416",
-    "site": "toasttab.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "Мобильная",
-    "stack": [
-      "Java",
-      "Kotlin"
-    ],
-    "seen": "2026-11-08",
-    "descShort": "Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. Are you interested in using the latest technology to help our customers build amazing relationships with their guests? Does the idea of developing products that help people cherish their best moments in life sound exciting to you? As an engineer on the Guest Engagement team, your mission will be creating the next generation of engagement experiences that help bring new guests into the restaurants, and turn them into regulars. You will work closely with UX, PM and QA, and have access to state of the art AI…",
     "hasDesc": true
   },
   {
@@ -40585,34 +40587,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-riskified-8653104002",
-    "title": "Data Scientist",
-    "company": "Riskified",
-    "locations": [
-      "Tel Aviv",
-      "Lisbon"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-10-26",
-    "url": "https://www.riskified.com/careers/job-description/?gh_jid=8653104002",
-    "site": "riskified.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Данные и ML",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Python",
-      "SQL"
-    ],
-    "seen": "2026-11-08",
-    "descShort": "About Us Riskified empowers businesses to unleash ecommerce growth by taking risk off the table. Many of the world’s biggest brands and publicly traded companies selling online rely on Riskified for guaranteed protection against chargebacks, to fight fraud and policy abuse at scale, and to improve customer retention. Developed and managed by the largest team of ecommerce risk analysts, data scientists and researchers, Riskified’s AI-powered fraud and risk intelligence platform analyzes the individual behind each interaction to provide real-time decisions and robust identity-based insights. Riskified is proud to work with incredible companies in virtually all industries including Acer…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-moonfare-8039960003",
     "title": "Content Producer (m/f/d)",
     "company": "Moonfare",
@@ -42957,36 +42931,6 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-11-08",
     "descShort": "ABOUT RAMP Ramp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books. The problems are high-stakes, data-dense, and unforgiving. We hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome. The median Ramp customer saves 7.5% and grows revenue 16% in…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-toast-8045807",
-    "title": "Manager II, Software Engineering",
-    "company": "Toast",
-    "locations": [
-      "Bangalore, india",
-      "Bengaluru, India"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-10-22",
-    "url": "https://careers.toasttab.com/jobs?gh_jid=8045807",
-    "site": "toasttab.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Java",
-      "Kotlin",
-      "JavaScript",
-      "AWS"
-    ],
-    "seen": "2026-11-08",
-    "descShort": "Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. One of the top challenges facing Toast customers today is getting new guests. Toast Advertising is a restaurant advertising tool that lets Toast customers launch and manage Google and Meta campaigns from within the Toast platform. It is built for US restaurants that want to reach new guests, drive traffic to owned channels like online ordering, catering and events, and Toast Tables, and track return on ad spend without using separate ad tools or spreadsheets. Within Toast’s suite, it connects marketing…",
     "hasDesc": true
   },
   {
@@ -59429,6 +59373,33 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-toast-8038744",
+    "title": "Android Software Engineer",
+    "company": "Toast",
+    "locations": [
+      "Dublin, Ireland"
+    ],
+    "remote": false,
+    "rkind": "hybrid",
+    "salary": null,
+    "posted": "2026-09-09",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=8038744",
+    "site": "toasttab.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Мобильная",
+    "stack": [
+      "Java",
+      "Kotlin"
+    ],
+    "seen": "2026-11-08",
+    "descShort": "Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. Are you interested in using the latest technology to help our customers build amazing relationships with their guests? Does the idea of developing products that help people cherish their best moments in life sound exciting to you? As an engineer on the Guest Engagement team, your mission will be creating the next generation of engagement experiences that help bring new guests into the restaurants, and turn them into regulars. You will work closely with UX, PM and QA, and have access to state of the art AI…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-toast-7519051",
     "title": "Credit Risk Senior Analyst - CECL Reporting, Loss Forecasting",
     "company": "Toast",
@@ -59480,21 +59451,21 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-toast-7845688",
+    "id": "gh-toast-8079612",
     "title": "Principal Software Engineer",
     "company": "Toast",
     "locations": [
-      "Bengaluru, India",
       "Dublin, Ireland",
-      "Chennai",
       "United States",
-      "Bangalore"
+      "Bangalore",
+      "Chennai",
+      "Bengaluru, India"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-09",
-    "url": "https://careers.toasttab.com/jobs?gh_jid=7845688",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=8079612",
     "site": "toasttab.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -59503,8 +59474,7 @@ window.JOBS_FINTECH = [
     "grade": "Lead",
     "spec": null,
     "stack": [
-      "Java",
-      "Kotlin"
+      "AWS"
     ],
     "seen": "2026-11-08",
     "descShort": "Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. As a Principal Engineer / architect you will be responsible for creating a technical strategy and coordinating the designs for meeting the needs of Toast’s largest restaurant brands. You will partner with Product Managers to develop the technology roadmap that enables enterprise customers to leverage the power of Toast. You will also work closely with technical leaders and implementation teams across the organization to deliver robust, scalable solutions with integrations to customers’ external systems.…",
@@ -60732,6 +60702,36 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-11-08",
     "descShort": "Hello, we’re Starling. We built a new kind of bank because we knew technology had the power to help people save, spend and manage their money in a new and transformative way. We’re a fully licensed UK bank with the culture and spirit of a fast-moving, disruptive tech company. We’re a bank, but better: fairer, easier to use and designed to demystify money for everyone. Starling Bank is powered by Engine, the banking platform we built ourselves and which we are now rolling out to other banks around the world. We employ more than 3,500 people across our London, Southampton, Cardiff and Manchester offices. We are looking for a Tax Manager to join our growing tax team. Alongside the Head of…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-riskified-8499857002",
+    "title": "Data Scientist",
+    "company": "Riskified",
+    "locations": [
+      "Lisbon",
+      "Tel Aviv"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-01",
+    "url": "https://www.riskified.com/careers/job-description/?gh_jid=8499857002",
+    "site": "riskified.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Данные и ML",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL",
+      "Docker",
+      "Kubernetes"
+    ],
+    "seen": "2026-11-08",
+    "descShort": "About Us Riskified empowers businesses to unleash ecommerce growth by taking risk off the table. Many of the world’s biggest brands and publicly traded companies selling online rely on Riskified for guaranteed protection against chargebacks, to fight fraud and policy abuse at scale, and to improve customer retention. Developed and managed by the largest team of ecommerce risk analysts, data scientists and researchers, Riskified’s AI-powered fraud and risk intelligence platform analyzes the individual behind each interaction to provide real-time decisions and robust identity-based insights. Riskified is proud to work with incredible companies in virtually all industries including Acer…",
     "hasDesc": true
   },
   {
