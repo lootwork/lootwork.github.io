@@ -37,6 +37,17 @@ margin:26px 0 10px;padding-top:16px;border-top:1px solid var(--line-soft)}
 padding:13px 15px;margin-bottom:9px;text-decoration:none;color:var(--text)}
 .card:hover{border-color:var(--line)}
 .card .cmp{color:var(--muted);font-size:13px;margin-top:3px}
+.card .ttl{font-weight:600}
+.card .tags{margin:8px 0 0}
+.tag.pay{color:var(--amber)}
+.stats{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 8px}
+.stat{border:1px solid var(--line-soft);background:var(--panel);border-radius:10px;padding:7px 12px;min-width:84px}
+.stat b{display:block;font-size:17px;color:var(--cyan)}
+.stat span{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.more-links{margin:16px 0 4px;font-size:14px;color:var(--muted);line-height:1.9}
+.more-links a{white-space:nowrap}
+.about-text{margin-top:26px;color:var(--muted)}
+.about-text p{margin:0 0 10px}
 footer{margin-top:40px;padding-top:18px;border-top:1px solid var(--line-soft);
 color:var(--muted);font-size:13px}
 .crumbs{font-size:13px;color:var(--muted);margin-bottom:14px}

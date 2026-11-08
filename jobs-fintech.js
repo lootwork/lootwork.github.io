@@ -674,19 +674,19 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-tide-8197483003",
+    "id": "gh-tide-8197482003",
     "title": "Engineering Manager, Payment Services",
     "company": "Tide",
     "locations": [
-      "India, Delhi NCR",
+      "India, Hyderabad",
       "India, Bengaluru",
-      "India, Hyderabad"
+      "India, Delhi NCR"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-11-06",
-    "url": "https://job-boards.greenhouse.io/tide/jobs/8197483003",
+    "url": "https://job-boards.greenhouse.io/tide/jobs/8197482003",
     "site": "tide.co",
     "source": "greenhouse",
     "industry": "fintech",
@@ -916,31 +916,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-bitpanda-4643990101",
-    "title": "AML Operations Associate",
-    "company": "Bitpanda",
-    "locations": [
-      "Vienna, Austria",
-      "Barcelona, Spain"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-11-06",
-    "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4643990101",
-    "site": "bitpanda.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Крипта",
-    "role": "Комплаенс",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-11-08",
-    "descShort": "Who we are We simplify wealth creation. Founded in 2014 in Vienna, Austria by Eric Demuth, Paul Klanschek and Christian Trummer, we’re here to help people trust themselves enough to build their financial freedom — for now and the future. Our user-friendly, trade-everything platform empowers both first-time investors and seasoned experts to invest in the cryptocurrencies, crypto indices, stocks*, precious metals and commodities* they want — with any sized budget, 24/7. Our global team works across different cultures and time zones, bringing our products to more than 7 million customers, making us one of Europe’s safest and most secure platforms that powers modern investing. Headquartered in…",
-    "hasDesc": true
-  },
-  {
     "id": "ab-airwallex-cd3c9842-d328-4175-a63c-f823afddd0e2",
     "title": "Sales Manager, SME & Growth",
     "company": "Airwallex",
@@ -1016,37 +991,6 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-11-08",
     "descShort": "ABOUT AIRWALLEX Airwallex is the AI-native financial operating system for a real-time, intelligent economy. More than 675,000 businesses, including McLaren Racing, Qantas, SHEIN, and TikTok, use us, directly or through our platform partners, to run their financial operations or build and monetize financial products of their own. We started in Melbourne in 2015 to build the infrastructure global commerce runs on. We're the regulated backbone behind global payments: not by accident, but by design. A decade plus, 85+ licenses, and a financial infrastructure spanning North America, Europe, the Middle East, and Asia-Pacific. We're co-headquartered in San Francisco and Singapore, with more than…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-ebury-5023815101",
-    "title": "Business Developer",
-    "company": "Ebury",
-    "locations": [
-      "Porto",
-      "Amsterdam",
-      "Antwerp",
-      "Lisbon",
-      "Auckland, New Zealand",
-      "Stockholm, Sweden",
-      "Madrid",
-      "Lyon"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-11-06",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/5023815101",
-    "site": "ebury.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-11-08",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Business Developer Ebury Amsterdam - Office based; 4 days in the office, 1 day of home office / week Launch Your FinTech Career as a Business Developer at Ebury in our dynamic Amsterdam team. Kickstart a meaningful sales…",
     "hasDesc": true
   },
   {
@@ -1606,7 +1550,7 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-binance-5002729101",
+    "id": "gh-binance-5002575101",
     "title": "Pioneer Talent Program - Applied Data Scientist",
     "company": "Binance",
     "locations": [
@@ -1618,7 +1562,7 @@ window.JOBS_FINTECH = [
     "rkind": null,
     "salary": null,
     "posted": "2026-11-06",
-    "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002729101",
+    "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002575101",
     "site": "binance.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -1800,6 +1744,35 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-coinbase-8347602",
+    "title": "Senior Machine Learning Engineer",
+    "company": "Coinbase",
+    "locations": [
+      "United States",
+      "India"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "$ 213 750 – 225 000",
+    "posted": "2026-11-06",
+    "url": "https://www.coinbase.com/careers/positions/8347602?gh_jid=8347602",
+    "site": "coinbase.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "payMin": 213750,
+    "payMax": 225000,
+    "stack": [
+      "Python"
+    ],
+    "seen": "2026-11-08",
+    "descShort": "Ready to do the most impactful work of your career? At Coinbase, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” Learn more about working at Coinbase. The CX Intelligence team is part of Coinbase’s Enterprise Applications and Architecture org and builds…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-coinbase-8360386",
     "title": "Senior Product Manager",
     "company": "Coinbase",
@@ -1883,18 +1856,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-coinbase-8359515",
+    "id": "gh-coinbase-8356846",
     "title": "Staff Software Engineer - Backend (Consumer - Agentic Trading)",
     "company": "Coinbase",
     "locations": [
-      "Canada",
-      "United States"
+      "United States",
+      "Canada"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 217 900 – 217 900",
+    "salary": "$ 218 025 – 256 500",
     "posted": "2026-11-06",
-    "url": "https://www.coinbase.com/careers/positions/8359515?gh_jid=8359515",
+    "url": "https://www.coinbase.com/careers/positions/8356846?gh_jid=8356846",
     "site": "coinbase.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -1902,8 +1875,8 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": null,
     "spec": "Бэкенд",
-    "payMin": 217900,
-    "payMax": 217900,
+    "payMin": 218025,
+    "payMax": 256500,
     "stack": [],
     "seen": "2026-11-08",
     "descShort": "Ready to do the most impactful work of your career? At Coinbase, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” Learn more about working at Coinbase. We're hiring a Staff Software Engineer to join the Coinbase Advisor team within the Consumer &…",
@@ -2101,19 +2074,19 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-blockchain-com-8360000",
+    "id": "gh-blockchain-com-8360026",
     "title": "Senior Risk Officer",
     "company": "Blockchain.com",
     "locations": [
-      "Dallas",
+      "Malta",
       "London",
-      "Malta"
+      "Dallas"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-11-06",
-    "url": "https://job-boards.greenhouse.io/blockchain/jobs/8360000",
+    "url": "https://job-boards.greenhouse.io/blockchain/jobs/8360026",
     "site": "blockchain.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -3372,6 +3345,34 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-adyen-6919020",
+    "title": "Senior Data Engineer",
+    "company": "Adyen",
+    "locations": [
+      "Amsterdam",
+      "Sao Jose dos Campos"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-11-05",
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/6919020",
+    "site": "adyen.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Данные",
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-11-08",
+    "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. Senior Data Engineer At Adyen, we treat data and data artifacts…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-adyen-8105603",
     "title": "Supply Chain Data Engineer & Integration Manager",
     "company": "Adyen",
@@ -3420,6 +3421,33 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-11-08",
     "descShort": "BUILD WITH US Since 2004, we've had one clear goal: to make payments and money management effortless for every business in Europe. Today, more than 250,000 companies use Mollie to get paid, manage money and grow, with products designed to be simple, scalable, and dependable. With 950+ Mollies across 14+ locations, we care deeply about autonomy and craft. So we work in small teams, with real ownership, and we trust you to make the right decisions. We're building for the long term, so we provide the tools you need, processes you can rely on, and a balanced work environment to help you do work you're proud of. Sound like your kind of place? Let's build together. YOUR IMPACT Credit, IRRBB and…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-gocardless-8355218",
+    "title": "Internal Communications Specialist (18 month FTC)",
+    "company": "GoCardless",
+    "locations": [
+      "Leeds, United Kingdom",
+      "Riga, Latvia"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "£ 41 600 – 62 400",
+    "posted": "2026-11-05",
+    "url": "https://job-boards.greenhouse.io/gocardless/jobs/8355218",
+    "site": "gocardless.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Маркетинг",
+    "grade": "Junior",
+    "spec": null,
+    "payMin": 52832,
+    "payMax": 79248,
+    "stack": [],
+    "seen": "2026-11-08",
+    "descShort": "About us GoCardless, a Mollie company, is a global leader in bank payments. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send bank payments through Direct Debit, real-time payments and open banking. With US$130bn+ processed annually across 30+ countries, we handle recurring and one-off payments without the chasing, stress, or expensive fees. Our end-to-end payment platform also features AI-powered solutions to improve payment success and reduce fraud, alongside connections to over 350 platforms businesses use everyday. We are headquartered in the UK, with teams and operations spanning North America, Europe and Asia-Pacific. For more…",
     "hasDesc": true
   },
   {
@@ -3569,20 +3597,20 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-tide-8014190003",
+    "id": "gh-tide-8012699003",
     "title": "Director of Engineering, KYX",
     "company": "Tide",
     "locations": [
-      "India, Hyderabad",
       "United Kingdom",
-      "Berlin, Germany",
-      "Bulgaria"
+      "India, Hyderabad",
+      "Bulgaria",
+      "Berlin, Germany"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-11-05",
-    "url": "https://job-boards.greenhouse.io/tide/jobs/8014190003",
+    "url": "https://job-boards.greenhouse.io/tide/jobs/8012699003",
     "site": "tide.co",
     "source": "greenhouse",
     "industry": "fintech",
@@ -3620,19 +3648,19 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-tide-7570173003",
+    "id": "gh-tide-7569898003",
     "title": "Engineering Manager",
     "company": "Tide",
     "locations": [
-      "Lithuania",
+      "Bulgaria",
       "Serbia",
-      "Bulgaria"
+      "Lithuania"
     ],
     "remote": false,
     "rkind": null,
     "salary": "€ 72 000 – 101 250",
     "posted": "2026-11-05",
-    "url": "https://job-boards.greenhouse.io/tide/jobs/7570173003",
+    "url": "https://job-boards.greenhouse.io/tide/jobs/7569898003",
     "site": "tide.co",
     "source": "greenhouse",
     "industry": "fintech",
@@ -3640,13 +3668,15 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": null,
     "spec": null,
+    "payMin": 77760,
+    "payMax": 109350,
     "stack": [
+      "C#",
       "Python",
       "Java",
       "Kotlin",
       "Swift",
-      "AWS",
-      "Docker"
+      "AWS"
     ],
     "seen": "2026-11-08",
     "descShort": "ABOUT TIDE At Tide, we help SMEs save time and money in the running of their businesses by not only offering business accounts and related banking services, but also a comprehensive set of highly usable and connected administrative solutions, from invoicing to accounting. Tide is transforming the small business banking market and now supports over 2 million members globally across the UK, India, Germany and France. Using advanced technology, all solutions are designed with SMEs in mind. With quick onboarding, low fees and innovative features, we thrive on making data driven decisions to serve our mission: to help SMEs save time and money so they can get back to doing what they love. Tide…",
@@ -3701,19 +3731,19 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-tide-8036679003",
+    "id": "gh-tide-8036676003",
     "title": "Engineering Manager, Core Infrastructure",
     "company": "Tide",
     "locations": [
-      "Lithuania",
       "Serbia",
+      "Lithuania",
       "Bulgaria"
     ],
     "remote": false,
     "rkind": null,
     "salary": "€ 75 200 – 105 750",
     "posted": "2026-11-05",
-    "url": "https://job-boards.greenhouse.io/tide/jobs/8036679003",
+    "url": "https://job-boards.greenhouse.io/tide/jobs/8036676003",
     "site": "tide.co",
     "source": "greenhouse",
     "industry": "fintech",
@@ -3721,6 +3751,8 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": null,
     "spec": "DevOps",
+    "payMin": 81216,
+    "payMax": 114210,
     "stack": [
       "Python",
       "Java",
@@ -3758,19 +3790,19 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-tide-8046430003",
+    "id": "gh-tide-8040114003",
     "title": "Head of Engineering, Tide Credit Services",
     "company": "Tide",
     "locations": [
-      "Serbia",
+      "Lithuania",
       "Bulgaria",
-      "Lithuania"
+      "Serbia"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "€ 91 600 – 114 500",
+    "salary": "€ 8 600 – 10 800",
     "posted": "2026-11-05",
-    "url": "https://job-boards.greenhouse.io/tide/jobs/8046430003",
+    "url": "https://job-boards.greenhouse.io/tide/jobs/8040114003",
     "site": "tide.co",
     "source": "greenhouse",
     "industry": "fintech",
@@ -3778,8 +3810,8 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": "Lead",
     "spec": null,
-    "payMin": 98928,
-    "payMax": 123660,
+    "payMin": 9288,
+    "payMax": 11664,
     "stack": [
       "Java",
       "AWS",
@@ -3791,19 +3823,19 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-tide-8047176003",
+    "id": "gh-tide-8035213003",
     "title": "Head of Product, Credit Outcome",
     "company": "Tide",
     "locations": [
+      "India, Hyderabad",
       "India, Bengaluru",
-      "India, Delhi NCR",
-      "India, Hyderabad"
+      "India, Delhi NCR"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-11-05",
-    "url": "https://job-boards.greenhouse.io/tide/jobs/8047176003",
+    "url": "https://job-boards.greenhouse.io/tide/jobs/8035213003",
     "site": "tide.co",
     "source": "greenhouse",
     "industry": "fintech",
@@ -4341,19 +4373,19 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-tide-8014651003",
+    "id": "gh-tide-8014654003",
     "title": "Staff Mobile Engineer",
     "company": "Tide",
     "locations": [
-      "Serbia",
       "Lithuania",
-      "Bulgaria"
+      "Bulgaria",
+      "Serbia"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-11-05",
-    "url": "https://job-boards.greenhouse.io/tide/jobs/8014651003",
+    "url": "https://job-boards.greenhouse.io/tide/jobs/8014654003",
     "site": "tide.co",
     "source": "greenhouse",
     "industry": "fintech",
@@ -4367,19 +4399,19 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-tide-8039814003",
+    "id": "gh-tide-8036817003",
     "title": "Staff Platform Engineer",
     "company": "Tide",
     "locations": [
+      "Bulgaria",
       "Lithuania",
-      "Serbia",
-      "Bulgaria"
+      "Serbia"
     ],
     "remote": false,
     "rkind": null,
     "salary": "€ 68 400 – 96 200",
     "posted": "2026-11-05",
-    "url": "https://job-boards.greenhouse.io/tide/jobs/8039814003",
+    "url": "https://job-boards.greenhouse.io/tide/jobs/8036817003",
     "site": "tide.co",
     "source": "greenhouse",
     "industry": "fintech",
@@ -4712,6 +4744,31 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-bitpanda-4647006101",
+    "title": "AML Operations Associate",
+    "company": "Bitpanda",
+    "locations": [
+      "Barcelona, Spain",
+      "Vienna, Austria"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-11-05",
+    "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4647006101",
+    "site": "bitpanda.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-11-08",
+    "descShort": "Who we are We simplify wealth creation. Founded in 2014 in Vienna, Austria by Eric Demuth, Paul Klanschek and Christian Trummer, we’re here to help people trust themselves enough to build their financial freedom — for now and the future. Our user-friendly, trade-everything platform empowers both first-time investors and seasoned experts to invest in the cryptocurrencies, crypto indices, stocks*, precious metals and commodities* they want — with any sized budget, 24/7. Our global team works across different cultures and time zones, bringing our products to more than 7 million customers, making us one of Europe’s safest and most secure platforms that powers modern investing. Headquartered in…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-bitpanda-5029055101",
     "title": "German Copywriter & Content Editor",
     "company": "Bitpanda",
@@ -4786,32 +4843,6 @@ window.JOBS_FINTECH = [
       "SQL",
       "AWS"
     ],
-    "seen": "2026-11-08",
-    "descShort": "Who we are We simplify wealth creation. Founded in 2014 in Vienna, Austria by Eric Demuth, Paul Klanschek and Christian Trummer, we’re here to help people trust themselves enough to build their financial freedom — for now and the future. Our user-friendly, trade-everything platform empowers both first-time investors and seasoned experts to invest in the cryptocurrencies, crypto indices, stocks*, precious metals and commodities* they want — with any sized budget, 24/7. Our global team works across different cultures and time zones, bringing our products to more than 7 million customers, making us one of Europe’s safest and most secure platforms that powers modern investing. Headquartered in…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-bitpanda-5009824101",
-    "title": "Lead Product Manager, DeFi",
-    "company": "Bitpanda",
-    "locations": [
-      "Vienna, Austria",
-      "Barcelona, Spain",
-      "Berlin, Germany"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-11-05",
-    "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5009824101",
-    "site": "bitpanda.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Крипта",
-    "role": "Продакт",
-    "grade": "Lead",
-    "spec": null,
-    "stack": [],
     "seen": "2026-11-08",
     "descShort": "Who we are We simplify wealth creation. Founded in 2014 in Vienna, Austria by Eric Demuth, Paul Klanschek and Christian Trummer, we’re here to help people trust themselves enough to build their financial freedom — for now and the future. Our user-friendly, trade-everything platform empowers both first-time investors and seasoned experts to invest in the cryptocurrencies, crypto indices, stocks*, precious metals and commodities* they want — with any sized budget, 24/7. Our global team works across different cultures and time zones, bringing our products to more than 7 million customers, making us one of Europe’s safest and most secure platforms that powers modern investing. Headquartered in…",
     "hasDesc": true
@@ -7401,6 +7432,35 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-coinbase-8175873",
+    "title": "Software Engineer Intern",
+    "company": "Coinbase",
+    "locations": [
+      "Singapore",
+      "San Francisco, United States"
+    ],
+    "remote": false,
+    "rkind": "hybrid",
+    "salary": null,
+    "posted": "2026-11-05",
+    "url": "https://www.coinbase.com/careers/positions/8175873?gh_jid=8175873",
+    "site": "coinbase.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": "Junior",
+    "spec": null,
+    "stack": [
+      "Go",
+      "AWS",
+      "Docker"
+    ],
+    "seen": "2026-11-08",
+    "descShort": "Ready to do the most impactful work of your career? At Coinbase, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” Learn more about working at Coinbase. This is a 12-week internship during summer 2027. You'll join Coinbase as a software engineer intern…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-coinbase-8165441",
     "title": "Software Engineer, Security Platform",
     "company": "Coinbase",
@@ -7634,34 +7694,6 @@ window.JOBS_FINTECH = [
     "grade": null,
     "spec": null,
     "stack": [],
-    "seen": "2026-11-08",
-    "descShort": "About Us Established in 2018, Bybit is one of the world’s leading cryptocurrency exchanges and digital financial platforms, serving over 80 million users across more than 200 countries and regions. Powered by world-class technology and a user-first mindset, Bybit delivers a seamless ecosystem across trading, payments, wealth management, custody, institutional services, and Web3 — connecting users to the future of digital finance. Our core values define how we build. We listen, care and improve to create products and experiences that put users first. Backed by a global team of ambitious builders, problem-solvers, and innovators, we foster a high-performance and fast-moving environment where…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-bybit-4971569101",
-    "title": "[Intern] Test Development Engineer Intern",
-    "company": "Bybit",
-    "locations": [
-      "Hong Kong SAR",
-      "Kuala Lumpur, Malaysia"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-11-05",
-    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4971569101",
-    "site": "bybit.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Крипта",
-    "role": "Программирование",
-    "grade": "Junior",
-    "spec": null,
-    "stack": [
-      "Python",
-      "SQL"
-    ],
     "seen": "2026-11-08",
     "descShort": "About Us Established in 2018, Bybit is one of the world’s leading cryptocurrency exchanges and digital financial platforms, serving over 80 million users across more than 200 countries and regions. Powered by world-class technology and a user-first mindset, Bybit delivers a seamless ecosystem across trading, payments, wealth management, custody, institutional services, and Web3 — connecting users to the future of digital finance. Our core values define how we build. We listen, care and improve to create products and experiences that put users first. Backed by a global team of ambitious builders, problem-solvers, and innovators, we foster a high-performance and fast-moving environment where…",
     "hasDesc": true
@@ -7903,6 +7935,31 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-11-08",
     "descShort": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. About the team Our EMEA Marketing team is a dynamic, fast-growing group that loves turning customers into enthusiastic Stripe advocates. We work hand-in-hand with our Sales team…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-stripe-8352485",
+    "title": "Operations Associate, Financial Crimes (AML Investigations)",
+    "company": "Stripe",
+    "locations": [
+      "Bengaluru",
+      "Mexico City"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-11-05",
+    "url": "https://stripe.com/jobs/search?gh_jid=8352485",
+    "site": "stripe.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Комплаенс",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-11-08",
+    "descShort": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. About the team As Stripe’s user base and global footprint grows dramatically, we have distinctly unique support problems resulting from both our type of scale and the type of…",
     "hasDesc": true
   },
   {
@@ -8180,6 +8237,38 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-stripe-8356916",
+    "title": "Staff Security Engineer, Abuse Control",
+    "company": "Stripe",
+    "locations": [
+      "Berlin",
+      "London",
+      "Dublin",
+      "Bucharest",
+      "Barcelona"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-11-05",
+    "url": "https://stripe.com/jobs/search?gh_jid=8356916",
+    "site": "stripe.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Антифрод",
+    "stack": [
+      "Python",
+      "Java",
+      "SQL"
+    ],
+    "seen": "2026-11-08",
+    "descShort": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. About the team Abuse Control Engineering (ACE) is Stripe’s rapid-response technical defense and control incubator. When urgent abuse vectors emerge, ACE uses real-world attacker…",
+    "hasDesc": true
+  },
+  {
     "id": "ab-plaid-c6d60c71-94f6-4083-a7ab-48a6b8e77f05",
     "title": "Experienced Engineering Manager, Payments",
     "company": "Plaid",
@@ -8322,8 +8411,8 @@ window.JOBS_FINTECH = [
     "company": "Brex",
     "locations": [
       "San Francisco, United States",
-      "Seattle, United States",
-      "New York, United States"
+      "New York, United States",
+      "Seattle, United States"
     ],
     "remote": false,
     "rkind": null,
@@ -8912,33 +9001,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-toast-8267686",
-    "title": "Senior Software Engineer - Infrastructure",
-    "company": "Toast",
-    "locations": [
-      "Dublin, Ireland"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-11-05",
-    "url": "https://careers.toasttab.com/jobs?gh_jid=8267686",
-    "site": "toasttab.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "DevOps",
-    "stack": [
-      "Kotlin",
-      "AWS"
-    ],
-    "seen": "2026-11-08",
-    "descShort": "Toast is a rapidly growing company that's revolutionizing how the restaurant industry does business by pairing technology with an extraordinary commitment to customer success. We help restaurants streamline operations, increase revenue, and deliver amazing guest experiences through our platform that combines restaurant point of sale, team management, guest-facing technology, and award-winning customer support. Join us as we empower the restaurant community to delight guests, do what they love, and thrive. We're looking for a Senior Software Engineer with strong experience building and operating distributed systems to join the team that connects Toast's customers, services, and…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-block-5417985008",
     "title": "Product Compliance Manager, Square",
     "company": "Block",
@@ -9425,6 +9487,34 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-adyen-8331933",
+    "title": "Senior CDD Risk Analyst, Direct Customer Onboarding",
+    "company": "Adyen",
+    "locations": [
+      "Chicago",
+      "San Francisco",
+      "Amsterdam"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 119 000 – 154 000",
+    "posted": "2026-11-04",
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/8331933",
+    "site": "adyen.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Риски",
+    "grade": "Senior",
+    "spec": null,
+    "payMin": 119000,
+    "payMax": 154000,
+    "stack": [],
+    "seen": "2026-11-08",
+    "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. CDD Direct Customer Onboarding Team Our Direct Customer…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-adyen-8354222",
     "title": "Senior Collections Analyst, Commercial Credit",
     "company": "Adyen",
@@ -9479,18 +9569,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-adyen-8137858",
+    "id": "gh-adyen-8187387",
     "title": "Senior Commercial Strategy Manager, Digital Content",
     "company": "Adyen",
     "locations": [
-      "New York",
-      "San Francisco"
+      "San Francisco",
+      "New York"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 186 000 – 275 000",
     "posted": "2026-11-04",
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/8137858",
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/8187387",
     "site": "adyen.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -10054,19 +10144,45 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-bitpanda-5009827101",
-    "title": "Lead Technical Product Manager, Protocol (Vision Chain)",
+    "id": "gh-bitpanda-5027200101",
+    "title": "Lead Product Manager, DeFi",
     "company": "Bitpanda",
     "locations": [
+      "Berlin, Germany",
       "Vienna, Austria",
-      "Barcelona, Spain",
-      "Berlin, Germany"
+      "Barcelona, Spain"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-11-04",
-    "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5009827101",
+    "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5027200101",
+    "site": "bitpanda.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Продакт",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-11-08",
+    "descShort": "Who we are We simplify wealth creation. Founded in 2014 in Vienna, Austria by Eric Demuth, Paul Klanschek and Christian Trummer, we’re here to help people trust themselves enough to build their financial freedom — for now and the future. Our user-friendly, trade-everything platform empowers both first-time investors and seasoned experts to invest in the cryptocurrencies, crypto indices, stocks*, precious metals and commodities* they want — with any sized budget, 24/7. Our global team works across different cultures and time zones, bringing our products to more than 7 million customers, making us one of Europe’s safest and most secure platforms that powers modern investing. Headquartered in…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-bitpanda-5027192101",
+    "title": "Lead Technical Product Manager, Protocol (Vision Chain)",
+    "company": "Bitpanda",
+    "locations": [
+      "Barcelona, Spain",
+      "Berlin, Germany",
+      "Vienna, Austria"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-11-04",
+    "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5027192101",
     "site": "bitpanda.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -10642,18 +10758,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-8184388003",
+    "id": "gh-okx-8184389003",
     "title": "Director, Model Risk — AI & Fraud",
     "company": "OKX",
     "locations": [
-      "New York, United States",
-      "San Jose, United States"
+      "San Jose, United States",
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 200 000 – 300 000",
     "posted": "2026-11-04",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/8184388003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/8184389003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -11010,31 +11126,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-stripe-7983456",
-    "title": "Machine Learning Engineer, Radar",
-    "company": "Stripe",
-    "locations": [
-      "Seattle, South San Francisco",
-      "Seattle"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-11-04",
-    "url": "https://stripe.com/jobs/search?gh_jid=7983456",
-    "site": "stripe.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-11-08",
-    "descShort": "Machine Learning Engineer - Radar Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. About the team The Radar ML team builds the machine learning systems that power Stripe’s Radar fraud and abuse product suite. Our models make…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-stripe-8265389",
     "title": "Motion Designer 3D, Stripe Identity",
     "company": "Stripe",
@@ -11207,34 +11298,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-stripe-8326579",
-    "title": "Strategy and Analytics Business Partner",
-    "company": "Stripe",
-    "locations": [
-      "Dublin, Ireland",
-      "Bengaluru",
-      "Bangalore"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-11-04",
-    "url": "https://stripe.com/jobs/search?gh_jid=8326579",
-    "site": "stripe.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Аналитика",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "SQL"
-    ],
-    "seen": "2026-11-08",
-    "descShort": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. About the team The Strategy & Analytics team in Internal Systems aspires to supercharge the wider Internal Systems and SDC organizations with analytics and insights. The…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-brex-8861245002",
     "title": "Senior Software Engineer, Operational AI",
     "company": "Brex",
@@ -11400,18 +11463,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-8016835003",
+    "id": "gh-affirm-8016833003",
     "title": "Senior Sales Engineer",
     "company": "Affirm",
     "locations": [
-      "Canada",
-      "United States"
+      "United States",
+      "Canada"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 136 350 – 203 850",
+    "salary": "$ 175 500 – 243 000",
     "posted": "2026-11-04",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/8016835003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/8016833003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -11419,8 +11482,8 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": "Senior",
     "spec": null,
-    "payMin": 136350,
-    "payMax": 203850,
+    "payMin": 175500,
+    "payMax": 243000,
     "permit": true,
     "stack": [],
     "seen": "2026-11-08",
@@ -11483,18 +11546,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-8098803003",
+    "id": "gh-affirm-8040396003",
     "title": "Staff Software Engineer, Backend (Observability)",
     "company": "Affirm",
     "locations": [
-      "Canada",
-      "United States"
+      "United States",
+      "Canada"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 181 000 – 241 000",
+    "salary": "$ 230 000 – 290 000",
     "posted": "2026-11-04",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/8098803003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/8040396003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -11502,8 +11565,8 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": null,
     "spec": "Бэкенд",
-    "payMin": 181000,
-    "payMax": 241000,
+    "payMin": 230000,
+    "payMax": 290000,
     "stack": [
       "Python",
       "Kotlin",
@@ -14043,36 +14106,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-coinbase-8351163",
-    "title": "Senior Software Engineer, Backend (Consumer - Risk)",
-    "company": "Coinbase",
-    "locations": [
-      "United States",
-      "Canada"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": "$ 186 065 – 186 065",
-    "posted": "2026-11-03",
-    "url": "https://www.coinbase.com/careers/positions/8351163?gh_jid=8351163",
-    "site": "coinbase.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Крипта",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "Бэкенд",
-    "payMin": 186065,
-    "payMax": 186065,
-    "stack": [
-      "Python",
-      "Java"
-    ],
-    "seen": "2026-11-08",
-    "descShort": "Ready to do the most impactful work of your career? At Coinbase, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” Learn more about working at Coinbase. Senior Software Engineer, Backend (Consumer - Risk) As a Senior Software Engineer on the Risk…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-coinbase-8232211",
     "title": "Senior Strategic Program Manager",
     "company": "Coinbase",
@@ -14423,35 +14456,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-stripe-7292520",
-    "title": "Backend Engineer, Developer & End-user Experience Platform",
-    "company": "Stripe",
-    "locations": [
-      "Toronto Canada, in Canada",
-      "SEA, Toronto"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": null,
-    "posted": "2026-11-03",
-    "url": "https://stripe.com/jobs/search?gh_jid=7292520",
-    "site": "stripe.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "Бэкенд",
-    "stack": [
-      "AWS",
-      "Docker",
-      "Kubernetes"
-    ],
-    "seen": "2026-11-08",
-    "descShort": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. About the team Stripe's Developer & End-user Experience Platform (DEEP) organization empowers all of Stripe's products with a shared product platform that helps with rapidly…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-stripe-8212319",
     "title": "Backend Engineer, UI Platform",
     "company": "Stripe",
@@ -14503,7 +14507,7 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-stripe-5895430",
+    "id": "gh-stripe-5601879",
     "title": "Data Scientist",
     "company": "Stripe",
     "locations": [
@@ -14514,7 +14518,7 @@ window.JOBS_FINTECH = [
     "rkind": null,
     "salary": "$ 193 232 – 288 000",
     "posted": "2026-11-03",
-    "url": "https://stripe.com/jobs/search?gh_jid=5895430",
+    "url": "https://stripe.com/jobs/search?gh_jid=5601879",
     "site": "stripe.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -18732,32 +18736,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-adyen-8285367",
-    "title": "Senior CDD Risk Analyst, Direct Customer Onboarding",
-    "company": "Adyen",
-    "locations": [
-      "Amsterdam",
-      "Chicago",
-      "San Francisco"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": "$ 119 000 – 154 000",
-    "posted": "2026-11-02",
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/8285367",
-    "site": "adyen.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Риски",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-11-08",
-    "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. CDD Direct Customer Onboarding Team Our Direct Customer…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-adyen-8274233",
     "title": "Senior CDD Risk Analyst, Reviews",
     "company": "Adyen",
@@ -18840,18 +18818,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-adyen-8258725",
+    "id": "gh-adyen-8288362",
     "title": "Senior Compliance Officer - Brand Integrity",
     "company": "Adyen",
     "locations": [
-      "Amsterdam",
-      "Singapore"
+      "Singapore",
+      "Amsterdam"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-11-02",
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/8258725",
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/8288362",
     "site": "adyen.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -18862,35 +18840,6 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-11-08",
     "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. We are looking for a highly organized, detail-oriented, and…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-adyen-8173310",
-    "title": "Senior Data Engineer",
-    "company": "Adyen",
-    "locations": [
-      "Sao Jose dos Campos",
-      "Amsterdam"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-11-02",
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/8173310",
-    "site": "adyen.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "Данные",
-    "reloc": true,
-    "stack": [
-      "Python",
-      "SQL"
-    ],
-    "seen": "2026-11-08",
-    "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. Senior Data Engineer At Adyen, we treat data and data artifacts…",
     "hasDesc": true
   },
   {
@@ -18970,19 +18919,19 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-adyen-8214548",
+    "id": "gh-adyen-8152859",
     "title": "Senior Implementation Engineer",
     "company": "Adyen",
     "locations": [
-      "Toronto",
       "London",
-      "San Francisco"
+      "San Francisco",
+      "Toronto"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 170 000 – 240 000",
+    "salary": "$ 184 000 – 276 000",
     "posted": "2026-11-02",
-    "url": "https://job-boards.greenhouse.io/adyen/jobs/8214548",
+    "url": "https://job-boards.greenhouse.io/adyen/jobs/8152859",
     "site": "adyen.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -18990,8 +18939,6 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": "Senior",
     "spec": null,
-    "payMin": 170000,
-    "payMax": 240000,
     "stack": [],
     "seen": "2026-11-08",
     "descShort": "This is Adyen Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. Senior Implementation Engineer As a Senior Implementation…",
@@ -19360,31 +19307,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-gocardless-8336768",
-    "title": "Internal Communications Specialist (18 month FTC)",
-    "company": "GoCardless",
-    "locations": [
-      "Riga, Latvia",
-      "Leeds, United Kingdom"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": "£ 41 600 – 62 400",
-    "posted": "2026-11-02",
-    "url": "https://job-boards.greenhouse.io/gocardless/jobs/8336768",
-    "site": "gocardless.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Маркетинг",
-    "grade": "Junior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-11-08",
-    "descShort": "About us GoCardless, a Mollie company, is a global leader in bank payments. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send bank payments through Direct Debit, real-time payments and open banking. With US$130bn+ processed annually across 30+ countries, we handle recurring and one-off payments without the chasing, stress, or expensive fees. Our end-to-end payment platform also features AI-powered solutions to improve payment success and reduce fraud, alongside connections to over 350 platforms businesses use everyday. We are headquartered in the UK, with teams and operations spanning North America, Europe and Asia-Pacific. For more…",
-    "hasDesc": true
-  },
-  {
     "id": "ab-marshmallow-99c302d4-2772-4e23-bc03-55bfea905f66",
     "title": "Junior Pricing Data Scientist",
     "company": "Marshmallow",
@@ -19607,18 +19529,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-bitpanda-4983426101",
+    "id": "gh-bitpanda-4987239101",
     "title": "Manager, Growth Analytics",
     "company": "Bitpanda",
     "locations": [
-      "Kraków, Poland",
-      "Barcelona, Spain"
+      "Barcelona, Spain",
+      "Kraków, Poland"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-11-02",
-    "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4983426101",
+    "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4987239101",
     "site": "bitpanda.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -19634,18 +19556,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-bitpanda-4987243101",
+    "id": "gh-bitpanda-4834634101",
     "title": "SEO and Web Growth Manager",
     "company": "Bitpanda",
     "locations": [
-      "Kraków, Poland",
-      "Barcelona, Spain"
+      "Barcelona, Spain",
+      "Kraków, Poland"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-11-02",
-    "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4987243101",
+    "url": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4834634101",
     "site": "bitpanda.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -20213,6 +20135,36 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-ripple-8325881",
+    "title": "Senior Software Engineer (.NET/C#)",
+    "company": "Ripple",
+    "locations": [
+      "London, United Kingdom",
+      "Dublin, Ireland"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-11-02",
+    "url": "https://ripple.com/careers/all-jobs/job/8325881?gh_jid=8325881",
+    "site": "ripple.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "permit": true,
+    "stack": [
+      "C#",
+      "TypeScript",
+      "SQL"
+    ],
+    "seen": "2026-11-08",
+    "descShort": "At Ripple, we’re building a world where value moves like information does today. It’s big, it’s bold, and we’re already doing it. Through our crypto solutions for financial institutions, businesses, governments and developers, we are improving the global financial system and creating greater economic fairness and opportunity for more people, in more places around the world. And we get to do the best work of our career and grow our skills surrounded by colleagues who have our backs. If you’re ready to see your impact and unlock incredible career growth opportunities, join us, and build real world value. THE WORK: Join the Ripple Treasury Payments team in London! We build the payment…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-ripple-8223889",
     "title": "Staff GRC Program Manager",
     "company": "Ripple",
@@ -20265,19 +20217,19 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-bitgo-8523899002",
+    "id": "gh-bitgo-8523889002",
     "title": "Product Marketing Manager",
     "company": "BitGo",
     "locations": [
+      "New York, United States",
       "San Francisco, United States",
-      "Palo Alto, United States",
-      "New York, United States"
+      "Palo Alto, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-11-02",
-    "url": "https://job-boards.greenhouse.io/bitgo/jobs/8523899002",
+    "url": "https://job-boards.greenhouse.io/bitgo/jobs/8523889002",
     "site": "bitgo.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -20344,19 +20296,19 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-8014747003",
+    "id": "gh-okx-8014746003",
     "title": "Head of Marketing Compliance",
     "company": "OKX",
     "locations": [
+      "San Jose, United States",
       "Roles - EMEA",
-      "EMEA",
-      "San Jose, United States"
+      "EMEA"
     ],
-    "remote": true,
-    "rkind": "zone",
+    "remote": false,
+    "rkind": null,
     "salary": null,
     "posted": "2026-11-02",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/8014747003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/8014746003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -20370,19 +20322,19 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-8163961003",
+    "id": "gh-okx-7996196003",
     "title": "Senior Compliance Analyst",
     "company": "OKX",
     "locations": [
-      "Argentina",
       "São Paulo, Brazil",
+      "Argentina",
       "Istanbul, Turkey"
     ],
-    "remote": true,
-    "rkind": "zone",
+    "remote": false,
+    "rkind": null,
     "salary": null,
     "posted": "2026-11-02",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/8163961003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7996196003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -20522,18 +20474,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-stripe-8346831",
+    "id": "gh-stripe-8346778",
     "title": "Data Scientist, FX Quantitative Research",
     "company": "Stripe",
     "locations": [
-      "New York, United States",
-      "Toronto"
+      "Toronto",
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-11-02",
-    "url": "https://stripe.com/jobs/search?gh_jid=8346831",
+    "url": "https://stripe.com/jobs/search?gh_jid=8346778",
     "site": "stripe.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -20914,18 +20866,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-8040271003",
+    "id": "gh-affirm-8040273003",
     "title": "Staff Software Engineer, Fullstack (Card Experiences)",
     "company": "Affirm",
     "locations": [
-      "United States",
-      "Canada"
+      "Canada",
+      "United States"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 230 000 – 290 000",
+    "salary": "$ 181 000 – 241 000",
     "posted": "2026-11-02",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/8040271003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/8040273003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -20933,8 +20885,8 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": null,
     "spec": "Платежи",
-    "payMin": 230000,
-    "payMax": 290000,
+    "payMin": 181000,
+    "payMax": 241000,
     "stack": [
       "Python",
       "Kotlin",
@@ -22399,18 +22351,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-payoneer-8200781",
+    "id": "gh-payoneer-8312432",
     "title": "Senior Regulatory Counsel, Europe",
     "company": "Payoneer",
     "locations": [
-      "Dublin, Ireland",
-      "London, United Kingdom"
+      "London, United Kingdom",
+      "Dublin, Ireland"
     ],
     "remote": false,
     "rkind": "zone",
     "salary": null,
     "posted": "2026-11-01",
-    "url": "https://www.payoneer.com/careers/position/8200781/?gh_jid=8200781",
+    "url": "https://www.payoneer.com/careers/position/8312432/?gh_jid=8312432",
     "site": "payoneer.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -23102,6 +23054,34 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-bybit-4971554101",
+    "title": "[Intern] Test Development Engineer Intern",
+    "company": "Bybit",
+    "locations": [
+      "Hong Kong SAR",
+      "Kuala Lumpur, Malaysia"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-11-01",
+    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4971554101",
+    "site": "bybit.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": "Junior",
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-11-08",
+    "descShort": "About Us Established in 2018, Bybit is one of the world’s leading cryptocurrency exchanges and digital financial platforms, serving over 80 million users across more than 200 countries and regions. Powered by world-class technology and a user-first mindset, Bybit delivers a seamless ecosystem across trading, payments, wealth management, custody, institutional services, and Web3 — connecting users to the future of digital finance. Our core values define how we build. We listen, care and improve to create products and experiences that put users first. Backed by a global team of ambitious builders, problem-solvers, and innovators, we foster a high-performance and fast-moving environment where…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-bybit-4969808101",
     "title": "Lead AML Product Specialist",
     "company": "Bybit",
@@ -23128,18 +23108,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-bybit-4855359101",
+    "id": "gh-bybit-4942186101",
     "title": "Lead Backend Development Engineer",
     "company": "Bybit",
     "locations": [
-      "Kuala Lumpur, Malaysia",
-      "Hong Kong SAR"
+      "Hong Kong SAR",
+      "Kuala Lumpur, Malaysia"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-11-01",
-    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4855359101",
+    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4942186101",
     "site": "bybit.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -23148,7 +23128,8 @@ window.JOBS_FINTECH = [
     "grade": "Lead",
     "spec": "Бэкенд",
     "stack": [
-      "C++"
+      "Java",
+      "SQL"
     ],
     "seen": "2026-11-08",
     "descShort": "About Us Established in 2018, Bybit is one of the world’s leading cryptocurrency exchanges and digital financial platforms, serving over 80 million users across more than 200 countries and regions. Powered by world-class technology and a user-first mindset, Bybit delivers a seamless ecosystem across trading, payments, wealth management, custody, institutional services, and Web3 — connecting users to the future of digital finance. Our core values define how we build. We listen, care and improve to create products and experiences that put users first. Backed by a global team of ambitious builders, problem-solvers, and innovators, we foster a high-performance and fast-moving environment where…",
@@ -25049,18 +25030,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-thunes-8041494003",
+    "id": "gh-thunes-7983513003",
     "title": "Digital Marketing Manager (8 months temp contract)",
     "company": "Thunes",
     "locations": [
-      "London, United Kingdom",
-      "Paris, France"
+      "Paris, France",
+      "London, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-10-30",
-    "url": "https://www.thunes.com/jobs/8041494003?gh_jid=8041494003",
+    "url": "https://www.thunes.com/jobs/7983513003?gh_jid=7983513003",
     "site": "thunes.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -25590,32 +25571,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-fxpro-5015908101",
-    "title": "Senior QA Engineer",
-    "company": "FxPro",
-    "locations": [
-      "Cyprus, Ypsonas"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-10-30",
-    "url": "https://job-boards.eu.greenhouse.io/fxpro/jobs/5015908101",
-    "site": "fxpro.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Банки",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "QA",
-    "reloc": true,
-    "permit": true,
-    "stack": [],
-    "seen": "2026-11-08",
-    "descShort": "Join FxPro: a leading international fintech company. Be a part of our expanding international team, with offices in Limassol, London, Nassau, Dubai, and Yerevan. FxPro boasts a diverse workforce of over 600 employees representing 50 nationalities, making it an exciting and dynamic workplace. At FxPro, we see each team member as an integral part of our success story. As a Senior QA Engineer, you will be a part of our rapidly growing IT department and join one of our core product teams. In this role, you will take full ownership of product quality, balance manual and automated testing, and leverage modern tools to drive overall quality forward. Responsibilities • Perform manual and automated…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-coinbase-8281622",
     "title": "Analyst, Privacy (Privacy Assessments)",
     "company": "Coinbase",
@@ -25777,19 +25732,19 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-coinbase-7182060",
+    "id": "gh-coinbase-8289787",
     "title": "Complaints Analyst III",
     "company": "Coinbase",
     "locations": [
-      "Luxembourg",
       "London, United Kingdom",
+      "Luxembourg",
       "Australia"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "€ 82 000 – 82 000",
+    "salary": "£ 53 100 – 53 100",
     "posted": "2026-10-30",
-    "url": "https://www.coinbase.com/careers/positions/7182060?gh_jid=7182060",
+    "url": "https://www.coinbase.com/careers/positions/8289787?gh_jid=8289787",
     "site": "coinbase.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -25797,8 +25752,8 @@ window.JOBS_FINTECH = [
     "role": "Аналитика",
     "grade": null,
     "spec": null,
-    "payMin": 88560,
-    "payMax": 88560,
+    "payMin": 67437,
+    "payMax": 67437,
     "stack": [],
     "seen": "2026-11-08",
     "descShort": "Ready to do the most impactful work of your career? At Coinbase, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” Learn more about working at Coinbase. As a Complaints Analyst on the Global Complaints team within Customer Experience, you'll investigate…",
@@ -26788,7 +26743,7 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-coinbase-8147696",
+    "id": "gh-coinbase-8147699",
     "title": "Risk & Monitoring Analyst III",
     "company": "Coinbase",
     "locations": [
@@ -26796,9 +26751,9 @@ window.JOBS_FINTECH = [
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "£ 50 445 – 53 100",
+    "salary": "£ 53 100 – 53 100",
     "posted": "2026-10-30",
-    "url": "https://www.coinbase.com/careers/positions/8147696?gh_jid=8147696",
+    "url": "https://www.coinbase.com/careers/positions/8147699?gh_jid=8147699",
     "site": "coinbase.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -26806,7 +26761,7 @@ window.JOBS_FINTECH = [
     "role": "Риски",
     "grade": null,
     "spec": null,
-    "payMin": 64065,
+    "payMin": 67437,
     "payMax": 67437,
     "stack": [],
     "seen": "2026-11-08",
@@ -27129,34 +27084,6 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-11-08",
     "descShort": "Ready to do the most impactful work of your career? At Coinbase, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” Learn more about working at Coinbase. The IT Tooling team sits within IT Support & Services (ITSS) and builds the automations that power…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-coinbase-7739592",
-    "title": "Senior Machine Learning Engineer",
-    "company": "Coinbase",
-    "locations": [
-      "India",
-      "United States"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": "$ 213 750 – 225 000",
-    "posted": "2026-10-30",
-    "url": "https://www.coinbase.com/careers/positions/7739592?gh_jid=7739592",
-    "site": "coinbase.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Крипта",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [
-      "Python",
-      "AWS"
-    ],
-    "seen": "2026-11-08",
-    "descShort": "Ready to do the most impactful work of your career? At Coinbase, we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” Learn more about working at Coinbase. The CX Intelligence team is part of Coinbase’s Enterprise Applications and Architecture org and builds…",
     "hasDesc": true
   },
   {
@@ -27516,31 +27443,31 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ripple-8129106",
-    "title": "Engineering Manager, Digital Assets",
+    "id": "gh-ripple-7904773",
+    "title": "Principal Technical Program Manager",
     "company": "Ripple",
     "locations": [
-      "San Francisco, United States",
-      "Chicago, United States",
-      "New York, United States"
+      "New York, United States",
+      "London, United Kingdom",
+      "San Francisco, United States"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 212 000 – 265 000",
+    "salary": "$ 228 000 – 280 000",
     "posted": "2026-10-30",
-    "url": "https://ripple.com/careers/all-jobs/job/8129106?gh_jid=8129106",
+    "url": "https://ripple.com/careers/all-jobs/job/7904773?gh_jid=7904773",
     "site": "ripple.com",
     "source": "greenhouse",
     "industry": "fintech",
     "kind": "Крипта",
-    "role": "Программирование",
-    "grade": null,
+    "role": "Продюсирование",
+    "grade": "Lead",
     "spec": null,
-    "payMin": 212000,
-    "payMax": 265000,
+    "payMin": 228000,
+    "payMax": 280000,
     "stack": [],
     "seen": "2026-11-08",
-    "descShort": "At Ripple, we’re building a world where value moves like information does today. It’s big, it’s bold, and we’re already doing it. Through our crypto solutions for financial institutions, businesses, governments and developers, we are improving the global financial system and creating greater economic fairness and opportunity for more people, in more places around the world. And we get to do the best work of our career and grow our skills surrounded by colleagues who have our backs. If you’re ready to see your impact and unlock incredible career growth opportunities, join us, and build real world value. The Opportunity This solution does not yet exist. Corporate treasury teams must choose…",
+    "descShort": "At Ripple, we’re building a world where value moves like information does today. It’s big, it’s bold, and we’re already doing it. Through our crypto solutions for financial institutions, businesses, governments and developers, we are improving the global financial system and creating greater economic fairness and opportunity for more people, in more places around the world. And we get to do the best work of our career and grow our skills surrounded by colleagues who have our backs. If you’re ready to see your impact and unlock incredible career growth opportunities, join us, and build real world value. At Ripple, we’re building a world where value moves like information does today. It’s…",
     "hasDesc": true
   },
   {
@@ -27597,18 +27524,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ripple-7646349",
+    "id": "gh-ripple-7646347",
     "title": "Senior Ecosystem Growth Manager",
     "company": "Ripple",
     "locations": [
-      "New York, United States",
-      "Miami, United States"
+      "Miami, United States",
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-10-30",
-    "url": "https://ripple.com/careers/all-jobs/job/7646349?gh_jid=7646349",
+    "url": "https://ripple.com/careers/all-jobs/job/7646347?gh_jid=7646347",
     "site": "ripple.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -27646,20 +27573,20 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ripple-8257667",
+    "id": "gh-ripple-8257679",
     "title": "Senior Manager, Marketing Analytics",
     "company": "Ripple",
     "locations": [
-      "San Francisco, United States",
-      "Chicago, United States",
       "New York, United States",
-      "London, United Kingdom"
+      "Chicago, United States",
+      "London, United Kingdom",
+      "San Francisco, United States"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 170 000 – 210 000",
+    "salary": "$ 170 000 – 200 000",
     "posted": "2026-10-30",
-    "url": "https://ripple.com/careers/all-jobs/job/8257667?gh_jid=8257667",
+    "url": "https://ripple.com/careers/all-jobs/job/8257679?gh_jid=8257679",
     "site": "ripple.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -27668,7 +27595,7 @@ window.JOBS_FINTECH = [
     "grade": "Senior",
     "spec": null,
     "payMin": 170000,
-    "payMax": 210000,
+    "payMax": 200000,
     "stack": [
       "Python",
       "SQL"
@@ -27762,18 +27689,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ripple-8013611",
+    "id": "gh-ripple-8013623",
     "title": "Senior Staff Partner Engineer",
     "company": "Ripple",
     "locations": [
-      "San Francisco, United States",
-      "New York, United States"
+      "New York, United States",
+      "San Francisco, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 208 000 – 260 000",
     "posted": "2026-10-30",
-    "url": "https://ripple.com/careers/all-jobs/job/8013611?gh_jid=8013611",
+    "url": "https://ripple.com/careers/all-jobs/job/8013623?gh_jid=8013623",
     "site": "ripple.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -27820,8 +27747,8 @@ window.JOBS_FINTECH = [
     "company": "Ripple",
     "locations": [
       "San Francisco, United States",
-      "New York, United States",
-      "London, United Kingdom"
+      "London, United Kingdom",
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
@@ -27851,8 +27778,8 @@ window.JOBS_FINTECH = [
     "company": "Ripple",
     "locations": [
       "San Francisco, United States",
-      "New York, United States",
-      "Chicago, United States"
+      "Chicago, United States",
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
@@ -27959,47 +27886,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ripple-7685310",
-    "title": "Staff Cloud Architect",
-    "company": "Ripple",
-    "locations": [
-      "Singapore",
-      "Sydney, Australia"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-10-30",
-    "url": "https://ripple.com/careers/all-jobs/job/7685310?gh_jid=7685310",
-    "site": "ripple.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Крипта",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "DevOps",
-    "stack": [
-      "Python",
-      "AWS",
-      "Kubernetes"
-    ],
-    "seen": "2026-11-08",
-    "descShort": "At Ripple, we’re building a world where value moves like information does today. It’s big, it’s bold, and we’re already doing it. Through our crypto solutions for financial institutions, businesses, governments and developers, we are improving the global financial system and creating greater economic fairness and opportunity for more people, in more places around the world. And we get to do the best work of our career and grow our skills surrounded by colleagues who have our backs. If you’re ready to see your impact and unlock incredible career growth opportunities, join us, and build real world value. Are you interested in pioneering and breaking new ground in large-scale financial data…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-ripple-8107253",
+    "id": "gh-ripple-7944348",
     "title": "Staff Software Engineer, Liquidity Management (C#/.NET)",
     "company": "Ripple",
     "locations": [
-      "London, United Kingdom",
-      "New York, United States"
+      "New York, United States",
+      "London, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-10-30",
-    "url": "https://ripple.com/careers/all-jobs/job/8107253?gh_jid=8107253",
+    "url": "https://ripple.com/careers/all-jobs/job/7944348?gh_jid=7944348",
     "site": "ripple.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -28045,20 +27943,20 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ripple-8267600",
+    "id": "gh-ripple-8267621",
     "title": "Treasury Manager, Global Treasury Operations",
     "company": "Ripple",
     "locations": [
-      "New York, United States",
-      "Toronto, Canada",
       "Chicago, United States",
+      "Toronto, Canada",
+      "New York, United States",
       "San Francisco, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 144 000 – 180 000",
     "posted": "2026-10-30",
-    "url": "https://ripple.com/careers/all-jobs/job/8267600?gh_jid=8267600",
+    "url": "https://ripple.com/careers/all-jobs/job/8267621?gh_jid=8267621",
     "site": "ripple.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -28203,6 +28101,28 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-stripe-8214618",
+    "title": "Full Stack Engineer, Enterprise Engineering",
+    "company": "Stripe",
+    "locations": [],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-10-30",
+    "url": "https://stripe.com/jobs/search?gh_jid=8214618",
+    "site": "stripe.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-11-08",
+    "descShort": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. About the team As part of the Enterprise Product team, the Enterprise Engineering team is responsible for bridging the gap between Stripe's core capabilities and the bespoke needs…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-stripe-8175637",
     "title": "Manager, Solutions Architecture Transformation",
     "company": "Stripe",
@@ -28251,18 +28171,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-stripe-8333074",
+    "id": "gh-stripe-8333122",
     "title": "Master's Machine Learning Engineer, Intern",
     "company": "Stripe",
     "locations": [
-      "San Francisco, Seattle",
-      "Toronto"
+      "Toronto",
+      "San Francisco, Seattle"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-10-30",
-    "url": "https://stripe.com/jobs/search?gh_jid=8333074",
+    "url": "https://stripe.com/jobs/search?gh_jid=8333122",
     "site": "stripe.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -28548,21 +28468,21 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8687488002",
+    "id": "gh-brex-8580566002",
     "title": "Manager, Cross-Border Payment Operations",
     "company": "Brex",
     "locations": [
-      "San Francisco, United States",
-      "Seattle, United States",
-      "Salt Lake City, United States",
       "São Paulo, Brazil",
-      "New York, United States"
+      "San Francisco, United States",
+      "New York, United States",
+      "Salt Lake City, United States",
+      "Seattle, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-10-30",
-    "url": "https://www.brex.com/careers/8687488002?gh_jid=8687488002",
+    "url": "https://www.brex.com/careers/8580566002?gh_jid=8580566002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -28578,19 +28498,19 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8925888002",
+    "id": "gh-brex-8925893002",
     "title": "Partner Operations Program Manager, Associate",
     "company": "Brex",
     "locations": [
+      "Salt Lake City, United States",
       "Vancouver, Canada",
-      "São Paulo, Brazil",
-      "Salt Lake City, United States"
+      "São Paulo, Brazil"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 81 600 – 102 000",
+    "salary": "$ 86 400 – 108 000",
     "posted": "2026-10-30",
-    "url": "https://www.brex.com/careers/8925888002?gh_jid=8925888002",
+    "url": "https://www.brex.com/careers/8925893002?gh_jid=8925893002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -28598,8 +28518,8 @@ window.JOBS_FINTECH = [
     "role": "Продюсирование",
     "grade": null,
     "spec": null,
-    "payMin": 81600,
-    "payMax": 102000,
+    "payMin": 86400,
+    "payMax": 108000,
     "stack": [
       "SQL"
     ],
@@ -28608,21 +28528,21 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8784418002",
+    "id": "gh-brex-8784416002",
     "title": "Senior Growth Marketing Manager, Paid Social",
     "company": "Brex",
     "locations": [
-      "Seattle, United States",
       "New York, United States",
+      "Salt Lake City, United States",
       "San Francisco, United States",
       "Vancouver, Canada",
-      "Salt Lake City, United States"
+      "Seattle, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-10-30",
-    "url": "https://www.brex.com/careers/8784418002?gh_jid=8784418002",
+    "url": "https://www.brex.com/careers/8784416002?gh_jid=8784416002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -28636,19 +28556,19 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8659251002",
+    "id": "gh-brex-8659249002",
     "title": "Senior Product Manager, Travel",
     "company": "Brex",
     "locations": [
-      "New York, United States",
       "San Francisco, United States",
+      "New York, United States",
       "Seattle, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 184 000 – 230 000",
     "posted": "2026-10-30",
-    "url": "https://www.brex.com/careers/8659251002?gh_jid=8659251002",
+    "url": "https://www.brex.com/careers/8659249002?gh_jid=8659249002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -28664,19 +28584,19 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8815490002",
+    "id": "gh-brex-8815495002",
     "title": "Senior Software Engineer, Backend (Product Engineering)",
     "company": "Brex",
     "locations": [
+      "San Francisco, United States",
       "Seattle, United States",
-      "New York, United States",
-      "San Francisco, United States"
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 192 000 – 240 000",
     "posted": "2026-10-30",
-    "url": "https://www.brex.com/careers/8815490002?gh_jid=8815490002",
+    "url": "https://www.brex.com/careers/8815495002?gh_jid=8815495002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -28723,18 +28643,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7813362003",
+    "id": "gh-affirm-7916080003",
     "title": "Analytics Engineer II, Full Stack (Revenue Analytics)",
     "company": "Affirm",
     "locations": [
-      "Poland",
-      "Spain"
+      "Spain",
+      "Poland"
     ],
     "remote": true,
     "rkind": "zone",
     "salary": "EUR 63 000 – 99 000",
     "posted": "2026-10-30",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7813362003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7916080003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -28742,6 +28662,9 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": null,
     "spec": null,
+    "payMin": 68040,
+    "payMax": 106920,
+    "permit": true,
     "stack": [
       "Python",
       "SQL"
@@ -28781,19 +28704,19 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-8003170003",
+    "id": "gh-affirm-7799329003",
     "title": "Analytics Lead, Full Stack",
     "company": "Affirm",
     "locations": [
+      "United Kingdom",
       "Canada",
-      "United States",
-      "United Kingdom"
+      "United States"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 145 000 – 205 000",
+    "salary": "£ 113 000 – 161 000",
     "posted": "2026-10-30",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/8003170003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7799329003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -28801,8 +28724,8 @@ window.JOBS_FINTECH = [
     "role": "Аналитика",
     "grade": "Lead",
     "spec": null,
-    "payMin": 145000,
-    "payMax": 205000,
+    "payMin": 143510,
+    "payMax": 204470,
     "stack": [
       "Python",
       "SQL"
@@ -28896,18 +28819,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7979495003",
+    "id": "gh-affirm-7979497003",
     "title": "Compliance Manager, Card",
     "company": "Affirm",
     "locations": [
-      "United States",
-      "Canada"
+      "Canada",
+      "United States"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 165 000 – 225 000",
+    "salary": "$ 128 000 – 188 000",
     "posted": "2026-10-30",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7979495003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7979497003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -28915,9 +28838,8 @@ window.JOBS_FINTECH = [
     "role": "Комплаенс",
     "grade": null,
     "spec": null,
-    "payMin": 165000,
-    "payMax": 225000,
-    "permit": true,
+    "payMin": 128000,
+    "payMax": 188000,
     "stack": [],
     "seen": "2026-11-08",
     "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. About the Legal, Compliance, and Public Affairs team The Legal, Compliance, and Public Affairs team is a group of dedicated professionals committed to helping Affirm scale, innovate, and provide outstanding products for consumers, merchants, and key partners. We combine legal, compliance, and policy expertise to guide growth, shape products, and build trust across our ecosystem. Our work spans multiple professional disciplines and provides the foundation for Affirm’s mission to deliver honest financial products.…",
@@ -28950,18 +28872,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7815950003",
+    "id": "gh-affirm-7815948003",
     "title": "Financial Model Risk Management Lead",
     "company": "Affirm",
     "locations": [
-      "Canada",
-      "United States"
+      "United States",
+      "Canada"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 145 000 – 205 000",
+    "salary": "$ 185 000 – 245 000",
     "posted": "2026-10-30",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7815950003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7815948003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -28969,8 +28891,8 @@ window.JOBS_FINTECH = [
     "role": "Риски",
     "grade": "Lead",
     "spec": null,
-    "payMin": 145000,
-    "payMax": 205000,
+    "payMin": 185000,
+    "payMax": 245000,
     "stack": [
       "Python",
       "SQL"
@@ -29174,19 +29096,19 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-8013440003",
+    "id": "gh-affirm-8041432003",
     "title": "Manager, Machine Learning Engineering, Checkout",
     "company": "Affirm",
     "locations": [
-      "United Kingdom",
       "Spain",
-      "Poland"
+      "Poland",
+      "United Kingdom"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "£ 142 000 – 190 000",
+    "salary": "€ 103 000 – 139 000",
     "posted": "2026-10-30",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/8013440003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/8041432003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -29194,8 +29116,9 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": null,
     "spec": null,
-    "payMin": 180340,
-    "payMax": 241300,
+    "payMin": 111240,
+    "payMax": 150120,
+    "permit": true,
     "stack": [],
     "seen": "2026-11-08",
     "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. Join Affirm as a Machine Learning Engineering Manager and become a pivotal part of our International Credit Machine Learning group. Specifically, you will manage a team of ML engineers that builds the models powering credit lending decisions in countries across Europe and in Australia. You will lead your team in using novel ML techniques and rich data representations to predict repayment behavior and optimize how we offer loans to our borrowers. In this role, you will help shape the future of machine learning at…",
@@ -29349,8 +29272,35 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-8038925003",
+    "id": "gh-affirm-8038927003",
     "title": "Partner Marketing Lead",
+    "company": "Affirm",
+    "locations": [
+      "Canada",
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "$ 89 000 – 139 000",
+    "posted": "2026-10-30",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/8038927003",
+    "site": "affirm.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Маркетинг",
+    "grade": "Lead",
+    "spec": null,
+    "payMin": 89000,
+    "payMax": 139000,
+    "stack": [],
+    "seen": "2026-11-08",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. About the Revenue team The Revenue team drives Affirm’s top-line growth through strategic partnerships, pricing, and go-to-market execution. We acquire, retain, and expand merchant relationships across eCommerce, in-store, telesales, and the Affirm app. The team leads onboarding, relationship management, and performance optimization to help partners succeed. We deliver value-added solutions, drive adoption, and support long-term business growth by connecting merchants and consumers through Affirm’s products. About…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-affirm-8012914003",
+    "title": "Platform Marketing Lead",
     "company": "Affirm",
     "locations": [
       "United States",
@@ -29360,7 +29310,7 @@ window.JOBS_FINTECH = [
     "rkind": "zone",
     "salary": "$ 115 000 – 165 000",
     "posted": "2026-10-30",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/8038925003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/8012914003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -29371,33 +29321,6 @@ window.JOBS_FINTECH = [
     "payMin": 115000,
     "payMax": 165000,
     "permit": true,
-    "stack": [],
-    "seen": "2026-11-08",
-    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. About the Revenue team The Revenue team drives Affirm’s top-line growth through strategic partnerships, pricing, and go-to-market execution. We acquire, retain, and expand merchant relationships across eCommerce, in-store, telesales, and the Affirm app. The team leads onboarding, relationship management, and performance optimization to help partners succeed. We deliver value-added solutions, drive adoption, and support long-term business growth by connecting merchants and consumers through Affirm’s products. About…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-affirm-8012916003",
-    "title": "Platform Marketing Lead",
-    "company": "Affirm",
-    "locations": [
-      "Canada",
-      "United States"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": "$ 89 000 – 139 000",
-    "posted": "2026-10-30",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/8012916003",
-    "site": "affirm.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Банки",
-    "role": "Маркетинг",
-    "grade": "Lead",
-    "spec": null,
-    "payMin": 89000,
-    "payMax": 139000,
     "stack": [],
     "seen": "2026-11-08",
     "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. About the Team The Revenue team drives Affirm's top-line growth through strategic partnerships, growth initiatives, and go-to-market execution. We acquire, retain, and expand merchant relationships across eCommerce, in-store, telesales, and the Affirm app. The team leads onboarding, relationship management, and performance optimization to help partners succeed. We deliver value-added solutions, drive adoption, and support long-term business growth by connecting merchants and consumers through Affirm's products.…",
@@ -29518,18 +29441,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7718808003",
+    "id": "gh-affirm-8036613003",
     "title": "Security Risk Management Lead",
     "company": "Affirm",
     "locations": [
-      "United States",
-      "Canada"
+      "Canada",
+      "United States"
     ],
     "remote": true,
     "rkind": "zone",
     "salary": "$ 165 000 – 225 000",
     "posted": "2026-10-30",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7718808003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/8036613003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -29537,9 +29460,6 @@ window.JOBS_FINTECH = [
     "role": "Риски",
     "grade": "Lead",
     "spec": null,
-    "payMin": 165000,
-    "payMax": 225000,
-    "permit": true,
     "stack": [
       "Python",
       "SQL",
@@ -29916,18 +29836,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7820448003",
+    "id": "gh-affirm-7820446003",
     "title": "Senior Software Engineer, Backend (Card Integrations and Payments Experience)",
     "company": "Affirm",
     "locations": [
-      "Poland",
-      "Spain"
+      "Spain",
+      "Poland"
     ],
     "remote": true,
     "rkind": "zone",
     "salary": "€ 86 000 – 122 000",
     "posted": "2026-10-30",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7820448003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7820446003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -29935,6 +29855,9 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": "Senior",
     "spec": "Платежи",
+    "payMin": 92880,
+    "payMax": 131760,
+    "permit": true,
     "stack": [
       "Python",
       "Kotlin",
@@ -29946,18 +29869,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-8034649003",
+    "id": "gh-affirm-8034651003",
     "title": "Senior Software Engineer, Backend (Comms Core)",
     "company": "Affirm",
     "locations": [
-      "Spain",
-      "Poland"
+      "Poland",
+      "Spain"
     ],
     "remote": true,
     "rkind": "zone",
     "salary": "€ 86 000 – 122 000",
     "posted": "2026-10-30",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/8034649003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/8034651003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -29965,9 +29888,6 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": "Senior",
     "spec": "Бэкенд",
-    "payMin": 92880,
-    "payMax": 131760,
-    "permit": true,
     "stack": [
       "Python",
       "Kotlin",
@@ -30105,18 +30025,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7808384003",
+    "id": "gh-affirm-7808386003",
     "title": "Senior Software Engineer, Backend (PBA - Growth)",
     "company": "Affirm",
     "locations": [
-      "United States",
-      "Canada"
+      "Canada",
+      "United States"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 195 000 – 255 000",
+    "salary": "$ 153 000 – 213 000",
     "posted": "2026-10-30",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7808384003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7808386003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -30124,8 +30044,8 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": "Senior",
     "spec": "Бэкенд",
-    "payMin": 195000,
-    "payMax": 255000,
+    "payMin": 153000,
+    "payMax": 213000,
     "stack": [
       "Python",
       "Kotlin",
@@ -30224,38 +30144,8 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7981725003",
+    "id": "gh-affirm-7981723003",
     "title": "Senior Software Engineer, Fullstack (App Experience)",
-    "company": "Affirm",
-    "locations": [
-      "Canada",
-      "United States"
-    ],
-    "remote": true,
-    "rkind": "zone",
-    "salary": "$ 153 000 – 213 000",
-    "posted": "2026-10-30",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7981725003",
-    "site": "affirm.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Банки",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": null,
-    "payMin": 153000,
-    "payMax": 213000,
-    "stack": [
-      "Python",
-      "Kotlin"
-    ],
-    "seen": "2026-11-08",
-    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. The Marketplace and App Experience domain is the main pillar of our core consumer strategy, driving the user journey across all of our frontend surfaces: Mobile and Web. The teams span across multiple products and areas to engage and provide value to our customers, starting with the Home hub in the app or website, which expands into the various product offers and journeys a user can embark on with Affirm. This role will be at the forefront of our front-end facing cross-team projects, working closely with other…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-affirm-7663434003",
-    "title": "Senior Software Engineer, Fullstack (Consumer Engineering)",
     "company": "Affirm",
     "locations": [
       "United States",
@@ -30265,7 +30155,7 @@ window.JOBS_FINTECH = [
     "rkind": "zone",
     "salary": "$ 195 000 – 255 000",
     "posted": "2026-10-30",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7663434003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7981723003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -30275,6 +30165,36 @@ window.JOBS_FINTECH = [
     "spec": null,
     "payMin": 195000,
     "payMax": 255000,
+    "stack": [
+      "Python",
+      "Kotlin"
+    ],
+    "seen": "2026-11-08",
+    "descShort": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. The Marketplace and App Experience domain is the main pillar of our core consumer strategy, driving the user journey across all of our frontend surfaces: Mobile and Web. The teams span across multiple products and areas to engage and provide value to our customers, starting with the Home hub in the app or website, which expands into the various product offers and journeys a user can embark on with Affirm. This role will be at the forefront of our front-end facing cross-team projects, working closely with other…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-affirm-7663436003",
+    "title": "Senior Software Engineer, Fullstack (Consumer Engineering)",
+    "company": "Affirm",
+    "locations": [
+      "Canada",
+      "United States"
+    ],
+    "remote": true,
+    "rkind": "zone",
+    "salary": "$ 153 000 – 213 000",
+    "posted": "2026-10-30",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7663436003",
+    "site": "affirm.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": null,
+    "payMin": 153000,
+    "payMax": 213000,
     "stack": [
       "Python",
       "Kotlin",
@@ -30347,18 +30267,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7799933003",
+    "id": "gh-affirm-7799935003",
     "title": "Senior Software Engineer, Mobile (Repayment UX)",
     "company": "Affirm",
     "locations": [
-      "Poland",
-      "Spain"
+      "Spain",
+      "Poland"
     ],
     "remote": true,
     "rkind": "zone",
     "salary": "€ 86 000 – 122 000",
     "posted": "2026-10-30",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7799933003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7799935003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -30366,6 +30286,8 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": "Senior",
     "spec": "Платежи",
+    "payMin": 92880,
+    "payMax": 131760,
     "stack": [
       "TypeScript",
       "JavaScript"
@@ -30583,18 +30505,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-7727322003",
+    "id": "gh-affirm-7727320003",
     "title": "Software Engineer II, Backend (Test Infra)",
     "company": "Affirm",
     "locations": [
-      "Canada",
-      "United States"
+      "United States",
+      "Canada"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 133 000 – 183 000",
+    "salary": "165 000 – 225 000",
     "posted": "2026-10-30",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7727322003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7727320003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -30602,8 +30524,8 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": null,
     "spec": "Бэкенд",
-    "payMin": 133000,
-    "payMax": 183000,
+    "payMin": 165000,
+    "payMax": 225000,
     "stack": [
       "Python",
       "TypeScript",
@@ -30615,18 +30537,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-affirm-8040751003",
+    "id": "gh-affirm-8040753003",
     "title": "Software Engineer II - CIAM",
     "company": "Affirm",
     "locations": [
-      "United States",
-      "Canada"
+      "Canada",
+      "United States"
     ],
     "remote": true,
     "rkind": "zone",
-    "salary": "$ 165 000 – 225 000",
+    "salary": "$ 133 000 – 183 000",
     "posted": "2026-10-30",
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/8040751003",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/8040753003",
     "site": "affirm.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -30634,8 +30556,8 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": null,
     "spec": null,
-    "payMin": 165000,
-    "payMax": 225000,
+    "payMin": 133000,
+    "payMax": 183000,
     "stack": [
       "Python",
       "Kotlin"
@@ -30904,19 +30826,19 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-carta-8001549003",
+    "id": "gh-carta-7918309003",
     "title": "Senior / Lead Product Marketing Manager",
     "company": "Carta",
     "locations": [
-      "San Francisco, United States",
       "New York, United States",
+      "San Francisco, United States",
       "Seattle, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 147 050 – 215 000",
     "posted": "2026-10-30",
-    "url": "https://job-boards.greenhouse.io/carta/jobs/8001549003",
+    "url": "https://job-boards.greenhouse.io/carta/jobs/7918309003",
     "site": "carta.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -31620,18 +31542,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-robinhood-8232853",
+    "id": "gh-robinhood-8232855",
     "title": "Senior Software Engineer, Prime",
     "company": "Robinhood",
     "locations": [
-      "London, United Kingdom",
-      "Ljubljana, Slovenia"
+      "Ljubljana, Slovenia",
+      "London, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-10-30",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8232853?t=gh_src=&gh_jid=8232853",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8232855?t=gh_src=&gh_jid=8232855",
     "site": "robinhood.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -32045,18 +31967,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-robinhood-8278312",
+    "id": "gh-robinhood-8186166",
     "title": "Staff Software Engineer, Exchange Platform",
     "company": "Robinhood",
     "locations": [
-      "Ljubljana, Slovenia",
-      "London, United Kingdom"
+      "London, United Kingdom",
+      "Ljubljana, Slovenia"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-10-30",
-    "url": "https://boards.greenhouse.io/robinhood/jobs/8278312?t=gh_src=&gh_jid=8278312",
+    "url": "https://boards.greenhouse.io/robinhood/jobs/8186166?t=gh_src=&gh_jid=8186166",
     "site": "robinhood.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -32614,34 +32536,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-toast-8161283",
-    "title": "Manager II, Software Engineering",
-    "company": "Toast",
-    "locations": [
-      "Bengaluru, India",
-      "Bangalore, india"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-10-30",
-    "url": "https://careers.toasttab.com/jobs?gh_jid=8161283",
-    "site": "toasttab.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Java",
-      "Kotlin"
-    ],
-    "seen": "2026-11-08",
-    "descShort": "Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. One of the top challenges facing Toast customers today is getting new guests. Toast Advertising is a restaurant advertising tool that lets Toast customers launch and manage Google and Meta campaigns from within the Toast platform. It is built for US restaurants that want to reach new guests, drive traffic to owned channels like online ordering, catering and events, and Toast Tables, and track return on ad spend without using separate ad tools or spreadsheets. Within Toast’s suite, it connects marketing…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-toast-8311088",
     "title": "Manager, Software Engineering",
     "company": "Toast",
@@ -32721,6 +32615,32 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-11-08",
     "descShort": "Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. The Care Automation team builds the systems and automations that power how Toast supports its customers. Our work connects the platforms, workflows, and integrations that our Customer Care Agents rely on every day to resolve issues quickly and deliver a great customer experience. We are looking for a Senior Software Engineer to join this team and help shape the future of how these teams operate. You will contribute to building a strong technical foundation that will carry Toast through the next decade and…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-toast-8081766",
+    "title": "Senior Software Engineer - Infrastructure",
+    "company": "Toast",
+    "locations": [
+      "Dublin, Ireland"
+    ],
+    "remote": false,
+    "rkind": "hybrid",
+    "salary": null,
+    "posted": "2026-10-30",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=8081766",
+    "site": "toasttab.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "DevOps",
+    "stack": [
+      "AWS"
+    ],
+    "seen": "2026-11-08",
+    "descShort": "Toast is a rapidly growing company that's revolutionizing how the restaurant industry does business by pairing technology with an extraordinary commitment to customer success. We help restaurants streamline operations, increase revenue, and deliver amazing guest experiences through our platform that combines restaurant point of sale, team management, guest-facing technology, and award-winning customer support. Join us as we empower the restaurant community to delight guests, do what they love, and thrive. We're looking for a Senior Software Engineer with strong experience building and operating distributed systems to join the team that connects Toast's customers, services, and…",
     "hasDesc": true
   },
   {
@@ -33397,7 +33317,7 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-block-5453094008",
+    "id": "gh-block-5461961008",
     "title": "Senior Software Engineer, Developer Experience",
     "company": "Block",
     "locations": [
@@ -33407,7 +33327,7 @@ window.JOBS_FINTECH = [
     "rkind": null,
     "salary": null,
     "posted": "2026-10-30",
-    "url": "http://block.xyz/careers/jobs/5453094008?gh_jid=5453094008",
+    "url": "http://block.xyz/careers/jobs/5461961008?gh_jid=5461961008",
     "site": "block.xyz",
     "source": "greenhouse",
     "industry": "fintech",
@@ -33811,19 +33731,19 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-block-5414624008",
+    "id": "gh-block-5414628008",
     "title": "Staff Software Engineer, Financial Platform - Issuing",
     "company": "Block",
     "locations": [
-      "Bay Area, United States",
       "Melbourne, Australia",
-      "Seattle, United States"
+      "Seattle, United States",
+      "Bay Area, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-10-30",
-    "url": "http://block.xyz/careers/jobs/5414624008?gh_jid=5414624008",
+    "url": "http://block.xyz/careers/jobs/5414628008?gh_jid=5414628008",
     "site": "block.xyz",
     "source": "greenhouse",
     "industry": "fintech",
@@ -33837,19 +33757,19 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-block-5411025008",
+    "id": "gh-block-5406251008",
     "title": "Staff Software Engineer, Go-to-Market Systems & AI",
     "company": "Block",
     "locations": [
-      "New York, United States",
       "Toronto, Canada",
-      "Bay Area, United States"
+      "Bay Area, United States",
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-10-30",
-    "url": "http://block.xyz/careers/jobs/5411025008?gh_jid=5411025008",
+    "url": "http://block.xyz/careers/jobs/5406251008?gh_jid=5406251008",
     "site": "block.xyz",
     "source": "greenhouse",
     "industry": "fintech",
@@ -34162,18 +34082,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-gocardless-8333586",
+    "id": "gh-gocardless-8333573",
     "title": "Partner Solution Engineer III",
     "company": "GoCardless",
     "locations": [
-      "Leeds, United Kingdom",
-      "Lisbon, Portugal"
+      "Lisbon, Portugal",
+      "Leeds, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "£ 400.00 – 93 600",
+    "salary": "€ 48 000 – 72 000",
     "posted": "2026-10-29",
-    "url": "https://job-boards.greenhouse.io/gocardless/jobs/8333586",
+    "url": "https://job-boards.greenhouse.io/gocardless/jobs/8333573",
     "site": "gocardless.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -34181,8 +34101,8 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": null,
     "spec": null,
-    "payMin": 508,
-    "payMax": 118872,
+    "payMin": 51840,
+    "payMax": 77760,
     "stack": [],
     "seen": "2026-11-08",
     "descShort": "About us GoCardless, a Mollie company, is a global leader in bank payments. Over 100,000 businesses, from start-ups to household names, use GoCardless to collect, manage and send bank payments through Direct Debit, real-time payments and open banking. With US$130bn+ processed annually across 30+ countries, we handle recurring and one-off payments without the chasing, stress, or expensive fees. Our end-to-end payment platform also features AI-powered solutions to improve payment success and reduce fraud, alongside connections to over 350 platforms businesses use everyday. We are headquartered in the UK, with teams and operations spanning North America, Europe and Asia-Pacific. For more…",
@@ -34508,18 +34428,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-sumup-8644926002",
+    "id": "gh-sumup-8768452002",
     "title": "Senior Product Designer - Sell Online",
     "company": "SumUp",
     "locations": [
-      "Berlin, Germany",
-      "Warsaw, Poland"
+      "Warsaw, Poland",
+      "Berlin, Germany"
     ],
     "remote": false,
     "rkind": null,
     "salary": "15 600 – 27 000 PLN",
     "posted": "2026-10-29",
-    "url": "https://sumup.com/careers/positions/8644926002?gh_jid=8644926002",
+    "url": "https://sumup.com/careers/positions/8768452002?gh_jid=8768452002",
     "site": "sumup.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -34527,6 +34447,8 @@ window.JOBS_FINTECH = [
     "role": "Дизайн",
     "grade": "Senior",
     "spec": null,
+    "payMin": 46800,
+    "payMax": 81000,
     "stack": [],
     "seen": "2026-11-08",
     "descShort": "Salary range: 15 600 - 27 000 PLN per month Senior Product Designer – Sell Online About the team The Sell Online team builds the products that help small business owners run and grow their businesses online — from appointment bookings and online stores to customer management. We're a cross-functional design team embedded across multiple product squads, working closely with product managers and engineers to shape experiences used by millions of merchants worldwide. As we expand our portfolio and grow our engineering capacity, we're looking for a Senior Product Designer who can bring strong visual craft, product thinking, and the confidence to own complex design challenges across several…",
@@ -34768,19 +34690,50 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-5019477101",
-    "title": "Business Developer - FX Financial Solutions",
+    "id": "gh-ebury-5020981101",
+    "title": "Business Developer",
     "company": "Ebury",
     "locations": [
-      "Warsaw",
-      "Sofia",
-      "Zurich"
+      "Stockholm, Sweden",
+      "Auckland, New Zealand",
+      "Lisbon",
+      "Amsterdam",
+      "Porto",
+      "Madrid",
+      "Antwerp",
+      "Lyon"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-10-29",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/5019477101",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/5020981101",
+    "site": "ebury.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-11-08",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Business Developer Ebury Amsterdam - Office based; 4 days in the office, 1 day of home office / week Launch Your FinTech Career as a Business Developer at Ebury in our dynamic Amsterdam team. Kickstart a meaningful sales…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-ebury-5018783101",
+    "title": "Business Developer - FX Financial Solutions",
+    "company": "Ebury",
+    "locations": [
+      "Sofia",
+      "Zurich",
+      "Warsaw"
+    ],
+    "remote": false,
+    "rkind": "hybrid",
+    "salary": null,
+    "posted": "2026-10-29",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/5018783101",
     "site": "ebury.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -34893,18 +34846,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-5020183101",
+    "id": "gh-ebury-5020198101",
     "title": "Business Developer / Junior FX Sales (m/w/d)",
     "company": "Ebury",
     "locations": [
-      "Frankfurt",
-      "Hamburg"
+      "Hamburg",
+      "Frankfurt"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-10-29",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/5020183101",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/5020198101",
     "site": "ebury.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -34940,6 +34893,34 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-11-08",
     "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Business Developer - Private Markets FX Sales Ebury London - Office based As a Business Developer in our Private Markets FX Sales team, you will be accountable for growing and managing Ebury’s Institutional client base in the…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-ebury-5020380101",
+    "title": "Data Analyst - Fincrime Reporting",
+    "company": "Ebury",
+    "locations": [
+      "Madrid",
+      "Málaga"
+    ],
+    "remote": false,
+    "rkind": "hybrid",
+    "salary": null,
+    "posted": "2026-10-29",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/5020380101",
+    "site": "ebury.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Данные и ML",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-11-08",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Data Analyst - FCC Reporting Location: Málaga or Madrid (Spain) - Hybrid: 4 days in the office, 1 day working from home per week Ebury’s strategic growth plan would not be possible without our Data Analytics & Compliance team…",
     "hasDesc": true
   },
   {
@@ -35174,18 +35155,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-5021028101",
+    "id": "gh-ebury-5021027101",
     "title": "Senior Product Manager ( Anti Money Laundering/Transaction Monitoring)",
     "company": "Ebury",
     "locations": [
-      "Valencia",
-      "London"
+      "London",
+      "Valencia"
     ],
     "remote": false,
     "rkind": "hybrid",
     "salary": null,
     "posted": "2026-10-29",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/5021028101",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/5021027101",
     "site": "ebury.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -35375,18 +35356,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-8071743003",
+    "id": "gh-okx-8071912003",
     "title": "Principal/Senior Product Manager, Advanced Trading (Spot/Derivatives/Crypto Trading)",
     "company": "OKX",
     "locations": [
-      "Singapore",
-      "Hong Kong, Hong Kong SAR"
+      "Hong Kong, Hong Kong SAR",
+      "Singapore"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-10-29",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/8071743003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/8071912003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -35401,18 +35382,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7988766003",
+    "id": "gh-okx-8015367003",
     "title": "Principal / Senior Product Manager, Asset (Tax Reporting, Client Statements & Portfolio)",
     "company": "OKX",
     "locations": [
-      "Singapore",
-      "Hong Kong, Hong Kong SAR"
+      "Hong Kong, Hong Kong SAR",
+      "Singapore"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-10-29",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7988766003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/8015367003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -35426,18 +35407,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-8071200003",
+    "id": "gh-okx-8071296003",
     "title": "Principal/Senior Product Manager, User Center",
     "company": "OKX",
     "locations": [
-      "Singapore",
-      "Hong Kong, Hong Kong SAR"
+      "Hong Kong, Hong Kong SAR",
+      "Singapore"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-10-29",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/8071200003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/8071296003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -35476,19 +35457,19 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-8089237003",
+    "id": "gh-okx-8089223003",
     "title": "Senior Manager PR and Communications APAC",
     "company": "OKX",
     "locations": [
-      "Singapore",
       "Australia",
-      "Sydney, Australia"
+      "Sydney, Australia",
+      "Singapore"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-10-29",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/8089237003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/8089223003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -35879,18 +35860,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-riskified-8725597002",
+    "id": "gh-riskified-8891146002",
     "title": "Application Security Architect",
     "company": "Riskified",
     "locations": [
-      "Lisbon",
-      "Tel Aviv"
+      "Tel Aviv",
+      "Lisbon"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-10-29",
-    "url": "https://www.riskified.com/careers/job-description/?gh_jid=8725597002",
+    "url": "https://www.riskified.com/careers/job-description/?gh_jid=8891146002",
     "site": "riskified.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -36979,19 +36960,19 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-bitgo-8880833002",
+    "id": "gh-bitgo-8857516002",
     "title": "Senior Software Engineer - Accounting & Ledger Systems",
     "company": "BitGo",
     "locations": [
-      "New York, United States",
       "Palo Alto, United States",
-      "Toronto, Canada"
+      "Toronto, Canada",
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-10-28",
-    "url": "https://job-boards.greenhouse.io/bitgo/jobs/8880833002",
+    "url": "https://job-boards.greenhouse.io/bitgo/jobs/8857516002",
     "site": "bitgo.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -37061,18 +37042,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-8044023003",
+    "id": "gh-okx-8044024003",
     "title": "Product Manager / Director, Community & Livestream",
     "company": "OKX",
     "locations": [
-      "Singapore",
-      "Hong Kong, Hong Kong SAR"
+      "Hong Kong, Hong Kong SAR",
+      "Singapore"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-10-28",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/8044023003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/8044024003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -37196,20 +37177,20 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8859393002",
+    "id": "gh-brex-8859337002",
     "title": "Staff Software Engineer - Identity & Access Management",
     "company": "Brex",
     "locations": [
-      "Seattle, United States",
       "New York, United States",
-      "Vancouver, Canada",
-      "San Francisco, United States"
+      "Seattle, United States",
+      "San Francisco, United States",
+      "Vancouver, Canada"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 240 000 – 300 000",
     "posted": "2026-10-28",
-    "url": "https://www.brex.com/careers/8859393002?gh_jid=8859393002",
+    "url": "https://www.brex.com/careers/8859337002?gh_jid=8859337002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -39303,18 +39284,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-5017527101",
+    "id": "gh-ebury-5017520101",
     "title": "Product Manager - Money Flows",
     "company": "Ebury",
     "locations": [
-      "Madrid",
-      "Valencia"
+      "Valencia",
+      "Madrid"
     ],
     "remote": false,
     "rkind": "hybrid",
     "salary": null,
     "posted": "2026-10-27",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/5017527101",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/5017520101",
     "site": "ebury.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -40366,19 +40347,19 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8430196002",
+    "id": "gh-brex-8430197002",
     "title": "Staff Software Engineer, Product Data Platform",
     "company": "Brex",
     "locations": [
-      "Vancouver, Canada",
       "Seattle, United States",
+      "Vancouver, Canada",
       "San Francisco, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 240 000 – 300 000",
     "posted": "2026-10-26",
-    "url": "https://www.brex.com/careers/8430196002?gh_jid=8430196002",
+    "url": "https://www.brex.com/careers/8430197002?gh_jid=8430197002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -40502,6 +40483,38 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-toast-8138814",
+    "title": "Principal Software Engineer",
+    "company": "Toast",
+    "locations": [
+      "Bangalore",
+      "Bengaluru, India",
+      "Chennai",
+      "Dublin, Ireland",
+      "United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-10-26",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=8138814",
+    "site": "toasttab.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [
+      "Java",
+      "Kotlin",
+      "SQL"
+    ],
+    "seen": "2026-11-08",
+    "descShort": "Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. As a Principal Engineer / architect you will be responsible for creating a technical strategy and coordinating the designs for meeting the needs of Toast’s largest restaurant brands. You will partner with Product Managers to develop the technology roadmap that enables enterprise customers to leverage the power of Toast. You will also work closely with technical leaders and implementation teams across the organization to deliver robust, scalable solutions with integrations to customers’ external systems.…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-toast-8249036",
     "title": "Principal TA Systems Architect",
     "company": "Toast",
@@ -40584,6 +40597,34 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-11-08",
     "descShort": "Who we are: Sardine is the leading agentic risk platform for fighting financial crime. Our integrated solution unifies data across risk teams to help organizations stop fraud in real time, prevent AI-driven attacks, and automate fraud and AML operations. Sardine’s platform is strengthened by one of the fastest-growing fraud consortiums in the market, spanning more than 6 billion profiled devices, 800 million consumers, and 3 million businesses worldwide. Leading companies including FIS, GoDaddy, Intuit, Edward Jones, ZoomInfo, and Checkout.com rely on Sardine to secure and grow trust in their products. Our culture: - We hire talented, self-motivated individuals with extreme ownership and…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-riskified-8653104002",
+    "title": "Data Scientist",
+    "company": "Riskified",
+    "locations": [
+      "Tel Aviv",
+      "Lisbon"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-10-26",
+    "url": "https://www.riskified.com/careers/job-description/?gh_jid=8653104002",
+    "site": "riskified.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Данные и ML",
+    "grade": null,
+    "spec": null,
+    "stack": [
+      "Python",
+      "SQL"
+    ],
+    "seen": "2026-11-08",
+    "descShort": "About Us Riskified empowers businesses to unleash ecommerce growth by taking risk off the table. Many of the world’s biggest brands and publicly traded companies selling online rely on Riskified for guaranteed protection against chargebacks, to fight fraud and policy abuse at scale, and to improve customer retention. Developed and managed by the largest team of ecommerce risk analysts, data scientists and researchers, Riskified’s AI-powered fraud and risk intelligence platform analyzes the individual behind each interaction to provide real-time decisions and robust identity-based insights. Riskified is proud to work with incredible companies in virtually all industries including Acer…",
     "hasDesc": true
   },
   {
@@ -40819,21 +40860,21 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8914952002",
+    "id": "gh-brex-8914950002",
     "title": "Director, Performance Marketing",
     "company": "Brex",
     "locations": [
-      "Salt Lake City, United States",
-      "Vancouver, Canada",
-      "San Francisco, United States",
       "New York, United States",
+      "San Francisco, United States",
+      "Vancouver, Canada",
+      "Salt Lake City, United States",
       "Seattle, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-10-24",
-    "url": "https://www.brex.com/careers/8914952002?gh_jid=8914952002",
+    "url": "https://www.brex.com/careers/8914950002?gh_jid=8914950002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -40979,19 +41020,19 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-gocardless-7525980",
+    "id": "gh-gocardless-7525953",
     "title": "Data Science Manager",
     "company": "GoCardless",
     "locations": [
+      "London, United Kingdom",
       "Riga, Latvia",
-      "Lisbon, Portugal",
-      "London, United Kingdom"
+      "Lisbon, Portugal"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "€ 64 000 – 96 000",
+    "salary": "£ 99 200 – 148 800",
     "posted": "2026-10-23",
-    "url": "https://job-boards.greenhouse.io/gocardless/jobs/7525980",
+    "url": "https://job-boards.greenhouse.io/gocardless/jobs/7525953",
     "site": "gocardless.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -40999,8 +41040,8 @@ window.JOBS_FINTECH = [
     "role": "Данные и ML",
     "grade": null,
     "spec": null,
-    "payMin": 69120,
-    "payMax": 103680,
+    "payMin": 125984,
+    "payMax": 188976,
     "stack": [
       "Python",
       "SQL"
@@ -41041,8 +41082,8 @@ window.JOBS_FINTECH = [
     "company": "GoCardless",
     "locations": [
       "London, United Kingdom",
-      "Lisbon, Portugal",
-      "Riga, Latvia"
+      "Riga, Latvia",
+      "Lisbon, Portugal"
     ],
     "remote": false,
     "rkind": null,
@@ -42663,31 +42704,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-5013318101",
-    "title": "FCC Analyst - Escalations",
-    "company": "Ebury",
-    "locations": [
-      "Málaga",
-      "Brussels"
-    ],
-    "remote": false,
-    "rkind": "hybrid",
-    "salary": null,
-    "posted": "2026-10-22",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/5013318101",
-    "site": "ebury.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Аналитика",
-    "grade": null,
-    "spec": "Бэкенд",
-    "stack": [],
-    "seen": "2026-11-08",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. FCC Analyst - Escalations Compliance Ebury Brussels Office - Hybrid: 4 days in the office, 1 day working from home per week As an FCC Escalations Analyst, you will work in the Financial Crime Compliance department in the…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-okx-8041248003",
     "title": "Senior Business Analytics Manager",
     "company": "OKX",
@@ -42826,20 +42842,20 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8782294002",
+    "id": "gh-brex-8784432002",
     "title": "Growth Marketing Lead, Programmatic & Video",
     "company": "Brex",
     "locations": [
+      "New York, United States",
       "San Francisco, United States",
       "Salt Lake City, United States",
-      "Seattle, United States",
-      "New York, United States"
+      "Seattle, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-10-22",
-    "url": "https://www.brex.com/careers/8782294002?gh_jid=8782294002",
+    "url": "https://www.brex.com/careers/8784432002?gh_jid=8784432002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -43759,22 +43775,22 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8907584002",
+    "id": "gh-brex-8907499002",
     "title": "Fraud Strategy Associate",
     "company": "Brex",
     "locations": [
-      "New York, United States",
-      "Seattle, United States",
-      "San Francisco, United States",
-      "Salt Lake City, United States",
       "Vancouver, Canada",
-      "São Paulo, Brazil"
+      "Seattle, United States",
+      "New York, United States",
+      "San Francisco, United States",
+      "São Paulo, Brazil",
+      "Salt Lake City, United States"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 111 197 – 138 996",
+    "salary": "$ 95 040 – 118 800",
     "posted": "2026-10-21",
-    "url": "https://www.brex.com/careers/8907584002?gh_jid=8907584002",
+    "url": "https://www.brex.com/careers/8907499002?gh_jid=8907499002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -43782,8 +43798,8 @@ window.JOBS_FINTECH = [
     "role": "Антифрод",
     "grade": null,
     "spec": null,
-    "payMin": 111197,
-    "payMax": 138996,
+    "payMin": 95040,
+    "payMax": 118800,
     "stack": [
       "Python",
       "SQL"
@@ -45790,34 +45806,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-ebury-4918365101",
-    "title": "Data Analyst - Fincrime Reporting",
-    "company": "Ebury",
-    "locations": [
-      "Málaga",
-      "Madrid"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-10-19",
-    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/4918365101",
-    "site": "ebury.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Данные и ML",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Python",
-      "SQL"
-    ],
-    "seen": "2026-11-08",
-    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Data Analyst - FCC Reporting Location: Málaga or Madrid (Spain) - Hybrid: 4 days in the office, 1 day working from home per week Ebury’s strategic growth plan would not be possible without our Data Analytics & Compliance team…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-ebury-4966858101",
     "title": "Developer Experience - Engineering Manager",
     "company": "Ebury",
@@ -45925,6 +45913,31 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-11-08",
     "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. Engineering Manager (Identity Team) London Office - Hybrid: 4 days in the office, 1 day working from home As an Engineering Manager for the Identity Platform, you will lead the team responsible for building high-throughput…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-ebury-5008498101",
+    "title": "FCC Analyst - Escalations",
+    "company": "Ebury",
+    "locations": [
+      "Brussels",
+      "Málaga"
+    ],
+    "remote": false,
+    "rkind": "hybrid",
+    "salary": null,
+    "posted": "2026-10-19",
+    "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/5008498101",
+    "site": "ebury.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Аналитика",
+    "grade": null,
+    "spec": "Бэкенд",
+    "stack": [],
+    "seen": "2026-11-08",
+    "descShort": "Ebury helps ambitious businesses unlock global growth, and we take the same approach with our people. We encourage innovation and movement, collaboration and problem-solving, and foster an environment where everyone can feel they belong, are valued, supported and empowered to succeed. If you’re a collaborator who wants to help transform how businesses operate globally, get in touch - we’d love to discuss how Ebury can accelerate your career so you can shape the future. FCC Analyst - Escalations Compliance Ebury Brussels Office - Hybrid: 4 days in the office, 1 day working from home per week As an FCC Escalations Analyst, you will work in the Financial Crime Compliance department in the…",
     "hasDesc": true
   },
   {
@@ -46479,6 +46492,30 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-fxpro-5008019101",
+    "title": "Senior QA Engineer",
+    "company": "FxPro",
+    "locations": [
+      "Cyprus, Ypsonas"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-10-19",
+    "url": "https://job-boards.eu.greenhouse.io/fxpro/jobs/5008019101",
+    "site": "fxpro.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "QA",
+    "stack": [],
+    "seen": "2026-11-08",
+    "descShort": "Join FxPro: a leading international fintech company. Be a part of our expanding international team, with offices in Limassol, London, Nassau, Dubai, and Yerevan. FxPro boasts a diverse workforce of over 600 employees representing 50 nationalities, making it an exciting and dynamic workplace. At FxPro, we see each team member as an integral part of our success story. As a Senior QA Engineer, you will be a part of our rapidly growing IT department and join one of our core product teams. In this role, you will take full ownership of product quality, balance manual and automated testing, and leverage modern tools to drive overall quality forward. Responsibilities • Perform manual and automated…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-fxpro-5007994101",
     "title": "Senior Software Developer",
     "company": "FxPro",
@@ -46646,18 +46683,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7734441003",
+    "id": "gh-okx-8011231003",
     "title": "Director, Global Treasury Services",
     "company": "OKX",
     "locations": [
-      "Kuala Lumpur, Malaysia",
-      "Singapore"
+      "Singapore",
+      "Kuala Lumpur, Malaysia"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-10-19",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7734441003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/8011231003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -46676,9 +46713,9 @@ window.JOBS_FINTECH = [
     "company": "Brex",
     "locations": [
       "San Francisco, United States",
+      "Vancouver, Canada",
       "Seattle, United States",
-      "New York, United States",
-      "Vancouver, Canada"
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
@@ -46724,19 +46761,19 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8605074002",
+    "id": "gh-brex-8605070002",
     "title": "Software Engineer II, Data Enablement Platform",
     "company": "Brex",
     "locations": [
-      "Seattle, United States",
       "San Francisco, United States",
-      "New York, United States"
+      "New York, United States",
+      "Seattle, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 152 000 – 190 000",
     "posted": "2026-10-19",
-    "url": "https://www.brex.com/careers/8605074002?gh_jid=8605074002",
+    "url": "https://www.brex.com/careers/8605070002?gh_jid=8605070002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -46755,20 +46792,20 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8854165002",
+    "id": "gh-brex-8854221002",
     "title": "Staff Software Engineer, Acquisition",
     "company": "Brex",
     "locations": [
-      "Seattle, United States",
-      "New York, United States",
       "Vancouver, Canada",
-      "San Francisco, United States"
+      "San Francisco, United States",
+      "Seattle, United States",
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 240 000 – 300 000",
     "posted": "2026-10-19",
-    "url": "https://www.brex.com/careers/8854165002?gh_jid=8854165002",
+    "url": "https://www.brex.com/careers/8854221002?gh_jid=8854221002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -47382,20 +47419,20 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8882037002",
+    "id": "gh-brex-8895333002",
     "title": "Director, Marketing Operations",
     "company": "Brex",
     "locations": [
-      "San Francisco, United States",
+      "New York, United States",
       "Salt Lake City, United States",
       "Seattle, United States",
-      "New York, United States"
+      "San Francisco, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-10-16",
-    "url": "https://www.brex.com/careers/8882037002?gh_jid=8882037002",
+    "url": "https://www.brex.com/careers/8895333002?gh_jid=8895333002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -47523,19 +47560,19 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-carta-8035089003",
+    "id": "gh-carta-8035091003",
     "title": "Staff Software Engineer, Investors",
     "company": "Carta",
     "locations": [
+      "New York, United States",
       "Toronto, Canada",
-      "Waterloo, Canada",
-      "New York, United States"
+      "Waterloo, Canada"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 240 000 – 300 000",
     "posted": "2026-10-16",
-    "url": "https://job-boards.greenhouse.io/carta/jobs/8035089003",
+    "url": "https://job-boards.greenhouse.io/carta/jobs/8035091003",
     "site": "carta.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -47543,6 +47580,8 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": null,
     "spec": null,
+    "payMin": 240000,
+    "payMax": 300000,
     "stack": [
       "Python",
       "AWS"
@@ -48892,18 +48931,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-feedzai-8203797",
+    "id": "gh-feedzai-8111748",
     "title": "Analyst Relations Manager",
     "company": "Feedzai",
     "locations": [
-      "England, United Kingdom",
-      "Portugal"
+      "Portugal",
+      "England, United Kingdom"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-10-14",
-    "url": "https://careers.feedzai.com/job_description?gh_jid=8203797",
+    "url": "https://careers.feedzai.com/job_description?gh_jid=8111748",
     "site": "feedzai.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -49115,35 +49154,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-sumup-8789067002",
-    "title": "Backend Engineer (Golang) - Transfers Europe",
-    "company": "SumUp",
-    "locations": [
-      "Berlin, Germany",
-      "Vilnius, Lithuania"
-    ],
-    "remote": false,
-    "rkind": "zone",
-    "salary": "3 493 – 4 657",
-    "posted": "2026-10-13",
-    "url": "https://sumup.com/careers/positions/8789067002?gh_jid=8789067002",
-    "site": "sumup.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Программирование",
-    "grade": null,
-    "spec": "Бэкенд",
-    "stack": [
-      "Go",
-      "AWS",
-      "Kubernetes"
-    ],
-    "seen": "2026-11-08",
-    "descShort": "At SumUp, we empower small businesses with simple, affordable tools to start, run, and grow. Our Global Bank teams build the financial services that help merchants manage their money and keep their businesses moving. For merchants, a transfer should feel simple. Behind that experience is a complex network of payment schemes, banks, providers, messages, certificates, reconciliations, and edge cases—all of which need to work together reliably. Transfers Europe squad is the integration layer connecting SumUp’s internal systems with the financial networks that move money across Europe and the UK. We build and run the backend services behind SEPA and UK transfer flows, helping move money…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-sumup-8769169002",
     "title": "Senior Software Engineer (Lending Team)",
     "company": "SumUp",
@@ -49274,18 +49284,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8366850002",
+    "id": "gh-brex-8523806002",
     "title": "Data Engineer",
     "company": "Brex",
     "locations": [
-      "San Francisco, United States",
-      "São Paulo, Brazil"
+      "São Paulo, Brazil",
+      "San Francisco, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 120 800 – 151 000",
     "posted": "2026-10-13",
-    "url": "https://www.brex.com/careers/8366850002?gh_jid=8366850002",
+    "url": "https://www.brex.com/careers/8523806002?gh_jid=8523806002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -49293,8 +49303,6 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": null,
     "spec": "Данные",
-    "payMin": 120800,
-    "payMax": 151000,
     "stack": [
       "Python",
       "SQL"
@@ -49646,18 +49654,44 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7712845003",
-    "title": "Product Manager / Director, AI Trading",
-    "company": "OKX",
+    "id": "gh-fireblocks-4711930006",
+    "title": "Sales Engineer",
+    "company": "Fireblocks",
     "locations": [
-      "Hong Kong, Hong Kong SAR",
-      "Singapore"
+      "Japan",
+      "Hong Kong",
+      "New York"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-10-12",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7712845003",
+    "url": "https://www.fireblocks.com/careers/position?gh_jid=4711930006",
+    "site": "fireblocks.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Программирование",
+    "grade": null,
+    "spec": null,
+    "stack": [],
+    "seen": "2026-11-08",
+    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. Here’s the bit about us: Fireblocks is an enterprise-grade platform delivering a secure infrastructure for moving, storing, and issuing digital assets like cryptocurrencies and…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-okx-7712844003",
+    "title": "Product Manager / Director, AI Trading",
+    "company": "OKX",
+    "locations": [
+      "Singapore",
+      "Hong Kong, Hong Kong SAR"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-10-12",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7712844003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -49668,7 +49702,7 @@ window.JOBS_FINTECH = [
     "permit": true,
     "stack": [],
     "seen": "2026-11-08",
-    "descShort": "OKX will be prioritising applicants who have a current right to work in Hong Kong, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
+    "descShort": "OKX will be prioritising applicants who have a current right to work in Singapore, and do not require OKX's sponsorship of a visa. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things…",
     "hasDesc": true
   },
   {
@@ -50068,18 +50102,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-8016000003",
+    "id": "gh-okx-8015999003",
     "title": "Product Manager / Director, Trading API",
     "company": "OKX",
     "locations": [
-      "Hong Kong, Hong Kong SAR",
-      "Singapore"
+      "Singapore",
+      "Hong Kong, Hong Kong SAR"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-10-09",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/8016000003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/8015999003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -50314,6 +50348,31 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-okx-8010243003",
+    "title": "Technology and Security Risk Director",
+    "company": "OKX",
+    "locations": [
+      "Hong Kong, Hong Kong SAR",
+      "Singapore"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-10-08",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/8010243003",
+    "site": "okx.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Крипта",
+    "role": "Риски",
+    "grade": "Lead",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-11-08",
+    "descShort": "Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things Done. These shared values drive our culture, shape our processes, and foster a friendly, rewarding, and diverse environment for every…",
+    "hasDesc": true
+  },
+  {
     "id": "ab-plaid-10c3bc9a-0c32-46c6-982e-89e66e0d0a89",
     "title": "GTM Technology Engineer",
     "company": "Plaid",
@@ -50340,21 +50399,21 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8787002002",
+    "id": "gh-brex-8786673002",
     "title": "Senior Marketing Operations Manager",
     "company": "Brex",
     "locations": [
-      "Seattle, United States",
-      "Vancouver, Canada",
-      "New York, United States",
       "San Francisco, United States",
-      "Salt Lake City, United States"
+      "Salt Lake City, United States",
+      "New York, United States",
+      "Seattle, United States",
+      "Vancouver, Canada"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-10-08",
-    "url": "https://www.brex.com/careers/8787002002?gh_jid=8787002002",
+    "url": "https://www.brex.com/careers/8786673002?gh_jid=8786673002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -51674,18 +51733,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7821266003",
+    "id": "gh-okx-7821265003",
     "title": "Growth Product Manager, Listing Campaign",
     "company": "OKX",
     "locations": [
-      "Hong Kong, Hong Kong SAR",
-      "Singapore"
+      "Singapore",
+      "Hong Kong, Hong Kong SAR"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-10-05",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7821266003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7821265003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -51748,18 +51807,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7777044003",
+    "id": "gh-okx-7777043003",
     "title": "Software Engineer, Mobile, Web3",
     "company": "OKX",
     "locations": [
-      "Hong Kong, Hong Kong SAR",
-      "Singapore"
+      "Singapore",
+      "Hong Kong, Hong Kong SAR"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-10-05",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7777044003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7777043003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -52102,6 +52161,35 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-11-08",
     "descShort": "Your opportunity: Since 2004, we've had one clear goal: to make payments and money management effortless for every business in Europe. Today, more than 250,000 companies use Mollie to get paid, manage money and grow, with products designed to be simple, scalable, and dependable. With 950+ Mollies across 14+ locations, we care deeply about autonomy and craft. So we work in small teams, with real ownership, and we trust you to make the right decisions. We're building for the long term, so we provide the tools you need, processes you can rely on, and a balanced work environment to help you do work you're proud of. Sound like your kind of place? Let's build together. As a Senior Engineering…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-sumup-8785999002",
+    "title": "Backend Engineer (Golang) - Transfers Europe",
+    "company": "SumUp",
+    "locations": [
+      "Vilnius, Lithuania",
+      "Berlin, Germany"
+    ],
+    "remote": false,
+    "rkind": "zone",
+    "salary": "3 493 – 4 657",
+    "posted": "2026-10-02",
+    "url": "https://sumup.com/careers/positions/8785999002?gh_jid=8785999002",
+    "site": "sumup.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Платежи",
+    "role": "Программирование",
+    "grade": null,
+    "spec": "Бэкенд",
+    "stack": [
+      "Go",
+      "AWS",
+      "Kubernetes"
+    ],
+    "seen": "2026-11-08",
+    "descShort": "At SumUp, we empower small businesses with simple, affordable tools to start, run, and grow. Our Global Bank teams build the financial services that help merchants manage their money and keep their businesses moving. For merchants, a transfer should feel simple. Behind that experience is a complex network of payment schemes, banks, providers, messages, certificates, reconciliations, and edge cases—all of which need to work together reliably. Transfers Europe squad is the integration layer connecting SumUp’s internal systems with the financial networks that move money across Europe and the UK. We build and run the backend services behind SEPA and UK transfer flows, helping move money…",
     "hasDesc": true
   },
   {
@@ -53061,32 +53149,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-fireblocks-4606870006",
-    "title": "Sales Engineer",
-    "company": "Fireblocks",
-    "locations": [
-      "Hong Kong",
-      "New York",
-      "Japan"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-10-01",
-    "url": "https://www.fireblocks.com/careers/position?gh_jid=4606870006",
-    "site": "fireblocks.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Крипта",
-    "role": "Программирование",
-    "grade": null,
-    "spec": null,
-    "stack": [],
-    "seen": "2026-11-08",
-    "descShort": "Fireblocks is the company bringing global finance onchain. Backed by over $1 billion in capital, we are the premier digital asset infrastructure provider trusted by thousands of industry-defining financial institutions, including banks, payment providers, fintechs, and global corporates such as BNY Mellon, BNP Paribas, ANZ Bank, Western Union, Stripe, and Revolut. Built for institutional scale and security, our enterprise-grade platform and network have powered over $14 trillion in digital asset transfers worldwide. Here’s the bit about us: Fireblocks is an enterprise-grade platform delivering a secure infrastructure for moving, storing, and issuing digital assets like cryptocurrencies and…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-fireblocks-4700431006",
     "title": "Solution Architect, UAE",
     "company": "Fireblocks",
@@ -53135,18 +53197,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-8010274003",
+    "id": "gh-okx-8010273003",
     "title": "Senior Product Manager / Director, Trading Products",
     "company": "OKX",
     "locations": [
-      "Hong Kong, Hong Kong SAR",
-      "Singapore"
+      "Singapore",
+      "Hong Kong, Hong Kong SAR"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-10-01",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/8010274003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/8010273003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -53221,18 +53283,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-okx-7795766003",
+    "id": "gh-okx-7795765003",
     "title": "Staff Software Engineer, Mobile Security",
     "company": "OKX",
     "locations": [
-      "Hong Kong, Hong Kong SAR",
-      "Singapore"
+      "Singapore",
+      "Hong Kong, Hong Kong SAR"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-10-01",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/7795766003",
+    "url": "https://job-boards.greenhouse.io/okx/jobs/7795765003",
     "site": "okx.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -53249,31 +53311,6 @@ window.JOBS_FINTECH = [
     ],
     "seen": "2026-11-08",
     "descShort": "OKX will be prioritising applicants who have a current right to work in Hong Kong, and do not require OKX's sponsorship of a visa. Please note that Hong Kong is a group-level service hub, and OKX does not carry on a business of operating a virtual asset trading platform in Hong Kong. Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-okx-8010225003",
-    "title": "Technology and Security Risk Director",
-    "company": "OKX",
-    "locations": [
-      "Singapore",
-      "Hong Kong, Hong Kong SAR"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-10-01",
-    "url": "https://job-boards.greenhouse.io/okx/jobs/8010225003",
-    "site": "okx.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Крипта",
-    "role": "Риски",
-    "grade": "Lead",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-11-08",
-    "descShort": "Who We Are At OKX, we believe that the future will be reshaped by crypto, and ultimately contribute to every individual's freedom. OKX is a leading crypto exchange, and the developer of OKX Wallet, giving millions access to crypto trading and decentralized crypto applications (dApps). OKX is also a trusted brand by hundreds of large institutions seeking access to crypto markets. We are safe and reliable, backed by our Proof of Reserves. Across our multiple offices globally, we are united by our core principles: We Before Me, Do the Right Thing, and Get Things Done. These shared values drive our culture, shape our processes, and foster a friendly, rewarding, and diverse environment for every…",
     "hasDesc": true
   },
   {
@@ -55949,19 +55986,19 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8812016002",
+    "id": "gh-brex-8812021002",
     "title": "ERM Compliance Lead",
     "company": "Brex",
     "locations": [
-      "New York, United States",
       "San Francisco, United States",
-      "Salt Lake City, United States"
+      "Salt Lake City, United States",
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 111 000 – 135 000",
     "posted": "2026-09-24",
-    "url": "https://www.brex.com/careers/8812016002?gh_jid=8812016002",
+    "url": "https://www.brex.com/careers/8812021002?gh_jid=8812021002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -57281,18 +57318,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8834122002",
+    "id": "gh-brex-8834121002",
     "title": "Senior Counsel, Risk",
     "company": "Brex",
     "locations": [
-      "New York, United States",
-      "San Francisco, United States"
+      "San Francisco, United States",
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-22",
-    "url": "https://www.brex.com/careers/8834122002?gh_jid=8834122002",
+    "url": "https://www.brex.com/careers/8834121002?gh_jid=8834121002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -57798,6 +57835,31 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
+    "id": "gh-brex-8780828002",
+    "title": "Senior Product Manager, AI",
+    "company": "Brex",
+    "locations": [
+      "Seattle, United States",
+      "San Francisco, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": null,
+    "posted": "2026-09-18",
+    "url": "https://www.brex.com/careers/8780828002?gh_jid=8780828002",
+    "site": "brex.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Продакт",
+    "grade": "Senior",
+    "spec": null,
+    "stack": [],
+    "seen": "2026-11-08",
+    "descShort": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and finance teams to accelerate operations, gain real-time visibility, and control spend effortlessly. Brex’s AI-native automation and world-class service eliminate manual expense and accounting tasks for customers so they can focus on what matters most. Tens of thousands of the world's best companies run on Brex, including DoorDash, Coinbase, Robinhood, Zoom, Plaid, Reddit, and SeatGeek. Working at Brex allows you to push…",
+    "hasDesc": true
+  },
+  {
     "id": "gh-riskified-8786543002",
     "title": "Staff Data Scientist",
     "company": "Riskified",
@@ -58018,37 +58080,6 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-11-08",
     "descShort": "We believe that the way people interact with their finances will drastically improve in the next few years. We’re dedicated to empowering this transformation by building the tools and experiences that thousands of developers use to create their own products. Plaid powers the tools millions of people rely on to live a healthier financial life. We work with thousands of companies like Venmo, SoFi, several of the Fortune 500, and many of the largest banks to make it easy for people to connect their financial accounts to the apps and services they want to use. Plaid’s network covers 12,000 financial institutions across the US, Canada, UK and Europe. Founded in 2013, the company is headquartered…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-brex-8815466002",
-    "title": "Senior Software Engineer, Frontend",
-    "company": "Brex",
-    "locations": [
-      "Vancouver, Canada",
-      "New York, United States",
-      "San Francisco, United States",
-      "Seattle, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": "$ 192 000 – 240 000",
-    "posted": "2026-09-17",
-    "url": "https://www.brex.com/careers/8815466002?gh_jid=8815466002",
-    "site": "brex.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Банки",
-    "role": "Программирование",
-    "grade": "Senior",
-    "spec": "Фронтенд",
-    "payMin": 192000,
-    "payMax": 240000,
-    "stack": [
-      "TypeScript"
-    ],
-    "seen": "2026-11-08",
-    "descShort": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and finance teams to accelerate operations, gain real-time visibility, and control spend effortlessly. Brex’s AI-native automation and world-class service eliminate manual expense and accounting tasks for customers so they can focus on what matters most. Tens of thousands of the world's best companies run on Brex, including DoorDash, Coinbase, Robinhood, Zoom, Plaid, Reddit, and SeatGeek. Working at Brex allows you to push…",
     "hasDesc": true
   },
   {
@@ -58290,19 +58321,50 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8815443002",
-    "title": "Software Engineer II, Backend",
+    "id": "gh-brex-8815463002",
+    "title": "Senior Software Engineer, Frontend",
     "company": "Brex",
     "locations": [
       "New York, United States",
+      "Vancouver, Canada",
       "San Francisco, United States",
-      "Vancouver, Canada"
+      "Seattle, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 192 000 – 240 000",
+    "posted": "2026-09-16",
+    "url": "https://www.brex.com/careers/8815463002?gh_jid=8815463002",
+    "site": "brex.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Программирование",
+    "grade": "Senior",
+    "spec": "Фронтенд",
+    "payMin": 192000,
+    "payMax": 240000,
+    "stack": [
+      "TypeScript"
+    ],
+    "seen": "2026-11-08",
+    "descShort": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and finance teams to accelerate operations, gain real-time visibility, and control spend effortlessly. Brex’s AI-native automation and world-class service eliminate manual expense and accounting tasks for customers so they can focus on what matters most. Tens of thousands of the world's best companies run on Brex, including DoorDash, Coinbase, Robinhood, Zoom, Plaid, Reddit, and SeatGeek. Working at Brex allows you to push…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-brex-8815512002",
+    "title": "Software Engineer II, Backend",
+    "company": "Brex",
+    "locations": [
+      "Vancouver, Canada",
+      "San Francisco, United States",
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 152 000 – 190 000",
     "posted": "2026-09-16",
-    "url": "https://www.brex.com/careers/8815443002?gh_jid=8815443002",
+    "url": "https://www.brex.com/careers/8815512002?gh_jid=8815512002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -58985,31 +59047,6 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8780827002",
-    "title": "Senior Product Manager, AI",
-    "company": "Brex",
-    "locations": [
-      "San Francisco, United States",
-      "Seattle, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-09-11",
-    "url": "https://www.brex.com/careers/8780827002?gh_jid=8780827002",
-    "site": "brex.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Банки",
-    "role": "Продакт",
-    "grade": "Senior",
-    "spec": null,
-    "stack": [],
-    "seen": "2026-11-08",
-    "descShort": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and finance teams to accelerate operations, gain real-time visibility, and control spend effortlessly. Brex’s AI-native automation and world-class service eliminate manual expense and accounting tasks for customers so they can focus on what matters most. Tens of thousands of the world's best companies run on Brex, including DoorDash, Coinbase, Robinhood, Zoom, Plaid, Reddit, and SeatGeek. Working at Brex allows you to push…",
-    "hasDesc": true
-  },
-  {
     "id": "gh-brex-8780829002",
     "title": "Staff Product Manager, AI",
     "company": "Brex",
@@ -59204,20 +59241,20 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8797771002",
+    "id": "gh-brex-8782795002",
     "title": "Engineering Manager, Bill Pay",
     "company": "Brex",
     "locations": [
-      "Vancouver, Canada",
-      "New York, United States",
       "San Francisco, United States",
-      "Seattle, United States"
+      "Vancouver, Canada",
+      "Seattle, United States",
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 240 000 – 285 000",
     "posted": "2026-09-10",
-    "url": "https://www.brex.com/careers/8797771002?gh_jid=8797771002",
+    "url": "https://www.brex.com/careers/8782795002?gh_jid=8782795002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -59451,33 +59488,28 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-toast-8079612",
-    "title": "Principal Software Engineer",
+    "id": "gh-toast-8059342",
+    "title": "Manager II, Software Engineering",
     "company": "Toast",
     "locations": [
-      "Dublin, Ireland",
-      "United States",
-      "Bangalore",
-      "Chennai",
-      "Bengaluru, India"
+      "Bengaluru, India",
+      "Bangalore, india"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-09-09",
-    "url": "https://careers.toasttab.com/jobs?gh_jid=8079612",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=8059342",
     "site": "toasttab.com",
     "source": "greenhouse",
     "industry": "fintech",
     "kind": "Платежи",
     "role": "Программирование",
-    "grade": "Lead",
+    "grade": null,
     "spec": null,
-    "stack": [
-      "AWS"
-    ],
+    "stack": [],
     "seen": "2026-11-08",
-    "descShort": "Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. As a Principal Engineer / architect you will be responsible for creating a technical strategy and coordinating the designs for meeting the needs of Toast’s largest restaurant brands. You will partner with Product Managers to develop the technology roadmap that enables enterprise customers to leverage the power of Toast. You will also work closely with technical leaders and implementation teams across the organization to deliver robust, scalable solutions with integrations to customers’ external systems.…",
+    "descShort": "Toast creates technology to help restaurants and local businesses succeed in a digital world, helping business owners operate, increase sales, engage customers, and keep employees happy. One of the top challenges facing Toast customers today is getting new guests. Toast Advertising is a restaurant advertising tool that lets Toast customers launch and manage Google and Meta campaigns from within the Toast platform. It is built for US restaurants that want to reach new guests, drive traffic to owned channels like online ordering, catering and events, and Toast Tables, and track return on ad spend without using separate ad tools or spreadsheets. Within Toast’s suite, it connects marketing…",
     "hasDesc": true
   },
   {
@@ -59594,18 +59626,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-toast-8052293",
+    "id": "gh-toast-8029049",
     "title": "Staff Data Scientist",
     "company": "Toast",
     "locations": [
-      "Canada",
-      "United States"
+      "United States",
+      "Canada"
     ],
-    "remote": false,
-    "rkind": null,
+    "remote": true,
+    "rkind": "zone",
     "salary": "$ 127 000 – 203 000",
     "posted": "2026-09-09",
-    "url": "https://careers.toasttab.com/jobs?gh_jid=8052293",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=8029049",
     "site": "toasttab.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -59613,8 +59645,6 @@ window.JOBS_FINTECH = [
     "role": "Данные и ML",
     "grade": null,
     "spec": null,
-    "payMin": 127000,
-    "payMax": 203000,
     "stack": [
       "Python",
       "SQL",
@@ -59815,36 +59845,6 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-11-08",
     "descShort": "About us Traditional banking has never really given you control over your financial life. Satispay exists to change that: to empower people through finance. That means making financial services easy and accessible for over 6.5M users. We started with payments, then benefits, investing, cards... and we’re not done. Not even close. We follow the same logic every time: find a real problem, solve it properly, then look for the next one. The destination? To build the most loved financial platform in the world. If you own outcomes rather than tasks, stay close to what users need, and refuse to wait for someone else to fix what's broken — you'll find people here who work exactly in the same way.…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-brex-8782407002",
-    "title": "Staff Brand Designer, Interactive",
-    "company": "Brex",
-    "locations": [
-      "New York, United States",
-      "San Francisco, United States"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": "$ 187 000 – 234 000",
-    "posted": "2026-09-08",
-    "url": "https://www.brex.com/careers/8782407002?gh_jid=8782407002",
-    "site": "brex.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Банки",
-    "role": "Дизайн",
-    "grade": null,
-    "spec": null,
-    "payMin": 187000,
-    "payMax": 234000,
-    "stack": [
-      "JavaScript",
-      "Figma"
-    ],
-    "seen": "2026-11-08",
-    "descShort": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and finance teams to accelerate operations, gain real-time visibility, and control spend effortlessly. Brex’s AI-native automation and world-class service eliminate manual expense and accounting tasks for customers so they can focus on what matters most. Tens of thousands of the world's best companies run on Brex, including DoorDash, Coinbase, Robinhood, Zoom, Plaid, Reddit, and SeatGeek. Working at Brex allows you to push…",
     "hasDesc": true
   },
   {
@@ -60293,18 +60293,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8782440002",
+    "id": "gh-brex-8782450002",
     "title": "Senior Brand Designer",
     "company": "Brex",
     "locations": [
-      "New York, United States",
-      "San Francisco, United States"
+      "San Francisco, United States",
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 147 000 – 187 000",
     "posted": "2026-09-03",
-    "url": "https://www.brex.com/careers/8782440002?gh_jid=8782440002",
+    "url": "https://www.brex.com/careers/8782450002?gh_jid=8782450002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -60344,6 +60344,36 @@ window.JOBS_FINTECH = [
     "payMin": 187000,
     "payMax": 234000,
     "stack": [
+      "Figma"
+    ],
+    "seen": "2026-11-08",
+    "descShort": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and finance teams to accelerate operations, gain real-time visibility, and control spend effortlessly. Brex’s AI-native automation and world-class service eliminate manual expense and accounting tasks for customers so they can focus on what matters most. Tens of thousands of the world's best companies run on Brex, including DoorDash, Coinbase, Robinhood, Zoom, Plaid, Reddit, and SeatGeek. Working at Brex allows you to push…",
+    "hasDesc": true
+  },
+  {
+    "id": "gh-brex-8782404002",
+    "title": "Staff Brand Designer, Interactive",
+    "company": "Brex",
+    "locations": [
+      "San Francisco, United States",
+      "New York, United States"
+    ],
+    "remote": false,
+    "rkind": null,
+    "salary": "$ 187 000 – 234 000",
+    "posted": "2026-09-03",
+    "url": "https://www.brex.com/careers/8782404002?gh_jid=8782404002",
+    "site": "brex.com",
+    "source": "greenhouse",
+    "industry": "fintech",
+    "kind": "Банки",
+    "role": "Дизайн",
+    "grade": null,
+    "spec": null,
+    "payMin": 187000,
+    "payMax": 234000,
+    "stack": [
+      "JavaScript",
       "Figma"
     ],
     "seen": "2026-11-08",
@@ -60600,19 +60630,19 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8777953002",
+    "id": "gh-brex-8777938002",
     "title": "Staff Product Designer",
     "company": "Brex",
     "locations": [
+      "New York, United States",
       "Seattle, United States",
-      "San Francisco, United States",
-      "New York, United States"
+      "San Francisco, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 240 000 – 300 000",
     "posted": "2026-09-02",
-    "url": "https://www.brex.com/careers/8777953002?gh_jid=8777953002",
+    "url": "https://www.brex.com/careers/8777938002?gh_jid=8777938002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -60702,36 +60732,6 @@ window.JOBS_FINTECH = [
     "stack": [],
     "seen": "2026-11-08",
     "descShort": "Hello, we’re Starling. We built a new kind of bank because we knew technology had the power to help people save, spend and manage their money in a new and transformative way. We’re a fully licensed UK bank with the culture and spirit of a fast-moving, disruptive tech company. We’re a bank, but better: fairer, easier to use and designed to demystify money for everyone. Starling Bank is powered by Engine, the banking platform we built ourselves and which we are now rolling out to other banks around the world. We employ more than 3,500 people across our London, Southampton, Cardiff and Manchester offices. We are looking for a Tax Manager to join our growing tax team. Alongside the Head of…",
-    "hasDesc": true
-  },
-  {
-    "id": "gh-riskified-8499857002",
-    "title": "Data Scientist",
-    "company": "Riskified",
-    "locations": [
-      "Lisbon",
-      "Tel Aviv"
-    ],
-    "remote": false,
-    "rkind": null,
-    "salary": null,
-    "posted": "2026-09-01",
-    "url": "https://www.riskified.com/careers/job-description/?gh_jid=8499857002",
-    "site": "riskified.com",
-    "source": "greenhouse",
-    "industry": "fintech",
-    "kind": "Платежи",
-    "role": "Данные и ML",
-    "grade": null,
-    "spec": null,
-    "stack": [
-      "Python",
-      "SQL",
-      "Docker",
-      "Kubernetes"
-    ],
-    "seen": "2026-11-08",
-    "descShort": "About Us Riskified empowers businesses to unleash ecommerce growth by taking risk off the table. Many of the world’s biggest brands and publicly traded companies selling online rely on Riskified for guaranteed protection against chargebacks, to fight fraud and policy abuse at scale, and to improve customer retention. Developed and managed by the largest team of ecommerce risk analysts, data scientists and researchers, Riskified’s AI-powered fraud and risk intelligence platform analyzes the individual behind each interaction to provide real-time decisions and robust identity-based insights. Riskified is proud to work with incredible companies in virtually all industries including Acer…",
     "hasDesc": true
   },
   {
@@ -61611,18 +61611,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-blockchain-com-8066886",
+    "id": "gh-blockchain-com-8083268",
     "title": "Affiliate & Growth Networks Specialist",
     "company": "Blockchain.com",
     "locations": [
-      "London",
-      "Singapore"
+      "Singapore",
+      "London"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-24",
-    "url": "https://job-boards.greenhouse.io/blockchain/jobs/8066886",
+    "url": "https://job-boards.greenhouse.io/blockchain/jobs/8083268",
     "site": "blockchain.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -61822,19 +61822,19 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-blockchain-com-8147304",
+    "id": "gh-blockchain-com-8026116",
     "title": "Performance Marketing Specialist, Mobile",
     "company": "Blockchain.com",
     "locations": [
-      "Singapore",
       "London",
-      "Paris"
+      "Paris",
+      "Singapore"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-08-24",
-    "url": "https://job-boards.greenhouse.io/blockchain/jobs/8147304",
+    "url": "https://job-boards.greenhouse.io/blockchain/jobs/8026116",
     "site": "blockchain.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -62112,18 +62112,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-shift-technology-7687752003",
+    "id": "gh-shift-technology-7676940003",
     "title": "Data Science internship - Spanish speaker (6months)",
     "company": "Shift Technology",
     "locations": [
-      "Spain - Madrid",
-      "France"
+      "France",
+      "Spain - Madrid"
     ],
-    "remote": false,
-    "rkind": null,
+    "remote": true,
+    "rkind": "zone",
     "salary": null,
     "posted": "2026-08-21",
-    "url": "https://job-boards.greenhouse.io/shifttechnology/jobs/7687752003",
+    "url": "https://job-boards.greenhouse.io/shifttechnology/jobs/7676940003",
     "site": "shift-technology.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -62393,18 +62393,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-clearbank-8043856",
+    "id": "gh-clearbank-8067982",
     "title": "Senior Software Engineer, Java",
     "company": "ClearBank",
     "locations": [
-      "Austin, United States",
-      "New York, United States"
+      "New York, United States",
+      "Austin, United States"
     ],
     "remote": false,
     "rkind": null,
-    "salary": "$ 210 000 – 280 000",
+    "salary": "$ 225 000 – 300 000",
     "posted": "2026-08-17",
-    "url": "https://job-boards.greenhouse.io/clear/jobs/8043856",
+    "url": "https://job-boards.greenhouse.io/clear/jobs/8067982",
     "site": "clear.bank",
     "source": "greenhouse",
     "industry": "fintech",
@@ -62412,8 +62412,8 @@ window.JOBS_FINTECH = [
     "role": "Программирование",
     "grade": "Senior",
     "spec": "Бэкенд",
-    "payMin": 210000,
-    "payMax": 280000,
+    "payMin": 225000,
+    "payMax": 300000,
     "stack": [
       "Java",
       "Swift",
@@ -63410,19 +63410,19 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8659220002",
+    "id": "gh-brex-8659237002",
     "title": "Staff Product Manager, Card",
     "company": "Brex",
     "locations": [
+      "New York, United States",
       "San Francisco, United States",
-      "Seattle, United States",
-      "New York, United States"
+      "Seattle, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 240 000 – 300 000",
     "posted": "2026-07-30",
-    "url": "https://www.brex.com/careers/8659220002?gh_jid=8659220002",
+    "url": "https://www.brex.com/careers/8659237002?gh_jid=8659237002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -63438,18 +63438,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8659210002",
+    "id": "gh-brex-8659204002",
     "title": "Staff Product Manager, Embedded",
     "company": "Brex",
     "locations": [
-      "Seattle, United States",
-      "San Francisco, United States"
+      "San Francisco, United States",
+      "Seattle, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 280 000 – 350 000",
     "posted": "2026-07-30",
-    "url": "https://www.brex.com/careers/8659210002?gh_jid=8659210002",
+    "url": "https://www.brex.com/careers/8659204002?gh_jid=8659204002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -63496,8 +63496,8 @@ window.JOBS_FINTECH = [
     "company": "Brex",
     "locations": [
       "New York, United States",
-      "Seattle, United States",
-      "San Francisco, United States"
+      "San Francisco, United States",
+      "Seattle, United States"
     ],
     "remote": false,
     "rkind": null,
@@ -63622,18 +63622,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8617113002",
+    "id": "gh-brex-8617115002",
     "title": "Senior Software Engineer, Release Infra",
     "company": "Brex",
     "locations": [
-      "San Francisco, United States",
-      "New York, United States"
+      "New York, United States",
+      "San Francisco, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 192 000 – 240 000",
     "posted": "2026-07-29",
-    "url": "https://www.brex.com/careers/8617113002?gh_jid=8617113002",
+    "url": "https://www.brex.com/careers/8617115002?gh_jid=8617115002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -64002,20 +64002,20 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8618069002",
+    "id": "gh-brex-8618076002",
     "title": "Staff Software Engineer, Banking",
     "company": "Brex",
     "locations": [
-      "New York, United States",
       "Seattle, United States",
-      "San Francisco, United States",
-      "Vancouver, Canada"
+      "New York, United States",
+      "Vancouver, Canada",
+      "San Francisco, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-07-22",
-    "url": "https://www.brex.com/careers/8618069002?gh_jid=8618069002",
+    "url": "https://www.brex.com/careers/8618076002?gh_jid=8618076002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -64142,20 +64142,20 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8432703002",
+    "id": "gh-brex-8432698002",
     "title": "Staff Product Manager",
     "company": "Brex",
     "locations": [
-      "Seattle, United States",
       "San Francisco, United States",
-      "New York, United States",
-      "Vancouver, Canada"
+      "Vancouver, Canada",
+      "Seattle, United States",
+      "New York, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 240 000 – 300 000",
     "posted": "2026-07-20",
-    "url": "https://www.brex.com/careers/8432703002?gh_jid=8432703002",
+    "url": "https://www.brex.com/careers/8432698002?gh_jid=8432698002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -64173,12 +64173,12 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8436530002",
+    "id": "gh-brex-8436528002",
     "title": "Staff Product Manager, Growth",
     "company": "Brex",
     "locations": [
-      "Seattle, United States",
       "New York, United States",
+      "Seattle, United States",
       "Vancouver, Canada",
       "San Francisco, United States"
     ],
@@ -64186,7 +64186,7 @@ window.JOBS_FINTECH = [
     "rkind": null,
     "salary": "$ 240 000 – 300 000",
     "posted": "2026-07-20",
-    "url": "https://www.brex.com/careers/8436530002?gh_jid=8436530002",
+    "url": "https://www.brex.com/careers/8436528002?gh_jid=8436528002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -64204,20 +64204,20 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8635339002",
+    "id": "gh-brex-8635342002",
     "title": "Staff Software Engineer, Travel & Expense",
     "company": "Brex",
     "locations": [
-      "San Francisco, United States",
-      "New York, United States",
+      "Vancouver, Canada",
       "Seattle, United States",
-      "Vancouver, Canada"
+      "New York, United States",
+      "San Francisco, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 240 000 – 285 000",
     "posted": "2026-07-20",
-    "url": "https://www.brex.com/careers/8635339002?gh_jid=8635339002",
+    "url": "https://www.brex.com/careers/8635342002?gh_jid=8635342002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -64737,20 +64737,20 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8339277002",
+    "id": "gh-brex-8339283002",
     "title": "Senior Security Operations Engineer",
     "company": "Brex",
     "locations": [
-      "New York, United States",
       "Seattle, United States",
       "Vancouver, Canada",
+      "New York, United States",
       "San Francisco, United States"
     ],
     "remote": false,
     "rkind": null,
     "salary": null,
     "posted": "2026-07-16",
-    "url": "https://www.brex.com/careers/8339277002?gh_jid=8339277002",
+    "url": "https://www.brex.com/careers/8339283002?gh_jid=8339283002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -66184,18 +66184,18 @@ window.JOBS_FINTECH = [
     "hasDesc": true
   },
   {
-    "id": "gh-brex-8463703002",
+    "id": "gh-brex-8463702002",
     "title": "Data Analyst II",
     "company": "Brex",
     "locations": [
-      "São Paulo, Brazil",
-      "New York, United States"
+      "New York, United States",
+      "São Paulo, Brazil"
     ],
     "remote": false,
     "rkind": null,
     "salary": "$ 93 600 – 117 000",
     "posted": "2026-06-10",
-    "url": "https://www.brex.com/careers/8463703002?gh_jid=8463703002",
+    "url": "https://www.brex.com/careers/8463702002?gh_jid=8463702002",
     "site": "brex.com",
     "source": "greenhouse",
     "industry": "fintech",
@@ -66203,6 +66203,8 @@ window.JOBS_FINTECH = [
     "role": "Данные и ML",
     "grade": null,
     "spec": null,
+    "payMin": 93600,
+    "payMax": 117000,
     "stack": [
       "Python",
       "SQL"
