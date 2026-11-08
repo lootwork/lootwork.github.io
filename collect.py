@@ -1036,59 +1036,102 @@ def hh_salary(s):
 # Оставлено в коде на случай, если hh когда-нибудь снова откроет доступ.
 # В рабочий список источников не входит: hh — чужая доска объявлений,
 # а сайт обещает вакансии с карьерных страниц самих студий.
-def fetch_hh(company: dict):
-    """
-    Ищем вакансии сразу по названию работодателя.
-    Отдельный запрос за id работодателя hh отклоняет, поэтому обходимся без него.
-    Лишнее отсекаем сами: оставляем только те вакансии, где название компании
-    действительно совпадает с нужной.
-    """
-    name = company["name"]
-    want = name.lower().replace(".", "").replace("-", " ").strip()
-
-    out, page = [], 0
-    while page < 3:
-        params = {
-            "text": name,
-            "search_field": "company_name",
-            "per_page": 100,
-            "page": page,
-        }
-        r = http_get("https://api.hh.ru/vacancies", params=params,
-                     headers=HH_UA)
+def hh_detail(vid: str):
+    """Полное описание вакансии лежит в отдельном запросе.
+    Без него в карточке будет только огрызок из поисковой выдачи."""
+    try:
+        r = http_get(f"https://api.hh.ru/vacancies/{vid}", headers=HH_UA, tries=2)
         if r.status_code >= 400:
-            # hh объясняет причину в теле ответа — без него ошибка бесполезна
-            raise RuntimeError(f"hh {r.status_code}: {r.text[:300]}")
+            return None
+        d = r.json()
+    except Exception:
+        return None
+    html = d.get("description") or ""
+    text = re.sub(r"<li[^>]*>", "\n• ", html)
+    text = re.sub(r"<br\s*/?>|</p>|</div>|</li>", "\n", text)
+    text = re.sub(r"<[^>]+>", "", text)
+    text = html_lib.unescape(text)
+    return re.sub(r"\n{3,}", "\n\n", text).strip()
+
+
+def fetch_hh(company: dict):
+    """Вакансии из профиля компании на hh.
+
+    Берём по номеру работодателя: так в выдачу попадают только его
+    собственные вакансии, без чужих и без агентств. Если номер не указан,
+    ищем по названию, но это менее надёжно.
+    """
+    token = str(company.get("token") or "").strip()
+    name = company["name"]
+
+    params = {"per_page": 100, "page": 0, "archived": "false"}
+    if token.isdigit():
+        params["employer_id"] = token
+    else:
+        params["text"] = name
+        params["search_field"] = "company_name"
+
+    out, page, pages = [], 0, 1
+    while page < pages and page < 5:
+        params["page"] = page
+        r = http_get("https://api.hh.ru/vacancies", params=params, headers=HH_UA)
+        if r.status_code >= 400:
+            raise RuntimeError(f"hh {r.status_code}: {r.text[:200]}")
         data = r.json()
+        pages = min(data.get("pages", 1), 5)
 
         for v in data.get("items", []):
-            emp = ((v.get("employer") or {}).get("name") or "")
-            emp_norm = emp.lower().replace(".", "").replace("-", " ").strip()
-            if want not in emp_norm and emp_norm not in want:
+            if v.get("archived"):
                 continue
+            emp = ((v.get("employer") or {}).get("name") or name).strip()
+            if not token.isdigit():
+                # при поиске по названию отсекаем чужие компании
+                a = name.lower().replace(".", "").replace("-", " ").strip()
+                b = emp.lower().replace(".", "").replace("-", " ").strip()
+                if a not in b and b not in a:
+                    continue
 
             area = (v.get("area") or {}).get("name")
             schedule = (v.get("schedule") or {}).get("name", "")
             locs, rem = clean_locations(area)
+
+            sal = v.get("salary") or {}
+            pay = None
+            if sal.get("from") or sal.get("to"):
+                cur = {"RUR": "₽", "USD": "$", "EUR": "€", "KZT": "₸",
+                       "BYR": "Br", "BYN": "Br", "UAH": "₴"}.get(sal.get("currency"),
+                                                                 sal.get("currency") or "")
+                lo = f"{sal['from']:,}".replace(",", " ") if sal.get("from") else ""
+                hi = f"{sal['to']:,}".replace(",", " ") if sal.get("to") else ""
+                pay = (f"{lo} – {hi} {cur}" if lo and hi
+                       else f"от {lo} {cur}" if lo else f"до {hi} {cur}").strip()
+
             out.append({
                 "id": make_id("hh", name, v.get("id")),
                 "title": (v.get("name") or "").strip(),
-                "company": emp or name,
+                "company": emp,
                 "locations": locs,
                 "remote": rem or looks_remote(schedule, v.get("name")),
-                "rkind": remote_kind(str(schedule), v.get("name"), None),
-                "salary": hh_salary(v.get("salary")),
-                "posted": (v.get("published_at") or "")[:10] or None,
+                "rkind": remote_kind(str(area or "") + " " + str(schedule),
+                                     v.get("name"), None),
+                "salary": pay,
+                "posted": (v.get("published_at") or "")[:10],
                 "url": v.get("alternate_url"),
+                "desc": None,          # доберём ниже, одним запросом на вакансию
                 "source": "hh",
-                "site": company.get("site"),
+                "site": "hh.ru",
+                "_hh_id": v.get("id"),
             })
-
-        if page >= data.get("pages", 1) - 1:
-            break
         page += 1
-        time.sleep(PAUSE)
+        time.sleep(PAUSE / 2)
 
+    # Описания: запрос на каждую вакансию, поэтому берём только те,
+    # что прошли отбор по названию, и не больше полусотни на компанию.
+    for j in out[:50]:
+        j["desc"] = hh_detail(j.pop("_hh_id", ""))
+        time.sleep(PAUSE / 3)
+    for j in out:
+        j.pop("_hh_id", None)
     return out
 
 
@@ -1255,6 +1298,7 @@ FETCHERS = {
     "ashby": fetch_ashby,
     "workable": fetch_workable,
     "smartrecruiters": fetch_smartrecruiters,
+    "hh": fetch_hh,
 }
 
 
@@ -3035,8 +3079,8 @@ def page_shell(title, description, canonical, body, ld=None, depth=1):
 <header><a class="logo" href="{up}">LOOT<b>WORK</b></a></header>
 {body}
 <footer>
-  Вакансии собираются автоматически с карьерных страниц компаний.
-  Мы не работодатель и не принимаем отклики — откликаться нужно на сайте компании.<br>
+  Вакансии собираются автоматически у самих компаний.
+  Мы не работодатель и не принимаем отклики: откликаться нужно на стороне компании.<br>
   <a href="{up}">Все вакансии на LOOTWORK</a>
 </footer>
 </div>
@@ -3206,7 +3250,7 @@ def write_terms():
 
 <h2>Что такое LOOTWORK</h2>
 <p>Это витрина открытых вакансий, которые автоматически собираются с публичных
-карьерных страниц компаний. Мы не работодатель, не кадровое агентство
+страниц самих компаний. Мы не работодатель, не кадровое агентство
 и не посредник. Отклик отправляется на сайте студии, напрямую ей.</p>
 
 <h2>За что мы не отвечаем</h2>
@@ -3571,6 +3615,60 @@ def read_progress():
         return {}
 
 
+def hh_find(source: str):
+    """Ищем номера работодателей на hh по списку названий.
+
+    Номер нужен, чтобы брать вакансии именно этой компании, а не всех,
+    у кого похожее название. Агентства отсеиваем сразу: сайт обещает
+    вакансии от самих компаний.
+    """
+    from pathlib import Path as _P
+    f = _P(source)
+    lines = f.read_text(encoding="utf-8").splitlines() if f.exists() else [source]
+
+    found = []
+    for line in lines:
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        name = line.split("|")[0].strip()
+        try:
+            r = http_get("https://api.hh.ru/employers", headers=HH_UA, tries=2,
+                         params={"text": name, "only_with_vacancies": "true",
+                                 "per_page": 5})
+            if r.status_code >= 400:
+                print(f"  hh {r.status_code} на «{name}»: {r.text[:120]}")
+                break
+            items = r.json().get("items", [])
+        except Exception as e:
+            print(f"  нет  {name} — {str(e)[:60]}")
+            continue
+
+        hit = None
+        for it in items:
+            if (it.get("type") or "") == "agency":
+                continue                      # кадровые агентства не берём
+            got = (it.get("name") or "").lower()
+            if name.lower()[:6] in got:
+                hit = it
+                break
+        if not hit:
+            print(f"  нет  {name}")
+            time.sleep(PAUSE / 3)
+            continue
+
+        vac = hit.get("open_vacancies") or 0
+        print(f"  OK   {hit['name'][:28]:30} id={hit['id']} — вакансий: {vac}")
+        found.append({"name": hit["name"], "ats": "hh", "token": str(hit["id"]),
+                      "site": "hh.ru", "enabled": True, "industry": "gamedev"})
+        time.sleep(PAUSE / 3)
+
+    print("\n" + "=" * 60)
+    print(f"Найдено компаний: {len(found)}. Строки для companies.json:\n")
+    for row in found:
+        print("  " + json.dumps(row, ensure_ascii=False) + ",")
+
+
 def guess_many(source: str):
     """Перебор: для каждой компании пробуем несколько вариантов адреса
     в каждой системе найма."""
@@ -3872,6 +3970,8 @@ def main():
                     help="при проверке брать и выключенных кандидатов тоже")
     ap.add_argument("--detect", metavar="URL_ИЛИ_ФАЙЛ",
                     help="найти систему найма: адрес студии или файл со списком")
+    ap.add_argument("--hh", metavar="ФАЙЛ",
+                    help="найти номера работодателей на hh по списку названий")
     ap.add_argument("--guess", metavar="ФАЙЛ",
                     help="перебрать вероятные адреса досок для списка студий")
     ap.add_argument("--report", action="store_true",
@@ -3885,6 +3985,10 @@ def main():
 
     if args.detect:
         detect_many(args.detect)
+        return
+
+    if args.hh:
+        hh_find(args.hh)
         return
 
     if args.guess:
