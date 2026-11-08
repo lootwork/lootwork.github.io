@@ -1036,102 +1036,59 @@ def hh_salary(s):
 # Оставлено в коде на случай, если hh когда-нибудь снова откроет доступ.
 # В рабочий список источников не входит: hh — чужая доска объявлений,
 # а сайт обещает вакансии с карьерных страниц самих студий.
-def hh_detail(vid: str):
-    """Полное описание вакансии лежит в отдельном запросе.
-    Без него в карточке будет только огрызок из поисковой выдачи."""
-    try:
-        r = http_get(f"https://api.hh.ru/vacancies/{vid}", headers=HH_UA, tries=2)
-        if r.status_code >= 400:
-            return None
-        d = r.json()
-    except Exception:
-        return None
-    html = d.get("description") or ""
-    text = re.sub(r"<li[^>]*>", "\n• ", html)
-    text = re.sub(r"<br\s*/?>|</p>|</div>|</li>", "\n", text)
-    text = re.sub(r"<[^>]+>", "", text)
-    text = html_lib.unescape(text)
-    return re.sub(r"\n{3,}", "\n\n", text).strip()
-
-
 def fetch_hh(company: dict):
-    """Вакансии из профиля компании на hh.
-
-    Берём по номеру работодателя: так в выдачу попадают только его
-    собственные вакансии, без чужих и без агентств. Если номер не указан,
-    ищем по названию, но это менее надёжно.
     """
-    token = str(company.get("token") or "").strip()
+    Ищем вакансии сразу по названию работодателя.
+    Отдельный запрос за id работодателя hh отклоняет, поэтому обходимся без него.
+    Лишнее отсекаем сами: оставляем только те вакансии, где название компании
+    действительно совпадает с нужной.
+    """
     name = company["name"]
+    want = name.lower().replace(".", "").replace("-", " ").strip()
 
-    params = {"per_page": 100, "page": 0, "archived": "false"}
-    if token.isdigit():
-        params["employer_id"] = token
-    else:
-        params["text"] = name
-        params["search_field"] = "company_name"
-
-    out, page, pages = [], 0, 1
-    while page < pages and page < 5:
-        params["page"] = page
-        r = http_get("https://api.hh.ru/vacancies", params=params, headers=HH_UA)
+    out, page = [], 0
+    while page < 3:
+        params = {
+            "text": name,
+            "search_field": "company_name",
+            "per_page": 100,
+            "page": page,
+        }
+        r = http_get("https://api.hh.ru/vacancies", params=params,
+                     headers=HH_UA)
         if r.status_code >= 400:
-            raise RuntimeError(f"hh {r.status_code}: {r.text[:200]}")
+            # hh объясняет причину в теле ответа — без него ошибка бесполезна
+            raise RuntimeError(f"hh {r.status_code}: {r.text[:300]}")
         data = r.json()
-        pages = min(data.get("pages", 1), 5)
 
         for v in data.get("items", []):
-            if v.get("archived"):
+            emp = ((v.get("employer") or {}).get("name") or "")
+            emp_norm = emp.lower().replace(".", "").replace("-", " ").strip()
+            if want not in emp_norm and emp_norm not in want:
                 continue
-            emp = ((v.get("employer") or {}).get("name") or name).strip()
-            if not token.isdigit():
-                # при поиске по названию отсекаем чужие компании
-                a = name.lower().replace(".", "").replace("-", " ").strip()
-                b = emp.lower().replace(".", "").replace("-", " ").strip()
-                if a not in b and b not in a:
-                    continue
 
             area = (v.get("area") or {}).get("name")
             schedule = (v.get("schedule") or {}).get("name", "")
             locs, rem = clean_locations(area)
-
-            sal = v.get("salary") or {}
-            pay = None
-            if sal.get("from") or sal.get("to"):
-                cur = {"RUR": "₽", "USD": "$", "EUR": "€", "KZT": "₸",
-                       "BYR": "Br", "BYN": "Br", "UAH": "₴"}.get(sal.get("currency"),
-                                                                 sal.get("currency") or "")
-                lo = f"{sal['from']:,}".replace(",", " ") if sal.get("from") else ""
-                hi = f"{sal['to']:,}".replace(",", " ") if sal.get("to") else ""
-                pay = (f"{lo} – {hi} {cur}" if lo and hi
-                       else f"от {lo} {cur}" if lo else f"до {hi} {cur}").strip()
-
             out.append({
                 "id": make_id("hh", name, v.get("id")),
                 "title": (v.get("name") or "").strip(),
-                "company": emp,
+                "company": emp or name,
                 "locations": locs,
                 "remote": rem or looks_remote(schedule, v.get("name")),
-                "rkind": remote_kind(str(area or "") + " " + str(schedule),
-                                     v.get("name"), None),
-                "salary": pay,
-                "posted": (v.get("published_at") or "")[:10],
+                "rkind": remote_kind(str(schedule), v.get("name"), None),
+                "salary": hh_salary(v.get("salary")),
+                "posted": (v.get("published_at") or "")[:10] or None,
                 "url": v.get("alternate_url"),
-                "desc": None,          # доберём ниже, одним запросом на вакансию
                 "source": "hh",
-                "site": "hh.ru",
-                "_hh_id": v.get("id"),
+                "site": company.get("site"),
             })
-        page += 1
-        time.sleep(PAUSE / 2)
 
-    # Описания: запрос на каждую вакансию, поэтому берём только те,
-    # что прошли отбор по названию, и не больше полусотни на компанию.
-    for j in out[:50]:
-        j["desc"] = hh_detail(j.pop("_hh_id", ""))
-        time.sleep(PAUSE / 3)
-    for j in out:
-        j.pop("_hh_id", None)
+        if page >= data.get("pages", 1) - 1:
+            break
+        page += 1
+        time.sleep(PAUSE)
+
     return out
 
 
@@ -1298,7 +1255,6 @@ FETCHERS = {
     "ashby": fetch_ashby,
     "workable": fetch_workable,
     "smartrecruiters": fetch_smartrecruiters,
-    "hh": fetch_hh,
 }
 
 
@@ -3027,6 +2983,17 @@ margin:26px 0 10px;padding-top:16px;border-top:1px solid var(--line-soft)}
 padding:13px 15px;margin-bottom:9px;text-decoration:none;color:var(--text)}
 .card:hover{border-color:var(--line)}
 .card .cmp{color:var(--muted);font-size:13px;margin-top:3px}
+.card .ttl{font-weight:600}
+.card .tags{margin:8px 0 0}
+.tag.pay{color:var(--amber)}
+.stats{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 8px}
+.stat{border:1px solid var(--line-soft);background:var(--panel);border-radius:10px;padding:7px 12px;min-width:84px}
+.stat b{display:block;font-size:17px;color:var(--cyan)}
+.stat span{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.more-links{margin:16px 0 4px;font-size:14px;color:var(--muted);line-height:1.9}
+.more-links a{white-space:nowrap}
+.about-text{margin-top:26px;color:var(--muted)}
+.about-text p{margin:0 0 10px}
 footer{margin-top:40px;padding-top:18px;border-top:1px solid var(--line-soft);
 color:var(--muted);font-size:13px}
 .crumbs{font-size:13px;color:var(--muted);margin-bottom:14px}
@@ -3035,9 +3002,12 @@ color:var(--muted);font-size:13px}
 """
 
 
-def page_shell(title, description, canonical, body, ld=None, depth=1):
-    """Общая обёртка страницы. depth — сколько ../ до корня сайта."""
+def page_shell(title, description, canonical, body, ld=None, depth=1, noindex=False):
+    """Общая обёртка страницы. depth — сколько ../ до корня сайта.
+    noindex — для подборок, где сегодня пусто: страница есть (ссылки на неё
+    не битые), но поисковику показывать её незачем."""
     up = "../" * depth
+    robots = '<meta name="robots" content="noindex,follow">\n' if noindex else ""
     ld_block = ""
     if ld:
         ld_block = ('<script type="application/ld+json">'
@@ -3050,6 +3020,7 @@ def page_shell(title, description, canonical, body, ld=None, depth=1):
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(description)[:300]}">
 <link rel="canonical" href="{esc(canonical)}">
+{robots}<meta property="og:site_name" content="LOOTWORK">
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(description)[:300]}">
 <meta property="og:type" content="website">
@@ -3079,8 +3050,8 @@ def page_shell(title, description, canonical, body, ld=None, depth=1):
 <header><a class="logo" href="{up}">LOOT<b>WORK</b></a></header>
 {body}
 <footer>
-  Вакансии собираются автоматически у самих компаний.
-  Мы не работодатель и не принимаем отклики: откликаться нужно на стороне компании.<br>
+  Вакансии собираются автоматически с карьерных страниц компаний.
+  Мы не работодатель и не принимаем отклики — откликаться нужно на сайте компании.<br>
   <a href="{up}">Все вакансии на LOOTWORK</a>
 </footer>
 </div>
@@ -3217,8 +3188,8 @@ def facts_block(jobs, depth):
     top_p = sorted(places.items(), key=lambda kv: -kv[1])[:8]
     up = "../" * depth
 
-    parts = [f"<p>Из них с удалёнкой — {remote}, с указанной зарплатой — {with_pay}. "
-             f"Список пересобирается каждый день, закрытые вакансии удаляются автоматически.</p>"]
+    # Цифры по удалёнке и зарплате теперь стоят сверху страницы, в stats_block.
+    parts = []
     if top_c:
         links = ", ".join(f'<a href="{up}company/{slugify(n)}/">{esc(n)}</a> ({c})'
                           for n, c in top_c)
@@ -3229,17 +3200,102 @@ def facts_block(jobs, depth):
     return "".join(parts)
 
 
-def list_page(heading, intro, jobs, canonical, depth, extra=""):
-    rows = "".join(
-        f'<a class="card" href="{"../" * depth}job/{esc(j["id"])}/"><div>{esc(j["title"])}</div>'
-        f'<div class="cmp">{esc(j["company"])} · '
-        f'{esc(", ".join(places_ru(j.get("locations"))) or "локация не указана")}</div></a>'
-        for j in jobs)
-    body = (f"<h1>{esc(heading)}</h1><div class=\"sub\">{esc(intro)}</div>"
+# Дата сборки для подписи «обновлено» на страницах разделов.
+# Ставится в write_pages, чтобы не тащить её через все вызовы.
+PAGES_TODAY = None
+
+
+def companies_word(n: int) -> str:
+    """«в 1 компании», «в 19 компаниях» — после «в» нужен предложный падеж."""
+    return f"{n} " + ("компании" if n % 10 == 1 and n % 100 != 11 else "компаниях")
+
+
+def stats_block(jobs, grades=False):
+    """Живые цифры раздела. Всё считается из той же выборки, что и список ниже,
+    поэтому цифры и карточки всегда сходятся. Нет данных — нет строки."""
+    n = len(jobs)
+    if not n:
+        return ""
+    comps = len({j.get("company") for j in jobs if j.get("company")})
+    remote = sum(1 for j in jobs if j.get("remote") or j.get("rkind"))
+    with_pay = sum(1 for j in jobs if j.get("salary"))
+    # На странице одной компании «1 компания» — лишняя цифра, её не показываем.
+    cells = [(n, plural(n, "вакансия", "вакансии", "вакансий"))]
+    if comps > 1:
+        cells.append((comps, plural(comps, "компания", "компании", "компаний")))
+    cells += [(remote, "удалённо"), (with_pay, "с зарплатой")]
+    if grades:
+        for g in ("Junior", "Senior", "Lead"):
+            k = sum(1 for j in jobs if j.get("grade") == g)
+            if k:
+                cells.append((k, g))
+    if PAGES_TODAY:
+        cells.append((human_date(PAGES_TODAY), "обновлено"))
+    grid = "".join(f'<div class="stat"><b>{esc(v)}</b><span>{esc(k)}</span></div>'
+                   for v, k in cells)
+    line = (f"Найдено {jobs_word(n)} в {companies_word(comps)}." if comps > 1
+            else f"Найдено {jobs_word(n)}.")
+    if remote:
+        line += f" Удалённо: {remote}."
+    if with_pay:
+        line += f" С указанной зарплатой: {with_pay}."
+    return f'<div class="stats">{grid}</div><p class="sub">{esc(line)}</p>'
+
+
+def job_card(j, depth):
+    """Карточка вакансии на статических страницах. Одна на все разделы."""
+    where = ", ".join(places_ru(j.get("locations"))) or "локация не указана"
+    tags = []
+    if j.get("remote") or j.get("rkind"):
+        tags.append('<span class="tag remote">'
+                    + esc(RKIND_WORD.get(j.get("rkind"), "удалёнка").capitalize()) + "</span>")
+    if j.get("salary"):
+        tags.append(f'<span class="tag pay">{esc(j["salary"])}</span>')
+    if j.get("grade"):
+        tags.append(f'<span class="tag">{esc(j["grade"])}</span>')
+    for v in (j.get("stack") or [])[:4]:
+        tags.append(f'<span class="tag">{esc(v)}</span>')
+    tag_row = f'<div class="tags">{"".join(tags)}</div>' if tags else ""
+    return (f'<a class="card" href="{"../" * depth}job/{esc(j["id"])}/">'
+            f'<div class="ttl">{esc(j["title"])}</div>'
+            f'<div class="cmp">{esc(j["company"])} · {esc(where)}</div>{tag_row}</a>')
+
+
+def links_block(title, links):
+    """Короткая строка ссылок на соседние разделы. Не больше десятка."""
+    if not links:
+        return ""
+    row = " · ".join(f'<a href="{esc(href)}">{esc(label)}</a>' for label, href in links[:10])
+    return f'<nav class="more-links"><b>{esc(title)}:</b> {row}</nav>'
+
+
+def list_page(heading, intro, jobs, canonical, depth, extra="", title=None,
+              description=None, text=None, links=None, links_title="Популярные направления",
+              crumbs=None, grades=False,
+              empty="Сейчас открытых вакансий в этом разделе нет. "
+                    "Загляните завтра: список обновляется каждый день."):
+    """Страница раздела. text — 2-4 коротких абзаца для человека, links — соседние
+    разделы. Пустой раздел не удаляется (на него могут вести ссылки), но закрыт
+    от индексации, чтобы поисковик не видел пустышку."""
+    jobs = sorted(jobs, key=lambda j: j.get("posted") or "", reverse=True)
+    rows = "".join(job_card(j, depth) for j in jobs)
+    crumb = ""
+    if crumbs:
+        crumb = ('<div class="crumbs">' + " · ".join(
+            f'<a href="{esc(h)}">{esc(t)}</a>' for t, h in crumbs) + "</div>")
+    paras = "".join(f"<p>{esc(t)}</p>" for t in (text or []))
+    listing = f"<div>{rows}</div>" if jobs else f'<p class="sub">{esc(empty)}</p>'
+    about = f'<div class="about-text">{paras}</div>' if paras else ""
+    body = (f'{crumb}<h1>{esc(heading)}</h1><div class="sub">{esc(intro)}</div>'
+            f"{stats_block(jobs, grades)}"
             f"{extra}"
-            f"<h2>Открытые вакансии</h2><div>{rows}</div>"
+            f"{links_block(links_title, links)}"
+            f"<h2>Открытые вакансии</h2>"
+            f"{listing}"
+            f"{about}"
             f"{facts_block(jobs, depth)}")
-    return page_shell(f"{heading} | LOOTWORK", intro, canonical, body, None, depth)
+    return page_shell(title or f"{heading} - LOOTWORK", description or intro, canonical,
+                      body, None, depth, noindex=not jobs)
 
 
 def write_terms():
@@ -3250,7 +3306,7 @@ def write_terms():
 
 <h2>Что такое LOOTWORK</h2>
 <p>Это витрина открытых вакансий, которые автоматически собираются с публичных
-страниц самих компаний. Мы не работодатель, не кадровое агентство
+карьерных страниц компаний. Мы не работодатель, не кадровое агентство
 и не посредник. Отклик отправляется на сайте студии, напрямую ей.</p>
 
 <h2>За что мы не отвечаем</h2>
@@ -3402,6 +3458,7 @@ def write_about(jobs, by_company):
 # из Stripe — поисковик не понимает, о чём страница, и не показывает её.
 INDUSTRY_PAGES = {
     "gamedev": {
+        "industry": "gamedev",
         "prefix": "",
         "where": "в геймдеве",
         "from": "от игровых студий",
@@ -3412,6 +3469,7 @@ INDUSTRY_PAGES = {
         "placeTitle": "Работа в геймдеве",
     },
     "fintech": {
+        "industry": "fintech",
         "prefix": "fin-",
         "where": "в финтехе",
         "from": "от финтех-компаний",
@@ -3424,10 +3482,264 @@ INDUSTRY_PAGES = {
 }
 
 
+# ------------------------------------------------------------ подборки
+# Подборки — постоянные страницы под частые запросы: «junior вакансии геймдев»,
+# «unity вакансии», «вакансии с релокацией». Живут внутри раздела «Все вакансии»:
+# /jobs/junior/, /jobs/unity/. У финтеха то же самое будет в /fin-jobs/...,
+# достаточно заполнить его список ниже, код менять не нужно.
+#
+# Поля: slug — адрес, h1 — заголовок, title — заголовок вкладки (без хвоста
+# «- LOOTWORK»), desc — описание для поиска, intro — строка под заголовком,
+# text — пара абзацев для человека, test — какая вакансия сюда попадает,
+# short — короткое имя для ссылок.
+
+def _has_stack(name):
+    return lambda j: name in (j.get("stack") or [])
+
+
+COLLECTIONS = {
+    "gamedev": [
+        {
+            "slug": "junior", "short": "Junior",
+            "h1": "Junior вакансии в геймдеве",
+            "desc": "Актуальные Junior вакансии в игровых студиях. Напрямую с карьерных "
+                    "страниц компаний, обновление каждый день.",
+            "intro": "Свежие Junior вакансии напрямую с карьерных страниц игровых компаний. "
+                     "LOOTWORK каждый день проверяет открытые позиции и убирает закрытые.",
+            "text": [
+                "Сюда попадают вакансии, где в названии стоит Junior, Jr, Intern "
+                "или Trainee. Стажировки тоже здесь: для старта в индустрии "
+                "это часто самый короткий путь.",
+                "Junior позиций в геймдеве заметно меньше, чем Senior, и разбирают их "
+                "быстро. Откликайтесь в первые дни после публикации: дата стоит у "
+                "каждой вакансии.",
+            ],
+            "test": lambda j: j.get("grade") == "Junior",
+        },
+        {
+            "slug": "senior", "short": "Senior",
+            "h1": "Senior вакансии в геймдеве",
+            "desc": "Senior вакансии в игровых студиях: программирование, арт, геймдизайн, "
+                    "продакт. Только прямые вакансии студий, обновление каждый день.",
+            "intro": "Вакансии уровня Senior напрямую от игровых студий. Без агентств "
+                     "и перепостов, закрытые вакансии удаляются автоматически.",
+            "text": [
+                "Senior позиции здесь собраны по пометке в названии вакансии. "
+                "Если студия уровень не указала, вакансия сюда не попадает: в "
+                "общем списке её можно найти поиском.",
+                "У части вакансий студии указывают вилку зарплаты. Чаще всего это "
+                "делают компании из США из-за местных законов о прозрачности оплаты.",
+            ],
+            "test": lambda j: j.get("grade") == "Senior",
+        },
+        {
+            "slug": "lead", "short": "Lead",
+            "h1": "Lead вакансии в геймдеве",
+            "desc": "Вакансии Lead, Principal и руководителей направлений в игровых "
+                    "студиях. Прямо с карьерных страниц, обновление каждый день.",
+            "intro": "Лиды, Principal и руководители направлений: вакансии напрямую "
+                     "с карьерных страниц игровых компаний.",
+            "text": [
+                "В подборку входят позиции Lead, Principal, Head of, Director и похожие: "
+                "всё, где в названии есть руководящая роль или самый высокий "
+                "технический уровень.",
+                "Такие вакансии студии часто открывают сразу в нескольких офисах. "
+                "Мы показываем одну вакансию со всеми городами, а не пять копий.",
+            ],
+            "test": lambda j: j.get("grade") == "Lead",
+        },
+        {
+            "slug": "unity", "short": "Unity",
+            "h1": "Вакансии Unity в геймдеве",
+            "desc": "Вакансии для Unity разработчиков, художников и техартов в игровых "
+                    "студиях. Напрямую от компаний, обновление каждый день.",
+            "intro": "Вакансии, где студия просит опыт работы с Unity: разработка, "
+                     "техарт, арт и не только.",
+            "text": [
+                "Unity определяем по тексту вакансии: в подборку попадают и "
+                "программисты, и художники, и технические художники, если Unity "
+                "есть в требованиях.",
+                "Больше всего Unity вакансий у мобильных студий. Для поиска только "
+                "среди программистов есть отдельный раздел Unity в специализациях.",
+            ],
+            "test": _has_stack("Unity"),
+        },
+        {
+            "slug": "unreal-engine", "short": "Unreal Engine",
+            "h1": "Вакансии Unreal Engine в геймдеве",
+            "desc": "Вакансии с Unreal Engine (UE4, UE5) в игровых студиях: программисты, "
+                    "техарты, художники. Прямые вакансии, обновление каждый день.",
+            "intro": "Вакансии, где нужен опыт с Unreal Engine 4 или 5. Собраны "
+                     "с карьерных страниц игровых компаний.",
+            "text": [
+                "Unreal Engine чаще всего просят в студиях, которые делают игры для "
+                "ПК и консолей. Кроме программистов, движок нужен техартам, "
+                "дизайнерам уровней и VFX художникам.",
+                "Если в вакансии упомянут UE4, UE5 или Blueprints, она попадает сюда.",
+            ],
+            "test": _has_stack("Unreal"),
+        },
+        {
+            "slug": "cpp", "short": "C++",
+            "h1": "Вакансии C++ в геймдеве",
+            "desc": "Вакансии C++ программистов в игровых студиях: геймплей, движок, "
+                    "инструменты, сеть. Напрямую от компаний, обновление каждый день.",
+            "intro": "Вакансии для C++ разработчиков в игровых студиях: геймплей, движок, "
+                     "инструменты, сетевой код.",
+            "text": [
+                "C++ остаётся главным языком для движков и игр на Unreal Engine. "
+                "Здесь собраны все вакансии, где C++ указан в требованиях.",
+            ],
+            "test": _has_stack("C++"),
+        },
+        {
+            "slug": "csharp", "short": "C#",
+            "h1": "Вакансии C# в геймдеве",
+            "desc": "Вакансии C# разработчиков в игровых студиях: Unity, бэкенд, "
+                    "инструменты. Прямые вакансии, обновление каждый день.",
+            "intro": "Вакансии, где нужен C#: разработка на Unity, серверная часть "
+                     "и внутренние инструменты студий.",
+            "text": [
+                "C# в геймдеве почти всегда идёт вместе с Unity, но встречается и "
+                "в серверной разработке, и в инструментах для редакторов уровней.",
+            ],
+            "test": _has_stack("C#"),
+        },
+        {
+            "slug": "python", "short": "Python",
+            "h1": "Вакансии Python в геймдеве",
+            "desc": "Вакансии с Python в игровых студиях: аналитика, данные, бэкенд, "
+                    "инструменты для техартов. Обновление каждый день.",
+            "intro": "Вакансии, где нужен Python: аналитика и данные, серверная "
+                     "разработка, пайплайны и инструменты.",
+            "text": [
+                "В игровых студиях Python нужен не только программистам. Его "
+                "просят аналитики, инженеры данных и технические художники, "
+                "которые пишут скрипты для Maya, Houdini и Blender.",
+            ],
+            "test": _has_stack("Python"),
+        },
+        {
+            "slug": "relocation", "short": "С релокацией",
+            "h1": "Вакансии в геймдеве с релокацией",
+            "desc": "Вакансии игровых студий с помощью в переезде: релокационный пакет, "
+                    "виза, поддержка с жильём. Обновление каждый день.",
+            "intro": "Вакансии, где студия прямо пишет, что помогает с переездом.",
+            "text": [
+                "Сюда попадают вакансии, где в тексте упомянута релокация, помощь "
+                "с визой или relocation package. Объём помощи у всех разный: "
+                "детали смотрите в самой вакансии.",
+                "Если студия про релокацию не пишет, это не значит, что её нет. "
+                "Но здесь только те, кто сказал об этом открыто.",
+            ],
+            "test": lambda j: bool(j.get("reloc")),
+        },
+        {
+            "slug": "salary", "short": "С зарплатой",
+            "h1": "Вакансии в геймдеве с указанной зарплатой",
+            "desc": "Вакансии игровых студий с открытой вилкой зарплаты. Сразу видно, "
+                    "сколько платят. Обновление каждый день.",
+            "intro": "Только вакансии, где студия сама указала вилку зарплаты.",
+            "text": [
+                "Зарплату берём из вакансии как есть: из поля системы найма или "
+                "из текста. Мы ничего не оцениваем и не дорисовываем.",
+                "Чаще всего вилку указывают студии из США и Канады: там это "
+                "требуют местные законы. В Европе зарплату пишут реже.",
+            ],
+            "test": lambda j: bool(j.get("salary")),
+        },
+    ],
+    # Финтех: добавить сюда такие же словари, страницы появятся в /fin-jobs/<slug>/.
+    "fintech": [],
+}
+
+# Тексты для страниц ролей. Адреса ролей остаются прежними (/role/qa/ и т.д.),
+# меняются только заголовки и описания. Роли без записи получают общий текст.
+ROLE_SEO = {
+    "gamedev": {
+        "Геймдизайн": {
+            "h1": "Вакансии геймдизайнера (Game Designer)",
+            "desc": "Вакансии Game Designer в игровых студиях: геймдизайнеры, дизайнеры "
+                    "уровней, систем и экономики. Прямо от студий, каждый день.",
+            "text": ["Здесь собраны вакансии геймдизайнеров всех направлений: системный "
+                     "и уровневый дизайн, баланс и экономика, монетизация, LiveOps."],
+        },
+        "QA": {
+            "h1": "Вакансии QA и тестировщиков в геймдеве",
+            "desc": "Вакансии QA в игровых студиях: тестировщики, QA инженеры, "
+                    "автоматизация тестирования. Прямые вакансии, обновление каждый день.",
+            "text": ["В подборке ручное и автоматизированное тестирование игр, QA "
+                     "инженеры и лиды. Для многих позиций QA студии готовы брать "
+                     "людей без опыта в геймдеве."],
+        },
+        "Программирование": {
+            "h1": "Вакансии программистов (Programmer / Developer) в геймдеве",
+            "desc": "Вакансии программистов в игровых студиях: геймплей, движок, "
+                    "бэкенд, мобильная разработка. Прямо от студий, каждый день.",
+            "text": ["Это самый большой раздел: геймплей и движок, сервер и сеть, "
+                     "мобильная и веб разработка, инструменты, DevOps и данные. "
+                     "Отфильтровать по языку и движку удобнее на главной странице."],
+        },
+        "Арт": {
+            "h1": "Вакансии художников (Artist) в геймдеве",
+            "desc": "Вакансии художников в игровых студиях: концепт-арт, 2D, 3D, "
+                    "окружение, персонажи, UI. Обновление каждый день.",
+            "text": ["Концепт-художники, 2D и 3D художники, окружение и персонажи, "
+                     "UI и маркетинговый арт. Портфолио студии обычно просят "
+                     "приложить прямо в форме отклика."],
+        },
+        "Технический художник": {
+            "h1": "Вакансии технического художника (Technical Artist)",
+            "desc": "Вакансии Technical Artist в игровых студиях: шейдеры, пайплайны, "
+                    "оптимизация, инструменты. Прямые вакансии, каждый день.",
+            "text": ["Техарты соединяют художников и программистов: шейдеры, "
+                     "пайплайны ассетов, оптимизация и скрипты для редакторов."],
+        },
+        "Продюсирование": {
+            "h1": "Вакансии продюсера (Producer) в геймдеве",
+            "desc": "Вакансии продюсеров в игровых студиях: Producer, Executive "
+                    "Producer, менеджеры проектов. Обновление каждый день.",
+            "text": ["Продюсеры, менеджеры проектов и разработки, скрам-мастера "
+                     "игровых команд."],
+        },
+        "Продакт": {
+            "h1": "Вакансии продакт-менеджера (Product) в геймдеве",
+            "desc": "Вакансии Product Manager в игровых студиях: продакты, "
+                    "монетизация, LiveOps. Прямо от студий, каждый день.",
+            "text": ["Продакт-менеджеры, продакт-лиды и менеджеры по монетизации "
+                     "и LiveOps."],
+        },
+        "Аналитика": {
+            "h1": "Вакансии аналитика (Analytics) в геймдеве",
+            "desc": "Вакансии аналитиков в игровых студиях: продуктовая и "
+                    "маркетинговая аналитика, данные. Обновление каждый день.",
+            "text": ["Продуктовые, игровые и маркетинговые аналитики, аналитики "
+                     "данных. Чаще всего просят SQL и Python."],
+        },
+    },
+    "fintech": {},
+}
+
+# Какие разделы показывать в строке «Популярные направления». Только те,
+# что реально существуют: пустые подборки тоже есть, роли — если есть вакансии.
+POPULAR = {
+    "gamedev": ["c:junior", "c:senior", "c:lead", "remote", "c:unity", "c:unreal-engine",
+                "c:cpp", "r:Геймдизайн", "r:QA", "c:relocation"],
+    "fintech": ["remote"],
+}
+
+ROLE_SHORT = {"Геймдизайн": "Game Design", "Программирование": "Programmer",
+              "Арт": "Artist", "Технический художник": "Technical Artist",
+              "Продюсирование": "Producer", "Продакт": "Product", "Аналитика": "Analytics"}
+
+
 def write_industry_pages(jobs, w, urls):
     """Раскладываем страницы одной отрасли: компании, роли, направления,
-    города и связки «роль + удалёнка»."""
+    города, подборки и связки «роль + удалёнка»."""
     pre = w["prefix"]
+    industry = w["industry"]
+    seo = ROLE_SEO.get(industry, {})
+    colls = COLLECTIONS.get(industry, [])
     by_company, by_role, by_spec = {}, {}, {}
     for j in jobs:
         by_company.setdefault(j.get("company"), []).append(j)
@@ -3435,6 +3747,24 @@ def write_industry_pages(jobs, w, urls):
             by_role.setdefault(j["role"], []).append(j)
         if j.get("spec"):
             by_spec.setdefault(j["spec"], []).append(j)
+    remote = [j for j in jobs if j.get("remote") or j.get("rkind")]
+
+    # Адреса считаем от корня сайта: так ссылка одна и та же на любой глубине.
+    def popular(skip=""):
+        out = []
+        for key in POPULAR.get(industry, []):
+            if key == "remote":
+                if remote:
+                    out.append(("Remote", f"/{pre}remote/"))
+            elif key.startswith("c:"):
+                c = next((c for c in colls if c["slug"] == key[2:]), None)
+                if c:
+                    out.append((c["short"], f"/{pre}jobs/{c['slug']}/"))
+            elif key.startswith("r:"):
+                role = key[2:]
+                if role in by_role:
+                    out.append((ROLE_SHORT.get(role, role), f"/{pre}role/{slugify(role)}/"))
+        return [x for x in out if x[1] != skip]
 
     for j in jobs:
         others = [o for o in by_company.get(j.get("company"), []) if o["id"] != j["id"]]
@@ -3443,47 +3773,131 @@ def write_industry_pages(jobs, w, urls):
         (d / "index.html").write_text(job_page(j, others), encoding="utf-8")
         urls.append(f"{SITE}/job/{j['id']}/")
 
-    for company, items in by_company.items():
-        if not company:
-            continue
+    # Страница есть у каждой компании из списка, даже если сегодня у неё
+    # вакансий нет: адрес не пропадает (никаких 404), а пустая страница
+    # закрыта от индексации, пока вакансии не появятся снова.
+    known = {}
+    try:
+        for c in json.loads(COMPANIES.read_text(encoding="utf-8")):
+            if (c.get("industry") or "gamedev") == industry and c.get("name"):
+                known[c["name"]] = c
+    except Exception:
+        pass
+    names = [n for n in by_company if n] + [n for n in known if n not in by_company]
+
+    for company in names:
+        items = by_company.get(company, [])
         slug = slugify(company)
+        base = f"/company/{slug}/"
+        info = known.get(company, {})
+        site = info.get("site") or next((x.get("site") for x in items if x.get("site")), None)
+
+        # Разрезы компании: отдельные постоянные страницы, а не фильтр на главной.
+        cuts = [("junior", "Junior", lambda x: x.get("grade") == "Junior"),
+                ("senior", "Senior", lambda x: x.get("grade") == "Senior"),
+                ("lead", "Lead", lambda x: x.get("grade") == "Lead"),
+                ("remote", "Remote", lambda x: x.get("remote") or x.get("rkind"))]
+        cut_items = {key: [x for x in items if test(x)] for key, _, test in cuts}
+        cut_links = [(f"{label}: {len(cut_items[key])}", f"{base}{key}/")
+                     for key, label, _ in cuts if cut_items[key]]
+
+        about = [f"{company} публикует вакансии на своей странице карьеры"
+                 + (f" ({site})" if site else "") + ". LOOTWORK забирает их оттуда "
+                 "каждый день, проверяет ссылки и убирает закрытые позиции.",
+                 f"Откликаться нужно на сайте {company}: кнопка в каждой вакансии "
+                 "ведёт прямо в форму компании."]
+        if items:
+            intro = (f"{jobs_word(len(items))} в {company} напрямую {w['fromPage']}. "
+                     f"Обновляется каждый день.")
+            desc = (f"Открытые вакансии {company}: {jobs_word(len(items))}"
+                    + (f", удалённо {len(cut_items['remote'])}" if cut_items["remote"] else "")
+                    + f". Напрямую {w['fromPage']}, обновление каждый день.")
+        else:
+            intro = f"Сейчас у {company} нет открытых вакансий. Список обновляется каждый день."
+            desc = f"Вакансии {company}: сейчас открытых позиций нет. Обновление каждый день."
+
         d = HERE / "company" / slug
         d.mkdir(parents=True, exist_ok=True)
         (d / "index.html").write_text(list_page(
-            f"Вакансии {company}",
-            f"{jobs_word(len(items))} в {company} — напрямую {w['fromPage']}.",
-            items, f"{SITE}/company/{slug}/", 2), encoding="utf-8")
-        urls.append(f"{SITE}/company/{slug}/")
+            f"Вакансии {company}", intro, items, f"{SITE}{base}", 2,
+            title=f"Вакансии {company} - LOOTWORK",
+            description=desc,
+            text=about,
+            grades=True,
+            extra=links_block(f"Вакансии {company} по разделам", cut_links),
+            links=popular(),
+            crumbs=[("LOOTWORK", "/"), (w["all"], f"/{pre}jobs/")],
+            empty=f"Сейчас у {company} нет открытых вакансий. Загляните позже: "
+                  f"как только компания опубликует новую, она появится здесь."),
+            encoding="utf-8")
+        if items:
+            urls.append(f"{SITE}{base}")
+
+        # Разрезы пишем всегда: если вчера была Junior вакансия, а сегодня нет,
+        # адрес остаётся живым, просто закрыт от индексации.
+        for key, label, _ in cuts:
+            sub = cut_items[key]
+            h1 = (f"Remote вакансии {company}" if key == "remote"
+                  else f"{label} вакансии {company}")
+            dd = d / key
+            dd.mkdir(parents=True, exist_ok=True)
+            (dd / "index.html").write_text(list_page(
+                h1,
+                (f"{jobs_word(len(sub))}: {label} в {company}, напрямую {w['fromPage']}."
+                 if sub else f"Сейчас у {company} нет открытых вакансий в разделе {label}."),
+                sub, f"{SITE}{base}{key}/", 3,
+                title=f"{h1} - LOOTWORK",
+                description=(f"{h1}: {jobs_word(len(sub))} напрямую {w['fromPage']}. "
+                             f"Обновление каждый день." if sub else
+                             f"{h1}: сейчас открытых позиций нет. Обновление каждый день."),
+                extra=links_block(f"Ещё у {company}",
+                                  [(f"Все вакансии: {len(items)}", base)]
+                                  + [x for x in cut_links if x[1] != f"{base}{key}/"]),
+                crumbs=[("LOOTWORK", "/"), (f"Вакансии {company}", base)]), encoding="utf-8")
+            if sub:
+                urls.append(f"{SITE}{base}{key}/")
 
     for role, items in by_role.items():
         slug = slugify(role)
+        href = f"/{pre}role/{slug}/"
+        r = seo.get(role, {})
+        h1 = r.get("h1") or f"{role}: вакансии {w['where']}"
         d = HERE / f"{pre}role" / slug
         d.mkdir(parents=True, exist_ok=True)
         (d / "index.html").write_text(list_page(
-            f"{role} — вакансии {w['where']}",
+            h1,
             f"{jobs_word(len(items))} по направлению «{role}» напрямую {w['from']}.",
-            items, f"{SITE}/{pre}role/{slug}/", 2), encoding="utf-8")
-        urls.append(f"{SITE}/{pre}role/{slug}/")
+            items, f"{SITE}{href}", 2,
+            description=r.get("desc"),
+            text=r.get("text"),
+            links=popular(href),
+            crumbs=[("LOOTWORK", "/"), (w["all"], f"/{pre}jobs/")]), encoding="utf-8")
+        urls.append(f"{SITE}{href}")
 
         rem = [x for x in items if x.get("remote") or x.get("rkind")]
         if len(rem) >= 3:
             dd = HERE / f"{pre}role" / slug / "remote"
             dd.mkdir(parents=True, exist_ok=True)
             (dd / "index.html").write_text(list_page(
-                f"{role} удалённо — вакансии {w['where']}",
+                f"{role} удалённо: вакансии {w['where']}",
                 f"{jobs_word(len(rem))} по направлению «{role}» с удалённой работой, "
                 f"напрямую {w['from']}.",
-                rem, f"{SITE}/{pre}role/{slug}/remote/", 3), encoding="utf-8")
+                rem, f"{SITE}/{pre}role/{slug}/remote/", 3,
+                crumbs=[("LOOTWORK", "/"), (h1, href)]), encoding="utf-8")
             urls.append(f"{SITE}/{pre}role/{slug}/remote/")
 
     for spec, items in by_spec.items():
         slug = slugify(spec)
+        # В финтехе часть специализаций называется так же, как роли («Платежи»).
+        # Без пометки у двух разных страниц выходил одинаковый заголовок.
+        name = f"{spec} (специализация)" if spec in by_role else spec
         d = HERE / f"{pre}spec" / slug
         d.mkdir(parents=True, exist_ok=True)
         (d / "index.html").write_text(list_page(
-            f"{spec} — вакансии {w['where']}",
+            f"{name}: вакансии {w['where']}",
             f"{jobs_word(len(items))}: {spec}. Напрямую {w['from']}.",
-            items, f"{SITE}/{pre}spec/{slug}/", 2), encoding="utf-8")
+            items, f"{SITE}/{pre}spec/{slug}/", 2,
+            links=popular()), encoding="utf-8")
         urls.append(f"{SITE}/{pre}spec/{slug}/")
 
         rem = [x for x in items if x.get("remote") or x.get("rkind")]
@@ -3491,7 +3905,7 @@ def write_industry_pages(jobs, w, urls):
             dd = HERE / f"{pre}spec" / slug / "remote"
             dd.mkdir(parents=True, exist_ok=True)
             (dd / "index.html").write_text(list_page(
-                f"{spec} удалённо — вакансии {w['where']}",
+                f"{name} удалённо: вакансии {w['where']}",
                 f"{jobs_word(len(rem))}: {spec}, удалённая работа. Напрямую {w['from']}.",
                 rem, f"{SITE}/{pre}spec/{slug}/remote/", 3), encoding="utf-8")
             urls.append(f"{SITE}/{pre}spec/{slug}/remote/")
@@ -3513,22 +3927,50 @@ def write_industry_pages(jobs, w, urls):
             items, f"{SITE}/{pre}where/{slug}/", 2), encoding="utf-8")
         urls.append(f"{SITE}/{pre}where/{slug}/")
 
-    remote = [j for j in jobs if j.get("remote") or j.get("rkind")]
     if remote:
         d = HERE / f"{pre}remote"
         d.mkdir(parents=True, exist_ok=True)
         (d / "index.html").write_text(list_page(
             w["remoteTitle"],
             f"{jobs_word(len(remote))} с удалёнкой {w['from']}.",
-            remote, f"{SITE}/{pre}remote/", 1), encoding="utf-8")
+            remote, f"{SITE}/{pre}remote/", 1,
+            description=f"Удалённые вакансии {w['where']}: полная удалёнка, удалёнка "
+                        f"в регионе и гибрид. Напрямую {w['from']}, обновление каждый день.",
+            text=["Удалёнка бывает разной. «По миру» значит, что студии неважно, где вы "
+                  "живёте. «В регионе» значит, что работать можно только из определённых "
+                  "стран или часовых поясов. Гибрид предполагает визиты в офис.",
+                  "Перед откликом проверьте в вакансии, из каких стран студия готова "
+                  "нанимать: это чаще всего и решает дело."],
+            links=popular(f"/{pre}remote/"),
+            crumbs=[("LOOTWORK", "/"), (w["all"], f"/{pre}jobs/")]), encoding="utf-8")
         urls.append(f"{SITE}/{pre}remote/")
+
+    # Подборки пишем всегда, даже пустые: на них ведут ссылки с главной.
+    # Пустая подборка закрыта от индексации и не попадает в карту сайта.
+    for c in colls:
+        href = f"/{pre}jobs/{c['slug']}/"
+        items = [j for j in jobs if c["test"](j)]
+        d = HERE / f"{pre}jobs" / c["slug"]
+        d.mkdir(parents=True, exist_ok=True)
+        (d / "index.html").write_text(list_page(
+            c["h1"], c["intro"], items, f"{SITE}{href}", 2,
+            title=f"{c.get('title') or c['h1']} - LOOTWORK",
+            description=c["desc"],
+            text=c.get("text"),
+            links=popular(href),
+            crumbs=[("LOOTWORK", "/"), (w["all"], f"/{pre}jobs/")]), encoding="utf-8")
+        if items:
+            urls.append(f"{SITE}{href}")
 
     d = HERE / f"{pre}jobs"
     d.mkdir(parents=True, exist_ok=True)
     (d / "index.html").write_text(list_page(
         w["all"],
         f"{jobs_word(len(jobs))} от {len(by_company)} {w['orgs']}. Обновляется каждый день.",
-        jobs, f"{SITE}/{pre}jobs/", 1), encoding="utf-8")
+        jobs, f"{SITE}/{pre}jobs/", 1,
+        links=popular() + [(c["short"], f"/{pre}jobs/{c['slug']}/") for c in colls
+                           if f"/{pre}jobs/{c['slug']}/" not in {h for _, h in popular()}],
+        links_title="Подборки"), encoding="utf-8")
     urls.append(f"{SITE}/{pre}jobs/")
 
     return by_company
@@ -3545,6 +3987,8 @@ def write_pages(jobs, today):
     urls = [f"{SITE}/"]
     all_companies = {}
 
+    global PAGES_TODAY
+    PAGES_TODAY = today
     for industry, w in INDUSTRY_PAGES.items():
         part = [j for j in jobs if (j.get("industry") or "gamedev") == industry]
         if not part:
@@ -3613,60 +4057,6 @@ def read_progress():
         return json.loads(GUESS_LOG.read_text(encoding="utf-8"))
     except Exception:
         return {}
-
-
-def hh_find(source: str):
-    """Ищем номера работодателей на hh по списку названий.
-
-    Номер нужен, чтобы брать вакансии именно этой компании, а не всех,
-    у кого похожее название. Агентства отсеиваем сразу: сайт обещает
-    вакансии от самих компаний.
-    """
-    from pathlib import Path as _P
-    f = _P(source)
-    lines = f.read_text(encoding="utf-8").splitlines() if f.exists() else [source]
-
-    found = []
-    for line in lines:
-        line = line.strip()
-        if not line or line.startswith("#"):
-            continue
-        name = line.split("|")[0].strip()
-        try:
-            r = http_get("https://api.hh.ru/employers", headers=HH_UA, tries=2,
-                         params={"text": name, "only_with_vacancies": "true",
-                                 "per_page": 5})
-            if r.status_code >= 400:
-                print(f"  hh {r.status_code} на «{name}»: {r.text[:120]}")
-                break
-            items = r.json().get("items", [])
-        except Exception as e:
-            print(f"  нет  {name} — {str(e)[:60]}")
-            continue
-
-        hit = None
-        for it in items:
-            if (it.get("type") or "") == "agency":
-                continue                      # кадровые агентства не берём
-            got = (it.get("name") or "").lower()
-            if name.lower()[:6] in got:
-                hit = it
-                break
-        if not hit:
-            print(f"  нет  {name}")
-            time.sleep(PAUSE / 3)
-            continue
-
-        vac = hit.get("open_vacancies") or 0
-        print(f"  OK   {hit['name'][:28]:30} id={hit['id']} — вакансий: {vac}")
-        found.append({"name": hit["name"], "ats": "hh", "token": str(hit["id"]),
-                      "site": "hh.ru", "enabled": True, "industry": "gamedev"})
-        time.sleep(PAUSE / 3)
-
-    print("\n" + "=" * 60)
-    print(f"Найдено компаний: {len(found)}. Строки для companies.json:\n")
-    for row in found:
-        print("  " + json.dumps(row, ensure_ascii=False) + ",")
 
 
 def guess_many(source: str):
@@ -3970,8 +4360,6 @@ def main():
                     help="при проверке брать и выключенных кандидатов тоже")
     ap.add_argument("--detect", metavar="URL_ИЛИ_ФАЙЛ",
                     help="найти систему найма: адрес студии или файл со списком")
-    ap.add_argument("--hh", metavar="ФАЙЛ",
-                    help="найти номера работодателей на hh по списку названий")
     ap.add_argument("--guess", metavar="ФАЙЛ",
                     help="перебрать вероятные адреса досок для списка студий")
     ap.add_argument("--report", action="store_true",
@@ -3985,10 +4373,6 @@ def main():
 
     if args.detect:
         detect_many(args.detect)
-        return
-
-    if args.hh:
-        hh_find(args.hh)
         return
 
     if args.guess:

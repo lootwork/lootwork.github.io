@@ -266,6 +266,9 @@
   footer .fname{font-family:var(--display);font-weight:600;color:var(--text);font-size:14px}
   footer a{color:var(--cyan);text-decoration:none}
   footer a:hover{text-decoration:underline}
+  footer .popular{margin-top:10px;line-height:1.9}
+  footer .popular[hidden]{display:none}
+  footer .popular a{white-space:nowrap}
   footer .disclaimer{margin-top:10px;color:var(--muted);opacity:.8;font-size:12px}
   .demo-note{margin-top:13px;padding:11px 13px;background:var(--amber-deep);
     border:1px solid var(--amber-line);border-radius:11px;font-size:13px;color:var(--amber)}
@@ -735,6 +738,21 @@
       и их систем найма. Мы не работодатель, не агентство и не принимаем отклики —
       откликаться нужно на сайте студии.
     </div>
+    <!-- Популярные подборки: постоянные страницы под частые запросы.
+         Обычные ссылки в HTML, чтобы поисковик видел их без JavaScript. -->
+    <nav class="popular" id="popular" aria-label="Популярные подборки">
+      <span id="popularTitle">Популярные подборки:</span>
+      <a href="/jobs/junior/">Junior</a> ·
+      <a href="/jobs/senior/">Senior</a> ·
+      <a href="/remote/">Remote</a> ·
+      <a href="/jobs/unity/">Unity</a> ·
+      <a href="/jobs/unreal-engine/">Unreal Engine</a> ·
+      <a href="/jobs/cpp/">C++</a> ·
+      <a href="/role/geymdizayn/">Game Design</a> ·
+      <a href="/role/qa/">QA</a> ·
+      <a href="/jobs/relocation/" id="popReloc">С релокацией</a> ·
+      <a href="/jobs/salary/" id="popPay">С зарплатой</a>
+    </nav>
     <div style="margin-top:10px">
       <a href="https://github.com/lootwork/lootwork.github.io" target="_blank" rel="noopener">GitHub</a>
       &nbsp;·&nbsp;
@@ -1540,6 +1558,7 @@
       role:"Роль", grade:"Грейд", posted:"Когда опубликовано", terms:"Условия",
       searchLabel:"Поиск вакансий",
       jobWord:"Вакансия", jobPage:"Отдельная страница этой вакансии →",
+      popularTitle:"Популярные подборки:", popReloc:"С релокацией", popPay:"С зарплатой",
       allJobs:"Все вакансии", remoteJobs:"Удалённая работа", tgChannel:"Канал в Telegram",
       tgTitle:"Новые вакансии — в Telegram",
       tgSub:"Каждый день публикуем свежие вакансии студий. Без спама и агентств.",
@@ -1644,6 +1663,7 @@
       role:"Role", grade:"Level", posted:"Posted", terms:"Conditions",
       searchLabel:"Search jobs",
       jobWord:"Job", jobPage:"Open this job on its own page →",
+      popularTitle:"Popular collections:", popReloc:"With relocation", popPay:"With salary",
       allJobs:"All jobs", remoteJobs:"Remote work", tgChannel:"Telegram channel",
       tgTitle:"New jobs in Telegram",
       tgSub:"We post fresh studio jobs every day. No spam, no agencies.",
@@ -1752,6 +1772,11 @@
       tg.textContent = t("tgChannel");
     }
     $("footRemote").textContent = t("remoteJobs");
+    // Подборки пока есть только у геймдева: в финтехе ссылки вели бы не туда
+    $("popular").hidden = mode === "fintech";
+    $("popularTitle").textContent = t("popularTitle");
+    $("popReloc").textContent = t("popReloc");
+    $("popPay").textContent = t("popPay");
     $("vertical").textContent = mode === "fintech" ? t("verticalFin") : t("vertical");
     applyTheme();                 // подпись кнопки темы тоже переводится
     if ($("markSync")) $("markSync").textContent = t("markSync");
@@ -4137,6 +4162,7 @@
     $("modeGame").classList.toggle("on", mode === "gamedev");
     $("modeFin").classList.toggle("on", mode === "fintech");
     document.title = mode === "fintech" ? t("titleFin") : t("titleGame");
+    if ($("popular")) $("popular").hidden = mode === "fintech";
   }
 
   function loadFintech(){
