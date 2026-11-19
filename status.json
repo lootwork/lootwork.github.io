@@ -1,12 +1,12 @@
 {
-  "date": "2026-11-18",
-  "jobs": 3670,
+  "date": "2026-11-19",
+  "jobs": 3672,
   "studios": 61,
-  "withSalary": 970,
-  "remote": 1218,
-  "dropped": 46,
+  "withSalary": 981,
+  "remote": 1216,
+  "dropped": 37,
   "failedSources": 6,
-  "reusedSources": 1,
+  "reusedSources": 2,
   "emptySources": 10,
   "sources": [
     "ashby",
